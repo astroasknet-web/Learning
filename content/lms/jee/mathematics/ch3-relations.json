@@ -1,0 +1,953 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": 3,
+  "title": "Relations",
+  "slug": "relations",
+  "subtitle": "Relations and Binary Operations",
+  "level": "JEE Main & Advanced",
+  "color": "#14b8a6",
+  "icon": "math",
+  "seo": {
+    "meta_description": "Master Relations for JEE Main & Advanced on GrowQR: in-depth notes, solved examples, self-check MCQs and full mock tests. Free, forever."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Cartesian Products & Basic Relations",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Ordered Pairs and Cartesian Products",
+          "concept": "<p>An ordered pair $(a, b)$ is a pair of elements where the order of components is strictly preserved, meaning $(a, b) = (c, d) \\iff a = c$ and $b = d$. The Cartesian Product of two sets $A$ and $B$, denoted as $A \\times B$, is the set of all possible ordered pairs such that the first component belongs to $A$ and the second belongs to $B$: $A \\times B = \\{(a, b) : a \\in A \\text{ and } b \\in B\\}$. Generally, $A \\times B \\neq B \\times A$ unless $A = B$ or one of the sets is empty. If $|A| = m$ and $|B| = n$, the total cardinality of the Cartesian product is $|A \\times B| = m \\times n$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>If $A = \\{1, 2, 3\\}$ and $B = \\{x \\in \\mathbb{R} : x^2 - 5x + 6 = 0\\}$, find the Cartesian product set $A \\times B$ and compute its cardinality.</p>",
+              "solution": "<p>First, find the elements of set $B$ by solving the defining quadratic equation:\n \\[ x^2 - 5x + 6 = 0 \\implies (x-2)(x-3) = 0 \\implies x = 2 \\text{ or } x = 3 \\]\n Since both roots are real numbers, write $B$ in roster form:\n \\[ B = \\{2, 3\\} \\]\n Now, construct the Cartesian product $A \\times B$ by systematically pairing every element of $A = \\{1, 2, 3\\}$ with every element of $B = \\{2, 3\\}$:\n \\[ A \\times B = \\{(1, 2), (1, 3), (2, 2), (2, 3), (3, 2), (3, 3)\\} \\]\n Calculate the cardnalities: $|A| = 3$ and $|B| = 2$. Using the product theorem:\n \\[ |A \\times B| = |A| \\times |B| = 3 \\times 2 = 6 \\]\n This perfectly matches the number of ordered pairs listed explicitly above.\n <strong>Final Answer:</strong> $A \\times B = \\{(1, 2), (1, 3), (2, 2), (2, 3), (3, 2), (3, 3)\\}$ with cardinality $6$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Let $A$ and $B$ be two sets such that $A \\times B$ contains exactly 6 elements. If three elements of $A \\times B$ are known to be $(1, x)$, $(2, y)$, and $(3, x)$, determine the complete sets $A$ and $B$, and find the remaining elements of $A \\times B$.</p>",
+              "solution": "By the structural definition of a Cartesian product, for any ordered pair $(a, b) \\in A \\times B$, the first coordinate $a$ must belong to set $A$ and the second coordinate $b$ must belong to set $B$.\n Extract the elements from the given ordered pairs:\n <ul>\n <li>First coordinates: $1, 2, 3 \\implies \\{1, 2, 3\\} \\subseteq A$\n <li>Second coordinates: $x, y \\implies \\{x, y\\} \\subseteq B$\n </ul>\n Let us check the cardnalities of these subsets: $|\\{1, 2, 3\\}| = 3$ and $|\\{x, y\\}| = 2$.\n The total cardinality of the product is given as $|A \\times B| = 6$. Since $|A| \\times |B| = 3 \\times 2 = 6$, these subsets must be the complete sets:\n \\[ A = \\{1, 2, 3\\} \\quad \\text{and} \\quad B = \\{x, y\\} \\]\n Now construct the complete Cartesian product to find the missing elements:\n \\[ A \\times B = \\{(1, x), (1, y), (2, x), (2, y), (3, x), (3, y)\\} \\]\n Subtracting the three given elements leaves the remaining ordered pairs: $(1, y)$, $(2, x)$, and $(3, y)$.\n <strong>Final Answer:</strong> $A = \\{1, 2, 3\\}$, $B = \\{x, y\\}$, and the remaining elements are $\\{(1, y), (2, x), (3, y)\\}$."
+            },
+            {
+              "number": 3,
+              "problem": "<p>Prove that for any three sets $A, B$, and $C$, the identity $A \\times (B \\cap C) = (A \\times B) \\cap (A \\times C)$ holds true.</p>",
+              "solution": "<p>Let us use logical containment steps to show that an arbitrary ordered pair $(r, s)$ belonging to the left-hand side implies it belongs to the right-hand side:\n \\[ \\text{Let } (r, s) \\in A \\times (B \\cap C) \\]\n By the definition of a Cartesian product, the first element belongs to the first set, and the second element belongs to the second set:\n \\[ r \\in A \\quad \\text{and} \\quad s \\in (B \\cap C) \\]\n Apply the definition of a set intersection to the second component:\n \\[ r \\in A \\quad \\text{and} \\quad (s \\in B \\text{ and } s \\in C) \\]\n Using the logical laws of conjunction, we can distribute the statement $r \\in A$ across both terms inside the parentheses:\n \\[ (r \\in A \\text{ and } s \\in B) \\quad \\text{and} \\quad (r \\in A \\text{ and } s \\in C) \\]\n Convert these individual paired statements back into Cartesian product membership statements:\n \\[ (r, s) \\in A \\times B \\quad \\text{and} \\quad (r, s) \\in A \\times C \\]\n By the definition of an intersection, since the ordered pair belongs to both product sets simultaneously, it belongs to their intersection:\n \\[ (r, s) \\in (A \\times B) \\cap (A \\times C) \\]\n Thus, the left-hand side is a subset of the right-hand side. Reversing the steps shows they are equal.\n <strong>Final Answer:</strong> Proved.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If $(x + 2, y - 3) = (5, 2)$, then the value pair $(x, y)$ is equal to:",
+              "options": [
+                "$(3, 5)$",
+                "$(5, 3)$",
+                "$(7, -1)$",
+                "$(3, 1)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $|A| = 4$ and $|B| = 3$, then the total number of elements inside the Cartesian product set $A \\times B$ is:",
+              "options": [
+                "$7$",
+                "$12$",
+                "$64$",
+                "$81$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Under what mathematical condition does the identity statement $A \\times B = B \\times A$ hold true for non-empty sets?",
+              "options": [
+                "Always",
+                "Never",
+                "If and only if $A = B$",
+                "If $|A| = |B|$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Let $A = \\{1, 2\\}$. The cardinality of the power set of the Cartesian product $|\\mathcal{P}(A \\times A)|$ is:",
+              "options": [
+                "$4$",
+                "$8$",
+                "$16$",
+                "$32$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If $A \\subseteq B$, then which of the following Cartesian statements is unconditionally true?",
+              "options": [
+                "$A \\times C \\subseteq B \\times C$",
+                "$C \\times A \\subseteq C \\times B$",
+                "Both (A) and (B)",
+                "None of these"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Mathematical Relation, Domain, Range & Codomain",
+          "concept": "<p>A relation $R$ from a set $A$ to a set $B$ is formally defined as any subset of the Cartesian product $A \\times B$ (i.e., $R \\subseteq A \\times B$). The <strong>Domain</strong> of $R$ is the set of all first components of the ordered pairs belonging to $R$. The <strong>Range</strong> of $R$ is the set of all second components of those ordered pairs. Set $B$ itself is termed the <strong>Codomain</strong> of the relation. Crucially, the Range is always a subset of the Codomain ($\\text{Range} \\subseteq \\text{Codomain}$). Since any subset of $A \\times B$ is a relation, the total number of distinct relations that can be defined from $A$ to $B$ is given by $2^{|A| \\times |B|}$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Let $A = \\{1, 2, 3, 4, 5\\}$ and let a relation $R$ be defined on $A$ by the mathematical rule $R = \\{(x, y) : y = x + 2\\}$. Write $R$ in roster form, and find its domain and range.</p>",
+              "solution": "To express $R$ in roster form, find all pairs $(x, y) \\in A \\times A$ that satisfy the condition $y = x + 2$:\n <ul>\n <li>For $x = 1$: $y = 1 + 2 = 3 \\in A \\implies (1, 3) \\in R$\n <li>For $x = 2$: $y = 2 + 2 = 4 \\in A \\implies (2, 4) \\in R$\n <li>For $x = 3$: $y = 3 + 2 = 5 \\in A \\implies (3, 5) \\in R$\n <li>For $x = 4$: $y = 4 + 2 = 6 \\notin A \\implies$ invalid pair.\n <li>For $x = 5$: $y = 5 + 2 = 7 \\notin A \\implies$ invalid pair.\n </ul>\n Combine the valid ordered pairs into a single set:\n \\[ R = \\{(1, 3), (2, 4), (3, 5)\\} \\]\n Now extract the domain and range according to their definitions:\n <ul>\n <li>Domain: The set of all first coordinates $\\implies \\text{Domain}(R) = \\{1, 2, 3\\}$.\n <li>Range: The set of all second coordinates $\\implies \\text{Range}(R) = \\{3, 4, 5\\}$.\n </ul>\n The codomain is the target set $A = \\{1, 2, 3, 4, 5\\}$. Notice that $\\text{Range} \\subseteq \\text{Codomain}$.\n <strong>Final Answer:</strong> $R = \\{(1, 3), (2, 4), (3, 5)\\}$, Domain $= \\{1, 2, 3\\}$, Range $= \\{3, 4, 5\\}$."
+            },
+            {
+              "number": 2,
+              "problem": "<p>If $|A| = 3$ and $|B| = 2$, find (a) the total number of distinct relations from $A$ to $B$, and (b) the number of non-empty relations.</p>",
+              "solution": "<p>Step 1: Compute the cardinality of the Cartesian product $A \\times B$:\n \\[ |A \\times B| = |A| \\times |B| = 3 \\times 2 = 6 \\]\n Step 2: A relation is defined as any subset of the Cartesian product. Therefore, the total number of relations equals the total number of subsets that can be formed from $A \\times B$:\n \\[ \\text{Total Relations} = 2^{|A \\times B|} = 2^6 = 64 \\]\n Step 3: To find the number of non-empty relations, subtract the single empty relation ($\\emptyset$) from the total count:\n \\[ \\text{Non-empty Relations} = 2^6 - 1 = 64 - 1 = 63 \\]\n <strong>Final Answer:</strong> (a) Total Relations $= 64$, (b) Non-empty Relations $= 63$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Find the domain of the real-valued relation $R = \\{(x, y) : y = \\log_{10}(x^2 - 4x + 3)\\}$.</p>",
+              "solution": "<p>For an ordered pair $(x, y)$ to be real and well-defined, the logarithmic function must exist. This requires the argument of the logarithm to be strictly positive:\n \\[ x^2 - 4x + 3 > 0 \\]\n Factor the quadratic expression:\n \\[ (x-1)(x-3) > 0 \\]\n Using the wavy-curve method, the product is strictly positive outside the roots $x = 1$ and $x = 3$. This gives the domain intervals:\n \\[ x \\in (-\\infty, 1) \\cup (3, \\infty) \\]\n Therefore, the domain of the relation is the set of all real numbers except the closed interval $[1, 3]$.\n <strong>Final Answer:</strong> Domain $\\in (-\\infty, 1) \\cup (3, \\infty)$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If a relation is defined as $R = \\{(2, 1), (4, 3), (6, 5)\\}$, its domain is the set:",
+              "options": [
+                "$\\{1, 3, 5\\}$",
+                "$\\{2, 4, 6\\}$",
+                "$\\{1, 2, 3, 4, 5, 6\\}$",
+                "$\\emptyset$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If set $A$ has $m$ elements and set $B$ has $n$ elements, the total number of relations that can be defined from $A$ to $B$ is:",
+              "options": [
+                "$m \\times n$",
+                "$2^{mn}$",
+                "$2^{m+n}$",
+                "$m^n$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The range of a relation $R \\subseteq A \\times B$ always maintains which relationship with the Codomain $B$?",
+              "options": [
+                "$\\text{Range} = B$",
+                "$\\text{Range} \\subseteq B$",
+                "$B \\subseteq \\text{Range}$",
+                "$\\text{Range} \\cap B = \\emptyset$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Let $R = \\{(x, y) \\in \\mathbb{N} \\times \\mathbb{N} : x + 2y = 8\\}$. The range of this relation is:",
+              "options": [
+                "$\\{1, 2, 3\\}$",
+                "$\\{2, 4, 6\\}$",
+                "$\\{1, 2, 3, 4\\}$",
+                "$\\{2, 4\\}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The intersection of the domain and range of the relation $R = \\{(1, 2), (2, 3), (3, 1)\\}$ is the set:",
+              "options": [
+                "$\\{1, 2\\}$",
+                "$\\{2, 3\\}$",
+                "$\\{1, 2, 3\\}$",
+                "$\\emptyset$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Classification & Types of Relations",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Core Trivial Relations (Empty, Universal & Identity)",
+          "concept": "<p>Every set admits three fundamental baseline relations. The <strong>Empty Relation</strong> ($\\emptyset \\subseteq A \\times A$) contains zero elements, meaning no element is related to any other. The <strong>Universal Relation</strong> ($R_U = A \\times A$) relates every element to every element in the set. The <strong>Identity Relation</strong> ($\\mathcal{I}_A = \\{(a, a) : \\forall a \\in A\\}$) relates each element *only to itself*. A critical distinction in JEE is that an identity relation allows *only* diagonal pairs $(a, a)$, whereas a reflexive relation allows additional non-diagonal pairs as long as all diagonal pairs are present.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Let $A = \\{1, 2, 3\\}$. Write out explicitly in roster form: (a) the Identity relation $\\mathcal{I}_A$, and (b) the Universal relation $R_U$ on set $A$.</p>",
+              "solution": "<ul>\n <li>Part (a): The identity relation requires every element of set $A$ to be mapped <strong>only to itself</strong>. Since the elements are $1, 2,$ and $3$, we construct the diagonal ordered pairs:\n \\[ \\mathcal{I}_A = \\{(1, 1), (2, 2), (3, 3)\\} \\]\n No additional non-diagonal elements can be included in an identity relation.\n <li>Part (b): The universal relation is the complete Cartesian product $A \\times A$. It includes every possible pair that can be formed from the elements:\n \\[ R_U = \\{(1, 1), (1, 2), (1, 3), (2, 1), (2, 2), (2, 3), (3, 1), (3, 2), (3, 3)\\} \\]\n </ul>\n Notice that $\\mathcal{I}_A \\subseteq R_U$, which matches standard subset properties.\n <strong>Final Answer:</strong> $\\mathcal{I}_A = \\{(1, 1), (2, 2), (3, 3)\\}$ and $R_U = A \\times A$."
+            },
+            {
+              "number": 2,
+              "problem": "<p>Let a relation $R$ be defined on the set of all real numbers $\\mathbb{R}$ by the rule $R = \\{(x, y) : x^2 + y^2 + 1 = 0\\}$. Prove that $R$ is an empty relation.</p>",
+              "solution": "<p>For an ordered pair $(x, y)$ to belong to the relation $R$, the real coordinates must satisfy the algebraic condition:\n \\[ x^2 + y^2 + 1 = 0 \\implies x^2 + y^2 = -1 \\]\n Let us analyze the values on the left-hand side. For any real numbers $x, y \\in \\mathbb{R}$, squares of real numbers are always non-negative ($x^2 \\ge 0$ and $y^2 \\ge 0$). Thus, their sum must be non-negative:\n \\[ x^2 + y^2 \\ge 0 \\]\n However, the equation requires the sum to equal $-1$, which is strictly negative. This is a mathematical contradiction over the real field.\n Therefore, no ordered pairs of real numbers satisfy the condition, so the relation contains zero elements.\n \\[ R = \\emptyset \\]\n This proves that $R$ is an empty relation.\n <strong>Final Answer:</strong> Proved ($R = \\emptyset$).</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Determine if the relation $R = \\{(1, 1), (2, 2), (3, 3), (1, 2)\\}$ defined on the set $A = \\{1, 2, 3\\}$ is an identity relation.</p>",
+              "solution": "<p>Let us check the relation against the mathematical definition of an identity relation:\n An identity relation $\\mathcal{I}_A$ on a set $A$ must contain exactly the ordered pairs $(a, a)$ for every $a \\in A$, and <strong>no other pairs</strong>.\n For $A = \\{1, 2, 3\\}$, the required identity relation is:\n \\[ \\mathcal{I}_A = \\{(1, 1), (2, 2), (3, 3)\\} \\]\n Let us look at the given relation $R$: it contains all the required diagonal elements, but it also contains the non-diagonal ordered pair $(1, 2)$.\n Because of the presence of $(1, 2)$, $R \\neq \\mathcal{I}_A$. Therefore, it is not an identity relation. (Note: It is, however, classified as a reflexive relation).\n <strong>Final Answer:</strong> No, $R$ is not an identity relation due to the presence of the pair $(1, 2)$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The total number of elements inside the Universal relation defined on a finite set of cardinality $n$ is:",
+              "options": [
+                "$n$",
+                "$2^n$",
+                "$n^2$",
+                "$2^{n^2}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The Identity relation $\\mathcal{I}_A$ defined on a finite set containing $n$ elements has a cardinality equal to:",
+              "options": [
+                "$n$",
+                "$n^2$",
+                "$0$",
+                "$2^n$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a relation $R$ on a non-empty set $A$ contains zero elements ($R = \\emptyset$), it is termed an:",
+              "options": [
+                "Identity relation",
+                "Universal relation",
+                "Empty relation",
+                "Symmetric relation"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Which of the following statements accurately distinguishes the Identity relation from a Reflexive relation?",
+              "options": [
+                "An identity relation allows additional non-diagonal elements",
+                "A reflexive relation requires *only* diagonal elements",
+                "An identity relation strictly forbids non-diagonal ordered pairs, while a reflexive relation allows them",
+                "They are completely identical terms"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The Empty relation $\\emptyset$ defined on a non-empty set $A$ is:",
+              "options": [
+                "Reflexive",
+                "Symmetric and Transitive",
+                "An Equivalence relation",
+                "None of these"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Advanced Relational Properties (Reflexive, Symmetric & Transitive)",
+          "concept": "Advanced relations are classified by how their elements interact under three core properties:\n <ol>\n <li><strong>Reflexive</strong>: A relation $R$ on a set $A$ is reflexive if every element is related to itself: $(a, a) \\in R$ for all $a \\in A$.\n <li><strong>Symmetric</strong>: $R$ is symmetric if order can be reversed: if $(a, b) \\in R \\implies (b, a) \\in R$ for all $a, b \\in A$.\n <li><strong>Transitive</strong>: $R$ is transitive if relationships chain together: if $(a, b) \\in R$ and $(b, c) \\in R \\implies (a, c) \\in R$ for all $a, b, c \\in A$.\n </ol>\n In the JEE exam, a common pitfall is misapplying the transitivity test when the conditional premise is missing: if $(a, b) \\in R$ exists but no pairs start with $b$, transitivity is vacuously true!",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Let $R$ be a relation defined on the set of all integers $\\mathbb{Z}$ by the rule $R = \\{(a, b) : a - b \\text{ is divisible by } 3\\}$. Determine if $R$ is reflexive, symmetric, and transitive.</p>",
+              "solution": "Let us test each property systematically using core algebraic proofs:\n <ol>\n <li><strong>Reflexive Test</strong>: Check if $(a, a) \\in R$ for any integer $a \\in \\mathbb{Z}$.\n Calculate the defining difference: $a - a = 0$. Since $0$ is perfectly divisible by $3$ ($0 = 3 \\times 0$), the condition is met. Thus, $R$ is <strong>Reflexive</strong>.\n <li><strong>Symmetric Test</strong>: Assume $(a, b) \\in R$. This means $a - b$ is a multiple of $3$:\n \\[ a - b = 3k \\quad \\text{where } k \\in \\mathbb{Z} \\]\n Now analyze the reversed pair $(b, a)$ by factoring out $-1$:\n \\[ b - a = -(a - b) = -3k = 3(-k) \\]\n Since $-k$ is also an integer, $b - a$ is a multiple of 3, so $(b, a) \\in R$. Thus, $R$ is <strong>Symmetric</strong>.\n <li><strong>Transitive Test</strong>: Assume $(a, b) \\in R$ and $(b, c) \\in R$ simultaneously. This gives two equations:\n \\[ a - b = 3k_1 \\quad \\text{and} \\quad b - c = 3k_2, \\quad \\text{where } k_1, k_2 \\in \\mathbb{Z} \\]\n To find the relationship between $a$ and $c$, add the two equations together:\n \\[ (a - b) + (b - c) = 3k_1 + 3k_2 \\implies a - c = 3(k_1 + k_2) \\]\n Since $k_1 + k_2$ is an integer, the difference $a - c$ is a multiple of $3$, which means $(a, c) \\in R$. Thus, $R$ is <strong>Transitive</strong>.\n </ol>\n Since the relation satisfies all three properties, it is an equivalence relation.\n <strong>Final Answer:</strong> $R$ is Reflexive, Symmetric, and Transitive."
+            },
+            {
+              "number": 2,
+              "problem": "<p>Let $A = \\{1, 2, 3\\}$. Analyze the transitivity of the relation $R = \\{(1, 2), (3, 4)\\}$ defined on $A \\cup \\{4\\}$.</p>",
+              "solution": "Let us apply the formal definition of transitivity: A relation is transitive if whenever $(a, b) \\in R$ and $(b, c) \\in R$, then $(a, c) \\in R$.<br>\n Let us test the pairs in our relation:\n <ul>\n <li>We have the ordered pair $(1, 2) \\in R$. Are there any ordered pairs in $R$ that start with the number 2? No.\n <li>We have the ordered pair $(3, 4) \\in R$. Are there any ordered pairs in $R$ that start with the number 4? No.\n </ul>\n Because there are no pairs that chain together (no matching $(a, b)$ and $(b, c)$), the conditional premise of the transitivity definition is never met.\n When the premise cannot be tested, the relation is <strong>vacuously transitive</strong>. It cannot be proven false, so it is mathematically true.\n <strong>Final Answer:</strong> $R$ is Transitive (vacuously true)."
+            },
+            {
+              "number": 3,
+              "problem": "<p>Determine if the relation $R = \\{(a, b) : a \\le b^2\\}$ defined on the set of real numbers $\\mathbb{R}$ is reflexive.</p>",
+              "solution": "For $R$ to be reflexive, the condition $a \\le a^2$ must hold true for <strong>all real numbers</strong> $a \\in \\mathbb{R}$. Let us test different values to see if this is true:\n <ul>\n <li>If $a = 2$: $2 \\le 2^2 \\implies 2 \\le 4$ (True)\n <li>If $a = 0.5$: Let us check a fractional value between 0 and 1:\n \\[ 0.5 \\le (0.5)^2 \\implies 0.5 \\le 0.25 \\]\n </ul>\n This statement is false because $0.5$ is strictly greater than $0.25$.\n Since we found a counterexample ($a = 0.5$) where $(0.5, 0.5) \\notin R$, the relation fails the definition.\n <strong>Final Answer:</strong> No, $R$ is not reflexive."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "A binary relation $R$ is defined on set $A = \\{1, 2, 3\\}$ as $R = \\{(1, 1), (2, 2)\\}$. This relation is not reflexive because:",
+              "options": [
+                "It contains too few elements",
+                "The ordered pair $(3, 3)$ is missing",
+                "It is symmetric",
+                "It is transitive"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $(a, b) \\in R \\implies (b, a) \\in R$ for all elements in the domain, the relation is classified as:",
+              "options": [
+                "Reflexive",
+                "Symmetric",
+                "Transitive",
+                "Anti-symmetric"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The relation $R = \\{(1, 2), (2, 3), (1, 3)\\}$ defined on $A = \\{1, 2, 3\\}$ is:",
+              "options": [
+                "Symmetric",
+                "Transitive but not symmetric",
+                "Reflexive",
+                "None of these"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "On the set of all straight lines in a plane, the relation ``is perpendicular to'' ($L_1 \\perp L_2$) is:",
+              "options": [
+                "Reflexive and Symmetric",
+                "Symmetric only",
+                "Transitive only",
+                "An Equivalence relation"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "On the set of natural numbers $\\mathbb{N}$, the relation ``is a factor of'' ($a \\mid b$) satisfies which properties?",
+              "options": [
+                "Reflexive and Symmetric",
+                "Reflexive and Transitive",
+                "Symmetric and Transitive",
+                "It has no relational properties"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 3,
+          "title": "Equivalence Relations, Anti-Symmetry & Partial Orders",
+          "concept": "When we combine different advanced properties, we form powerful relational frameworks:\n <ul>\n <li><strong>Equivalence Relation</strong>: A relation that is <strong>Reflexive, Symmetric, and Transitive</strong> simultaneously. Equivalence relations partition a set into disjoint <strong>Equivalence Classes</strong>, where all elements in a class are related to each other.\n <li><strong>Anti-Symmetric</strong>: A relation is anti-symmetric if elements can only be related back-and-forth if they are the exact same element: if $(a, b) \\in R$ and $(b, a) \\in R \\implies a = b$.\n <li><strong>Partial Order Relation</strong>: A relation that is <strong>Reflexive, Anti-Symmetric, and Transitive</strong> simultaneously (e.g., the ``less than or equal to'' relation $\\le$ on real numbers).\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Prove that the relation $R = \\{(a, b) \\in \\mathbb{R} \\times \\mathbb{R} : a \\le b\\}$ is a partial order relation.</p>",
+              "solution": "To prove that $R$ is a partial order relation, we must show that it is reflexive, anti-symmetric, and transitive simultaneously:\n <ol>\n <li><strong>Reflexive</strong>: For any real number $a \\in \\mathbb{R}$, $a \\le a$ is always true. Therefore, $(a, a) \\in R$ for all $a$, so the relation is reflexive.\n <li><strong>Anti-Symmetric</strong>: Assume that $(a, b) \\in R$ and $(b, a) \\in R$ simultaneously. This gives two mathematical inequalities:\n \\[ a \\le b \\quad \\text{and} \\quad b \\le a \\]\n The only way for both inequalities to be true at the same time is if the two numbers are exactly equal:\n \\[ a = b \\]\n This satisfies the definition of anti-symmetry.\n <li><strong>Transitive</strong>: Assume that $(a, b) \\in R$ and $(b, a) \\in R$. This gives:\n \\[ a \\le b \\quad \\text{and} \\quad b \\le c \\implies a \\le c \\]\n This means $(a, c) \\in R$, so the relation is transitive.\n </ol>\n Since the relation satisfies all three properties, it is a partial order relation.\n <strong>Final Answer:</strong> Proved."
+            },
+            {
+              "number": 2,
+              "problem": "<p>Let an equivalence relation $R$ be defined on the set of integers $\\mathbb{Z}$ by the rule $a \\equiv b \\pmod 4$ (meaning $a-b$ is a multiple of 4). Find the equivalence class $[0]$.</p>",
+              "solution": "<p>By definition, the equivalence class $[a]$ is the set of all elements in the domain that are related to $a$ under the relation $R$:\n \\[ [0] = \\{x \\in \\mathbb{Z} : (x, 0) \\in R\\} \\]\n Substitute the given definition of the relation into this set format:\n \\[ x - 0 = 4k \\implies x = 4k, \\quad \\text{where } k \\in \\mathbb{Z} \\]\n This means the equivalence class $[0]$ is the set of all integers that are multiples of $4$. Write this in roster form:\n \\[ [0] = \\{\\dots, -8, -4, 0, 4, 8, \\dots\\} \\]\n Notice that this relation partitions the integers into exactly four disjoint equivalence classes: $[0], [1], [2],$ and $[3]$.\n <strong>Final Answer:</strong> $[0] = \\{4k : k \\in \\mathbb{Z}\\} = \\{\\dots, -4, 0, 4, \\dots\\}$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Determine if the identity relation $\\mathcal{I}_A$ on a set $A$ is an equivalence relation and a partial order relation simultaneously.</p>",
+              "solution": "Let us analyze the properties of the identity relation $\\mathcal{I}_A = \\{(a, a) : \\forall a \\in A\\}$:\n <ul>\n <li>It is <strong>Reflexive</strong> because $(a, a) \\in \\mathcal{I}_A$ for all $a \\in A$.\n <li>It is <strong>Symmetric</strong> because if $(a, a) \\in \\mathcal{I}_A$, its reversed pair is also $(a, a) \\in \\mathcal{I}_A$.\n <li>It is <strong>Anti-Symmetric</strong> because if $(a, b) \\in \\mathcal{I}_A$ and $(b, a) \\in \\mathcal{I}_A$, the only elements present are diagonal pairs where $a=b$, which satisfies the condition.\n <li>It is <strong>Transitive</strong> because if $(a, a) \\in \\mathcal{I}_A$ and $(a, a) \\in \\mathcal{I}_A$, chaining them together returns $(a, a) \\in \\mathcal{I}_A$.\n </ul>\n Since it satisfies all four properties, the identity relation is both an equivalence relation and a partial order relation at the same time.\n <strong>Final Answer:</strong> Yes, $\\mathcal{I}_A$ is both an equivalence relation and a partial order relation."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "For a relation to be classified as a Partial Order, it must be Reflexive, Transitive, and:",
+              "options": [
+                "Symmetric",
+                "Anti-Symmetric",
+                "Inverse",
+                "Universal"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $(a, b) \\in R$ and $(b, a) \\in R \\implies a = b$, the relation is defined as:",
+              "options": [
+                "Symmetric",
+                "Anti-Symmetric",
+                "Equivalence",
+                "Identity"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Equivalence classes generated by an equivalence relation on a set $A$ are always:",
+              "options": [
+                "Mutually disjoint and their union equals set $A$",
+                "Overlapping sets",
+                "Empty brackets",
+                "Singletons"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "On the power set $\\mathcal{P}(X)$ of a set $X$, the subset containment relation $A \\subseteq B$ is a:",
+              "options": [
+                "Equivalence relation",
+                "Partial order relation",
+                "Symmetric relation",
+                "Empty relation"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The total number of equivalence classes formed by the relation $a \\equiv b \\pmod n$ on the set of integers is:",
+              "options": [
+                "$2^n$",
+                "$n$",
+                "$n^2$",
+                "Infinite"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Advanced Operations & Combinatorics",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Inverse and Composition of Relations",
+          "concept": "<p>Relations can be inverted or combined using composition rules. The <strong>Inverse Relation</strong> $R^{-1}$ is formed by swapping the coordinates of every ordered pair in $R$: $R^{-1} = \\{(b, a) : (a, b) \\in R\\}$. This operation swaps the domain and range: $\\text{Domain}(R^{-1}) = \\text{Range}(R)$ and $\\text{Range}(R^{-1}) = \\text{Domain}(R)$. The <strong>Composition</strong> of two relations $R$ and $S$, denoted as $S \\circ R$, chains pairs together through a shared intermediate element: $S \\circ R = \\{(a, c) : \\exists b \\text{ such that } (a, b) \\in R \\text{ and } (b, c) \\in S\\}$. Note the order of composition: $S \\circ R$ means applying relation $R$ first, and then applying relation $S$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Given the relation $R = \\{(1, 2), (3, 4), (5, 6)\\}$, find its inverse relation $R^{-1}$ and verify the domain-range swap property.</p>",
+              "solution": "<p>Step 1: Find $R^{-1}$ by reversing the coordinates of each ordered pair in $R$:\n \\[ R^{-1} = \\{(2, 1), (4, 3), (6, 5)\\} \\]\n Step 2: Find the domain and range of the original relation $R$:\n \\[ \\text{Domain}(R) = \\{1, 3, 5\\} \\quad \\text{and} \\quad \\text{Range}(R) = \\{2, 4, 6\\} \\]\n Step 3: Find the domain and range of the inverted relation $R^{-1}$:\n \\[ \\text{Domain}(R^{-1}) = \\{2, 4, 6\\} \\quad \\text{and} \\quad \\text{Range}(R^{-1}) = \\{1, 3, 5\\} \\]\n Comparing the sets, we can see that $\\text{Domain}(R^{-1}) = \\text{Range}(R)$ and $\\text{Range}(R^{-1}) = \\text{Domain}(R)$. The swap property is verified.\n <strong>Final Answer:</strong> $R^{-1} = \\{(2, 1), (4, 3), (6, 5)\\}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Let two relations be defined as $R = \\{(1, a), (2, b), (3, a)\\}$ and $S = \\{(a, \\alpha), (b, \\beta), (b, \\gamma)\\}$. Find the composition relation set $S \\circ R$.</p>",
+              "solution": "By definition, the composition set $S \\circ R$ contains pairs $(x, z)$ where an intermediate element $y$ satisfies $(x, y) \\in R$ and $(y, z) \\in S$. Let us trace the paths through the elements:\n <ul>\n <li>Start with $1 \\in \\text{Domain}(R)$: we have $(1, a) \\in R$. Now look for pairs in $S$ that start with $a$: we find $(a, \\alpha) \\in S$. Chaining them together gives: $(1, \\alpha) \\in S \\circ R$.\n <li>Start with $2 \\in \\text{Domain}(R)$: we have $(2, b) \\in R$. Look for pairs in $S$ that start with $b$: we find $(b, \\beta) \\in S$ and $(b, \\gamma) \\in S$. Chaining them together gives two pairs: $(2, \\beta) \\in S \\circ R$ and $(2, \\gamma) \\in S \\circ R$.\n <li>Start with $3 \\in \\text{Domain}(R)$: we have $(3, a) \\in R$. Look for pairs in $S$ that start with $a$: we find $(a, \\alpha) \\in S$. Chaining them together gives: $(3, \\alpha) \\in S \\circ R$.\n </ul>\n Combine all the chained ordered pairs into a single set:\n \\[ S \\circ R = \\{(1, \\alpha), (2, \\beta), (2, \\gamma), (3, \\alpha)\\} \\]\n <strong>Final Answer:</strong> $S \\circ R = \\{(1, \\alpha), (2, \\beta), (2, \\gamma), (3, \\alpha)\\}$."
+            },
+            {
+              "number": 3,
+              "problem": "<p>Prove that for any relation $R$, the identity property $(R^{-1})^{-1} = R$ holds true.</p>",
+              "solution": "<p>Let us use double containment analysis based on the definition of coordinate swapping:\n \\[ \\text{Let } (a, b) \\in (R^{-1})^{-1} \\]\n By the definition of an inverse relation, if an ordered pair belongs to the inverse of a relation, its reversed pair must belong to the relation itself:\n \\[ (b, a) \\in R^{-1} \\]\n Apply the inverse relation definition a second time to this statement:\n \\[ (a, b) \\in R \\]\n This shows that any ordered pair belonging to $(R^{-1})^{-1}$ must also belong to $R$. Reversing the logical steps shows that any pair in $R$ belongs to $(R^{-1})^{-1}$. Therefore, the sets are identical.\n <strong>Final Answer:</strong> Proved.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If $R = \\{(x, y) : 2x + 3y = 12\\}$, then its inverse relation $R^{-1}$ is given by the rule:",
+              "options": [
+                "$2y + 3x = 12$",
+                "$2x - 3y = 12$",
+                "$3x + 2y = 12$",
+                "$-2x - 3y = 12$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The domain of the inverse relation $\\text{Domain}(R^{-1})$ is always identical to:",
+              "options": [
+                "$\\text{Domain}(R)$",
+                "$\\text{Range}(R)$",
+                "Codomain",
+                "Universal set"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $R \\subseteq A \\times B$ and $S \\subseteq B \\times C$, then the composition relation $S \\circ R$ forms a valid subset of:",
+              "options": [
+                "$A \\times B$",
+                "$B \\times C$",
+                "$A \\times C$",
+                "$C \\times A$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The composition identity $(荒 \\circ S)^{-1}$ distributes over its components by reversing their order:",
+              "options": [
+                "$R^{-1} \\circ S^{-1}$",
+                "$S^{-1} \\circ R^{-1}$",
+                "$R \\circ S$",
+                "None of these"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $R = \\{(1, 2), (2, 3)\\}$ and $S = \\{(2, 5), (3, 6)\\}$, then the composition set $S \\circ R$ is:",
+              "options": [
+                "$\\{(1, 5), (2, 6)\\}$",
+                "$\\{(5, 1), (6, 2)\\}$",
+                "$\\emptyset$",
+                "$\\{(1, 6), (2, 5)\\}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Advanced Counting Combinatorics formulas",
+          "concept": "Advanced relational combinatorics involves finding formulas to count the number of specific types of relations that can be defined on a finite set of cardinality $n$.\n Let us summarize the core counting formulas for relations on a set with $n$ elements:\n <ul>\n <li><strong>Total Relations</strong>: There are $n^2$ total positions in the grid layout, so the number of distinct relations is $2^{n^2}$.\n <li><strong>Reflexive Relations</strong>: The $n$ diagonal elements must be present ($1$ choice), and the remaining $n^2 - n$ non-diagonal entries can be independently included or excluded ($2$ choices). Thus, the number of reflexive relations is $2^{n^2 - n}$.\n <li><strong>Symmetric Relations</strong>: The $n$ diagonal elements have $2$ choices each, and the $\\frac{n^2 - n}{2}$ pairs of symmetric non-diagonal blocks also have $2$ choices each. Thus, the number of symmetric relations is $2^{\\frac{n(n+1)}{2}}$.\n <li><strong>Equivalence Relations</strong>: Counted using <strong>Bell Numbers</strong> ($B_n$), which are calculated using the recurrence relation $B_{n+1} = \\sum_{k=0}^{n} \\binom{n}{k} B_k$, where $B_0 = 1$.\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the total number of (a) reflexive relations, and (b) symmetric relations that can be defined on a finite set containing exactly 3 elements.</p>",
+              "solution": "Identify the given parameters: $n = 3$.<br>\n <ul>\n <li>Part (a): Apply the counting formula for reflexive relations:\n \\[ \\text{Reflexive Count} = 2^{n^2 - n} \\]\n Substitute $n = 3$ into the exponent:\n \\[ \\text{Reflexive Count} = 2^{3^2 - 3} = 2^{9 - 3} = 2^6 = 64 \\]\n <li>Part (b): Apply the counting formula for symmetric relations:\n \\[ \\text{Symmetric Count} = 2^{\\frac{n(n+1)}{2}} \\]\n Substitute $n = 3$ into the formula:\n \\[ \\text{Symmetric Count} = 2^{\\frac{3(3+1)}{2}} = 2^{\\frac{3 \\times 4}{2}} = 2^6 = 64 \\]\n </ul>\n Interestingly, for $n=3$, the number of reflexive relations and symmetric relations is exactly equal.\n <strong>Final Answer:</strong> Reflexive relations $= 64$, Symmetric relations $= 64$."
+            },
+            {
+              "number": 2,
+              "problem": "<p>Calculate the total number of distinct equivalence relations that can be formed on the set $A = \\{1, 2, 3\\}$ using Bell numbers properties.</p>",
+              "solution": "Equivalence relations are counted using Bell Numbers $B_n$. Let us calculate the sequence of Bell numbers step-by-step up to $n = 3$ using the recurrence triangle or the summation formula:\n \\[ B_{n+1} = \\sum_{k=0}^{n} \\binom{n}{k} B_k \\]\n Let us initialize the sequence with the baseline values:\n <ul>\n <li>For $n = 0$: $B_0 = 1$\n <li>For $n = 1$: $B_1 = \\binom{0}{0} B_0 = 1 \\times 1 = 1$\n <li>For $n = 2$: Compute $B_2$ using the values of $B_0$ and $B_1$:\n \\[ B_2 = \\binom{1}{0}B_0 + \\binom{1}{1}B_1 = 1(1) + 1(1) = 2 \\]\n <li>For $n = 3$: Compute $B_3$ using the values of $B_0, B_1,$ and $B_2$:\n \\[ B_3 = \\binom{2}{0}B_0 + \\binom{2}{1}B_1 + \\binom{2}{2}B_2 \\]\n Substitute the values of the binomial coefficients and the lower Bell numbers:\n \\[ B_3 = 1(1) + 2(1) + 1(2) = 1 + 2 + 2 = 5 \\]\n </ul>\n Thus, the total number of distinct equivalence relations that can be defined on a 3-element set is exactly $5$.\n <strong>Final Answer:</strong> $5$."
+            },
+            {
+              "number": 3,
+              "problem": "<p>Find the number of binary relations on a set with $n$ elements that are both reflexive and symmetric at the same time.</p>",
+              "solution": "Let us analyze the structural grid constraints placed on the elements of the relation matrix:\n <ol>\n <li>The relation must be <strong>reflexive</strong>: This means all $n$ diagonal elements $(a, a)$ <strong>must be included</strong> in the relation. There is exactly $1$ choice for each diagonal position.\n <li>The relation must be <strong>symmetric</strong>: This means for any non-diagonal position $(a, b)$, its symmetrical counterpart $(b, a)$ must mirror its inclusion status. They must either be both included or both excluded.\n The total number of such non-diagonal pairs is given by:\n \\[ \\text{Number of Pairs} = \\frac{n^2 - n}{2} \\]\n Each pair has exactly $2$ choices (either both are in the relation, or both are out).\n </ol>\n To find the total number of relations that satisfy both conditions, multiply the number of choices for all positions:\n \\[ \\text{Total Count} = 1^n \\times 2^{\\frac{n^2 - n}{2}} = 2^{\\frac{n(n-1)}{2}} \\]\n <strong>Final Answer:</strong> $2^{\\frac{n(n-1)}{2}}$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The total number of distinct binary relations that can be defined on a set containing 4 elements is:",
+              "options": [
+                "$16$",
+                "$256$",
+                "$65,536$",
+                "$4,096$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If a set has 2 elements, the number of reflexive relations it can form is:",
+              "options": [
+                "$2$",
+                "$4$",
+                "$8$",
+                "$16$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The number of symmetric relations that can be defined on a set with 2 elements is:",
+              "options": [
+                "$2$",
+                "$4$",
+                "$8$",
+                "$16$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Equivalence relations on a finite set are counted using which sequence of numbers?",
+              "options": [
+                "Fibonacci Numbers",
+                "Bell Numbers",
+                "Catalan Numbers",
+                "Stirling Numbers"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If a set has exactly 2 elements, the total number of distinct equivalence relations it can form is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$5$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-math-relations-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "If $A = \\{1, 2\\}$ and $B = \\{3, 4\\}$, then the total number of subsets of the Cartesian product $A \\times B$ is:",
+              "options": [
+                "$4$",
+                "$8$",
+                "$16$",
+                "$32$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "A relation $R$ is defined on the set of natural numbers $\\mathbb{N}$ by $R = \\{(a, b) : a + 3b = 12\\}$. The domain of this relation is:",
+              "options": [
+                "$\\{3, 6, 9\\}$",
+                "$\\{1, 2, 3\\}$",
+                "$\\{2, 4, 6\\}$",
+                "$\\mathbb{N}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The relation $R = \\{(1, 1), (2, 2), (3, 3), (1, 2), (2, 1)\\}$ defined on the set $A = \\{1, 2, 3\\}$ is:",
+              "options": [
+                "An identity relation",
+                "An equivalence relation",
+                "A partial order relation",
+                "Transitive but not symmetric"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Let $R$ be a relation on the set of real numbers $\\mathbb{R}$ defined by $aRb \\iff |a - b| \\le 1$. This relation is:",
+              "options": [
+                "Reflexive and Symmetric but not Transitive",
+                "Reflexive and Transitive but not Symmetric",
+                "An Equivalence relation",
+                "A Partial Order relation"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The number of reflexive relations that can be defined on a set with 3 elements is:",
+              "options": [
+                "$8$",
+                "$64$",
+                "$512$",
+                "$256$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $R = \\{(1, 2), (3, 4)\\}$, then its inverse relation $R^{-1}$ is given by:",
+              "options": [
+                "$\\{(2, 1), (4, 3)\\}$",
+                "$\\{(1, 2), (3, 4)\\}$",
+                "$\\{(2, 1), (3, 4)\\}$",
+                "$\\emptyset$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "On the set of all human beings, the relation ``is a brother of'' is:",
+              "options": [
+                "Symmetric",
+                "Transitive",
+                "Reflexive",
+                "An Equivalence relation"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The total number of elements inside the identity relation of a set with 10 elements is:",
+              "options": [
+                "$100$",
+                "$10$",
+                "$2^{10}$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $R = \\{(1, a), (2, b)\\}$ and $S = \\{(a, 5), (b, 6)\\}$, then the composition relation $S \\circ R$ is:",
+              "options": [
+                "$\\{(1, 5), (2, 6)\\}$",
+                "$\\{(a, 1), (b, 2)\\}$",
+                "$\\{(5, 1), (6, 2)\\}$",
+                "$\\emptyset$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "A relation $R$ on a set $A$ is anti-symmetric if and only if:",
+              "options": [
+                "$(a, b) \\in R \\implies (b, a) \\notin R$",
+                "$(a, b) \\in R$ and $(b, a) \\in R \\implies a = b$",
+                "$(a, a) \\in R$ for all $a$",
+                "It is an empty relation"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Find the total number of distinct equivalence relations that can be formed on a set containing exactly 3 elements.",
+              "answer": "5",
+              "explanation": ""
+            },
+            {
+              "q": "If $|A| = 2$ and $|B| = 3$, find the total number of distinct relations that can be defined from $A$ to $B$.",
+              "answer": "64",
+              "explanation": ""
+            },
+            {
+              "q": "Let $R = \\{(x, y) \\in \\mathbb{N} \\times \\mathbb{N} : x^2 - y^2 = 5\\}$. Find the cardinality of this relation set.",
+              "answer": "1",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The identity relation $\\mathcal{I}_A$ on any non-empty set $A$ is always an equivalence relation.<br>\n <strong>Reason (R):</strong> The identity relation satisfies the reflexive, symmetric, and transitive properties simultaneously.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> If $A \\times B = \\emptyset$, then both sets $A$ and $B$ must be empty sets simultaneously.<br>\n <strong>Reason (R):</strong> The Cartesian product is empty if at least one of the component sets is empty ($A = \\emptyset$ or $B = \\emptyset$).",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 3,
+              "explanation": "A is false but R is true."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-math-relations-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "Let $R$ be a relation defined on the set of all natural numbers $\\mathbb{N}$ by the rule $aRb \\iff a \\mid b$ ($a$ is a factor of $b$). This relation is classified as a:",
+              "options": [
+                "Equivalence relation",
+                "Partial order relation",
+                "Symmetric relation",
+                "Empty relation"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The total number of symmetric relations that can be defined on a finite set containing exactly 4 elements is:",
+              "options": [
+                "$2^4$",
+                "$2^{10}$",
+                "$2^{16}$",
+                "$2^6$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Let $R = \\{(1, 2), (2, 3)\\}$ be a relation on the set $A = \\{1, 2, 3\\}$. To make $R$ transitive, what is the minimum number of ordered pairs that must be added to it?",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a relation $R$ is symmetric and transitive simultaneously, then its inverse relation $R^{-1}$ must be:",
+              "options": [
+                "Symmetric and Transitive",
+                "Reflexive",
+                "Anti-symmetric",
+                "An Empty relation"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The equivalence relation $a \\equiv b \\pmod 5$ defined on the set of all integers partitions $\\mathbb{Z}$ into how many disjoint equivalence classes?",
+              "options": [
+                "$2$",
+                "$5$",
+                "$10$",
+                "Infinitely many"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The total number of binary relations on a set with $n$ elements that are both reflexive and symmetric simultaneously is given by the formula:",
+              "options": [
+                "$2^{n^2 - n}$",
+                "$2^{\\frac{n(n-1)}{2}}$",
+                "$2^{\\frac{n(n+1)}{2}}$",
+                "$2^{n^2}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Let $R$ and $S$ be two equivalence relations on a non-empty set $A$. Then their intersection $R \\cap S$ is always:",
+              "options": [
+                "An equivalence relation",
+                "Symmetric but not transitive",
+                "Reflexive but not symmetric",
+                "An empty relation"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the domain of a relation $R$ is identical to its range ($\\text{Domain}(R) = \\text{Range}(R)$), then the relation:",
+              "options": [
+                "Must be reflexive",
+                "Must be symmetric",
+                "Can be any relation that satisfies this specific coordinate boundary match",
+                "Must be an identity relation"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The composition relation $R \\circ R^{-1}$ for an identity relation $\\mathcal{I}_A$ evaluates to:",
+              "options": [
+                "$\\mathcal{I}_A$",
+                "$\\emptyset$",
+                "$A \\times A$",
+                "None of these"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a relation $R$ on a set $A$ is reflexive, then the identity relation $\\mathcal{I}_A$ and $R$ maintain which relationship?",
+              "options": [
+                "$R \\subseteq \\mathcal{I}_A$",
+                "$\\mathcal{I}_A \\subseteq R$",
+                "$\\mathcal{I}_A \\cap R = \\emptyset$",
+                "They are completely equal"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Find the total number of distinct equivalence relations that can be formed on a set containing exactly 4 elements (the $4^{\\text{th}}$ Bell number).",
+              "answer": "15",
+              "explanation": ""
+            },
+            {
+              "q": "Let $A = \\{1, 2, 3\\}$. Find the number of distinct reflexive relations that can be defined on $A$.",
+              "answer": "64",
+              "explanation": ""
+            },
+            {
+              "q": "Let $R = \\{(x, y) \\in \\mathbb{Z} \\times \\mathbb{Z} : x^2 + y^2 \\le 2\\}$. Find the total number of ordered pairs inside this relation set.",
+              "answer": "5",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The empty relation $\\emptyset$ on a non-empty set $A$ is symmetric and transitive, but it is not reflexive.<br>\n <strong>Reason (R):</strong> For a relation to be reflexive, every element must be related to itself, which requires the presence of all diagonal pairs $(a, a)$, but the empty set contains no elements at all.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> If $R$ and $S$ are two equivalence relations on a set $A$, then their union $R \\cup S$ is always an equivalence relation.<br>\n <strong>Reason (R):</strong> The union of two transitive relations can fail to be transitive because it can introduce chaining paths without including the required shortcut endpoints.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 3,
+              "explanation": "A is false (the union is not guaranteed to be an equivalence relation because transitivity can fail) but R is true."
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

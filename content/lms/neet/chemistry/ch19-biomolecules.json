@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "chemistry",
+  "chapter": 19,
+  "title": "Biomolecules",
+  "slug": "biomolecules",
+  "subtitle": "Carbohydrates, proteins, nucleic acids, vitamins and hormones for NEET",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "NEET Chemistry — Biomolecules: classification of carbohydrates (reducing/non-reducing, starch vs cellulose), amino acids and protein structure (primary to quaternary, denaturation), enzymes, DNA/RNA and base pairing, plus vitamins and hormones with deficiency diseases. NCERT notes, NEET traps & MCQs, free on GrowQR.",
+    "focus_keyword": "biomolecules NEET",
+    "secondary_keywords": [
+      "carbohydrates classification NEET",
+      "protein structure denaturation NEET",
+      "DNA RNA base pairing NEET",
+      "vitamins deficiency diseases NEET",
+      "reducing sugar NEET"
+    ],
+    "keywords": [
+      "biomolecules NEET",
+      "carbohydrates NEET",
+      "proteins NEET",
+      "nucleic acids NEET",
+      "vitamins hormones NEET"
+    ]
+  },
+  "summary": "<ul><li><strong>Carbohydrates</strong> are polyhydroxy aldehydes/ketones (or yield them on hydrolysis): <em>mono-</em> (glucose, fructose), <em>oligo-</em> (sucrose, maltose, lactose) and <em>poly-</em> (starch, cellulose, glycogen).</li><li><strong>Reducing sugars</strong> have a free anomeric (–CHO/keto) group (glucose, maltose, lactose); <strong>sucrose is non-reducing</strong> (both anomeric carbons are linked).</li><li><strong>Starch</strong> ($\\alpha$-glycosidic, plant storage) is digestible; <strong>cellulose</strong> ($\\beta$-glycosidic, structural) is not digestible by humans.</li><li><strong>Proteins</strong> are polymers of $\\alpha$-amino acids joined by <strong>peptide bonds</strong> (–CO–NH–). Structure: primary (sequence) $\\rightarrow$ secondary ($\\alpha$-helix, $\\beta$-sheet) $\\rightarrow$ tertiary $\\rightarrow$ quaternary. <em>Denaturation</em> destroys 2°/3° structure.</li><li>Amino acids are <strong>amphoteric</strong> and exist as <strong>zwitterions</strong>; <strong>enzymes</strong> are protein biocatalysts.</li><li><strong>Nucleic acids:</strong> nucleotide = base + sugar + phosphate. DNA pairs A–T (2 H-bonds) and G–C (3 H-bonds); DNA has deoxyribose + thymine, RNA has ribose + uracil.</li><li><strong>Vitamins</strong> (fat-soluble A,D,E,K; water-soluble B,C) prevent deficiency diseases; <strong>hormones</strong> are chemical messengers from endocrine glands.</li></ul>",
+  "faqs": [
+    { "q": "What makes a sugar 'reducing', and why is sucrose non-reducing?", "a": "A reducing sugar has a free aldehyde or keto (anomeric) group that can reduce Tollens' or Fehling's reagent — glucose, maltose and lactose all qualify. In sucrose the anomeric carbons of both glucose and fructose are joined together in the glycosidic linkage, so neither free group remains, and sucrose does not reduce these reagents." },
+    { "q": "What is the difference between starch and cellulose?", "a": "Both are polymers of glucose, but starch is built from alpha-glucose units (alpha-glycosidic links), forming amylose and amylopectin that humans can digest and use for energy. Cellulose is built from beta-glucose units (beta-glycosidic links), giving long straight chains that act as plant structural material; humans lack the enzyme to break beta-links, so we cannot digest cellulose." },
+    { "q": "What are the four levels of protein structure?", "a": "Primary structure is the sequence of amino acids joined by peptide bonds. Secondary structure is local folding into alpha-helices or beta-pleated sheets held by hydrogen bonds. Tertiary structure is the overall three-dimensional folding of the whole chain. Quaternary structure is the assembly of two or more folded chains into one functional protein, like haemoglobin." },
+    { "q": "What is denaturation of a protein?", "a": "Denaturation is the loss of a protein's secondary and tertiary structure (its three-dimensional shape) when it is exposed to heat, acids, or other stresses, while the primary sequence stays intact. The protein loses its biological activity — a familiar example is the white of an egg turning solid and opaque when cooked." },
+    { "q": "How do DNA bases pair, and how does RNA differ from DNA?", "a": "In DNA, adenine pairs with thymine through two hydrogen bonds and guanine pairs with cytosine through three hydrogen bonds, holding the two strands of the double helix together. RNA differs in three ways: its sugar is ribose (not deoxyribose), it uses uracil in place of thymine, and it is usually single-stranded." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Carbohydrates and Proteins",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Carbohydrates: Classification and Structure",
+          "concept": "<p><strong>Carbohydrates</strong> are optically active polyhydroxy aldehydes or ketones, or compounds that produce them on hydrolysis. They are the most abundant biomolecules, providing energy (glucose), storage (starch, glycogen) and structure (cellulose). They are classified by how many simple sugar units they give on hydrolysis: <em>monosaccharides</em> cannot be hydrolysed further (glucose, fructose, ribose), <em>oligosaccharides</em> give 2–10 units (the disaccharides sucrose, maltose and lactose), and <em>polysaccharides</em> give many units (starch, cellulose, glycogen).</p><p>The key monosaccharide is <strong>glucose</strong>, an <em>aldohexose</em> ($\\text{C}_6\\text{H}_{12}\\text{O}_6$ with an aldehyde group). It exists mostly as a six-membered cyclic <em>pyranose</em> ring, which creates a new stereocentre at C-1 (the <strong>anomeric carbon</strong>) giving two anomers, $\\alpha$ and $\\beta$; their interconversion in solution is called <strong>mutarotation</strong>. <strong>Fructose</strong> is a <em>ketohexose</em> (same formula but a keto group). Sugar units join through a <strong>glycosidic linkage</strong> (an ether bond between the anomeric carbon of one unit and a hydroxyl of another) — this is how di- and polysaccharides are built.</p><p>A distinction NEET tests often is <strong>reducing versus non-reducing sugars</strong>. A reducing sugar has a free anomeric (aldehyde/keto) group and so reduces Tollens' and Fehling's reagents — glucose, fructose, maltose and lactose are reducing. <strong>Sucrose</strong> (table sugar, glucose + fructose) is <em>non-reducing</em> because the glycosidic bond ties up the anomeric carbons of <em>both</em> units, leaving no free group. Sucrose's hydrolysis to glucose + fructose is called <em>inversion</em> (the optical rotation changes sign), giving 'invert sugar'.</p><p>The <strong>polysaccharides</strong> are all polymers of glucose but differ crucially in their links. <strong>Starch</strong> (the storage carbohydrate of plants) is made of $\\alpha$-glucose units and has two parts — linear <em>amylose</em> and branched <em>amylopectin</em>; its $\\alpha$-glycosidic links are digestible by humans. <strong>Cellulose</strong> (the structural material of plant cell walls) is made of $\\beta$-glucose units in long straight chains; humans lack the enzyme for $\\beta$-links, so we cannot digest cellulose (it is dietary fibre). <strong>Glycogen</strong> is 'animal starch', a highly branched glucose store in liver and muscle. The starch-vs-cellulose ($\\alpha$ vs $\\beta$) contrast is a guaranteed NEET point.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Carbohydrate</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Key fact</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Glucose</td><td style='border:1px solid #dcfce7;padding:6px 10px'>aldohexose; reducing; $\\alpha/\\beta$ anomers</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Sucrose</td><td style='border:1px solid #dcfce7;padding:6px 10px'>glucose+fructose; <em>non-reducing</em></td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Starch</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\alpha$-glucose; digestible (amylose+amylopectin)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Cellulose</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\beta$-glucose; not digestible by humans</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why is sucrose a non-reducing sugar while maltose is reducing?</p>",
+              "solution": "<p>In sucrose the glycosidic bond joins the anomeric carbons of <strong>both</strong> glucose and fructose, so there is no free aldehyde/keto group to reduce Tollens'/Fehling's. Maltose has one free anomeric carbon, so it is reducing.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Both starch and cellulose are glucose polymers, yet humans digest only starch. Why?</p>",
+              "solution": "<p>Starch has <strong>$\\alpha$-glycosidic</strong> links, which human enzymes can hydrolyse. Cellulose has <strong>$\\beta$-glycosidic</strong> links, and humans lack the enzyme to break them, so cellulose passes through as fibre.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Glucose is classified as a/an:</p>", "options": ["ketohexose", "aldohexose", "aldopentose", "disaccharide"], "correct": 1, "explanation": "Six carbons with an aldehyde group: aldohexose." },
+            { "q": "<p>Which is a non-reducing sugar?</p>", "options": ["glucose", "maltose", "sucrose", "lactose"], "correct": 2, "explanation": "Sucrose has no free anomeric group." },
+            { "q": "<p>The two anomers of glucose interconvert by:</p>", "options": ["denaturation", "mutarotation", "inversion", "hydrolysis"], "correct": 1, "explanation": "$\\alpha \\rightleftharpoons \\beta$ is mutarotation." },
+            { "q": "<p>Cellulose is built from:</p>", "options": ["$\\alpha$-glucose units", "$\\beta$-glucose units", "fructose units", "amino acids"], "correct": 1, "explanation": "$\\beta$-glycosidic links — indigestible to humans." },
+            { "q": "<p>The storage polysaccharide in animals is:</p>", "options": ["starch", "cellulose", "glycogen", "sucrose"], "correct": 2, "explanation": "Glycogen = 'animal starch'." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> reducing sugars (glucose, fructose, maltose, lactose) reduce Tollens'/Fehling's; sucrose does NOT. Starch = $\\alpha$ (digestible); cellulose = $\\beta$ (fibre); glycogen = animal store.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Proteins: Amino Acids, Structure and Enzymes",
+          "concept": "<p><strong>Proteins</strong> are polymers of <strong>$\\alpha$-amino acids</strong> — molecules that contain both an amino group ($-\\text{NH}_2$) and a carboxyl group ($-\\text{COOH}$) on the same ($\\alpha$) carbon. About 20 standard amino acids build all proteins; those the body cannot make and must obtain from food are <em>essential</em> amino acids, the rest are <em>non-essential</em>. Because they carry both an acidic and a basic group, amino acids are <strong>amphoteric</strong> and usually exist as a <strong>zwitterion</strong> (an internal salt, $\\text{H}_3\\text{N}^+\\text{–CHR–COO}^-$); the pH at which the zwitterion has no net charge is the <em>isoelectric point</em>.</p><p>Amino acids link through the <strong>peptide bond</strong>, an amide linkage ($-\\text{CO}-\\text{NH}-$) formed when the $-\\text{COOH}$ of one acid condenses with the $-\\text{NH}_2$ of the next, losing water. Two amino acids give a dipeptide, many give a polypeptide, and large polypeptides are proteins. The sequence of amino acids and the way the chain folds determine everything about a protein's function.</p><p>Protein structure is described at four <strong>levels</strong>. The <em>primary</em> structure is the exact sequence of amino acids. The <em>secondary</em> structure is local folding into an <strong>$\\alpha$-helix</strong> or a <strong>$\\beta$-pleated sheet</strong>, held together by hydrogen bonds. The <em>tertiary</em> structure is the overall three-dimensional shape of the whole chain (folded and held by various interactions). The <em>quaternary</em> structure is the assembly of two or more folded chains into one functional unit (haemoglobin, with four chains, is the classic example). NEET frequently asks which forces or features belong to which level.</p><p>When a protein is exposed to heat, strong acids or other stresses, it undergoes <strong>denaturation</strong>: its secondary and tertiary structures break down (the primary sequence remains), the molecule loses its specific shape, and it loses biological activity — boiling an egg or curdling milk are everyday examples. Finally, <strong>enzymes</strong> are specialised proteins that act as <em>biological catalysts</em>: they are highly specific, work under mild body conditions, and speed up reactions by lowering the activation energy (without being consumed). Vitamins and metal ions often help enzymes as coenzymes/cofactors — a link to the next module.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Level</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>What it is</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Primary</td><td style='border:1px solid #dcfce7;padding:6px 10px'>amino-acid sequence (peptide bonds)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Secondary</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\alpha$-helix / $\\beta$-sheet (H-bonds)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Tertiary</td><td style='border:1px solid #dcfce7;padding:6px 10px'>overall 3D fold of one chain</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Quaternary</td><td style='border:1px solid #dcfce7;padding:6px 10px'>several chains assembled (e.g. haemoglobin)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why are amino acids said to exist as zwitterions?</p>",
+              "solution": "<p>An amino acid has a basic $-\\text{NH}_2$ and an acidic $-\\text{COOH}$. The $-\\text{COOH}$ donates its proton to the $-\\text{NH}_2$ within the same molecule, giving an internal salt $\\text{H}_3\\text{N}^+\\text{–CHR–COO}^-$ — the dipolar <strong>zwitterion</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What happens to a protein's structure when an egg is boiled?</p>",
+              "solution": "<p>The protein is <strong>denatured</strong>: heat breaks the hydrogen bonds and other interactions that hold its secondary and tertiary structure, so it unfolds and aggregates (the white turns solid) and loses biological activity. The primary sequence is unchanged.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The bond linking amino acids in a protein is the:</p>", "options": ["glycosidic bond", "peptide bond", "ester bond", "hydrogen bond"], "correct": 1, "explanation": "Peptide (amide) bond, –CO–NH–." },
+            { "q": "<p>Amino acids exist mainly as:</p>", "options": ["free acids", "zwitterions", "esters", "anhydrides"], "correct": 1, "explanation": "Internal salt (dipolar ion)." },
+            { "q": "<p>The $\\alpha$-helix and $\\beta$-pleated sheet describe which level?</p>", "options": ["primary", "secondary", "tertiary", "quaternary"], "correct": 1, "explanation": "Secondary structure, held by H-bonds." },
+            { "q": "<p>Denaturation of a protein destroys its:</p>", "options": ["primary structure only", "secondary and tertiary structure", "peptide bonds", "amino acids"], "correct": 1, "explanation": "2°/3° structure lost; primary sequence intact." },
+            { "q": "<p>Enzymes are biological catalysts made of:</p>", "options": ["carbohydrates", "proteins", "lipids", "nucleic acids"], "correct": 1, "explanation": "Enzymes are specialised proteins." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> peptide bond = –CO–NH–. Primary (sequence) → secondary ($\\alpha$-helix/$\\beta$-sheet, H-bonds) → tertiary (3D) → quaternary (multi-chain). Denaturation loses 2°/3° (not primary). Enzymes = protein catalysts.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Nucleic Acids, Vitamins and Hormones",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Nucleic Acids (DNA and RNA)",
+          "concept": "<p><strong>Nucleic acids</strong> are the information molecules of the cell: <strong>DNA</strong> (deoxyribonucleic acid) stores and transmits genetic information, and <strong>RNA</strong> (ribonucleic acid) carries out protein synthesis. Both are long polymers (polynucleotides) built from repeating units called <strong>nucleotides</strong>.</p><p>Each nucleotide has three parts: a <strong>nitrogenous base</strong>, a <strong>pentose sugar</strong>, and a <strong>phosphate</strong> group. A base joined to the sugar alone (no phosphate) is a <em>nucleoside</em>; adding phosphate makes it a <em>nucleotide</em> — a distinction NEET likes to test. The nucleotides are linked through <em>phosphodiester</em> bonds between the phosphate of one and the sugar of the next, forming the sugar–phosphate backbone.</p><p>The <strong>bases</strong> are of two kinds: <em>purines</em> (double-ring) — adenine (A) and guanine (G); and <em>pyrimidines</em> (single-ring) — cytosine (C), plus thymine (T) in DNA and uracil (U) in RNA. The sugar is <strong>deoxyribose</strong> in DNA and <strong>ribose</strong> in RNA. So the three differences between DNA and RNA are: sugar (deoxyribose vs ribose), one base (thymine vs uracil), and strandedness (DNA is usually double-stranded, RNA usually single-stranded).</p><p>DNA's famous <strong>double helix</strong> (Watson and Crick) consists of two strands wound around each other and held by hydrogen bonds between <strong>complementary base pairs</strong>: <strong>A pairs with T</strong> (two hydrogen bonds) and <strong>G pairs with C</strong> (three hydrogen bonds). This base-pairing rule means the two strands carry the same information in complementary form, which is the basis of accurate <em>replication</em>. RNA comes in three working types — messenger (mRNA), transfer (tRNA) and ribosomal (rRNA) — that together translate the DNA message into proteins. The A–T (2 bonds) and G–C (3 bonds) pairing and the DNA-vs-RNA differences are perennial NEET questions.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Feature</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>DNA</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>RNA</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Sugar</td><td style='border:1px solid #dcfce7;padding:6px 10px'>deoxyribose</td><td style='border:1px solid #dcfce7;padding:6px 10px'>ribose</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Bases</td><td style='border:1px solid #dcfce7;padding:6px 10px'>A, G, C, T</td><td style='border:1px solid #dcfce7;padding:6px 10px'>A, G, C, U</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Strands</td><td style='border:1px solid #dcfce7;padding:6px 10px'>double helix</td><td style='border:1px solid #dcfce7;padding:6px 10px'>usually single</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Base pairs</td><td style='border:1px solid #dcfce7;padding:6px 10px'>A–T (2 H-bonds), G–C (3 H-bonds)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>—</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>What is the difference between a nucleoside and a nucleotide?</p>",
+              "solution": "<p>A <strong>nucleoside</strong> is a base + sugar. A <strong>nucleotide</strong> is a base + sugar + phosphate — i.e. a nucleoside with a phosphate group added.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>In DNA, which base pairs with guanine, and by how many hydrogen bonds?</p>",
+              "solution": "<p>Guanine pairs with <strong>cytosine</strong> by <strong>three</strong> hydrogen bonds. (Adenine pairs with thymine by two.)</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>A nucleotide consists of:</p>", "options": ["base + sugar", "base + phosphate", "base + sugar + phosphate", "sugar + phosphate"], "correct": 2, "explanation": "Base + sugar + phosphate." },
+            { "q": "<p>The sugar present in RNA is:</p>", "options": ["deoxyribose", "ribose", "glucose", "fructose"], "correct": 1, "explanation": "RNA has ribose; DNA has deoxyribose." },
+            { "q": "<p>Which base is found in RNA but not DNA?</p>", "options": ["thymine", "uracil", "adenine", "guanine"], "correct": 1, "explanation": "RNA uses uracil instead of thymine." },
+            { "q": "<p>In DNA, adenine pairs with thymine by:</p>", "options": ["one H-bond", "two H-bonds", "three H-bonds", "an ionic bond"], "correct": 1, "explanation": "A–T = 2 hydrogen bonds." },
+            { "q": "<p>The purine bases are:</p>", "options": ["cytosine and thymine", "adenine and guanine", "uracil and cytosine", "thymine and uracil"], "correct": 1, "explanation": "Purines (double ring): adenine and guanine." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> nucleoside = base+sugar; nucleotide = +phosphate. DNA: deoxyribose, A/G/C/T, double helix; RNA: ribose, A/G/C/U, single. A–T (2 H-bonds), G–C (3 H-bonds); purines A,G — pyrimidines C,T,U.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Vitamins and Hormones",
+          "concept": "<p><strong>Vitamins</strong> are organic compounds that the body needs in <em>small amounts</em> for normal metabolism but mostly cannot synthesise, so they must come from the diet. They are grouped by solubility, which controls how they are stored and how often they are needed. <strong>Fat-soluble vitamins (A, D, E, K)</strong> dissolve in fats and are stored in the liver and fatty tissue, so they need not be eaten daily. <strong>Water-soluble vitamins (the B group and C)</strong> are not stored (excess is excreted in urine), so they must be supplied regularly.</p><p>Each vitamin has specific roles and a characteristic <strong>deficiency disease</strong> — a favourite NEET recall set. Vitamin A deficiency causes <em>night blindness</em>; vitamin B1 (thiamine) deficiency causes <em>beriberi</em>; vitamin C (ascorbic acid) deficiency causes <em>scurvy</em> (bleeding gums); vitamin D deficiency causes <em>rickets</em> in children and osteomalacia in adults; vitamin K deficiency impairs <em>blood clotting</em>; vitamin E is an antioxidant. Knowing the vitamin → disease pairs is essentially guaranteed marks.</p><p><strong>Hormones</strong> are <em>chemical messengers</em> secreted directly into the blood by ductless (endocrine) glands; they travel to target organs and regulate processes such as growth, metabolism and reproduction. Chemically they are varied: some are steroids (the sex hormones testosterone and oestrogen, and cortisol), some are amino-acid derivatives (adrenaline, thyroxine), and some are proteins/peptides (insulin). Key examples are <strong>insulin</strong> (lowers blood glucose; its lack causes diabetes), <strong>adrenaline</strong> (the fight-or-flight hormone), and <strong>thyroxine</strong> (regulates metabolic rate; needs iodine, whose deficiency causes goitre).</p><p>It is important to distinguish the two. <em>Vitamins</em> are nutrients obtained from food and act mainly as <strong>coenzymes</strong> assisting enzymes, whereas <em>hormones</em> are made <strong>within the body</strong> by glands and act as regulatory signals. Both are needed in small quantities and both connect chemistry to physiology — the reason this applied topic appears in NEET. Together with carbohydrates, proteins and nucleic acids, vitamins and hormones complete the picture of the molecules that run living systems.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Vitamin / hormone</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Role / deficiency</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Vitamin A</td><td style='border:1px solid #dcfce7;padding:6px 10px'>vision; deficiency → night blindness</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Vitamin C</td><td style='border:1px solid #dcfce7;padding:6px 10px'>deficiency → scurvy</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Vitamin D</td><td style='border:1px solid #dcfce7;padding:6px 10px'>deficiency → rickets</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Insulin / thyroxine</td><td style='border:1px solid #dcfce7;padding:6px 10px'>lowers glucose / regulates metabolism (iodine)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Name the deficiency diseases of vitamins C and D.</p>",
+              "solution": "<p>Vitamin C deficiency causes <strong>scurvy</strong> (bleeding gums); vitamin D deficiency causes <strong>rickets</strong> in children (soft, deformed bones).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Give one key difference between a vitamin and a hormone.</p>",
+              "solution": "<p>A <strong>vitamin</strong> is an organic nutrient obtained from the <em>diet</em> (the body cannot make it), while a <strong>hormone</strong> is a chemical messenger <em>made within the body</em> by an endocrine gland.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The fat-soluble vitamins are:</p>", "options": ["B and C", "A, D, E and K", "C only", "all B vitamins"], "correct": 1, "explanation": "A, D, E, K are fat-soluble; B and C are water-soluble." },
+            { "q": "<p>Deficiency of vitamin C causes:</p>", "options": ["night blindness", "scurvy", "rickets", "beriberi"], "correct": 1, "explanation": "Vitamin C deficiency → scurvy." },
+            { "q": "<p>The hormone that lowers blood glucose is:</p>", "options": ["adrenaline", "thyroxine", "insulin", "oestrogen"], "correct": 2, "explanation": "Insulin lowers blood glucose." },
+            { "q": "<p>Thyroxine, which regulates metabolic rate, requires the element:</p>", "options": ["iron", "iodine", "calcium", "zinc"], "correct": 1, "explanation": "Thyroxine contains iodine; deficiency causes goitre." },
+            { "q": "<p>Which is true?</p>", "options": ["vitamins are made by glands", "hormones come from the diet", "vitamins come from the diet; hormones are made in the body", "both come only from food"], "correct": 2, "explanation": "Vitamins are dietary; hormones are body-made messengers." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> fat-soluble = A,D,E,K (stored); water-soluble = B,C (daily). Learn vitamin→disease: A→night blindness, B1→beriberi, C→scurvy, D→rickets. Hormones = body-made messengers (insulin, adrenaline, thyroxine).</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-chemistry-ch19-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct & Statement-based)",
+          "questions": [
+            { "q": "<p>Which of the following is a non-reducing sugar?</p>", "options": ["glucose", "fructose", "maltose", "sucrose"], "correct": 3, "explanation": "Sucrose has no free anomeric group." },
+            { "q": "<p>Cellulose differs from starch in having:</p>", "options": ["$\\alpha$-glycosidic links", "$\\beta$-glycosidic links", "no glucose", "peptide bonds"], "correct": 1, "explanation": "$\\beta$-links make cellulose indigestible to humans." },
+            { "q": "<p>The bond between two amino acids is a/an:</p>", "options": ["glycosidic bond", "peptide bond", "phosphodiester bond", "ester bond"], "correct": 1, "explanation": "Peptide (amide) bond." },
+            { "q": "<p>Statements: (I) Denaturation destroys the primary structure of a protein. (II) Boiling an egg denatures its protein. Which is/are correct?</p>", "options": ["only I", "only II", "both I and II", "neither"], "correct": 1, "explanation": "II correct; I wrong — denaturation spares the primary structure." },
+            { "q": "<p>In DNA, guanine pairs with cytosine through:</p>", "options": ["one H-bond", "two H-bonds", "three H-bonds", "an ionic bond"], "correct": 2, "explanation": "G–C = 3 hydrogen bonds." },
+            { "q": "<p>A nucleotide contains base, sugar and:</p>", "options": ["another base", "a phosphate group", "an amino acid", "a fatty acid"], "correct": 1, "explanation": "Base + sugar + phosphate." },
+            { "q": "<p>The deficiency disease caused by lack of vitamin A is:</p>", "options": ["scurvy", "rickets", "night blindness", "beriberi"], "correct": 2, "explanation": "Vitamin A deficiency → night blindness." },
+            { "q": "<p>Which hormone regulates blood glucose?</p>", "options": ["thyroxine", "insulin", "adrenaline", "testosterone"], "correct": 1, "explanation": "Insulin lowers blood glucose." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> Sucrose does not reduce Fehling's solution.<br><strong>R:</strong> In sucrose the anomeric carbons of both monosaccharide units are involved in the glycosidic linkage.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "With both anomeric carbons tied up there is no free reducing group — R explains A." },
+            { "q": "<p><strong>A:</strong> Humans cannot digest cellulose.<br><strong>R:</strong> Humans lack the enzyme needed to hydrolyse beta-glycosidic linkages.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The missing beta-link enzyme is exactly why cellulose is indigestible — R explains A." },
+            { "q": "<p><strong>A:</strong> The alpha-helix is an example of the primary structure of a protein.<br><strong>R:</strong> The primary structure is the sequence of amino acids in a polypeptide chain.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "A is false — the alpha-helix is secondary structure; R correctly defines primary structure." },
+            { "q": "<p><strong>A:</strong> In DNA, the G–C base pair is held more strongly than the A–T pair.<br><strong>R:</strong> G–C pairs form three hydrogen bonds while A–T pairs form two.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "More hydrogen bonds mean a stronger pair — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

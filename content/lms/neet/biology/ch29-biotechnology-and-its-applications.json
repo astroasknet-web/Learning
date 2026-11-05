@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "biology",
+  "chapter": 29,
+  "title": "Biotechnology and its Applications",
+  "slug": "biotechnology-and-its-applications",
+  "subtitle": "Biotechnology in agriculture and medicine, transgenic animals, molecular diagnosis, and ethical issues including biopiracy",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "leaf",
+  "seo": {
+    "meta_description": "NEET Biology — Biotechnology and its Applications: GM crops and Bt cotton, pest-resistant plants by RNAi, golden rice, genetically engineered insulin, gene therapy, molecular diagnosis (PCR, ELISA), transgenic animals, and ethical issues like biopiracy and GEAC, with NEET-level examples and MCQs. Free on GrowQR.",
+    "focus_keyword": "biotechnology and its applications NEET",
+    "secondary_keywords": [
+      "Bt cotton GM crops NEET",
+      "RNA interference pest resistance",
+      "genetically engineered insulin humulin",
+      "gene therapy ADA deficiency",
+      "transgenic animals biopiracy GEAC"
+    ],
+    "keywords": [
+      "biotechnology and its applications NEET",
+      "Bt cotton cry genes",
+      "recombinant insulin gene therapy",
+      "molecular diagnosis PCR ELISA",
+      "transgenic animals ethical issues"
+    ]
+  },
+  "summary": "<ul><li><strong>GM crops</strong> = altered genes for stress tolerance, less pesticide, better nutrition (<strong>golden rice</strong> = vitamin A).</li><li><strong>Bt crops</strong> carry <strong>cry</strong> genes from <em>Bacillus thuringiensis</em>; Bt toxin is an inactive <strong>protoxin</strong> → activated in the insect's <strong>alkaline gut</strong> → kills it (Bt cotton: cryIAc, cryIIAb).</li><li><strong>Pest resistance by RNAi</strong> (silencing) protects tobacco from the nematode <em>Meloidogyne incognita</em> using dsRNA.</li><li><strong>Insulin (Humulin):</strong> A &amp; B chains made in <em>E. coli</em> and joined (mature insulin lacks the C-peptide).</li><li><strong>Gene therapy:</strong> first done for <strong>ADA deficiency</strong>.</li><li><strong>Molecular diagnosis:</strong> <strong>PCR</strong> (early/low-level detection) and <strong>ELISA</strong> (antigen–antibody).</li><li><strong>Transgenic animals</strong> for disease study &amp; biological products; <strong>GEAC</strong> regulates GMOs; <strong>biopiracy</strong> = misuse of bio-resources (neem, turmeric, Basmati).</li></ul>",
+  "faqs": [
+    { "q": "What are GM crops and what advantages do they offer?", "a": "Genetically modified (GM) crops have had genes deliberately altered or added by genetic engineering. They can be made more tolerant of abiotic stresses (cold, drought, salt, heat), more resistant to pests (so less chemical pesticide is needed), more efficient in using minerals, less prone to post-harvest losses, and richer in nutrients — for example golden rice, engineered to contain vitamin A." },
+    { "q": "How does Bt cotton kill insect pests?", "a": "Bt cotton carries cry genes from the bacterium Bacillus thuringiensis, which make a protein called Bt toxin. The toxin is produced as an inactive protoxin (a crystal protein). When an insect eats it, the alkaline pH of the insect's gut converts it into the active toxin, which binds to the gut's epithelial cells and creates pores, causing the cells to swell and burst — killing the insect. Genes like cryIAc and cryIIAb give cotton resistance to bollworms." },
+    { "q": "How is human insulin made by biotechnology?", "a": "Mature insulin has two short polypeptide chains, A and B, joined by disulphide bonds; in the body it is first made as a longer prohormone (proinsulin) with an extra C-peptide that is removed during maturation. Using rDNA technology (by Eli Lilly), the DNA sequences for the A and B chains were introduced into E. coli, which produced the two chains separately; these were then extracted and joined by disulphide bonds to form functional human insulin, marketed as Humulin." },
+    { "q": "What is gene therapy and when was it first used?", "a": "Gene therapy is a collection of methods that correct a gene defect by inserting a normal, functional gene into a person's cells or tissues. The first clinical gene therapy was given in 1990 to a girl with ADA (adenosine deaminase) deficiency, a disorder of the immune system. Lymphocytes carrying a functional ADA gene were introduced into her body; because these cells are not permanent, the treatment had to be repeated." },
+    { "q": "What is biopiracy and which body regulates GMOs in India?", "a": "Biopiracy is the use of bio-resources (and the traditional knowledge associated with them) by companies or organisations without proper authorisation or fair benefit-sharing with the countries or communities concerned — examples include patents granted abroad on neem, turmeric and Basmati rice. In India, GMO research and the release of genetically modified organisms are regulated by the GEAC (Genetic Engineering Approval/Appraisal Committee)." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Biotechnology in Agriculture and Medicine",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Biotechnology in Agriculture",
+          "concept": "<p>Biotechnology has transformed agriculture by creating <strong>genetically modified (GM) crops</strong> &mdash; plants whose genes have been deliberately altered. The benefits are heavily examined: GM crops can be made <strong>more tolerant of abiotic stresses</strong> (cold, drought, salt, heat), <strong>more pest-resistant</strong> (reducing chemical pesticide use), <strong>more efficient in mineral use</strong>, <strong>less prone to post-harvest losses</strong>, and <strong>more nutritious</strong> &mdash; the classic example being <strong>golden rice</strong>, engineered to be rich in <strong>vitamin A</strong>.</p><p>The most important agricultural example is the <strong>Bt crop</strong>. The bacterium <strong><em>Bacillus thuringiensis</em></strong> makes a protein, the <strong>Bt toxin</strong>, that kills certain insect larvae. The genes coding for it are called <strong>cry genes</strong>: for instance, <strong>cryIAc and cryIIAb</strong> control the <strong>cotton bollworms</strong> and <strong>cryIAb</strong> controls the corn borer. By inserting the appropriate cry gene into cotton, scientists created <strong>Bt cotton</strong>, which makes its own insecticidal protein.</p><p>The way the Bt toxin works is a favourite NEET question. The toxin is produced as an <strong>inactive protoxin (a crystal protein)</strong> &mdash; this is why <em>Bacillus</em> itself is not killed. When an insect eats it, the <strong>alkaline pH of the insect's gut converts the protoxin into the active toxin</strong>. The active toxin then <strong>binds to the surface of the midgut epithelial cells and creates pores</strong>, causing the cells to <strong>swell, lyse (burst)</strong> and the insect to die.</p><p>Another elegant method makes plants <strong>pest-resistant using RNA interference (RNAi)</strong> &mdash; a natural cellular defence that silences specific mRNA using complementary <strong>double-stranded RNA (dsRNA)</strong>. To protect tobacco from the <strong>nematode <em>Meloidogyne incognita</em></strong>, genes producing both sense and antisense RNA against a nematode gene were introduced; the resulting <strong>dsRNA silences the nematode's mRNA</strong>, so the parasite cannot survive in the transgenic plant. For NEET, fix the benefits of GM crops (golden rice = vitamin A), the Bt mechanism (cry genes; protoxin → activated in alkaline insect gut → pores → death) and RNAi-based nematode resistance.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Item</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Golden rice</td><td style='border:1px solid #dcfce7;padding:6px 8px'>GM crop enriched in vitamin A</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Bt toxin gene</td><td style='border:1px solid #dcfce7;padding:6px 8px'>cry genes from <em>Bacillus thuringiensis</em></td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Bt cotton</td><td style='border:1px solid #dcfce7;padding:6px 8px'>cryIAc, cryIIAb → bollworm resistance</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Bt mechanism</td><td style='border:1px solid #dcfce7;padding:6px 8px'>protoxin → active in alkaline gut → pores → lysis</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>RNAi resistance</td><td style='border:1px solid #dcfce7;padding:6px 8px'>dsRNA silences nematode (<em>Meloidogyne</em>) mRNA</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why does the Bt toxin not kill the Bacillus that makes it, but kills the insect that eats it?</p>",
+              "solution": "<p>The toxin is made as an <strong>inactive protoxin (crystal protein)</strong>, so it is harmless to the bacterium. It is only converted to the <strong>active toxin in the alkaline pH of the insect's gut</strong>, where it then forms pores in the gut cells and kills the insect.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>How does RNA interference make tobacco resistant to the nematode Meloidogyne incognita?</p>",
+              "solution": "<p>Genes producing both sense and antisense RNA against a nematode gene are introduced into the plant. These form <strong>double-stranded RNA (dsRNA)</strong>, which <strong>silences (blocks) the nematode's specific mRNA</strong> by RNA interference, so the parasite cannot survive in the transgenic plant.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Golden rice is genetically engineered to be rich in:</p>", "options": ["protein", "vitamin A", "iron", "vitamin C"], "correct": 1, "explanation": "Golden rice is enriched in vitamin A." },
+            { "q": "<p>Bt toxin genes are called:</p>", "options": ["cry genes", "lac genes", "ori genes", "rop genes"], "correct": 0, "explanation": "The toxin genes are cry genes (from B. thuringiensis)." },
+            { "q": "<p>The Bt protoxin is activated in the insect by:</p>", "options": ["acidic gut pH", "alkaline gut pH", "low temperature", "UV light"], "correct": 1, "explanation": "The alkaline gut pH converts protoxin to active toxin." },
+            { "q": "<p>Bt cotton is resistant mainly to:</p>", "options": ["fungi", "bollworms", "viruses", "weeds"], "correct": 1, "explanation": "cryIAc/cryIIAb give resistance to cotton bollworms." },
+            { "q": "<p>RNA interference works by silencing:</p>", "options": ["DNA", "a specific mRNA", "ribosomes", "tRNA"], "correct": 1, "explanation": "dsRNA silences a specific (complementary) mRNA." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> GM crops: stress tolerance, less pesticide, better nutrition (golden rice = vitamin A). Bt crops: cry genes (<em>B. thuringiensis</em>); toxin = inactive protoxin → active in alkaline insect gut → pores → cell lysis → death (Bt cotton: cryIAc, cryIIAb). RNAi: dsRNA silences nematode mRNA (<em>Meloidogyne incognita</em> in tobacco).</p>"
+        },
+        {
+          "number": 2,
+          "title": "Biotechnology in Medicine",
+          "concept": "<p>Biotechnology has given medicine safer drugs, gene-based cures and powerful diagnostics. The first triumph was <strong>genetically engineered (recombinant) human insulin</strong>. Insulin from animals (pig/cattle) caused allergies in some patients, so a human version was needed. Mature insulin has <strong>two short chains, A and B, linked by disulphide bonds</strong>; in the body it is first made as a longer prohormone (<strong>proinsulin</strong>) with an extra stretch called the <strong>C-peptide that is removed</strong> during maturation. The company <strong>Eli Lilly</strong> introduced the DNA sequences for the <strong>A and B chains separately into <em>E. coli</em></strong>, which produced the two chains; these were then <strong>extracted and joined by disulphide bonds</strong> to make functional human insulin, marketed as <strong>Humulin</strong>.</p><p>A second application is <strong>gene therapy</strong> &mdash; correcting a gene defect by <strong>inserting a normal functional gene</strong> into a patient's cells. The <strong>first gene therapy (1990)</strong> was given to a girl with <strong>ADA (adenosine deaminase) deficiency</strong>, a severe immune disorder. <strong>Lymphocytes carrying a functional ADA gene</strong> were grown and returned to her body; because these cells are not permanent, the treatment had to be <strong>repeated periodically</strong>. A permanent cure would require introducing the gene into cells at an early embryonic stage.</p><p>The third application is <strong>molecular diagnosis</strong> &mdash; detecting a disease <strong>early and accurately</strong>, often before symptoms appear, when the pathogen or abnormality is present only in very small amounts. <strong>PCR (polymerase chain reaction)</strong> can <strong>amplify even tiny amounts of nucleic acid</strong>, so it can detect pathogens (such as <strong>HIV in suspected AIDS patients</strong> or mutations in suspected cancers) very early.</p><p>The other key tool is <strong>ELISA (enzyme-linked immunosorbent assay)</strong>, based on the <strong>antigen&ndash;antibody interaction</strong>; it detects the presence of a pathogen by identifying the <strong>antigens it makes or the antibodies the body produces against it</strong>. Together with techniques like recombinant DNA probes, these give very early, sensitive detection. For NEET, fix recombinant insulin (A &amp; B chains in <em>E. coli</em>, Humulin; mature insulin lacks the C-peptide), gene therapy (first for ADA deficiency, 1990), and the two diagnostics &mdash; PCR (amplifies nucleic acid, early detection) and ELISA (antigen&ndash;antibody).</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Application</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Recombinant insulin (Humulin)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>A &amp; B chains in <em>E. coli</em>, joined by S–S bonds</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Proinsulin</td><td style='border:1px solid #dcfce7;padding:6px 8px'>has extra C-peptide (removed in mature insulin)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Gene therapy</td><td style='border:1px solid #dcfce7;padding:6px 8px'>first for ADA deficiency (1990)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>PCR diagnosis</td><td style='border:1px solid #dcfce7;padding:6px 8px'>amplifies nucleic acid → early detection (HIV)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>ELISA</td><td style='border:1px solid #dcfce7;padding:6px 8px'>antigen–antibody interaction</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>How was recombinant human insulin produced, and how does mature insulin differ from proinsulin?</p>",
+              "solution": "<p>The DNA for the <strong>A and B chains</strong> was introduced separately into <strong><em>E. coli</em></strong>; the two chains were then extracted and <strong>joined by disulphide bonds</strong> to give human insulin (Humulin). <strong>Proinsulin</strong> contains an extra <strong>C-peptide</strong>, which is <strong>removed</strong> to form the mature, functional insulin.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is PCR useful for the early diagnosis of diseases like AIDS?</p>",
+              "solution": "<p>Because PCR can <strong>amplify even very small amounts of nucleic acid</strong> from the pathogen. So it can detect the <strong>virus (e.g. HIV) very early</strong>, when its concentration in the blood is too low to be found by other methods.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Recombinant human insulin is marketed as:</p>", "options": ["Humulin", "Saheli", "Humalog only", "Insugen only"], "correct": 0, "explanation": "Eli Lilly's recombinant insulin is Humulin." },
+            { "q": "<p>Mature insulin lacks the:</p>", "options": ["A chain", "B chain", "C-peptide", "disulphide bonds"], "correct": 2, "explanation": "The C-peptide of proinsulin is removed in mature insulin." },
+            { "q": "<p>The first gene therapy was given for:</p>", "options": ["diabetes", "ADA deficiency", "cancer", "AIDS"], "correct": 1, "explanation": "The first gene therapy (1990) treated ADA deficiency." },
+            { "q": "<p>PCR diagnosis works by:</p>", "options": ["antigen–antibody binding", "amplifying nucleic acid", "staining cells", "culturing bacteria"], "correct": 1, "explanation": "PCR amplifies tiny amounts of nucleic acid for detection." },
+            { "q": "<p>ELISA is based on:</p>", "options": ["DNA amplification", "antigen–antibody interaction", "gel electrophoresis", "fermentation"], "correct": 1, "explanation": "ELISA uses the antigen–antibody interaction." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Recombinant insulin = A &amp; B chains made in <em>E. coli</em>, joined by S–S bonds (Humulin); proinsulin has extra C-peptide (removed). Gene therapy: first for ADA deficiency (1990). Molecular diagnosis: PCR (amplifies nucleic acid → early HIV/cancer detection), ELISA (antigen–antibody).</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Transgenic Animals and Ethical Issues",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Transgenic Animals",
+          "concept": "<p>A <strong>transgenic animal</strong> is an animal whose <strong>genome has been altered by introducing a foreign (manipulated) gene</strong>. Many such animals &mdash; mostly mice, but also rats, rabbits, pigs, cows and sheep &mdash; have been produced, and they serve several valuable purposes that are commonly asked.</p><p>First, transgenic animals help in the study of <strong>normal physiology and development</strong>: by adding or altering genes (for example genes regulating body growth), scientists learn how those genes control development and physiological processes. Second, they are used to <strong>study diseases</strong>: animals are designed to carry genes that make them develop human diseases (such as cancer, cystic fibrosis, rheumatoid arthritis or Alzheimer's), so that new treatments can be tested.</p><p>Third, and very importantly, transgenic animals are used to make <strong>biological products</strong> &mdash; valuable proteins that are otherwise costly to produce. A famous example is the first transgenic cow, <strong>'Rosie' (1997)</strong>, which produced <strong>human-protein-enriched milk</strong> containing the human protein <strong>alpha-lactalbumin</strong>, making the milk more nutritionally balanced for human babies. Such 'biological factories' can yield medicines like the human protein <strong>&alpha;-1-antitrypsin</strong> (used to treat emphysema).</p><p>Fourth, transgenic animals are used for <strong>vaccine safety testing</strong> (testing the safety of vaccines before they are used on humans &mdash; transgenic mice are being used to test the safety of the polio vaccine) and for <strong>chemical safety testing (toxicity testing)</strong>, where transgenic animals carrying genes that make them more sensitive to toxic substances allow quicker results. So transgenic animals advance research, medicine and safety testing. For NEET, fix the definition and the four main uses &mdash; study of physiology/development, study of disease, production of biological products (Rosie cow, &alpha;-lactalbumin; &alpha;-1-antitrypsin), and vaccine/chemical safety testing.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Use of transgenic animals</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Example</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Study normal physiology/development</td><td style='border:1px solid #dcfce7;padding:6px 8px'>genes regulating growth</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Study of disease</td><td style='border:1px solid #dcfce7;padding:6px 8px'>cancer, cystic fibrosis, Alzheimer's models</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Biological products</td><td style='border:1px solid #dcfce7;padding:6px 8px'>Rosie (cow) — milk with &alpha;-lactalbumin; &alpha;-1-antitrypsin</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Vaccine safety</td><td style='border:1px solid #dcfce7;padding:6px 8px'>transgenic mice to test polio vaccine</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Chemical safety</td><td style='border:1px solid #dcfce7;padding:6px 8px'>toxicity testing (more sensitive animals)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>What is a transgenic animal, and how was the cow 'Rosie' useful?</p>",
+              "solution": "<p>A <strong>transgenic animal</strong> has had a <strong>foreign gene introduced into its genome</strong>. <strong>Rosie</strong>, the first transgenic cow, produced <strong>human-protein-enriched milk</strong> containing <strong>alpha-lactalbumin</strong> — a more nutritionally balanced milk (a biological product).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Give two uses of transgenic animals other than making biological products.</p>",
+              "solution": "<p>Any two: <strong>studying normal physiology/development</strong>; <strong>studying human diseases</strong> (as disease models); <strong>vaccine safety testing</strong> (e.g. transgenic mice for polio vaccine); and <strong>chemical safety (toxicity) testing</strong>.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>A transgenic animal has:</p>", "options": ["no genes", "a foreign gene in its genome", "only plant genes", "no nucleus"], "correct": 1, "explanation": "It carries an introduced/manipulated foreign gene." },
+            { "q": "<p>The first transgenic cow that gave protein-enriched milk was:</p>", "options": ["Dolly", "Rosie", "Bessie", "Daisy"], "correct": 1, "explanation": "Rosie (1997) produced human-protein-enriched milk." },
+            { "q": "<p>Rosie's milk contained the human protein:</p>", "options": ["insulin", "alpha-lactalbumin", "haemoglobin", "albumin only"], "correct": 1, "explanation": "Her milk contained human alpha-lactalbumin." },
+            { "q": "<p>Transgenic mice are used to test the safety of the:</p>", "options": ["BCG vaccine", "polio vaccine", "DPT vaccine", "MMR vaccine"], "correct": 1, "explanation": "Transgenic mice are used to test polio vaccine safety." },
+            { "q": "<p>Which is NOT a use of transgenic animals?</p>", "options": ["disease study", "biological products", "vaccine safety testing", "nitrogen fixation"], "correct": 3, "explanation": "Nitrogen fixation is not a use of transgenic animals." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Transgenic animal = foreign gene in genome. Uses: study physiology/development; disease models; biological products (Rosie cow → milk with &alpha;-lactalbumin; &alpha;-1-antitrypsin for emphysema); vaccine safety (polio, transgenic mice); chemical/toxicity testing.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Ethical Issues and Biopiracy",
+          "concept": "<p>The power to manipulate genes raises serious <strong>ethical, social and legal issues</strong>, which the chapter ends with. Genetic modification of organisms can have <strong>unpredictable results</strong> when they are introduced into the ecosystem, and there are moral concerns about modifying living things and patenting life. Because of this, every country needs to evaluate the <strong>safety</strong> of introducing GMOs.</p><p>In India this is the job of the <strong>GEAC (Genetic Engineering Approval Committee</strong>, now Appraisal Committee). The GEAC makes <strong>decisions on the validity and safety of GM research and the introduction of GM organisms</strong> for public use; no GMO can be released without its approval. This provides a regulatory check before any genetically engineered organism reaches the field or the market.</p><p>A major issue is <strong>biopiracy</strong> &mdash; the <strong>use of bio-resources by multinational companies and organisations without proper authorisation</strong> from the countries and people concerned, and <strong>without fair compensation (benefit-sharing)</strong>. Industrialised nations are often rich in technology but poor in biodiversity, while developing nations like India are rich in <strong>biodiversity and traditional knowledge</strong> about its uses &mdash; and this knowledge has sometimes been exploited.</p><p>Classic examples are the foreign <strong>patents granted on traditional Indian resources</strong>: the <strong>Basmati rice</strong>, the <strong>neem tree</strong>, and the wound-healing properties of <strong>turmeric (haldi)</strong> &mdash; cases that were challenged because the knowledge was already part of India's traditional heritage. To prevent such unauthorised exploitation, the Indian Parliament amended the <strong>Indian Patents Bill</strong> to take such issues into account. For NEET, fix the role of <strong>GEAC</strong> (approves/regulates GMOs in India), the meaning of <strong>biopiracy</strong>, and the well-known patent examples (Basmati, neem, turmeric).</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Issue</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>GEAC</td><td style='border:1px solid #dcfce7;padding:6px 8px'>India's body for GMO safety/approval</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Ethical concern</td><td style='border:1px solid #dcfce7;padding:6px 8px'>unpredictable effects of GMOs; safety evaluation</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Biopiracy</td><td style='border:1px solid #dcfce7;padding:6px 8px'>use of bio-resources without authorisation/benefit-sharing</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Patent examples</td><td style='border:1px solid #dcfce7;padding:6px 8px'>Basmati rice, neem, turmeric</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Response</td><td style='border:1px solid #dcfce7;padding:6px 8px'>amended Indian Patents Bill</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>What is the role of the GEAC in India?</p>",
+              "solution": "<p>The <strong>GEAC (Genetic Engineering Approval Committee)</strong> makes decisions on the <strong>validity and safety of GM research</strong> and the <strong>introduction of GM organisms</strong> for public services in India — no GMO can be released without its approval.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Define biopiracy and give two examples of resources patented from India's traditional knowledge.</p>",
+              "solution": "<p><strong>Biopiracy</strong> is the <strong>use of bio-resources (and associated traditional knowledge) without proper authorisation or fair benefit-sharing</strong>. Examples (any two): <strong>Basmati rice, neem, and turmeric</strong>.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>GMO research and release in India is regulated by:</p>", "options": ["WHO", "GEAC", "ICMR", "FSSAI"], "correct": 1, "explanation": "GEAC approves and regulates GMOs in India." },
+            { "q": "<p>Biopiracy refers to the:</p>", "options": ["theft of money", "unauthorised use of bio-resources", "breeding of cattle", "cloning of animals"], "correct": 1, "explanation": "It is unauthorised use of bio-resources/traditional knowledge." },
+            { "q": "<p>Which was a famous biopiracy/patent case from India?</p>", "options": ["wheat", "Basmati rice", "maize", "soybean"], "correct": 1, "explanation": "Basmati rice (and neem, turmeric) are classic examples." },
+            { "q": "<p>Developing nations like India are especially rich in:</p>", "options": ["technology only", "biodiversity and traditional knowledge", "patents", "GM crops"], "correct": 1, "explanation": "They are rich in biodiversity and traditional knowledge." },
+            { "q": "<p>To curb biopiracy, India amended its:</p>", "options": ["Patents Bill", "Forest Act", "Wildlife Act", "Factories Act"], "correct": 0, "explanation": "The Indian Patents Bill was amended." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> GMOs raise safety/ethical issues → regulated in India by <strong>GEAC</strong> (validity &amp; safety of GM research/release). Biopiracy = using bio-resources/traditional knowledge without authorisation or benefit-sharing; examples = Basmati, neem, turmeric → India amended its Patents Bill.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-biology-ch29-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>The Bt toxin gene is obtained from:</p>", "options": ["Agrobacterium", "Bacillus thuringiensis", "E. coli", "Rhizobium"], "correct": 1, "explanation": "cry genes come from Bacillus thuringiensis." },
+            { "q": "<p>Golden rice is enriched in:</p>", "options": ["iron", "vitamin A", "protein", "vitamin C"], "correct": 1, "explanation": "Golden rice provides vitamin A (pro-vitamin A)." },
+            { "q": "<p>The Bt protoxin becomes active in the insect gut because of:</p>", "options": ["acidity", "alkalinity", "heat", "enzymes from the plant"], "correct": 1, "explanation": "Alkaline gut pH activates the protoxin." },
+            { "q": "<p>Recombinant insulin is made by joining its:</p>", "options": ["C-peptide and A chain", "A and B chains", "two B chains", "two C-peptides"], "correct": 1, "explanation": "The A and B chains are produced and joined." },
+            { "q": "<p>The first gene therapy treated:</p>", "options": ["cancer", "ADA deficiency", "diabetes", "thalassaemia"], "correct": 1, "explanation": "ADA deficiency (1990) was the first gene therapy." },
+            { "q": "<p>Which technique amplifies nucleic acid for early diagnosis?</p>", "options": ["ELISA", "PCR", "gel electrophoresis", "culturing"], "correct": 1, "explanation": "PCR amplifies nucleic acid for sensitive detection." },
+            { "q": "<p>The transgenic cow Rosie produced milk rich in:</p>", "options": ["casein", "alpha-lactalbumin", "insulin", "lactose"], "correct": 1, "explanation": "Her milk contained human alpha-lactalbumin." },
+            { "q": "<p>GMOs in India are approved/regulated by:</p>", "options": ["GEAC", "FSSAI", "WHO", "CSIR"], "correct": 0, "explanation": "The GEAC regulates GMOs in India." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> The Bt toxin does not harm the bacterium that produces it.<br><strong>R:</strong> It is produced as an inactive protoxin and is only activated in the alkaline gut of the insect.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Being an inactive protoxin until the insect gut is exactly why the bacterium is unharmed — R explains A." },
+            { "q": "<p><strong>A:</strong> PCR is useful for the very early detection of a pathogen.<br><strong>R:</strong> PCR can amplify even tiny amounts of nucleic acid present in a sample.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Amplifying tiny amounts is why early detection is possible — R explains A." },
+            { "q": "<p><strong>A:</strong> Mature human insulin contains the C-peptide.<br><strong>R:</strong> Insulin is first synthesised as a prohormone called proinsulin.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "A is false — the C-peptide is REMOVED in mature insulin; R is true (it is first made as proinsulin)." },
+            { "q": "<p><strong>A:</strong> Biopiracy is a concern for biodiversity-rich countries like India.<br><strong>R:</strong> Their bio-resources and traditional knowledge can be used by others without authorisation or benefit-sharing.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Unauthorised use of their resources is exactly why it concerns them — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

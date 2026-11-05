@@ -1,0 +1,168 @@
+{
+  "exam": "neet",
+  "subject": "physics",
+  "chapter": 8,
+  "title": "Thermal Properties of Matter & Thermodynamics",
+  "slug": "thermal-properties-and-thermodynamics",
+  "subtitle": "Thermal expansion, calorimetry, heat transfer, laws of thermodynamics & Carnot engine",
+  "level": "NEET (UG)",
+  "color": "#2563eb",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "NEET Physics — Thermal Properties & Thermodynamics: thermal expansion, calorimetry, latent heat, conduction/convection/radiation, the first and second laws, isothermal vs adiabatic processes and the Carnot engine, with NEET-level examples and MCQs. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Thermal Properties of Matter",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Temperature and Thermal Expansion",
+          "concept": "<p><strong>Temperature</strong> measures the degree of hotness of a body and decides the direction of heat flow — heat always moves from higher to lower temperature until thermal equilibrium is reached. The three common scales are related by $\\dfrac{C}{100} = \\dfrac{F-32}{180} = \\dfrac{K-273.15}{100}$; the Kelvin (absolute) scale is the one used in all gas and thermodynamics formulas, so converting Celsius to Kelvin with $K = C + 273.15$ is a routine first step in NEET problems.</p><p>Most substances expand on heating because the average separation between molecules grows. For a rod, the increase in length is captured by the <strong>coefficient of linear expansion</strong> $\\alpha$: $\\Delta L = L_0\\,\\alpha\\,\\Delta T$, so the new length is $L = L_0(1 + \\alpha\\,\\Delta T)$. For surfaces and solids we use the <strong>area</strong> and <strong>volume</strong> coefficients, and for isotropic solids these are simply related: $\\beta = 2\\alpha$ and $\\gamma = 3\\alpha$. This $1 : 2 : 3$ ratio is a favourite NEET fact.</p><p>A point that trips students is the expansion of a <em>hole</em> or cavity. A hole in a metal plate expands exactly as if it were filled with the same metal — it gets larger, not smaller, on heating. Likewise the gap between two rails widens, and a metal ring's inner diameter increases, which is why a tight metal lid loosens when warmed.</p><p>Liquids are described by an <strong>apparent</strong> and a <strong>real</strong> expansion because the container also expands. Water is the classic <strong>anomalous</strong> case: between $0^{\\circ}\\text{C}$ and $4^{\\circ}\\text{C}$ it <em>contracts</em> on heating and is densest at $4^{\\circ}\\text{C}$. This anomaly lets ice form on the top of a pond while the denser $4^{\\circ}\\text{C}$ water sinks, allowing aquatic life to survive winter — a standard NEET application question.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Relation</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Linear expansion</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\Delta L = L_0\\,\\alpha\\,\\Delta T$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Area / Volume coeff.</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\beta = 2\\alpha,\\ \\gamma = 3\\alpha$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Celsius to Kelvin</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$K = C + 273.15$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A steel rod is $1\\ \\text{m}$ long at $20^{\\circ}\\text{C}$. Find its increase in length when heated to $220^{\\circ}\\text{C}$. ($\\alpha = 1.2\\times10^{-5}\\ \\text{K}^{-1}$)</p>",
+              "solution": "<p>$\\Delta L = L_0\\,\\alpha\\,\\Delta T = 1\\times(1.2\\times10^{-5})\\times200 = 2.4\\times10^{-3}\\ \\text{m} = 2.4\\ \\text{mm}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>The coefficient of linear expansion of a metal is $\\alpha$. What is its coefficient of volume expansion?</p>",
+              "solution": "<p>For an isotropic solid $\\gamma = 3\\alpha$. (Similarly area expansion $\\beta = 2\\alpha$.)</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>For an isotropic solid, the ratio $\\alpha : \\beta : \\gamma$ is:</p>", "options": ["$1 : 1 : 1$", "$1 : 2 : 3$", "$3 : 2 : 1$", "$1 : 3 : 2$"], "correct": 1, "explanation": "$\\beta = 2\\alpha$ and $\\gamma = 3\\alpha$." },
+            { "q": "<p>A circular hole in a metal plate is heated. The hole:</p>", "options": ["shrinks", "expands", "stays the same", "becomes oval"], "correct": 1, "explanation": "A cavity expands like the surrounding metal — the hole grows." },
+            { "q": "<p>Water has its maximum density at:</p>", "options": ["$0^{\\circ}\\text{C}$", "$4^{\\circ}\\text{C}$", "$100^{\\circ}\\text{C}$", "$-4^{\\circ}\\text{C}$"], "correct": 1, "explanation": "Water is densest at $4^{\\circ}\\text{C}$ (anomalous expansion)." },
+            { "q": "<p>The scale used in thermodynamic formulas is:</p>", "options": ["Celsius", "Fahrenheit", "Kelvin", "Reaumur"], "correct": 2, "explanation": "Absolute (Kelvin) temperature is used in gas laws." },
+            { "q": "<p>$\\Delta L$ of a rod is proportional to:</p>", "options": ["$L_0$ only", "$\\Delta T$ only", "both $L_0$ and $\\Delta T$", "neither"], "correct": 2, "explanation": "$\\Delta L = L_0\\,\\alpha\\,\\Delta T$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Always convert to Kelvin for thermodynamics. Remember holes and cavities expand outward, and water's density peaks at $4^{\\circ}\\text{C}$.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Calorimetry, Latent Heat and Heat Transfer",
+          "concept": "<p>When heat is supplied to a body without a change of state, its temperature rises by $Q = mc\\,\\Delta T$, where $c$ is the <strong>specific heat capacity</strong>. <strong>Calorimetry</strong> applies energy conservation: in an isolated mixture, heat lost by hot bodies equals heat gained by cold ones. Water's unusually high specific heat ($\\approx 4200\\ \\text{J kg}^{-1}\\text{K}^{-1}$) is why it is used as a coolant and why coastal climates are mild.</p><p>During a change of state the temperature stays constant while heat is absorbed or released — this hidden heat is the <strong>latent heat</strong>, $Q = mL$. The latent heat of fusion of ice and of vaporisation of water are standard NEET data; the large latent heat of vaporisation explains why steam burns are far worse than burns from boiling water at the same temperature, since condensing steam dumps its latent heat into the skin.</p><p>Heat moves by three mechanisms. In <strong>conduction</strong>, energy passes through a material without bulk motion; the rate is $\\dfrac{Q}{t} = \\dfrac{kA\\,\\Delta T}{L}$, where $k$ is the thermal conductivity — large for metals, tiny for air and wool. <strong>Convection</strong> transfers heat by the actual movement of a heated fluid and drives winds, ocean currents and household heating. <strong>Radiation</strong> needs no medium and travels as electromagnetic waves, which is how the Sun's energy reaches Earth.</p><p>For radiation, a perfect emitter and absorber is a <strong>black body</strong>. <strong>Stefan's law</strong> states that the power radiated per unit area is $E = \\sigma T^{4}$, rising steeply with absolute temperature, and <strong>Wien's law</strong> says the wavelength of peak emission shifts shorter as the body gets hotter, $\\lambda_m T = \\text{constant}$ — which is why a heated metal glows first red, then white. Finally, <strong>Newton's law of cooling</strong> states that for a small temperature difference the rate of cooling is proportional to the excess temperature over the surroundings, a frequently tested result.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Process / law</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Expression</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Heat to change temp.</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$Q = mc\\,\\Delta T$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Latent heat</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$Q = mL$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Conduction rate</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\dfrac{Q}{t} = \\dfrac{kA\\,\\Delta T}{L}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Stefan's law</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$E = \\sigma T^{4}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Wien's law</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\lambda_m T = \\text{const.}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>How much heat is needed to convert $20\\ \\text{g}$ of ice at $0^{\\circ}\\text{C}$ into water at $0^{\\circ}\\text{C}$? ($L_f = 336\\ \\text{J g}^{-1}$)</p>",
+              "solution": "<p>$Q = mL_f = 20\\times336 = 6720\\ \\text{J}$. The temperature stays at $0^{\\circ}\\text{C}$ throughout the melting.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A black body at temperature $T$ radiates power $P$. What power does it radiate at temperature $2T$?</p>",
+              "solution": "<p>By Stefan's law $E \\propto T^{4}$, so doubling $T$ multiplies power by $2^{4} = 16$. The new power is $16P$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The heat required to change the state of a substance at constant temperature is the:</p>", "options": ["specific heat", "latent heat", "thermal capacity", "conductivity"], "correct": 1, "explanation": "Latent heat $Q = mL$ acts at constant temperature." },
+            { "q": "<p>Heat transfer that does not require a medium is:</p>", "options": ["conduction", "convection", "radiation", "diffusion"], "correct": 2, "explanation": "Radiation travels as EM waves through vacuum." },
+            { "q": "<p>By Stefan's law, the power radiated per unit area is proportional to:</p>", "options": ["$T$", "$T^{2}$", "$T^{4}$", "$1/T$"], "correct": 2, "explanation": "$E = \\sigma T^{4}$." },
+            { "q": "<p>As a body gets hotter, the wavelength of maximum emission:</p>", "options": ["increases", "decreases", "stays constant", "becomes zero"], "correct": 1, "explanation": "Wien's law: $\\lambda_m T = $ constant, so $\\lambda_m$ falls." },
+            { "q": "<p>Steam at $100^{\\circ}\\text{C}$ causes worse burns than water at $100^{\\circ}\\text{C}$ because of its:</p>", "options": ["higher temperature", "latent heat of vaporisation", "lower density", "transparency"], "correct": 1, "explanation": "Condensing steam releases its large latent heat into the skin." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> In mixing problems set heat lost = heat gained, and watch for a change of state (use $mL$ at constant temperature). Remember $E \\propto T^{4}$ for radiated power.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Laws of Thermodynamics",
+      "topics": [
+        {
+          "number": 3,
+          "title": "First Law of Thermodynamics and Thermodynamic Processes",
+          "concept": "<p>Thermodynamics treats heat and work as two ways of transferring energy. The <strong>zeroth law</strong> defines temperature: if two bodies are each in thermal equilibrium with a third, they are in equilibrium with each other. The <strong>first law</strong> is simply energy conservation applied to a gas: $\\Delta Q = \\Delta U + \\Delta W$, where $\\Delta Q$ is heat supplied to the system, $\\Delta U$ is the change in its <strong>internal energy</strong>, and $\\Delta W = P\\,\\Delta V$ is the work done <em>by</em> the gas. Internal energy is a <strong>state function</strong> — it depends only on the state (temperature for an ideal gas), not on the path taken.</p><p>Getting the signs right is the core NEET skill: heat added to the gas is positive, work done <em>by</em> the gas (expansion) is positive, and work done <em>on</em> the gas (compression) is negative. For an ideal gas the internal energy depends only on temperature, so $\\Delta U > 0$ whenever the temperature rises, regardless of how.</p><p>Four special processes recur. In an <strong>isothermal</strong> process the temperature is constant, so $\\Delta U = 0$ and all the heat supplied becomes work: $\\Delta Q = \\Delta W$. In an <strong>adiabatic</strong> process no heat is exchanged ($\\Delta Q = 0$), so $\\Delta U = -\\Delta W$ — an adiabatic expansion <em>cools</em> the gas, the principle behind cloud formation and the cooling of escaping gas. Adiabatic changes follow $PV^{\\gamma} = \\text{constant}$, where $\\gamma = C_P/C_V$.</p><p>In an <strong>isobaric</strong> process the pressure is constant and $\\Delta W = P\\,\\Delta V$, while in an <strong>isochoric</strong> (constant-volume) process the volume is fixed, so $\\Delta W = 0$ and all the heat raises the internal energy ($\\Delta Q = \\Delta U$). The two molar specific heats are linked by <strong>Mayer's relation</strong> $C_P - C_V = R$, with $C_P > C_V$ because at constant pressure some heat also does expansion work.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Process</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Condition / result</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Isothermal</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$T$ const, $\\Delta U = 0$, $\\Delta Q = \\Delta W$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Adiabatic</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\Delta Q = 0$, $PV^{\\gamma} = $ const</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Isobaric</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$P$ const, $\\Delta W = P\\,\\Delta V$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Isochoric</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$V$ const, $\\Delta W = 0$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Mayer's relation</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$C_P - C_V = R$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A gas absorbs $200\\ \\text{J}$ of heat and does $80\\ \\text{J}$ of work. Find the change in its internal energy.</p>",
+              "solution": "<p>First law: $\\Delta U = \\Delta Q - \\Delta W = 200 - 80 = 120\\ \\text{J}$. The internal energy increases by $120\\ \\text{J}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>In which process is all the heat supplied converted into work done by an ideal gas?</p>",
+              "solution": "<p>In an <strong>isothermal</strong> process: $T$ is constant so $\\Delta U = 0$, hence $\\Delta Q = \\Delta W$ — every joule of heat becomes work.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The first law of thermodynamics is a statement of:</p>", "options": ["entropy increase", "energy conservation", "momentum conservation", "charge conservation"], "correct": 1, "explanation": "$\\Delta Q = \\Delta U + \\Delta W$ is energy conservation." },
+            { "q": "<p>In an adiabatic process:</p>", "options": ["$\\Delta T = 0$", "$\\Delta Q = 0$", "$\\Delta W = 0$", "$\\Delta U = 0$"], "correct": 1, "explanation": "No heat is exchanged in an adiabatic process." },
+            { "q": "<p>In an isochoric (constant-volume) process, the work done is:</p>", "options": ["$P\\,\\Delta V$", "maximum", "zero", "negative"], "correct": 2, "explanation": "$\\Delta V = 0$, so $\\Delta W = 0$." },
+            { "q": "<p>For an ideal gas, internal energy depends only on:</p>", "options": ["pressure", "volume", "temperature", "the path"], "correct": 2, "explanation": "$U$ of an ideal gas is a function of temperature alone." },
+            { "q": "<p>Mayer's relation states:</p>", "options": ["$C_P + C_V = R$", "$C_P - C_V = R$", "$C_P = C_V$", "$C_P C_V = R$"], "correct": 1, "explanation": "$C_P - C_V = R$ for an ideal gas." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Fix the sign convention first: $\\Delta Q$ in is $+$, work done by the gas is $+$. For an ideal gas $\\Delta U$ depends only on $\\Delta T$, so $\\Delta U = 0$ in any isothermal change.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Second Law, Heat Engines and the Carnot Cycle",
+          "concept": "<p>The first law allows energy to be conserved but does not forbid impossible-looking processes — heat never flows spontaneously from cold to hot, yet that would not violate energy conservation. The <strong>second law of thermodynamics</strong> supplies this missing direction. Two equivalent statements are tested: the <strong>Kelvin–Planck</strong> form (no engine can convert heat <em>entirely</em> into work in a cycle) and the <strong>Clausius</strong> form (heat cannot flow on its own from a colder to a hotter body).</p><p>A <strong>heat engine</strong> takes heat $Q_1$ from a hot reservoir, converts part of it to work $W$, and rejects the rest $Q_2$ to a cold reservoir. Its <strong>efficiency</strong> is $\\eta = \\dfrac{W}{Q_1} = 1 - \\dfrac{Q_2}{Q_1}$. The second law guarantees $Q_2$ can never be zero, so no real engine is $100\\%$ efficient — a recurring NEET conceptual point.</p><p>The most efficient possible engine working between two temperatures is the ideal <strong>Carnot engine</strong>, which runs on a reversible cycle of two isothermal and two adiabatic steps. Its efficiency depends only on the absolute temperatures of the reservoirs: $\\eta_{\\text{Carnot}} = 1 - \\dfrac{T_2}{T_1}$, with $T_1$ the source and $T_2$ the sink in kelvin. No engine between the same two temperatures can beat this, and efficiency improves by raising $T_1$ or lowering $T_2$ — but reaches $100\\%$ only if $T_2 = 0\\ \\text{K}$, which is unattainable.</p><p>Running an engine in reverse gives a <strong>refrigerator</strong> or heat pump, which uses work to move heat from cold to hot. Its performance is measured by the <strong>coefficient of performance</strong> $\\text{COP} = \\dfrac{Q_2}{W} = \\dfrac{Q_2}{Q_1 - Q_2}$, which is typically greater than one. The deep idea uniting all this is <strong>entropy</strong>, a measure of disorder that never decreases for an isolated system — the second law in its most general form.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Expression</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Engine efficiency</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\eta = 1 - \\dfrac{Q_2}{Q_1}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Carnot efficiency</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\eta = 1 - \\dfrac{T_2}{T_1}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Refrigerator COP</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\text{COP} = \\dfrac{Q_2}{Q_1 - Q_2}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A Carnot engine works between a source at $500\\ \\text{K}$ and a sink at $300\\ \\text{K}$. Find its efficiency.</p>",
+              "solution": "<p>$\\eta = 1 - \\dfrac{T_2}{T_1} = 1 - \\dfrac{300}{500} = 0.4$, i.e. $40\\%$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>An engine absorbs $1000\\ \\text{J}$ from the source and rejects $600\\ \\text{J}$ to the sink. Find its efficiency.</p>",
+              "solution": "<p>$\\eta = 1 - \\dfrac{Q_2}{Q_1} = 1 - \\dfrac{600}{1000} = 0.4 = 40\\%$. The work output is $1000 - 600 = 400\\ \\text{J}$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>No engine can convert heat completely into work. This is the:</p>", "options": ["zeroth law", "first law", "second law", "third law"], "correct": 2, "explanation": "Kelvin–Planck statement of the second law." },
+            { "q": "<p>The efficiency of a Carnot engine depends on:</p>", "options": ["the working substance", "the reservoir temperatures only", "the pressure", "the engine's size"], "correct": 1, "explanation": "$\\eta = 1 - T_2/T_1$ depends only on the temperatures." },
+            { "q": "<p>A Carnot engine can be $100\\%$ efficient only if:</p>", "options": ["$T_1 = T_2$", "$T_2 = 0\\ \\text{K}$", "$T_1 = 0\\ \\text{K}$", "$Q_1 = Q_2$"], "correct": 1, "explanation": "$\\eta = 1 - T_2/T_1 = 1$ needs $T_2 = 0$, which is unattainable." },
+            { "q": "<p>The Carnot cycle consists of:</p>", "options": ["two isothermal and two adiabatic steps", "four isothermal steps", "two isobaric and two isochoric steps", "four adiabatic steps"], "correct": 0, "explanation": "Two isothermal + two adiabatic reversible processes." },
+            { "q": "<p>For an isolated system, entropy:</p>", "options": ["always decreases", "stays constant only", "never decreases", "is zero"], "correct": 2, "explanation": "Entropy of an isolated system never decreases." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Use kelvin in $\\eta = 1 - T_2/T_1$. A Carnot engine sets the ceiling efficiency between two temperatures; no real engine can exceed it.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-physics-ch8-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>The coefficient of volume expansion is related to linear expansion by:</p>", "options": ["$\\gamma = \\alpha$", "$\\gamma = 2\\alpha$", "$\\gamma = 3\\alpha$", "$\\gamma = \\alpha/3$"], "correct": 2, "explanation": "$\\gamma = 3\\alpha$ for an isotropic solid." },
+            { "q": "<p>Heat required to raise the temperature of mass $m$ by $\\Delta T$ is:</p>", "options": ["$mL$", "$mc\\,\\Delta T$", "$m\\,\\Delta T$", "$c\\,\\Delta T$"], "correct": 1, "explanation": "$Q = mc\\,\\Delta T$." },
+            { "q": "<p>During melting at constant temperature, the heat supplied is the latent heat of:</p>", "options": ["vaporisation", "fusion", "sublimation", "condensation"], "correct": 1, "explanation": "Solid to liquid uses the latent heat of fusion." },
+            { "q": "<p>Thermal conduction rate through a slab is proportional to:</p>", "options": ["$L/A$", "$A\\,\\Delta T/L$", "$L/\\Delta T$", "$1/A$"], "correct": 1, "explanation": "$Q/t = kA\\,\\Delta T/L$." },
+            { "q": "<p>A black body at $300\\ \\text{K}$ and another at $600\\ \\text{K}$ radiate power in the ratio:</p>", "options": ["$1 : 2$", "$1 : 4$", "$1 : 8$", "$1 : 16$"], "correct": 3, "explanation": "$E \\propto T^4$; $(600/300)^4 = 16$." },
+            { "q": "<p>In an isothermal process for an ideal gas:</p>", "options": ["$\\Delta Q = 0$", "$\\Delta U = 0$", "$\\Delta W = 0$", "$T$ increases"], "correct": 1, "explanation": "Constant $T$ means $\\Delta U = 0$." },
+            { "q": "<p>For an adiabatic process, $PV^{\\gamma} = $ constant, where $\\gamma$ equals:</p>", "options": ["$C_V/C_P$", "$C_P/C_V$", "$C_P - C_V$", "$C_P + C_V$"], "correct": 1, "explanation": "$\\gamma = C_P/C_V$." },
+            { "q": "<p>A Carnot engine between $400\\ \\text{K}$ and $300\\ \\text{K}$ has efficiency:</p>", "options": ["$15\\%$", "$25\\%$", "$33\\%$", "$75\\%$"], "correct": 1, "explanation": "$\\eta = 1 - 300/400 = 0.25 = 25\\%$." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> Water can be made to boil without heating by reducing the pressure on it.<br><strong>R:</strong> The boiling point of a liquid falls as the external pressure decreases.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Lower pressure lowers the boiling point, so reduced pressure can make water boil at room temperature — R explains A." },
+            { "q": "<p><strong>A:</strong> A gas cools when it expands adiabatically.<br><strong>R:</strong> In an adiabatic expansion the gas does work at the expense of its internal energy.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "With $\\Delta Q = 0$, work done by the gas reduces $U$ and hence $T$ — R explains A." },
+            { "q": "<p><strong>A:</strong> A heat engine can convert all the heat it absorbs into useful work.<br><strong>R:</strong> The efficiency of a Carnot engine is $1 - T_2/T_1$.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "A is false (the second law forbids full conversion); R is a true statement of Carnot efficiency." },
+            { "q": "<p><strong>A:</strong> Steam at $100^{\\circ}\\text{C}$ produces more severe burns than water at $100^{\\circ}\\text{C}$.<br><strong>R:</strong> Steam releases its latent heat of vaporisation when it condenses on the skin.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The extra latent heat released on condensation makes steam burns worse — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

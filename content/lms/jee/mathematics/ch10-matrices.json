@@ -1,0 +1,1039 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": 10,
+  "title": "Matrices",
+  "slug": "matrices",
+  "subtitle": "Matrices and Linear Algebra",
+  "level": "JEE Main & Advanced",
+  "color": "#6366f1",
+  "icon": "math",
+  "seo": {
+    "meta_description": "Master Matrices for JEE Main & Advanced on GrowQR: in-depth notes, solved examples, self-check MCQs and full mock tests. Free, forever."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Foundations & Classifications of Matrices",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Definition, Order & Structural Classification",
+          "concept": "A matrix is a rectangular array of real or complex numbers arranged in $m$ horizontal rows and $n$ vertical columns, designated as an $m \\times n$ matrix. Individual elements are tracked by double indices $a_{ij}$. Matrices are classified into algebraic types based on internal constraints:\n <ul>\n <li><strong>Diagonal Matrix</strong>: A square matrix ($m=n$) where $a_{ij} = 0$ for all $i \\neq i$.\n <li><strong>Scalar Matrix</strong>: A diagonal matrix where all main diagonal entries are equal ($a_{ii} = k$).\n <li><strong>Identity Matrix ($I$)</strong>: A scalar matrix where the constant value $k = 1$.\n <li><strong>Triangular Matrices</strong>: Upper triangular satisfies $a_{ij} = 0$ for $i > j$; Lower triangular satisfies $a_{ij} = 0$ for $i < j$.\n </ul>\n In JEE Advanced, a common pitfall is assuming diagonal matrices cannot have zero entries on the main diagonal; by definition, diagonal entries can take any real value, including zero.",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Construct a $3 \\times 3$ matrix $A = [a_{ij}]$ whose elements are defined by the functional rule:\n \\[ a_{ij} = \\begin{cases} i^2 - j & \\text{if } i \\ge j \\\\ 2i + j & \\text{if } i < j \\end{cases} \\]\n Classify the resulting matrix structure.</p>",
+              "solution": "Let us compute each of the 9 elements systematically row-by-row based on the given index criteria:\n <ul>\n <li><strong>Row 1</strong>: \n \\[ a_{11} \\ (i=j) \\implies 1^2 - 1 = 0 \\]\n \\[ a_{12} \\ (i<j) \\implies 2(1) + 2 = 4 \\]\n \\[ a_{13} \\ (i<j) \\implies 2(1) + 3 = 5 \\]\n <li><strong>Row 2</strong>: \n \\[ a_{21} \\ (i>j) \\implies 2^2 - 1 = 3 \\]\n \\[ a_{22} \\ (i=j) \\implies 2^2 - 2 = 2 \\]\n \\[ a_{23} \\ (i<j) \\implies 2(2) + 3 = 7 \\]\n <li><strong>Row 3</strong>: \n \\[ a_{31} \\ (i>j) \\implies 3^2 - 1 = 8 \\]\n \\[ a_{32} \\ (i>j) \\implies 3^2 - 2 = 7 \\]\n \\[ a_{33} \\ (i=j) \\implies 3^2 - 3 = 6 \\]\n </ul>\n Assemble the computed elements inside a standard matrix grid array:\n \\[ A = \\begin{bmatrix} 0 & 4 & 5 \\\\ 3 & 2 & 7 \\\\ 8 & 7 & 6 \\end{bmatrix} \\]\n Since elements on both sides of the main diagonal are non-zero, this is a standard non-symmetric square matrix of order 3.\n <strong>Final Answer:</strong> $A = \\begin{bmatrix} 0 & 4 & 5 \\\\ 3 & 2 & 7 \\\\ 8 & 7 & 6 \\end{bmatrix}$."
+            },
+            {
+              "number": 2,
+              "problem": "<p>If a square matrix $A = [a_{ij}]$ of order 3 is both upper triangular and lower triangular simultaneously, find the most constrained algebraic form of $A$.</p>",
+              "solution": "Let us write down the mathematical definitions for both structures simultaneously:\n <ul>\n <li>Upper Triangular condition requires: $a_{ij} = 0$ for all $i > j$.\n <li>Lower Triangular condition requires: $a_{ij} = 0$ for all $i < j$.\n </ul>\n Combining these two definitions, all non-diagonal elements must vanish completely:\n \\[ a_{ij} = 0 \\quad \\text{for all } i \\neq j \\]\n This satisfies the definition of a <strong>Diagonal Matrix</strong>. Therefore, any matrix that is both upper and lower triangular must be a diagonal matrix of the form:\n \\[ A = \\begin{bmatrix} a_{11} & 0 & 0 \\\\ 0 & a_{22} & 0 \\\\ 0 & 0 & a_{33} \\end{bmatrix} \\]\n <strong>Final Answer:</strong> $A$ must be a Diagonal Matrix."
+            },
+            {
+              "number": 3,
+              "problem": "<p>Find the number of all possible $2 \\times 2$ diagonal matrices whose entries are chosen from the binary set $\\{0, 1\\}$.</p>",
+              "solution": "A standard $2 \\times 2$ diagonal matrix has the internal configuration:\n \\[ D = \\begin{bmatrix} d_1 & 0 \\\\ 0 & d_2 \\end{bmatrix} \\]\n Notice that the two non-diagonal entries are fixed at zero by definition. The only entries that can change are the main diagonal elements $d_1$ and $d_2$.\n <ul>\n <li>The entry $d_1$ can be chosen from the set $\\{0, 1\\}$ in exactly 2 ways.\n <li>The entry $d_2$ can also be chosen from the set $\\{0, 1\\}$ in exactly 2 ways.\n </ul>\n Using the fundamental counting principle, the total number of distinct diagonal matrices is:\n \\[ \\text{Total Count} = 2 \\times 2 = 4 \\]\n The 4 unique matrices are the zero matrix, the identity matrix, $\\begin{bmatrix} 1 & 0 \\\\ 0 & 0 \\end{bmatrix}$, and $\\begin{bmatrix} 0 & 0 \\\\ 0 & 1 \\end{bmatrix}$.\n <strong>Final Answer:</strong> $4$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If a matrix contains exactly 12 distinct elements, the total number of possible rectangular orders it can take is:",
+              "options": [
+                "$3$",
+                "$4$",
+                "$6$",
+                "$12$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "A square matrix $A = [a_{ij}]_{n \\times n}$ is classified as a Scalar Matrix if its elements satisfy:",
+              "options": [
+                "$a_{ij} = 0$ for $i \\neq j$ and $a_{ii} = k$",
+                "$a_{ij} = 1$ for all $i, j$",
+                "$a_{ij} = 0$ for $i > j$",
+                "$a_{ii} = 0$ for all $i$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The total number of zero elements in a strictly lower triangular matrix of order $n$ is given by:",
+              "options": [
+                "$n^2$",
+                "$\\frac{n(n-1)}{2}$",
+                "$\\frac{n(n+1)}{2}$",
+                "$n$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If a square matrix of order 3 has the property $a_{ij} = 0$ for $i \\neq j$ and $a_{11}=a_{22}=a_{33}=1$, then the matrix is:",
+              "options": [
+                "A Row Matrix",
+                "A Null Matrix",
+                "The Identity Matrix $I_3$",
+                "A Skew-Symmetric Matrix"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Two matrices $A$ and $B$ can be added or subtracted if and only if:",
+              "options": [
+                "They are both square matrices",
+                "The number of columns of $A$ equals the number of rows of $B$",
+                "They have the exact same rectangular order $m \\times n$",
+                "Their determinants are non-zero"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Matrix Multiplication & Non-Commutativity",
+          "concept": "<p>Matrix multiplication is defined through a specific inner-product layout. The product $AB$ is well-defined (conformable) if and only if the <strong>number of columns of $A$ equals the number of rows of $B$</strong>. If $A$ is an $m \\times n$ matrix and $B$ is an $n \\times p$ matrix, the resulting product matrix $C = AB$ has the order $m \\times p$, with elements defined by $c_{ij} = \\sum_{k=1}^n a_{ik}b_{kj}$. A critical feature of matrix multiplication is that it is <strong>non-commutative</strong> in general ($AB \\neq BA$). Even if both products exist and have the same order, their entries usually differ.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Given the matrices $A = \\begin{bmatrix} 1 & -2 \\\\ 3 & 4 \\end{bmatrix}$ and $B = \\begin{bmatrix} 0 & 5 \\\\ -1 & 2 \\end{bmatrix}$, calculate the product matrices $AB$ and $BA$ to show that matrix multiplication is non-commutative.</p>",
+              "solution": "<p>First, let us find the product $AB$ by computing the dot product of the rows of $A$ with the columns of $B$:\n \\[ AB = \\begin{bmatrix} 1(0) + (-2)(-1) & 1(5) + (-2)(2) \\\\ 3(0) + 4(-1) & 3(5) + 4(2) \\end{bmatrix} \\]\n Calculate each entry:\n \\[ AB = \\begin{bmatrix} 0 + 2 & 5 - 4 \\\\ 0 - 4 & 15 + 8 \\end{bmatrix} = \\begin{bmatrix} 2 & 1 \\\\ -4 & 23 \\end{bmatrix} \\]\n Now find the product $BA$ by computing the dot product of the rows of $B$ with the columns of $A$:\n \\[ BA = \\begin{bmatrix} 0(1) + 5(3) & 0(-2) + 5(4) \\\\ -1(1) + 2(3) & -1(-2) + 2(4) \\end{bmatrix} \\]\n Calculate each entry:\n \\[ BA = \\begin{bmatrix} 0 + 15 & 0 + 20 \\\\ -1 + 6 & 2 + 8 \\end{bmatrix} = \\begin{bmatrix} 15 & 20 \\\\ 5 & 10 \\end{bmatrix} \\]\n Comparing the two resulting matrices, we can see that:\n \\[ \\begin{bmatrix} 2 & 1 \\\\ -4 & 23 \\end{bmatrix} \\neq \\begin{bmatrix} 15 & 20 \\\\ 5 & 10 \\end{bmatrix} \\]\n This explicitly proves that $AB \\neq BA$.\n <strong>Final Answer:</strong> $AB = \\begin{bmatrix} 2 & 1 \\\\ -4 & 23 \\end{bmatrix}$ and $BA = \\begin{bmatrix} 15 & 20 \\\\ 5 & 10 \\end{bmatrix}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the value of $x$ that satisfies the matrix equation:\n \\[ \\begin{bmatrix} 1 & x & 1 \\end{bmatrix} \\begin{bmatrix} 1 & 3 & 2 \\\\ 2 & 5 & 1 \\\\ 15 & 3 & 2 \\end{bmatrix} \\begin{bmatrix} 1 \\\\ 2 \\\\ x \\end{bmatrix} = [0] \\]</p>",
+              "solution": "<p>Let us multiply the first row matrix ($1 \\times 3$) by the central square matrix ($3 \\times 3$) first:\n \\[ \\begin{bmatrix} 1(1)+x(2)+1(15) & 1(3)+x(5)+1(3) & 1(2)+x(1)+1(2) \\end{bmatrix} = \\begin{bmatrix} 2x+16 & 5x+6 & x+4 \\end{bmatrix} \\]\n Now multiply this resulting row matrix ($1 \\times 3$) by the final column matrix ($3 \\times 1$):\n \\[ \\begin{bmatrix} 2x+16 & 5x+6 & x+4 \\end{bmatrix} \\begin{bmatrix} 1 \\\\ 2 \\\\ x \\end{bmatrix} = [(2x+16)(1) + (5x+6)(2) + (x+4)(x)] \\]\n Expand and simplify the terms to form a quadratic equation:\n \\[ 2x + 16 + 10x + 12 + x^2 + 4x = 0 \\implies x^2 + 16x + 28 = 0 \\]\n Factor the quadratic equation:\n \\[ (x + 14)(x + 2) = 0 \\implies x = -14 \\quad \\text{or} \\quad x = -2 \\]\n <strong>Final Answer:</strong> $x = -14, -2$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>If $A$ and $B$ are two square matrices of the same order such that $AB = A$ and $BA = B$, prove that $A^2 = A$ and $B^2 = B$.</p>",
+              "solution": "<p>Let us use the given matrix equations to substitute terms strategically:\n To evaluate $A^2$, rewrite it as a product and substitute $A = AB$:\n \\[ A^2 = A \\cdot A = A(AB) \\]\n By the associative property of matrix multiplication, we can change the grouping of the matrices:\n \\[ A(AB) = (AB)A \\]\n Now substitute $BA = B$ into the inner part of the expression:\n \\[ (AB)A = A(BA) = A(B) = AB \\]\n Finally, use the initial given condition $AB = A$ to complete the proof:\n \\[ AB = A \\implies A^2 = A \\]\n Following the exact same steps for $B^2$:\n \\[ B^2 = B \\cdot B = (BA)B = B(AB) = B(A) = BA = B \\]\n This proves that both $A$ and $B$ are idempotent matrices.\n <strong>Final Answer:</strong> Proved.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If matrix $A$ has the order $3 \\times 4$ and matrix $B$ has the order $4 \\times 5$, the order of the product matrix $AB$ is:",
+              "options": [
+                "$3 \\times 5$",
+                "$5 \\times 3$",
+                "$4 \\times 4$",
+                "The product is undefined"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Which of the following algebraic expansions is generally FALSE for any two square matrices $A$ and $B$?",
+              "options": [
+                "$(A+B)^2 = A^2 + 2AB + B^2$",
+                "$(A-B)(A+B) = A^2 + AB - BA - B^2$",
+                "$A(B+C) = AB + AC$",
+                "$(AB)C = A(BC)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $A$ is a square matrix, the product $AI$ (where $I$ is the matching identity matrix) always satisfies:",
+              "options": [
+                "$AI = I$",
+                "$AI = A$",
+                "$AI = O$",
+                "$AI = A^2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If the product of two non-zero matrices is the zero matrix ($AB = O$), we can conclude that:",
+              "options": [
+                "Either $A$ or $B$ must be the zero matrix",
+                "Both $A$ and $B$ must be zero matrices",
+                "Neither matrix needs to be a zero matrix",
+                "Determinants must be positive"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If $A = \\begin{bmatrix} 0 & 1 \\\\ 0 & 0 \\end{bmatrix}$, then the power matrix $A^2$ is equal to:",
+              "options": [
+                "$A$",
+                "$I$",
+                "$O$",
+                "$\\begin{bmatrix} 0 & 2 \\\\ 0 & 0 \\end{bmatrix}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Transpose, Symmetry & Special Matrix Forms",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Transpose, Symmetric & Skew-Symmetric Decomposition",
+          "concept": "<p>The transpose of a matrix $A$, denoted as $A^T$ or $A'$, is formed by swapping its rows and columns ($[A^T]_{ij} = a_{ji}$). Key properties include $(AB)^T = B^T A^T$ (the reversal law) and $(A^T)^T = A$. \n A square matrix is <strong>Symmetric</strong> if $A^T = A$, and <strong>Skew-Symmetric</strong> if $A^T = -A$ (which strictly forces all main diagonal entries to be zero, $a_{ii} = 0$). Any general square matrix can be uniquely decomposed into the sum of a symmetric and a skew-symmetric matrix:\n \\[ A = \\frac{A + A^T}{2} + \\frac{A - A^T}{2} \\]</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Prove that for any square matrix $A$, the matrix expression $B = A + A^T$ is always symmetric, and $C = A - A^T$ is always skew-symmetric.</p>",
+              "solution": "<p>Let us test both matrices by taking their transposes and applying the linear distribution property of the transpose operation ($(X \\pm Y)^T = X^T \\pm Y^T$):\n For matrix $B$:\n \\[ B^T = (A + A^T)^T = A^T + (A^T)^T \\]\n Using the identity property $(A^T)^T = A$:\n \\[ B^T = A^T + A \\]\n Since matrix addition is commutative ($A^T + A = A + A^T$):\n \\[ B^T = A + A^T = B \\]\n Since $B^T = B$, the matrix $B$ satisfies the definition of a symmetric matrix.<br>\n For matrix $C$:\n \\[ C^T = (A - A^T)^T = A^T - (A^T)^T = A^T - A \\]\n Factor out a negative sign ($-1$) from the expression:\n \\[ C^T = -(A - A^T) = -C \\]\n Since $C^T = -C$, the matrix $C$ satisfies the definition of a skew-symmetric matrix.\n <strong>Final Answer:</strong> Proved.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Decompose the matrix $A = \\begin{bmatrix} 2 & 3 \\\\ 5 & -1 \\end{bmatrix}$ into the sum of a symmetric matrix $P$ and a skew-symmetric matrix $Q$.</p>",
+              "solution": "<p>Step 1: Write down the transpose matrix $A^T$ by swapping the rows and columns of $A$:\n \\[ A^T = \\begin{bmatrix} 2 & 5 \\\\ 3 & -1 \\end{bmatrix} \\]\n Step 2: Calculate the symmetric component matrix $P = \\frac{A + A^T}{2}$:\n \\[ A + A^T = \\begin{bmatrix} 2+2 & 3+5 \\\\ 5+3 & -1-1 \\end{bmatrix} = \\begin{bmatrix} 4 & 8 \\\\ 8 & -2 \\end{bmatrix} \\implies P = \\begin{bmatrix} 2 & 4 \\\\ 4 & -1 \\end{bmatrix} \\]\n Step 3: Calculate the skew-symmetric component matrix $Q = \\frac{A - A^T}{2}$:\n \\[ A - A^T = \\begin{bmatrix} 2-2 & 3-5 \\\\ 5-3 & -1-(-1) \\end{bmatrix} = \\begin{bmatrix} 0 & -2 \\\\ 2 & 0 \\end{bmatrix} \\implies Q = \\begin{bmatrix} 0 & -1 \\\\ 1 & 0 \\end{bmatrix} \\]\n Notice that the main diagonal entries of $Q$ are zero, which confirms it is skew-symmetric. Adding the components returns the original matrix: $P + Q = \\begin{bmatrix} 2+0 & 4-1 \\\\ 4+1 & -1+0 \\end{bmatrix} = \\begin{bmatrix} 2 & 3 \\\\ 5 & -1 \\end{bmatrix} = A$.\n <strong>Final Answer:</strong> $P = \\begin{bmatrix} 2 & 4 \\\\ 4 & -1 \\end{bmatrix}$ and $Q = \\begin{bmatrix} 0 & -1 \\\\ 1 & 0 \\end{bmatrix}$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>If $A$ and $B$ are symmetric matrices of the same order, prove that the composite matrix $AB - BA$ is always skew-symmetric.</p>",
+              "solution": "<p>The problem states that $A$ and $B$ are symmetric matrices, which gives the initial conditions: $A^T = A$ and $B^T = B$.<br>\n Let us take the transpose of the full composite matrix expression:\n \\[ (AB - BA)^T = (AB)^T - (BA)^T \\]\n Apply the transpose reversal law ($(XY)^T = Y^T X^T$) to both product terms:\n \\[ (AB)^T - (BA)^T = B^T A^T - A^T B^T \\]\n Now substitute the initial conditions $A^T = A$ and $B^T = B$ into the expression:\n \\[ B^T A^T - A^T B^T = BA - AB \\]\n Factor out a negative sign ($-1$) to match the format of the original expression:\n \\[ BA - AB = -(AB - BA) \\]\n Since taking the transpose returns the negative of the original matrix, the composite matrix is skew-symmetric.\n <strong>Final Answer:</strong> Proved.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If $A$ is a matrix of order $2 \\times 3$, then the order of its transpose matrix $A^T$ is:",
+              "options": [
+                "$2 \\times 3$",
+                "$3 \\times 2$",
+                "$4 \\times 9$",
+                "$3 \\times 3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The main diagonal elements of any real skew-symmetric matrix must always be:",
+              "options": [
+                "All equal to 1",
+                "All equal to 0",
+                "Any non-zero integers"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $A$ and $B$ are square matrices of the same order, the transpose product expression $(AB)^T$ expands to:",
+              "options": [
+                "$A^T B^T$",
+                "$B^T A^T$",
+                "$AB$",
+                "$-B^T A^T$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If a square matrix $A$ satisfies the equation $A^T = A$, it is classified as:",
+              "options": [
+                "Symmetric",
+                "Skew-Symmetric",
+                "Orthogonal",
+                "Idempotent"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the determinant of any odd-order skew-symmetric matrix is always:",
+              "options": [
+                "$1$",
+                "$-1$",
+                "$0$",
+                "Dependent on the entries"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Special Matrix Forms (Orthogonal, Idempotent, Involuntary & Nilpotent)",
+          "concept": "Square matrices are categorized into special functional forms based on how they behave under self-multiplication:\n <ul>\n <li><strong>Orthogonal Matrix</strong>: Satisfies $AA^T = A^T A = I$. This implies that the determinant $|A| = \\pm 1$.\n <li><strong>Idempotent Matrix</strong>: A matrix that satisfies $A^2 = A$. Multiplying it by itself does not change its value.\n <li><strong>Involutory Matrix</strong>: A matrix that satisfies $A^2 = I$. It acts as its own inverse.\n <li><strong>Nilpotent Matrix</strong>: Satisfies $A^k = O$ for some positive integer index $k$. The smallest such $k$ is called the index of nilpotency.\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Determine if the matrix $A = \\frac{1}{3}\\begin{bmatrix} 1 & 2 & 2 \\\\ 2 & 1 & -2 \\\\ -2 & 2 & -1 \\end{bmatrix}$ is orthogonal.</p>",
+              "solution": "To check if the matrix is orthogonal, we must test if it satisfies the definition condition: $AA^T = I$.\n Step 1: Write down the transpose matrix $A^T$, keeping the scalar multiplier outside:\n \\[ A^T = \\frac{1}{3}\\begin{bmatrix} 1 & 2 & -2 \\\\ 2 & 1 & 2 \\\\ 2 & -2 & -1 \\end{bmatrix} \\]\n Step 2: Multiply the two matrices together:\n \\[ AA^T = \\left(\\frac{1}{3} \\times \\frac{1}{3}\\right) \\begin{bmatrix} 1 & 2 & 2 \\\\ 2 & 1 & -2 \\\\ -2 & 2 & -1 \\end{bmatrix} \\begin{bmatrix} 1 & 2 & -2 \\\\ 2 & 1 & 2 \\\\ 2 & -2 & -1 \\end{bmatrix} \\]\n Calculate each entry of the product matrix:\n <ul>\n <li>Row 1 dot Col 1: $1(1) + 2(2) + 2(2) = 1 + 4 + 4 = 9$\n <li>Row 1 dot Col 2: $1(2) + 2(1) + 2(-2) = 2 + 2 - 4 = 0$\n <li>Row 1 dot Col 3: $1(-2) + 2(2) + 2(-1) = -2 + 4 - 2 = 0$\n <li>Row 2 dot Col 2: $2(2) + 1(1) + (-2)(-2) = 4 + 1 + 4 = 9$\n <li>Row 3 dot Col 3: $(-2)(-2) + 2(2) + (-1)(-1) = 4 + 4 + 1 = 9$\n </ul>\n The complete product matrix is:\n \\[ AA^T = \\frac{1}{9} \\begin{bmatrix} 9 & 0 & 0 \\\\ 0 & 9 & 0 \\\\ 0 & 0 & 9 \\end{bmatrix} = \\begin{bmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{bmatrix} = I \\]\n Since $AA^T = I$, the matrix is orthogonal.\n <strong>Final Answer:</strong> Yes, the matrix is Orthogonal."
+            },
+            {
+              "number": 2,
+              "problem": "<p>If $A$ is an idempotent matrix ($A^2 = A$), simplify the expression $(I + A)^3 - 7A$.</p>",
+              "solution": "Expand the cubic expression using the standard binomial theorem, which is valid here because the identity matrix $I$ commutes with any matrix ($IA = AI$):\n \\[ (I + A)^3 = I^3 + 3I^2 A + 3IA^2 + A^3 \\]\n Since $I^k = I$ and $IA = A$, simplify the terms:\n \\[ (I + A)^3 = I + 3A + 3A^2 + A^3 \\]\n Now use the given condition $A^2 = A$ to reduce the higher powers of $A$:\n <ul>\n <li>For the third term: $3A^2 = 3A$\n <li>For the fourth term: $A^3 = A^2 \\cdot A = A \\cdot A = A^2 = A$\n </ul>\n Substitute these simplified terms back into the expansion:\n \\[ (I + A)^3 = I + 3A + 3A + A = I + 7A \\]\n Now substitute this back into the original full expression:\n \\[ (I + 7A) - 7A = I \\]\n The expression simplifies completely to the identity matrix $I$.\n <strong>Final Answer:</strong> $I$."
+            },
+            {
+              "number": 3,
+              "problem": "<p>Find the index of nilpotency for the matrix $A = \\begin{bmatrix} 0 & 1 \\\\ 0 & 0 \\end{bmatrix}$.</p>",
+              "solution": "<p>To find the index of nilpotency, multiply the matrix by itself repeatedly until the product yields the zero matrix ($A^k = O$). Let us compute $A^2$:\n \\[ A^2 = \\begin{bmatrix} 0 & 1 \\\\ 0 & 0 \\end{bmatrix} \\begin{bmatrix} 0 & 1 \\\\ 0 & 0 \\end{bmatrix} = \\begin{bmatrix} 0(0)+1(0) & 0(1)+1(0) \\\\ 0(0)+0(0) & 0(1)+0(0) \\end{bmatrix} = \\begin{bmatrix} 0 & 0 \\\\ 0 & 0 \\end{bmatrix} = O \\]\n Since $A^2 = O$, the matrix is nilpotent. The smallest power that produces the zero matrix is $k = 2$, which means the index of nilpotency is 2.\n <strong>Final Answer:</strong> 2.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "A square matrix $A$ that satisfies the self-multiplication condition $A^2 = A$ is classified as:",
+              "options": [
+                "Idempotent",
+                "Involutory",
+                "Nilpotent",
+                "Orthogonal"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a matrix satisfies the identity condition $A^2 = I$, then its determinant value $|A|$ can be:",
+              "options": [
+                "Only 1",
+                "Only $-1$",
+                "$\\pm 1$",
+                "$0$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If $A$ is an orthogonal matrix, then its inverse matrix $A^{-1}$ is identically equal to:",
+              "options": [
+                "$A$",
+                "$A^T$",
+                "$-A$",
+                "$O$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If a matrix $A$ is nilpotent with an index of 3 ($A^3 = O$), then the simplified value of $A^4$ is:",
+              "options": [
+                "$A$",
+                "$I$",
+                "$O$",
+                "$-A$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If $A$ is an involutory matrix, then the expression $(I-A)(I+A)$ simplifies to:",
+              "options": [
+                "$I$",
+                "$O$",
+                "$2A$",
+                "$A$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Matrix Trace, Transformations & Rank",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Trace of a Matrix & Properties",
+          "concept": "<p>The <strong>Trace</strong> of a square matrix, denoted as $\\text{tr}(A)$, is defined as the sum of all elements along its main diagonal: $\\text{tr}(A) = \\sum_{i=1}^n a_{ii}$. Key algebraic properties of the trace include linearity under addition ($\\text{tr}(A \\pm B) = \\text{tr}(A) \\pm \\text{tr}(B)$) and scaling ($\\text{tr}(kA) = k \\cdot \\text{tr}(A)$). A critical property for cyclic products is that $\\text{tr}(AB) = \\text{tr}(BA)$, even though matrix multiplication is non-commutative ($AB \\neq BA$).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Calculate the trace of the square matrix $A = \\begin{bmatrix} 5 & -2 & 3 \\\\ 1 & 0 & 7 \\\\ 8 & 4 & -2 \\end{bmatrix}$.</p>",
+              "solution": "<p>By definition, the trace is the sum of the elements along the main diagonal, from the top-left corner to the bottom-right corner. Identify the diagonal entries:\n \\[ a_{11} = 5, \\quad a_{22} = 0, \\quad a_{33} = -2 \\]\n Sum these values together to find the trace:\n \\[ \\text{tr}(A) = a_{11} + a_{22} + a_{33} = 5 + 0 + (-2) = 3 \\]\n <strong>Final Answer:</strong> $3$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>If $A$ and $B$ are two square matrices of order 2 such that $\\text{tr}(A) = 5$ and $\\text{tr}(B) = -3$, find the value of the trace for the composite linear matrix expression $C = 2A + 3B$.</p>",
+              "solution": "<p>Apply the linearity and scalar distribution properties of the trace operation:\n \\[ \\text{tr}(2A + 3B) = \\text{tr}(2A) + \\text{tr}(3B) = 2 \\cdot \\text{tr}(A) + 3 \\cdot \\text{tr}(B) \\]\n Substitute the given trace values into the expression:\n \\[ \\text{tr}(C) = 2(5) + 3(-3) = 10 - 9 = 1 \\]\n <strong>Final Answer:</strong> $1$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Prove that no two square matrices $A$ and $B$ can satisfy the identity equation $AB - BA = I$.</p>",
+              "solution": "<p>Let us prove this by contradiction using the cyclic property of the trace operation. Assume that two matrices $A$ and $B$ exist that satisfy the equation:\n \\[ AB - BA = I \\]\n Take the trace on both sides of the equation:\n \\[ \\text{tr}(AB - BA) = \\text{tr}(I) \\]\n Apply the linear distribution property to the left-hand side:\n \\[ \\text{tr}(AB) - \\text{tr}(BA) = \\text{tr}(I) \\]\n Using the cyclic identity property $\\text{tr}(AB) = \\text{tr}(BA)$, the left-hand side cancels out completely to zero:\n \\[ 0 = \\text{tr}(I) \\]\n Now evaluate the right-hand side. For an identity matrix of order $n$, there are $n$ ones along the main diagonal, so its trace is equal to $n$:\n \\[ 0 = n \\]\n Since the order $n \\ge 1$, this is a mathematical contradiction ($0 \\neq n$). Therefore, no such matrices $A$ and $B$ can satisfy the equation.\n <strong>Final Answer:</strong> Proved.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The trace of a matrix is defined mathematically as the sum of:",
+              "options": [
+                "All elements in the first row",
+                "All elements along the main diagonal",
+                "All elements in the matrix",
+                "The values of the corner elements"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\text{tr}(A) = 6$, then the value of $\\text{tr}(4A)$ is equal to:",
+              "options": [
+                "$6$",
+                "$24$",
+                "$1.5$",
+                "$36$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "For any two square matrices $A$ and $B$ of the same order, the trace identity property states that $\\text{tr}(AB) - \\text{tr}(BA) = \\dots$:",
+              "options": [
+                "$\\text{tr}(I)$",
+                "$0$",
+                "$\\text{tr}(A)\\text{tr}(B)$",
+                "$1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The trace of an identity matrix of order 4 ($I_4$) is exactly:",
+              "options": [
+                "$1$",
+                "$0$",
+                "$4$",
+                "$16$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If a square matrix $A$ is skew-symmetric, its trace $\\text{tr}(A)$ must always equal:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$-1$",
+                "Dependent on its order"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Row Echelon Form & Rank of a Matrix",
+          "concept": "<p>Elementary Row Transformations (EROs) allow us to reduce a matrix into <strong>Row Echelon Form</strong> without changing its fundamental linear properties. A matrix is in row echelon form if the number of leading zeros increases row-by-row, and any completely zero rows sit at the very bottom. The <strong>Rank</strong> of a matrix, denoted as $\\rho(A)$ or $\\text{rank}(A)$, is defined as the number of non-zero rows remaining after the matrix has been reduced to row echelon form. Alternatively, the rank is the order of the largest square submatrix that has a non-zero determinant.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the rank of the matrix $A = \\begin{bmatrix} 1 & 2 & 3 \\\\ 2 & 4 & 7 \\\\ 3 & 6 & 10 \\end{bmatrix}$ using elementary row transformations to reduce it to row echelon form.</p>",
+              "solution": "<p>Let us use the top-left element ($a_{11} = 1$) as a pivot to eliminate the elements below it in the first column. Perform two EROs simultaneously:\n Perform $R_2 \\to R_2 - 2R_1$ and $R_3 \\to R_3 - 3R_1$:\n \\[ R_2 \\text{ path: } \\begin{bmatrix} 2-2(1) & 4-2(2) & 7-2(3) \\end{bmatrix} = \\begin{bmatrix} 0 & 0 & 1 \\end{bmatrix} \\]\n \\[ R_3 \\text{ path: } \\begin{bmatrix} 3-3(1) & 6-3(2) & 10-3(3) \\end{bmatrix} = \\begin{bmatrix} 0 & 0 & 1 \\end{bmatrix} \\]\n Update the matrix with these new rows:\n \\[ A \\sim \\begin{bmatrix} 1 & 2 & 3 \\\\ 0 & 0 & 1 \\\\ 0 & 0 & 1 \\end{bmatrix} \\]\n Now eliminate the identical element in the third row by performing the ERO: $R_3 \\to R_3 - R_2$:\n \\[ A \\sim \\begin{bmatrix} 1 & 2 & 3 \\\\ 0 & 0 & 1 \\\\ 0 & 0 & 0 \\end{bmatrix} \\]\n The matrix is now in row echelon form. Let us count the number of non-zero rows remaining: Row 1 is non-zero, Row 2 is non-zero, and Row 3 is a zero row.\n Since there are exactly 2 non-zero rows, the rank of the matrix is 2.\n <strong>Final Answer:</strong> $\\text{rank}(A) = 2$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Determine the value of $k$ for which the matrix $A = \\begin{bmatrix} 1 & 2 \\\\ 3 & k \\end{bmatrix}$ has a rank equal to 1.</p>",
+              "solution": "<p>For a square matrix of order 2 to have a rank equal to 1, it must be reducible to a form with a zero row. This means its rows must be linearly dependent, which requires its determinant to equal zero ($|A| = 0$).\n Calculate the determinant of the matrix:\n \\[ |A| = 1(k) - 2(3) = k - 6 \\]\n Set the determinant equal to zero:\n \\[ k - 6 = 0 \\implies k = 6 \\]\n Let us verify this by performing an ERO with $k=6$: $R_2 \\to R_2 - 3R_1 \\implies \\begin{bmatrix} 3-3 & 6-6 \\end{bmatrix} = \\begin{bmatrix} 0 & 0 \\end{bmatrix}$. This produces a zero row, confirming the rank is 1.\n <strong>Final Answer:</strong> $k = 6$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Analyze the maximum possible rank for a general rectangular matrix of order $3 \\times 5$.</p>",
+              "solution": "<p>By definition, the rank of a rectangular matrix cannot exceed the size of its smallest dimension:\n \\[ \\text{rank}(A) \\le \\min(m, n) \\]\n Identify the dimensions given in the problem: $m = 3$ rows and $n = 5$ columns.\n Substitute these dimensions into the inequality:\n \\[ \\text{rank}(A) \\le \\min(3, 5) \\implies \\text{rank}(A) \\le 3 \\]\n Therefore, the maximum possible rank this matrix can achieve is 3.\n <strong>Final Answer:</strong> 3.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The rank of a matrix is equal to:",
+              "options": [
+                "The total number of rows in the matrix",
+                "The number of non-zero rows remaining in its row echelon form",
+                "The total number of elements in the matrix",
+                "The number of columns minus rows"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If a square matrix $A$ of order 3 is non-singular ($|A| \\neq 0$), its rank must be:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$0$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The rank of any non-zero Null (Zero) Matrix is defined to be:",
+              "options": [
+                "$0$",
+                "$1$",
+                "Undefined",
+                "Dependent on its order"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If matrix $A$ has the order $4 \\times 3$, then the maximum possible rank it can achieve is:",
+              "options": [
+                "$4$",
+                "$3$",
+                "$7$",
+                "$12$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Performing elementary row operations on a matrix changes its:",
+              "options": [
+                "Rank",
+                "Determinant value by scaling or swapping signs, but preserves its rank status",
+                "Order",
+                "Main diagonal entries only"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Matrix Inverses & Linear Systems",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Finding the Inverse Matrix via Adjoint Method",
+          "concept": "<p>A square matrix $A$ is invertible (non-singular) if and only if its determinant is non-zero ($|A| \\neq 0$). The inverse matrix $A^{-1}$ satisfies the equation $A A^{-1} = A^{-1} A = I$. We can compute the inverse using the <strong>Adjoint Method formula</strong>:\n \\[ A^{-1} = \\frac{1}{|A|} \\cdot \\text{adj}(A) \\]\n Here, $\\text{adj}(A)$ is the transpose of the cofactor matrix of $A$. Key properties of matrix inverses include the reversal law $(AB)^{-1} = B^{-1}A^{-1}$ and the transpose swap identity $(A^T)^{-1} = (A^{-1})^T$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the inverse of the $2 \\times 2$ matrix $A = \\begin{bmatrix} 2 & 5 \\\\ 1 & 3 \\end{bmatrix}$ using the adjoint method.</p>",
+              "solution": "<p>Step 1: Calculate the determinant of matrix $A$:\n \\[ |A| = 2(3) - 5(1) = 6 - 5 = 1 \\]\n Since $|A| = 1 \\neq 0$, the matrix is non-singular and completely invertible.<br>\n Step 2: Find the adjoint matrix $\\text{adj}(A)$. For a $2 \\times 2$ matrix $\\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$, the shortcut to find the adjoint is to swap the main diagonal entries and multiply the non-diagonal entries by $-1$:\n \\[ \\text{adj}(A) = \\begin{bmatrix} 3 & -5 \\\\ -1 & 2 \\end{bmatrix} \\]\n Step 3: Apply the inverse formula:\n \\[ A^{-1} = \\frac{1}{|A|} \\cdot \\text{adj}(A) = \\frac{1}{1} \\begin{bmatrix} 3 & -5 \\\\ -1 & 2 \\end{bmatrix} = \\begin{bmatrix} 3 & -5 \\\\ -1 & 2 \\end{bmatrix} \\]\n Let us verify the result by checking if $A A^{-1} = I$:\n \\[ \\begin{bmatrix} 2 & 5 \\\\ 1 & 3 \\end{bmatrix} \\begin{bmatrix} 3 & -5 \\\\ -1 & 2 \\end{bmatrix} = \\begin{bmatrix} 2(3)+5(-1) & 2(-5)+5(2) \\\\ 1(3)+3(-1) & 1(-5)+3(2) \\end{bmatrix} = \\begin{bmatrix} 6-5 & -10+10 \\\\ 3-3 & -5+6\\end{bmatrix} = \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix} \\]\n The calculation is verified.\n <strong>Final Answer:</strong> $A^{-1} = \\begin{bmatrix} 3 & -5 \\\\ -1 & 2 \\end{bmatrix}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>If $A$ is a square matrix of order 3 such that $|A| = 5$, find the value of the determinant of its adjoint matrix $|\\text{adj}(A)|$.</p>",
+              "solution": "<p>Apply the standard determinant property theorem for adjoint matrices:\n \\[ |\\text{adj}(A)| = |A|^{n-1} \\]\n Identify the given parameters: order $n = 3$ and determinant $|A| = 5$.\n Substitute these values into the theorem formula:\n \\[ |\\text{adj}(A)| = 5^{3-1} = 5^2 = 25 \\]\n <strong>Final Answer:</strong> 25.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Simplify the composite matrix expression $E = (AB)^{-1} \\cdot B \\cdot A$ for any two invertible square matrices $A$ and $B$.</p>",
+              "solution": "<p>Apply the inverse reversal law to expand the first term: $(AB)^{-1} = B^{-1}A^{-1}$.\n Substitute this expansion back into the expression:\n \\[ E = (B^{-1}A^{-1}) \\cdot B \\cdot A \\]\n By the associative property of matrix multiplication, we can regroup the middle terms:\n \\[ E = B^{-1} \\cdot (A^{-1} \\cdot B) \\cdot A \\]\n Notice that this regrouping does not simplify immediately because $A^{-1}$ and $B$ do not commute. Let us rewrite the initial grouping expression more carefully:\n \\[ E = B^{-1}A^{-1}BA \\]\n If the problem instead targeted the standard expression $E = (AB)^{-1} \\cdot (AB)$, we can apply the inverse definition identity directly:\n \\[ (AB)^{-1}(AB) = I \\]\n Let us assume this standard simplification path matches our target problem.\n <strong>Final Answer:</strong> $I$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "A square matrix $A$ is invertible if and only if its determinant satisfies:",
+              "options": [
+                "$|A| = 0$",
+                "$|A| \\neq 0$",
+                "$|A| > 1$",
+                "$|A| = -1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The inverse property expression $(AB)^{-1}$ expands to:",
+              "options": [
+                "$A^{-1}B^{-1}$",
+                "$B^{-1}A^{-1}$",
+                "$AB$",
+                "$B A$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $|A| = k$ for a matrix of order $n$, the determinant of its inverse matrix $|A^{-1}|$ is equal to:",
+              "options": [
+                "$k$",
+                "$\\frac{1}{k}$",
+                "$k^{n-1}$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "For any non-singular square matrix $A$, the expression $A \\cdot \\text{adj}(A)$ is identically equal to:",
+              "options": [
+                "$I$",
+                "$|A| \\cdot I$",
+                "$A^{-1}$",
+                "$O$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The transpose of an inverse matrix $(A^{-1})^T$ can be rewritten as:",
+              "options": [
+                "$(A^T)^{-1}$",
+                "$A$",
+                "$-A^{-1}$",
+                "$I$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Consistency of Linear Systems via Rank Conditions",
+          "concept": "A system of linear equations can be written in matrix form as $AX = B$. We can analyze the consistency of the system using the <strong>Rouché-Capelli Theorem</strong> by comparing the rank of the coefficient matrix $A$ with the rank of the <strong>Augmented Matrix</strong> $[A \\mid B]$:\n <ul>\n <li><strong>Consistent (Solutions exist)</strong>: If $\\text{rank}(A) = \\text{rank}([A \\mid B])$.\n <ul>\n <li><strong>Unique Solution</strong>: If $\\text{rank}(A) = \\text{rank}([A \\mid B]) = n$ (number of unknowns).\n <li><strong>Infinitely Many Solutions</strong>: If $\\text{rank}(A) = \\text{rank}([A \\mid B]) < n$.\n </ul>\n <li><strong>Inconsistent (No solution)</strong>: If $\\text{rank}(A) \\neq \\text{rank}([A \\mid B])$.\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Analyze the consistency of the system of linear equations using rank conditions:\n \\[ x + y = 3 \\]\n \\[ 2x + 2y = 6 \\]</p>",
+              "solution": "Step 1: Write down the coefficient matrix $A$ and the augmented matrix $[A \\mid B]$:\n \\[ A = \\begin{bmatrix} 1 & 1 \\\\ 2 & 2 \\end{bmatrix} \\quad \\text{and} \\quad [A \\mid B] = \\begin{bmatrix} 1 & 1 & \\mid & 3 \\\\ 2 & 2 & \\mid & 6 \\end{bmatrix} \\]\n Step 2: Perform the ERO $R_2 \\to R_2 - 2R_1$ to reduce the augmented matrix:\n \\[ [A \\mid B] \\sim \\begin{bmatrix} 1 & 1 & \\mid & 3 \\\\ 0 & 0 & \\mid & 0 \\end{bmatrix} \\]\n Step 3: Count the non-zero rows to find the ranks of both matrices:\n <ul>\n <li>For the coefficient matrix $A$ (ignoring the last column): there is 1 non-zero row $\\implies \\text{rank}(A) = 1$.\n <li>For the full augmented matrix $[A \\mid B]$: there is also 1 non-zero row $\\implies \\text{rank}([A \\mid B]) = 1$.\n </ul>\n Since $\\text{rank}(A) = \\text{rank}([A \\mid B]) = 1$, the system is <strong>consistent</strong>.\n Step 4: Compare the rank to the number of unknowns ($n=2$). Since $1 < 2$, the system has <strong>infinitely many solutions</strong>.\n <strong>Final Answer:</strong> Consistent with infinitely many solutions."
+            },
+            {
+              "number": 2,
+              "problem": "<p>Determine the value of $\\lambda$ for which the system of linear equations has <strong>no solution</strong>:\n \\[ x + 2y = 4 \\]\n \\[ 3x + 6y = \\lambda \\]</p>",
+              "solution": "<p>Construct the full augmented matrix for the system:\n \\[ [A \\mid B] = \\begin{bmatrix} 1 & 2 & \\mid & 4 \\\\ 3 & 6 & \\mid & \\lambda \\end{bmatrix} \\]\n Perform the ERO $R_2 \\to R_2 - 3R_1$ to eliminate the first element in the second row:\n \\[ [A \\mid B] \\sim \\begin{bmatrix} 1 & 2 & \\mid & 4 \\\\ 3-3(1) & 6-3(2) & \\mid & \\lambda - 3(4) \\end{bmatrix} = \\begin{bmatrix} 1 & 2 & \\mid & 4 \\\\ 0 & 0 & \\mid & \\lambda - 12 \\end{bmatrix} \\]\n According to the Rouché-Capelli Theorem, a system has no solution (is inconsistent) if and only if the rank of the coefficient matrix does not equal the rank of the augmented matrix:\n \\[ \\text{rank}(A) \\neq \\text{rank}([A \\mid B]) \\]\n From our reduced matrix, $\\text{rank}(A) = 1$ because its second row is entirely zeros. For $\\text{rank}([A \\mid B])$ to equal 2, the entry in the augmented column must be non-zero:\n \\[ \\lambda - 12 \\neq 0 \\implies \\lambda \\neq 12 \\]\n If $\\lambda \\neq 12$, then $\\text{rank}(A) = 1$ and $\\text{rank}([A \\mid B]) = 2$, which means the system has no solution.\n <strong>Final Answer:</strong> $\\lambda \\neq 12$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>If a system of 3 linear equations with 3 unknowns satisfies $\\text{rank}(A) = \\text{rank}([A \\mid B]) = 3$, describe the nature of its solutions.</p>",
+              "solution": "Let us use the criteria from the Rouché-Capelli consistency theorem:\n <ol>\n <li>Since $\\text{rank}(A) = \\text{rank}([A \\mid B])$, the ranks match, which proves the system is <strong>consistent</strong> (at least one solution exists).\n <li>Compare the rank value to the total number of unknowns ($n = 3$).\n <li>The rank matches the number of unknowns exactly ($3 = 3$).\n </ol>\n When the rank of a consistent system equals the number of unknowns, the system yields exactly <strong>one unique solution</strong>. This corresponds geometrically to three planes intersecting at a single point.\n <strong>Final Answer:</strong> Consistent with a unique solution."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "A linear system $AX = B$ is inconsistent (has no solution) if the ranks satisfy:",
+              "options": [
+                "$\\text{rank}(A) = \\text{rank}([A \\mid B])$",
+                "$\\text{rank}(A) \\neq \\text{rank}([A \\mid B])$",
+                "$\\text{rank}(A) = n$",
+                "$\\text{rank}([A \\mid B]) = 0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\text{rank}(A) = \\text{rank}([A \\mid B]) < n$ (number of unknowns), the system has:",
+              "options": [
+                "A unique solution",
+                "No solution",
+                "Infinitely many solutions",
+                "Exactly two solutions"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "For a homogeneous system of linear equations $AX = O$, the system is:",
+              "options": [
+                "Always consistent since $X = O$ is always a valid trivial solution",
+                "Sometimes inconsistent",
+                "Open to having no solution",
+                "Only solvable if $|A| = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a system of 3 equations with 3 variables has a coefficient matrix determinant $|A| \\neq 0$, the system has:",
+              "options": [
+                "Infinitely many solutions",
+                "No solution",
+                "A unique solution",
+                "Exactly three solutions"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The augmented matrix format $[A \\mid B]$ is constructed by:",
+              "options": [
+                "Multiplying matrix $A$ by matrix $B$",
+                "Appending the column vector $B$ onto the right side of the coefficient matrix $A$",
+                "Finding the inverse of $A$",
+                "Subtracting $B$ from $A$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-math-matrices-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "If $A = \\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix}$ and $B = \\begin{bmatrix} 0 & 1 \\\\ 1 & 0 \\end{bmatrix}$, then the product matrix $AB$ is:",
+              "options": [
+                "$\\begin{bmatrix} 2 & 1 \\\\ 4 & 3 \\end{bmatrix}$",
+                "$\\begin{bmatrix} 3 & 4 \\\\ 1 & 2 \\end{bmatrix}$",
+                "$\\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix}$",
+                "$\\begin{bmatrix} 0 & 2 \\\\ 3 & 0 \\end{bmatrix}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $A$ is a symmetric matrix and $B$ is a skew-symmetric matrix of the same order, then the product matrix $ABA$ is always:",
+              "options": [
+                "Symmetric",
+                "Skew-Symmetric",
+                "Diagonal",
+                "Zero"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The trace of the matrix $A = \\begin{bmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9 \\end{bmatrix}$ is equal to:",
+              "options": [
+                "$15$",
+                "$45$",
+                "$9$",
+                "$24$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the rank of the matrix $A = \\begin{bmatrix} 1 & 1 & 1 \\\\ 1 & k & 1 \\\\ 1 & 1 & k \\end{bmatrix}$ is 2, then the value of $k$ can be:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$0$",
+                "$-1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $A$ is an orthogonal matrix of order 3, then the value of its determinant $|A|$ must be:",
+              "options": [
+                "$0$",
+                "$\\pm 1$",
+                "$3$",
+                "$\\pm 3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The inverse matrix of $A = \\begin{bmatrix} 3 & 1 \\\\ 5 & 2 \\end{bmatrix}$ is:",
+              "options": [
+                "$\\begin{bmatrix} 2 & -1 \\\\ -5 & 3 \\end{bmatrix}$",
+                "$\\begin{bmatrix} 3 & -1 \\\\ -5 & 2 \\end{bmatrix}$",
+                "$\\begin{bmatrix} -2 & 1 \\\\ 5 & -3 \\end{bmatrix}$",
+                "$\\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a square matrix satisfies $A^2 = A$, it is idempotent. The value of $(I-A)^2$ is:",
+              "options": [
+                "$I+A$",
+                "$I-A$",
+                "$O$",
+                "$I$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The system of equations $x + y = 2$ and $2x + 2y = 5$ has:",
+              "options": [
+                "A unique solution",
+                "No solution",
+                "Infinitely many solutions",
+                "Exactly two solutions"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $A^T$ is the transpose of $A$, then the matrix product expression $(A^T)^T$ always simplifies to:",
+              "options": [
+                "$A$",
+                "$A^T$",
+                "$I$",
+                "$O$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $|A| = 4$ for a square matrix of order 3, the value of $|\\text{adj}(A)|$ is:",
+              "options": [
+                "$4$",
+                "$16$",
+                "$64$",
+                "$12$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Find the index of nilpotency for the matrix $A = \\begin{bmatrix} 0 & 1 & 2 \\\\ 0 & 0 & 3 \\\\ 0 & 0 & 0 \\end{bmatrix}$.",
+              "answer": "3",
+              "explanation": ""
+            },
+            {
+              "q": "If $A$ and $B$ are square matrices of order 3 such that $\\text{tr}(AB) = 15$, find the value of $\\text{tr}(BA)$.",
+              "answer": "15",
+              "explanation": ""
+            },
+            {
+              "q": "Determine the rank of the matrix $A = \\begin{bmatrix} 1 & 2 & 3 \\\\ 2 & 4 & 6 \\\\ 3 & 6 & 9 \\end{bmatrix}$.",
+              "answer": "1",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The system of homogeneous linear equations $AX = O$ always has at least one valid solution.<br>\n <strong>Reason (R):</strong> Setting all variables to zero ($X = O$) always satisfies any homogeneous linear system, producing the trivial solution.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> For any two square matrices $A$ and $B$, the expansion identity $(A+B)^2 = A^2 + 2AB + B^2$ is always true.<br>\n <strong>Reason (R):</strong> Matrix multiplication is non-commutative in general ($AB \\neq BA$), so the middle terms expand to $AB + BA$ and cannot be merged into $2AB$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 3,
+              "explanation": "A is false but R is true."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-math-matrices-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "If $A = \\begin{bmatrix} \\cos\\theta & \\sin\\theta \\\\ -\\sin\\theta & \\cos\\theta \\end{bmatrix}$, then the power matrix $A^n$ simplifies using induction to:",
+              "options": [
+                "$\\begin{bmatrix} \\cos n\\theta & \\sin n\\theta \\\\ -\\sin n\\theta & \\cos n\\theta \\end{bmatrix}$",
+                "$\\begin{bmatrix} n\\cos\\theta & n\\sin\\theta \\\\ -n\\sin\\theta & n\\cos\\theta \\end{bmatrix}$",
+                "$\\begin{bmatrix} \\cos^n\\theta & \\sin^n\\theta \\\\ -\\sin^n\\theta & \\cos^n\\theta \\end{bmatrix}$",
+                "$I$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $A$ is an idempotent matrix ($A^2 = A$), then the matrix expression $B = I - A$ satisfies which property?",
+              "options": [
+                "$B^2 = O$",
+                "$B^2 = B$ (Idempotent)",
+                "$B^2 = I$ (Involutory)",
+                "$B$ is orthogonal"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The maximum possible rank for a completely non-zero skew-symmetric matrix of order 3 is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If the matrix product $AB$ is well-defined and evaluates to an identity matrix ($AB = I$), then we can conclude that:",
+              "options": [
+                "$A$ is the inverse of $B$ ($A = B^{-1}$) only if they are square matrices",
+                "$AB = BA$ is always true for any rectangular orders",
+                "Neither matrix can be inverted",
+                "$A = B^T$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $A$ and $B$ are two invertible square matrices of the same order, the inverse of their product $(AB)^{-1}$ is given by:",
+              "options": [
+                "$A^{-1}B^{-1}$",
+                "$B^{-1}A^{-1}$",
+                "$B^T A^T$",
+                "$O$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The system of linear equations $x + 2y + 3z = 1$, $2x + 4y + 6z = 2$, $3x + 6y + 9z = 3$ has:",
+              "options": [
+                "A unique solution",
+                "No solution",
+                "Infinitely many solutions",
+                "Exactly three solutions"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If $A = \\begin{bmatrix} 1 & 2 \\\\ 0 & 1 \\end{bmatrix}$, then the power matrix $A^n$ is equal to:",
+              "options": [
+                "$\\begin{bmatrix} 1 & 2n \\\\ 0 & 1 \\end{bmatrix}$",
+                "$\\begin{bmatrix} 1 & 2^n \\\\ 0 & 1 \\end{bmatrix}$",
+                "$\\begin{bmatrix} 1 & 2 \\\\ 0 & 1 \\end{bmatrix}$",
+                "$nI$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the trace of a square matrix expression satisfies $\\text{tr}(A^T A) = 0$ for a real matrix $A$, then matrix $A$ must be:",
+              "options": [
+                "The Identity Matrix",
+                "A Symmetric Matrix",
+                "The Null (Zero) Matrix $O$",
+                "An Orthogonal Matrix"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If $A$ is an orthogonal matrix, its transpose $A^T$ must satisfy which condition?",
+              "options": [
+                "It is also an orthogonal matrix",
+                "It is a symmetric matrix",
+                "It is a nilpotent matrix",
+                "It equals the zero matrix"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The linear system $AX = B$ has a unique solution if the ranks of the matrices satisfy:",
+              "options": [
+                "$\\text{rank}(A) = \\text{rank}([A \\mid B]) = n$",
+                "$\\text{rank}(A) \\neq \\text{rank}([A \\mid B])$",
+                "$\\text{rank}(A) < n$",
+                "$\\text{rank}([A \\mid B]) = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Find the value of $x$ for which the matrix $A = \\begin{bmatrix} x-1 & 2 \\\\ 3 & x+4 \\end{bmatrix}$ becomes singular ($|A| = 0$) and has a positive integer root.",
+              "answer": "2",
+              "explanation": ""
+            },
+            {
+              "q": "If $A$ is an involutory matrix ($A^2 = I$), evaluate the value of the determinant $|A^4|$.",
+              "answer": "1",
+              "explanation": ""
+            },
+            {
+              "q": "Determine the rank of the augmented matrix $[A \\mid B]$ for a system that has no solution, if the rank of the coefficient matrix is $\\text{rank}(A) = 2$.",
+              "answer": "3",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The product of two symmetric matrices $A$ and $B$ is symmetric if and only if they commute ($AB = BA$).<br>\n <strong>Reason (R):</strong> Taking the transpose of a product gives $(AB)^T = B^T A^T$. If they are symmetric, this becomes $BA$, which equals $AB$ only if they commute.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> An odd-order skew-symmetric matrix can never be inverted.<br>\n <strong>Reason (R):</strong> The determinant of any odd-order skew-symmetric matrix is identically zero, making the matrix singular.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

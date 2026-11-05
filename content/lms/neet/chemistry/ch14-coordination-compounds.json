@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "chemistry",
+  "chapter": 14,
+  "title": "Coordination Compounds",
+  "slug": "coordination-compounds",
+  "subtitle": "Werner's theory, nomenclature, isomerism, VBT and crystal field theory for NEET",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "NEET Chemistry — Coordination Compounds: Werner's theory, ligands and coordination number, IUPAC nomenclature, isomerism, valence bond theory (hybridisation, inner/outer orbital complexes) and crystal field theory (d-orbital splitting, CFSE, colour, spectrochemical series), with NEET traps, NCERT notes and MCQs. Free on GrowQR.",
+    "focus_keyword": "coordination compounds NEET",
+    "secondary_keywords": [
+      "Werner's theory NEET",
+      "crystal field theory NEET",
+      "valence bond theory coordination NEET",
+      "spectrochemical series NCERT",
+      "isomerism in coordination compounds NEET"
+    ],
+    "keywords": [
+      "coordination compounds NEET",
+      "crystal field theory NEET",
+      "Werner theory NEET",
+      "spectrochemical series NEET",
+      "coordination number NEET"
+    ]
+  },
+  "summary": "<ul><li><strong>Coordination compound:</strong> a central metal atom/ion bonded to surrounding <strong>ligands</strong> by coordinate bonds, written in square brackets, e.g. $[\\text{Co(NH}_3)_6]^{3+}$.</li><li><strong>Werner's theory:</strong> primary valence (ionisable, = oxidation state) and secondary valence (non-ionisable, = coordination number, fixed geometry).</li><li><strong>Ligands:</strong> monodentate, bidentate (en), polydentate (EDTA), ambidentate (NO₂⁻/ONO⁻); donate a lone pair (Lewis bases).</li><li><strong>Coordination number</strong> = number of donor atoms bonded to the metal (commonly 4 — tetrahedral/square planar — or 6 — octahedral).</li><li><strong>Isomerism:</strong> structural (ionisation, linkage, coordination, hydrate) and stereo (geometrical cis/trans, optical).</li><li><strong>Valence Bond Theory:</strong> metal hybridises ($d^2sp^3$ inner / $sp^3d^2$ outer for octahedral); predicts geometry & magnetism.</li><li><strong>Crystal Field Theory:</strong> ligands split the $d$ orbitals ($t_{2g}/e_g$); splitting $\\Delta$ governs colour, magnetism, and strong vs weak field (spectrochemical series).</li><li>Vital in biology: haemoglobin (Fe), chlorophyll (Mg), vitamin $\\text{B}_{12}$ (Co).</li></ul>",
+  "faqs": [
+    { "q": "What is the difference between primary and secondary valence in Werner's theory?", "a": "Primary valence is the ionisable valence, equal to the oxidation state of the metal, and is satisfied by negative ions. Secondary valence is the non-ionisable valence, equal to the coordination number, satisfied by ligands and responsible for the fixed geometry of the complex." },
+    { "q": "What is a ligand and what makes it bind to a metal?", "a": "A ligand is an ion or molecule that donates a lone pair of electrons to the central metal atom or ion, forming a coordinate (dative) bond — so ligands act as Lewis bases. They can be monodentate (one donor atom), bidentate, polydentate (like EDTA), or ambidentate (able to bind through either of two atoms)." },
+    { "q": "What does crystal field theory explain that valence bond theory does not?", "a": "Crystal field theory explains the colour of coordination compounds and the existence of strong-field (low-spin) and weak-field (high-spin) complexes through the splitting of the d orbitals by ligands, including quantitative trends via the spectrochemical series — features valence bond theory cannot account for." },
+    { "q": "What is the spectrochemical series?", "a": "It is an experimental arrangement of ligands in order of their ability to split the d orbitals (the crystal field splitting energy). Weak-field ligands like iodide and water cause small splitting, while strong-field ligands like CN- and CO cause large splitting, which decides whether a complex is high-spin or low-spin and its colour." },
+    { "q": "Why are coordination compounds important in biology?", "a": "Many essential biomolecules are coordination compounds: haemoglobin has iron coordinated in a porphyrin ring to carry oxygen, chlorophyll has magnesium for photosynthesis, and vitamin B12 contains cobalt. They are also used in medicine (cisplatin in cancer therapy) and in analysis (EDTA titrations)." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Structure, Nomenclature and Isomerism",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Werner's Theory, Ligands and Nomenclature",
+          "concept": "<p>A <strong>coordination compound</strong> contains a central metal atom or ion surrounded by a fixed number of ions or molecules called <strong>ligands</strong>, joined by coordinate (dative) bonds. The metal and its ligands together form the <strong>coordination sphere</strong>, written inside square brackets — for example $[\\text{Co(NH}_3)_6]\\text{Cl}_3$, where $[\\text{Co(NH}_3)_6]^{3+}$ is the complex ion and the three $\\text{Cl}^-$ are counter (outside-sphere) ions. These compounds are central to inorganic chemistry and biology.</p><p>The behaviour of complexes was first explained by <strong>Werner's theory</strong>. Werner proposed that a metal has two types of valence: a <strong>primary valence</strong>, which is ionisable, equals the oxidation state of the metal, and is satisfied by negative ions; and a <strong>secondary valence</strong>, which is non-ionisable, equals the <em>coordination number</em>, is satisfied by ligands, and gives the complex its definite geometry (e.g. octahedral for coordination number 6). Distinguishing these two valences is a classic NEET starting point.</p><p>A <strong>ligand</strong> is a species that donates a lone pair of electrons to the metal, so it acts as a Lewis base. Ligands are classified by the number of donor atoms they use: <strong>monodentate</strong> (one donor, e.g. $\\text{NH}_3$, $\\text{Cl}^-$), <strong>bidentate</strong> (two donors, e.g. ethylenediamine, 'en'), <strong>polydentate</strong> (several donors, e.g. EDTA with six), and <strong>ambidentate</strong> (can bind through either of two different atoms, e.g. $\\text{NO}_2^-$ via N or $\\text{ONO}^-$ via O). Polydentate ligands form ring structures called <strong>chelates</strong>, which give extra stability — the chelate effect.</p><p>Complexes are named by the IUPAC rules, another reliable NEET question. The key rules: name the ligands first (alphabetically) then the metal; for anionic ligands use the suffix '-o' (chloro, cyano); use Greek prefixes (di, tri, tetra) for the number of simple ligands (and bis, tris for complex ones); give the metal's oxidation state in Roman numerals in brackets; and if the complex ion is an anion, add the suffix '-ate' to the metal (e.g. ferrate, cuprate). The counter ions are named like a normal salt. Mastering ligand classification, the meaning of coordination number, and these naming rules is the foundation for the rest of the chapter.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Term</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Meaning</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Primary valence</td><td style='border:1px solid #dcfce7;padding:6px 10px'>ionisable = oxidation state</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Secondary valence</td><td style='border:1px solid #dcfce7;padding:6px 10px'>non-ionisable = coordination number</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Bidentate / polydentate</td><td style='border:1px solid #dcfce7;padding:6px 10px'>en (2 donors) / EDTA (6 donors)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Ambidentate</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{NO}_2^-$ (N) / $\\text{ONO}^-$ (O)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>In $[\\text{Co(NH}_3)_6]\\text{Cl}_3$, identify the primary and secondary valences of cobalt.</p>",
+              "solution": "<p>The primary valence (oxidation state) of Co is $+3$, satisfied by the three $\\text{Cl}^-$ outside the sphere. The secondary valence (coordination number) is $6$, satisfied by the six $\\text{NH}_3$ ligands, giving an octahedral geometry.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the oxidation state of iron and the coordination number in $\\text{K}_4[\\text{Fe(CN)}_6]$.</p>",
+              "solution": "<p>$\\text{CN}^-$ is $-1$ (six of them = $-6$) and the four $\\text{K}^+$ are $+4$. For neutrality, Fe $= +2$. The coordination number is $6$ (six cyanide donors).</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>A ligand donates a lone pair, so it acts as a:</p>", "options": ["Lewis acid", "Lewis base", "Bronsted acid", "reducing agent"], "correct": 1, "explanation": "Ligands donate electron pairs — Lewis bases." },
+            { "q": "<p>In Werner's theory, the secondary valence corresponds to the:</p>", "options": ["oxidation state", "coordination number", "charge of the complex", "number of counter ions"], "correct": 1, "explanation": "Secondary valence = coordination number." },
+            { "q": "<p>Ethylenediamine (en) is a ____ ligand.</p>", "options": ["monodentate", "bidentate", "ambidentate", "neutral non-ligand"], "correct": 1, "explanation": "en has two donor nitrogen atoms — bidentate." },
+            { "q": "<p>$\\text{NO}_2^-$, which can bind through N or O, is:</p>", "options": ["monodentate", "bidentate", "ambidentate", "polydentate"], "correct": 2, "explanation": "Two possible donor atoms — ambidentate." },
+            { "q": "<p>When the complex ion is an anion, the metal name ends in:</p>", "options": ["-ide", "-ate", "-ous", "-ium"], "correct": 1, "explanation": "Anionic complexes use the '-ate' suffix (e.g. ferrate)." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> primary valence = oxidation state (counter ions); secondary valence = coordination number (ligands, geometry). Count donor atoms for coordination number. Name ligands first (alphabetical), metal last; anionic complex to '-ate'.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Isomerism in Coordination Compounds",
+          "concept": "<p>Coordination compounds show rich <strong>isomerism</strong> — same formula, different arrangement — which divides into structural isomerism (different connectivity) and stereoisomerism (same connectivity, different spatial arrangement). Identifying the type from a given pair is a frequent NEET task.</p><p><strong>Structural isomers</strong> come in four main kinds. <em>Ionisation isomerism</em> arises when the counter ion and a ligand exchange places, giving different ions in solution (e.g. $[\\text{Co(NH}_3)_5\\text{Br}]\\text{SO}_4$ vs $[\\text{Co(NH}_3)_5\\text{SO}_4]\\text{Br}$). <em>Linkage isomerism</em> occurs with ambidentate ligands that bind through different atoms (e.g. $\\text{-NO}_2$ vs $\\text{-ONO}$). <em>Coordination isomerism</em> appears when both cation and anion are complex ions and the ligands are swapped between the two metals. <em>Hydrate (solvate) isomerism</em> differs in how many water molecules are inside the coordination sphere versus outside as water of crystallisation (e.g. the well-known violet, green and blue chromium chloride hydrates).</p><p><strong>Stereoisomers</strong> have the same bonds but differ in geometry. <strong>Geometrical (cis–trans) isomerism</strong> is shown by square planar complexes of the type $[\\text{MA}_2\\text{B}_2]$ and by octahedral complexes such as $[\\text{MA}_4\\text{B}_2]$ and $[\\text{M(AA)}_2\\text{B}_2]$: the identical ligands can sit adjacent (<em>cis</em>) or opposite (<em>trans</em>). Tetrahedral complexes do not show cis–trans isomerism because all four positions are equivalent — a common NEET trap.</p><p><strong>Optical isomerism</strong> arises when a complex is chiral — non-superimposable on its mirror image — most commonly in octahedral complexes containing bidentate ligands, such as $[\\text{Co(en)}_3]^{3+}$ and the cis form of $[\\text{Co(en)}_2\\text{Cl}_2]^+$. These exist as enantiomers that rotate plane-polarised light in opposite directions. Knowing which geometries permit cis–trans and which permit optical isomerism, and recognising the four structural types, equips you for the isomerism questions NEET sets in this chapter.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Isomerism</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Basis</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Ionisation</td><td style='border:1px solid #dcfce7;padding:6px 10px'>counter ion and ligand exchange</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Linkage</td><td style='border:1px solid #dcfce7;padding:6px 10px'>ambidentate ligand binds via different atom</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Geometrical (cis/trans)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>square planar / octahedral (not tetrahedral)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Optical</td><td style='border:1px solid #dcfce7;padding:6px 10px'>chiral, e.g. $[\\text{Co(en)}_3]^{3+}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>What type of isomerism is shown by $[\\text{Co(NH}_3)_5(\\text{NO}_2)]^{2+}$ and $[\\text{Co(NH}_3)_5(\\text{ONO})]^{2+}$?</p>",
+              "solution": "<p>The ambidentate $\\text{NO}_2^-$ ligand binds through nitrogen in one and through oxygen in the other. This is <strong>linkage isomerism</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why does a tetrahedral complex $[\\text{MA}_2\\text{B}_2]$ not show cis–trans isomerism?</p>",
+              "solution": "<p>In a tetrahedron all four corner positions are equivalent and adjacent to one another, so there is no distinct 'opposite' position. Hence the ligands cannot be arranged as distinct cis and trans forms.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Linkage isomerism is shown by complexes containing:</p>", "options": ["monodentate ligands", "ambidentate ligands", "bidentate ligands only", "no ligands"], "correct": 1, "explanation": "Ambidentate ligands bind through different atoms." },
+            { "q": "<p>Cis–trans isomerism is NOT shown by ____ complexes.</p>", "options": ["square planar", "octahedral", "tetrahedral", "all of these"], "correct": 2, "explanation": "Tetrahedral positions are all equivalent." },
+            { "q": "<p>$[\\text{Co(en)}_3]^{3+}$ shows which isomerism?</p>", "options": ["ionisation", "optical", "hydrate", "none"], "correct": 1, "explanation": "It is chiral — optical isomerism." },
+            { "q": "<p>$[\\text{Co(NH}_3)_5\\text{Br}]\\text{SO}_4$ and $[\\text{Co(NH}_3)_5\\text{SO}_4]\\text{Br}$ are:</p>", "options": ["linkage isomers", "ionisation isomers", "optical isomers", "identical"], "correct": 1, "explanation": "Counter ion and ligand are swapped — ionisation isomerism." },
+            { "q": "<p>Different numbers of water molecules inside vs outside the coordination sphere give:</p>", "options": ["hydrate isomerism", "linkage isomerism", "optical isomerism", "geometrical isomerism"], "correct": 0, "explanation": "Hydrate (solvate) isomerism." }
+          ],
+          "note": "<p><strong>NEET trap:</strong> tetrahedral complexes show NO cis–trans isomerism (all positions equivalent). Optical isomerism mostly in octahedral complexes with bidentate ligands (e.g. $[\\text{Co(en)}_3]^{3+}$). Linkage needs an ambidentate ligand.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Bonding Theories",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Valence Bond Theory of Complexes",
+          "concept": "<p>To explain the shape and magnetism of complexes, <strong>valence bond theory (VBT)</strong> treats coordinate bonding as the overlap of filled ligand orbitals (lone pairs) with empty <em>hybrid</em> orbitals of the metal ion. The type of hybridisation the metal adopts determines the geometry, and NEET problems lean heavily on matching hybridisation to shape.</p><p>For a <strong>coordination number of 6 (octahedral)</strong>, the metal can use two kinds of hybridisation. If it uses inner $(n-1)d$ orbitals it is <strong>$d^2sp^3$</strong> hybridised, giving an <em>inner-orbital</em> (low-spin) complex; if it uses outer $nd$ orbitals it is <strong>$sp^3d^2$</strong> hybridised, giving an <em>outer-orbital</em> (high-spin) complex. For a <strong>coordination number of 4</strong>, $sp^3$ hybridisation gives a tetrahedral shape and $dsp^2$ gives a square planar shape. Reading these off is a routine NEET skill.</p><p>VBT links directly to <strong>magnetic behaviour</strong>. Strong-field ligands force electrons to pair up, often producing inner-orbital, low-spin complexes with fewer (or no) unpaired electrons — these can be diamagnetic. Weak-field ligands leave electrons unpaired, giving outer-orbital, high-spin, paramagnetic complexes. By counting unpaired electrons you predict whether a complex is paramagnetic or diamagnetic and calculate its spin-only magnetic moment $\\mu = \\sqrt{n(n+2)}\\ \\text{BM}$, exactly as for the transition metals.</p><p>A worked logic for VBT: find the metal's oxidation state and $d$-electron count; decide (from the ligand) whether pairing occurs; arrange the $d$ electrons; identify the hybridisation needed for the coordination number; and read off geometry and magnetism. For example, $[\\text{Fe(CN)}_6]^{4-}$ (Fe$^{2+}$, $d^6$, strong-field CN$^-$) is $d^2sp^3$, octahedral, low-spin and diamagnetic, whereas $[\\text{FeF}_6]^{3-}$ (Fe$^{3+}$, $d^5$, weak-field F$^-$) is $sp^3d^2$, octahedral, high-spin and strongly paramagnetic. VBT is powerful but has limits — it does not explain colour or the detailed strength order of ligands, which is where crystal field theory takes over.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Hybridisation</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Geometry / type</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$sp^3$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>tetrahedral (CN 4)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$dsp^2$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>square planar (CN 4)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$d^2sp^3$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>octahedral, inner-orbital (low-spin)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$sp^3d^2$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>octahedral, outer-orbital (high-spin)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Predict the hybridisation, geometry and magnetism of $[\\text{Fe(CN)}_6]^{4-}$.</p>",
+              "solution": "<p>Fe is $+2$ ($3d^6$). $\\text{CN}^-$ is a strong-field ligand, so the six $d$ electrons pair into three $d$ orbitals, freeing two inner $d$ orbitals: hybridisation $d^2sp^3$, geometry octahedral, no unpaired electrons — <strong>low-spin, diamagnetic</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What geometry corresponds to $dsp^2$ hybridisation?</p>",
+              "solution": "<p>$dsp^2$ hybridisation gives a <strong>square planar</strong> geometry (coordination number 4), as in $[\\text{Ni(CN)}_4]^{2-}$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>$d^2sp^3$ hybridisation gives which geometry?</p>", "options": ["tetrahedral", "square planar", "octahedral", "linear"], "correct": 2, "explanation": "$d^2sp^3$ (inner-orbital) is octahedral." },
+            { "q": "<p>A square planar complex uses ____ hybridisation.</p>", "options": ["$sp^3$", "$dsp^2$", "$sp^3d^2$", "$sp$"], "correct": 1, "explanation": "$dsp^2$ gives square planar." },
+            { "q": "<p>An outer-orbital octahedral complex is:</p>", "options": ["$d^2sp^3$, low-spin", "$sp^3d^2$, high-spin", "$sp^3$, tetrahedral", "$dsp^2$"], "correct": 1, "explanation": "Outer-orbital = $sp^3d^2$, high-spin." },
+            { "q": "<p>A complex with no unpaired electrons is:</p>", "options": ["paramagnetic", "diamagnetic", "ferromagnetic", "coloured always"], "correct": 1, "explanation": "No unpaired electrons means diamagnetic." },
+            { "q": "<p>VBT cannot satisfactorily explain:</p>", "options": ["geometry", "magnetism", "the colour of complexes", "coordination number"], "correct": 2, "explanation": "Colour is explained by crystal field theory, not VBT." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> CN 4 → $sp^3$ (tetrahedral) or $dsp^2$ (square planar); CN 6 → $d^2sp^3$ (inner, low-spin) or $sp^3d^2$ (outer, high-spin). Count unpaired electrons for magnetism; VBT can't explain colour.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Crystal Field Theory, Colour and Applications",
+          "concept": "<p><strong>Crystal field theory (CFT)</strong> treats the metal–ligand bond as purely electrostatic and focuses on what the approaching ligands do to the metal's five $d$ orbitals. In a free ion these are degenerate (equal energy), but the electric field of the ligands raises their energy unequally, splitting them into sets — the central idea NEET tests repeatedly.</p><p>In an <strong>octahedral</strong> field, the five $d$ orbitals split into a lower-energy set of three ($t_{2g}$: $d_{xy}, d_{yz}, d_{zx}$) and a higher-energy set of two ($e_g$: $d_{z^2}, d_{x^2-y^2}$), separated by the <strong>crystal field splitting energy $\\Delta_o$</strong>. In a <strong>tetrahedral</strong> field the order is reversed and the splitting ($\\Delta_t$) is smaller (about $\\tfrac{4}{9}\\Delta_o$), so tetrahedral complexes are almost always high-spin. How the $d$ electrons fill these sets gives the <strong>crystal field stabilisation energy (CFSE)</strong>.</p><p>The size of $\\Delta_o$ depends on the ligand, captured by the <strong>spectrochemical series</strong> — an experimental order of ligands from weak-field (small $\\Delta$) to strong-field (large $\\Delta$): roughly $\\text{I}^- < \\text{Br}^- < \\text{Cl}^- < \\text{F}^- < \\text{OH}^- < \\text{H}_2\\text{O} < \\text{NH}_3 < \\text{en} < \\text{CN}^- < \\text{CO}$. If $\\Delta_o$ is larger than the pairing energy, electrons pair up in $t_{2g}$ giving a <strong>low-spin</strong> complex; if smaller, they spread out giving a <strong>high-spin</strong> complex. This neatly explains the magnetic behaviour that VBT only described.</p><p>Crucially, CFT explains the <strong>colour</strong> of complexes: a $d$ electron absorbs a photon of energy equal to $\\Delta_o$ and jumps from $t_{2g}$ to $e_g$ (a $d$–$d$ transition), and the complementary colour is seen. A larger $\\Delta_o$ (stronger ligand) means higher-energy light is absorbed and a different colour appears. Coordination compounds are also enormously important in practice and in life: <strong>haemoglobin (Fe), chlorophyll (Mg) and vitamin B$_{12}$ (Co)</strong> are all coordination compounds, <strong>cisplatin</strong> is an anticancer drug, EDTA is used in titrations and to treat metal poisoning, and complexes are vital in metallurgy and electroplating. Knowing the $t_{2g}/e_g$ splitting, the spectrochemical series, the high-spin/low-spin rule, and these biological/medical examples covers the CFT questions NEET asks.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Idea</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Key point</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Octahedral splitting</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$t_{2g}$ (lower) and $e_g$ (higher), gap $\\Delta_o$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Tetrahedral splitting</td><td style='border:1px solid #dcfce7;padding:6px 10px'>reversed, $\\Delta_t \\approx \\tfrac{4}{9}\\Delta_o$ (usually high-spin)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Spectrochemical series</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{I}^- < \\ldots < \\text{H}_2\\text{O} < \\text{NH}_3 < \\text{CN}^- < \\text{CO}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Colour</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$d$–$d$ transition across $\\Delta_o$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why is $[\\text{Co(CN)}_6]^{3-}$ low-spin while $[\\text{CoF}_6]^{3-}$ is high-spin?</p>",
+              "solution": "<p>$\\text{CN}^-$ is a strong-field ligand: $\\Delta_o$ exceeds the pairing energy, so the $d^6$ electrons pair in $t_{2g}$ — low-spin. $\\text{F}^-$ is weak-field: $\\Delta_o$ is small, electrons stay unpaired across $t_{2g}$ and $e_g$ — high-spin.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>How does crystal field theory explain the colour of $[\\text{Ti(H}_2\\text{O})_6]^{3+}$?</p>",
+              "solution": "<p>Ti$^{3+}$ is $d^1$. Its single $d$ electron absorbs visible light of energy equal to $\\Delta_o$ and is promoted from $t_{2g}$ to $e_g$ (a $d$–$d$ transition). The complementary colour of the absorbed light gives the ion its characteristic purple colour.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>In an octahedral field, the $d$ orbitals split into:</p>", "options": ["$e_g$ (lower) and $t_{2g}$ (higher)", "$t_{2g}$ (lower) and $e_g$ (higher)", "two equal sets", "no splitting"], "correct": 1, "explanation": "Octahedral: $t_{2g}$ below, $e_g$ above." },
+            { "q": "<p>The strongest-field ligand in the spectrochemical series is:</p>", "options": ["$\\text{I}^-$", "$\\text{H}_2\\text{O}$", "$\\text{CO}$", "$\\text{Cl}^-$"], "correct": 2, "explanation": "CO causes the largest splitting." },
+            { "q": "<p>A complex is low-spin when $\\Delta_o$ is:</p>", "options": ["less than the pairing energy", "greater than the pairing energy", "zero", "negative"], "correct": 1, "explanation": "Large $\\Delta_o$ forces pairing — low-spin." },
+            { "q": "<p>The colour of a complex arises from an electronic transition between:</p>", "options": ["$s$ and $p$ orbitals", "$t_{2g}$ and $e_g$ orbitals", "nucleus and electrons", "two metals"], "correct": 1, "explanation": "$d$–$d$ transition across $\\Delta_o$." },
+            { "q": "<p>Which biomolecule is a cobalt coordination compound?</p>", "options": ["haemoglobin", "chlorophyll", "vitamin $\\text{B}_{12}$", "insulin"], "correct": 2, "explanation": "Vitamin $\\text{B}_{12}$ contains cobalt." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> octahedral $t_{2g}$ (low) + $e_g$ (high), gap $\\Delta_o$; large $\\Delta_o$ (strong field, e.g. CN⁻/CO) to low-spin. Colour = $d$–$d$ transition across $\\Delta_o$. Bio: Fe-haemoglobin, Mg-chlorophyll, Co-B₁₂.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-chemistry-ch14-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct & Statement-based)",
+          "questions": [
+            { "q": "<p>The coordination number of the metal in $[\\text{Co(en)}_3]^{3+}$ is:</p>", "options": ["3", "4", "6", "2"], "correct": 2, "explanation": "Each 'en' is bidentate; 3 × 2 = 6 donor atoms." },
+            { "q": "<p>The oxidation state of Ni in $[\\text{Ni(CO)}_4]$ is:</p>", "options": ["$+2$", "$+4$", "$0$", "$-1$"], "correct": 2, "explanation": "CO is neutral, complex is neutral, so Ni = 0." },
+            { "q": "<p>EDTA is a ____ ligand.</p>", "options": ["monodentate", "bidentate", "hexadentate", "ambidentate"], "correct": 2, "explanation": "EDTA has six donor atoms — hexadentate." },
+            { "q": "<p>Statements: (I) Tetrahedral complexes show cis–trans isomerism. (II) $[\\text{Co(en)}_3]^{3+}$ shows optical isomerism. Which is/are correct?</p>", "options": ["only I", "only II", "both I and II", "neither"], "correct": 1, "explanation": "Tetrahedral shows no cis–trans; only II is correct." },
+            { "q": "<p>$[\\text{Fe(CN)}_6]^{4-}$ (strong field) is:</p>", "options": ["high-spin, paramagnetic", "low-spin, diamagnetic", "tetrahedral", "square planar"], "correct": 1, "explanation": "Strong-field CN⁻ to $d^2sp^3$, low-spin, diamagnetic." },
+            { "q": "<p>In an octahedral complex, the higher-energy $d$-orbital set is:</p>", "options": ["$t_{2g}$", "$e_g$", "$sp^3$", "$f$"], "correct": 1, "explanation": "$e_g$ is higher in an octahedral field." },
+            { "q": "<p>The colour of coordination compounds is explained by:</p>", "options": ["valence bond theory", "crystal field theory", "Werner's theory", "VSEPR"], "correct": 1, "explanation": "CFT explains colour via $d$–$d$ transitions." },
+            { "q": "<p>The metal present in chlorophyll is:</p>", "options": ["iron", "magnesium", "cobalt", "zinc"], "correct": 1, "explanation": "Chlorophyll is a magnesium complex." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> $[\\text{Fe(CN)}_6]^{4-}$ is diamagnetic.<br><strong>R:</strong> $\\text{CN}^-$ is a strong-field ligand that causes the $d$ electrons of $\\text{Fe}^{2+}$ to pair up.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Strong-field pairing leaves no unpaired electrons — R explains A." },
+            { "q": "<p><strong>A:</strong> Crystal field theory can explain the colour of coordination compounds.<br><strong>R:</strong> Ligands split the metal $d$ orbitals, allowing $d$–$d$ electronic transitions in the visible region.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The $d$–$d$ transition across the splitting gives colour — R explains A." },
+            { "q": "<p><strong>A:</strong> Tetrahedral complexes commonly show geometrical (cis–trans) isomerism.<br><strong>R:</strong> All four ligand positions in a tetrahedron are equivalent.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "Tetrahedral complexes do NOT show cis–trans (A false); the four positions are indeed equivalent (R true), which is why." },
+            { "q": "<p><strong>A:</strong> In Werner's theory, the secondary valence determines the geometry of a complex.<br><strong>R:</strong> The secondary valence equals the coordination number and is directional/non-ionisable.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Being the directional coordination number is exactly what fixes the geometry — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

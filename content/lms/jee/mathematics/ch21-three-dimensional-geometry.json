@@ -1,0 +1,167 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": 21,
+  "title": "Three Dimensional Geometry",
+  "slug": "three-dimensional-geometry",
+  "subtitle": "Three Dimensional Geometry for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#0d9488",
+  "icon": "math",
+  "seo": {
+    "meta_description": "Master Three Dimensional Geometry for JEE Main & Advanced on GrowQR: theory, formulas, solved examples and self-check MCQs. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Coordinate System in 3D",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Coordinate System in 3D",
+          "concept": "<ul>\n <li><strong>Axes and Octants:</strong> The three mutually perpendicular lines passing through the origin $O$ are the $X$, $Y$, and $Z$ axes. These axes divide the 3D space into $8$ regions called octants. The signs of the coordinates $(x, y, z)$ determine the octant:\n \n <table class=\"tex-table\"><tr><td><strong>Octant</strong></td><td><strong>I</strong></td><td><strong>II</strong></td><td><strong>III</strong></td><td><strong>IV</strong></td><td><strong>V</strong></td><td><strong>VI</strong></td><td><strong>VII</strong></td><td><strong>VIII</strong></td></tr><tr><td>$x$</td><td>$+$</td><td>$-$</td><td>$-$</td><td>$+$</td><td>$+$</td><td>$-$</td><td>$-$</td><td>$+$</td></tr><tr><td>$y$</td><td>$+$</td><td>$+$</td><td>$-$</td><td>$-$</td><td>$+$</td><td>$+$</td><td>$-$</td><td>$-$</td></tr><tr><td>$z$</td><td>$+$</td><td>$+$</td><td>$+$</td><td>$+$</td><td>$-$</td><td>$-$</td><td>$-$</td><td>$-$</td></tr></table><li><strong>Distance Formula:</strong> The distance $d$ between two points $P(x_1, y_1, z_1)$ and $Q(x_2, y_2, z_2)$ is given by:\n $$d = \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2 + (z_2-z_1)^2}$$\n</ul>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Section Formula and Centroids",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Section Formula and Centroids",
+          "concept": "<ul>\n <li><strong>Section Formula:</strong> If a point $R$ divides the line segment joining $P(x_1, y_1, z_1)$ and $Q(x_2, y_2, z_2)$ in the ratio $m:n$, its coordinates are:\n <ul>\n <li><strong>Internal Division:</strong> \n $$R \\equiv \\left( \\frac{mx_2 + nx_1}{m+n}, \\frac{my_2 + ny_1}{m+n}, \\frac{mz_2 + nz_1}{m+n} \\right)$$\n <li><strong>External Division:</strong> \n $$R \\equiv \\left( \\frac{mx_2 - nx_1}{m-n}, \\frac{my_2 - ny_1}{m-n}, \\frac{mz_2 - nz_1}{m-n} \\right)$$\n </ul><li><strong>Centroid of a Triangle:</strong> For vertices $A(x_1,y_1,z_1)$, $B(x_2,y_2,z_2)$, and $C(x_3,y_3,z_3)$:\n $$G \\equiv \\left( \\frac{x_1+x_2+x_3}{3}, \\frac{y_1+y_2+y_3}{3}, \\frac{z_1+z_2+z_3}{3} \\right)$$<li><strong>Centroid of a Tetrahedron:</strong> For vertices $A_i(x_i, y_i, z_i)$ where $i = 1, 2, 3, 4$:\n $$G \\equiv \\left( \\frac{\\sum x_i}{4}, \\frac{\\sum y_i}{4}, \\frac{\\sum z_i}{4} \\right)$$\n</ul>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Direction Cosines (DCs) and Direction Ratios (DRs)",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Direction Cosines (DCs) and Direction Ratios (DRs)",
+          "concept": "<ul>\n <li><strong>Direction Cosines:</strong> If a line makes angles $\\alpha, \\beta, \\gamma$ with the positive direction of the $X, Y, Z$ axes respectively, then $l = \\cos\\alpha$, $m = \\cos\\beta$, $n = \\cos\\gamma$ are the direction cosines.\n <li><strong>Fundamental Identity:</strong> \n $$l^2 + m^2 + n^2 = 1 \\implies \\cos^2\\alpha + \\cos^2\\beta + \\cos^2\\gamma = 1$$\n <li><strong>Direction Ratios:</strong> Any three numbers $a, b, c$ proportional to the direction cosines $l, m, n$ are called direction ratios. Thus, $\\frac{l}{a} = \\frac{m}{b} = \\frac{n}{c} = k$.\n <li><strong>Conversion from DRs to DCs:</strong>\n $$l = \\frac{\\pm a}{\\sqrt{a^2+b^2+c^2}}, \\quad m = \\frac{\\pm b}{\\sqrt{a^2+b^2+c^2}}, \\quad n = \\frac{\\pm c}{\\sqrt{a^2+b^2+c^2}}$$\n</ul>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Angle and Relations Between Two Lines",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Angle and Relations Between Two Lines",
+          "concept": "Let two lines have direction cosines $(l_1, m_1, n_1)$ and $(l_2, m_2, n_2)$, or direction ratios $(a_1, b_1, c_1)$ and $(a_2, b_2, c_2)$.\n<ul>\n <li><strong>Angle ($\\theta$) between lines:</strong>\n $$\\cos\\theta = |l_1l_2 + m_1m_2 + n_1n_2| = \\frac{|a_1a_2 + b_1b_2 + c_1c_2|}{\\sqrt{a_1^2+b_1^2+c_1^2}\\sqrt{a_2^2+b_2^2+c_2^2}}$$\n $$\\sin\\theta = \\sqrt{\\sum (l_1m_2 - l_2m_1)^2}$$<li><strong>Condition for Perpendicular Lines:</strong> $\\theta = 90^\\circ$\n $$l_1l_2 + m_1m_2 + n_1n_2 = 0 \\quad \\text{or} \\quad a_1a_2 + b_1b_2 + c_1c_2 = 0$$<li><strong>Condition for Parallel Lines:</strong> $\\theta = 0^\\circ$\n $$\\frac{l_1}{l_2} = \\frac{m_1}{m_2} = \\frac{n_1}{n_2} \\quad \\text{or} \\quad \\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2}$$\n</ul>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Equations of a Line in 3D",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Equations of a Line in 3D",
+          "concept": "<ul>\n <li><strong>Symmetric/Cartesian Form:</strong> Passing through $(x_0, y_0, z_0)$ with DRs $(a, b, c)$:\n $$\\frac{x-x_0}{a} = \\frac{y-y_0}{b} = \\frac{z-z_0}{c}$$<li><strong>Vector Form:</strong> Passing through position vector $\\mathbf{a}$ and parallel to vector $\\mathbf{b} = a\\hat{\\mathbf{i}} + b\\hat{\\mathbf{j}} + c\\hat{\\mathbf{k}}$:\n $$\\mathbf{r} = \\mathbf{a} + \\lambda\\mathbf{b}$$<li><strong>Parametric Form:</strong> Setting the Cartesian form equal to a parameter $\\lambda$:\n $$x = x_0 + a\\lambda, \\quad y = y_0 + b\\lambda, \\quad z = z_0 + c\\lambda$$\n Any general point on the line can be represented as $(x_0 + a\\lambda, y_0 + b\\lambda, z_0 + c\\lambda)$.<li><strong>Intersection of Two Lines:</strong> To find if lines $\\mathbf{r} = \\mathbf{a}_1 + \\lambda\\mathbf{b}_1$ and $\\mathbf{r} = \\mathbf{a}_2 + \\mu\\mathbf{b}_2$ intersect, equate their parametric forms. If a unique pair of values for $\\lambda$ and $\\mu$ satisfies all three coordinate equations, the lines intersect.\n</ul>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Shortest Distance Between Lines",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Shortest Distance Between Lines",
+          "concept": "<ul>\n <li><strong>Skew Lines:</strong> Lines that are neither parallel nor intersecting and lie in different planes.\n <li><strong>Shortest Distance (SD) for Skew Lines:</strong> Between $\\mathbf{r} = \\mathbf{a}_1 + \\lambda\\mathbf{b}_1$ and $\\mathbf{r} = \\mathbf{a}_2 + \\mu\\mathbf{b}_2$:\n $$d = \\frac{|(\\mathbf{a}_2 - \\mathbf{a}_1) \\cdot (\\mathbf{b}_1 \\times \\mathbf{b}_2)|}{|\\mathbf{b}_1 \\times \\mathbf{b}_2|}$$\n In Cartesian form, the numerator is evaluated as the absolute value of the determinant:\n $$\\left| \\begin{matrix} x_2-x_1 & y_2-y_1 & z_2-z_1 \\\\ a_1 & b_1 & c_1 \\\\ a_2 & b_2 & c_2 \\end{matrix} \\right|$$<li><strong>Condition for Intersecting/Coplanar Lines:</strong> The shortest distance is zero:\n $$(\\mathbf{a}_2 - \\mathbf{a}_1) \\cdot (\\mathbf{b}_1 \\times \\mathbf{b}_2) = 0$$<li><strong>Distance Between Parallel Lines:</strong> Between $\\mathbf{r} = \\mathbf{a}_1 + \\lambda\\mathbf{b}$ and $\\mathbf{r} = \\mathbf{a}_2 + \\mu\\mathbf{b}$:\n $$d = \\frac{|(\\mathbf{a}_2 - \\mathbf{a}_1) \\times \\mathbf{b}|}{|\\mathbf{b}|}$$\n</ul>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Equations of a Plane",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Equations of a Plane",
+          "concept": "<ul>\n <li><strong>General Form:</strong> $ax + by + cz + d = 0$, where $(a, b, c)$ are the DRs of the normal vector to the plane.<li><strong>Vector Form:</strong> Normal to $\\mathbf{n}$ and passing through $\\mathbf{a}$:\n $$(\\mathbf{r} - \\mathbf{a}) \\cdot \\mathbf{n} = 0 \\implies \\mathbf{r} \\cdot \\mathbf{n} = \\mathbf{a} \\cdot \\mathbf{n}$$<li><strong>Normal Form:</strong> $\\mathbf{r} \\cdot \\hat{\\mathbf{n}} = p$ or $lx + my + nz = p$, where $\\hat{\\mathbf{n}}$ is the unit normal vector and $p$ is the perpendicular distance from the origin ($p \\ge 0$).<li><strong>Intercept Form:</strong> Making intercepts $a, b, c$ on the $X, Y, Z$ axes respectively:\n $$\\frac{x}{a} + \\frac{y}{b} + \\frac{z}{c} = 1$$<li><strong>Plane through Three Non-Collinear Points:</strong> $P(x_1, y_1, z_1)$, $Q(x_2, y_2, z_2)$, and $R(x_3, y_3, z_3)$:\n $$\\left| \\begin{matrix} x-x_1 & y-y_1 & z-z_1 \\\\ x_2-x_1 & y_2-y_1 & z_2-z_1 \\\\ x_3-x_1 & y_3-y_1 & z_3-z_1 \\end{matrix} \\right| = 0$$\n</ul>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Angle and Geometry Between Planes",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Angle and Geometry Between Planes",
+          "concept": "<ul>\n <li><strong>Angle ($\\theta$) between two planes:</strong> Given $a_1x + b_1y + c_1z + d_1 = 0$ and $a_2x + b_2y + c_2z + d_2 = 0$:\n $$\\cos\\theta = \\frac{|a_1a_2 + b_1b_2 + c_1c_2|}{\\sqrt{a_1^2+b_1^2+c_1^2}\\sqrt{a_2^2+b_2^2+c_2^2}}$$\n <li><strong>Perpendicular Planes:</strong> $a_1a_2 + b_1b_2 + c_1c_2 = 0$\n <li><strong>Parallel Planes:</strong> $\\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2}$\n</ul>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Point, Line, and Plane Interactions",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Point, Line, and Plane Interactions",
+          "concept": "<ul>\n <li><strong>Distance of a Point from a Plane:</strong> Distance of $P(x_1, y_1, z_1)$ from $ax + by + cz + d = 0$:\n $$D = \\frac{|ax_1 + by_1 + cz_1 + d|}{\\sqrt{a^2+b^2+c^2}}$$<li><strong>Foot of Perpendicular ($H$) from a point to a plane:</strong>\n $$\\frac{x_H - x_1}{a} = \\frac{y_H - y_1}{b} = \\frac{z_H - z_1}{c} = -\\frac{(ax_1 + by_1 + cz_1 + d)}{a^2+b^2+c^2}$$<li><strong>Image of a Point ($I$) in a plane:</strong>\n $$\\frac{x_I - x_1}{a} = \\frac{y_I - y_1}{b} = \\frac{z_I - z_1}{c} = -\\frac{2(ax_1 + by_1 + cz_1 + d)}{a^2+b^2+c^2}$$<li><strong>Angle between a Line and a Plane:</strong> Angle $\\phi$ between line $\\mathbf{r} = \\mathbf{a} + \\lambda\\mathbf{b}$ and plane $\\mathbf{r} \\cdot \\mathbf{n} = d$:\n $$\\sin\\phi = \\frac{|\\mathbf{b} \\cdot \\mathbf{n}|}{|\\mathbf{b}||\\mathbf{n}|}$$\n <ul>\n <li><strong>Line parallel to plane:</strong> $\\mathbf{b} \\cdot \\mathbf{n} = 0 \\implies aa_1 + bb_1 + cc_1 = 0$\n <li><strong>Line perpendicular to plane:</strong> $\\mathbf{b} \\times \\mathbf{n} = \\mathbf{0} \\implies \\frac{a}{a_1} = \\frac{b}{b_1} = \\frac{c}{c_1}$\n <li><strong>Line lying entirely in the plane:</strong> $\\mathbf{b} \\cdot \\mathbf{n} = 0$ AND the passing point $\\mathbf{a}$ satisfies the plane equation.\n </ul><li><strong>Coplanarity of Two Lines:</strong> Lines $\\frac{x-x_1}{a_1} = \\frac{y-y_1}{b_1} = \\frac{z-z_1}{c_1}$ and $\\frac{x-x_2}{a_2} = \\frac{y-y_2}{b_2} = \\frac{z-z_2}{c_2}$ are coplanar if:\n $$\\left| \\begin{matrix} x_2-x_1 & y_2-y_1 & z_2-z_1 \\\\ a_1 & b_1 & c_1 \\\\ a_2 & b_2 & c_2 \\end{matrix} \\right| = 0$$\n The equation of the plane containing them is:\n $$\\left| \\begin{matrix} x-x_1 & y-y_1 & z-z_1 \\\\ a_1 & b_1 & c_1 \\\\ a_2 & b_2 & c_2 \\end{matrix} \\right| = 0$$<li><strong>Family of Planes:</strong> Equation of a plane passing through the line of intersection of planes $P_1 = 0$ and $P_2 = 0$ is:\n $$P_1 + \\lambda P_2 = 0 \\implies (a_1x+b_1y+c_1z+d_1) + \\lambda(a_2x+b_2y+c_2z+d_2) = 0$$\n</ul>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "The Sphere",
+      "topics": [
+        {
+          "number": 1,
+          "title": "The Sphere",
+          "concept": "<ul>\n <li><strong>General Equation:</strong> $x^2 + y^2 + z^2 + 2ux + 2vy + 2wz + d = 0$\n <ul>\n <li><strong>Centre:</strong> $(-u, -v, -w)$\n <li><strong>Radius:</strong> $R = \\sqrt{u^2 + v^2 + w^2 - d}$ (Condition for real sphere: $u^2+v^2+w^2 \\ge d$)\n </ul><li><strong>Diameter Form:</strong> Sphere with diametric endpoints $A(x_1,y_1,z_1)$ and $B(x_2,y_2,z_2)$:\n $$(x-x_1)(x-x_2) + (y-y_1)(y-y_2) + (z-z_1)(z-z_2) = 0$$<li><strong>Intersection with a Plane:</strong> The intersection of a sphere and a plane is a circle.\n <ul>\n <li>Let $C$ be the center of the sphere, $R$ be its radius, and $p$ be the perpendicular distance from $C$ to the intersecting plane.\n <li><strong>Radius of resulting circle:</strong> $r = \\sqrt{R^2 - p^2}$\n <li><strong>Tangent Plane condition:</strong> If $p = R$, the plane touches the sphere at a single point. The equation of the tangent plane at point $(x_1, y_1, z_1)$ on the sphere is:\n $$xx_1 + yy_1 + zz_1 + u(x+x_1) + v(y+y_1) + w(z+z_1) + d = 0$$\n </ul>\n</ul><p>```</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": []
+}

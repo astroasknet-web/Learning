@@ -1,0 +1,1448 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": 19,
+  "title": "Hyperbola",
+  "slug": "hyperbola",
+  "subtitle": "Hyperbola for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#9333ea",
+  "icon": "math",
+  "seo": {
+    "meta_description": "Master Hyperbola for JEE Main & Advanced on GrowQR: theory, formulas, solved examples and self-check MCQs. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Definition and Standard Form",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Focal Radii",
+          "concept": "<p>For any point $P(x_1, y_1)$ lying on the right-hand branch ($x_1 \\ge a$) of the standard hyperbola, its focal distances track as:\n \\begin{formulabox}[Focal Distances]\n \\[\n\t\tSP  = ex_1 - a, \\qquad S'P = ex_1 + a\n\t\t\\]\n \\[\n\t\tS'P - SP = 2a \\quad (\\text{constant value equal to transverse axis length})\n\t\t\\]\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Find the eccentricity of the standard hyperbola profile modeled by the equation $16x^2 - 9y^2 = 144$:",
+              "options": [
+                "$5/4$",
+                "$5/3$",
+                "$4/3$",
+                "$\\sqrt{7}/3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "A variable point moves such that the absolute difference of its distances from two fixed foci $S(5,0)$ and $S'(-5,0)$ is constantly equal to $6$ units. Find its standard path equation:",
+              "options": [
+                "$\\ds\\frac{x^2}{9} - \\frac{y^2}{16} = 1$",
+                "$\\ds\\frac{x^2}{16} - \\frac{y^2}{9} = 1$",
+                "$\\ds\\frac{x^2}{9} - \\frac{y^2}{25} = 1$",
+                "$\\ds\\frac{x^2}{25} - \\frac{y^2}{16} = 1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the total length of the latus rectum for the standard hyperbola mapping $25x^2 - 16y^2 = 400$:",
+              "options": [
+                "$25/2$",
+                "$32/5$",
+                "$25/4$",
+                "$50$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the distance separating the two vertical directrix lines of the hyperbola $\\ds\\frac{x^2}{16} - \\frac{y^2}{9} = 1$:",
+              "options": [
+                "$32/5$",
+                "$16/5$",
+                "$25/4$",
+                "$8$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a point $P$ lying on the right branch of the hyperbola $\\ds\\frac{x^2}{9} - \\frac{y^2}{16} = 1$ has an abscissa coordinate $x_1 = 5$, calculate its distance $SP$ from the closer focus:",
+              "options": [
+                "$16/3$",
+                "$25/3$",
+                "$4$",
+                "$34/3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Conjugate Hyperbola",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Key Parameters of Conjugate Configurations",
+          "concept": "<ul>[leftmargin=*]\n <li>Both the primary hyperbola and its conjugate orientation share the exact same pair of asymptotic lines.\n <li><strong>Eccentricity Reciprocal Identity:</strong> If $e_1$ represents the eccentricity of the primary curve and $e_2$ is the eccentricity of its conjugate curve, they satisfy the balanced identity:\n \\[\n\t\t\\frac{1}{e_1^2} + \\frac{1}{e_2^2} = 1.\n\t\t\\]\n <li>The conjugate hyperbola layout has its transverse axis of length $2b$ oriented vertically along the $y$-axis, with its foci situated at $(0, \\pm be)$.\n </ul>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "If the eccentricity of a standard hyperbola is $e_1 = \\frac{5}{4}$, calculate the eccentricity $e_2$ of its matching conjugate hyperbola:",
+              "options": [
+                "$5/3$",
+                "$4/3$",
+                "$5/2$",
+                "$\\sqrt{5}/2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the focus coordinates of the conjugate hyperbola profile given by $\\ds\\frac{x^2}{9} - \\frac{y^2}{16} = -1$:",
+              "options": [
+                "$(0, \\pm 5)$",
+                "$(\\pm 5, 0)$",
+                "$(0, \\pm 4)$",
+                "$(0, \\pm 3)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The length of the transverse axis of the conjugate hyperbola profile $16x^2 - 9y^2 = -144$ is:",
+              "options": [
+                "$8$",
+                "$6$",
+                "$16$",
+                "$12$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\ds\\frac{1}{e_1^2} + \\frac{1}{e_2^2} = 1$, and the primary conic has a squared eccentricity value $e_1^2 = 3$, find the value of $e_2^2$:",
+              "options": [
+                "$1.5$",
+                "$3/2$",
+                "$4/3$",
+                "$2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the directrices equations for the conjugate hyperbola configuration $\\ds\\frac{x^2}{9} - \\frac{y^2}{16} = -1$:",
+              "options": [
+                "$y = \\pm 16/5$",
+                "$x = \\pm 9/5$",
+                "$y = \\pm 4/5$",
+                "$y = \\pm 25/4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Asymptotes",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Asymptotes",
+          "concept": "<p>% ============================================================</p><p>\\begin{formulabox}[Asymptotes of $\\ds\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$]\n An asymptote is a straight line that passes through the center of the hyperbola and stands tangent to the curve branches at infinity. Their linear equations are:\n \\[\n\t\ty = \\frac{b}{a}x \\quad \\text{and} \\quad y = -\\frac{b}{a}x\n\t\t\\]\n Combined joint equation: $\\ds\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 0 \\implies b^2x^2 - a^2y^2 = 0$.\n \\end{formulabox}</p><strong>Key Properties of Asymptotes:</strong>\n <ol>\n <li>The asymptotes always intersect at the geometric center of the curve.\n <li><strong>Constant Separation Law:</strong> Hyperbola Equation $-$ Joint Asymptotes Equation $=$ Constant. The difference between $\\ds\\frac{x^2}{a^2}-\\frac{y^2}{b^2}-1=0$ and $\\ds\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=0$ is strictly equal to $1$.\n <li>The total interior angle formed between the two asymptotes evaluates to: $2\\tan^{-1}\\left(\\ds\\frac{b}{a}\\right)$.\n <li>If a tangent line drawn at any point $P$ on the hyperbola cuts the asymptotes at points $A$ and $B$, the segment $AB$ is bisected exactly at the point of contact $P$.\n </ol><p>\\begin{importantbox}[Relation between Hyperbola, Asymptotes and Conjugate]\n The joint equations satisfy a perfect algebraic distribution balance:\n \\[\n\t\t\\text{Hyperbola Formula} + \\text{Conjugate Formula} = 2 \\times \\text{Joint Asymptotes Formula}\n\t\t\\]\n \\[\n\t\t\\left(\\frac{x^2}{a^2}-\\frac{y^2}{b^2}-1\\right) + \\left(\\frac{y^2}{b^2}-\\frac{x^2}{a^2}-1\\right) = 2 \\cdot \\left(\\frac{x^2}{a^2}-\\frac{y^2}{b^2}\\right) - 2.\n\t\t\\]\n \\end{importantbox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Find the equations of the asymptotes for the standard hyperbola $16x^2 - 9y^2 = 144$:",
+              "options": [
+                "$4x \\pm 3y = 0$",
+                "$3x \\pm 4y = 0$",
+                "$16x \\pm 9y = 0$",
+                "$x \\pm y = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the interior acute angle between the asymptotes of the hyperbola $\\ds\\frac{x^2}{3} - y^2 = 1$:",
+              "options": [
+                "$60^\\circ$",
+                "$30^\\circ$",
+                "$45^\\circ$",
+                "$90^\\circ$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the angle between the asymptotes of a standard hyperbola is exactly $90^\\circ$, the value of the ratio $\\ds\\frac{b}{a}$ must be:",
+              "options": [
+                "$1$",
+                "$\\sqrt{2}$",
+                "$1/2$",
+                "$\\sqrt{3}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The joint equation of the pair of asymptotes for a hyperbola is $x^2 - 4y^2 = 0$. If the hyperbola passes through $(4, 1)$, find its path equation:",
+              "options": [
+                "$x^2 - 4y^2 = 12$",
+                "$x^2 - 4y^2 = 16$",
+                "$x^2 - 4y^2 = 1$",
+                "$x^2 - 4y^2 = 4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a tangent line at $P$ intersects the asymptotes at $A(2, 5)$ and $B(6, 1)$, find the coordinates of the point of contact $P$:",
+              "options": [
+                "$(4, 3)$",
+                "$(2, 3)$",
+                "$(8, 6)$",
+                "$(4, 2)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Parametric Form",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Parametric Form",
+          "concept": "<p>% ============================================================</p><p>\\begin{formulabox}[Parametric Equations]\n The coordinates of any variable point on the standard hyperbola $\\ds\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$ can be expressed in terms of an eccentric angle parameter $\\theta$ as:\n \\[\n\t\tx = a\\sec\\theta, \\quad y = b\\tan\\theta, \\quad \\theta \\in \\R \\setminus \\left\\{(2k+1)\\frac{\\pi}{2}, \\, k \\in \\mathbb{Z}\\right\\}\n\t\t\\]\n Alternatively, it can be parameterized using hyperbolic functions as:\n \\[\n\t\tx = a\\cosh t, \\quad y = b\\sinh t, \\quad t \\in \\mathbb{R}.\n\t\t\\]\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "A parameter point on the hyperbola $\\ds\\frac{x^2}{16} - \\frac{y^2}{9} = 1$ has an eccentric angle $\\theta = \\frac{\\pi}{4}$. Find its coordinate position:",
+              "options": [
+                "$(4\\sqrt{2}, 3)$",
+                "$(4, 3\\sqrt{2})$",
+                "$(4\\sqrt{2}, 3\\sqrt{2})$",
+                "$(4, 3)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the eccentric angle $\\theta$ of a point lying on the hyperbola $\\ds\\frac{x^2}{4} - \\frac{y^2}{3} = 1$ whose coordinates are given by $(4, 3)$:",
+              "options": [
+                "$60^\\circ$",
+                "$30^\\circ$",
+                "$45^\\circ$",
+                "$0^\\circ$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The hyperbolic parameterization coordinates $x = 5\\cosh t$ and $y = 4\\sinh t$ trace which specific conic expression?",
+              "options": [
+                "$\\ds\\frac{x^2}{25} - \\frac{y^2}{16} = 1$",
+                "$\\ds\\frac{x^2}{25} + \\frac{y^2}{16} = 1$",
+                "$x^2 - y^2 = 9$",
+                "$\\ds\\frac{x^2}{16} - \\frac{y^2}{25} = 1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the slope of the chord connecting two parameter points $\\theta_1$ and $\\theta_2$ on the standard hyperbola (derived from its Cartesian equations):",
+              "options": [
+                "$\\ds\\frac{b}{a} \\frac{\\sin\\left(\\frac{\\theta_1-\\theta_2}{2}\\right)}{\\cos\\left(\\frac{\\theta_1+\\theta_2}{2}\\right)}$",
+                "$\\ds\\frac{b}{a} \\frac{\\sin\\left(\\frac{\\theta_1+\\theta_2}{2}\\right)}{\\cos\\left(\\frac{\\theta_1-\\theta_2}{2}\\right)}$",
+                "$\\ds\\frac{a}{b} \\tan\\left(\\frac{\\theta_1+\\theta_2}{2}\\right)$",
+                "$\\ds\\frac{b}{a} \\cot\\left(\\frac{\\theta_1+\\theta_2}{2}\\right)$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If the parameter values of a variable point are $x = 3\\sec\\theta$ and $y = 2\\tan\\theta$, find the length of the conjugate axis ($2b$) of the hyperbola:",
+              "options": [
+                "$4$",
+                "$6$",
+                "$2$",
+                "$3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Rectangular Hyperbola $xy = c^2$",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Key Elements of $xy = c^2$",
+          "concept": "<p><table class=\"tex-table\"><tr><td><strong>Geometric Element</strong></td><td><strong>Value / Structural Equation</strong></td></tr><tr><td>Centre</td><td>$(0,0)$</td></tr><tr><td>Asymptotes</td><td>$x = 0$ and $y = 0$ (the coordinate axes)</td></tr><tr><td>Eccentricity ($e$)</td><td>$\\sqrt{2}$</td></tr><tr><td>Vertices Coordinates</td><td>$(c, c)$ and $(-c,-c)$</td></tr><tr><td>Foci Coordinates</td><td>$(c\\sqrt{2}, c\\sqrt{2})$ and $(-c\\sqrt{2}, -c\\sqrt{2})$</td></tr><tr><td>Directrices Linear Lines</td><td>$x + y = \\pm c\\sqrt{2}$</td></tr></table></p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Tangent to $xy = c^2$ at $(ct, c/t)$",
+          "concept": "<p>\\begin{formulabox}[Tangent: Point and Parametric Form]\n At a given point $(x_1, y_1)$ on the curve: $x y_1 + y x_1 = 2c^2$</p><p>At a given parameter point $t$: $x + t^2 y = 2ct$\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 3,
+          "title": "Normal to $xy = c^2$ at $(ct, c/t)$",
+          "concept": "<p>\\begin{formulabox}[Normal]\n Differentiating the parametric equations yields the normal line equation at parameter $t$:\n \\[\n\t\tt^3 x - ty = c(t^4 - 1)\n\t\t\\]\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 4,
+          "title": "Chord of $xy = c^2$ with Parameters $t_1, t_2$",
+          "concept": "<p>The straight line chord connecting two parameter points $t_1$ and $t_2$ is modeled by:\n \\[\n\tx + t_1 t_2 y = c(t_1 + t_2).\n\t\\]</p>\\begin{importantbox}[Key Analytical Results for $xy = c^2$]\n <ol>\n <li>Normals Concurrency Condition: The four normals drawn at parameters $t_1, t_2, t_3,$ and $t_4$ are concurrent if and only if: $t_1 t_2 t_3 t_4 = 1$.\n <li>Re-intersection Rule: If the normal line drawn at parameter $t$ intersects the rectangular hyperbola again at a new parameter point $t'$, they satisfy the relationship: $t' = -\\frac{1}{t^3}$.\n <li>Cyclic Inscription Property: If a circle cuts the rectangular hyperbola $xy = c^2$ at four points $t_1, t_2, t_3,$ and $t_4$, the parameters satisfy: $t_1 t_2 t_3 t_4 = 1$.\n </ol>\n \\end{importantbox}",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Find the equation of the tangent line to the rectangular hyperbola $xy = 4$ at the parameter point $t = 2$:",
+              "options": [
+                "$x + 4y = 8$",
+                "$x + y = 4$",
+                "$4x + y = 8$",
+                "$x - 4y = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the normal line drawn at parameter $t = 2$ on the rectangular hyperbola $xy = c^2$ intersects the curve again at parameter $t'$, find the value of $t'$:",
+              "options": [
+                "$-1/8$",
+                "$-8$",
+                "$1/8$",
+                "$-1/2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the coordinates of the vertices of the rectangular hyperbola $xy = 9$:",
+              "options": [
+                "$(\\pm 3, \\pm 3)$",
+                "$(\\pm 9, \\pm 9)$",
+                "$(\\pm 3\\sqrt{2}, \\pm 3\\sqrt{2})$",
+                "$(\\pm 1, \\pm 9)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If three of the intersection points of a circle with the rectangular hyperbola $xy = c^2$ are parameterized at $t_1 = 1, t_2 = 2,$ and $t_3 = 3$, find the parameter value $t_4$ of the fourth intersection point:",
+              "options": [
+                "$1/6$",
+                "$6$",
+                "$-1/6$",
+                "$2/3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the chord of the rectangular hyperbola $xy = 16$ whose midpoint is located at $M(4, 2)$ (derived using $T = S_1$ properties):",
+              "options": [
+                "$x + 2y = 8$",
+                "$2x + y = 8$",
+                "$x + y = 6$",
+                "$x + 2y = 16$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Equations of Tangent to $\\ds\\frac{x^2",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Point Form",
+          "concept": "<p>\\begin{formulabox}[Point Form ($T = 0$)]\n \\[\n\t\t\\frac{x x_1}{a^2} - \\frac{y y_1}{b^2} = 1\n\t\t\\]\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Parametric Form",
+          "concept": "<p>\\begin{formulabox}[Parametric Form at $\\theta$]\n \\[\n\t\t\\frac{x\\sec\\theta}{a} - \\frac{y\\tan\\theta}{b} = 1\n\t\t\\]\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 3,
+          "title": "Slope Form",
+          "concept": "<p>\\begin{formulabox}[Slope Form — slope $m$]\n \\[\n\t\ty = mx \\pm \\sqrt{a^2 m^2 - b^2}\n\t\t\\]\n \\end{formulabox}</p><p>\\begin{importantbox}[Condition of Tangency]\n The straight line $y = mx + c$ is tangent to the standard hyperbola $\\ds\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$ if and only if:\n \\[\n\t\tc^2 = a^2 m^2 - b^2 \\implies c = \\pm \\sqrt{a^2m^2-b^2}.\n\t\t\\]\n Note: For real tangent lines to exist, the expression under the radical must be strictly positive ($a^2m^2 - b^2 > 0$), which restricts the allowed slopes to: $|m| > \\ds\\frac{b}{a}$.\n \\end{importantbox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Find the equation of the tangent line to the hyperbola $\\ds\\frac{x^2}{9} - \\frac{y^2}{4} = 1$ that has a slope of $m = 1$ and a positive y-intercept:",
+              "options": [
+                "$y = x + \\sqrt{5}$",
+                "$y = x + 5$",
+                "$y = x + \\sqrt{13}$",
+                "$y = x + 2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the tangent line to the hyperbola $16x^2 - 9y^2 = 144$ at the parameter point whose eccentric angle is $\\theta = \\frac{\\pi}{6}$:",
+              "options": [
+                "$4x - \\sqrt{3}y = 6$",
+                "$8x - 2\\sqrt{3}y = 9$",
+                "$2x - 3y = 6$",
+                "$4x + \\sqrt{3}y = 12$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "For what value of the constant intercept parameter $c$ is the line $y = 2x + c$ tangent to the hyperbola $\\ds\\frac{x^2}{4} - \\frac{y^2}{7} = 1$?",
+              "options": [
+                "$\\pm 3$",
+                "$\\pm 9$",
+                "$\\pm \\sqrt{23}$",
+                "$\\pm \\sqrt{3}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the coordinate position where the slope-form tangent line $y = x + \\sqrt{5}$ touches the hyperbola $\\ds\\frac{x^2}{9} - \\frac{y^2}{4} = 1$:",
+              "options": [
+                "$\\left(-\\frac{9}{\\sqrt{5}}, -\\frac{4}{\\sqrt{5}}\\right)$",
+                "$\\left(\\frac{9}{\\sqrt{5}}, \\frac{4}{\\sqrt{5}}\\right)$",
+                "$(3, 2)$",
+                "$(-3, -2)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The total area of the triangle formed by any variable tangent line to a hyperbola with its two asymptotes is constant and always equal to:",
+              "options": [
+                "$ab$",
+                "$2ab$",
+                "$\\frac{1}{2}ab$",
+                "$a^2 + b^2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Equations of Normal to $\\ds\\frac{x^2",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Point Form",
+          "concept": "<p>\\begin{formulabox}[Point Form]\n \\[\n\t\t\\frac{a^2 x}{x_1} + \\frac{b^2 y}{y_1} = a^2 + b^2\n\t\t\\]\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Parametric Form",
+          "concept": "<p>\\begin{formulabox}[Parametric Form at $\\theta$]\n \\[\n\t\tax\\cos\\theta + by\\cot\\theta = a^2 + b^2\n\t\t\\]\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 3,
+          "title": "Slope Form",
+          "concept": "<p>\\begin{formulabox}[Slope Form — slope $m$]\n \\[\n\t\ty = mx \\mp \\frac{(a^2+b^2)m}{\\sqrt{a^2 - b^2 m^2}}\n\t\t\\]\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 4,
+          "title": "Number of Normals from a Point",
+          "concept": "<p>Similar to the ellipse configuration, a maximum of <strong>four real normals</strong> can be drawn from an external coordinate point to a hyperbola.</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Find the equation of the normal line to the hyperbola $\\ds\\frac{x^2}{16} - \\frac{y^2}{9} = 1$ at the point coordinate position $\\left(5, \\frac{9}{4}\\right)$:",
+              "options": [
+                "$16x + 20y = 125$",
+                "$4x + 5y = 25$",
+                "$16x - 20y = 25$",
+                "$x + y = 7$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the normal line to the hyperbola $4x^2 - 9y^2 = 36$ at the parameter point whose eccentric angle is $\\theta = \\frac{\\pi}{4}$:",
+              "options": [
+                "$3\\sqrt{2}x + 2y = 13$",
+                "$3x + 2\\sqrt{2}y = 13$",
+                "$3x - 2y = 13$",
+                "$\\sqrt{2}x + y = 13$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The maximum number of real normal lines that can be drawn from an external point to a hyperbola is:",
+              "options": [
+                "$4$",
+                "$2$",
+                "$3$",
+                "$1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the slope of the normal line to the hyperbola $\\ds\\frac{x^2}{9} - \\frac{y^2}{4} = 1$ at its vertex position $(3, 0)$:",
+              "options": [
+                "$0$ (horizontal line along the x-axis)",
+                "$\\infty$",
+                "$1$",
+                "$-1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the normal line $ax\\cos\\theta + by\\cot\\theta = a^2+b^2$ passes through the origin $(0,0)$, then the parameter value $\\theta$ must satisfy:",
+              "options": [
+                "No real solution exists (normals cannot pass through the center except along the axes)",
+                "$\\theta = 0$",
+                "$\\theta = \\pi/4$",
+                "$\\theta = \\pi/2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Chord of the Hyperbola",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Chord of Contact",
+          "concept": "<p>The straight line connecting the two points of tangency where tangent lines drawn from an external point $P(x_1, y_1)$ touch the hyperbola is the <strong>chord of contact</strong>:\n \\begin{formulabox}[Chord of Contact from $(x_1, y_1)$: $T = 0$]\n \\[\n\t\t\\frac{x x_1}{a^2} - \\frac{y y_1}{b^2} = 1\n\t\t\\]\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Chord with a Given Midpoint",
+          "concept": "<p>If a chord line is bisected exactly at an interior point $M(h, k)$, its equation can be found using the $T = S_1$ formula:\n \\begin{formulabox}[Midpoint Form: $T = S_1$]\n \\[\n\t\t\\frac{hx}{a^2} - \\frac{ky}{b^2} = \\frac{h^2}{a^2} - \\frac{k^2}{b^2}\n\t\t\\]\n The corresponding slope of this bisected chord evaluates to: $m = \\ds\\frac{b^2 h}{a^2 k}$.\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Find the equation of the chord of the hyperbola $\\ds\\frac{x^2}{9} - \\frac{y^2}{4} = 1$ whose midpoint is located at $M(4, 2)$:",
+              "options": [
+                "$4x - 9y = 7$",
+                "$4x - 9y = -2$",
+                "$4x - 9y = 2$",
+                "$x - y = 2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the slope of a chord of the hyperbola $\\ds\\frac{x^2}{16} - \\frac{y^2}{9} = 1$ that is bisected exactly at the point $(2, 1)$:",
+              "options": [
+                "$9/8$",
+                "$8/9$",
+                "$-9/8$",
+                "$9/16$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the chord of contact drawn from the external point $P(3, 2)$ to the hyperbola $\\ds\\frac{x^2}{9} - \\frac{y^2}{4} = 1$:",
+              "options": [
+                "$\\ds\\frac{x}{3} - \\frac{y}{2} = 1$",
+                "$\\ds\\frac{x}{3} + \\frac{y}{2} = 1$",
+                "$x - y = 1$",
+                "$3x - 2y = 1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a chord of the hyperbola $x^2 - y^2 = a^2$ is bisected at the point $(h, k)$, its slope is given by:",
+              "options": [
+                "$h/k$",
+                "$-h/k$",
+                "$k/h$",
+                "$-k/h$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The chord of contact from an external point $P$ with respect to the hyperbola $\\ds\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$ is a horizontal line parallel to the x-axis if $P$ lies on:",
+              "options": [
+                "The vertical y-axis ($x_1 = 0$)",
+                "The horizontal x-axis ($y_1 = 0$)",
+                "An asymptote line",
+                "The directrix line"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Pole and Polar",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Pole and Polar",
+          "concept": "<p>% ============================================================</p><p>\\begin{formulabox}[Polar of $(x_1, y_1)$ w.r.t. Hyperbola]\n \\[\n\t\t\\frac{x x_1}{a^2} - \\frac{y y_1}{b^2} = 1 \\quad \\Longleftrightarrow \\quad T = 0\n\t\t\\]\n The point $(x_1, y_1)$ is defined as the <strong>pole</strong>, and the resulting line is its <strong>polar line</strong>.\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Find the polar line of the point $P(4, 2)$ with respect to the hyperbola $\\ds\\frac{x^2}{16} - \\frac{y^2}{4} = 1$:",
+              "options": [
+                "$\\ds\\frac{x}{4} - \\frac{y}{2} = 1$",
+                "$\\ds\\frac{x}{4} + \\frac{y}{2} = 1$",
+                "$x - y = 4$",
+                "$4x - 2y = 1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the pole coordinates of the straight line $x - 2y = 2$ with respect to the hyperbola $\\ds\\frac{x^2}{8} - \\frac{y^2}{2} = 1$:",
+              "options": [
+                "$(4, 2)$",
+                "$(4, -2)$",
+                "$(2, 4)$",
+                "$(8, 2)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The polar line of the positive focus $S(ae, 0)$ with respect to a standard hyperbola matches exactly which geometric line?",
+              "options": [
+                "The positive directrix $x = \\ds\\frac{a}{e}$",
+                "The negative directrix $x = -\\ds\\frac{a}{e}$",
+                "The vertical asymptote",
+                "The latus rectum chord"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the points $(1, 1)$ and $(h, 2)$ are conjugate points with respect to the hyperbola $\\ds\\frac{x^2}{4} - \\frac{y^2}{2} = 1$, find the value of $h$:",
+              "options": [
+                "$8$",
+                "$4$",
+                "$2$",
+                "$6$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a variable pole moves along an asymptote line of a hyperbola, its corresponding polar line must:",
+              "options": [
+                "Stand parallel to or match that same asymptote line",
+                "Pass through the focus",
+                "Match the directrix line",
+                "Pass through the vertex"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Director Circle",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Director Circle",
+          "concept": "<p>% ============================================================</p><p>\\begin{formulabox}[Director Circle of Hyperbola]\n The locus of the point of intersection of two tangents to a hyperbola that meet at a constant angle of $90^\\circ$ is a concentric circle called the director circle. Its equation is:\n \\[\n\t\tx^2 + y^2 = a^2 - b^2\n\t\t\\]\n \\end{formulabox}</p><strong>Key Properties of the Director Circle:</strong>\n <ul>[leftmargin=*]\n <li>This circle exists as a real curve only when the semi-major axis is strictly greater than the semi-minor axis ($a > b$).\n <li>When $a = b$ (rectangular hyperbola), the radius vanishes ($a^2 - b^2 = 0$), causing the director circle to collapse into a single point at the center $(0,0)$. This indicates that the only perpendicular tangents that can be drawn to a rectangular hyperbola are its asymptotes, which intersect at the center.\n <li>When $a < b$, no real points exist in the plane from which perpendicular tangents can be drawn to the hyperbola.\n </ul>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Find the equation of the director circle for the standard hyperbola represented by $9x^2 - 4y^2 = 36$:",
+              "options": [
+                "$x^2 + y^2 = 5$",
+                "$x^2 + y^2 = 13$",
+                "$x^2 + y^2 = 9$",
+                "No real director circle exists"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the radius of the director circle associated with the hyperbola $\\ds\\frac{x^2}{25} - \\frac{y^2}{16} = 1$:",
+              "options": [
+                "$3$",
+                "$9$",
+                "$\\sqrt{41}$",
+                "$5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "For the rectangular hyperbola $x^2 - y^2 = 16$, the director circle degenerates to:",
+              "options": [
+                "A single point circle at the origin $(0,0)$",
+                "A circle of radius $4$",
+                "A circle of radius $4\\sqrt{2}$",
+                "The directrix lines"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Perpendicular tangents are drawn to the hyperbola $\\ds\\frac{x^2}{16} - \\frac{y^2}{7} = 1$ from a point $P$. Find the distance from the origin to $P$:",
+              "options": [
+                "$3$",
+                "$9$",
+                "$\\sqrt{23}$",
+                "$4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Why does no real director circle exist for the hyperbola equation $\\ds\\frac{x^2}{9} - \\frac{y^2}{16} = 1$?",
+              "options": [
+                "Because $a < b$, making the radius term $a^2 - b^2 = 9 - 16 = -7$ imaginary",
+                "Because the eccentricity is too high",
+                "Because it has perpendicular asymptotes",
+                "Because it passes through the origin"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Reflection Property of Hyperbola",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Reflection Property of Hyperbola",
+          "concept": "<p>% ============================================================</p><p>\\begin{importantbox}[Reflection Property]\n An incoming ray of light directed toward one focus $S$ of a hyperbola reflects off the outer curve boundary surface and is diverted along a line that appears to originate from the <strong>other focus</strong> $S'$.</p><p>The normal line at any point $P$ on a hyperbola acts as the internal angle bisector of the focal angle $\\angle SPS'$.\n \\end{importantbox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "A ray of light is directed toward the positive focus $S(5,0)$ of the hyperbola $\\ds\\frac{x^2}{9} - \\frac{y^2}{16} = 1$. After reflecting off the curve at a point $P$, the path line of the reflected ray passes through, or appears to originate from:",
+              "options": [
+                "The opposite focus point $S'(-5, 0)$",
+                "The origin $(0, 0)$",
+                "The vertex $(3, 0)$",
+                "The directrix intercept"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The reflection property of the hyperbola establishes that the normal line at any boundary point $P$ always:",
+              "options": [
+                "Bisects the interior angle $\\angle SPS$ internally",
+                "Bisects the interior angle $\\angle SPS$ externally",
+                "Stands parallel to the asymptotes",
+                "Passes through the center $(0,0)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The tangent line drawn at any point $P$ on a hyperbola bisects:",
+              "options": [
+                "The external angle between the focal radii vectors $SP$ and $S'P$",
+                "The internal angle between the focal radii vectors $SP$ and $S'P$",
+                "The major axis segment",
+                "The angle between the asymptotes"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a ray of light originates from the focus $S$ of an ellipse, it converges at the other focus $S'$. If it reflects off a co-focal hyperbola instead, the reflected ray path:",
+              "options": [
+                "Aligns directly with the vector extension line connecting the alternative focus",
+                "Bounces back to the originating focus",
+                "Travels parallel to the principal axis",
+                "Diverges along the asymptote directions"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "A light ray travels parallel to the line $y = 0$ along the principal axis and strikes the vertex of the hyperbola branch. The reflected ray path:",
+              "options": [
+                "Bounces directly back along the same line $y = 0$",
+                "Deflects toward the focus automatically",
+                "Aligns with the asymptote lines",
+                "Becomes vertical along the tangent line at the vertex"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Comparison: All Three Conics",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Comparison: All Three Conics",
+          "concept": "<p>% ============================================================</p><p><table class=\"tex-table\"><tr><td><strong>Geometric Property</strong></td><td><strong>Parabola</strong></td><td><strong>Ellipse</strong></td><td><strong>Hyperbola</strong></td></tr><tr><td>Eccentricity Metric</td><td>$e=1$</td><td>$0<e<1$</td><td>$e>1$</td></tr><tr><td>Standard Equation Form</td><td>$y^2=4ax$</td><td>$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$</td><td>$\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$</td></tr><tr><td>Semi-Axes Scaling Relation</td><td>---</td><td>$b^2=a^2(1-e^2)$</td><td>$b^2=a^2(e^2-1)$</td></tr><tr><td>Foci Vector Coordinates</td><td>$(a,0)$</td><td>$(\\pm ae, 0)$</td><td>$(\\pm ae, 0)$</td></tr><tr><td>Directrix Line Equations</td><td>$x=-a$</td><td>$x=\\pm a/e$</td><td>$x=\\pm a/e$</td></tr><tr><td>Focal String Property Balance</td><td>$SP=x+a$</td><td>$SP+S'P=2a$</td><td>$|S'P-SP|=2a$</td></tr><tr><td>Tangent Condition ($c^2$)</td><td>$c = a/m$</td><td>$c^2=a^2m^2+b^2$</td><td>$c^2=a^2m^2-b^2$</td></tr><tr><td>Director Circle Locus Form</td><td>None</td><td>$x^2+y^2=a^2+b^2$</td><td>$x^2+y^2=a^2-b^2$</td></tr><tr><td>Asymptotes System Equations</td><td>None</td><td>None</td><td>$y=\\pm\\frac{b}{a}x$</td></tr><tr><td>Parametric Vector Mapping</td><td>$(at^2,2at)$</td><td>$(a\\cos\\theta,b\\sin\\theta)$</td><td>$(a\\sec\\theta,b\\tan\\theta)$</td></tr></table></p><p>% ============================================================</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Intersection of Two Conics",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Intersection of Two Conics",
+          "concept": "<p>% ============================================================</p>According to Bezout's Theorem, two general coplanar conic sections can intersect at a maximum of <strong>four distinct points</strong>. \n <ol>\n <li>To find their points of intersection, solve the two quadratic equations simultaneously by eliminating one variable to generate a quartic polynomial.\n <li>To find their common tangents, express the tangent line in slope form for both conics independently, equate their intercept components, and solve for the common slope parameter $m$.\n <li>The linear combination family equation $S_1 + \\lambda S_2 = 0$ represents the system of conics passing through the common intersection points. If a value of $\\lambda$ eliminates the quadratic terms, the equation simplifies to their <strong>common chord line</strong> equation $S_1 - S_2 = 0$.\n </ol><p>\\begin{importantbox}[Common Chord of Two Conics]\n If $S_1 = 0$ and $S_2 = 0$ are two normalized quadratic conics, then the linear difference equation $S_1 - S_2 = 0$ defines the equation of their common chord line segment.\n \\end{importantbox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "According to Bezout's Theorem, what is the maximum possible number of intersection points between a standard ellipse and a standard hyperbola?",
+              "options": [
+                "$4$",
+                "$2$",
+                "$1$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the number of real common tangents that can be drawn to the circle $x^2 + y^2 = 1$ and the hyperbola $x^2 - y^2 = 4$:",
+              "options": [
+                "$0$ (the hyperbola lies completely outside the circle and opens away from it)",
+                "$2$",
+                "$4$",
+                "$1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the common chord line equation $S_1 - S_2 = 0$ is formed from two conics, this equation represents a real line segment if and only if the conics:",
+              "options": [
+                "Intersect at real points",
+                "Are concentric",
+                "Are orthogonal",
+                "Share an asymptote"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the common chord line for the two conics $S_1: x^2 + 2y^2 - 4 = 0$ and $S_2: x^2 - y^2 - 1 = 0$:",
+              "options": [
+                "$3y^2 - 3 = 0 \\implies y = \\pm 1$",
+                "$x^2 = 2$",
+                "$y = 0$",
+                "$x + y = 1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "To find the common tangent lines to a parabola $y^2 = 4ax$ and a hyperbola $\\ds\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$, we equate their intercept criteria:",
+              "options": [
+                "$\\ds\\frac{a}{m} = \\pm \\sqrt{a^2m^2-b^2}$",
+                "$am = a^2m^2 + b^2$",
+                "$\\ds\\frac{a}{m^2} = a^2m^2 - b^2$",
+                "$\\ds\\frac{a}{m} = a^2m^2 + b^2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Special Results and JEE Tricks",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Special Results and JEE Tricks",
+          "concept": "<p>% ============================================================</p>\\begin{warningbox}[JEE Important Results — Hyperbola]\n <ol>\n <li><strong>Asymptotic Area Property:</strong> The total area of the bounding triangle formed by drawing a variable tangent line to a hyperbola and its two asymptotes is constant and always equal to $ab$.\n <li>If a circle intersects the rectangular hyperbola $xy = c^2$ at four points $t_1, t_2, t_3,$ and $t_4$, the product of their parameters is always equal to unity: $t_1 t_2 t_3 t_4 = 1$.\n <li>The locus of the foot of the perpendicular dropped from either focus to any variable tangent line of a hyperbola is its <strong>auxiliary circle</strong> $x^2 + y^2 = a^2$.\n <li>The segment of any variable tangent line intercepted between the two asymptotes is always bisected exactly at its point of contact $P$ with the hyperbola branch.\n </ol>\n \\end{warningbox}",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Calculate the area of the triangle formed by any variable tangent line to the hyperbola $\\ds\\frac{x^2}{16} - \\frac{y^2}{9} = 1$ with its two asymptotes:",
+              "options": [
+                "$12$",
+                "$24$",
+                "$6$",
+                "$144$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the locus of the foot of the perpendicular dropped from the focus $S(5,0)$ of the hyperbola $\\ds\\frac{x^2}{16} - \\frac{y^2}{9} = 1$ to any variable tangent line:",
+              "options": [
+                "$x^2 + y^2 = 16$",
+                "$x^2 + y^2 = 25$",
+                "$x^2 + y^2 = 9$",
+                "$x^2 + y^2 = 7$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a variable tangent line to the rectangular hyperbola $xy = c^2$ intersects the coordinate axes at $A$ and $B$, the total area of the triangle $OAB$ is constant and always equal to:",
+              "options": [
+                "$2c^2$",
+                "$c^2$",
+                "$\\frac{1}{2}c^2$",
+                "$4c^2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the normal line drawn at parameter point $t = 2$ on the rectangular hyperbola $xy = 4$ intersects the curve again at parameter $t'$, find the value of $t'$:",
+              "options": [
+                "$-1/8$",
+                "$-8$",
+                "$1/8$",
+                "$-1/2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The eccentricity of any rectangular hyperbola profile is a fixed scalar constant equal to:",
+              "options": [
+                "$\\sqrt{2}$",
+                "$1$",
+                "$\\sqrt{3}$",
+                "$2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Practice Problems (JEE Level)",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Practice Problems (JEE Level)",
+          "concept": "<p>% ============================================================</p><ol>\n <li>Prove that the product of the lengths of the perpendicular distances dropped from the two foci $S$ and $S'$ to any variable tangent line of the standard hyperbola $\\ds\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$ is constant and always equal to $b^2$.<li>Find the equation of the chord of the rectangular hyperbola $xy = c^2$ that is bisected exactly at an interior point $M(h, k)$.<li>Show that the total area of the triangle formed by any variable tangent line to a hyperbola with its two asymptotes is constant.<li>Find the locus of the midpoints of the chords of the hyperbola $\\ds\\frac{x^2}{9}-\\frac{y^2}{4}=1$ that are drawn parallel to the line $y = 2x$.<li>If $e_1$ and $e_2$ represent the eccentricities of a primary standard hyperbola and its corresponding conjugate hyperbola, prove that $\\ds\\frac{1}{e_1^2}+\\frac{1}{e_2^2}=1$.\n </ol>\\subsubsection*{Practice Problems Solution Matrix (MCQ Wrappers)}\n <ol>\n <li>Find the equation of the chord of the rectangular hyperbola $xy = c^2$ that is bisected exactly at the point $(h, k)$:\n <ol>\n <li>$x k + y h = 2hk$\n <li>$x h + y k = 2hk$\n <li>$x k + y h = hk$\n <li>$x + t^2y = 2ct$\n </ol><li>Find the locus of the midpoints of the chords of $\\ds\\frac{x^2}{9} - \\frac{y^2}{4} = 1$ that are parallel to the line $y = 2x$ (derived using the midpoint chord slope formula):\n <ol>\n <li>$2x - 9y = 0$\n <li>$4x - 9y = 0$\n <li>$9x - 2y = 0$\n <li>$x - 2y = 0$\n </ol><li>If the product of the perpendicular distances from the foci to a tangent line of the hyperbola $\\ds\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$ is $16$, find the length of the conjugate axis ($2b$):\n <ol>\n <li>$8$\n <li>$4$\n <li>$16$\n <li>$2$\n </ol><li>The area of the triangle formed by any variable tangent line to the hyperbola $\\ds\\frac{x^2}{16} - \\frac{y^2}{9} = 1$ with its asymptotes is:\n <ol>\n <li>$12$\n <li>$24$\n <li>$6$\n <li>$144$\n </ol><li>If the eccentricity of a primary hyperbola is $e_1 = \\sqrt{3}$, find the eccentricity $e_2$ of its matching conjugate hyperbola:\n <ol>\n <li>$\\sqrt{1.5}$\n <li>$\\sqrt{3}/2$\n <li>$2$\n <li>$\\sqrt{2}$\n </ol>\n \\</enumerate}\n <strong>Answer Key:</strong> 1. (A) 2. (B) 3. (A) 4. (A) 5. (A)<p>% ============================================================</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Quick Reference Card",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Quick Reference Card",
+          "concept": "<p>% ============================================================</p><p>\\begin{formulabox}[All Hyperbola Formulas at a Glance]\n <strong>Standard Equation Parameters</strong>: $\\ds\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$; $b^2=a^2(e^2-1)$; $e>1$.</p><p>\\medskip\n <table class=\"tex-table\"><tr><td><strong>Geometric Operational Element</strong></td><td><strong>Algebraic Formula / Line Equation Form</strong></td></tr><tr><td>Foci Vector Coordinates ($S, S'$):</td><td>$(\\pm ae, 0)$ where $ae = \\sqrt{a^2+b^2}$</td></tr><tr><td>Directrices Line Equations:</td><td>$x = \\pm a/e$</td></tr><tr><td>Asymptotes Linear System:</td><td>$y = \\pm (b/a)x \\implies b^2x^2 - a^2y^2 = 0$</td></tr><tr><td>Parametric Boundary Coordinates:</td><td>$(a\\sec\\theta, b\\tan\\theta)$</td></tr><tr><td>Tangent Line Equation (Point Form):</td><td>$\\ds\\frac{xx_1}{a^2}-\\frac{yy_1}{b^2}=1$</td></tr><tr><td>Tangent Line Equation (Slope Form):</td><td>$y = mx \\pm \\sqrt{a^2m^2-b^2}$</td></tr><tr><td>Condition of Tangency Criteria:</td><td>$c^2 = a^2m^2-b^2$</td></tr><tr><td>Normal Line Equation (Point Form):</td><td>$\\ds\\frac{a^2x}{x_1}+\\frac{b^2y}{y_1}=a^2+b^2$</td></tr><tr><td>Chord of Contact Line Equation:</td><td>$T = 0 \\implies \\ds\\frac{xx_1}{a^2}-\\frac{yy_1}{b^2}=1$</td></tr><tr><td>Chord Line with Midpoint $(h,k)$:</td><td>$T = S_1 \\implies \\ds\\frac{hx}{a^2} - \\frac{ky}{b^2} = \\frac{h^2}{a^2} - \\frac{k^2}{b^2}$</td></tr><tr><td>Director Circle Equation:</td><td>$x^2+y^2=a^2-b^2 \\quad (\\text{Valid only if } a > b)$</td></tr><tr><td>Focal Radii Absolute Difference:</td><td>$|S'P-SP|=2a$</td></tr><tr><td>[4pt]\n \\multicolumn{2}{l}{<strong>Rectangular Hyperbola Configurations </strong> $xy=c^2$:}</td></tr><tr><td>Parametric Coordinates Mapping:</td><td>$(ct, c/t)$</td></tr><tr><td>Tangent Equation at Parameter $t$:</td><td>$x + t^2 y = 2ct$</td></tr><tr><td>Normal Equation at Parameter $t$:</td><td>$t^3 x - ty = c(t^4-1)$</td></tr><tr><td>Normals Concurrency Metric:</td><td>$t_1t_2t_3t_4 = 1$</td></tr><tr><td>Normal Re-intersection Parameter:</td><td>$t' = -1/t^3$</td></tr></table>\n \\end{formulabox}</p><p>% ============================================================\n % FINAL SECTION: COMPLETE ASSESSMENT MATRIX\n % ============================================================</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Solved Examples",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Worked Examples",
+          "concept": "",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p><strong>Example 1 — Slope Form Tangent Formulations</strong></p><p>Find the equations of the tangent lines to the standard hyperbola $\\ds\\frac{x^2}{9} - \\frac{y^2}{4} = 1$ that have a slope of $m = 1$.</p>",
+              "solution": "<p>Identify the semi-axes parameters from the curve equation: $a^2 = 9$ and $b^2 = 4$. Apply the condition of tangency for slope form:\n \\[\n\t\tc^2 = a^2m^2 - b^2 = 9(1)^2 - 4 = 9 - 4 = 5 \\implies c = \\pm \\sqrt{5}.\n\t\t\\]\n Substitute these components back into the standard line template ($y = mx + c$) to get the tangent equations:\n \\[\n\t\ty = x \\pm \\sqrt{5}.\n\t\t\\]\n <strong>Final Answer:</strong> The tangent lines are $y = x + \\sqrt{5}$ and $y = x - \\sqrt{5}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p><strong>Example 2 — Rectangular Hyperbola Tangent Geometry</strong></p><p>The tangent line to the rectangular hyperbola $xy = 4$ at the boundary point $(2, 2)$ intersects the horizontal x-axis at $A$ and the vertical y-axis at $B$. Find the coordinates of $A$ and $B$, and calculate the area of the triangle $OAB$.</p>",
+              "solution": "The point $P(2, 2)$ lies on the curve ($2 \\times 2 = 4$). Apply the point-form tangent rule ($x y_1 + y x_1 = 2c^2$):\n \\[\n\t\tx(2) + y(2) = 2(4) \\implies 2x + 2y = 8 \\implies x + y = 4.\n\t\t\\]\n Determine the intercepts along the axes:\n <ul>\n <li>Set $y = 0 \\implies x = 4 \\implies A(4, 0)$\n <li>Set $x = 0 \\implies y = 4 \\implies B(0, 4)$\n </ul>\n Calculate the area of the right-angled triangle $OAB$:\n \\[\n\t\t\\text{Area} = \\frac{1}{2} \\cdot \\text{base} \\cdot \\text{height} = \\frac{1}{2} \\cdot 4 \\cdot 4 = 8\\text{ square units}.\n\t\t\\]\n This matches the shortcut formula: $\\text{Area} = 2c^2 = 2(4) = 8$.\n <strong>Final Answer:</strong> $A(4,0)$, $B(0,4)$, $\\text{Area} = 8$."
+            },
+            {
+              "number": 3,
+              "problem": "<p><strong>Example 3 — Director Circle Calculations</strong></p><p>Find the equation of the director circle for the standard hyperbola $\\ds\\frac{x^2}{16} - \\frac{y^2}{9} = 1$.</p>",
+              "solution": "<p>Identify the quadratic coefficients: $a^2 = 16$ and $b^2 = 9$. Since $a > b$ ($16 > 9$), a real director circle exists for this hyperbola. Apply its standard formula:\n \\[\n\t\tx^2 + y^2 = a^2 - b^2 \\implies x^2 + y^2 = 16 - 9 \\implies x^2 + y^2 = 7.\n\t\t\\]\n <strong>Final Answer:</strong> The director circle is $x^2 + y^2 = 7$.</p>"
+            }
+          ],
+          "quiz": [],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-math-hyperbola-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "If the line $y = mx + \\sqrt{a^2m^2-b^2}$ touches the hyperbola $\\ds\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$ at an eccentricity boundary where $b^2 = 3a^2$, find the real range of slopes $m$ for which a real tangent line can be constructed:",
+              "options": [
+                "$|m| > \\sqrt{3}$",
+                "$|m| < \\sqrt{3}$",
+                "$|m| > 3$",
+                "All real values of $m$ are valid"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the chord of contact drawn from the external point $P(1, 4)$ to the standard conjugate hyperbola mapping $\\ds\\frac{x^2}{9} - \\frac{y^2}{16} = -1$:",
+              "options": [
+                "$\\ds\\frac{x}{9} - \\frac{y}{4} = -1$",
+                "$\\ds\\frac{x}{9} - \\frac{y}{4} = 1$",
+                "$\\ds\\frac{x}{9} + \\frac{y}{4} = -1$",
+                "$16x - 9y + 144 = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the eccentricities of a hyperbola and its corresponding conjugate hyperbola are $e_1$ and $e_2$ respectively, and $e_1 = \\sqrt{3}$, find the value of $e_2$:",
+              "options": [
+                "$\\ds\\sqrt{\\frac{3}{2}}$",
+                "$\\ds\\sqrt{3}$",
+                "$\\ds\\frac{\\sqrt{6}}{2}$",
+                "$2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "A tangent line to the hyperbola $\\ds\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$ at the parameter point $\\theta$ cuts the asymptotes at $A$ and $B$. The geometric center $C(0,0)$ forms a triangle $CAB$ whose total area is:",
+              "options": [
+                "$ab$",
+                "$2ab$",
+                "$\\ds\\frac{1}{2}ab$",
+                "$a^2 + b^2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the coordinate position of the focus of the rectangular hyperbola configuration modeled by the product formula $xy = 8$:",
+              "options": [
+                "$(4, 4)$ and $(-4, -4)$",
+                "$(2\\sqrt{2}, 2\\sqrt{2})$ and $(-2\\sqrt{2}, -2\\sqrt{2})$",
+                "$(4\\sqrt{2}, 4\\sqrt{2})$ and $(-4\\sqrt{2}, -4\\sqrt{2})$",
+                "$(2, 2)$ and $(-2, -2)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The locus of the foot of the perpendicular dropped from the focus $S(ae, 0)$ to any variable tangent line of the hyperbola $\\ds\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$ matches which curve?",
+              "options": [
+                "$x^2 + y^2 = a^2$",
+                "$x^2 + y^2 = a^2 - b^2$",
+                "$x^2 + y^2 = a^2 + b^2$",
+                "$x = \\ds\\frac{a}{e}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the normal line to the rectangular hyperbola $xy = 4$ at the parameter point $t = 1$:",
+              "options": [
+                "$x - y = 0$",
+                "$x + y = 4$",
+                "$x + y = 0$",
+                "$x - y = 4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "For what value of the intercept constant $c$ is the straight line $y = 3x + c$ tangent to the hyperbola $\\ds\\frac{x^2}{4} - \\frac{y^2}{9} = 1$?",
+              "options": [
+                "$\\pm 3\\sqrt{3}$",
+                "$\\pm 3\\sqrt{2}$",
+                "$\\pm \\sqrt{27}$",
+                "$\\pm \\sqrt{45}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a circle cuts a rectangular hyperbola $xy = c^2$ at four points parameterized by $t_1, t_2, t_3,$ and $t_4$, the parameter product $t_1 t_2 t_3 t_4$ is identically:",
+              "options": [
+                "$1$",
+                "$-1$",
+                "$c^4$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The acute angle between the two asymptotes of a standard hyperbola whose semi-axes satisfy $b = a$ is exactly:",
+              "options": [
+                "$90^\\circ$",
+                "$60^\\circ$",
+                "$45^\\circ$",
+                "$30^\\circ$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Find the radius value of the director circle for the hyperbola $\\ds\\frac{x^2}{16} - \\frac{y^2}{7} = 1$.",
+              "answer": "3",
+              "explanation": ""
+            },
+            {
+              "q": "If the normal line drawn at parameter point $t = 2$ on the rectangular hyperbola $xy = c^2$ meets the curve again at a new parameter point $t'$, find the integer magnitude value of the denominator $k$ if $t' = -\\ds\\frac{1}{k}$.",
+              "answer": "8",
+              "explanation": ""
+            },
+            {
+              "q": "Calculate the total number of real normal lines that can be drawn from the geometric center $(0,0)$ to a standard non-equilateral hyperbola.",
+              "answer": "2",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The eccentricity of any rectangular hyperbola curve configuration is a fixed scalar constant equal to $\\sqrt{2}$.<br>\n <strong>Reason (R):</strong> For a rectangular hyperbola, the lengths of the semi-axes are equal ($a = b$), which simplifies the eccentricity identity to $e^2 = 1 + \\ds\\frac{a^2}{a^2} = 2$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> No real director circle can be constructed for the standard hyperbola equation $\\ds\\frac{x^2}{9} - \\frac{y^2}{16} = 1$.<br>\n <strong>Reason (R):</strong> The director circle radius expression matches $\\sqrt{a^2 - b^2}$, which evaluates to an imaginary value $\\sqrt{9 - 16} = \\sqrt{-7}$ when $a < b$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-math-hyperbola-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "Let $P(a\\sec\\theta, b\\tan\\theta)$ be a variable point on the hyperbola. The normal line at $P$ internally bisects the focal angle $\\angle SPS'$. The reflection property dictates that an incident ray directed towards $S$ will reflect along a path that:",
+              "options": [
+                "Passes directly through the alternative focus $S'$",
+                "Diverges parallel to the nearest asymptote line",
+                "Appears to emanate directly from the alternative focus $S'$",
+                "Returns back directly to the originating focus $S$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the common tangent line to the parabola $y^2 = 8x$ and the standard hyperbola $\\ds\\frac{x^2}{1} - \\frac{y^2}{4} = 1$:",
+              "options": [
+                "$2x - y + 1 = 0$",
+                "$2x + y + 1 = 0$",
+                "$x - 2y + 4 = 0$",
+                "$2x - y + 4 = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a variable chord of the rectangular hyperbola $xy = c^2$ is bisected exactly at a moving coordinate point $M(h, k)$ such that it maintains a constant slope tracking of $m = -2$, the locus of $M$ forms a:",
+              "options": [
+                "Straight line passing through the origin",
+                "Concentric rectangular hyperbola",
+                "Ellipse profile system",
+                "Circle centered at the origin"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the coordinate position of the point of intersection of the two tangents drawn at the parameter points $\\theta_1$ and $\\theta_2$ on the standard hyperbola:",
+              "options": [
+                "$\\left(a\\ds\\frac{\\cos\\left(\\frac{\\theta_1-\\theta_2}{2}\\right)}{\\cos\\left(\\frac{\\theta_1+\\theta_2}{2}\\right)},\\, b\\ds\\frac{\\sin\\left(\\frac{\\theta_1+\\theta_2}{2}\\right)}{\\cos\\left(\\frac{\\theta_1+\\theta_2}{2}\\right)}\\right)$",
+                "$\\left(a\\ds\\frac{\\cos\\left(\\frac{\\theta_1+\\theta_2}{2}\\right)}{\\cos\\left(\\frac{\\theta_1-\\theta_2}{2}\\right)},\\, b\\ds\\frac{\\sin\\left(\\frac{\\theta_1+\\theta_2}{2}\\right)}{\\cos\\left(\\frac{\\theta_1-\\theta_2}{2}\\right)}\\right)$",
+                "$\\left(a\\ds\\frac{\\sin\\left(\\frac{\\theta_1-\\theta_2}{2}\\right)}{\\cos\\left(\\frac{\\theta_1+\\theta_2}{2}\\right)},\\, b\\ds\\frac{\\cos\\left(\\frac{\\theta_1+\\theta_2}{2}\\right)}{\\cos\\left(\\frac{\\theta_1+\\theta_2}{2}\\right)}\\right)$",
+                "$\\left(a\\sec\\left(\\frac{\\theta_1+\\theta_2}{2}\\right),\\, b\\tan\\left(\\frac{\\theta_1+\\theta_2}{2}\\right)\\right)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the normal line drawn at the point $P(6, 3)$ on the hyperbola $\\ds\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$ intersects the horizontal principal x-axis at $(9, 0)$, calculate the exact eccentricity $e$ of the conic profile:",
+              "options": [
+                "$\\ds\\sqrt{\\frac{3}{2}}$",
+                "$\\ds\\sqrt{2}$",
+                "$\\ds\\frac{5}{4}$",
+                "$\\ds\\sqrt{3}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The product of the lengths of the perpendicular distances dropped from any point on the hyperbola $\\ds\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$ to its two asymptotes is constant and identically equal to:",
+              "options": [
+                "$\\ds\\frac{a^2b^2}{a^2+b^2}$",
+                "$\\ds\\frac{ab}{\\sqrt{a^2+b^2}}$",
+                "$ab$",
+                "$a^2 - b^2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the tangent line drawn at parameter point $t$ on the rectangular hyperbola $xy = c^2$ cuts off intercept segments $OA$ and $OB$ on the coordinate axes, the midpoint of the intercepted segment $AB$ matches which position?",
+              "options": [
+                "The point of contact $P(ct, c/t)$ itself",
+                "The origin $(0, 0)$",
+                "The focus coordinate",
+                "The vertex node"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the joint equation of the pair of asymptotes for the shifted hyperbola profile given by $xy - 2x - 3y = 0$:",
+              "options": [
+                "$xy - 2x - 3y + 6 = 0$",
+                "$xy - 2x - 3y - 6 = 0$",
+                "$xy - 2x - 3y = 0$",
+                "$x^2 - y^2 = 5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The director circle of the rectangular hyperbola $x^2 - y^2 = a^2$ collapses structurally into:",
+              "options": [
+                "A point circle located at the center origin $(0,0)$",
+                "A circle of radius $a\\sqrt{2}$",
+                "The pair of asymptote lines directly",
+                "An imaginary locus field"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the line $lx + my + n = 0$ is a valid normal line to the standard hyperbola $\\ds\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$, it must satisfy which coefficient condition?",
+              "options": [
+                "$\\ds\\frac{a^2}{l^2} - \\frac{b^2}{m^2} = \\frac{(a^2+b^2)^2}{n^2}$",
+                "$\\ds\\frac{a^2}{l^2} + \\frac{b^2}{m^2} = \\frac{(a^2+b^2)^2}{n^2}$",
+                "$a^2l^2 - b^2m^2 = n^2$",
+                "$a^2l^2 + b^2m^2 = n^2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "If the four normals drawn at the parameter points $t_1, t_2, t_3,$ and $t_4$ on the rectangular hyperbola $xy = c^2$ are concurrent, find the value of the parameter product $t_1 t_2 t_3 t_4$.",
+              "answer": "1",
+              "explanation": ""
+            },
+            {
+              "q": "Find the total number of real common tangents that can be constructed to the two non-intersecting conics $x^2 + y^2 = 1$ and $\\ds\\frac{x^2}{4} - y^2 = 1$.",
+              "answer": "0",
+              "explanation": ""
+            },
+            {
+              "q": "If the angle between the two asymptotes of a hyperbola is $60^\\circ$, and its eccentricity is $e$, calculate the value of $3e^2$ if the hyperbola is a conjugate profiling type ($b > a$).",
+              "answer": "4",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The segment of any variable tangent line to a hyperbola intercepted between its two asymptotes is always bisected exactly at its point of contact.<br>\n <strong>Reason (R):</strong> Formulating the parametric line metrics confirms that the coordinate shifts match the harmonic means across the boundary thresholds.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> The variation of the parametric string property for a hyperbola dictates that $|S'P - SP| = 2a$ for all points $P$ on its boundary curves.<br>\n <strong>Reason (R):</strong> The focus-directrix mapping tracks the distance ratio as $e > 1$, which algebraically transforms into linear expressions in terms of the abscissa of $P$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

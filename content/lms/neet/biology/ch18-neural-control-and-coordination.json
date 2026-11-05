@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "biology",
+  "chapter": 18,
+  "title": "Neural Control and Coordination",
+  "slug": "neural-control-and-coordination",
+  "subtitle": "The neuron, generation and conduction of the nerve impulse, synapse, the human brain, reflex action and the autonomic nervous system",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "leaf",
+  "seo": {
+    "meta_description": "NEET Biology — Neural Control and Coordination: neuron structure and types, resting and action potential, impulse conduction and the synapse, the human brain (forebrain, midbrain, hindbrain), reflex action and the autonomic nervous system, with NEET-level examples and MCQs. Free on GrowQR.",
+    "focus_keyword": "neural control and coordination NEET",
+    "secondary_keywords": [
+      "neuron structure and types NEET",
+      "resting potential action potential",
+      "synapse neurotransmitter acetylcholine",
+      "human brain forebrain midbrain hindbrain",
+      "reflex arc autonomic nervous system"
+    ],
+    "keywords": [
+      "neural control and coordination NEET",
+      "nerve impulse conduction",
+      "human brain parts and functions",
+      "reflex action reflex arc",
+      "sympathetic parasympathetic nervous system"
+    ]
+  },
+  "summary": "<ul><li><strong>Neural system:</strong> CNS (brain + spinal cord) + PNS (nerves). PNS = <strong>afferent (sensory)</strong> + <strong>efferent (motor)</strong>; and <strong>somatic</strong> (skeletal muscle) + <strong>autonomic</strong> (involuntary).</li><li><strong>Neuron:</strong> cyton (with Nissl granules) + dendrites + axon. Myelinated fibres have <strong>nodes of Ranvier</strong> → fast <strong>saltatory</strong> conduction.</li><li><strong>Resting potential</strong> ≈ −70 mV (outside +, inside −); maintained by the <strong>Na⁺/K⁺ pump</strong> (3 Na⁺ out, 2 K⁺ in).</li><li><strong>Action potential:</strong> stimulus → Na⁺ influx → <strong>depolarisation</strong> → K⁺ efflux → repolarisation.</li><li><strong>Synapse:</strong> electrical (fast, direct) vs <strong>chemical</strong> (neurotransmitter e.g. <strong>acetylcholine</strong> across the cleft).</li><li><strong>Brain:</strong> forebrain (<strong>cerebrum</strong>, thalamus, <strong>hypothalamus</strong>), midbrain, hindbrain (<strong>cerebellum</strong>, pons, <strong>medulla</strong>). Brain stem = midbrain + pons + medulla.</li><li><strong>Reflex arc:</strong> receptor → sensory → CNS → motor → effector. <strong>ANS</strong> = sympathetic (fight/flight) vs parasympathetic (rest/digest).</li></ul>",
+  "faqs": [
+    { "q": "How is the human neural system organised?", "a": "It has two parts. The central nervous system (CNS) is the brain and spinal cord, where information is processed. The peripheral nervous system (PNS) is all the nerves outside it; its afferent (sensory) fibres carry impulses to the CNS and its efferent (motor) fibres carry commands away. The PNS is also divided into the somatic system (to skeletal muscles) and the autonomic system (to involuntary organs)." },
+    { "q": "What is the resting potential of a neuron and how is it maintained?", "a": "At rest the neuron membrane is polarised — about −70 mV inside relative to outside, with the outside positive and the inside negative. This is maintained mainly by the sodium–potassium pump, which actively moves 3 Na+ out for every 2 K+ in, and by the membrane being more permeable to K+ than to Na+ at rest." },
+    { "q": "What happens during an action potential?", "a": "When a stimulus is strong enough, sodium channels open and Na+ rushes into the axon, reversing the charge so the inside becomes positive — this is depolarisation. Then sodium channels close and potassium channels open, so K+ flows out and the resting potential is restored — this is repolarisation. The wave of depolarisation travelling along the axon is the nerve impulse." },
+    { "q": "How does a chemical synapse transmit an impulse?", "a": "At a chemical synapse the two neurons are separated by a tiny synaptic cleft. When the impulse reaches the synaptic knob it triggers the release of a neurotransmitter (such as acetylcholine) from synaptic vesicles into the cleft. The neurotransmitter binds to receptors on the next neuron's membrane and starts a new impulse. Transmission is one-way." },
+    { "q": "What are the main parts of the human brain and one function of each?", "a": "The forebrain has the cerebrum (thinking, memory, voluntary action), the thalamus (relay of sensory signals) and the hypothalamus (controls body temperature, hunger, thirst and the pituitary). The midbrain controls some visual and auditory reflexes. The hindbrain has the cerebellum (balance and coordination), the pons and the medulla oblongata (controls breathing, heartbeat and blood pressure)." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "The Neuron and the Nerve Impulse",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Organisation of the Neural System and the Neuron",
+          "concept": "<p>Animals coordinate the activities of their organs through two systems &mdash; the <strong>neural system</strong> (fast, electrical, short-lived) and the endocrine system (slower, chemical, longer-lasting); this chapter is about neural control. The human <strong>neural system</strong> has two divisions. The <strong>central nervous system (CNS)</strong> &mdash; the <strong>brain and spinal cord</strong> &mdash; is where information is processed and commands are issued. The <strong>peripheral nervous system (PNS)</strong> is all the nerves that connect the CNS to the rest of the body. The PNS fibres are of two kinds: <strong>afferent (sensory)</strong> fibres carry impulses <strong>toward</strong> the CNS, and <strong>efferent (motor)</strong> fibres carry impulses <strong>away</strong> from it. Functionally the PNS is further split into the <strong>somatic nervous system</strong> (carries signals to the <strong>skeletal muscles</strong>, voluntary) and the <strong>autonomic nervous system</strong> (to the <strong>involuntary</strong> smooth muscle and organs).</p><p>The structural and functional unit of the neural system is the <strong>neuron (nerve cell)</strong>. A neuron has three parts: the <strong>cell body (cyton)</strong>, which contains the cytoplasm with characteristic granules called <strong>Nissl's granules</strong>; the <strong>dendrites</strong>, short branched processes that <strong>receive</strong> signals and carry them <strong>toward</strong> the cell body; and the single long <strong>axon</strong>, which carries the impulse <strong>away</strong> from the cell body to the next cell, ending in branched <strong>synaptic knobs</strong>.</p><p>By structure, neurons are <strong>multipolar</strong> (one axon, many dendrites &mdash; in the cerebral cortex), <strong>bipolar</strong> (one axon and one dendrite &mdash; in the retina) or <strong>unipolar</strong> (only an axon &mdash; in the embryo). Axons are also <strong>myelinated</strong> or <strong>non-myelinated</strong>. In <strong>myelinated</strong> fibres the axon is wrapped by <strong>Schwann cells</strong> forming a <strong>myelin sheath</strong> with gaps called the <strong>nodes of Ranvier</strong>; the impulse 'jumps' from node to node (<strong>saltatory conduction</strong>), making conduction much faster. Non-myelinated fibres lack these gaps and conduct more slowly.</p><p>For NEET, fix the CNS/PNS split, the afferent-vs-efferent and somatic-vs-autonomic distinctions, the three neuron parts (note Nissl granules in the cyton), the three structural types with their examples, and the role of the myelin sheath and nodes of Ranvier in speeding conduction. The next topic explains how the impulse is actually generated and passed on.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Term</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>CNS</td><td style='border:1px solid #dcfce7;padding:6px 8px'>brain + spinal cord (processing)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>PNS</td><td style='border:1px solid #dcfce7;padding:6px 8px'>afferent (sensory) + efferent (motor); somatic + autonomic</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Cyton</td><td style='border:1px solid #dcfce7;padding:6px 8px'>cell body with Nissl's granules</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Dendrite / axon</td><td style='border:1px solid #dcfce7;padding:6px 8px'>toward / away from cell body</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Myelin + nodes of Ranvier</td><td style='border:1px solid #dcfce7;padding:6px 8px'>fast saltatory conduction</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>How does a myelinated nerve fibre conduct an impulse faster than a non-myelinated one?</p>",
+              "solution": "<p>In a myelinated fibre the myelin sheath insulates the axon except at the <strong>nodes of Ranvier</strong>. The impulse <strong>jumps from node to node</strong> (<strong>saltatory conduction</strong>) instead of moving continuously, so it travels much faster than in a non-myelinated fibre.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Distinguish a dendrite from an axon by the direction of the impulse, and name the granules in the cell body.</p>",
+              "solution": "<p>A <strong>dendrite carries the impulse toward the cell body</strong>, while the <strong>axon carries it away</strong> from the cell body. The cell body (cyton) contains <strong>Nissl's granules</strong>.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The central nervous system consists of the:</p>", "options": ["brain and nerves", "brain and spinal cord", "spinal cord and nerves", "ganglia only"], "correct": 1, "explanation": "CNS = brain + spinal cord." },
+            { "q": "<p>Afferent (sensory) nerve fibres carry impulses:</p>", "options": ["away from the CNS", "toward the CNS", "within the brain only", "to skeletal muscle"], "correct": 1, "explanation": "Afferent = sensory, carries impulses toward the CNS." },
+            { "q": "<p>Nissl's granules are found in the:</p>", "options": ["axon", "dendrite tip", "cell body (cyton)", "node of Ranvier"], "correct": 2, "explanation": "Nissl's granules occur in the cyton (cell body)." },
+            { "q": "<p>Saltatory conduction occurs in:</p>", "options": ["non-myelinated fibres", "myelinated fibres", "dendrites only", "the cell body"], "correct": 1, "explanation": "Impulse jumps between nodes of Ranvier in myelinated fibres." },
+            { "q": "<p>A neuron of the retina that has one axon and one dendrite is:</p>", "options": ["multipolar", "bipolar", "unipolar", "apolar"], "correct": 1, "explanation": "Bipolar neurons (one axon + one dendrite) occur in the retina." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> CNS = brain + spinal cord; PNS = afferent (sensory, toward) + efferent (motor, away), and somatic (skeletal) + autonomic (involuntary). Neuron = cyton (Nissl granules) + dendrites (toward) + axon (away). Myelin + nodes of Ranvier → fast saltatory conduction. Multipolar (cortex), bipolar (retina), unipolar (embryo).</p>"
+        },
+        {
+          "number": 2,
+          "title": "Generation and Conduction of the Nerve Impulse; the Synapse",
+          "concept": "<p>A resting neuron is <strong>polarised</strong>. The axon membrane keeps the <strong>outside positive and the inside negative</strong>, a difference called the <strong>resting potential</strong> (about <strong>&minus;70 mV</strong>). It is maintained by the <strong>sodium&ndash;potassium pump</strong>, which pumps <strong>3 Na⁺ out for every 2 K⁺ in</strong>, and by the resting membrane being far <strong>more permeable to K⁺ than to Na⁺</strong>; so the inside has high K⁺ and the outside high Na⁺, with a net negative charge inside.</p><p>When a <strong>stimulus</strong> is applied at a point, the membrane there suddenly becomes <strong>highly permeable to Na⁺</strong>: Na⁺ rushes <strong>in</strong>, the inside becomes <strong>positive</strong> and the polarity is reversed &mdash; this is <strong>depolarisation</strong>, and the brief reversal is the <strong>action potential (nerve impulse)</strong>. Almost at once the Na⁺ channels close and <strong>K⁺ channels open</strong>, so K⁺ moves <strong>out</strong> and the resting potential is restored &mdash; <strong>repolarisation</strong>. The action potential at one point depolarises the next point, so the impulse <strong>moves along the axon</strong> as a self-propagating wave; conduction is always away from the point of stimulation.</p><p>Where one neuron meets the next is a <strong>synapse</strong>, and impulses cross it in two ways. At an <strong>electrical synapse</strong> the membranes are very close, so the current flows directly &mdash; transmission is extremely <strong>fast</strong> but uncommon. At a <strong>chemical synapse</strong> (the common type) the two neurons are separated by a fluid-filled <strong>synaptic cleft</strong>. The arriving impulse makes the <strong>synaptic knob</strong> release a <strong>neurotransmitter</strong> (such as <strong>acetylcholine</strong>) from <strong>synaptic vesicles</strong> into the cleft; the transmitter <strong>diffuses across</strong>, binds <strong>receptors</strong> on the next neuron and starts a fresh impulse.</p><p>Because the transmitter is released on one side and received on the other, the <strong>chemical synapse conducts in only one direction</strong>. For NEET, remember the resting state (&minus;70 mV, Na⁺/K⁺ pump 3:2, more K⁺-permeable), the ionic basis of the action potential (Na⁺ in = depolarisation, K⁺ out = repolarisation), and the chemical-synapse sequence ending in a one-way transmission via a neurotransmitter.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Stage / item</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Ionic basis / detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Resting potential (~−70 mV)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>Na⁺/K⁺ pump (3 out : 2 in); more K⁺-permeable</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Depolarisation</td><td style='border:1px solid #dcfce7;padding:6px 8px'>Na⁺ influx; inside becomes positive</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Repolarisation</td><td style='border:1px solid #dcfce7;padding:6px 8px'>K⁺ efflux; resting state restored</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Chemical synapse</td><td style='border:1px solid #dcfce7;padding:6px 8px'>neurotransmitter (acetylcholine) across cleft; one-way</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>What ionic movements cause depolarisation and repolarisation of the axon membrane?</p>",
+              "solution": "<p><strong>Depolarisation</strong> is caused by an <strong>influx of Na⁺</strong> (the inside becomes positive). <strong>Repolarisation</strong> follows from an <strong>efflux of K⁺</strong>, which restores the resting potential.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why does a chemical synapse transmit an impulse in only one direction?</p>",
+              "solution": "<p>The <strong>neurotransmitter is released only from the pre-synaptic knob</strong> (which has the vesicles) and the <strong>receptors are only on the post-synaptic membrane</strong>. Since release and reception are on opposite sides, transmission can occur in <strong>one direction only</strong>.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The resting potential of a neuron is about:</p>", "options": ["+70 mV", "−70 mV", "0 mV", "−700 mV"], "correct": 1, "explanation": "Resting potential ≈ −70 mV (inside negative)." },
+            { "q": "<p>Depolarisation during a nerve impulse is due to influx of:</p>", "options": ["K⁺", "Na⁺", "Ca²⁺", "Cl⁻"], "correct": 1, "explanation": "Na⁺ rushes in, reversing the polarity (depolarisation)." },
+            { "q": "<p>The sodium–potassium pump moves:</p>", "options": ["2 Na⁺ out, 3 K⁺ in", "3 Na⁺ out, 2 K⁺ in", "1 Na⁺ out, 1 K⁺ in", "3 K⁺ out, 2 Na⁺ in"], "correct": 1, "explanation": "The pump expels 3 Na⁺ and takes in 2 K⁺." },
+            { "q": "<p>A common neurotransmitter at chemical synapses is:</p>", "options": ["insulin", "acetylcholine", "haemoglobin", "renin"], "correct": 1, "explanation": "Acetylcholine is a common neurotransmitter." },
+            { "q": "<p>Repolarisation is brought about by the efflux of:</p>", "options": ["Na⁺", "K⁺", "Ca²⁺", "proteins"], "correct": 1, "explanation": "K⁺ moving out restores the resting potential." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Resting potential ≈ −70 mV; Na⁺/K⁺ pump = 3 Na⁺ out : 2 K⁺ in; membrane more K⁺-permeable. Action potential: Na⁺ in = depolarisation → K⁺ out = repolarisation. Chemical synapse: neurotransmitter (acetylcholine) across the cleft → one-way transmission.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The Brain, Reflexes and the Autonomic System",
+      "topics": [
+        {
+          "number": 3,
+          "title": "The Human Brain",
+          "concept": "<p>The <strong>brain</strong> is the central command centre of the body, lodged in the <strong>cranium</strong> and protected by three membranes, the <strong>meninges</strong> (dura mater, arachnoid and pia mater), with <strong>cerebrospinal fluid (CSF)</strong> cushioning it. It is divided into three regions &mdash; <strong>forebrain, midbrain and hindbrain</strong> &mdash; and their parts and functions are heavily examined.</p><p>The <strong>forebrain</strong> is the largest region. Its main part is the <strong>cerebrum</strong>, divided into two cerebral hemispheres joined by a band of fibres, the <strong>corpus callosum</strong>. The outer <strong>cerebral cortex</strong> is <strong>grey matter</strong> (cell bodies) thrown into folds, and it controls <strong>thinking, memory, intelligence, the senses and voluntary actions</strong>. The forebrain also contains the <strong>thalamus</strong> (a major <strong>relay station</strong> for sensory and motor signals) and the <strong>hypothalamus</strong>, which controls <strong>body temperature, hunger and thirst</strong>, contains centres for many emotions, and links the nervous and endocrine systems by controlling the <strong>pituitary gland</strong>. The inner parts form the <strong>limbic system</strong>, involved in emotions and motivation.</p><p>The <strong>midbrain</strong> is a short region between the thalamus and the hindbrain; it bears four rounded lobes, the <strong>corpora quadrigemina</strong>, and controls some <strong>visual and auditory reflexes</strong>. The <strong>hindbrain</strong> has three parts: the <strong>cerebellum</strong>, which coordinates <strong>movement, posture and balance</strong>; the <strong>pons</strong>, a bridge of fibre tracts; and the <strong>medulla oblongata</strong>, which connects to the spinal cord and contains the vital centres that control <strong>respiration, heartbeat (cardiovascular reflexes) and gastric secretions</strong>.</p><p>The <strong>midbrain and the hindbrain (pons + medulla)</strong> together form the <strong>brain stem</strong>, which connects the brain to the spinal cord. For NEET, fix each part with its job: cerebrum (thinking/voluntary), corpus callosum (links hemispheres), thalamus (relay), hypothalamus (temperature/hunger/thirst + pituitary), cerebellum (balance/coordination) and medulla (respiration/heart). The next topic covers how the nervous system produces rapid involuntary responses.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Part</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Function</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Cerebrum</td><td style='border:1px solid #dcfce7;padding:6px 8px'>thinking, memory, voluntary action</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Thalamus</td><td style='border:1px solid #dcfce7;padding:6px 8px'>relay of sensory/motor signals</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Hypothalamus</td><td style='border:1px solid #dcfce7;padding:6px 8px'>temperature, hunger, thirst, pituitary control</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Cerebellum</td><td style='border:1px solid #dcfce7;padding:6px 8px'>balance, posture, coordination</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Medulla oblongata</td><td style='border:1px solid #dcfce7;padding:6px 8px'>respiration, heartbeat, gastric secretion</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A patient has damage to the cerebellum. Which functions are most likely to be affected?</p>",
+              "solution": "<p>The cerebellum controls <strong>posture, balance and the coordination of movement</strong>. Its damage causes <strong>loss of balance and uncoordinated, clumsy movements</strong> (the senses and breathing remain intact).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Which part of the brain controls body temperature, hunger and thirst, and links the nervous and endocrine systems?</p>",
+              "solution": "<p>The <strong>hypothalamus</strong>. It regulates body temperature, hunger and thirst, has centres for several emotions, and controls the <strong>pituitary gland</strong>, linking neural and hormonal control.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The two cerebral hemispheres are connected by the:</p>", "options": ["corpus callosum", "corpora quadrigemina", "pons", "thalamus"], "correct": 0, "explanation": "The corpus callosum joins the two hemispheres." },
+            { "q": "<p>The centre for hunger, thirst and body temperature is the:</p>", "options": ["cerebrum", "cerebellum", "hypothalamus", "medulla"], "correct": 2, "explanation": "The hypothalamus controls these and the pituitary." },
+            { "q": "<p>Balance and coordination of movement are controlled by the:</p>", "options": ["cerebrum", "cerebellum", "thalamus", "pons"], "correct": 1, "explanation": "The cerebellum coordinates posture and balance." },
+            { "q": "<p>The respiratory and cardiac centres lie in the:</p>", "options": ["cerebrum", "midbrain", "medulla oblongata", "thalamus"], "correct": 2, "explanation": "The medulla controls respiration and heartbeat." },
+            { "q": "<p>The brain stem is made of the midbrain, pons and:</p>", "options": ["cerebrum", "cerebellum", "medulla oblongata", "thalamus"], "correct": 2, "explanation": "Brain stem = midbrain + pons + medulla oblongata." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Forebrain = cerebrum (thinking/voluntary; hemispheres joined by corpus callosum) + thalamus (relay) + hypothalamus (temp/hunger/thirst + pituitary). Midbrain = corpora quadrigemina (visual/auditory reflexes). Hindbrain = cerebellum (balance) + pons + medulla (respiration/heart). Brain stem = midbrain + pons + medulla.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Reflex Action and the Autonomic Nervous System",
+          "concept": "<p>Not every response needs the brain to 'decide'. A <strong>reflex action</strong> is a <strong>sudden, automatic, involuntary response</strong> to a stimulus &mdash; like jerking the hand off a hot object &mdash; and it is usually mediated by the <strong>spinal cord</strong> so that the response is very fast. The pathway it follows is the <strong>reflex arc</strong>, a fixed NEET sequence: a <strong>receptor</strong> detects the stimulus &rarr; an <strong>afferent (sensory) neuron</strong> carries the impulse to the CNS &rarr; the impulse is passed within the CNS (often through an <strong>interneuron</strong> in the spinal cord) &rarr; an <strong>efferent (motor) neuron</strong> carries the command out &rarr; the <strong>effector</strong> (a muscle or gland) produces the response. The classic example is the <strong>knee-jerk reflex</strong>.</p><p>The part of the PNS that controls involuntary functions is the <strong>autonomic nervous system (ANS)</strong>, which acts on cardiac and smooth muscle and on glands without conscious control. It has two divisions that usually have <strong>opposite (antagonistic)</strong> effects, keeping the body balanced.</p><p>The <strong>sympathetic nervous system</strong> prepares the body for emergencies &mdash; the <strong>'fight-or-flight'</strong> response. It <strong>speeds up the heart rate</strong>, raises blood pressure, <strong>dilates the pupils</strong> and the bronchi, releases glucose for energy and <strong>slows down digestion</strong> &mdash; diverting resources to face a threat. The <strong>parasympathetic nervous system</strong> does the opposite, the <strong>'rest-and-digest'</strong> state: it <strong>slows the heart rate</strong>, <strong>constricts the pupils</strong> and <strong>stimulates digestion</strong>, conserving energy and restoring calm.</p><p>Together these maintain a steady internal state by pushing in opposite directions as conditions change. For NEET, the high-yield points are the exact order of the <strong>reflex arc</strong> (receptor &rarr; sensory neuron &rarr; CNS &rarr; motor neuron &rarr; effector), that simple reflexes are processed by the <strong>spinal cord</strong>, and the antagonistic actions of the two ANS divisions &mdash; sympathetic (fight-or-flight: heart up, pupils dilate, digestion down) versus parasympathetic (rest-and-digest: heart down, pupils constrict, digestion up).</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Item</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Reflex arc</td><td style='border:1px solid #dcfce7;padding:6px 8px'>receptor → sensory → CNS → motor → effector</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Reflex centre</td><td style='border:1px solid #dcfce7;padding:6px 8px'>spinal cord (fast, involuntary)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Sympathetic</td><td style='border:1px solid #dcfce7;padding:6px 8px'>fight-or-flight: heart ↑, pupils dilate, digestion ↓</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Parasympathetic</td><td style='border:1px solid #dcfce7;padding:6px 8px'>rest-and-digest: heart ↓, pupils constrict, digestion ↑</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Write the correct order of components of a reflex arc.</p>",
+              "solution": "<p><strong>Receptor &rarr; afferent (sensory) neuron &rarr; CNS (spinal cord / interneuron) &rarr; efferent (motor) neuron &rarr; effector</strong> (muscle or gland). This rapid involuntary pathway gives the reflex response.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>How do the sympathetic and parasympathetic systems differ in their effect on the heart and pupils?</p>",
+              "solution": "<p>The <strong>sympathetic</strong> system <strong>increases heart rate and dilates the pupils</strong> (fight-or-flight); the <strong>parasympathetic</strong> system <strong>decreases heart rate and constricts the pupils</strong> (rest-and-digest). They are <strong>antagonistic</strong>.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>A reflex action is normally controlled by the:</p>", "options": ["cerebrum", "spinal cord", "cerebellum", "hypothalamus"], "correct": 1, "explanation": "Simple reflexes are processed by the spinal cord for speed." },
+            { "q": "<p>The correct order in a reflex arc is:</p>", "options": ["receptor → motor → CNS → sensory → effector", "receptor → sensory → CNS → motor → effector", "effector → sensory → CNS → motor → receptor", "receptor → CNS → sensory → motor → effector"], "correct": 1, "explanation": "Receptor → sensory → CNS → motor → effector." },
+            { "q": "<p>The 'fight-or-flight' response is brought about by the:</p>", "options": ["parasympathetic system", "sympathetic system", "somatic system", "sensory system"], "correct": 1, "explanation": "The sympathetic division mediates fight-or-flight." },
+            { "q": "<p>Which division slows the heart rate and stimulates digestion?</p>", "options": ["sympathetic", "parasympathetic", "somatic", "afferent"], "correct": 1, "explanation": "The parasympathetic system is rest-and-digest." },
+            { "q": "<p>During the sympathetic response, the pupils:</p>", "options": ["constrict", "dilate", "stay unchanged", "close fully"], "correct": 1, "explanation": "Sympathetic stimulation dilates the pupils." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Reflex arc = receptor → sensory neuron → CNS (spinal cord) → motor neuron → effector. ANS is antagonistic: sympathetic = fight-or-flight (heart ↑, pupils dilate, digestion ↓); parasympathetic = rest-and-digest (heart ↓, pupils constrict, digestion ↑).</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-biology-ch18-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>The structural and functional unit of the neural system is the:</p>", "options": ["nephron", "neuron", "sarcomere", "alveolus"], "correct": 1, "explanation": "The neuron is the unit of the neural system." },
+            { "q": "<p>The autonomic nervous system controls:</p>", "options": ["skeletal muscle", "voluntary actions", "involuntary organs", "thinking"], "correct": 2, "explanation": "The ANS controls involuntary smooth/cardiac muscle and glands." },
+            { "q": "<p>At rest, the neuron membrane is more permeable to:</p>", "options": ["Na⁺", "K⁺", "Ca²⁺", "Cl⁻"], "correct": 1, "explanation": "The resting membrane is more permeable to K⁺." },
+            { "q": "<p>Reversal of membrane polarity by Na⁺ influx is called:</p>", "options": ["repolarisation", "depolarisation", "hyperpolarisation", "resting potential"], "correct": 1, "explanation": "Na⁺ influx causes depolarisation." },
+            { "q": "<p>Transmission across a chemical synapse is:</p>", "options": ["two-way", "one-way", "always electrical", "without any gap"], "correct": 1, "explanation": "Chemical synapses transmit in one direction only." },
+            { "q": "<p>The relay centre for sensory impulses in the brain is the:</p>", "options": ["cerebellum", "thalamus", "medulla", "pons"], "correct": 1, "explanation": "The thalamus relays sensory and motor signals." },
+            { "q": "<p>Which protects the brain along with the meninges?</p>", "options": ["lymph", "cerebrospinal fluid", "plasma", "bile"], "correct": 1, "explanation": "CSF cushions the brain within the meninges." },
+            { "q": "<p>Dilation of the pupils and increased heart rate are caused by the:</p>", "options": ["parasympathetic system", "sympathetic system", "somatic system", "afferent neurons"], "correct": 1, "explanation": "The sympathetic (fight-or-flight) system causes these." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> Myelinated nerve fibres conduct impulses faster than non-myelinated fibres.<br><strong>R:</strong> In myelinated fibres the impulse jumps from one node of Ranvier to the next.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Saltatory (node-to-node) conduction is why they are faster — R explains A." },
+            { "q": "<p><strong>A:</strong> A chemical synapse conducts the impulse in only one direction.<br><strong>R:</strong> The neurotransmitter is released by the pre-synaptic knob and its receptors lie on the post-synaptic membrane.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Release on one side, receptors on the other → one-way; R explains A." },
+            { "q": "<p><strong>A:</strong> The medulla oblongata is the centre for memory and intelligence.<br><strong>R:</strong> The medulla oblongata controls respiration and heartbeat.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "A is false — memory/intelligence is the cerebrum; R is true (medulla controls respiration/heartbeat)." },
+            { "q": "<p><strong>A:</strong> Reflex actions are very rapid.<br><strong>R:</strong> They are processed by the spinal cord without waiting for the brain to respond.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Spinal-cord processing makes reflexes fast — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": 12,
+  "title": "Organic Chemistry",
+  "slug": "organic-chemistry",
+  "subtitle": "Organic Chemistry for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#d946ef",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "Master Organic Chemistry for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Nomenclature, Isomerism and Electron Effects",
+      "topics": [
+        {
+          "number": 1,
+          "title": "IUPAC Nomenclature and Isomerism",
+          "concept": "<p><strong>IUPAC Naming Rules:</strong></p><ol><li>Identify longest C chain containing the principal functional group (parent)</li><li>Number from end giving lowest locant to principal functional group</li><li>Identify substituents (prefixes) — alphabetize</li><li>Combine: locants–prefixes–parent–suffix</li><li>Use Greek prefixes (di, tri) for multiple substituents — these don't affect alphabetization</li></ol><p><strong>Common Functional Groups (in order of priority for suffix):</strong></p><table class=\"md-table\"><thead><tr><th>Group</th><th>Class</th><th>Suffix</th><th>Prefix</th></tr></thead><tbody><tr><td>-COOH</td><td>Carboxylic acid</td><td>-oic acid</td><td>carboxy-</td></tr><tr><td>-COO-R</td><td>Ester</td><td>-oate</td><td>alkoxycarbonyl-</td></tr><tr><td>-CONH₂</td><td>Amide</td><td>-amide</td><td>carbamoyl-</td></tr><tr><td>-CN</td><td>Nitrile</td><td>-nitrile</td><td>cyano-</td></tr><tr><td>-CHO</td><td>Aldehyde</td><td>-al</td><td>formyl-/oxo-</td></tr><tr><td>-CO-</td><td>Ketone</td><td>-one</td><td>oxo-</td></tr><tr><td>-OH</td><td>Alcohol</td><td>-ol</td><td>hydroxy-</td></tr><tr><td>-NH₂</td><td>Amine</td><td>-amine</td><td>amino-</td></tr><tr><td>C=C</td><td>Alkene</td><td>-ene</td><td>–</td></tr><tr><td>C≡C</td><td>Alkyne</td><td>-yne</td><td>–</td></tr><tr><td>-X</td><td>Halide</td><td>–</td><td>halo-</td></tr><tr><td>-NO₂</td><td>Nitro</td><td>–</td><td>nitro-</td></tr><tr><td>-OR</td><td>Ether</td><td>–</td><td>alkoxy-</td></tr></tbody></table><p><strong>Examples:</strong></p><ul><li>$CH_3CH_2CH_2OH$ → propan-1-ol</li><li>$(CH_3)_2CHCH_2CH_3$ → 2-methylbutane</li><li>$CH_3COOH$ → ethanoic acid</li><li>$CH_3CH=CH_2$ → propene</li></ul><p><strong>Isomerism:</strong> Compounds with same molecular formula but different structure/properties.</p><p><strong>Types of Isomerism:</strong></p><p><strong>Structural (Constitutional) Isomerism:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Description</th><th>Example</th></tr></thead><tbody><tr><td><strong>Chain</strong></td><td>Different C skeleton</td><td>n-butane vs isobutane (both $C_4H_{10}$)</td></tr><tr><td><strong>Position</strong></td><td>Same skeleton, different position of group/bond</td><td>1-propanol vs 2-propanol</td></tr><tr><td><strong>Functional</strong></td><td>Different functional groups</td><td>$C_2H_6O$: ethanol (alcohol) vs dimethyl ether</td></tr><tr><td><strong>Metamerism</strong></td><td>Different alkyl groups on same functional group</td><td>Diethyl ether vs methyl propyl ether</td></tr><tr><td><strong>Tautomerism</strong></td><td>Equilibrium between two forms differing in H position</td><td>Keto-enol: $CH_3COCH_3 \\rightleftharpoons CH_3C(OH)=CH_2$</td></tr><tr><td><strong>Ring-chain</strong></td><td>Cyclic vs open-chain</td><td>Cyclopropane vs propene</td></tr></tbody></table><p><strong>Stereoisomerism:</strong> Same connectivity; differ in 3D arrangement.</p><p><strong>Geometrical (cis-trans / E-Z):</strong> Around C=C or ring restricted rotation.</p><ul><li><em>cis</em>: same group on same side</li><li><em>trans</em>: groups on opposite sides</li><li><strong>E/Z system:</strong> Based on CIP priority — Z (zusammen, same side) and E (entgegen, opposite)</li></ul><p><strong>Optical Isomerism:</strong> Mirror image molecules (enantiomers) that are non-superimposable. Requires <strong>chiral center</strong> — usually a C with 4 different groups.</p><ul><li><strong>Enantiomers:</strong> Non-superimposable mirror images; identical properties except rotate polarized light in opposite directions (one (+), other (–))</li><li><strong>Diastereomers:</strong> Stereoisomers not mirror images; different properties</li><li><strong>Racemic mixture:</strong> $50:50$ of enantiomers; no optical activity (rotations cancel)</li><li><strong>Meso compound:</strong> Has chiral centers but is superimposable on mirror image due to internal symmetry; optically inactive</li></ul><p>For $n$ chiral centers without symmetry: $2^n$ optical isomers; with internal symmetry, fewer.</p><p><strong>R/S Configuration (CIP):</strong> Assign priority by atomic number; for the lowest-priority pointing away: clockwise = R, counterclockwise = S.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Give IUPAC name: $CH_3-CH(CH_3)-CH_2-CHO$.</p>",
+              "solution": "<ul><li>Parent: longest chain containing -CHO = 4 C atoms</li><li>Suffix: -al; -CHO is C1</li><li>Substituent: methyl at C3</li><li>Name: 3-methylbutanal</li></ul><p><strong>Final Answer:</strong> 3-methylbutanal.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>How many stereoisomers does 2,3-dibromobutane ($CH_3CHBrCHBrCH_3$) have?</p>",
+              "solution": "<p>2 chiral centers (C2 and C3, each bonded to 4 different groups: H, Br, $CH_3$, $CHBrCH_3$). But this molecule has a plane of symmetry → meso compound exists. Total: 4 expected ($2^2$); but $(R,S)$ and $(S,R)$ are identical (meso). Effective stereoisomers: $(R,R)$, $(S,S)$ (enantiomers) + 1 meso = <strong>3 distinct stereoisomers</strong>.</p><p><strong>Final Answer:</strong> 3 stereoisomers (1 pair enantiomers + 1 meso).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>IUPAC name of $(CH_3)_3CCl$:</p>",
+              "options": [
+                "tert-butyl chloride",
+                "1-chloro-2-methylpropane",
+                "2-chloro-2-methylpropane",
+                "2-methyl-2-chloropropane"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Tautomerism is shown by:</p>",
+              "options": [
+                "Carbonyl compounds with α-H",
+                "All compounds",
+                "Alkanes",
+                "Halides"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Compound with chiral center:</p>",
+              "options": [
+                "$CH_3CH_2OH$",
+                "$CH_3CHBrCH_3$",
+                "$CH_3CHBrCH_2CH_3$",
+                "$CCl_4$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Cis-trans isomerism occurs when:</p>",
+              "options": [
+                "Free rotation about bond",
+                "Restricted rotation (e.g., C=C, ring)",
+                "Single bond only",
+                "Triple bond"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of structural isomers of $C_4H_{10}$:</p>",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$4$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Electron Displacement Effects (I, R, Hyperconjugation)",
+          "concept": "<p>Electron displacement effects explain charge distribution in molecules, stability of intermediates, acidity/basicity, reactivity, etc.</p><p><strong>1. Inductive Effect (I-Effect):</strong></p><ul><li>Permanent displacement of electrons along $\\sigma$ bonds due to electronegativity difference</li><li>Transmitted through sigma bonds with diminishing intensity</li><li>Distance-dependent: decreases rapidly beyond 3 bonds</li></ul><p><strong>Types:</strong></p><ul><li><strong>-I (electron-withdrawing):</strong> Group pulls electrons toward itself. e.g., $-NO_2 > -CN > -F > -Cl > -Br > -I > -COOH > -OH > -NH_2$</li><li><strong>+I (electron-donating):</strong> Group pushes electrons away. e.g., alkyl groups: $-CH_3, -C_2H_5$, etc. Order: $tert > sec > primary > methyl$ (more substituted → more +I).</li></ul><p><strong>Applications:</strong></p><ul><li>Acidity of carboxylic acids:</li><li>Cl₃C-COOH > Cl₂CH-COOH > ClCH₂-COOH > CH₃COOH (more -I → more acidic)</li><li>Basicity of amines (gas phase): $(CH_3)_3N > (CH_3)_2NH > CH_3NH_2 > NH_3$ (more +I → more basic)</li></ul><p><strong>2. Resonance Effect (M-Effect or R-Effect):</strong></p><ul><li>Permanent delocalization of $\\pi$ electrons or lone pairs</li><li>Only operates through conjugated $\\pi$ system</li><li>More effective than I-effect</li></ul><p><strong>Types:</strong></p><ul><li><strong>+R (electron-donating to ring):</strong> $-OH, -OR, -NH_2, -NR_2, -X$ (donate lone pairs)</li><li><strong>-R (electron-withdrawing from ring):</strong> $-NO_2, -CN, -CHO, -COOH, -COR, -SO_3H$</li></ul><p><strong>Resonance Structures:</strong> Different Lewis structures contributing to actual structure; differ in placement of electrons (not atoms).</p><p><strong>3. Hyperconjugation:</strong></p><ul><li>Delocalization of $\\sigma$ C-H electrons into adjacent $\\pi$ system or empty p-orbital</li><li>Also called \"no-bond resonance\"</li></ul><p><strong>Stability of carbocations</strong> $\\propto$ number of $\\alpha$-H atoms (more $\\alpha$-H → more hyperconjugation → more stable):</p><ul><li>$(CH_3)_3C^+$ (9 α-H) > $(CH_3)_2CH^+$ (6 α-H) > $CH_3CH_2^+$ (3 α-H) > $CH_3^+$ (0 α-H)</li></ul><p><strong>Stability of alkenes:</strong> More alkyl substituents at C=C → more stable (hyperconjugation): $$(CH_3)_2C=C(CH_3)_2 > (CH_3)_2C=CH_2 > CH_3CH=CHCH_3 > CH_3CH=CH_2 > CH_2=CH_2$$</p><p><strong>4. Electromeric Effect (E-effect):</strong></p><ul><li>Temporary; only when an attacking reagent approaches</li><li>$\\pi$ electrons transferred entirely to one atom</li><li><strong>+E:</strong> electrons toward attacking reagent; <strong>-E:</strong> electrons away</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Arrange in increasing acidity: $CH_3COOH$, $HCOOH$, $Cl_3CCOOH$, $ClCH_2COOH$.</p>",
+              "solution": "<p>Acidity depends on stability of conjugate base; more EW (-I) groups stabilize the COO⁻ more, increasing acidity.</p><ul><li>$CH_3COOH$: +I from methyl → less acidic</li><li>$HCOOH$: no alkyl, no -I</li><li>$ClCH_2COOH$: 1 Cl (-I)</li><li>$Cl_3CCOOH$: 3 Cl (highest -I)</li></ul><p>Order: $CH_3COOH < HCOOH < ClCH_2COOH < Cl_3CCOOH$.</p><p><strong>Final Answer:</strong> $CH_3COOH < HCOOH < ClCH_2COOH < Cl_3CCOOH$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is $(CH_3)_3C^+$ more stable than $CH_3CH_2^+$?</p>",
+              "solution": "<p>$(CH_3)_3C^+$ has 9 α-H atoms; $CH_3CH_2^+$ has 3 α-H atoms. More α-H → more hyperconjugation → more delocalization → greater stability. Also, more +I effect from alkyl groups stabilizes positive charge.</p><p><strong>Final Answer:</strong> More α-H + more +I in $(CH_3)_3C^+$ → more stable.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Inductive effect operates through:</p>",
+              "options": [
+                "$\\pi$ bonds",
+                "$\\sigma$ bonds",
+                "H-bonds",
+                "Resonance"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Strongest -I group:</p>",
+              "options": [
+                "-NO₂",
+                "-CH₃",
+                "-OH",
+                "-Cl"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Hyperconjugation involves:</p>",
+              "options": [
+                "lp delocalization",
+                "$\\sigma$ C-H electrons into $\\pi$ or empty p",
+                "$\\pi$ to $\\pi$",
+                "Ionic interaction"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Most stable carbocation:</p>",
+              "options": [
+                "$CH_3^+$",
+                "$CH_3CH_2^+$",
+                "$(CH_3)_2CH^+$",
+                "$(CH_3)_3C^+$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Resonance effect operates only through:</p>",
+              "options": [
+                "$\\sigma$ bonds",
+                "Conjugated $\\pi$ systems",
+                "Sigma + pi",
+                "Ionic bonds"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Reactive Intermediates and Mechanisms",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Carbocations, Carbanions, Free Radicals, Carbenes",
+          "concept": "<p><strong>Reactive Intermediates</strong> are short-lived, high-energy species formed during reactions.</p><p><strong>1. Carbocations (Carbenium ions):</strong></p><ul><li>C with $+$ charge, 6 valence electrons (sextet)</li><li>$sp^2$ hybridized, planar, vacant p-orbital</li><li>Electrophilic</li></ul><p><strong>Stability Order:</strong> $(CH_3)_3C^+ > (CH_3)_2CH^+ > CH_3CH_2^+ > CH_3^+$ (more $\\alpha$-H → more hyperconjugation, more +I from alkyl)</p><p><strong>Allylic and Benzylic carbocations</strong> are stabilized by resonance, often more stable than tertiary: $(C_6H_5)CH_2^+ \\approx CH_2=CHCH_2^+ \\approx$ very stable</p><p><strong>Tertiary > secondary > primary > methyl</strong> is the basic order; resonance can override this.</p><p><strong>Rearrangement:</strong> Carbocations can rearrange to more stable forms via:</p><ul><li>1,2-Hydride shift</li><li>1,2-Methyl shift (or other alkyl shift)</li></ul><p><strong>2. Carbanions:</strong></p><ul><li>C with $-$ charge, 8 valence electrons (lone pair on C)</li><li>$sp^3$ hybridized, pyramidal (like NH₃)</li><li>Nucleophilic</li></ul><p><strong>Stability Order:</strong> $CH_3^- > CH_3CH_2^- > (CH_3)_2CH^- > (CH_3)_3C^-$ (alkyl groups destabilize negative charge via +I)</p><p><strong>Stabilized carbanions</strong> (by -R groups via resonance):</p><ul><li>Benzylic: $C_6H_5CH_2^-$ (more stable than methyl due to resonance)</li><li>Allylic: $CH_2=CHCH_2^-$</li><li>Especially: $\\alpha$-carbon of carbonyl (enolate ions), nitro compounds</li></ul><p><strong>Hybridization Effect:</strong> More s-character → more stable carbanion. So: $sp$ (alkyne, acetylide $RC\\equiv C^-$) > $sp^2$ > $sp^3$.</p><p><strong>3. Free Radicals:</strong></p><ul><li>C with 7 valence electrons (unpaired electron)</li><li>$sp^2$ hybridized, planar (some texts say pyramidal)</li><li>Neutral; very reactive</li></ul><p><strong>Stability Order:</strong> Similar to carbocations: $3° > 2° > 1° > methyl$</p><ul><li>Allylic, benzylic > 3° > 2° > 1° > methyl (resonance stabilization)</li></ul><p><strong>Generation:</strong> Photolysis ($h\\nu$), peroxides ($RO-OR \\to 2RO\\cdot$), thermal, halogenation.</p><p><strong>Detection:</strong> EPR (electron paramagnetic resonance).</p><p><strong>4. Carbenes:</strong></p><ul><li>C with 6 valence electrons; two non-bonding electrons</li><li>Singlet carbene: paired electrons in one orbital</li><li>Triplet carbene: two unpaired electrons (more stable for simple carbene)</li></ul><p><strong>Generation:</strong> $CHCl_3 + KOH \\to :CCl_2 + KCl + H_2O$ (dichlorocarbene) <strong>Reaction:</strong> Insert into C-H bonds; add to C=C (cyclopropanation).</p><p><strong>5. Nitrenes:</strong></p><ul><li>N analog of carbenes (sextet on N)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Predict major product after rearrangement: $(CH_3)_2CHCH_2^+$.</p>",
+              "solution": "<p>$(CH_3)_2CHCH_2^+$ is a primary carbocation. It can undergo <strong>1,2-H shift</strong> to form a tertiary carbocation: $(CH_3)_2CHCH_2^+ \\to (CH_3)_2C^+CH_3$ (more stable, tertiary).</p><p><strong>Final Answer:</strong> Tertiary carbocation $(CH_3)_3C^+$ via hydride shift.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Arrange in increasing stability of free radicals: methyl, ethyl, isopropyl, t-butyl, benzyl.</p>",
+              "solution": "<p>Pattern follows carbocation order due to hyperconjugation/resonance: methyl < ethyl < isopropyl < t-butyl < benzyl (benzyl most stable due to resonance with ring).</p><p><strong>Final Answer:</strong> methyl < ethyl < isopropyl < t-butyl < benzyl.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Carbocation is:</p>",
+              "options": [
+                "Negatively charged",
+                "$sp^2$, planar, positively charged",
+                "Tetrahedral",
+                "Stable"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Most stable carbocation:</p>",
+              "options": [
+                "Methyl",
+                "Ethyl",
+                "t-Butyl",
+                "Allyl (stabilized by resonance)"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Carbanion has:</p>",
+              "options": [
+                "6 e⁻ on C",
+                "8 e⁻ on C with lone pair",
+                "Unpaired e⁻",
+                "Empty p orbital"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Allylic free radical is stabilized by:</p>",
+              "options": [
+                "Hyperconjugation",
+                "Resonance",
+                "Both",
+                "Inductive effect"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Dichlorocarbene is formed from CHCl₃ by:</p>",
+              "options": [
+                "HCl + acid",
+                "Strong base (KOH/NaOH)",
+                "Heat",
+                "Light"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Electrophiles, Nucleophiles, Reaction Types and Purification",
+          "concept": "<p><strong>Electrophiles (E⁺):</strong> Electron-poor; \"electron lovers\". Accept electron pair. Examples: $H^+, NO_2^+, Cl^+, Br^+, R^+, AlCl_3$ (Lewis acid), $SO_3$, carbonyl C.</p><p><strong>Nucleophiles (Nu⁻):</strong> Electron-rich; \"nucleus lovers\". Donate electron pair.</p><ul><li>Negatively charged: $OH^-, CN^-, Cl^-, RO^-, RS^-, NH_2^-$</li><li>Neutral with lone pair: $H_2O, NH_3, ROH$</li><li>Strong nucleophiles: $OH^-, RO^-, RS^-, NH_2^-, CN^-, RC \\equiv C^-$</li><li>Weak nucleophiles: $H_2O, ROH, Cl^-, HSO_4^-$</li></ul><p><strong>Reaction Types in Organic Chemistry:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Description</th><th>Example</th></tr></thead><tbody><tr><td><strong>Substitution</strong></td><td>Atom/group replaced by another</td><td>$CH_3Cl + OH^- \\to CH_3OH + Cl^-$</td></tr><tr><td><strong>Addition</strong></td><td>Two species combine; unsaturated bond saturates</td><td>$CH_2=CH_2 + H_2 \\to CH_3CH_3$</td></tr><tr><td><strong>Elimination</strong></td><td>Lost groups → unsaturated product</td><td>$CH_3CH_2Br + OH^- \\to CH_2=CH_2$</td></tr><tr><td><strong>Rearrangement</strong></td><td>Group migration within molecule</td><td>Carbocation rearrangements</td></tr></tbody></table><p><strong>Subdivisions:</strong></p><ul><li><strong>Nucleophilic</strong> (N): nucleophile attacks; in saturated C: $S_N1$, $S_N2$; in unsaturated C (carbonyl): $A_N$</li><li><strong>Electrophilic</strong> (E): electrophile attacks; in aromatic: $S_E$ (also called $E_{Ar}$); in alkenes: $A_E$</li><li><strong>Radical</strong> (R): radicals involved; $S_R$, $A_R$</li></ul><p><strong>Common Reaction Patterns:</strong></p><ul><li><strong>Free radical substitution:</strong> alkane + halogen (light)</li><li><strong>Electrophilic addition:</strong> alkene + HX, X₂, H₂O (acid), etc.</li><li><strong>Electrophilic aromatic substitution:</strong> benzene + Friedel-Crafts, nitration, halogenation, etc.</li><li><strong>Nucleophilic substitution:</strong> RX + Nu⁻</li><li><strong>Nucleophilic addition:</strong> R₂C=O + Nu⁻ → R₂C(OH)(Nu)</li><li><strong>Nucleophilic acyl substitution:</strong> RCOOR' + Nu⁻ → RCONu + R'O⁻</li></ul><p><strong>Methods of Purification:</strong></p><table class=\"md-table\"><thead><tr><th>Method</th><th>Principle</th><th>Used For</th></tr></thead><tbody><tr><td><strong>Filtration</strong></td><td>Solid-liquid separation</td><td>Insoluble solids in liquid</td></tr><tr><td><strong>Crystallization</strong></td><td>Different solubilities at different T</td><td>Solids; purified by recrystallization</td></tr><tr><td><strong>Distillation</strong></td><td>Different BPs</td><td>Volatile liquids of significantly different BPs</td></tr><tr><td><strong>Fractional distillation</strong></td><td>Slight BP differences</td><td>Mixtures with close BPs (petroleum)</td></tr><tr><td><strong>Steam distillation</strong></td><td>Substance volatile, insoluble in water</td><td>Heat-sensitive, water-immiscible compounds (aniline, essential oils)</td></tr><tr><td><strong>Vacuum distillation</strong></td><td>Reduced P to lower BP</td><td>Heat-sensitive compounds (glycerol)</td></tr><tr><td><strong>Sublimation</strong></td><td>Solid → vapor directly</td><td>Solids that sublime (camphor, NH₄Cl, I₂, naphthalene)</td></tr><tr><td><strong>Chromatography</strong></td><td>Differential adsorption/partition</td><td>Mixtures of various sizes</td></tr><tr><td><strong>Solvent extraction</strong></td><td>Different solubility in two immiscible solvents</td><td>Liquid-liquid separation</td></tr><tr><td><strong>Differential extraction</strong></td><td>Same as above with multiple steps</td><td>Improving yield</td></tr></tbody></table><p><strong>Chromatography Types:</strong></p><ul><li><strong>Adsorption:</strong> TLC (Thin Layer), Column</li><li><strong>Partition:</strong> Paper, HPLC (High Performance)</li><li><strong>Gas chromatography (GC):</strong> Gaseous sample</li><li><strong>GLC, GSC</strong></li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Classify: $H_2O + CH_3Cl \\to CH_3OH + HCl$.</p>",
+              "solution": "<ul><li>$H_2O$ acts as nucleophile (lone pair on O)</li><li>$CH_3Cl$ is the substrate; Cl is leaving group</li><li>Substitution at $sp^3$ C → <strong>Nucleophilic Substitution</strong> ($S_N1$ or $S_N2$)</li></ul><p><strong>Final Answer:</strong> Nucleophilic substitution.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Which technique to purify glycerol (BP $290°$C, decomposes on heating)?</p>",
+              "solution": "<p>Glycerol has high BP and decomposes at high T at atmospheric pressure. Use <strong>vacuum distillation</strong> (reduce P, lowers BP, avoids decomposition).</p><p><strong>Final Answer:</strong> Vacuum distillation.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Electrophile is:</p>",
+              "options": [
+                "Electron donor",
+                "Electron acceptor",
+                "Anion",
+                "Radical"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$OH^-$ acts as:</p>",
+              "options": [
+                "Strong nucleophile",
+                "Electrophile",
+                "Both",
+                "Inert"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two liquids with similar BP separated by:</p>",
+              "options": [
+                "Distillation",
+                "Fractional distillation",
+                "Sublimation",
+                "Crystallization"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>To purify camphor:</p>",
+              "options": [
+                "Distillation",
+                "Sublimation",
+                "Steam distillation",
+                "Filtration"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Type of reaction: $CH_2=CH_2 + HBr \\to CH_3CH_2Br$:</p>",
+              "options": [
+                "Nucleophilic addition",
+                "Electrophilic addition",
+                "Free radical",
+                "Substitution"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-chem-organic-chemistry-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>IUPAC name of $CH_3CH_2COCH_3$:</p>",
+              "options": [
+                "propan-2-one",
+                "butan-2-one",
+                "butan-3-one",
+                "2-butanone"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of optical isomers of $CH_3CHBrCH_2OH$:</p>",
+              "options": [
+                "$0$",
+                "$2$",
+                "$4$",
+                "$1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Most acidic compound:</p>",
+              "options": [
+                "CH₄",
+                "NH₃",
+                "H₂O",
+                "HCCH (terminal alkyne, $sp$ hybridized H is acidic)"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Most stable resonance form has:</p>",
+              "options": [
+                "Maximum charge separation",
+                "Minimum formal charges; -ve on more EN atom",
+                "Maximum number of bonds",
+                "All atoms with octets and minimum charges (b and c combined)"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Increasing acidity: $CH_3COOH$, $ClCH_2COOH$, $CHCl_2COOH$, $CCl_3COOH$:</p>",
+              "options": [
+                "$CH_3 < Cl < Cl_2 < Cl_3$",
+                "Reverse order",
+                "Random",
+                "All equal"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Most stable carbocation:</p>",
+              "options": [
+                "$CH_3^+$",
+                "Allylic $CH_2=CHCH_2^+$",
+                "Benzyl $C_6H_5CH_2^+$ (resonance stabilized)",
+                "Triphenylmethyl $(C_6H_5)_3C^+$ (most stable)"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>-CHO group is named in IUPAC as:</p>",
+              "options": [
+                "Carboxy",
+                "Formyl/oxo or use -al suffix",
+                "Carbonyl",
+                "Hydroxy"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Tautomers of acetaldehyde:</p>",
+              "options": [
+                "$CH_3CHO \\rightleftharpoons CH_2=CHOH$ (vinyl alcohol)",
+                "$CH_3OH$",
+                "$CH_3COCH_3$",
+                "None"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Cis-trans isomerism is shown by:</p>",
+              "options": [
+                "Alkanes",
+                "Alkenes with two different groups on each $sp^2$ C",
+                "Alcohols",
+                "Alkynes"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Inductive effect order: -F vs -OH vs -CH₃:</p>",
+              "options": [
+                "-F > -OH > -CH₃ (-I order; CH₃ is +I)",
+                "-OH > -F > -CH₃",
+                "-CH₃ > -F > -OH",
+                "All equal"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Number of structural isomers of $C_5H_{12}$:</p>",
+              "answer": "3",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of chiral centers in glucose ($C_6H_{12}O_6$):</p>",
+              "answer": "4",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of free radicals formed in homolytic cleavage of $H_2$:</p>",
+              "answer": "2",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Tertiary carbocations are more stable than primary. <strong>Reason (R):</strong> Tertiary carbocations have more α-hydrogens, leading to greater hyperconjugation and +I effect.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> Aniline ($C_6H_5NH_2$) is a weaker base than methylamine. <strong>Reason (R):</strong> In aniline, the lone pair on N is delocalized into the benzene ring through resonance, making it less available for protonation.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

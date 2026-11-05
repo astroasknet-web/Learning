@@ -1,0 +1,168 @@
+{
+  "exam": "neet",
+  "subject": "physics",
+  "chapter": 20,
+  "title": "Atoms & Nuclei",
+  "slug": "atoms-and-nuclei",
+  "subtitle": "Rutherford & Bohr models, hydrogen spectrum, nuclear binding energy & radioactivity",
+  "level": "NEET (UG)",
+  "color": "#2563eb",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "NEET Physics — Atoms & Nuclei: Rutherford's nuclear model, the Bohr model and hydrogen spectrum, nuclear size and mass-energy, binding energy, radioactivity and decay law, and fission and fusion, with NEET-level examples and MCQs. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Atomic Structure and Spectra",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Rutherford's Model and the Bohr Atom",
+          "concept": "<p>The modern picture of the atom began with <strong>Rutherford's alpha-scattering experiment</strong>. Most alpha particles fired at a thin gold foil passed straight through, but a tiny fraction bounced back sharply. This forced the conclusion that an atom's positive charge and almost all its mass are concentrated in a minute central <strong>nucleus</strong>, with electrons orbiting in the vast empty space around it.</p><p>Rutherford's planetary model had a fatal flaw: classical physics says an orbiting (accelerating) electron should continuously radiate energy and spiral into the nucleus, making the atom unstable. <strong>Bohr</strong> resolved this for hydrogen with three postulates: electrons occupy certain <strong>stationary orbits</strong> without radiating; the allowed orbits are those where the angular momentum is quantised, $L = \\dfrac{nh}{2\\pi}$; and radiation is emitted or absorbed only when an electron jumps between orbits, with photon energy $h\\nu = E_2 - E_1$.</p><p>These postulates give clean formulas for hydrogen. The radius of the $n$-th orbit grows as $r_n \\propto n^{2}$, while the energy is negative and quantised: $E_n = -\\dfrac{13.6}{n^{2}}\\ \\text{eV}$. The ground state ($n = 1$) has energy $-13.6\\ \\text{eV}$, and the energy needed to remove the electron completely — the <strong>ionisation energy</strong> — is therefore $13.6\\ \\text{eV}$, a number worth memorising.</p><p>The negative energy signifies a <em>bound</em> electron, and the levels crowd closer together as $n$ increases, approaching zero at infinity. The electron is most tightly bound in the ground state. Although the Bohr model works precisely only for hydrogen and other single-electron systems, its quantised-energy idea underpins all of atomic spectra and is heavily examined in NEET.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity (hydrogen)</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Relation</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Angular momentum</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$L = \\dfrac{nh}{2\\pi}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Orbit radius</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$r_n \\propto n^{2}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Energy level</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$E_n = -\\dfrac{13.6}{n^{2}}\\ \\text{eV}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Transition</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$h\\nu = E_2 - E_1$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the energy of the electron in the second orbit ($n = 2$) of hydrogen.</p>",
+              "solution": "<p>$E_2 = -\\dfrac{13.6}{2^{2}} = -\\dfrac{13.6}{4} = -3.4\\ \\text{eV}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What is the ionisation energy of a hydrogen atom in the ground state?</p>",
+              "solution": "<p>The ground-state energy is $-13.6\\ \\text{eV}$, so $13.6\\ \\text{eV}$ of energy is needed to remove the electron to infinity ($E = 0$). The ionisation energy is $13.6\\ \\text{eV}$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Rutherford's experiment established the existence of the:</p>", "options": ["electron", "nucleus", "neutron", "photon"], "correct": 1, "explanation": "Alpha scattering revealed a tiny massive nucleus." },
+            { "q": "<p>In the Bohr model, the angular momentum of an electron is:</p>", "options": ["continuous", "quantised as $nh/2\\pi$", "zero", "$h\\nu$"], "correct": 1, "explanation": "$L = nh/2\\pi$." },
+            { "q": "<p>The energy of the $n$-th level of hydrogen is:</p>", "options": ["$-13.6 n^{2}$ eV", "$-13.6/n^{2}$ eV", "$13.6 n$ eV", "$-13.6 n$ eV"], "correct": 1, "explanation": "$E_n = -13.6/n^2$ eV." },
+            { "q": "<p>The radius of the $n$-th Bohr orbit is proportional to:</p>", "options": ["$n$", "$n^{2}$", "$1/n$", "$1/n^{2}$"], "correct": 1, "explanation": "$r_n \\propto n^2$." },
+            { "q": "<p>The ionisation energy of ground-state hydrogen is:</p>", "options": ["$3.4\\ \\text{eV}$", "$13.6\\ \\text{eV}$", "$1.5\\ \\text{eV}$", "$27.2\\ \\text{eV}$"], "correct": 1, "explanation": "$13.6\\ \\text{eV}$ to remove the electron." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Memorise $E_n = -13.6/n^{2}$ eV, $r_n \\propto n^{2}$ and $L = nh/2\\pi$. Ground-state hydrogen energy is $-13.6$ eV; its ionisation energy is $+13.6$ eV.</p>"
+        },
+        {
+          "number": 2,
+          "title": "The Hydrogen Spectrum",
+          "concept": "<p>When an electron jumps from a higher level $n_i$ to a lower level $n_f$, it emits a photon whose energy equals the difference between the levels. Because the levels are quantised, only certain photon energies — and hence only certain wavelengths — appear. This is why the hydrogen <strong>emission spectrum</strong> is a set of sharp, discrete lines rather than a continuous band, a direct confirmation of Bohr's quantisation.</p><p>The wavelengths obey the <strong>Rydberg formula</strong>: $\\dfrac{1}{\\lambda} = R\\left(\\dfrac{1}{n_f^{2}} - \\dfrac{1}{n_i^{2}}\\right)$, where $R = 1.097\\times10^{7}\\ \\text{m}^{-1}$ is the Rydberg constant. The lines fall into <strong>series</strong> named after their discoverers, each defined by the level the electron lands on.</p><p>The key series for NEET are: the <strong>Lyman series</strong> ($n_f = 1$, in the ultraviolet), the <strong>Balmer series</strong> ($n_f = 2$, in the visible region — the only series the eye can see), and the <strong>Paschen, Brackett and Pfund series</strong> ($n_f = 3, 4, 5$, all in the infrared). Knowing which series lands on which level, and its spectral region, answers most spectrum questions directly.</p><p>Two further points are commonly tested. Within a series, the line from $n_i = n_f + 1$ has the smallest energy and longest wavelength, while the <em>series limit</em> (a jump from infinity) has the shortest wavelength. And the same energy levels produce an <strong>absorption spectrum</strong> — dark lines where atoms absorb exactly those photons — explaining the dark lines seen in sunlight. The discrete spectrum is the fingerprint that lets us identify elements in stars.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Series ($n_f$)</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Region</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Lyman ($n_f = 1$)</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>ultraviolet</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Balmer ($n_f = 2$)</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>visible</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Paschen ($n_f = 3$)</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>infrared</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Rydberg formula</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\dfrac{1}{\\lambda} = R\\left(\\dfrac{1}{n_f^{2}} - \\dfrac{1}{n_i^{2}}\\right)$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Which spectral series of hydrogen lies in the visible region?</p>",
+              "solution": "<p>The Balmer series ($n_f = 2$). Transitions ending on the second level emit visible-light photons, which is why these are the lines the eye can see.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the energy of the photon emitted when an electron in hydrogen falls from $n = 3$ to $n = 2$.</p>",
+              "solution": "<p>$E = E_3 - E_2 = \\left(-\\dfrac{13.6}{9}\\right) - \\left(-\\dfrac{13.6}{4}\\right) = -1.51 + 3.4 = 1.89\\ \\text{eV}$ (the red Balmer line).</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The hydrogen emission spectrum consists of:</p>", "options": ["a continuous band", "discrete lines", "a single line", "no lines"], "correct": 1, "explanation": "Quantised levels give discrete spectral lines." },
+            { "q": "<p>The Balmer series lies in the:</p>", "options": ["ultraviolet", "visible", "infrared", "microwave"], "correct": 1, "explanation": "Balmer ($n_f = 2$) is in the visible region." },
+            { "q": "<p>The Lyman series corresponds to transitions ending at:</p>", "options": ["$n_f = 1$", "$n_f = 2$", "$n_f = 3$", "$n_f = 4$"], "correct": 0, "explanation": "Lyman: $n_f = 1$ (ultraviolet)." },
+            { "q": "<p>The Rydberg formula gives:</p>", "options": ["the energy of an orbit", "$1/\\lambda$ of spectral lines", "the orbit radius", "the angular momentum"], "correct": 1, "explanation": "$1/\\lambda = R(1/n_f^2 - 1/n_i^2)$." },
+            { "q": "<p>The Paschen series lies in the:</p>", "options": ["visible", "ultraviolet", "infrared", "X-ray region"], "correct": 2, "explanation": "Paschen ($n_f = 3$) is in the infrared." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Lyman (UV, $n_f=1$), Balmer (visible, $n_f=2$), Paschen (IR, $n_f=3$). Use $1/\\lambda = R(1/n_f^2 - 1/n_i^2)$; longest wavelength is the first line, shortest is the series limit.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The Nucleus and Radioactivity",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Nuclear Size, Mass-Energy and Binding Energy",
+          "concept": "<p>The nucleus contains protons and neutrons, together called <strong>nucleons</strong>. The number of protons is the atomic number $Z$ and the total number of nucleons is the mass number $A$. Nuclei with the same $Z$ but different $A$ are <strong>isotopes</strong>. The nuclear radius depends only on $A$ through $R = R_0 A^{1/3}$, so nuclear <em>volume</em> is proportional to $A$ and the density of nuclear matter is roughly the same for all nuclei — an enormous and constant value.</p><p>Einstein's <strong>mass–energy equivalence</strong> $E = mc^{2}$ is central to nuclear physics. A convenient unit is that $1\\ \\text{u}$ of mass corresponds to $931.5\\ \\text{MeV}$ of energy. A striking fact is that the mass of a nucleus is always <em>less</em> than the sum of the masses of its separate nucleons; this missing mass is the <strong>mass defect</strong> $\\Delta m$.</p><p>The energy equivalent of the mass defect is the <strong>binding energy</strong> $E_b = \\Delta m\\,c^{2}$ — the energy that would be needed to pull the nucleus apart into free nucleons, and equally the energy released when it forms. More useful for comparing nuclei is the <strong>binding energy per nucleon</strong>, which measures how tightly each nucleon is held.</p><p>A plot of binding energy per nucleon against mass number rises steeply, peaks near iron ($A \\approx 56$) at about $8.8\\ \\text{MeV}$, then falls slowly. The peak means iron-group nuclei are the most stable. This single curve explains both nuclear processes: heavy nuclei can release energy by <em>splitting</em> toward the peak (fission), and light nuclei by <em>joining</em> toward the peak (fusion) — the key NEET interpretation of the curve.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Relation</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Nuclear radius</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$R = R_0 A^{1/3}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Mass-energy</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$1\\ \\text{u} = 931.5\\ \\text{MeV}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Binding energy</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$E_b = \\Delta m\\,c^{2}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Most stable nucleus</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>near iron ($A \\approx 56$)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A nucleus has a mass defect of $0.5\\ \\text{u}$. Find its binding energy.</p>",
+              "solution": "<p>$E_b = \\Delta m\\times931.5 = 0.5\\times931.5 \\approx 466\\ \\text{MeV}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>How does the radius of a nucleus with $A = 64$ compare with one of $A = 8$?</p>",
+              "solution": "<p>$R \\propto A^{1/3}$, so the ratio is $\\left(\\dfrac{64}{8}\\right)^{1/3} = 8^{1/3} = 2$. The larger nucleus has twice the radius.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The nuclear radius varies with mass number as:</p>", "options": ["$A$", "$A^{1/3}$", "$A^{2}$", "$1/A$"], "correct": 1, "explanation": "$R = R_0 A^{1/3}$." },
+            { "q": "<p>$1\\ \\text{u}$ of mass is equivalent to about:</p>", "options": ["$931.5\\ \\text{eV}$", "$931.5\\ \\text{MeV}$", "$13.6\\ \\text{eV}$", "$1\\ \\text{MeV}$"], "correct": 1, "explanation": "$1\\ \\text{u} = 931.5\\ \\text{MeV}$." },
+            { "q": "<p>The binding energy of a nucleus equals:</p>", "options": ["$mc$", "$\\Delta m\\,c^{2}$", "$\\Delta m/c^{2}$", "$mc^{2}$ of one nucleon"], "correct": 1, "explanation": "$E_b = \\Delta m\\,c^2$." },
+            { "q": "<p>The binding energy per nucleon is greatest near:</p>", "options": ["hydrogen", "iron", "uranium", "helium"], "correct": 1, "explanation": "Peak is near iron ($A \\approx 56$)." },
+            { "q": "<p>The density of nuclear matter is:</p>", "options": ["different for each nucleus", "roughly the same for all nuclei", "proportional to $A$", "zero"], "correct": 1, "explanation": "Since $R \\propto A^{1/3}$, density is nearly constant." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> $R = R_0 A^{1/3}$ (constant nuclear density); $E_b = \\Delta m c^{2}$ with $1\\ \\text{u} = 931.5\\ \\text{MeV}$. The BE/nucleon curve peaks at iron — fission and fusion both move toward it.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Radioactivity, Fission and Fusion",
+          "concept": "<p><strong>Radioactivity</strong> is the spontaneous decay of unstable nuclei, emitting three kinds of radiation. <strong>Alpha (α)</strong> particles are helium nuclei — heavy, positively charged, strongly ionising but poorly penetrating (stopped by paper). <strong>Beta (β)</strong> particles are fast electrons — lighter, more penetrating (stopped by aluminium). <strong>Gamma (γ)</strong> rays are high-energy photons — uncharged, weakly ionising but highly penetrating (need thick lead). Their penetrating order is $\\alpha < \\beta < \\gamma$, and their ionising order is the reverse.</p><p>Radioactive decay is random for any single nucleus but precise for large numbers: the rate of decay (activity) is proportional to the number of nuclei present. This gives the exponential <strong>decay law</strong> $N = N_0 e^{-\\lambda t}$, where $\\lambda$ is the decay constant. The <strong>half-life</strong> $T_{1/2} = \\dfrac{0.693}{\\lambda}$ is the time for half the sample to decay, and after $n$ half-lives a fraction $\\left(\\dfrac{1}{2}\\right)^{n}$ remains — the basis of most NEET numericals and of carbon dating.</p><p>In <strong>nuclear fission</strong>, a heavy nucleus such as uranium-235 splits into two lighter nuclei when it absorbs a neutron, releasing a large amount of energy and several more neutrons. Those neutrons can trigger further fissions — a <strong>chain reaction</strong> — which is controlled in a nuclear reactor and uncontrolled in an atomic bomb. The energy comes from the increase in binding energy per nucleon as the fragments lie closer to the iron peak.</p><p>In <strong>nuclear fusion</strong>, light nuclei such as hydrogen isotopes combine to form a heavier nucleus, again releasing energy — this is what powers the Sun and stars. Fusion releases even more energy per nucleon than fission but requires enormous temperatures to overcome the repulsion between nuclei. Both processes are explained by the same binding-energy curve, the unifying idea NEET expects you to apply.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity / process</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Decay law</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$N = N_0 e^{-\\lambda t}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Half-life</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$T_{1/2} = 0.693/\\lambda$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Penetrating power</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\alpha < \\beta < \\gamma$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Fission / Fusion</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>split heavy / join light nuclei</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A radioactive sample has a half-life of $10\\ \\text{years}$. What fraction remains after $30\\ \\text{years}$?</p>",
+              "solution": "<p>$30\\ \\text{years} = 3$ half-lives, so the fraction remaining is $\\left(\\dfrac{1}{2}\\right)^{3} = \\dfrac{1}{8}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Which radiation has the greatest penetrating power, and which the greatest ionising power?</p>",
+              "solution": "<p>Gamma rays penetrate most (needing thick lead to stop). Alpha particles ionise most strongly but are stopped by paper. The two orders are exact opposites.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Alpha particles are:</p>", "options": ["electrons", "helium nuclei", "photons", "protons"], "correct": 1, "explanation": "Alpha particles are helium nuclei." },
+            { "q": "<p>The radioactive decay law is:</p>", "options": ["$N = N_0 e^{\\lambda t}$", "$N = N_0 e^{-\\lambda t}$", "$N = N_0\\lambda t$", "$N = N_0/\\lambda t$"], "correct": 1, "explanation": "$N = N_0 e^{-\\lambda t}$." },
+            { "q": "<p>The half-life relates to the decay constant by:</p>", "options": ["$T_{1/2} = \\lambda$", "$T_{1/2} = 0.693/\\lambda$", "$T_{1/2} = \\lambda/0.693$", "$T_{1/2} = 0.693\\lambda$"], "correct": 1, "explanation": "$T_{1/2} = 0.693/\\lambda$." },
+            { "q": "<p>The most penetrating radiation is:</p>", "options": ["alpha", "beta", "gamma", "all equal"], "correct": 2, "explanation": "Gamma rays penetrate most." },
+            { "q": "<p>The Sun's energy is produced mainly by:</p>", "options": ["fission", "fusion", "chemical burning", "radioactive decay"], "correct": 1, "explanation": "Nuclear fusion powers the Sun." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> After $n$ half-lives, $(1/2)^n$ remains; $T_{1/2} = 0.693/\\lambda$. Penetration $\\alpha < \\beta < \\gamma$ (ionisation is the reverse). Fission splits heavy nuclei, fusion joins light ones — both release energy.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-physics-ch20-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>Rutherford's alpha-scattering experiment discovered the:</p>", "options": ["electron", "nucleus", "neutron", "photon"], "correct": 1, "explanation": "It revealed the atomic nucleus." },
+            { "q": "<p>The energy of the ground state of hydrogen is:</p>", "options": ["$-3.4\\ \\text{eV}$", "$-13.6\\ \\text{eV}$", "$-1.5\\ \\text{eV}$", "$0\\ \\text{eV}$"], "correct": 1, "explanation": "$E_1 = -13.6\\ \\text{eV}$." },
+            { "q": "<p>The Balmer series of hydrogen lies in the:</p>", "options": ["UV", "visible", "IR", "X-ray"], "correct": 1, "explanation": "Balmer ($n_f = 2$) is visible." },
+            { "q": "<p>The nuclear radius is proportional to:</p>", "options": ["$A$", "$A^{1/3}$", "$A^{2/3}$", "$A^{2}$"], "correct": 1, "explanation": "$R = R_0 A^{1/3}$." },
+            { "q": "<p>Binding energy per nucleon is maximum near:</p>", "options": ["hydrogen", "helium", "iron", "uranium"], "correct": 2, "explanation": "Peak near iron ($A \\approx 56$)." },
+            { "q": "<p>After 2 half-lives, the fraction of a radioactive sample remaining is:</p>", "options": ["$1/2$", "$1/4$", "$1/8$", "$1/16$"], "correct": 1, "explanation": "$(1/2)^2 = 1/4$." },
+            { "q": "<p>$1\\ \\text{u}$ corresponds to an energy of:</p>", "options": ["$931.5\\ \\text{MeV}$", "$13.6\\ \\text{eV}$", "$1\\ \\text{MeV}$", "$511\\ \\text{keV}$"], "correct": 0, "explanation": "$1\\ \\text{u} = 931.5\\ \\text{MeV}$." },
+            { "q": "<p>Energy is released in fusion when:</p>", "options": ["heavy nuclei split", "light nuclei combine", "electrons jump orbits", "atoms ionise"], "correct": 1, "explanation": "Light nuclei joining release energy (toward the BE peak)." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> The hydrogen spectrum consists of discrete lines rather than a continuous band.<br><strong>R:</strong> The energy levels of the electron in a hydrogen atom are quantised.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Quantised levels allow only certain transition energies, giving discrete lines — R explains A." },
+            { "q": "<p><strong>A:</strong> The density of nuclear matter is nearly the same for all nuclei.<br><strong>R:</strong> The nuclear radius is proportional to $A^{1/3}$, so volume is proportional to $A$.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Volume $\\propto A$ with mass $\\propto A$ gives constant density — R explains A." },
+            { "q": "<p><strong>A:</strong> Alpha particles have greater penetrating power than gamma rays.<br><strong>R:</strong> Gamma rays are uncharged high-energy photons.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "Gamma rays penetrate far more than alpha particles, so A is false; R correctly describes gamma rays." },
+            { "q": "<p><strong>A:</strong> Energy is released in the fission of a heavy nucleus.<br><strong>R:</strong> The binding energy per nucleon of the fragments is greater than that of the original nucleus.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Higher BE/nucleon in the products means energy is released — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "chemistry",
+  "chapter": 20,
+  "title": "Polymers",
+  "slug": "polymers",
+  "subtitle": "Classification, addition vs condensation, important polymers, rubber & biodegradables for NEET",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "NEET Chemistry — Polymers: classification (source, structure, forces, mode), addition vs condensation polymerisation, important polymers and their monomers (polythene, PVC, Teflon, nylon, terylene, bakelite), natural rubber & vulcanisation, and biodegradable polymers. NCERT notes, NEET traps & MCQs, free on GrowQR.",
+    "focus_keyword": "polymers NEET",
+    "secondary_keywords": [
+      "addition condensation polymerisation NEET",
+      "polymer monomer table NEET",
+      "vulcanisation of rubber NEET",
+      "biodegradable polymers NEET",
+      "nylon terylene bakelite NEET"
+    ],
+    "keywords": [
+      "polymers NEET",
+      "polymerisation NEET",
+      "nylon 6,6 NEET",
+      "vulcanisation NEET",
+      "biodegradable polymers NEET"
+    ]
+  },
+  "summary": "<ul><li><strong>Polymers</strong> are macromolecules built from many small repeating units (<em>monomers</em>).</li><li>Classified by <strong>source</strong> (natural / semi-synthetic / synthetic), <strong>structure</strong> (linear / branched / cross-linked), <strong>molecular forces</strong> (elastomers, fibres, thermoplastics, thermosetting), and <strong>mode</strong> (addition / condensation).</li><li><strong>Addition (chain-growth)</strong>: unsaturated monomers add with <em>no</em> small molecule lost — polythene, PVC, polystyrene, Teflon (PTFE).</li><li><strong>Condensation (step-growth)</strong>: bifunctional monomers join with loss of a small molecule (often water) — nylon-6,6, nylon-6, terylene (PET), bakelite.</li><li><strong>Natural rubber</strong> is <em>cis</em>-1,4-polyisoprene; <strong>vulcanisation</strong> (heating with sulphur) cross-links it, making it stronger and more elastic (tyres).</li><li><strong>Synthetic rubbers:</strong> neoprene (chloroprene), Buna-S (butadiene + styrene), Buna-N (butadiene + acrylonitrile).</li><li><strong>Thermoplastics</strong> soften on heating and can be remoulded (polythene); <strong>thermosetting</strong> plastics set permanently (bakelite).</li><li><strong>Biodegradable polymers</strong> (PHBV, nylon-2–nylon-6) break down naturally, reducing pollution.</li></ul>",
+  "faqs": [
+    { "q": "What is the difference between addition and condensation polymerisation?", "a": "In addition (chain-growth) polymerisation, unsaturated monomers simply add to one another across their double bonds with no by-product — for example ethene gives polythene. In condensation (step-growth) polymerisation, monomers each with two functional groups join together with the loss of a small molecule such as water — for example nylon-6,6 and terylene." },
+    { "q": "What is vulcanisation of rubber?", "a": "Vulcanisation is heating natural rubber with sulphur (and additives). The sulphur forms cross-links between the rubber chains, which stops them sliding past one another. This makes the rubber stronger, harder, more elastic and less sticky, and far more resistant to temperature — which is why vulcanised rubber is used for tyres." },
+    { "q": "What is the structure of natural rubber?", "a": "Natural rubber is a linear polymer of isoprene (2-methyl-1,3-butadiene) in which the double bonds have the cis configuration — it is cis-1,4-polyisoprene. The cis arrangement prevents the chains from packing closely, which gives natural rubber its springy, elastic character." },
+    { "q": "What is the difference between thermoplastic and thermosetting polymers?", "a": "Thermoplastics soften when heated and harden when cooled, so they can be melted and remoulded many times (e.g. polythene, PVC). Thermosetting polymers are heavily cross-linked when first set, so once formed they cannot be softened or remoulded by heating (e.g. bakelite, melamine) — reheating just chars them." },
+    { "q": "Why are biodegradable polymers important and can you name one?", "a": "Most synthetic polymers do not decompose and accumulate as long-lasting waste, polluting land and oceans. Biodegradable polymers are broken down by microbes or natural processes, so they reduce this pollution. Examples include PHBV (a polyester of 3-hydroxybutanoic and 3-hydroxypentanoic acids) and nylon-2–nylon-6." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Classification and Types of Polymerisation",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Polymers: Classification",
+          "concept": "<p><strong>Polymers</strong> are very large molecules (macromolecules) made by linking together many small repeating units called <strong>monomers</strong>; the reaction that joins them is <em>polymerisation</em>. Because the same few monomers can be arranged and bonded in different ways, polymers are classified along several axes — and NEET often gives a polymer and asks which category it falls in.</p><p>By <strong>source</strong>, polymers are <em>natural</em> (made by living things — natural rubber, cellulose, starch, proteins, nucleic acids), <em>semi-synthetic</em> (natural polymers chemically modified — cellulose acetate, vulcanised rubber, rayon), or <em>synthetic</em> (man-made — polythene, nylon, PVC, bakelite). By <strong>structure</strong>, they are <em>linear</em> (straight chains that pack closely, e.g. high-density polythene), <em>branched</em> (side chains that prevent close packing, e.g. low-density polythene), or <em>cross-linked / network</em> (chains joined by covalent bridges into a rigid 3-D network, e.g. bakelite, vulcanised rubber).</p><p>A particularly useful classification is by <strong>intermolecular forces</strong>, because it predicts behaviour. <em>Elastomers</em> have weak forces and coiled chains, so they stretch and spring back (rubber). <em>Fibres</em> have strong forces (often hydrogen bonds) and so are strong and thread-like (nylon, terylene). <em>Thermoplastics</em> have intermediate forces: they soften on heating and can be remoulded repeatedly (polythene, PVC). <em>Thermosetting</em> polymers are heavily cross-linked and set permanently on first moulding — they cannot be softened again (bakelite, melamine). The thermoplastic-vs-thermosetting distinction is a recurring NEET question.</p><p>Finally, by <strong>mode of synthesis</strong>, polymers are <em>addition</em> (formed by repeated addition of unsaturated monomers, with no by-product) or <em>condensation</em> (formed when bifunctional monomers join with the loss of a small molecule). This last classification is so important that the next topic is devoted to it. Polymers may also be <em>homopolymers</em> (one kind of monomer, e.g. polythene) or <em>copolymers</em> (two or more kinds, e.g. Buna-S) — another small but examinable point.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Class (by forces)</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Property / example</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Elastomers</td><td style='border:1px solid #dcfce7;padding:6px 10px'>stretchy, weak forces — rubber</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Fibres</td><td style='border:1px solid #dcfce7;padding:6px 10px'>strong, thread-like — nylon, terylene</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Thermoplastics</td><td style='border:1px solid #dcfce7;padding:6px 10px'>remouldable — polythene, PVC</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Thermosetting</td><td style='border:1px solid #dcfce7;padding:6px 10px'>set permanently — bakelite, melamine</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Classify bakelite and polythene by their behaviour on heating.</p>",
+              "solution": "<p><strong>Polythene</strong> is a <em>thermoplastic</em> — it softens on heating and can be remoulded. <strong>Bakelite</strong> is a <em>thermosetting</em> polymer — it is heavily cross-linked and cannot be softened or remoulded once set.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What is the difference between a homopolymer and a copolymer? Give one example of each.</p>",
+              "solution": "<p>A <strong>homopolymer</strong> is made from a single kind of monomer (e.g. polythene, from ethene). A <strong>copolymer</strong> is made from two or more different monomers (e.g. Buna-S, from butadiene and styrene).</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The small repeating units of a polymer are called:</p>", "options": ["isomers", "monomers", "isotopes", "ligands"], "correct": 1, "explanation": "Monomers join to form a polymer." },
+            { "q": "<p>Rubber is an example of a/an:</p>", "options": ["fibre", "elastomer", "thermosetting plastic", "thermoplastic"], "correct": 1, "explanation": "Elastomer — weak forces, stretchy." },
+            { "q": "<p>Which polymer cannot be remoulded on heating?</p>", "options": ["polythene", "PVC", "bakelite", "polystyrene"], "correct": 2, "explanation": "Bakelite is thermosetting (cross-linked)." },
+            { "q": "<p>Nylon and terylene belong to which class (by forces)?</p>", "options": ["elastomers", "fibres", "thermosetting", "gases"], "correct": 1, "explanation": "Strong intermolecular forces → fibres." },
+            { "q": "<p>A copolymer is made from:</p>", "options": ["one monomer", "two or more different monomers", "no monomer", "only natural units"], "correct": 1, "explanation": "Two or more monomers (e.g. Buna-S)." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> by forces — elastomer (rubber), fibre (nylon/terylene), thermoplastic (polythene, remould), thermosetting (bakelite, set). Homopolymer = 1 monomer; copolymer = 2+.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Addition and Condensation Polymerisation",
+          "concept": "<p>The two great families of polymerisation differ in <em>how</em> the monomers join. In <strong>addition (chain-growth) polymerisation</strong>, unsaturated monomers add to one another across their double bonds, so the polymer has the same empirical formula as the monomer and <strong>no small molecule is lost</strong>. The chain typically grows by a <em>free-radical</em> mechanism with three stages — <em>initiation</em> (a radical from a peroxide adds to a monomer), <em>propagation</em> (the growing radical adds monomer after monomer), and <em>termination</em> (two radicals combine). Ionic (cationic/anionic) mechanisms also exist.</p><p>Common <strong>addition polymers</strong> come from alkene-type monomers: <em>polythene</em> (from ethene; low-density LDPE is branched and flexible, high-density HDPE is linear and tough), <em>PVC</em> (from vinyl chloride, $\\text{CH}_2{=}\\text{CHCl}$, used for pipes and insulation), <em>polystyrene</em> (from styrene), <em>polypropene</em> (from propene), and <em>Teflon/PTFE</em> (from tetrafluoroethene, $\\text{CF}_2{=}\\text{CF}_2$, a non-stick, heat-resistant coating). These are NEET staples: you are expected to match each polymer to its monomer.</p><p>In <strong>condensation (step-growth) polymerisation</strong>, monomers each carrying <em>two functional groups</em> react with one another, and a <strong>small molecule (usually water, sometimes HCl or methanol) is eliminated</strong> at each link. Growth occurs in steps between any two molecules with reactive ends. The two big classes here are <em>polyamides</em> (with amide links, like proteins) and <em>polyesters</em> (with ester links).</p><p>Key <strong>condensation polymers</strong> include: <em>nylon-6,6</em> (a polyamide from adipic acid + hexamethylenediamine, losing water), <em>nylon-6</em> (from caprolactam), <em>terylene / dacron (PET)</em> (a polyester from ethylene glycol + terephthalic acid, used as a fibre and in bottles), and <em>bakelite</em> (a cross-linked thermosetting polymer from phenol + formaldehyde). The single most testable contrast is this: <strong>addition = unsaturated monomers, no by-product; condensation = bifunctional monomers, small molecule eliminated.</strong> Spotting which mechanism a given polymer uses — often from whether its monomer has a C=C or two functional groups — is a guaranteed mark.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Feature</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Addition</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Condensation</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Monomer</td><td style='border:1px solid #dcfce7;padding:6px 10px'>unsaturated (C=C)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>two functional groups</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>By-product</td><td style='border:1px solid #dcfce7;padding:6px 10px'>none</td><td style='border:1px solid #dcfce7;padding:6px 10px'>small molecule (e.g. water)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Mechanism</td><td style='border:1px solid #dcfce7;padding:6px 10px'>chain-growth (radical)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>step-growth</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Examples</td><td style='border:1px solid #dcfce7;padding:6px 10px'>polythene, PVC, Teflon</td><td style='border:1px solid #dcfce7;padding:6px 10px'>nylon-6,6, terylene, bakelite</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Is the formation of nylon-6,6 an addition or a condensation polymerisation? Justify.</p>",
+              "solution": "<p><strong>Condensation.</strong> Nylon-6,6 forms from two bifunctional monomers (adipic acid + hexamethylenediamine) that join through amide links with the <strong>loss of water</strong> — the hallmark of condensation polymerisation.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Name the monomer of Teflon and the type of polymerisation.</p>",
+              "solution": "<p>The monomer is <strong>tetrafluoroethene</strong> ($\\text{CF}_2{=}\\text{CF}_2$), and it forms by <strong>addition</strong> polymerisation (an unsaturated monomer, no by-product).</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Addition polymerisation requires monomers that are:</p>", "options": ["saturated", "unsaturated (C=C)", "ionic", "aromatic only"], "correct": 1, "explanation": "Unsaturated monomers add across the double bond." },
+            { "q": "<p>In condensation polymerisation, what is eliminated?</p>", "options": ["nothing", "a small molecule such as water", "a metal", "a radical"], "correct": 1, "explanation": "A small molecule (often water) is lost at each link." },
+            { "q": "<p>Which is an addition polymer?</p>", "options": ["nylon-6,6", "terylene", "polythene", "bakelite"], "correct": 2, "explanation": "Polythene forms by addition of ethene." },
+            { "q": "<p>Nylon-6,6 is made from adipic acid and:</p>", "options": ["ethylene glycol", "hexamethylenediamine", "phenol", "styrene"], "correct": 1, "explanation": "Adipic acid + hexamethylenediamine (a polyamide)." },
+            { "q": "<p>The free-radical chain mechanism has the steps:</p>", "options": ["only initiation", "initiation, propagation, termination", "only termination", "hydrolysis"], "correct": 1, "explanation": "Three stages: initiation, propagation, termination." }
+          ],
+          "note": "<p><strong>NEET trap:</strong> addition = unsaturated monomer, NO by-product (polythene, PVC, Teflon). Condensation = bifunctional monomer, loses water (nylon-6,6, terylene, bakelite). Match monomer to polymer.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Important Polymers and Their Uses",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Common Synthetic Polymers and Their Monomers",
+          "concept": "<p>NEET reliably asks you to connect a <strong>polymer with its monomer(s)</strong> and its everyday use, so it is worth knowing the common synthetic polymers as a compact set. They split naturally into the addition polymers (from a single unsaturated monomer) and the condensation polymers (from bifunctional monomers).</p><p>Among <strong>addition polymers</strong>: <em>polythene</em> (monomer ethene) is used for bags, bottles and insulation; <em>polypropene</em> (propene) for ropes, pipes and packaging; <em>PVC / poly(vinyl chloride)</em> (vinyl chloride) for pipes, cable insulation and raincoats; <em>polystyrene</em> (styrene) for packaging, cups and insulation foam; <em>Teflon / PTFE</em> (tetrafluoroethene) for non-stick cookware and gaskets; and <em>Orlon / polyacrylonitrile (PAN)</em> (acrylonitrile) for synthetic wool and acrylic fibres. Each of these comes from one alkene-type monomer and is made without losing any by-product.</p><p>Among <strong>condensation polymers</strong>: <em>Nylon-6,6</em> (adipic acid + hexamethylenediamine) is a tough polyamide fibre used in textiles, ropes and brushes; <em>Nylon-6</em> (from the single monomer caprolactam) is used in tyre cords and fabrics; <em>Terylene / Dacron (PET)</em> (ethylene glycol + terephthalic acid) is a polyester used as a wrinkle-resistant fibre and in drink bottles; <em>Bakelite</em> (phenol + formaldehyde) is a hard, heat-resistant thermosetting plastic used in electrical switches and handles; and <em>Melamine–formaldehyde</em> resin is used for unbreakable crockery and laminates.</p><p>A few <strong>memory hooks</strong> help in the exam. 'Nylon' and 'amide' both contain the idea of the amide link, so nylons are polyamides; 'terylene/PET' is a poly<em>ester</em>. Fluorine in the name (Teflon) signals tetrafluoroethene; chlorine (PVC) signals vinyl chloride. Phenol + formaldehyde always means bakelite (thermosetting). With these associations, you can answer most monomer–polymer matching questions quickly and reliably — exactly the kind of one-mark item that adds up in NEET.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Polymer</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Monomer(s)</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>PVC</td><td style='border:1px solid #dcfce7;padding:6px 10px'>vinyl chloride</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Teflon (PTFE)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>tetrafluoroethene</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Nylon-6,6</td><td style='border:1px solid #dcfce7;padding:6px 10px'>adipic acid + hexamethylenediamine</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Terylene (PET)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>ethylene glycol + terephthalic acid</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Bakelite</td><td style='border:1px solid #dcfce7;padding:6px 10px'>phenol + formaldehyde</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Name the monomers of terylene (Dacron).</p>",
+              "solution": "<p><strong>Ethylene glycol</strong> and <strong>terephthalic acid</strong> — they condense to form the polyester terylene (PET).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Which polymer is obtained from phenol and formaldehyde, and what type is it?</p>",
+              "solution": "<p><strong>Bakelite</strong> — a cross-linked <strong>thermosetting</strong> polymer used in electrical fittings.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The monomer of Teflon (PTFE) is:</p>", "options": ["ethene", "vinyl chloride", "tetrafluoroethene", "styrene"], "correct": 2, "explanation": "$\\text{CF}_2{=}\\text{CF}_2$ gives PTFE." },
+            { "q": "<p>PVC is made from:</p>", "options": ["vinyl chloride", "acrylonitrile", "propene", "caprolactam"], "correct": 0, "explanation": "Vinyl chloride, $\\text{CH}_2{=}\\text{CHCl}$." },
+            { "q": "<p>Bakelite is obtained from phenol and:</p>", "options": ["acetic acid", "formaldehyde", "ethylene glycol", "styrene"], "correct": 1, "explanation": "Phenol + formaldehyde (thermosetting)." },
+            { "q": "<p>Which is a polyester?</p>", "options": ["nylon-6,6", "terylene", "bakelite", "Teflon"], "correct": 1, "explanation": "Terylene (PET) has ester links." },
+            { "q": "<p>Orlon (acrylic fibre) is made from:</p>", "options": ["acrylonitrile", "styrene", "ethene", "caprolactam"], "correct": 0, "explanation": "Polyacrylonitrile from acrylonitrile." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> memorise monomer→polymer: ethene→polythene, vinyl chloride→PVC, tetrafluoroethene→Teflon, acrylonitrile→Orlon, adipic acid+hexamethylenediamine→nylon-6,6, glycol+terephthalic acid→terylene, phenol+formaldehyde→bakelite.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Rubber, Biodegradable Polymers and Molecular Mass",
+          "concept": "<p><strong>Natural rubber</strong> is a natural addition polymer of <em>isoprene</em> (2-methyl-1,3-butadiene); chemically it is <strong>cis-1,4-polyisoprene</strong>. The cis arrangement of the double bonds stops the chains packing closely, giving rubber its coiled, springy, elastic character. But raw natural rubber is soft, sticky when warm, brittle when cold, and not very strong — limitations that need fixing for practical use.</p><p>The fix is <strong>vulcanisation</strong>: heating rubber with <em>sulphur</em> (about 3–5% for tyres, more for hard rubber). The sulphur creates <strong>cross-links</strong> between the polyisoprene chains, locking them so they can no longer slip past each other. Vulcanised rubber is therefore much stronger, harder, more elastic and far more resistant to heat and abrasion — which is why it is used for tyres, tubes and seals. Vulcanisation is one of the most frequently asked applied facts in this chapter.</p><p>Several <strong>synthetic rubbers</strong> improve on or replace natural rubber. <em>Neoprene</em> (polychloroprene, from chloroprene) is resistant to oil and heat, used in hoses and gaskets. <em>Buna-S (SBR)</em> is a copolymer of <em>butadiene and styrene</em>, widely used for tyres. <em>Buna-N</em> is a copolymer of <em>butadiene and acrylonitrile</em>, prized for oil resistance. ('Bu' = butadiene, 'na' = sodium catalyst, 'S' = styrene, 'N' = nitrile — a handy way to remember the components.)</p><p>Two further ideas round off the chapter. <strong>Biodegradable polymers</strong> are designed to be broken down by microbes or natural processes, addressing the pollution caused by ordinary, non-degradable plastics; examples are <em>PHBV</em> (a polyester of 3-hydroxybutanoic and 3-hydroxypentanoic acids) and <em>nylon-2–nylon-6</em>. Finally, because polymer chains vary in length, a polymer does not have one single molar mass but an <strong>average molecular mass</strong> — quoted as a <em>number-average</em> or a <em>weight-average</em>, with their ratio (the polydispersity index) describing how uniform the chains are. For NEET, the must-knows are the structure of natural rubber, the purpose of vulcanisation, the make-up of Buna-S/Buna-N, and the idea (and examples) of biodegradable polymers.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Rubber / polymer</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Made from / note</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Natural rubber</td><td style='border:1px solid #dcfce7;padding:6px 10px'>cis-1,4-polyisoprene</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Vulcanisation</td><td style='border:1px solid #dcfce7;padding:6px 10px'>heat + sulphur → cross-links (tyres)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Buna-S / Buna-N</td><td style='border:1px solid #dcfce7;padding:6px 10px'>butadiene + styrene / + acrylonitrile</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>PHBV, nylon-2–nylon-6</td><td style='border:1px solid #dcfce7;padding:6px 10px'>biodegradable polymers</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why does vulcanisation improve the properties of natural rubber?</p>",
+              "solution": "<p>Heating with <strong>sulphur</strong> creates <strong>cross-links</strong> between the rubber chains, stopping them sliding past one another. This makes the rubber stronger, harder, more elastic and more heat-resistant — ideal for tyres.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Name the monomers of Buna-S and state one use.</p>",
+              "solution": "<p>Buna-S is a copolymer of <strong>butadiene and styrene</strong>; it is widely used to make <strong>automobile tyres</strong>.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Natural rubber is chemically:</p>", "options": ["trans-polyisoprene", "cis-1,4-polyisoprene", "polystyrene", "polyethene"], "correct": 1, "explanation": "cis-1,4-polyisoprene." },
+            { "q": "<p>Vulcanisation of rubber involves heating it with:</p>", "options": ["carbon", "sulphur", "nitrogen", "sodium"], "correct": 1, "explanation": "Sulphur forms cross-links." },
+            { "q": "<p>Buna-S is a copolymer of butadiene and:</p>", "options": ["acrylonitrile", "styrene", "chloroprene", "isoprene"], "correct": 1, "explanation": "Butadiene + styrene (S)." },
+            { "q": "<p>Which is a biodegradable polymer?</p>", "options": ["polythene", "PVC", "PHBV", "Teflon"], "correct": 2, "explanation": "PHBV is biodegradable." },
+            { "q": "<p>Neoprene is obtained from the monomer:</p>", "options": ["chloroprene", "styrene", "ethene", "acrylonitrile"], "correct": 0, "explanation": "Polychloroprene = neoprene." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> natural rubber = cis-1,4-polyisoprene; vulcanise with sulphur (cross-links → tyres). Buna-S = butadiene+styrene, Buna-N = butadiene+acrylonitrile, neoprene = chloroprene. Biodegradable: PHBV, nylon-2–nylon-6.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-chemistry-ch20-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct & Statement-based)",
+          "questions": [
+            { "q": "<p>The repeating units of a polymer are:</p>", "options": ["isotopes", "monomers", "isomers", "radicals"], "correct": 1, "explanation": "Monomers make up the polymer." },
+            { "q": "<p>Which forms by condensation polymerisation?</p>", "options": ["polythene", "PVC", "nylon-6,6", "Teflon"], "correct": 2, "explanation": "Nylon-6,6 loses water (condensation)." },
+            { "q": "<p>The monomer of PVC is:</p>", "options": ["vinyl chloride", "tetrafluoroethene", "styrene", "ethene"], "correct": 0, "explanation": "Vinyl chloride." },
+            { "q": "<p>Statements: (I) Bakelite is a thermosetting polymer. (II) Bakelite can be remoulded on heating. Which is/are correct?</p>", "options": ["only I", "only II", "both I and II", "neither"], "correct": 0, "explanation": "I correct; II wrong — thermosetting polymers cannot be remoulded." },
+            { "q": "<p>Natural rubber is:</p>", "options": ["trans-polyisoprene", "cis-1,4-polyisoprene", "polychloroprene", "polybutadiene"], "correct": 1, "explanation": "cis-1,4-polyisoprene." },
+            { "q": "<p>Vulcanisation cross-links rubber chains using:</p>", "options": ["phosphorus", "sulphur", "chlorine", "nitrogen"], "correct": 1, "explanation": "Sulphur forms the cross-links." },
+            { "q": "<p>Which polymer is biodegradable?</p>", "options": ["polystyrene", "PHBV", "PVC", "bakelite"], "correct": 1, "explanation": "PHBV is biodegradable." },
+            { "q": "<p>Terylene is a:</p>", "options": ["polyamide", "polyester", "polythene", "elastomer"], "correct": 1, "explanation": "Terylene (PET) is a polyester." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> Nylon-6,6 is formed by condensation polymerisation.<br><strong>R:</strong> Its monomers each have two functional groups and a small molecule (water) is eliminated as they join.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Loss of water from bifunctional monomers is the definition of condensation — R explains A." },
+            { "q": "<p><strong>A:</strong> Vulcanised rubber is stronger and more elastic than natural rubber.<br><strong>R:</strong> Sulphur introduces cross-links between the rubber chains.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The sulphur cross-links are exactly what improve the rubber — R explains A." },
+            { "q": "<p><strong>A:</strong> Polythene can be softened and remoulded on heating.<br><strong>R:</strong> Polythene is a thermoplastic polymer.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Being a thermoplastic is exactly why polythene can be remoulded — R explains A." },
+            { "q": "<p><strong>A:</strong> Teflon is formed by addition polymerisation.<br><strong>R:</strong> Its monomer, tetrafluoroethene, is unsaturated and adds without losing any by-product.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "An unsaturated monomer adding with no by-product is addition polymerisation — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

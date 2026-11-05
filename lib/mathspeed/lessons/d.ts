@@ -1,0 +1,77 @@
+import type { Lesson } from "../curriculum";
+
+/** Level D: Advanced Basic Calculations. */
+export const LESSONS_D: Record<string, Lesson> = {
+  "D-01": {
+    blurb: "Add numbers with four, five and six digits.",
+    learn: ["Line the numbers up by place and add from the right, carrying. In your head, add in chunks: thousands first, then hundreds, tens, ones.", "With three numbers, add two, then the third, or pair numbers that make round totals."],
+    steps: ["Line up the places.", "Add from the right, carrying.", "For mental work, add the biggest chunks first.", "Estimate to check the size."],
+    understand: ["Place value does the work. A carry is a ten of one place becoming one of the next.", "Starting from the left gives a close answer early, which you refine."],
+    mistakes: ["Misaligned digits.", "A missed carry across a zero."],
+    tip: "Biggest chunks first, then refine.",
+  },
+  "D-02": {
+    blurb: "Subtract large numbers accurately.",
+    learn: ["Subtract column by column with borrowing, or count up from the smaller number to the larger in friendly steps. 8,000 - 2,764 is 5,236, because 2,764 + 5,236 = 8,000.", "When the top number has zeros, the complement method is the fastest."],
+    steps: ["Decide: borrow, or count up.", "Work place by place.", "Check by adding the answer back.", "Compare with an estimate."],
+    understand: ["Subtraction is the gap between two numbers, so you can measure it in any steps that join them.", "Checking by adding catches nearly every slip."],
+    mistakes: ["Borrowing from a zero.", "Subtracting top from bottom in a column."],
+    tip: "Add back to check. Always.",
+  },
+  "D-03": {
+    blurb: "Multiply two-digit numbers by two-digit numbers.",
+    learn: ["Split one number: 47 × 35 = 47 × 30 + 47 × 5 = 1,410 + 235 = 1,645.", "Always start with the tens part and then add the ones part. Keep the partial products in order."],
+    steps: ["Split the second number into tens and ones.", "Multiply the first number by the tens.", "Multiply the first number by the ones.", "Add the two partial products."],
+    understand: ["This is the distributive law at work: a × (b + c) = a × b + a × c. Column multiplication is exactly the same, written down.", "Estimating with round numbers (50 × 35) tells you the answer is near 1,750."],
+    mistakes: ["Forgetting the zero in 47 × 30.", "Adding partial products wrongly."],
+    tip: "Split, multiply, add.",
+  },
+  "D-04": {
+    blurb: "Multiply a three-digit number by one or two digits.",
+    learn: ["For 167 × 32, do 167 × 30 = 5,010 and 167 × 2 = 334, and add: 5,344.", "For a single digit, split the three-digit number into hundreds, tens and ones and multiply each."],
+    steps: ["Split the multiplier.", "Multiply by each part.", "Add the products.", "Estimate to check."],
+    understand: ["Every extra digit adds one more partial product. The method does not change; only the number of steps does.", "Rounding 167 to 170 and 32 to 30 gives 5,100, close to the true 5,344."],
+    mistakes: ["A wrong place for a partial product.", "Skipping the estimate."],
+    tip: "More digits means more partial products, not a new method.",
+  },
+  "D-05": {
+    blurb: "Divide four-digit numbers by a single digit exactly.",
+    learn: ["Divide one place at a time from the left, carrying any remainder to the next place. 6,965 ÷ 7: 69 ÷ 7 = 9 rem 6; 66 ÷ 7 = 9 rem 3; 35 ÷ 7 = 5. So 995.", "Say each step aloud so you keep your place."],
+    steps: ["Start with the first digit(s) the divisor goes into.", "Write the digit and carry the remainder.", "Bring down the next digit.", "Repeat until done."],
+    understand: ["This is chunking in a fixed order. The remainder carried is exactly what is left of the previous place.", "Check by multiplying the answer by the divisor."],
+    mistakes: ["Forgetting to carry the remainder.", "Dropping a zero in the quotient."],
+    tip: "Divide, carry the remainder, bring down.",
+  },
+  "D-06": {
+    blurb: "Divide by two-digit numbers.",
+    learn: ["Estimate with a round divisor, then adjust. 544 ÷ 17: 17 is near 20, 544 ÷ 20 is about 27, so try 32: 17 × 32 = 544.", "Build the answer from chunks: 17 × 30 = 510, left 34, which is 17 × 2."],
+    steps: ["Estimate with a round divisor.", "Take away the largest chunk you know.", "Divide what is left.", "Add the chunk answers; check by multiplying."],
+    understand: ["Chunking gives the same answer as long division but you choose friendly chunks.", "The estimate keeps you from wild guesses."],
+    mistakes: ["Choosing a chunk too big to subtract.", "Not adding the chunk answers."],
+    tip: "Chunk with friendly multiples of the divisor.",
+  },
+  "D-07": {
+    blurb: "Multiply and divide by 10, 100 and 1000, with decimals.",
+    learn: ["Multiplying by 10 moves every digit one place left; by 100, two places; by 1000, three. Dividing moves digits right. The digits themselves never change.", "4.7 × 100 = 470. 56 ÷ 1000 = 0.056."],
+    steps: ["Count the zeros in the power of ten.", "Move the digits that many places (left to multiply, right to divide).", "Fill gaps with zeros.", "Read the answer."],
+    understand: ["Each place is ten times the one to its right, so shifting one place is multiplying by ten.", "The decimal point is not moving: the digits are."],
+    mistakes: ["Moving the wrong direction.", "Adding zeros to decimals instead of shifting."],
+    tip: "Zeros count the places; multiply shifts left.",
+  },
+  "D-08": {
+    blurb: "Multiply numbers close to round numbers.",
+    learn: ["For 49 × 6, use 50 × 6 = 300 and subtract 1 × 6: 294. For 103 × 7, use 100 × 7 = 700 and add 3 × 7 = 21: 721.", "The gap from the round number is multiplied too."],
+    steps: ["Find the nearby round number.", "Multiply it.", "Multiply the gap by the same number.", "Add or subtract the gap product."],
+    understand: ["49 = 50 - 1, so 49 × 6 = 50 × 6 - 1 × 6. It is the distributive law again.", "The smaller the gap, the less there is to add or take away."],
+    mistakes: ["Forgetting to multiply the gap.", "Adding when you should subtract."],
+    tip: "Round, multiply, then fix the gap times the multiplier.",
+  },
+  "D-09": {
+    blurb: "Do mixed operations in the right order.",
+    learn: ["Brackets first, then multiplication and division from left to right, then addition and subtraction from left to right. 3 + 4 × 2 = 11, not 14.", "Work one operation at a time and rewrite the shorter expression."],
+    steps: ["Do brackets first.", "Then multiplication and division, left to right.", "Then addition and subtraction, left to right.", "Rewrite after each step."],
+    understand: ["The order is a convention everyone shares so that an expression has one meaning.", "Multiplication is repeated addition, which is why it binds tighter."],
+    mistakes: ["Working left to right regardless of operation.", "Doing addition inside brackets last."],
+    tip: "Brackets, then times and divide, then add and subtract.",
+  },
+};

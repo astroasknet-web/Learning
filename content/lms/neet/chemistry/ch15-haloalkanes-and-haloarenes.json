@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "chemistry",
+  "chapter": 15,
+  "title": "Haloalkanes and Haloarenes",
+  "slug": "haloalkanes-and-haloarenes",
+  "subtitle": "C–X bond chemistry: substitution, elimination, haloarenes and polyhalogen compounds for NEET",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "NEET Chemistry — Haloalkanes & Haloarenes: classification and preparation, nucleophilic substitution (SN1 vs SN2), elimination and Saytzeff's rule, the low reactivity of haloarenes, Grignard/Wurtz–Fittig reactions and polyhalogen compounds (CHCl3, CCl4, freons, DDT). NCERT notes, NEET traps & MCQs, free on GrowQR.",
+    "focus_keyword": "haloalkanes and haloarenes NEET",
+    "secondary_keywords": [
+      "SN1 SN2 mechanism NEET",
+      "haloarenes low reactivity NEET",
+      "Saytzeff rule NEET",
+      "Grignard reagent NEET",
+      "polyhalogen compounds NCERT"
+    ],
+    "keywords": [
+      "haloalkanes NEET",
+      "haloarenes NEET",
+      "SN1 SN2 NEET",
+      "Grignard reagent NEET",
+      "DDT freon NEET"
+    ]
+  },
+  "summary": "<ul><li><strong>Haloalkanes</strong> (R–X): the C–X bond is polar; carbon is $\\delta+$ and is attacked by nucleophiles. Classified as $1^\\circ, 2^\\circ, 3^\\circ$ (and allylic/benzylic/vinylic/aryl).</li><li><strong>Preparation:</strong> from alcohols ($\\text{HX}$, $\\text{PCl}_3$, $\\text{PCl}_5$, $\\text{SOCl}_2$ — best), free-radical halogenation, addition to alkenes, halide exchange (Finkelstein, Swarts).</li><li><strong>SN2:</strong> one step, second-order, backside attack $\\Rightarrow$ <em>inversion</em>; reactivity $1^\\circ \\gt 2^\\circ \\gt 3^\\circ$.</li><li><strong>SN1:</strong> two steps via carbocation, first-order $\\Rightarrow$ <em>racemisation</em>; reactivity $3^\\circ \\gt 2^\\circ \\gt 1^\\circ$.</li><li><strong>Elimination (E):</strong> $\\beta$-hydrogen removed to give an alkene; <strong>Saytzeff's rule</strong> — the more substituted alkene predominates.</li><li><strong>Haloarenes</strong> are very <em>unreactive</em> to nucleophilic substitution (resonance, partial double-bond C–X, $sp^2$ carbon, unstable phenyl cation). The halogen is o/p-directing but deactivating in EAS.</li><li><strong>Reactions with metals:</strong> Grignard ($\\text{RMgX}$), Wurtz (alkanes), Wurtz–Fittig (alkylbenzene), Fittig (biaryl).</li><li><strong>Polyhalogens:</strong> $\\text{CHCl}_3$ (oxidises to phosgene), $\\text{CCl}_4$, freons (CFCs) and DDT deplete ozone / bioaccumulate.</li></ul>",
+  "faqs": [
+    { "q": "What is the key difference between SN1 and SN2 reactions?", "a": "SN2 is a single-step, second-order reaction in which the nucleophile attacks the carbon from the side opposite the leaving group, causing inversion of configuration; it is fastest for primary halides. SN1 is a two-step, first-order reaction that goes through a flat carbocation, so the nucleophile can attack either face and the product is racemised; it is fastest for tertiary halides." },
+    { "q": "Why are haloarenes much less reactive than haloalkanes towards nucleophilic substitution?", "a": "In haloarenes the C–X bond has partial double-bond character due to resonance with the ring, the carbon is sp2 (so the bond is shorter and stronger), the ring's electron density repels the incoming nucleophile, and the phenyl cation that an SN1 path would need is very unstable. All four factors make substitution very difficult without drastic conditions." },
+    { "q": "What is Saytzeff's rule?", "a": "When a haloalkane undergoes dehydrohalogenation (elimination of HX), Saytzeff's rule says the major product is the more highly substituted, more stable alkene — formed by removing the hydrogen from the beta-carbon that has the fewer hydrogens." },
+    { "q": "What is a Grignard reagent and why must it be made in dry conditions?", "a": "A Grignard reagent is an alkyl- or aryl-magnesium halide (R–MgX), made by reacting a halide with magnesium in dry ether. It is extremely reactive and is destroyed instantly by even traces of water (giving an alkane), so all apparatus and reagents must be perfectly dry." },
+    { "q": "Why are compounds like DDT and freons (CFCs) an environmental concern?", "a": "Freons (chlorofluorocarbons) diffuse to the stratosphere where UV light releases chlorine radicals that destroy ozone, thinning the ozone layer. DDT is a very stable insecticide that is not biodegradable, so it persists and bio-accumulates up the food chain, harming birds and other wildlife — which is why its use is now banned or heavily restricted." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Haloalkanes: Structure, Preparation and Substitution",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Classification, Nomenclature and Preparation of Haloalkanes",
+          "concept": "<p>Haloalkanes (alkyl halides) are formed when one or more hydrogens of an aliphatic hydrocarbon are replaced by a halogen, giving the general formula $\\text{R–X}$ (where X = F, Cl, Br, I). The defining feature is the <strong>polar C–X bond</strong>: the halogen is more electronegative than carbon, so carbon carries a partial positive charge ($\\delta+$) and becomes the site that nucleophiles attack. This single idea drives almost all of the chapter's reactions, so it is worth fixing firmly in mind.</p><p>These compounds are <strong>classified</strong> in three useful ways. By the carbon bearing the halogen, they are <em>primary</em> ($1^\\circ$), <em>secondary</em> ($2^\\circ$) or <em>tertiary</em> ($3^\\circ$) — a distinction that decides which substitution mechanism dominates. By the type of carbon, they are <em>alkyl/benzylic/allylic</em> (X on an $sp^3$ carbon) or <em>vinylic/aryl</em> (X on an $sp^2$ carbon, which are far less reactive). And by the number of halogens, they are mono-, di- or polyhalogen compounds. NEET frequently asks you to label a structure as $1^\\circ$, $2^\\circ$ or $3^\\circ$.</p><p>The most important <strong>preparations</strong> are from alcohols, since alcohols are cheap and abundant. Alcohols react with concentrated halogen acids ($\\text{HX}$, often with a $\\text{ZnCl}_2$ catalyst — the basis of the Lucas test), with phosphorus halides ($\\text{PCl}_3$, $\\text{PCl}_5$, or red P + $\\text{Br}_2$/$\\text{I}_2$), and best of all with <strong>thionyl chloride</strong> ($\\text{SOCl}_2$), because the by-products ($\\text{SO}_2$ and $\\text{HCl}$) are gases that escape, leaving a pure alkyl chloride. Other routes are free-radical halogenation of alkanes (gives mixtures), and addition of $\\text{HX}$ or halogens to alkenes.</p><p>Two named <strong>halide-exchange</strong> reactions are NEET favourites. The <em>Finkelstein reaction</em> converts an alkyl chloride or bromide into the iodide using $\\text{NaI}$ in dry acetone (NaCl/NaBr precipitate out, driving the reaction). The <em>Swarts reaction</em> makes alkyl fluorides by heating an alkyl chloride/bromide with a metal fluoride such as $\\text{AgF}$ or $\\text{Hg}_2\\text{F}_2$. Physically, haloalkanes are denser than water, are insoluble in water but soluble in organic solvents, and their boiling points rise with molecular size (R–I $\\gt$ R–Br $\\gt$ R–Cl $\\gt$ R–F for the same R) and fall with branching.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Reagent on an alcohol</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Product / note</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{SOCl}_2$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>R–Cl (purest: $\\text{SO}_2$+HCl escape)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{PCl}_3 / \\text{PCl}_5$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>R–Cl</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{NaI}$, dry acetone</td><td style='border:1px solid #dcfce7;padding:6px 10px'>R–I (Finkelstein)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{AgF}$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>R–F (Swarts)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Which reagent converts ethanol to chloroethane in the purest form, and why?</p>",
+              "solution": "<p><strong>Thionyl chloride, $\\text{SOCl}_2$.</strong> Its by-products $\\text{SO}_2$ and $\\text{HCl}$ are both gases that escape from the mixture, so the chloroethane is left uncontaminated.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Name the reaction and reagent used to make iodoethane from bromoethane.</p>",
+              "solution": "<p>The <strong>Finkelstein reaction</strong>: bromoethane is heated with $\\text{NaI}$ in dry acetone. NaBr precipitates (it is insoluble in acetone), pulling the equilibrium towards iodoethane.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>In a C–X bond, the carbon atom carries a:</p>", "options": ["partial negative charge", "partial positive charge", "full negative charge", "no charge"], "correct": 1, "explanation": "X is more electronegative, so carbon is $\\delta+$ and is attacked by nucleophiles." },
+            { "q": "<p>$(\\text{CH}_3)_3\\text{C–Br}$ is a:</p>", "options": ["primary halide", "secondary halide", "tertiary halide", "vinylic halide"], "correct": 2, "explanation": "The C–Br carbon is bonded to three other carbons: tertiary." },
+            { "q": "<p>The purest alkyl chloride from an alcohol is obtained using:</p>", "options": ["$\\text{HCl}$", "$\\text{PCl}_5$", "$\\text{SOCl}_2$", "$\\text{Cl}_2$"], "correct": 2, "explanation": "$\\text{SOCl}_2$: gaseous by-products leave a pure product." },
+            { "q": "<p>The Finkelstein reaction uses:</p>", "options": ["$\\text{NaI}$ in dry acetone", "$\\text{AgF}$", "$\\text{NaOH}$", "$\\text{Zn}$"], "correct": 0, "explanation": "Cl/Br halide + NaI/acetone gives the iodide." },
+            { "q": "<p>For the same alkyl group, the highest boiling point is for:</p>", "options": ["R–F", "R–Cl", "R–Br", "R–I"], "correct": 3, "explanation": "Larger, more polarisable halogen: R–I boils highest." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> $\\text{SOCl}_2$ = purest R–Cl; Finkelstein = R–I (NaI/acetone); Swarts = R–F (AgF). Be able to label $1^\\circ$/$2^\\circ$/$3^\\circ$ instantly — it decides SN1 vs SN2.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Nucleophilic Substitution (SN1, SN2) and Elimination",
+          "concept": "<p>Because the carbon of a C–X bond is electron-poor, the signature reaction of haloalkanes is <strong>nucleophilic substitution</strong>: a nucleophile (an electron-rich species such as $\\text{OH}^-$, $\\text{CN}^-$, $\\text{NH}_3$) replaces the halide, which leaves as $\\text{X}^-$. Two distinct mechanisms operate, and telling them apart is one of the most heavily tested NEET skills.</p><p>The <strong>SN2</strong> mechanism (substitution, nucleophilic, bimolecular) happens in a <em>single step</em>: the nucleophile attacks the carbon from the side opposite the leaving group while the halide departs, passing through a five-coordinate transition state. Its rate depends on both the halide and the nucleophile (<em>second order</em>), and because attack is from the back, the configuration is turned inside-out — <strong>inversion</strong> (the Walden inversion). Steric crowding slows it down, so the reactivity order is $1^\\circ \\gt 2^\\circ \\gt 3^\\circ$ (methyl fastest). Strong nucleophiles and polar aprotic solvents favour SN2.</p><p>The <strong>SN1</strong> mechanism (substitution, nucleophilic, unimolecular) happens in <em>two steps</em>: first the C–X bond breaks to give a flat <strong>carbocation</strong> (the slow, rate-determining step), then the nucleophile adds to it. The rate depends only on the halide (<em>first order</em>). Because the carbocation is planar, the nucleophile can attack either face, giving a mixture of both configurations — <strong>racemisation</strong>. Stability of the carbocation controls the rate, so the order is reversed: $3^\\circ \\gt 2^\\circ \\gt 1^\\circ$. Tertiary halides and polar protic solvents (which stabilise the carbocation) favour SN1.</p><p>Competing with substitution is <strong>elimination</strong> ($\\beta$-elimination, or dehydrohalogenation): a strong base removes a hydrogen from the carbon next to the C–X carbon (the $\\beta$-carbon) while the halide leaves, forming a C=C double bond (an alkene). When more than one alkene can form, <strong>Saytzeff's rule</strong> applies — the major product is the more substituted, more stable alkene. Substitution and elimination always compete; strong, bulky bases, higher temperature and tertiary halides push the reaction towards elimination, while good nucleophiles in mild conditions favour substitution. A linked idea NEET often probes is <em>optical isomerism</em>: a carbon with four different groups is chiral, and SN2's inversion versus SN1's racemisation is a direct test of the mechanism.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Feature</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>SN2</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>SN1</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Steps / kinetics</td><td style='border:1px solid #dcfce7;padding:6px 10px'>1 step, 2nd order</td><td style='border:1px solid #dcfce7;padding:6px 10px'>2 steps, 1st order</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Stereochemistry</td><td style='border:1px solid #dcfce7;padding:6px 10px'>inversion</td><td style='border:1px solid #dcfce7;padding:6px 10px'>racemisation</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Reactivity order</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$1^\\circ \\gt 2^\\circ \\gt 3^\\circ$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$3^\\circ \\gt 2^\\circ \\gt 1^\\circ$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Favoured by</td><td style='border:1px solid #dcfce7;padding:6px 10px'>strong nucleophile, aprotic solvent</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$3^\\circ$ halide, polar protic solvent</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Hydrolysis of 2-bromo-2-methylpropane (tert-butyl bromide) is first order. Which mechanism operates and what is the stereochemical outcome?</p>",
+              "solution": "<p>It is <strong>SN1</strong> (first order, tertiary halide). It proceeds through a stable tertiary carbocation, and because that carbocation is planar the product is <strong>racemised</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>When 2-bromobutane undergoes elimination, name the major alkene and the rule used.</p>",
+              "solution": "<p>By <strong>Saytzeff's rule</strong> the major product is the more substituted alkene, <strong>but-2-ene</strong> (rather than but-1-ene), because it is more stable.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>An SN2 reaction proceeds with:</p>", "options": ["retention", "inversion of configuration", "racemisation", "no stereochange"], "correct": 1, "explanation": "Backside attack causes Walden inversion." },
+            { "q": "<p>The reactivity order in SN1 reactions is:</p>", "options": ["$1^\\circ \\gt 2^\\circ \\gt 3^\\circ$", "$3^\\circ \\gt 2^\\circ \\gt 1^\\circ$", "all equal", "$2^\\circ \\gt 1^\\circ \\gt 3^\\circ$"], "correct": 1, "explanation": "Carbocation stability: tertiary fastest." },
+            { "q": "<p>SN1 reactions give a racemic mixture because the intermediate is a:</p>", "options": ["planar carbocation", "tetrahedral carbanion", "free radical", "transition state"], "correct": 0, "explanation": "A flat carbocation is attacked from both faces." },
+            { "q": "<p>Saytzeff's rule predicts the major alkene is the:</p>", "options": ["least substituted", "most substituted", "least stable", "terminal one"], "correct": 1, "explanation": "More substituted = more stable = major product." },
+            { "q": "<p>SN2 reactions are fastest for:</p>", "options": ["tertiary halides", "secondary halides", "primary/methyl halides", "aryl halides"], "correct": 2, "explanation": "Least steric hindrance: $1^\\circ$ fastest." }
+          ],
+          "note": "<p><strong>NEET trap:</strong> SN2 = 1 step, 2nd order, <em>inversion</em>, $1^\\circ$ fastest. SN1 = 2 steps, 1st order, <em>racemisation</em>, $3^\\circ$ fastest. Strong bulky base + heat $\\Rightarrow$ elimination (Saytzeff).</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Haloarenes and Polyhalogen Compounds",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Haloarenes: Preparation and Low Reactivity",
+          "concept": "<p>Haloarenes are aromatic compounds in which a halogen is bonded directly to the carbon of a benzene ring (for example chlorobenzene). Although they look similar to haloalkanes, their chemistry is strikingly different: they are <strong>extremely unreactive towards nucleophilic substitution</strong>. Explaining <em>why</em> is one of the most reliable NEET questions in this chapter.</p><p>There are four reasons. First, <strong>resonance</strong>: the lone pairs on the halogen delocalise into the ring, giving the C–X bond partial double-bond character, so it is shorter, stronger and harder to break. Second, the ring carbon is $sp^2$ hybridised (more s-character) so it holds the bonding electrons closer, again strengthening the bond. Third, the electron-rich ring <em>repels</em> the approaching nucleophile. Fourth, an SN1 route would require a phenyl cation, which is highly unstable. Together these make ordinary substitution almost impossible.</p><p>Haloarenes are <strong>prepared</strong> by electrophilic halogenation of arenes (benzene + $\\text{Cl}_2$/$\\text{Br}_2$ with a Lewis-acid catalyst such as $\\text{FeCl}_3$ or $\\text{FeBr}_3$), and from <strong>diazonium salts</strong> — a versatile route in which an aromatic amine is diazotised and the $-\\text{N}_2^+$ group is replaced by a halogen. The <em>Sandmeyer</em> and <em>Gattermann</em> reactions introduce Cl or Br (using $\\text{CuX}$ or Cu/HX), while the <em>Balz–Schiemann</em> reaction is used for fluorine.</p><p>Their reactions therefore fall into two groups. <strong>Nucleophilic aromatic substitution</strong> happens only under <em>drastic conditions</em> — for example chlorobenzene with $\\text{NaOH}$ at about 623 K and 300 atm gives phenol (the Dow process) — and is greatly eased if strong electron-withdrawing groups (such as $-\\text{NO}_2$) sit at the ortho/para positions, because they stabilise the negative intermediate. <strong>Electrophilic substitution</strong> on the ring still occurs (nitration, halogenation, Friedel–Crafts); here the halogen behaves as an <em>ortho/para-directing but deactivating</em> group — directing through resonance yet slowing the ring through its electron-withdrawing inductive effect. This split personality of the halogen is a classic NEET point that links back to the directing-effects topic.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Why haloarenes are unreactive</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Resonance $\\Rightarrow$ partial double-bond C–X (stronger, shorter)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$sp^2$ carbon holds electrons tightly</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Electron-rich ring repels nucleophile</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Phenyl cation (SN1 route) is unstable</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Give two reasons why chlorobenzene is far less reactive than chloroethane towards $\\text{OH}^-$.</p>",
+              "solution": "<p>(1) In chlorobenzene the C–Cl bond has partial double-bond character from resonance, so it is stronger and shorter; (2) the carbon is $sp^2$ and the electron-rich ring repels the nucleophile. (Either of: unstable phenyl cation also counts.)</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>How does a $-\\text{NO}_2$ group at the para position change the reactivity of chlorobenzene towards nucleophiles?</p>",
+              "solution": "<p>It greatly <strong>increases</strong> nucleophilic substitution. The strongly electron-withdrawing $-\\text{NO}_2$ at the ortho/para position stabilises the negative charge in the intermediate, so substitution becomes possible under much milder conditions.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Compared with haloalkanes, haloarenes are towards nucleophilic substitution:</p>", "options": ["more reactive", "much less reactive", "equally reactive", "explosive"], "correct": 1, "explanation": "Resonance + $sp^2$ carbon + ring repulsion make them very unreactive." },
+            { "q": "<p>The C–Cl bond in chlorobenzene has partial double-bond character due to:</p>", "options": ["hyperconjugation", "resonance with the ring", "hydrogen bonding", "inductive effect only"], "correct": 1, "explanation": "Halogen lone pairs delocalise into the ring." },
+            { "q": "<p>Chlorobenzene + NaOH gives phenol only under:</p>", "options": ["room temperature", "drastic conditions (623 K, 300 atm)", "cold dilute conditions", "no conditions"], "correct": 1, "explanation": "Dow process needs high temperature and pressure." },
+            { "q": "<p>The Sandmeyer reaction converts a diazonium salt into a:</p>", "options": ["phenol", "haloarene", "nitroarene", "amine"], "correct": 1, "explanation": "$-\\text{N}_2^+$ replaced by Cl/Br with $\\text{CuX}$." },
+            { "q": "<p>In electrophilic substitution, a ring halogen is:</p>", "options": ["o/p-directing, activating", "o/p-directing, deactivating", "meta-directing, activating", "meta-directing, deactivating"], "correct": 1, "explanation": "Halogens direct o/p but deactivate the ring." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> learn the 4 reasons haloarenes resist substitution (resonance, $sp^2$ C, ring repulsion, unstable phenyl cation). $-\\text{NO}_2$ at o/p switches on nucleophilic substitution. Ring halogen = o/p-directing but deactivating.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Reactions with Metals and Important Polyhalogen Compounds",
+          "concept": "<p>Haloalkanes react with several <strong>metals</strong> to make important reagents. The most useful is the <strong>Grignard reagent</strong>, $\\text{R–MgX}$, formed when a halide reacts with magnesium turnings in dry ether. The Mg–C bond is highly polar with carbon $\\delta-$, so the reagent behaves like a carbanion and is extremely reactive — it adds to carbonyl compounds and $\\text{CO}_2$ to build larger molecules, which makes it a key tool in organic synthesis. Crucially, even traces of <strong>water</strong> (or any compound with an acidic H) destroy it, simply giving back the alkane; this is why everything must be scrupulously dry.</p><p>Other metal reactions extend the carbon skeleton. The <strong>Wurtz reaction</strong> couples two alkyl halides with sodium in dry ether to give a symmetrical alkane. Its aromatic relatives are the <strong>Wurtz–Fittig reaction</strong> (an alkyl halide + an aryl halide + Na, giving an alkyl-substituted benzene) and the <strong>Fittig reaction</strong> (two aryl halides + Na, giving a biaryl such as biphenyl). NEET often gives the reagents and asks for the product, or vice versa.</p><p><strong>Polyhalogen compounds</strong> — molecules with more than one halogen — appear repeatedly in NEET because of their uses and environmental impact. <em>Dichloromethane</em> ($\\text{CH}_2\\text{Cl}_2$) is a common solvent and paint remover. <em>Chloroform</em> ($\\text{CHCl}_3$) was an early anaesthetic; it is slowly oxidised by air and light to the poisonous gas <strong>phosgene</strong> ($\\text{COCl}_2$), so it is stored in dark, completely filled bottles with a little ethanol added to destroy any phosgene. <em>Carbon tetrachloride</em> ($\\text{CCl}_4$) was used as a fire extinguisher (pyrene) and solvent, but it harms the liver and depletes ozone. <em>Iodoform</em> ($\\text{CHI}_3$) was used as an antiseptic (its action is due to the iodine it liberates).</p><p>Two classes carry the heaviest environmental warnings. <strong>Freons</strong> (chlorofluorocarbons, CFCs, e.g. Freon-12, $\\text{CCl}_2\\text{F}_2$) were ideal refrigerants and aerosol propellants, but in the stratosphere UV light releases chlorine radicals that catalytically destroy <strong>ozone</strong>, thinning the protective ozone layer — so they are being phased out. <strong>DDT</strong> (p,p'-dichlorodiphenyltrichloroethane), the first major synthetic insecticide, is chemically very stable and therefore <em>not biodegradable</em>; it persists in the environment and <strong>bio-accumulates</strong> up food chains, harming birds and fish, which is why its use is now banned or tightly restricted in most countries. These real-world links make the topic high-yield and easy to remember.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Compound</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Use / hazard</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{CHCl}_3$ (chloroform)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>solvent; oxidises to phosgene $\\text{COCl}_2$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{CCl}_4$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>fire extinguisher; ozone-depleting</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Freons (CFCs)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>refrigerants; destroy ozone layer</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>DDT</td><td style='border:1px solid #dcfce7;padding:6px 10px'>insecticide; non-biodegradable, bio-accumulates</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why is chloroform stored in dark, completely filled bottles, often with a little ethanol?</p>",
+              "solution": "<p>In air and light, chloroform is slowly oxidised to poisonous <strong>phosgene</strong> ($\\text{COCl}_2$). Dark, full bottles exclude light and air, and the added ethanol converts any phosgene formed into harmless diethyl carbonate.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Name the reaction: chlorobenzene + chloromethane + Na (dry ether) $\\rightarrow$ toluene.</p>",
+              "solution": "<p>The <strong>Wurtz–Fittig reaction</strong> — an aryl halide and an alkyl halide couple with sodium to give an alkyl-substituted benzene (toluene).</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>A Grignard reagent has the formula:</p>", "options": ["R–Na", "R–MgX", "R–Li only", "R–X"], "correct": 1, "explanation": "Alkyl/aryl magnesium halide, R–MgX." },
+            { "q": "<p>A Grignard reagent reacts violently with:</p>", "options": ["dry ether", "water", "magnesium", "nitrogen"], "correct": 1, "explanation": "Water destroys it, giving the alkane — keep it dry." },
+            { "q": "<p>Two aryl halides + Na give a biaryl by the:</p>", "options": ["Wurtz reaction", "Fittig reaction", "Sandmeyer reaction", "Swarts reaction"], "correct": 1, "explanation": "Fittig reaction couples two aryl halides." },
+            { "q": "<p>Chloroform on oxidation in air/light forms the poisonous gas:</p>", "options": ["$\\text{CO}_2$", "phosgene $\\text{COCl}_2$", "$\\text{Cl}_2$", "$\\text{HCl}$"], "correct": 1, "explanation": "Slow aerial oxidation gives phosgene." },
+            { "q": "<p>DDT is an environmental hazard mainly because it is:</p>", "options": ["very volatile", "non-biodegradable and bio-accumulates", "explosive", "water-soluble"], "correct": 1, "explanation": "It is stable, persists and concentrates up food chains." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Grignard $\\text{R–MgX}$ (dry only!); Wurtz (alkane), Wurtz–Fittig (alkylbenzene), Fittig (biaryl). $\\text{CHCl}_3 \\rightarrow$ phosgene; CFCs & $\\text{CCl}_4$ deplete ozone; DDT non-biodegradable.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-chemistry-ch15-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct & Statement-based)",
+          "questions": [
+            { "q": "<p>The reagent that gives the purest alkyl chloride from an alcohol is:</p>", "options": ["$\\text{HCl}$/$\\text{ZnCl}_2$", "$\\text{PCl}_5$", "$\\text{SOCl}_2$", "$\\text{Cl}_2$"], "correct": 2, "explanation": "$\\text{SOCl}_2$: gaseous by-products escape." },
+            { "q": "<p>An SN2 reaction is fastest for a:</p>", "options": ["tertiary halide", "secondary halide", "primary/methyl halide", "aryl halide"], "correct": 2, "explanation": "Least steric hindrance favours backside attack." },
+            { "q": "<p>The stereochemical result of an SN1 reaction at a chiral carbon is:</p>", "options": ["complete inversion", "complete retention", "racemisation", "no reaction"], "correct": 2, "explanation": "Planar carbocation is attacked from both faces." },
+            { "q": "<p>Statements: (I) Haloarenes resist nucleophilic substitution. (II) The C–X bond in haloarenes has partial double-bond character. Which is/are correct?</p>", "options": ["only I", "only II", "both I and II", "neither"], "correct": 2, "explanation": "Both correct; (II) is a reason for (I)." },
+            { "q": "<p>The Finkelstein reaction is used to prepare an alkyl:</p>", "options": ["fluoride", "chloride", "iodide", "alcohol"], "correct": 2, "explanation": "NaI/dry acetone gives the iodide." },
+            { "q": "<p>The major product of dehydrohalogenation follows:</p>", "options": ["Markovnikov's rule", "Saytzeff's rule", "Hückel's rule", "Aufbau rule"], "correct": 1, "explanation": "Saytzeff: more substituted, more stable alkene." },
+            { "q": "<p>A Grignard reagent is destroyed by:</p>", "options": ["dry ether", "traces of water", "magnesium", "argon"], "correct": 1, "explanation": "Water gives the alkane; keep everything dry." },
+            { "q": "<p>Which compound depletes the ozone layer?</p>", "options": ["$\\text{CH}_4$", "Freon (CFC)", "$\\text{CO}_2$", "$\\text{NaCl}$"], "correct": 1, "explanation": "CFCs release Cl radicals that destroy ozone." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> SN2 reactions proceed with inversion of configuration.<br><strong>R:</strong> The nucleophile attacks the carbon from the side opposite the leaving group.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Backside (opposite-side) attack is exactly why inversion occurs — R explains A." },
+            { "q": "<p><strong>A:</strong> Chlorobenzene is less reactive than chloroethane towards nucleophiles.<br><strong>R:</strong> The C–Cl bond in chlorobenzene has partial double-bond character due to resonance.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Resonance strengthens the C–Cl bond, lowering reactivity — R explains A." },
+            { "q": "<p><strong>A:</strong> Tertiary halides react predominantly by the SN1 mechanism.<br><strong>R:</strong> Tertiary carbocations are more stable than primary ones.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Greater carbocation stability speeds the rate-determining ionisation — R explains A." },
+            { "q": "<p><strong>A:</strong> Chloroform is stored in dark coloured bottles filled to the brim.<br><strong>R:</strong> Chloroform is highly flammable and explodes in light.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 2, "explanation": "A is true, but the real reason is aerial oxidation to phosgene, not flammability — so R is false." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

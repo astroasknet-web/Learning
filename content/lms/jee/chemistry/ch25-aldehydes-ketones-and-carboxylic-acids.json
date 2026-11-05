@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": 25,
+  "title": "Aldehydes, Ketones and Carboxylic Acids",
+  "slug": "aldehydes-ketones-and-carboxylic-acids",
+  "subtitle": "Aldehydes, Ketones and Carboxylic Acids for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#f97316",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "Master Aldehydes, Ketones and Carboxylic Acids for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Aldehydes and Ketones",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Nomenclature, Preparation, and Nucleophilic Addition",
+          "concept": "<p><strong>Carbonyl Group:</strong> $>C=O$. Polar; C has partial $+$ charge (δ+), O has partial $-$ (δ−).</p><p><strong>Aldehydes:</strong> $R-CHO$ (or $H-CHO$). C=O at end of chain. Always 1° to other atoms (one H attached to carbonyl C).</p><p><strong>Ketones:</strong> $R-CO-R'$. C=O in middle of chain.</p><p><strong>Nomenclature:</strong></p><table class=\"md-table\"><thead><tr><th>Structure</th><th>Common Name</th><th>IUPAC Name</th></tr></thead><tbody><tr><td>$HCHO$</td><td>Formaldehyde</td><td>Methanal</td></tr><tr><td>$CH_3CHO$</td><td>Acetaldehyde</td><td>Ethanal</td></tr><tr><td>$CH_3CH_2CHO$</td><td>Propionaldehyde</td><td>Propanal</td></tr><tr><td>$C_6H_5CHO$</td><td>Benzaldehyde</td><td>Phenylmethanal</td></tr><tr><td>$CH_3COCH_3$</td><td>Acetone</td><td>Propan-2-one</td></tr><tr><td>$CH_3CH_2COCH_3$</td><td>Methyl ethyl ketone</td><td>Butan-2-one</td></tr></tbody></table><p><strong>Preparation of Aldehydes:</strong></p><p><strong>1. From Alcohols (Mild Oxidation):</strong></p><ul><li>$RCH_2OH \\xrightarrow{[O], mild} RCHO$ (stop at aldehyde)</li><li>Reagents: PCC (pyridinium chlorochromate), $MnO_2$ (for allylic alcohols), Cu/$573$K</li></ul><p><strong>2. From Acid Chlorides (Rosenmund Reduction):</strong> $RCOCl + H_2 \\xrightarrow{Pd/BaSO_4, S} RCHO + HCl$</p><ul><li>$BaSO_4$ poison prevents further reduction to alcohol</li></ul><p><strong>3. Stephen Reaction:</strong> $RCN + SnCl_2 + HCl \\to RCH=NH \\xrightarrow{H_2O} RCHO$ (nitrile → imine → aldehyde)</p><p><strong>4. From Carboxylic Acids (DIBAL-H):</strong> $RCOOH \\xrightarrow{DIBAL-H, -78°C} RCHO + Al(OH)_3$ (controlled reduction)</p><p><strong>5. Ozonolysis of Alkenes (Reductive):</strong> $RCH=CHR' + O_3 \\xrightarrow{H_2O, Zn} RCHO + R'CHO$</p><p><strong>Preparation of Ketones:</strong></p><p><strong>1. From Alcohols ($2°$):</strong> $R_2CHOH \\xrightarrow{[O]} R_2CO$ (various oxidants)</p><p><strong>2. From Acid Chlorides (Friedel-Crafts Acylation):</strong> $ArH + RCOCl \\xrightarrow{AlCl_3} Ar-CO-R + HCl$ (aryl ketones)</p><p><strong>3. From Nitriles (Grignard Addition):</strong> $RCN + R'MgX \\to R(R')C=N-MgX \\xrightarrow{H_3O^+} RC(O)R'$</p><p><strong>4. From Acid Chlorides + Organocopper (Gilman):</strong> $RCOCl + R'_2CuLi \\to RC(O)R' + R'Cu + LiCl$</p><p><strong>Nucleophilic Addition (typical of C=O):</strong></p><p>C=O has $sp^2$ C with δ+; Nu attacks C; lone pair on O accepts charge.</p><p><strong>Mechanism:</strong> $Nu^- + C=O \\to Nu-C-O^- \\xrightarrow{H^+} Nu-C-OH$</p><p><strong>Reactivity:</strong> Aldehydes > Ketones in nucleophilic addition.</p><ul><li><strong>Steric:</strong> Aldehydes have H (small); ketones have 2 R groups (bulky)</li><li><strong>Electronic:</strong> Two alkyl groups on ketone donate more e⁻, reducing $\\delta^+$ on C</li></ul><p><strong>Important Nucleophilic Additions:</strong></p><p><strong>1. HCN Addition (gives cyanohydrins):</strong> $R_2C=O + HCN \\to R_2C(OH)(CN)$ (cyanohydrin)</p><ul><li>Catalyzed by base; OH⁻ generates CN⁻</li><li>Useful for chain extension</li></ul><p><strong>2. NaHSO₃ Addition (gives bisulfite adduct):</strong> $R-CHO + NaHSO_3 \\to RCH(OH)(SO_3Na)$ (white crystalline ppt)</p><ul><li>Test for aldehydes; reversible (acid releases CHO back)</li></ul><p><strong>3. Alcohol Addition (gives acetal/ketal):</strong> $RCHO + R'OH \\xrightarrow{H^+} RCH(OR')_2 + H_2O$ (acetal — protective group)</p><ul><li>Catalyst: H⁺; remove water to push equilibrium right</li></ul><p><strong>4. NH₃ and Derivatives (Imines, Schiff bases, Hydrazones):</strong></p><ul><li>$R_2C=O + R'NH_2 \\to R_2C=NR' + H_2O$ (imine/Schiff base)</li><li>With NH₂OH (hydroxylamine): R₂C=N-OH (oxime)</li><li>With NH₂NH₂ (hydrazine): R₂C=N-NH₂ (hydrazone)</li><li>With 2,4-DNP-hydrazine: gives yellow ppt — <strong>test for carbonyl group</strong></li><li>With semicarbazide ($NH_2NHCONH_2$): semicarbazone</li></ul><p><strong>5. Grignard Reagents (forms alcohols):</strong></p><ul><li>HCHO + RMgX → $RCH_2OH$ (1°)</li><li>$R'CHO + RMgX \\to RR'CHOH$ (2°)</li><li>$R'COR'' + RMgX \\to RR'R''COH$ (3°)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why are aldehydes more reactive than ketones toward nucleophilic addition?</p>",
+              "solution": "<ol><li><strong>Steric:</strong> Aldehydes have $H$ on C=O; ketones have 2 R groups. Less hindrance in aldehyde → easier Nu attack.</li><li><strong>Electronic:</strong> Two alkyl groups (R) on ketone donate electrons (+I); reduce δ+ on C; lessens its electrophilicity.</li></ol><p>Order: HCHO > $RCHO > R_2CO$.</p><p><strong>Final Answer:</strong> Less steric hindrance + less electron donation → aldehydes more reactive.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Predict products: (a) $CH_3CHO + HCN \\to$? (b) $CH_3CHO + 2,4$-DNP $\\to$?</p>",
+              "solution": "<p>(a) Cyanohydrin: $CH_3CHO + HCN \\to CH_3CH(OH)CN$ (acetaldehyde cyanohydrin). (b) 2,4-DNP forms yellow ppt: $CH_3CH=N-NH-C_6H_3(NO_2)_2$ (2,4-DNP hydrazone — test for aldehyde/ketone).</p><p><strong>Final Answer:</strong> (a) Acetaldehyde cyanohydrin; (b) 2,4-DNP hydrazone of acetaldehyde.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Aldehyde vs ketone in addition:</p>",
+              "options": [
+                "Aldehyde more reactive",
+                "Ketone more reactive",
+                "Equal",
+                "None reactive"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Rosenmund reduction converts:</p>",
+              "options": [
+                "Acid chloride to aldehyde",
+                "Acid to alcohol",
+                "Alkene to alkane",
+                "Ester to acid"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Cyanohydrin is formed by:</p>",
+              "options": [
+                "HCN + carbonyl",
+                "HCl + carbonyl",
+                "RCN + acid",
+                "Acid + alcohol"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>2,4-DNP test confirms:</p>",
+              "options": [
+                "Alcohol",
+                "Phenol",
+                "Carbonyl group (aldehyde/ketone)",
+                "Acid"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Stephen reaction:</p>",
+              "options": [
+                "Nitrile to aldehyde",
+                "Aldehyde to acid",
+                "Alcohol to aldehyde",
+                "Alkene to ketone"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Named Reactions and Tests",
+          "concept": "<p><strong>Important Named Reactions:</strong></p><p><strong>1. Aldol Condensation:</strong> Aldehyde/ketone with $\\alpha$-H + dilute NaOH/heat → <strong>$\\beta$-hydroxy carbonyl</strong> (aldol) → dehydrates to $\\alpha,\\beta$-unsaturated carbonyl.</p><p>$2CH_3CHO \\xrightarrow{NaOH, dil} CH_3CH(OH)CH_2CHO \\xrightarrow{\\Delta, -H_2O} CH_3CH=CHCHO$ (crotonaldehyde)</p><p>For ketones: $2CH_3COCH_3 \\xrightarrow{Ba(OH)_2} CH_3C(OH)(CH_3)CH_2COCH_3 \\to CH_3C(=CH_2)CH_2COCH_3$</p><p><strong>Mechanism:</strong></p><ul><li>Base removes $\\alpha$-H → enolate ion (nucleophile)</li><li>Enolate attacks another carbonyl C → aldol product</li><li>Heated → dehydrates to $\\alpha,\\beta$-unsaturated.</li></ul><p><strong>Crossed Aldol:</strong> Between two different aldehydes/ketones.</p><p><strong>2. Cannizzaro Reaction:</strong> Aldehyde <strong>without $\\alpha$-H</strong> + conc. NaOH → disproportionation:</p><ul><li>One molecule oxidized (→ acid)</li><li>One molecule reduced (→ alcohol)</li></ul><p>$2HCHO \\xrightarrow{conc. NaOH} HCOONa + CH_3OH$ $2C_6H_5CHO \\xrightarrow{conc. NaOH} C_6H_5COONa + C_6H_5CH_2OH$</p><p><strong>Crossed Cannizzaro:</strong> With HCHO + non-$\\alpha$-H aldehyde → HCHO reduced to $CH_3OH$, other one oxidized to acid.</p><p><strong>3. Clemmensen Reduction:</strong> Reduces C=O of aldehyde/ketone to CH₂ (removes carbonyl). $R_2CO + Zn(Hg) + HCl \\to R_2CH_2 + H_2O$</p><ul><li>Acidic conditions; not for compounds with acid-sensitive groups.</li></ul><p><strong>4. Wolff-Kishner Reduction:</strong> Reduces C=O to CH₂. $R_2CO + NH_2NH_2 + KOH(alc) \\to R_2CH_2 + N_2 + H_2O$</p><ul><li>Basic conditions; alternative to Clemmensen.</li></ul><p><strong>5. Tollens' Test (Silver Mirror):</strong> For aldehydes. $RCHO + 2[Ag(NH_3)_2]^+ + 3OH^- \\to RCOO^- + 2Ag \\downarrow + 4NH_3 + 2H_2O$</p><ul><li>Silver mirror coats the tube — positive for aldehydes; ketones don't react.</li></ul><p><strong>6. Fehling's Test:</strong> For aldehydes. $RCHO + 2Cu^{2+} + 5OH^- \\to RCOO^- + Cu_2O \\downarrow (red) + 3H_2O$</p><ul><li>Red ppt of $Cu_2O$ — positive for aldehydes; aromatic aldehydes don't give Fehling.</li><li>Tollens works for both aliphatic and aromatic aldehydes; Fehling only aliphatic.</li></ul><p><strong>7. Benedict's Test:</strong> Similar to Fehling; uses $Cu^{2+}$ with sodium citrate complex.</p><p><strong>8. Iodoform Test:</strong> For methyl ketones ($CH_3CO-$) and methylcarbinols ($CH_3CH(OH)-$): $CH_3COCH_3 + 3I_2 + 4NaOH \\to CHI_3 \\downarrow (yellow) + CH_3COONa + 3NaI + 3H_2O$</p><ul><li>Positive: acetone, acetaldehyde, ethanol, 2-propanol, methyl ketones.</li><li>Negative: formaldehyde, methanol, propanone analogues without methyl.</li></ul><p><strong>9. Oxidation:</strong></p><ul><li>$RCHO \\to RCOOH$ (easy, by many oxidants)</li><li>Ketones: only with strong oxidants and cleavage of C-C bonds (Baeyer-Villiger gives ester; Popoff's rule)</li></ul><p><strong>10. Reduction:</strong></p><ul><li>LiAlH₄ or NaBH₄ → alcohols (1° from RCHO, 2° from $R_2$CO)</li><li>Catalytic hydrogenation (Ni, Pt) → alcohols</li><li>Clemmensen/Wolff-Kishner → CH₂ (remove carbonyl)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Compare Tollens' and Fehling's tests for aldehydes.</p>",
+              "solution": "<table class=\"md-table\"><thead><tr><th>Property</th><th>Tollens'</th><th>Fehling's</th></tr></thead><tbody><tr><td>Reagent</td><td>$Ag(NH_3)_2^+$ in NH₃ solution</td><td>$Cu^{2+}$ + tartrate in alkali</td></tr><tr><td>Positive for</td><td>All aldehydes (aliphatic and aromatic)</td><td>Aliphatic aldehydes only</td></tr><tr><td>Result</td><td>Silver mirror</td><td>Red ppt ($Cu_2O$)</td></tr><tr><td>Ketones</td><td>Negative</td><td>Negative</td></tr></tbody></table><p><strong>Final Answer:</strong> Both distinguish RCHO from R₂CO; only Tollens works for aromatic aldehydes.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why does HCHO undergo Cannizzaro but acetaldehyde undergoes aldol with NaOH?</p>",
+              "solution": "<p><strong>Cannizzaro</strong> requires no $\\alpha$-H.</p><ul><li>HCHO has no $\\alpha$-H (only one C); cannot form enolate; undergoes Cannizzaro disproportionation.</li><li>Acetaldehyde has $\\alpha$-H ($CH_3$ next to CHO); base abstracts H → enolate → attacks another aldehyde → aldol.</li></ul><p><strong>Final Answer:</strong> Presence/absence of $\\alpha$-H determines Cannizzaro vs Aldol.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Tollens test gives:</p>",
+              "options": [
+                "Yellow ppt",
+                "Silver mirror",
+                "Red ppt",
+                "Black solid"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Cannizzaro reaction requires:</p>",
+              "options": [
+                "$\\alpha$-H present",
+                "No $\\alpha$-H + conc. NaOH",
+                "Acid catalyst",
+                "Free radical"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Iodoform from acetone:</p>",
+              "options": [
+                "$CHI_3$ yellow ppt",
+                "$CH_3I$",
+                "$I_2$",
+                "$CH_2I_2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Aldol product of $2CH_3CHO$:</p>",
+              "options": [
+                "Acetaldol",
+                "Crotonaldehyde (after -H₂O)",
+                "Both possible",
+                "Both b and c"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Wolff-Kishner is similar in effect to:</p>",
+              "options": [
+                "Clemmensen",
+                "Cannizzaro",
+                "Fehling",
+                "Aldol"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Carboxylic Acids",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Acidity, Preparation, and Properties",
+          "concept": "<p><strong>Carboxylic Acids:</strong> Have $-COOH$ group. General formula $R-COOH$. Acidic due to delocalization of charge in $-COO^-$.</p><p><strong>Nomenclature:</strong></p><ul><li>Common: formic acid ($HCOOH$), acetic acid ($CH_3COOH$), propionic acid ($CH_3CH_2COOH$), butyric acid, valeric acid, oxalic acid ($HOOC-COOH$)</li><li>IUPAC: methanoic acid, ethanoic acid, propanoic acid, butanoic acid</li></ul><p>Aromatic: benzoic acid ($C_6H_5COOH$); naphthoic acid; etc.</p><p><strong>Acidity of Carboxylic Acids:</strong></p><p>$pK_a$ of acetic acid $\\approx 4.74$; HCOOH $\\approx 3.75$.</p><p>Stronger than alcohols and water because conjugate base ($-COO^-$) has <strong>two equivalent resonance structures</strong> — negative charge equally on both O atoms; very stable.</p><p><strong>Effects on Acidity:</strong></p><p><strong>Electron Withdrawing (EW) Groups Increase Acidity:</strong></p><ul><li>F, Cl, Br: -I effect</li><li>NO₂, CN: strong -I and -R</li><li>Closer to -COOH → stronger effect</li></ul><p>Order of acidity:</p><ul><li>$CH_3COOH < CH_2ClCOOH < CHCl_2COOH < CCl_3COOH$ ($pK_a$: 4.74, 2.87, 1.35, 0.65)</li><li>$CH_3COOH < HCOOH$ (no $+I$ from $-CH_3$)</li><li>Halogen position effect: $CH_2ClCH_2COOH < CH_3CHClCOOH < ClCH_2CH_2COOH$ (closer Cl → stronger -I → more acidic, but α-substitution wins)</li></ul><p><strong>Wait:</strong> $CH_3CHClCOOH$ has Cl at α; $CH_2ClCH_2COOH$ has Cl at β; α more acidic.</p><p><strong>Electron Donating (ED) Groups Decrease Acidity:</strong></p><ul><li>Alkyl groups: +I (CH₃, C₂H₅...)</li><li>Methoxy (resonance donation but distance matters)</li></ul><p>For benzoic acid derivatives:</p><ul><li>m-nitrobenzoic acid > p-nitrobenzoic acid (m due to inductive only; p has +R competing)</li><li>Actually: $p-NO_2 > m-NO_2 > o-NO_2$ for nitrobenzoic acids ($pK_a$ order). p strongest due to enhanced -I + -R.</li><li>$p$-methylbenzoic acid weaker than benzoic acid</li></ul><p><strong>Preparation:</strong></p><p><strong>1. From Alcohols ($1°$):</strong> $RCH_2OH \\xrightarrow{[O], KMnO_4/H^+ or K_2Cr_2O_7/H^+} RCOOH$</p><p><strong>2. From Aldehydes:</strong> $RCHO \\xrightarrow{[O]} RCOOH$ (mild oxidation; e.g., Tollens, Fehling, but also $KMnO_4, K_2Cr_2O_7$)</p><p><strong>3. From Alkenes (Cleavage):</strong> $RCH=CHR' + KMnO_4/heat \\to RCOOH + R'COOH$</p><p><strong>4. From Nitriles (Hydrolysis):</strong> $RCN + H_2O \\xrightarrow{H^+ or OH^-, \\Delta} RCOOH (or RCOO^- + NH_3)$</p><p><strong>5. From Grignard Reagent + CO₂:</strong> $RMgX + CO_2 \\to RCOOMgX \\xrightarrow{H_3O^+} RCOOH$</p><ul><li>Excellent method for synthesizing acids; extends chain by one C.</li></ul><p><strong>6. From Acid Chlorides, Esters, Amides (Hydrolysis):</strong> $RCOCl + H_2O \\to RCOOH + HCl$ $RCOOR' + H_2O \\xrightarrow{H^+ \\text{ or } OH^-} RCOOH + R'OH$</p><p><strong>Physical Properties:</strong></p><ul><li>BP: very high (higher than alcohols!) due to dimerization via H-bonds</li><li>$2RCOOH \\rightleftharpoons (RCOOH)_2$ (cyclic dimer)</li><li>Soluble in water (small acids); decreases with chain length</li><li>Lower acids: pungent; higher: waxy solids</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Arrange in increasing acidity: $CH_3COOH$, $HCOOH$, $ClCH_2COOH$, $CCl_3COOH$.</p>",
+              "solution": "<ul><li>$CH_3COOH$: +I from CH₃ destabilizes anion → weakest of these</li><li>$HCOOH$: no +I (just H), better than $CH_3COOH$</li><li>$ClCH_2COOH$: 1 Cl (-I)</li><li>$CCl_3COOH$: 3 Cl (strongest -I)</li></ul><p>Order: $CH_3COOH < HCOOH < ClCH_2COOH < CCl_3COOH$.</p><p><strong>Final Answer:</strong> $CH_3COOH < HCOOH < ClCH_2COOH < CCl_3COOH$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is the BP of $CH_3COOH$ ($118°$C) higher than $CH_3CH_2OH$ ($78°$C)?</p>",
+              "solution": "<p>Both molecules form H-bonds, but carboxylic acid forms a <strong>cyclic dimer</strong> with two H-bonds between two molecules:</p><ul><li>$CH_3COOH$ dimer has two strong O-H...O=C bonds — high stability requires high energy to break.</li><li>$CH_3CH_2OH$ forms chain-like H-bonds (one per molecule); weaker overall network.</li></ul><p>Hence acid BP > alcohol BP.</p><p><strong>Final Answer:</strong> Cyclic dimer in $CH_3COOH$ (2 H-bonds per pair) vs less ordered H-bonding in alcohol.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Most acidic:</p>",
+              "options": [
+                "$CH_3OH$",
+                "$CH_3COOH$",
+                "Acetone",
+                "Phenol"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>RMgX + CO₂ gives:</p>",
+              "options": [
+                "Aldehyde",
+                "Acid (after acidification)",
+                "Alcohol",
+                "Ester"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Acetic acid in water:</p>",
+              "options": [
+                "Strong acid",
+                "Weak acid",
+                "Base",
+                "Inert"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Most acidic among Cl-substituted acetic acids:</p>",
+              "options": [
+                "Monochloroacetic",
+                "Dichloroacetic",
+                "Trichloroacetic",
+                "All equal"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Carboxylic acid dimer formed via:</p>",
+              "options": [
+                "Ionic",
+                "Cyclic H-bonding",
+                "Covalent",
+                "Pi-stacking"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Reactions of -COOH and Derivatives",
+          "concept": "<p><strong>Reactions of Carboxylic Acids:</strong></p><p><strong>1. Acidic Reactions:</strong></p><ul><li>With <strong>NaOH:</strong> $RCOOH + NaOH \\to RCOONa + H_2O$</li><li>With <strong>Na/K metal:</strong> $2RCOOH + 2Na \\to 2RCOONa + H_2$</li><li>With <strong>NaHCO₃:</strong> $RCOOH + NaHCO_3 \\to RCOONa + H_2O + CO_2 \\uparrow$ — distinguishes acid from phenol/alcohol (which don't release CO₂ from NaHCO₃)</li></ul><p><strong>2. Formation of Derivatives:</strong></p><p><strong>(a) Acid Chlorides:</strong> $RCOOH + SOCl_2 \\to RCOCl + SO_2 + HCl$ $RCOOH + PCl_5 \\to RCOCl + POCl_3 + HCl$ $RCOOH + PCl_3 \\to RCOCl + H_3PO_3$</p><p><strong>(b) Esters (Esterification, Fischer):</strong> $RCOOH + R'OH \\xrightarrow{H^+, \\Delta} RCOOR' + H_2O$ (reversible; use Le Chatelier — remove water or use excess alcohol)</p><p><strong>(c) Amides:</strong> $RCOOH + NH_3 \\to RCOONH_4 \\xrightarrow{\\Delta} RCONH_2 + H_2O$</p><p><strong>(d) Anhydrides:</strong> $2RCOOH \\xrightarrow{P_2O_5 \\text{ or } \\Delta} (RCO)_2O + H_2O$</p><p><strong>3. Decarboxylation (Loss of CO₂):</strong></p><ul><li>Heat with NaOH/CaO (soda lime): $RCOONa + NaOH \\to RH + Na_2CO_3$</li><li>Kolbe's electrolysis: $2RCOONa \\xrightarrow{electrolysis} R-R + 2CO_2 + 2Na$</li></ul><p><strong>4. HVZ Reaction (Hell-Volhard-Zelinsky):</strong> $RCH_2COOH + Cl_2/PCl_3 \\to RCHClCOOH + HCl$</p><ul><li>α-Halogenation of carboxylic acids</li><li>$\\alpha$-bromination similar with Br₂/red P</li></ul><p><strong>5. Reduction:</strong> $RCOOH + 4[H] \\xrightarrow{LiAlH_4 \\text{ or } B_2H_6} RCH_2OH + H_2O$ (1° alcohol)</p><p><strong>Note:</strong> $NaBH_4$ does NOT reduce -COOH; only LiAlH₄ and diborane.</p><p><strong>Important Reactions of Aromatic Acids:</strong></p><p><strong>Benzoic Acid ($C_6H_5COOH$):</strong></p><ul><li>$-COOH$ is m-director, deactivator</li><li>Nitration gives m-nitrobenzoic acid; bromination gives m-bromobenzoic acid</li><li>Decarboxylation: $C_6H_5COOH + NaOH/CaO \\to C_6H_6 + Na_2CO_3$</li></ul><p><strong>Salicylic Acid (o-hydroxybenzoic acid):</strong></p><ul><li>Made by Kolbe-Schmitt</li><li>Reacts with acetic anhydride to give <strong>aspirin</strong> (acetylsalicylic acid):</li></ul><p>$$C_6H_4(OH)(COOH) + (CH_3CO)_2O \\to C_6H_4(OCOCH_3)(COOH) + CH_3COOH$$</p><p><strong>Reactions of Esters (RCOOR'):</strong></p><p><strong>1. Hydrolysis:</strong></p><ul><li>Acidic: $RCOOR' + H_2O \\xrightarrow{H^+} RCOOH + R'OH$ (reversible)</li><li>Basic (saponification): $RCOOR' + NaOH \\to RCOO^-Na^+ + R'OH$ (irreversible — carboxylate doesn't react further)</li></ul><p><strong>2. Reduction:</strong> $RCOOR' + LiAlH_4 \\to RCH_2OH + R'OH$</p><p><strong>3. Ammonolysis:</strong> $RCOOR' + NH_3 \\to RCONH_2 + R'OH$</p><p><strong>4. Transesterification:</strong> $RCOOR' + R''OH \\xrightarrow{H^+} RCOOR'' + R'OH$</p><p><strong>5. Claisen Condensation:</strong> $2CH_3COOC_2H_5 + C_2H_5O^-Na^+ \\to CH_3COCH_2COOC_2H_5 + C_2H_5OH$ (Acetoacetic ester from ethyl acetate; one α-H attacks the other ester's carbonyl)</p><p><strong>Reactions of Amides (RCONH₂):</strong></p><p><strong>1. Hofmann Bromamide Reaction:</strong> Amide → primary amine (with one fewer C). $RCONH_2 + Br_2 + 4NaOH \\to RNH_2 + 2NaBr + Na_2CO_3 + 2H_2O$ (One-carbon shorter amine, e.g., $CH_3CONH_2 \\to CH_3NH_2$; ethanamide → methanamine)</p><p><strong>2. Hydrolysis:</strong> $RCONH_2 + H_2O \\to RCOOH + NH_3$ (acid or base catalyst)</p><p><strong>3. Dehydration:</strong> $RCONH_2 \\xrightarrow{P_2O_5 \\text{ or } SOCl_2} R-C \\equiv N + H_2O$ (forms nitrile)</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Predict product: (a) $CH_3CH_2COOH + LiAlH_4$ (b) $CH_3CH_2COCl + (CH_3CH_2)_2NH$ (c) $CH_3COOCH_3 + NaOH$ (hydrolysis)</p>",
+              "solution": "<p>(a) $LiAlH_4$ reduces -COOH to $-CH_2OH$: $CH_3CH_2COOH \\to CH_3CH_2CH_2OH$ (1-propanol). (b) Acid chloride + amine → amide: $CH_3CH_2COCl + (CH_3CH_2)_2NH \\to CH_3CH_2CON(CH_2CH_3)_2 + HCl$. (c) Saponification (basic hydrolysis): $CH_3COOCH_3 + NaOH \\to CH_3COONa + CH_3OH$.</p><p><strong>Final Answer:</strong> (a) 1-propanol; (b) N,N-diethylpropanamide; (c) sodium acetate + methanol.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Predict products of Hofmann bromamide reaction on $CH_3CH_2CONH_2$.</p>",
+              "solution": "<p>Hofmann bromamide degrades amide to primary amine with one fewer C: $CH_3CH_2CONH_2 + Br_2 + 4NaOH \\to CH_3CH_2NH_2 + 2NaBr + Na_2CO_3 + 2H_2O$</p><ul><li>Loses C from C=O (becomes carbonate)</li><li>3-C propanamide → 2-C ethanamine.</li></ul><p><strong>Final Answer:</strong> Ethanamine ($CH_3CH_2NH_2$).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Hell-Volhard-Zelinsky reaction:</p>",
+              "options": [
+                "Decarboxylation",
+                "α-halogenation of carboxylic acid",
+                "Ester formation",
+                "Reduction"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Acid + NaHCO₃ gives:</p>",
+              "options": [
+                "CO₂ released (distinguishes from phenol)",
+                "No reaction",
+                "Acid stronger",
+                "Salt only"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Saponification of ester:</p>",
+              "options": [
+                "Acidic",
+                "Basic (irreversible)",
+                "Neutral",
+                "Reversible always"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Hofmann bromamide gives:</p>",
+              "options": [
+                "Amine with same C",
+                "Amine with one C less",
+                "Amide",
+                "Nitrile"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Aspirin is made from:</p>",
+              "options": [
+                "Phenol",
+                "Salicylic acid + acetic anhydride",
+                "Benzoic acid",
+                "Salicylaldehyde"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-chem-aldehydes-ketones-and-carboxylic-acids-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>Aldol condensation needs:</p>",
+              "options": [
+                "α-H atom",
+                "No α-H",
+                "Always heat",
+                "Always acid"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Cannizzaro reaction needs:</p>",
+              "options": [
+                "α-H present",
+                "No α-H (gives disproportionation)",
+                "Acid catalyst",
+                "Free radical"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Reducing $RCHO$ with NaBH₄ gives:</p>",
+              "options": [
+                "$RCH_2OH$",
+                "$RCOOH$",
+                "$RH$ (Clemmensen-like)",
+                "Ester"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Strong oxidation of ketone:</p>",
+              "options": [
+                "Easy with dilute KMnO₄",
+                "Cleaves C-C bond (Baeyer-Villiger or hot KMnO₄)",
+                "Aldehyde formed",
+                "No reaction at all"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Most acidic:</p>",
+              "options": [
+                "Acetic acid",
+                "Trichloroacetic acid",
+                "Formic acid",
+                "Propionic acid"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Esterification follows mechanism:</p>",
+              "options": [
+                "Nucleophilic acyl substitution",
+                "Free radical",
+                "E1",
+                "$S_N1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Aldol product of $2CH_3CHO$ on heating:</p>",
+              "options": [
+                "Acetaldol",
+                "Crotonaldehyde",
+                "Vinyl alcohol",
+                "Acetic acid"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Wolff-Kishner reduction reduces:</p>",
+              "options": [
+                "C=O to CH₂",
+                "C=O to CHOH",
+                "C=O to COOH",
+                "C-C to C-O"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Fehling's test is negative for:</p>",
+              "options": [
+                "Acetaldehyde",
+                "Formaldehyde",
+                "Benzaldehyde (negative — aromatic doesn't react)",
+                "Acetone"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Hell-Volhard-Zelinsky reaction uses:</p>",
+              "options": [
+                "Br₂ + Red P (or PCl₃)",
+                "HCl + Zn",
+                "NaOH",
+                "Free radical"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Number of carbons in acetic acid:</p>",
+              "answer": "2",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of moles of NaOH needed for saponification of ethyl acetate:</p>",
+              "answer": "1",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of $\\alpha$-H atoms in acetone:</p>",
+              "answer": "6",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> $HCHO$ undergoes Cannizzaro reaction but not aldol condensation. <strong>Reason (R):</strong> $HCHO$ has no $\\alpha$-hydrogen.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> Carboxylic acids are stronger acids than phenols. <strong>Reason (R):</strong> Carboxylate anion is stabilized by two equivalent resonance structures; phenoxide has 4 resonance structures but charge is on less electronegative atoms (carbon).</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

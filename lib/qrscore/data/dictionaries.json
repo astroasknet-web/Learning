@@ -1,0 +1,109 @@
+{
+  "_comment": "Trainable knowledge base for the QR Score engine. Extend these lists with real resumes to raise extraction accuracy. Nothing here is AI-generated at runtime; all matching is deterministic.",
+
+  "section_headings": {
+    "education": ["education", "educational qualifications", "academic background", "academic qualifications", "qualifications", "academics", "educational background", "education & training", "education and training", "education & certification", "education & certifications", "education and certification"],
+    "experience": ["experience", "work experience", "professional experience", "employment", "employment history", "work history", "career history", "professional background", "work history"],
+    "certifications": ["certifications", "certificates", "professional certifications", "licenses", "licences", "professional qualifications", "accreditations"],
+    "projects": ["projects", "academic projects", "key projects", "personal projects", "selected projects", "portfolio", "notable projects", "selected projects — the vidaara ecosystem"],
+    "skills": ["skills", "technical skills", "core competencies", "competencies", "it skills", "technical skills & tools", "key skills"],
+    "objective": ["objective", "summary", "profile", "career objective", "professional summary", "about me"],
+    "awards": ["awards", "awards & recognition", "honors & awards", "honours & awards", "achievements & awards", "recognition", "honours", "honors"],
+    "research": ["research & publications", "publications", "research", "research and publications", "papers & publications"]
+  },
+
+  "degree_full_names": {
+    "phd": ["doctor of philosophy", "doctorate", "ph.d", "phd", "d.phil", "dphil"],
+    "master": ["master of science", "master of arts", "master of business administration", "master of technology", "master of engineering", "master of commerce", "master of computer applications", "master of laws", "master of education", "master's degree", "masters degree", "postgraduate"],
+    "bachelor": ["bachelor of science", "bachelor of arts", "bachelor of technology", "bachelor of engineering", "bachelor of commerce", "bachelor of business administration", "bachelor of computer applications", "bachelor of laws", "bachelor of education", "bachelor's degree", "bachelors degree"],
+    "associate": ["associate of arts", "associate of science", "associate degree", "associate's degree"],
+    "diploma": ["postgraduate diploma", "advanced diploma", "diploma in", "diploma of", "pg diploma"],
+    "highschool": ["higher secondary", "senior secondary", "high school diploma", "secondary school certificate", "intermediate", "12th", "class xii", "hsc", "ssc", "a-levels", "cbse", "icse"]
+  },
+
+  "degree_abbreviations": {
+    "phd": ["phd", "ph.d", "ph. d."],
+    "master": ["ms", "m.s", "ma", "m.a", "mba", "m.tech", "mtech", "me", "m.e", "msc", "m.sc", "mcom", "m.com", "mca", "mphil", "llm", "m.ed"],
+    "bachelor": ["bs", "b.s", "ba", "b.a", "btech", "b.tech", "be", "b.e", "bsc", "b.sc", "bcom", "b.com", "bca", "bba", "llb", "b.ed"],
+    "associate": ["aa", "a.a", "as", "a.s"],
+    "diploma": ["dip", "pgd", "pgdm"]
+  },
+
+  "informal_degree_terms": ["graduated", "graduate", "college degree", "uni", "university degree", "degree", "schooling", "studied"],
+
+  "degree_classifications": ["summa cum laude", "magna cum laude", "cum laude", "first class honours", "first class honors", "first class with distinction", "first division", "second class", "distinction", "with distinction", "with honours", "with honors", "high distinction", "merit"],
+
+  "broad_fields": ["business", "science", "arts", "engineering", "commerce", "management", "technology", "humanities", "general studies"],
+
+  "field_specific_markers": ["computer science", "mechanical engineering", "electrical engineering", "civil engineering", "chemical engineering", "information technology", "data science", "artificial intelligence", "human resources", "human resource management", "finance", "accounting", "marketing", "economics", "psychology", "biotechnology", "physics", "chemistry", "mathematics", "electronics", "software engineering", "supply chain", "operations", "sales", "biology", "law", "architecture", "pharmacy", "nursing", "chartered accountancy"],
+
+  "minor_markers": ["minor in", "concentration in", "specialization in", "specialisation in", "focus in", "with a minor", "major in", "double major"],
+
+  "institution_markers": ["university", "institute", "college", "school", "academy", "polytechnic", "iit", "nit", "iim", "iisc"],
+
+  "vague_institution_terms": ["local college", "local university", "a university", "a college", "state college", "city college", "community college"],
+
+  "gpa_patterns": {
+    "with_scale": "(\\d\\.\\d{1,2})\\s*/\\s*(\\d(?:\\.\\d{1,2})?)",
+    "percentage": "(\\d{1,3}(?:\\.\\d{1,2})?)\\s*%",
+    "cgpa_label": ["cgpa", "gpa", "sgpa", "grade point"]
+  },
+
+  "rank_percentile_markers": ["top 1%", "top 2%", "top 5%", "top 10%", "class rank", "rank 1", "ranked", "percentile", "batch topper", "gold medal", "gold medallist", "gold medalist", "valedictorian", "dean's list", "deans list"],
+
+  "honor_markers": ["dean's list", "deans list", "honor society", "honour society", "honor roll", "scholarship", "fellowship", "merit scholarship", "award", "medal", "distinction", "phi beta kappa", "national merit", "president's list", "presidents list"],
+
+  "selectivity_markers": ["1 of", "one of", "out of", "globally", "nationwide", "nationally", "only student", "sole recipient", "selected from"],
+
+  "coursework_markers": ["relevant coursework", "coursework", "courses", "key courses", "subjects studied", "modules"],
+
+  "thesis_markers": ["thesis", "dissertation", "research project", "capstone", "major project", "research work"],
+
+  "thesis_detail_markers": ["methodology", "findings", "published", "publication", "advisor", "supervisor", "committee", "grant", "funded", "abstract", "results", "hypothesis"],
+
+  "professional_qual_bodies": ["cpa", "ca", "cfa", "frm", "pmp", "acca", "cma", "cs", "cma", "aws certified", "microsoft certified", "cisco certified", "ccna", "pmi", "six sigma", "prince2", "itil", "comptia", "icai", "icsi", "cfai"],
+
+  "license_markers": ["license number", "licence number", "license no", "registration no", "membership no", "active", "valid till", "valid until", "expires", "renewed"],
+
+  "vocational_markers": ["vocational", "trade certificate", "apprenticeship", "iti", "polytechnic diploma", "nsdc", "skill india", "technical training", "workshop", "bootcamp"],
+
+  "vocational_detail_markers": ["hours", "duration", "months", "weeks", "competenc", "hands-on", "practical training"],
+
+  "international_country_markers": ["uk", "united kingdom", "usa", "united states", "canada", "australia", "germany", "france", "singapore", "uae", "dubai", "ireland", "new zealand", "netherlands"],
+
+  "credential_evaluation_markers": ["wes", "world education services", "credential evaluation", "equivalency", "equivalent to", "us equivalent", "naric", "eca", " effective credential"],
+
+  "translation_markers": ["translated", "translation", "originally", "in english"],
+
+  "bullet_markers": ["•", "◦", "▪", "‣", "·", "-", "*"],
+
+  "student_markers": ["pursuing", "currently studying", "expected", "ongoing", "present", "final year", "third year", "second year", "first year", "student", "undergraduate", "expected graduation"],
+
+  "action_verbs_strong": ["led", "built", "architected", "designed", "developed", "engineered", "launched", "delivered", "shipped", "implemented", "created", "founded", "established", "spearheaded", "drove", "scaled", "optimised", "optimized", "automated", "streamlined", "improved", "increased", "reduced", "cut", "grew", "generated", "achieved", "exceeded", "transformed", "pioneered", "negotiated", "mentored", "managed", "directed", "oversaw", "coordinated", "analysed", "analyzed", "researched", "published", "deployed", "migrated", "refactored", "integrated", "accelerated", "boosted", "saved", "won", "secured"],
+
+  "weak_openers": ["responsible for", "worked on", "helped with", "helped", "involved in", "assisted", "participated in", "handled", "duties included", "tasked with", "in charge of", "part of", "worked with", "dealt with"],
+
+  "buzzwords_cliches": ["hardworking", "hard working", "team player", "go-getter", "self-starter", "think outside the box", "results-driven", "results driven", "detail-oriented", "detail oriented", "dynamic", "synergy", "proactive", "motivated", "passionate", "quick learner", "good communication", "excellent communication", "sincere", "punctual", "goal-oriented", "go getter", "fast learner", "multitasking", "out of the box", "value addition"],
+
+  "soft_skills": ["communication", "leadership", "teamwork", "team work", "problem solving", "problem-solving", "adaptability", "time management", "collaboration", "critical thinking", "creativity", "negotiation", "stakeholder management", "mentoring", "presentation", "decision making"],
+
+  "tech_tools_generic": ["ms office", "microsoft office", "ms word", "ms excel", "email", "internet", "typing", "computer"],
+
+  "quantification_units": ["%", "percent", "crore", "lakh", "million", "billion", "k+", "x ", "users", "customers", "clients", "revenue", "hours", "days", "weeks", "months", "team of", "members", "countries", "downloads", "installs"],
+
+  "currency_symbols": ["₹", "$", "€", "£", "rs.", "rs ", "inr", "usd"],
+
+  "award_markers": ["award", "awarded", "recognised", "recognized", "honoured", "honored", "winner", "won", "prize", "medal", "medallist", "medalist", "scholarship", "fellowship", "felicitated", "felicitation", "rank", "topper", "distinction", "accolade", "recipient"],
+
+  "leadership_markers": ["led", "managed", "mentored", "headed", "supervised", "team of", "oversaw", "directed", "spearheaded", "founded", "head of", "in charge of", "owned", "coordinated a team", "built a team"],
+
+  "publication_markers": ["published", "publication", "journal", "conference", "research paper", "paper titled", "patent", "author of", "co-author", "isbn", "doi", "white paper", "book", "e-book"],
+
+  "project_headings_extra": ["projects", "academic projects", "key projects", "personal projects", "selected projects", "portfolio", "case studies", "notable projects"],
+
+  "link_markers": ["github.com", "gitlab.com", "bitbucket.org", "linkedin.com", "behance.net", "dribbble.com", "kaggle.com", "medium.com", "portfolio", "live at", "demo at", "hosted at", "play.google.com", "npmjs.com", "http://", "https://", "www."],
+
+  "summary_quality_markers": ["years of experience", "specialising", "specializing", "expertise in", "proven track record", "focused on", "seeking", "professional with"],
+
+  "proficiency_markers": ["expert", "proficient", "advanced", "intermediate", "beginner", "working knowledge", "hands-on", "years of experience", "fluent", "native"]
+}

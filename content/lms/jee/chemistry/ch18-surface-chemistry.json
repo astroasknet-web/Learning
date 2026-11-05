@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": 18,
+  "title": "Surface Chemistry",
+  "slug": "surface-chemistry",
+  "subtitle": "Surface Chemistry for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#0ea5e9",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "Master Surface Chemistry for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Adsorption and Catalysis",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Adsorption — Types, Isotherms, Factors",
+          "concept": "<p><strong>Adsorption:</strong> Accumulation of molecules/atoms of one substance (adsorbate) on the surface of another (adsorbent). Surface phenomenon — different from <strong>absorption</strong> (bulk penetration).</p><p><strong>Examples:</strong> Charcoal absorbing gases; silica gel absorbing water; dye on cloth.</p><p><strong>Types of Adsorption:</strong></p><table class=\"md-table\"><thead><tr><th>Property</th><th>Physisorption</th><th>Chemisorption</th></tr></thead><tbody><tr><td>Bonding</td><td>Van der Waals (weak)</td><td>Chemical bond (strong)</td></tr><tr><td>Enthalpy of adsorption</td><td>$20-40$ kJ/mol</td><td>$80-240$ kJ/mol</td></tr><tr><td>Activation energy</td><td>Negligible</td><td>Significant</td></tr><tr><td>Temperature</td><td>Decreases with T (more at low T)</td><td>Increases initially with T, then decreases</td></tr><tr><td>Specificity</td><td>Non-specific</td><td>Highly specific</td></tr><tr><td>Reversibility</td><td>Reversible</td><td>Often irreversible</td></tr><tr><td>Multilayer</td><td>Yes (multilayer possible)</td><td>Monolayer only</td></tr><tr><td>Example</td><td>$H_2$ on charcoal at low T</td><td>$H_2$ on Ni surface (forms Ni-H bonds)</td></tr></tbody></table><p><strong>Factors Affecting Adsorption:</strong></p><ol><li><strong>Nature of adsorbent:</strong> Greater surface area → more adsorption (charcoal, silica gel, alumina, zeolites)</li><li><strong>Nature of adsorbate:</strong> Easily liquefiable gases (higher critical T) adsorbed more</li><li><strong>Surface area:</strong> Powdered/porous materials adsorb more</li><li><strong>Temperature:</strong> Physisorption decreases with T; chemisorption increases first then decreases</li><li><strong>Pressure (for gases):</strong> Adsorption increases with pressure (up to saturation)</li></ol><p><strong>Adsorption Isotherms:</strong> Plots of extent of adsorption vs pressure at constant T.</p><p><strong>Freundlich Isotherm (Empirical):</strong> $$\\frac{x}{m} = k \\cdot p^{1/n} \\quad (n \\geq 1)$$</p><ul><li>$x/m$: mass adsorbed per gram adsorbent</li><li>$p$: pressure</li><li>$k, n$: constants ($n > 1$, so $1/n < 1$)</li></ul><p>Logarithmic form: $\\log(x/m) = \\log k + (1/n)\\log p$. Plot of $\\log(x/m)$ vs $\\log p$: straight line.</p><p>Limitations: Fails at high pressure (no saturation predicted).</p><p><strong>Langmuir Isotherm:</strong> Assumes monolayer adsorption on equivalent sites. $$\\frac{x}{m} = \\frac{ap}{1+bp}$$</p><p>At low $p$: $x/m \\approx ap$ (linear, like first order). At high $p$: $x/m \\approx a/b$ (saturation, plateau).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Differentiate physisorption and chemisorption.</p>",
+              "solution": "<ul><li><strong>Physisorption:</strong> Weak van der Waals forces; low enthalpy ($20-40$ kJ/mol); reversible; decreases with $T$; multilayer; not specific.</li><li><strong>Chemisorption:</strong> Strong chemical bonds; high enthalpy ($80-240$ kJ/mol); often irreversible; increases initially with $T$ then decreases; monolayer; highly specific.</li></ul><p><strong>Final Answer:</strong> Physisorption is weak van der Waals; chemisorption involves chemical bonds.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>According to Freundlich isotherm, $x/m = k \\cdot p^{1/n}$ with $n = 2$, $k = 0.5$. Find $x/m$ at $p = 100$.</p>",
+              "solution": "<p>$x/m = 0.5 \\times 100^{1/2} = 0.5 \\times 10 = 5$.</p><p><strong>Final Answer:</strong> $x/m = 5$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Physisorption involves:</p>",
+              "options": [
+                "Strong chemical bonds",
+                "Van der Waals forces",
+                "Ionic forces",
+                "Covalent bonds"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Adsorbent with maximum surface area:</p>",
+              "options": [
+                "Crystal",
+                "Activated charcoal",
+                "Glass",
+                "Wood"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Freundlich isotherm: $\\log(x/m)$ vs $\\log p$:</p>",
+              "options": [
+                "Hyperbola",
+                "Straight line",
+                "Parabola",
+                "Curve"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Chemisorption is:</p>",
+              "options": [
+                "Multilayer",
+                "Monolayer only",
+                "Non-specific",
+                "Reversible"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Adsorption of gas at low T is mostly:</p>",
+              "options": [
+                "Chemisorption",
+                "Physisorption",
+                "Both",
+                "Neither"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Catalysis — Homogeneous, Heterogeneous, Enzymes",
+          "concept": "<p><strong>Catalysis:</strong> Speeding of reaction by catalyst (not consumed). Categorized by phase of catalyst vs reactants.</p><p><strong>Homogeneous Catalysis:</strong> Catalyst and reactants in same phase.</p><p><strong>Examples:</strong></p><ol><li><strong>Lead chamber process:</strong> $2SO_2 + O_2 \\xrightarrow{NO\\,(g)} 2SO_3$</li><li><strong>Acid hydrolysis of esters:</strong> $CH_3COOCH_3 + H_2O \\xrightarrow{H^+} CH_3COOH + CH_3OH$</li><li><strong>Inversion of sucrose:</strong> $C_{12}H_{22}O_{11} + H_2O \\xrightarrow{H^+} C_6H_{12}O_6 + C_6H_{12}O_6$</li></ol><p><strong>Heterogeneous Catalysis:</strong> Catalyst in different phase (usually solid catalyst, gas/liquid reactants).</p><p><strong>Examples:</strong></p><table class=\"md-table\"><thead><tr><th>Process</th><th>Reaction</th><th>Catalyst</th></tr></thead><tbody><tr><td>Haber</td><td>$N_2 + 3H_2 \\to 2NH_3$</td><td>Fe (with $K_2O$, $Al_2O_3$ promoters)</td></tr><tr><td>Contact</td><td>$2SO_2 + O_2 \\to 2SO_3$</td><td>$V_2O_5$</td></tr><tr><td>Ostwald</td><td>$4NH_3 + 5O_2 \\to 4NO + 6H_2O$</td><td>Pt-Rh gauze</td></tr><tr><td>Hydrogenation</td><td>$C_2H_4 + H_2 \\to C_2H_6$</td><td>Ni, Pd, Pt</td></tr><tr><td>Cracking</td><td>Hydrocarbon breakdown</td><td>Zeolites, $SiO_2$-$Al_2O_3$</td></tr><tr><td>Polymerization</td><td>$C_2H_4 \\to (CH_2-CH_2)_n$</td><td>Ziegler-Natta ($TiCl_4 + AlR_3$)</td></tr></tbody></table><p><strong>Adsorption Theory of Heterogeneous Catalysis:</strong></p><ol><li>Reactants diffuse to catalyst surface</li><li>Reactants adsorb on active sites</li><li>Adsorbed molecules' bonds weaken; new bonds form</li><li>Products formed on surface</li><li>Products desorb; diffuse away</li></ol><p><strong>Features of Solid Catalysts:</strong></p><ul><li><strong>Activity:</strong> How much it accelerates reaction</li><li><strong>Selectivity:</strong> Ability to direct reaction to specific products</li><li><strong>Promoters:</strong> Substances increasing activity (e.g., $K_2O, Al_2O_3$ in Haber)</li><li><strong>Poisons:</strong> Substances decreasing activity (e.g., As, S poisoning Pt)</li></ul><p><strong>Shape-Selective Catalysis (Zeolites):</strong></p><ul><li>Microporous aluminosilicates</li><li>Pores of specific size only allow certain molecules</li><li>Used in petroleum cracking, ion exchange (water softening)</li><li>ZSM-5 converts methanol to gasoline</li></ul><p><strong>Enzyme Catalysis:</strong></p><ul><li><strong>Enzymes:</strong> Globular proteins acting as catalysts in biological systems</li><li>Highly <strong>specific</strong> for substrate and reaction</li><li>Very <strong>efficient</strong>: rate increase $\\sim 10^6$ to $10^{20}$</li><li>Work at mild conditions: body T, neutral pH</li><li>Examples:</li></ul><table class=\"md-table\"><thead><tr><th>Enzyme</th><th>Reaction</th></tr></thead><tbody><tr><td>Salivary amylase</td><td>Starch → maltose</td></tr><tr><td>Pepsin</td><td>Proteins → peptides (stomach)</td></tr><tr><td>Lipase</td><td>Fats → glycerol + fatty acids</td></tr><tr><td>Maltase</td><td>Maltose → glucose</td></tr><tr><td>Invertase</td><td>Sucrose → glucose + fructose</td></tr><tr><td>Zymase (in yeast)</td><td>Glucose → ethanol + CO₂</td></tr><tr><td>Urease</td><td>Urea + water → NH₃ + CO₂</td></tr></tbody></table><p><strong>Mechanism (Lock and Key):</strong> Substrate binds to active site of enzyme; conversion to product; product released.</p><p><strong>Michaelis-Menten Equation:</strong> $v = V_{max}[S]/(K_M + [S])$</p><ul><li>$V_{max}$: maximum velocity</li><li>$K_M$: Michaelis constant</li></ul><p><strong>Factors Affecting Enzyme Activity:</strong> Temperature, pH, substrate concentration, inhibitors.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>What is shape-selective catalysis?</p>",
+              "solution": "<p>Shape-selective catalysis occurs over solid catalysts with pores of specific size. Only molecules small enough to enter the pores can react, giving product selectivity. Zeolites are classic examples — used in petroleum cracking, alkylation, and converting methanol to gasoline (ZSM-5).</p><p><strong>Final Answer:</strong> Catalysis with selectivity based on pore size/shape; zeolites are key examples.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why are enzymes called specific catalysts?</p>",
+              "solution": "<p>Enzymes have specific 3D active sites (specific to one substrate's geometry — lock-and-key). Different enzymes catalyze only one specific reaction or family. e.g., urease ONLY catalyzes urea hydrolysis, not other amides.</p><p><strong>Final Answer:</strong> Active site complementary to substrate only; \"lock and key\" specificity.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Homogeneous catalysis means:</p>",
+              "options": [
+                "Catalyst is solid",
+                "Same phase as reactants",
+                "Liquid catalyst",
+                "Gaseous catalyst"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Catalyst in Haber's process:</p>",
+              "options": [
+                "Pt",
+                "Fe",
+                "$V_2O_5$",
+                "Ni"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Enzymes are:</p>",
+              "options": [
+                "Lipids",
+                "Proteins",
+                "Carbohydrates",
+                "Salts"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Zeolites are used as:</p>",
+              "options": [
+                "Pesticides",
+                "Shape-selective catalysts and molecular sieves",
+                "Acids",
+                "Fuels"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Promoter in Haber process:</p>",
+              "options": [
+                "$K_2O$ or $Al_2O_3$",
+                "Pt",
+                "Cu",
+                "Hg"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Colloids",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Classification, Preparation and Properties of Colloids",
+          "concept": "<p><strong>Colloidal Solution:</strong> Intermediate state between true solution and suspension. Particle size $1-1000$ nm (10⁻⁹ to 10⁻⁶ m).</p><table class=\"md-table\"><thead><tr><th>Property</th><th>True solution</th><th>Colloid</th><th>Suspension</th></tr></thead><tbody><tr><td>Particle size</td><td>$< 1$ nm</td><td>$1-1000$ nm</td><td>$> 1000$ nm</td></tr><tr><td>Visible to eye</td><td>No</td><td>No (microscope yes)</td><td>Yes</td></tr><tr><td>Filtered</td><td>No</td><td>Ordinary filter no; ultrafilter yes</td><td>Yes</td></tr><tr><td>Tyndall effect</td><td>No</td><td>Yes</td><td>No (settles)</td></tr><tr><td>Settles on standing</td><td>No</td><td>No</td><td>Yes</td></tr></tbody></table><p><strong>Components:</strong></p><ul><li><strong>Dispersed phase:</strong> Like solute (particles)</li><li><strong>Dispersion medium:</strong> Like solvent (continuous phase)</li></ul><p><strong>Classification:</strong></p><p><strong>A. Based on Physical State:</strong></p><table class=\"md-table\"><thead><tr><th>Dispersed phase</th><th>Dispersion medium</th><th>Name</th><th>Example</th></tr></thead><tbody><tr><td>Solid</td><td>Solid</td><td>Solid sol</td><td>Coloured glass, gem stones</td></tr><tr><td>Solid</td><td>Liquid</td><td>Sol</td><td>Paint, As₂S₃ sol</td></tr><tr><td>Solid</td><td>Gas</td><td>Aerosol (solid)</td><td>Smoke, dust</td></tr><tr><td>Liquid</td><td>Solid</td><td>Gel</td><td>Cheese, butter, jellies</td></tr><tr><td>Liquid</td><td>Liquid</td><td>Emulsion</td><td>Milk, hair cream</td></tr><tr><td>Liquid</td><td>Gas</td><td>Aerosol (liquid)</td><td>Fog, mist, clouds</td></tr><tr><td>Gas</td><td>Solid</td><td>Solid foam</td><td>Pumice stone, foam rubber</td></tr><tr><td>Gas</td><td>Liquid</td><td>Foam</td><td>Whipped cream, soap foam</td></tr><tr><td>Gas</td><td>Gas</td><td>-</td><td>Doesn't form (mix uniformly)</td></tr></tbody></table><p><strong>B. Based on Interaction (Dispersion medium = water):</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Description</th><th>Examples</th></tr></thead><tbody><tr><td><strong>Lyophilic (solvent-loving)</strong></td><td>Strong attraction with dispersion medium; stable; reversible; doesn't need stabilizer</td><td>Starch, gelatin, gum, proteins</td></tr><tr><td><strong>Lyophobic (solvent-hating)</strong></td><td>Weak attraction; unstable; irreversible; needs stabilizer</td><td>Metal sols (Au, Ag), $As_2S_3$, $Fe(OH)_3$</td></tr></tbody></table><p><strong>C. Based on Particle Type:</strong></p><ul><li><strong>Multimolecular:</strong> Many molecules together (Au sol)</li><li><strong>Macromolecular:</strong> Single large molecules (proteins, polymers)</li><li><strong>Associated colloids (micelles):</strong> Form only above critical concentration (CMC = critical micelle concentration); above Kraft T (KT)</li></ul><p><strong>Preparation of Colloids:</strong></p><p><strong>1. Dispersion methods</strong> (large → colloidal):</p><ul><li><strong>Mechanical disintegration:</strong> Colloid mills</li><li><strong>Electrical disintegration (Bredig's arc):</strong> Metal electrodes in water; gives Au, Ag, Pt sols</li><li><strong>Peptization:</strong> Adding electrolyte (peptizing agent) to fresh ppt converts to sol; e.g., FeCl₃ to fresh Fe(OH)₃ ppt → red brown $Fe(OH)_3$ sol</li></ul><p><strong>2. Condensation methods</strong> (molecular → colloidal):</p><ul><li><strong>Reduction:</strong> $2AuCl_3 + 3HCHO + 3H_2O \\to 2Au + 3HCOOH + 6HCl$</li><li><strong>Oxidation:</strong> $H_2S + SO_2 \\to S \\downarrow + H_2O$ (sulfur sol)</li><li><strong>Hydrolysis:</strong> $FeCl_3 + 3H_2O \\to Fe(OH)_3 + 3HCl$ (red-brown sol)</li><li><strong>Double decomposition:</strong> $H_2S + As_2O_3 \\to As_2S_3 + H_2O$</li><li><strong>Excess reagent:</strong> $AgNO_3 + KI \\to AgI + KNO_3$ (excess of either gives different charge sol)</li></ul><p><strong>Purification:</strong></p><ul><li><strong>Dialysis:</strong> Through semi-permeable membrane (parchment, cellophane)</li><li><strong>Electrodialysis:</strong> Faster; with applied electric field</li><li><strong>Ultrafiltration:</strong> Pressure through ultrafilter</li></ul><p><strong>Properties of Colloidal Solutions:</strong></p><p><strong>1. Colligative properties:</strong> Small (low number of particles).</p><p><strong>2. Tyndall Effect:</strong> Scattering of light by colloidal particles. Path of light visible. Used to distinguish from true solution.</p><p><strong>3. Brownian Motion:</strong> Random zig-zag movement of colloidal particles due to collisions with solvent molecules. Provides stability against settling.</p><p><strong>4. Charge on colloidal particles:</strong> Colloid particles carry charge (positive or negative).</p><table class=\"md-table\"><thead><tr><th>Positive sols</th><th>Negative sols</th></tr></thead><tbody><tr><td>$Fe(OH)_3$</td><td>Metal sols (Au, Ag, Pt)</td></tr><tr><td>$Al(OH)_3$</td><td>Sulfide sols ($As_2S_3$, $Sb_2S_3$)</td></tr><tr><td>Hydrated metal oxides</td><td>$SiO_2$</td></tr><tr><td>Basic dye stuffs</td><td>Acid dye stuffs</td></tr></tbody></table><p><strong>5. Electrophoresis:</strong> Movement of charged colloidal particles under electric field. Toward cathode if +, anode if -.</p><p><strong>6. Coagulation (Flocculation):</strong> Process of settling/precipitating colloid by:</p><ul><li>Adding electrolyte (most common)</li><li>Heating</li><li>Electrophoresis</li><li>Mixing oppositely charged sols</li></ul><p><strong>Hardy-Schulze Rule:</strong> Coagulation power of an ion increases with its charge. For a -ve sol, coagulating ions are cations: $Al^{3+} > Ba^{2+} > Na^+$ (most effective to least)</p><p><strong>Helmholtz Electrical Double Layer:</strong> Around colloid particle, two layers of opposite charge — provides stability.</p><p><strong>Zeta Potential:</strong> Potential difference between the two layers; related to stability.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why is starch sol stable but metal sols not?</p>",
+              "solution": "<p>Starch is <strong>lyophilic</strong> (strong attraction to water); water heavily hydrates starch macromolecules, stabilizing them. Even on removing water, can re-form by adding water (reversible). Metal sols are <strong>lyophobic</strong> (weak interaction); unstable; need stabilizer. Once coagulated, can't reform.</p><p><strong>Final Answer:</strong> Lyophilic colloid is self-stabilized; lyophobic needs stabilizer.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Order coagulating power for $Fe(OH)_3$ (+ve sol): $NaCl$, $Na_2SO_4$, $Na_3PO_4$.</p>",
+              "solution": "<p>For positive sol, anions cause coagulation. Hardy-Schulze: higher charge → more effective.</p><ul><li>NaCl: Cl⁻ ($-1$)</li><li>Na₂SO₄: SO₄²⁻ ($-2$)</li><li>Na₃PO₄: PO₄³⁻ ($-3$)</li></ul><p>Order: $Na_3PO_4 > Na_2SO_4 > NaCl$ (in coagulating power).</p><p><strong>Final Answer:</strong> $Na_3PO_4 > Na_2SO_4 > NaCl$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Particle size of colloid:</p>",
+              "options": [
+                "$< 1$ nm",
+                "$1-1000$ nm",
+                "$> 1\\mu$m",
+                "$> 1$ mm"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Tyndall effect is shown by:</p>",
+              "options": [
+                "True solution",
+                "Suspension",
+                "Colloid",
+                "Pure water"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Lyophilic colloid:</p>",
+              "options": [
+                "Stable",
+                "Reversible",
+                "Self-stabilized",
+                "All above"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Hardy-Schulze rule:</p>",
+              "options": [
+                "Higher charge → less coagulating",
+                "Higher charge → more coagulating",
+                "Same charge → equal",
+                "Random"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Brownian motion is due to:</p>",
+              "options": [
+                "Gravity",
+                "Solvent molecule collisions",
+                "Magnetic field",
+                "Light"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Emulsions, Applications, and Surface Activity",
+          "concept": "<p><strong>Emulsions:</strong> Liquid dispersed in another liquid. Two main types:</p><table class=\"md-table\"><thead><tr><th>Type</th><th>Description</th><th>Example</th></tr></thead><tbody><tr><td><strong>O/W (Oil in Water)</strong></td><td>Oil dispersed in water</td><td>Milk, vanishing cream</td></tr><tr><td><strong>W/O (Water in Oil)</strong></td><td>Water dispersed in oil</td><td>Butter, cold cream</td></tr></tbody></table><p><strong>Emulsifying Agent:</strong> Stabilizes emulsion; reduces interfacial tension.</p><ul><li>For O/W: soap, gelatin, proteins</li><li>For W/O: long-chain fatty acids, gum, lanolin</li></ul><p><strong>Identification:</strong></p><ul><li>Add water-soluble dye: dye spreads → O/W; dye doesn't spread → W/O</li><li>Dilute with water: stable → O/W; separates → W/O</li><li>Conductance: O/W conducts; W/O doesn't</li></ul><p><strong>Demulsification:</strong> Breaking emulsions by:</p><ul><li>Heating</li><li>Freezing</li><li>Centrifugation</li><li>Adding electrolyte</li><li>Adding more emulsifier of opposite type</li></ul><p><strong>Cleansing Action of Soap:</strong> Soaps are O/W emulsifiers.</p><ul><li>Soap molecule has hydrophobic tail (alkyl chain) + hydrophilic head ($-COO^-Na^+$)</li><li>Head dissolves in water; tail in grease/oil</li><li>Forms micelles: tails inward, heads outward; suspends grease in water → washes off</li></ul><p><strong>Applications of Colloids:</strong></p><table class=\"md-table\"><thead><tr><th>Application</th><th>Example</th></tr></thead><tbody><tr><td>Medicine</td><td>Argyrol (Ag sol — antiseptic), colloidal Au (anti-rheumatic), colloidal antimony (kala-azar)</td></tr><tr><td>Food</td><td>Milk (emulsion), butter (emulsion), ice cream (foam-emulsion), bread (gel)</td></tr><tr><td>Cosmetics</td><td>Creams (emulsions), shaving gel (foam)</td></tr><tr><td>Cottrell's smoke precipitator</td><td>Removes carbon particles from industrial smoke using high-voltage electrodes</td></tr><tr><td>Sewage disposal</td><td>Coagulation of charged particles by oppositely charged sols</td></tr><tr><td>Tanning of leather</td><td>Hide proteins coagulated by chrome alum</td></tr><tr><td>Artificial rain</td><td>Spraying charged particles (e.g., NaCl, AgI) into clouds</td></tr><tr><td>Delta formation</td><td>Where river meets sea: clay colloids coagulated by salt water</td></tr><tr><td>Cottage industries</td><td>Curdling of milk in cheese-making</td></tr><tr><td>Blue color of sky</td><td>Tyndall scattering by atmospheric particles</td></tr><tr><td>Photography</td><td>AgBr emulsion on gelatin (gel)</td></tr></tbody></table><p><strong>Industrial Applications:</strong></p><p><strong>Cottrell Smoke Precipitator:</strong> Electrostatic precipitation. Industrial smoke passed through chamber with positive electrodes. Charged smoke particles attracted, settle, removed.</p><p><strong>Sewage Treatment:</strong> Sewage particles are charged colloids. Pass through tanks with electrodes; coagulate and settle.</p><p><strong>Tear Gas Defense:</strong> Tear gases are aerosols; affect mucous membranes.</p><p><strong>Surface Activity:</strong></p><p><strong>Surfactant (Surface-active agent):</strong> Substance that reduces surface tension at interface. Has hydrophilic head + hydrophobic tail.</p><p><strong>Types:</strong></p><ul><li><strong>Anionic:</strong> Head is anion (soaps, sodium dodecyl sulfate)</li><li><strong>Cationic:</strong> Head is cation (quaternary ammonium salts)</li><li><strong>Nonionic:</strong> No charge (Triton X)</li><li><strong>Amphoteric:</strong> Has both + and - (lecithin)</li></ul><p><strong>Micelles:</strong> Aggregates of surfactant molecules above critical micelle concentration (CMC). Hydrophobic tails inside, hydrophilic heads outside.</p><p><strong>Critical Micelle Concentration (CMC):</strong> Min concentration for micelle formation. For soap: ~$10^{-3}$ to $10^{-4}$ M.</p><p><strong>Kraft Temperature:</strong> Below this T, surfactant exists as crystal; above, forms micelles.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why does milk turn sour and why is butter formed by churning?</p>",
+              "solution": "<p><strong>Milk turning sour:</strong> Bacteria convert lactose to lactic acid; pH drops; proteins (casein) coagulate forming curd. <strong>Butter formation:</strong> Churning destabilizes O/W emulsion of cream (fat globules in water); fat globules cluster, water expels; W/O emulsion (butter) results.</p><p><strong>Final Answer:</strong> Acid coagulation; emulsion inversion respectively.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is soap a good cleansing agent?</p>",
+              "solution": "<p>Soap reduces interfacial tension between oil/water. Hydrophobic tails dissolve in oily dirt; hydrophilic heads in water. Forms micelles encapsulating dirt; entire micelle suspended in water; washed away.</p><p><strong>Final Answer:</strong> Forms micelles around dirt; suspends in water.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Milk is an example of:</p>",
+              "options": [
+                "Sol",
+                "O/W emulsion",
+                "W/O emulsion",
+                "Foam"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Identify O/W emulsion:</p>",
+              "options": [
+                "Doesn't conduct",
+                "Dilutes with water",
+                "Doesn't take water-soluble dye",
+                "None"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Cottrell smoke precipitator works by:</p>",
+              "options": [
+                "Filtration",
+                "Electrostatic coagulation",
+                "Heating",
+                "Burning"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Critical Micelle Concentration is:</p>",
+              "options": [
+                "Min concentration for micelle formation",
+                "Saturation concentration",
+                "Below which surfactant inactive",
+                "Same as Kraft T"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Tear-gas defense uses:</p>",
+              "options": [
+                "Liquid in solid",
+                "Aerosol",
+                "Gel",
+                "Solid foam"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-chem-surface-chemistry-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>Adsorption of gas on solid at low T is:</p>",
+              "options": [
+                "Chemisorption",
+                "Physisorption",
+                "Both",
+                "None"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Enthalpy of chemisorption is:</p>",
+              "options": [
+                "$20-40$ kJ/mol",
+                "$80-240$ kJ/mol",
+                "Negative",
+                "Zero"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Catalyst in Contact process:</p>",
+              "options": [
+                "Fe",
+                "$V_2O_5$",
+                "Pt",
+                "Ni"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Enzymes are most active at:</p>",
+              "options": [
+                "Very low T",
+                "Their optimum T and pH",
+                "Boiling T",
+                "Acidic only"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Tyndall effect distinguishes:</p>",
+              "options": [
+                "Solute from solvent",
+                "Colloid from true solution",
+                "Liquid from solid",
+                "Gas from liquid"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$Fe(OH)_3$ sol is:</p>",
+              "options": [
+                "Positively charged",
+                "Negatively charged",
+                "Neutral",
+                "Variable"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Brownian motion proves:</p>",
+              "options": [
+                "Particles in colloid are in random motion",
+                "Sedimentation",
+                "Boiling",
+                "Coagulation"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Effective coagulant for $As_2S_3$ negative sol:</p>",
+              "options": [
+                "NaCl",
+                "$AlCl_3$ ($Al^{3+}$, highest +charge cation common)",
+                "KCl",
+                "NH₄Cl"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Butter is example of:</p>",
+              "options": [
+                "O/W emulsion",
+                "W/O emulsion",
+                "Gel",
+                "Sol"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Curdling of milk on standing:</p>",
+              "options": [
+                "Lyophilic protein coagulation by lactic acid",
+                "Boiling",
+                "Emulsion inversion",
+                "Chemical reaction with water"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Particle size range in colloid (lower limit in nm):</p>",
+              "answer": "1",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of phases in heterogeneous catalysis (catalyst + reactants in different phase, so min 2):</p>",
+              "answer": "2",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of types of emulsions (basic two types):</p>",
+              "answer": "2",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Lyophobic sols need stabilizer for stability. <strong>Reason (R):</strong> They have weak attraction with dispersion medium.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> Soap acts as good cleansing agent. <strong>Reason (R):</strong> Soap has hydrophobic tail and hydrophilic head; forms micelles encapsulating oil/dirt.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

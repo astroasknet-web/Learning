@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "physics",
+  "chapter": 16,
+  "title": "Dual Nature of Matter and Radiation",
+  "slug": "dual-nature-of-matter-and-radiation",
+  "subtitle": "Dual Nature of Matter and Radiation for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#dc2626",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "Master Dual Nature of Matter and Radiation for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Photoelectric Effect",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Photoelectric Effect Observations and Laws",
+          "concept": "<p><strong>Photoelectric Effect:</strong> Emission of electrons (photoelectrons) from a metal surface when light of suitable frequency falls on it. Discovered by <strong>Heinrich Hertz</strong> (1887); systematically studied by <strong>Hallwachs</strong> and <strong>Lenard</strong>.</p><p><strong>Key Experimental Observations:</strong></p><ol><li><strong>Threshold Frequency</strong> $\\nu_0$: Minimum frequency below which no photoelectric emission occurs, regardless of intensity. Different for different metals.</li><li><strong>Instantaneous Emission:</strong> No measurable time lag between incidence of light and electron emission ($\\sim 10^{-9}$ s).</li><li><strong>Stopping Potential</strong> $V_0$: Reverse potential at which photocurrent becomes zero. Depends only on frequency, <strong>not intensity</strong>.</li><li><strong>Saturation Current:</strong> Photocurrent reaches saturation when all emitted electrons reach anode. <strong>Proportional to intensity.</strong></li><li>Stopping potential varies linearly with frequency: $V_0 = (h/e)\\nu - (\\phi/e)$.</li></ol><p><strong>Laws of Photoelectric Emission:</strong></p><table class=\"md-table\"><thead><tr><th>Law</th><th>Statement</th></tr></thead><tbody><tr><td>First</td><td>Photocurrent $\\propto$ intensity (for $\\nu > \\nu_0$)</td></tr><tr><td>Second</td><td>Max KE of photoelectrons depends on frequency, not intensity</td></tr><tr><td>Third</td><td>Photoelectric emission stops below $\\nu_0$, regardless of intensity</td></tr><tr><td>Fourth</td><td>Emission is instantaneous</td></tr></tbody></table><p><strong>Failure of Classical Wave Theory:</strong></p><ul><li>Cannot explain threshold frequency (wave intensity should give energy regardless of $\\nu$)</li><li>Cannot explain instantaneous emission</li><li>Cannot explain why KE is independent of intensity</li><li>Predicts time delay for weak intensity</li></ul><p><strong>Work Function</strong> $\\phi$: Minimum energy required to liberate electron from metal surface. $\\phi = h\\nu_0$, where $\\nu_0$ = threshold frequency. Typically a few eV: $\\phi_{\\text{Cs}} = 1.8$ eV, $\\phi_{\\text{Pt}} = 6.4$ eV.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Threshold wavelength for cesium is $660$ nm. Find work function in eV.</p>",
+              "solution": "<p>$$\\phi = \\frac{hc}{\\lambda_0} = \\frac{1240 \\text{ eV·nm}}{660 \\text{ nm}} \\approx 1.88 \\text{ eV}$$</p><p><strong>Final Answer:</strong> $\\phi \\approx 1.88$ eV.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>When light of $\\lambda = 400$ nm illuminates a metal of $\\phi = 2$ eV, find the stopping potential.</p>",
+              "solution": "<p>$E_{\\text{photon}} = hc/\\lambda = 1240/400 = 3.1$ eV. $K_{\\max} = E_{\\text{photon}} - \\phi = 3.1 - 2 = 1.1$ eV. $V_0 = K_{\\max}/e = 1.1$ V.</p><p><strong>Final Answer:</strong> $V_0 = 1.1$ V.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Photoelectric effect was first observed by:</p>",
+              "options": [
+                "Einstein",
+                "Hertz",
+                "Planck",
+                "Bohr"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The stopping potential depends on:</p>",
+              "options": [
+                "Intensity only",
+                "Frequency of incident light",
+                "Wavelength of cathode",
+                "Time"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Maximum KE of photoelectrons depends on:</p>",
+              "options": [
+                "Intensity of light",
+                "Frequency of light",
+                "Both",
+                "Anode voltage"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Below threshold frequency:</p>",
+              "options": [
+                "Photoelectrons are emitted slowly",
+                "No emission regardless of intensity",
+                "Emission with delay",
+                "Emission depends on intensity"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Saturation photocurrent depends on:</p>",
+              "options": [
+                "Frequency",
+                "Intensity",
+                "Work function",
+                "Cathode material only"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Einstein's Photoelectric Equation and Applications",
+          "concept": "<p><strong>Einstein's Quantum Theory of Light (1905):</strong> Light consists of quanta (photons) of energy $E = h\\nu$. In photoelectric emission, each photon delivers all its energy to one electron.</p><p><strong>Einstein's Photoelectric Equation:</strong> $$h\\nu = \\phi + K_{\\max}$$ $$K_{\\max} = h\\nu - \\phi = h(\\nu - \\nu_0) = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$</p><p>Equivalently: $K_{\\max} = eV_0$ (in terms of stopping potential).</p><p><strong>Photon Properties:</strong></p><table class=\"md-table\"><thead><tr><th>Property</th><th>Formula</th></tr></thead><tbody><tr><td>Energy</td><td>$E = h\\nu = hc/\\lambda$</td></tr><tr><td>Momentum</td><td>$p = E/c = h\\nu/c = h/\\lambda$</td></tr><tr><td>Rest mass</td><td>$0$</td></tr><tr><td>Speed</td><td>$c$ (in vacuum)</td></tr><tr><td>Effective mass</td><td>$m = E/c^2 = h\\nu/c^2 = h/(c\\lambda)$</td></tr></tbody></table><p><strong>Useful constants:</strong></p><ul><li>$h = 6.626 \\times 10^{-34}$ J·s = $4.136 \\times 10^{-15}$ eV·s</li><li>$hc = 1240$ eV·nm $= 1240$ MeV·fm</li><li>$1$ eV $= 1.6 \\times 10^{-19}$ J</li></ul><p><strong>Robert Millikan</strong> (1916) verified Einstein's equation; slope of $V_0$ vs $\\nu$ graph = $h/e$. Used to measure $h$.</p><p><strong>Number of Photons per second</strong> from source of power $P$ at wavelength $\\lambda$: $$N = \\frac{P}{E_{\\text{photon}}} = \\frac{P\\lambda}{hc}$$</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the energy and momentum of a photon of $\\lambda = 600$ nm.</p>",
+              "solution": "<p>$$E = hc/\\lambda = (6.626 \\times 10^{-34})(3 \\times 10^8)/(600 \\times 10^{-9})$$ $$= 3.31 \\times 10^{-19} \\text{ J} \\approx 2.07 \\text{ eV}$$ $$p = h/\\lambda = 6.626 \\times 10^{-34}/(600 \\times 10^{-9}) = 1.1 \\times 10^{-27} \\text{ kg·m/s}$$</p><p><strong>Final Answer:</strong> $E \\approx 2.07$ eV; $p \\approx 1.1 \\times 10^{-27}$ kg·m/s.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A $60$ W sodium lamp emits monochromatic light of $\\lambda = 590$ nm. Find number of photons emitted per second (assume $100\\%$ efficiency).</p>",
+              "solution": "<p>$$E_{\\text{photon}} = hc/\\lambda = (6.626 \\times 10^{-34})(3 \\times 10^8)/(590 \\times 10^{-9}) = 3.37 \\times 10^{-19} \\text{ J}$$ $$N = P/E = 60/(3.37 \\times 10^{-19}) \\approx 1.78 \\times 10^{20} \\text{ photons/s}$$</p><p><strong>Final Answer:</strong> $N \\approx 1.78 \\times 10^{20}$ photons/s.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Energy of a photon of frequency $\\nu$:</p>",
+              "options": [
+                "$h\\nu$",
+                "$h/\\nu$",
+                "$h\\nu^2$",
+                "$hc/\\nu$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Momentum of photon:</p>",
+              "options": [
+                "$h/\\lambda$",
+                "$h\\lambda$",
+                "$mc$",
+                "Zero"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Slope of $V_0$ vs $\\nu$ graph:</p>",
+              "options": [
+                "$h$",
+                "$h/e$",
+                "$-\\phi/e$",
+                "$hc$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The energy in eV of a photon of $\\lambda = 248$ nm:</p>",
+              "options": [
+                "$5$ eV",
+                "$2.48$ eV",
+                "$124$ eV",
+                "$10$ eV"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Photoelectric current is independent of:</p>",
+              "options": [
+                "Intensity (when above threshold)",
+                "Frequency",
+                "Cathode material",
+                "Anode voltage (above saturation)"
+              ],
+              "correct": 3,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Matter Waves",
+      "topics": [
+        {
+          "number": 1,
+          "title": "de Broglie Wavelength and Wave-Particle Duality",
+          "concept": "<p><strong>de Broglie Hypothesis (1924):</strong> All moving matter has wave-like properties. The wavelength associated with a particle: $$\\lambda = \\frac{h}{p} = \\frac{h}{mv}$$</p><p>This is the <strong>de Broglie wavelength</strong>, exhibiting wave-particle duality of matter (parallel to that of light).</p><p><strong>de Broglie Wavelength for Particle of KE $K$:</strong> $$\\lambda = \\frac{h}{\\sqrt{2mK}}$$</p><p>For charged particle accelerated through potential $V$: $K = qV$. $$\\lambda = \\frac{h}{\\sqrt{2mqV}}$$</p><p>For electron accelerated through $V$ volts: $$\\lambda_e = \\frac{12.27}{\\sqrt{V}} \\text{ Å} = \\frac{1.227}{\\sqrt{V}} \\text{ nm}$$</p><p><strong>Comparison with Photon:</strong></p><table class=\"md-table\"><thead><tr><th>Property</th><th>Photon</th><th>Matter particle</th></tr></thead><tbody><tr><td>Speed</td><td>$c$</td><td>$v < c$</td></tr><tr><td>Rest mass</td><td>$0$</td><td>$m_0 \\neq 0$</td></tr><tr><td>Energy</td><td>$h\\nu = hc/\\lambda$</td><td>$K + mc^2$ (rel.); $p^2/(2m)$ (non-rel.)</td></tr><tr><td>Momentum</td><td>$h/\\lambda$</td><td>$mv$ or $h/\\lambda$</td></tr></tbody></table><p><strong>Heisenberg Uncertainty Principle:</strong> $$\\Delta x \\cdot \\Delta p \\geq h/(4\\pi) = \\hbar/2$$</p><p>Position and momentum cannot be measured simultaneously with arbitrary precision. Similarly: $\\Delta E \\cdot \\Delta t \\geq \\hbar/2$.</p><p><strong>Useful approximations</strong> for de Broglie wavelength:</p><ul><li>Electron at $100$ V: $\\lambda \\approx 1.227$ Å</li><li>Thermal neutron ($\\sim 300$ K, $K \\approx 0.025$ eV): $\\lambda \\approx 1.8$ Å</li><li>$1$ kg ball at $1$ m/s: $\\lambda \\approx 10^{-34}$ m (negligibly small)</li></ul><p>Matter waves significant only at microscopic scales.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find de Broglie wavelength of electron accelerated through $100$ V.</p>",
+              "solution": "<p>$$\\lambda = \\frac{12.27}{\\sqrt{100}} = \\frac{12.27}{10} = 1.227 \\text{ Å}$$</p><p><strong>Final Answer:</strong> $\\lambda \\approx 1.23$ Å.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find de Broglie wavelength of a $0.05$ kg ball moving at $20$ m/s. Comment.</p>",
+              "solution": "<p>$$\\lambda = h/(mv) = (6.626 \\times 10^{-34})/(0.05 \\times 20) = 6.63 \\times 10^{-34} \\text{ m}$$</p><p>Extremely small — far less than any nuclear dimension. Wave nature negligible at macroscopic scales.</p><p><strong>Final Answer:</strong> $\\lambda \\approx 6.63 \\times 10^{-34}$ m (negligible).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The de Broglie wavelength of a particle:</p>",
+              "options": [
+                "$h\\cdot p$",
+                "$h/p$",
+                "$hp^2$",
+                "$p/h$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>de Broglie wavelength of electron at $100$ V:</p>",
+              "options": [
+                "$0.123$ Å",
+                "$1.23$ Å",
+                "$12.3$ Å",
+                "$123$ Å"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The Heisenberg uncertainty principle relates:</p>",
+              "options": [
+                "Energy and time",
+                "Position and momentum",
+                "Both (a) and (b)",
+                "Mass and velocity"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Matter waves are significant at:</p>",
+              "options": [
+                "Macroscopic scale",
+                "Microscopic scale",
+                "Cosmic scale",
+                "All scales equally"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>de Broglie wavelength of particle of KE $K$ and mass $m$:</p>",
+              "options": [
+                "$h/(mK)$",
+                "$h/\\sqrt{mK}$",
+                "$h/\\sqrt{2mK}$",
+                "$\\sqrt{2mK}/h$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Davisson-Germer Experiment and Applications",
+          "concept": "<p><strong>Davisson-Germer Experiment (1927):</strong> Confirmed wave nature of electrons. They scattered low-energy electrons (54 eV) off nickel crystal and observed a pronounced peak at $\\theta = 50°$ from incident direction, consistent with Bragg-like diffraction.</p><p><strong>Experimental Setup:</strong></p><ul><li>Electron gun produces beam (accelerating voltage $V = 54$ V)</li><li>Beam hits nickel target</li><li>Scattered electrons detected at various angles</li><li>Sharp peak at $50°$ confirms diffraction</li></ul><p><strong>Result:</strong> Wavelength calculated from de Broglie ($\\lambda = 12.27/\\sqrt{54} = 1.67$ Å) matched wavelength from Bragg's diffraction formula → confirmed matter waves.</p><p><strong>G. P. Thomson Experiment:</strong> Independent confirmation by passing electron beam through thin metal films; observed diffraction rings similar to X-ray diffraction. Won Nobel Prize 1937 (with Davisson).</p><p><strong>Bragg's Law:</strong> $2d\\sin\\theta = n\\lambda$, where $d$ = atomic plane spacing.</p><p><strong>Applications of Matter Waves:</strong></p><table class=\"md-table\"><thead><tr><th>Application</th><th>Use</th></tr></thead><tbody><tr><td>Electron microscope</td><td>Higher resolution than optical microscope (smaller $\\lambda$ → finer detail)</td></tr><tr><td>Neutron diffraction</td><td>Studying crystal structure (neutrons have suitable $\\lambda$ at thermal energies)</td></tr><tr><td>Scanning tunneling microscope</td><td>Atomic-scale imaging</td></tr><tr><td>Particle accelerators</td><td>Use wave properties in quantum mechanics calculations</td></tr></tbody></table><p><strong>Electron Microscope:</strong> Better resolution because $\\lambda_{\\text{electron}} \\ll \\lambda_{\\text{light}}$. Can resolve atomic structures.</p><p><strong>Compton Effect:</strong> Scattering of X-ray photons by electrons. Wavelength shift: $$\\Delta\\lambda = \\frac{h}{m_e c}(1 - \\cos\\theta) = \\lambda_C(1 - \\cos\\theta)$$ where $\\lambda_C = h/(m_e c) = 0.0243$ Å is <strong>Compton wavelength of electron</strong>. Established particle nature of light.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Davisson-Germer experiment uses electron accelerated through $54$ V. Find de Broglie wavelength.</p>",
+              "solution": "<p>$$\\lambda = 12.27/\\sqrt{54} \\approx 12.27/7.35 \\approx 1.67 \\text{ Å}$$</p><p><strong>Final Answer:</strong> $\\lambda \\approx 1.67$ Å.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A photon of $\\lambda = 0.1$ Å is scattered by an electron at $90°$. Find the wavelength shift.</p>",
+              "solution": "<p>$$\\Delta\\lambda = \\lambda_C(1 - \\cos 90°) = 0.0243(1 - 0) = 0.0243 \\text{ Å}$$</p><p><strong>Final Answer:</strong> $\\Delta\\lambda \\approx 0.024$ Å.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The Davisson-Germer experiment established:</p>",
+              "options": [
+                "Wave nature of matter",
+                "Particle nature of light",
+                "Photoelectric effect",
+                "Existence of nucleus"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The de Broglie wavelength of electron in Davisson-Germer ($V = 54$ V):</p>",
+              "options": [
+                "$0.167$ Å",
+                "$1.67$ Å",
+                "$16.7$ Å",
+                "$167$ Å"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The electron microscope has high resolution because:</p>",
+              "options": [
+                "Higher energy",
+                "Shorter de Broglie wavelength",
+                "Magnetic lenses",
+                "Vacuum operation"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Compton effect demonstrates:</p>",
+              "options": [
+                "Wave nature of light",
+                "Particle nature of light",
+                "Wave nature of electrons",
+                "Photoelectric emission"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Bragg's law:</p>",
+              "options": [
+                "$d\\sin\\theta = n\\lambda$",
+                "$2d\\sin\\theta = n\\lambda$",
+                "$d\\cos\\theta = n\\lambda$",
+                "$d = n\\lambda$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-phys-dual-nature-of-matter-and-radiation-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>The number of photons emitted by a $25$ W lamp ($\\lambda = 500$ nm) per second:</p>",
+              "options": [
+                "$6.3 \\times 10^{19}$",
+                "$6.3 \\times 10^{18}$",
+                "$6.3 \\times 10^{20}$",
+                "$1.26 \\times 10^{20}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The threshold frequency for a metal is $5 \\times 10^{14}$ Hz. Light of $\\nu = 8 \\times 10^{14}$ Hz incident; $K_{\\max}$:</p>",
+              "options": [
+                "$1.24$ eV",
+                "$0.5$ eV",
+                "$2.07$ eV",
+                "$5$ eV"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The maximum velocity of photoelectron depends on:</p>",
+              "options": [
+                "Wavelength only",
+                "Frequency only",
+                "Wavelength and work function",
+                "Intensity"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>An electron and proton have same KE. Ratio of de Broglie wavelengths $\\lambda_e/\\lambda_p$:</p>",
+              "options": [
+                "$1$",
+                "$\\sqrt{m_p/m_e}$",
+                "$m_p/m_e$",
+                "$\\sqrt{m_e/m_p}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The photoelectric current is independent of:</p>",
+              "options": [
+                "Intensity (above threshold)",
+                "Anode voltage (saturated)",
+                "Frequency",
+                "Wavelength"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Photons of $5$ eV are incident on photocathode of $\\phi = 2$ eV. Maximum KE:</p>",
+              "options": [
+                "$3$ eV",
+                "$7$ eV",
+                "$10$ eV",
+                "$0.5$ eV"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The work function of a metal:</p>",
+              "options": [
+                "Depends on intensity",
+                "Is independent of incident light",
+                "Varies with time",
+                "Equals KE of photoelectrons"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Heisenberg uncertainty principle reads:</p>",
+              "options": [
+                "$\\Delta x \\cdot \\Delta p \\geq h/(2\\pi)$",
+                "$\\Delta x \\cdot \\Delta p \\geq h/(4\\pi)$",
+                "$\\Delta x \\cdot \\Delta p \\geq h$",
+                "$\\Delta x \\cdot \\Delta p \\geq 1/h$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The momentum of a photon of energy $E$:</p>",
+              "options": [
+                "$E$",
+                "$E/c$",
+                "$Ec$",
+                "$c/E$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>de Broglie wavelength of electron through $25$ V:</p>",
+              "options": [
+                "$0.245$ Å",
+                "$2.45$ Å",
+                "$24.5$ Å",
+                "$1.225$ Å"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>The threshold wavelength of a metal is $620$ nm. Work function in eV (rounded integer):</p>",
+              "answer": "2",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two photons of frequencies $\\nu$ and $2\\nu$ are incident on same metal. If KE doubles, find $\\phi/h\\nu$:</p>",
+              "answer": "0",
+              "explanation": ""
+            },
+            {
+              "q": "<p>An electron moves at $v = 6 \\times 10^6$ m/s. de Broglie wavelength in $10^{-10}$ m (rounded integer; use $h/m_e = 1.1 \\times 10^{-4}$ approximate):</p>",
+              "answer": "1",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Photoelectric emission is instantaneous. <strong>Reason (R):</strong> Each photon interacts with one electron and delivers all its energy.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> Matter waves cannot be observed for macroscopic objects. <strong>Reason (R):</strong> de Broglie wavelength is inversely proportional to mass, becoming very small for large masses.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

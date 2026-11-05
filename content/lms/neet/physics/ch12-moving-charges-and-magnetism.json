@@ -1,0 +1,168 @@
+{
+  "exam": "neet",
+  "subject": "physics",
+  "chapter": 12,
+  "title": "Moving Charges & Magnetism",
+  "slug": "moving-charges-and-magnetism",
+  "subtitle": "Magnetic force, Biot–Savart & Ampere's law, solenoids & moving-coil galvanometer",
+  "level": "NEET (UG)",
+  "color": "#2563eb",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "NEET Physics — Moving Charges & Magnetism: magnetic force on charges and currents, motion in a magnetic field, Biot–Savart law, magnetic field of loops and solenoids, Ampere's law, force between currents and the moving-coil galvanometer, with NEET-level examples and MCQs. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Magnetic Force on Charges and Currents",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Magnetic Force and Motion of a Charge in a Field",
+          "concept": "<p>A magnetic field exerts a force only on <em>moving</em> charges. The <strong>Lorentz force</strong> on a charge $q$ moving with velocity $v$ in a field $B$ has magnitude $F = qvB\\sin\\theta$, where $\\theta$ is the angle between $v$ and $B$. The direction is given by the right-hand rule and is always <em>perpendicular</em> to both $v$ and $B$ — a defining feature with deep consequences.</p><p>Because the force is perpendicular to the velocity, it can change the direction of motion but never the speed. A magnetic force therefore <strong>does no work</strong> on a charged particle, so the kinetic energy and speed stay constant — one of the most-tested conceptual points in this chapter. The force is zero when the charge moves parallel to the field ($\\theta = 0$) and maximum when it moves perpendicular ($\\theta = 90^{\\circ}$).</p><p>When a charge enters a uniform field perpendicular to it, the constant perpendicular force makes it move in a <strong>circle</strong>. The magnetic force supplies the centripetal force, $qvB = \\dfrac{mv^{2}}{r}$, giving the radius $r = \\dfrac{mv}{qB}$. The time period $T = \\dfrac{2\\pi m}{qB}$ is striking because it is <em>independent of speed</em> — faster particles simply trace larger circles in the same time, the principle behind the cyclotron.</p><p>If the velocity has a component along the field as well, the path becomes a <strong>helix</strong>: the parallel component carries the particle steadily forward while the perpendicular component drives the circular motion. When both electric and magnetic fields are present, the combined Lorentz force is $F = qE + qvB$, and a <strong>velocity selector</strong> uses balanced electric and magnetic forces to let through only particles of a chosen speed $v = E/B$.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Expression</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Force on a charge</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$F = qvB\\sin\\theta$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Radius of circular path</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$r = \\dfrac{mv}{qB}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Time period</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$T = \\dfrac{2\\pi m}{qB}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Velocity selector</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$v = E/B$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A proton moves at $2\\times10^{6}\\ \\text{m/s}$ perpendicular to a field of $0.5\\ \\text{T}$. Find the magnetic force. ($q = 1.6\\times10^{-19}\\ \\text{C}$)</p>",
+              "solution": "<p>$F = qvB\\sin90^{\\circ} = (1.6\\times10^{-19})(2\\times10^{6})(0.5) = 1.6\\times10^{-13}\\ \\text{N}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why does a magnetic field not change the speed of a charged particle?</p>",
+              "solution": "<p>The magnetic force is always perpendicular to the velocity, so it does no work ($W = Fd\\cos90^{\\circ} = 0$). With no work done, kinetic energy and hence speed stay constant — only the direction changes.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The magnetic force on a charge moving parallel to the field is:</p>", "options": ["maximum", "zero", "$qvB$", "infinite"], "correct": 1, "explanation": "$\\sin0^{\\circ} = 0$, so the force is zero." },
+            { "q": "<p>A magnetic force on a moving charge does:</p>", "options": ["positive work", "negative work", "no work", "maximum work"], "correct": 2, "explanation": "Force is perpendicular to velocity, so $W = 0$." },
+            { "q": "<p>The radius of the circular path of a charge in a magnetic field is:</p>", "options": ["$qB/mv$", "$mv/qB$", "$qvB$", "$mvB/q$"], "correct": 1, "explanation": "$r = mv/qB$." },
+            { "q": "<p>The time period of circular motion in a magnetic field is:</p>", "options": ["proportional to speed", "independent of speed", "proportional to radius", "zero"], "correct": 1, "explanation": "$T = 2\\pi m/qB$ — independent of $v$." },
+            { "q": "<p>In a velocity selector, particles pass undeflected when:</p>", "options": ["$v = EB$", "$v = E/B$", "$v = B/E$", "$v = qE$"], "correct": 1, "explanation": "Electric and magnetic forces balance at $v = E/B$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> The magnetic force is always perpendicular to $v$ — it changes direction, never speed. Remember $r = mv/qB$ and that $T$ does not depend on speed.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Force on a Current-Carrying Conductor",
+          "concept": "<p>Since a current is a stream of moving charges, a current-carrying wire in a magnetic field experiences a force. For a straight wire of length $L$ carrying current $I$ in a field $B$, the force is $F = BIL\\sin\\theta$, where $\\theta$ is the angle between the wire and the field. The direction follows <strong>Fleming's left-hand rule</strong> — a reliable shortcut for NEET, with thumb, forefinger and middle finger giving force, field and current.</p><p>This force is the working principle of every electric motor and loudspeaker. It is maximum when the wire is perpendicular to the field and zero when the wire lies along the field. A useful exam habit is to resolve the wire or the field into perpendicular and parallel parts, since only the perpendicular part contributes.</p><p>A current <strong>loop</strong> in a uniform field feels no net force (the forces on opposite sides cancel) but does feel a <strong>torque</strong> that tries to rotate it. For a coil of $N$ turns, area $A$, carrying current $I$, the torque is $\\tau = NIAB\\sin\\theta$, where $\\theta$ is measured from the field. This is the basis of the moving-coil galvanometer and the DC motor.</p><p>The product $NIA$ behaves like a <strong>magnetic dipole moment</strong> $m = NIA$, so a current loop acts exactly like a tiny bar magnet, with the torque written compactly as $\\tau = mB\\sin\\theta$. This dipole analogy — a current loop equals a magnet — is a recurring NEET theme that links this chapter to magnetism of materials.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Expression</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Force on a wire</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$F = BIL\\sin\\theta$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Torque on a coil</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\tau = NIAB\\sin\\theta$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Magnetic moment</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$m = NIA$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A wire of length $0.2\\ \\text{m}$ carries $5\\ \\text{A}$ perpendicular to a field of $0.4\\ \\text{T}$. Find the force on it.</p>",
+              "solution": "<p>$F = BIL\\sin90^{\\circ} = 0.4\\times5\\times0.2 = 0.4\\ \\text{N}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A coil of $100$ turns and area $2\\times10^{-3}\\ \\text{m}^{2}$ carries $1\\ \\text{A}$ in a field of $0.5\\ \\text{T}$, oriented for maximum torque. Find the torque.</p>",
+              "solution": "<p>$\\tau = NIAB\\sin90^{\\circ} = 100\\times1\\times(2\\times10^{-3})\\times0.5 = 0.1\\ \\text{N m}$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The force on a current-carrying wire is maximum when it is:</p>", "options": ["parallel to $B$", "perpendicular to $B$", "at $45^{\\circ}$ to $B$", "stationary"], "correct": 1, "explanation": "$F = BIL\\sin\\theta$ is maximum at $\\theta = 90^{\\circ}$." },
+            { "q": "<p>The direction of force on a current in a field is given by:</p>", "options": ["Fleming's right-hand rule", "Fleming's left-hand rule", "Lenz's law", "Gauss's law"], "correct": 1, "explanation": "Fleming's left-hand rule gives the motor force." },
+            { "q": "<p>The net force on a closed current loop in a uniform field is:</p>", "options": ["maximum", "zero", "$BIL$", "infinite"], "correct": 1, "explanation": "Forces on opposite sides cancel; net force is zero." },
+            { "q": "<p>The torque on a coil of $N$ turns is:</p>", "options": ["$IAB$", "$NIAB\\sin\\theta$", "$NIA/B$", "$NB/IA$"], "correct": 1, "explanation": "$\\tau = NIAB\\sin\\theta$." },
+            { "q": "<p>The magnetic moment of a current loop is:</p>", "options": ["$IA$ per turn, $NIA$ total", "$B/IA$", "$NIAB$", "$I/A$"], "correct": 0, "explanation": "$m = NIA$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> A current loop equals a magnetic dipole of moment $m = NIA$. Net force on a loop in a uniform field is zero, but the torque $\\tau = mB\\sin\\theta$ is not.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Magnetic Fields of Currents",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Biot–Savart Law and Magnetic Field of Loops and Solenoids",
+          "concept": "<p>Currents not only feel magnetic forces, they also <em>produce</em> magnetic fields. The <strong>Biot–Savart law</strong> gives the field of a small current element: $dB = \\dfrac{\\mu_0}{4\\pi}\\dfrac{I\\,dl\\sin\\theta}{r^{2}}$, where $\\mu_0 = 4\\pi\\times10^{-7}\\ \\text{T m A}^{-1}$ is the permeability of free space. The field is perpendicular to the plane containing the element and the point, falling off as $1/r^{2}$.</p><p>Integrating this gives standard results worth memorising. The field at distance $r$ from a <strong>long straight wire</strong> is $B = \\dfrac{\\mu_0 I}{2\\pi r}$, circling the wire (right-hand grip rule) and falling as $1/r$. At the <strong>centre of a circular loop</strong> of radius $R$ it is $B = \\dfrac{\\mu_0 I}{2R}$, and for $N$ turns it is $N$ times this — a very common NEET numerical.</p><p>A <strong>solenoid</strong>, a tightly wound coil, produces a strong, nearly uniform field inside and a weak field outside. The interior field is $B = \\mu_0 n I$, where $n$ is the number of turns per unit length — notably independent of the solenoid's radius. A solenoid behaves like a bar magnet, with one end acting as a north pole and the other as a south pole, linking neatly to the dipole idea.</p><p>A <strong>toroid</strong> is a solenoid bent into a doughnut; its field is confined entirely within the ring, $B = \\dfrac{\\mu_0 N I}{2\\pi r}$, with essentially zero field outside. These geometry-specific formulas — straight wire, loop, solenoid, toroid — are the toolkit NEET expects you to apply quickly without re-deriving.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Source</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Magnetic field</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Long straight wire</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$B = \\dfrac{\\mu_0 I}{2\\pi r}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Centre of circular loop</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$B = \\dfrac{\\mu_0 I}{2R}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Inside a solenoid</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$B = \\mu_0 n I$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Inside a toroid</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$B = \\dfrac{\\mu_0 N I}{2\\pi r}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the magnetic field $5\\ \\text{cm}$ from a long straight wire carrying $10\\ \\text{A}$.</p>",
+              "solution": "<p>$B = \\dfrac{\\mu_0 I}{2\\pi r} = \\dfrac{(4\\pi\\times10^{-7})(10)}{2\\pi(0.05)} = \\dfrac{2\\times10^{-6}}{0.05} = 4\\times10^{-5}\\ \\text{T}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A solenoid has $500$ turns over $0.25\\ \\text{m}$ and carries $2\\ \\text{A}$. Find the field inside.</p>",
+              "solution": "<p>$n = 500/0.25 = 2000\\ \\text{turns/m}$. $B = \\mu_0 n I = (4\\pi\\times10^{-7})(2000)(2) \\approx 5.0\\times10^{-3}\\ \\text{T}$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The Biot–Savart law gives a field that varies as:</p>", "options": ["$1/r$", "$1/r^{2}$", "$r$", "$1/r^{3}$"], "correct": 1, "explanation": "$dB \\propto 1/r^2$." },
+            { "q": "<p>The field at distance $r$ from a long straight wire is:</p>", "options": ["$\\mu_0 I/2R$", "$\\mu_0 I/2\\pi r$", "$\\mu_0 n I$", "$\\mu_0 I r$"], "correct": 1, "explanation": "$B = \\mu_0 I/2\\pi r$." },
+            { "q": "<p>The field at the centre of a circular loop of radius $R$ is:</p>", "options": ["$\\mu_0 I/2\\pi R$", "$\\mu_0 I/2R$", "$\\mu_0 n I$", "$\\mu_0 I/R^{2}$"], "correct": 1, "explanation": "$B = \\mu_0 I/2R$." },
+            { "q": "<p>The field inside a long solenoid depends on:</p>", "options": ["its radius", "turns per unit length and current", "its length only", "the wire thickness"], "correct": 1, "explanation": "$B = \\mu_0 n I$, independent of radius." },
+            { "q": "<p>The magnetic field outside an ideal toroid is:</p>", "options": ["maximum", "uniform", "zero", "equal to the inside field"], "correct": 2, "explanation": "Field is confined inside a toroid; outside it is zero." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Memorise the four field formulas. Straight wire $\\propto 1/r$; loop centre uses $2R$; solenoid $\\mu_0 nI$ is radius-independent; toroid confines its field inside.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Ampere's Law, Force Between Currents and the Galvanometer",
+          "concept": "<p><strong>Ampere's circuital law</strong> is the magnetic counterpart of Gauss's law: the line integral of the magnetic field around any closed loop equals $\\mu_0$ times the total current threading the loop, $\\oint \\vec{B}\\cdot d\\vec{l} = \\mu_0 I_{enc}$. For problems with enough symmetry it gives the field far faster than the Biot–Savart law, and it cleanly reproduces the straight-wire and solenoid results.</p><p>Because each current produces a field and each current feels a force in a field, two parallel wires exert forces on each other. The force per unit length is $\\dfrac{F}{L} = \\dfrac{\\mu_0 I_1 I_2}{2\\pi d}$. The crucial NEET rule of thumb is the direction: <strong>currents in the same direction attract, currents in opposite directions repel</strong> — the reverse of how electric charges behave. This mutual force is, in fact, the definition of the ampere.</p><p>The torque on a current loop is harnessed in the <strong>moving-coil galvanometer</strong>. A coil pivoted in a radial magnetic field deflects until the magnetic torque balances the restoring torque of a spring, so the deflection is directly proportional to the current: $I \\propto \\phi$. A radial field is used precisely so that the scale is linear, a detail NEET likes to ask about.</p><p>Two figures of merit describe a galvanometer. Its <strong>current sensitivity</strong> is the deflection per unit current, and its <strong>voltage sensitivity</strong> the deflection per unit voltage. As covered in current electricity, adding a small shunt in parallel converts it to an ammeter, while a large series resistance converts it to a voltmeter — closing the loop between magnetism and circuit measurement.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity / rule</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Statement</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Ampere's law</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\oint \\vec{B}\\cdot d\\vec{l} = \\mu_0 I_{enc}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Force between wires</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\dfrac{F}{L} = \\dfrac{\\mu_0 I_1 I_2}{2\\pi d}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Parallel currents</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>same way attract, opposite repel</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Galvanometer</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$I \\propto$ deflection $\\phi$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Two long parallel wires $10\\ \\text{cm}$ apart carry $3\\ \\text{A}$ and $4\\ \\text{A}$ in the same direction. Find the force per metre and its nature.</p>",
+              "solution": "<p>$\\dfrac{F}{L} = \\dfrac{\\mu_0 I_1 I_2}{2\\pi d} = \\dfrac{(4\\pi\\times10^{-7})(3)(4)}{2\\pi(0.1)} = \\dfrac{2.4\\times10^{-6}}{0.1} = 2.4\\times10^{-5}\\ \\text{N/m}$, attractive (same direction).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is a radial magnetic field used in a moving-coil galvanometer?</p>",
+              "solution": "<p>In a radial field the plane of the coil is always parallel to $B$ ($\\sin\\theta = 1$), so the torque stays $NIAB$ for any deflection. This makes the deflection directly proportional to the current, giving a linear scale.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Ampere's law relates the field integral to:</p>", "options": ["enclosed charge", "enclosed current", "magnetic flux", "voltage"], "correct": 1, "explanation": "$\\oint \\vec{B}\\cdot d\\vec{l} = \\mu_0 I_{enc}$." },
+            { "q": "<p>Two parallel wires carrying current in the same direction:</p>", "options": ["attract", "repel", "exert no force", "rotate"], "correct": 0, "explanation": "Same-direction currents attract." },
+            { "q": "<p>The force per unit length between two parallel currents is proportional to:</p>", "options": ["$d$", "$I_1 I_2/d$", "$d/I_1 I_2$", "$1/I_1 I_2$"], "correct": 1, "explanation": "$F/L = \\mu_0 I_1 I_2/2\\pi d$." },
+            { "q": "<p>In a moving-coil galvanometer, the deflection is proportional to the:</p>", "options": ["square of current", "current", "voltage only", "resistance"], "correct": 1, "explanation": "$I \\propto \\phi$ (radial field gives a linear scale)." },
+            { "q": "<p>The radial field in a galvanometer ensures the scale is:</p>", "options": ["non-linear", "linear", "logarithmic", "inverted"], "correct": 1, "explanation": "Radial field keeps torque constant per unit current, giving a linear scale." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Like (parallel) currents attract, unlike repel — opposite to charges. Use Ampere's law for symmetric geometries, and recall the galvanometer's deflection is proportional to current.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-physics-ch12-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>The magnetic force on a charge is given by:</p>", "options": ["$qE$", "$qvB\\sin\\theta$", "$qvB\\cos\\theta$", "$qv/B$"], "correct": 1, "explanation": "$F = qvB\\sin\\theta$." },
+            { "q": "<p>A charged particle moving in a magnetic field has constant:</p>", "options": ["velocity", "speed", "momentum vector", "displacement"], "correct": 1, "explanation": "The field does no work, so speed (and KE) is constant." },
+            { "q": "<p>The radius of a charged particle's circular path in a field is:</p>", "options": ["$qB/mv$", "$mv/qB$", "$mvB/q$", "$q/mvB$"], "correct": 1, "explanation": "$r = mv/qB$." },
+            { "q": "<p>The field at the centre of a circular loop of $N$ turns is:</p>", "options": ["$\\mu_0 I/2R$", "$N\\mu_0 I/2R$", "$\\mu_0 I/2\\pi R$", "$\\mu_0 N I R$"], "correct": 1, "explanation": "$B = N\\mu_0 I/2R$." },
+            { "q": "<p>The field inside a long solenoid is:</p>", "options": ["$\\mu_0 I/2R$", "$\\mu_0 n I$", "$\\mu_0 I/2\\pi r$", "zero"], "correct": 1, "explanation": "$B = \\mu_0 n I$." },
+            { "q": "<p>Two antiparallel currents (opposite directions):</p>", "options": ["attract", "repel", "exert no force", "merge"], "correct": 1, "explanation": "Opposite currents repel." },
+            { "q": "<p>Ampere's circuital law gives the field most easily for:</p>", "options": ["any arbitrary shape", "symmetric current distributions", "point charges", "capacitors"], "correct": 1, "explanation": "It is practical where symmetry exists." },
+            { "q": "<p>The magnetic moment of a coil of $N$ turns, area $A$, current $I$ is:</p>", "options": ["$IA$", "$NIA$", "$NI/A$", "$NA/I$"], "correct": 1, "explanation": "$m = NIA$." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> A magnetic field cannot change the kinetic energy of a moving charge.<br><strong>R:</strong> The magnetic force is always perpendicular to the velocity of the charge.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Perpendicular force does no work, so KE is unchanged — R explains A." },
+            { "q": "<p><strong>A:</strong> The net force on a current loop placed in a uniform magnetic field is zero.<br><strong>R:</strong> The forces on the opposite sides of the loop are equal and opposite.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Equal and opposite side-forces cancel, giving zero net force — R explains A." },
+            { "q": "<p><strong>A:</strong> Two parallel wires carrying current in the same direction repel each other.<br><strong>R:</strong> Parallel currents in the same direction produce attractive forces.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "Same-direction currents attract, so A is false; R correctly states they attract." },
+            { "q": "<p><strong>A:</strong> A radial magnetic field is used in a moving-coil galvanometer.<br><strong>R:</strong> A radial field makes the deflection directly proportional to the current.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The radial field keeps torque constant per unit current, giving a linear scale — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

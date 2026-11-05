@@ -1,0 +1,771 @@
+{
+  "exam": "ap",
+  "subject": "calculus-ab",
+  "chapter": 6,
+  "title": "Integration and Accumulation of Change",
+  "slug": "integration-and-accumulation",
+  "subtitle": "AP Calculus AB — Unit 6",
+  "level": "AP Calculus AB",
+  "color": "#3b82f6",
+  "icon": "math",
+  "seo": {
+    "title": "Integration and Accumulation of Change — AP Calculus AB | GrowQR",
+    "meta_description": "Master Integration and Accumulation of Change for AP Calculus AB: notes, formulas, worked examples, self-check MCQs and mock tests. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Foundations & Definitions",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Overview, Objectives & Key Definitions",
+          "concept": "<h2>Unit Overview</h2>\n<p>This unit introduces the <strong>integral</strong>, the second pillar of calculus. Where the derivative measures instantaneous rate, the integral measures <strong>accumulated change</strong> — and, geometrically, <strong>area under a curve</strong>. You will build the integral from <strong>Riemann sums</strong>, connect it to antiderivatives through the <strong>Fundamental Theorem of Calculus (FTC)</strong>, and develop core techniques (basic antiderivatives, properties of definite integrals, and <strong>u-substitution</strong>).</p>\n<p>The FTC is the crown jewel: it ties differentiation and integration together as inverse processes. This unit is one of the largest on the exam.</p>\n<p><strong>Big picture:</strong> Integrating a <strong>rate</strong> gives the <strong>total (accumulated) change</strong>; the FTC lets you compute integrals using antiderivatives.</p>\n<hr>\n<h2>Learning Objectives</h2>\n<ul>\n<li>Approximate area/accumulation with <strong>left, right, and midpoint Riemann sums</strong> (and the Trapezoidal Rule).</li>\n<li>Express a definite integral as a <strong>limit of Riemann sums</strong>.</li>\n<li>State and apply <strong>both parts</strong> of the Fundamental Theorem of Calculus.</li>\n<li>Use <strong>properties of definite integrals</strong> (additivity, constant multiple, reversing limits).</li>\n<li>Find <strong>antiderivatives / indefinite integrals</strong> of basic functions.</li>\n<li>Evaluate integrals using <strong>u-substitution</strong> and simple algebraic techniques.</li>\n<li>Interpret <strong>accumulation functions</strong> <code>g(x) = ∫ₐˣ f(t) dt</code>.</li>\n</ul>\n<hr>\n<h2>Prerequisite Concepts</h2>\n<ul>\n<li>Differentiation (to recognize antiderivatives) and the Chain Rule (for u-substitution).</li>\n<li>Summation and area of basic regions.</li>\n<li>Domain awareness (ln|x| for 1/x, etc.).</li>\n</ul>\n<hr>\n<h2>Key Definitions</h2>\n<ul>\n<li><strong>Antiderivative:</strong> F is an antiderivative of f if <code>F&#39;(x) = f(x)</code>. The <strong>indefinite integral</strong> is <code>∫ f(x) dx = F(x) + C</code>.</li>\n<li><strong>Definite integral:</strong> <code>∫ₐᵇ f(x) dx</code> = the limit of Riemann sums = signed area between f and the x-axis on [a, b].</li>\n<li><strong>Riemann sum:</strong> <code>Σ f(xᵢ*) Δx</code> over subintervals; using left, right, or midpoint sample points.</li>\n<li><strong>Accumulation function:</strong> <code>g(x) = ∫ₐˣ f(t) dt</code> — total accumulated amount from a to x.</li>\n</ul>\n<hr>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "If R(t) is the rate (gallons/min) at which water flows into a tank, what does the integral from 0 to 10 of R(t) dt represent?",
+              "options": [
+                "The total gallons of water added over the first 10 minutes",
+                "The flow rate at t = 10",
+                "The average rate",
+                "The volume of the tank"
+              ],
+              "correct": 0,
+              "explanation": "Integrating a rate of change over an interval gives the total accumulated change; here that is the total volume of water added from t = 0 to t = 10."
+            },
+            {
+              "q": "By the Fundamental Theorem of Calculus, d/dx of the integral from a to x of f(t) dt equals:",
+              "options": [
+                "f(x)",
+                "f'(x)",
+                "f(x) - f(a)",
+                "F(x) + C"
+              ],
+              "correct": 0,
+              "explanation": "FTC Part 1 states that if g(x) = integral from a to x of f(t) dt, then g'(x) = f(x)."
+            },
+            {
+              "q": "The integral from a to a of f(x) dx equals:",
+              "options": [
+                "0",
+                "f(a)",
+                "1",
+                "F(a)"
+              ],
+              "correct": 0,
+              "explanation": "An integral over an interval of zero width is 0."
+            },
+            {
+              "q": "Evaluate the integral from 0 to 2 of x dx.",
+              "options": [
+                "2",
+                "4",
+                "1",
+                "0"
+              ],
+              "correct": 0,
+              "explanation": "An antiderivative is x^2/2. Evaluate: (2^2)/2 - 0 = 4/2 = 2."
+            },
+            {
+              "q": "What is the integral of x^3 dx?",
+              "options": [
+                "x^4/4 + C",
+                "3x^2 + C",
+                "x^4 + C",
+                "4x^4 + C"
+              ],
+              "correct": 0,
+              "explanation": "By the power rule for integration, integral of x^n = x^(n+1)/(n+1) + C. For n = 3: x^4/4 + C."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Theorems & Formulas",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Important Theorems & Formulas",
+          "concept": "<h2>Important Theorems</h2>\n<p><strong>Fundamental Theorem of Calculus, Part 1 (FTC-1):</strong> If <code>g(x) = ∫ₐˣ f(t) dt</code> with f continuous, then <code>g&#39;(x) = f(x)</code>. With a variable upper limit u(x): <code>d/dx ∫ₐ^{u(x)} f(t) dt = f(u(x))·u&#39;(x)</code> (Chain Rule).</p>\n<p><strong>Fundamental Theorem of Calculus, Part 2 (FTC-2):</strong> If F is any antiderivative of f, then\n<code>∫ₐᵇ f(x) dx = F(b) − F(a)</code>.</p>\n<p><strong>Riemann-sum over/under-estimates:</strong> for an <strong>increasing</strong> function, left sums <strong>under</strong>estimate and right sums <strong>over</strong>estimate (reverse for decreasing); for a <strong>concave-up</strong> function, the <strong>Trapezoidal Rule overestimates</strong>.</p>\n<hr>\n<h2>Important Formulas</h2>\n<p><strong>Basic antiderivatives</strong> (add + C):</p>\n<ul>\n<li><code>∫ x^n dx = x^(n+1)/(n+1)</code> for n ≠ −1; <code>∫ (1/x) dx = ln|x|</code></li>\n<li><code>∫ e^x dx = e^x</code>; <code>∫ e^(kx) dx = (1/k)e^(kx)</code></li>\n<li><code>∫ cos x dx = sin x</code>; <code>∫ sin x dx = −cos x</code></li>\n<li><code>∫ sec² x dx = tan x</code></li>\n<li><code>∫ 1/(1 + x²) dx = arctan x</code>; <code>∫ 1/√(1 − x²) dx = arcsin x</code></li>\n</ul>\n<p><strong>Properties of definite integrals:</strong></p>\n<ul>\n<li><code>∫ₐᵃ f = 0</code>; <code>∫ₐᵇ f = −∫ᵦᵃ f</code></li>\n<li><code>∫ₐᵇ f + ∫ᵦᶜ f = ∫ₐᶜ f</code> (additivity)</li>\n<li><code>∫ₐᵇ [k·f] = k∫ₐᵇ f</code>; <code>∫ₐᵇ (f ± g) = ∫ₐᵇ f ± ∫ₐᵇ g</code> (linearity)</li>\n<li>Even function: <code>∫₋ₐᵃ f = 2∫₀ᵃ f</code>; odd function: <code>∫₋ₐᵃ f = 0</code></li>\n</ul>\n<hr>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "A population changes at rate P'(t). The integral from 2 to 5 of P'(t) dt equals:",
+              "options": [
+                "P(5) - P(2)",
+                "P(5)",
+                "P'(5) - P'(2)",
+                "P(2) - P(5)"
+              ],
+              "correct": 0,
+              "explanation": "By the Fundamental Theorem of Calculus, the integral of a rate P'(t) from 2 to 5 gives the net change P(5) - P(2)."
+            },
+            {
+              "q": "A car's velocity is v(t) ft/s. The integral from 0 to 4 of v(t) dt (with v >= 0) represents:",
+              "options": [
+                "the distance traveled in the first 4 seconds",
+                "the acceleration",
+                "the speed at t = 4",
+                "the average velocity"
+              ],
+              "correct": 0,
+              "explanation": "Integrating velocity over time gives displacement; when v >= 0, this equals the distance traveled."
+            },
+            {
+              "q": "Estimate the integral from 0 to 4 of f(x) dx using a right Riemann sum with 2 subintervals, given f(2) = 3 and f(4) = 5.",
+              "options": [
+                "16",
+                "8",
+                "12",
+                "6"
+              ],
+              "correct": 0,
+              "explanation": "Subinterval width = 2. Right sum uses right endpoints: 2*f(2) + 2*f(4) = 2(3) + 2(5) = 6 + 10 = 16."
+            },
+            {
+              "q": "Estimate the integral from 0 to 4 of f(x) dx using a left Riemann sum with 2 subintervals, given f(0) = 1 and f(2) = 3.",
+              "options": [
+                "8",
+                "16",
+                "4",
+                "10"
+              ],
+              "correct": 0,
+              "explanation": "Width = 2. Left sum uses left endpoints: 2*f(0) + 2*f(2) = 2(1) + 2(3) = 2 + 6 = 8."
+            },
+            {
+              "q": "For a decreasing function f, a right Riemann sum gives what kind of estimate?",
+              "options": [
+                "an underestimate",
+                "an overestimate",
+                "the exact value",
+                "always zero"
+              ],
+              "correct": 0,
+              "explanation": "For a decreasing function, right endpoints give the smallest values on each subinterval, so the right Riemann sum underestimates the integral."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Concepts & Worked Examples",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Concept Explanations & Solved Examples",
+          "concept": "<h2>Concept Explanations</h2>\n<p><strong>Accumulation (6.1, 6.5).</strong> Integrating a rate of change gives net change: <code>∫ₐᵇ f&#39;(t) dt = f(b) − f(a)</code>. In context, &quot;amount at time b&quot; = &quot;starting amount&quot; + &quot;accumulated change&quot;: <code>f(b) = f(a) + ∫ₐᵇ f&#39;(t) dt</code>.</p>\n<p><strong>Riemann sums (6.2–6.3).</strong> Split [a, b] into n pieces of width <code>Δx = (b − a)/n</code>, sample the height at left/right/midpoints, and sum <code>height × width</code>. As <code>n → ∞</code>, the sum → the definite integral. Know which sampling over- or under-estimates based on monotonicity.</p>\n<p><strong>The FTC (6.4, 6.7).</strong> Part 2 turns area into arithmetic: find an antiderivative, evaluate at the bounds, subtract. Part 1 says differentiating an accumulation function recovers the integrand — the reason differentiation and integration are inverse operations.</p>\n<p><strong>u-Substitution (6.9).</strong> The reverse of the Chain Rule. Choose u to be an &quot;inside&quot; function whose derivative also appears (up to a constant). Substitute <code>du</code>, integrate in u, then convert back — or, for definite integrals, <strong>change the limits</strong> to u-values.</p>\n<p><strong>Algebraic set-up (6.10–6.11).</strong> Before integrating, simplify: split a fraction term-by-term, do long division on improper rational functions, or rewrite <code>x²/(x²+1) = 1 − 1/(x²+1)</code> so standard forms appear (leading to <code>arctan</code>, etc.).</p>\n<hr>\n<h2>Worked Examples</h2>\n<p><strong>Example 1 (FTC-2).</strong> <code>∫₁³ x² dx = [x³/3]₁³ = 27/3 − 1/3 = 26/3</code>.</p>\n<p><strong>Example 2 (Right Riemann sum).</strong> Estimate <code>∫₀⁴ f dx</code> with 2 right rectangles, f(2) = 3, f(4) = 5: <code>2(3) + 2(5) = 16</code>.</p>\n<p><strong>Example 3 (u-substitution).</strong> <code>∫ 2x(x² + 1)³ dx</code>: let u = x² + 1, du = 2x dx → <code>∫ u³ du = u⁴/4 + C = (x² + 1)⁴/4 + C</code>.</p>\n<p><strong>Example 4 (FTC-1 with Chain Rule).</strong> <code>d/dx ∫₀^{x²} cos t dt = cos(x²)·2x = 2x cos(x²)</code>.</p>\n<p><strong>Example 5 (Properties).</strong> If <code>∫₀² f = 3</code> and <code>∫₂⁵ f = 7</code>, then <code>∫₀⁵ f = 10</code>; and <code>∫₀⁵ 5f = 50</code>.</p>\n<p><strong>Example 6 (Accumulation in context).</strong> A bacteria culture grows at rate 3t (thousands/hour) from 5 thousand: amount after 2 h = <code>5 + ∫₀² 3t dt = 5 + [1.5t²]₀² = 5 + 6 = 11</code> thousand.</p>\n<p><strong>Example 7 (Absolute value).</strong> <code>∫₀² |x − 1| dx = ∫₀¹(1 − x)dx + ∫₁²(x − 1)dx = 1/2 + 1/2 = 1</code>.</p>\n<hr>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "The definite integral from a to b of f(x) dx is defined as the limit of:",
+              "options": [
+                "Riemann sums as the number of subintervals approaches infinity",
+                "the derivative of f",
+                "the average of f(a) and f(b)",
+                "the secant slope"
+              ],
+              "correct": 0,
+              "explanation": "The definite integral is defined as the limit of Riemann sums as the subinterval width approaches 0 (number of subintervals approaches infinity)."
+            },
+            {
+              "q": "If g(x) = integral from 0 to x of (t^2 + 1) dt, what is g'(x)?",
+              "options": [
+                "x^2 + 1",
+                "2x",
+                "x^3/3 + x",
+                "x^2"
+              ],
+              "correct": 0,
+              "explanation": "By FTC Part 1, g'(x) equals the integrand evaluated at x: x^2 + 1."
+            },
+            {
+              "q": "FTC Part 2 states that the integral from a to b of f(x) dx equals:",
+              "options": [
+                "F(b) - F(a), where F is an antiderivative of f",
+                "f(b) - f(a)",
+                "f'(b) - f'(a)",
+                "F(a) - F(b)"
+              ],
+              "correct": 0,
+              "explanation": "FTC Part 2: if F is any antiderivative of f, the definite integral from a to b of f equals F(b) - F(a)."
+            },
+            {
+              "q": "Water flows out of a tank at rate r(t) liters/min. If the tank starts with 100 liters, the amount at time T is:",
+              "options": [
+                "100 - integral from 0 to T of r(t) dt",
+                "100 + r(T)",
+                "r(T) - 100",
+                "integral of r(t) only"
+              ],
+              "correct": 0,
+              "explanation": "Starting amount minus total outflow: 100 - (accumulated outflow) = 100 - integral from 0 to T of r(t) dt."
+            },
+            {
+              "q": "If f(0) = 20 and f'(t) is a known rate, then f(6) equals:",
+              "options": [
+                "20 + integral from 0 to 6 of f'(t) dt",
+                "integral from 0 to 6 of f'(t) dt",
+                "20 - f'(6)",
+                "f'(6)"
+              ],
+              "correct": 0,
+              "explanation": "The accumulation form: f(6) = f(0) + net change = 20 + integral from 0 to 6 of f'(t) dt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Graphs, Pitfalls & AP Exam Tips",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Graphical Interpretation, Common Mistakes & Tips",
+          "concept": "<h2>Graphical Interpretation</h2>\n<ul>\n<li>A definite integral is <strong>signed area</strong>: area above the axis is positive, below is negative.</li>\n<li>The <strong>accumulation function</strong> <code>g(x) = ∫ₐˣ f</code>: g increases where f &gt; 0, decreases where f &lt; 0, has a local max where f changes + → −, and is concave up where f is increasing.</li>\n<li>Riemann rectangles visibly over/under-shoot depending on where the height is sampled.</li>\n</ul>\n<hr>\n<h2>Common Mistakes</h2>\n<ul>\n<li><strong>Forgetting <code>+ C</code></strong> on indefinite integrals.</li>\n<li><strong>Sign error with <code>∫ sin x dx = −cos x</code></strong> (and the trig antiderivatives generally).</li>\n<li><strong>Not changing limits</strong> (or not converting back) in u-substitution.</li>\n<li><strong>Treating <code>∫ (1/x) dx</code> as a power-rule case</strong> — it is <code>ln|x|</code>.</li>\n<li><strong>Mismatching Riemann over/under estimates</strong> — depends on increasing/decreasing (and concavity for trapezoids).</li>\n<li><strong>Dropping the <code>u&#39;(x)</code> factor</strong> when differentiating an accumulation function with a non-x upper limit.</li>\n</ul>\n<hr>\n<h2>AP Exam Tips</h2>\n<ul>\n<li><strong>FTC-2</strong> is your workhorse for exact definite integrals; <strong>FTC-1</strong> for derivatives of accumulation functions (watch the Chain Rule).</li>\n<li>On accumulation free-response, write &quot;amount = initial + ∫ rate&quot; explicitly.</li>\n<li>For estimates, <strong>state whether a sum is an over- or under-estimate</strong> and justify with monotonicity/concavity.</li>\n<li>Recognize u-substitution when a factor is (a constant multiple of) the derivative of another part.</li>\n<li>Use <strong>symmetry</strong> (odd/even) to shortcut integrals over symmetric intervals.</li>\n</ul>\n<hr>\n<h2>Unit Summary</h2>\n<ul>\n<li>The <strong>definite integral</strong> = limit of Riemann sums = signed area; integrating a rate gives <strong>accumulated change</strong>.</li>\n<li><strong>FTC-1:</strong> <code>d/dx ∫ₐˣ f = f(x)</code>; <strong>FTC-2:</strong> <code>∫ₐᵇ f = F(b) − F(a)</code>.</li>\n<li>Master <strong>basic antiderivatives</strong>, <strong>properties</strong> (additivity, linearity, symmetry), and <strong>u-substitution</strong>.</li>\n<li>Accumulation functions inherit behavior from f via g&#39; = f, g&#39;&#39; = f&#39;.</li>\n</ul>\n<p><em>Next unit:</em> solving <strong>differential equations</strong> — recovering a function from its rate of change.</p>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "For an increasing function f, a left Riemann sum gives what kind of estimate of the definite integral?",
+              "options": [
+                "an underestimate",
+                "an overestimate",
+                "the exact value",
+                "cannot be determined"
+              ],
+              "correct": 0,
+              "explanation": "For an increasing function, left endpoints give the smallest values on each subinterval, so the left Riemann sum underestimates the integral."
+            },
+            {
+              "q": "Use a midpoint Riemann sum with 2 subintervals to estimate the integral from 0 to 4 of x^2 dx, using midpoints x = 1 and x = 3.",
+              "options": [
+                "20",
+                "16",
+                "24",
+                "32"
+              ],
+              "correct": 0,
+              "explanation": "Width = 2, midpoints 1 and 3: 2*f(1) + 2*f(3) = 2(1) + 2(9) = 2 + 18 = 20."
+            },
+            {
+              "q": "The expression lim (n->infinity) of the sum from i=1 to n of f(x_i) * (delta x) represents:",
+              "options": [
+                "a definite integral",
+                "a derivative",
+                "an average value",
+                "a Taylor series"
+              ],
+              "correct": 0,
+              "explanation": "This is the limit of a Riemann sum, which by definition is the definite integral of f over the interval."
+            },
+            {
+              "q": "The definite integral from 0 to 3 of (2x) dx can be interpreted geometrically as:",
+              "options": [
+                "the area of a triangle with base 3 and height 6, equal to 9",
+                "the slope of 2x",
+                "the value 2",
+                "the area of a square"
+              ],
+              "correct": 0,
+              "explanation": "The region under y = 2x from 0 to 3 is a triangle with base 3 and height 6, so the area (integral) is (1/2)(3)(6) = 9."
+            },
+            {
+              "q": "If g(x) = integral from 0 to x^2 of cos(t) dt, what is g'(x)?",
+              "options": [
+                "2x cos(x^2)",
+                "cos(x^2)",
+                "cos(x)",
+                "2x sin(x^2)"
+              ],
+              "correct": 0,
+              "explanation": "By FTC with the Chain Rule, g'(x) = cos(x^2) * d/dx(x^2) = cos(x^2) * 2x = 2x cos(x^2)."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "integration-and-accumulation-test-1",
+      "title": "Practice Set A",
+      "level": "Standard",
+      "time_limit_minutes": 30,
+      "total": 20,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Multiple Choice",
+          "questions": [
+            {
+              "q": "What is the integral of cos(x) dx?",
+              "options": [
+                "sin(x) + C",
+                "-sin(x) + C",
+                "cos(x) + C",
+                "-cos(x) + C"
+              ],
+              "correct": 0,
+              "explanation": "The antiderivative of cos(x) is sin(x) + C."
+            },
+            {
+              "q": "What is the integral of a constant k with respect to x?",
+              "options": [
+                "kx + C",
+                "k + C",
+                "k^2 x + C",
+                "0"
+              ],
+              "correct": 0,
+              "explanation": "The antiderivative of a constant k is kx + C."
+            },
+            {
+              "q": "The integral from 0 to 5 of 0 dx equals:",
+              "options": [
+                "0",
+                "5",
+                "1",
+                "undefined"
+              ],
+              "correct": 0,
+              "explanation": "The integral of the zero function is 0 over any interval."
+            },
+            {
+              "q": "The Fundamental Theorem of Calculus connects:",
+              "options": [
+                "differentiation and integration as inverse processes",
+                "limits and continuity",
+                "sequences and series",
+                "vectors and matrices"
+              ],
+              "correct": 0,
+              "explanation": "The FTC establishes that differentiation and integration are inverse operations."
+            },
+            {
+              "q": "If the integral from 1 to 4 of f(x) dx = 10, what is the integral from 4 to 1 of f(x) dx?",
+              "options": [
+                "-10",
+                "10",
+                "0",
+                "5"
+              ],
+              "correct": 0,
+              "explanation": "Reversing the limits of integration negates the value: -10."
+            },
+            {
+              "q": "If integral from 0 to 2 of f = 3 and integral from 2 to 5 of f = 7, then integral from 0 to 5 of f equals:",
+              "options": [
+                "10",
+                "4",
+                "21",
+                "-4"
+              ],
+              "correct": 0,
+              "explanation": "By additivity of integrals over adjacent intervals: 3 + 7 = 10."
+            },
+            {
+              "q": "If integral from 0 to 3 of f(x) dx = 8, what is integral from 0 to 3 of 5 f(x) dx?",
+              "options": [
+                "40",
+                "8",
+                "13",
+                "5"
+              ],
+              "correct": 0,
+              "explanation": "The constant multiple property: integral of 5f = 5 * integral of f = 5 * 8 = 40."
+            },
+            {
+              "q": "Evaluate the integral from 1 to 3 of x^2 dx.",
+              "options": [
+                "26/3",
+                "9",
+                "8",
+                "13"
+              ],
+              "correct": 0,
+              "explanation": "Antiderivative x^3/3. Evaluate: 27/3 - 1/3 = 26/3."
+            },
+            {
+              "q": "Evaluate the integral from 0 to pi of sin(x) dx.",
+              "options": [
+                "2",
+                "0",
+                "1",
+                "-2"
+              ],
+              "correct": 0,
+              "explanation": "Antiderivative -cos(x). Evaluate: -cos(pi) - (-cos(0)) = -(-1) - (-1) = 1 + 1 = 2."
+            },
+            {
+              "q": "Evaluate the integral from 1 to e of (1/x) dx.",
+              "options": [
+                "1",
+                "e",
+                "e - 1",
+                "0"
+              ],
+              "correct": 0,
+              "explanation": "Antiderivative ln|x|. Evaluate: ln(e) - ln(1) = 1 - 0 = 1."
+            },
+            {
+              "q": "Evaluate the integral from 0 to 2 of (3x^2 - 2x) dx.",
+              "options": [
+                "4",
+                "8",
+                "6",
+                "2"
+              ],
+              "correct": 0,
+              "explanation": "Antiderivative x^3 - x^2. Evaluate: (8 - 4) - 0 = 4."
+            },
+            {
+              "q": "What is the integral of (1/x^2) dx?",
+              "options": [
+                "-1/x + C",
+                "1/x + C",
+                "ln|x^2| + C",
+                "-2/x^3 + C"
+              ],
+              "correct": 0,
+              "explanation": "Write as x^(-2). Integral = x^(-1)/(-1) + C = -1/x + C."
+            },
+            {
+              "q": "What is the integral of sec^2(x) dx?",
+              "options": [
+                "tan(x) + C",
+                "sec(x) + C",
+                "-tan(x) + C",
+                "cot(x) + C"
+              ],
+              "correct": 0,
+              "explanation": "Since d/dx tan(x) = sec^2(x), the antiderivative of sec^2(x) is tan(x) + C."
+            },
+            {
+              "q": "What is the integral of e^(2x) dx?",
+              "options": [
+                "(1/2)e^(2x) + C",
+                "e^(2x) + C",
+                "2e^(2x) + C",
+                "e^(2x)/x + C"
+              ],
+              "correct": 0,
+              "explanation": "The antiderivative of e^(kx) is (1/k)e^(kx) + C. For k = 2: (1/2)e^(2x) + C."
+            },
+            {
+              "q": "Using u-substitution, what is the integral of 2x(x^2 + 1)^3 dx?",
+              "options": [
+                "(x^2 + 1)^4/4 + C",
+                "(x^2 + 1)^4 + C",
+                "2(x^2 + 1)^4 + C",
+                "(x^2 + 1)^3 + C"
+              ],
+              "correct": 0,
+              "explanation": "Let u = x^2 + 1, du = 2x dx. Integral becomes integral of u^3 du = u^4/4 + C = (x^2 + 1)^4/4 + C."
+            },
+            {
+              "q": "For the integral of cos(3x) dx, the appropriate substitution gives:",
+              "options": [
+                "(1/3)sin(3x) + C",
+                "sin(3x) + C",
+                "3 sin(3x) + C",
+                "-(1/3)sin(3x) + C"
+              ],
+              "correct": 0,
+              "explanation": "Let u = 3x, du = 3 dx. Integral = (1/3) integral cos(u) du = (1/3)sin(3x) + C."
+            },
+            {
+              "q": "What is the integral of sin(x) cos(x) dx (using u = sin x)?",
+              "options": [
+                "(1/2)sin^2(x) + C",
+                "sin^2(x) + C",
+                "-(1/2)cos^2(x) + C only",
+                "cos(x) + C"
+              ],
+              "correct": 0,
+              "explanation": "Let u = sin x, du = cos x dx. Integral = integral u du = u^2/2 + C = (1/2)sin^2(x) + C."
+            },
+            {
+              "q": "To integrate (x^2 + x)/x, first simplify to:",
+              "options": [
+                "x + 1",
+                "x^2 + 1",
+                "x",
+                "1/x"
+              ],
+              "correct": 0,
+              "explanation": "Divide each term by x: (x^2 + x)/x = x + 1, which integrates easily to x^2/2 + x + C."
+            },
+            {
+              "q": "To integrate (x^3 + 2x)/x, rewrite the integrand as:",
+              "options": [
+                "x^2 + 2",
+                "x^2 + 2x",
+                "x^3 + 2",
+                "x + 2"
+              ],
+              "correct": 0,
+              "explanation": "Divide term by term: (x^3 + 2x)/x = x^2 + 2, which integrates to x^3/3 + 2x + C."
+            },
+            {
+              "q": "What is the integral of 1/(x^2 + 1) dx?",
+              "options": [
+                "arctan(x) + C",
+                "ln(x^2 + 1) + C",
+                "(1/2)ln(x^2 + 1) + C",
+                "-1/(x^2 + 1) + C"
+              ],
+              "correct": 0,
+              "explanation": "This is a standard form: the antiderivative of 1/(x^2 + 1) is arctan(x) + C."
+            }
+          ]
+        }
+      ],
+      "note": "Auto-graded practice from the Integration and Accumulation of Change question bank."
+    },
+    {
+      "id": "integration-and-accumulation-test-2",
+      "title": "Practice Set B",
+      "level": "Challenge",
+      "time_limit_minutes": 30,
+      "total": 20,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Multiple Choice",
+          "questions": [
+            {
+              "q": "Which technique is most appropriate for the integral of x cos(x^2) dx?",
+              "options": [
+                "u-substitution with u = x^2",
+                "long division",
+                "direct power rule",
+                "no technique needed"
+              ],
+              "correct": 0,
+              "explanation": "Because the derivative of x^2 (namely 2x) appears (up to a constant), u = x^2 makes this a straightforward substitution."
+            },
+            {
+              "q": "The integral of a sum of functions equals:",
+              "options": [
+                "the sum of the integrals",
+                "the product of the integrals",
+                "always zero",
+                "the difference of the integrals"
+              ],
+              "correct": 0,
+              "explanation": "Integration is linear: the integral of (f + g) equals the integral of f plus the integral of g."
+            },
+            {
+              "q": "Let g(x) = integral from 0 to x of f(t) dt. If f(x) > 0 on an interval, then g is:",
+              "options": [
+                "increasing there",
+                "decreasing there",
+                "constant",
+                "negative"
+              ],
+              "correct": 0,
+              "explanation": "Since g'(x) = f(x) > 0, the accumulation function g is increasing wherever f is positive."
+            },
+            {
+              "q": "A table gives f(0) = 2, f(2) = 5, f(4) = 6. Estimate the integral from 0 to 4 of f dx with a right Riemann sum (2 subintervals).",
+              "options": [
+                "22",
+                "14",
+                "18",
+                "26"
+              ],
+              "correct": 0,
+              "explanation": "Width 2, right endpoints f(2) and f(4): 2(5) + 2(6) = 10 + 12 = 22."
+            },
+            {
+              "q": "Evaluate the integral from -1 to 1 of x^3 dx.",
+              "options": [
+                "0",
+                "2",
+                "1/2",
+                "1"
+              ],
+              "correct": 0,
+              "explanation": "x^3 is an odd function integrated over a symmetric interval [-1, 1], so the integral is 0. (Check: [x^4/4] from -1 to 1 = 1/4 - 1/4 = 0.)"
+            },
+            {
+              "q": "What is the integral of (4x^3 - 6x + 5) dx?",
+              "options": [
+                "x^4 - 3x^2 + 5x + C",
+                "12x^2 - 6 + C",
+                "x^4 - 6x^2 + 5x + C",
+                "4x^4 - 3x^2 + 5x + C"
+              ],
+              "correct": 0,
+              "explanation": "Integrate term by term: 4x^4/4 - 6x^2/2 + 5x = x^4 - 3x^2 + 5x + C."
+            },
+            {
+              "q": "If F(x) = integral from 2 to x of (t^3) dt, then F'(2) equals:",
+              "options": [
+                "8",
+                "0",
+                "2",
+                "16"
+              ],
+              "correct": 0,
+              "explanation": "By FTC, F'(x) = x^3, so F'(2) = 2^3 = 8."
+            },
+            {
+              "q": "If integral from 1 to 5 of f = 12 and integral from 1 to 3 of f = 4, then integral from 3 to 5 of f equals:",
+              "options": [
+                "8",
+                "16",
+                "4",
+                "48"
+              ],
+              "correct": 0,
+              "explanation": "By additivity: integral 1 to 5 = integral 1 to 3 + integral 3 to 5, so 12 = 4 + (integral 3 to 5), giving 8."
+            },
+            {
+              "q": "What is the integral of e^(x^2) * 2x dx?",
+              "options": [
+                "e^(x^2) + C",
+                "2 e^(x^2) + C",
+                "e^(2x) + C",
+                "x^2 e^(x^2) + C"
+              ],
+              "correct": 0,
+              "explanation": "Let u = x^2, du = 2x dx. Integral = integral e^u du = e^u + C = e^(x^2) + C."
+            },
+            {
+              "q": "Evaluate the integral from 1 to 2 of (1/x^2) dx.",
+              "options": [
+                "1/2",
+                "1",
+                "-1/2",
+                "3/2"
+              ],
+              "correct": 0,
+              "explanation": "Antiderivative -1/x. Evaluate: -1/2 - (-1/1) = -1/2 + 1 = 1/2."
+            },
+            {
+              "q": "Evaluate the integral from 0 to 3 of (2x + 1) dx.",
+              "options": [
+                "12",
+                "9",
+                "10",
+                "6"
+              ],
+              "correct": 0,
+              "explanation": "Antiderivative x^2 + x. Evaluate: (9 + 3) - 0 = 12."
+            },
+            {
+              "q": "What is the integral of 3/(x^2 + 1) dx?",
+              "options": [
+                "3 arctan(x) + C",
+                "arctan(3x) + C",
+                "3 ln(x^2 + 1) + C",
+                "arctan(x) + C"
+              ],
+              "correct": 0,
+              "explanation": "The constant factors out: 3 * integral 1/(x^2 + 1) dx = 3 arctan(x) + C."
+            },
+            {
+              "q": "If the velocity of a particle is v(t) = 3t^2, the displacement from t = 0 to t = 2 is:",
+              "options": [
+                "8",
+                "12",
+                "4",
+                "6"
+              ],
+              "correct": 0,
+              "explanation": "Displacement = integral from 0 to 2 of 3t^2 dt = [t^3] from 0 to 2 = 8."
+            },
+            {
+              "q": "Increasing the number of subintervals in a Riemann sum generally:",
+              "options": [
+                "improves the accuracy of the approximation",
+                "makes it less accurate",
+                "has no effect",
+                "gives zero"
+              ],
+              "correct": 0,
+              "explanation": "As the number of subintervals increases (width decreases), the Riemann sum approaches the exact value of the definite integral."
+            },
+            {
+              "q": "What is the integral of (ln x)/x dx?",
+              "options": [
+                "(1/2)(ln x)^2 + C",
+                "ln(ln x) + C",
+                "(ln x)^2 + C",
+                "1/x + C"
+              ],
+              "correct": 0,
+              "explanation": "Let u = ln x, du = (1/x) dx. Integral = integral u du = u^2/2 + C = (1/2)(ln x)^2 + C."
+            },
+            {
+              "q": "What is the integral of sin(x) dx?",
+              "options": [
+                "-cos(x) + C",
+                "cos(x) + C",
+                "-sin(x) + C",
+                "sin(x) + C"
+              ],
+              "correct": 0,
+              "explanation": "The antiderivative of sin(x) is -cos(x) + C."
+            },
+            {
+              "q": "Let g(x) = integral from 0 to x of f(t) dt. If f is negative on (a, b), then on that interval g is:",
+              "options": [
+                "decreasing",
+                "increasing",
+                "concave up",
+                "constant"
+              ],
+              "correct": 0,
+              "explanation": "g'(x) = f(x) < 0 there, so g is decreasing wherever f is negative."
+            },
+            {
+              "q": "The width of each subinterval when [a, b] is divided into n equal parts is:",
+              "options": [
+                "(b - a)/n",
+                "n/(b - a)",
+                "b - a",
+                "(a + b)/n"
+              ],
+              "correct": 0,
+              "explanation": "Dividing an interval of length (b - a) into n equal subintervals gives width delta x = (b - a)/n."
+            },
+            {
+              "q": "Evaluate the integral from 1 to 4 of (2/sqrt(x)) dx.",
+              "options": [
+                "4",
+                "6",
+                "2",
+                "8"
+              ],
+              "correct": 0,
+              "explanation": "2/sqrt(x) = 2x^(-1/2). Antiderivative 4x^(1/2). Evaluate: 4(2) - 4(1) = 8 - 4 = 4."
+            },
+            {
+              "q": "If F is an antiderivative of f and F(1) = 3, F(4) = 11, then integral from 1 to 4 of f(x) dx equals:",
+              "options": [
+                "8",
+                "14",
+                "3",
+                "11"
+              ],
+              "correct": 0,
+              "explanation": "By FTC Part 2: integral = F(4) - F(1) = 11 - 3 = 8."
+            }
+          ]
+        }
+      ],
+      "note": "A second auto-graded set covering Integration and Accumulation of Change."
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "exam": "neet",
+  "subject": "physics",
+  "chapter": 15,
+  "title": "Alternating Current",
+  "slug": "alternating-current",
+  "subtitle": "RMS values, reactance, LCR circuits, resonance, power factor & transformer",
+  "level": "NEET (UG)",
+  "color": "#2563eb",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "NEET Physics — Alternating Current: AC voltage and rms values, reactance of inductors and capacitors, the series LCR circuit, impedance and resonance, power factor and wattless current, and the transformer, with NEET-level examples and MCQs. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "AC Quantities and Reactance",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Alternating Voltage, RMS Values and AC Through R, L, C",
+          "concept": "<p>An <strong>alternating current</strong> reverses direction periodically, with voltage and current varying sinusoidally: $V = V_0\\sin(\\omega t)$ and $I = I_0\\sin(\\omega t)$. The peak values $V_0$ and $I_0$ describe the maximum, but since the average of a sine over a cycle is zero, we need a more useful measure of the 'effective' value.</p><p>That measure is the <strong>root-mean-square (rms)</strong> value, the equivalent DC value that would dissipate the same heat. For a sinusoid, $V_{rms} = \\dfrac{V_0}{\\sqrt{2}}$ and $I_{rms} = \\dfrac{I_0}{\\sqrt{2}}$. The mains supply quoted as $220\\ \\text{V}$ is the rms value, so its peak is actually about $311\\ \\text{V}$ — a classic NEET fact. AC meters always read rms values.</p><p>How a component responds to AC depends on the component. Across a pure <strong>resistor</strong>, current and voltage stay in phase, and Ohm's law holds as usual with $R$. Across a pure <strong>inductor</strong>, the current <em>lags</em> the voltage by $90^{\\circ}$, and the opposition is the <strong>inductive reactance</strong> $X_L = \\omega L$, which grows with frequency — an inductor blocks high-frequency AC.</p><p>Across a pure <strong>capacitor</strong>, the current <em>leads</em> the voltage by $90^{\\circ}$, and the opposition is the <strong>capacitive reactance</strong> $X_C = \\dfrac{1}{\\omega C}$, which falls with frequency — a capacitor blocks DC (infinite reactance at zero frequency) but passes high-frequency AC easily. Remembering these phase relationships and how each reactance varies with frequency is the foundation for the whole chapter.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Element</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Opposition / phase</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>RMS value</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$V_{rms} = V_0/\\sqrt{2}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Resistor</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$R$; $V$ and $I$ in phase</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Inductor</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$X_L = \\omega L$; $I$ lags by $90^{\\circ}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Capacitor</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$X_C = 1/\\omega C$; $I$ leads by $90^{\\circ}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>The peak voltage of an AC source is $311\\ \\text{V}$. Find its rms value.</p>",
+              "solution": "<p>$V_{rms} = \\dfrac{V_0}{\\sqrt{2}} = \\dfrac{311}{1.414} \\approx 220\\ \\text{V}$ — the standard mains value.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the reactance of a $0.1\\ \\text{H}$ inductor at angular frequency $\\omega = 100\\ \\text{rad/s}$.</p>",
+              "solution": "<p>$X_L = \\omega L = 100\\times0.1 = 10\\ \\Omega$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The rms value of a sinusoidal voltage of peak $V_0$ is:</p>", "options": ["$V_0$", "$V_0/\\sqrt{2}$", "$V_0\\sqrt{2}$", "$V_0/2$"], "correct": 1, "explanation": "$V_{rms} = V_0/\\sqrt{2}$." },
+            { "q": "<p>In a pure resistor, the current and voltage are:</p>", "options": ["$90^{\\circ}$ out of phase", "in phase", "$180^{\\circ}$ out of phase", "$45^{\\circ}$ out of phase"], "correct": 1, "explanation": "Resistor: $V$ and $I$ in phase." },
+            { "q": "<p>Inductive reactance $X_L$ equals:</p>", "options": ["$\\omega L$", "$1/\\omega L$", "$\\omega/L$", "$L/\\omega$"], "correct": 0, "explanation": "$X_L = \\omega L$." },
+            { "q": "<p>Capacitive reactance varies with frequency as:</p>", "options": ["increases with $f$", "decreases with $f$", "independent of $f$", "zero"], "correct": 1, "explanation": "$X_C = 1/\\omega C$ decreases with frequency." },
+            { "q": "<p>In a pure inductor, the current:</p>", "options": ["leads voltage by $90^{\\circ}$", "lags voltage by $90^{\\circ}$", "is in phase", "is zero"], "correct": 1, "explanation": "Current lags the voltage by $90^{\\circ}$ in an inductor." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Mains $220\\ \\text{V}$ is rms; peak $\\approx 311\\ \\text{V}$. Inductor: $X_L = \\omega L$ (current lags); capacitor: $X_C = 1/\\omega C$ (current leads). $X_L$ rises and $X_C$ falls with frequency.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Series LCR Circuit and Resonance",
+          "concept": "<p>When a resistor, inductor and capacitor are connected in series across an AC source, the total opposition is the <strong>impedance</strong> $Z = \\sqrt{R^{2} + (X_L - X_C)^{2}}$. Because the inductor and capacitor produce opposite phase shifts, their reactances <em>subtract</em>, and the current is $I_{rms} = \\dfrac{V_{rms}}{Z}$. The voltage leads or lags the current by a phase angle $\\phi$ given by $\\tan\\phi = \\dfrac{X_L - X_C}{R}$.</p><p>The most important behaviour is <strong>resonance</strong>. As frequency changes, $X_L$ rises while $X_C$ falls, and at one special frequency they become equal, $X_L = X_C$. At this point the reactances cancel, the impedance drops to its minimum value $Z = R$, and the current reaches its maximum — the circuit behaves as if purely resistive.</p><p>The <strong>resonant frequency</strong> follows from $\\omega L = 1/\\omega C$, giving $\\omega_0 = \\dfrac{1}{\\sqrt{LC}}$ or $f_0 = \\dfrac{1}{2\\pi\\sqrt{LC}}$. This is the basis of <strong>tuning</strong> a radio: adjusting the capacitor changes $f_0$ so the circuit responds strongly to just one broadcast frequency. The sharpness of the resonance peak is described by the <strong>quality factor</strong> $Q$ — a high $Q$ gives a narrow, selective response.</p><p>Phasor diagrams make these relationships clear: $R$, $X_L$ and $X_C$ are drawn as vectors, with $V_R$ along the current, $V_L$ leading by $90^{\\circ}$ and $V_C$ lagging by $90^{\\circ}$. At resonance the $V_L$ and $V_C$ phasors are equal and opposite, leaving only $V_R$ — a picture NEET often expects you to interpret rather than calculate from scratch.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Expression</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Impedance</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$Z = \\sqrt{R^{2} + (X_L - X_C)^{2}}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Phase angle</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\tan\\phi = \\dfrac{X_L - X_C}{R}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Resonance condition</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$X_L = X_C$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Resonant frequency</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\omega_0 = \\dfrac{1}{\\sqrt{LC}}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A series LCR circuit has $R = 30\\ \\Omega$, $X_L = 60\\ \\Omega$ and $X_C = 20\\ \\Omega$. Find the impedance.</p>",
+              "solution": "<p>$Z = \\sqrt{R^{2} + (X_L - X_C)^{2}} = \\sqrt{30^{2} + (60 - 20)^{2}} = \\sqrt{900 + 1600} = \\sqrt{2500} = 50\\ \\Omega$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What is the impedance of a series LCR circuit at resonance?</p>",
+              "solution": "<p>At resonance $X_L = X_C$, so $Z = \\sqrt{R^{2} + 0} = R$. The impedance is minimum and equals just the resistance, giving maximum current.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The impedance of a series LCR circuit is:</p>", "options": ["$R + X_L + X_C$", "$\\sqrt{R^{2} + (X_L - X_C)^{2}}$", "$R + X_L - X_C$", "$\\sqrt{R^{2} + X_L^{2} + X_C^{2}}$"], "correct": 1, "explanation": "$Z = \\sqrt{R^2 + (X_L - X_C)^2}$." },
+            { "q": "<p>At resonance, $X_L$ and $X_C$ are:</p>", "options": ["both zero", "equal", "maximum", "added"], "correct": 1, "explanation": "Resonance occurs when $X_L = X_C$." },
+            { "q": "<p>The resonant frequency of an LCR circuit is:</p>", "options": ["$1/\\sqrt{LC}$", "$\\sqrt{LC}$", "$LC$", "$1/LC$"], "correct": 0, "explanation": "$\\omega_0 = 1/\\sqrt{LC}$." },
+            { "q": "<p>At resonance, the impedance of a series LCR circuit is:</p>", "options": ["maximum", "minimum (= R)", "zero", "infinite"], "correct": 1, "explanation": "$Z = R$ at resonance — minimum impedance." },
+            { "q": "<p>Tuning a radio works by adjusting the circuit's:</p>", "options": ["resistance", "resonant frequency", "power factor", "rms current"], "correct": 1, "explanation": "Changing $C$ shifts $f_0$ to select a station." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Reactances subtract in $Z = \\sqrt{R^2 + (X_L - X_C)^2}$. At resonance $X_L = X_C$, so $Z = R$ (minimum) and current is maximum; $\\omega_0 = 1/\\sqrt{LC}$.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Power and Transformers",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Power in AC Circuits and Power Factor",
+          "concept": "<p>In an AC circuit, instantaneous power varies through the cycle, so we use the <strong>average power</strong>. It is $P = V_{rms}I_{rms}\\cos\\phi$, where $\\phi$ is the phase angle between voltage and current. The factor $\\cos\\phi$ is called the <strong>power factor</strong>, and it determines how much of the apparent power actually does useful work.</p><p>The two extremes are revealing. In a purely resistive circuit $\\phi = 0$, so $\\cos\\phi = 1$ and all the power is dissipated. In a purely inductive or capacitive circuit $\\phi = 90^{\\circ}$, so $\\cos\\phi = 0$ and the <em>average power is zero</em> — energy is stored and returned each cycle without net dissipation. The current in such a case is called a <strong>wattless current</strong>, a favourite NEET term.</p><p>This is why ideal inductors and capacitors consume no power on average, while only resistance dissipates energy. The phase angle, and hence the power factor, comes directly from the LCR analysis: $\\cos\\phi = \\dfrac{R}{Z}$. At resonance $Z = R$, so the power factor is $1$ and the power delivered is maximum.</p><p>A low power factor is undesirable in power transmission because it means large currents flow for little useful power, increasing $I^{2}R$ losses in the lines. Industries therefore use capacitors to improve a lagging (inductive) power factor towards unity — a real-world application NEET sometimes references, tying the abstract phase angle to practical efficiency.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Expression</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Average power</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$P = V_{rms}I_{rms}\\cos\\phi$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Power factor</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\cos\\phi = R/Z$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Pure L or C</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\cos\\phi = 0$ (wattless)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>An AC circuit has $V_{rms} = 200\\ \\text{V}$, $I_{rms} = 5\\ \\text{A}$ and power factor $0.8$. Find the average power.</p>",
+              "solution": "<p>$P = V_{rms}I_{rms}\\cos\\phi = 200\\times5\\times0.8 = 800\\ \\text{W}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is the average power zero in a pure inductor?</p>",
+              "solution": "<p>The current lags the voltage by $90^{\\circ}$, so $\\cos\\phi = \\cos90^{\\circ} = 0$. Energy is stored in the magnetic field during one quarter-cycle and returned in the next, with no net dissipation — a wattless current.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The average power in an AC circuit is:</p>", "options": ["$V_{rms}I_{rms}$", "$V_{rms}I_{rms}\\cos\\phi$", "$V_0 I_0$", "$V_{rms}I_{rms}\\sin\\phi$"], "correct": 1, "explanation": "$P = V_{rms}I_{rms}\\cos\\phi$." },
+            { "q": "<p>The power factor is:</p>", "options": ["$\\sin\\phi$", "$\\cos\\phi$", "$\\tan\\phi$", "$1/\\cos\\phi$"], "correct": 1, "explanation": "Power factor $= \\cos\\phi = R/Z$." },
+            { "q": "<p>A wattless current occurs in a:</p>", "options": ["pure resistor", "pure inductor or capacitor", "resonant circuit", "DC circuit"], "correct": 1, "explanation": "Pure L or C gives $\\cos\\phi = 0$, no average power." },
+            { "q": "<p>At resonance, the power factor of an LCR circuit is:</p>", "options": ["0", "0.5", "1", "infinite"], "correct": 2, "explanation": "$Z = R$, so $\\cos\\phi = 1$." },
+            { "q": "<p>The power factor for a purely resistive circuit is:</p>", "options": ["0", "0.5", "1", "$\\sqrt{2}$"], "correct": 2, "explanation": "$\\phi = 0$, so $\\cos\\phi = 1$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Only resistance dissipates power: $P = V_{rms}I_{rms}\\cos\\phi$, with $\\cos\\phi = R/Z$. Pure L or C is wattless ($\\cos\\phi = 0$); at resonance the power factor is 1.</p>"
+        },
+        {
+          "number": 4,
+          "title": "The Transformer",
+          "concept": "<p>The <strong>transformer</strong> is the device that makes large-scale AC distribution possible, changing an alternating voltage from one level to another using mutual induction. It has two coils — a <strong>primary</strong> and a <strong>secondary</strong> — wound on a common soft-iron core. An alternating current in the primary produces a changing flux that the core guides through the secondary, inducing an EMF there.</p><p>For an ideal transformer the voltage ratio equals the turns ratio: $\\dfrac{V_s}{V_p} = \\dfrac{N_s}{N_p}$. A <strong>step-up</strong> transformer has more turns on the secondary ($N_s > N_p$) and raises the voltage; a <strong>step-down</strong> transformer has fewer and lowers it. Crucially, a transformer works only on AC — it needs a <em>changing</em> flux and does nothing with steady DC.</p><p>Energy is conserved, so in an ideal transformer the power in equals the power out: $V_p I_p = V_s I_s$. This means current and voltage scale oppositely — stepping the voltage <em>up</em> steps the current <em>down</em>, and vice versa. So a step-up transformer that doubles the voltage halves the current, a relationship NEET tests with simple ratios.</p><p>This is exactly why power is transmitted at very high voltage. For a given power, a higher voltage means a smaller current, which sharply reduces the $I^{2}R$ heating losses in the transmission lines. Real transformers are highly efficient but not perfect, with small losses from winding resistance (copper loss), eddy currents and hysteresis in the core — losses minimised by laminated cores and good core materials.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Relation (ideal)</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Voltage ratio</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\dfrac{V_s}{V_p} = \\dfrac{N_s}{N_p}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Power conservation</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$V_p I_p = V_s I_s$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Step-up</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$N_s > N_p$: $V$ up, $I$ down</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A transformer has $100$ primary turns and $500$ secondary turns. If the primary voltage is $220\\ \\text{V}$, find the secondary voltage.</p>",
+              "solution": "<p>$V_s = V_p\\dfrac{N_s}{N_p} = 220\\times\\dfrac{500}{100} = 1100\\ \\text{V}$ — a step-up transformer.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is electrical power transmitted at high voltage?</p>",
+              "solution": "<p>For a fixed power, raising the voltage lowers the current ($P = VI$). Lower current means much smaller $I^{2}R$ heating losses in the long transmission lines, making distribution far more efficient.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>A transformer works on the principle of:</p>", "options": ["self-induction", "mutual induction", "Coulomb's law", "Ohm's law"], "correct": 1, "explanation": "Transformers use mutual induction." },
+            { "q": "<p>A transformer can operate with:</p>", "options": ["DC only", "AC only", "both equally", "neither"], "correct": 1, "explanation": "It needs a changing flux, so AC only." },
+            { "q": "<p>In a step-up transformer:</p>", "options": ["$N_s < N_p$", "$N_s > N_p$", "$N_s = N_p$", "no secondary"], "correct": 1, "explanation": "More secondary turns raise the voltage." },
+            { "q": "<p>For an ideal transformer, if voltage is stepped up, the current is:</p>", "options": ["stepped up", "stepped down", "unchanged", "zero"], "correct": 1, "explanation": "$V_p I_p = V_s I_s$, so higher $V$ means lower $I$." },
+            { "q": "<p>Power is transmitted at high voltage mainly to reduce:</p>", "options": ["the voltage", "$I^{2}R$ line losses", "the frequency", "the number of turns"], "correct": 1, "explanation": "High voltage means low current and lower $I^2R$ losses." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> $V_s/V_p = N_s/N_p$ and $V_p I_p = V_s I_s$ — voltage up means current down. Transformers work on AC only; high-voltage transmission cuts $I^{2}R$ losses.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-physics-ch15-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>The rms value of an AC of peak $I_0$ is:</p>", "options": ["$I_0$", "$I_0/\\sqrt{2}$", "$I_0\\sqrt{2}$", "$2I_0$"], "correct": 1, "explanation": "$I_{rms} = I_0/\\sqrt{2}$." },
+            { "q": "<p>The reactance of a capacitor is:</p>", "options": ["$\\omega C$", "$1/\\omega C$", "$\\omega/C$", "$C/\\omega$"], "correct": 1, "explanation": "$X_C = 1/\\omega C$." },
+            { "q": "<p>In a pure capacitor, the current:</p>", "options": ["lags voltage by $90^{\\circ}$", "leads voltage by $90^{\\circ}$", "is in phase", "is zero"], "correct": 1, "explanation": "Current leads the voltage by $90^{\\circ}$." },
+            { "q": "<p>The impedance of a series LCR circuit is minimum at:</p>", "options": ["low frequency", "high frequency", "resonance", "zero frequency"], "correct": 2, "explanation": "$Z = R$ (minimum) at resonance." },
+            { "q": "<p>The resonant angular frequency is:</p>", "options": ["$\\sqrt{LC}$", "$1/\\sqrt{LC}$", "$LC$", "$1/LC$"], "correct": 1, "explanation": "$\\omega_0 = 1/\\sqrt{LC}$." },
+            { "q": "<p>The power factor of a pure inductor is:</p>", "options": ["1", "0.5", "0", "$\\sqrt{2}$"], "correct": 2, "explanation": "$\\cos90^{\\circ} = 0$ — wattless." },
+            { "q": "<p>A transformer with twice as many secondary turns as primary doubles the:</p>", "options": ["current", "voltage", "frequency", "power"], "correct": 1, "explanation": "$V_s/V_p = N_s/N_p = 2$." },
+            { "q": "<p>For an ideal transformer, the input and output powers are:</p>", "options": ["equal", "input greater", "output greater", "both zero"], "correct": 0, "explanation": "$V_p I_p = V_s I_s$ (energy conserved)." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> The mains voltage rated $220\\ \\text{V}$ has a peak value greater than $220\\ \\text{V}$.<br><strong>R:</strong> The quoted mains voltage is the rms value, which is $V_0/\\sqrt{2}$.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Since $220$ V is rms, the peak is $220\\sqrt{2} \\approx 311$ V — R explains A." },
+            { "q": "<p><strong>A:</strong> An ideal inductor consumes no average power from an AC source.<br><strong>R:</strong> The current in a pure inductor is $90^{\\circ}$ out of phase with the voltage.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The $90^{\\circ}$ phase gives $\\cos\\phi = 0$, hence zero average power — R explains A." },
+            { "q": "<p><strong>A:</strong> A transformer can step up or step down a steady DC voltage.<br><strong>R:</strong> A transformer operates on the principle of mutual induction.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "A transformer needs changing flux, so it does not work on DC — A is false; R correctly states it uses mutual induction." },
+            { "q": "<p><strong>A:</strong> Electrical power is transmitted over long distances at high voltage.<br><strong>R:</strong> At higher voltage the current is lower, reducing $I^{2}R$ losses in the lines.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Lower current at high voltage cuts line losses — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

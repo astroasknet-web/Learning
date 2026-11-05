@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": 24,
+  "title": "Alcohols, Phenols and Ethers",
+  "slug": "alcohols-phenols-and-ethers",
+  "subtitle": "Alcohols, Phenols and Ethers for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#6366f1",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "Master Alcohols, Phenols and Ethers for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Alcohols",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Nomenclature, Preparation, and Properties of Alcohols",
+          "concept": "<p><strong>Alcohols:</strong> Organic compounds with $-OH$ group on $sp^3$ carbon. General formula $R-OH$.</p><p><strong>Classification:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Description</th><th>Example</th></tr></thead><tbody><tr><td><strong>Primary (1°)</strong></td><td>$-OH$ on C bonded to 1 other C</td><td>Methanol, ethanol</td></tr><tr><td><strong>Secondary (2°)</strong></td><td>$-OH$ on C bonded to 2 other C's</td><td>Isopropanol</td></tr><tr><td><strong>Tertiary (3°)</strong></td><td>$-OH$ on C bonded to 3 other C's</td><td>tert-butanol</td></tr></tbody></table><p>By number of -OH groups:</p><ul><li><strong>Monohydric:</strong> 1 -OH (ethanol)</li><li><strong>Dihydric:</strong> 2 -OH (ethylene glycol, $HOCH_2CH_2OH$)</li><li><strong>Trihydric:</strong> 3 -OH (glycerol, $HOCH_2CH(OH)CH_2OH$)</li><li><strong>Polyhydric:</strong> Many -OH (sorbitol)</li></ul><p><strong>Nomenclature:</strong></p><ul><li>Common: methyl alcohol, ethyl alcohol</li><li>IUPAC: methan<strong>ol</strong>, ethan<strong>ol</strong>, propan-1-ol, propan-2-ol</li></ul><p>Examples:</p><ul><li>$CH_3OH$: methanol</li><li>$CH_3CH_2OH$: ethanol</li><li>$(CH_3)_2CHOH$: 2-propanol (isopropanol)</li><li>$(CH_3)_3COH$: 2-methyl-2-propanol (tert-butanol)</li></ul><p><strong>Preparation of Alcohols:</strong></p><p><strong>1. From Alkenes (Hydration):</strong></p><p><strong>Acid-catalyzed hydration:</strong> $CH_2=CH_2 + H_2O \\xrightarrow{H^+} CH_3CH_2OH$ (Markovnikov)</p><p><strong>Oxymercuration-Demercuration:</strong> No rearrangement, Markovnikov. $CH_2=CH_2 + Hg(OAc)_2 + H_2O \\to CH_3CH_2HgOAc \\xrightarrow{NaBH_4} CH_3CH_2OH$</p><p><strong>Hydroboration-Oxidation (Brown's reaction):</strong> Anti-Markovnikov. $3CH_3CH=CH_2 + BH_3 \\to (CH_3CH_2CH_2)_3B \\xrightarrow{H_2O_2, OH^-} 3CH_3CH_2CH_2OH$</p><p><strong>2. From Alkyl Halides:</strong> $RX + KOH(aq) \\xrightarrow{\\Delta} R-OH + KX$ (substitution; $S_N$).</p><p><strong>3. From Carbonyl Compounds (Reduction):</strong></p><ul><li>Aldehydes → 1° alcohols: $RCHO + 2[H] \\to RCH_2OH$</li><li>Ketones → 2° alcohols: $RCOR' + 2[H] \\to RCH(OH)R'$</li><li>Carboxylic acids → 1° alcohols: $RCOOH + 4[H] \\to RCH_2OH$</li><li>Esters → 1° alcohols: $RCOOR' + 4[H] \\to RCH_2OH + R'OH$</li></ul><p>Common reducing agents: $LiAlH_4$ (strong, reduces all); $NaBH_4$ (milder, reduces aldehydes and ketones but not esters/acids); $H_2/Ni$ (catalytic).</p><p><strong>4. From Grignard Reagents:</strong> $RMgX + HCHO \\xrightarrow{H_3O^+} RCH_2OH$ ($1°$) $RMgX + R'CHO \\to R'(R)CH(OH)$ ($2°$) $RMgX + R'COR'' \\to R'(R)(R'')COH$ ($3°$)</p><p><strong>5. Industrial:</strong></p><ul><li>Methanol: $CO + 2H_2 \\xrightarrow{ZnO, Cr_2O_3, 600K, 200atm} CH_3OH$</li><li>Ethanol: Fermentation of sugars by yeast: $C_6H_{12}O_6 \\xrightarrow{zymase} 2C_2H_5OH + 2CO_2$</li></ul><p><strong>Physical Properties:</strong></p><ul><li>Liquid (small alcohols); higher BP than corresponding alkanes/ethers/aldehydes due to H-bonding</li><li>Methanol, ethanol, propanol miscible with water; solubility decreases with chain length</li><li>BP increases with chain length; $1° > 2° > 3°$ for same C number (steric, H-bonding)</li><li>BP order: HCOOH > $H_2O$ > alcohol > ether > aldehyde > alkane (similar carbon)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Predict products of: (a) $CH_3CH_2MgBr + HCHO$ then $H_3O^+$ (b) $CH_3CH_2MgBr + CH_3CHO$ then $H_3O^+$</p>",
+              "solution": "<p>(a) $CH_3CH_2MgBr + HCHO \\to CH_3CH_2CH_2OMgBr \\xrightarrow{H_3O^+} CH_3CH_2CH_2OH$ (n-propanol, 1°)</p><p>(b) $CH_3CH_2MgBr + CH_3CHO \\to CH_3CH_2CH(CH_3)OMgBr \\xrightarrow{H_3O^+} CH_3CH_2CH(OH)CH_3$ (2-butanol, 2°)</p><p><strong>Final Answer:</strong> (a) n-propanol; (b) sec-butanol.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why does $CH_3OH$ have higher BP than $CH_3OCH_3$?</p>",
+              "solution": "<p>$CH_3OH$ has $-OH$ group → forms intermolecular <strong>H-bonds</strong>; needs much energy to break, hence high BP ($65°$C). $CH_3OCH_3$ has no $-OH$; only dipole-dipole forces → much lower BP ($-23°$C).</p><p><strong>Final Answer:</strong> H-bonding in alcohol; absent in ether.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Methanol is:</p>",
+              "options": [
+                "1° alcohol",
+                "2° alcohol",
+                "3° alcohol",
+                "Aromatic alcohol"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Glycerol has:</p>",
+              "options": [
+                "1 -OH",
+                "2 -OH",
+                "3 -OH",
+                "4 -OH"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Hydroboration-oxidation gives:</p>",
+              "options": [
+                "Markovnikov product",
+                "Anti-Markovnikov alcohol",
+                "Aldehyde",
+                "Ether"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Most reduce-able to alcohol:</p>",
+              "options": [
+                "Carboxylic acid",
+                "Aldehyde (most easily by NaBH₄)",
+                "Both",
+                "Ester only"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>RMgX + HCHO → ?</p>",
+              "options": [
+                "Tertiary alcohol",
+                "Secondary alcohol",
+                "Primary alcohol",
+                "Acid"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Reactions of Alcohols",
+          "concept": "<p><strong>Reactions Based on -OH Group:</strong></p><p><strong>1. Reactions with Active Metals (Acidic character):</strong></p><p>Alcohols are weak acids; acidity: water > 1° > 2° > 3° (alkyl groups donate electrons, destabilize alkoxide).</p><p>$2R-OH + 2Na \\to 2RO^-Na^+ + H_2$ (sodium alkoxide; e.g., sodium ethoxide)</p><p><strong>2. With Hydrogen Halides (Substitution of -OH by X):</strong></p><p>$R-OH + HX \\to R-X + H_2O$</p><p>Reactivity: $HI > HBr > HCl$; among alcohols: $3° > 2° > 1°$.</p><p><strong>Lucas Test:</strong> As before (distinguishes 1°, 2°, 3°).</p><p><strong>3. With Phosphorus Halides:</strong> $R-OH + PCl_5 \\to R-Cl + POCl_3 + HCl$ $3R-OH + PCl_3 \\to 3R-Cl + H_3PO_3$ $R-OH + SOCl_2 \\to R-Cl + SO_2 + HCl$ (clean reaction)</p><p><strong>4. Dehydration (Elimination):</strong></p><p><strong>Intra-molecular (gives alkene):</strong> Heat with conc. $H_2SO_4$ or $Al_2O_3$: $CH_3CH_2OH \\xrightarrow{443K, H_2SO_4} CH_2=CH_2 + H_2O$</p><p>Order of reactivity: $3° > 2° > 1°$ (carbocation stability). Saytzeff's rule applies.</p><p><strong>Inter-molecular (gives ether):</strong> Lower T with $H_2SO_4$: $2CH_3CH_2OH \\xrightarrow{413K, H_2SO_4} CH_3CH_2OCH_2CH_3 + H_2O$ (diethyl ether)</p><p><strong>5. Oxidation:</strong></p><p><strong>1° alcohols:</strong> oxidized to aldehydes (mild) or carboxylic acids (strong). $RCH_2OH \\xrightarrow{[O]} RCHO \\xrightarrow{[O]} RCOOH$</p><p><strong>2° alcohols:</strong> oxidized to ketones. $R-CHOH-R' \\xrightarrow{[O]} R-CO-R'$</p><p><strong>3° alcohols:</strong> No easy oxidation (no $\\alpha$-H on -OH carbon for removal).</p><p><strong>Oxidizing agents:</strong></p><ul><li>$KMnO_4/H_2SO_4$: strong; gives -COOH from 1°</li><li>$K_2Cr_2O_7/H_2SO_4$: strong (similar)</li><li>$Cu/573K$: dehydrogenation; gives aldehyde from 1°, ketone from 2°</li><li><strong>PCC (Pyridinium chlorochromate):</strong> Mild oxidant; gives aldehyde (stops there)</li></ul><p><strong>6. Esterification:</strong> $RCOOH + R'OH \\rightleftharpoons RCOOR' + H_2O$ (with H⁺ catalyst)</p><ul><li>Equilibrium; conc. $H_2SO_4$ shifts toward ester (removes water).</li></ul><p><strong>7. Reactions with $Cu$ at 573K (Dehydrogenation):</strong></p><ul><li>1° alcohol → aldehyde</li><li>2° alcohol → ketone</li><li>3° alcohol → alkene (dehydration only; no $\\alpha$-H on OH-C)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Predict products on oxidation of: (a) $CH_3CH_2OH$ with $K_2Cr_2O_7/H_2SO_4$ (b) $(CH_3)_2CHOH$ with $K_2Cr_2O_7/H_2SO_4$ (c) $(CH_3)_3COH$ with $K_2Cr_2O_7/H_2SO_4$</p>",
+              "solution": "<p>(a) $1°$: $CH_3CH_2OH \\to CH_3CHO \\to CH_3COOH$ (acetic acid, end product). (b) $2°$: $(CH_3)_2CHOH \\to (CH_3)_2C=O$ (acetone). (c) $3°$: No easy oxidation (no $\\alpha$-H on $-OH$ carbon).</p><p><strong>Final Answer:</strong> (a) acetic acid; (b) acetone; (c) no reaction (or slow at extreme conditions).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Predict major product of $CH_3CH_2OH \\xrightarrow{H_2SO_4} ?$ at: (i) $413$ K (ii) $443$ K</p>",
+              "solution": "<p>(i) At lower T ($413$ K): intermolecular dehydration → <strong>diethyl ether</strong>: $CH_3CH_2OCH_2CH_3 + H_2O$. (ii) At higher T ($443$ K): intramolecular dehydration → <strong>ethene</strong>: $CH_2=CH_2 + H_2O$.</p><p><strong>Final Answer:</strong> Lower T → ether; higher T → alkene.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Order of acidity of alcohols:</p>",
+              "options": [
+                "$1° > 2° > 3°$",
+                "$3° > 2° > 1°$",
+                "Same",
+                "Methanol most basic"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$3°$ alcohol on $K_2Cr_2O_7/H_2SO_4$:</p>",
+              "options": [
+                "Gives aldehyde",
+                "Gives ketone",
+                "Gives carboxylic acid",
+                "No easy oxidation"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Esterification needs:</p>",
+              "options": [
+                "NaOH",
+                "HCl gas catalyst",
+                "H⁺ catalyst",
+                "Free radical"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Dehydration of $2°$ alcohol gives:</p>",
+              "options": [
+                "Most substituted alkene (Saytzeff)",
+                "Least substituted alkene",
+                "Aldehyde",
+                "Ether"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$CH_3OH$ on heating with $Cu$ at $573$ K:</p>",
+              "options": [
+                "Methane",
+                "Formaldehyde (HCHO)",
+                "Methyl ether",
+                "CO₂"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Phenols and Ethers",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Phenols — Acidity, Preparation, and Reactions",
+          "concept": "<p><strong>Phenols:</strong> Aromatic compounds with $-OH$ directly attached to aromatic ring. Simplest: phenol ($C_6H_5OH$).</p><p><strong>Nomenclature:</strong></p><ul><li>Phenol ($C_6H_5OH$); cresols ($CH_3$-substituted phenol: o-, m-, p-cresol); naphthols (1- and 2-naphthol).</li><li>IUPAC: benzenol (or accept \"phenol\").</li></ul><p><strong>Preparation:</strong></p><p><strong>1. From Cumene (industrial):</strong></p><ul><li>Cumene ($C_6H_5CH(CH_3)_2$) air-oxidized → cumene hydroperoxide → cleaved by H⁺ → phenol + acetone:</li></ul><p>$C_6H_5CH(CH_3)_2 + O_2 \\to C_6H_5C(OOH)(CH_3)_2 \\xrightarrow{H^+} C_6H_5OH + (CH_3)_2CO$</p><p><strong>2. From Benzene Diazonium Salts:</strong> $C_6H_5N_2^+Cl^- + H_2O \\xrightarrow{\\Delta} C_6H_5OH + N_2 + HCl$</p><p><strong>3. From Chlorobenzene (Dow's Process):</strong> $C_6H_5Cl + NaOH \\xrightarrow{623K, 300\\,atm} C_6H_5ONa \\xrightarrow{H^+} C_6H_5OH$</p><p><strong>4. From Sulfonic Acids (Alkali Fusion):</strong> $C_6H_5SO_3Na + 2NaOH \\xrightarrow{fusion} C_6H_5ONa + Na_2SO_3 + H_2O$ $C_6H_5ONa + H^+ \\to C_6H_5OH + Na^+$</p><p><strong>Acidity of Phenol:</strong></p><p>Phenol is <strong>weakly acidic</strong> ($pK_a \\approx 10$). Much more acidic than alcohols ($pK_a \\approx 16-18$).</p><p><strong>Reasons for higher acidity vs alcohols:</strong></p><ol><li><strong>Resonance stabilization</strong> of phenoxide ion ($C_6H_5O^-$): negative charge delocalized over 4 ring positions (ipso, ortho, para).</li><li>The conjugate base (phenoxide) is more stable than alkoxide.</li><li>$-OH$ on $sp^2$ C (more EN) — withdrawal of e⁻ from H makes it more acidic.</li></ol><p><strong>Effect of Substituents on Phenol Acidity:</strong></p><ul><li><strong>EW groups (-NO₂, -CN, -COR, -CHO, -X) at o/p positions:</strong> Increase acidity (stabilize phenoxide further)</li><li><strong>ED groups (-CH₃, -NH₂, -OR, -OH) at o/p positions:</strong> Decrease acidity</li><li>m-position effects are less (no resonance, only inductive)</li></ul><p>Order of acidity (typical examples): $2,4,6$-trinitrophenol (picric acid, $pK_a = 0.4$) > p-nitrophenol > o-nitrophenol > m-nitrophenol > phenol > p-methylphenol > p-methoxyphenol > p-aminophenol</p><p><strong>Reactions of Phenol:</strong></p><p><strong>1. With NaOH:</strong> $C_6H_5OH + NaOH \\to C_6H_5ONa + H_2O$ (acidic enough to react with strong base, unlike alcohols which need Na metal).</p><p><strong>2. With Na metal:</strong> $2C_6H_5OH + 2Na \\to 2C_6H_5O^-Na^+ + H_2$.</p><p><strong>3. Electrophilic Aromatic Substitution (-OH is o/p activator):</strong></p><ul><li><strong>Bromination:</strong> $C_6H_5OH + 3Br_2 \\xrightarrow{Br_2 \\text{ in water}} 2,4,6$-tribromophenol (white ppt) — very rapid; no catalyst needed (-OH activates strongly).</li></ul><ul><li><strong>Nitration:</strong></li><li>Dilute HNO₃ at low T: o- and p-nitrophenols (separable by steam distillation since o- has intra-molecular H-bond; p- has inter-molecular)</li><li>Conc. HNO₃: 2,4,6-trinitrophenol (picric acid)</li></ul><ul><li><strong>Sulfonation:</strong> o-/p-phenolsulfonic acid (temperature controls preference).</li></ul><p><strong>4. Reimer-Tiemann Reaction:</strong> Phenol + CHCl₃ + NaOH → salicylaldehyde (o-hydroxybenzaldehyde). $C_6H_5OH + CHCl_3 + 4NaOH \\to o-HOC_6H_4CHO + 3NaCl + 3H_2O$</p><ul><li>Electrophile: $:CCl_2$ (dichlorocarbene) generated from CHCl₃ + OH⁻</li><li>Major: ortho product (resonance and H-bonding stability)</li></ul><p><strong>5. Kolbe-Schmitt Reaction:</strong> Phenol + CO₂ + NaOH → salicylic acid. $C_6H_5ONa + CO_2 \\xrightarrow{Na, 4atm} o-HOC_6H_4COONa \\xrightarrow{H^+} o-HOC_6H_4COOH$</p><ul><li>Used in aspirin manufacture (salicylic acid + acetic anhydride → aspirin).</li></ul><p><strong>6. Reduction (Zn dust):</strong> $C_6H_5OH + Zn \\to C_6H_6 + ZnO$.</p><p><strong>7. Oxidation:</strong> With $Na_2Cr_2O_7$ → para-benzoquinone (purple → yellow).</p><p><strong>8. With FeCl₃:</strong> Violet color (test for phenol).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Arrange in increasing acidity: phenol, $p$-nitrophenol, $p$-cresol, picric acid, $p$-methoxyphenol.</p>",
+              "solution": "<p>EW groups at o/p increase acidity. Picric acid has 3 NO₂'s → most acidic. Order (least to most acidic): $p$-methoxyphenol < $p$-cresol < phenol < $p$-nitrophenol < picric acid.</p><p><strong>Final Answer:</strong> p-methoxyphenol < p-cresol < phenol < p-nitrophenol < picric acid.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Predict major product of Reimer-Tiemann reaction with phenol.</p>",
+              "solution": "<p>Phenol + CHCl₃ + NaOH (heat) → ortho-hydroxybenzaldehyde (<strong>salicylaldehyde</strong>) as major + small para isomer.</p><ul><li>Mechanism: $:CCl_2$ attacks o-position (activation by phenoxide O⁻ resonance).</li><li>Salicylaldehyde isolated by steam distillation.</li></ul><p><strong>Final Answer:</strong> Salicylaldehyde (o-hydroxybenzaldehyde).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Phenol is:</p>",
+              "options": [
+                "More acidic than alcohols (resonance stabilization of phenoxide)",
+                "Less acidic",
+                "Same acidity",
+                "Basic"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>With Na metal, both phenol and ethanol release $H_2$. Which is more acidic in water?</p>",
+              "options": [
+                "Phenol (reacts with NaOH; alcohol doesn't)",
+                "Ethanol",
+                "Same",
+                "Cannot determine"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Phenol + FeCl₃:</p>",
+              "options": [
+                "White ppt",
+                "Violet color (test)",
+                "No reaction",
+                "Yellow ppt"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Reimer-Tiemann reaction gives:</p>",
+              "options": [
+                "Phenyl chloride",
+                "Salicylaldehyde (o-hydroxybenzaldehyde)",
+                "Anisole",
+                "Benzaldehyde"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Kolbe-Schmitt reaction gives:</p>",
+              "options": [
+                "Phenol",
+                "Salicylic acid (o-hydroxybenzoic acid)",
+                "Benzoic acid",
+                "Carbonate"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Ethers — Williamson Synthesis and Reactions",
+          "concept": "<p><strong>Ethers:</strong> Compounds with -O- linking two carbon groups: $R-O-R'$.</p><p><strong>Types:</strong></p><ul><li><strong>Symmetrical:</strong> $R = R'$ (e.g., dimethyl ether, diethyl ether)</li><li><strong>Unsymmetrical (mixed):</strong> $R \\neq R'$ (e.g., methyl ethyl ether)</li></ul><p><strong>Nomenclature:</strong></p><ul><li>Common: alkyl alkyl ether (e.g., methyl ethyl ether, diethyl ether)</li><li>IUPAC: alkoxy-alkane (smaller alkyl as alkoxy)</li><li>$CH_3OCH_3$: methoxymethane</li><li>$CH_3CH_2OCH_3$: methoxyethane</li><li>$CH_3OCH_2CH_2CH_3$: 1-methoxypropane</li></ul><p><strong>Preparation:</strong></p><p><strong>1. Williamson's Synthesis (most important):</strong> $R-O^-Na^+ + R'-X \\to R-O-R' + NaX$</p><ul><li>Sodium alkoxide + alkyl halide</li><li>Best for <strong>primary alkyl halides</strong> (S_N2)</li><li>With tertiary halides → elimination (alkene) dominates</li></ul><p>For unsymmetrical ether: $CH_3O^-Na^+ + CH_3CH_2Br \\to CH_3OCH_2CH_3 + NaBr$</p><p>For aromatic ethers (anisole, $C_6H_5OCH_3$): $C_6H_5O^-Na^+ + CH_3I \\to C_6H_5OCH_3$</p><p><strong>2. Dehydration of Alcohols (only for symmetrical ethers):</strong> $2C_2H_5OH \\xrightarrow{H_2SO_4, 413K} C_2H_5OC_2H_5 + H_2O$ (intermolecular)</p><p><strong>Properties:</strong></p><ul><li>Volatile liquids; characteristic smell</li><li>$R-O-R'$: O is $sp^3$ hybridized; lone pair on O</li><li>No H-bonding between ether molecules → low BP (compared to alcohols)</li><li>BP order: alcohol > ether > alkane (same C)</li><li>Slight solubility in water (O can accept H-bond from water)</li><li>Diethyl ether is good general anesthetic (historical)</li></ul><p><strong>Reactions of Ethers:</strong></p><p><strong>1. Cleavage by HX:</strong> $R-O-R' + HX \\to R-X + R'-OH$ or both as R-X (excess HX)</p><p>Mechanism: $S_N2$ (primary R) or $S_N1$ (tertiary R). Reactivity: $HI > HBr > HCl$. Cleavage at: ether O is protonated → C-O bond breaks; less hindered side gets attacked by nucleophile in $S_N2$ (small Nu).</p><p>Example: $CH_3OC_6H_5 + HI \\to CH_3I + C_6H_5OH$ (Phenyl group never attacked; methyl side cleaved).</p><p><strong>2. Reaction with Cold HCl</strong> at higher pressure: similar but slower.</p><p><strong>3. Reactions with $O_2$ (Hazardous):</strong> Ethers form <strong>peroxides</strong> on exposure to air/light: $R-OCH_2-R' + O_2 \\to R-O-CH(OOH)-R'$ (auto-oxidation) Peroxides are explosive. Test for peroxides: $KI/H_2SO_4$ — turns brown if peroxides present.</p><p><strong>4. Combustion:</strong> $C_4H_{10}O + 6O_2 \\to 4CO_2 + 5H_2O$ (highly exothermic; ether vapors are flammable)</p><p><strong>5. Friedel-Crafts on Aryl Alkyl Ethers:</strong> Anisole undergoes electrophilic substitution at ortho/para positions (-OR is o/p activator). $C_6H_5OCH_3 + CH_3COCl \\xrightarrow{AlCl_3} p-CH_3C(O)C_6H_4OCH_3$</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Predict product of $CH_3OC_2H_5 + HI$ (excess).</p>",
+              "solution": "<p><strong>HI (1 equiv):</strong> $CH_3OC_2H_5 + HI \\to CH_3I + C_2H_5OH$ (methyl side cleaves; $S_N2$ on less hindered C is faster).</p><p><strong>With excess HI:</strong> $C_2H_5OH$ further reacts → $C_2H_5I$. Total: $CH_3OC_2H_5 + 2HI \\to CH_3I + C_2H_5I + H_2O$.</p><p><strong>Final Answer:</strong> $CH_3I + C_2H_5OH$ (with 1 equiv); $CH_3I + C_2H_5I + H_2O$ (excess).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why isn't Williamson's synthesis used with tert-butyl halide?</p>",
+              "solution": "<p>With $3°$ alkyl halide, alkoxide ($RO^-$) acts more as a <strong>base</strong> than nucleophile; promotes <strong>E2 elimination</strong> instead of $S_N2$. $RO^- + (CH_3)_3CBr \\to ROH + (CH_3)_2C=CH_2 + Br^-$ (alkene + alcohol — no ether formed).</p><p>Strategy: To make tert-butyl methyl ether, use methyl halide ($1°$) with tert-butoxide ($3°$ alkoxide): $(CH_3)_3CO^-Na^+ + CH_3I \\to (CH_3)_3COCH_3$ (works; $S_N2$ on $CH_3I$ is good).</p><p><strong>Final Answer:</strong> Use $1°$ alkyl halide and the bulkier alkoxide; bulky halide gives elimination.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Williamson synthesis:</p>",
+              "options": [
+                "ROH + RX",
+                "RO⁻Na⁺ + R'X",
+                "ROR + H₂O",
+                "Alkene + HX"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Best alkyl halide for Williamson:</p>",
+              "options": [
+                "Methyl halide",
+                "Tertiary halide",
+                "Quaternary",
+                "Aryl halide"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Cleavage of $CH_3OC_2H_5$ by HI:</p>",
+              "options": [
+                "$CH_3I + C_2H_5OH$ (then $C_2H_5I$ excess)",
+                "$CH_3OH + C_2H_5I$ only",
+                "No reaction",
+                "Both products of (a)"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Ethers form peroxides on:</p>",
+              "options": [
+                "Heating",
+                "Air + light",
+                "Water",
+                "Acid"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Anisole is:</p>",
+              "options": [
+                "$C_6H_5OH$",
+                "$C_6H_5OCH_3$",
+                "$CH_3OCH_3$",
+                "$C_6H_5CH_2OH$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-chem-alcohols-phenols-and-ethers-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>Glycerol contains:</p>",
+              "options": [
+                "$1$ -OH",
+                "$2$ -OH",
+                "$3$ -OH (trihydric)",
+                "$4$ -OH"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Methanol on $Cu/573K$:</p>",
+              "options": [
+                "Methyl ether",
+                "Methanal (HCHO)",
+                "Methane",
+                "$CO_2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$3°$ alcohols don't oxidize easily because:</p>",
+              "options": [
+                "No $\\alpha$-H on -OH carbon",
+                "Too unstable",
+                "Highly soluble",
+                "Reduced first"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Acidity order:</p>",
+              "options": [
+                "Picric acid > p-nitrophenol > phenol > ethanol",
+                "Reverse",
+                "All equal",
+                "Random"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Test for phenol (color):</p>",
+              "options": [
+                "Blue with $K_2Cr_2O_7$",
+                "Violet with FeCl₃",
+                "Yellow with NaOH",
+                "Red with HCl"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Reimer-Tiemann reagent:</p>",
+              "options": [
+                "CHCl₃ + NaOH",
+                "$CCl_4$",
+                "Br₂",
+                "NaH"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Kolbe-Schmitt produces:</p>",
+              "options": [
+                "Picric acid",
+                "Salicylic acid (o-hydroxybenzoic acid)",
+                "Benzoic acid",
+                "Phthalic acid"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Anisole + HI cleavage gives:</p>",
+              "options": [
+                "$CH_3I + C_6H_5OH$",
+                "$C_6H_5I + CH_3OH$",
+                "$CH_3I + C_6H_5I$",
+                "No reaction"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Boiling point order: ethanol vs dimethyl ether (same M):</p>",
+              "options": [
+                "Ethanol > ether (due to H-bonding)",
+                "Ether > ethanol",
+                "Same",
+                "Cannot say"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Most acidic among monohydric alcohols:</p>",
+              "options": [
+                "Methanol",
+                "Ethanol",
+                "Propan-1-ol",
+                "Phenol (not really alcohol, but most acidic among hydroxyl-containing)"
+              ],
+              "correct": 3,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Number of -OH groups in glycerol:</p>",
+              "answer": "3",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of carbons in anisole:</p>",
+              "answer": "7",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of moles of $Br_2$ needed to give 2,4,6-tribromophenol from phenol:</p>",
+              "answer": "3",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Phenol is more acidic than ethanol. <strong>Reason (R):</strong> Phenoxide ion is resonance-stabilized while ethoxide is not.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> Williamson synthesis does not work well for $3°$ alkyl halides. <strong>Reason (R):</strong> $3°$ halides undergo elimination ($E_2$) preferentially when treated with strong bases/nucleophiles like alkoxides.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "biology",
+  "chapter": 30,
+  "title": "Organisms and Populations",
+  "slug": "organisms-and-populations",
+  "subtitle": "Abiotic factors and responses, adaptations, population attributes and growth models, and population interactions",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "leaf",
+  "seo": {
+    "meta_description": "NEET Biology — Organisms and Populations: abiotic factors and the responses (regulate, conform, migrate, suspend), adaptations, population attributes (density, natality, age pyramids), exponential and logistic growth, and population interactions (mutualism, competition, predation, parasitism), with NEET-level examples and MCQs. Free on GrowQR.",
+    "focus_keyword": "organisms and populations NEET",
+    "secondary_keywords": [
+      "abiotic factors responses regulate conform",
+      "adaptations kangaroo rat CAM",
+      "population growth exponential logistic",
+      "population interactions mutualism predation",
+      "age pyramid carrying capacity"
+    ],
+    "keywords": [
+      "organisms and populations NEET",
+      "population attributes density natality",
+      "logistic growth carrying capacity",
+      "mutualism commensalism parasitism",
+      "ecological adaptations"
+    ]
+  },
+  "summary": "<ul><li><strong>Ecology levels:</strong> organism → population → community → ecosystem → biome → biosphere. <strong>Temperature</strong> is the most important abiotic factor.</li><li><strong>Responses</strong> to stress: <strong>regulate</strong> (homeostasis — birds/mammals), <strong>conform</strong> (vary with surroundings — most animals/plants), <strong>migrate</strong>, <strong>suspend</strong> (dormancy — hibernation/aestivation/diapause).</li><li><strong>Adaptations:</strong> kangaroo rat (no water needed), desert plants (CAM, sunken stomata, spines), Allen's rule (short extremities in cold).</li><li><strong>Population attributes:</strong> density, natality, mortality, sex ratio, <strong>age pyramids</strong> (expanding/stable/declining).</li><li><strong>Growth:</strong> <strong>exponential</strong> (J-shaped, unlimited resources, dN/dt=rN) vs <strong>logistic</strong> (S/sigmoid, carrying capacity <strong>K</strong>).</li><li><strong>Interactions:</strong> mutualism (+/+), competition (−/−), predation &amp; parasitism (+/−), commensalism (+/0), amensalism (−/0).</li></ul>",
+  "faqs": [
+    { "q": "What are the four ways organisms respond to stressful abiotic conditions?", "a": "Regulate — keep the internal environment constant (homeostasis), as birds and mammals do for body temperature; only this is true regulation. Conform — let the internal state (body temperature, osmotic concentration) change with the surroundings; about 99% of animals and nearly all plants are conformers. Migrate — temporarily move away to a more favourable place (like migratory birds). Suspend — become dormant, e.g. hibernation (winter), aestivation (summer) and diapause in zooplankton; bacteria/fungi form thick-walled spores." },
+    { "q": "Why is the kangaroo rat well adapted to the desert?", "a": "The kangaroo rat of North American deserts can meet all its water needs from the internal oxidation of fats (it can live without ever drinking water), and it concentrates its urine strongly to minimise water loss. These physiological adaptations let it survive in extremely dry conditions." },
+    { "q": "What is the difference between exponential and logistic growth?", "a": "Exponential growth occurs when resources are unlimited: the population grows faster and faster, giving a J-shaped curve (dN/dt = rN). In reality resources are limited, so growth slows as the population nears the carrying capacity (K) of the environment, giving an S-shaped (sigmoid) logistic curve. The logistic model is more realistic because no habitat has unlimited resources." },
+    { "q": "What is carrying capacity?", "a": "Carrying capacity (K) is the maximum population size that a particular environment can support indefinitely, given its limited resources (food, space, etc.). In logistic growth the population rises and then levels off at K. If the population exceeds K, resource shortage increases mortality and the population falls back toward K." },
+    { "q": "Give examples of the main types of population interaction.", "a": "Mutualism (+/+, both benefit) — lichens (fungus + alga), mycorrhiza, and the fig–wasp relationship. Competition (−/−) — both species are harmed when they compete for the same resource. Predation (+/−) — a predator benefits, the prey is killed. Parasitism (+/−) — the parasite benefits, the host is harmed. Commensalism (+/0) — one benefits, the other is unaffected, e.g. an orchid growing on a tree, or barnacles on a whale. Amensalism (−/0) — one is harmed, the other unaffected." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Organisms and Their Environment",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Abiotic Factors and Responses to Stress",
+          "concept": "<p><strong>Ecology</strong> studies organisms in relation to their environment, at increasing levels of organisation: <strong>organism &rarr; population &rarr; community &rarr; ecosystem &rarr; biome &rarr; biosphere</strong>. At the organism level, life is shaped by major <strong>abiotic (physical) factors</strong>: <strong>temperature, water, light and soil</strong>. <strong>Temperature is the most important</strong> ecological factor; organisms tolerant of a wide temperature range are <strong>eurythermal</strong>, while those tolerant of a narrow range are <strong>stenothermal</strong>. Similarly, for salinity, <strong>euryhaline</strong> organisms tolerate a wide range and <strong>stenohaline</strong> a narrow range.</p><p>When the environment becomes stressful (too hot, cold or dry), organisms respond in one of <strong>four ways</strong> &mdash; a guaranteed NEET set. The first is to <strong>regulate</strong>: maintain a constant internal environment (<strong>homeostasis</strong>) despite changes outside. <strong>Birds and mammals</strong> are the main <strong>regulators</strong> &mdash; they keep a constant body temperature (thermoregulation) and osmotic concentration. This is energetically expensive but very successful.</p><p>The second response is to <strong>conform</strong>. <strong>Conformers</strong> do not maintain a constant internal state; instead their <strong>body temperature and osmotic concentration change with the surroundings</strong>. The vast majority of animals (about <strong>99%</strong>) and nearly all plants are conformers, because regulation costs too much energy for small organisms (which lose heat fast due to a high surface-area-to-volume ratio).</p><p>The third response is to <strong>migrate</strong> &mdash; to <strong>move away temporarily</strong> from the stressful habitat to a more favourable one, as <strong>migratory birds</strong> do in winter (e.g. to Keoladeo National Park, Bharatpur). The fourth is to <strong>suspend</strong> activities &mdash; to become <strong>dormant</strong>: bacteria and fungi form <strong>thick-walled spores</strong>; animals undergo <strong>hibernation</strong> (winter sleep, e.g. bears) or <strong>aestivation</strong> (summer dormancy, e.g. snails) and zooplankton show <strong>diapause</strong>. For NEET, fix the ecology levels, that temperature is the chief abiotic factor (eury-/steno- terms), and the four responses with examples (regulate = birds/mammals; conform = most organisms; migrate; suspend = hibernation/aestivation/diapause/spores).</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Response</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Meaning / example</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Regulate</td><td style='border:1px solid #dcfce7;padding:6px 8px'>constant internal state (homeostasis) — birds, mammals</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Conform</td><td style='border:1px solid #dcfce7;padding:6px 8px'>internal state varies with surroundings — ~99% animals, plants</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Migrate</td><td style='border:1px solid #dcfce7;padding:6px 8px'>move away temporarily — migratory birds</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Suspend</td><td style='border:1px solid #dcfce7;padding:6px 8px'>dormancy — hibernation, aestivation, diapause, spores</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Eury- / steno-</td><td style='border:1px solid #dcfce7;padding:6px 8px'>wide / narrow tolerance (thermal, haline)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Distinguish a regulator from a conformer, with an example of each.</p>",
+              "solution": "<p>A <strong>regulator</strong> keeps its internal environment (e.g. body temperature) <strong>constant</strong> despite external changes — e.g. <strong>birds and mammals</strong>. A <strong>conformer</strong> lets its internal state <strong>change with the surroundings</strong> — e.g. most invertebrates, fish and plants (about 99% of animals are conformers).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Name and explain the response in which animals become dormant to escape stress, with two examples.</p>",
+              "solution": "<p>This is to <strong>suspend (dormancy)</strong>. Examples: <strong>hibernation</strong> (winter dormancy, e.g. bears) and <strong>aestivation</strong> (summer dormancy, e.g. snails); zooplankton show <strong>diapause</strong> and bacteria/fungi form thick-walled spores.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The most important abiotic ecological factor is:</p>", "options": ["light", "temperature", "soil", "wind"], "correct": 1, "explanation": "Temperature is the most important abiotic factor." },
+            { "q": "<p>Organisms that keep a constant internal environment are:</p>", "options": ["conformers", "regulators", "migrators", "spores"], "correct": 1, "explanation": "Regulators maintain homeostasis (e.g. birds, mammals)." },
+            { "q": "<p>About what fraction of animals are conformers?</p>", "options": ["1%", "50%", "99%", "10%"], "correct": 2, "explanation": "Around 99% of animals are conformers." },
+            { "q": "<p>Summer dormancy is called:</p>", "options": ["hibernation", "aestivation", "migration", "diapause"], "correct": 1, "explanation": "Aestivation is summer dormancy; hibernation is winter." },
+            { "q": "<p>An organism tolerant of a wide range of temperature is:</p>", "options": ["stenothermal", "eurythermal", "stenohaline", "euryhaline"], "correct": 1, "explanation": "Eurythermal = wide temperature tolerance." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Levels: organism→population→community→ecosystem→biome→biosphere. Temperature = chief abiotic factor (eury/steno-thermal, -haline). Responses: regulate (homeostasis, birds/mammals), conform (~99%, varies with surroundings), migrate (birds), suspend (hibernation/aestivation/diapause/spores).</p>"
+        },
+        {
+          "number": 2,
+          "title": "Adaptations",
+          "concept": "<p>An <strong>adaptation</strong> is any attribute &mdash; <strong>morphological, physiological or behavioural</strong> &mdash; that helps an organism <strong>survive and reproduce in its habitat</strong>. Adaptations are products of long evolution, and the textbook examples are commonly asked.</p><p>The most famous physiological adaptation is the <strong>kangaroo rat</strong> of the North American deserts: it can meet all its water requirement through the <strong>internal oxidation of fats</strong> (so it can live <strong>without ever drinking water</strong>) and it produces <strong>highly concentrated urine</strong> to minimise water loss. <strong>Desert plants</strong> show clear adaptations to conserve water: a <strong>thick waxy cuticle</strong>, <strong>sunken stomata</strong>, and the special <strong>CAM (Crassulacean Acid Metabolism) photosynthetic pathway</strong> that lets them keep stomata closed in the day. In <em>Opuntia</em> (a cactus), the <strong>leaves are reduced to spines</strong> and the flattened green <strong>stem carries out photosynthesis</strong>.</p><p>Several adaptations relate to temperature and size. <strong>Allen's Rule</strong> states that mammals of <strong>colder climates have shorter ears and limbs (extremities)</strong> to <strong>reduce heat loss</strong>. By a related principle, mammals in colder regions tend to be <strong>larger in body size</strong> (a smaller surface-area-to-volume ratio conserves heat). In cold seas, animals like seals have a <strong>thick layer of blubber (fat)</strong> for insulation.</p><p>Adaptations can also be <strong>behavioural and biochemical</strong>. Desert lizards <strong>bask in the sun</strong> when cold and <strong>move into shade or burrows</strong> when hot to keep their temperature suitable. People going to <strong>high altitude</strong> face low oxygen and may suffer <strong>altitude sickness</strong>; the body acclimatises by <strong>producing more red blood cells</strong> and increasing breathing rate. Some microbes (archaebacteria) even live in <strong>hot springs and deep-sea vents</strong> at extreme temperatures. For NEET, fix the kangaroo rat (water from fat oxidation, concentrated urine), desert-plant adaptations (CAM, sunken stomata, spines/Opuntia), Allen's Rule (short extremities in cold) and altitude acclimatisation (more RBCs).</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Adaptation</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Example / detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Kangaroo rat</td><td style='border:1px solid #dcfce7;padding:6px 8px'>water from fat oxidation; concentrated urine</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Desert plants</td><td style='border:1px solid #dcfce7;padding:6px 8px'>CAM, thick cuticle, sunken stomata, spines (<em>Opuntia</em>)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Allen's Rule</td><td style='border:1px solid #dcfce7;padding:6px 8px'>shorter extremities in cold climates (less heat loss)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Polar animals</td><td style='border:1px solid #dcfce7;padding:6px 8px'>blubber for insulation; larger body size</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>High altitude</td><td style='border:1px solid #dcfce7;padding:6px 8px'>more RBCs, faster breathing (acclimatisation)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>How does the kangaroo rat survive without drinking water?</p>",
+              "solution": "<p>It meets its water needs from the <strong>internal oxidation of fats</strong> (metabolic water) and excretes a <strong>highly concentrated urine</strong> to minimise water loss — so it can live without ever drinking water in the desert.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>State Allen's Rule and the adaptation seen when people travel to high altitudes.</p>",
+              "solution": "<p><strong>Allen's Rule:</strong> mammals of <strong>colder climates have shorter ears and limbs</strong> to reduce heat loss. At <strong>high altitude</strong> (low oxygen), the body acclimatises by <strong>producing more red blood cells</strong> and increasing the breathing rate.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The kangaroo rat obtains water mainly from:</p>", "options": ["drinking", "oxidation of fat", "dew", "plants"], "correct": 1, "explanation": "It produces metabolic water by oxidising fat." },
+            { "q": "<p>Desert plants often use which photosynthetic pathway?</p>", "options": ["C3", "CAM", "only C4", "none"], "correct": 1, "explanation": "CAM lets them keep stomata closed by day to save water." },
+            { "q": "<p>In Opuntia, photosynthesis is carried out by the:</p>", "options": ["spines", "flattened stem", "roots", "flowers"], "correct": 1, "explanation": "Leaves are spines; the green stem photosynthesises." },
+            { "q": "<p>Allen's Rule states that cold-climate mammals have:</p>", "options": ["longer limbs", "shorter extremities", "no fur", "larger ears"], "correct": 1, "explanation": "Shorter ears/limbs reduce heat loss in the cold." },
+            { "q": "<p>At high altitude the body adapts by producing more:</p>", "options": ["white blood cells", "red blood cells", "platelets", "plasma only"], "correct": 1, "explanation": "More RBCs carry oxygen in the thin air." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Adaptations = morphological/physiological/behavioural. Kangaroo rat: metabolic water (fat oxidation) + concentrated urine. Desert plants: CAM, thick cuticle, sunken stomata, spines (<em>Opuntia</em> stem photosynthesises). Allen's Rule: short extremities in cold. High altitude: more RBCs + faster breathing.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Populations: Attributes, Growth and Interactions",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Population Attributes and Growth",
+          "concept": "<p>A <strong>population</strong> is a group of individuals of the <strong>same species</strong> living in a given area. Unlike an individual, a population has <strong>attributes</strong> that only a group can have. <strong>Population density</strong> is the number of individuals per unit area (or volume). <strong>Natality</strong> is the <strong>birth rate</strong> and <strong>mortality</strong> the <strong>death rate</strong> (per capita). <strong>Sex ratio</strong> is the proportion of males to females. The <strong>age distribution</strong> is shown as an <strong>age pyramid</strong>: a broad-based <strong>expanding (growing)</strong> pyramid, a bell-shaped <strong>stable</strong> one, or an <strong>urn-shaped declining</strong> one.</p><p>Population size changes through four processes: <strong>natality (B)</strong> and <strong>immigration (I)</strong> increase it, while <strong>mortality (D)</strong> and <strong>emigration (E)</strong> decrease it. So the population at the next time is <strong>N(t+1) = N(t) + [(B + I) &minus; (D + E)]</strong>. When births and immigration exceed deaths and emigration, the population grows.</p><p>Population growth follows one of two models. <strong>Exponential growth</strong> occurs when <strong>resources (food, space) are unlimited</strong>: the population grows faster and faster, giving a <strong>J-shaped curve</strong>, described by <strong>dN/dt = rN</strong> (where <strong>r</strong> is the <strong>intrinsic rate of natural increase</strong>). Such unlimited growth cannot continue for long in nature.</p><p>The more realistic model is <strong>logistic growth</strong>, because every habitat has a finite <strong>carrying capacity (K)</strong> &mdash; the <strong>maximum population the environment can support</strong>. Here growth is fast at first, then slows as the population nears K, giving an <strong>S-shaped (sigmoid) curve</strong>, described by <strong>dN/dt = rN[(K &minus; N)/K]</strong>. As N approaches K the growth rate falls to zero and the population levels off. For NEET, fix the population attributes (density, natality/mortality, age pyramids), the growth equation N(t+1), and the contrast between exponential (J-shaped, unlimited, dN/dt = rN) and logistic (S-shaped, carrying capacity K) growth.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Concept</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Density</td><td style='border:1px solid #dcfce7;padding:6px 8px'>individuals per unit area/volume</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Natality / Mortality</td><td style='border:1px solid #dcfce7;padding:6px 8px'>birth rate / death rate</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Age pyramids</td><td style='border:1px solid #dcfce7;padding:6px 8px'>expanding / stable / declining</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Exponential</td><td style='border:1px solid #dcfce7;padding:6px 8px'>J-shaped; unlimited resources; dN/dt = rN</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Logistic</td><td style='border:1px solid #dcfce7;padding:6px 8px'>S-shaped; carrying capacity K; dN/dt = rN(K−N)/K</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Write the equation for population change in terms of B, I, D and E.</p>",
+              "solution": "<p><strong>N(t+1) = N(t) + [(B + I) &minus; (D + E)]</strong>, where B = births (natality), I = immigration, D = deaths (mortality) and E = emigration. The population grows when (B + I) &gt; (D + E).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is logistic growth more realistic than exponential growth?</p>",
+              "solution": "<p>Because <strong>resources in any habitat are limited</strong>. Logistic growth includes a <strong>carrying capacity (K)</strong>: growth slows as the population nears K and then levels off (S-shaped curve). Exponential growth (J-shaped) assumes unlimited resources, which cannot exist in nature for long.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Natality refers to the:</p>", "options": ["death rate", "birth rate", "sex ratio", "immigration"], "correct": 1, "explanation": "Natality is the birth rate." },
+            { "q": "<p>A broad-based age pyramid indicates a population that is:</p>", "options": ["declining", "stable", "expanding (growing)", "extinct"], "correct": 2, "explanation": "A broad base = many young = expanding population." },
+            { "q": "<p>Exponential growth gives a:</p>", "options": ["S-shaped curve", "J-shaped curve", "straight line", "U-shaped curve"], "correct": 1, "explanation": "Unlimited-resource growth is J-shaped." },
+            { "q": "<p>In logistic growth, K stands for:</p>", "options": ["birth rate", "carrying capacity", "death rate", "immigration"], "correct": 1, "explanation": "K is the carrying capacity of the environment." },
+            { "q": "<p>In dN/dt = rN, 'r' is the:</p>", "options": ["carrying capacity", "intrinsic rate of natural increase", "density", "sex ratio"], "correct": 1, "explanation": "r is the intrinsic rate of natural increase." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Population attributes: density, natality/mortality, sex ratio, age pyramids (expanding/stable/declining). N(t+1)=N(t)+[(B+I)−(D+E)]. Exponential = J-shaped, unlimited, dN/dt=rN. Logistic = S-shaped, carrying capacity K, dN/dt=rN(K−N)/K.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Population Interactions",
+          "concept": "<p>No population lives alone &mdash; species interact, and these <strong>population interactions</strong> are classified by their effect (+ benefit, &minus; harm, 0 neutral) on each of the two species. Knowing the sign-pattern and a textbook example for each is core NEET recall.</p><p><strong>Mutualism (+/+)</strong> benefits <strong>both</strong> species. Classic examples are <strong>lichens</strong> (a mutualism between a fungus and an alga), <strong>mycorrhiza</strong> (fungus + plant roots) and the remarkable <strong>fig&ndash;wasp</strong> relationship (the wasp pollinates the fig and uses it to lay eggs). <strong>Competition (&minus;/&minus;)</strong> <strong>harms both</strong> species, which fight over the same limited resource; <strong>Gause's competitive exclusion principle</strong> states that two species competing for the same resources cannot coexist indefinitely &mdash; the inferior one is eliminated.</p><p>Two interactions benefit one and harm the other (+/&minus;). In <strong>predation</strong>, the <strong>predator (+) kills and eats the prey (&minus;)</strong>; predators keep prey populations in check and are important for energy transfer and controlling invasive species. In <strong>parasitism</strong>, the <strong>parasite (+) lives on/in the host (&minus;)</strong> and harms it (usually without killing it quickly); parasites are often host-specific and may have special adaptations (loss of sense organs, presence of suckers/hooks).</p><p>The remaining two involve a neutral partner. <strong>Commensalism (+/0)</strong> benefits one species while the other is <strong>unaffected</strong> &mdash; examples are an <strong>orchid growing on a tree branch</strong>, <strong>barnacles on the back of a whale</strong>, and the <strong>cattle egret that feeds on insects stirred up by grazing cattle</strong>. <strong>Amensalism (&minus;/0)</strong> harms one species while the other is unaffected. For NEET, memorise the sign-pattern + example for each: mutualism (+/+, lichen/mycorrhiza/fig-wasp), competition (&minus;/&minus;, Gause's principle), predation and parasitism (+/&minus;), commensalism (+/0, orchid/barnacle/cattle egret) and amensalism (&minus;/0).</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Interaction</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Sign &amp; example</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Mutualism</td><td style='border:1px solid #dcfce7;padding:6px 8px'>+/+ — lichen, mycorrhiza, fig–wasp</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Competition</td><td style='border:1px solid #dcfce7;padding:6px 8px'>−/− — Gause's exclusion principle</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Predation</td><td style='border:1px solid #dcfce7;padding:6px 8px'>+/− — predator eats prey</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Parasitism</td><td style='border:1px solid #dcfce7;padding:6px 8px'>+/− — parasite harms host</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Commensalism / Amensalism</td><td style='border:1px solid #dcfce7;padding:6px 8px'>+/0 (orchid on tree) / −/0</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Give the sign-pattern and an example for (i) mutualism and (ii) commensalism.</p>",
+              "solution": "<p>(i) <strong>Mutualism = +/+</strong> (both benefit) — e.g. <strong>lichens</strong> (fungus + alga) or <strong>mycorrhiza</strong>. (ii) <strong>Commensalism = +/0</strong> (one benefits, the other unaffected) — e.g. an <strong>orchid growing on a tree</strong> or <strong>barnacles on a whale</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>State Gause's competitive exclusion principle.</p>",
+              "solution": "<p>It states that <strong>two species competing for the same (limited) resources cannot coexist indefinitely</strong> — the competitively <strong>inferior species is eventually eliminated</strong>, unless one changes its niche.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>An interaction where both species benefit is:</p>", "options": ["predation", "mutualism", "parasitism", "amensalism"], "correct": 1, "explanation": "Mutualism is +/+ (both benefit)." },
+            { "q": "<p>Lichens are an example of:</p>", "options": ["competition", "mutualism", "predation", "commensalism"], "correct": 1, "explanation": "Lichen = mutualism between a fungus and an alga." },
+            { "q": "<p>In predation, the effect on predator/prey is:</p>", "options": ["+/+", "−/−", "+/−", "0/0"], "correct": 2, "explanation": "Predator benefits (+), prey is harmed (−)." },
+            { "q": "<p>An orchid growing on a tree is an example of:</p>", "options": ["mutualism", "commensalism", "parasitism", "competition"], "correct": 1, "explanation": "Commensalism (+/0): orchid benefits, tree unaffected." },
+            { "q": "<p>Gause's principle deals with:</p>", "options": ["mutualism", "competition", "commensalism", "predation only"], "correct": 1, "explanation": "Competitive exclusion principle — about competition." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Mutualism (+/+: lichen, mycorrhiza, fig–wasp); Competition (−/−: Gause's exclusion principle); Predation (+/−: predator/prey); Parasitism (+/−: parasite/host); Commensalism (+/0: orchid on tree, barnacle on whale, cattle egret); Amensalism (−/0).</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-biology-ch30-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>Birds and mammals are mostly:</p>", "options": ["conformers", "regulators", "migrators", "dormant"], "correct": 1, "explanation": "They maintain homeostasis — regulators." },
+            { "q": "<p>Aestivation is dormancy during:</p>", "options": ["winter", "summer", "rains", "spring"], "correct": 1, "explanation": "Aestivation = summer dormancy." },
+            { "q": "<p>The kangaroo rat conserves water by:</p>", "options": ["drinking a lot", "concentrated urine", "sweating", "panting"], "correct": 1, "explanation": "It excretes highly concentrated urine (and uses metabolic water)." },
+            { "q": "<p>A broad-based age pyramid indicates a population that is:</p>", "options": ["declining", "stable", "expanding", "extinct"], "correct": 2, "explanation": "Many young individuals → expanding population." },
+            { "q": "<p>Logistic growth produces a curve that is:</p>", "options": ["J-shaped", "S-shaped (sigmoid)", "straight", "circular"], "correct": 1, "explanation": "Logistic growth is sigmoid (S-shaped)." },
+            { "q": "<p>The maximum population an environment can support is the:</p>", "options": ["natality", "carrying capacity", "density", "biotic potential"], "correct": 1, "explanation": "Carrying capacity (K)." },
+            { "q": "<p>Mycorrhiza (fungus + plant roots) is an example of:</p>", "options": ["parasitism", "mutualism", "competition", "amensalism"], "correct": 1, "explanation": "Both benefit — mutualism." },
+            { "q": "<p>The cattle egret and grazing cattle show:</p>", "options": ["predation", "commensalism", "parasitism", "competition"], "correct": 1, "explanation": "Commensalism (+/0): egret benefits, cattle unaffected." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> Most small animals are conformers rather than regulators.<br><strong>R:</strong> Maintaining a constant internal temperature is energetically very expensive, especially for small bodies that lose heat quickly.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The high energy cost of regulation for small bodies is why they conform — R explains A." },
+            { "q": "<p><strong>A:</strong> Logistic growth is more realistic than exponential growth.<br><strong>R:</strong> Natural habitats have limited resources, so populations cannot grow without bound.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Limited resources (carrying capacity) is exactly why logistic is realistic — R explains A." },
+            { "q": "<p><strong>A:</strong> In commensalism one species benefits while the other is unaffected.<br><strong>R:</strong> An orchid growing on a tree branch gains support and light without harming the tree.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The orchid benefiting while the tree is unaffected is exactly commensalism — R explains A." },
+            { "q": "<p><strong>A:</strong> Two species competing for the same resources may not coexist indefinitely.<br><strong>R:</strong> By Gause's competitive exclusion principle, the competitively inferior species is eventually eliminated.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Competitive exclusion is exactly why they can't coexist — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

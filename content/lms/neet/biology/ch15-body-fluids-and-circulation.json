@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "biology",
+  "chapter": 15,
+  "title": "Body Fluids and Circulation",
+  "slug": "body-fluids-and-circulation",
+  "subtitle": "Blood and lymph, blood groups and clotting, circulation patterns, the human heart, the cardiac cycle, ECG and its regulation",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "leaf",
+  "seo": {
+    "meta_description": "NEET Biology — Body Fluids and Circulation: composition of blood and lymph, ABO and Rh blood groups, coagulation, open vs closed and single vs double circulation, the human heart, the cardiac cycle, heart sounds, ECG and regulation, with NEET-level examples and MCQs. Free on GrowQR.",
+    "focus_keyword": "body fluids and circulation NEET",
+    "secondary_keywords": [
+      "blood composition NEET",
+      "ABO Rh blood groups",
+      "cardiac cycle heart sounds",
+      "double circulation NCERT",
+      "ECG P QRS T waves"
+    ],
+    "keywords": [
+      "body fluids and circulation NEET",
+      "human heart chambers valves",
+      "blood clotting fibrin",
+      "SA node pacemaker",
+      "cardiac output NEET"
+    ]
+  },
+  "summary": "<ul><li><strong>Blood:</strong> plasma (~55%) + formed elements (~45%). RBCs are biconcave and <strong>enucleate</strong> (mammals), carry haemoglobin; <strong>neutrophils</strong> are the most abundant WBC; platelets aid clotting.</li><li><strong>Blood groups:</strong> ABO — <strong>AB = universal recipient, O = universal donor</strong>. Rh incompatibility causes erythroblastosis foetalis. Clotting needs <strong>Ca²⁺</strong>: prothrombin &rarr; thrombin, fibrinogen &rarr; fibrin.</li><li><strong>Circulation:</strong> open (haemolymph, arthropods) vs <strong>closed</strong> (vertebrates); fish = single, mammals/birds = <strong>double circulation</strong>.</li><li><strong>Heart:</strong> 4 chambers; right side deoxygenated, left side oxygenated; valves — tricuspid (right), bicuspid/mitral (left), semilunar. Left ventricle has the thickest wall.</li><li><strong>Cardiac cycle</strong> ~0.8 s; sounds 'lubb' (AV valves close) and 'dup' (semilunar valves close). <strong>SA node = pacemaker</strong> (heart is myogenic).</li><li><strong>ECG:</strong> P (atrial depolarisation), QRS (ventricular depolarisation), T (ventricular repolarisation).</li></ul>",
+  "faqs": [
+    { "q": "What are the formed elements of blood and which is most abundant?", "a": "The formed elements are red blood cells (erythrocytes), white blood cells (leucocytes) and platelets (thrombocytes). Red blood cells are by far the most abundant. Among the white blood cells, neutrophils are the most abundant type." },
+    { "q": "Why is O the universal donor and AB the universal recipient?", "a": "Group O red cells carry neither A nor B antigen, so they are not attacked by anti-A or anti-B antibodies in any recipient — making O the universal donor. Group AB plasma has neither anti-A nor anti-B antibody, so an AB person can receive any ABO blood — making AB the universal recipient." },
+    { "q": "What is the difference between single and double circulation?", "a": "In single circulation (fishes), the blood passes through the heart only once per complete circuit. In double circulation (birds and mammals), the blood passes through the heart twice — once via the pulmonary circuit (to the lungs) and once via the systemic circuit (to the body), keeping oxygenated and deoxygenated blood completely separate." },
+    { "q": "What causes the two heart sounds 'lubb' and 'dup'?", "a": "The first sound, 'lubb', is produced by the closure of the atrioventricular (tricuspid and bicuspid) valves at the start of ventricular systole. The second sound, 'dup', is produced by the closure of the semilunar valves at the end of ventricular systole." },
+    { "q": "Why is the human heart described as myogenic, and what is the pacemaker?", "a": "The heart is myogenic because the heartbeat is initiated by a specialised patch of muscle, not by a nerve. That patch, the sino-atrial (SA) node in the right atrium, generates impulses about 70–75 times a minute and is therefore called the pacemaker." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Blood, Lymph and Circulation Patterns",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Blood — Composition, Groups and Clotting",
+          "concept": "<p><strong>Blood</strong> is a special fluid connective tissue with a liquid matrix, and it is the chief transport medium of the body. By volume it is roughly <strong>55% plasma</strong> and <strong>45% formed elements</strong>. <strong>Plasma</strong> is a straw-coloured fluid, about 90–92% water, carrying dissolved proteins (mainly <strong>fibrinogen</strong>, globulins and albumins), ions, glucose, amino acids, hormones and wastes; fibrinogen is needed for clotting, globulins for defence and albumins for osmotic balance.</p><p>The <strong>formed elements</strong> are three cell types. <strong>Red blood cells (erythrocytes)</strong> are the most abundant (about 5–5.5 million per mm³), biconcave, and in mammals <strong>lack a nucleus</strong>; they are packed with <strong>haemoglobin</strong> to carry oxygen, are formed in the red bone marrow, live about <strong>120 days</strong>, and are destroyed in the spleen (the 'graveyard of RBCs'). <strong>White blood cells (leucocytes)</strong> are nucleated and colourless (6000–8000 per mm³); they are granulocytes (<strong>neutrophils</strong> — the most abundant, ~60–65%; eosinophils; basophils) or agranulocytes (lymphocytes, monocytes), and they provide immunity. <strong>Platelets (thrombocytes)</strong> (1.5–3.5 lakh per mm³) are cell fragments that help in clotting.</p><p><strong>Blood groups</strong> are defined by antigens on the red cells. In the <strong>ABO system</strong>, group A has antigen A (and anti-B antibody), B has antigen B (anti-A), AB has both antigens and no antibodies, and O has neither antigen but both antibodies. Hence <strong>AB is the universal recipient</strong> and <strong>O the universal donor</strong>. The <strong>Rh factor</strong> is another antigen; an Rh-negative mother carrying a second Rh-positive child can suffer <strong>erythroblastosis foetalis</strong>, in which maternal anti-Rh antibodies attack the foetal red cells.</p><p><strong>Coagulation (clotting)</strong> seals an injury. Damaged tissue and platelets release factors that form an enzyme (thromboplastin/thrombokinase); this converts inactive <strong>prothrombin to the active enzyme thrombin</strong> (a step requiring <strong>calcium ions, Ca²⁺</strong>), and thrombin then converts soluble <strong>fibrinogen into insoluble fibrin</strong> threads that trap blood cells to form the clot. The exam-critical chain to remember is: prothrombin &rarr; thrombin (needs Ca²⁺) &rarr; fibrinogen &rarr; fibrin.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Element</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Key fact</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>RBC</td><td style='border:1px solid #dcfce7;padding:6px 8px'>most abundant; no nucleus; haemoglobin; ~120 days</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>WBC</td><td style='border:1px solid #dcfce7;padding:6px 8px'>nucleated; neutrophils most abundant; immunity</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Platelets</td><td style='border:1px solid #dcfce7;padding:6px 8px'>clotting</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Universal donor / recipient</td><td style='border:1px solid #dcfce7;padding:6px 8px'>O / AB</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Clotting chain</td><td style='border:1px solid #dcfce7;padding:6px 8px'>prothrombin&rarr;thrombin (Ca²⁺)&rarr;fibrin</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A person with blood group O can donate to almost anyone but receive only from O. Explain why.</p>",
+              "solution": "<p>Group O red cells carry <strong>neither A nor B antigen</strong>, so no recipient's antibodies attack them — O is the <strong>universal donor</strong>. But O plasma contains <strong>both anti-A and anti-B antibodies</strong>, which would attack A, B or AB cells, so an O person can safely receive only group O blood.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Which ion is essential for the conversion of prothrombin to thrombin during clotting?</p>",
+              "solution": "<p><strong>Calcium ions (Ca²⁺)</strong> are essential for converting prothrombin into the active enzyme thrombin during blood coagulation.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Mammalian red blood cells are unusual in that they:</p>", "options": ["have many nuclei", "lack a nucleus", "are green", "cannot carry oxygen"], "correct": 1, "explanation": "Mammalian RBCs are enucleate and biconcave." },
+            { "q": "<p>The most abundant type of white blood cell is the:</p>", "options": ["lymphocyte", "monocyte", "neutrophil", "basophil"], "correct": 2, "explanation": "Neutrophils (~60–65%) are the most abundant WBC." },
+            { "q": "<p>The universal recipient blood group is:</p>", "options": ["O", "A", "B", "AB"], "correct": 3, "explanation": "AB has no antibodies, so it can receive any ABO blood." },
+            { "q": "<p>Fibrinogen is converted to fibrin by:</p>", "options": ["prothrombin", "thrombin", "heparin", "calcium only"], "correct": 1, "explanation": "Thrombin converts fibrinogen to fibrin." },
+            { "q": "<p>Erythroblastosis foetalis is linked to:</p>", "options": ["the ABO system", "the Rh factor", "platelet deficiency", "low haemoglobin"], "correct": 1, "explanation": "It results from Rh incompatibility between mother and foetus." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> RBC = no nucleus/most abundant; neutrophil = most abundant WBC; platelets = clotting. O donor, AB recipient; Rh → erythroblastosis foetalis. Clotting: prothrombin → thrombin (Ca²⁺) → fibrinogen → fibrin.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Lymph and Patterns of Circulation",
+          "concept": "<p>Besides blood, the body has a second fluid, <strong>lymph (tissue fluid)</strong>. As blood flows through fine capillaries, some plasma along with small dissolved substances leaks out into the spaces between cells; this colourless fluid is the lymph. It is essentially <strong>plasma minus the large proteins and red cells</strong>, but it does contain <strong>white blood cells (lymphocytes)</strong>. The lymphatic system collects this fluid and returns it to the blood, and its <strong>lacteals</strong> in the intestine also absorb digested <strong>fats</strong>. Lymph thus carries nutrients, hormones and immune cells.</p><p>Animals show two broad <strong>patterns of circulation</strong>. In an <strong>open circulatory system</strong>, blood (called haemolymph) is pumped out into open spaces (sinuses) and bathes the tissues directly before returning — seen in arthropods (cockroach) and most molluscs. In a <strong>closed circulatory system</strong>, blood always flows within a continuous network of vessels and never leaves them, allowing precise, regulated distribution — seen in annelids (earthworm) and all vertebrates.</p><p>Within closed systems, vertebrates differ in how many times the blood passes through the heart per circuit. In <strong>single circulation</strong> the blood passes through the heart <strong>only once</strong> per complete circuit — typical of <strong>fishes</strong>, whose two-chambered heart pumps deoxygenated blood to the gills, from where oxygenated blood goes directly to the body. In <strong>double circulation</strong>, the blood passes through the heart <strong>twice</strong>: a pulmonary circuit carries blood to the lungs and back, and a systemic circuit carries it to the body and back.</p><p><strong>Double circulation</strong> is the pattern in <strong>birds and mammals</strong>, whose four-chambered hearts keep oxygenated and deoxygenated blood completely separate, making oxygen delivery highly efficient. Amphibians and most reptiles have an <strong>incomplete double circulation</strong> (their hearts allow some mixing because the ventricle is not fully divided). For NEET, fix the pairs: open = arthropods/molluscs; closed = annelids/vertebrates; single = fish; complete double = birds and mammals.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Pattern</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Example</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Open circulation</td><td style='border:1px solid #dcfce7;padding:6px 8px'>arthropods, molluscs (haemolymph)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Closed circulation</td><td style='border:1px solid #dcfce7;padding:6px 8px'>annelids, vertebrates</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Single circulation</td><td style='border:1px solid #dcfce7;padding:6px 8px'>fishes</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Complete double circulation</td><td style='border:1px solid #dcfce7;padding:6px 8px'>birds, mammals</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Lymph</td><td style='border:1px solid #dcfce7;padding:6px 8px'>plasma minus big proteins + lymphocytes; absorbs fats</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>How does lymph differ in composition from blood?</p>",
+              "solution": "<p>Lymph is similar to plasma but <strong>lacks the large plasma proteins and the red blood cells</strong>; it does contain <strong>white blood cells (lymphocytes)</strong>. It also absorbs digested fats via the intestinal lacteals.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is the double circulation of mammals more efficient than the single circulation of fishes?</p>",
+              "solution": "<p>In double circulation, oxygenated and deoxygenated blood are kept <strong>completely separate</strong> (four-chambered heart, two circuits), so fully oxygenated blood is delivered to the body under good pressure — more efficient than the single circuit of fishes, where blood loses pressure passing through the gill capillaries first.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>An open circulatory system is found in:</p>", "options": ["earthworm", "cockroach", "human", "fish"], "correct": 1, "explanation": "Arthropods like the cockroach have open circulation (haemolymph)." },
+            { "q": "<p>Single circulation is characteristic of:</p>", "options": ["mammals", "birds", "fishes", "reptiles"], "correct": 2, "explanation": "Fishes have single circulation (blood through heart once)." },
+            { "q": "<p>Complete double circulation occurs in:</p>", "options": ["amphibians", "reptiles", "birds and mammals", "fishes"], "correct": 2, "explanation": "Birds and mammals have complete double circulation." },
+            { "q": "<p>Lymph differs from blood mainly in lacking:</p>", "options": ["water", "lymphocytes", "red cells and large proteins", "ions"], "correct": 2, "explanation": "Lymph lacks RBCs and large plasma proteins." },
+            { "q": "<p>Digested fats are absorbed into the lymph by the:</p>", "options": ["villi capillaries", "lacteals", "glomerulus", "alveoli"], "correct": 1, "explanation": "Lacteals (lymph vessels) absorb digested fats." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Open = arthropods/molluscs; closed = annelids/vertebrates. Single = fish; complete double = birds/mammals; incomplete double = amphibians/reptiles. Lymph = plasma − big proteins − RBC, + lymphocytes; lacteals absorb fats.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The Human Heart and Cardiac Cycle",
+      "topics": [
+        {
+          "number": 3,
+          "title": "The Human Heart and the Cardiac Cycle",
+          "concept": "<p>The human heart is a muscular, four-chambered pump lying in the thoracic cavity, enclosed in a double-walled <strong>pericardium</strong> with lubricating fluid. The upper chambers are the two <strong>atria (auricles)</strong> and the lower are the two <strong>ventricles</strong>. The <strong>right side carries deoxygenated blood</strong> and the <strong>left side carries oxygenated blood</strong>, and the two sides are completely separate (double circulation).</p><p>The flow follows a fixed path. The <strong>right atrium</strong> receives deoxygenated blood from the body via the venae cavae and passes it to the <strong>right ventricle</strong>, which pumps it through the <strong>pulmonary artery</strong> to the lungs. Oxygenated blood returns via the pulmonary veins to the <strong>left atrium</strong>, then to the <strong>left ventricle</strong>, which pumps it through the <strong>aorta</strong> to the whole body. To prevent backflow, valves guard the openings: the <strong>tricuspid valve</strong> (right atrioventricular), the <strong>bicuspid or mitral valve</strong> (left atrioventricular), and the <strong>semilunar valves</strong> at the bases of the pulmonary artery and aorta. Because it must push blood around the entire body, the <strong>left ventricle has the thickest wall</strong>.</p><p>One heartbeat is the <strong>cardiac cycle</strong>, lasting about <strong>0.8 second</strong> at a resting rate of ~72 beats per minute. It has three phases: <strong>atrial systole</strong> (atria contract, topping up the ventricles), <strong>ventricular systole</strong> (ventricles contract, ejecting blood into the arteries) and <strong>joint diastole</strong> (all chambers relax and fill). The volume pumped by a ventricle per beat is the <strong>stroke volume</strong> (~70 mL), and the <strong>cardiac output = stroke volume × heart rate</strong> (about 5 litres per minute at rest).</p><p>The heartbeat produces two characteristic <strong>heart sounds</strong>. The first, <strong>'lubb'</strong>, is the closure of the <strong>atrioventricular (tricuspid and bicuspid) valves</strong> at the start of ventricular systole; the second, <strong>'dup'</strong>, is the closure of the <strong>semilunar valves</strong> at the end of ventricular systole. Matching each sound to the valves that cause it, and remembering the chambers, valves and the cardiac-output formula, covers most heart questions.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Structure</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Right side</td><td style='border:1px solid #dcfce7;padding:6px 8px'>deoxygenated blood</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Left side</td><td style='border:1px solid #dcfce7;padding:6px 8px'>oxygenated blood (thickest ventricle wall)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Valves</td><td style='border:1px solid #dcfce7;padding:6px 8px'>tricuspid (R), bicuspid/mitral (L), semilunar</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Cardiac cycle</td><td style='border:1px solid #dcfce7;padding:6px 8px'>~0.8 s; output = SV × HR (~5 L/min)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Heart sounds</td><td style='border:1px solid #dcfce7;padding:6px 8px'>lubb (AV valves), dup (semilunar valves)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>If a person's stroke volume is 70 mL and heart rate is 72 beats per minute, what is the cardiac output?</p>",
+              "solution": "<p>Cardiac output = stroke volume × heart rate = $70\\ \\text{mL} \\times 72 = 5040\\ \\text{mL/min} \\approx 5\\ \\text{L/min}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Which valves close to produce the first heart sound 'lubb'?</p>",
+              "solution": "<p>The <strong>atrioventricular valves</strong> — the tricuspid (right) and the bicuspid/mitral (left) — close at the start of ventricular systole to produce 'lubb'.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The valve between the left atrium and left ventricle is the:</p>", "options": ["tricuspid", "bicuspid (mitral)", "pulmonary semilunar", "aortic semilunar"], "correct": 1, "explanation": "The left AV valve is the bicuspid/mitral valve." },
+            { "q": "<p>Deoxygenated blood from the body enters the:</p>", "options": ["left atrium", "right atrium", "left ventricle", "aorta"], "correct": 1, "explanation": "Venae cavae bring deoxygenated blood to the right atrium." },
+            { "q": "<p>The chamber with the thickest muscular wall is the:</p>", "options": ["right atrium", "left atrium", "right ventricle", "left ventricle"], "correct": 3, "explanation": "The left ventricle pumps blood to the whole body, so its wall is thickest." },
+            { "q": "<p>Cardiac output equals:</p>", "options": ["stroke volume + heart rate", "stroke volume × heart rate", "heart rate / stroke volume", "stroke volume − heart rate"], "correct": 1, "explanation": "Cardiac output = SV × HR." },
+            { "q": "<p>The second heart sound 'dup' is due to closure of the:</p>", "options": ["AV valves", "semilunar valves", "tricuspid valve only", "bicuspid valve only"], "correct": 1, "explanation": "'dup' = semilunar valves closing." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Right = deoxygenated, left = oxygenated (thickest wall). Valves: tricuspid (R AV), bicuspid/mitral (L AV), semilunar. Cardiac output = SV × HR (~5 L/min). lubb = AV valves; dup = semilunar valves.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Conducting System, ECG and Regulation",
+          "concept": "<p>The heart beats on its own because it is <strong>myogenic</strong> — the impulse arises from heart muscle, not from a nerve. The signal starts at the <strong>sino-atrial (SA) node</strong> in the wall of the right atrium, which generates impulses about <strong>70–75 times a minute</strong> and is therefore called the <strong>pacemaker</strong>. From the SA node the impulse spreads over the atria to the <strong>atrioventricular (AV) node</strong>, then down the <strong>bundle of His</strong> and its branches, and finally through the <strong>Purkinje fibres</strong> into the ventricle walls, causing them to contract. This conducting pathway ensures the chambers contract in the correct order.</p><p>The electrical activity of the heart can be recorded as an <strong>electrocardiogram (ECG)</strong>, a graph of voltage against time with three characteristic deflections. The <strong>P wave</strong> represents the <strong>depolarisation of the atria</strong> (which leads to atrial contraction); the <strong>QRS complex</strong> represents the <strong>depolarisation of the ventricles</strong> (the start of ventricular contraction); and the <strong>T wave</strong> represents the <strong>repolarisation (relaxation) of the ventricles</strong>. The shape, timing and number of these waves are used clinically to diagnose heart conditions, so knowing which wave reflects which event is a high-yield NEET fact.</p><p>Although the heart sets its own basic rhythm, the rate and force of the beat are <strong>regulated by the nervous system and hormones</strong> to match the body's needs. A <strong>cardiac centre in the medulla oblongata</strong> sends two opposing nerve supplies: <strong>sympathetic</strong> nerves <strong>speed up</strong> the heart and increase its force, while <strong>parasympathetic (vagus)</strong> nerves <strong>slow it down</strong>.</p><p>Hormonal control reinforces this: <strong>adrenaline</strong> (and noradrenaline) from the adrenal medulla increases heart rate and output during stress or exercise. Finally, several <strong>disorders</strong> are part of the syllabus. <strong>Hypertension</strong> is persistently high blood pressure (above about 140/90 mm Hg; normal is ~120/80). <strong>Coronary artery disease (atherosclerosis)</strong> narrows the vessels supplying the heart muscle; <strong>angina pectoris</strong> is the chest pain felt when the heart muscle gets too little oxygen; and <strong>heart failure</strong> is the state in which the heart cannot pump enough blood for the body's needs. For NEET, remember the conduction order (SA → AV → His → Purkinje), the ECG wave meanings, the sympathetic/vagus and adrenaline controls, and the definitions of these disorders.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>ECG wave</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Represents</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>P wave</td><td style='border:1px solid #dcfce7;padding:6px 8px'>atrial depolarisation</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>QRS complex</td><td style='border:1px solid #dcfce7;padding:6px 8px'>ventricular depolarisation</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>T wave</td><td style='border:1px solid #dcfce7;padding:6px 8px'>ventricular repolarisation</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Pacemaker</td><td style='border:1px solid #dcfce7;padding:6px 8px'>SA node</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Normal BP</td><td style='border:1px solid #dcfce7;padding:6px 8px'>~120/80 mm Hg</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>What does the QRS complex of an ECG represent, and what does the T wave represent?</p>",
+              "solution": "<p>The <strong>QRS complex</strong> represents the <strong>depolarisation of the ventricles</strong> (initiating their contraction). The <strong>T wave</strong> represents the <strong>repolarisation (relaxation) of the ventricles</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Trace the path of the electrical impulse through the heart's conducting system.</p>",
+              "solution": "<p><strong>SA node</strong> (pacemaker, right atrium) &rarr; over the atria to the <strong>AV node</strong> &rarr; <strong>bundle of His</strong> and its branches &rarr; <strong>Purkinje fibres</strong> in the ventricle walls, causing ventricular contraction.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The pacemaker of the human heart is the:</p>", "options": ["AV node", "SA node", "bundle of His", "Purkinje fibres"], "correct": 1, "explanation": "The SA node initiates the heartbeat (pacemaker)." },
+            { "q": "<p>The P wave of an ECG indicates:</p>", "options": ["ventricular depolarisation", "atrial depolarisation", "ventricular repolarisation", "valve closure"], "correct": 1, "explanation": "The P wave = atrial depolarisation." },
+            { "q": "<p>The QRS complex corresponds to:</p>", "options": ["atrial contraction", "ventricular depolarisation", "ventricular relaxation", "SA node firing"], "correct": 1, "explanation": "QRS = ventricular depolarisation." },
+            { "q": "<p>The heart rate is slowed by the:</p>", "options": ["sympathetic nerves", "parasympathetic (vagus) nerves", "adrenaline", "SA node"], "correct": 1, "explanation": "The vagus (parasympathetic) slows the heart; sympathetic speeds it." },
+            { "q": "<p>Chest pain due to insufficient oxygen to the heart muscle is called:</p>", "options": ["hypertension", "angina pectoris", "anaemia", "leukaemia"], "correct": 1, "explanation": "Angina pectoris is chest pain from poor cardiac oxygen supply." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Heart is myogenic; pacemaker = SA node; conduction SA→AV→His→Purkinje. ECG: P (atrial depol.), QRS (ventricular depol.), T (ventricular repol.). Sympathetic speeds, vagus slows; normal BP ~120/80.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-biology-ch15-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>Plasma proteins responsible for clotting include:</p>", "options": ["albumin", "fibrinogen", "globulin", "haemoglobin"], "correct": 1, "explanation": "Fibrinogen is the clotting plasma protein." },
+            { "q": "<p>The graveyard of red blood cells is the:</p>", "options": ["liver", "spleen", "kidney", "bone marrow"], "correct": 1, "explanation": "Old RBCs are destroyed in the spleen." },
+            { "q": "<p>The universal blood donor group is:</p>", "options": ["AB", "A", "B", "O"], "correct": 3, "explanation": "Group O (no A/B antigens) is the universal donor." },
+            { "q": "<p>Blood passes through the heart only once per circuit in:</p>", "options": ["mammals", "birds", "fishes", "reptiles"], "correct": 2, "explanation": "Fishes have single circulation." },
+            { "q": "<p>The valve between the right atrium and right ventricle is the:</p>", "options": ["bicuspid", "tricuspid", "aortic semilunar", "pulmonary semilunar"], "correct": 1, "explanation": "The right AV valve is the tricuspid valve." },
+            { "q": "<p>The first heart sound 'lubb' is produced by closure of the:</p>", "options": ["semilunar valves", "atrioventricular valves", "aorta", "SA node"], "correct": 1, "explanation": "'lubb' = AV valves close at the start of ventricular systole." },
+            { "q": "<p>The pacemaker of the heart is the:</p>", "options": ["AV node", "SA node", "Purkinje fibres", "bundle of His"], "correct": 1, "explanation": "The SA node is the pacemaker." },
+            { "q": "<p>Repolarisation of the ventricles is shown by the ___ of an ECG:</p>", "options": ["P wave", "QRS complex", "T wave", "PR interval"], "correct": 2, "explanation": "The T wave = ventricular repolarisation." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> A person with group O blood is called a universal donor.<br><strong>R:</strong> Group O red blood cells carry neither A nor B antigens.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Absence of A/B antigens means no recipient antibodies attack O cells — R explains A." },
+            { "q": "<p><strong>A:</strong> The left ventricle has the thickest muscular wall of the four chambers.<br><strong>R:</strong> It must pump blood against high pressure to the whole body via the aorta.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Pumping to the whole body requires the most muscular wall — R explains A." },
+            { "q": "<p><strong>A:</strong> The human heartbeat is initiated by a nerve impulse from the brain.<br><strong>R:</strong> The heart is myogenic, with the beat originating in the SA node.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "A is false — the beat originates in the SA node (myogenic), not from a brain nerve; R is true." },
+            { "q": "<p><strong>A:</strong> Double circulation allows efficient oxygen delivery in mammals.<br><strong>R:</strong> It keeps oxygenated and deoxygenated blood completely separate.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Keeping the two bloods separate is what makes delivery efficient — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

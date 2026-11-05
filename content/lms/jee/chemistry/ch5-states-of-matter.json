@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": 5,
+  "title": "States of Matter",
+  "slug": "states-of-matter",
+  "subtitle": "States of Matter for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#ef4444",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "Master States of Matter for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Gaseous State",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Gas Laws and Ideal Gas Equation",
+          "concept": "<p>Gases are characterized by: low density, high compressibility, complete miscibility with each other, and assuming the shape of container.</p><p><strong>Gas Laws:</strong></p><table class=\"md-table\"><thead><tr><th>Law</th><th>Statement</th><th>Equation</th><th>Conditions</th></tr></thead><tbody><tr><td><strong>Boyle's Law</strong></td><td>$P \\propto 1/V$</td><td>$P_1V_1 = P_2V_2$</td><td>$T, n$ constant</td></tr><tr><td><strong>Charles's Law</strong></td><td>$V \\propto T$</td><td>$V_1/T_1 = V_2/T_2$</td><td>$P, n$ constant</td></tr><tr><td><strong>Gay-Lussac's Law</strong></td><td>$P \\propto T$</td><td>$P_1/T_1 = P_2/T_2$</td><td>$V, n$ constant</td></tr><tr><td><strong>Avogadro's Law</strong></td><td>$V \\propto n$</td><td>$V_1/n_1 = V_2/n_2$</td><td>$P, T$ constant</td></tr></tbody></table><p><strong>Combined Gas Law:</strong> $\\dfrac{P_1V_1}{T_1} = \\dfrac{P_2V_2}{T_2}$.</p><p><strong>Ideal Gas Equation:</strong> $$PV = nRT$$</p><p><strong>Gas constant:</strong> $R = 8.314$ J/mol·K = $0.0821$ L·atm/mol·K = $1.987$ cal/mol·K.</p><p><strong>Standard conditions:</strong></p><ul><li>STP (IUPAC modern): $0°$C, $1$ bar → $V_m = 22.7$ L</li><li>STP (NCERT older): $0°$C, $1$ atm → $V_m = 22.4$ L</li><li>NTP: $20°$C, $1$ atm → $V_m = 24.0$ L</li></ul><p><strong>Density of gas:</strong> $d = PM/(RT)$, where $M$ = molar mass.</p><p><strong>Dalton's Law of Partial Pressures:</strong> For a mixture of non-reacting gases: $$P_{\\text{total}} = P_1 + P_2 + \\ldots + P_n$$</p><p><strong>Partial pressure</strong> = mole fraction × total pressure: $P_i = x_i P_{\\text{total}}$.</p><p><strong>Graham's Law of Diffusion/Effusion:</strong> Rate of effusion $\\propto 1/\\sqrt{M}$: $$\\frac{r_1}{r_2} = \\sqrt{\\frac{M_2}{M_1}} = \\sqrt{\\frac{d_2}{d_1}}$$ (at constant $T, P$).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A gas occupies $400$ mL at $300$ K and $1$ atm. Find its volume at $600$ K and $0.5$ atm.</p>",
+              "solution": "<p>$$V_2 = V_1 \\cdot \\frac{P_1}{P_2} \\cdot \\frac{T_2}{T_1} = 400 \\times \\frac{1}{0.5} \\times \\frac{600}{300} = 400 \\times 2 \\times 2 = 1600 \\text{ mL}$$</p><p><strong>Final Answer:</strong> $V_2 = 1600$ mL.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Calculate density of CO₂ at $27°$C and $2$ atm. ($M = 44$, $R = 0.0821$)</p>",
+              "solution": "<p>$$d = \\frac{PM}{RT} = \\frac{2 \\times 44}{0.0821 \\times 300} = \\frac{88}{24.63} \\approx 3.57 \\text{ g/L}$$</p><p><strong>Final Answer:</strong> $d \\approx 3.57$ g/L.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Boyle's law: $P$ vs $V$ at constant $T$ is:</p>",
+              "options": [
+                "Linear",
+                "Parabolic",
+                "Hyperbolic",
+                "Exponential"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The value of $R$ in J/mol·K:</p>",
+              "options": [
+                "$0.0821$",
+                "$8.314$",
+                "$1.987$",
+                "$82.1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>At STP (NCERT), $1$ mole of any gas:</p>",
+              "options": [
+                "Has $1$ L volume",
+                "Occupies $22.4$ L",
+                "Has $6.022 \\times 10^{23}$ atoms always",
+                "Has mass $1$ g"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Graham's law:</p>",
+              "options": [
+                "$r \\propto M$",
+                "$r \\propto 1/M$",
+                "$r \\propto 1/\\sqrt{M}$",
+                "$r \\propto \\sqrt{M}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Dalton's law applies when gases:</p>",
+              "options": [
+                "React",
+                "Are non-reacting",
+                "Are ideal",
+                "Both b and c"
+              ],
+              "correct": 3,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Kinetic Theory and Real Gases",
+          "concept": "<p><strong>Postulates of Kinetic Molecular Theory:</strong></p><ol><li>Gas consists of large number of molecules in continuous random motion</li><li>Volume of molecules is negligible compared to container volume</li><li>No intermolecular forces (in ideal gas)</li><li>Collisions are perfectly elastic</li><li>Average KE $\\propto T$ (in Kelvin)</li></ol><p><strong>Kinetic Equation:</strong> $PV = \\dfrac{1}{3}mNu_{\\text{rms}}^2$</p><p>Relating to KE: $PV = \\dfrac{2}{3}E_K$ where $E_K = (3/2)nRT$. <strong>Average KE per molecule</strong> = $(3/2)kT$.</p><p><strong>Molecular Speeds:</strong></p><table class=\"md-table\"><thead><tr><th>Speed</th><th>Formula</th><th>Description</th></tr></thead><tbody><tr><td>RMS speed</td><td>$u_{\\text{rms}} = \\sqrt{3RT/M}$</td><td>Root mean square</td></tr><tr><td>Mean speed</td><td>$\\bar u = \\sqrt{8RT/(\\pi M)}$</td><td>Average</td></tr><tr><td>Most probable speed</td><td>$u_{mp} = \\sqrt{2RT/M}$</td><td>Peak of distribution</td></tr></tbody></table><p><strong>Ratio:</strong> $u_{mp} : \\bar u : u_{\\text{rms}} = 1 : 1.128 : 1.225$.</p><p>For nitrogen at $300$ K: $u_{\\text{rms}} \\approx 517$ m/s.</p><p><strong>Maxwell-Boltzmann Distribution:</strong> Speeds of molecules follow a specific bell-shaped distribution. At higher temperature: peak shifts right, distribution broadens.</p><p><strong>Real Gases vs Ideal:</strong> Real gases deviate from ideal at:</p><ul><li>High pressure (molecular volume significant)</li><li>Low temperature (intermolecular forces significant)</li></ul><p><strong>Compressibility factor:</strong> $Z = PV/(nRT)$. For ideal gas $Z = 1$; for real gases, $Z \\neq 1$.</p><ul><li>$Z < 1$: attractive forces dominate (real gas at moderate $P$)</li><li>$Z > 1$: repulsive forces / finite molecular volume dominates (very high $P$)</li></ul><p><strong>van der Waals Equation:</strong> $$\\left(P + \\frac{an^2}{V^2}\\right)(V - nb) = nRT$$</p><p>$a$: corrects for intermolecular attraction (larger for polar gases) $b$: corrects for molecular volume</p><p>For $1$ mole: $\\left(P + a/V^2\\right)(V - b) = RT$.</p><p><strong>Critical Constants:</strong></p><ul><li>$T_c = 8a/(27Rb)$</li><li>$P_c = a/(27b^2)$</li><li>$V_c = 3b$</li></ul><p>Above $T_c$, gas cannot be liquefied however high the pressure.</p><p><strong>Boyle Temperature ($T_B$):</strong> $T_B = a/(Rb)$. Below this, gas is more compressible than ideal; above, less.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Calculate $u_{\\text{rms}}$ of N₂ at $300$ K. ($M = 28$ g/mol)</p>",
+              "solution": "<p>$$u_{\\text{rms}} = \\sqrt{\\frac{3RT}{M}} = \\sqrt{\\frac{3 \\times 8.314 \\times 300}{0.028}}$$ $$= \\sqrt{267,235} \\approx 517 \\text{ m/s}$$</p><p><strong>Final Answer:</strong> $u_{\\text{rms}} \\approx 517$ m/s.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A real gas has $a = 2.5$ L²·atm/mol², $b = 0.04$ L/mol. Find critical temperature. ($R = 0.0821$)</p>",
+              "solution": "<p>$$T_c = \\frac{8a}{27Rb} = \\frac{8 \\times 2.5}{27 \\times 0.0821 \\times 0.04}$$ $$= \\frac{20}{0.0887} \\approx 225.5 \\text{ K}$$</p><p><strong>Final Answer:</strong> $T_c \\approx 225.5$ K.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Average KE per molecule of gas:</p>",
+              "options": [
+                "$kT$",
+                "$(3/2)kT$",
+                "$RT$",
+                "$(1/2)kT$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Ratio $u_{mp} : u_{\\text{rms}}$:</p>",
+              "options": [
+                "$1:1$",
+                "$\\sqrt{2}:\\sqrt{3}$",
+                "$\\sqrt{3}:\\sqrt{2}$",
+                "$1:2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Compressibility factor for ideal gas:</p>",
+              "options": [
+                "$0$",
+                "$1$",
+                "$\\infty$",
+                "Variable"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In van der Waals equation, $b$ corrects for:</p>",
+              "options": [
+                "Pressure",
+                "Molecular volume",
+                "Temperature",
+                "Attractive force"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Critical temperature is the temperature above which:</p>",
+              "options": [
+                "Gas cannot be liquefied",
+                "Gas becomes solid",
+                "Density is zero",
+                "Boiling stops"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Liquid State and Intermolecular Forces",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Liquid Properties — Surface Tension, Viscosity, Vapour Pressure",
+          "concept": "<p><strong>Liquid State:</strong> Definite volume, no definite shape (takes shape of container). Properties intermediate between solid and gas. Stronger intermolecular forces than gases.</p><p><strong>Vapour Pressure:</strong> Pressure exerted by vapour above a liquid in equilibrium at a given temperature.</p><ul><li>Increases with temperature</li><li>Independent of liquid amount or container volume (at given $T$)</li><li>Higher VP → more volatile liquid</li></ul><p><strong>Boiling Point:</strong> Temperature at which VP = atmospheric pressure. Liquid boils when VP equals external pressure.</p><ul><li>At higher altitudes, $P_{\\text{atm}}$ is lower → boiling point reduces</li><li>Pressure cookers raise BP by raising pressure</li></ul><p><strong>Normal Boiling Point:</strong> BP at $1$ atm. <strong>Standard BP:</strong> at $1$ bar.</p><p><strong>Clausius-Clapeyron equation:</strong> $$\\ln\\left(\\frac{P_2}{P_1}\\right) = \\frac{\\Delta H_{\\text{vap}}}{R}\\left(\\frac{1}{T_1} - \\frac{1}{T_2}\\right)$$</p><p><strong>Surface Tension ($\\gamma$ or $T$):</strong> Force per unit length acting tangentially on liquid surface (N/m). Arises from unbalanced cohesive forces at surface.</p><p>Properties affected:</p><ul><li>Spherical shape of droplets</li><li>Capillary action ($h = 2T\\cos\\theta/(\\rho g r)$)</li><li>Cleaning action of soaps (reduce $\\gamma$)</li></ul><p>Surface tension <strong>decreases</strong> with temperature. Pure liquids have specific values: water $\\sim 72$ mN/m at $25°$C.</p><p><strong>Viscosity ($\\eta$):</strong> Resistance to flow. Higher $\\eta$ → more viscous (slower flow).</p><ul><li>Newton's law: $F = \\eta A\\,dv/dx$</li><li>SI unit: Pa·s (or poise: $1$ P = $0.1$ Pa·s)</li><li>Decreases with temperature (kinetic energy overcomes intermolecular forces)</li><li>Glycerol, honey have high $\\eta$; water lower; gases very low</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A liquid has VP of $50$ mmHg at $25°$C. What is its BP at atmospheric pressure ($760$ mmHg)?</p>",
+              "solution": "<p>Boiling occurs when VP = external pressure. The liquid would need to reach a temperature where VP = $760$ mmHg. This requires the Clausius-Clapeyron equation and knowledge of $\\Delta H_{\\text{vap}}$ — assumed here, would yield specific value (likely $\\sim 80-100°$C depending on $\\Delta H$). Without those, conclude BP > $25°$C.</p><p><strong>Final Answer:</strong> Depends on $\\Delta H_{\\text{vap}}$; BP at which VP reaches $760$ mmHg.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why does water rise in capillary tube?</p>",
+              "solution": "<p>Adhesive forces between water and glass exceed cohesive forces in water. The net upward force, combined with surface tension, pulls water up to height $h = 2T\\cos\\theta/(\\rho gr)$. Contact angle $\\theta < 90°$ for water-glass.</p><p><strong>Final Answer:</strong> Adhesion > cohesion; capillary rise due to surface tension and small contact angle.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Vapour pressure depends on:</p>",
+              "options": [
+                "Volume of container",
+                "Amount of liquid",
+                "Temperature",
+                "None"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Liquid boils when:</p>",
+              "options": [
+                "VP > atmospheric pressure",
+                "VP = atmospheric pressure",
+                "VP < atmospheric pressure",
+                "Always at 100°C"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Surface tension with temperature:</p>",
+              "options": [
+                "Increases",
+                "Decreases",
+                "Constant",
+                "Random"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Viscosity decreases with increasing:</p>",
+              "options": [
+                "Mass",
+                "Temperature",
+                "Density",
+                "Pressure"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Cleaning action of soap is due to:</p>",
+              "options": [
+                "Adding bubbles",
+                "Reducing surface tension of water",
+                "Increasing density",
+                "Acidic nature"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Intermolecular Forces (van der Waals, H-bonding)",
+          "concept": "<p><strong>Intermolecular Forces (IMFs):</strong> Attractive forces between molecules. Determine physical properties (BP, MP, solubility).</p><p><strong>Types of IMFs (van der Waals):</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Description</th><th>Examples</th><th>Strength</th></tr></thead><tbody><tr><td><strong>London / Dispersion</strong></td><td>Instantaneous induced dipole-dipole</td><td>All molecules; only force in non-polar</td><td>Weakest; increases with size/polarizability</td></tr><tr><td><strong>Dipole-Dipole</strong></td><td>Between polar molecules</td><td>HCl, SO₂</td><td>Moderate</td></tr><tr><td><strong>Dipole-Induced Dipole</strong></td><td>Polar molecule induces dipole in non-polar</td><td>HCl-Ar</td><td>Weak</td></tr><tr><td><strong>Ion-Dipole</strong></td><td>Between ion and polar molecule</td><td>Na⁺ in H₂O</td><td>Strong (in solutions)</td></tr><tr><td><strong>Hydrogen bond</strong></td><td>H bonded to F, O, N attracted to lone pair of F, O, N on another molecule</td><td>H₂O, HF, NH₃, alcohols</td><td>Strongest (10-40 kJ/mol)</td></tr></tbody></table><p><strong>London Dispersion Forces:</strong></p><ul><li>Universal — present in all molecules</li><li>Strength depends on polarizability (number of electrons, molecular size)</li><li>Stronger with larger atomic/molecular surface</li><li>Explains why I₂ is solid, Br₂ liquid, Cl₂ gas at room T</li></ul><p><strong>Order of strength</strong> (typically): Covalent/ionic bonds (intramolecular) > H-bonds > dipole-dipole > induced dipole > London.</p><p><strong>Hydrogen Bond Specifics:</strong></p><ul><li>Bond energy: $5-40$ kJ/mol</li><li>Affects: BP, MP, solubility in water, structure of ice and proteins (DNA double helix)</li><li>Intramolecular H-bonds (within molecule): o-nitrophenol — gives lower BP than p-nitrophenol</li><li>Intermolecular H-bonds: H₂O has BP $100°$C vs H₂S $-60°$C</li></ul><p><strong>Effects of IMFs on Physical Properties:</strong></p><ul><li>Higher IMF → higher BP, MP</li><li>Higher IMF → lower vapour pressure</li><li>Higher IMF → higher viscosity, surface tension</li><li>Solubility: \"like dissolves like\" — polar in polar, non-polar in non-polar</li></ul><p><strong>Comparing Boiling Points (BP):</strong></p><ul><li>Among alkanes: $C_2H_6 < C_3H_8 < C_4H_{10}$ (London ↑ with size)</li><li>HF > HI > HBr > HCl (H-bonding dominates HF; then London for others)</li><li>$H_2O > H_2S > H_2Se > H_2Te$ for H₂O only; then $H_2S < H_2Se < H_2Te$ for the rest (H-bonding makes H₂O anomalous; London ↑ with size for others)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Arrange in increasing BP: CH₄, NH₃, H₂O, HF.</p>",
+              "solution": "<p>CH₄: nonpolar, only London (small) — lowest BP ($-161°$C). HF: strong H-bond but $1$ donor per molecule (limited) NH₃: 3 H-bond donors, 1 acceptor H₂O: 2 donors and 2 acceptors → strongest H-bond network → highest BP NH₃ ($-33$), HF ($20$), H₂O ($100$). Order: CH₄ < NH₃ < HF < H₂O.</p><p><strong>Final Answer:</strong> CH₄ < NH₃ < HF < H₂O.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is the BP of o-nitrophenol lower than p-nitrophenol?</p>",
+              "solution": "<p>o-nitrophenol: forms intramolecular H-bond (between -OH and adjacent -NO₂) — molecules don't form strong intermolecular H-bonds. p-nitrophenol: cannot form intramolecular H-bond (groups too far apart); forms intermolecular H-bonds → higher BP.</p><p><strong>Final Answer:</strong> Intramolecular H-bond in o-isomer; intermolecular in p-isomer.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Strongest intermolecular force:</p>",
+              "options": [
+                "London",
+                "Dipole-dipole",
+                "H-bond",
+                "Induced dipole"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>London forces exist in:</p>",
+              "options": [
+                "Polar molecules only",
+                "Non-polar molecules only",
+                "All molecules",
+                "Only ions"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Increasing order of BP: He, Ne, Ar, Xe:</p>",
+              "options": [
+                "He > Ne > Ar > Xe",
+                "He < Ne < Ar < Xe",
+                "All equal",
+                "Ar = Xe < Ne < He"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Reason for high BP of HF:</p>",
+              "options": [
+                "High molar mass",
+                "Strong H-bonding",
+                "Highest polarity",
+                "Both b and c"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The reason ice floats on water:</p>",
+              "options": [
+                "Lower mass",
+                "Open cage structure due to H-bonds → less dense",
+                "Higher temperature",
+                "Surface tension"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-chem-states-of-matter-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>The volume of $0.1$ mol of a gas at $25°$C and $1$ atm:</p>",
+              "options": [
+                "$2.45$ L",
+                "$24.5$ L",
+                "$0.245$ L",
+                "$245$ L"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two gases A and B effuse through same orifice. Ratio of rates: $r_A/r_B = 2$. Ratio of $M_A/M_B$:</p>",
+              "options": [
+                "$1/2$",
+                "$1/4$",
+                "$2$",
+                "$4$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>At very high pressures, the compressibility factor of a real gas:</p>",
+              "options": [
+                "$< 1$",
+                "$> 1$",
+                "$= 1$",
+                "$= 0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The molar volume of a gas at NTP ($20°$C, $1$ atm):</p>",
+              "options": [
+                "$22.4$ L",
+                "$24.0$ L",
+                "$1$ L",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Order of RMS speed at same temperature: $H_2$, $N_2$, $O_2$, $CO_2$:</p>",
+              "options": [
+                "$H_2 > N_2 > O_2 > CO_2$",
+                "$CO_2 > O_2 > N_2 > H_2$",
+                "All equal",
+                "Equal $H_2 = N_2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Boyle's law graph: $P$ vs $1/V$ at const T is:</p>",
+              "options": [
+                "Curved",
+                "Hyperbolic",
+                "Straight line through origin",
+                "Parabola"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The vapour pressure of a liquid at $373$ K equals atmospheric pressure of $1$ atm. This means:</p>",
+              "options": [
+                "Freezing point is $373$ K",
+                "Boiling point is $373$ K",
+                "Critical point",
+                "Triple point"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In van der Waals equation, $a$ corrects for:</p>",
+              "options": [
+                "Excluded volume",
+                "Intermolecular attraction",
+                "Temperature",
+                "Molar mass"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Hydrogen bond is strongest in:</p>",
+              "options": [
+                "HCl",
+                "HBr",
+                "HF",
+                "HI"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Surface tension of water at room temperature:</p>",
+              "options": [
+                "$\\sim 72$ mN/m",
+                "$\\sim 1$ N/m",
+                "$\\sim 10$ N/m",
+                "Negligible"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Volume of $4$ g of CH₄ at STP (in L):</p>",
+              "answer": "5",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Compressibility factor at ideal behavior:</p>",
+              "answer": "1",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of H-bonds each water molecule can form (max):</p>",
+              "answer": "4",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Boiling point of water is higher than that of H₂S. <strong>Reason (R):</strong> Water has hydrogen bonding while H₂S does not.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> Real gases deviate from ideal behavior at high pressure. <strong>Reason (R):</strong> At high pressure, the molecular volume becomes significant compared to container volume.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

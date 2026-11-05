@@ -1,0 +1,818 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": 26,
+  "title": "Differential Equations",
+  "slug": "differential-equations",
+  "subtitle": "Integral Calculus: Differential Equations",
+  "level": "JEE Main & Advanced",
+  "color": "#9333ea",
+  "icon": "math",
+  "seo": {
+    "meta_description": "Master Differential Equations for JEE Main & Advanced on GrowQR: notes, solved examples, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Foundations of Differential Equations",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Order, Degree, and Formation of Equations",
+          "concept": "A <strong>differential equation (DE)</strong> is an equation containing an independent variable, a dependent variable, and the derivatives of the dependent variable with respect to the independent variable. The classification and behavior of a DE depend on its order and degree:\n <ul>\n <li><strong>Order:</strong> The order of a differential equation is the order of the highest-order derivative appearing in the equation. It is always a positive integer and is unconditionally defined for every DE.\n <li><strong>Degree:</strong> The degree of a differential equation is the power or exponent of the highest-order derivative, provided the equation can be expressed as a polynomial equation in terms of its derivatives. If the derivatives are embedded inside transcendental functions (such as $\\sin(y')$, $\\ln(y'')$, or $e^{y'}$), the degree of the equation is <strong>strictly undefined</strong>.\n </ul>\n To <strong>form a differential equation</strong> from a given family of curves, differentiate the geometric equation successively with respect to the independent variable $x$. If the curve equation contains $n$ independent arbitrary constants, you must differentiate the equation exactly $n$ times to generate a system of equations. Eliminating the arbitrary constants from this system yields a differential equation of order $n$.",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Determine the order and degree of the following differential equation: \n \\[ y = x \\frac{dy}{dx} + \\sqrt{1 + \\left(\\frac{dy}{dx}\\right)^2} \\]</p>",
+              "solution": "<p>The highest-order derivative in the equation is the first derivative, $\\frac{dy}{dx}$. Therefore, the order of the equation is <strong>1</strong>.\n To find the degree, we must first remove the radical sign to express the equation as a polynomial in terms of its derivatives. Rearrange the terms:\n \\[ y - x \\frac{dy}{dx} = \\sqrt{1 + \\left(\\frac{dy}{dx}\\right)^2} \\]\n Square both sides of the equation to eliminate the square root:\n \\[ \\left(y - x \\frac{dy}{dx}\\right)^2 = 1 + \\left(\\frac{dy}{dx}\\right)^2 \\]\n Expand the left side:\n \\[ y^2 - 2xy \\frac{dy}{dx} + x^2 \\left(\\frac{dy}{dx}\\right)^2 = 1 + \\left(\\frac{dy}{dx}\\right)^2 \\]\n Gather all terms onto one side:\n \\[ (x^2 - 1)\\left(\\frac{dy}{dx}\\right)^2 - 2xy \\frac{dy}{dx} + (y^2 - 1) = 0 \\]\n The equation is now expressed as a polynomial in terms of its derivatives. The exponent of the highest-order derivative ($\\frac{dy}{dx}$) is 2. Therefore, the degree of the equation is <strong>2</strong>.\n <strong>Final Answer:</strong> Order = 1, Degree = 2.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Determine the order and degree of the differential equation $\\frac{d^2y}{dx^2} + \\cos\\left(\\frac{dy}{dx}\\right) = 0$:",
+              "options": [
+                "Order = 2, Degree = 1",
+                "Order = 2, Degree = Undefined",
+                "Order = 1, Degree = Undefined",
+                "Order = 2, Degree = 0"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the order of the differential equation corresponding to the family of curves $y = c_1 e^{x+c_2} + c_3 e^{-x}$:",
+              "options": [
+                "3",
+                "2",
+                "1",
+                "0"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Form the differential equation for the family of circles passing through the origin and having their centers on the x-axis:",
+              "options": [
+                "$y^2 - x^2 = 2xy \\frac{dy}{dx}$",
+                "$x^2 - y^2 = 2xy \\frac{dy}{dx}$",
+                "$x^2 + y^2 = 2xy \\frac{dy}{dx}$",
+                "$y^2 - x^2 = xy \\frac{dy}{dx}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the degree of the differential equation $\\left[1 + \\left(\\frac{dy}{dx}\\right)^2\\right]^{5/3} = \\frac{d^2y}{dx^2}$:",
+              "options": [
+                "3",
+                "5",
+                "1",
+                "Undefined"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The differential equation representing the family of parabolas $y^2 = 4ax$ is:",
+              "options": [
+                "$y = 2x \\frac{dy}{dx}$",
+                "$y^2 = 2x \\frac{dy}{dx}$",
+                "$2y \\frac{dy}{dx} = a$",
+                "$y \\frac{dy}{dx} = 2x$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Solution Methodologies for First-Order Equations",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Separation of Variables and Substitutions",
+          "concept": "<p>The most straightforward method for solving a first-order differential equation is the <strong>Variable Separable Form</strong>. If the equation can be factored such that the derivative $\\frac{dy}{dx}$ splits into a product of a function of $x$ and a function of $y$, you can group all terms containing $y$ with the differential $dy$, and all terms containing $x$ with the differential $dx$:\n \\[ \\frac{dy}{dx} = f(x)g(y) \\implies \\frac{1}{g(y)} \\, dy = f(x) \\, dx \\]\n Integrating both sides directly yields the general solution: $\\int \\frac{1}{g(y)} \\, dy = \\int f(x) \\, dx + C$.</p>When a differential equation is not immediately separable, it can often be <strong>reduced to variable separable form</strong> using an algebraic substitution:\n <ul>\n <li><strong>Linear Argument Forms:</strong> For equations of the type $\\frac{dy}{dx} = f(ax + by + c)$, substitute $v = ax + by + c$. Differentiating this substitution with respect to $x$ yields $\\frac{dv}{dx} = a + b\\frac{dy}{dx}$, which transforms the original equation into a separable equation in terms of $v$ and $x$.\n <li><strong>Homogeneous Forms:</strong> A differential equation is homogeneous if it can be written in the form $\\frac{dy}{dx} = F\\left(\\frac{y}{x}\\right)$. To solve this form, substitute $y = vx \\implies \\frac{dy}{dx} = v + x\\frac{dv}{dx}$. This transformation simplifies the equation into a separable form in terms of $v$ and $x$:\n \\[ v + x\\frac{dv}{dx} = F(v) \\implies x\\frac{dv}{dx} = F(v) - v \\implies \\frac{1}{F(v) - v} \\, dv = \\frac{1}{x} \\, dx \\]\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Solve the following homogeneous differential equation: $\\frac{dy}{dx} = \\frac{x^2 + y^2}{2xy}$.</p>",
+              "solution": "<p>Divide the numerator and denominator by $x^2$ to express the right side as a function of the ratio $\\frac{y}{x}$:\n \\[ \\frac{dy}{dx} = \\frac{1 + \\left(\\frac{y}{x}\\right)^2}{2\\left(\\frac{y}{x}\\right)} \\]\n Apply the standard homogeneous substitution: $y = vx \\implies \\frac{dy}{dx} = v + x\\frac{dv}{dx}$.\n \\[ v + x\\frac{dv}{dx} = \\frac{1 + v^2}{2v} \\]\n Subtract $v$ from both sides to isolate the derivative term:\n \\[ x\\frac{dv}{dx} = \\frac{1 + v^2}{2v} - v = \\frac{1 + v^2 - 2v^2}{2v} = \\frac{1 - v^2}{2v} \\]\n Separate the variables by moving all terms containing $v$ to the left side and all terms containing $x$ to the right side:\n \\[ \\frac{2v}{1 - v^2} \\, dv = \\frac{1}{x} \\, dx \\]\n Integrate both sides. Use substitution on the left side ($u = 1 - v^2 \\implies du = -2v \\, dv$):\n \\[ -\\ln|1 - v^2| = \\ln|x| + C_1 \\implies \\ln|x| + \\ln|1 - v^2| = -C_1 \\]\n Combine the logarithmic terms:\n \\[ \\ln|x(1 - v^2)| = -C_1 \\implies x(1 - v^2) = e^{-C_1} = C \\]\n Substitute the original variable ratio $v = \\frac{y}{x}$ back into the equation:\n \\[ x\\left(1 - \\frac{y^2}{x^2}\\right) = C \\implies x\\left(\\frac{x^2 - y^2}{x^2}\\right) = C \\implies \\frac{x^2 - y^2}{x} = C \\implies x^2 - y^2 = Cx \\]\n <strong>Final Answer:</strong> $x^2 - y^2 = Cx$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Solve the separable differential equation $\\frac{dy}{dx} = \\frac{1+y^2}{1+x^2}$:",
+              "options": [
+                "$\\tan^{-1} y = \\tan^{-1} x + C$",
+                "$y = x + C$",
+                "$\\ln|1+y^2| = \\ln|1+x^2| + C$",
+                "$y(1+x^2) = x(1+y^2) + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Solve the differential equation $\\frac{dy}{dx} = (4x + y + 1)^2$ by using an appropriate linear substitution:",
+              "options": [
+                "$\\tan^{-1}(4x+y+1) = x + C$",
+                "$\\frac{1}{2}\\tan^{-1}\\left(\\frac{4x+y+1}{2}\\right) = x + C$",
+                "$\\ln|4x+y+1| = x^2 + C$",
+                "$4x+y+1 = \\tan(2x+C)$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The general solution of the homogeneous equation $\\frac{dy}{dx} = \\frac{y}{x} + \\tan\\left(\\frac{y}{x}\\right)$ is:",
+              "options": [
+                "$\\sin\\left(\\frac{y}{x}\\right) = Cx$",
+                "$\\cos\\left(\\frac{y}{x}\\right) = \\frac{C}{x}$",
+                "$\\tan\\left(\\frac{y}{x}\\right) = Cx$",
+                "$\\sin\\left(\\frac{y}{x}\\right) = \\frac{C}{x}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Solve the separable equation $\\frac{dy}{dx} = e^{x-y} + x^2 e^{-y}$:",
+              "options": [
+                "$e^y = e^x + \\frac{1}{3}x^3 + C$",
+                "$e^{-y} = e^x + x^3 + C$",
+                "$e^y = e^x + x^3 + C$",
+                "$e^{-y} = e^{-x} + \\frac{1}{3}x^3 + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "To reduce the differential equation $\\frac{dy}{dx} = \\frac{x-y+3}{2x-2y+5}$ to variable separable form, the most effective substitution is:",
+              "options": [
+                "$v = y/x$",
+                "$v = x - y$",
+                "$v = 2x - y$",
+                "$v = x + y$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Linear First-Order Equations, Bernoulli's Form, and Exactness",
+          "concept": "<p>A first-order differential equation is <strong>linear</strong> if it can be written in the standard form:\n \\[ \\frac{dy}{dx} + P(x)y = Q(x) \\]\n where $P(x)$ and $Q(x)$ are continuous functions of $x$. To solve this equation, multiply all terms by an <strong>Integrating Factor (IF)</strong>, denoted by $\\mu(x) = e^{\\int P(x) \\, dx}$. Multiplying by the integrating factor transforms the left side into the derivative of a product, allowing you to integrate directly:\n \\[ \\frac{d}{dx}\\left[ y \\cdot e^{\\int P(x) \\, dx} \\right] = Q(x) \\cdot e^{\\int P(x) \\, dx} \\implies y \\cdot \\mu(x) = \\int Q(x) \\mu(x) \\, dx + C \\]</p>Two advanced variations of this first-order form are frequently tested in competitive exams:\n <ul>\n <li><strong>Bernoulli's Equation:</strong> A non-linear equation containing a power of the dependent variable on the right side: $\\frac{dy}{dx} + P(x)y = Q(x)y^n$. To linearize this equation, divide all terms by $y^n$ and substitute $v = y^{1-n}$. This transforms the expression into a standard linear equation in terms of $v$ and $x$.\n <li><strong>Exact Differential Equations:</strong> An equation expressed in differential form, $M(x,y) \\, dx + N(x,y) \\, dy = 0$, is <strong>exact</strong> if its components satisfy the partial derivative condition:\n \\[ \\frac{\\partial M}{\\partial y} = \\frac{\\partial N}{\\partial x} \\]\n The general solution is found by integrating $M$ with respect to $x$ (treating $y$ as a constant) and adding the integrals of the terms in $N$ that contain *only* $y$. If the exactness condition is not met, the equation can often be made exact by multiplying by a targeted integrating factor.\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the general solution of the following linear differential equation: $\\frac{dy}{dx} + \\frac{2}{x}y = x^3 \\quad (x > 0)$.</p>",
+              "solution": "The equation is already in the standard linear form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x) = \\frac{2}{x}$ and $Q(x) = x^3$.\n <ul>\n <li><strong>Step 1: Calculate the Integrating Factor (IF)</strong><br>\n \\[ \\mu(x) = e^{\\int P(x) \\, dx} = e^{\\int \\frac{2}{x} \\, dx} = e^{2\\ln x} = e^{\\ln(x^2)} = x^2 \\]\n <li><strong>Step 2: Apply the linear solution formula</strong><br>\n \\[ y \\cdot \\mu(x) = \\int Q(x)\\mu(x) \\, dx + C \\]\n Substitute $\\mu(x) = x^2$ and $Q(x) = x^3$ into the equation:\n \\[ y \\cdot x^2 = \\int (x^3 \\cdot x^2) \\, dx + C = \\int x^5 \\, dx + C \\]\n Integrate the right side using the standard power rule:\n \\[ y \\cdot x^2 = \\frac{x^6}{6} + C \\]\n Divide both sides by $x^2$ to isolate $y$ and find the general solution:\n \\[ y = \\frac{x^4}{6} + C x^{-2} \\]\n </ul>\n <strong>Final Answer:</strong> $y = \\frac{x^4}{6} + \\frac{C}{x^2}$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Find the integrating factor for the linear differential equation $\\frac{dy}{dx} + y \\tan x = \\sec x$:",
+              "options": [
+                "$\\ln|\\sec x|$",
+                "$\\sec x$",
+                "$\\tan x$",
+                "$\\ln|\\cos x|$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Solve the linear equation $x \\frac{dy}{dx} - y = x^2$:",
+              "options": [
+                "$y = x^2 + Cx$",
+                "$y = x^2 \\ln x + Cx$",
+                "$y = \\frac{1}{2}x^2 + Cx$",
+                "$y = x^3 + Cx$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "To linearize the Bernoulli differential equation $\\frac{dy}{dx} + \\frac{1}{x}y = x^2 y^3$, the most effective operational substitution is:",
+              "options": [
+                "$v = y^2$",
+                "$v = y^{-2}$",
+                "$v = y^{-3}$",
+                "$v = y^{1/2}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Which of the following differential equations is strictly <strong>exact</strong>?",
+              "options": [
+                "$(2xy + x^2) \\, dx + (x^2 + y^2) \\, dy = 0$",
+                "$(y^2) \\, dx + (2xy) \\, dy = 0$",
+                "$(x^2 - y) \\, dx + (x - y^2) \\, dy = 0$",
+                "$(y \\cos x) \\, dx + (\\sin x) \\, dy = 0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Solve the exact differential equation $(3x^2 + 2xy) \\, dx + (x^2 + y^2) \\, dy = 0$:",
+              "options": [
+                "$x^3 + x^2y + \\frac{1}{3}y^3 = C$",
+                "$x^3 + 2x^2y + y^3 = C$",
+                "$x^3 + x^2y + y^3 = C$",
+                "$3x^3 + x^2y + y^3 = C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Higher-Order Systems & Advanced Solution Forms",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Second-Order Linear Equations with Constant Coefficients",
+          "concept": "A linear second-order differential equation with constant coefficients has the standard format:\n \\[ a \\frac{d^2y}{dx^2} + b \\frac{dy}{dx} + c y = f(x) \\]\n The complete general solution consists of two independent parts added together: $y(x) = y_c(x) + y_p(x)$, where $y_c(x)$ is the <strong>Complementary Function (CF)</strong> and $y_p(x)$ is the <strong>Particular Integral (PI)</strong>.\n <ul>\n <li><strong>Complementary Function ($y_c$):</strong> Found by setting the forcing function to zero ($f(x) = 0$) and solving the corresponding auxiliary quadratic equation $a m^2 + b m + c = 0$:\n <ol>\n <li><strong>Real and Distinct Roots ($m_1 \\neq m_2$):</strong> $y_c = c_1 e^{m_1 x} + c_2 e^{m_2 x}$\n <li><strong>Real and Repeated Roots ($m_1 = m_2 = m$):</strong> $y_c = (c_1 + c_2 x)e^{m x}$\n <li><strong>Complex Conjugate Roots ($m = \\alpha \\pm i\\beta$):</strong> $y_c = e^{\\alpha x}(c_1 \\cos \\beta x + c_2 \\sin \\beta x)$\n </ol>\n <li><strong>Particular Integral ($y_p$):</strong> Accounts for the non-zero forcing function $f(x)$. It can be found using the method of undetermined coefficients (guessing a template solution based on the form of $f(x)$) or via the <strong>Variation of Parameters</strong> method for general functions.\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the complete general solution of the second-order differential equation: $\\frac{d^2y}{dx^2} - 5\\frac{dy}{dx} + 6y = 0$.</p>",
+              "solution": "<p>The equation is a homogeneous second-order linear differential equation, so its solution consists entirely of the complementary function ($y = y_c$).\n Write down the corresponding auxiliary quadratic equation by replacing the derivatives with powers of $m$:\n \\[ m^2 - 5m + 6 = 0 \\]\n Factor the quadratic polynomial to find its roots:\n \\[ (m - 2)(m - 3) = 0 \\implies m_1 = 2, \\quad m_2 = 3 \\]\n The auxiliary equation has two real and distinct roots. Apply the corresponding solution template:\n \\[ y(x) = c_1 e^{m_1 x} + c_2 e^{m_2 x} = c_1 e^{2x} + c_2 e^{3x} \\]\n <strong>Final Answer:</strong> $y = c_1 e^{2x} + c_2 e^{3x}$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Find the complementary function for the second-order linear equation $\\frac{d^2y}{dx^2} - 6\\frac{dy}{dx} + 9y = 0$:",
+              "options": [
+                "$c_1 e^{3x} + c_2 e^{-3x}$",
+                "$(c_1 + c_2 x)e^{3x}$",
+                "$e^{3x}(c_1 \\cos x + c_2 \\sin x)$",
+                "$(c_1 + c_2 x)e^{-3x}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the auxiliary equation roots for the differential equation $y'' + 4y = 0$:",
+              "options": [
+                "$m = \\pm 2$",
+                "$m = \\pm 2i$",
+                "$m = 2, 2$",
+                "$m = \\pm i$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "What is the guessed template form for the particular integral $y_p$ if the forcing function is $f(x) = e^{5x}$ and 5 is not a root of the auxiliary equation?",
+              "options": [
+                "$A e^{5x}$",
+                "$A x e^{5x}$",
+                "$A x^2 e^{5x}$",
+                "$(A + Bx)e^{5x}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The general solution of the second-order differential equation $y'' + y' - 2y = 0$ is:",
+              "options": [
+                "$y = c_1 e^x + c_2 e^{-2x}$",
+                "$y = c_1 e^{-x} + c_2 e^{2x}$",
+                "$y = (c_1 + c_2 x)e^x$",
+                "$y = e^x(c_1 \\cos 2x + c_2 \\sin 2x)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the general solution of the equation $y'' + 9y = 0$:",
+              "options": [
+                "$y = c_1 e^{3x} + c_2 e^{-3x}$",
+                "$y = c_1 \\cos 3x + c_2 \\sin 3x$",
+                "$y = (c_1 + c_2 x)e^{3x}$",
+                "$y = e^{3x}(c_1 \\cos 3x + c_2 \\sin 3x)$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Clairaut's Equation, Geometric Isoclines, and Orthogonal Trajectories",
+          "concept": "This subsection covers several advanced geometric and analytical forms often featured in JEE Advanced:\n <ul>\n <li><strong>Clairaut's Equation:</strong> A first-order non-linear equation with the standard format $y = x p + f(p)$, where $p = \\frac{dy}{dx}$. Its <strong>general solution</strong> is found by simply replacing the derivative term $p$ with an arbitrary constant $c$: $y = cx + f(c)$. This represents a family of straight lines. Differentiating with respect to $p$ yields the <strong>singular solution</strong>, which represents the envelope of these lines and contains no arbitrary constants.\n <li><strong>Orthogonal Trajectories:</strong> An orthogonal trajectory is a curve that intersects every member of a given family of curves at a right angle ($90^\\circ$). To find the orthogonal family:\n <ol>\n <li>Form the differential equation for the given family of curves: $F(x, y, \\frac{dy}{dx}) = 0$.\n <li>Replace the original derivative term $\\frac{dy}{dx}$ with its negative reciprocal, $-\\frac{dx}{dy}$, to enforce perpendicularity.\n <li>Solve the resulting new differential equation to find the orthogonal curves.\n </ol>\n <li><strong>Slope Fields and Isoclines:</strong> Provide a method for visualizing solutions geometrically. An <strong>isocline</strong> for the equation $\\frac{dy}{dx} = f(x,y)$ is a curve along which the slope of the solution path is constant ($f(x,y) = k$). Sketching these constant-slope line segments helps trace solution curves without solving the equation analytically.\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the general solution of the following Clairaut equation: $y = x p + p^2 \\quad \\left(p = \\frac{dy}{dx}\\right)$.</p>",
+              "solution": "The equation matches the standard Clairaut format $y = x p + f(p)$, where $f(p) = p^2$.\n To find the general solution, differentiate both sides of the equation with respect to $x$:\n \\[ \\frac{dy}{dx} = p = 1 \\cdot p + x \\frac{dp}{dx} + 2p \\frac{dp}{dx} \\]\n Cancel the $p$ terms on both sides:\n \\[ 0 = (x + 2p)\\frac{dp}{dx} \\]\n This gives two distinct cases:\n <ul>\n <li><strong>Case 1:</strong> $\\frac{dp}{dx} = 0 \\implies p = c$ (an arbitrary constant). Substituting $p = c$ back into the original equation yields the general solution family of straight lines:\n \\[ y = cx + c^2 \\]\n <li><strong>Case 2:</strong> $x + 2p = 0 \\implies p = -\\frac{x}{2}$. Substituting this expression back into the original equation yields the singular solution envelope:\n \\[ y = x\\left(-\\frac{x}{2}\\right) + \\left(-\\frac{x}{2}\\right)^2 = -\\frac{x^2}{2} + \\frac{x^2}{4} = -\\frac{x^2}{4} \\implies x^2 = -4y \\]\n </ul>\n <strong>Final Answer:</strong> The general solution is $y = cx + c^2$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Find the general solution of the Clairaut equation $y = x p + \\frac{1}{p}$:",
+              "options": [
+                "$y = cx + \\frac{1}{c}$",
+                "$y^2 = 4x$",
+                "$y = cx + c$",
+                "$y = x + \\frac{1}{c}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "To find the orthogonal trajectories of a family of curves, the derivative term $\\frac{dy}{dx}$ in its differential equation must be replaced with:",
+              "options": [
+                "$\\frac{dx}{dy}$",
+                "$-\\frac{dx}{dy}$",
+                "$-\\frac{dy}{dx}$",
+                "$\\left(\\frac{dy}{dx}\\right)^{-1}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the orthogonal trajectories of the family of straight lines passing through the origin ($y = mx$):",
+              "options": [
+                "$x^2 + y^2 = a^2$ (circles)",
+                "$x^2 - y^2 = a^2$ (hyperbolas)",
+                "$y^2 = 4ax$ (parabolas)",
+                "$y = cx$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Along an isocline curve for the first-order differential equation $\\frac{dy}{dx} = f(x,y)$, the solution paths always exhibit:",
+              "options": [
+                "Zero slope",
+                "Constant slope",
+                "Infinite slope",
+                "Inflection points"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the singular solution envelope for the Clairaut equation $y = x p + p^2$:",
+              "options": [
+                "$x^2 = -4y$",
+                "$y^2 = 4x$",
+                "$x^2 = 4y$",
+                "$y = cx + c^2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Physical Modeling & Applications",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Physical Applications and Modeling Systems",
+          "concept": "Differential equations serve as the primary mathematical framework for modeling rate-dependent physical systems across science and engineering fields:\n <ul>\n <li><strong>Exponential Growth and Decay:</strong> Modeled by the first-order separable equation $\\frac{dN}{dt} = kN$. If $k > 0$, the system experiences exponential growth (e.g., unconstrained population models); if $k < 0$, it experiences exponential decay (e.g., radioactive substance half-life tracking).\n <li><strong>Newton's Law of Cooling:</strong> States that the rate of change of the temperature $T$ of an object is directly proportional to the difference between its temperature and the surrounding ambient temperature $T_m$:\n \\[ \\frac{dT}{dt} = -k(T - T_m) \\quad (\\text{where } k > 0) \\]\n <li><strong>Mixing Problems:</strong> Track the chemical salt content $S(t)$ in a fluid tank over time. The rate of change is modeled using mass balance mechanics:\n \\[ \\frac{dS}{dt} = \\text{Rate in} - \\text{Rate out} = (\\text{Inflow Concentration} \\times \\text{Inflow Rate}) - \\left(\\frac{S(t)}{\\text{Volume}} \\times \\text{Outflow Rate}\\right) \\]\n <li><strong>Projectile Motion with Air Resistance:</strong> Extends basic linear kinematics by adding a velocity-dependent drag force term ($F_{\\text{drag}} = -cv$), transforming the system into a manageable first-order linear differential equation in terms of velocity.\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A radioactive substance decays at a rate proportional to its mass. If the initial mass is $100\\text{ mg}$ and it half-decays to $50\\text{ mg}$ in exactly $20\\text{ hours}$, find the expression for the mass remaining at any time $t$.</p>",
+              "solution": "<p>Let $M(t)$ represent the mass of the radioactive substance at time $t$. The decay process is modeled by the differential equation:\n \\[ \\frac{dM}{dt} = -kM \\quad (\\text{where } k > 0) \\]\n Separate the variables and integrate both sides:\n \\[ \\frac{1}{M} \\, dM = -k \\, dt \\implies \\ln M = -kt + C_1 \\implies M(t) = e^{-kt + C_1} = C e^{-kt} \\]\n Apply the initial condition ($M(0) = 100$) to find the constant $C$:\n \\[ 100 = C e^0 \\implies C = 100 \\implies M(t) = 100 e^{-kt} \\]\n Now apply the second condition ($M(20) = 50$) to solve for the decay constant $k$:\n \\[ 50 = 100 e^{-20k} \\implies e^{-20k} = \\frac{1}{2} \\implies -20k = \\ln\\left(\\frac{1}{2}\\right) = -\\ln 2 \\implies k = \\frac{\\ln 2}{20} \\]\n Substitute the expression for $k$ back into the mass equation to find the final tracking formula:\n \\[ M(t) = 100 e^{-\\left(\\frac{\\ln 2}{20}\\right)t} = 100 \\left(e^{\\ln 2}\\right)^{-t/20} = 100 (2)^{-t/20} \\]\n <strong>Final Answer:</strong> $M(t) = 100 \\cdot 2^{-t/20}$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "A population grows at a rate modeled by $\\frac{dP}{dt} = 0.05P$. If the initial population is $P_0$, the population at time $t$ is:",
+              "options": [
+                "$P_0 e^{0.05t}$",
+                "$P_0 + 0.05t$",
+                "$P_0 e^{5t}$",
+                "$P_0 (1.05)^t$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "According to Newton's Law of Cooling, if a cup of coffee at $90^\\circ\\text{C}$ is placed in a room kept at a constant temperature of $20^\\circ\\text{C}$, the initial differential setup tracking its temperature $T$ is:",
+              "options": [
+                "$\\frac{dT}{dt} = -k(T - 20)$",
+                "$\\frac{dT}{dt} = -k(T - 90)$",
+                "$\\frac{dT}{dt} = -k(90 - 20)$",
+                "$\\frac{dT}{dt} = k(T + 20)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "A tank holds $100\\text{ L}$ of brine solution. Pure water pumps in at $4\\text{ L/min}$, and the mixed solution drains out at the same rate. The differential equation tracking the salt content $S(t)$ is:",
+              "options": [
+                "$\\frac{dS}{dt} = -0.04S$",
+                "$\\frac{dS}{dt} = 4 - 4S$",
+                "$\\frac{dS}{dt} = -4S$",
+                "$\\frac{dS}{dt} = 0.04S$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The velocity of a falling object experiencing linear air resistance changes according to the equation $\\frac{dv}{dt} = g - kv$. Its terminal velocity $v_{\\text{terminal}}$ is achieved when $\\frac{dv}{dt} = 0$, which evaluates to:",
+              "options": [
+                "$g/k$",
+                "$kg$",
+                "$k/g$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a bacterial culture doubles in size every 4 hours under exponential growth conditions, its population size equation can be modeled as:",
+              "options": [
+                "$P(t) = P_0 \\cdot 2^{t/4}$",
+                "$P(t) = P_0 \\cdot 2^{4t}$",
+                "$P(t) = P_0 e^{4t}$",
+                "$P(t) = P_0 + 2t$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-math-differential-equations-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "Find the order and degree of the differential equation $\\left(\\frac{d^2y}{dx^2}\\right)^3 + \\left(\\frac{dy}{dx}\\right)^4 + y^5 = 0$.",
+              "options": [
+                "Order = 2, Degree = 3",
+                "Order = 2, Degree = 4",
+                "Order = 3, Degree = 2",
+                "Order = 5, Degree = 3"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Solve the separable first-order differential equation $x(1+y^2)\\,dx + y(1+x^2)\\,dy = 0$.",
+              "options": [
+                "$(1+x^2)(1+y^2) = C$",
+                "$\\ln|1+x^2| + \\ln|1+y^2| = C$",
+                "$\\tan^{-1} x + \\tan^{-1} y = C$",
+                "$x^2 + y^2 = C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The integrating factor for the first-order linear equation $x \\frac{dy}{dx} - 2y = x^4$ is:",
+              "options": [
+                "$x^2$",
+                "$1/x^2$",
+                "$x^{-2}$",
+                "$\\ln|x|$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the general solution of the homogeneous equation $\\frac{dy}{dx} = \\frac{y^2-x^2}{2xy}$.",
+              "options": [
+                "$x^2 + y^2 = Cx$",
+                "$x^2 - y^2 = Cx$",
+                "$x^2 + y^2 = Cy$",
+                "$x^2 + y^2 = C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Solve the first-order linear equation $\\frac{dy}{dx} + y = e^{-x}$.",
+              "options": [
+                "$y = x e^{-x} + C e^{-x}$",
+                "$y = e^{-x} + C$",
+                "$y = \\frac{1}{2}e^{-x} + C e^{-x}$",
+                "$y = x e^x + C e^{-x}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the roots of the auxiliary equation for the homogeneous linear system $y'' - 6y' + 8y = 0$.",
+              "options": [
+                "$2, 4$",
+                "$-2, -4$",
+                "$1, 8$",
+                "$3 \\pm i$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The general solution of the second-order linear equation $\\frac{d^2y}{dx^2} + 4y = 0$ is:",
+              "options": [
+                "$y = c_1 \\cos 2x + c_2 \\sin 2x$",
+                "$y = c_1 e^{2x} + c_2 e^{-2x}$",
+                "$y = (c_1 + c_2 x)e^{2x}$",
+                "$y = c_1 \\cos 4x + c_2 \\sin 4x$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the general solution of the Clairaut equation $y = x p + \\sqrt{p} \\quad \\left(p = \\frac{dy}{dx}\\right)$.",
+              "options": [
+                "$y = cx + \\sqrt{c}$",
+                "$y = cx + c^2$",
+                "$y^2 = 4x$",
+                "$y = cx + \\frac{1}{c}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The orthogonal trajectories of the family of concentric circles $x^2 + y^2 = r^2$ are:",
+              "options": [
+                "Straight lines passing through the origin ($y = mx$)",
+                "Parabolas ($y^2 = 4ax$)",
+                "Rectangular hyperbolas ($xy = c$)",
+                "Parallel straight lines ($y = x + c$)"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a substance decomposes at a rate proportional to the amount present, and half of it decays in 10 years, the decay constant $k$ matches:",
+              "options": [
+                "$\\frac{\\ln 2}{10}$",
+                "$10 \\ln 2$",
+                "$\\frac{10}{\\ln 2}$",
+                "$\\ln(0.5)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Find the degree of the non-linear derivative radical equation $\\left(\\frac{d^2y}{dx^2}\\right)^2 + \\sqrt{\\frac{dy}{dx}} + y = 0$.",
+              "answer": "4",
+              "explanation": ""
+            },
+            {
+              "q": "Find the value of the constant coefficient parameter $b$ if the auxiliary equation for $y'' + b y' + 25y = 0$ has identical repeated roots.",
+              "answer": "10",
+              "explanation": ""
+            },
+            {
+              "q": "If the integrating factor for $\\frac{dy}{dx} + \\frac{k}{x}y = \\ln x$ is $x^3$, find the integer value of the parameter $k$.",
+              "answer": "3",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The degree of the differential equation $\\frac{d^2y}{dx^2} + \\sin\\left(\\frac{dy}{dx}\\right) = 0$ is strictly equal to 1.<br>\n <strong>Reason (R):</strong> The degree of a differential equation is defined only when the equation can be expressed as a polynomial equation in terms of its derivatives.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 3,
+              "explanation": "A is false (degree is undefined because of the transcendental derivative embedding), but R is true."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> Multiplying the non-exact equation $M \\, dx + N \\, dy = 0$ by a valid integrating factor $\\mu(x,y)$ transforms it into an exact equation that satisfies $\\frac{\\partial(\\mu M)}{\\partial y} = \\frac{\\partial(\\mu N)}{\\partial x}$.<br>\n <strong>Reason (R):</strong> An integrating factor patches the non-matching partial derivative fields by enforcing exactness across the joint differential layout.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-math-differential-equations-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "Solve the non-linear first-order equation $\\frac{dy}{dx} = \\frac{x+y+1}{2x+2y+1}$ using a targeted linear combination substitution.",
+              "options": [
+                "$2y - x + \\ln|3x+3y+2| = C$",
+                "$4y - 2x + \\ln|3x+3y+2| = C$",
+                "$2y - x - \\ln|3x+3y+2| = C$",
+                "$y - 2x + \\ln|x+y+1| = C$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the general solution of the Bernoulli differential equation $\\frac{dy}{dx} + \\frac{1}{x}y = x^2 y^2$.",
+              "options": [
+                "$\\frac{1}{y} = -x^2 + Cx$",
+                "$\\frac{1}{xy} = -x + C$",
+                "$\\frac{1}{y} = -x^3 + Cx$",
+                "$\\frac{1}{xy} = -\\frac{1}{2}x^2 + C$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "Find the integrating factor $\\mu(x)$ for the non-exact equation $(x^2+y^2+x)\\,dx + xy\\,dy = 0$ if it depends solely on $x$.",
+              "options": [
+                "$x$",
+                "$x^2$",
+                "$e^x$",
+                "$1/x$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the singular solution to the Clairaut equation $y = x p + \\frac{1}{4p^2} \\quad \\left(p = \\frac{dy}{dx}\\right)$.",
+              "options": [
+                "$y^3 = \\frac{27}{4}x^2$",
+                "$y^3 = \\frac{27}{16}x^2$",
+                "$y^2 = 4x^3$",
+                "$y^3 = 27x^2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the particular integral $y_p$ for the second-order linear non-homogeneous equation $y'' - 3y' + 2y = e^{3x}$.",
+              "options": [
+                "$\\frac{1}{2}e^{3x}$",
+                "$\\frac{1}{3}e^{3x}$",
+                "$e^{3x}$",
+                "$\\frac{1}{6}e^{3x}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The solution curve to the equation $\\frac{dy}{dx} = \\frac{y \\ln y}{x}$ passing through the coordinate initial point $(1, e)$ matches:",
+              "options": [
+                "$y = e^x$",
+                "$y = x^e$",
+                "$y = e^{x^2}$",
+                "$y = \\ln x$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the orthogonal trajectories of the family of parabolas $y^2 = 4ax$.",
+              "options": [
+                "$2x^2 + y^2 = c^2$ (ellipses)",
+                "$x^2 + 2y^2 = c^2$ (ellipses)",
+                "$x^2 - y^2 = c^2$ (hyperbolas)",
+                "$y = c e^{-x}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "A mixing tank contains $200\\text{ L}$ of fluid holding $20\\text{ kg}$ of dissolved chemical salt. Brine containing $0.05\\text{ kg}$ of salt per liter pumps in at $4\\text{ L/min}$, and the mixed solution drains out at the same rate. Find the limiting salt content in the tank as $t \\to \\infty$.",
+              "options": [
+                "$10\\text{ kg}$",
+                "$20\\text{ kg}$",
+                "$5\\text{ kg}$",
+                "$0\\text{ kg}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the complete general solution of the second-order linear differential equation $y'' + 2y' + 5y = 0$.",
+              "options": [
+                "$y = e^{-x}(c_1 \\cos 2x + c_2 \\sin 2x)$",
+                "$y = e^x(c_1 \\cos 2x + c_2 \\sin 2x)$",
+                "$y = c_1 e^{-x} + c_2 e^{-2x}$",
+                "$y = e^{-2x}(c_1 \\cos x + c_2 \\sin x)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the forcing function for the second-order system $y'' - 4y' + 4y = e^{2x}$ matches a repeated root of the auxiliary equation, the particular integral template $y_p$ must be modeled as:",
+              "options": [
+                "$A x^2 e^{2x}$",
+                "$A x e^{2x}$",
+                "$A e^{2x}$",
+                "$A x^3 e^{2x}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Find the total number of arbitrary constants that must appear in the general solution of a fourth-order ordinary differential equation.",
+              "answer": "4",
+              "explanation": ""
+            },
+            {
+              "q": "If the orthogonal trajectories of the family of curves $y^2 = c x^3$ are ellipses modeled by the equation $2x^2 + n y^2 = a^2$, find the integer value of the scaling parameter $n$.",
+              "answer": "3",
+              "explanation": ""
+            },
+            {
+              "q": "Find the value of the root parameter $m$ if $y = e^{mx}$ is a solution to the homogeneous equation $y'' - 7y' + 12y = 0$ and $m$ is the smaller root.",
+              "answer": "3",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The singular solution of a Clairaut differential equation cannot be obtained by substituting any real value for the arbitrary constant inside its general solution equation.<br>\n <strong>Reason (R):</strong> A singular solution represents the tangent envelope profile bounding the general linear family curves, meaning it satisfies the differential equation without belonging to its parametric curve family.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> The variation of parameters method is a general technique that can find the particular integral for any second-order linear non-homogeneous differential equation, regardless of whether the forcing function is transcendental or rational.<br>\n <strong>Reason (R):</strong> This method does not rely on guessing a solution template; instead, it uses the components of the complementary function to construct a general integral formula.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

@@ -1,0 +1,1814 @@
+{
+    "_note": "Editorial, INDICATIVE data. Costs are typical ranges, selectivity bands are editorial estimates (1 = open, 5 = highly selective), not official figures or predictions. Always confirm fees, deadlines and entry requirements on the university's own website. Review every few months.",
+    "reviewed": "2026-10",
+    "fx": {
+        "INR": 1,
+        "USD": 85,
+        "GBP": 107,
+        "CAD": 62,
+        "EUR": 92,
+        "AUD": 56,
+        "AED": 23
+    },
+    "countries": [
+        {
+            "key": "usa",
+            "name": "USA",
+            "code": "US",
+            "currency": "USD",
+            "c1": "#1d4ed8",
+            "c2": "#60a5fa",
+            "tagline": "The largest range of programs, research funding and campus choice in the world.",
+            "tuition": {
+                "low": 20000,
+                "mid": 38000,
+                "high": 60000
+            },
+            "living": {
+                "low": 14000,
+                "high": 24000
+            },
+            "tuition_note": "Public universities charge international students much more than residents. Many private universities offer scholarships and assistantships.",
+            "work": "Optional Practical Training (OPT) allows 12 months of work after graduation, extended by up to 24 months for STEM degrees.",
+            "intakes": [
+                "Fall (August to September, the main intake)",
+                "Spring (January)"
+            ],
+            "exams": [
+                "English: TOEFL iBT, IELTS or PTE (some accept Duolingo)",
+                "GRE or GMAT for many graduate programs (a growing number are test-optional)",
+                "SAT or ACT for undergraduate admission (many are test-optional)"
+            ],
+            "visa": {
+                "name": "F-1 student visa",
+                "steps": [
+                    "Receive Form I-20 from your university",
+                    "Pay the SEVIS I-901 fee",
+                    "Complete the DS-160 form and pay the visa fee",
+                    "Book and attend the visa interview",
+                    "Carry proof of funds for the first year",
+                    "Carry academic records and test scores"
+                ]
+            },
+            "highlights": [
+                "STEM degrees can qualify for up to 3 years of post-study work",
+                "Assistantships and scholarships can cover part of the cost",
+                "Flexible programs: change majors and mix subjects"
+            ],
+            "faq": [
+                {
+                    "q": "How much does it cost to study in the USA?",
+                    "a": "Tuition for international students typically ranges from about US$20,000 to US$60,000 a year, plus US$14,000 to US$24,000 for living costs. The range is wide because public and private universities price very differently."
+                },
+                {
+                    "q": "Is the GRE compulsory?",
+                    "a": "Not always. Many universities have made it optional, but some programs still expect it. Check the page of the exact program you want."
+                },
+                {
+                    "q": "Can I work while studying?",
+                    "a": "F-1 students can generally work on campus up to 20 hours a week during term. Off-campus work needs specific authorization such as CPT or OPT."
+                }
+            ],
+            "official": [
+                {
+                    "label": "EducationUSA (US Department of State)",
+                    "url": "https://educationusa.state.gov"
+                },
+                {
+                    "label": "Study in the States (DHS)",
+                    "url": "https://studyinthestates.dhs.gov"
+                }
+            ],
+            "funds": {
+                "label": "I-20 financial evidence",
+                "fixed": null,
+                "adds_tuition": false,
+                "note": "There is no national minimum. The university writes an estimated first-year cost (tuition plus living) on your I-20, and you must show funds that cover it, through bank statements, sponsor letters or a loan sanction.",
+                "seasoning": "Bank letters are usually expected to be recent. Ask the university how old a statement may be."
+            }
+        },
+        {
+            "key": "uk",
+            "name": "UK",
+            "code": "GB",
+            "currency": "GBP",
+            "c1": "#7c3aed",
+            "c2": "#c4b5fd",
+            "tagline": "Short, focused degrees: a one-year master's and a three-year bachelor's.",
+            "tuition": {
+                "low": 15000,
+                "mid": 24000,
+                "high": 38000
+            },
+            "living": {
+                "low": 10000,
+                "high": 16000
+            },
+            "tuition_note": "Most postgraduate taught master's degrees last one year, which lowers the total cost. London is more expensive than the rest of the country.",
+            "work": "The Graduate Route lets you stay and work for 2 years after a bachelor's or master's degree, or 3 years after a PhD.",
+            "intakes": [
+                "September (the main intake)",
+                "January (selected programs)"
+            ],
+            "exams": [
+                "English: IELTS (UKVI version for some universities), TOEFL or PTE",
+                "GRE is rarely needed",
+                "Some courses need ATAS clearance"
+            ],
+            "visa": {
+                "name": "Student visa",
+                "steps": [
+                    "Receive a Confirmation of Acceptance for Studies (CAS)",
+                    "Show proof of funds held for 28 days",
+                    "Hold a valid passport",
+                    "Provide a TB test certificate (required for applicants from India)",
+                    "Get ATAS clearance if your course needs it",
+                    "Pay the Immigration Health Surcharge",
+                    "Give biometrics at a visa application centre"
+                ]
+            },
+            "highlights": [
+                "One-year master's degrees save time and money",
+                "Strong links between universities and industry",
+                "A 2-year post-study work route"
+            ],
+            "faq": [
+                {
+                    "q": "How long is a master's in the UK?",
+                    "a": "Most taught master's degrees take one year of full-time study, which is shorter than in the USA or Canada."
+                },
+                {
+                    "q": "Do I need the GRE for UK universities?",
+                    "a": "Usually not. UK universities mainly look at your degree grades, references and personal statement."
+                },
+                {
+                    "q": "What is the Graduate Route?",
+                    "a": "A post-study visa that lets graduates stay in the UK to work or look for work for 2 years (3 for PhD graduates), without needing an employer sponsor."
+                }
+            ],
+            "official": [
+                {
+                    "label": "Education UK (British Council)",
+                    "url": "https://www.educationuk.org"
+                },
+                {
+                    "label": "UK Council for International Student Affairs",
+                    "url": "https://www.ukcisa.org.uk"
+                }
+            ],
+            "funds": {
+                "label": "Student visa maintenance funds",
+                "fixed": 10539,
+                "adds_tuition": true,
+                "note": "Maintenance of GBP 1,171 a month outside London for up to 9 months (GBP 10,539), or GBP 1,529 a month in London (GBP 13,761), plus the first-year tuition still unpaid.",
+                "seasoning": "The money normally has to be held in your account for 28 consecutive days before you apply."
+            }
+        },
+        {
+            "key": "canada",
+            "name": "Canada",
+            "code": "CA",
+            "currency": "CAD",
+            "c1": "#dc2626",
+            "c2": "#fca5a5",
+            "tagline": "Quality education, welcoming cities and a clear route to work after you graduate.",
+            "tuition": {
+                "low": 15000,
+                "mid": 25000,
+                "high": 40000
+            },
+            "living": {
+                "low": 15000,
+                "high": 22000
+            },
+            "tuition_note": "Fees vary by province and program. Rules on study permits and caps have changed recently, so check the current position before applying.",
+            "work": "The Post-Graduation Work Permit (PGWP) can last up to 3 years depending on the length of your program and your eligibility.",
+            "intakes": [
+                "September (the main intake)",
+                "January",
+                "May (selected programs)"
+            ],
+            "exams": [
+                "English: IELTS Academic, TOEFL or PTE",
+                "GRE or GMAT only for some programs",
+                "French tests for programs taught in French"
+            ],
+            "visa": {
+                "name": "Study permit",
+                "steps": [
+                    "Receive a Letter of Acceptance from a Designated Learning Institution",
+                    "Get a Provincial Attestation Letter if your program requires one",
+                    "Show proof of funds, such as a GIC and tuition payment",
+                    "Provide a medical exam and police certificate when asked",
+                    "Hold a valid passport",
+                    "Apply online for the study permit"
+                ]
+            },
+            "highlights": [
+                "A post-graduation work permit of up to 3 years",
+                "Co-op programs combine study with paid work terms",
+                "Safe, multicultural cities"
+            ],
+            "faq": [
+                {
+                    "q": "Are there limits on international students in Canada?",
+                    "a": "Canada has introduced caps and new requirements for study permits in recent years. Check IRCC and your chosen university for the rules that apply to your intake."
+                },
+                {
+                    "q": "Can I work during my studies?",
+                    "a": "Eligible international students can generally work off campus for a limited number of hours per week during term. The exact limit is set by the government and can change."
+                },
+                {
+                    "q": "What is a GIC?",
+                    "a": "A Guaranteed Investment Certificate is a deposit many students use to show proof of living funds for the study permit."
+                }
+            ],
+            "official": [
+                {
+                    "label": "EduCanada",
+                    "url": "https://www.educanada.ca"
+                },
+                {
+                    "label": "Immigration, Refugees and Citizenship Canada",
+                    "url": "https://www.canada.ca/en/immigration-refugees-citizenship.html"
+                }
+            ],
+            "funds": {
+                "label": "GIC and first-year tuition (Student Direct Stream)",
+                "fixed": 22895,
+                "adds_tuition": true,
+                "note": "A Guaranteed Investment Certificate of CAD 22,895 (the figure applied from September 2025) plus proof that the first year of tuition is paid.",
+                "seasoning": "The GIC is bought from a participating bank in Canada and is paid out in instalments after you arrive."
+            }
+        },
+        {
+            "key": "germany",
+            "name": "Germany",
+            "code": "DE",
+            "currency": "EUR",
+            "c1": "#111827",
+            "c2": "#9ca3af",
+            "tagline": "Strong engineering universities with very low tuition at public institutions.",
+            "tuition": {
+                "low": 0,
+                "mid": 4000,
+                "high": 12000
+            },
+            "living": {
+                "low": 10000,
+                "high": 13000
+            },
+            "tuition_note": "Most public universities charge little or no tuition, but some German states charge non-EU students. Always confirm the current fee on the university's page. Private universities charge more.",
+            "work": "Graduates can apply for an 18-month residence permit to look for work related to their degree.",
+            "intakes": [
+                "Winter semester (October, the main intake)",
+                "Summer semester (April, selected programs)"
+            ],
+            "exams": [
+                "English-taught programs: IELTS or TOEFL",
+                "German-taught programs: TestDaF, DSH or Goethe certificates",
+                "APS certificate for applicants from India",
+                "GRE for some technical master's programs"
+            ],
+            "visa": {
+                "name": "National student visa",
+                "steps": [
+                    "Receive your admission letter",
+                    "Open a blocked account (Sperrkonto) as proof of funds",
+                    "Arrange German health insurance",
+                    "Obtain the APS certificate (applicants from India)",
+                    "Book an appointment at the German mission and bring passport photos",
+                    "Register your address and apply for the residence permit after arrival"
+                ]
+            },
+            "highlights": [
+                "Low or no tuition at many public universities",
+                "World-class engineering and applied sciences",
+                "An 18-month job-search permit after graduation"
+            ],
+            "faq": [
+                {
+                    "q": "Is study in Germany really free?",
+                    "a": "Many public universities charge no tuition, though you pay a semester contribution and your living costs. A few German states now charge non-EU students, so verify the fee for your university."
+                },
+                {
+                    "q": "Do I need to speak German?",
+                    "a": "Not for English-taught programs, but learning German helps greatly with daily life and finding work afterwards."
+                },
+                {
+                    "q": "What is a blocked account?",
+                    "a": "A bank account in which you deposit a set amount to prove you can fund a year of living costs. The required amount is set by the German authorities and updated periodically."
+                }
+            ],
+            "official": [
+                {
+                    "label": "DAAD (German Academic Exchange Service)",
+                    "url": "https://www.daad.de/en"
+                },
+                {
+                    "label": "Make it in Germany",
+                    "url": "https://www.make-it-in-germany.com/en"
+                }
+            ],
+            "funds": {
+                "label": "Blocked account (Sperrkonto)",
+                "fixed": 11904,
+                "adds_tuition": false,
+                "note": "EUR 11,904 for the first year (EUR 992 a month) in a blocked account, or an accepted alternative such as a formal sponsor declaration. Public universities charge only a semester contribution.",
+                "seasoning": "Open the account and receive the confirmation before you book your visa appointment."
+            }
+        },
+        {
+            "key": "australia",
+            "name": "Australia",
+            "code": "AU",
+            "currency": "AUD",
+            "c1": "#059669",
+            "c2": "#6ee7b7",
+            "tagline": "Highly ranked universities, a strong graduate job market and a relaxed lifestyle.",
+            "tuition": {
+                "low": 20000,
+                "mid": 32000,
+                "high": 48000
+            },
+            "living": {
+                "low": 24000,
+                "high": 32000
+            },
+            "tuition_note": "Student visa rules, minimum funds and fees are updated often. Confirm the current figures with the Department of Home Affairs.",
+            "work": "The Temporary Graduate visa (subclass 485) allows graduates to live and work after study. Its length depends on your qualification and the rules at the time.",
+            "intakes": [
+                "February to March (the main intake)",
+                "July to August",
+                "November (selected programs)"
+            ],
+            "exams": [
+                "English: IELTS Academic, TOEFL or PTE",
+                "A Genuine Student statement forms part of the visa application"
+            ],
+            "visa": {
+                "name": "Student visa (subclass 500)",
+                "steps": [
+                    "Receive your Confirmation of Enrolment (CoE)",
+                    "Prepare your Genuine Student statement",
+                    "Arrange Overseas Student Health Cover (OSHC)",
+                    "Show financial capacity as required",
+                    "Provide your English test result",
+                    "Apply online through ImmiAccount"
+                ]
+            },
+            "highlights": [
+                "Several universities in the global top 100",
+                "A post-study work visa for graduates",
+                "Pathway and bridging programs for different entry levels"
+            ],
+            "faq": [
+                {
+                    "q": "What is the Genuine Student requirement?",
+                    "a": "A statement in which you explain why you want to study in Australia and that course. It replaced the earlier Genuine Temporary Entrant test."
+                },
+                {
+                    "q": "Can I work on a student visa?",
+                    "a": "Student visa holders can generally work a limited number of hours per fortnight during study periods. The cap is set by the government and has changed recently."
+                },
+                {
+                    "q": "What is OSHC?",
+                    "a": "Overseas Student Health Cover is compulsory health insurance you must hold for the whole of your student visa."
+                }
+            ],
+            "official": [
+                {
+                    "label": "Study Australia",
+                    "url": "https://www.studyaustralia.gov.au"
+                },
+                {
+                    "label": "Department of Home Affairs",
+                    "url": "https://immi.homeaffairs.gov.au"
+                }
+            ],
+            "funds": {
+                "label": "Living costs, travel and tuition",
+                "fixed": 31710,
+                "adds_tuition": true,
+                "note": "AUD 29,710 for living costs plus AUD 2,000 for travel for yourself, plus first-year tuition. Add extra for each family member who travels with you.",
+                "seasoning": "Funds must be genuinely available to you. Large recent deposits can draw questions, so keep the money trail clear."
+            }
+        },
+        {
+            "key": "france",
+            "name": "France",
+            "code": "FR",
+            "currency": "EUR",
+            "c1": "#2563eb",
+            "c2": "#fda4af",
+            "tagline": "Affordable public universities, leading business schools and engineering grandes écoles.",
+            "tuition": {
+                "low": 3000,
+                "mid": 10000,
+                "high": 25000
+            },
+            "living": {
+                "low": 8000,
+                "high": 13000
+            },
+            "tuition_note": "Public universities have set, moderate fees for non-EU students. Business schools and some grandes écoles charge considerably more.",
+            "work": "Master's graduates can usually stay up to 12 months after the degree to look for work or start a business. Check the current rules.",
+            "intakes": [
+                "September (the main intake)",
+                "January (selected programs)"
+            ],
+            "exams": [
+                "French-taught programs: DELF, DALF or TCF",
+                "English-taught programs: IELTS or TOEFL",
+                "Campus France procedure for applicants from India",
+                "GMAT or GRE for many business schools"
+            ],
+            "visa": {
+                "name": "Long-stay student visa (VLS-TS)",
+                "steps": [
+                    "Complete the Campus France (Etudes en France) procedure",
+                    "Receive your acceptance letter",
+                    "Show proof of funds and accommodation",
+                    "Apply for the long-stay student visa",
+                    "Validate your visa with OFII after arriving in France"
+                ]
+            },
+            "highlights": [
+                "Moderate public tuition fees",
+                "Globally recognised business schools",
+                "English-taught master's options in many cities"
+            ],
+            "faq": [
+                {
+                    "q": "Do I need French?",
+                    "a": "Not for English-taught programs. For French-taught programs you will need a recognised French test result, and French is very helpful for daily life."
+                },
+                {
+                    "q": "What is Campus France?",
+                    "a": "The national agency that manages applications and pre-consular procedures for many international students, including those from India."
+                },
+                {
+                    "q": "Are French universities cheaper than UK or US ones?",
+                    "a": "Public universities usually are. Business schools and private institutions can cost as much as other European countries."
+                }
+            ],
+            "official": [
+                {
+                    "label": "Campus France",
+                    "url": "https://www.campusfrance.org/en"
+                },
+                {
+                    "label": "Welcome to France",
+                    "url": "https://www.welcometofrance.com/en"
+                }
+            ],
+            "funds": {
+                "label": "Campus France monthly resources",
+                "fixed": 7380,
+                "adds_tuition": false,
+                "note": "About EUR 615 a month, which is EUR 7,380 for 12 months, shown through a bank statement, scholarship letter or a sponsor attestation.",
+                "seasoning": "Campus France and the consulate may ask for statements covering several months."
+            }
+        },
+        {
+            "key": "uae",
+            "name": "UAE",
+            "code": "AE",
+            "currency": "AED",
+            "c1": "#b45309",
+            "c2": "#fcd34d",
+            "tagline": "A close-to-home study hub with international branch campuses and a fast-growing job market.",
+            "tuition": {
+                "low": 40000,
+                "mid": 65000,
+                "high": 100000
+            },
+            "living": {
+                "low": 30000,
+                "high": 50000
+            },
+            "tuition_note": "Many UAE campuses are branches of universities from the UK, Australia, the USA and India. Fees differ widely by campus.",
+            "work": "There is no automatic post-study work permit. Graduates generally need an employer to sponsor them, though some long-term residence schemes may apply.",
+            "intakes": [
+                "September (the main intake)",
+                "January",
+                "May (selected programs)"
+            ],
+            "exams": [
+                "English: IELTS, TOEFL or EmSAT",
+                "Some universities accept school or university results in place of a test"
+            ],
+            "visa": {
+                "name": "Student residence visa",
+                "steps": [
+                    "Receive your acceptance letter",
+                    "The university sponsors your student residence visa",
+                    "Complete the medical fitness test",
+                    "Provide your passport and photographs",
+                    "Receive your Emirates ID after arriving in the UAE"
+                ]
+            },
+            "highlights": [
+                "Close to India with direct flights",
+                "Branch campuses of well-known international universities",
+                "A fast-growing business and technology hub"
+            ],
+            "faq": [
+                {
+                    "q": "Can I work after studying in the UAE?",
+                    "a": "Most graduates need an employer to sponsor their work visa. Some graduates qualify for longer-term residence programs, so check the current government guidance."
+                },
+                {
+                    "q": "Is the degree recognised internationally?",
+                    "a": "Branch campuses of foreign universities typically award the home university's degree, but you should confirm recognition for your own career plans."
+                },
+                {
+                    "q": "How does the cost compare to the UK or USA?",
+                    "a": "Often lower for living and travel, though tuition at some branch campuses is comparable. Compare the total cost before deciding."
+                }
+            ],
+            "official": [
+                {
+                    "label": "UAE Government portal (education)",
+                    "url": "https://u.ae/en/information-and-services/education"
+                },
+                {
+                    "label": "Ministry of Higher Education",
+                    "url": "https://www.moe.gov.ae"
+                }
+            ],
+            "funds": {
+                "label": "University and sponsor requirements",
+                "fixed": null,
+                "adds_tuition": false,
+                "note": "There is no single national figure. Each university and the visa sponsor set what they need, usually proof that you can pay tuition and living costs.",
+                "seasoning": "Ask your university which documents it accepts as proof."
+            }
+        }
+    ],
+    "universities": [
+        {
+            "slug": "mit",
+            "name": "Massachusetts Institute of Technology",
+            "country": "usa",
+            "city": "Cambridge, MA",
+            "type": "private",
+            "url": "https://www.mit.edu",
+            "band": 5,
+            "cost": "high",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Engineering",
+                "Computer Science & IT",
+                "Data Science & AI",
+                "Sciences"
+            ],
+            "english_taught": true,
+            "blurb": "A research-led university known for engineering, computing and the sciences."
+        },
+        {
+            "slug": "stanford",
+            "name": "Stanford University",
+            "country": "usa",
+            "city": "Stanford, CA",
+            "type": "private",
+            "url": "https://www.stanford.edu",
+            "band": 5,
+            "cost": "high",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Computer Science & IT",
+                "Engineering",
+                "Business & Management",
+                "Data Science & AI"
+            ],
+            "english_taught": true,
+            "blurb": "A leading research university in the heart of Silicon Valley."
+        },
+        {
+            "slug": "carnegie-mellon",
+            "name": "Carnegie Mellon University",
+            "country": "usa",
+            "city": "Pittsburgh, PA",
+            "type": "private",
+            "url": "https://www.cmu.edu",
+            "band": 5,
+            "cost": "high",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Computer Science & IT",
+                "Data Science & AI",
+                "Engineering",
+                "Design & Arts"
+            ],
+            "english_taught": true,
+            "blurb": "Known for computer science, robotics and the arts."
+        },
+        {
+            "slug": "uc-berkeley",
+            "name": "University of California, Berkeley",
+            "country": "usa",
+            "city": "Berkeley, CA",
+            "type": "public",
+            "url": "https://www.berkeley.edu",
+            "band": 5,
+            "cost": "high",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Computer Science & IT",
+                "Engineering",
+                "Sciences",
+                "Economics & Finance"
+            ],
+            "english_taught": true,
+            "blurb": "A top public research university with strong engineering and sciences."
+        },
+        {
+            "slug": "georgia-tech",
+            "name": "Georgia Institute of Technology",
+            "country": "usa",
+            "city": "Atlanta, GA",
+            "type": "public",
+            "url": "https://www.gatech.edu",
+            "band": 4,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Engineering",
+                "Computer Science & IT",
+                "Data Science & AI"
+            ],
+            "english_taught": true,
+            "blurb": "A technology-focused public university with a strong co-op culture."
+        },
+        {
+            "slug": "purdue",
+            "name": "Purdue University",
+            "country": "usa",
+            "city": "West Lafayette, IN",
+            "type": "public",
+            "url": "https://www.purdue.edu",
+            "band": 4,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Engineering",
+                "Computer Science & IT",
+                "Sciences",
+                "Business & Management"
+            ],
+            "english_taught": true,
+            "blurb": "A large public research university known for engineering."
+        },
+        {
+            "slug": "northeastern",
+            "name": "Northeastern University",
+            "country": "usa",
+            "city": "Boston, MA",
+            "type": "private",
+            "url": "https://www.northeastern.edu",
+            "band": 3,
+            "cost": "high",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Computer Science & IT",
+                "Engineering",
+                "Data Science & AI",
+                "Business & Management"
+            ],
+            "english_taught": true,
+            "blurb": "Known for its co-op program that places students in paid work terms."
+        },
+        {
+            "slug": "ut-dallas",
+            "name": "University of Texas at Dallas",
+            "country": "usa",
+            "city": "Richardson, TX",
+            "type": "public",
+            "url": "https://www.utdallas.edu",
+            "band": 3,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Computer Science & IT",
+                "Data Science & AI",
+                "Business & Management",
+                "Engineering"
+            ],
+            "english_taught": true,
+            "blurb": "A fast-growing public university with strong computing and business programs."
+        },
+        {
+            "slug": "arizona-state",
+            "name": "Arizona State University",
+            "country": "usa",
+            "city": "Tempe, AZ",
+            "type": "public",
+            "url": "https://www.asu.edu",
+            "band": 2,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Engineering",
+                "Computer Science & IT",
+                "Business & Management",
+                "Design & Arts",
+                "Sciences"
+            ],
+            "english_taught": true,
+            "blurb": "A large public university with a very wide range of programs."
+        },
+        {
+            "slug": "oxford",
+            "name": "University of Oxford",
+            "country": "uk",
+            "city": "Oxford",
+            "type": "public",
+            "url": "https://www.ox.ac.uk",
+            "band": 5,
+            "cost": "high",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Sciences",
+                "Law & Social Sciences",
+                "Economics & Finance",
+                "Computer Science & IT"
+            ],
+            "english_taught": true,
+            "blurb": "One of the oldest universities in the English-speaking world."
+        },
+        {
+            "slug": "cambridge",
+            "name": "University of Cambridge",
+            "country": "uk",
+            "city": "Cambridge",
+            "type": "public",
+            "url": "https://www.cam.ac.uk",
+            "band": 5,
+            "cost": "high",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Sciences",
+                "Engineering",
+                "Computer Science & IT",
+                "Law & Social Sciences"
+            ],
+            "english_taught": true,
+            "blurb": "A collegiate research university with strong science and engineering."
+        },
+        {
+            "slug": "imperial",
+            "name": "Imperial College London",
+            "country": "uk",
+            "city": "London",
+            "type": "public",
+            "url": "https://www.imperial.ac.uk",
+            "band": 5,
+            "cost": "high",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Engineering",
+                "Computer Science & IT",
+                "Data Science & AI",
+                "Health & Life Sciences",
+                "Business & Management"
+            ],
+            "english_taught": true,
+            "blurb": "A science, engineering, medicine and business focused university."
+        },
+        {
+            "slug": "ucl",
+            "name": "University College London",
+            "country": "uk",
+            "city": "London",
+            "type": "public",
+            "url": "https://www.ucl.ac.uk",
+            "band": 4,
+            "cost": "high",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Sciences",
+                "Design & Arts",
+                "Law & Social Sciences",
+                "Engineering",
+                "Data Science & AI"
+            ],
+            "english_taught": true,
+            "blurb": "A large multidisciplinary university in central London."
+        },
+        {
+            "slug": "edinburgh",
+            "name": "University of Edinburgh",
+            "country": "uk",
+            "city": "Edinburgh",
+            "type": "public",
+            "url": "https://www.ed.ac.uk",
+            "band": 4,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Computer Science & IT",
+                "Data Science & AI",
+                "Sciences",
+                "Law & Social Sciences"
+            ],
+            "english_taught": true,
+            "blurb": "Well known for informatics and artificial intelligence research."
+        },
+        {
+            "slug": "warwick",
+            "name": "University of Warwick",
+            "country": "uk",
+            "city": "Coventry",
+            "type": "public",
+            "url": "https://warwick.ac.uk",
+            "band": 4,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Business & Management",
+                "Economics & Finance",
+                "Engineering",
+                "Computer Science & IT"
+            ],
+            "english_taught": true,
+            "blurb": "Strong in business, economics and the sciences."
+        },
+        {
+            "slug": "kings-college-london",
+            "name": "King's College London",
+            "country": "uk",
+            "city": "London",
+            "type": "public",
+            "url": "https://www.kcl.ac.uk",
+            "band": 4,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Law & Social Sciences",
+                "Health & Life Sciences",
+                "Sciences",
+                "Business & Management"
+            ],
+            "english_taught": true,
+            "blurb": "A research university with major strengths in health and humanities."
+        },
+        {
+            "slug": "manchester",
+            "name": "University of Manchester",
+            "country": "uk",
+            "city": "Manchester",
+            "type": "public",
+            "url": "https://www.manchester.ac.uk",
+            "band": 3,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Engineering",
+                "Business & Management",
+                "Computer Science & IT",
+                "Health & Life Sciences"
+            ],
+            "english_taught": true,
+            "blurb": "A large civic university with strong engineering and business schools."
+        },
+        {
+            "slug": "leeds",
+            "name": "University of Leeds",
+            "country": "uk",
+            "city": "Leeds",
+            "type": "public",
+            "url": "https://www.leeds.ac.uk",
+            "band": 3,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Engineering",
+                "Business & Management",
+                "Computer Science & IT",
+                "Design & Arts"
+            ],
+            "english_taught": true,
+            "blurb": "A research-intensive university with a large international community."
+        },
+        {
+            "slug": "university-of-toronto",
+            "name": "University of Toronto",
+            "country": "canada",
+            "city": "Toronto, ON",
+            "type": "public",
+            "url": "https://www.utoronto.ca",
+            "band": 4,
+            "cost": "high",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Computer Science & IT",
+                "Data Science & AI",
+                "Engineering",
+                "Health & Life Sciences",
+                "Business & Management"
+            ],
+            "english_taught": true,
+            "blurb": "Canada's leading research university, with strengths in AI and medicine."
+        },
+        {
+            "slug": "ubc",
+            "name": "University of British Columbia",
+            "country": "canada",
+            "city": "Vancouver, BC",
+            "type": "public",
+            "url": "https://www.ubc.ca",
+            "band": 4,
+            "cost": "high",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Engineering",
+                "Computer Science & IT",
+                "Sciences",
+                "Business & Management"
+            ],
+            "english_taught": true,
+            "blurb": "A research university on Canada's west coast."
+        },
+        {
+            "slug": "mcgill",
+            "name": "McGill University",
+            "country": "canada",
+            "city": "Montreal, QC",
+            "type": "public",
+            "url": "https://www.mcgill.ca",
+            "band": 4,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Sciences",
+                "Health & Life Sciences",
+                "Engineering",
+                "Law & Social Sciences"
+            ],
+            "english_taught": true,
+            "blurb": "An English-language research university in bilingual Montreal."
+        },
+        {
+            "slug": "waterloo",
+            "name": "University of Waterloo",
+            "country": "canada",
+            "city": "Waterloo, ON",
+            "type": "public",
+            "url": "https://uwaterloo.ca",
+            "band": 4,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Computer Science & IT",
+                "Engineering",
+                "Data Science & AI",
+                "Sciences"
+            ],
+            "english_taught": true,
+            "blurb": "Famous for co-operative education and computing."
+        },
+        {
+            "slug": "alberta",
+            "name": "University of Alberta",
+            "country": "canada",
+            "city": "Edmonton, AB",
+            "type": "public",
+            "url": "https://www.ualberta.ca",
+            "band": 3,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Engineering",
+                "Computer Science & IT",
+                "Data Science & AI",
+                "Sciences"
+            ],
+            "english_taught": true,
+            "blurb": "A research university known for AI and energy research."
+        },
+        {
+            "slug": "mcmaster",
+            "name": "McMaster University",
+            "country": "canada",
+            "city": "Hamilton, ON",
+            "type": "public",
+            "url": "https://www.mcmaster.ca",
+            "band": 3,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Health & Life Sciences",
+                "Engineering",
+                "Sciences",
+                "Business & Management"
+            ],
+            "english_taught": true,
+            "blurb": "Known for health sciences and problem-based learning."
+        },
+        {
+            "slug": "sfu",
+            "name": "Simon Fraser University",
+            "country": "canada",
+            "city": "Burnaby, BC",
+            "type": "public",
+            "url": "https://www.sfu.ca",
+            "band": 3,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Computer Science & IT",
+                "Data Science & AI",
+                "Business & Management",
+                "Sciences"
+            ],
+            "english_taught": true,
+            "blurb": "A research university with strong computing and business programs."
+        },
+        {
+            "slug": "york-university",
+            "name": "York University",
+            "country": "canada",
+            "city": "Toronto, ON",
+            "type": "public",
+            "url": "https://www.yorku.ca",
+            "band": 2,
+            "cost": "low",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Business & Management",
+                "Law & Social Sciences",
+                "Computer Science & IT",
+                "Design & Arts"
+            ],
+            "english_taught": true,
+            "blurb": "One of Canada's largest universities, with a wide choice of programs."
+        },
+        {
+            "slug": "tum",
+            "name": "Technical University of Munich",
+            "country": "germany",
+            "city": "Munich",
+            "type": "public",
+            "url": "https://www.tum.de/en",
+            "band": 4,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Engineering",
+                "Computer Science & IT",
+                "Sciences",
+                "Data Science & AI"
+            ],
+            "english_taught": true,
+            "blurb": "Germany's leading technical university, with many English-taught master's programs."
+        },
+        {
+            "slug": "lmu-munich",
+            "name": "Ludwig Maximilian University of Munich",
+            "country": "germany",
+            "city": "Munich",
+            "type": "public",
+            "url": "https://www.lmu.de/en",
+            "band": 4,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Sciences",
+                "Law & Social Sciences",
+                "Health & Life Sciences",
+                "Economics & Finance"
+            ],
+            "english_taught": true,
+            "blurb": "A major research university with a wide range of subjects."
+        },
+        {
+            "slug": "rwth-aachen",
+            "name": "RWTH Aachen University",
+            "country": "germany",
+            "city": "Aachen",
+            "type": "public",
+            "url": "https://www.rwth-aachen.de/go/id/a/?lidx=1",
+            "band": 4,
+            "cost": "low",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Engineering",
+                "Computer Science & IT",
+                "Sciences"
+            ],
+            "english_taught": true,
+            "blurb": "One of Europe's largest technical universities."
+        },
+        {
+            "slug": "heidelberg",
+            "name": "Heidelberg University",
+            "country": "germany",
+            "city": "Heidelberg",
+            "type": "public",
+            "url": "https://www.uni-heidelberg.de/en",
+            "band": 4,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Sciences",
+                "Health & Life Sciences",
+                "Law & Social Sciences"
+            ],
+            "english_taught": true,
+            "blurb": "Germany's oldest university, with strengths in life sciences and medicine."
+        },
+        {
+            "slug": "kit",
+            "name": "Karlsruhe Institute of Technology",
+            "country": "germany",
+            "city": "Karlsruhe",
+            "type": "public",
+            "url": "https://www.kit.edu/english",
+            "band": 4,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Engineering",
+                "Computer Science & IT",
+                "Sciences"
+            ],
+            "english_taught": true,
+            "blurb": "A research university with strong engineering and informatics."
+        },
+        {
+            "slug": "uni-stuttgart",
+            "name": "University of Stuttgart",
+            "country": "germany",
+            "city": "Stuttgart",
+            "type": "public",
+            "url": "https://www.uni-stuttgart.de/en",
+            "band": 3,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Engineering",
+                "Computer Science & IT",
+                "Sciences"
+            ],
+            "english_taught": true,
+            "blurb": "A technical university closely linked to the automotive industry."
+        },
+        {
+            "slug": "tu-berlin",
+            "name": "Technical University of Berlin",
+            "country": "germany",
+            "city": "Berlin",
+            "type": "public",
+            "url": "https://www.tu.berlin/en",
+            "band": 3,
+            "cost": "low",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Engineering",
+                "Computer Science & IT",
+                "Sciences",
+                "Design & Arts"
+            ],
+            "english_taught": true,
+            "blurb": "A large technical university in Germany's capital."
+        },
+        {
+            "slug": "tu-dresden",
+            "name": "TU Dresden",
+            "country": "germany",
+            "city": "Dresden",
+            "type": "public",
+            "url": "https://tu-dresden.de/tu-dresden/profil/international",
+            "band": 3,
+            "cost": "low",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Engineering",
+                "Computer Science & IT",
+                "Sciences"
+            ],
+            "english_taught": true,
+            "blurb": "A technical university in eastern Germany with a research focus."
+        },
+        {
+            "slug": "university-of-melbourne",
+            "name": "The University of Melbourne",
+            "country": "australia",
+            "city": "Melbourne, VIC",
+            "type": "public",
+            "url": "https://www.unimelb.edu.au",
+            "band": 4,
+            "cost": "high",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Sciences",
+                "Business & Management",
+                "Health & Life Sciences",
+                "Law & Social Sciences"
+            ],
+            "english_taught": true,
+            "blurb": "A leading research university with a broad, flexible degree structure."
+        },
+        {
+            "slug": "anu",
+            "name": "Australian National University",
+            "country": "australia",
+            "city": "Canberra, ACT",
+            "type": "public",
+            "url": "https://www.anu.edu.au",
+            "band": 4,
+            "cost": "high",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Sciences",
+                "Law & Social Sciences",
+                "Economics & Finance",
+                "Computer Science & IT"
+            ],
+            "english_taught": true,
+            "blurb": "Australia's national university, strong in research and policy."
+        },
+        {
+            "slug": "university-of-sydney",
+            "name": "The University of Sydney",
+            "country": "australia",
+            "city": "Sydney, NSW",
+            "type": "public",
+            "url": "https://www.sydney.edu.au",
+            "band": 4,
+            "cost": "high",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Health & Life Sciences",
+                "Business & Management",
+                "Engineering",
+                "Law & Social Sciences"
+            ],
+            "english_taught": true,
+            "blurb": "One of Australia's oldest universities, with a wide course range."
+        },
+        {
+            "slug": "unsw",
+            "name": "UNSW Sydney",
+            "country": "australia",
+            "city": "Sydney, NSW",
+            "type": "public",
+            "url": "https://www.unsw.edu.au",
+            "band": 4,
+            "cost": "high",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Engineering",
+                "Computer Science & IT",
+                "Business & Management",
+                "Data Science & AI"
+            ],
+            "english_taught": true,
+            "blurb": "Known for engineering, technology and business."
+        },
+        {
+            "slug": "monash",
+            "name": "Monash University",
+            "country": "australia",
+            "city": "Melbourne, VIC",
+            "type": "public",
+            "url": "https://www.monash.edu",
+            "band": 3,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Engineering",
+                "Health & Life Sciences",
+                "Business & Management",
+                "Computer Science & IT"
+            ],
+            "english_taught": true,
+            "blurb": "Australia's largest university with a global campus network."
+        },
+        {
+            "slug": "university-of-queensland",
+            "name": "The University of Queensland",
+            "country": "australia",
+            "city": "Brisbane, QLD",
+            "type": "public",
+            "url": "https://www.uq.edu.au",
+            "band": 3,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Sciences",
+                "Engineering",
+                "Health & Life Sciences",
+                "Business & Management"
+            ],
+            "english_taught": true,
+            "blurb": "A research university with strong sciences and health."
+        },
+        {
+            "slug": "uts",
+            "name": "University of Technology Sydney",
+            "country": "australia",
+            "city": "Sydney, NSW",
+            "type": "public",
+            "url": "https://www.uts.edu.au",
+            "band": 3,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Computer Science & IT",
+                "Data Science & AI",
+                "Engineering",
+                "Design & Arts",
+                "Business & Management"
+            ],
+            "english_taught": true,
+            "blurb": "A practice-oriented university with strong industry links."
+        },
+        {
+            "slug": "rmit",
+            "name": "RMIT University",
+            "country": "australia",
+            "city": "Melbourne, VIC",
+            "type": "public",
+            "url": "https://www.rmit.edu.au",
+            "band": 2,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Design & Arts",
+                "Engineering",
+                "Computer Science & IT",
+                "Business & Management"
+            ],
+            "english_taught": true,
+            "blurb": "A global university of technology, design and enterprise."
+        },
+        {
+            "slug": "sorbonne-universite",
+            "name": "Sorbonne University",
+            "country": "france",
+            "city": "Paris",
+            "type": "public",
+            "url": "https://www.sorbonne-universite.fr/en",
+            "band": 4,
+            "cost": "low",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Sciences",
+                "Health & Life Sciences",
+                "Law & Social Sciences"
+            ],
+            "english_taught": true,
+            "blurb": "A research university with strong sciences and medicine in Paris."
+        },
+        {
+            "slug": "institut-polytechnique-de-paris",
+            "name": "Institut Polytechnique de Paris",
+            "country": "france",
+            "city": "Palaiseau",
+            "type": "public",
+            "url": "https://www.ip-paris.fr/en",
+            "band": 5,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Engineering",
+                "Computer Science & IT",
+                "Data Science & AI",
+                "Sciences"
+            ],
+            "english_taught": true,
+            "blurb": "A group of leading engineering schools including Ecole Polytechnique."
+        },
+        {
+            "slug": "psl",
+            "name": "Universite PSL",
+            "country": "france",
+            "city": "Paris",
+            "type": "public",
+            "url": "https://psl.eu/en",
+            "band": 5,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Sciences",
+                "Law & Social Sciences",
+                "Engineering",
+                "Design & Arts"
+            ],
+            "english_taught": true,
+            "blurb": "A selective research university uniting several Paris institutions."
+        },
+        {
+            "slug": "centralesupelec",
+            "name": "CentraleSupelec",
+            "country": "france",
+            "city": "Paris-Saclay",
+            "type": "public",
+            "url": "https://www.centralesupelec.fr/en",
+            "band": 4,
+            "cost": "mid",
+            "levels": [
+                "PG"
+            ],
+            "fields": [
+                "Engineering",
+                "Computer Science & IT",
+                "Data Science & AI"
+            ],
+            "english_taught": true,
+            "blurb": "A top engineering school with international master's programs."
+        },
+        {
+            "slug": "grenoble-alpes",
+            "name": "Universite Grenoble Alpes",
+            "country": "france",
+            "city": "Grenoble",
+            "type": "public",
+            "url": "https://www.univ-grenoble-alpes.fr/english",
+            "band": 3,
+            "cost": "low",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Sciences",
+                "Engineering",
+                "Computer Science & IT"
+            ],
+            "english_taught": true,
+            "blurb": "A research university in the Alps with strong science and technology."
+        },
+        {
+            "slug": "sciences-po",
+            "name": "Sciences Po",
+            "country": "france",
+            "city": "Paris",
+            "type": "private",
+            "url": "https://www.sciencespo.fr/en",
+            "band": 4,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Law & Social Sciences",
+                "Economics & Finance",
+                "Business & Management"
+            ],
+            "english_taught": true,
+            "blurb": "A leading institution for political science and social sciences."
+        },
+        {
+            "slug": "hec-paris",
+            "name": "HEC Paris",
+            "country": "france",
+            "city": "Jouy-en-Josas",
+            "type": "private",
+            "url": "https://www.hec.edu/en",
+            "band": 5,
+            "cost": "high",
+            "levels": [
+                "PG"
+            ],
+            "fields": [
+                "Business & Management",
+                "Economics & Finance"
+            ],
+            "english_taught": true,
+            "blurb": "A leading European business school."
+        },
+        {
+            "slug": "insead",
+            "name": "INSEAD",
+            "country": "france",
+            "city": "Fontainebleau",
+            "type": "private",
+            "url": "https://www.insead.edu",
+            "band": 5,
+            "cost": "high",
+            "levels": [
+                "PG"
+            ],
+            "fields": [
+                "Business & Management",
+                "Economics & Finance"
+            ],
+            "english_taught": true,
+            "blurb": "A global business school known for its one-year MBA."
+        },
+        {
+            "slug": "skema",
+            "name": "SKEMA Business School",
+            "country": "france",
+            "city": "Lille",
+            "type": "private",
+            "url": "https://www.skema.edu/en",
+            "band": 3,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Business & Management",
+                "Data Science & AI",
+                "Economics & Finance"
+            ],
+            "english_taught": true,
+            "blurb": "An international business school with campuses in several countries."
+        },
+        {
+            "slug": "khalifa-university",
+            "name": "Khalifa University",
+            "country": "uae",
+            "city": "Abu Dhabi",
+            "type": "public",
+            "url": "https://www.ku.ac.ae",
+            "band": 3,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Engineering",
+                "Computer Science & IT",
+                "Data Science & AI",
+                "Sciences"
+            ],
+            "english_taught": true,
+            "blurb": "A research-focused university for science and engineering."
+        },
+        {
+            "slug": "nyu-abu-dhabi",
+            "name": "New York University Abu Dhabi",
+            "country": "uae",
+            "city": "Abu Dhabi",
+            "type": "private",
+            "url": "https://nyuad.nyu.edu",
+            "band": 5,
+            "cost": "high",
+            "levels": [
+                "UG"
+            ],
+            "fields": [
+                "Sciences",
+                "Engineering",
+                "Economics & Finance",
+                "Computer Science & IT"
+            ],
+            "english_taught": true,
+            "blurb": "A highly selective liberal-arts and research university."
+        },
+        {
+            "slug": "american-university-of-sharjah",
+            "name": "American University of Sharjah",
+            "country": "uae",
+            "city": "Sharjah",
+            "type": "private",
+            "url": "https://www.aus.edu",
+            "band": 3,
+            "cost": "high",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Engineering",
+                "Business & Management",
+                "Design & Arts",
+                "Computer Science & IT"
+            ],
+            "english_taught": true,
+            "blurb": "A private university with an American-style curriculum."
+        },
+        {
+            "slug": "university-of-sharjah",
+            "name": "University of Sharjah",
+            "country": "uae",
+            "city": "Sharjah",
+            "type": "public",
+            "url": "https://www.sharjah.ac.ae",
+            "band": 2,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Engineering",
+                "Business & Management",
+                "Health & Life Sciences",
+                "Computer Science & IT"
+            ],
+            "english_taught": true,
+            "blurb": "A comprehensive public university in Sharjah."
+        },
+        {
+            "slug": "uae-university",
+            "name": "United Arab Emirates University",
+            "country": "uae",
+            "city": "Al Ain",
+            "type": "public",
+            "url": "https://www.uaeu.ac.ae",
+            "band": 3,
+            "cost": "low",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Engineering",
+                "Business & Management",
+                "Sciences",
+                "Law & Social Sciences"
+            ],
+            "english_taught": true,
+            "blurb": "The UAE's oldest national university."
+        },
+        {
+            "slug": "heriot-watt-dubai",
+            "name": "Heriot-Watt University Dubai",
+            "country": "uae",
+            "city": "Dubai",
+            "type": "private",
+            "url": "https://www.hw.ac.uk/dubai",
+            "band": 2,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Engineering",
+                "Business & Management",
+                "Computer Science & IT",
+                "Design & Arts"
+            ],
+            "english_taught": true,
+            "blurb": "A branch campus of the UK's Heriot-Watt University."
+        },
+        {
+            "slug": "middlesex-dubai",
+            "name": "Middlesex University Dubai",
+            "country": "uae",
+            "city": "Dubai",
+            "type": "private",
+            "url": "https://www.mdx.ac.ae",
+            "band": 2,
+            "cost": "mid",
+            "levels": [
+                "UG",
+                "PG"
+            ],
+            "fields": [
+                "Business & Management",
+                "Computer Science & IT",
+                "Design & Arts",
+                "Law & Social Sciences"
+            ],
+            "english_taught": true,
+            "blurb": "A branch campus of the UK's Middlesex University."
+        }
+    ],
+    "funds_reviewed": "2026-10"
+}

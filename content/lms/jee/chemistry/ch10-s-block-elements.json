@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": 10,
+  "title": "s-Block Elements",
+  "slug": "s-block-elements",
+  "subtitle": "s-Block Elements for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#22c55e",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "Master s-Block Elements for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Alkali Metals (Group 1)",
+      "topics": [
+        {
+          "number": 1,
+          "title": "General Trends and Properties",
+          "concept": "<p><strong>Alkali Metals:</strong> Group 1 elements — <strong>Li, Na, K, Rb, Cs, Fr</strong>. Outer config: $ns^1$. Soft, low-melting, highly reactive metals.</p><p><strong>Electronic Configuration:</strong></p><table class=\"md-table\"><thead><tr><th>Element</th><th>$Z$</th><th>Config</th></tr></thead><tbody><tr><td>Li</td><td>3</td><td>$[He]\\,2s^1$</td></tr><tr><td>Na</td><td>11</td><td>$[Ne]\\,3s^1$</td></tr><tr><td>K</td><td>19</td><td>$[Ar]\\,4s^1$</td></tr><tr><td>Rb</td><td>37</td><td>$[Kr]\\,5s^1$</td></tr><tr><td>Cs</td><td>55</td><td>$[Xe]\\,6s^1$</td></tr><tr><td>Fr</td><td>87</td><td>$[Rn]\\,7s^1$ (radioactive)</td></tr></tbody></table><p><strong>Trends Down the Group:</strong></p><table class=\"md-table\"><thead><tr><th>Property</th><th>Trend</th></tr></thead><tbody><tr><td>Atomic radius</td><td>Increases ↑</td></tr><tr><td>Ionic radius (M⁺)</td><td>Increases ↑</td></tr><tr><td>Ionization enthalpy</td><td>Decreases ↓</td></tr><tr><td>Electronegativity</td><td>Decreases ↓</td></tr><tr><td>Density</td><td>Generally increases (K is exception; less than Na)</td></tr><tr><td>Melting/Boiling point</td><td>Decreases ↓ (weakening of metallic bond)</td></tr><tr><td>Reactivity with water</td><td>Increases (Li slow, Cs explosive)</td></tr><tr><td>Hydration enthalpy of M⁺</td><td>Decreases (Li⁺ most hydrated)</td></tr></tbody></table><p><strong>Physical Properties:</strong></p><ul><li>All are soft; can be cut with a knife</li><li>Silvery-white luster (freshly cut); tarnish in air</li><li>Low density (Li < water; Na, K float on water)</li><li>Low melting points (Cs MP = $28.5°$C, melts in hand!)</li><li>Good conductors of heat and electricity</li><li>Emit characteristic flame colors:</li><li>Li: crimson red</li><li>Na: golden yellow</li><li>K: violet (lilac)</li><li>Rb: red-violet</li><li>Cs: blue</li></ul><p>(Loose outer electron easily excited, emits visible light on relaxation.)</p><p><strong>Chemical Properties:</strong></p><ol><li><strong>With water:</strong> $2M + 2H_2O \\to 2MOH + H_2$ (vigorous, exothermic)</li><li><strong>With air:</strong> Tarnish quickly forming oxides; burn in O₂:</li></ol><ul><li>$4Li + O_2 \\to 2Li_2O$ (oxide)</li><li>$2Na + O_2 \\to Na_2O_2$ (peroxide)</li><li>$K, Rb, Cs + O_2 \\to MO_2$ (superoxide; gives KO₂, RbO₂, CsO₂)</li></ul><ol><li><strong>With halogens:</strong> $2M + X_2 \\to 2MX$ (typically ionic salts)</li><li><strong>With hydrogen:</strong> $2M + H_2 \\to 2MH$ (ionic hydrides)</li><li><strong>With ammonia (liquid):</strong> Dissolve to give deep-blue, paramagnetic, conducting solution containing solvated electron: $M + (x+y)NH_3 \\to [M(NH_3)_x]^+ + [e(NH_3)_y]^-$. Color due to ammoniated electrons.</li><li><strong>Reducing power:</strong> Strong reducing agents; $Li$ is strongest (highest -ve $E^\\ominus$, despite Cs having lowest IE — due to high hydration of Li⁺).</li></ol>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why is Li the strongest reducing agent in Group 1 even though Cs has the lowest ionization enthalpy?</p>",
+              "solution": "<p>Reducing power in solution depends on three energies: sublimation, ionization, hydration. While Cs has lowest IE, Li has the highest hydration enthalpy (small Li⁺ heavily hydrated). The very negative hydration energy of Li⁺ makes the overall process most favorable, hence most negative $E^\\ominus$ → strongest reducing agent in aqueous solution.</p><p><strong>Final Answer:</strong> High hydration enthalpy of small Li⁺ ion makes Li strongest RA.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Predict products: $2Na + O_2 \\to ?$ vs $K + O_2 \\to ?$</p>",
+              "solution": "<p>$2Na + O_2 \\to Na_2O_2$ (sodium peroxide) $K + O_2 \\to KO_2$ (potassium superoxide) The larger cations (K, Rb, Cs) stabilize larger anions ($O_2^-$) better.</p><p><strong>Final Answer:</strong> Na → peroxide; K → superoxide.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The most reactive alkali metal with water:</p>",
+              "options": [
+                "Li",
+                "Na",
+                "K",
+                "Cs"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Flame color of K:</p>",
+              "options": [
+                "Crimson",
+                "Golden yellow",
+                "Violet/Lilac",
+                "Green"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The metal that dissolves in liquid NH₃ to give blue solution:</p>",
+              "options": [
+                "Cu",
+                "Na",
+                "Pt",
+                "Fe"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Order of IE in Group 1:</p>",
+              "options": [
+                "Li > Na > K > Rb > Cs",
+                "Cs > Rb > K > Na > Li",
+                "Li = Cs",
+                "Random"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>K + O₂ excess gives:</p>",
+              "options": [
+                "K₂O",
+                "K₂O₂",
+                "KO₂",
+                "K₂O₃"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Important Compounds and Anomalous Behavior of Li",
+          "concept": "<p><strong>Important Compounds of Sodium:</strong></p><p><strong>1. Sodium Carbonate (Washing Soda, Na₂CO₃·10H₂O):</strong></p><p><strong>Solvay Process</strong> (industrial preparation):</p><ol><li>$NH_3 + H_2O + CO_2 \\to NH_4HCO_3$</li><li>$NH_4HCO_3 + NaCl \\to NaHCO_3 + NH_4Cl$</li><li>$2NaHCO_3 \\xrightarrow{\\Delta} Na_2CO_3 + H_2O + CO_2$</li><li>$2NH_4Cl + Ca(OH)_2 \\to 2NH_3 + CaCl_2 + 2H_2O$ (NH₃ recycled)</li></ol><p><strong>Uses:</strong> Glass manufacture, soaps and detergents, paper, water softening.</p><p><strong>2. Sodium Bicarbonate (Baking Soda, NaHCO₃):</strong></p><ul><li>Used in baking (releases CO₂ on heating)</li><li>Mild antiseptic; antacid</li><li>Fire extinguishers</li></ul><p><strong>3. Sodium Hydroxide (Caustic Soda, NaOH):</strong></p><ul><li>Made by <strong>electrolysis</strong> of brine (Castner-Kellner / membrane cell)</li><li>Strong base; used in soap, paper, textile industry</li></ul><p><strong>4. Sodium Chloride (NaCl):</strong></p><ul><li>From sea water by evaporation</li><li>Used in food, manufacture of Na, Cl₂, NaOH</li></ul><p><strong>Anomalous Properties of Lithium (Diagonal Relationship with Mg):</strong></p><p>Li differs from other alkali metals due to:</p><ul><li>Smallest size, highest IE in group</li><li>Highest polarizing power</li><li>Highest hydration energy</li></ul><p><strong>Differences from other Group 1 elements:</strong></p><table class=\"md-table\"><thead><tr><th>Property</th><th>Li</th><th>Other alkali metals</th></tr></thead><tbody><tr><td>Hardness</td><td>Hardest</td><td>Soft</td></tr><tr><td>MP</td><td>High ($180°$C)</td><td>Low</td></tr><tr><td>Reaction with N₂</td><td>Forms $Li_3N$ (nitride)</td><td>Other alkali metals don't form nitride directly</td></tr><tr><td>Oxide</td><td>$Li_2O$ (normal oxide only)</td><td>Na → peroxide, K → superoxide</td></tr><tr><td>LiOH</td><td>Decomposes on heating to Li₂O</td><td>NaOH, KOH stable</td></tr><tr><td>Salts</td><td>$LiCl$ deliquescent (covalent); $LiF$ insoluble</td><td>Other halides ionic, soluble</td></tr><tr><td>Carbonate</td><td>$Li_2CO_3$ unstable; decomposes on heating</td><td>Na, K carbonates stable</td></tr></tbody></table><p><strong>Diagonal Relationship Li-Mg:</strong></p><table class=\"md-table\"><thead><tr><th>Property</th><th>Li</th><th>Mg</th></tr></thead><tbody><tr><td>Reaction with N₂</td><td>$6Li + N_2 \\to 2Li_3N$</td><td>$3Mg + N_2 \\to Mg_3N_2$</td></tr><tr><td>Hydroxide solubility</td><td>Less soluble</td><td>Less soluble</td></tr><tr><td>Bicarbonate</td><td>LiHCO₃ doesn't exist as solid</td><td>Mg(HCO₃)₂ stable in solution only</td></tr><tr><td>Reaction with water</td><td>Slow</td><td>Slow</td></tr><tr><td>Hardness</td><td>Hard for alkali metal</td><td>Hard</td></tr></tbody></table>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Explain Solvay process for $Na_2CO_3$ manufacture.</p>",
+              "solution": "<p>Steps:</p><ol><li>$CO_2$ + $NH_3$ + $H_2O$ → $NH_4HCO_3$</li><li>$NH_4HCO_3$ + NaCl → $NaHCO_3$ ↓ + $NH_4Cl$</li><li>$NaHCO_3$ heated → $Na_2CO_3$ + $H_2O$ + $CO_2$</li><li>$NH_4Cl$ + $Ca(OH)_2$ → $NH_3$ + $CaCl_2$ + $H_2O$</li></ol><p>$NH_3$ and $CO_2$ are recycled.</p><p><strong>Final Answer:</strong> Cyclic process using brine, ammonia, lime.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is LiCl deliquescent but NaCl is not?</p>",
+              "solution": "<p>Li⁺ has high polarizing power (small, $+1$). LiCl has appreciable covalent character (Fajan's rules). The strong hydration ability of Li⁺ makes LiCl absorb water from air (deliquescent). Na⁺ is bigger; NaCl is purely ionic; not deliquescent.</p><p><strong>Final Answer:</strong> Small Li⁺ → high hydration energy → deliquescent.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Solvay process produces:</p>",
+              "options": [
+                "NaOH",
+                "Na₂CO₃",
+                "NaCl",
+                "Na"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Lithium reacts with N₂ at room temperature to give:</p>",
+              "options": [
+                "Li₂N",
+                "Li₃N",
+                "LiN₃",
+                "No reaction"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Diagonal relationship of Li is with:</p>",
+              "options": [
+                "Be",
+                "Mg",
+                "Al",
+                "Ca"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Most ionic alkali halide:</p>",
+              "options": [
+                "LiF",
+                "LiI",
+                "CsF",
+                "CsI"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>NaHCO₃ on heating gives:</p>",
+              "options": [
+                "NaOH",
+                "Na₂O",
+                "Na₂CO₃ + H₂O + CO₂",
+                "NaCl"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Alkaline Earth Metals (Group 2)",
+      "topics": [
+        {
+          "number": 1,
+          "title": "General Trends and Properties",
+          "concept": "<p><strong>Alkaline Earth Metals:</strong> Group 2 — <strong>Be, Mg, Ca, Sr, Ba, Ra</strong>. Outer config: $ns^2$. Less reactive than alkali metals; form $M^{2+}$ ions.</p><p><strong>Electronic Configuration:</strong></p><table class=\"md-table\"><thead><tr><th>Element</th><th>$Z$</th><th>Config</th></tr></thead><tbody><tr><td>Be</td><td>4</td><td>$[He]\\,2s^2$</td></tr><tr><td>Mg</td><td>12</td><td>$[Ne]\\,3s^2$</td></tr><tr><td>Ca</td><td>20</td><td>$[Ar]\\,4s^2$</td></tr><tr><td>Sr</td><td>38</td><td>$[Kr]\\,5s^2$</td></tr><tr><td>Ba</td><td>56</td><td>$[Xe]\\,6s^2$</td></tr><tr><td>Ra</td><td>88</td><td>$[Rn]\\,7s^2$ (radioactive)</td></tr></tbody></table><p><strong>Trends Down the Group:</strong></p><table class=\"md-table\"><thead><tr><th>Property</th><th>Trend</th></tr></thead><tbody><tr><td>Atomic/Ionic radius</td><td>Increases ↑</td></tr><tr><td>Sum of first two IEs</td><td>Decreases ↓</td></tr><tr><td>EN</td><td>Decreases ↓</td></tr><tr><td>Reactivity with water</td><td>Increases (Be doesn't, Mg slow, Ca and below react)</td></tr><tr><td>MP, BP</td><td>Irregular; generally higher than alkali metals (stronger metallic bond from $ns^2$)</td></tr><tr><td>Hardness</td><td>Decreases ↓</td></tr><tr><td>Density</td><td>Increases ↑ (slowly)</td></tr></tbody></table><p><strong>Properties Compared to Alkali Metals:</strong></p><ul><li>Higher MP, BP</li><li>Harder (stronger metallic bond)</li><li>Higher density</li><li>Higher IE (need to remove 2 electrons)</li><li>Lower reducing power (smaller, harder to lose 2 e⁻)</li></ul><p><strong>Flame Colors:</strong></p><ul><li>Be, Mg: don't impart color (small size, high IE, transitions in UV)</li><li>Ca: brick red</li><li>Sr: crimson red</li><li>Ba: apple green</li></ul><p><strong>Chemical Reactions:</strong></p><ol><li><strong>With water:</strong></li></ol><ul><li>Be: no reaction</li><li>Mg: with hot water/steam: $Mg + H_2O \\to MgO + H_2$</li><li>Ca, Sr, Ba: react with cold water (less vigorously than alkali)</li></ul><ol><li><strong>With air:</strong> Burn forming oxides: $2Mg + O_2 \\to 2MgO$; Ba forms peroxide $BaO_2$.</li><li><strong>With halogens:</strong> $M + X_2 \\to MX_2$</li><li><strong>With hydrogen:</strong> Form ionic hydrides except $BeH_2$ (covalent, polymeric)</li><li><strong>With acids:</strong> $M + 2HCl \\to MCl_2 + H_2$</li><li><strong>With nitrogen:</strong> Form nitrides $M_3N_2$ (3M + N₂ → $M_3N_2$) at high $T$</li><li><strong>Reducing nature:</strong> Less than alkali metals; Ba most reactive in group</li></ol>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Arrange in increasing order of reactivity with water: Be, Mg, Ca, Ba.</p>",
+              "solution": "<p>Be < Mg < Ca < Ba (reactivity increases down the group due to decreasing IE and easier $M^{2+}$ formation).</p><p><strong>Final Answer:</strong> Be < Mg < Ca < Ba.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why do Group 2 metals have higher MP than Group 1?</p>",
+              "solution": "<p>Group 2 metals have $ns^2$ configuration, providing 2 valence electrons (per atom) for metallic bonding. Group 1 has only 1. More valence electrons → stronger metallic bond → higher MP, BP, hardness.</p><p><strong>Final Answer:</strong> $ns^2$ gives stronger metallic bonding than $ns^1$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Which alkaline earth metal does NOT impart color to flame?</p>",
+              "options": [
+                "Ca",
+                "Sr",
+                "Ba",
+                "Mg"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Most reactive alkaline earth metal with water:</p>",
+              "options": [
+                "Mg",
+                "Ca",
+                "Sr",
+                "Ba"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Alkaline earth metals form ion:</p>",
+              "options": [
+                "M⁺",
+                "M²⁺",
+                "M³⁺",
+                "M⁻"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Be does NOT react with water because:</p>",
+              "options": [
+                "Be is unreactive",
+                "Forms protective oxide layer",
+                "Be has no electrons",
+                "Be is heavier"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Density of group 2 elements:</p>",
+              "options": [
+                "Decreases down group",
+                "Increases down group",
+                "Constant",
+                "Highest at Mg"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Compounds, Anomalous Behavior of Be, and Diagonal Relationship",
+          "concept": "<p><strong>Important Compounds:</strong></p><p><strong>1. Calcium Oxide (Quicklime, CaO):</strong></p><ul><li>From limestone: $CaCO_3 \\xrightarrow{\\Delta} CaO + CO_2$</li><li>With water: $CaO + H_2O \\to Ca(OH)_2$ (slaked lime)</li><li>Uses: cement, mortar, calcium carbide manufacture</li></ul><p><strong>2. Calcium Hydroxide (Slaked Lime, Ca(OH)₂):</strong></p><ul><li>$Ca(OH)_2$ + Cl₂ → bleaching powder $Ca(OCl)Cl$</li><li>Limewater test for CO₂: turns milky due to $CaCO_3$ formation</li><li>Whitewashing</li></ul><p><strong>3. Calcium Carbonate (CaCO₃):</strong></p><ul><li>Limestone, chalk, marble</li><li>Manufacture of cement</li><li>Acid neutralizer (antacid)</li></ul><p><strong>4. Calcium Sulphate Hemihydrate ($Plaster of Paris, CaSO_4·\\frac{1}{2}H_2O$):</strong></p><ul><li>$2CaSO_4·2H_2O \\xrightarrow{120°C} 2CaSO_4·\\frac{1}{2}H_2O + 3H_2O$</li><li>Sets with water to form gypsum</li></ul><p><strong>5. Cement:</strong> Calcium silicate + aluminate; produced from limestone + clay + gypsum.</p><p><strong>6. Magnesium Hydroxide:</strong></p><ul><li>Milk of magnesia — mild antacid</li></ul><p><strong>Anomalous Behavior of Beryllium (Diagonal Relationship with Al):</strong></p><p>Be differs from other alkaline earth metals because:</p><ul><li>Smallest size</li><li>Highest IE</li><li>Higher EN</li></ul><p><strong>Properties of Be unique to Group 2:</strong></p><table class=\"md-table\"><thead><tr><th>Property</th><th>Be</th><th>Other Group 2</th></tr></thead><tbody><tr><td>Salts</td><td>Covalent (e.g., BeCl₂, BeSO₄)</td><td>Ionic</td></tr><tr><td>Reactivity with water</td><td>No reaction</td><td>Some react with water</td></tr><tr><td>Oxide</td><td>Amphoteric ($BeO$ reacts with both acid and base)</td><td>Basic</td></tr><tr><td>Carbide</td><td>$Be_2C$ gives methane on hydrolysis</td><td>$CaC_2$ gives acetylene</td></tr><tr><td>Hydroxide</td><td>$Be(OH)_2$ amphoteric</td><td>Basic</td></tr><tr><td>Coordination number</td><td>$4$ (small size)</td><td>$6$</td></tr><tr><td>Halides</td><td>Dimeric $Be_2Cl_4$, polymeric</td><td>Monomeric</td></tr></tbody></table><p><strong>Diagonal Relationship Be-Al:</strong></p><table class=\"md-table\"><thead><tr><th>Property</th><th>Be</th><th>Al</th></tr></thead><tbody><tr><td>Reaction with NaOH</td><td>Yes: $Be + 2NaOH \\to Na_2BeO_2 + H_2$</td><td>Yes: $2Al + 2NaOH + 2H_2O \\to 2NaAlO_2 + 3H_2$</td></tr><tr><td>Carbides</td><td>$Be_2C \\to CH_4$ on hydrolysis</td><td>$Al_4C_3 \\to CH_4$</td></tr><tr><td>Halides</td><td>$BeCl_2$ dimeric/polymeric (3c-4e bonds)</td><td>$AlCl_3$ dimeric $Al_2Cl_6$</td></tr><tr><td>Hydroxide</td><td>Amphoteric</td><td>Amphoteric</td></tr><tr><td>Atom small, charge density high</td><td>Yes</td><td>Yes</td></tr></tbody></table>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why is $BeO$ amphoteric while $MgO$ is basic?</p>",
+              "solution": "<p>Be has very high polarizing power (small, $+2$). $BeO$ has significant covalent character; the O-Be bond is more like polar covalent. So it can react with both acids ($BeO + 2HCl \\to BeCl_2 + H_2O$) and bases ($BeO + 2NaOH \\to Na_2BeO_2 + H_2O$). $MgO$ is more ionic; reacts only with acids — purely basic.</p><p><strong>Final Answer:</strong> Be high polarizing power → covalent BeO → amphoteric.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Predict products: $CaC_2 + H_2O \\to ?$ vs $Be_2C + H_2O \\to ?$</p>",
+              "solution": "<p>$CaC_2 + 2H_2O \\to Ca(OH)_2 + C_2H_2$ (acetylene) $Be_2C + 4H_2O \\to 2Be(OH)_2 + CH_4$ (methane)</p><p>The carbide ion in CaC₂ is $C_2^{2-}$ (acetylide); in Be₂C it is $C^{4-}$ (methide).</p><p><strong>Final Answer:</strong> CaC₂ → acetylene; Be₂C → methane.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Plaster of Paris is:</p>",
+              "options": [
+                "$CaCO_3$",
+                "$CaSO_4 \\cdot \\frac{1}{2}H_2O$",
+                "$CaSO_4 \\cdot 2H_2O$",
+                "$CaO$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Quicklime is:</p>",
+              "options": [
+                "$CaCO_3$",
+                "$CaO$",
+                "$Ca(OH)_2$",
+                "$CaCl_2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Diagonal relationship of Be is with:</p>",
+              "options": [
+                "C",
+                "Si",
+                "Al",
+                "Mg"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Beryllium hydroxide is:</p>",
+              "options": [
+                "Acidic",
+                "Basic",
+                "Amphoteric",
+                "Neutral"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Limewater turns milky with:</p>",
+              "options": [
+                "SO₂",
+                "CO₂",
+                "NO₂",
+                "H₂S"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-chem-s-block-elements-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>Cesium is used in photoelectric cells because:</p>",
+              "options": [
+                "Low IE",
+                "Light atom",
+                "High EN",
+                "Magnetic"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The strongest reducing agent in Group 1 in aqueous solution:</p>",
+              "options": [
+                "Li",
+                "Na",
+                "K",
+                "Cs"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The hydride which is NOT ionic:</p>",
+              "options": [
+                "LiH",
+                "NaH",
+                "BeH₂",
+                "CaH₂"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Sodium reacts with O₂ excess to give:</p>",
+              "options": [
+                "Na₂O",
+                "Na₂O₂",
+                "NaO₂",
+                "Na₂O₃"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Hardest alkali metal:</p>",
+              "options": [
+                "Li",
+                "Na",
+                "K",
+                "Cs"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Be does NOT show variable oxidation state, mostly:</p>",
+              "options": [
+                "$+1$",
+                "$+2$",
+                "$+3$",
+                "$-2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Solvay process cannot be used to make:</p>",
+              "options": [
+                "Na₂CO₃",
+                "K₂CO₃ (K bicarbonate too soluble)",
+                "NaHCO₃",
+                "NH₄Cl"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The flame color of Ba:</p>",
+              "options": [
+                "Crimson",
+                "Apple green",
+                "Violet",
+                "Brick red"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$Mg(NO_3)_2$ on strong heating gives:</p>",
+              "options": [
+                "$MgO + NO_2 + O_2$",
+                "$MgO + N_2$",
+                "$Mg(NO_2)_2$",
+                "$Mg + NO_2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The carbide which gives methane on hydrolysis:</p>",
+              "options": [
+                "$CaC_2$",
+                "$Mg_2C_3$",
+                "$Be_2C$ (and $Al_4C_3$)",
+                "Both b and c"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Number of alkali metals (excluding Fr):</p>",
+              "answer": "5",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of moles of H₂ liberated from $1$ mole of Na with water:</p>",
+              "answer": "0",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of OH groups in slaked lime Ca(OH)₂:</p>",
+              "answer": "2",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Lithium is the strongest reducing agent in aqueous solution among alkali metals. <strong>Reason (R):</strong> Li⁺ has the highest hydration energy among alkali metal ions due to its small size.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> Beryllium chloride is covalent while CaCl₂ is ionic. <strong>Reason (R):</strong> Be²⁺ has very high polarizing power due to its small size.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

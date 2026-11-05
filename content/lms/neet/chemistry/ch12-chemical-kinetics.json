@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "chemistry",
+  "chapter": 12,
+  "title": "Chemical Kinetics",
+  "slug": "chemical-kinetics",
+  "subtitle": "Rate of reaction, order & molecularity, integrated rate laws and the Arrhenius equation for NEET",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "NEET Chemistry — Chemical Kinetics: rate of reaction and rate law, order & molecularity, integrated rate equations for zero and first order, half-life, the Arrhenius equation & activation energy, and collision theory with catalysts, with NEET traps, NCERT notes and MCQs. Free on GrowQR.",
+    "focus_keyword": "chemical kinetics NEET",
+    "secondary_keywords": [
+      "rate law order molecularity NEET",
+      "first order reaction half life NEET",
+      "Arrhenius equation activation energy NEET",
+      "integrated rate equation NCERT",
+      "collision theory NEET"
+    ],
+    "keywords": [
+      "chemical kinetics NEET",
+      "order of reaction NEET",
+      "Arrhenius equation NEET",
+      "half life first order NEET",
+      "rate constant NEET"
+    ]
+  },
+  "summary": "<ul><li><strong>Rate</strong> = change in concentration per unit time; average vs instantaneous rate.</li><li><strong>Rate law:</strong> $\\text{rate} = k[A]^x[B]^y$; <strong>order</strong> $= x+y$ (experimental), <strong>molecularity</strong> = number of colliding species (theoretical, for elementary steps).</li><li><strong>Zero order:</strong> rate independent of concentration; $[A] = [A]_0 - kt$; units of $k$ = mol L⁻¹ s⁻¹.</li><li><strong>First order:</strong> $k = \\dfrac{2.303}{t}\\log\\dfrac{[A]_0}{[A]}$; units of $k$ = s⁻¹; <strong>half-life</strong> $t_{1/2} = \\dfrac{0.693}{k}$ (independent of initial concentration).</li><li><strong>Arrhenius equation:</strong> $k = A e^{-E_a/RT}$ — rate constant rises with temperature and falls with activation energy.</li><li><strong>Collision theory:</strong> reaction needs collisions with sufficient energy ($E_a$) and correct orientation.</li><li>A <strong>catalyst</strong> speeds a reaction by providing a lower-$E_a$ path; it does not change $\\Delta H$ or the equilibrium.</li></ul>",
+  "faqs": [
+    { "q": "What is the difference between order and molecularity?", "a": "Order is the experimentally determined sum of the powers of concentration terms in the rate law and can be zero or fractional, whereas molecularity is the number of reacting species in an elementary step and is always a whole number. Order applies to overall reactions; molecularity only to elementary steps." },
+    { "q": "Why is the half-life of a first-order reaction independent of concentration?", "a": "For a first-order reaction the half-life is t½ = 0.693/k, which contains only the rate constant and no concentration term. So however much reactant you start with, it always takes the same time for half of it to react — which is why radioactive decay (first order) has a fixed half-life." },
+    { "q": "What does the Arrhenius equation tell us?", "a": "The Arrhenius equation k = A·e^(−Ea/RT) shows that the rate constant increases with temperature and decreases with a higher activation energy. It explains why even a small temperature rise can noticeably speed up a reaction, since the exponential term is very sensitive to T." },
+    { "q": "How does a catalyst increase the rate of a reaction?", "a": "A catalyst provides an alternative reaction pathway with a lower activation energy, so a larger fraction of molecular collisions have enough energy to react. It speeds up both forward and reverse reactions equally and is not consumed, so it does not change the enthalpy change or the position of equilibrium." },
+    { "q": "What are the two requirements for an effective collision in collision theory?", "a": "According to collision theory, a collision leads to reaction only if the colliding molecules have energy equal to or greater than the activation energy and if they collide with the correct orientation. Collisions that lack either condition do not produce products." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Rate, Rate Law and Order",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Rate of Reaction and the Rate Law",
+          "concept": "<p>Chemical kinetics is the study of how fast reactions go and what controls their speed. The <strong>rate of a reaction</strong> is the change in concentration of a reactant or product per unit time. For a reaction $\\text{A} \\rightarrow \\text{B}$, the rate can be expressed as the rate of disappearance of A ($-\\dfrac{d[A]}{dt}$) or the rate of appearance of B ($+\\dfrac{d[B]}{dt}$). For a general reaction the rate is divided by each stoichiometric coefficient so that one value describes the whole reaction — a point NEET tests with the 'rate in terms of each species' question.</p><p>We distinguish the <strong>average rate</strong> (change over a measurable time interval) from the <strong>instantaneous rate</strong> (the rate at a particular instant, the slope of the concentration–time curve at that point). Rates are usually expressed in $\\text{mol L}^{-1}\\,\\text{s}^{-1}$.</p><p>The rate depends on several factors: the <strong>concentration</strong> of reactants (more concentrated usually means faster), <strong>temperature</strong> (higher temperature speeds reactions sharply), the presence of a <strong>catalyst</strong>, the <strong>surface area</strong> of solids, and (for photochemical reactions) light. The quantitative dependence on concentration is captured by the <strong>rate law</strong> — a relationship determined <em>experimentally</em>, not from the balanced equation.</p><p>For a reaction $a\\text{A} + b\\text{B} \\rightarrow$ products, the rate law takes the form $\\text{rate} = k[A]^x[B]^y$, where $k$ is the <strong>rate constant</strong> and $x, y$ are the orders with respect to A and B. Crucially, $x$ and $y$ are found by experiment and need not equal the stoichiometric coefficients $a$ and $b$. The rate constant $k$ is independent of concentration but depends strongly on temperature; its units change with the overall order, which is another reliable NEET question.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Concept</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Meaning</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Average rate</td><td style='border:1px solid #dcfce7;padding:6px 10px'>change over a time interval</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Instantaneous rate</td><td style='border:1px solid #dcfce7;padding:6px 10px'>slope of conc.–time curve at an instant</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Rate law</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{rate} = k[A]^x[B]^y$ (experimental)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Rate constant $k$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>independent of conc., depends on T</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>For $\\text{N}_2 + 3\\text{H}_2 \\rightarrow 2\\text{NH}_3$, write the rate in terms of each species.</p>",
+              "solution": "<p>Rate $= -\\dfrac{d[N_2]}{dt} = -\\dfrac{1}{3}\\dfrac{d[H_2]}{dt} = +\\dfrac{1}{2}\\dfrac{d[NH_3]}{dt}$ (each divided by its coefficient).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>The rate law of a reaction is rate $= k[A]^2[B]$. What is the overall order?</p>",
+              "solution": "<p>Overall order $= 2 + 1 = 3$ (third order). The reaction is second order in A and first order in B.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The rate of a reaction is the change in concentration per unit:</p>", "options": ["volume", "time", "mass", "pressure"], "correct": 1, "explanation": "Rate = change in concentration per unit time." },
+            { "q": "<p>The rate law is determined:</p>", "options": ["from the balanced equation", "experimentally", "from molecularity", "from $\\Delta H$"], "correct": 1, "explanation": "Rate law must be found by experiment." },
+            { "q": "<p>The rate constant $k$ depends on:</p>", "options": ["concentration", "temperature", "volume", "pressure only"], "correct": 1, "explanation": "$k$ is independent of concentration but depends on temperature." },
+            { "q": "<p>The instantaneous rate is the slope of the:</p>", "options": ["rate–time graph", "concentration–time curve", "energy diagram", "Arrhenius plot"], "correct": 1, "explanation": "Slope of the concentration–time curve at an instant." },
+            { "q": "<p>For rate $= k[A][B]^2$, the overall order is:</p>", "options": ["1", "2", "3", "4"], "correct": 2, "explanation": "$1 + 2 = 3$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> the rate law is experimental — orders need not match stoichiometric coefficients. Rate constant $k$ is concentration-independent but temperature-dependent; its units depend on overall order.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Order, Molecularity and the Rate Constant",
+          "concept": "<p>Two terms describe how reactions depend on the species involved, and NEET frequently tests the distinction. The <strong>order of a reaction</strong> is the sum of the powers of the concentration terms in the experimentally determined rate law. It tells us how the rate responds to concentration and can be zero, a whole number, or even <em>fractional</em>. The <strong>molecularity</strong>, by contrast, is the number of reacting species that come together in a single <em>elementary</em> step; it is a theoretical quantity, always a positive whole number (1, 2, or rarely 3), and is defined only for elementary reactions.</p><p>The key differences: order is experimental and applies to the overall reaction, while molecularity is theoretical and applies only to a single step; order can be zero or fractional, but molecularity cannot. For a multi-step reaction, the overall order is governed by the slowest step, the <strong>rate-determining step</strong> — its molecularity often equals the overall order. Confusing these two is one of the most common NEET errors.</p><p>The <strong>units of the rate constant $k$</strong> depend on the overall order, and reading them off is a guaranteed exam point. For a zero-order reaction, $k$ has units of $\\text{mol L}^{-1}\\,\\text{s}^{-1}$; for first order, $\\text{s}^{-1}$; for second order, $\\text{L mol}^{-1}\\,\\text{s}^{-1}$. The general rule is units of $k = (\\text{mol L}^{-1})^{1-\\text{order}}\\,\\text{s}^{-1}$. You can therefore identify the order of a reaction simply from the units of its rate constant — and vice versa.</p><p>Order is found experimentally by methods such as the <strong>initial-rates method</strong> (measuring how the initial rate changes when one reactant's concentration is varied) or by fitting concentration–time data to integrated rate equations (the next topic). Once the order is known, the rate constant can be calculated, and the reaction's behaviour fully predicted. Being clear on order versus molecularity, and matching $k$'s units to the order, equips you for most conceptual NEET questions in kinetics.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Feature</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Order vs Molecularity</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Order</td><td style='border:1px solid #dcfce7;padding:6px 10px'>experimental; can be 0 or fractional</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Molecularity</td><td style='border:1px solid #dcfce7;padding:6px 10px'>theoretical; whole number, elementary steps</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Units of $k$ (1st order)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{s}^{-1}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Units of $k$ (zero order)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{mol L}^{-1}\\,\\text{s}^{-1}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>State two differences between order and molecularity.</p>",
+              "solution": "<p>(1) Order is experimental and can be zero or fractional; molecularity is theoretical and always a whole number. (2) Order applies to the overall reaction; molecularity applies only to an elementary step.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>The rate constant of a reaction has units $\\text{s}^{-1}$. What is its order?</p>",
+              "solution": "<p>Units of $\\text{s}^{-1}$ correspond to a <strong>first-order</strong> reaction (using units of $k = (\\text{mol L}^{-1})^{1-\\text{order}}\\,\\text{s}^{-1}$).</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Molecularity of a reaction is always a:</p>", "options": ["fraction", "whole number", "negative number", "zero"], "correct": 1, "explanation": "Molecularity is a positive whole number." },
+            { "q": "<p>Order of a reaction can be:</p>", "options": ["only whole numbers", "zero or fractional too", "always 1", "never zero"], "correct": 1, "explanation": "Order can be zero, fractional or whole." },
+            { "q": "<p>The units of the rate constant for a first-order reaction are:</p>", "options": ["$\\text{mol L}^{-1}\\text{s}^{-1}$", "$\\text{s}^{-1}$", "$\\text{L mol}^{-1}\\text{s}^{-1}$", "$\\text{mol}^{-2}$"], "correct": 1, "explanation": "First order: $\\text{s}^{-1}$." },
+            { "q": "<p>The slowest step of a reaction is called the:</p>", "options": ["initiation step", "rate-determining step", "termination step", "fast step"], "correct": 1, "explanation": "The slowest step determines the overall rate." },
+            { "q": "<p>The units of $k$ for a zero-order reaction are:</p>", "options": ["$\\text{s}^{-1}$", "$\\text{mol L}^{-1}\\text{s}^{-1}$", "$\\text{L mol}^{-1}\\text{s}^{-1}$", "dimensionless"], "correct": 1, "explanation": "Zero order: $\\text{mol L}^{-1}\\text{s}^{-1}$." }
+          ],
+          "note": "<p><strong>NEET trap:</strong> order = experimental (can be 0/fractional); molecularity = theoretical (whole number, elementary step only). Identify order from $k$'s units: $\\text{s}^{-1}$ = 1st, $\\text{mol L}^{-1}\\text{s}^{-1}$ = zero.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Integrated Rate Laws and Temperature Dependence",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Integrated Rate Equations and Half-Life",
+          "concept": "<p>The rate law tells us the rate at an instant; <strong>integrated rate equations</strong> tell us how concentration changes with time, which is what we actually measure. Each order has its own integrated form, and NEET problems usually plug values into the first-order equation.</p><p>For a <strong>zero-order reaction</strong>, the rate is independent of concentration, so $[A] = [A]_0 - kt$. A plot of $[A]$ against time is a straight line with slope $-k$. The half-life is $t_{1/2} = \\dfrac{[A]_0}{2k}$, which <em>depends</em> on the initial concentration. Zero-order behaviour is seen in some surface-catalysed and photochemical reactions.</p><p>For a <strong>first-order reaction</strong>, the integrated equation is $k = \\dfrac{2.303}{t}\\log\\dfrac{[A]_0}{[A]}$, and a plot of $\\log[A]$ against time is a straight line with slope $-\\dfrac{k}{2.303}$. The most important result is the <strong>half-life</strong>: $t_{1/2} = \\dfrac{0.693}{k}$, which is <em>independent of the initial concentration</em>. This is why radioactive decay — a first-order process — has a constant half-life regardless of how much sample remains, a fact NEET often connects to nuclear chemistry and carbon dating.</p><p>The difference in half-life behaviour is a favourite NEET discriminator: for first order the half-life is fixed, so the amount remaining after $n$ half-lives is $[A]_0/2^n$; for zero order the half-life shrinks as the reaction proceeds. Being fluent with $k = \\dfrac{2.303}{t}\\log\\dfrac{[A]_0}{[A]}$ and $t_{1/2} = \\dfrac{0.693}{k}$, and knowing which graph is linear for each order, handles essentially all the quantitative kinetics questions in this chapter.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Order</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Integrated law / half-life</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Zero</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$[A]=[A]_0-kt$; $t_{1/2}=\\dfrac{[A]_0}{2k}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>First</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$k=\\dfrac{2.303}{t}\\log\\dfrac{[A]_0}{[A]}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>First-order half-life</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$t_{1/2}=\\dfrac{0.693}{k}$ (conc.-independent)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Linear plot</td><td style='border:1px solid #dcfce7;padding:6px 10px'>zero: $[A]$ vs $t$; first: $\\log[A]$ vs $t$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A first-order reaction has $k = 0.0693\\ \\text{s}^{-1}$. Find its half-life.</p>",
+              "solution": "<p>$t_{1/2} = \\dfrac{0.693}{k} = \\dfrac{0.693}{0.0693} = 10\\ \\text{s}$ (independent of initial concentration).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>After how many half-lives does a first-order reactant fall to $1/8$ of its initial amount?</p>",
+              "solution": "<p>$[A]_0/2^n = [A]_0/8 \\Rightarrow 2^n = 8 \\Rightarrow n = 3$. It takes <strong>3 half-lives</strong>.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The half-life of a first-order reaction is:</p>", "options": ["$\\dfrac{[A]_0}{2k}$", "$\\dfrac{0.693}{k}$", "$\\dfrac{1}{k[A]_0}$", "$2k$"], "correct": 1, "explanation": "$t_{1/2} = 0.693/k$ for first order." },
+            { "q": "<p>The first-order half-life is:</p>", "options": ["proportional to $[A]_0$", "independent of $[A]_0$", "inversely proportional to $k^2$", "zero"], "correct": 1, "explanation": "Independent of initial concentration." },
+            { "q": "<p>For a first-order reaction, a straight line is obtained by plotting:</p>", "options": ["$[A]$ vs $t$", "$\\log[A]$ vs $t$", "$1/[A]$ vs $t$", "rate vs $[A]$"], "correct": 1, "explanation": "$\\log[A]$ vs $t$ is linear for first order." },
+            { "q": "<p>For a zero-order reaction, $[A]$ versus $t$ is:</p>", "options": ["a curve", "a straight line", "exponential", "constant"], "correct": 1, "explanation": "$[A]=[A]_0-kt$ is linear." },
+            { "q": "<p>After 3 half-lives, the fraction of first-order reactant remaining is:</p>", "options": ["$1/2$", "$1/4$", "$1/8$", "$1/16$"], "correct": 2, "explanation": "$1/2^3 = 1/8$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> first order $t_{1/2}=0.693/k$ (concentration-independent; like radioactive decay); after $n$ half-lives, $[A]_0/2^n$ remains. Linear plots: zero order $[A]$ vs $t$, first order $\\log[A]$ vs $t$.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Temperature, the Arrhenius Equation and Catalysts",
+          "concept": "<p>Reaction rates rise sharply with temperature — as a rough rule of thumb, the rate roughly doubles for every $10\\ \\text{K}$ increase. This strong dependence is explained quantitatively by the <strong>Arrhenius equation</strong>: $k = A\\, e^{-E_a/RT}$, where $k$ is the rate constant, $A$ the frequency (pre-exponential) factor, $E_a$ the <strong>activation energy</strong>, $R$ the gas constant and $T$ the absolute temperature. The equation is central to NEET kinetics.</p><p>The <strong>activation energy $E_a$</strong> is the minimum energy that colliding molecules must possess for a reaction to occur — the energy barrier between reactants and products. A higher $E_a$ means a slower reaction (fewer molecules can surmount the barrier), while a lower $E_a$ means a faster one. Taking logarithms gives the linear form $\\ln k = \\ln A - \\dfrac{E_a}{RT}$, so a plot of $\\ln k$ against $1/T$ is a straight line of slope $-E_a/R$, from which $E_a$ can be found — a standard NEET graph question.</p><p>Comparing rate constants at two temperatures gives the useful two-point form $\\log\\dfrac{k_2}{k_1} = \\dfrac{E_a}{2.303\\,R}\\left(\\dfrac{1}{T_1} - \\dfrac{1}{T_2}\\right)$, which lets you calculate $E_a$ from $k$ at two temperatures, or predict $k$ at a new temperature. The deeper picture comes from <strong>collision theory</strong>: molecules must collide with energy at least equal to $E_a$ <em>and</em> with the correct orientation; only such 'effective collisions' lead to product. The fraction of molecules exceeding $E_a$ rises rapidly with temperature, explaining the Arrhenius behaviour.</p><p>A <strong>catalyst</strong> increases the rate by providing an alternative pathway with a <em>lower activation energy</em>, so a larger fraction of collisions are effective. Importantly, a catalyst speeds up the forward and reverse reactions equally — it does <em>not</em> change the enthalpy change $\\Delta H$ of the reaction or shift the position of equilibrium; it only helps the system reach equilibrium faster. This ties kinetics back to thermodynamics and equilibrium, and is a perennial NEET assertion-reason theme.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Idea</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Key point</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Arrhenius equation</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$k = A\\, e^{-E_a/RT}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Activation energy</td><td style='border:1px solid #dcfce7;padding:6px 10px'>energy barrier; higher $E_a$ to slower</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Arrhenius plot</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\ln k$ vs $1/T$, slope $-E_a/R$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Catalyst</td><td style='border:1px solid #dcfce7;padding:6px 10px'>lowers $E_a$; no change to $\\Delta H$ or equilibrium</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>How does increasing the temperature affect the rate constant, according to the Arrhenius equation?</p>",
+              "solution": "<p>In $k = A e^{-E_a/RT}$, raising $T$ makes the exponent $-E_a/RT$ less negative, so $e^{-E_a/RT}$ increases and $k$ increases — the reaction speeds up.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Does a catalyst change the activation energy and the enthalpy of a reaction?</p>",
+              "solution": "<p>A catalyst <em>lowers</em> the activation energy by offering a new pathway, but it does <strong>not</strong> change the enthalpy change $\\Delta H$ — the energies of reactants and products are unchanged, only the barrier between them is lowered.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The Arrhenius equation is:</p>", "options": ["$k = A e^{E_a/RT}$", "$k = A e^{-E_a/RT}$", "$k = A/E_a$", "$k = E_a/RT$"], "correct": 1, "explanation": "$k = A e^{-E_a/RT}$." },
+            { "q": "<p>A higher activation energy makes a reaction:</p>", "options": ["faster", "slower", "spontaneous", "unchanged"], "correct": 1, "explanation": "Higher $E_a$ means fewer effective collisions, so slower." },
+            { "q": "<p>An Arrhenius plot of $\\ln k$ vs $1/T$ has slope:</p>", "options": ["$E_a/R$", "$-E_a/R$", "$A$", "$-R/E_a$"], "correct": 1, "explanation": "Slope $= -E_a/R$." },
+            { "q": "<p>A catalyst increases the rate by:</p>", "options": ["raising temperature", "lowering activation energy", "increasing $\\Delta H$", "shifting equilibrium"], "correct": 1, "explanation": "It provides a lower-$E_a$ pathway." },
+            { "q": "<p>An effective collision requires sufficient energy and:</p>", "options": ["high pressure", "correct orientation", "a catalyst", "low temperature"], "correct": 1, "explanation": "Energy ≥ $E_a$ AND proper orientation." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> $k=Ae^{-E_a/RT}$; $\\ln k$ vs $1/T$ has slope $-E_a/R$. Two-point: $\\log\\frac{k_2}{k_1}=\\frac{E_a}{2.303R}(\\frac{1}{T_1}-\\frac{1}{T_2})$. Catalyst lowers $E_a$ only — never changes $\\Delta H$ or equilibrium.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-chemistry-ch12-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct & Statement-based)",
+          "questions": [
+            { "q": "<p>The rate law of a reaction is determined:</p>", "options": ["from the balanced equation", "experimentally", "from molecularity", "from the half-life only"], "correct": 1, "explanation": "Rate law is found experimentally." },
+            { "q": "<p>Which can be zero or fractional?</p>", "options": ["molecularity", "order", "both", "neither"], "correct": 1, "explanation": "Order can be zero/fractional; molecularity cannot." },
+            { "q": "<p>The half-life of a first-order reaction is:</p>", "options": ["$0.693/k$", "$[A]_0/2k$", "$1/k[A]_0$", "$k/0.693$"], "correct": 0, "explanation": "$t_{1/2} = 0.693/k$." },
+            { "q": "<p>Statements: (I) First-order half-life is independent of $[A]_0$. (II) Radioactive decay is first order. Which are correct?</p>", "options": ["only I", "only II", "both I and II", "neither"], "correct": 2, "explanation": "Both statements are correct." },
+            { "q": "<p>The units of $k$ for a first-order reaction are:</p>", "options": ["$\\text{mol L}^{-1}\\text{s}^{-1}$", "$\\text{s}^{-1}$", "$\\text{L mol}^{-1}\\text{s}^{-1}$", "dimensionless"], "correct": 1, "explanation": "First order: $\\text{s}^{-1}$." },
+            { "q": "<p>The Arrhenius equation shows that $k$ increases with:</p>", "options": ["increasing $E_a$", "increasing temperature", "decreasing $A$", "decreasing T"], "correct": 1, "explanation": "$k$ rises with temperature." },
+            { "q": "<p>A catalyst changes the:</p>", "options": ["enthalpy of reaction", "activation energy", "equilibrium position", "value of K"], "correct": 1, "explanation": "It lowers $E_a$ only." },
+            { "q": "<p>After 2 half-lives, the first-order reactant remaining is:</p>", "options": ["$1/2$", "$1/3$", "$1/4$", "$1/8$"], "correct": 2, "explanation": "$1/2^2 = 1/4$." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> The half-life of a first-order reaction does not depend on the initial concentration.<br><strong>R:</strong> For a first-order reaction $t_{1/2} = 0.693/k$, which contains no concentration term.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The formula has only $k$, so half-life is concentration-independent — R explains A." },
+            { "q": "<p><strong>A:</strong> A catalyst does not alter the enthalpy change of a reaction.<br><strong>R:</strong> A catalyst lowers the activation energy by providing an alternative pathway.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 1, "explanation": "Both are true, but lowering $E_a$ does not explain why $\\Delta H$ stays the same (it is unchanged because reactant/product energies are unchanged) — R does not explain A." },
+            { "q": "<p><strong>A:</strong> The order of a reaction is always equal to its molecularity.<br><strong>R:</strong> Molecularity is the number of species in an elementary step.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "Order need not equal molecularity (A false); molecularity is indeed the number of species in an elementary step (R true)." },
+            { "q": "<p><strong>A:</strong> The rate constant of a reaction increases as temperature rises.<br><strong>R:</strong> A higher temperature increases the fraction of molecules with energy greater than the activation energy.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "More molecules surmounting the barrier means a larger $k$ — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

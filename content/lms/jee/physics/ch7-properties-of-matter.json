@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "physics",
+  "chapter": 7,
+  "title": "Properties of Matter",
+  "slug": "properties-of-matter",
+  "subtitle": "Properties of Matter for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#ec4899",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "Master Properties of Matter for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Elasticity and Fluid Mechanics",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Stress, Strain, Elastic Moduli",
+          "concept": "<p><strong>Stress</strong> = restoring force per unit area: $\\sigma = F/A$ (N/m² or Pa). <strong>Strain</strong> = fractional change in dimension (dimensionless).</p><table class=\"md-table\"><thead><tr><th>Type</th><th>Stress</th><th>Strain</th><th>Modulus</th></tr></thead><tbody><tr><td>Longitudinal (tensile/compressive)</td><td>$F/A$</td><td>$\\Delta L/L$</td><td><strong>Young's Modulus</strong> $Y = \\dfrac{FL}{A\\Delta L}$</td></tr><tr><td>Volumetric</td><td>$\\Delta P$</td><td>$-\\Delta V/V$</td><td><strong>Bulk Modulus</strong> $B = -\\dfrac{V\\Delta P}{\\Delta V}$</td></tr><tr><td>Shear (tangential)</td><td>$F/A$</td><td>$\\theta$ (rad)</td><td><strong>Shear Modulus</strong> $\\eta = \\dfrac{F}{A\\theta}$</td></tr></tbody></table><p><strong>Hooke's Law:</strong> Within elastic limit, stress $\\propto$ strain. <strong>Compressibility</strong> $K = 1/B$. <strong>Poisson's ratio</strong> $\\sigma = -\\dfrac{\\text{lateral strain}}{\\text{longitudinal strain}}$; $-1 < \\sigma < 0.5$.</p><p><strong>Elastic Potential Energy</strong> stored per unit volume: $u = \\dfrac{1}{2} \\times \\text{stress} \\times \\text{strain} = \\dfrac{1}{2}Y(\\text{strain})^2$.</p><p>For a wire: $U = \\dfrac{1}{2} \\times \\dfrac{YA(\\Delta L)^2}{L}$. Force constant of wire: $k = YA/L$.</p><p><strong>Stress-Strain Curve:</strong> Proportional limit → Elastic limit → Yield point → Ultimate strength → Fracture point. Region beyond elastic limit shows permanent (plastic) deformation.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A steel wire of length $2$ m and cross-section $1$ mm² is stretched by $0.1$ mm under a load. Find the load. $Y_{\\text{steel}} = 2 \\times 10^{11}$ Pa.</p>",
+              "solution": "<p>$$F = \\frac{YA\\Delta L}{L} = \\frac{2 \\times 10^{11} \\times 10^{-6} \\times 10^{-4}}{2} = \\frac{2 \\times 10^{1}}{2} = 10 \\text{ N}$$</p><p><strong>Final Answer:</strong> $F = 10$ N.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A wire of length $L$, area $A$ is stretched by force $F$. Find the elastic energy stored if Young's modulus is $Y$.</p>",
+              "solution": "<p>Strain $= F/(AY)$, $\\Delta L = FL/(AY)$. $$U = \\frac{1}{2}F \\cdot \\Delta L = \\frac{1}{2}F \\cdot \\frac{FL}{AY} = \\frac{F^2 L}{2AY}$$</p><p><strong>Final Answer:</strong> $U = F^2L/(2AY)$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The dimensional formula for Young's modulus is:</p>",
+              "options": [
+                "$[ML^{-1}T^{-2}]$",
+                "$[MLT^{-2}]$",
+                "$[ML^{-2}T^{-1}]$",
+                "$[MLT^{-1}]$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The Poisson's ratio of a material is the ratio of:</p>",
+              "options": [
+                "Longitudinal stress to longitudinal strain",
+                "Lateral strain to longitudinal strain",
+                "Shear stress to shear strain",
+                "Bulk stress to volume strain"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A wire elongates by $1$ mm under a load. Another wire of same material, double the length, half the area, under the same load elongates by:</p>",
+              "options": [
+                "$0.25$ mm",
+                "$1$ mm",
+                "$4$ mm",
+                "$2$ mm"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The work done in stretching a wire is stored as:</p>",
+              "options": [
+                "Heat",
+                "Sound energy",
+                "Elastic potential energy",
+                "Kinetic energy"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Bulk modulus is reciprocal of:</p>",
+              "options": [
+                "Stress",
+                "Strain",
+                "Compressibility",
+                "Poisson's ratio"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Pressure, Buoyancy, Bernoulli's Equation",
+          "concept": "<p><strong>Pressure</strong> in a fluid at depth $h$: $P = P_0 + \\rho gh$, where $P_0$ = atmospheric pressure. <strong>Pascal's law:</strong> Pressure applied to enclosed fluid transmits equally in all directions (basis of hydraulic press).</p><p><strong>Archimedes' Principle:</strong> Buoyant force = weight of displaced fluid. $$F_B = V_{\\text{submerged}} \\cdot \\rho_{\\text{fluid}} \\cdot g$$</p><p>For floating body: $\\rho_{\\text{body}} V_{\\text{total}} = \\rho_{\\text{fluid}} V_{\\text{submerged}}$.</p><p><strong>Equation of Continuity</strong> (incompressible flow): $A_1 v_1 = A_2 v_2$ (mass conservation).</p><p><strong>Bernoulli's Equation</strong> (steady, incompressible, non-viscous, streamline flow): $$P + \\frac{1}{2}\\rho v^2 + \\rho g h = \\text{constant}$$</p><p>Sum of pressure energy, kinetic energy, and potential energy per unit volume is constant along a streamline.</p><p><strong>Torricelli's Law:</strong> Speed of efflux through small hole at depth $h$ below free surface: $$v = \\sqrt{2gh}$$ (same as free-fall from height $h$).</p><p><strong>Venturimeter:</strong> Used to measure flow rate. From Bernoulli + continuity: $$v_1 = a_2\\sqrt{\\frac{2gh}{a_1^2 - a_2^2}}$$ where $h$ = manometer height difference; $a_1, a_2$ = pipe and throat areas.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A tank of height $5$ m is filled with water. A small hole is made at depth $4$ m. Find the speed of efflux. ($g = 10$ m/s²)</p>",
+              "solution": "<p>By Torricelli: $v = \\sqrt{2gh} = \\sqrt{2 \\times 10 \\times 4} = \\sqrt{80} = 4\\sqrt{5} \\approx 8.94$ m/s.</p><p><strong>Final Answer:</strong> $v \\approx 8.94$ m/s.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A block of wood floats with $3/5$ of its volume submerged in water. Find its density.</p>",
+              "solution": "<p>For floating: $\\rho_{\\text{wood}} V = \\rho_w V_{\\text{submerged}}$. $$\\rho_{\\text{wood}} \\cdot V = 1000 \\cdot \\frac{3V}{5} \\implies \\rho_{\\text{wood}} = 600 \\text{ kg/m}^3$$</p><p><strong>Final Answer:</strong> $\\rho_{\\text{wood}} = 600$ kg/m³.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The unit of pressure in SI is:</p>",
+              "options": [
+                "N",
+                "Pa",
+                "N·m",
+                "Pa·m"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>According to Bernoulli's equation, increasing fluid velocity:</p>",
+              "options": [
+                "Increases pressure",
+                "Decreases pressure",
+                "Has no effect on pressure",
+                "Doubles pressure"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A body floats with $1/4$ of its volume above water. Its density:</p>",
+              "options": [
+                "$250$ kg/m³",
+                "$500$ kg/m³",
+                "$750$ kg/m³",
+                "$1000$ kg/m³"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Pascal's law is used in:</p>",
+              "options": [
+                "Refrigerator",
+                "Hydraulic press",
+                "Centrifuge",
+                "Aneroid barometer"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The velocity of efflux of a liquid through a hole at the bottom of a tank of height $h$ is:</p>",
+              "options": [
+                "$\\sqrt{gh}$",
+                "$\\sqrt{2gh}$",
+                "$\\sqrt{gh/2}$",
+                "$2gh$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Viscosity, Surface Tension and Thermal Properties",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Viscosity, Stokes' Law, Surface Tension",
+          "concept": "<p><strong>Viscosity:</strong> Internal friction in a fluid. Newton's law of viscous flow: $F = \\eta A \\dfrac{dv}{dx}$, where $\\eta$ = coefficient of viscosity (Pa·s = $10$ poise). Velocity gradient $dv/dx$ exists between adjacent fluid layers.</p><p><strong>Stokes' Law:</strong> Viscous drag on a sphere of radius $r$ moving with velocity $v$ in fluid of viscosity $\\eta$: $$F = 6\\pi\\eta r v$$</p><p><strong>Terminal Velocity</strong> of a sphere falling in a viscous fluid (when net force = 0): $$v_T = \\frac{2r^2(\\rho - \\sigma)g}{9\\eta}$$ where $\\rho$ = sphere density, $\\sigma$ = fluid density.</p><p><strong>Reynolds Number</strong> $Re = \\dfrac{\\rho v d}{\\eta}$. Flow is <strong>laminar</strong> if $Re < 2000$, <strong>turbulent</strong> if $Re > 3000$.</p><p><strong>Surface Tension</strong> ($T$ or $S$): Force per unit length acting on liquid surface, tangentially. Units: N/m. Equivalently, surface energy per unit area (J/m²).</p><p><strong>Excess Pressure:</strong></p><table class=\"md-table\"><thead><tr><th>Drop type</th><th>Excess pressure</th></tr></thead><tbody><tr><td>Liquid drop</td><td>$\\Delta P = 2T/R$</td></tr><tr><td>Bubble inside liquid</td><td>$\\Delta P = 2T/R$</td></tr><tr><td>Soap bubble (2 surfaces)</td><td>$\\Delta P = 4T/R$</td></tr></tbody></table><p><strong>Capillary Rise</strong> (Jurin's law): $h = \\dfrac{2T\\cos\\theta}{\\rho gr}$, where $r$ = capillary radius, $\\theta$ = contact angle. Mercury <strong>falls</strong> in glass capillary ($\\theta > 90°$).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A spherical drop of water of radius $1$ mm falls in air. Coefficient of viscosity of air = $1.8 \\times 10^{-5}$ Pa·s. Find terminal velocity. ($\\rho_w = 1000$, $\\rho_{\\text{air}} \\approx 0$, $g = 10$)</p>",
+              "solution": "<p>$$v_T = \\frac{2r^2 \\rho g}{9\\eta} = \\frac{2 \\times (10^{-3})^2 \\times 1000 \\times 10}{9 \\times 1.8 \\times 10^{-5}}$$ $$= \\frac{2 \\times 10^{-2}}{1.62 \\times 10^{-4}} \\approx 123.5 \\text{ m/s}$$</p><p>(Note: In reality, air resistance becomes turbulent; Stokes' law breaks down — this is an idealised value.)</p><p><strong>Final Answer:</strong> $v_T \\approx 123$ m/s (Stokes' regime).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the excess pressure inside a soap bubble of radius $1$ cm. Surface tension of soap solution = $0.03$ N/m.</p>",
+              "solution": "<p>For soap bubble (two surfaces): $$\\Delta P = \\frac{4T}{R} = \\frac{4 \\times 0.03}{10^{-2}} = 12 \\text{ Pa}$$</p><p><strong>Final Answer:</strong> $\\Delta P = 12$ Pa.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>SI unit of coefficient of viscosity:</p>",
+              "options": [
+                "Pa·s",
+                "Pa/s",
+                "N·m",
+                "kg/m"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Terminal velocity of a sphere in viscous fluid is proportional to:</p>",
+              "options": [
+                "$r$",
+                "$r^2$",
+                "$1/r$",
+                "$r^3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Excess pressure inside a soap bubble of radius $R$:</p>",
+              "options": [
+                "$T/R$",
+                "$2T/R$",
+                "$4T/R$",
+                "$T/(2R)$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The angle of contact for water on glass is:</p>",
+              "options": [
+                "$0°$",
+                "Acute",
+                "$90°$",
+                "Obtuse"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two soap bubbles of radii $r$ and $2r$ are joined. The radius of the curvature of common interface:</p>",
+              "options": [
+                "$r$",
+                "$2r$",
+                "$r/3$",
+                "$2r/3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Thermal Expansion, Calorimetry, Heat Transfer",
+          "concept": "<p><strong>Thermal Expansion:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Formula</th></tr></thead><tbody><tr><td>Linear</td><td>$\\Delta L = L_0 \\alpha \\Delta T$</td></tr><tr><td>Areal</td><td>$\\Delta A = A_0 \\beta \\Delta T$, $\\beta \\approx 2\\alpha$</td></tr><tr><td>Volume</td><td>$\\Delta V = V_0 \\gamma \\Delta T$, $\\gamma \\approx 3\\alpha$</td></tr></tbody></table><p><strong>Bimetallic strip</strong> bends due to different $\\alpha$ values; used in thermostats.</p><p><strong>Anomalous expansion of water:</strong> Maximum density at $4°$C; expansion below $4°$C.</p><p><strong>Calorimetry:</strong></p><ul><li>Heat absorbed/released: $Q = mc\\Delta T$, where $c$ = specific heat capacity (J/kg·K).</li><li>Latent heat: $Q = mL$ during phase change (constant temperature).</li><li><strong>Principle of calorimetry:</strong> heat lost = heat gained (in mixing).</li><li>Specific heat of water = $4186$ J/kg·K; latent heat of fusion of ice = $3.36 \\times 10^5$ J/kg; vaporisation of water = $2.26 \\times 10^6$ J/kg.</li></ul><p><strong>Heat Transfer Mechanisms:</strong></p><table class=\"md-table\"><thead><tr><th>Mode</th><th>Description</th><th>Equation</th></tr></thead><tbody><tr><td><strong>Conduction</strong></td><td>Through solids</td><td>$\\dfrac{dQ}{dt} = -KA\\dfrac{dT}{dx}$</td></tr><tr><td><strong>Convection</strong></td><td>Through fluids by bulk motion</td><td>$\\dfrac{dQ}{dt} = hA\\Delta T$</td></tr><tr><td><strong>Radiation</strong></td><td>EM waves; Stefan-Boltzmann</td><td>$P = e\\sigma A T^4$</td></tr></tbody></table><p><strong>Thermal resistance:</strong> $R_{\\text{th}} = L/(KA)$, similar to electrical resistance. For series: $R_{\\text{eq}} = R_1 + R_2$; parallel: $1/R_{\\text{eq}} = 1/R_1 + 1/R_2$.</p><p><strong>Wien's Displacement Law:</strong> $\\lambda_{\\max} T = b$, where $b = 2.898 \\times 10^{-3}$ m·K.</p><p><strong>Newton's Law of Cooling:</strong> $\\dfrac{dT}{dt} = -k(T - T_s)$, valid for small temperature differences.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A steel rod of length $1$ m at $20°$C is heated to $120°$C. Find the change in length. $\\alpha_{\\text{steel}} = 11 \\times 10^{-6}$/°C.</p>",
+              "solution": "<p>$$\\Delta L = L_0 \\alpha \\Delta T = 1 \\times 11 \\times 10^{-6} \\times 100 = 11 \\times 10^{-4} \\text{ m} = 1.1 \\text{ mm}$$</p><p><strong>Final Answer:</strong> $\\Delta L = 1.1$ mm.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>$100$ g of ice at $0°$C is added to $200$ g of water at $50°$C. Find the final temperature. ($L_f = 80$ cal/g, $c_w = 1$ cal/g·°C)</p>",
+              "solution": "<p>Heat to melt ice: $Q_1 = 100 \\times 80 = 8000$ cal. Heat available from water cooling to $0°$C: $Q_2 = 200 \\times 1 \\times 50 = 10000$ cal.</p><p>Since $Q_2 > Q_1$, all ice melts. Remaining heat = $10000 - 8000 = 2000$ cal.</p><p>This heats the $300$ g of water (now at $0°$C) to $T$: $$2000 = 300 \\times 1 \\times T \\implies T = 6.67°\\text{C}$$</p><p><strong>Final Answer:</strong> $T \\approx 6.67°$C.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The coefficient of areal expansion is related to linear:</p>",
+              "options": [
+                "$\\alpha$",
+                "$2\\alpha$",
+                "$3\\alpha$",
+                "$\\alpha/2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>SI unit of thermal conductivity:</p>",
+              "options": [
+                "W/m",
+                "W/(m·K)",
+                "W·m",
+                "J/K"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Specific heat of water in cal/g·°C:</p>",
+              "options": [
+                "$4.18$",
+                "$1$",
+                "$0.5$",
+                "$80$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>According to Stefan's law, the rate of energy emission is proportional to:</p>",
+              "options": [
+                "$T$",
+                "$T^2$",
+                "$T^3$",
+                "$T^4$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Newton's law of cooling is a special case of:</p>",
+              "options": [
+                "Stefan's law",
+                "Wien's law",
+                "Bohr's law",
+                "Hooke's law"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-phys-properties-of-matter-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>A wire of length $L$ and area $A$ has $Y = 2 \\times 10^{11}$ Pa. The force needed to double its length is:</p>",
+              "options": [
+                "$YA$",
+                "$2YA$",
+                "$YA/2$",
+                "$4YA$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A liquid rises to $h$ in a capillary tube of radius $r$. In a tube of radius $r/2$:</p>",
+              "options": [
+                "$h/2$",
+                "$h$",
+                "$2h$",
+                "$4h$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two soap bubbles of radii $r_1$ and $r_2$ ($r_1 < r_2$) are connected. Then:</p>",
+              "options": [
+                "Bigger grows, smaller shrinks",
+                "Smaller grows, bigger shrinks",
+                "Both same",
+                "Both vanish"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A body weighs $W$ in air and $0.75W$ in water. Its density:</p>",
+              "options": [
+                "$1000$ kg/m³",
+                "$1500$ kg/m³",
+                "$4000$ kg/m³",
+                "$750$ kg/m³"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two rods of same length, area, but different conductivities $K_1$ and $K_2$ in series; equivalent $K$:</p>",
+              "options": [
+                "$K_1 + K_2$",
+                "$(K_1 + K_2)/2$",
+                "$2K_1K_2/(K_1+K_2)$",
+                "$\\sqrt{K_1 K_2}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A wire is stretched. Strain energy per unit volume is:</p>",
+              "options": [
+                "Stress × strain",
+                "(1/2) stress × strain",
+                "Stress / strain",
+                "Strain / stress"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Water boils at lower temperature on a mountain because:</p>",
+              "options": [
+                "Higher temperature",
+                "Lower atmospheric pressure",
+                "Higher humidity",
+                "More gravity"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A bimetallic strip used in thermostats works on:</p>",
+              "options": [
+                "Different conductivities",
+                "Different expansion coefficients",
+                "Different densities",
+                "Different specific heats"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The terminal velocity of a sphere of mass $m$ falling in viscous fluid:</p>",
+              "options": [
+                "$\\propto m$",
+                "$\\propto m^{1/3}$",
+                "$\\propto m^{2/3}$",
+                "$\\propto m^2$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>If the temperature of a black body increases from $T$ to $2T$, energy radiated per second becomes:</p>",
+              "options": [
+                "$2$ times",
+                "$4$ times",
+                "$8$ times",
+                "$16$ times"
+              ],
+              "correct": 3,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>$1$ kg of water at $100°$C is converted into steam at $100°$C. The latent heat absorbed is $\\_ \\times 10^6$ J. (Take $L_v = 2.26 \\times 10^6$ J/kg, write coefficient as integer)</p>",
+              "answer": "2",
+              "explanation": ""
+            },
+            {
+              "q": "<p>A cube of ice melts in $40$ min in a room at $25°$C. Time it would take in a room at $40°$C (in min, rounded):</p>",
+              "answer": "25",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two wires of same material, length $L$ each, but radii $r$ and $2r$ in series stretched by same force. Ratio of elongations (smaller : larger), as integer:</p>",
+              "answer": "4",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> A piece of cork floats higher in salt water than in fresh water. <strong>Reason (R):</strong> The density of salt water is greater than fresh water.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> Drops of water on a clean glass plate spread out. <strong>Reason (R):</strong> The angle of contact of water with clean glass is small.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

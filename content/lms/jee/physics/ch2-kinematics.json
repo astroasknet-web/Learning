@@ -1,0 +1,704 @@
+{
+  "exam": "jee",
+  "subject": "physics",
+  "chapter": 2,
+  "title": "Kinematics",
+  "slug": "kinematics",
+  "subtitle": "Kinematics for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#6366f1",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "Master Kinematics for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Motion in One Dimension",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Displacement, Velocity, Acceleration and Equations of Motion",
+          "concept": "<p><strong>Position</strong> $x(t)$ specifies the location of a particle relative to an origin at time $t$. <strong>Displacement</strong> is the change in position: $\\Delta x = x_2 - x_1$ — a vector with magnitude and sign. <strong>Distance</strong> is the total path length traversed — a scalar that is always non-negative, with $|\\Delta x| \\leq \\text{distance}$.</p><p><strong>Average velocity</strong> over a time interval $[t_1, t_2]$: $$\\bar{v} = \\frac{\\Delta x}{\\Delta t} = \\frac{x(t_2) - x(t_1)}{t_2 - t_1}$$</p><p><strong>Instantaneous velocity</strong> is the limit as the interval shrinks: $$v(t) = \\lim_{\\Delta t \\to 0} \\frac{\\Delta x}{\\Delta t} = \\frac{dx}{dt}$$</p><p><strong>Speed</strong> is the magnitude of velocity, $|v|$, and the <strong>average speed</strong> is (total distance)/(total time), generally $\\geq |\\bar{v}|$.</p><p><strong>Average and instantaneous acceleration</strong> are defined analogously: $$\\bar{a} = \\frac{\\Delta v}{\\Delta t}, \\quad a(t) = \\frac{dv}{dt} = \\frac{d^2x}{dt^2}$$</p><p>Using the chain rule, $a = \\dfrac{dv}{dt} = \\dfrac{dv}{dx} \\cdot \\dfrac{dx}{dt} = v \\dfrac{dv}{dx}$. This is the key identity for problems where acceleration depends on position.</p><p><strong>Equations of Uniformly Accelerated Motion</strong> (constant $a$): Starting from $a = \\dfrac{dv}{dt}$ and $v = \\dfrac{dx}{dt}$, integration gives the standard kinematic equations:</p><table class=\"md-table\"><thead><tr><th>Equation</th><th>Description</th></tr></thead><tbody><tr><td>$v = u + at$</td><td>Velocity at time $t$, initial velocity $u$</td></tr><tr><td>$s = ut + \\dfrac{1}{2}at^2$</td><td>Displacement at time $t$</td></tr><tr><td>$v^2 = u^2 + 2as$</td><td>Velocity at displacement $s$</td></tr><tr><td>$s = \\left(\\dfrac{u+v}{2}\\right)t$</td><td>Displacement using average velocity</td></tr><tr><td>$s_n = u + \\dfrac{a}{2}(2n - 1)$</td><td>Distance covered in the $n$-th second</td></tr></tbody></table><p>These hold only for constant acceleration. The last formula gives the distance traversed during the $n$-th second alone (i.e., between $t = n-1$ and $t = n$).</p><p><strong>Free Fall:</strong> Near Earth's surface, the acceleration due to gravity is $g \\approx 9.8 \\text{ m/s}^2$ directed downward. With the upward direction positive: $a = -g$. A body projected upward with velocity $u$ reaches a maximum height $H = u^2/(2g)$ in time $t = u/g$, and the total flight time (back to the launch point) is $T = 2u/g$.</p><p><strong>Sign Convention:</strong> Always fix a positive direction at the start. Displacement, velocity, and acceleration carry signs accordingly. Do not change signs midway through a problem.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A car accelerates uniformly from rest to $20$ m/s in $10$ s, then travels at constant velocity for $20$ s, then decelerates to rest in $5$ s. Find (a) total distance covered, (b) average speed.</p>",
+              "solution": "<p><strong>Phase 1</strong> (acceleration): $u = 0$, $v = 20$, $t = 10$ s. $a = (20 - 0)/10 = 2 \\text{ m/s}^2$. $$s_1 = \\tfrac{1}{2}(0 + 20)(10) = 100 \\text{ m}$$</p><p><strong>Phase 2</strong> (constant velocity): $s_2 = 20 \\times 20 = 400$ m.</p><p><strong>Phase 3</strong> (deceleration): $u = 20$, $v = 0$, $t = 5$ s. $$s_3 = \\tfrac{1}{2}(20 + 0)(5) = 50 \\text{ m}$$</p><p><strong>Total distance:</strong> $s = 100 + 400 + 50 = 550$ m.</p><p><strong>Total time:</strong> $T = 10 + 20 + 5 = 35$ s.</p><p><strong>Average speed:</strong> $\\bar{v} = 550/35 \\approx 15.7$ m/s.</p><p><strong>Final Answer:</strong> Distance = $550$ m; Average speed ≈ $15.7$ m/s.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A body is projected vertically upward with velocity $40$ m/s. Take $g = 10 \\text{ m/s}^2$. Find (a) maximum height, (b) time of ascent, (c) velocity when it reaches half its maximum height while descending.</p>",
+              "solution": "<p>(a) $H = \\dfrac{u^2}{2g} = \\dfrac{1600}{20} = 80$ m.</p><p>(b) Time of ascent $t = u/g = 40/10 = 4$ s.</p><p>(c) Half of max height = $40$ m. Taking downward positive from peak with initial velocity $0$: $$v^2 = 0 + 2(10)(40) = 800 \\implies v = \\sqrt{800} = 20\\sqrt{2} \\approx 28.3 \\text{ m/s}$$</p><p><strong>Final Answer:</strong> $H = 80$ m; ascent time = $4$ s; velocity at half-height (descending) ≈ $28.3$ m/s.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>A particle moves so that its displacement is $x = 3t^2 - t^3$ (in metres, $t$ in seconds). Find (a) the velocity when acceleration is zero, (b) the time at which velocity is zero.</p>",
+              "solution": "<p>$$v = \\frac{dx}{dt} = 6t - 3t^2, \\quad a = \\frac{dv}{dt} = 6 - 6t$$</p><p>(a) $a = 0 \\implies t = 1$ s. At $t = 1$: $v = 6(1) - 3(1)^2 = 3$ m/s.</p><p>(b) $v = 0 \\implies 3t(2 - t) = 0 \\implies t = 0$ or $t = 2$ s. The relevant nontrivial solution is $t = 2$ s.</p><p><strong>Final Answer:</strong> $v|_{a=0} = 3$ m/s at $t = 1$ s; $v = 0$ at $t = 2$ s.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>A car covers $\\dfrac{1}{3}$ of its journey at speed $30$ km/h and $\\dfrac{2}{3}$ at $60$ km/h. Average speed of journey:</p>",
+              "options": [
+                "$40$ km/h",
+                "$45$ km/h",
+                "$50$ km/h",
+                "$48$ km/h"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A body starts from rest and acquires velocity $20$ m/s in $5$ s. The distance it travels in this time is:</p>",
+              "options": [
+                "$20$ m",
+                "$50$ m",
+                "$100$ m",
+                "$25$ m"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A stone is dropped from a height. The distance covered in the first $3$ s of fall (taking $g = 10 \\text{ m/s}^2$) is:</p>",
+              "options": [
+                "$30$ m",
+                "$45$ m",
+                "$90$ m",
+                "$15$ m"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The displacement-time graph of a particle is a straight line with positive slope. This indicates:</p>",
+              "options": [
+                "Increasing acceleration",
+                "Constant velocity",
+                "Constant acceleration",
+                "Zero displacement"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A particle moves under acceleration $a = -kv$, where $k$ is constant. Starting from initial velocity $u$, the velocity after time $t$ is:</p>",
+              "options": [
+                "$u - kt$",
+                "$u e^{-kt}$",
+                "$u e^{kt}$",
+                "$u/(1 + kt)$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Graphical Analysis and Non-Uniform Motion",
+          "concept": "<p>Motion graphs encode kinematic information in geometric form. The three primary graphs:</p><p><strong>Position-time ($x$-$t$) graph:</strong></p><ul><li>Slope at any point = instantaneous velocity: $v = dx/dt$.</li><li>Straight line ⟹ uniform velocity; curved (parabolic) ⟹ uniform acceleration.</li></ul><p><strong>Velocity-time ($v$-$t$) graph:</strong></p><ul><li>Slope at any point = instantaneous acceleration: $a = dv/dt$.</li><li>Area under the curve between $t_1$ and $t_2$ = displacement: $s = \\int v\\,dt$.</li><li>Straight horizontal line ⟹ constant velocity, zero acceleration.</li><li>Straight inclined line ⟹ constant acceleration.</li></ul><p><strong>Acceleration-time ($a$-$t$) graph:</strong></p><ul><li>Area under the curve = change in velocity: $\\Delta v = \\int a\\,dt$.</li></ul><p><strong>Important Graph Properties:</strong></p><ul><li>The sign of slope/area carries physical meaning (e.g., negative area under $v$-$t$ ⟹ displacement in the opposite direction).</li><li>A discontinuity in the $v$-$t$ graph implies an infinite (impulsive) acceleration — unphysical for ordinary mechanics but used as idealisation in collisions.</li><li>For SHM, $x(t)$, $v(t)$, $a(t)$ are sinusoidal with $v$ leading $x$ by $\\pi/2$ and $a$ leading $x$ by $\\pi$.</li></ul><p><strong>Non-Uniform Motion Approach</strong> (variable $a$):</p><ul><li>If $a = f(t)$: integrate $\\int a\\,dt$ to get $v$, then $\\int v\\,dt$ to get $x$.</li><li>If $a = f(v)$: rearrange $dv/dt = f(v)$ → $\\int dv/f(v) = \\int dt$.</li><li>If $a = f(x)$: use $v\\,dv = a\\,dx$ → $\\int v\\,dv = \\int f(x)\\,dx$.</li></ul><p><strong>Example (resistive motion):</strong> A particle moving with acceleration $a = -kv^2$ (drag-like) has $\\dfrac{dv}{v^2} = -k\\,dt$. Integrating: $-1/v + 1/u = -kt$ ⟹ $v = u/(1 + kut)$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>The $v$-$t$ graph of a body is shown: $v = 10$ m/s for $0 \\leq t \\leq 5$ s, then $v$ decreases linearly to $0$ at $t = 15$ s. Find (a) acceleration during deceleration, (b) total displacement.</p>",
+              "solution": "<p>(a) Deceleration phase: from $v = 10$ to $v = 0$ over $\\Delta t = 10$ s. So $a = -10/10 = -1 \\text{ m/s}^2$.</p><p>(b) Area under $v$-$t$ curve = displacement.</p><ul><li>Rectangle (constant phase): $10 \\times 5 = 50$ m.</li><li>Triangle (deceleration phase): $\\frac{1}{2} \\times 10 \\times 10 = 50$ m.</li></ul><p>Total displacement = $50 + 50 = 100$ m.</p><p><strong>Final Answer:</strong> $a = -1 \\text{ m/s}^2$; total displacement = $100$ m.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A particle moves along the $x$-axis with $a = -2x$ (in SI). Find the velocity at $x = 0$ if at $x = 3$ m, $v = 0$.</p>",
+              "solution": "<p>Using $v\\,dv = a\\,dx$: $$\\int_0^v v'\\,dv' = \\int_3^0 (-2x)\\,dx$$ $$\\frac{v^2}{2} = -[x^2]_3^0 = -(0 - 9) = 9 \\implies v^2 = 18$$ $$v = \\pm\\sqrt{18} = \\pm 3\\sqrt{2} \\text{ m/s}$$</p><p>The particle moves toward $x = 0$, so $v$ is negative (or positive, depending on the conventional direction). Magnitude $|v| = 3\\sqrt{2}$ m/s ≈ $4.24$ m/s.</p><p><strong>Final Answer:</strong> $|v| = 3\\sqrt{2}$ m/s at $x = 0$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>A body falls freely from a height $H$. Find the ratio of distances covered in the first, second, and third seconds of fall.</p>",
+              "solution": "<p>Distance in $n$-th second: $s_n = u + \\dfrac{a}{2}(2n - 1)$. With $u = 0$, $a = g$: $$s_n = \\dfrac{g}{2}(2n - 1)$$</p><ul><li>$s_1 = g/2 \\cdot 1 = g/2$</li><li>$s_2 = g/2 \\cdot 3 = 3g/2$</li><li>$s_3 = g/2 \\cdot 5 = 5g/2$</li></ul><p>Ratio $s_1 : s_2 : s_3 = 1 : 3 : 5$ — the <strong>Galileo odd-number sequence</strong>.</p><p><strong>Final Answer:</strong> $1 : 3 : 5$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The area under a velocity-time graph represents:</p>",
+              "options": [
+                "Acceleration",
+                "Displacement",
+                "Distance",
+                "Average velocity"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A particle has $x = 4 + 5t + 6t^2$ (SI units). Its acceleration is:</p>",
+              "options": [
+                "$6 \\text{ m/s}^2$",
+                "$12 \\text{ m/s}^2$",
+                "$5 \\text{ m/s}^2$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A ball is dropped from a tower of height $80$ m. The distance covered in the last second of fall ($g = 10 \\text{ m/s}^2$) is:</p>",
+              "options": [
+                "$35$ m",
+                "$40$ m",
+                "$30$ m",
+                "$45$ m"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A particle has $a = -kv$ (linear drag). If $u$ is initial velocity, the maximum distance covered is:</p>",
+              "options": [
+                "$u/k$",
+                "$u^2/(2k)$",
+                "$u^2/k$",
+                "Infinity"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>For uniformly accelerated motion, the position-time graph is:</p>",
+              "options": [
+                "A straight line",
+                "A parabola",
+                "A hyperbola",
+                "A circle"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Motion in Two and Three Dimensions",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Vectors, Projectile Motion and Range",
+          "concept": "<p>A <strong>vector</strong> is fully specified by magnitude and direction. The position vector of a particle in 3D is $\\vec{r} = x\\hat{i} + y\\hat{j} + z\\hat{k}$ with magnitude $|\\vec{r}| = \\sqrt{x^2 + y^2 + z^2}$.</p><p><strong>Velocity vector:</strong> $\\vec{v} = \\dfrac{d\\vec{r}}{dt} = \\dfrac{dx}{dt}\\hat{i} + \\dfrac{dy}{dt}\\hat{j} + \\dfrac{dz}{dt}\\hat{k}$. Its direction is tangent to the trajectory.</p><p><strong>Acceleration vector:</strong> $\\vec{a} = \\dfrac{d\\vec{v}}{dt}$. Decomposable into tangential (along $\\vec{v}$, changes speed) and centripetal (perpendicular to $\\vec{v}$, changes direction) components.</p><p><strong>Projectile motion</strong> is a 2D motion where the only acceleration is gravity, $\\vec{a} = -g\\hat{j}$ (vertical), with no horizontal acceleration. The motion decouples into independent horizontal (uniform velocity) and vertical (uniformly accelerated) components.</p><p>For a projectile launched with speed $u$ at angle $\\theta$ above the horizontal from ground level:</p><table class=\"md-table\"><thead><tr><th>Quantity</th><th>Formula</th></tr></thead><tbody><tr><td>Initial velocity components</td><td>$u_x = u\\cos\\theta$, $u_y = u\\sin\\theta$</td></tr><tr><td>Position at time $t$</td><td>$x = u\\cos\\theta \\cdot t$, $\\quad y = u\\sin\\theta \\cdot t - \\frac{1}{2}gt^2$</td></tr><tr><td>Velocity at time $t$</td><td>$v_x = u\\cos\\theta$, $\\quad v_y = u\\sin\\theta - gt$</td></tr><tr><td>Time of flight</td><td>$T = \\dfrac{2u\\sin\\theta}{g}$</td></tr><tr><td>Maximum height</td><td>$H = \\dfrac{u^2\\sin^2\\theta}{2g}$</td></tr><tr><td>Horizontal range</td><td>$R = \\dfrac{u^2\\sin 2\\theta}{g}$</td></tr><tr><td>Equation of trajectory</td><td>$y = x\\tan\\theta - \\dfrac{gx^2}{2u^2\\cos^2\\theta}$</td></tr></tbody></table><p>The trajectory is a <strong>parabola</strong>. The range $R$ is maximum when $\\sin 2\\theta = 1$, i.e., $\\theta = 45^\\circ$, giving $R_{\\max} = u^2/g$.</p><p><strong>Two angles giving the same range:</strong> Since $\\sin 2\\theta = \\sin(180^\\circ - 2\\theta)$, the angles $\\theta$ and $(90^\\circ - \\theta)$ yield the same horizontal range. Their times of flight and heights differ though.</p><p><strong>Projectile from a height $h$</strong> (horizontal launch with speed $u$):</p><ul><li>Time to land: $t = \\sqrt{2h/g}$</li><li>Horizontal distance: $x = u\\sqrt{2h/g}$</li><li>Velocity at landing: $|\\vec{v}| = \\sqrt{u^2 + 2gh}$ at angle $\\tan^{-1}(\\sqrt{2gh}/u)$ below horizontal.</li></ul><p><strong>Projectile on an inclined plane</strong> (incline angle $\\alpha$, launch angle $\\theta$ measured from the incline): Use a tilted coordinate system. The range along the incline: $$R_{\\text{incline}} = \\frac{2u^2 \\sin\\theta \\cos(\\theta + \\alpha)}{g \\cos^2\\alpha}$$ Maximum when $\\theta = (90^\\circ - \\alpha)/2 = 45^\\circ - \\alpha/2$, giving: $$R_{\\max} = \\frac{u^2}{g(1 + \\sin\\alpha)}$$</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A projectile is fired with velocity $20$ m/s at angle $60^\\circ$ above the horizontal. Take $g = 10 \\text{ m/s}^2$. Find (a) maximum height, (b) time of flight, (c) horizontal range.</p>",
+              "solution": "<p>$u = 20$ m/s, $\\theta = 60^\\circ$, $\\sin 60^\\circ = \\sqrt{3}/2$, $\\cos 60^\\circ = 1/2$.</p><p>(a) $H = \\dfrac{u^2 \\sin^2\\theta}{2g} = \\dfrac{400 \\cdot (3/4)}{20} = \\dfrac{300}{20} = 15$ m.</p><p>(b) $T = \\dfrac{2u\\sin\\theta}{g} = \\dfrac{2 \\cdot 20 \\cdot \\sqrt{3}/2}{10} = 2\\sqrt{3} \\approx 3.46$ s.</p><p>(c) $R = \\dfrac{u^2 \\sin 2\\theta}{g} = \\dfrac{400 \\cdot \\sin 120^\\circ}{10} = \\dfrac{400 \\cdot \\sqrt{3}/2}{10} = 20\\sqrt{3} \\approx 34.6$ m.</p><p><strong>Final Answer:</strong> $H = 15$ m; $T = 2\\sqrt{3}$ s; $R = 20\\sqrt{3}$ m.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Two projectiles are launched from the same point with the same speed at angles $30^\\circ$ and $60^\\circ$. Find the ratio of (a) their maximum heights, (b) their times of flight.</p>",
+              "solution": "<p>(a) $H \\propto \\sin^2 \\theta$. $\\sin^2 30^\\circ = 1/4$, $\\sin^2 60^\\circ = 3/4$. $$H_1 : H_2 = 1/4 : 3/4 = 1 : 3$$</p><p>(b) $T \\propto \\sin \\theta$. $\\sin 30^\\circ = 1/2$, $\\sin 60^\\circ = \\sqrt{3}/2$. $$T_1 : T_2 = 1 : \\sqrt{3}$$</p><p>Both have the <strong>same range</strong> since $\\sin(2 \\cdot 30^\\circ) = \\sin(2 \\cdot 60^\\circ) = \\sin 60^\\circ$.</p><p><strong>Final Answer:</strong> $H_1 : H_2 = 1 : 3$; $T_1 : T_2 = 1 : \\sqrt{3}$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>A stone is thrown horizontally from the top of a cliff of height $45$ m with speed $20$ m/s. Take $g = 10 \\text{ m/s}^2$. Find (a) the time to reach the ground, (b) the horizontal distance, (c) the speed at impact.</p>",
+              "solution": "<p>(a) $t = \\sqrt{2h/g} = \\sqrt{90/10} = 3$ s.</p><p>(b) $x = u \\cdot t = 20 \\cdot 3 = 60$ m.</p><p>(c) $v_y$ at impact = $gt = 30$ m/s. $v_x = 20$ m/s. $$|\\vec{v}| = \\sqrt{20^2 + 30^2} = \\sqrt{400 + 900} = \\sqrt{1300} = 10\\sqrt{13} \\approx 36.1 \\text{ m/s}$$</p><p><strong>Final Answer:</strong> $t = 3$ s; $x = 60$ m; $|\\vec{v}| = 10\\sqrt{13}$ m/s.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>A projectile attains the same range $R$ for launch angles $\\theta_1$ and $\\theta_2$. Then:</p>",
+              "options": [
+                "$\\theta_1 + \\theta_2 = 90^\\circ$",
+                "$\\theta_1 = \\theta_2$",
+                "$\\theta_1 - \\theta_2 = 90^\\circ$",
+                "$\\theta_1 \\cdot \\theta_2 = 90^\\circ$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The maximum range of a projectile fired with speed $u$ is:</p>",
+              "options": [
+                "$u^2 / (2g)$",
+                "$u^2 / g$",
+                "$2u^2 / g$",
+                "$u / g$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>At the highest point of a projectile's trajectory, its acceleration is:</p>",
+              "options": [
+                "Zero",
+                "$g$ vertically downward",
+                "$g$ horizontally",
+                "Greater than $g$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A particle is projected at $\\theta = 45^\\circ$ with speed $10$ m/s. The horizontal range is ($g = 10 \\text{ m/s}^2$):</p>",
+              "options": [
+                "$5$ m",
+                "$10$ m",
+                "$15$ m",
+                "$20$ m"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The angle of projection for which the range equals the maximum height is:</p>",
+              "options": [
+                "$\\tan^{-1}(2)$",
+                "$\\tan^{-1}(4)$",
+                "$\\tan^{-1}(1/2)$",
+                "$45^\\circ$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Relative Velocity, River-Boat Problems and Circular Motion",
+          "concept": "<p><strong>Relative velocity</strong> of body A with respect to body B: $$\\vec{v}_{AB} = \\vec{v}_A - \\vec{v}_B$$ This is the velocity of A as observed from a frame moving with B. In 1D, simply subtract scalar velocities (with signs); in 2D, use vector subtraction.</p><p><strong>Magnitude in 2D:</strong> If $\\vec{v}_A$ and $\\vec{v}_B$ make angle $\\phi$, $$|\\vec{v}_{AB}| = \\sqrt{v_A^2 + v_B^2 - 2 v_A v_B \\cos\\phi}$$</p><p><strong>River-Boat (Crossing) Problems:</strong> Let $v_b$ = speed of boat in still water, $v_r$ = speed of river current. Two key cases:</p><p><strong>Case 1: Crossing the river in shortest time.</strong> Boat is steered perpendicular to the bank. Time: $$t_{\\min} = \\frac{d}{v_b}$$ But the boat is also drifted downstream by $\\Delta x = v_r t_{\\min} = v_r d / v_b$. The resultant velocity is $\\sqrt{v_b^2 + v_r^2}$.</p><p><strong>Case 2: Crossing in shortest path (perpendicular landing).</strong> Boat is steered at an angle $\\theta$ upstream such that the upstream component cancels the current: $v_b \\sin\\theta = v_r \\implies \\sin\\theta = v_r/v_b$. This requires $v_b > v_r$. The net velocity across the river is $\\sqrt{v_b^2 - v_r^2}$. Time: $$t = \\frac{d}{\\sqrt{v_b^2 - v_r^2}}$$</p><p><strong>Rain-Man Problem:</strong> If rain falls with velocity $\\vec{v}_r$ and a man walks with $\\vec{v}_m$, the velocity of rain as observed by the man is $\\vec{v}_r - \\vec{v}_m$, and the umbrella must be tilted in this direction.</p><p><strong>Uniform Circular Motion:</strong> A particle moves at constant speed $v$ along a circle of radius $r$. The velocity is always tangent; the acceleration is <strong>centripetal</strong> (toward the centre): $$a_c = \\dfrac{v^2}{r} = \\omega^2 r$$ where $\\omega = v/r$ is the <strong>angular velocity</strong> (rad/s). Period of revolution: $T = 2\\pi/\\omega = 2\\pi r/v$.</p><p><strong>Non-uniform Circular Motion:</strong> When the speed changes, there is also a tangential acceleration $a_t = dv/dt$. Total acceleration: $$|\\vec{a}| = \\sqrt{a_c^2 + a_t^2}$$</p><p><strong>Relationships in Rotation:</strong> $\\omega = d\\theta/dt$ (angular velocity); $\\alpha = d\\omega/dt$ (angular acceleration). For uniform $\\alpha$: $$\\omega = \\omega_0 + \\alpha t, \\quad \\theta = \\omega_0 t + \\tfrac{1}{2}\\alpha t^2, \\quad \\omega^2 = \\omega_0^2 + 2\\alpha\\theta$$</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Two cars A and B move with velocities $30$ m/s and $40$ m/s on perpendicular roads. Find the relative velocity of B with respect to A.</p>",
+              "solution": "<p>Take $\\vec{v}_A = 30\\hat{i}$, $\\vec{v}_B = 40\\hat{j}$. $$\\vec{v}_{BA} = \\vec{v}_B - \\vec{v}_A = -30\\hat{i} + 40\\hat{j}$$ $$|\\vec{v}_{BA}| = \\sqrt{900 + 1600} = 50 \\text{ m/s}$$ Direction: $\\tan^{-1}(40/30) = \\tan^{-1}(4/3) \\approx 53^\\circ$ from the negative $x$-axis (in the second quadrant), i.e., $127^\\circ$ from positive $x$-axis.</p><p><strong>Final Answer:</strong> $|\\vec{v}_{BA}| = 50$ m/s in the direction making $\\tan^{-1}(4/3)$ with the perpendicular of A's motion.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A river is $500$ m wide, flowing at $3$ m/s. A boat moves at $5$ m/s in still water. Find (a) the time to cross in shortest time and the drift, (b) the time to cross perpendicularly.</p>",
+              "solution": "<p>$d = 500$ m, $v_r = 3$ m/s, $v_b = 5$ m/s.</p><p>(a) <strong>Shortest time:</strong> Boat perpendicular to bank. $t_{\\min} = 500/5 = 100$ s. Drift = $3 \\times 100 = 300$ m.</p><p>(b) <strong>Perpendicular crossing:</strong> $\\sin\\theta = v_r/v_b = 3/5 \\implies \\cos\\theta = 4/5$. Net velocity across = $v_b \\cos\\theta = 5 \\times 4/5 = 4$ m/s. Time = $500/4 = 125$ s.</p><p><strong>Final Answer:</strong> (a) $t_{\\min} = 100$ s, drift = $300$ m; (b) $t = 125$ s with boat steered at $\\sin^{-1}(3/5)$ upstream.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>A particle moves in a circle of radius $0.5$ m with constant speed $2$ m/s. Find (a) angular velocity, (b) centripetal acceleration, (c) period.</p>",
+              "solution": "<p>(a) $\\omega = v/r = 2/0.5 = 4$ rad/s.</p><p>(b) $a_c = v^2/r = 4/0.5 = 8 \\text{ m/s}^2$.</p><p>(c) $T = 2\\pi/\\omega = 2\\pi/4 = \\pi/2 \\approx 1.57$ s.</p><p><strong>Final Answer:</strong> $\\omega = 4$ rad/s; $a_c = 8 \\text{ m/s}^2$; $T = \\pi/2$ s.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>A man walks at $4$ km/h east. Rain falls vertically at $3$ km/h. To protect himself, he should tilt his umbrella from the vertical at an angle:</p>",
+              "options": [
+                "$\\tan^{-1}(3/4)$ toward the east",
+                "$\\tan^{-1}(3/4)$ toward the west",
+                "$\\tan^{-1}(4/3)$ toward the east",
+                "$\\tan^{-1}(4/3)$ toward the west"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A boat can travel at $10$ km/h in still water. It crosses a river of width $5$ km flowing at $6$ km/h, by the shortest path. The time taken is:</p>",
+              "options": [
+                "$30$ min",
+                "$37.5$ min",
+                "$45$ min",
+                "$60$ min"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The centripetal acceleration of a particle in uniform circular motion is proportional to:</p>",
+              "options": [
+                "$v$",
+                "$v^2$",
+                "$1/v$",
+                "$1/r$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two particles execute uniform circular motion with the same period on circles of radii $r_1$ and $r_2$ ($r_1 < r_2$). The ratio of their speeds:</p>",
+              "options": [
+                "$r_1 : r_2$",
+                "$r_2 : r_1$",
+                "$\\sqrt{r_1} : \\sqrt{r_2}$",
+                "Equal"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A particle moves in a circle of radius $4$ m with constant tangential acceleration $3 \\text{ m/s}^2$. Starting from rest, the magnitude of total acceleration after $2$ s is:</p>",
+              "options": [
+                "$3 \\text{ m/s}^2$",
+                "$9 \\text{ m/s}^2$",
+                "$\\sqrt{90} \\text{ m/s}^2$",
+                "$12 \\text{ m/s}^2$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-phys-kinematics-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>A particle's velocity is $v = 4 + 3t^2$ m/s. The displacement from $t = 0$ to $t = 2$ s is:</p>",
+              "options": [
+                "$12$ m",
+                "$16$ m",
+                "$20$ m",
+                "$24$ m"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A body is projected from ground at $30^\\circ$ with speed $20$ m/s. Time of flight ($g = 10 \\text{ m/s}^2$):</p>",
+              "options": [
+                "$1$ s",
+                "$2$ s",
+                "$\\sqrt{3}$ s",
+                "$4$ s"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A particle moves so that $x(t) = 5\\sin(2t)$. Maximum velocity:</p>",
+              "options": [
+                "$5$",
+                "$10$",
+                "$20$",
+                "$2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A ball is dropped from $80$ m. With $g = 10 \\text{ m/s}^2$, velocity on impact:</p>",
+              "options": [
+                "$20$ m/s",
+                "$40$ m/s",
+                "$30$ m/s",
+                "$35$ m/s"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A car traveling at $72$ km/h is brought to rest in $5$ s. Average retardation:</p>",
+              "options": [
+                "$2 \\text{ m/s}^2$",
+                "$4 \\text{ m/s}^2$",
+                "$14.4 \\text{ m/s}^2$",
+                "$7.2 \\text{ m/s}^2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>From the top of a $25$ m tower, a stone is projected horizontally with $15$ m/s. Time to reach the ground ($g = 10 \\text{ m/s}^2$):</p>",
+              "options": [
+                "$\\sqrt{2}$ s",
+                "$\\sqrt{5}$ s",
+                "$2$ s",
+                "$\\sqrt{2.5}$ s"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two trains, $100$ m and $200$ m long, move in opposite directions on parallel tracks at $30$ km/h and $45$ km/h. Time to cross each other:</p>",
+              "options": [
+                "$12$ s",
+                "$14.4$ s",
+                "$16$ s",
+                "$18$ s"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A particle moves with constant tangential acceleration $a_t = 2 \\text{ m/s}^2$ on a circle of radius $2$ m. After how much time will its tangential and centripetal accelerations be equal? (start from rest)</p>",
+              "options": [
+                "$1$ s",
+                "$2$ s",
+                "$0.5$ s",
+                "$4$ s"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A ball is thrown vertically up with $20$ m/s. After $1$ s, another ball is dropped from $20$ m above the starting point. They will meet at height (above start, $g = 10 \\text{ m/s}^2$):</p>",
+              "options": [
+                "$20$ m",
+                "$10$ m",
+                "$15$ m",
+                "$5$ m"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The position of a particle is $\\vec{r}(t) = (3t)\\hat{i} + (4t - 5t^2)\\hat{j}$. Its initial velocity is:</p>",
+              "options": [
+                "$5$ m/s",
+                "$3\\hat{i} + 4\\hat{j}$",
+                "$7$ m/s",
+                "$\\sqrt{7}$ m/s"
+              ],
+              "correct": 3,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>A projectile has range $40$ m and maximum height $10$ m. The angle of projection (in degrees, to nearest integer):</p>",
+              "answer": "45",
+              "explanation": ""
+            },
+            {
+              "q": "<p>A stone is dropped freely; in the last second it covers $25$ m. The total time of fall (s, $g = 10 \\text{ m/s}^2$):</p>",
+              "answer": "3",
+              "explanation": ""
+            },
+            {
+              "q": "<p>A particle's velocity is $v = 5 - 2t$ (SI). The total distance covered in first $5$ s (in m):</p>",
+              "answer": "13",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> A projectile launched at $45^\\circ$ has maximum range. <strong>Reason (R):</strong> $\\sin 2\\theta$ is maximum when $\\theta = 45^\\circ$.</p>",
+              "options": [
+                "Both A and R true; R correct explanation of A",
+                "Both A and R true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> In uniform circular motion, velocity is constant. <strong>Reason (R):</strong> The speed is constant in uniform circular motion.</p>",
+              "options": [
+                "Both A and R true; R correct explanation",
+                "Both A and R true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 3,
+              "explanation": "-."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-phys-kinematics-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>A particle is projected from origin with velocity $\\vec{v} = (3\\hat{i} + 4\\hat{j})$ m/s. Take $g = 10\\hat{j}$ (downward). The trajectory equation $y(x)$ is:</p>",
+              "options": [
+                "$y = (4/3)x - (5/9)x^2$",
+                "$y = (4/3)x - (10/9)x^2$",
+                "$y = (3/4)x - (5/9)x^2$",
+                "$y = (4/3)x + (10/9)x^2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A particle moves with acceleration $a = -kv^2$. If initial velocity is $u$, the velocity after traveling distance $x$ is:</p>",
+              "options": [
+                "$u/(1+kx)$",
+                "$u \\cdot e^{-kx}$",
+                "$u/(1+kux)$",
+                "$u(1-kx)$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A projectile is fired with velocity $u$ at angle $\\theta$ on an inclined plane of inclination $\\alpha$ (up the plane). The range along the incline is:</p>",
+              "options": [
+                "$\\dfrac{2u^2 \\sin\\theta \\cos(\\theta+\\alpha)}{g \\cos^2\\alpha}$",
+                "$\\dfrac{u^2 \\sin 2\\theta}{g}$",
+                "$\\dfrac{u^2 \\cos\\theta}{g \\sin\\alpha}$",
+                "$\\dfrac{2u^2 \\sin\\theta}{g}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A man can swim at $5$ km/h in still water. He wants to cross a river $1$ km wide flowing at $3$ km/h, in the shortest possible time. He should swim:</p>",
+              "options": [
+                "At an angle $\\sin^{-1}(3/5)$ upstream",
+                "Perpendicular to the current",
+                "Downstream",
+                "At $45^\\circ$ to the current"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A ball is dropped from a tower. During the last second of fall, it covers $7/16$ of the total height. The height of the tower ($g = 10 \\text{ m/s}^2$):</p>",
+              "options": [
+                "$80$ m",
+                "$125$ m",
+                "$100$ m",
+                "$250$ m"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A particle starts from rest with constant angular acceleration $2 \\text{ rad/s}^2$ on a circle of radius $5$ m. The magnitude of net acceleration after $1$ s is:</p>",
+              "options": [
+                "$10 \\text{ m/s}^2$",
+                "$20 \\text{ m/s}^2$",
+                "$10\\sqrt{5} \\text{ m/s}^2$",
+                "$10\\sqrt{2} \\text{ m/s}^2$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>From the top of a building of height $40$ m, an object is thrown with velocity $20$ m/s at $60^\\circ$ above horizontal. Time of flight ($g = 10 \\text{ m/s}^2$):</p>",
+              "options": [
+                "$2 + 2\\sqrt{3}$ s  <em>(approx 5.46 s)</em>",
+                "$4$ s",
+                "$\\sqrt{3} + 1$ s",
+                "$\\sqrt{3} + \\sqrt{11}$ s"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two particles A and B are projected from same point with velocities $v_1$ and $v_2$ at angles $\\theta_1$ and $\\theta_2$ such that they have same horizontal range. If $\\theta_1 = 30^\\circ$ and $\\theta_2 = 60^\\circ$, then $v_1/v_2$:</p>",
+              "options": [
+                "$1$",
+                "$\\sqrt{3}$",
+                "$1/\\sqrt{3}$",
+                "$3$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A wheel rotates with $\\omega = 5 + 4t$ rad/s. The angle through which the wheel rotates in $2$ s starting from $t = 0$:</p>",
+              "options": [
+                "$13$ rad",
+                "$18$ rad",
+                "$20$ rad",
+                "$24$ rad"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A stone tied to a string is whirled in a vertical circle of radius $r$. Minimum speed at the top for the string to remain taut:</p>",
+              "options": [
+                "$\\sqrt{gr}$",
+                "$\\sqrt{2gr}$",
+                "$\\sqrt{5gr}$",
+                "$\\sqrt{3gr}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>A particle moves on a straight line with $v = 2x$ (in SI). If $x = 1$ at $t = 0$, find $x$ at $t = \\ln 4$ seconds.</p>",
+              "answer": "16",
+              "explanation": ""
+            },
+            {
+              "q": "<p>A projectile is launched at $60^\\circ$ with $u = 40$ m/s. The horizontal distance covered when the velocity makes $45^\\circ$ with horizontal (m, $g = 10$):</p>",
+              "answer": "60",
+              "explanation": ""
+            },
+            {
+              "q": "<p>A boat is sailing with $4$ m/s relative to water in the east direction. River flows south at $3$ m/s. A boy walks across the boat at $\\sqrt{6}$ m/s perpendicular to its length (boat aligned east-west). His speed relative to ground (m/s):</p>",
+              "answer": "5",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> In uniform circular motion, work done by centripetal force is zero in one revolution. <strong>Reason (R):</strong> Centripetal force is always perpendicular to velocity.</p>",
+              "options": [
+                "Both A and R true; R correct explanation",
+                "Both A and R true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> The horizontal range of projectile at angle $\\theta$ from horizontal is same as that at $(90 - \\theta)$. <strong>Reason (R):</strong> $\\sin 2\\theta = \\sin(180 - 2\\theta) = \\sin(2(90-\\theta))$.</p>",
+              "options": [
+                "Both A and R true; R correct explanation",
+                "Both A and R true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

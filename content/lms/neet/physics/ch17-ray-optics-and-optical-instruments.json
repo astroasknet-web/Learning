@@ -1,0 +1,168 @@
+{
+  "exam": "neet",
+  "subject": "physics",
+  "chapter": 17,
+  "title": "Ray Optics & Optical Instruments",
+  "slug": "ray-optics-and-optical-instruments",
+  "subtitle": "Reflection & mirrors, refraction & lenses, total internal reflection, prisms & instruments",
+  "level": "NEET (UG)",
+  "color": "#2563eb",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "NEET Physics — Ray Optics & Optical Instruments: reflection and spherical mirrors, refraction and the lens-maker's formula, total internal reflection, prisms and dispersion, and the microscope, telescope and human eye, with NEET-level examples and MCQs. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Reflection and Refraction",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Reflection and Spherical Mirrors",
+          "concept": "<p>Light travels in straight lines and obeys the <strong>laws of reflection</strong>: the angle of incidence equals the angle of reflection, and the incident ray, reflected ray and normal all lie in one plane. A plane mirror forms a virtual, erect image of the same size, laterally inverted, as far behind the mirror as the object is in front — the everyday case from which the sign conventions are built.</p><p>Curved mirrors form the heart of this topic. A <strong>concave</strong> mirror converges light and a <strong>convex</strong> mirror diverges it. Both obey the <strong>mirror formula</strong> $\\dfrac{1}{f} = \\dfrac{1}{v} + \\dfrac{1}{u}$, where the focal length is half the radius of curvature, $f = R/2$. Distances are measured from the pole using the Cartesian sign convention, with distances along the incident light taken positive.</p><p>The size and orientation of the image are given by the <strong>magnification</strong> $m = -\\dfrac{v}{u} = \\dfrac{h'}{h}$. A negative $m$ means an inverted (real) image and a positive $m$ an erect (virtual) image. A concave mirror can give either, depending on where the object is placed, while a convex mirror always gives a small, erect, virtual image — which is why it is used as a rear-view mirror for a wide field of view.</p><p>Mastering this topic for NEET is mostly about the sign convention and quick image analysis. The practised approach is to fix the conventions, substitute carefully into the mirror formula, and read off whether the image is real or virtual, erect or inverted, enlarged or diminished — a sequence that turns most mirror problems into a one-line calculation.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Relation</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Mirror formula</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\dfrac{1}{f} = \\dfrac{1}{v} + \\dfrac{1}{u}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Focal length</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$f = R/2$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Magnification</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$m = -\\dfrac{v}{u}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>An object is placed $30\\ \\text{cm}$ from a concave mirror of focal length $20\\ \\text{cm}$. Find the image distance.</p>",
+              "solution": "<p>Using $\\dfrac{1}{f} = \\dfrac{1}{v} + \\dfrac{1}{u}$ with $f = -20$, $u = -30$: $\\dfrac{1}{v} = \\dfrac{1}{-20} - \\dfrac{1}{-30} = -\\dfrac{1}{60}$, so $v = -60\\ \\text{cm}$ — a real, inverted image $60\\ \\text{cm}$ in front.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is a convex mirror used as a vehicle rear-view mirror?</p>",
+              "solution": "<p>A convex mirror always forms a small, erect, virtual image and has a wide field of view, so the driver can see a large area behind the vehicle in a compact mirror.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The focal length of a spherical mirror is related to its radius by:</p>", "options": ["$f = R$", "$f = R/2$", "$f = 2R$", "$f = R/4$"], "correct": 1, "explanation": "$f = R/2$." },
+            { "q": "<p>The mirror formula is:</p>", "options": ["$1/f = 1/v - 1/u$", "$1/f = 1/v + 1/u$", "$f = v + u$", "$1/f = v + u$"], "correct": 1, "explanation": "$1/f = 1/v + 1/u$." },
+            { "q": "<p>A convex mirror always forms an image that is:</p>", "options": ["real and inverted", "virtual and erect", "real and enlarged", "inverted and enlarged"], "correct": 1, "explanation": "Convex mirror: always small, erect, virtual." },
+            { "q": "<p>Magnification of a mirror is:</p>", "options": ["$v/u$", "$-v/u$", "$u/v$", "$-u/v$"], "correct": 1, "explanation": "$m = -v/u$." },
+            { "q": "<p>A negative magnification indicates an image that is:</p>", "options": ["erect", "inverted", "virtual", "magnified"], "correct": 1, "explanation": "Negative $m$ means an inverted (real) image." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Fix the sign convention first, then apply $1/f = 1/v + 1/u$ and $m = -v/u$. Convex mirrors always give a small, erect, virtual image; $f = R/2$.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Refraction and Total Internal Reflection",
+          "concept": "<p><strong>Refraction</strong> is the bending of light as it passes between media of different optical densities, caused by a change in its speed. It obeys <strong>Snell's law</strong>: $n_1\\sin\\theta_1 = n_2\\sin\\theta_2$, where $n = c/v$ is the <strong>refractive index</strong>. Light bends towards the normal on entering a denser medium and away from it on entering a rarer one — the reason a straw looks bent in a glass of water.</p><p>Several familiar effects follow from refraction. A pool looks shallower than it is because of <strong>apparent depth</strong>, where real depth and apparent depth are related by the refractive index, $n = \\dfrac{\\text{real depth}}{\\text{apparent depth}}$. The twinkling of stars and the appearance of a coin rising in a beaker of water are all consequences of the same bending of light.</p><p>When light travels from a denser to a rarer medium, increasing the angle of incidence eventually makes the refracted ray graze the surface. The incidence angle at which this happens is the <strong>critical angle</strong> $\\theta_c$, given by $\\sin\\theta_c = \\dfrac{1}{n}$. Beyond it, light is reflected entirely back into the denser medium — a phenomenon called <strong>total internal reflection (TIR)</strong>.</p><p>TIR requires two conditions: light must go from a denser to a rarer medium, and the angle of incidence must exceed the critical angle. It explains the brilliance of diamonds (very high $n$, small $\\theta_c$), the formation of mirages, and most importantly the working of <strong>optical fibres</strong>, where light bounces along the core by repeated total internal reflection — a high-yield NEET application.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Relation</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Snell's law</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$n_1\\sin\\theta_1 = n_2\\sin\\theta_2$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Refractive index</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$n = c/v$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Critical angle</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\sin\\theta_c = 1/n$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Apparent depth</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$n = \\dfrac{\\text{real}}{\\text{apparent}}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the critical angle for a medium of refractive index $n = 2$.</p>",
+              "solution": "<p>$\\sin\\theta_c = \\dfrac{1}{n} = \\dfrac{1}{2}$, so $\\theta_c = 30^{\\circ}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A pond appears $3\\ \\text{m}$ deep. If the refractive index of water is $4/3$, find its real depth.</p>",
+              "solution": "<p>$n = \\dfrac{\\text{real depth}}{\\text{apparent depth}}$, so real depth $= n\\times\\text{apparent} = \\dfrac{4}{3}\\times3 = 4\\ \\text{m}$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Snell's law is:</p>", "options": ["$n_1\\cos\\theta_1 = n_2\\cos\\theta_2$", "$n_1\\sin\\theta_1 = n_2\\sin\\theta_2$", "$n_1\\theta_1 = n_2\\theta_2$", "$n_1/\\theta_1 = n_2/\\theta_2$"], "correct": 1, "explanation": "$n_1\\sin\\theta_1 = n_2\\sin\\theta_2$." },
+            { "q": "<p>The critical angle is given by:</p>", "options": ["$\\sin\\theta_c = n$", "$\\sin\\theta_c = 1/n$", "$\\tan\\theta_c = n$", "$\\cos\\theta_c = 1/n$"], "correct": 1, "explanation": "$\\sin\\theta_c = 1/n$." },
+            { "q": "<p>Total internal reflection occurs when light goes from a:</p>", "options": ["rarer to denser medium", "denser to rarer medium, above $\\theta_c$", "vacuum to glass", "any medium at any angle"], "correct": 1, "explanation": "Denser to rarer, with angle above the critical angle." },
+            { "q": "<p>Optical fibres work on the principle of:</p>", "options": ["dispersion", "total internal reflection", "diffraction", "polarisation"], "correct": 1, "explanation": "Light is guided by repeated TIR." },
+            { "q": "<p>A medium with a higher refractive index has a critical angle that is:</p>", "options": ["larger", "smaller", "unchanged", "zero"], "correct": 1, "explanation": "$\\sin\\theta_c = 1/n$; larger $n$ gives smaller $\\theta_c$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Use $n_1\\sin\\theta_1 = n_2\\sin\\theta_2$ and $\\sin\\theta_c = 1/n$. TIR needs denser-to-rarer travel and incidence above $\\theta_c$ — the basis of optical fibres and the sparkle of diamond.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Lenses, Prisms and Optical Instruments",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Lenses, the Lens-Maker's Formula and Prisms",
+          "concept": "<p>A <strong>lens</strong> refracts light at its two curved surfaces. A <strong>convex (converging)</strong> lens brings parallel rays to a focus, while a <strong>concave (diverging)</strong> lens spreads them out. The thin-lens behaviour is captured by the <strong>lens formula</strong> $\\dfrac{1}{f} = \\dfrac{1}{v} - \\dfrac{1}{u}$ — note the minus sign, which differs from the mirror formula and is a frequent source of NEET errors.</p><p>The focal length itself depends on the lens shape and material through the <strong>lens-maker's formula</strong> $\\dfrac{1}{f} = (n - 1)\\left(\\dfrac{1}{R_1} - \\dfrac{1}{R_2}\\right)$. A lens has more converging power if it is made of higher-index glass or has more sharply curved surfaces. The <strong>power</strong> of a lens, $P = \\dfrac{1}{f}$ (in dioptres with $f$ in metres), is positive for converging and negative for diverging lenses, and powers simply <strong>add</strong> for lenses in contact: $P = P_1 + P_2$.</p><p>A <strong>prism</strong> bends light through an <strong>angle of deviation</strong> $\\delta$ that depends on the prism angle $A$, the refractive index, and the angle of incidence. The deviation is least at the <strong>angle of minimum deviation</strong> $\\delta_m$, where the refractive index is given by $n = \\dfrac{\\sin\\left(\\dfrac{A + \\delta_m}{2}\\right)}{\\sin\\left(\\dfrac{A}{2}\\right)}$ — a standard NEET formula.</p><p>Because the refractive index varies slightly with colour (highest for violet, lowest for red), a prism bends violet light more than red and splits white light into a spectrum — <strong>dispersion</strong>. This is the origin of the rainbow, where raindrops act as tiny prisms. Recognising that violet deviates most and red least, and that dispersion arises from index varying with wavelength, answers most prism-colour questions.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Relation</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Lens formula</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\dfrac{1}{f} = \\dfrac{1}{v} - \\dfrac{1}{u}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Lens-maker's formula</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\dfrac{1}{f} = (n-1)\\left(\\dfrac{1}{R_1} - \\dfrac{1}{R_2}\\right)$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Power</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$P = 1/f$ (dioptre)</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Prism (min. deviation)</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$n = \\dfrac{\\sin\\frac{A+\\delta_m}{2}}{\\sin\\frac{A}{2}}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Two thin lenses of powers $+3\\ \\text{D}$ and $-1\\ \\text{D}$ are placed in contact. Find the power and focal length of the combination.</p>",
+              "solution": "<p>$P = P_1 + P_2 = 3 + (-1) = 2\\ \\text{D}$. Focal length $f = \\dfrac{1}{P} = \\dfrac{1}{2} = 0.5\\ \\text{m} = 50\\ \\text{cm}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>In a prism, which colour deviates the most and why?</p>",
+              "solution": "<p>Violet light deviates the most because the refractive index of the prism is highest for violet (shortest wavelength); red, with the lowest index, deviates least.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The lens formula is:</p>", "options": ["$1/f = 1/v + 1/u$", "$1/f = 1/v - 1/u$", "$f = v - u$", "$1/f = u - v$"], "correct": 1, "explanation": "$1/f = 1/v - 1/u$ (note the minus)." },
+            { "q": "<p>The power of a lens is:</p>", "options": ["$f$", "$1/f$", "$f^{2}$", "$1/f^{2}$"], "correct": 1, "explanation": "$P = 1/f$ in dioptres." },
+            { "q": "<p>For lenses in contact, the powers:</p>", "options": ["multiply", "add", "subtract always", "average"], "correct": 1, "explanation": "$P = P_1 + P_2 + \\dots$." },
+            { "q": "<p>A diverging (concave) lens has a power that is:</p>", "options": ["positive", "negative", "zero", "infinite"], "correct": 1, "explanation": "Concave lens has negative power." },
+            { "q": "<p>Dispersion by a prism occurs because the refractive index depends on:</p>", "options": ["intensity", "wavelength", "amplitude", "the prism's mass"], "correct": 1, "explanation": "$n$ varies with wavelength (colour)." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Lens formula uses a minus: $1/f = 1/v - 1/u$. Power $P = 1/f$ (dioptre, positive for convex) and powers add in contact. Violet deviates most, red least, in a prism.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Optical Instruments and the Human Eye",
+          "concept": "<p>Optical instruments combine lenses to extend what the eye can see. The <strong>simple microscope</strong> (magnifying glass) is a single convex lens that produces an enlarged virtual image; its magnifying power is $M = 1 + \\dfrac{D}{f}$ when the image is at the near point $D$ (about $25\\ \\text{cm}$). The shorter the focal length, the greater the magnification.</p><p>A <strong>compound microscope</strong> uses two lenses: an <strong>objective</strong> of short focal length forms a real, magnified image, which the <strong>eyepiece</strong> then magnifies further. Its total magnification is roughly the product of the two stages, $M \\approx \\dfrac{L}{f_o}\\times\\dfrac{D}{f_e}$, so both lenses should have small focal lengths for high magnification — a key design fact NEET tests.</p><p>A <strong>telescope</strong> views distant objects and uses a <em>large</em> focal-length objective with a short focal-length eyepiece. Its magnifying power in normal adjustment is $M = \\dfrac{f_o}{f_e}$, the opposite requirement to the microscope. A large objective also gathers more light, giving brighter, sharper images of faint stars — which is why astronomical telescopes have big objective lenses or mirrors.</p><p>The <strong>human eye</strong> focuses light onto the retina, varying its lens power by <strong>accommodation</strong>. Common defects are corrected with lenses: <strong>myopia</strong> (short-sightedness, distant objects blurred) is corrected with a <em>concave</em> lens, and <strong>hypermetropia</strong> (long-sightedness, near objects blurred) with a <em>convex</em> lens. Knowing which lens corrects which defect, and the microscope-versus-telescope focal-length requirements, covers the bulk of NEET instrument questions.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Instrument / defect</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Key relation / fix</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Simple microscope</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$M = 1 + D/f$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Compound microscope</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>short $f_o$ and $f_e$ (high $M$)</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Telescope</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$M = f_o/f_e$ (large $f_o$)</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Myopia / Hypermetropia</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>concave / convex lens</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A telescope has an objective of focal length $100\\ \\text{cm}$ and an eyepiece of focal length $5\\ \\text{cm}$. Find its magnifying power in normal adjustment.</p>",
+              "solution": "<p>$M = \\dfrac{f_o}{f_e} = \\dfrac{100}{5} = 20$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Which lens corrects myopia (short-sightedness)?</p>",
+              "solution": "<p>A concave (diverging) lens. It diverges the incoming light so that the image of a distant object falls on the retina rather than in front of it.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The magnifying power of a telescope is:</p>", "options": ["$f_e/f_o$", "$f_o/f_e$", "$f_o f_e$", "$f_o + f_e$"], "correct": 1, "explanation": "$M = f_o/f_e$." },
+            { "q": "<p>For high magnification, a compound microscope needs:</p>", "options": ["long $f_o$ and $f_e$", "short $f_o$ and $f_e$", "long $f_o$ only", "short $f_e$ only"], "correct": 1, "explanation": "Both lenses should have short focal lengths." },
+            { "q": "<p>Myopia is corrected using a:</p>", "options": ["convex lens", "concave lens", "cylindrical lens", "prism"], "correct": 1, "explanation": "Concave lens corrects short-sightedness." },
+            { "q": "<p>Hypermetropia is corrected using a:</p>", "options": ["concave lens", "convex lens", "plane mirror", "prism"], "correct": 1, "explanation": "Convex lens corrects long-sightedness." },
+            { "q": "<p>The ability of the eye lens to change its focal length is called:</p>", "options": ["dispersion", "accommodation", "refraction", "diffraction"], "correct": 1, "explanation": "Accommodation lets the eye focus at different distances." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Microscope needs short $f_o$ and $f_e$; telescope needs large $f_o$, small $f_e$ with $M = f_o/f_e$. Myopia to concave lens; hypermetropia to convex lens.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-physics-ch17-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>The focal length of a concave mirror is half its:</p>", "options": ["aperture", "radius of curvature", "diameter", "object distance"], "correct": 1, "explanation": "$f = R/2$." },
+            { "q": "<p>A convex mirror always forms an image that is:</p>", "options": ["real, inverted", "virtual, erect, diminished", "real, enlarged", "virtual, inverted"], "correct": 1, "explanation": "Convex mirror: virtual, erect, diminished." },
+            { "q": "<p>Snell's law relates the angles through the:</p>", "options": ["cosines", "sines and refractive indices", "tangents", "wavelengths only"], "correct": 1, "explanation": "$n_1\\sin\\theta_1 = n_2\\sin\\theta_2$." },
+            { "q": "<p>The critical angle for $n = 1.5$ is given by:</p>", "options": ["$\\sin\\theta_c = 1.5$", "$\\sin\\theta_c = 1/1.5$", "$\\tan\\theta_c = 1.5$", "$\\cos\\theta_c = 1.5$"], "correct": 1, "explanation": "$\\sin\\theta_c = 1/n = 1/1.5$." },
+            { "q": "<p>The lens formula is:</p>", "options": ["$1/f = 1/v + 1/u$", "$1/f = 1/v - 1/u$", "$f = v - u$", "$1/f = u + v$"], "correct": 1, "explanation": "$1/f = 1/v - 1/u$." },
+            { "q": "<p>Two lenses of power $+2\\ \\text{D}$ and $+3\\ \\text{D}$ in contact give:</p>", "options": ["$+1\\ \\text{D}$", "$+5\\ \\text{D}$", "$+6\\ \\text{D}$", "$+2.5\\ \\text{D}$"], "correct": 1, "explanation": "$P = P_1 + P_2 = 5\\ \\text{D}$." },
+            { "q": "<p>In a prism, the colour that deviates most is:</p>", "options": ["red", "yellow", "violet", "green"], "correct": 2, "explanation": "Violet has the highest index, so deviates most." },
+            { "q": "<p>The magnifying power of a telescope is:</p>", "options": ["$f_e/f_o$", "$f_o/f_e$", "$f_o f_e$", "$1 + f_o/f_e$"], "correct": 1, "explanation": "$M = f_o/f_e$." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> A convex mirror is used as a rear-view mirror in vehicles.<br><strong>R:</strong> A convex mirror always forms an erect, diminished image and has a wide field of view.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The wide field of view from its erect, diminished image is exactly why it is used — R explains A." },
+            { "q": "<p><strong>A:</strong> Optical fibres can transmit light over long distances with little loss.<br><strong>R:</strong> Light travels along the fibre core by repeated total internal reflection.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "TIR keeps the light confined within the core — R explains A." },
+            { "q": "<p><strong>A:</strong> A concave lens is used to correct hypermetropia (long-sightedness).<br><strong>R:</strong> Hypermetropia occurs when the image of a near object forms behind the retina.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "Hypermetropia is corrected with a convex lens, so A is false; the cause given in R is correct." },
+            { "q": "<p><strong>A:</strong> A prism splits white light into its component colours.<br><strong>R:</strong> The refractive index of the prism material varies with the wavelength of light.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Index varying with wavelength causes different colours to deviate differently — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

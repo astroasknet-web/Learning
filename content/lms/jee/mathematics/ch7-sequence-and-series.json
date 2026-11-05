@@ -1,0 +1,716 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": 7,
+  "title": "Sequence and Series",
+  "slug": "sequence-and-series",
+  "subtitle": "Sequences and Series",
+  "level": "JEE Main & Advanced",
+  "color": "#f59e0b",
+  "icon": "math",
+  "seo": {
+    "meta_description": "Master Sequence and Series for JEE Main & Advanced on GrowQR: in-depth notes, solved examples, self-check MCQs and full mock tests. Free, forever."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Arithmetic Progression (AP)",
+      "topics": [
+        {
+          "number": 1,
+          "title": "General Term, Summation Dynamics, and Arithmetic Means",
+          "concept": "<p>An Arithmetic Progression (AP) is a sequence of numbers in which the difference between consecutive terms remains a constant value, known as the common difference ($d$). The general term is defined as $T_n = a + (n-1)d$, where $a$ is the first term. The sum of the first $n$ terms is given by $S_n = \\frac{n}{2}[2a + (n-1)d] = \\frac{n}{2}(a + l)$, where $l$ is the terminal term. A key structural link is $T_n = S_n - S_{n-1}$.</p><p>The Single Arithmetic Mean (AM) between two quantities $a$ and $b$ is $\\frac{a+b}{2}$. When inserting $n$ distinct AMs ($A_1, A_2, \\dots, A_n$) between $a$ and $b$, the total sequence forms an AP of $n+2$ terms, where the common difference becomes $d = \\frac{b-a}{n+1}$, and $A_r = a + r\\left(\\frac{b-a}{n+1}\\right)$. A core property of any AP is that the sum of terms equidistant from the beginning and end remains constant: $a_m + a_n = a_p + a_q$ whenever $m+n = p+q$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>The sum of the first $n$ terms of a sequence is given by $S_n = 3n^2 + 5n$. Prove that the sequence is an AP and find its $15^{\\text{th}}$ term.</p>",
+              "solution": "<p>We isolate the general term $T_n$ using the fundamental recurrence relationship $T_n = S_n - S_{n-1}$:\n \\[ T_n = (3n^2 + 5n) - [3(n-1)^2 + 5(n-1)] \\]\n Expand the bracketed terms systematically:\n \\[ T_n = 3n^2 + 5n - [3(n^2 - 2n + 1) + 5n - 5] \\]\n \\[ T_n = 3n^2 + 5n - [3n^2 - 6n + 3 + 5n - 5] = 3n^2 + 5n - 3n^2 + x - 2 \\]\n Simplifying the linear expression yields:\n \\[ T_n = 6n + 2 \\]\n Since the general term $T_n$ is a linear expression in $n$, the first difference $T_n - T_{n-1} = (6n+2) - (6(n-1)+2) = 6$, which is a constant independent of $n$. This proves the sequence forms a valid AP with common difference $d = 6$.<br>\n To find the $15^{\\text{th}}$ term ($T_{15}$), substitute $n = 15$ into our linear formula:\n \\[ T_{15} = 6(15) + 2 = 90 + 2 = 92 \\]\n <strong>Final Answer:</strong> $92$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Insert 11 arithmetic means between 23 and 71, and find the value of the $5^{\\text{th}}$ arithmetic mean ($A_5$).</p>",
+              "solution": "<p>Let $a = 23$ and $b = 71$. We are instructed to insert $n = 11$ AMs between these limits.<br>\n Step 1: Calculate the common difference $d$ of the resulting progression:\n \\[ d = \\frac{b - a}{n + 1} = \\frac{71 - 23}{11 + 1} = \\frac{48}{12} = 4 \\]\n Step 2: The $5^{\\text{th}}$ arithmetic mean $A_5$ corresponds exactly to the $6^{\\text{th}}$ term ($T_6$) of the total expanded AP:\n \\[ A_5 = a + 5d \\]\n Substitute the values of $a$ and $d$:\n \\[ A_5 = 23 + 5(4) = 23 + 20 = 43 \\]\n <strong>Final Answer:</strong> $43$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>If the sum of the first $p$ terms of an AP equals the sum of the first $q$ terms ($p \\neq q$), prove that the sum of the first $(p+q)$ terms is exactly zero.</p>",
+              "solution": "<p>Write out the structural identities using the standard sum formula:\n \\[ S_p = S_q \\implies \\frac{p}{2}[2a + (p-1)d] = \\frac{q}{2}[2a + (q-1)d] \\]\n Cancel the common denominator 2 and expand the bracketed terms:\n \\[ 2ap + p(p-1)d = 2aq + q(q-1)d \\]\n Rearrange all terms to the left-hand side to factor the expression:\n \\[ 2a(p - q) + [p^2 - p - (q^2 - q)]d = 0 \\]\n \\[ 2a(p - q) + [(p^2 - q^2) - (p - q)]d = 0 \\]\n Factor out the common linear binomial $(p - q)$, which is valid since $p \\neq q \\implies p - q \\neq 0$:\n \\[ (p - q)[2a + (p + q - 1)d] = 0 \\]\n Divide by $(p-q)$ to find the underlying core condition:\n \\[ 2a + (p + q - 1)d = 0 \\]\n Now write out the formula for the sum of the first $(p+q)$ terms:\n \\[ S_{p+q} = \\frac{p+q}{2} \\cdot \\left[ 2a + (p + q - 1)d \\right] \\]\n Substitute our core condition into the brackets:\n \\[ S_{p+q} = \\frac{p+q}{2} \\cdot (0) = 0 \\]\n <strong>Final Answer:</strong> Proved.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If the $m^{\\text{th}}$ term of an AP is $\\frac{1}{n}$ and the $n^{\\text{th}}$ term is $\\frac{1}{m}$, then the sum of the first $mn$ terms is:",
+              "options": [
+                "$\\frac{1}{2}(mn + 1)$",
+                "$\\frac{1}{2}(mn - 1)$",
+                "$mn + 1$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "In an arithmetic progression, if $a_1 + a_5 + a_{10} + a_{15} + a_{20} + a_{24} = 225$, the sum of the first 24 terms ($S_{24}$) is:",
+              "options": [
+                "$900$",
+                "$450$",
+                "$300$",
+                "$112.5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the sum of $n$ terms of two independent arithmetic sequences maintain a ratio of $\\frac{7n+1}{4n+27}$, the ratio of their $11^{\\text{th}}$ terms is:",
+              "options": [
+                "$\\frac{4}{3}$",
+                "$\\frac{3}{4}$",
+                "$\\frac{7}{4}$",
+                "$\\frac{148}{111}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The total number of distinct arithmetic means inserted between two variables such that the sum of the inserted means is 6 times their single unique AM value is:",
+              "options": [
+                "$3$",
+                "$6$",
+                "$12$",
+                "$5$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If the common difference of an AP vanishes ($d=0$), then the series sum $S_n$ simplifies directly to:",
+              "options": [
+                "$n^2 a$",
+                "$na$",
+                "$0$",
+                "$\\frac{n(n+1)a}{2}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Geometric Progression (GP)",
+      "topics": [
+        {
+          "number": 1,
+          "title": "General Term, Infinite Progressions, and Mean Inequalities",
+          "concept": "<p>A Geometric Progression (GP) is a sequence where the ratio of any term to its preceding term remains a constant multiplier, known as the common ratio ($r$). The general term is defined as $T_n = a r^{n-1}$. The sum of the first $n$ terms is given by $S_n = \\frac{a(r^n-1)}{r-1}$ for $r \\neq 1$, and dynamically drops to $S_n = na$ if $r = 1$. When the common ratio is bounded within the open interval $|r| < 1$, the sum of an infinite number of terms converges to the limiting value: $S_\\infty = \\frac{a}{1-r}$.</p><p>The Single Geometric Mean (GM) between two positive numbers $a$ and $b$ is $\\sqrt{ab}$. When inserting $n$ GMs ($G_1, G_2, \\dots, G_n$) between $a$ and $b$, the total product of these inserted means equals the $n^{\\text{th}}$ power of their single GM: $\\prod_{i=1}^n G_i = (\\sqrt{ab})^n$.</p><p>A core algebraic property for positive real numbers is the <strong>AM--GM Inequality</strong>: $\\frac{a+b}{2} \\ge \\sqrt{ab}$, where equality holds true if and only if the constituent numbers are perfectly identical ($a = b$).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Express the recurring pure decimal value $0.474747\\dots$ as a simplified rational fraction using infinite geometric progression algorithms.</p>",
+              "solution": "Let us unpack the repeating decimal value by breaking it down into an infinite sum of fractions:\n \\[ X = 0.47 + 0.0047 + 0.000047 + \\dots \\]\n Rewrite these decimal values using base-10 exponential fractions:\n \\[ X = \\frac{47}{100} + \\frac{47}{10000} + \\frac{47}{1000000} + \\dots \\]\n This series forms an infinite geometric progression. Let us identify the core parameters:\n <ul>\n <li>First term $a = \\frac{47}{100}$\n <li>Common ratio $r = \\frac{47/10000}{47/100} = \\frac{1}{100}$\n </ul>\n Since $|r| = \\frac{1}{100} < 1$, the series converges. Apply the infinite sum formula $S_\\infty = \\frac{a}{1-r}$:\n \\[ X = \\frac{\\frac{47}{100}}{1 - \\frac{1}{100}} = \\frac{\\frac{47}{100}}{\\frac{99}{100}} = \\frac{47}{99} \\]\n <strong>Final Answer:</strong> $\\frac{47}{99}$."
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the minimum value of the structural expression $E = 4^x + 4^{1-x}$ for all $x \\in \\mathbb{R}$ using mean inequality properties.</p>",
+              "solution": "<p>Notice that both terms ($4^x$ and $4^{1-x}$) are strictly positive real numbers for any real value of $x$. This allows us to apply the AM--GM inequality directly:\n \\[ \\frac{4^x + 4^{1-x}}{2} \\ge \\sqrt{4^x \\cdot 4^{1-x}} \\]\n Simplify the product inside the radical using standard rules of indices:\n \\[ 4^x \\cdot 4^{1-x} = 4^{x + 1 - x} = 4^1 = 4 \\]\n Substitute this back into the inequality:\n \\[ \\frac{4^x + 4^{1-x}}{2} \\ge \\sqrt{4} \\implies \\frac{4^x + 4^{1-x}}{2} \\ge 2 \\]\n Multiply both sides of the inequality by 2 to isolate our target expression:\n \\[ 4^x + 4^{1-x} \\ge 4 \\]\n Therefore, the minimum value that the expression can achieve is 4. This minimum is reached when the two terms are identical: $4^x = 4^{1-x} \\implies x = 1-x \\implies 2x = 1 \\implies x = 0.5$.\n <strong>Final Answer:</strong> $4$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Insert 3 geometric means between 2 and 162, and find the value of the second inserted mean ($G_2$).</p>",
+              "solution": "<p>Let $a = 2$ and $b = 162$. We are instructed to insert $n = 3$ geometric means between these boundaries.<br>\n Step 1: Calculate the common ratio $r$ of the resulting geometric progression:\n \\[ r = \\left(\\frac{b}{a}\\right)^{\\frac{1}{n+1}} = \\left(\\frac{162}{2}\\right)^{\\frac{1}{3+1}} = (81)^{\\frac{1}{4}} \\]\n Since $81 = 3^4$, the common ratio is:\n \\[ r = (3^4)^{1/4} = 3 \\]\n Step 2: The second geometric mean $G_2$ corresponds to the third term ($T_3$) of the total expanded sequence:\n \\[ G_2 = a \\cdot r^2 \\]\n Substitute the values of $a$ and $r$:\n \\[ G_2 = 2 \\cdot (3)^2 = 2 \\cdot 9 = 18 \\]\n <strong>Final Answer:</strong> $18$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If the sum of an infinite geometric series is 4, and the sum of the cubes of its terms is 192, then the first term $a$ is:",
+              "options": [
+                "$2$",
+                "$6$",
+                "$3$",
+                "$.5$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $a, b, c$ are positive real numbers in a geometric progression, then the three terms $\\log x, \\log y, \\log z$ must form an:",
+              "options": [
+                "AP",
+                "GP",
+                "HP",
+                "AGP"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The product of $n$ geometric means inserted between two positive numbers $a$ and $b$ is equal to:",
+              "options": [
+                "$\\sqrt{ab}$",
+                "$(ab)^n$",
+                "$(ab)^{n/2}$",
+                "$n\\sqrt{ab}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "For any two positive distinct real numbers $x$ and $y$, the statement $\\frac{x+y}{2} = \\sqrt{xy}$ is:",
+              "options": [
+                "Always true",
+                "False because distinct numbers make AM strictly greater than GM ($\\text{AM} > \\text{GM}$)",
+                "Dependent on the parameters",
+                "True only if one value is zero"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If the first term of a GP is 7 and the sum of its first two terms is 35, the total number of options for the common ratio $r$ is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$0$",
+                "Infinite"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Harmonic Progressions & Mixed Sequences",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Harmonic Means, Extended Inequalities, and AGP Sums",
+          "concept": "<p>A Harmonic Progression (HP) is defined as a sequence where the reciprocals of the terms form an Arithmetic Progression (AP). Thus, if $H_n$ is an HP, then $\\frac{1}{H_n} = \\frac{1}{a} + (n-1)d$. The Single Harmonic Mean (HM) between two numbers $a$ and $b$ is $H = \\frac{2ab}{a+b}$. Combining our mean definitions fields the complete classical inequality chain for positive real numbers:\n \\[ \\mathbf{\\text{AM} \\ge \\text{GM} \\ge \\text{HM} \\implies \\frac{a+b}{2} \\ge \\sqrt{ab} \\ge \\frac{2ab}{a+b}} \\]\n where the equality condition holds true if and only if $a=b$.</p><p>An <strong>Arithmetico-Geometric Progression (AGP)</strong> is a mixed sequence formed by multiplying corresponding terms of an AP and a GP together. It takes the general form: $a, (a+d)r, (a+2d)r^2, \\dots$. We find the sum of an AGP using the <strong>multiply-by-$r$-and-subtract method</strong>, which shifts terms along the sequence to isolate a clean geometric series. The sum of an infinite convergent AGP ($|r| < 1$) is given by the formula $S_\\infty = \\frac{a}{1-r} + \\frac{dr}{(1-r)^2}$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the sum to infinity of the Arithmetico-Geometric Progression:\n \\[ S_\\infty = 1 + \\frac{4}{3} + \\frac{7}{9} + \\frac{10}{27} + \\dots \\]</p>",
+              "solution": "<p>Let us first write out the series clearly to identify the underlying progression components:\n \\[ S_\\infty = 1 \\cdot 1 + 4 \\cdot \\left(\\frac{1}{3}\\right) + 7 \\cdot \\left(\\frac{1}{9}\\right) + 10 \\cdot \\left(\\frac{1}{27}\\right) + \\dots \\]\n The arithmetic components are $1, 4, 7, 10, \\dots$, which form an AP with first term $a = 1$ and common difference $d = 3$. The geometric components are $1, \\frac{1}{3}, \\frac{1}{9}, \\frac{1}{27}, \\dots$, which form a GP with common ratio $r = \\frac{1}{3}$. Since $|r| = \\frac{1}{3} < 1$, the infinite series converges.<br>\n Let us use the explicit formula $S_\\infty = \\frac{a}{1-r} + \\frac{dr}{(1-r)^2}$ to calculate the sum:\n \\[ S_\\infty = \\frac{1}{1 - \\frac{1}{3}} + \\frac{3 \\cdot \\left(\\frac{1}{3}\\right)}{\\left(1 - \\frac{1}{3}\\right)^2} \\]\n Simplify each component fraction independently:\n \\[ \\text{First term} = \\frac{1}{\\frac{2}{3}} = \\frac{3}{2} \\]\n \\[ \\text{Second term} = \\frac{1}{\\left(\\frac{2}{3}\\right)^2} = \\frac{1}{\\frac{4}{9}} = \\frac{9}{4} \\]\n Sum the values using a common denominator:\n \\[ S_\\infty = \\frac{3}{2} + \\frac{9}{4} = \\frac{6}{4} + \\frac{9}{4} = \\frac{15}{4} \\]\n <strong>Final Answer:</strong> $\\frac{15}{4}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>If the AM between two positive numbers is 5 and their HM is 3.2, find the value of their Geometric Mean (GM) and determine the numbers.</p>",
+              "solution": "<p>Step 1: Apply the fundamental relationship that connects the three classical means: $\\text{GM}^2 = \\text{AM} \\times \\text{HM}$.\n Substitute the given values into the equation:\n \\[ \\text{GM}^2 = 5 \\times 3.2 = 16 \\implies \\text{GM} = \\sqrt{16} = 4 \\]\n Step 2: Set up equations for the individual numbers $a$ and $b$ using the definitions of AM and GM:\n \\[ \\text{AM} = \\frac{a+b}{2} = 5 \\implies a + b = 10 \\]\n \\[ \\text{GM} = \\sqrt{ab} = 4 \\implies ab = 16 \\]\n Step 3: Substitute $b = 10 - a$ into the product equation to form a quadratic equation:\n \\[ a(10 - a) = 16 \\implies 10a - a^2 = 16 \\implies a^2 - 10a + 16 = 0 \\]\n Factor the quadratic equation:\n \\[ (a - 8)(a - 2) = 0 \\implies a = 8 \\quad \\text{or} \\quad a = 2 \\]\n This gives the paired numbers solution: $\\{2, 8\\}$.\n <strong>Final Answer:</strong> $\\text{GM} = 4$; the numbers are $2$ and $8$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>If $a, b, c$ form a valid Harmonic Progression, prove that $\\frac{a}{c} = \\frac{a-b}{b-c}$.</p>",
+              "solution": "<p>Since $a, b, c$ form an HP, their reciprocals $\\frac{1}{a}, \\frac{1}{b}, \\frac{1}{c}$ must form an AP by definition. Equate the common differences between consecutive terms:\n \\[ \\frac{1}{b} - \\frac{1}{a} = \\frac{1}{c} - \\frac{1}{b} \\]\n Simplify the expressions on both sides over common denominators:\n \\[ \\frac{a - b}{ab} = \\frac{b - c}{bc} \\]\n Rearrange the fractions to group the difference terms together:\n \\[ \\frac{a - b}{b - c} = \\frac{ab}{bc} \\]\n Cancel out the common factor $b$ from the numerator and denominator on the right-hand side:\n \\[ \\frac{a - b}{b - c} = \\frac{a}{c} \\]\n This completes the proof.\n <strong>Final Answer:</strong> Proved.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If $a, b, c$ are in an Arithmetic Progression, and $x, y, z$ are in a Harmonic Progression, then the value of the expression $x(y-z)a + y(z-x)b + z(x-y)c$ is:",
+              "options": [
+                "$1$",
+                "$0$",
+                "$-1$",
+                "$xyz$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If the classical mean inequality chain holds true for positive numbers, the statement $\\text{AM} = \\text{GM} = \\text{HM}$ implies that the constituent numbers are:",
+              "options": [
+                "Perfect squares",
+                "All completely identical",
+                "Transformed by a common ratio",
+                "All equal to 0"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The sum to infinity of the series $1 + 2x + 3x^2 + 4x^3 + \\dots$ for $|x| < 1$ is:",
+              "options": [
+                "$\\frac{1}{1-x}$",
+                "$\\frac{1}{(1-x)^2}$",
+                "$\\frac{x}{(1-x)^2}$",
+                "$\\frac{1}{1+x}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If the Harmonic Mean between two positive numbers is 4, then their Arithmetic Mean $A$ and Geometric Mean $G$ must satisfy:",
+              "options": [
+                "$A \\cdot G = 4$",
+                "$G^2 = 4A$",
+                "$A^2 = 4G$",
+                "$A + G = 4$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $x > 0$, the minimum possible value of the expression $x + \\frac{1}{x}$ found using mean inequalities is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$0$",
+                "$4$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Special Series & Summation Methods",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Standard Sums, Telescoping Series, and Method of Differences",
+          "concept": "<p>Evaluating advanced series requires a mastery of specialized summation methods. First, memorize the standard polynomial sums for the first $n$ natural numbers:\n \\[ \\sum_{k=1}^n k = \\frac{n(n+1)}{2}, \\quad \\sum_{k=1}^n k^2 = \\frac{n(n+1)(2n+1)}{6}, \\quad \\sum_{k=1}^n k^3 = \\left[\\frac{n(n+1)}{2}\\right]^2 \\]\n The <strong>Telescoping Series method (Difference Method)</strong> is a powerful technique for simplifying complex fractions or products. It involves splitting the general term $T_k$ into a difference of two consecutive functional terms: $T_k = f(k) - f(k-1)$. When summing these terms together, intermediate values cancel out in a cascading fashion, leaving only the first boundary term and the last boundary term: $\\sum_{k=1}^n T_k = f(n) - f(0)$.</p><p>The <strong>$V_n$ Method</strong> applies this strategy specifically to products or fractions of terms in an AP, allowing us to find closed-form sums quickly for competitive exams.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the sum of the first $n$ terms of the series whose general $k^{\\text{th}}$ term is defined by $T_k = k(k+1)(k+2)$.</p>",
+              "solution": "<p>Let us expand the general term into a standard polynomial form before applying our summation rules:\n \\[ T_k = k(k^2 + 3k + 2) = k^3 + 3k^2 + 2k \\]\n Now write the total sum $S_n$ using linearity properties to separate the individual polynomial sums:\n \\[ S_n = \\sum_{k=1}^n T_k = \\sum_{k=1}^n k^3 + 3 \\cdot \\sum_{k=1}^n k^2 + 2 \\cdot \\sum_{k=1}^n k \\]\n Substitute the standard formulas for each polynomial sum:\n \\[ S_n = \\left[\\frac{n(n+1)}{2}\\right]^2 + 3 \\cdot \\left[\\frac{n(n+1)(2n+1)}{6}\\right] + 2 \\cdot \\left[\\frac{n(n+1)}{2}\\right] \\]\n Simplify the constant fractional multipliers:\n \\[ S_n = \\frac{n^2(n+1)^2}{4} + \\frac{n(n+1)(2n+1)}{2} + n(n+1) \\]\n Factor out the common term $\\frac{n(n+1)}{4}$ from all three components:\n \\[ S_n = \\frac{n(n+1)}{4} \\left[ n(n+1) + 2(2n+1) + 4 \\right] \\]\n Expand and simplify the expression inside the brackets:\n \\[ n^2 + n + 4n + 2 + 4 = n^2 + 5n + 6 \\]\n Factor the resulting quadratic expression:\n \\[ n^2 + 5n + 6 = (n+2)(n+3) \\]\n Substitute this back to find the final formatted product expression for the sum:\n \\[ S_n = \\frac{n(n+1)(n+2)(n+3)}{4} \\]\n This matches the standard result derived using the $V_n$ method.\n <strong>Final Answer:</strong> \\(\\frac{n(n+1)(n+2)(n+3)}{4}\\).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the sum to $n$ terms of the infinite telescoping series:\n \\[ S_n = \\frac{1}{1 \\cdot 2} + \\frac{1}{2 \\cdot 3} + \\frac{1}{3 \\cdot 4} + \\dots + \\frac{1}{n(n+1)} \\]</p>",
+              "solution": "<p>Identify the general term of the series:\n \\[ T_k = \\frac{1}{k(k+1)} \\]\n Split the fraction into a difference of two partial fractions by rewriting the numerator $1$ as $(k+1) - k$:\n \\[ T_k = \\frac{(k+1) - k}{k(k+1)} = \\frac{k+1}{k(k+1)} - \\frac{k}{k(k+1)} = \\frac{1}{k} - \\frac{1}{k+1} \\]\n This matches the telescoping form $T_k = f(k) - f(k+1)$, where $f(k) = \\frac{1}{k}$. Write out the terms of the sum sequentially:\n \\[ S_n = \\left(1 - \\frac{1}{2}\\right) + \\left(\\frac{1}{2} - \\frac{1}{3}\\right) + \\left(\\frac{1}{3} - \\frac{1}{4}\\right) + \\dots + \\left(\\frac{1}{n} - \\frac{1}{n+1}\\right) \\]\n Notice that the intermediate terms cancel out in a cascading fashion: $-\\frac{1}{2}$ cancels with $+\\frac{1}{2}$, $-\\frac{1}{3}$ cancels with $+\\frac{1}{3}$, and so on.\n After all cancellations, only the very first and the very last terms remain:\n \\[ S_n = 1 - \\frac{1}{n+1} \\]\n Simplify the fraction over a common denominator:\n \\[ S_n = \\frac{(n+1) - 1}{n+1} = \\frac{n}{n+1} \\]\n Notice that as $n \\to \\infty$, the sum converges to $\\lim_{n \\to \\infty} \\frac{n}{n+1} = 1$.\n <strong>Final Answer:</strong> \\(\\frac{n}{n+1}\\).</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Evaluate the value of the squared series sum $S = 1^2 + 2^2 + 3^2 + \\dots + 10^2$.</p>",
+              "solution": "<p>This problem requires calculating the sum of the squares of the first $n = 10$ natural numbers. Apply the standard polynomial sum formula:\n \\[ \\sum_{k=1}^n k^2 = \\frac{n(n+1)(2n+1)}{6} \\]\n Substitute $n = 10$ into the formula:\n \\[ S = \\frac{10 \\cdot (10+1) \\cdot (2(10)+1)}{6} = \\frac{10 \\cdot 11 \\cdot 21}{6} \\]\n Simplify the numbers before multiplying: divide 21 and 6 by 3, then divide 10 and 2 by 2:\n \\[ S = \\frac{10 \\cdot 11 \\cdot 7}{2} = 5 \\cdot 11 \\cdot 7 = 55 \\cdot 7 = 385 \\]\n <strong>Final Answer:</strong> $385$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The value of the cubic sum series $1^3 + 2^3 + 3^3 + \\dots + 20^3$ is exactly equal to:",
+              "options": [
+                "$44100$",
+                "$40000$",
+                "$21000$",
+                "$42000$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The general term of a series splits into the partial fraction form $T_k = \\frac{1}{2k-1} - \\frac{1}{2k+1}$. The sum of the first $n$ terms is:",
+              "options": [
+                "$1 - \\frac{1}{2n+1}$",
+                "$\\frac{2n}{2n+1}$",
+                "$\\frac{n}{2n+1}$",
+                "$1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The sum of the first $n$ natural numbers $\\sum_{k=1}^n k$ can be written using binomial coefficient notation as:",
+              "options": [
+                "$\\binom{n}{2}$",
+                "$\\binom{n+1}{2}$",
+                "$\\binom{n+1}{3}$",
+                "$\\binom{n}{1}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If the general term of a series is a polynomial of degree 2, its second differences ($\\Delta^2 T_k$) will be:",
+              "options": [
+                "Linear expressions",
+                "Constant values independent of $k$",
+                "Zero everywhere",
+                "Exponential functions"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the sum $\\sum_{k=1}^n (2k-1)$ tracking the first $n$ odd integers evaluates cleanly to:",
+              "options": [
+                "$n(n+1)$",
+                "$n^2$",
+                "$2^n$",
+                "$n^2 - 1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-math-sequence-and-series-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "If the sum of the first $n$ terms of an AP is given by $S_n = 2n^2 + 3n$, then the common difference $d$ of this arithmetic sequence is:",
+              "options": [
+                "$2$",
+                "$3$",
+                "$4$",
+                "$5$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If three positive numbers $a, b, c$ form a geometric progression, then the equations $a x^2 + 2bx + c = 0$ and $d x^2 + 2ex + f = 0$ share a common root if $\\frac{d}{a}, \\frac{e}{b}, \\frac{f}{c}$ form an:",
+              "options": [
+                "AP",
+                "GP",
+                "HP",
+                "AGP"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The sum to infinity of the convergent geometric progression $\\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8} + \\dots$ is exactly:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$0.5$",
+                "Infinite"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If we insert 5 arithmetic means between 2 and 20, the common difference $d$ of the resulting progression is:",
+              "options": [
+                "$3$",
+                "$4$",
+                "$2.5$",
+                "$3.6$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the geometric mean (GM) between the numbers 4 and 16 is:",
+              "options": [
+                "$10$",
+                "$8$",
+                "$6.4$",
+                "$12$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $a, b, c$ are in an arithmetic progression, then the terms $\\frac{1}{bc}, \\frac{1}{ca}, \\frac{1}{ab}$ must form an:",
+              "options": [
+                "AP",
+                "GP",
+                "HP",
+                "AGP"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The sum to infinity of the convergent AGP series $1 + \\frac{2}{2} + \\frac{3}{4} + \\frac{4}{8} + \\dots$ evaluates to:",
+              "options": [
+                "$3$",
+                "$4$",
+                "$2$",
+                "$3.5$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the linear sum $\\sum_{k=1}^{50} k$ tracking the first 50 natural numbers is:",
+              "options": [
+                "$1225$",
+                "$1275$",
+                "$2550$",
+                "$1300$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $x > 0$, the minimum possible value of the expression $2x + \\frac{3}{x}$ found using mean inequalities is:",
+              "options": [
+                "$2\\sqrt{6}$",
+                "$\\sqrt{6}$",
+                "$6$",
+                "$5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The $n^{\\text{th}}$ term of a Harmonic Progression whose first two terms are $\\frac{1}{2}$ and $\\frac{1}{5}$ is given by:",
+              "options": [
+                "$\\frac{1}{3n-1}$",
+                "$\\frac{1}{3n+1}$",
+                "$\\frac{1}{2n+1}$",
+                "$3n-1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "If the sum of the squares of the first $n$ natural numbers $\\sum_{k=1}^n k^2$ equals 55, find the value of $n$.",
+              "answer": "5",
+              "explanation": ""
+            },
+            {
+              "q": "Find the value of the common ratio $r$ for an infinite geometric progression if its first term is 3 and its sum to infinity converges to 4.",
+              "answer": "0",
+              "explanation": ""
+            },
+            {
+              "q": "Determine the number of geometric means that must be inserted between 1 and 64 such that the common ratio of the resulting progression is exactly 2.",
+              "answer": "5",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The sum of an infinite geometric series $1 + r + r^2 + \\dots$ can only be evaluated if the common ratio satisfies $|r| < 1$.<br>\n <strong>Reason (R):</strong> If the absolute value of the common ratio is greater than or equal to 1 ($|r| \\ge 1$), the terms grow continuously or oscillate, causing the infinite series to diverge instead of converging to a single limiting value.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> For any two positive distinct real numbers, their Arithmetic Mean is strictly greater than their Geometric Mean ($\\text{AM} > \\text{GM}$).<br>\n <strong>Reason (R):</strong> The algebraic identity $\\frac{a+b}{2} - \\sqrt{ab} = \\frac{1}{2}(\\sqrt{a} - \\sqrt{b})^2$ is a perfect square expression, which is strictly positive for any distinct positive numbers.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-math-sequence-and-series-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "If $\\log_3 2, \\log_3 (2^x - 5),$ and $\\log_3 (2^x - \\frac{7}{2})$ form a valid Arithmetic Progression, then the value of the variable $x$ is:",
+              "options": [
+                "$3$",
+                "$2$",
+                "$1$",
+                "$4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Let $a, b, c$ be positive real numbers. If $a, b, c$ form an AP, $b, c, a$ form a GP, then $c, a, b$ must form an:",
+              "options": [
+                "AP",
+                "GP",
+                "HP",
+                "AGP"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The sum to infinity of the convergent series $\\frac{3}{1^2 \\cdot 2^2} + \\frac{5}{2^2 \\cdot 3^2} + \\frac{7}{3^2 \\cdot 4^2} + \\dots$ evaluated using telescoping partial fractions is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$0.5$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $a, b, c$ are positive real numbers such that $a + b + c = 18$, the maximum possible value of the product expression $a^2 b^3 c^1$ found using weighted AM--GM inequalities is:",
+              "options": [
+                "$2^2 \\cdot 3^3 \\cdot 6^1$",
+                "$6^6$",
+                "$4^2 \\cdot 6^3 \\cdot 3^1$",
+                "$3^6$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The sum of the first $n$ terms of the series $1 + (1+d)r + (1+2d)r^2 + \\dots$ is an AGP. If $S_\\infty = \\frac{35}{4}$ when $r = \\frac{1}{5}$, the value of the common difference $d$ is:",
+              "options": [
+                "$3$",
+                "$4$",
+                "$2$",
+                "$5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $S_1, S_2, S_3$ are the sums of the first $n, 2n, 3n$ terms of an arithmetic progression respectively, then the value of the ratio expression $\\frac{S_3}{S_2 - S_1}$ is always:",
+              "options": [
+                "$2$",
+                "$3$",
+                "$4$",
+                "$1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the sum series $\\sum_{k=1}^n \\frac{1}{k(k+1)(k+2)}$ evaluated using the $V_n$ method is:",
+              "options": [
+                "$\\frac{n(n+3)}{4(n+1)(n+2)}$",
+                "$\\frac{n}{4(n+1)(n+2)}$",
+                "$\\frac{1}{4} - \\frac{1}{2(n+1)(n+2)}$",
+                "$\\frac{n(n+1)}{4(n+2)(n+3)}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the Arithmetic Mean between two positive numbers $a$ and $b$ is 9 and their Geometric Mean is 4, then the numbers are the roots of which quadratic equation?",
+              "options": [
+                "$x^2 - 18x + 16 = 0$",
+                "$x^2 - 9x + 4 = 0$",
+                "$x^2 - 18x + 4 = 0$",
+                "$x^2 - 16x + 18 = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The sum to infinity of the series $\\frac{1}{1 \\cdot 3} + \\frac{1}{3 \\cdot 5} + \\frac{1}{5 \\cdot 7} + \\dots$ is:",
+              "options": [
+                "$1$",
+                "$0.5$",
+                "$2$",
+                "$0.25$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $a, b, c$ form a valid Harmonic Progression, then the expression $\\frac{1}{b-a} + \\frac{1}{b-c}$ is identically equal to:",
+              "options": [
+                "$\\frac{2}{b}$",
+                "$\\frac{1}{a} + \\frac{1}{c}$",
+                "$\\frac{2}{ac}$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Find the value of the linear sum $\\sum_{k=1}^5 (k^3 - 3k^2)$.",
+              "answer": "225",
+              "explanation": ""
+            },
+            {
+              "q": "If the first three terms of a convergent geometric progression are $x, x+2, x+6$, find the value of the negative integer $x$.",
+              "answer": "-1",
+              "explanation": ""
+            },
+            {
+              "q": "If $\\text{AM} \\times \\text{HM} = 9$ for two positive numbers, find the value of their Geometric Mean (GM).",
+              "answer": "3",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The sum of the series $\\sum_{k=1}^n (k^3 + 2k)$ can be evaluated by splitting it into separate standard polynomial sums.<br>\n <strong>Reason (R):</strong> Summation operators satisfy linearity properties, allowing them to distribute across addition and preserve constant scalar multipliers.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> If $a, b, c$ are in an AP, then $e^a, e^b, e^c$ must form a GP.<br>\n <strong>Reason (R):</strong> For an arithmetic progression, $2b = a+c$. Raising a base constant to these powers matches the geometric progression definition: $(e^b)^2 = e^{2b} = e^{a+c} = e^a \\cdot e^c$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

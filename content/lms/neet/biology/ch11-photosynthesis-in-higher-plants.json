@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "biology",
+  "chapter": 11,
+  "title": "Photosynthesis in Higher Plants",
+  "slug": "photosynthesis-in-higher-plants",
+  "subtitle": "Pigments and early experiments, the light reaction, the Calvin cycle and C4 pathway, photorespiration and limiting factors",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "leaf",
+  "seo": {
+    "meta_description": "NEET Biology — Photosynthesis in Higher Plants: photosynthetic pigments and classic experiments, the light reaction (PS I & II, photophosphorylation, chemiosmosis), the Calvin (C3) cycle, the C4 pathway, photorespiration and limiting factors, with NEET-level examples and MCQs. Free on GrowQR.",
+    "focus_keyword": "photosynthesis in higher plants NEET",
+    "secondary_keywords": [
+      "light reaction PS I PS II NEET",
+      "Calvin cycle C3 pathway",
+      "C4 pathway Kranz anatomy",
+      "photorespiration RuBisCO",
+      "cyclic non-cyclic photophosphorylation"
+    ],
+    "keywords": [
+      "photosynthesis in higher plants NEET",
+      "Calvin cycle NEET",
+      "C4 pathway Hatch Slack",
+      "photophosphorylation chemiosmosis",
+      "limiting factors photosynthesis"
+    ]
+  },
+  "summary": "<ul><li><strong>Site:</strong> chloroplast — light reaction in the thylakoid (grana), dark reaction in the stroma. Main pigment <strong>chlorophyll a</strong> (reaction centre); carotenoids are accessory + protective.</li><li><strong>Key experiments:</strong> Priestley (plants restore air), Ingenhousz (light + green parts release O₂), Engelmann (action spectrum), <strong>van Niel (O₂ comes from water, not CO₂)</strong>.</li><li><strong>Light reaction:</strong> PS II (P680) splits water (photolysis &rarr; O₂), electrons flow via ETC to PS I (P700) &rarr; NADPH. <strong>Non-cyclic</strong> makes ATP + NADPH + O₂; <strong>cyclic</strong> (PS I only) makes ATP only. ATP forms by <strong>chemiosmosis</strong>.</li><li><strong>Calvin cycle (C3):</strong> in stroma — carboxylation (RuBP + CO₂ by <strong>RuBisCO</strong> &rarr; first product <strong>3-PGA</strong>), reduction, regeneration.</li><li><strong>C4 (Hatch–Slack):</strong> Kranz anatomy; first product 4-carbon <strong>OAA</strong> via <strong>PEP carboxylase</strong>; avoids photorespiration (maize, sugarcane).</li><li><strong>Photorespiration:</strong> RuBisCO's oxygenase action in C3 plants — wasteful, no ATP/sugar.</li></ul>",
+  "faqs": [
+    { "q": "What did Cornelius van Niel establish about photosynthesis?", "a": "Van Niel showed, from his studies on purple and green sulphur bacteria, that the oxygen released in photosynthesis comes from water, not from carbon dioxide. In green plants H2O is the electron donor and is split (photolysis) to release O2." },
+    { "q": "What is the difference between cyclic and non-cyclic photophosphorylation?", "a": "Non-cyclic photophosphorylation involves both PS II and PS I, splits water and produces ATP, NADPH and O2. Cyclic photophosphorylation involves only PS I, the electron returns to PS I, and it produces only ATP (no NADPH and no O2)." },
+    { "q": "Where does the Calvin cycle occur and what is its first stable product?", "a": "The Calvin cycle (the dark or biosynthetic reaction) occurs in the stroma of the chloroplast. Its first stable product is the three-carbon compound 3-phosphoglyceric acid (3-PGA), formed when RuBisCO fixes CO2 onto RuBP — hence it is called the C3 pathway." },
+    { "q": "Why are C4 plants more efficient than C3 plants?", "a": "C4 plants (e.g. maize, sugarcane) use PEP carboxylase to fix CO2 first into a 4-carbon acid (OAA) in mesophyll cells and concentrate CO2 in the bundle-sheath cells (Kranz anatomy). This high CO2 level suppresses RuBisCO's oxygenase activity, so they avoid photorespiration and have higher productivity." },
+    { "q": "What is photorespiration?", "a": "In C3 plants, when O2 is high and CO2 is low, the enzyme RuBisCO acts as an oxygenase and binds O2 to RuBP, producing one molecule of 3-PGA and one of 2-carbon phosphoglycolate. This wasteful process consumes energy without producing sugar, ATP or NADPH." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Pigments and the Light Reaction",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Site, Pigments and the Classic Experiments",
+          "concept": "<p><strong>Photosynthesis</strong> is the process by which green plants, algae and some bacteria use light energy to synthesise food (carbohydrate) from carbon dioxide and water, releasing oxygen. It is the ultimate source of food and oxygen for almost all life. The overall reaction can be summarised as: $6\\,\\text{CO}_2 + 12\\,\\text{H}_2\\text{O} \\xrightarrow{\\text{light, chlorophyll}} \\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\,\\text{O}_2 + 6\\,\\text{H}_2\\text{O}$. In higher plants it takes place in the <strong>chloroplast</strong> of mesophyll cells.</p><p>The chloroplast is organised into membranous <strong>thylakoids</strong> (stacked into grana) and a surrounding fluid <strong>stroma</strong>. This compartmentalisation is functionally important and frequently tested: the <strong>light reaction</strong> (the photochemical phase) occurs on the <strong>thylakoid membranes</strong>, while the <strong>dark reaction</strong> (the biosynthetic Calvin cycle) occurs in the <strong>stroma</strong>.</p><p><strong>Photosynthetic pigments</strong> capture light. The principal pigment is <strong>chlorophyll a</strong>, which forms the reaction centre and chiefly drives photosynthesis; it absorbs mainly in the blue and red regions. The other pigments — <strong>chlorophyll b</strong>, <strong>xanthophylls</strong> and <strong>carotenoids</strong> — are <strong>accessory pigments</strong> that absorb light at other wavelengths and hand the energy to chlorophyll a, while carotenoids also <strong>protect chlorophyll a from photo-oxidation</strong>. Chlorophyll a is the most abundant pigment.</p><p>A set of classic experiments built our understanding and are reliable NEET facts. <strong>Joseph Priestley</strong> showed that plants restore to air the component used up by burning candles or breathing animals (i.e. release O₂). <strong>Jan Ingenhousz</strong> demonstrated that light is essential and only the green parts release oxygen. <strong>Julius von Sachs</strong> showed glucose (stored as starch) is made in the green parts, and <strong>T.W. Engelmann</strong> used a prism, the alga <em>Cladophora</em> and aerobic bacteria to plot the first <strong>action spectrum</strong>, finding blue and red light most effective. Finally, <strong>Cornelius van Niel</strong> established that the <strong>O₂ released comes from water</strong>, not from CO₂ — perhaps the single most examined experimental fact of this chapter.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Scientist</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Contribution</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Priestley</td><td style='border:1px solid #dcfce7;padding:6px 8px'>plants restore air (release O₂)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Ingenhousz</td><td style='border:1px solid #dcfce7;padding:6px 8px'>light needed; green parts release O₂</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Engelmann</td><td style='border:1px solid #dcfce7;padding:6px 8px'>first action spectrum (blue &amp; red best)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>van Niel</td><td style='border:1px solid #dcfce7;padding:6px 8px'>O₂ comes from water, not CO₂</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>In a photosynthesis experiment using water labelled with the heavy isotope of oxygen ($\\text{H}_2{}^{18}\\text{O}$), where does the labelled oxygen appear? What does this prove?</p>",
+              "solution": "<p>The labelled oxygen appears in the <strong>released O₂ gas</strong>, not in the glucose or water formed. This proves that the <strong>O₂ released in photosynthesis comes from water</strong> (van Niel's conclusion), via photolysis.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>State one role of carotenoids besides absorbing light.</p>",
+              "solution": "<p>Carotenoids <strong>protect chlorophyll a from photo-oxidation</strong> (damage by excess light), in addition to acting as accessory pigments that pass absorbed energy to chlorophyll a.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The dark reaction of photosynthesis occurs in the:</p>", "options": ["thylakoid membrane", "stroma", "grana", "outer membrane"], "correct": 1, "explanation": "The Calvin (dark) reaction occurs in the stroma." },
+            { "q": "<p>The chief photosynthetic pigment forming the reaction centre is:</p>", "options": ["chlorophyll b", "chlorophyll a", "xanthophyll", "carotene"], "correct": 1, "explanation": "Chlorophyll a is the primary reaction-centre pigment." },
+            { "q": "<p>The oxygen released in photosynthesis comes from:</p>", "options": ["CO₂", "water", "glucose", "the air"], "correct": 1, "explanation": "van Niel showed O₂ comes from the splitting of water." },
+            { "q": "<p>The first action spectrum of photosynthesis was plotted by:</p>", "options": ["Priestley", "Engelmann", "van Niel", "Sachs"], "correct": 1, "explanation": "Engelmann used Cladophora + aerobic bacteria + a prism." },
+            { "q": "<p>Light is absorbed by chlorophyll a most strongly in the ___ regions:</p>", "options": ["green and yellow", "blue and red", "orange only", "ultraviolet only"], "correct": 1, "explanation": "Chlorophyll a absorbs mainly blue and red light." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Fix the experiment names (Priestley, Ingenhousz, Engelmann, van Niel = O₂ from water) and the site split — light reaction on thylakoids, Calvin cycle in stroma. Chlorophyll a = main; carotenoids = accessory + protective.</p>"
+        },
+        {
+          "number": 2,
+          "title": "The Light Reaction",
+          "concept": "<p>The <strong>light reaction (photochemical phase)</strong> happens on the thylakoid membranes and converts light energy into the chemical energy of <strong>ATP and NADPH</strong>, releasing oxygen. It uses two pigment systems, <strong>Photosystem II (PS II)</strong> with its reaction centre <strong>P680</strong> and <strong>Photosystem I (PS I)</strong> with reaction centre <strong>P700</strong> (named for the wavelength each absorbs best). Each photosystem has a light-harvesting antenna that funnels energy to the reaction centre.</p><p>In <strong>non-cyclic photophosphorylation</strong>, light excites P680 in PS II; the high-energy electrons travel down an electron transport chain (plastoquinone &rarr; cytochrome complex &rarr; plastocyanin) to PS I, and onward from excited P700 through ferredoxin to reduce <strong>NADP⁺ to NADPH</strong>. The electrons lost by PS II are replaced by the <strong>splitting (photolysis) of water</strong> at PS II, which releases <strong>O₂</strong>, protons and electrons. Because the electron path traced on an energy diagram looks like a 'Z', this is called the <strong>Z-scheme</strong>. Its products are ATP, NADPH and O₂.</p><p>In <strong>cyclic photophosphorylation</strong>, only <strong>PS I</strong> is active: the excited electron from P700 is passed back to P700 through the electron transport chain instead of going to NADP⁺. This produces <strong>only ATP</strong> — no NADPH and no O₂ — and occurs in the stroma lamellae or when only light of wavelength beyond 680 nm is available. NEET frequently contrasts the two: non-cyclic gives ATP + NADPH + O₂; cyclic gives ATP alone.</p><p>How exactly is ATP made? By the <strong>chemiosmotic hypothesis</strong>. As water is split inside the thylakoid lumen and electrons move through the chain, protons (H⁺) accumulate inside the lumen, creating a <strong>proton gradient</strong> across the thylakoid membrane. These protons then flow down their gradient back into the stroma through the enzyme <strong>ATP synthase (the F₀–F₁ particle)</strong>, and this flow drives the synthesis of ATP. So the gradient — built up by photolysis and electron transport — is the immediate energy source for ATP formation, a mechanism shared in principle with respiration.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Feature</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Non-cyclic</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Cyclic</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Photosystems</td><td style='border:1px solid #dcfce7;padding:6px 8px'>PS II + PS I</td><td style='border:1px solid #dcfce7;padding:6px 8px'>PS I only</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Water split / O₂</td><td style='border:1px solid #dcfce7;padding:6px 8px'>yes</td><td style='border:1px solid #dcfce7;padding:6px 8px'>no</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>NADPH</td><td style='border:1px solid #dcfce7;padding:6px 8px'>yes</td><td style='border:1px solid #dcfce7;padding:6px 8px'>no</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>ATP</td><td style='border:1px solid #dcfce7;padding:6px 8px'>yes</td><td style='border:1px solid #dcfce7;padding:6px 8px'>yes</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>At which photosystem is water split, and what three things does photolysis release?</p>",
+              "solution": "<p>Water is split at <strong>Photosystem II (P680)</strong>. Photolysis releases <strong>oxygen (O₂), protons (H⁺) and electrons</strong>; the electrons replace those lost by P680.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>According to the chemiosmotic hypothesis, what immediately drives ATP synthesis in the chloroplast?</p>",
+              "solution": "<p>A <strong>proton (H⁺) gradient</strong> across the thylakoid membrane. Protons accumulate in the lumen and flow back to the stroma through <strong>ATP synthase</strong>, and this flow powers ATP formation.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The reaction centre of Photosystem II is:</p>", "options": ["P700", "P680", "P870", "P960"], "correct": 1, "explanation": "PS II reaction centre is P680; PS I is P700." },
+            { "q": "<p>Cyclic photophosphorylation produces:</p>", "options": ["ATP and NADPH", "ATP only", "NADPH only", "O₂ only"], "correct": 1, "explanation": "Cyclic (PS I only) makes ATP only." },
+            { "q": "<p>Splitting of water (photolysis) is associated with:</p>", "options": ["PS I", "PS II", "ATP synthase", "ferredoxin"], "correct": 1, "explanation": "Photolysis of water occurs at PS II." },
+            { "q": "<p>ATP is synthesised in the chloroplast by:</p>", "options": ["substrate-level phosphorylation only", "chemiosmosis via ATP synthase", "the Calvin cycle", "photolysis directly"], "correct": 1, "explanation": "A proton gradient drives ATP synthase (chemiosmosis)." },
+            { "q": "<p>Non-cyclic photophosphorylation produces all of the following EXCEPT:</p>", "options": ["ATP", "NADPH", "O₂", "only ATP"], "correct": 3, "explanation": "Non-cyclic makes ATP, NADPH and O₂ — not 'ATP only' (that is cyclic)." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Non-cyclic = PS II + PS I, water split, ATP + NADPH + O₂ (Z-scheme). Cyclic = PS I only, ATP only. ATP via chemiosmosis (H⁺ gradient &rarr; ATP synthase). Water split at PS II.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The Dark Reaction, C4 Pathway and Limiting Factors",
+      "topics": [
+        {
+          "number": 3,
+          "title": "The Calvin Cycle, the C4 Pathway and Photorespiration",
+          "concept": "<p>The <strong>dark reaction</strong> (biosynthetic phase) uses the ATP and NADPH made in the light reaction to fix CO₂ into sugar; it occurs in the <strong>stroma</strong> and is called 'dark' only because it does not directly need light. In most plants it follows the <strong>Calvin cycle</strong>, which has three stages. <strong>Carboxylation</strong>: CO₂ is added to the 5-carbon acceptor <strong>RuBP</strong> by the enzyme <strong>RuBisCO</strong>, producing two molecules of the 3-carbon <strong>3-phosphoglyceric acid (3-PGA)</strong> — the first stable product, which is why this is the <strong>C3 pathway</strong>. <strong>Reduction</strong>: 3-PGA is converted to sugar (G3P) using ATP and NADPH. <strong>Regeneration</strong>: RuBP is regenerated using ATP so the cycle can continue. To make one glucose, the cycle turns six times and uses <strong>18 ATP and 12 NADPH</strong>.</p><p><strong>RuBisCO</strong> (ribulose bisphosphate carboxylase-oxygenase) is the <strong>most abundant enzyme</strong> on Earth and has a dual nature: it can act as a carboxylase (fixing CO₂) or as an oxygenase (fixing O₂), depending on the relative concentrations of CO₂ and O₂.</p><p>Some tropical plants such as maize, sugarcane and sorghum use the more efficient <strong>C4 pathway (the Hatch–Slack pathway)</strong>. They show a special leaf anatomy called <strong>Kranz anatomy</strong>, with large bundle-sheath cells around the veins. Here the first step of CO₂ fixation occurs in the mesophyll, where the enzyme <strong>PEP carboxylase (PEPcase)</strong> adds CO₂ to PEP to form the 4-carbon <strong>oxaloacetic acid (OAA)</strong> — hence 'C4'. OAA (as malate) is shuttled to the bundle-sheath cells, where it releases CO₂ for the normal Calvin cycle. Because this concentrates CO₂ around RuBisCO, C4 plants are highly productive.</p><p>The C4 trick also solves a problem called <strong>photorespiration</strong>, which afflicts C3 plants. When O₂ is high and CO₂ is low, RuBisCO acts as an <strong>oxygenase</strong>: it adds O₂ to RuBP, yielding one 3-PGA and one 2-carbon <strong>phosphoglycolate</strong>, with <strong>no sugar, no ATP and no NADPH produced</strong> — a wasteful process. In C4 plants the high CO₂ in the bundle sheath keeps RuBisCO working as a carboxylase, so they <strong>avoid photorespiration</strong>. The high-yield NEET points are: first product 3-PGA (C3) vs OAA (C4), PEPcase + Kranz anatomy in C4, RuBisCO's dual nature, and photorespiration occurring in C3 plants only.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Feature</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>C3</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>C4</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>First product</td><td style='border:1px solid #dcfce7;padding:6px 8px'>3-PGA (3-C)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>OAA (4-C)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>First enzyme</td><td style='border:1px solid #dcfce7;padding:6px 8px'>RuBisCO</td><td style='border:1px solid #dcfce7;padding:6px 8px'>PEP carboxylase</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Anatomy</td><td style='border:1px solid #dcfce7;padding:6px 8px'>normal</td><td style='border:1px solid #dcfce7;padding:6px 8px'>Kranz</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Photorespiration</td><td style='border:1px solid #dcfce7;padding:6px 8px'>present</td><td style='border:1px solid #dcfce7;padding:6px 8px'>absent</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Name the first stable products of CO₂ fixation in a C3 and a C4 plant, with the enzyme involved in each.</p>",
+              "solution": "<p>In a <strong>C3</strong> plant the first product is <strong>3-PGA</strong> (3-carbon), made by <strong>RuBisCO</strong>. In a <strong>C4</strong> plant the first product is <strong>OAA</strong> (4-carbon), made by <strong>PEP carboxylase</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why does photorespiration not occur in C4 plants?</p>",
+              "solution": "<p>Because C4 plants concentrate CO₂ in the bundle-sheath cells, the <strong>CO₂ level around RuBisCO stays high</strong>, keeping it in carboxylase mode. RuBisCO therefore does not act as an oxygenase, so photorespiration is avoided.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The first stable product of the Calvin cycle is:</p>", "options": ["OAA", "3-PGA", "RuBP", "PEP"], "correct": 1, "explanation": "3-PGA (3-carbon) is the first product — hence C3." },
+            { "q": "<p>The CO₂-fixing enzyme of the C4 pathway in mesophyll cells is:</p>", "options": ["RuBisCO", "PEP carboxylase", "ATP synthase", "NADP reductase"], "correct": 1, "explanation": "PEP carboxylase fixes CO₂ to PEP forming OAA." },
+            { "q": "<p>Kranz anatomy is characteristic of:</p>", "options": ["C3 plants", "C4 plants", "all plants", "algae"], "correct": 1, "explanation": "C4 plants show Kranz anatomy (bundle-sheath cells)." },
+            { "q": "<p>Photorespiration involves RuBisCO acting as a/an:</p>", "options": ["carboxylase", "oxygenase", "hydrolase", "ligase"], "correct": 1, "explanation": "In photorespiration RuBisCO acts as an oxygenase." },
+            { "q": "<p>To synthesise one glucose, the Calvin cycle uses:</p>", "options": ["6 ATP, 6 NADPH", "12 ATP, 12 NADPH", "18 ATP, 12 NADPH", "36 ATP, 24 NADPH"], "correct": 2, "explanation": "18 ATP and 12 NADPH per glucose (six turns)." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> C3 = first product 3-PGA, enzyme RuBisCO, has photorespiration. C4 = first product OAA, enzyme PEPcase, Kranz anatomy, no photorespiration. RuBisCO is dual (carboxylase/oxygenase) and the most abundant enzyme.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Factors Affecting Photosynthesis",
+          "concept": "<p>The rate of photosynthesis is governed by several external and internal factors. The guiding principle, frequently tested, is <strong>Blackman's law of limiting factors</strong>: when a process depends on several factors, its rate is set by the factor that is in <strong>shortest supply</strong> (the limiting factor). For example, if light is abundant but CO₂ is scarce, increasing light further will not help — CO₂ is limiting and only adding CO₂ will raise the rate. The main factors are light, carbon dioxide, temperature and water.</p><p><strong>Light</strong> matters in three ways — quality (wavelength), intensity and duration. At low intensity the rate rises with light, but at higher intensities it reaches a <strong>light saturation point</strong> (around 10% of full sunlight), beyond which light is no longer limiting and very high intensity may even cause damage (photo-oxidation, photoinhibition). Both blue and red light are most effective, matching the absorption peaks of chlorophyll.</p><p><strong>Carbon dioxide</strong> is often the <strong>major limiting factor</strong> under natural conditions because its concentration in air is low (about 0.04%). C3 and C4 plants respond differently: C4 plants saturate at much lower CO₂ levels and are more efficient, while C3 plants benefit from higher CO₂ and show increased photosynthesis as CO₂ rises toward saturation, which is why greenhouses are sometimes enriched with CO₂.</p><p><strong>Temperature</strong> affects the enzyme-driven dark reactions most. Each plant has an optimum temperature; C4 plants generally have a <strong>higher temperature optimum</strong> than C3 plants, reflecting their tropical origins. <strong>Water</strong> influences photosynthesis mainly indirectly: water stress closes the stomata, reducing CO₂ entry, and also causes leaves to wilt, lowering the surface available for light capture. The practical takeaway for NEET is to identify, in a given situation, which single factor is limiting — and to remember that under field conditions CO₂ and light are the usual limiters, with C4 plants being the more efficient performers.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Factor</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Effect on photosynthesis</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Light</td><td style='border:1px solid #dcfce7;padding:6px 8px'>rises then saturates (~10% full sun)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>CO₂</td><td style='border:1px solid #dcfce7;padding:6px 8px'>major natural limiting factor; C4 saturates low</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Temperature</td><td style='border:1px solid #dcfce7;padding:6px 8px'>optimum; C4 higher than C3</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Water</td><td style='border:1px solid #dcfce7;padding:6px 8px'>stress closes stomata &rarr; less CO₂</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A plant is given plenty of light and a suitable temperature, but CO₂ is very low. According to Blackman's law, what limits photosynthesis and how can it be increased?</p>",
+              "solution": "<p><strong>CO₂ is the limiting factor</strong>. Increasing light or temperature will not help; only <strong>raising the CO₂ concentration</strong> will increase the rate of photosynthesis.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>How does water stress reduce photosynthesis even though water is a raw material?</p>",
+              "solution": "<p>Mainly <strong>indirectly</strong>: water stress makes the <strong>stomata close</strong>, cutting off CO₂ entry, and causes leaves to wilt, reducing light capture. The direct use of water as a reactant is a minor effect by comparison.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Blackman's law states the rate is set by the factor that is:</p>", "options": ["most abundant", "in shortest supply", "fastest", "internal only"], "correct": 1, "explanation": "The limiting factor is the one in shortest supply." },
+            { "q": "<p>Under natural conditions the major limiting factor is usually:</p>", "options": ["water", "CO₂", "chlorophyll", "oxygen"], "correct": 1, "explanation": "Low atmospheric CO₂ (~0.04%) is usually limiting." },
+            { "q": "<p>The light saturation point is around:</p>", "options": ["1% of full sunlight", "10% of full sunlight", "50% of full sunlight", "100% of full sunlight"], "correct": 1, "explanation": "Photosynthesis saturates near 10% of full sunlight." },
+            { "q": "<p>Compared with C3 plants, C4 plants have a temperature optimum that is:</p>", "options": ["lower", "higher", "the same", "irrelevant"], "correct": 1, "explanation": "C4 plants (tropical) have a higher temperature optimum." },
+            { "q": "<p>Water stress lowers photosynthesis mainly by:</p>", "options": ["denaturing chlorophyll", "closing stomata", "increasing O₂", "raising CO₂"], "correct": 1, "explanation": "Stomatal closure reduces CO₂ uptake." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Apply Blackman's law — find the single scarcest factor. CO₂ is usually the natural limiter; light saturates ~10% full sun; C4 plants have higher temperature optima; water stress acts via stomatal closure.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-biology-ch11-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>The light reaction of photosynthesis occurs in the:</p>", "options": ["stroma", "thylakoid membranes", "cytoplasm", "outer membrane"], "correct": 1, "explanation": "The photochemical (light) reaction occurs on thylakoid membranes." },
+            { "q": "<p>The oxygen evolved in photosynthesis originates from:</p>", "options": ["carbon dioxide", "water", "glucose", "RuBP"], "correct": 1, "explanation": "O₂ comes from the photolysis of water (van Niel)." },
+            { "q": "<p>Cyclic photophosphorylation involves only:</p>", "options": ["PS II", "PS I", "ATP synthase", "RuBisCO"], "correct": 1, "explanation": "Cyclic photophosphorylation uses only PS I, making ATP." },
+            { "q": "<p>The most abundant enzyme in the world is:</p>", "options": ["PEP carboxylase", "RuBisCO", "ATP synthase", "amylase"], "correct": 1, "explanation": "RuBisCO is the most abundant enzyme." },
+            { "q": "<p>The first CO₂-fixation product in maize (a C4 plant) is:</p>", "options": ["3-PGA", "OAA", "RuBP", "glucose"], "correct": 1, "explanation": "C4 plants form 4-carbon OAA first." },
+            { "q": "<p>Kranz anatomy is associated with:</p>", "options": ["photorespiration", "the C4 pathway", "the light reaction", "cyclic flow"], "correct": 1, "explanation": "Kranz anatomy is characteristic of C4 plants." },
+            { "q": "<p>Photorespiration occurs in:</p>", "options": ["C4 plants", "C3 plants", "all plants equally", "no plants"], "correct": 1, "explanation": "Photorespiration occurs in C3 plants (RuBisCO oxygenase)." },
+            { "q": "<p>According to the chemiosmotic hypothesis, ATP is made as protons move through:</p>", "options": ["plastocyanin", "ATP synthase", "ferredoxin", "the LHC"], "correct": 1, "explanation": "Protons flow through ATP synthase to make ATP." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> The oxygen released in photosynthesis comes from water.<br><strong>R:</strong> Water is split (photolysed) at Photosystem II, releasing O₂, protons and electrons.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Photolysis of water at PS II is precisely why O₂ comes from water — R explains A." },
+            { "q": "<p><strong>A:</strong> C4 plants are more productive than C3 plants.<br><strong>R:</strong> C4 plants concentrate CO₂ in bundle-sheath cells and so avoid photorespiration.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Avoiding photorespiration by concentrating CO₂ is why C4 plants are more productive — R explains A." },
+            { "q": "<p><strong>A:</strong> Cyclic photophosphorylation produces NADPH.<br><strong>R:</strong> It involves only Photosystem I.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "A is false — cyclic photophosphorylation makes ATP only, NOT NADPH; R (PS I only) is true." },
+            { "q": "<p><strong>A:</strong> Increasing light intensity will not always raise the rate of photosynthesis.<br><strong>R:</strong> By Blackman's law of limiting factors, the rate is set by whichever factor is in shortest supply.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "If another factor (e.g. CO₂) is limiting, more light won't help — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

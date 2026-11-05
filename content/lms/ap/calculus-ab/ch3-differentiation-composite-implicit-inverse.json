@@ -1,0 +1,771 @@
+{
+  "exam": "ap",
+  "subject": "calculus-ab",
+  "chapter": 3,
+  "title": "Differentiation: Composite, Implicit, and Inverse Functions",
+  "slug": "differentiation-composite-implicit-inverse",
+  "subtitle": "AP Calculus AB — Unit 3",
+  "level": "AP Calculus AB",
+  "color": "#ec4899",
+  "icon": "math",
+  "seo": {
+    "title": "Differentiation: Composite, Implicit, and Inverse Functions — AP Calculus AB | GrowQR",
+    "meta_description": "Master Differentiation: Composite, Implicit, and Inverse Functions for AP Calculus AB: notes, formulas, worked examples, self-check MCQs and mock tests. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Foundations & Definitions",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Overview, Objectives & Key Definitions",
+          "concept": "<h2>Unit Overview</h2>\n<p>This unit is dominated by one enormously powerful idea: the <strong>Chain Rule</strong>, which differentiates <em>composite</em> functions (a function inside another). Once you have it, you can differentiate almost anything, and you can extend implicit differentiation and inverse-function differentiation to a much wider set of problems — including the <strong>inverse trigonometric functions</strong>.</p>\n<p>The Chain Rule is arguably the most tested single rule in all of AP Calculus. Expect it woven through nearly every subsequent unit (related rates, optimization, integration by substitution).</p>\n<p><strong>Big picture:</strong> To differentiate <code>f(g(x))</code>, differentiate the <strong>outside</strong> function (leaving the inside alone) and multiply by the derivative of the <strong>inside</strong>.</p>\n<hr>\n<h2>Learning Objectives</h2>\n<ul>\n<li>Apply the <strong>Chain Rule</strong> to composite functions, including nested compositions.</li>\n<li>Combine the Chain Rule with the Product and Quotient Rules.</li>\n<li>Extend <strong>implicit differentiation</strong> using the Chain Rule.</li>\n<li>Differentiate <strong>inverse functions</strong> and the <strong>inverse trigonometric functions</strong>.</li>\n<li><strong>Select</strong> and combine the correct procedure(s) for any derivative.</li>\n<li>Compute <strong>higher-order derivatives</strong> of composite and implicit functions.</li>\n</ul>\n<hr>\n<h2>Prerequisite Concepts</h2>\n<ul>\n<li>All fundamental rules from Unit 2 (power, product, quotient, trig).</li>\n<li>Function composition; recognizing &quot;inside&quot; and &quot;outside&quot; functions.</li>\n<li>The inverse-function relationship and basic inverse-trig values.</li>\n</ul>\n<hr>\n<h2>Key Definitions</h2>\n<ul>\n<li><strong>Composite function:</strong> <code>(f ∘ g)(x) = f(g(x))</code> — g is the <strong>inside</strong>, f the <strong>outside</strong>.</li>\n<li><strong>Chain Rule:</strong> <code>d/dx[f(g(x))] = f&#39;(g(x)) · g&#39;(x)</code>. In Leibniz form: <code>dy/dx = (dy/du)(du/dx)</code>.</li>\n<li><strong>Implicit function:</strong> y defined by an equation not solved for y (e.g., <code>x² + y² = 25</code>).</li>\n<li><strong>Inverse trig functions:</strong> arcsin, arccos, arctan, the inverses of the (restricted) trig functions.</li>\n</ul>\n<hr>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "If f(x) = (3x + 1)^5, what is f'(x)?",
+              "options": [
+                "5(3x + 1)^4",
+                "15(3x + 1)^4",
+                "3(3x + 1)^4",
+                "15(3x + 1)^5"
+              ],
+              "correct": 1,
+              "explanation": "By the Chain Rule, f'(x) = 5(3x + 1)^4 * d/dx(3x + 1) = 5(3x + 1)^4 * 3 = 15(3x + 1)^4."
+            },
+            {
+              "q": "What is d/dx [ sin(2x) ]?",
+              "options": [
+                "cos(2x)",
+                "2cos(2x)",
+                "-2cos(2x)",
+                "2sin(2x)"
+              ],
+              "correct": 1,
+              "explanation": "By the Chain Rule, d/dx sin(2x) = cos(2x) * d/dx(2x) = cos(2x) * 2 = 2cos(2x)."
+            },
+            {
+              "q": "What is d/dx [ e^(3x) ]?",
+              "options": [
+                "e^(3x)",
+                "3e^(3x)",
+                "3x e^(3x)",
+                "e^(3x)/3"
+              ],
+              "correct": 1,
+              "explanation": "By the Chain Rule, d/dx e^(3x) = e^(3x) * d/dx(3x) = 3e^(3x)."
+            },
+            {
+              "q": "If h(x) = f(g(x)), which expression gives h'(x)?",
+              "options": [
+                "f'(x) g'(x)",
+                "f'(g(x)) g'(x)",
+                "f'(g(x)) g(x)",
+                "f(g'(x))"
+              ],
+              "correct": 1,
+              "explanation": "The Chain Rule states that the derivative of a composite function is h'(x) = f'(g(x)) * g'(x)."
+            },
+            {
+              "q": "If y^2 = x, what is dy/dx?",
+              "options": [
+                "1/(2y)",
+                "2y",
+                "1/y",
+                "2x"
+              ],
+              "correct": 0,
+              "explanation": "Differentiate implicitly: 2y(dy/dx) = 1, so dy/dx = 1/(2y)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Theorems & Formulas",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Important Theorems & Formulas",
+          "concept": "<h2>Important Theorems / Rules</h2>\n<p><strong>Chain Rule:</strong> <code>d/dx[f(g(x))] = f&#39;(g(x)) · g&#39;(x)</code>.</p>\n<p><strong>Chain Rule with a table:</strong> If <code>h(x) = f(g(x))</code>, then <code>h&#39;(a) = f&#39;(g(a)) · g&#39;(a)</code>.</p>\n<p><strong>Inverse Function Derivative:</strong> <code>(f⁻¹)&#39;(a) = 1 / f&#39;(f⁻¹(a))</code>.</p>\n<hr>\n<h2>Important Theorems / Rules</h2>\n<p><strong>Chain Rule:</strong> <code>d/dx[f(g(x))] = f&#39;(g(x)) · g&#39;(x)</code>.</p>\n<p><strong>Chain Rule with a table:</strong> If <code>h(x) = f(g(x))</code>, then <code>h&#39;(a) = f&#39;(g(a)) · g&#39;(a)</code>.</p>\n<p><strong>Inverse Function Derivative:</strong> <code>(f⁻¹)&#39;(a) = 1 / f&#39;(f⁻¹(a))</code>.</p>\n<hr>\n<h2>Important Formulas</h2>\n<p><strong>Chain Rule versions of the basics</strong> (u = u(x)):</p>\n<ul>\n<li><code>d/dx[u^n] = n·u^(n−1)·u&#39;</code></li>\n<li><code>d/dx[sin u] = cos u · u&#39;</code>  (similarly for the other trig functions)</li>\n<li><code>d/dx[e^u] = e^u · u&#39;</code></li>\n<li><code>d/dx[ln u] = u&#39;/u</code></li>\n</ul>\n<p><strong>Inverse trigonometric derivatives:</strong></p>\n<ul>\n<li><code>d/dx[arcsin x] = 1/√(1 − x²)</code></li>\n<li><code>d/dx[arccos x] = −1/√(1 − x²)</code></li>\n<li><code>d/dx[arctan x] = 1/(1 + x²)</code></li>\n</ul>\n<p>With an inside function u: multiply each by <code>u&#39;</code> (Chain Rule), e.g. <code>d/dx[arctan(u)] = u&#39;/(1 + u²)</code>.</p>\n<hr>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "If g(x) = (x^2 + 1)^3, what is g'(1)?",
+              "options": [
+                "12",
+                "24",
+                "8",
+                "6"
+              ],
+              "correct": 1,
+              "explanation": "g'(x) = 3(x^2 + 1)^2 * 2x = 6x(x^2 + 1)^2. At x = 1: 6(1)(2)^2 = 6 * 4 = 24."
+            },
+            {
+              "q": "What is d/dx [ cos(x^2) ]?",
+              "options": [
+                "-sin(x^2)",
+                "-2x sin(x^2)",
+                "2x sin(x^2)",
+                "-sin(2x)"
+              ],
+              "correct": 1,
+              "explanation": "By the Chain Rule, d/dx cos(x^2) = -sin(x^2) * d/dx(x^2) = -sin(x^2) * 2x = -2x sin(x^2)."
+            },
+            {
+              "q": "What is d/dx [ sqrt(4x + 1) ]?",
+              "options": [
+                "1 / sqrt(4x + 1)",
+                "2 / sqrt(4x + 1)",
+                "4 / sqrt(4x + 1)",
+                "1 / (2 sqrt(4x + 1))"
+              ],
+              "correct": 1,
+              "explanation": "Write as (4x + 1)^(1/2). Derivative = (1/2)(4x + 1)^(-1/2) * 4 = 2 / sqrt(4x + 1)."
+            },
+            {
+              "q": "If y = (2x^3 - 1)^4, what is dy/dx?",
+              "options": [
+                "4(2x^3 - 1)^3",
+                "24x^2(2x^3 - 1)^3",
+                "6x^2(2x^3 - 1)^3",
+                "8x^2(2x^3 - 1)^3"
+              ],
+              "correct": 1,
+              "explanation": "dy/dx = 4(2x^3 - 1)^3 * d/dx(2x^3 - 1) = 4(2x^3 - 1)^3 * 6x^2 = 24x^2(2x^3 - 1)^3."
+            },
+            {
+              "q": "What is d/dx [ sin^3(x) ]?",
+              "options": [
+                "3 sin^2(x)",
+                "3 sin^2(x) cos(x)",
+                "cos^3(x)",
+                "3 cos^2(x)"
+              ],
+              "correct": 1,
+              "explanation": "Write as (sin x)^3. Derivative = 3(sin x)^2 * cos(x) = 3 sin^2(x) cos(x)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Concepts & Worked Examples",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Concept Explanations & Solved Examples",
+          "concept": "<h2>Concept Explanations</h2>\n<p><strong>Peeling the onion (3.1).</strong> For a composite, identify layers from the <strong>outside in</strong>. Differentiate the outermost layer (keeping its inside intact), then multiply by the derivative of what&#39;s inside — repeating for each layer. Example: <code>sin(cos x)</code> → <code>cos(cos x) · (−sin x)</code>.</p>\n<p><strong>Chain Rule powers implicit differentiation (3.2).</strong> Every time you differentiate a term containing y with respect to x, the Chain Rule attaches a <code>dy/dx</code>. That is the whole mechanism: <code>d/dx[y³] = 3y²·(dy/dx)</code>.</p>\n<p><strong>Inverse functions without inverting (3.3).</strong> Reflecting a graph over y = x swaps rise and run, so slopes are <strong>reciprocals</strong> at corresponding points — which is exactly <code>(f⁻¹)&#39;(a) = 1/f&#39;(f⁻¹(a))</code>.</p>\n<p><strong>Inverse trig derivatives (3.4).</strong> These are <em>algebraic</em> even though the functions are transcendental — memorize the three AB forms. Note arccos is just the negative of arcsin&#39;s derivative.</p>\n<p><strong>Selecting procedures (3.5).</strong> Complex expressions often need <strong>several rules at once</strong>: e.g., <code>cos(3x)/eˣ</code> needs the Quotient Rule <em>and</em> the Chain Rule on the numerator. Plan the outer structure first (product? quotient? composite?), then handle each piece.</p>\n<hr>\n<h2>Worked Examples</h2>\n<p><strong>Example 1 (Basic Chain Rule).</strong> <code>d/dx[(3x + 1)⁵] = 5(3x + 1)⁴ · 3 = 15(3x + 1)⁴</code>.</p>\n<p><strong>Example 2 (Trig composite).</strong> <code>d/dx[cos(x²)] = −sin(x²) · 2x = −2x sin(x²)</code>.</p>\n<p><strong>Example 3 (Nested).</strong> <code>d/dx[sin(cos x)] = cos(cos x) · (−sin x) = −cos(cos x) sin x</code>.</p>\n<p><strong>Example 4 (Table).</strong> If g(2) = 3, g&#39;(2) = 4, f&#39;(3) = 5, and h = f∘g, then <code>h&#39;(2) = f&#39;(g(2))·g&#39;(2) = 5·4 = 20</code>.</p>\n<p><strong>Example 5 (Implicit).</strong> For <code>x² + xy + y² = 3</code>, differentiate: <code>2x + (y + x·y&#39;) + 2y·y&#39; = 0</code>. At (1, 1): <code>2 + 1 + y&#39; + 2y&#39; = 0 → 3 + 3y&#39; = 0 → y&#39; = −1</code>.</p>\n<p><strong>Example 6 (Inverse trig + product).</strong> <code>d/dx[x·arctan x] = arctan x + x/(1 + x²)</code>.</p>\n<p><strong>Example 7 (Inverse function).</strong> For <code>f(x) = x⁵ + 2x + 1</code> with inverse g, find g&#39;(4). Since f(1) = 4, g(4) = 1. <code>f&#39;(x) = 5x⁴ + 2</code>, so f&#39;(1) = 7. Thus <code>g&#39;(4) = 1/7</code>.</p>\n<hr>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "What is d/dx [ tan(4x) ]?",
+              "options": [
+                "sec^2(4x)",
+                "4 sec^2(4x)",
+                "4 tan(4x) sec(4x)",
+                "sec^2(x)"
+              ],
+              "correct": 1,
+              "explanation": "d/dx tan(u) = sec^2(u) * u'. With u = 4x, the result is 4 sec^2(4x)."
+            },
+            {
+              "q": "Let h(x) = f(g(x)). A table gives g(2) = 3, g'(2) = 4, f'(3) = 5. What is h'(2)?",
+              "options": [
+                "9",
+                "20",
+                "12",
+                "15"
+              ],
+              "correct": 1,
+              "explanation": "By the Chain Rule, h'(2) = f'(g(2)) * g'(2) = f'(3) * g'(2) = 5 * 4 = 20."
+            },
+            {
+              "q": "What is d/dx [ e^(x^2) ]?",
+              "options": [
+                "e^(x^2)",
+                "2x e^(x^2)",
+                "x^2 e^(x^2 - 1)",
+                "2x e^(2x)"
+              ],
+              "correct": 1,
+              "explanation": "By the Chain Rule, d/dx e^(x^2) = e^(x^2) * d/dx(x^2) = 2x e^(x^2)."
+            },
+            {
+              "q": "If x^2 + y^2 = 25, what is dy/dx?",
+              "options": [
+                "-x/y",
+                "x/y",
+                "-y/x",
+                "y/x"
+              ],
+              "correct": 0,
+              "explanation": "Differentiate implicitly: 2x + 2y(dy/dx) = 0. Solving gives dy/dx = -x/y."
+            },
+            {
+              "q": "If xy = 4, what is dy/dx?",
+              "options": [
+                "-y/x",
+                "y/x",
+                "-x/y",
+                "4/x"
+              ],
+              "correct": 0,
+              "explanation": "Differentiate using the product rule: y + x(dy/dx) = 0. Solving gives dy/dx = -y/x."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Graphs, Pitfalls & AP Exam Tips",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Graphical Interpretation, Common Mistakes & Tips",
+          "concept": "<h2>Graphical Interpretation</h2>\n<ul>\n<li>A composite&#39;s tangent slope is the <strong>product</strong> of the layer slopes.</li>\n<li>Inverse functions are <strong>reflections over y = x</strong>; corresponding tangent slopes are reciprocals (a steep curve has a shallow inverse and vice versa).</li>\n<li>Where <code>f&#39;(f⁻¹(a)) = 0</code> (a horizontal tangent of f), the inverse has a <strong>vertical tangent</strong> (its derivative blows up).</li>\n</ul>\n<hr>\n<h2>Common Mistakes</h2>\n<ul>\n<li><strong>Forgetting the <code>· u&#39;</code> factor</strong> — the single most common Chain Rule error (writing <code>d/dx[sin(2x)] = cos(2x)</code> instead of <code>2cos(2x)</code>).</li>\n<li><strong>Not attaching <code>dy/dx</code></strong> to y-terms in implicit differentiation.</li>\n<li><strong>Sign error on arccos</strong> — its derivative is <em>negative</em>.</li>\n<li><strong>Inverse-derivative mix-up:</strong> <code>g&#39;(a) = 1/f&#39;(g(a))</code>, evaluated at the <em>inverse&#39;s</em> input, not at a directly.</li>\n<li><strong>Stopping too early on nested functions</strong> — differentiate <em>every</em> layer.</li>\n</ul>\n<hr>\n<h2>AP Exam Tips</h2>\n<ul>\n<li>Say the Chain Rule to yourself as <strong>&quot;derivative of the outside, times the derivative of the inside.&quot;</strong></li>\n<li><strong>Table problems</strong> (given values of f, g, f&#39;, g&#39;) are almost always Chain Rule or product/quotient — read which composition is asked.</li>\n<li>For inverse-function values, <strong>first find the matching input</strong>, then reciprocate f&#39; there.</li>\n<li>Memorize <code>arcsin</code>, <code>arccos</code>, <code>arctan</code> derivatives; they show up in both differentiation and (reverse) as integrals in Unit 6.</li>\n</ul>\n<hr>\n<h2>Unit Summary</h2>\n<ul>\n<li><strong>Chain Rule:</strong> <code>d/dx[f(g(x))] = f&#39;(g(x))·g&#39;(x)</code> — differentiate outside, times derivative of inside.</li>\n<li>It powers <strong>implicit differentiation</strong> (every y-term gets a <code>dy/dx</code>) and extends to <strong>inverse</strong> and <strong>inverse-trig</strong> derivatives.</li>\n<li>Know the three inverse-trig derivatives and combine rules deliberately for complex expressions.</li>\n<li><code>(f⁻¹)&#39;(a) = 1/f&#39;(f⁻¹(a))</code>.</li>\n</ul>\n<p><em>Next unit:</em> apply derivatives to real contexts — motion, related rates, linearization, and L&#39;Hôpital&#39;s Rule.</p>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "What is d/dx [ 1 / (x^2 + 1) ]?",
+              "options": [
+                "-2x / (x^2 + 1)^2",
+                "1 / (2x)",
+                "-1 / (x^2 + 1)^2",
+                "2x / (x^2 + 1)^2"
+              ],
+              "correct": 0,
+              "explanation": "Write as (x^2 + 1)^(-1). Derivative = -1(x^2 + 1)^(-2) * 2x = -2x / (x^2 + 1)^2."
+            },
+            {
+              "q": "What is d/dx [ cos^2(3x) ]?",
+              "options": [
+                "-6 cos(3x) sin(3x)",
+                "2 cos(3x)",
+                "6 cos(3x) sin(3x)",
+                "-2 sin(3x)"
+              ],
+              "correct": 0,
+              "explanation": "Write as (cos 3x)^2. Derivative = 2(cos 3x) * (-sin 3x) * 3 = -6 cos(3x) sin(3x)."
+            },
+            {
+              "q": "If f(x) = ln(x^2 + 1), what is f'(x)?",
+              "options": [
+                "1 / (x^2 + 1)",
+                "2x / (x^2 + 1)",
+                "2x",
+                "1 / (2x)"
+              ],
+              "correct": 1,
+              "explanation": "By the Chain Rule, d/dx ln(u) = u'/u. With u = x^2 + 1, f'(x) = 2x / (x^2 + 1)."
+            },
+            {
+              "q": "For the curve x^2 + xy + y^2 = 3, what is the slope of the tangent line at (1, 1)?",
+              "options": [
+                "-1",
+                "1",
+                "-1/2",
+                "0"
+              ],
+              "correct": 0,
+              "explanation": "Differentiate: 2x + y + x(dy/dx) + 2y(dy/dx) = 0. At (1,1): 2 + 1 + (dy/dx) + 2(dy/dx) = 0, so 3 + 3(dy/dx) = 0, giving dy/dx = -1."
+            },
+            {
+              "q": "For x^3 + y^3 = 6xy, what is dy/dx?",
+              "options": [
+                "(2y - x^2) / (y^2 - 2x)",
+                "(x^2 - 2y) / (y^2 - 2x)",
+                "-x^2/y^2",
+                "(6y - x^2)/(y^2)"
+              ],
+              "correct": 0,
+              "explanation": "Differentiate: 3x^2 + 3y^2(dy/dx) = 6y + 6x(dy/dx). Group: (3y^2 - 6x)(dy/dx) = 6y - 3x^2, so dy/dx = (6y - 3x^2)/(3y^2 - 6x) = (2y - x^2)/(y^2 - 2x)."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "differentiation-composite-implicit-inverse-test-1",
+      "title": "Practice Set A",
+      "level": "Standard",
+      "time_limit_minutes": 30,
+      "total": 20,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Multiple Choice",
+          "questions": [
+            {
+              "q": "If 2x + 3y = 6, what is dy/dx?",
+              "options": [
+                "-2/3",
+                "2/3",
+                "-3/2",
+                "3/2"
+              ],
+              "correct": 0,
+              "explanation": "Differentiate implicitly: 2 + 3(dy/dx) = 0, so dy/dx = -2/3 (the slope of the line)."
+            },
+            {
+              "q": "If g is the inverse of f, which formula gives g'(a)?",
+              "options": [
+                "1 / f'(g(a))",
+                "f'(g(a))",
+                "1 / f(a)",
+                "-f'(a)"
+              ],
+              "correct": 0,
+              "explanation": "The inverse-function derivative rule states (f^(-1))'(a) = 1 / f'(f^(-1)(a)), i.e., g'(a) = 1 / f'(g(a))."
+            },
+            {
+              "q": "If f(x) = 2x + 3, what is the derivative of its inverse function?",
+              "options": [
+                "1/2",
+                "2",
+                "-1/2",
+                "3"
+              ],
+              "correct": 0,
+              "explanation": "The inverse is f^(-1)(x) = (x - 3)/2, whose derivative is 1/2. (Equivalently, 1/f'(x) = 1/2.)"
+            },
+            {
+              "q": "What is d/dx [ arcsin(x) ]?",
+              "options": [
+                "1 / sqrt(1 - x^2)",
+                "-1 / sqrt(1 - x^2)",
+                "1 / (1 + x^2)",
+                "1 / sqrt(x^2 - 1)"
+              ],
+              "correct": 0,
+              "explanation": "The derivative of arcsin(x) is 1 / sqrt(1 - x^2)."
+            },
+            {
+              "q": "What is d/dx [ arctan(x) ]?",
+              "options": [
+                "1 / (1 + x^2)",
+                "1 / sqrt(1 - x^2)",
+                "-1 / (1 + x^2)",
+                "1 / (1 - x^2)"
+              ],
+              "correct": 0,
+              "explanation": "The derivative of arctan(x) is 1 / (1 + x^2)."
+            },
+            {
+              "q": "What is d/dx [ arccos(x) ]?",
+              "options": [
+                "-1 / sqrt(1 - x^2)",
+                "1 / sqrt(1 - x^2)",
+                "-1 / (1 + x^2)",
+                "1 / (1 + x^2)"
+              ],
+              "correct": 0,
+              "explanation": "The derivative of arccos(x) is -1 / sqrt(1 - x^2)."
+            },
+            {
+              "q": "If f(x) = x^4, what is f''(x)?",
+              "options": [
+                "12x^2",
+                "4x^3",
+                "24x",
+                "12x^3"
+              ],
+              "correct": 0,
+              "explanation": "f'(x) = 4x^3, and f''(x) = 12x^2."
+            },
+            {
+              "q": "If f(x) = sin(x), what is f''(x)?",
+              "options": [
+                "-sin(x)",
+                "sin(x)",
+                "-cos(x)",
+                "cos(x)"
+              ],
+              "correct": 0,
+              "explanation": "f'(x) = cos(x), and f''(x) = -sin(x)."
+            },
+            {
+              "q": "If f(x) = x^3 - 2x, what is f''(x)?",
+              "options": [
+                "6x",
+                "3x^2 - 2",
+                "6x - 2",
+                "6"
+              ],
+              "correct": 0,
+              "explanation": "f'(x) = 3x^2 - 2, and f''(x) = 6x."
+            },
+            {
+              "q": "What is d/dx [ 5 arctan(x) ]?",
+              "options": [
+                "5 / (1 + x^2)",
+                "1 / (1 + x^2)",
+                "5 / sqrt(1 - x^2)",
+                "5x / (1 + x^2)"
+              ],
+              "correct": 0,
+              "explanation": "The constant multiple carries through: 5 * 1/(1 + x^2) = 5/(1 + x^2)."
+            },
+            {
+              "q": "For the circle x^2 + y^2 = 25, what is the slope of the tangent line at the point (3, 4)?",
+              "options": [
+                "-3/4",
+                "3/4",
+                "-4/3",
+                "4/3"
+              ],
+              "correct": 0,
+              "explanation": "dy/dx = -x/y. At (3, 4), the slope is -3/4."
+            },
+            {
+              "q": "If sin(y) = x, what is dy/dx?",
+              "options": [
+                "cos(y)",
+                "1/cos(y)",
+                "-1/cos(y)",
+                "1/sin(y)"
+              ],
+              "correct": 1,
+              "explanation": "Differentiate implicitly: cos(y)(dy/dx) = 1, so dy/dx = 1/cos(y)."
+            },
+            {
+              "q": "If e^y = x (with x > 0), what is dy/dx?",
+              "options": [
+                "1/x",
+                "x",
+                "e^x",
+                "1/e^x"
+              ],
+              "correct": 0,
+              "explanation": "Differentiate implicitly: e^y(dy/dx) = 1, so dy/dx = 1/e^y. Since e^y = x, dy/dx = 1/x."
+            },
+            {
+              "q": "If x^2 - y^2 = 1, what is dy/dx (assuming y not 0)?",
+              "options": [
+                "x/y",
+                "-x/y",
+                "y/x",
+                "-y/x"
+              ],
+              "correct": 0,
+              "explanation": "Differentiate implicitly: 2x - 2y(dy/dx) = 0. Solving gives dy/dx = x/y."
+            },
+            {
+              "q": "On the circle x^2 + y^2 = 16, at which points is the tangent line horizontal?",
+              "options": [
+                "Where x = 0",
+                "Where y = 0",
+                "Where x = y",
+                "Nowhere"
+              ],
+              "correct": 0,
+              "explanation": "dy/dx = -x/y = 0 requires x = 0. This occurs at (0, 4) and (0, -4), the top and bottom of the circle."
+            },
+            {
+              "q": "If x = cos(y), what is dy/dx?",
+              "options": [
+                "-1/sin(y)",
+                "1/sin(y)",
+                "-sin(y)",
+                "1/cos(y)"
+              ],
+              "correct": 0,
+              "explanation": "Differentiate implicitly: 1 = -sin(y)(dy/dx), so dy/dx = -1/sin(y)."
+            },
+            {
+              "q": "For y^2 = x^3 (a semicubical parabola), what is dy/dx at the point (1, 1)?",
+              "options": [
+                "3/2",
+                "2/3",
+                "3",
+                "1"
+              ],
+              "correct": 0,
+              "explanation": "Differentiate: 2y(dy/dx) = 3x^2, so dy/dx = 3x^2/(2y). At (1, 1): 3(1)/(2(1)) = 3/2."
+            },
+            {
+              "q": "The equation of the tangent line to x^2 + y^2 = 25 at (3, 4) is:",
+              "options": [
+                "y - 4 = -3/4 (x - 3)",
+                "y - 4 = 4/3 (x - 3)",
+                "y - 4 = 3/4 (x - 3)",
+                "y = -3/4 x"
+              ],
+              "correct": 0,
+              "explanation": "The slope at (3, 4) is dy/dx = -x/y = -3/4. Using point-slope form: y - 4 = -3/4 (x - 3)."
+            },
+            {
+              "q": "If f(2) = 5 and f'(2) = 3, and g is the inverse of f, what is g'(5)?",
+              "options": [
+                "3",
+                "1/3",
+                "5",
+                "1/5"
+              ],
+              "correct": 1,
+              "explanation": "g'(5) = 1 / f'(g(5)) = 1 / f'(2) = 1/3, since g(5) = 2."
+            },
+            {
+              "q": "Let f(x) = x^3. If g is the inverse of f, what is g'(8)?",
+              "options": [
+                "1/12",
+                "12",
+                "1/3",
+                "1/8"
+              ],
+              "correct": 0,
+              "explanation": "g(8) = 2 since 2^3 = 8. f'(x) = 3x^2, so f'(2) = 12. Then g'(8) = 1/f'(2) = 1/12."
+            }
+          ]
+        }
+      ],
+      "note": "Auto-graded practice from the Differentiation: Composite, Implicit, and Inverse Functions question bank."
+    },
+    {
+      "id": "differentiation-composite-implicit-inverse-test-2",
+      "title": "Practice Set B",
+      "level": "Challenge",
+      "time_limit_minutes": 30,
+      "total": 20,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Multiple Choice",
+          "questions": [
+            {
+              "q": "Let f(x) = x^3 + x + 1. If g is the inverse of f, what is g'(1)?",
+              "options": [
+                "1",
+                "1/2",
+                "1/4",
+                "2"
+              ],
+              "correct": 0,
+              "explanation": "f(0) = 1, so g(1) = 0. f'(x) = 3x^2 + 1, so f'(0) = 1. Then g'(1) = 1/f'(0) = 1/1 = 1."
+            },
+            {
+              "q": "Suppose f(1) = 4 and f'(1) = 2. If g = f^(-1), what is g'(4)?",
+              "options": [
+                "1/2",
+                "2",
+                "1/4",
+                "4"
+              ],
+              "correct": 0,
+              "explanation": "g'(4) = 1 / f'(g(4)) = 1 / f'(1) = 1/2, since g(4) = 1."
+            },
+            {
+              "q": "A differentiable function f has an inverse g. A table shows f(3) = 7 and f'(3) = 1/2. What is g'(7)?",
+              "options": [
+                "2",
+                "1/2",
+                "-2",
+                "7"
+              ],
+              "correct": 0,
+              "explanation": "g'(7) = 1 / f'(g(7)) = 1 / f'(3) = 1 / (1/2) = 2."
+            },
+            {
+              "q": "If f(x) = e^x, and g is its inverse, what is g'(x)?",
+              "options": [
+                "1/x",
+                "e^x",
+                "-1/x",
+                "ln(x)"
+              ],
+              "correct": 0,
+              "explanation": "The inverse of e^x is ln(x), whose derivative is 1/x. Equivalently, g'(x) = 1/f'(g(x)) = 1/e^(ln x) = 1/x."
+            },
+            {
+              "q": "What is d/dx [ arctan(2x) ]?",
+              "options": [
+                "2 / (1 + 4x^2)",
+                "1 / (1 + 4x^2)",
+                "2 / (1 + 2x^2)",
+                "2 / (1 + x^2)"
+              ],
+              "correct": 0,
+              "explanation": "By the Chain Rule, d/dx arctan(u) = u'/(1 + u^2). With u = 2x, the result is 2 / (1 + 4x^2)."
+            },
+            {
+              "q": "What is d/dx [ arcsin(x^2) ]?",
+              "options": [
+                "2x / sqrt(1 - x^4)",
+                "1 / sqrt(1 - x^4)",
+                "2x / sqrt(1 - x^2)",
+                "2x / (1 + x^4)"
+              ],
+              "correct": 0,
+              "explanation": "By the Chain Rule, d/dx arcsin(u) = u'/sqrt(1 - u^2). With u = x^2, u' = 2x and u^2 = x^4, giving 2x / sqrt(1 - x^4)."
+            },
+            {
+              "q": "What is the value of d/dx [ arctan(x) ] at x = 1?",
+              "options": [
+                "1/2",
+                "1",
+                "1/4",
+                "2"
+              ],
+              "correct": 0,
+              "explanation": "d/dx arctan(x) = 1/(1 + x^2). At x = 1, this equals 1/(1 + 1) = 1/2."
+            },
+            {
+              "q": "What is d/dx [ arcsin(x/3) ]?",
+              "options": [
+                "1 / sqrt(9 - x^2)",
+                "1 / (3 sqrt(1 - x^2))",
+                "3 / sqrt(9 - x^2)",
+                "1 / sqrt(1 - x^2/9)"
+              ],
+              "correct": 0,
+              "explanation": "d/dx arcsin(u) = u'/sqrt(1 - u^2) with u = x/3, u' = 1/3. This gives (1/3)/sqrt(1 - x^2/9) = (1/3)/(sqrt(9 - x^2)/3) = 1/sqrt(9 - x^2)."
+            },
+            {
+              "q": "What is d/dx [ arccos(2x) ]?",
+              "options": [
+                "-2 / sqrt(1 - 4x^2)",
+                "2 / sqrt(1 - 4x^2)",
+                "-1 / sqrt(1 - 4x^2)",
+                "-2 / (1 + 4x^2)"
+              ],
+              "correct": 0,
+              "explanation": "d/dx arccos(u) = -u'/sqrt(1 - u^2). With u = 2x, u' = 2, giving -2 / sqrt(1 - 4x^2)."
+            },
+            {
+              "q": "What is d/dx [ 3 arcsin(x) ]?",
+              "options": [
+                "3 / sqrt(1 - x^2)",
+                "1 / sqrt(1 - x^2)",
+                "3 / (1 + x^2)",
+                "-3 / sqrt(1 - x^2)"
+              ],
+              "correct": 0,
+              "explanation": "The constant multiple stays: 3 * d/dx arcsin(x) = 3 / sqrt(1 - x^2)."
+            },
+            {
+              "q": "What is d/dx [ x^2 sin(x) ]?",
+              "options": [
+                "2x sin(x) + x^2 cos(x)",
+                "2x cos(x)",
+                "2x sin(x) - x^2 cos(x)",
+                "x^2 cos(x)"
+              ],
+              "correct": 0,
+              "explanation": "By the Product Rule: (2x) sin(x) + x^2 (cos x) = 2x sin(x) + x^2 cos(x)."
+            },
+            {
+              "q": "What is d/dx [ sin(x) / x ]?",
+              "options": [
+                "(x cos(x) - sin(x)) / x^2",
+                "cos(x) / 1",
+                "(sin(x) - x cos(x)) / x^2",
+                "cos(x) / x^2"
+              ],
+              "correct": 0,
+              "explanation": "By the Quotient Rule: (x * cos(x) - sin(x) * 1) / x^2 = (x cos(x) - sin(x)) / x^2."
+            },
+            {
+              "q": "What is d/dx [ x e^x ]?",
+              "options": [
+                "e^x (x + 1)",
+                "e^x",
+                "x e^x",
+                "e^x (x - 1)"
+              ],
+              "correct": 0,
+              "explanation": "By the Product Rule: (1) e^x + x e^x = e^x(1 + x) = e^x(x + 1)."
+            },
+            {
+              "q": "Which rule is most appropriate to differentiate f(x) = (3x + 2)^10?",
+              "options": [
+                "Chain Rule",
+                "Product Rule",
+                "Quotient Rule",
+                "Power Rule only"
+              ],
+              "correct": 0,
+              "explanation": "The function is a composite (an inner linear function raised to a power), so the Chain Rule is used: 10(3x + 2)^9 * 3."
+            },
+            {
+              "q": "What is d/dx [ (x^2 + 1)(x^3 - 2) ]?",
+              "options": [
+                "5x^4 + 3x^2 - 4x",
+                "6x^2 - 4x",
+                "5x^4 - 4x",
+                "2x(x^3 - 2)"
+              ],
+              "correct": 0,
+              "explanation": "Product Rule: (2x)(x^3 - 2) + (x^2 + 1)(3x^2) = 2x^4 - 4x + 3x^4 + 3x^2 = 5x^4 + 3x^2 - 4x."
+            },
+            {
+              "q": "What is d/dx [ tan(x) / x ]?",
+              "options": [
+                "(x sec^2(x) - tan(x)) / x^2",
+                "sec^2(x) / x^2",
+                "(tan(x) - x sec^2(x)) / x^2",
+                "sec^2(x)"
+              ],
+              "correct": 0,
+              "explanation": "Quotient Rule: (x * sec^2(x) - tan(x) * 1) / x^2 = (x sec^2(x) - tan(x)) / x^2."
+            },
+            {
+              "q": "What is d/dx [ sqrt(x) sin(x) ]?",
+              "options": [
+                "sin(x)/(2 sqrt(x)) + sqrt(x) cos(x)",
+                "sqrt(x) cos(x)",
+                "cos(x)/(2 sqrt(x))",
+                "sin(x)/(2 sqrt(x))"
+              ],
+              "correct": 0,
+              "explanation": "Product Rule with d/dx sqrt(x) = 1/(2 sqrt(x)): (1/(2 sqrt(x))) sin(x) + sqrt(x) cos(x)."
+            },
+            {
+              "q": "To differentiate f(x) = cos(3x) / e^x, which combination of rules is required?",
+              "options": [
+                "Quotient Rule and Chain Rule",
+                "Product Rule only",
+                "Power Rule only",
+                "Chain Rule only"
+              ],
+              "correct": 0,
+              "explanation": "The function is a quotient (needs the Quotient Rule), and the numerator cos(3x) is composite (needs the Chain Rule)."
+            },
+            {
+              "q": "If f(x) = e^(2x), what is f''(x)?",
+              "options": [
+                "4e^(2x)",
+                "2e^(2x)",
+                "e^(2x)",
+                "4x e^(2x)"
+              ],
+              "correct": 0,
+              "explanation": "f'(x) = 2e^(2x), and f''(x) = 4e^(2x)."
+            },
+            {
+              "q": "If f(x) = cos(x), what is the fourth derivative f''''(x)?",
+              "options": [
+                "cos(x)",
+                "-cos(x)",
+                "sin(x)",
+                "-sin(x)"
+              ],
+              "correct": 0,
+              "explanation": "Derivatives cycle: f' = -sin(x), f'' = -cos(x), f''' = sin(x), f'''' = cos(x)."
+            }
+          ]
+        }
+      ],
+      "note": "A second auto-graded set covering Differentiation: Composite, Implicit, and Inverse Functions."
+    }
+  ]
+}

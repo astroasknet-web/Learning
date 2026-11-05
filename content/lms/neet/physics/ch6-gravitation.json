@@ -1,0 +1,168 @@
+{
+  "exam": "neet",
+  "subject": "physics",
+  "chapter": 6,
+  "title": "Gravitation",
+  "slug": "gravitation",
+  "subtitle": "Newton's law of gravitation, g, escape velocity & satellites",
+  "level": "NEET (UG)",
+  "color": "#2563eb",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "NEET Physics — Gravitation: universal law of gravitation, variation of g, gravitational potential energy, escape and orbital velocity, satellites and Kepler's laws with NEET-level examples and MCQs. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Newton's Law of Gravitation",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Universal Law of Gravitation and Acceleration due to Gravity",
+          "concept": "<p>Every particle of matter attracts every other particle. Newton captured this in the <strong>universal law of gravitation</strong>: two point masses $m_1$ and $m_2$ separated by distance $r$ attract each other with a force $F = G\\dfrac{m_1 m_2}{r^{2}}$, directed along the line joining them. The force is mutual (equal and opposite, by Newton's third law) and always attractive. The constant $G = 6.67\\times10^{-11}\\ \\text{N}\\cdot\\text{m}^{2}\\text{kg}^{-2}$ is the <strong>universal gravitational constant</strong> — the same everywhere, which is why the law is called universal.</p><p>It is important to separate $G$ from $g$. $G$ is a fundamental constant of nature; $g$, the <strong>acceleration due to gravity</strong>, is the acceleration a freely falling body experiences near a planet's surface and varies from place to place. Treating the Earth (mass $M$, radius $R$) as a sphere, the force on a surface mass $m$ is $\\dfrac{GMm}{R^{2}} = mg$, which gives the key relation $g = \\dfrac{GM}{R^{2}}$.</p><p>This relation explains several NEET facts. Because $g$ depends on $M/R^{2}$, a planet's surface gravity is set by its mass and size, not by the mass of the falling object — so all bodies fall with the same $g$ (in the absence of air). The Earth's mass can even be 'weighed' from $g$ and $R$: $M = \\dfrac{gR^{2}}{G}$, a classic application.</p><p>A subtle but examinable idea is the difference between <strong>mass</strong> and <strong>weight</strong>. Mass is the amount of matter, the same everywhere; weight is the gravitational force on it, $W = mg$, which changes with $g$. An astronaut's mass is unchanged in orbit, but their <em>weight</em> can be effectively zero — the state of weightlessness — because both they and their spacecraft fall together with the same acceleration, so there is no supporting normal force.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Relation</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Gravitational force</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$F = G\\dfrac{m_1 m_2}{r^{2}}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Surface gravity</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$g = \\dfrac{GM}{R^{2}}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Weight</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$W = mg$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>If the radius of a planet is doubled but its mass stays the same, how does surface gravity change?</p>",
+              "solution": "<p>$g = \\dfrac{GM}{R^{2}}$, so $g \\propto 1/R^{2}$. Doubling $R$ makes $g$ become $\\dfrac{1}{4}$ of its original value.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Two $5\\ \\text{kg}$ masses are $0.5\\ \\text{m}$ apart. Find the gravitational force between them. ($G = 6.67\\times10^{-11}$)</p>",
+              "solution": "<p>$F = G\\dfrac{m_1 m_2}{r^{2}} = 6.67\\times10^{-11}\\times\\dfrac{5\\times5}{0.25} = 6.67\\times10^{-9}\\ \\text{N}$ — tiny, which is why gravity between everyday objects is unnoticeable.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The gravitational force between two masses varies with distance as:</p>", "options": ["$1/r$", "$1/r^{2}$", "$r$", "$r^{2}$"], "correct": 1, "explanation": "$F \\propto 1/r^2$ (inverse-square law)." },
+            { "q": "<p>The value of $G$ is:</p>", "options": ["same everywhere in the universe", "different on each planet", "equal to $g$", "zero in space"], "correct": 0, "explanation": "$G$ is a universal constant." },
+            { "q": "<p>Surface gravity $g$ equals:</p>", "options": ["$GM R^{2}$", "$GM/R^{2}$", "$GM/R$", "$G/R^{2}$"], "correct": 1, "explanation": "$g = GM/R^2$." },
+            { "q": "<p>Mass of a body in deep space is:</p>", "options": ["zero", "the same as on Earth", "doubled", "halved"], "correct": 1, "explanation": "Mass is invariant; only weight changes with $g$." },
+            { "q": "<p>If both masses are doubled and distance unchanged, the gravitational force becomes:</p>", "options": ["double", "four times", "half", "unchanged"], "correct": 1, "explanation": "$F \\propto m_1 m_2$, so $2\\times2 = 4\\times$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Keep $G$ (universal constant) and $g$ (local acceleration) distinct. Use $g = GM/R^2$ to relate the two and to compare gravity on different planets.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Variation of g with Altitude, Depth and Rotation",
+          "concept": "<p>The value of $g$ is not fixed even on Earth — it falls as you rise above the surface, falls as you go below it, and changes slightly with latitude due to the Earth's rotation. Knowing how, and being able to compare two situations, is the heart of NEET questions on this topic.</p><p><strong>With altitude:</strong> at a height $h$ above the surface, $g_h = \\dfrac{GM}{(R+h)^{2}}$, so $g$ decreases as you go higher. For small heights ($h \\ll R$) this gives the handy approximation $g_h \\approx g\\left(1 - \\dfrac{2h}{R}\\right)$. The factor of $2$ here is a frequent NEET point — a fractional rise $h/R$ produces twice that fractional drop in $g$.</p><p><strong>With depth:</strong> below the surface, only the mass of the inner sphere of radius $(R-d)$ pulls on the body, giving $g_d = g\\left(1 - \\dfrac{d}{R}\\right)$ for a uniform Earth. So $g$ also decreases with depth, but <em>linearly</em>, and it becomes zero at the centre of the Earth, where a body is pulled equally in all directions. Comparing the two formulas, $g$ at small depth $d$ is larger than $g$ at the same height $d$.</p><p><strong>With rotation and shape:</strong> the Earth's spin makes the apparent $g$ slightly less at the equator than at the poles, because part of gravity provides the centripetal force for the rotating surface; the effect is largest at the equator and zero at the poles. The Earth is also slightly flattened (larger equatorial radius), which further reduces $g$ at the equator. The combined result is that $g$ is greatest at the poles and least at the equator — so a body weighs marginally more at the poles, a favourite assertion-reason theme.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Situation</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Value of g</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Height $h$ ($h \\ll R$)</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$g\\left(1 - \\dfrac{2h}{R}\\right)$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Depth $d$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$g\\left(1 - \\dfrac{d}{R}\\right)$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Centre of Earth</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$0$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>At what height (small) does $g$ fall to $98\\%$ of its surface value? (take $R = 6400\\ \\text{km}$)</p>",
+              "solution": "<p>$g_h \\approx g(1 - 2h/R)$. A $2\\%$ drop means $2h/R = 0.02$, so $h = 0.01R = 64\\ \\text{km}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Compare $g$ at depth $d$ with $g$ at height $d$ (both small).</p>",
+              "solution": "<p>At depth: $g(1 - d/R)$. At height: $g(1 - 2d/R)$. Since $d/R &lt; 2d/R$, $g$ at depth is <strong>greater</strong> than $g$ at the same height.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>As altitude increases, $g$:</p>", "options": ["increases", "decreases", "stays constant", "becomes negative"], "correct": 1, "explanation": "$g \\propto 1/(R+h)^2$ decreases with height." },
+            { "q": "<p>At the centre of the Earth, $g$ is:</p>", "options": ["maximum", "equal to surface value", "zero", "infinite"], "correct": 2, "explanation": "$g_d = g(1 - d/R)$ becomes zero at $d = R$ (centre)." },
+            { "q": "<p>For small height $h$, $g_h \\approx$:</p>", "options": ["$g(1 - h/R)$", "$g(1 - 2h/R)$", "$g(1 + h/R)$", "$g(1 + 2h/R)$"], "correct": 1, "explanation": "$g_h \\approx g(1 - 2h/R)$." },
+            { "q": "<p>The value of $g$ is greatest at the:</p>", "options": ["equator", "poles", "centre", "a height of 100 km"], "correct": 1, "explanation": "Rotation and equatorial bulge make $g$ largest at the poles." },
+            { "q": "<p>$g$ decreases with depth:</p>", "options": ["linearly", "as $1/d^{2}$", "exponentially", "it increases"], "correct": 0, "explanation": "$g_d = g(1 - d/R)$ is linear in depth." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Remember the asymmetry — for the same small distance, $g$ drops by $2h/R$ going up but only $d/R$ going down. So $g$ is larger at depth $d$ than at height $d$.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Gravitational Energy and Satellites",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Gravitational Potential Energy and Escape Velocity",
+          "concept": "<p>Lifting a body against gravity stores <strong>gravitational potential energy</strong>. Near the surface the familiar $mgh$ works, but over astronomical distances we use the general form $U = -\\dfrac{GMm}{r}$, taken as zero at infinity. The negative sign reflects that gravity is attractive — energy must be <em>supplied</em> to move a body away (to less negative values), and the body is in a 'potential well'. The closely related <strong>gravitational potential</strong> is the potential energy per unit mass, $V = -\\dfrac{GM}{r}$.</p><p>From this, the energy needed to send a body completely away from a planet — to escape its gravity — follows directly. The <strong>escape velocity</strong> is the minimum speed of projection from the surface for which the body just reaches infinity with zero speed. Equating kinetic energy to the depth of the potential well, $\\tfrac{1}{2}mv_e^{2} = \\dfrac{GMm}{R}$, gives $v_e = \\sqrt{\\dfrac{2GM}{R}} = \\sqrt{2gR}$.</p><p>Two features of escape velocity are heavily tested. First, it is <em>independent of the mass</em> of the escaping body — a pebble and a rocket need the same escape speed, since mass cancels out. Second, it depends only on the planet, through $M$ and $R$. For Earth, $v_e \\approx 11.2\\ \\text{km/s}$. A useful link is that escape velocity is $\\sqrt{2}$ times the orbital velocity at the surface.</p><p>The idea of escape velocity also explains why small bodies lack atmospheres and why black holes exist conceptually. If a planet's escape velocity is low, gas molecules moving faster than it leak away, so the Moon (low $v_e$) has no atmosphere while Earth retains one. Taken to the extreme, if a body were so dense that its escape velocity exceeded the speed of light, not even light could leave — the qualitative idea behind a black hole, which NEET sometimes mentions descriptively.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Expression</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Gravitational PE</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$U = -\\dfrac{GMm}{r}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Gravitational potential</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$V = -\\dfrac{GM}{r}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Escape velocity</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$v_e = \\sqrt{2GM/R} = \\sqrt{2gR}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>The escape velocity from Earth is $11.2\\ \\text{km/s}$. What would it be for a planet of the same radius but four times Earth's mass?</p>",
+              "solution": "<p>$v_e = \\sqrt{2GM/R} \\propto \\sqrt{M}$ (same $R$). Four times the mass gives $\\sqrt{4} = 2$ times the escape velocity, i.e. $22.4\\ \\text{km/s}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Does a heavier rocket need a greater escape velocity than a lighter one?</p>",
+              "solution": "<p>No. Escape velocity $v_e = \\sqrt{2gR}$ is <strong>independent of the mass of the body</strong> — it depends only on the planet. Both need the same $11.2\\ \\text{km/s}$ from Earth (though the heavier rocket needs more energy and fuel to reach that speed).</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Gravitational potential energy at infinity is taken as:</p>", "options": ["maximum", "zero", "negative", "infinite"], "correct": 1, "explanation": "$U = -GMm/r \\to 0$ as $r \\to \\infty$." },
+            { "q": "<p>Escape velocity from Earth is about:</p>", "options": ["$7.9\\ \\text{km/s}$", "$11.2\\ \\text{km/s}$", "$3\\times10^{8}\\ \\text{m/s}$", "$1\\ \\text{km/s}$"], "correct": 1, "explanation": "$v_e \\approx 11.2\\ \\text{km/s}$ for Earth." },
+            { "q": "<p>Escape velocity is independent of:</p>", "options": ["planet's mass", "planet's radius", "mass of the escaping body", "value of $g$"], "correct": 2, "explanation": "Mass of the body cancels out in $v_e = \\sqrt{2gR}$." },
+            { "q": "<p>Escape velocity equals orbital velocity (at surface) multiplied by:</p>", "options": ["$2$", "$\\sqrt{2}$", "$1/2$", "$\\sqrt{3}$"], "correct": 1, "explanation": "$v_e = \\sqrt{2}\\,v_o$." },
+            { "q": "<p>The Moon has no atmosphere mainly because its:</p>", "options": ["gravity is zero", "escape velocity is low", "temperature is high", "radius is large"], "correct": 1, "explanation": "Low escape velocity lets gas molecules leak into space." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> For escape problems use energy: $\\tfrac{1}{2}mv_e^2 = GMm/R$. Remember $v_e = \\sqrt{2}\\,v_{orbital}$ and that it doesn't depend on the body's mass.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Satellites, Orbital Velocity and Kepler's Laws",
+          "concept": "<p>A <strong>satellite</strong> stays in orbit because gravity supplies exactly the centripetal force needed for its circular path. Setting $\\dfrac{GMm}{r^{2}} = \\dfrac{mv_o^{2}}{r}$ gives the <strong>orbital velocity</strong> $v_o = \\sqrt{\\dfrac{GM}{r}}$, where $r$ is the orbital radius (planet radius plus height). Closer orbits are faster; the orbital speed depends only on the planet and the orbit radius, not on the satellite's mass.</p><p>The <strong>time period</strong> of the orbit is $T = \\dfrac{2\\pi r}{v_o} = 2\\pi\\sqrt{\\dfrac{r^{3}}{GM}}$. A <strong>geostationary satellite</strong> is one whose period equals one Earth day ($24\\ \\text{h}$) and which orbits over the equator in the direction of Earth's spin, so it appears fixed in the sky — ideal for communication. This requires an orbital radius of about $42{,}000\\ \\text{km}$ (height ≈ $36{,}000\\ \\text{km}$).</p><p>The energy of an orbiting satellite is worth memorising: its kinetic energy is $\\tfrac{1}{2}\\dfrac{GMm}{r}$, its potential energy is $-\\dfrac{GMm}{r}$, and the <strong>total energy</strong> is $E = -\\dfrac{GMm}{2r}$ — negative, as it must be for a bound orbit. The negative total energy is why a satellite cannot drift away; to escape it would need enough extra energy to reach zero.</p><p>Planetary motion obeys <strong>Kepler's three laws</strong>, which NEET tests directly. The <strong>first (law of orbits)</strong>: planets move in ellipses with the Sun at one focus. The <strong>second (law of areas)</strong>: the line joining planet and Sun sweeps equal areas in equal times — a consequence of conservation of angular momentum, which means a planet moves <em>faster</em> when nearer the Sun. The <strong>third (law of periods)</strong>: $T^{2} \\propto r^{3}$, so the square of the period is proportional to the cube of the (semi-major axis) radius. This third law lets you compare two satellites or planets without knowing $G$ or $M$, and is the single most-used result in this topic.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Expression / law</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Orbital velocity</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$v_o = \\sqrt{GM/r}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Time period</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$T = 2\\pi\\sqrt{r^{3}/GM}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Total energy</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$E = -\\dfrac{GMm}{2r}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Kepler's third law</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$T^{2} \\propto r^{3}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Two satellites orbit at radii $r$ and $4r$. Find the ratio of their time periods.</p>",
+              "solution": "<p>By Kepler's third law, $T^{2} \\propto r^{3}$, so $\\dfrac{T_2}{T_1} = \\left(\\dfrac{4r}{r}\\right)^{3/2} = 4^{3/2} = 8$. The outer satellite takes 8 times as long.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why does a planet move fastest when closest to the Sun?</p>",
+              "solution": "<p>By Kepler's second law (equal areas in equal times), which follows from conservation of angular momentum $L = mvr$. As $r$ decreases near the Sun, $v$ must increase to keep $L$ constant — so the planet speeds up at perihelion.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Orbital velocity of a satellite depends on:</p>", "options": ["the satellite's mass", "the orbit radius", "the satellite's shape", "its colour"], "correct": 1, "explanation": "$v_o = \\sqrt{GM/r}$ — independent of satellite mass." },
+            { "q": "<p>A geostationary satellite has a period of:</p>", "options": ["1 hour", "12 hours", "24 hours", "1 month"], "correct": 2, "explanation": "Its period equals one Earth day (24 h)." },
+            { "q": "<p>The total energy of a bound satellite is:</p>", "options": ["positive", "zero", "negative", "infinite"], "correct": 2, "explanation": "$E = -GMm/2r$ is negative for a bound orbit." },
+            { "q": "<p>Kepler's third law states:</p>", "options": ["$T \\propto r$", "$T^{2} \\propto r^{3}$", "$T^{3} \\propto r^{2}$", "$T \\propto r^{2}$"], "correct": 1, "explanation": "$T^2 \\propto r^3$." },
+            { "q": "<p>Kepler's second law (equal areas) is a consequence of conservation of:</p>", "options": ["energy", "linear momentum", "angular momentum", "mass"], "correct": 2, "explanation": "Equal-area law follows from conservation of angular momentum." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> For comparing two orbits use Kepler's third law $T^2 \\propto r^3$ — it needs neither $G$ nor $M$. For energy questions remember $E = -GMm/2r$ (negative = bound).</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-physics-ch6-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>If the distance between two masses is halved, the gravitational force becomes:</p>", "options": ["half", "double", "four times", "one-fourth"], "correct": 2, "explanation": "$F \\propto 1/r^2$; halving $r$ gives $4\\times$." },
+            { "q": "<p>The acceleration due to gravity on a planet with $g = GM/R^2$ depends on:</p>", "options": ["the falling body's mass", "$M$ and $R$ of the planet", "the body's velocity", "air pressure"], "correct": 1, "explanation": "$g$ depends only on the planet's mass and radius." },
+            { "q": "<p>Escape velocity from Earth's surface is:</p>", "options": ["$\\sqrt{gR}$", "$\\sqrt{2gR}$", "$2gR$", "$gR$"], "correct": 1, "explanation": "$v_e = \\sqrt{2gR}$." },
+            { "q": "<p>At a height equal to the Earth's radius, $g$ becomes:</p>", "options": ["$g$", "$g/2$", "$g/4$", "zero"], "correct": 2, "explanation": "$g_h = g R^2/(R+h)^2 = g/4$ at $h = R$." },
+            { "q": "<p>The orbital velocity of a satellite close to Earth's surface is about:</p>", "options": ["$7.9\\ \\text{km/s}$", "$11.2\\ \\text{km/s}$", "$3\\ \\text{km/s}$", "$1\\ \\text{km/s}$"], "correct": 0, "explanation": "$v_o = \\sqrt{gR} \\approx 7.9\\ \\text{km/s}$." },
+            { "q": "<p>Weight of a body at the centre of the Earth is:</p>", "options": ["maximum", "same as surface", "zero", "negative"], "correct": 2, "explanation": "$g = 0$ at the centre, so weight $= 0$." },
+            { "q": "<p>For two planets, $T^2 \\propto r^3$ is:</p>", "options": ["Kepler's first law", "Kepler's second law", "Kepler's third law", "Newton's law"], "correct": 2, "explanation": "Law of periods = Kepler's third law." },
+            { "q": "<p>A satellite's total mechanical energy in orbit is:</p>", "options": ["$+GMm/2r$", "$-GMm/2r$", "$-GMm/r$", "zero"], "correct": 1, "explanation": "$E = -GMm/2r$ for a circular orbit." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> Escape velocity does not depend on the mass of the projected body.<br><strong>R:</strong> In $v_e = \\sqrt{2gR}$, the body's mass cancels out.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Mass cancels in the energy balance, so R explains A." },
+            { "q": "<p><strong>A:</strong> A planet moves faster when it is nearer the Sun.<br><strong>R:</strong> The angular momentum of the planet about the Sun is conserved.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Conservation of angular momentum (equal-area law) makes the planet speed up near the Sun — R explains A." },
+            { "q": "<p><strong>A:</strong> The value of $g$ is exactly the same at the poles and at the equator.<br><strong>R:</strong> The Earth's rotation and its equatorial bulge make $g$ vary with latitude.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "$g$ is larger at the poles than the equator, so A is false; rotation and the bulge do make $g$ vary with latitude, so R is true." },
+            { "q": "<p><strong>A:</strong> The total energy of a satellite in a bound orbit is negative.<br><strong>R:</strong> A bound system needs extra energy supplied to reach infinity (zero energy).</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Being bound (negative energy) means energy must be added to escape — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

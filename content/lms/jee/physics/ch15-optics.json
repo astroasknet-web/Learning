@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "physics",
+  "chapter": 15,
+  "title": "Optics",
+  "slug": "optics",
+  "subtitle": "Optics for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#a855f7",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "Master Optics for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Ray Optics",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Reflection by Mirrors",
+          "concept": "<p><strong>Laws of Reflection:</strong> (i) Angle of incidence = angle of reflection. (ii) Incident ray, reflected ray, normal lie in same plane.</p><p><strong>Sign Convention (Cartesian):</strong> Distances measured from pole, in direction of incident light positive, against negative. Heights above principal axis positive, below negative.</p><p><strong>Mirror Equation:</strong> $\\dfrac{1}{v} + \\dfrac{1}{u} = \\dfrac{1}{f}$, where $f$ = focal length, $u$ = object distance, $v$ = image distance.</p><p><strong>Magnification:</strong> $m = -v/u = h'/h$. Positive: virtual & erect; negative: real & inverted.</p><p><strong>Relation:</strong> $f = R/2$ for spherical mirrors ($R$ = radius of curvature).</p><p><strong>Concave mirror</strong> ($f < 0$ in convention): produces real, inverted images for object beyond $F$; virtual, erect, magnified for object between $F$ and $P$.</p><p><strong>Convex mirror</strong> ($f > 0$): always virtual, erect, diminished image (used as rear-view mirror).</p><p><strong>Image Formation by Concave Mirror:</strong></p><table class=\"md-table\"><thead><tr><th>Object position</th><th>Image position</th><th>Nature</th></tr></thead><tbody><tr><td>At infinity</td><td>At $F$</td><td>Real, point</td></tr><tr><td>Beyond $C$</td><td>Between $F$ and $C$</td><td>Real, inverted, diminished</td></tr><tr><td>At $C$</td><td>At $C$</td><td>Real, inverted, same size</td></tr><tr><td>Between $C$ and $F$</td><td>Beyond $C$</td><td>Real, inverted, magnified</td></tr><tr><td>At $F$</td><td>At infinity</td><td>Real, highly magnified</td></tr><tr><td>Between $F$ and $P$</td><td>Behind mirror</td><td>Virtual, erect, magnified</td></tr></tbody></table><p>For convex mirror: image is always virtual, erect, diminished, between $P$ and $F$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>An object is placed $30$ cm in front of a concave mirror of $f = 20$ cm. Find image position and magnification.</p>",
+              "solution": "<p>$u = -30$, $f = -20$. $$\\frac{1}{v} = \\frac{1}{f} - \\frac{1}{u} = -\\frac{1}{20} + \\frac{1}{30} = \\frac{-3+2}{60} = -\\frac{1}{60}$$ $v = -60$ cm. Image $60$ cm in front (real). $m = -v/u = -60/30 = -2$.</p><p><strong>Final Answer:</strong> Image at $60$ cm in front; $m = -2$ (real, inverted, magnified $2\\times$).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A $5$ cm object is placed $10$ cm from convex mirror of $f = 15$ cm. Find image distance and size.</p>",
+              "solution": "<p>$u = -10$, $f = +15$. $$\\frac{1}{v} = \\frac{1}{15} + \\frac{1}{10} = \\frac{2+3}{30} = \\frac{1}{6} \\implies v = 6 \\text{ cm}$$ $m = -v/u = -6/(-10) = 0.6$. Image size = $0.6 \\times 5 = 3$ cm.</p><p><strong>Final Answer:</strong> $v = +6$ cm (virtual, behind mirror); size $3$ cm, erect.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Focal length of a spherical mirror of $R = 20$ cm:</p>",
+              "options": [
+                "$20$ cm",
+                "$40$ cm",
+                "$10$ cm",
+                "$5$ cm"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A convex mirror always forms:</p>",
+              "options": [
+                "Real image",
+                "Virtual image",
+                "Inverted image",
+                "Magnified image"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The image formed by a plane mirror is:</p>",
+              "options": [
+                "Real and inverted",
+                "Virtual, erect, of same size",
+                "Magnified",
+                "Diminished"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In a concave mirror, when object is at $C$:</p>",
+              "options": [
+                "Image at infinity",
+                "Image at $C$ same size",
+                "Image at $F$",
+                "Image is virtual"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Magnification of mirror given by:</p>",
+              "options": [
+                "$u/v$",
+                "$-v/u$",
+                "$v + u$",
+                "$uv$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Refraction, Lenses and Prism",
+          "concept": "<p><strong>Laws of Refraction (Snell's):</strong> $n_1\\sin\\theta_1 = n_2\\sin\\theta_2$. <strong>Refractive index:</strong> $n = c/v$ where $v$ = speed of light in medium.</p><p><strong>Total Internal Reflection (TIR):</strong> Occurs when light travels from denser to rarer medium at angle $> \\theta_c$ (critical angle): $$\\sin\\theta_c = \\frac{1}{n} = \\frac{n_2}{n_1} \\quad (n_1 > n_2)$$ Examples: mirage, optical fibre, brilliance of diamond ($n = 2.42$, $\\theta_c \\approx 24°$).</p><p><strong>Refraction at Spherical Surface:</strong> $$\\frac{n_2}{v} - \\frac{n_1}{u} = \\frac{n_2 - n_1}{R}$$</p><p><strong>Lens Maker's Formula:</strong> $$\\frac{1}{f} = (n-1)\\left(\\frac{1}{R_1} - \\frac{1}{R_2}\\right)$$ $R_1, R_2$ with sign convention.</p><p><strong>Thin Lens Formula:</strong> $\\dfrac{1}{v} - \\dfrac{1}{u} = \\dfrac{1}{f}$. <strong>Magnification:</strong> $m = v/u$. <strong>Power:</strong> $P = 1/f(\\text{in m})$, units <strong>diopter (D)</strong>.</p><p><strong>Lens Combinations (in contact):</strong> $P = P_1 + P_2$, $1/f = 1/f_1 + 1/f_2$.</p><p><strong>Prism:</strong></p><ul><li>Deviation: $\\delta = (i_1 + i_2) - A$ where $A$ = prism angle</li><li>Minimum deviation when $i_1 = i_2$ ($r_1 = r_2 = A/2$)</li><li>$n = \\dfrac{\\sin[(A+\\delta_m)/2]}{\\sin(A/2)}$</li><li>For small prism: $\\delta = (n-1)A$</li></ul><p><strong>Dispersion:</strong> Splitting of white light into colors by prism. <strong>Dispersive power:</strong> $\\omega = (\\mu_v - \\mu_r)/(\\mu - 1)$.</p><p><strong>Achromatic combination of prisms:</strong> $\\omega_1 A_1 + \\omega_2 A_2 = 0$ (chosen so dispersions cancel but deviation remains).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Light enters from water ($n = 1.33$) into glass ($n = 1.5$) at $30°$. Find angle of refraction.</p>",
+              "solution": "<p>$$n_1\\sin\\theta_1 = n_2\\sin\\theta_2$$ $$\\sin\\theta_2 = \\frac{1.33 \\times 0.5}{1.5} = 0.4433$$ $\\theta_2 = \\sin^{-1}(0.4433) \\approx 26.3°$.</p><p><strong>Final Answer:</strong> $\\theta_2 \\approx 26.3°$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A biconvex lens has $R_1 = 20$ cm, $R_2 = -30$ cm, $n = 1.5$. Find focal length.</p>",
+              "solution": "<p>$$\\frac{1}{f} = (1.5-1)\\left(\\frac{1}{20} - \\frac{1}{-30}\\right) = 0.5\\left(\\frac{1}{20} + \\frac{1}{30}\\right)$$ $$= 0.5 \\times \\frac{3+2}{60} = 0.5 \\times \\frac{5}{60} = \\frac{1}{24}$$ $f = 24$ cm.</p><p><strong>Final Answer:</strong> $f = 24$ cm.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Critical angle for glass ($n = 1.5$):</p>",
+              "options": [
+                "$30°$",
+                "$42°$",
+                "$45°$",
+                "$60°$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The power of a lens of focal length $-20$ cm:</p>",
+              "options": [
+                "$-5$ D",
+                "$+5$ D",
+                "$-20$ D",
+                "$+0.2$ D"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Total internal reflection occurs when light goes:</p>",
+              "options": [
+                "Rarer to denser",
+                "Denser to rarer at angle > critical",
+                "Through air",
+                "Through vacuum"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two thin lenses of $f_1 = 10$ cm and $f_2 = -15$ cm in contact. Equivalent focal length:</p>",
+              "options": [
+                "$30$ cm",
+                "$25$ cm",
+                "$-25$ cm",
+                "$-30$ cm"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>White light passing through a prism splits into colours because of:</p>",
+              "options": [
+                "Reflection",
+                "Diffraction",
+                "Dispersion",
+                "Polarization"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Wave Optics",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Interference and YDSE",
+          "concept": "<p><strong>Huygens' Principle:</strong> Every point on a wavefront is a source of secondary wavelets; the new wavefront is the envelope of these.</p><p><strong>Coherent Sources:</strong> Sources of same frequency, fixed phase relation, comparable amplitude. Required for sustained interference. Typically derived from same source (Young's slits, Lloyd's mirror, Fresnel biprism).</p><p><strong>Superposition / Interference:</strong> Resultant intensity at point with phase difference $\\phi$: $$I = I_1 + I_2 + 2\\sqrt{I_1 I_2}\\cos\\phi$$</p><p>For $I_1 = I_2 = I_0$: $I = 4I_0\\cos^2(\\phi/2)$.</p><ul><li><strong>Constructive interference:</strong> $\\phi = 2n\\pi$ (path difference $= n\\lambda$); $I_{\\max} = (\\sqrt{I_1}+\\sqrt{I_2})^2$</li><li><strong>Destructive interference:</strong> $\\phi = (2n+1)\\pi$ (path difference $= (n+1/2)\\lambda$); $I_{\\min} = (\\sqrt{I_1}-\\sqrt{I_2})^2$</li></ul><p><strong>Young's Double Slit Experiment (YDSE):</strong> Two slits separated by $d$, screen at distance $D$.</p><table class=\"md-table\"><thead><tr><th>Quantity</th><th>Formula</th></tr></thead><tbody><tr><td>Path difference at point $y$</td><td>$\\Delta x = yd/D$</td></tr><tr><td>Bright fringe positions</td><td>$y_n = n\\lambda D/d$, $n = 0, \\pm 1, \\pm 2,\\ldots$</td></tr><tr><td>Dark fringe positions</td><td>$y_n = (n+1/2)\\lambda D/d$</td></tr><tr><td><strong>Fringe width</strong></td><td>$\\beta = \\lambda D/d$</td></tr><tr><td>Angular fringe width</td><td>$\\theta = \\lambda/d$</td></tr></tbody></table><p><strong>Fringe width</strong> independent of fringe order. Decreases if $d$ increases or $D$ decreases.</p><p><strong>In medium of refractive index $n$:</strong> $\\lambda' = \\lambda/n$, so fringe width decreases by factor $n$.</p><p><strong>Effect of inserting glass slab</strong> of thickness $t$ and index $n$ in one path: extra path = $(n-1)t$ → pattern shifts by $(n-1)tD/d$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>In YDSE, $\\lambda = 500$ nm, $d = 1$ mm, $D = 1$ m. Find fringe width.</p>",
+              "solution": "<p>$$\\beta = \\frac{\\lambda D}{d} = \\frac{500 \\times 10^{-9} \\times 1}{10^{-3}} = 5 \\times 10^{-4} \\text{ m} = 0.5 \\text{ mm}$$</p><p><strong>Final Answer:</strong> $\\beta = 0.5$ mm.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>In YDSE the entire arrangement is immersed in water ($n = 4/3$). If original $\\beta = 0.6$ mm, find new $\\beta$.</p>",
+              "solution": "<p>$$\\beta' = \\beta/n = 0.6/(4/3) = 0.45 \\text{ mm}$$</p><p><strong>Final Answer:</strong> $\\beta' = 0.45$ mm.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>For sustained interference, sources must be:</p>",
+              "options": [
+                "Identical in frequency only",
+                "Coherent",
+                "Polarized",
+                "Of different colours"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Fringe width in YDSE is proportional to:</p>",
+              "options": [
+                "$d$",
+                "$1/D$",
+                "$\\lambda$",
+                "$1/\\lambda$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>At a point of destructive interference, intensity:</p>",
+              "options": [
+                "Maximum",
+                "Zero (for equal amplitudes)",
+                "$4I_0$",
+                "$I_0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>If YDSE is performed in vacuum versus water, fringe width:</p>",
+              "options": [
+                "Increases",
+                "Decreases",
+                "Same",
+                "Becomes zero"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The central fringe in YDSE is:</p>",
+              "options": [
+                "Always dark",
+                "Always bright",
+                "Coloured",
+                "Depends on path"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Diffraction, Polarization and Optical Instruments",
+          "concept": "<p><strong>Diffraction:</strong> Bending of light around obstacles or through narrow openings. Significant when slit width $\\sim \\lambda$.</p><p><strong>Single Slit Diffraction:</strong></p><ul><li>Position of dark fringes: $d\\sin\\theta = n\\lambda$, $n = \\pm 1, \\pm 2, \\ldots$</li><li>Position of secondary maxima: $d\\sin\\theta \\approx (n + 1/2)\\lambda$</li><li><strong>Width of central maximum:</strong> $2\\lambda D/d$ (twice the width of secondary maxima)</li></ul><p><strong>Resolving Power:</strong></p><ul><li>Microscope: $R = 2n\\sin\\theta/(1.22\\lambda)$</li><li>Telescope: $R = D/(1.22\\lambda)$, where $D$ = aperture</li></ul><p>Larger aperture / shorter wavelength → better resolution.</p><p><strong>Polarization:</strong> EM waves are transverse → can be polarized. Unpolarized light has $\\vec{E}$ vibrating in all directions; polarized has it in one plane.</p><p><strong>Malus' Law:</strong> $I = I_0\\cos^2\\theta$, where $\\theta$ = angle between polarizer axis and $\\vec{E}$.</p><p><strong>Brewster's Law:</strong> When light strikes a dielectric at $\\theta_B$ such that reflected and refracted rays are perpendicular, the reflected ray is fully polarized. $$\\tan\\theta_B = n$$ (Brewster's angle).</p><p><strong>Optical Instruments:</strong></p><table class=\"md-table\"><thead><tr><th>Instrument</th><th>Magnification (image at $D$)</th><th>Magnification (image at infinity)</th></tr></thead><tbody><tr><td>Simple microscope</td><td>$m = 1 + D/f$</td><td>$m = D/f$</td></tr><tr><td>Compound microscope</td><td>$m = (L/f_o)(1 + D/f_e)$</td><td>$m = (L/f_o)(D/f_e)$</td></tr><tr><td>Telescope</td><td>$m = (f_o/f_e)(1 + f_e/D)$</td><td>$m = f_o/f_e$</td></tr><tr><td>Length of telescope</td><td>—</td><td>$L = f_o + f_e$</td></tr></tbody></table><p>For telescope: large $f_o$ and small $f_e$ for high magnification.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Unpolarized light of intensity $I_0$ passes through two polarizers at $60°$. Find transmitted intensity.</p>",
+              "solution": "<p>After first polarizer: $I_1 = I_0/2$. After second (Malus' law): $I = I_1\\cos^2 60° = (I_0/2)(1/4) = I_0/8$.</p><p><strong>Final Answer:</strong> $I = I_0/8$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A telescope has $f_o = 100$ cm, $f_e = 5$ cm. Find magnification and length (image at infinity).</p>",
+              "solution": "<p>$$m = f_o/f_e = 100/5 = 20$$ $$L = f_o + f_e = 105 \\text{ cm}$$</p><p><strong>Final Answer:</strong> $m = 20$; $L = 105$ cm.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The width of central maximum in single-slit diffraction is:</p>",
+              "options": [
+                "$\\lambda D/d$",
+                "$2\\lambda D/d$",
+                "$\\lambda D/(2d)$",
+                "$\\lambda/d$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Brewster's angle for water ($n = 1.33$):</p>",
+              "options": [
+                "$53°$",
+                "$42°$",
+                "$90°$",
+                "$30°$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Malus' law:</p>",
+              "options": [
+                "$I = I_0\\cos\\theta$",
+                "$I = I_0\\sin\\theta$",
+                "$I = I_0\\cos^2\\theta$",
+                "$I = I_0\\sin^2\\theta$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Resolving power of telescope depends on:</p>",
+              "options": [
+                "Aperture",
+                "Magnification",
+                "Eyepiece focal length",
+                "Length"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In compound microscope, the eyepiece has:</p>",
+              "options": [
+                "Long focal length",
+                "Short focal length",
+                "Same as objective",
+                "Larger aperture"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-phys-optics-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>Image formed by a plane mirror is:</p>",
+              "options": [
+                "Real, inverted",
+                "Virtual, erect, same size, laterally inverted",
+                "Real, erect",
+                "Diminished"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A convex lens of $f = 20$ cm is used to view an object placed $10$ cm away. The image is:</p>",
+              "options": [
+                "Real, magnified",
+                "Virtual, magnified",
+                "Real, diminished",
+                "Virtual, diminished"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Refractive index of medium where speed of light is $2 \\times 10^8$ m/s:</p>",
+              "options": [
+                "$1.5$",
+                "$2$",
+                "$1.33$",
+                "$2/3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The critical angle for diamond ($n = 2.42$) is approximately:</p>",
+              "options": [
+                "$24°$",
+                "$42°$",
+                "$60°$",
+                "$30°$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In YDSE, the maximum number of bright fringes formed on a screen of width $W$ (with slit separation $d$, wavelength $\\lambda$):</p>",
+              "options": [
+                "$2W/d$",
+                "Depends on $D$ only",
+                "$2d/\\lambda + 1$ (in principle)",
+                "Infinite"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two coherent sources of equal intensity superpose. Ratio of maximum to minimum intensity:</p>",
+              "options": [
+                "$1:1$",
+                "$4:1$",
+                "$\\infty:0$",
+                "$2:1$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The polarizing angle for a medium:</p>",
+              "options": [
+                "$0°$",
+                "$30°$",
+                "Depends on refractive index",
+                "$90°$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A converging lens of $f = 10$ cm; object at $20$ cm. Image distance:</p>",
+              "options": [
+                "$20$ cm",
+                "$30$ cm",
+                "$-20$ cm",
+                "$5$ cm"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two slits in YDSE are illuminated by light of wavelengths $400$ nm and $600$ nm. Position of first coincidence of bright fringes from centre (in terms of $\\lambda$):</p>",
+              "options": [
+                "$2 \\times 400$ nm path",
+                "$3 \\times 400$ nm = $2 \\times 600$ nm (third fringe of $400$, second of $600$)",
+                "Never coincides",
+                "At centre only"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Power of a lens of focal length $25$ cm:</p>",
+              "options": [
+                "$4$ D",
+                "$25$ D",
+                "$0.04$ D",
+                "$40$ D"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>A prism of $A = 60°$, minimum deviation $30°$. The refractive index $n$ to two decimal places, then multiplied by $100$ (rounded integer):</p>",
+              "answer": "141",
+              "explanation": ""
+            },
+            {
+              "q": "<p>In YDSE: $d = 0.5$ mm, $D = 1$ m, $\\lambda = 500$ nm. Fringe width in mm:</p>",
+              "answer": "1",
+              "explanation": ""
+            },
+            {
+              "q": "<p>An object of $4$ cm is placed $30$ cm from a concave mirror of $f = 15$ cm. Image height (magnitude in cm, integer):</p>",
+              "answer": "4",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> A convex mirror is used as a rear-view mirror in vehicles. <strong>Reason (R):</strong> It produces a virtual, erect, diminished image with a wide field of view.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> Two independent sources cannot produce sustained interference. <strong>Reason (R):</strong> They emit light of different frequencies and have random phase difference.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

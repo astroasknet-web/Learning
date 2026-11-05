@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "chemistry",
+  "chapter": 18,
+  "title": "Amines",
+  "slug": "amines",
+  "subtitle": "Basicity, preparation, named tests and diazonium chemistry of amines for NEET",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "NEET Chemistry — Amines: classification & preparation (Gabriel, Hofmann bromamide), basicity order (aliphatic vs aniline, gas vs aqueous), carbylamine and Hinsberg tests, reaction with nitrous acid, and diazonium salts (Sandmeyer, coupling, azo dyes). NCERT notes, NEET traps & MCQs, free on GrowQR.",
+    "focus_keyword": "amines NEET",
+    "secondary_keywords": [
+      "basicity of amines NEET",
+      "Gabriel phthalimide synthesis NEET",
+      "Hofmann bromamide degradation NEET",
+      "carbylamine test NEET",
+      "diazonium salt reactions NEET"
+    ],
+    "keywords": [
+      "amines NEET",
+      "basicity of amines NEET",
+      "diazonium salt NEET",
+      "Hofmann bromamide NEET",
+      "azo dye NEET"
+    ]
+  },
+  "summary": "<ul><li><strong>Amines</strong> are $\\text{NH}_3$ derivatives, classified $1^\\circ, 2^\\circ, 3^\\circ$ by the number of <em>carbons on nitrogen</em> (not on a carbon — a NEET trap), plus quaternary ammonium salts.</li><li><strong>Preparation:</strong> reduction of nitro compounds (nitrobenzene $\\rightarrow$ aniline), ammonolysis (gives a mixture), nitrile reduction (adds one C), <em>Gabriel synthesis</em> (pure $1^\\circ$ aliphatic only), <em>Hofmann bromamide</em> (amide $\\rightarrow$ amine with one fewer C).</li><li><strong>Basicity:</strong> alkyl groups ($+\\text{I}$) make aliphatic amines <em>more</em> basic than $\\text{NH}_3$; aniline's lone pair is delocalised into the ring, so it is <em>much less</em> basic.</li><li>Aqueous basicity of methylamines: $(\\text{CH}_3)_2\\text{NH} \\gt \\text{CH}_3\\text{NH}_2 \\gt (\\text{CH}_3)_3\\text{N} \\gt \\text{NH}_3$ (solvation + steric).</li><li><strong>Carbylamine test</strong> (R–NH$_2$ + $\\text{CHCl}_3$ + KOH $\\rightarrow$ foul isocyanide) detects $1^\\circ$ amines only; <strong>Hinsberg test</strong> distinguishes $1^\\circ/2^\\circ/3^\\circ$.</li><li>With $\\text{HNO}_2$: $1^\\circ$ aromatic amines give a stable <strong>diazonium salt</strong> at 273–278 K.</li><li><strong>Diazonium salts</strong> undergo replacement ($-\\text{N}_2^+$ by $-\\text{OH}, -\\text{Cl}, -\\text{Br}, -\\text{I}, -\\text{CN}, -\\text{H}$ via Sandmeyer/Balz–Schiemann etc.) and <strong>coupling</strong> with phenol/aniline to give azo dyes.</li></ul>",
+  "faqs": [
+    { "q": "Why is aniline a weaker base than ethylamine?", "a": "In aniline the nitrogen lone pair is delocalised into the benzene ring by resonance, so it is less available to accept a proton; protonation also destroys that stabilisation. In ethylamine the lone pair is fully available and the ethyl group even pushes electron density onto nitrogen (+I effect), so ethylamine is a much stronger base than aniline." },
+    { "q": "What is the difference between the Gabriel synthesis and the Hofmann bromamide degradation?", "a": "The Gabriel phthalimide synthesis makes pure primary aliphatic amines from an alkyl halide via potassium phthalimide; it does not work for aromatic amines because aryl halides do not react with the phthalimide ion. The Hofmann bromamide degradation converts an amide to a primary amine using Br2 and NaOH, and the product has one fewer carbon than the starting amide." },
+    { "q": "What is the carbylamine test?", "a": "When a primary amine (aliphatic or aromatic) is warmed with chloroform and alcoholic KOH, it forms a carbylamine (an isocyanide) that has an extremely unpleasant smell. Secondary and tertiary amines do not give this reaction, so the foul odour is a specific test for primary amines." },
+    { "q": "What do diazonium coupling reactions produce?", "a": "An arenediazonium salt couples with an electron-rich aromatic compound such as phenol or aniline to give an azo compound containing the –N=N– linkage. These azo compounds are intensely coloured (yellow, orange, red) and are the basis of many synthetic azo dyes used in textiles." },
+    { "q": "What is the basicity order of methylamines in aqueous solution?", "a": "In water the order is (CH3)2NH > CH3NH2 > (CH3)3N > NH3. It is not the simple inductive order (which would put trimethylamine first) because the more N–H bonds a protonated amine has, the better it is solvated by water, and trimethylamine is also sterically hindered — so the secondary amine comes out on top." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Amines: Structure, Preparation and Basicity",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Classification, Nomenclature and Preparation of Amines",
+          "concept": "<p>Amines are organic derivatives of ammonia in which one, two or three hydrogens of $\\text{NH}_3$ are replaced by alkyl or aryl groups. The nitrogen keeps a <strong>lone pair</strong>, which is responsible for the two themes of the chapter — basicity and nucleophilic reactions. A frequent NEET trap lies in the classification: amines are called <strong>primary, secondary or tertiary by the number of carbon groups attached to the nitrogen</strong> ($1^\\circ$ = one, $2^\\circ$ = two, $3^\\circ$ = three), which is different from the way alcohols and halides are classified (by the carbon bearing the functional group). A fourth class, <em>quaternary ammonium salts</em> ($\\text{R}_4\\text{N}^+$), has four groups on a positively charged nitrogen.</p><p>Amines are also divided into <em>aliphatic</em> (e.g. methylamine) and <em>aromatic</em> (e.g. aniline, where $-\\text{NH}_2$ is on a ring) — a distinction that matters greatly for basicity. In IUPAC naming they are <em>alkanamines</em> (methanamine, ethanamine), with $N$-prefixes for groups on the nitrogen of secondary and tertiary amines.</p><p>The main <strong>preparations</strong> add or keep carbons in characteristic ways, which NEET loves to test. <em>Reduction of nitro compounds</em> (nitrobenzene with Sn/HCl, Fe/HCl or $\\text{H}_2$/Ni) is the standard route to aromatic amines such as aniline. <em>Ammonolysis</em> of an alkyl halide with excess $\\text{NH}_3$ gives amines but is <strong>not selective</strong> — it produces a mixture of $1^\\circ$, $2^\\circ$, $3^\\circ$ amines and the quaternary salt, which is its main drawback. <em>Reduction of nitriles</em> (R–CN with $\\text{H}_2$/Ni or $\\text{LiAlH}_4$) gives a primary amine with <strong>one more carbon</strong> than R, while <em>reduction of amides</em> with $\\text{LiAlH}_4$ gives an amine with the <em>same</em> number of carbons.</p><p>Two named methods give clean products. The <strong>Gabriel phthalimide synthesis</strong> makes <em>pure primary aliphatic amines</em> (free of $2^\\circ$/$3^\\circ$ contamination) from an alkyl halide and potassium phthalimide; importantly it <strong>fails for aromatic amines</strong>, because aryl halides do not react with the phthalimide ion. The <strong>Hofmann bromamide degradation</strong> converts an amide to a primary amine using $\\text{Br}_2$ and $\\text{NaOH}$, and the product has <strong>one fewer carbon</strong> than the amide. Remembering 'nitrile $+1$ C, Hofmann $-1$ C, Gabriel = pure $1^\\circ$ (aliphatic only)' answers many synthesis questions instantly.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Method</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Note</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Nitro reduction (Sn/HCl)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>nitrobenzene $\\rightarrow$ aniline</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Nitrile reduction</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$1^\\circ$ amine, +1 carbon</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Gabriel synthesis</td><td style='border:1px solid #dcfce7;padding:6px 10px'>pure $1^\\circ$ aliphatic (not aromatic)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Hofmann bromamide</td><td style='border:1px solid #dcfce7;padding:6px 10px'>amide $\\rightarrow$ amine, −1 carbon</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why can the Gabriel synthesis not be used to prepare aniline?</p>",
+              "solution": "<p>Because aniline is an <strong>aromatic</strong> amine, and the Gabriel synthesis needs the phthalimide ion to react with the halide by substitution. <strong>Aryl halides do not react with the phthalimide ion</strong> (they resist nucleophilic substitution), so no aromatic amine forms.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>An amide $\\text{CH}_3\\text{CH}_2\\text{CONH}_2$ is treated with $\\text{Br}_2$ and NaOH. Name the reaction and the product's carbon count.</p>",
+              "solution": "<p>This is the <strong>Hofmann bromamide degradation</strong>, giving <strong>ethanamine</strong> ($\\text{CH}_3\\text{CH}_2\\text{NH}_2$) — the amine has <strong>one fewer carbon</strong> than the amide.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>$(\\text{CH}_3)_2\\text{NH}$ is classified as a:</p>", "options": ["primary amine", "secondary amine", "tertiary amine", "quaternary salt"], "correct": 1, "explanation": "Two carbon groups on N: secondary." },
+            { "q": "<p>Aniline is best prepared by:</p>", "options": ["Gabriel synthesis", "reduction of nitrobenzene", "ammonolysis", "Hofmann bromamide"], "correct": 1, "explanation": "Nitrobenzene + Sn/HCl gives aniline." },
+            { "q": "<p>Reduction of a nitrile gives a primary amine with:</p>", "options": ["one fewer carbon", "the same carbons", "one more carbon", "two more carbons"], "correct": 2, "explanation": "R–CN $\\rightarrow$ R–CH$_2$–NH$_2$ adds one carbon." },
+            { "q": "<p>The Gabriel synthesis gives pure:</p>", "options": ["aromatic amines", "primary aliphatic amines", "tertiary amines", "quaternary salts"], "correct": 1, "explanation": "Pure $1^\\circ$ aliphatic amines (not aromatic)." },
+            { "q": "<p>The Hofmann bromamide degradation gives an amine with:</p>", "options": ["one more carbon", "one fewer carbon", "same carbons", "double carbons"], "correct": 1, "explanation": "Amide loses one carbon to give the amine." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> classify by carbons ON nitrogen. Ammonolysis = mixture. Nitrile reduction $+1$ C; Hofmann bromamide $-1$ C; Gabriel = pure $1^\\circ$ aliphatic only (fails for aromatic).</p>"
+        },
+        {
+          "number": 2,
+          "title": "Basicity of Amines",
+          "concept": "<p>Amines are <strong>bases</strong> because the nitrogen lone pair can accept a proton (or donate to an electrophile). Their strength is measured by $K_b$ (or $pK_b$): a larger $K_b$ / smaller $pK_b$ means a stronger base. Four factors decide how basic a particular amine is, and balancing them is one of the highest-frequency NEET topics.</p><p>First, the <strong>inductive ($+\\text{I}$) effect</strong> of alkyl groups: they push electron density onto nitrogen, making the lone pair more available, so aliphatic amines are <em>more</em> basic than ammonia. Second, <strong>resonance</strong>: in aromatic amines like aniline, the nitrogen lone pair is delocalised into the benzene ring, so it is much less available — aniline is therefore a <em>far weaker</em> base than ammonia or any aliphatic amine. Third, <strong>steric hindrance</strong>: bulky groups around nitrogen hinder protonation and lower basicity, which is why tertiary amines can be weaker than expected. Fourth, <strong>solvation</strong>: the more N–H bonds the protonated amine (ammonium ion) has, the more hydrogen bonds it can form with water, stabilising it and boosting basicity in aqueous solution.</p><p>These factors explain the difference between gas-phase and aqueous orders — a classic NEET subtlety. In the <em>gas phase</em>, only the inductive effect operates, so basicity rises with more alkyl groups: $3^\\circ \\gt 2^\\circ \\gt 1^\\circ \\gt \\text{NH}_3$. In <em>aqueous solution</em>, solvation and steric effects intervene, and for the methylamines the observed order is $(\\text{CH}_3)_2\\text{NH} \\gt \\text{CH}_3\\text{NH}_2 \\gt (\\text{CH}_3)_3\\text{N} \\gt \\text{NH}_3$ — the secondary amine wins because it balances good electron donation against reasonable solvation, while trimethylamine suffers from poor solvation and crowding.</p><p>Substituents on aromatic amines shift basicity predictably. <strong>Electron-donating groups</strong> on the ring (such as $-\\text{CH}_3$, $-\\text{OCH}_3$) increase the lone-pair density and make the amine <em>more</em> basic, while <strong>electron-withdrawing groups</strong> (such as $-\\text{NO}_2$) pull electron density away and make it <em>less</em> basic — so $p$-nitroaniline is a much weaker base than aniline. NEET commonly asks you to rank a set of amines: the safe strategy is to compare aliphatic (strong) versus aromatic (weak) first, then apply substituent effects within each group.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Situation</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Basicity order</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Gas phase (methylamines)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$3^\\circ \\gt 2^\\circ \\gt 1^\\circ \\gt \\text{NH}_3$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Aqueous (methylamines)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$(\\text{CH}_3)_2\\text{NH} \\gt \\text{CH}_3\\text{NH}_2 \\gt (\\text{CH}_3)_3\\text{N} \\gt \\text{NH}_3$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Aliphatic vs aromatic</td><td style='border:1px solid #dcfce7;padding:6px 10px'>aliphatic amine $\\gg$ aniline</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Ring substituent</td><td style='border:1px solid #dcfce7;padding:6px 10px'>EDG raise, EWG ($-\\text{NO}_2$) lower basicity</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Explain why aniline is a much weaker base than methylamine.</p>",
+              "solution": "<p>In aniline the nitrogen lone pair is <strong>delocalised into the ring by resonance</strong>, so it is less available to accept a proton. In methylamine the lone pair is fully available and the $-\\text{CH}_3$ group donates electron density ($+\\text{I}$), so methylamine is much more basic.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Arrange in decreasing basicity in water: $\\text{NH}_3$, $\\text{CH}_3\\text{NH}_2$, $(\\text{CH}_3)_2\\text{NH}$, $(\\text{CH}_3)_3\\text{N}$.</p>",
+              "solution": "<p>$(\\text{CH}_3)_2\\text{NH} \\gt \\text{CH}_3\\text{NH}_2 \\gt (\\text{CH}_3)_3\\text{N} \\gt \\text{NH}_3$ — the secondary amine balances electron donation and solvation; trimethylamine is hurt by poor solvation and steric crowding.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Aliphatic amines are more basic than ammonia because alkyl groups:</p>", "options": ["withdraw electrons", "donate electrons ($+\\text{I}$)", "are aromatic", "form H-bonds"], "correct": 1, "explanation": "$+\\text{I}$ raises lone-pair availability." },
+            { "q": "<p>Aniline is weakly basic because its lone pair is:</p>", "options": ["delocalised into the ring", "on oxygen", "shared with hydrogen", "absent"], "correct": 0, "explanation": "Resonance into the ring lowers availability." },
+            { "q": "<p>In water, the strongest base among methylamines is:</p>", "options": ["$\\text{CH}_3\\text{NH}_2$", "$(\\text{CH}_3)_2\\text{NH}$", "$(\\text{CH}_3)_3\\text{N}$", "$\\text{NH}_3$"], "correct": 1, "explanation": "Dimethylamine: best balance of $+\\text{I}$ and solvation." },
+            { "q": "<p>$p$-nitroaniline compared with aniline is:</p>", "options": ["more basic", "less basic", "equally basic", "not an amine"], "correct": 1, "explanation": "$-\\text{NO}_2$ withdraws electrons, lowering basicity." },
+            { "q": "<p>The gas-phase basicity order of methylamines is:</p>", "options": ["$3^\\circ \\gt 2^\\circ \\gt 1^\\circ \\gt \\text{NH}_3$", "$1^\\circ \\gt 2^\\circ \\gt 3^\\circ$", "$\\text{NH}_3 \\gt 3^\\circ$", "all equal"], "correct": 0, "explanation": "Pure inductive effect: more alkyl = more basic." }
+          ],
+          "note": "<p><strong>NEET trap:</strong> aliphatic amines $\\gt \\text{NH}_3 \\gg$ aniline. Aqueous methylamines: $2^\\circ \\gt 1^\\circ \\gt 3^\\circ \\gt \\text{NH}_3$ (solvation + steric). EDG raise, $-\\text{NO}_2$ lowers aromatic-amine basicity.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Reactions of Amines and Diazonium Salts",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Chemical Reactions of Amines",
+          "concept": "<p>The reactions of amines flow from the nitrogen lone pair acting as a nucleophile/base. With acids they form salts (and so dissolve in dilute acid — a handy purification). With <strong>acyl chlorides or anhydrides</strong> they undergo <strong>acylation</strong>, the N–H being replaced to give an amide; only $1^\\circ$ and $2^\\circ$ amines can do this, because a $3^\\circ$ amine has no N–H. These simple facts underpin several NEET identification questions.</p><p>Two named tests identify the class of amine. The <strong>carbylamine (isocyanide) test</strong> — warming the amine with chloroform and alcoholic KOH — gives an isocyanide with a <em>foul, penetrating smell</em>, but <strong>only primary amines</strong> (aliphatic or aromatic) respond, so the bad odour is a specific test for $1^\\circ$ amines. The <strong>Hinsberg test</strong> uses benzenesulphonyl chloride: $1^\\circ$ amines give a product soluble in alkali, $2^\\circ$ amines give an alkali-insoluble solid, and $3^\\circ$ amines do not react — distinguishing all three classes at once.</p><p>The reaction with <strong>nitrous acid</strong> ($\\text{HNO}_2$, made in situ from $\\text{NaNO}_2 + \\text{HCl}$) is especially important and class-specific. A $1^\\circ$ <em>aliphatic</em> amine gives an unstable diazonium ion that immediately decomposes to an alcohol with brisk effervescence of $\\text{N}_2$. A $1^\\circ$ <em>aromatic</em> amine (aniline) gives a relatively <strong>stable arenediazonium salt</strong> if kept cold (273–278 K) — the gateway to the next topic. A $2^\\circ$ amine gives a yellow oily $N$-nitrosamine, and a $3^\\circ$ amine merely forms a salt. This behaviour is a NEET staple.</p><p>Aromatic amines also react on the ring. The $-\\text{NH}_2$ group is <strong>strongly activating and ortho/para-directing</strong>, so aniline reacts very readily in electrophilic substitution — for instance with <em>bromine water</em> it gives a white precipitate of <strong>2,4,6-tribromoaniline</strong> even without a catalyst. Because the group is so activating (and the amine is easily oxidised or protonated by the strong acids used), reactions like nitration are usually carried out after <em>protecting</em> the $-\\text{NH}_2$ by acetylation, and aniline does <em>not</em> undergo Friedel–Crafts reactions (the Lewis-acid catalyst bonds to the lone pair). These practical points are exactly the kind of detail NEET examines.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Test / reaction</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Outcome</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Carbylamine ($\\text{CHCl}_3$/KOH)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>foul isocyanide — $1^\\circ$ amines only</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{HNO}_2$, $1^\\circ$ aromatic</td><td style='border:1px solid #dcfce7;padding:6px 10px'>stable diazonium salt (273–278 K)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{HNO}_2$, $1^\\circ$ aliphatic</td><td style='border:1px solid #dcfce7;padding:6px 10px'>alcohol + $\\text{N}_2$ (effervescence)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Aniline + bromine water</td><td style='border:1px solid #dcfce7;padding:6px 10px'>white 2,4,6-tribromoaniline</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>How does the carbylamine test identify a primary amine?</p>",
+              "solution": "<p>Warm the amine with <strong>chloroform and alcoholic KOH</strong>. A primary amine forms a carbylamine (isocyanide) with a <strong>very offensive smell</strong>; secondary and tertiary amines give no such smell, so the foul odour confirms a $1^\\circ$ amine.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What product forms when aniline reacts with bromine water?</p>",
+              "solution": "<p>A white precipitate of <strong>2,4,6-tribromoaniline</strong> — the strongly activating $-\\text{NH}_2$ group makes all three o/p positions substitute, even without a catalyst.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The carbylamine test is positive for:</p>", "options": ["tertiary amines", "secondary amines", "primary amines", "quaternary salts"], "correct": 2, "explanation": "Only $1^\\circ$ amines give the foul isocyanide." },
+            { "q": "<p>Aniline with $\\text{NaNO}_2$/HCl at 273–278 K gives:</p>", "options": ["phenol", "a diazonium salt", "nitrobenzene", "an amide"], "correct": 1, "explanation": "Cold diazotisation gives the arenediazonium salt." },
+            { "q": "<p>A tertiary amine cannot undergo:</p>", "options": ["salt formation", "acylation", "protonation", "any reaction"], "correct": 1, "explanation": "No N–H, so it cannot form an amide." },
+            { "q": "<p>In aniline, the $-\\text{NH}_2$ group is:</p>", "options": ["meta-directing, deactivating", "ortho/para-directing, activating", "non-directing", "meta-directing, activating"], "correct": 1, "explanation": "$-\\text{NH}_2$ strongly activates and directs o/p." },
+            { "q": "<p>The Hinsberg test is used to:</p>", "options": ["detect double bonds", "distinguish $1^\\circ$, $2^\\circ$, $3^\\circ$ amines", "test for aldehydes", "test acidity"], "correct": 1, "explanation": "Benzenesulphonyl chloride separates the three classes." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> carbylamine = $1^\\circ$ test (foul smell); Hinsberg distinguishes $1^\\circ/2^\\circ/3^\\circ$. With $\\text{HNO}_2$: $1^\\circ$ aromatic $\\rightarrow$ diazonium (cold), $1^\\circ$ aliphatic $\\rightarrow$ alcohol $+ \\text{N}_2$. Aniline: $-\\text{NH}_2$ o/p-activating; no Friedel–Crafts.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Diazonium Salts",
+          "concept": "<p>Arenediazonium salts have the formula $\\text{Ar–N}_2^+\\,\\text{X}^-$ (for example benzenediazonium chloride, $\\text{C}_6\\text{H}_5\\text{N}_2^+\\text{Cl}^-$). They are made by <strong>diazotisation</strong>: a primary aromatic amine is treated with nitrous acid (from $\\text{NaNO}_2 + \\text{HCl}$) at low temperature, <strong>273–278 K (0–5 °C)</strong>. The cold is essential because these salts are unstable and decompose if warmed. Their value is that the $-\\text{N}_2^+$ group is an excellent leaving group, making them versatile intermediates for building substituted benzenes that are otherwise hard to prepare.</p><p>Their reactions divide neatly into two types. In <strong>replacement reactions</strong>, the $-\\text{N}_2^+$ group leaves (as $\\text{N}_2$ gas) and is replaced by another group. Warm water gives <strong>phenol</strong>; the <em>Sandmeyer reaction</em> introduces $-\\text{Cl}$ or $-\\text{Br}$ using $\\text{CuCl}$/$\\text{CuBr}$, and the <em>Gattermann reaction</em> does the same with copper powder and HX; potassium iodide gives the <strong>iodoarene</strong> directly; the <em>Balz–Schiemann reaction</em> (via the fluoroborate, $\\text{HBF}_4$) gives the <strong>fluoroarene</strong>; $\\text{CuCN}$ gives the nitrile; and hypophosphorous acid ($\\text{H}_3\\text{PO}_2$) replaces $-\\text{N}_2^+$ by $-\\text{H}$, effectively removing the amino group. These routes let chemists place $-\\text{I}$ or $-\\text{F}$ on a ring, which direct halogenation cannot easily do.</p><p>In <strong>coupling reactions</strong>, the diazonium group is <em>retained</em>: the salt reacts with an electron-rich aromatic compound such as <strong>phenol</strong> (in mildly alkaline solution) or <strong>aniline</strong> to form an <strong>azo compound</strong> containing the $-\\text{N}=\\text{N}-$ linkage. These azo compounds are intensely coloured (yellow, orange, red) and form the basis of the huge family of <strong>azo dyes</strong> used in textiles and indicators. Coupling normally occurs at the para position of the partner ring.</p><p>For NEET, the practical messages are: diazotisation needs a $1^\\circ$ <em>aromatic</em> amine and ice-cold conditions; replacement reactions <em>lose</em> $\\text{N}_2$ (Sandmeyer/Gattermann for Cl/Br, KI for I, Balz–Schiemann for F, water for phenol, $\\text{H}_3\\text{PO}_2$ for H); and coupling reactions <em>keep</em> $\\text{N}_2$ to give coloured azo dyes. Diazonium chemistry is the bridge that connects aniline to phenols, haloarenes and dyes — a recurring multi-step synthesis theme in the exam.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Reagent on $\\text{Ar–N}_2^+$</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Product (–$\\text{N}_2^+$ replaced by)</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>warm water</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$-\\text{OH}$ (phenol)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{CuCl}$/$\\text{CuBr}$ (Sandmeyer)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$-\\text{Cl}$ / $-\\text{Br}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{HBF}_4$, heat (Balz–Schiemann)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$-\\text{F}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>phenol / aniline (coupling)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>azo dye ($-\\text{N}=\\text{N}-$), $\\text{N}_2$ retained</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>How would you convert aniline to fluorobenzene?</p>",
+              "solution": "<p>Diazotise aniline ($\\text{NaNO}_2$/HCl, 273–278 K) to the diazonium salt, then carry out the <strong>Balz–Schiemann reaction</strong>: form the diazonium fluoroborate with $\\text{HBF}_4$ and heat it to give <strong>fluorobenzene</strong> + $\\text{N}_2$ + $\\text{BF}_3$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What type of product forms when benzenediazonium chloride couples with phenol, and what is its use?</p>",
+              "solution": "<p>An <strong>azo compound</strong> (p-hydroxyazobenzene) with the $-\\text{N}=\\text{N}-$ linkage — an intensely coloured compound used as an <strong>azo dye</strong>.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Diazonium salts are prepared at a temperature of:</p>", "options": ["273–278 K", "323 K", "373 K", "above 400 K"], "correct": 0, "explanation": "0–5 °C; they decompose if warmed." },
+            { "q": "<p>The Sandmeyer reaction introduces:</p>", "options": ["$-\\text{OH}$", "$-\\text{Cl}$ or $-\\text{Br}$", "$-\\text{NO}_2$", "$-\\text{NH}_2$"], "correct": 1, "explanation": "$\\text{CuCl}$/$\\text{CuBr}$ gives the chloro/bromo arene." },
+            { "q": "<p>Warming a diazonium salt with water gives:</p>", "options": ["aniline", "phenol", "benzene", "nitrobenzene"], "correct": 1, "explanation": "$-\\text{N}_2^+$ replaced by $-\\text{OH}$." },
+            { "q": "<p>The Balz–Schiemann reaction is used to make:</p>", "options": ["iodoarenes", "fluoroarenes", "phenols", "amines"], "correct": 1, "explanation": "Via the diazonium fluoroborate with $\\text{HBF}_4$." },
+            { "q": "<p>Coupling of a diazonium salt with phenol gives a:</p>", "options": ["haloarene", "coloured azo dye", "phenol", "carboxylic acid"], "correct": 1, "explanation": "Azo compound ($-\\text{N}=\\text{N}-$), the basis of dyes." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> diazotise a $1^\\circ$ aromatic amine cold (273–278 K). Replacement (loses $\\text{N}_2$): water$\\rightarrow$phenol, Sandmeyer (Cl/Br), KI (I), Balz–Schiemann (F), $\\text{H}_3\\text{PO}_2$ (H). Coupling (keeps $\\text{N}_2$) $\\rightarrow$ azo dyes.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-chemistry-ch18-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct & Statement-based)",
+          "questions": [
+            { "q": "<p>Amines are classified as $1^\\circ$, $2^\\circ$, $3^\\circ$ by the number of:</p>", "options": ["hydrogens on carbon", "carbon groups on nitrogen", "lone pairs", "rings"], "correct": 1, "explanation": "By carbons attached to N." },
+            { "q": "<p>The Gabriel synthesis cannot prepare:</p>", "options": ["ethanamine", "propanamine", "aniline", "butan-1-amine"], "correct": 2, "explanation": "It fails for aromatic amines like aniline." },
+            { "q": "<p>The Hofmann bromamide degradation gives an amine with:</p>", "options": ["one more carbon", "one fewer carbon", "same carbons", "no nitrogen"], "correct": 1, "explanation": "Amide loses one carbon." },
+            { "q": "<p>Statements: (I) Aniline is less basic than ethylamine. (II) Aniline's lone pair is delocalised into the ring. Which is/are correct?</p>", "options": ["only I", "only II", "both I and II", "neither"], "correct": 2, "explanation": "Both correct; (II) is the reason for (I)." },
+            { "q": "<p>The strongest base in water is:</p>", "options": ["$\\text{NH}_3$", "$\\text{CH}_3\\text{NH}_2$", "$(\\text{CH}_3)_2\\text{NH}$", "aniline"], "correct": 2, "explanation": "Dimethylamine: best balance of $+\\text{I}$ and solvation." },
+            { "q": "<p>The carbylamine test detects:</p>", "options": ["secondary amines", "tertiary amines", "primary amines", "amides"], "correct": 2, "explanation": "Foul isocyanide forms only with $1^\\circ$ amines." },
+            { "q": "<p>Aniline + $\\text{NaNO}_2$/HCl at 273–278 K gives:</p>", "options": ["phenol", "a diazonium salt", "nitrobenzene", "an azo dye"], "correct": 1, "explanation": "Cold diazotisation." },
+            { "q": "<p>Coupling of a diazonium salt with phenol gives:</p>", "options": ["a haloarene", "a carboxylic acid", "an azo dye", "an amine"], "correct": 2, "explanation": "Azo compound ($-\\text{N}=\\text{N}-$)." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> Aniline is a weaker base than ethylamine.<br><strong>R:</strong> In aniline the nitrogen lone pair is delocalised into the benzene ring.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Delocalisation reduces lone-pair availability, lowering basicity — R explains A." },
+            { "q": "<p><strong>A:</strong> A diazonium salt is prepared at 273–278 K.<br><strong>R:</strong> Arenediazonium salts are unstable and decompose if warmed.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The low temperature is needed precisely because the salt is heat-sensitive — R explains A." },
+            { "q": "<p><strong>A:</strong> The carbylamine reaction is given only by primary amines.<br><strong>R:</strong> Primary amines react with chloroform and alcoholic KOH to form foul-smelling isocyanides.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Only primary amines form the isocyanide, which is exactly why it is a test for them — R explains A." },
+            { "q": "<p><strong>A:</strong> Reduction of a nitrile gives an amine with one more carbon than the nitrile's R group.<br><strong>R:</strong> The nitrile carbon (–C≡N) becomes the –CH₂– carbon of the amine.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The nitrile's own carbon is retained as the new CH₂ next to N, so the amine has one extra carbon — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

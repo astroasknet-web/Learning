@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": 29,
+  "title": "Chemistry in Everyday Life",
+  "slug": "chemistry-in-everyday-life",
+  "subtitle": "Chemistry in Everyday Life for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#eab308",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "Master Chemistry in Everyday Life for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Drugs and Their Action",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Classification of Drugs and Drug-Receptor Interaction",
+          "concept": "<p><strong>Drugs:</strong> Chemicals of low MW ($\\sim 100$ to $\\sim 500$ Da) that interact with biological targets to produce a therapeutic response. Used to treat, cure, or prevent disease.</p><p><strong>Pharmacology:</strong> Study of drugs and their effects on living systems.</p><p><strong>Chemotherapy:</strong> Use of chemicals to treat disease, especially infections and cancer.</p><p><strong>Classification of Drugs:</strong></p><p><strong>A. Based on Pharmacological Effect:</strong></p><table class=\"md-table\"><thead><tr><th>Class</th><th>Function</th><th>Examples</th></tr></thead><tbody><tr><td><strong>Analgesics</strong></td><td>Reduce pain</td><td>Aspirin, paracetamol, morphine</td></tr><tr><td><strong>Antipyretics</strong></td><td>Reduce fever</td><td>Aspirin, paracetamol</td></tr><tr><td><strong>Anti-inflammatory</strong></td><td>Reduce inflammation</td><td>Ibuprofen, naproxen</td></tr><tr><td><strong>Antiseptics</strong></td><td>Kill microbes on living tissue</td><td>Dettol, iodine tincture</td></tr><tr><td><strong>Disinfectants</strong></td><td>Kill microbes on non-living surfaces</td><td>Chlorine, phenol, bleaching powder</td></tr><tr><td><strong>Antibiotics</strong></td><td>Kill bacteria</td><td>Penicillin, chloramphenicol, ampicillin</td></tr><tr><td><strong>Antihistamines</strong></td><td>Treat allergies</td><td>Diphenhydramine, cetirizine</td></tr><tr><td><strong>Antacids</strong></td><td>Neutralize stomach acid</td><td>$Al(OH)_3$, $Mg(OH)_2$</td></tr><tr><td><strong>Tranquilizers</strong></td><td>Reduce anxiety, sedate</td><td>Diazepam (Valium), barbiturates</td></tr><tr><td><strong>Antifertility</strong></td><td>Birth control</td><td>Norethindrone, estrogen</td></tr></tbody></table><p><strong>B. Based on Drug Action:</strong></p><ul><li><strong>Agonist:</strong> Mimics natural messenger; binds receptor and activates it. (e.g., morphine mimics endorphins)</li><li><strong>Antagonist:</strong> Blocks receptor; doesn't activate. (e.g., naloxone blocks morphine receptors)</li></ul><p><strong>C. Based on Chemical Structure:</strong></p><ul><li>Sulfa drugs, $\\beta$-lactams, etc.</li></ul><p><strong>D. Based on Molecular Target:</strong></p><ul><li>Enzyme inhibitors (e.g., aspirin inhibits cyclooxygenase, COX)</li><li>Receptor binders (e.g., morphine binds opioid receptors)</li></ul><p><strong>Drug-Receptor Interaction:</strong></p><p><strong>Receptors:</strong> Proteins (mostly membrane proteins) that recognize specific chemical messengers (hormones, neurotransmitters).</p><p><strong>Mechanism:</strong></p><ol><li>Drug binds to receptor site (often by hydrogen bonds, ionic, dipole, van der Waals).</li><li>Conformational change in receptor → signal transduction.</li><li>Cellular response (e.g., neurotransmitter release, enzyme activation).</li></ol><p><strong>Enzyme Inhibitors:</strong></p><ul><li><strong>Competitive:</strong> Drug structure resembles substrate; competes for active site (e.g., methotrexate competes with folate).</li><li><strong>Non-competitive:</strong> Binds elsewhere; changes enzyme shape (allosteric).</li><li><strong>Irreversible:</strong> Binds covalently; permanently inactivates enzyme (e.g., penicillin binds enzyme that makes bacterial cell wall).</li></ul><p><strong>Drug Design Strategy:</strong></p><ul><li>Identify target (enzyme, receptor).</li><li>Design drug to fit binding site precisely.</li><li>Modify to enhance specificity, reduce side effects.</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Classify the following drugs by function: aspirin, dettol, ibuprofen, penicillin, antacid, diazepam.</p>",
+              "solution": "<ul><li><strong>Aspirin:</strong> Analgesic + antipyretic + anti-inflammatory.</li><li><strong>Dettol:</strong> Antiseptic.</li><li><strong>Ibuprofen:</strong> Anti-inflammatory + analgesic.</li><li><strong>Penicillin:</strong> Antibiotic.</li><li><strong>Antacid (e.g., $Mg(OH)_2$):</strong> Neutralizes acid in stomach.</li><li><strong>Diazepam:</strong> Tranquilizer (anxiety reduction).</li></ul><p><strong>Final Answer:</strong> Each has specific function as listed.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Explain how a competitive inhibitor works.</p>",
+              "solution": "<p>A <strong>competitive inhibitor</strong> is a molecule that:</p><ol><li>Has a structure <strong>similar to the natural substrate</strong> of an enzyme.</li><li>Binds to the <strong>active site</strong> of the enzyme.</li><li>Competes with substrate for the active site.</li><li>Doesn't undergo the chemical reaction (or reacts very slowly).</li></ol><p><strong>Result:</strong> Reduces enzyme activity; the rate of normal reaction decreases.</p><p><strong>Example:</strong> Methotrexate competes with folic acid for the enzyme dihydrofolate reductase. Used in cancer therapy (cancer cells need rapid folate metabolism).</p><p>By increasing substrate concentration, the effect of competitive inhibitor can be overcome (more substrate competes back successfully).</p><p><strong>Final Answer:</strong> Mimics substrate; competes at active site; reversible.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Antacids treat:</p>",
+              "options": [
+                "Pain",
+                "Acidity (excess stomach acid)",
+                "Fever",
+                "Infection"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Penicillin is:</p>",
+              "options": [
+                "Antihistamine",
+                "Antibiotic",
+                "Tranquilizer",
+                "Antiseptic"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Aspirin is also a/an:</p>",
+              "options": [
+                "Analgesic + antipyretic",
+                "Only antibiotic",
+                "Antiseptic",
+                "Antifertility"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Drug-receptor binding is by:</p>",
+              "options": [
+                "Only covalent bonds",
+                "H-bonds, ionic, dipole, van der Waals (mostly non-covalent)",
+                "Only ionic",
+                "Random"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Competitive inhibitor:</p>",
+              "options": [
+                "Resembles substrate; binds active site",
+                "Binds elsewhere",
+                "Activates enzyme",
+                "Random binding"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Antimicrobials, Antiseptics, Antibiotics",
+          "concept": "<p><strong>Antimicrobials:</strong> Substances that kill or inhibit microorganisms (bacteria, viruses, fungi, protozoa).</p><p><strong>Categories:</strong></p><p><strong>1. Antiseptics:</strong></p><ul><li>Applied to <strong>living tissue</strong> (skin, wounds).</li><li>Examples: Dettol (mix of chloroxylenol + terpineol), tincture of iodine ($2-3\\%\\,I_2$ in alcohol/water), savlon, $H_2O_2$, KMnO₄ (mild), boric acid (eye wash).</li><li>Furacin, soframycin (creams).</li></ul><p><strong>2. Disinfectants:</strong></p><ul><li>Applied to <strong>non-living surfaces</strong> (floors, instruments).</li><li>Examples: chlorine ($Cl_2$ in water), phenol ($1\\%$ — antiseptic; concentrated — disinfectant), formaldehyde, hypochlorous acid (bleach), sulfur dioxide, bleaching powder.</li></ul><p><strong>Note:</strong> Same substance can be antiseptic or disinfectant depending on concentration:</p><ul><li>$0.2\\%$ phenol: antiseptic</li><li>$1\\%$ phenol: disinfectant</li></ul><p><strong>3. Antibiotics:</strong></p><p><strong>Definition:</strong> Substances produced (in nature) by microorganisms that kill or inhibit growth of other microorganisms. Now also synthesized.</p><p><strong>Classification by Spectrum:</strong></p><ul><li><strong>Broad spectrum:</strong> Effective against many types of bacteria (gram-positive and gram-negative). e.g., ampicillin, tetracycline, chloramphenicol.</li><li><strong>Narrow spectrum:</strong> Effective against only specific types. e.g., penicillin G (against gram-positive only).</li></ul><p><strong>Classification by Action:</strong></p><ul><li><strong>Bactericidal:</strong> Kill bacteria. e.g., penicillin, aminoglycosides.</li><li><strong>Bacteriostatic:</strong> Inhibit bacterial growth (let immune system clear infection). e.g., chloramphenicol, tetracycline, erythromycin.</li></ul><p><strong>Common Antibiotics:</strong></p><table class=\"md-table\"><thead><tr><th>Antibiotic</th><th>Type</th><th>Discovery</th><th>Action</th></tr></thead><tbody><tr><td><strong>Penicillin</strong></td><td>$\\beta$-lactam</td><td>A. Fleming (1928)</td><td>Inhibits bacterial cell wall synthesis</td></tr><tr><td><strong>Streptomycin</strong></td><td>Aminoglycoside</td><td>Waksman (1943)</td><td>Inhibits protein synthesis</td></tr><tr><td><strong>Tetracycline</strong></td><td>Tetracycline</td><td>Duggar (1948)</td><td>Inhibits 30S ribosome</td></tr><tr><td><strong>Chloramphenicol</strong></td><td>Synthetic (originally from Streptomyces)</td><td>1947</td><td>Inhibits 50S ribosome</td></tr><tr><td><strong>Erythromycin</strong></td><td>Macrolide</td><td>1952</td><td>Inhibits 50S ribosome</td></tr><tr><td><strong>Ampicillin/Amoxicillin</strong></td><td>$\\beta$-lactam, semi-synthetic</td><td>Modified penicillin</td><td>Cell wall</td></tr><tr><td><strong>Ciprofloxacin</strong></td><td>Fluoroquinolone</td><td>Synthetic</td><td>Inhibits DNA gyrase</td></tr></tbody></table><p><strong>Antibiotic Resistance:</strong> Repeated/improper use of antibiotics causes bacteria to evolve resistance (mutations, transfer of resistance genes via plasmids). Major public health issue.</p><p><strong>4. Sulfa Drugs (Sulfonamides):</strong></p><ul><li>Synthetic antibacterial drugs (pre-penicillin era).</li><li>Sulfanilamide ($H_2N-C_6H_4-SO_2NH_2$) → many derivatives.</li><li>Mechanism: Competitive inhibition of bacterial enzyme dihydropteroate synthase (mimics PABA — para-aminobenzoic acid).</li></ul><p><strong>5. Antifungal:</strong> Nystatin, ketoconazole, fluconazole. <strong>6. Antiviral:</strong> Acyclovir, AZT (against HIV).</p><p><strong>Common Analgesics:</strong></p><table class=\"md-table\"><thead><tr><th>Drug</th><th>Type</th><th>Mechanism</th></tr></thead><tbody><tr><td><strong>Aspirin</strong> ($C_6H_4(OCOCH_3)COOH$, acetylsalicylic acid)</td><td>NSAID</td><td>Inhibits COX enzyme (reduces prostaglandins)</td></tr><tr><td><strong>Paracetamol</strong> (Acetaminophen, $C_6H_4(OH)NHCOCH_3$)</td><td>Non-opioid</td><td>Inhibits COX in CNS (no anti-inflammatory)</td></tr><tr><td><strong>Ibuprofen</strong></td><td>NSAID</td><td>COX inhibitor</td></tr><tr><td><strong>Naproxen</strong></td><td>NSAID</td><td>COX inhibitor</td></tr><tr><td><strong>Morphine</strong></td><td>Opioid (narcotic)</td><td>Binds μ-opioid receptors in brain</td></tr></tbody></table><p><strong>Aspirin Properties:</strong></p><ul><li>Acetylsalicylic acid</li><li>Reduces fever, pain, inflammation</li><li>Anti-platelet: prevents blood clotting → used for heart attack prevention</li><li>Side effects: stomach ulcers, Reye's syndrome (in children)</li></ul><p><strong>Antacids:</strong></p><p>Excess HCl in stomach → acidity, ulcers.</p><p><strong>Common antacids:</strong></p><ul><li>$Mg(OH)_2$ (milk of magnesia)</li><li>$Al(OH)_3$</li><li>$NaHCO_3$ (sodium bicarbonate, \"soda\")</li><li>$CaCO_3$</li><li>Modern: <strong>Ranitidine</strong> (Zantac), <strong>omeprazole</strong> (Prilosec) — inhibit histamine-2 receptors or proton pump (more targeted)</li></ul><p><strong>Antihistamines:</strong></p><p>Histamine causes allergic reactions (runny nose, itching, hives).</p><p><strong>Examples:</strong> Brompheniramine (Dimetapp), terfenadine (Seldane), cetirizine, loratadine, diphenhydramine. Mechanism: Block $H_1$ receptors.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Distinguish antiseptic and disinfectant.</p>",
+              "solution": "<table class=\"md-table\"><thead><tr><th>Property</th><th>Antiseptic</th><th>Disinfectant</th></tr></thead><tbody><tr><td>Applied to</td><td>Living tissue (skin, wounds)</td><td>Non-living surfaces (floors, instruments)</td></tr><tr><td>Toxicity</td><td>Low (safe for skin)</td><td>Higher</td></tr><tr><td>Examples</td><td>Dettol, tincture iodine, savlon</td><td>Chlorine, phenol (conc.), formaldehyde</td></tr><tr><td>Concentration of phenol</td><td>$0.2\\%$</td><td>$1\\%$</td></tr></tbody></table><p><strong>Final Answer:</strong> Antiseptics for skin; disinfectants for non-living surfaces.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What is the mechanism of penicillin's antibacterial action?</p>",
+              "solution": "<p><strong>Penicillin</strong> contains a $\\beta$-lactam ring (4-membered N-containing cyclic amide). It mimics the structure of bacterial cell-wall components.</p><p>Mechanism:</p><ol><li>Penicillin binds covalently to the active site of <strong>transpeptidase</strong> (enzyme that cross-links peptidoglycan in bacterial cell walls).</li><li>The strained $\\beta$-lactam ring is highly reactive; it acylates the enzyme's serine residue.</li><li>Transpeptidase is <strong>irreversibly inhibited</strong>.</li><li>Bacteria cannot complete cell wall synthesis → cell wall weak → bacteria lyse.</li></ol><p>Penicillin is specific to bacteria because human cells don't have peptidoglycan walls.</p><p><strong>Final Answer:</strong> Irreversibly inhibits bacterial transpeptidase via $\\beta$-lactam ring opening → no cell wall → lysis.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Dettol is a/an:</p>",
+              "options": [
+                "Antibiotic",
+                "Antiseptic",
+                "Disinfectant",
+                "Antihistamine"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Aspirin's chemical name:</p>",
+              "options": [
+                "Salicylic acid",
+                "Acetylsalicylic acid",
+                "Acetylsalicylate",
+                "Sodium acetate"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Antibiotic that inhibits cell wall synthesis:</p>",
+              "options": [
+                "Tetracycline",
+                "Chloramphenicol",
+                "Penicillin",
+                "Erythromycin"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Broad spectrum antibiotic:</p>",
+              "options": [
+                "Penicillin G (narrow)",
+                "Ampicillin",
+                "Both",
+                "Aspirin"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Antacids treat:</p>",
+              "options": [
+                "Pain",
+                "Excess acid in stomach",
+                "Bacteria",
+                "Allergy"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Cleansing Agents and Food Chemistry",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Soaps, Detergents, and Surface Activity",
+          "concept": "<p><strong>Cleansing Agents:</strong> Substances that remove dirt and grease from surfaces by emulsifying them in water.</p><p><strong>Two main types:</strong> soaps and synthetic detergents (syndets).</p><p><strong>1. Soaps:</strong></p><p><strong>Definition:</strong> Sodium or potassium salts of long-chain fatty acids ($C_{12}$ to $C_{18}$).</p><p><strong>Common examples:</strong></p><ul><li>Sodium stearate: $CH_3(CH_2)_{16}COONa$</li><li>Sodium palmitate: $CH_3(CH_2)_{14}COONa$</li><li>Sodium oleate: $CH_3(CH_2)_7CH=CH(CH_2)_7COONa$ (unsaturated)</li></ul><p><strong>Manufacture (Saponification):</strong> $$\\text{Fat/Oil (triglyceride)} + 3NaOH \\to \\text{Soap} + \\text{Glycerol}$$</p><p>Triglyceride = triester of glycerol with three fatty acids. $$CH_2(OOCR)-CH(OOCR')-CH_2(OOCR'') + 3NaOH \\to RCOONa + R'COONa + R''COONa + CH_2(OH)CH(OH)CH_2OH$$</p><p><strong>Types of Soaps:</strong></p><ul><li><strong>Hard soap (sodium soap):</strong> From animal fat with NaOH. Soft, slightly soluble.</li><li><strong>Soft soap (potassium soap):</strong> From vegetable oils with KOH. Liquid, more soluble.</li><li><strong>Toilet soap:</strong> From high-quality fats; less alkali; with perfume.</li><li><strong>Medicated soap:</strong> Contains antiseptic.</li><li><strong>Transparent soap:</strong> Dissolved in alcohol.</li><li><strong>Shaving soap:</strong> Contains glycerol (prevents drying); stearic acid.</li></ul><p><strong>Cleansing Action of Soap:</strong></p><p>Soap is a surfactant — has two parts:</p><ul><li><strong>Hydrophilic head:</strong> $-COO^-Na^+$ (water-loving)</li><li><strong>Hydrophobic tail:</strong> Long alkyl chain (oil-loving)</li></ul><p>In water above critical micelle concentration (CMC):</p><ul><li>Tails huddle together (avoid water); heads project outward.</li><li>Form spherical aggregates: <strong>micelles</strong>.</li><li>Heads on outside (in water); tails inside (in dirt/grease).</li></ul><p>For washing:</p><ol><li>Soap reduces surface tension of water.</li><li>Tails dissolve in grease/dirt; heads in water.</li><li>Micelles form around dirt, suspending it.</li><li>Rinsing washes micelles (with dirt inside) away.</li></ol><p><strong>Limitations of Soaps:</strong></p><ul><li><strong>Hard water:</strong> Contains Ca²⁺, Mg²⁺. These form <strong>insoluble Ca/Mg salts of fatty acids</strong> (scum):</li></ul><p>$2C_{17}H_{35}COONa + Ca^{2+} \\to (C_{17}H_{35}COO)_2Ca \\downarrow + 2Na^+$</p><ul><li>Wastes soap; leaves residue on clothes.</li><li>Doesn't work in acidic water (fatty acid precipitates out).</li></ul><p><strong>2. Synthetic Detergents (Syndets):</strong></p><p>Designed to overcome hard water limitations.</p><p><strong>Classification:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Structure</th><th>Example</th><th>Property</th></tr></thead><tbody><tr><td><strong>Anionic</strong></td><td>-ve charged head</td><td>Sodium dodecylbenzene sulfonate ($R$-$C_6H_4$-$SO_3^-Na^+$)</td><td>Laundry, household cleaners</td></tr><tr><td><strong>Cationic</strong></td><td>+ve charged head</td><td>Cetyltrimethylammonium bromide ($CH_3(CH_2)_{15}N^+(CH_3)_3 Br^-$)</td><td>Hair conditioners, fabric softeners; germicidal</td></tr><tr><td><strong>Non-ionic</strong></td><td>No charge; uses ether/-OH groups</td><td>Polyethylene glycol stearate</td><td>Liquid detergents, sensitive skin</td></tr></tbody></table><p><strong>Sodium Dodecylbenzene Sulfonate (SDBS):</strong> $CH_3-(CH_2)_{11}-C_6H_4-SO_3^-Na^+$</p><p><strong>Advantages over soap:</strong></p><ul><li>Works in <strong>hard water</strong> (Ca/Mg salts of sulfonate are soluble — no scum)</li><li>Works in acidic water</li><li>Stronger cleansing</li><li>Can be tailored for specific uses</li></ul><p><strong>Biodegradability:</strong></p><ul><li><strong>Straight chain:</strong> Biodegradable; broken down by microbes.</li><li><strong>Branched chain:</strong> Not biodegradable; persists in water; environmental pollution.</li><li>Modern detergents are linear (linear alkyl benzenesulfonates, LAS) for environmental reasons.</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why does soap not work well in hard water?</p>",
+              "solution": "<p>Hard water contains dissolved Ca²⁺ and Mg²⁺ ions (from CaCO₃, MgCO₃, sulfates).</p><p>When soap (e.g., sodium stearate, $C_{17}H_{35}COONa$) is added: $2C_{17}H_{35}COONa + Ca^{2+} \\to (C_{17}H_{35}COO)_2Ca \\downarrow + 2Na^+$ $2C_{17}H_{35}COONa + Mg^{2+} \\to (C_{17}H_{35}COO)_2Mg \\downarrow + 2Na^+$</p><p>The <strong>calcium and magnesium salts of fatty acids are insoluble</strong> — they form <strong>scum</strong> (white floating residue). Until all Ca²⁺/Mg²⁺ removed, soap doesn't form lather; it's wasted.</p><p>This is why synthetic detergents (with sulfonate group) are preferred: Ca and Mg sulfonate salts ARE soluble → no scum.</p><p><strong>Final Answer:</strong> Hard water Ca²⁺/Mg²⁺ form insoluble scum with soap; detergents don't have this issue.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Explain cleansing action of soap with diagram.</p>",
+              "solution": "<p>Soap molecule = hydrophobic tail + hydrophilic head.</p><p><strong>Step 1:</strong> In water, soap molecules orient: tails away from water, heads in water. Excess form <strong>micelles</strong> (~$50-100$ molecules; spherical with tails inside).</p><p><strong>Step 2:</strong> When dirty cloth (with grease/oil) immersed:</p><ul><li>Hydrophobic tails of micelles enter the grease/oil</li><li>Heads project outward into water</li></ul><p><strong>Step 3:</strong> Mechanical action (rubbing) detaches grease from cloth.</p><p><strong>Step 4:</strong> Detached grease is <strong>trapped inside micelle</strong> (oil droplet now surrounded by soap layer with heads outward).</p><p><strong>Step 5:</strong> Rinsing washes these grease-filled micelles away → cleaned cloth.</p><p><strong>Final Answer:</strong> Dual nature of soap forms micelles around oil → emulsion → rinsed away.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Soap is:</p>",
+              "options": [
+                "Sodium salt of fatty acid",
+                "Sodium chloride",
+                "Glucose",
+                "Glycerol"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Saponification gives:</p>",
+              "options": [
+                "Soap + glycerol",
+                "Acid + alcohol",
+                "Pure ester",
+                "Wax"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Hard water + soap:</p>",
+              "options": [
+                "Smooth cleaning",
+                "Scum (Ca/Mg salts ppt)",
+                "Foam",
+                "Best result"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Anionic detergent example:</p>",
+              "options": [
+                "Cetyltrimethylammonium bromide",
+                "Sodium dodecylbenzene sulfonate",
+                "Polyethylene glycol",
+                "Soap itself"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Cationic detergent is used in:</p>",
+              "options": [
+                "Laundry",
+                "Hair conditioners (germicidal)",
+                "Toothpaste",
+                "Floor cleaner"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Food Additives, Preservatives, Artificial Sweeteners",
+          "concept": "<p><strong>Food Additives:</strong> Substances added to food to:</p><ul><li>Preserve (prevent spoilage)</li><li>Enhance flavor, color, texture</li><li>Replace nutrients</li></ul><p><strong>Types:</strong></p><p><strong>1. Preservatives:</strong> Prevent spoilage caused by microorganisms.</p><table class=\"md-table\"><thead><tr><th>Preservative</th><th>Use</th></tr></thead><tbody><tr><td><strong>Sodium benzoate</strong> ($C_6H_5COONa$)</td><td>Soft drinks, jams, jellies, juices</td></tr><tr><td><strong>Sodium metabisulfite</strong> ($Na_2S_2O_5$)</td><td>Wine, fruit juices, dried fruits</td></tr><tr><td><strong>Sodium nitrate / nitrite</strong></td><td>Cured meats (bacon, ham) — prevents botulism</td></tr><tr><td><strong>Salt (NaCl)</strong></td><td>Traditional; preserves meat, fish</td></tr><tr><td><strong>Sugar</strong></td><td>Jams, preserves; high osmotic pressure</td></tr><tr><td><strong>Vinegar (acetic acid)</strong></td><td>Pickles</td></tr><tr><td><strong>Propionate salts</strong></td><td>Bread (prevents mold)</td></tr><tr><td><strong>Sorbic acid / potassium sorbate</strong></td><td>Cheese, wine, baked goods</td></tr></tbody></table><p><strong>2. Antioxidants:</strong></p><p>Prevent oxidation (rancidity) of fats/oils.</p><table class=\"md-table\"><thead><tr><th>Antioxidant</th><th>Use</th></tr></thead><tbody><tr><td><strong>BHA (Butylated Hydroxyanisole)</strong></td><td>Cereals, fats, baked goods</td></tr><tr><td><strong>BHT (Butylated Hydroxytoluene)</strong></td><td>Similar to BHA</td></tr><tr><td><strong>Vitamin E (tocopherol)</strong></td><td>Natural antioxidant; oils, supplements</td></tr><tr><td><strong>Vitamin C (ascorbic acid)</strong></td><td>Beverages, fruit products</td></tr><tr><td><strong>Sulfur dioxide ($SO_2$)</strong></td><td>Wine, dried fruits</td></tr><tr><td><strong>TBHQ</strong></td><td>Frying oils</td></tr></tbody></table><p>Mechanism: They donate hydrogen atom to free radicals; preferentially oxidized themselves, sparing the food.</p><p><strong>3. Artificial Sweeteners:</strong></p><p>Provide sweetness with little or no calories. Important for diabetics and weight management.</p><table class=\"md-table\"><thead><tr><th>Sweetener</th><th>Brand name</th><th>Relative sweetness (vs sucrose)</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Saccharin</strong></td><td>Sweet'N Low</td><td>$\\sim 500\\times$</td><td>Earliest (1879); some carcinogenic concerns (now reduced)</td></tr><tr><td><strong>Aspartame</strong></td><td>NutraSweet, Equal</td><td>$\\sim 100\\times$</td><td>Made from aspartic acid + phenylalanine; warnings for phenylketonurics (PKU)</td></tr><tr><td><strong>Sucralose</strong></td><td>Splenda</td><td>$\\sim 600\\times$</td><td>Made by chlorinating sucrose; heat-stable</td></tr><tr><td><strong>Stevia</strong> (steviol glycosides)</td><td>Truvia, Stevia</td><td>$\\sim 300\\times$</td><td>Natural (from Stevia plant)</td></tr><tr><td><strong>Alitame</strong></td><td>–</td><td>$\\sim 2000\\times$</td><td>Made from aspartic + alanine amide</td></tr><tr><td><strong>Acesulfame-K</strong></td><td>Sunett</td><td>$\\sim 200\\times$</td><td>Heat-stable; used in baking</td></tr><tr><td><strong>Cyclamate</strong></td><td>–</td><td>$\\sim 30\\times$</td><td>Banned in US; used elsewhere</td></tr></tbody></table><p><strong>4. Food Colors:</strong></p><ul><li><strong>Natural:</strong> beta-carotene (orange), chlorophyll (green), curcumin (yellow), anthocyanin (purple/red).</li><li><strong>Synthetic:</strong> tartrazine (yellow), sunset yellow, erythrosine (red), brilliant blue.</li></ul><p><strong>5. Flavor Enhancers:</strong></p><ul><li><strong>Monosodium glutamate (MSG):</strong> umami flavor; debated health effects.</li><li><strong>5'-nucleotides</strong> (GMP, IMP): synergize with MSG.</li></ul><p><strong>6. Emulsifiers/Stabilizers/Thickeners:</strong></p><ul><li>Lecithin, mono-/diglycerides, gums (guar, xanthan, locust bean).</li><li>Carrageenan, agar (from seaweed).</li><li>Pectin, starches.</li></ul><p><strong>7. Anti-caking Agents:</strong></p><ul><li>Silicon dioxide, calcium silicate, magnesium stearate.</li><li>Prevent powders (salt, sugar) from clumping.</li></ul><p><strong>Spoilage of Food (How preservatives work):</strong></p><p><strong>Microbial spoilage:</strong> Bacteria, yeast, mold grow on food. Preservatives create unfavorable conditions:</p><ul><li>pH (acetic acid, lactic acid)</li><li>Osmotic pressure (high salt/sugar)</li><li>Direct toxicity (sulfites, benzoates)</li></ul><p><strong>Oxidative spoilage:</strong> Fats and oils undergo oxidation → rancidity. Antioxidants prevent.</p><p><strong>Enzymatic spoilage:</strong> Natural enzymes in food cause browning (fruit cut). Antioxidants (Vitamin C) prevent.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Compare aspartame and saccharin.</p>",
+              "solution": "<table class=\"md-table\"><thead><tr><th>Property</th><th>Saccharin</th><th>Aspartame</th></tr></thead><tbody><tr><td>Sweetness vs sucrose</td><td>~$500$×</td><td>~$100$×</td></tr><tr><td>Structure</td><td>Cyclic imide of $o$-sulfobenzoic acid</td><td>Dipeptide of aspartic acid + phenylalanine methyl ester</td></tr><tr><td>Heat stability</td><td>Stable</td><td>Decomposes when heated; not for baking</td></tr><tr><td>Calorie</td><td>Zero</td><td>Very low (peptide-based)</td></tr><tr><td>Concerns</td><td>Earlier carcinogen concern (largely refuted)</td><td>Avoid in phenylketonuria (PKU); breaks down to methanol</td></tr></tbody></table><p><strong>Final Answer:</strong> Different structures and stability; aspartame is dipeptide-based (avoid in PKU).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is sodium benzoate used as preservative in soft drinks?</p>",
+              "solution": "<p>Sodium benzoate ($C_6H_5COONa$) is the sodium salt of benzoic acid.</p><p>Mechanism:</p><ol><li>In acidic conditions (soft drinks are acidic), sodium benzoate → benzoic acid (un-ionized).</li><li>Un-ionized benzoic acid can cross microbial cell membranes.</li><li>Inside the cell, it dissociates (cytoplasm is neutral) → benzoate anion.</li><li>This disrupts microbial pH and enzymes → inhibits growth.</li></ol><p>Effective against yeasts, molds, and some bacteria — common spoilage organisms.</p><p>Sodium benzoate is safe at low concentrations (recommended < $1$ g/kg food).</p><p><strong>Final Answer:</strong> Inhibits microbial growth by acidifying cell interior; safe at low doses.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Common preservative in soft drinks:</p>",
+              "options": [
+                "NaCl",
+                "Sodium benzoate",
+                "Sugar",
+                "Citric acid"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Aspartame is:</p>",
+              "options": [
+                "Sulfonate",
+                "Dipeptide (aspartic + phenylalanine methyl ester)",
+                "Chlorinated sugar",
+                "Steroid"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Most sweet (relative to sucrose):</p>",
+              "options": [
+                "Saccharin (~500×)",
+                "Aspartame (~100×)",
+                "Sucralose (~600×) [or alitame]",
+                "Stevia"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Antioxidant in food:</p>",
+              "options": [
+                "BHA, BHT, Vitamin E",
+                "NaCl",
+                "Sugar",
+                "Water"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>MSG enhances:</p>",
+              "options": [
+                "Sweet flavor",
+                "Umami (savory) flavor",
+                "Sour",
+                "Bitter"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-chem-chemistry-in-everyday-life-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>Aspirin is a/an:</p>",
+              "options": [
+                "Antibiotic",
+                "Analgesic + antipyretic + anti-inflammatory",
+                "Antiseptic",
+                "Tranquilizer"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Penicillin acts by:</p>",
+              "options": [
+                "Inhibiting cell wall synthesis in bacteria",
+                "Killing viruses",
+                "Stimulating immune system",
+                "Antacid action"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Dettol contains:</p>",
+              "options": [
+                "Chloroxylenol + terpineol",
+                "NaCl",
+                "Alcohol",
+                "Iodine"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Soft soap is made from:</p>",
+              "options": [
+                "NaOH + animal fat",
+                "KOH + vegetable oil",
+                "HCl + fat",
+                "Glycerol"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Antibiotic from a fungus:</p>",
+              "options": [
+                "Aspirin",
+                "Penicillin (from Penicillium)",
+                "Salt",
+                "Vitamin C"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Tincture of iodine is:</p>",
+              "options": [
+                "Pure iodine",
+                "$2-3\\%$ iodine in alcohol",
+                "Sodium iodide",
+                "Iodine vapor"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Hard water + soap:</p>",
+              "options": [
+                "Foams normally",
+                "Forms scum (insoluble Ca/Mg fatty acid salts)",
+                "No reaction",
+                "Becomes basic"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Cationic detergent:</p>",
+              "options": [
+                "Sodium dodecylbenzene sulfonate",
+                "Cetyltrimethylammonium bromide",
+                "Sodium stearate",
+                "Glucose"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Saccharin sweetness factor:</p>",
+              "options": [
+                "$50$",
+                "$500\\times$",
+                "$5000$",
+                "Negative"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Sodium benzoate is:</p>",
+              "options": [
+                "Antibiotic",
+                "Preservative",
+                "Antioxidant",
+                "Antacid"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Number of C atoms in stearic acid (CH₃(CH₂)₁₆COOH):</p>",
+              "answer": "18",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of fatty acid units per triglyceride molecule:</p>",
+              "answer": "3",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Sweetness of saccharin relative to sucrose (in hundreds approx, e.g., 5 for 500x):</p>",
+              "answer": "5",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Sodium benzoate prevents spoilage in soft drinks. <strong>Reason (R):</strong> It is converted to benzoic acid in acidic medium, which inhibits the growth of bacteria, yeasts and molds.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> Synthetic detergents work better than soap in hard water. <strong>Reason (R):</strong> Calcium and magnesium salts of sulfonate (in detergents) are water-soluble, while those of fatty acids (in soap) are insoluble.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

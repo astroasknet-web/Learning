@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": 17,
+  "title": "Chemical Kinetics",
+  "slug": "chemical-kinetics",
+  "subtitle": "Chemical Kinetics for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#16a34a",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "Master Chemical Kinetics for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Rate, Order, and Integrated Rate Laws",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Rate of Reaction, Rate Law, Order, Molecularity",
+          "concept": "<p><strong>Rate of Reaction:</strong> Change in concentration of reactant or product per unit time.</p><p>For: $aA + bB \\to cC + dD$: $$\\text{Rate} = -\\frac{1}{a}\\frac{d[A]}{dt} = -\\frac{1}{b}\\frac{d[B]}{dt} = +\\frac{1}{c}\\frac{d[C]}{dt} = +\\frac{1}{d}\\frac{d[D]}{dt}$$</p><ul><li>Reactants: $-$ (decreasing)</li><li>Products: $+$ (increasing)</li><li>Units: mol/L/s (M/s) or M/min</li></ul><p><strong>Average vs Instantaneous Rate:</strong></p><ul><li><strong>Average:</strong> Over a finite time interval</li><li><strong>Instantaneous:</strong> $dt \\to 0$; tangent slope at a point</li></ul><p><strong>Rate Law (Differential):</strong> Relates rate to concentrations of reactants: $$\\text{Rate} = k[A]^x[B]^y$$</p><ul><li>$k$: rate constant; depends on T (not concentration)</li><li>$x, y$: orders w.r.t. A, B (determined experimentally)</li><li>Overall <strong>order</strong> = $x + y$</li></ul><p><strong>Order of Reaction:</strong></p><ul><li>Can be 0, 1, 2, 3, or fractional</li><li>Determined experimentally, NOT from stoichiometry</li><li>Cannot exceed 3 for elementary reactions</li></ul><p><strong>Examples:</strong></p><ul><li>$2N_2O_5 \\to 4NO_2 + O_2$: rate = $k[N_2O_5]$ → first order</li><li>$2NO + Cl_2 \\to 2NOCl$: rate = $k[NO]^2[Cl_2]$ → third order overall</li></ul><p><strong>Molecularity:</strong></p><ul><li>Number of reactant molecules in the <strong>elementary step</strong></li><li>Always integer (1, 2, rarely 3)</li><li>Defined only for elementary reactions</li><li>e.g., $NH_4NO_2 \\to N_2 + 2H_2O$ is unimolecular but kinetically can be first or zero order</li></ul><p><strong>Differences:</strong></p><table class=\"md-table\"><thead><tr><th>Property</th><th>Order</th><th>Molecularity</th></tr></thead><tbody><tr><td>Determined</td><td>Experimentally</td><td>Theoretically</td></tr><tr><td>Value</td><td>Can be 0, fractional</td><td>Always integer</td></tr><tr><td>Applies to</td><td>Overall reaction (each step)</td><td>Elementary step only</td></tr><tr><td>Can be 0</td><td>Yes</td><td>No</td></tr></tbody></table><p><strong>Units of Rate Constant:</strong></p><ul><li>Zero order: mol/L/s</li><li>First order: 1/s (or s⁻¹)</li><li>Second order: L/mol/s</li><li>nth order: $\\text{(mol/L)}^{1-n} \\cdot \\text{s}^{-1}$</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>For reaction $2A + B \\to C$, rate $= k[A]^2[B]^0$. Find order overall and w.r.t. each species.</p>",
+              "solution": "<p>Order w.r.t. A = 2; w.r.t. B = 0; overall order = 2.</p><p><strong>Final Answer:</strong> Overall 2; A: 2; B: 0.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find units of $k$ for first-order reaction.</p>",
+              "solution": "<p>$\\text{Rate} = k[A]$ $M/s = k \\cdot M$ $k = 1/s = s^{-1}$.</p><p><strong>Final Answer:</strong> $s^{-1}$ (or min⁻¹).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Rate of reaction is expressed in:</p>",
+              "options": [
+                "M",
+                "M/s",
+                "mol",
+                "mol/s"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Order of reaction can be:</p>",
+              "options": [
+                "Only integer",
+                "Only fractional",
+                "Integer, zero, fractional",
+                "Only positive"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Molecularity is:</p>",
+              "options": [
+                "Theoretical concept",
+                "Number of molecules in elementary step",
+                "Always integer",
+                "All above"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>For zero order reaction, $k$ has units:</p>",
+              "options": [
+                "$s^{-1}$",
+                "M/s",
+                "M⁻¹s⁻¹",
+                "Dimensionless"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Rate law is determined:</p>",
+              "options": [
+                "From stoichiometric coefficients",
+                "Experimentally",
+                "From energy",
+                "From temperature"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Integrated Rate Equations and Half-Life",
+          "concept": "<p><strong>Zero Order Reactions:</strong> Rate = $k$ (independent of concentration).</p><p>Integrated: $[A] = [A]_0 - kt$</p><p>Plot of $[A]$ vs $t$: straight line, slope $= -k$, intercept $= [A]_0$.</p><p><strong>Half-life ($t_{1/2}$):</strong> Time for $[A]$ to decrease to half: $$t_{1/2} = [A]_0/(2k)$$ Note: $t_{1/2}$ depends on initial concentration.</p><p><strong>First Order Reactions:</strong> Rate = $k[A]$.</p><p>Integrated: $$\\ln\\frac{[A]_0}{[A]} = kt$$ $$[A] = [A]_0 e^{-kt}$$ $$\\log[A] = \\log[A]_0 - kt/2.303$$</p><p>Plot of $\\log[A]$ vs $t$: straight line, slope $= -k/2.303$.</p><p><strong>Half-life:</strong> $$t_{1/2} = \\frac{0.693}{k}$$ <strong>Independent of initial concentration</strong> (characteristic of first order).</p><p><strong>Second Order Reactions:</strong> Rate = $k[A]^2$.</p><p>Integrated: $$\\frac{1}{[A]} - \\frac{1}{[A]_0} = kt$$</p><p>Plot of $1/[A]$ vs $t$: straight line, slope $= k$.</p><p>Half-life: $t_{1/2} = 1/(k[A]_0)$ (depends on initial concentration).</p><p><strong>Summary Table:</strong></p><table class=\"md-table\"><thead><tr><th>Order</th><th>Rate eq</th><th>Integrated</th><th>Plot for straight line</th><th>Slope</th><th>$t_{1/2}$</th></tr></thead><tbody><tr><td>0</td><td>$\\text{Rate} = k$</td><td>$[A] = [A]_0 - kt$</td><td>$[A]$ vs $t$</td><td>$-k$</td><td>$[A]_0/(2k)$</td></tr><tr><td>1</td><td>$\\text{Rate} = k[A]$</td><td>$\\ln([A]_0/[A]) = kt$</td><td>$\\log[A]$ vs $t$</td><td>$-k/2.303$</td><td>$0.693/k$</td></tr><tr><td>2</td><td>$\\text{Rate} = k[A]^2$</td><td>$1/[A] - 1/[A]_0 = kt$</td><td>$1/[A]$ vs $t$</td><td>$k$</td><td>$1/(k[A]_0)$</td></tr></tbody></table><p><strong>Pseudo-Order Reactions:</strong> Reactions with multiple reactants behave as lower order when one reactant is in large excess. e.g., hydrolysis of ester in water: $CH_3COOC_2H_5 + H_2O \\to CH_3COOH + C_2H_5OH$</p><ul><li>True rate = $k[ester][H_2O]$ (2nd order)</li><li>With excess water, $[H_2O]$ ≈ constant: rate = $k'[ester]$ (pseudo first order)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>First-order reaction; rate constant $k = 0.04$ min⁻¹. Find half-life.</p>",
+              "solution": "<p>$t_{1/2} = 0.693/k = 0.693/0.04 = 17.3$ min.</p><p><strong>Final Answer:</strong> $t_{1/2} = 17.3$ min.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>$A \\to B$ is first order; $A_0 = 0.5$ M. After $30$ min, $[A] = 0.1$ M. Find $k$ and $t_{1/2}$.</p>",
+              "solution": "<p>$\\ln([A]_0/[A]) = kt$ $\\ln(0.5/0.1) = k \\times 30$ $\\ln 5 = 30k$ $1.609 = 30k \\implies k = 0.0537$ min⁻¹. $t_{1/2} = 0.693/0.0537 = 12.9$ min.</p><p><strong>Final Answer:</strong> $k = 0.054$ min⁻¹; $t_{1/2} = 12.9$ min.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Half-life of first order reaction:</p>",
+              "options": [
+                "Independent of [A]₀",
+                "Proportional to [A]₀",
+                "Inversely to [A]₀",
+                "Dependent on $k^2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>For first-order, plot of $\\log[A]$ vs $t$:</p>",
+              "options": [
+                "Curve",
+                "Straight line, slope $-k/2.303$",
+                "Parabola",
+                "Hyperbola"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Pseudo first order example:</p>",
+              "options": [
+                "Acid-base titration",
+                "Ester hydrolysis (excess water)",
+                "Decomposition of N₂O₅",
+                "Synthesis of NH₃"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Half-life of zero order reaction depends on:</p>",
+              "options": [
+                "Independent",
+                "Proportional to [A]₀",
+                "Inversely",
+                "Squared"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Units of rate constant for second order:</p>",
+              "options": [
+                "$s^{-1}$",
+                "M/s",
+                "$M^{-1}s^{-1}$",
+                "Dimensionless"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Temperature, Arrhenius, and Mechanism",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Arrhenius Equation and Activation Energy",
+          "concept": "<p><strong>Temperature Effect on Rate:</strong></p><ul><li>Rate increases with $T$</li><li>Empirical rule: rate ~ doubles per $10°$C rise (rough)</li></ul><p><strong>Arrhenius Equation:</strong> $$k = A e^{-E_a/RT}$$</p><ul><li>$A$: pre-exponential (frequency) factor; related to collision frequency</li><li>$E_a$: activation energy</li><li>$R$: gas constant ($8.314$ J/mol·K)</li><li>$T$: absolute temperature</li></ul><p><strong>Logarithmic Form:</strong> $$\\ln k = \\ln A - E_a/(RT)$$ $$\\log k = \\log A - E_a/(2.303 RT)$$</p><p>Plot of $\\log k$ vs $1/T$: straight line, slope $= -E_a/(2.303R)$, intercept $= \\log A$.</p><p><strong>At Two Temperatures:</strong> $$\\log\\frac{k_2}{k_1} = \\frac{E_a}{2.303 R}\\left(\\frac{1}{T_1} - \\frac{1}{T_2}\\right) = \\frac{E_a}{2.303 R} \\cdot \\frac{T_2 - T_1}{T_1 T_2}$$</p><p><strong>Activation Energy ($E_a$):</strong> Minimum energy reactants must have for successful reaction. Energy difference between reactants and <strong>transition state</strong> (activated complex).</p><p><strong>Threshold energy:</strong> Total energy of activated complex. <strong>Activation energy</strong> = Threshold energy − Energy of reactants.</p><p><strong>Energy Profile Diagram:</strong></p><ul><li>Endothermic reaction: products at higher energy</li><li>Exothermic reaction: products at lower energy</li><li>$E_a$ (forward) and $E_a$ (reverse) related to $\\Delta H$:</li></ul><p>$\\Delta H = E_a^{forward} - E_a^{reverse}$</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>$k$ doubles when T changes from $300$ K to $310$ K. Find $E_a$.</p>",
+              "solution": "<p>$\\log(k_2/k_1) = (E_a/2.303R)(T_2-T_1)/(T_1T_2)$ $\\log 2 = (E_a/2.303 \\times 8.314)(10/93000)$ $0.301 = E_a \\times 5.62 \\times 10^{-5}$ $E_a = 0.301/5.62 \\times 10^{-5} = 5356 \\times 10 = 53,560$ J $\\approx 53.6$ kJ/mol.</p><p><strong>Final Answer:</strong> $E_a \\approx 53.6$ kJ/mol.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>$k = 2.0 \\times 10^{-4}$ s⁻¹ at $300$ K; $E_a = 100$ kJ/mol. Find $k$ at $310$ K.</p>",
+              "solution": "<p>$\\log(k_2/k_1) = (100000/2.303 \\times 8.314)(10/93000) = 0.564$ $k_2/k_1 = 10^{0.564} = 3.66$ $k_2 = 3.66 \\times 2 \\times 10^{-4} = 7.3 \\times 10^{-4}$ s⁻¹.</p><p><strong>Final Answer:</strong> $k_2 = 7.3 \\times 10^{-4}$ s⁻¹.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Arrhenius equation:</p>",
+              "options": [
+                "$k = A e^{E_a/RT}$",
+                "$k = A e^{-E_a/RT}$",
+                "$k = E_a/RT$",
+                "$k = AT$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$E_a$ is:</p>",
+              "options": [
+                "Energy of products",
+                "Min energy for reaction",
+                "Heat of reaction",
+                "Bond energy"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Plot of $\\log k$ vs $1/T$:</p>",
+              "options": [
+                "Hyperbola",
+                "Straight line, $-E_a/(2.303R)$ slope",
+                "Exponential",
+                "Parabola"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Rate $\\approx$ doubles per:</p>",
+              "options": [
+                "$1°$C rise",
+                "$10°$C rise (empirical)",
+                "$100°$C rise",
+                "Random"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Activation energy for catalyzed reaction:</p>",
+              "options": [
+                "Same as uncatalyzed",
+                "Lower (alternative path)",
+                "Higher",
+                "Zero"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Collision Theory, Mechanism, Catalysis",
+          "concept": "<p><strong>Collision Theory:</strong> For reaction to occur:</p><ol><li>Reactants must collide</li><li>Collision must have sufficient energy ($\\geq E_a$) — <strong>energy condition</strong></li><li>Collision must be in correct orientation — <strong>orientation condition</strong></li></ol><p>Rate $\\propto$ (collision frequency) × (fraction with $E \\geq E_a$) × (steric/orientation factor): $$\\text{Rate} = Z \\cdot e^{-E_a/RT} \\cdot P$$</p><p>Arrhenius factor $A = ZP$ where $P$ is orientation/steric factor.</p><p><strong>Reaction Mechanism:</strong></p><ul><li>Sequence of elementary steps that combine to give overall reaction</li><li><strong>Rate-determining step (RDS):</strong> Slowest step; determines overall rate</li></ul><p>For multi-step reactions, rate law is derived from RDS.</p><p><strong>Example:</strong> $NO_2 + CO \\to NO + CO_2$. Mechanism: Step 1 (slow): $NO_2 + NO_2 \\to NO_3 + NO$ Step 2 (fast): $NO_3 + CO \\to NO_2 + CO_2$</p><p>Rate law = $k[NO_2]^2$ (from RDS).</p><p><strong>Pre-equilibrium Approximation:</strong> For a fast equilibrium followed by slow step, use $K_{eq}$ to eliminate intermediates.</p><p><strong>Catalysis:</strong> Substance that increases rate without being consumed.</p><p><strong>Types:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Description</th><th>Example</th></tr></thead><tbody><tr><td><strong>Homogeneous</strong></td><td>Same phase as reactants</td><td>$NO$ in lead chamber process</td></tr><tr><td><strong>Heterogeneous</strong></td><td>Different phase (usually solid catalyst, gas/liquid reactants)</td><td>$V_2O_5$ in contact process; Ni in hydrogenation</td></tr><tr><td><strong>Enzyme</strong></td><td>Biological catalyst (protein)</td><td>Amylase, pepsin</td></tr></tbody></table><p><strong>Properties of Catalysts:</strong></p><ol><li>Don't appear in net equation</li><li>Provide alternative pathway with lower $E_a$</li><li>Same effect on forward and reverse rates (doesn't shift equilibrium)</li><li>Small amount enough</li><li>Catalyst-specific to certain reactions</li></ol><p><strong>Adsorption Theory (Heterogeneous Catalysis):</strong></p><ol><li>Reactants adsorb on catalyst surface</li><li>Adsorbed species more reactive (weak bonds form/break)</li><li>Reaction occurs on surface</li><li>Products desorb</li></ol><p><strong>Examples of Catalysts in Industry:</strong></p><table class=\"md-table\"><thead><tr><th>Reaction</th><th>Catalyst</th></tr></thead><tbody><tr><td>Haber process: $N_2 + 3H_2 \\to 2NH_3$</td><td>Fe (with $K_2O$, $Al_2O_3$ promoters)</td></tr><tr><td>Contact process: $SO_2 + O_2 \\to SO_3$</td><td>$V_2O_5$ (Pt earlier)</td></tr><tr><td>Ostwald process: $NH_3 \\to NO$</td><td>Pt gauze</td></tr><tr><td>Hydrogenation: $C=C \\to C-C$</td><td>Ni, Pt, Pd</td></tr><tr><td>Cracking</td><td>Zeolites, $SiO_2$-$Al_2O_3$</td></tr><tr><td>Polymerization</td><td>Ziegler-Natta ($TiCl_4$ + $Al(C_2H_5)_3$)</td></tr></tbody></table><p><strong>Promoters:</strong> Increase activity of catalyst (e.g., $K_2O$, $Al_2O_3$ promote $Fe$ in Haber).</p><p><strong>Poisons:</strong> Decrease activity (e.g., $As$, $S$ poison Pt).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Catalyst increases rate of reaction. Why doesn't it shift equilibrium?</p>",
+              "solution": "<p>A catalyst provides an alternate path with lower $E_a$ for both forward and reverse reactions equally. It increases both rates by the same factor. At equilibrium, rates are still equal (faster but equal). So equilibrium position ($K_c$) is unchanged. Only the time to reach equilibrium decreases.</p><p><strong>Final Answer:</strong> Lowers $E_a$ of both directions equally; $K$ unchanged.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>For mechanism: $A \\xrightarrow{k_1, \\text{slow}} I \\xrightarrow{k_2, \\text{fast}} P$. What is the rate law?</p>",
+              "solution": "<p>The slow step (RDS) is the formation of intermediate I from A. Therefore: Rate = $k_1[A]$ (first order in A, depends only on RDS).</p><p><strong>Final Answer:</strong> Rate = $k_1[A]$; first order.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Collision theory requires:</p>",
+              "options": [
+                "Right energy",
+                "Right orientation",
+                "Both",
+                "Random collisions only"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Catalyst:</p>",
+              "options": [
+                "Increases $K_c$",
+                "Lowers $E_a$",
+                "Increases $\\Delta H$",
+                "Adds energy"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Enzymes are catalysts of:</p>",
+              "options": [
+                "Inorganic reactions",
+                "Biological reactions",
+                "Polymerization",
+                "Combustion"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In multi-step mechanism, rate = rate of:</p>",
+              "options": [
+                "Fastest step",
+                "Slowest (rate-determining) step",
+                "Sum of all",
+                "Independent"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Promoter is:</p>",
+              "options": [
+                "Itself catalyst",
+                "Substance enhancing catalyst activity",
+                "Reactant",
+                "Product"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-chem-chemical-kinetics-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>Rate of reaction depends on:</p>",
+              "options": [
+                "Stoichiometry",
+                "Concentration of reactants",
+                "Order",
+                "All except a"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Half-life of zero order: $t_{1/2} = $:</p>",
+              "options": [
+                "$[A]_0/(2k)$",
+                "$0.693/k$",
+                "$1/(k[A]_0)$",
+                "Constant"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Pseudo first order has order:</p>",
+              "options": [
+                "Truly 2, behaves as 1",
+                "Truly 1",
+                "Truly 0",
+                "Fractional"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$E_a$ of catalyzed reaction:</p>",
+              "options": [
+                "Same as uncatalyzed",
+                "Lower (alternate path)",
+                "Higher",
+                "Always zero"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Reaction at $300$ K has $k$ = $0.01$ s⁻¹; at $310$ K, $k$ approx (rate doubles per 10°):</p>",
+              "options": [
+                "$0.005$",
+                "$0.02$",
+                "$0.001$",
+                "Same"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Rate constant of $1$st order doesn't have units of:</p>",
+              "options": [
+                "min⁻¹",
+                "s⁻¹",
+                "M/s",
+                "hr⁻¹"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Arrhenius pre-exponential factor $A$ represents:</p>",
+              "options": [
+                "Activation energy",
+                "Frequency of collisions × orientation factor",
+                "Temperature",
+                "Heat of reaction"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Heterogeneous catalysis involves:</p>",
+              "options": [
+                "Same phase",
+                "Catalyst in different phase, often solid",
+                "No catalyst",
+                "Enzyme"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Slope of plot $\\log k$ vs $1/T$:</p>",
+              "options": [
+                "$E_a/(2.303 R)$",
+                "$-E_a/(2.303 R)$",
+                "$E_a$",
+                "$R/E_a$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Rate constant for elementary reaction is related to:</p>",
+              "options": [
+                "Always same as overall",
+                "Slowest step in multi-step",
+                "Catalyst",
+                "Pressure"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Order of reaction $\\text{Rate} = k[A]^2[B]^{1/2}$ (rounded):</p>",
+              "answer": "2",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Half-life of first-order reaction with $k = 0.0693$ min⁻¹ (in min, integer):</p>",
+              "answer": "10",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of factors that affect rate constant (T being one main one):</p>",
+              "answer": "1",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Half-life of first-order reaction is independent of initial concentration. <strong>Reason (R):</strong> $t_{1/2} = 0.693/k$ for first-order; depends only on rate constant.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> A catalyst lowers activation energy of both forward and reverse reactions equally. <strong>Reason (R):</strong> It provides an alternate path with reduced energy barrier, but doesn't change thermodynamics (ΔH or K).</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

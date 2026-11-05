@@ -1,0 +1,771 @@
+{
+  "exam": "ap",
+  "subject": "calculus-ab",
+  "chapter": 5,
+  "title": "Analytical Applications of Differentiation",
+  "slug": "analytical-applications",
+  "subtitle": "AP Calculus AB — Unit 5",
+  "level": "AP Calculus AB",
+  "color": "#10b981",
+  "icon": "math",
+  "seo": {
+    "title": "Analytical Applications of Differentiation — AP Calculus AB | GrowQR",
+    "meta_description": "Master Analytical Applications of Differentiation for AP Calculus AB: notes, formulas, worked examples, self-check MCQs and mock tests. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Foundations & Definitions",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Overview, Objectives & Key Definitions",
+          "concept": "<h2>Unit Overview</h2>\n<p>This unit uses the <strong>first and second derivatives</strong> to describe the <em>shape</em> of a graph: where it rises and falls, where it peaks and dips, and how it bends. These tools let you locate <strong>extrema</strong>, identify <strong>concavity</strong> and <strong>inflection points</strong>, and solve <strong>optimization</strong> problems (&quot;find the maximum/minimum&quot;). It also formalizes the key existence theorems — the <strong>Mean Value Theorem (MVT)</strong> and <strong>Extreme Value Theorem (EVT)</strong>.</p>\n<p>This is the largest analytic unit (14 topics) and a major exam contributor, especially on free-response, where <strong>justification</strong> using derivative signs is essential.</p>\n<p><strong>Big picture:</strong> <code>f&#39;</code> controls <em>increasing/decreasing and extrema</em>; <code>f&#39;&#39;</code> controls <em>concavity and inflection</em>.</p>\n<hr>\n<h2>Learning Objectives</h2>\n<ul>\n<li>State and apply the <strong>Mean Value Theorem</strong> and <strong>Extreme Value Theorem</strong>.</li>\n<li>Use <code>f&#39;</code> to find intervals of <strong>increase/decrease</strong> and <strong>local extrema</strong> (First Derivative Test).</li>\n<li>Use <code>f&#39;&#39;</code> to determine <strong>concavity</strong> and <strong>inflection points</strong>, and apply the <strong>Second Derivative Test</strong>.</li>\n<li>Find <strong>absolute extrema</strong> on a closed interval (candidates test).</li>\n<li>Interpret relationships among the graphs of <strong>f, f&#39;, f&#39;&#39;</strong>.</li>\n<li>Solve <strong>optimization</strong> problems.</li>\n<li>Analyze <strong>implicitly defined</strong> curves (tangents, extrema).</li>\n</ul>\n<hr>\n<h2>Prerequisite Concepts</h2>\n<ul>\n<li>Fluent differentiation (Units 2–3) and critical-point solving.</li>\n<li>Sign analysis (number lines / sign charts).</li>\n<li>The theorems of Unit 1 (IVT) and continuity/differentiability.</li>\n</ul>\n<hr>\n<h2>Key Definitions</h2>\n<ul>\n<li><strong>Critical number:</strong> a value c where <code>f&#39;(c) = 0</code> or <code>f&#39;(c)</code> is undefined (and f is defined at c).</li>\n<li><strong>Local (relative) maximum/minimum:</strong> highest/lowest value in a neighborhood.</li>\n<li><strong>Absolute (global) extremum:</strong> highest/lowest value over the entire domain/interval.</li>\n<li><strong>Concave up:</strong> <code>f&#39;&#39; &gt; 0</code> (slopes increasing, graph opens upward); <strong>concave down:</strong> <code>f&#39;&#39; &lt; 0</code>.</li>\n<li><strong>Inflection point:</strong> a point where concavity <strong>changes</strong> (f&#39;&#39; changes sign).</li>\n</ul>\n<hr>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "The Mean Value Theorem requires that a function f be:",
+              "options": [
+                "continuous on [a, b] and differentiable on (a, b)",
+                "only continuous on [a, b]",
+                "only differentiable at one point",
+                "increasing on [a, b]"
+              ],
+              "correct": 0,
+              "explanation": "The MVT hypotheses are: f is continuous on the closed interval [a, b] and differentiable on the open interval (a, b)."
+            },
+            {
+              "q": "The Extreme Value Theorem guarantees that a function attains an absolute maximum and minimum if it is:",
+              "options": [
+                "continuous on a closed interval [a, b]",
+                "differentiable everywhere",
+                "increasing",
+                "defined at one point"
+              ],
+              "correct": 0,
+              "explanation": "The EVT states that a function continuous on a closed, bounded interval [a, b] attains both an absolute maximum and an absolute minimum on that interval."
+            },
+            {
+              "q": "A function f is increasing on an interval when:",
+              "options": [
+                "f'(x) > 0 on that interval",
+                "f'(x) < 0",
+                "f''(x) > 0",
+                "f(x) > 0"
+              ],
+              "correct": 0,
+              "explanation": "A positive first derivative means the function is increasing on that interval."
+            },
+            {
+              "q": "A critical number of f is a value where:",
+              "options": [
+                "f'(x) = 0 or f'(x) is undefined",
+                "f(x) = 0",
+                "f''(x) = 0",
+                "f is discontinuous"
+              ],
+              "correct": 0,
+              "explanation": "Critical numbers occur where the first derivative equals zero or does not exist (and f is defined)."
+            },
+            {
+              "q": "By the Second Derivative Test, if f'(c) = 0 and f''(c) > 0, then f has a:",
+              "options": [
+                "local minimum at c",
+                "local maximum at c",
+                "inflection point at c",
+                "constant value"
+              ],
+              "correct": 0,
+              "explanation": "A positive second derivative at a critical point indicates the function is concave up there, giving a local minimum."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Theorems & Formulas",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Important Theorems & Formulas",
+          "concept": "<h2>Important Theorems</h2>\n<p><strong>Extreme Value Theorem (EVT):</strong> A function <strong>continuous on a closed interval [a, b]</strong> attains an absolute max and an absolute min on [a, b].</p>\n<p><strong>Mean Value Theorem (MVT):</strong> If f is <strong>continuous on [a, b]</strong> and <strong>differentiable on (a, b)</strong>, there exists c in (a, b) with\n<code>f&#39;(c) = (f(b) − f(a)) / (b − a)</code>\n(a tangent parallel to the secant). <strong>Rolle&#39;s Theorem</strong> is the case f(a) = f(b), giving f&#39;(c) = 0.</p>\n<p><strong>First Derivative Test:</strong> At a critical number c, if f&#39; changes <strong>+ to −</strong>, local <strong>max</strong>; <strong>− to +</strong>, local <strong>min</strong>; no sign change, <strong>neither</strong>.</p>\n<p><strong>Second Derivative Test:</strong> At a critical number c with f&#39;(c) = 0: if <code>f&#39;&#39;(c) &gt; 0</code>, local <strong>min</strong>; if <code>f&#39;&#39;(c) &lt; 0</code>, local <strong>max</strong>; if <code>f&#39;&#39;(c) = 0</code>, <strong>inconclusive</strong> (use the First Derivative Test).</p>\n<hr>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "For f(x) = x^2 on [1, 3], find the value c guaranteed by the Mean Value Theorem.",
+              "options": [
+                "2",
+                "1.5",
+                "2.5",
+                "3"
+              ],
+              "correct": 0,
+              "explanation": "The average rate of change is (f(3) - f(1))/(3 - 1) = (9 - 1)/2 = 4. Set f'(c) = 2c = 4, so c = 2."
+            },
+            {
+              "q": "The Mean Value Theorem guarantees a point where the tangent line is parallel to:",
+              "options": [
+                "the secant line through the endpoints",
+                "the x-axis",
+                "the y-axis",
+                "the line y = x"
+              ],
+              "correct": 0,
+              "explanation": "The MVT guarantees a c where the instantaneous rate f'(c) equals the average rate, so the tangent line at c is parallel to the secant line joining the endpoints."
+            },
+            {
+              "q": "Rolle's Theorem is a special case of the MVT that applies when:",
+              "options": [
+                "f(a) = f(b)",
+                "f'(a) = 0",
+                "f is linear",
+                "a = b"
+              ],
+              "correct": 0,
+              "explanation": "When f(a) = f(b), the average rate of change is 0, so Rolle's Theorem guarantees a c with f'(c) = 0."
+            },
+            {
+              "q": "For f(x) = x^2 - 2x on [0, 4], the value c from the MVT is:",
+              "options": [
+                "2",
+                "1",
+                "3",
+                "1.5"
+              ],
+              "correct": 0,
+              "explanation": "Average rate = (f(4) - f(0))/4 = (8 - 0)/4 = 2. f'(c) = 2c - 2 = 2, so 2c = 4 and c = 2."
+            },
+            {
+              "q": "Which situation could prevent the Extreme Value Theorem from guaranteeing an absolute maximum?",
+              "options": [
+                "The interval is open, such as (0, 1)",
+                "The function is a polynomial",
+                "The interval is closed",
+                "The function is continuous"
+              ],
+              "correct": 0,
+              "explanation": "The EVT requires a closed interval. On an open interval, a continuous function may fail to attain an absolute maximum or minimum."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Concepts & Worked Examples",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Concept Explanations & Solved Examples",
+          "concept": "<h2>Concept Explanations</h2>\n<p><strong>Increasing/decreasing and extrema (5.3–5.4).</strong> Build a <strong>sign chart</strong> of f&#39; using critical numbers. f rises where f&#39; &gt; 0, falls where f&#39; &lt; 0; sign changes locate local extrema.</p>\n<p><strong>Concavity and inflection (5.8, 5.10).</strong> A sign chart of f&#39;&#39; shows concavity. An inflection point requires f&#39;&#39; to <em>change sign</em> — a zero of f&#39;&#39; alone is <strong>not</strong> enough (e.g., x⁴ at 0).</p>\n<p><strong>Reading f, f&#39;, f&#39;&#39; together (5.9).</strong> These are the highest-value skills:</p>\n<ul>\n<li>f increasing ⇔ f&#39; &gt; 0; f has local max where f&#39; changes + → −.</li>\n<li>f concave up ⇔ f&#39;&#39; &gt; 0 ⇔ f&#39; increasing.</li>\n<li>A local <strong>min of f&#39;</strong> corresponds to an <strong>inflection point of f</strong>.</li>\n</ul>\n<p><strong>Absolute extrema (5.5).</strong> On a closed interval, the max/min is always among the <strong>critical values and the endpoints</strong> — just compare the candidate values.</p>\n<p><strong>Optimization (5.12).</strong> The art is translating words into an objective function of one variable. Classic results: for fixed perimeter the max-area rectangle is a <strong>square</strong>; for a fixed-volume closed cylinder, minimum surface area occurs when <strong>height = diameter</strong>.</p>\n<p><strong>MVT applications (5.6).</strong> MVT connects average and instantaneous rates: if a car averages 60 mph, at some instant its speedometer read exactly 60. It also proves that <code>f&#39; = 0</code> everywhere ⇒ f is constant, and bounds like <code>f&#39;(x) ≤ 2</code> ⇒ <code>f(b) − f(a) ≤ 2(b − a)</code>.</p>\n<hr>\n<h2>Worked Examples</h2>\n<p><strong>Example 1 (First Derivative Test).</strong> For <code>f(x) = x³ − 3x</code>, <code>f&#39;(x) = 3(x−1)(x+1)</code>. f&#39; changes + → − at x = −1 (<strong>local max</strong>) and − → + at x = 1 (<strong>local min</strong>).</p>\n<p><strong>Example 2 (Second Derivative Test).</strong> Same f: <code>f&#39;&#39;(x) = 6x</code>. <code>f&#39;&#39;(1) = 6 &gt; 0</code> ⇒ local min at x = 1; <code>f&#39;&#39;(−1) = −6 &lt; 0</code> ⇒ local max at x = −1.</p>\n<p><strong>Example 3 (Absolute extrema).</strong> <code>f(x) = x³ − 3x</code> on [0, 2]: critical x = 1. <code>f(0) = 0, f(1) = −2, f(2) = 2</code>. Absolute max <strong>2</strong> (x = 2), absolute min <strong>−2</strong> (x = 1).</p>\n<p><strong>Example 4 (Inflection).</strong> <code>f(x) = x³ − 6x²</code>: <code>f&#39;&#39;(x) = 6x − 12 = 0</code> at x = 2, and f&#39;&#39; changes sign there — <strong>inflection point at x = 2</strong>.</p>\n<p><strong>Example 5 (Optimization).</strong> Two nonnegative numbers sum to 12; maximize the product. <code>P = x(12 − x)</code>, <code>P&#39;(x) = 12 − 2x = 0</code> at x = 6, product = 36.</p>\n<p><strong>Example 6 (MVT).</strong> For <code>f(x) = x²</code> on [1, 3]: average rate = <code>(9 − 1)/2 = 4</code>; set <code>2c = 4</code> ⇒ c = 2.</p>\n<hr>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "According to the EVT, the absolute extrema of a continuous function on [a, b] must occur at:",
+              "options": [
+                "critical points or endpoints",
+                "endpoints only",
+                "inflection points",
+                "points where f'' = 0"
+              ],
+              "correct": 0,
+              "explanation": "Absolute extrema on a closed interval occur either at interior critical points (where f' = 0 or is undefined) or at the endpoints."
+            },
+            {
+              "q": "On what interval is f(x) = x^2 - 4x increasing?",
+              "options": [
+                "x > 2",
+                "x < 2",
+                "all x",
+                "x > 0"
+              ],
+              "correct": 0,
+              "explanation": "f'(x) = 2x - 4 > 0 when x > 2, so f is increasing for x > 2."
+            },
+            {
+              "q": "For f(x) = x^3 - 3x, on what interval is f decreasing?",
+              "options": [
+                "-1 < x < 1",
+                "x > 1",
+                "x < -1",
+                "all x"
+              ],
+              "correct": 0,
+              "explanation": "f'(x) = 3x^2 - 3 = 3(x - 1)(x + 1) < 0 for -1 < x < 1, so f is decreasing there."
+            },
+            {
+              "q": "If f'(x) = (x - 2)(x + 3), on what interval is f decreasing?",
+              "options": [
+                "-3 < x < 2",
+                "x < -3",
+                "x > 2",
+                "all x"
+              ],
+              "correct": 0,
+              "explanation": "f'(x) < 0 between the roots -3 and 2, so f is decreasing on -3 < x < 2."
+            },
+            {
+              "q": "For f(x) = e^x - x, on what interval is f increasing?",
+              "options": [
+                "x > 0",
+                "x < 0",
+                "all x",
+                "never"
+              ],
+              "correct": 0,
+              "explanation": "f'(x) = e^x - 1 > 0 when e^x > 1, i.e., when x > 0."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Graphs, Pitfalls & AP Exam Tips",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Graphical Interpretation, Common Mistakes & Tips",
+          "concept": "<h2>Graphical Interpretation</h2>\n<ul>\n<li><strong>f&#39; graph:</strong> above the axis ⇒ f increasing; zeros with sign change ⇒ f&#39;s local extrema; f&#39; increasing ⇒ f concave up.</li>\n<li><strong>f&#39;&#39; graph:</strong> sign gives concavity; sign changes give inflection points of f.</li>\n<li>A smooth &quot;peak&quot; of f sits above a <strong>downward zero-crossing</strong> of f&#39;; a &quot;valley&quot; above an <strong>upward crossing</strong>.</li>\n</ul>\n<hr>\n<h2>Common Mistakes</h2>\n<ul>\n<li><strong>Calling every zero of f&#39;&#39; an inflection point</strong> — the sign must change.</li>\n<li><strong>Reporting a critical number as the answer</strong> instead of the max/min <em>value</em> (or point).</li>\n<li><strong>Skipping endpoints</strong> in a closed-interval absolute-extrema problem.</li>\n<li><strong>Trusting the Second Derivative Test when f&#39;&#39;(c) = 0</strong> — it&#39;s inconclusive; use the First Derivative Test.</li>\n<li><strong>Weak justification</strong> on free-response — you must cite the <em>sign behavior</em> of f&#39; or f&#39;&#39;.</li>\n<li><strong>Ignoring MVT/EVT hypotheses</strong> (continuity/differentiability) when the theorem is invoked.</li>\n</ul>\n<hr>\n<h2>AP Exam Tips</h2>\n<ul>\n<li>On free-response, <strong>justify with a sign chart or explicit sign statement</strong> (&quot;f&#39; changes from positive to negative, so f has a local max&quot;).</li>\n<li>Absolute extrema on [a, b]: always run the <strong>candidates test</strong> (criticals + endpoints).</li>\n<li>For &quot;f is increasing/concave up on…&quot;, answer with <strong>intervals</strong> and the derivative reasoning.</li>\n<li>Know the <strong>classic optimization results</strong> to sanity-check answers.</li>\n<li>State the <strong>hypotheses</strong> when citing MVT or EVT — it earns the justification point.</li>\n</ul>\n<hr>\n<h2>Unit Summary</h2>\n<ul>\n<li><strong>f&#39; :</strong> increasing/decreasing and local extrema (First Derivative Test).</li>\n<li><strong>f&#39;&#39; :</strong> concavity and inflection points (Second Derivative Test, when f&#39;&#39;(c) ≠ 0).</li>\n<li><strong>Absolute extrema</strong> on [a, b] come from the candidates test (criticals + endpoints).</li>\n<li><strong>MVT:</strong> <code>f&#39;(c) = (f(b) − f(a))/(b − a)</code>; <strong>EVT:</strong> continuous on closed interval ⇒ attains max and min.</li>\n<li><strong>Optimization:</strong> reduce to one variable, then use critical-point analysis.</li>\n</ul>\n<p><em>Next unit:</em> the reverse process — <strong>integration</strong> and accumulation of change.</p>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "For f(x) = x^3 on [0, 2], find the value c from the Mean Value Theorem.",
+              "options": [
+                "2/sqrt(3)",
+                "1",
+                "sqrt(2)",
+                "4/3"
+              ],
+              "correct": 0,
+              "explanation": "Average rate = (8 - 0)/2 = 4. f'(c) = 3c^2 = 4, so c^2 = 4/3 and c = 2/sqrt(3) (taking the value in (0, 2))."
+            },
+            {
+              "q": "Why does f(x) = 1/x fail to have an absolute maximum on (0, 1]?",
+              "options": [
+                "f is not continuous on a closed interval containing 0 and grows without bound as x approaches 0",
+                "f is not differentiable",
+                "f is decreasing",
+                "f has no critical points"
+              ],
+              "correct": 0,
+              "explanation": "As x approaches 0 from the right, 1/x approaches infinity. The interval is not closed at 0, so the EVT does not apply and no absolute maximum exists."
+            },
+            {
+              "q": "For f(x) = x^3 - 3x, on what interval(s) is f increasing?",
+              "options": [
+                "x < -1 or x > 1",
+                "-1 < x < 1",
+                "x > 0",
+                "x < 0"
+              ],
+              "correct": 0,
+              "explanation": "f'(x) = 3(x - 1)(x + 1) > 0 when x < -1 or x > 1."
+            },
+            {
+              "q": "For f(x) = x + 1/x (x > 0), at what x is there a local minimum?",
+              "options": [
+                "x = 1",
+                "x = 0",
+                "x = 2",
+                "x = 1/2"
+              ],
+              "correct": 0,
+              "explanation": "f'(x) = 1 - 1/x^2 = 0 gives x^2 = 1, so x = 1 (for x > 0). f' changes from negative to positive there, a local minimum."
+            },
+            {
+              "q": "Find the absolute maximum of f(x) = x^3 - 3x on [0, 2].",
+              "options": [
+                "2",
+                "-2",
+                "0",
+                "6"
+              ],
+              "correct": 0,
+              "explanation": "f'(x) = 3x^2 - 3 = 0 at x = 1 (in [0,2]). f(0) = 0, f(1) = -2, f(2) = 8 - 6 = 2. Absolute maximum is 2 at x = 2."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "analytical-applications-test-1",
+      "title": "Practice Set A",
+      "level": "Standard",
+      "time_limit_minutes": 30,
+      "total": 20,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Multiple Choice",
+          "questions": [
+            {
+              "q": "A function is concave up on an interval when:",
+              "options": [
+                "f''(x) > 0",
+                "f'(x) > 0",
+                "f(x) > 0",
+                "f''(x) < 0"
+              ],
+              "correct": 0,
+              "explanation": "A positive second derivative means the function is concave up (its slope is increasing)."
+            },
+            {
+              "q": "An inflection point of f occurs where:",
+              "options": [
+                "concavity changes (f'' changes sign)",
+                "f' = 0",
+                "f = 0",
+                "f has a maximum"
+              ],
+              "correct": 0,
+              "explanation": "An inflection point is where the graph changes concavity, which requires f'' to change sign."
+            },
+            {
+              "q": "If f'(x) < 0 on an interval, then on that interval f is:",
+              "options": [
+                "decreasing",
+                "increasing",
+                "constant",
+                "concave up"
+              ],
+              "correct": 0,
+              "explanation": "A negative first derivative means the function is decreasing."
+            },
+            {
+              "q": "At a local extremum of a differentiable function, the first derivative is:",
+              "options": [
+                "zero",
+                "positive",
+                "negative",
+                "undefined"
+              ],
+              "correct": 0,
+              "explanation": "For a differentiable function, local extrema occur where f'(x) = 0."
+            },
+            {
+              "q": "The conclusion of the Mean Value Theorem is that there exists c in (a, b) such that:",
+              "options": [
+                "f'(c) = (f(b) - f(a))/(b - a)",
+                "f'(c) = 0",
+                "f(c) = 0",
+                "f''(c) = 0"
+              ],
+              "correct": 0,
+              "explanation": "The MVT concludes that some interior point c has instantaneous rate f'(c) equal to the average rate of change over [a, b]."
+            },
+            {
+              "q": "An absolute extremum on a closed interval is:",
+              "options": [
+                "the single largest (or smallest) function value on the whole interval",
+                "any local extremum",
+                "always at the midpoint",
+                "where f'' = 0"
+              ],
+              "correct": 0,
+              "explanation": "An absolute (global) extremum is the largest or smallest value the function attains over the entire interval."
+            },
+            {
+              "q": "By the First Derivative Test, f has a local maximum at c if f' changes from:",
+              "options": [
+                "positive to negative at c",
+                "negative to positive at c",
+                "positive to positive",
+                "zero to zero"
+              ],
+              "correct": 0,
+              "explanation": "A local maximum occurs where the function stops increasing and starts decreasing, i.e., f' changes from positive to negative."
+            },
+            {
+              "q": "For f(x) = x^3 - 3x, at which x is there a local maximum?",
+              "options": [
+                "x = -1",
+                "x = 1",
+                "x = 0",
+                "x = 3"
+              ],
+              "correct": 0,
+              "explanation": "f'(x) = 3(x-1)(x+1). At x = -1, f' changes from positive (x < -1) to negative (-1 < x < 1), a local maximum."
+            },
+            {
+              "q": "For f(x) = x^3 - 3x, at which x is there a local minimum?",
+              "options": [
+                "x = 1",
+                "x = -1",
+                "x = 0",
+                "x = 2"
+              ],
+              "correct": 0,
+              "explanation": "At x = 1, f' changes from negative to positive, indicating a local minimum."
+            },
+            {
+              "q": "How many critical numbers does f(x) = x^4 - 4x^2 have?",
+              "options": [
+                "3",
+                "1",
+                "2",
+                "4"
+              ],
+              "correct": 0,
+              "explanation": "f'(x) = 4x^3 - 8x = 4x(x^2 - 2) = 0 gives x = 0, x = sqrt(2), x = -sqrt(2): three critical numbers."
+            },
+            {
+              "q": "If f'(x) = x^2 (does not change sign at x = 0), what happens at x = 0?",
+              "options": [
+                "There is no local extremum (f' does not change sign)",
+                "Local maximum",
+                "Local minimum",
+                "Inflection point guaranteed"
+              ],
+              "correct": 0,
+              "explanation": "Although x = 0 is a critical number, f'(x) = x^2 >= 0 on both sides, so f' does not change sign and there is no local extremum."
+            },
+            {
+              "q": "Find the absolute maximum of f(x) = x^2 on the interval [-1, 3].",
+              "options": [
+                "9",
+                "1",
+                "0",
+                "3"
+              ],
+              "correct": 0,
+              "explanation": "Candidates: critical point x = 0 (f = 0) and endpoints x = -1 (f = 1), x = 3 (f = 9). The absolute maximum is 9."
+            },
+            {
+              "q": "Find the absolute minimum of f(x) = x^2 - 4x + 1 on [0, 3].",
+              "options": [
+                "-3",
+                "1",
+                "-2",
+                "0"
+              ],
+              "correct": 0,
+              "explanation": "f'(x) = 2x - 4 = 0 at x = 2. f(2) = 4 - 8 + 1 = -3, f(0) = 1, f(3) = 9 - 12 + 1 = -2. The absolute minimum is -3 at x = 2."
+            },
+            {
+              "q": "The 'candidates test' for absolute extrema on [a, b] evaluates f at:",
+              "options": [
+                "all critical points in [a, b] and both endpoints",
+                "only the midpoint",
+                "only inflection points",
+                "only where f'' = 0"
+              ],
+              "correct": 0,
+              "explanation": "To find absolute extrema on a closed interval, compare f-values at every critical point and at both endpoints."
+            },
+            {
+              "q": "If f'(x) = 0 for all x in an interval, then on that interval f is:",
+              "options": [
+                "constant",
+                "increasing",
+                "decreasing",
+                "concave up"
+              ],
+              "correct": 0,
+              "explanation": "A consequence of the MVT: if the derivative is zero everywhere on an interval, the function is constant there."
+            },
+            {
+              "q": "If two functions f and g satisfy f'(x) = g'(x) for all x, then:",
+              "options": [
+                "f(x) = g(x) + C for some constant C",
+                "f(x) = g(x)",
+                "f(x) = C g(x)",
+                "f and g are unrelated"
+              ],
+              "correct": 0,
+              "explanation": "If two functions have equal derivatives on an interval, they differ by a constant: f(x) - g(x) = C."
+            },
+            {
+              "q": "For f(x) = x^3 - 3x, use the Second Derivative Test at x = 1.",
+              "options": [
+                "Local minimum, since f''(1) = 6 > 0",
+                "Local maximum",
+                "Inflection point",
+                "No conclusion"
+              ],
+              "correct": 0,
+              "explanation": "f''(x) = 6x, so f''(1) = 6 > 0. The function is concave up at x = 1, giving a local minimum."
+            },
+            {
+              "q": "For f(x) = x^3 - 3x, apply the Second Derivative Test at x = -1.",
+              "options": [
+                "Local maximum, since f''(-1) = -6 < 0",
+                "Local minimum",
+                "Inflection point",
+                "No conclusion"
+              ],
+              "correct": 0,
+              "explanation": "f''(-1) = 6(-1) = -6 < 0. The function is concave down, giving a local maximum."
+            },
+            {
+              "q": "For f(x) = x^2 + 4x, the Second Derivative Test at the critical point x = -2 shows:",
+              "options": [
+                "a local minimum (f'' = 2 > 0)",
+                "a local maximum",
+                "an inflection point",
+                "no extremum"
+              ],
+              "correct": 0,
+              "explanation": "f'(x) = 2x + 4 = 0 at x = -2. f''(x) = 2 > 0, so x = -2 is a local minimum."
+            },
+            {
+              "q": "For f(x) = x^3, on what interval is f concave down?",
+              "options": [
+                "x < 0",
+                "x > 0",
+                "all x",
+                "never"
+              ],
+              "correct": 0,
+              "explanation": "f''(x) = 6x < 0 when x < 0, so f is concave down for x < 0."
+            }
+          ]
+        }
+      ],
+      "note": "Auto-graded practice from the Analytical Applications of Differentiation question bank."
+    },
+    {
+      "id": "analytical-applications-test-2",
+      "title": "Practice Set B",
+      "level": "Challenge",
+      "time_limit_minutes": 30,
+      "total": 20,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Multiple Choice",
+          "questions": [
+            {
+              "q": "For f(x) = x^4, describe the concavity.",
+              "options": [
+                "Concave up for all x (except possibly x = 0)",
+                "Concave down everywhere",
+                "Concave up for x > 0 only",
+                "Never concave up"
+              ],
+              "correct": 0,
+              "explanation": "f''(x) = 12x^2 >= 0, and is positive for all x not equal to 0, so f is concave up."
+            },
+            {
+              "q": "Concave up means the graph:",
+              "options": [
+                "opens upward and lies above its tangent lines",
+                "opens downward",
+                "is a straight line",
+                "is decreasing"
+              ],
+              "correct": 0,
+              "explanation": "A concave-up curve bends upward (like a cup) and lies above each of its tangent lines."
+            },
+            {
+              "q": "If f'(x) > 0 and f''(x) < 0 on an interval, the graph of f is:",
+              "options": [
+                "increasing and concave down",
+                "decreasing and concave up",
+                "increasing and concave up",
+                "decreasing and concave down"
+              ],
+              "correct": 0,
+              "explanation": "f' > 0 means increasing; f'' < 0 means concave down. So the graph rises while bending downward."
+            },
+            {
+              "q": "If the graph of f' is increasing on an interval, then f is:",
+              "options": [
+                "concave up",
+                "concave down",
+                "decreasing",
+                "constant"
+              ],
+              "correct": 0,
+              "explanation": "f' increasing means f'' > 0, which means f is concave up."
+            },
+            {
+              "q": "If f'(c) = 0 and f' changes from negative to positive at c, then the graph of f has:",
+              "options": [
+                "a local minimum at c",
+                "a local maximum at c",
+                "an inflection point at c",
+                "a vertical asymptote"
+              ],
+              "correct": 0,
+              "explanation": "f' going from negative to positive means f goes from decreasing to increasing: a local minimum."
+            },
+            {
+              "q": "Find the inflection point of f(x) = x^3.",
+              "options": [
+                "x = 0",
+                "x = 1",
+                "x = -1",
+                "no inflection point"
+              ],
+              "correct": 0,
+              "explanation": "f''(x) = 6x = 0 at x = 0, and f'' changes sign there (negative to positive), so x = 0 is an inflection point."
+            },
+            {
+              "q": "For f(x) = x^3 - 6x^2 + 5, at what x is the inflection point?",
+              "options": [
+                "x = 2",
+                "x = 0",
+                "x = 6",
+                "x = 5"
+              ],
+              "correct": 0,
+              "explanation": "f''(x) = 6x - 12 = 0 at x = 2, and concavity changes there, so x = 2 is an inflection point."
+            },
+            {
+              "q": "The number of inflection points of f(x) = x^4 - 6x^2 is:",
+              "options": [
+                "2",
+                "1",
+                "0",
+                "3"
+              ],
+              "correct": 0,
+              "explanation": "f''(x) = 12x^2 - 12 = 12(x^2 - 1) = 0 at x = 1 and x = -1, with sign changes at both, giving 2 inflection points."
+            },
+            {
+              "q": "The Intermediate Value Theorem guarantees a solution to f(x) = k on [a, b] if f is continuous and:",
+              "options": [
+                "k is between f(a) and f(b)",
+                "k > f(b)",
+                "f is increasing",
+                "f'(x) = 0 somewhere"
+              ],
+              "correct": 0,
+              "explanation": "The IVT guarantees that a continuous function takes every value k between f(a) and f(b) at some point in [a, b]."
+            },
+            {
+              "q": "Which theorem guarantees a continuous function on [a, b] attains its maximum value?",
+              "options": [
+                "Extreme Value Theorem",
+                "Mean Value Theorem",
+                "Intermediate Value Theorem",
+                "Rolle's Theorem"
+              ],
+              "correct": 0,
+              "explanation": "The Extreme Value Theorem guarantees that a function continuous on a closed interval attains an absolute maximum (and minimum)."
+            },
+            {
+              "q": "A rectangle has a fixed perimeter of 40. What dimensions maximize its area?",
+              "options": [
+                "10 by 10 (a square)",
+                "5 by 15",
+                "8 by 12",
+                "1 by 19"
+              ],
+              "correct": 0,
+              "explanation": "With perimeter 40, l + w = 20. Area A = w(20 - w) is maximized at w = 10, giving a 10 by 10 square with area 100."
+            },
+            {
+              "q": "What is the minimum value of the sum S = x + 16/x for x > 0?",
+              "options": [
+                "8",
+                "16",
+                "4",
+                "12"
+              ],
+              "correct": 0,
+              "explanation": "S'(x) = 1 - 16/x^2 = 0 at x = 4. S(4) = 4 + 4 = 8, a minimum since S'' > 0."
+            },
+            {
+              "q": "The first step in solving an optimization problem is usually to:",
+              "options": [
+                "write the quantity to optimize as a function of one variable",
+                "take the second derivative",
+                "guess the answer",
+                "integrate"
+              ],
+              "correct": 0,
+              "explanation": "You express the objective (e.g., area or cost) as a function of a single variable using the constraint, then find critical points."
+            },
+            {
+              "q": "The difference between an absolute maximum and a relative (local) maximum is:",
+              "options": [
+                "an absolute maximum is the highest value on the whole domain; a relative maximum is highest only nearby",
+                "there is no difference",
+                "a relative maximum is always higher",
+                "an absolute maximum occurs only at endpoints"
+              ],
+              "correct": 0,
+              "explanation": "An absolute (global) maximum is the largest value over the entire domain, while a relative (local) maximum is the largest value only in a neighborhood."
+            },
+            {
+              "q": "A relative extremum of a differentiable function can only occur where:",
+              "options": [
+                "f'(x) = 0",
+                "f(x) = 0",
+                "f''(x) = 0",
+                "x = 0"
+              ],
+              "correct": 0,
+              "explanation": "For a differentiable function, relative extrema occur only at critical points where f'(x) = 0 (Fermat's Theorem)."
+            },
+            {
+              "q": "If f'(x) = -2x + 6, on what interval is f increasing?",
+              "options": [
+                "x < 3",
+                "x > 3",
+                "all x",
+                "x < 0"
+              ],
+              "correct": 0,
+              "explanation": "f'(x) = -2x + 6 > 0 when x < 3, so f is increasing for x < 3."
+            },
+            {
+              "q": "For f(x) = 3x^4 - 4x^3, the critical numbers are:",
+              "options": [
+                "x = 0 and x = 1",
+                "x = 1 only",
+                "x = 0 only",
+                "x = -1 and x = 1"
+              ],
+              "correct": 0,
+              "explanation": "f'(x) = 12x^3 - 12x^2 = 12x^2(x - 1) = 0 at x = 0 and x = 1."
+            },
+            {
+              "q": "For f(x) = -x^2 + 6x, describe the concavity everywhere.",
+              "options": [
+                "Concave down for all x",
+                "Concave up for all x",
+                "Concave up for x > 3",
+                "Changes concavity at x = 3"
+              ],
+              "correct": 0,
+              "explanation": "f''(x) = -2 < 0 for all x, so the parabola is concave down everywhere."
+            },
+            {
+              "q": "Find the absolute maximum of f(x) = 2x^3 - 3x^2 - 12x on [-2, 3].",
+              "options": [
+                "7",
+                "20",
+                "-20",
+                "0"
+              ],
+              "correct": 0,
+              "explanation": "f'(x) = 6x^2 - 6x - 12 = 6(x-2)(x+1) = 0 at x = -1, 2. f(-2) = -16 -12 +24 = -4, f(-1) = -2 -3 +12 = 7, f(2) = 16 -12 -24 = -20, f(3) = 54 -27 -36 = -9. Absolute maximum is 7 at x = -1."
+            },
+            {
+              "q": "A function continuous on [2, 8] is guaranteed by the EVT to have:",
+              "options": [
+                "both an absolute maximum and an absolute minimum on [2, 8]",
+                "no extrema",
+                "an inflection point",
+                "a vertical asymptote"
+              ],
+              "correct": 0,
+              "explanation": "The EVT guarantees that a function continuous on a closed, bounded interval attains both an absolute maximum and an absolute minimum."
+            }
+          ]
+        }
+      ],
+      "note": "A second auto-graded set covering Analytical Applications of Differentiation."
+    }
+  ]
+}

@@ -1,0 +1,960 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": 24,
+  "title": "Definite Integration",
+  "slug": "definite-integration",
+  "subtitle": "Integral Calculus: Definite Integration",
+  "level": "JEE Main & Advanced",
+  "color": "#d97706",
+  "icon": "math",
+  "seo": {
+    "meta_description": "Master Definite Integration for JEE Main & Advanced on GrowQR: notes, solved examples, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Foundations of Definite Integrals & The FTC",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Definition as a Limit of Riemann Sums",
+          "concept": "<p>Geometrically, the definite integral $\\int_a^b f(x) \\, dx$ of a continuous function $f(x)$ represents the net signed area bounded between the curve $y = f(x)$, the x-axis, and the vertical lines $x = a$ and $x = b$. Rigorously, this area is defined by partitioning the closed interval $[a, b]$ into $n$ sub-intervals of width $\\Delta x = \\frac{b-a}{n}$. Let $x_r = a + r\\Delta x$ represent the endpoint of the $r$-th sub-interval. The <strong>Riemann Sum</strong> is formed by summing the areas of these approximating rectangular columns. As the number of columns approaches infinity ($n \\to \\infty$), the width of each column vanishes ($\\Delta x \\to 0$). The definite integral is defined as the exact limit of this Riemann sum:\n \\[ \\int_a^b f(x) \\, dx = \\lim_{n \\to \\infty} \\sum_{r=1}^n f(x_r) \\Delta x = \\lim_{n \\to \\infty} \\sum_{r=1}^n f\\left(a + r\\frac{b-a}{n}\\right) \\frac{b-a}{n} \\]\n A common analytical trap in competitive exams is attempting to evaluate a Riemann sum where the underlying function contains an infinite discontinuity within the interval boundaries, which invalidates standard Riemann partitioning.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Express the definite integral $\\int_1^3 x^2 \\, dx$ as a limit of a Riemann sum using right endpoints.</p>",
+              "solution": "Identify the interval parameters: lower bound $a = 1$ and upper bound $b = 3$.\n <ul>\n <li><strong>Step 1: Compute sub-interval column width</strong><br>\n \\[ \\Delta x = \\frac{b - a}{n} = \\frac{3 - 1}{n} = \\frac{2}{n} \\]\n <li><strong>Step 2: Define the sampling point position $x_r$</strong><br>\n \\[ x_r = a + r\\Delta x = 1 + r\\left(\\frac{2}{n}\\right) = 1 + \\frac{2r}{n} \\]\n <li><strong>Step 3: Construct the functional height evaluate term</strong><br>\n Since the target equation is $f(x) = x^2$:\n \\[ f(x_r) = \\left(1 + \\frac{2r}{n}\\right)^2 \\]\n </ul>\n Substitute these terms directly into the generalized Riemann limit definition formula:\n \\[ \\int_1^3 x^2 \\, dx = \\lim_{n \\to \\infty} \\sum_{r=1}^n f(x_r) \\Delta x = \\lim_{n \\to \\infty} \\sum_{r=1}^n \\left(1 + \\frac{2r}{n}\\right)^2 \\frac{2}{n} \\]\n <strong>Final Answer:</strong> $\\lim_{n \\to \\infty} \\frac{2}{n} \\sum_{r=1}^n \\left(1 + \\frac{2r}{n}\\right)^2$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Which of the following expressions precisely represents the definite area integral $\\int_0^5 x^3 \\, dx$ as a limit of a Riemann sum?",
+              "options": [
+                "$\\lim_{n \\to \\infty} \\sum_{r=1}^n \\left(\\frac{r}{n}\\right)^3 \\frac{5}{n}$",
+                "$\\lim_{n \\to \\infty} \\frac{5}{n} \\sum_{r=1}^n \\left(\\frac{5r}{n}\\right)^3$",
+                "$\\lim_{n \\to \\infty} \\frac{1}{n} \\sum_{r=1}^n \\left(\\frac{5r}{n}\\right)^3$",
+                "$\\lim_{n \\to \\infty} \\sum_{r=1}^n \\left(1 + \\frac{5r}{n}\\right)^3 \\frac{5}{n}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Given the Riemann limit expansion $L = \\lim_{n \\to \\infty} \\frac{3}{n} \\sum_{r=1}^n \\sqrt{2 + \\frac{3r}{n}}$, identify its corresponding definite integral form:",
+              "options": [
+                "$\\int_0^3 \\sqrt{x} \\, dx$",
+                "$\\int_2^5 \\sqrt{x} \\, dx$",
+                "$\\int_0^2 \\sqrt{2+3x} \\, dx$",
+                "$\\int_2^3 \\sqrt{x} \\, dx$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If the interval $[a, b]$ for a continuous function $f(x)$ is partitioned using $n$ equal sub-intervals, the parameter term $\\Delta x$ dynamically represents:",
+              "options": [
+                "$\\frac{a-b}{n}$",
+                "$\\frac{b-a}{n}$",
+                "$\\frac{b+a}{n}$",
+                "$\\frac{1}{n}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The approximation error of a Riemann sum column partition decreases to exactly zero when:",
+              "options": [
+                "$n \\to 0$",
+                "$\\Delta x \\to \\infty$",
+                "$n \\to \\infty$",
+                "The function becomes linear"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Express the integral $\\int_0^1 e^x \\, dx$ as a precise Riemann limit sequence:",
+              "options": [
+                "$\\lim_{n \\to \\infty} \\frac{1}{n} \\sum_{r=1}^n e^{r/n}$",
+                "$\\lim_{n \\to \\infty} \\frac{1}{n} \\sum_{r=1}^n e^r$",
+                "$\\lim_{n \\to \\infty} \\sum_{r=1}^n e^{1/n}$",
+                "$\\lim_{n \\to \\infty} \\frac{1}{n} \\sum_{r=1}^n e^{(r-1)}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Fundamental Theorem of Calculus (FTC)",
+          "concept": "The <strong>Fundamental Theorem of Calculus (FTC)</strong> forms the analytical bridge connecting differentiation and integration. It is divided into two operational parts:\n <ul>\n <li><strong>FTC Part 1:</strong> If $f(x)$ is continuous on $[a, b]$, then the area accumulator function $g(x) = \\int_a^x f(t) \\, dt$ is continuous on $[a, b]$, differentiable on $(a, b)$, and its derivative is:\n \\[ g'(x) = \\frac{d}{dx} \\left[ \\int_a^x f(t) \\, dt \\right] = f(x) \\]\n This establishes that the derivative of a definite integral with respect to its upper limit is simply the integrand evaluated at that limit.\n <li><strong>FTC Part 2:</strong> If $f(x)$ is continuous on $[a, b]$ and $F(x)$ is any arbitrary anti-derivative of $f(x)$ such that $F'(x) = f(x)$, then the definite integral can be evaluated using the net change of its anti-derivative:\n \\[ \\int_a^b f(x) \\, dx = F(b) - F(a) = \\Big[ F(x) \\Big]_a^b \\]\n </ul>\n A critical pitfall in JEE Main occurs when students apply FTC Part 2 blindly to functions that violate continuity inside the integration interval (e.g., integrating $f(x) = \\frac{1}{x^2}$ across $[-1, 1]$), which yields a physically impossible negative area result because the vertical asymptote at $x=0$ is ignored.",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Evaluate the definite integral $\\int_0^{\\pi/2} (2\\cos x + \\sin 2x) \\, dx$.</p>",
+              "solution": "Find the general anti-derivative of the inner trigonometric function mixture:\n \\[ F(x) = \\int (2\\cos x + \\sin 2x) \\, dx = 2\\sin x - \\frac{\\cos 2x}{2} \\]\n Now apply FTC Part 2 by substituting the upper limit ($b = \\pi/2$) and lower limit ($a = 0$):\n \\[ \\int_0^{\\pi/2} (2\\cos x + \\sin 2x) \\, dx = \\left[ 2\\sin x - \\frac{\\cos 2x}{2} \\right]_0^{\\pi/2} \\]\n <ul>\n <li><strong>Evaluate at Upper Bound $\\frac{\\pi}{2}$:</strong><br>\n \\[ F\\left(\\frac{\\pi}{2}\\right) = 2\\sin\\left(\\frac{\\pi}{2}\\right) - \\frac{\\cos(\\pi)}{2} = 2(1) - \\frac{-1}{2} = 2 + \\frac{1}{2} = \\frac{5}{2} \\]\n <li><strong>Evaluate at Lower Bound $0$:</strong><br>\n \\[ F(0) = 2\\sin(0) - \\frac{\\cos(0)}{2} = 0 - \\frac{1}{2} = -\\frac{1}{2} \\]\n </ul>\n Compute the net difference values:\n \\[ F\\left(\\frac{\\pi}{2}\\right) - F(0) = \\frac{5}{2} - \\left(-\\frac{1}{2}\\right) = \\frac{5}{2} + \\frac{1}{2} = \\frac{6}{2} = 3 \\]\n <strong>Final Answer:</strong> $3$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Evaluate the derivative of the area accumulator function $\\frac{d}{dx} \\left[ \\int_3^x \\ln(t^2 + 1) \\, dt \\right]$:",
+              "options": [
+                "$\\ln(x^2 + 1)$",
+                "$\\frac{2x}{x^2 + 1}$",
+                "$\\ln(x^2 + 1) - \\ln(10)$",
+                "$\\frac{1}{x^2 + 1}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the exponential definite area value $\\int_0^1 (e^x + x^e) \\, dx$:",
+              "options": [
+                "$e + \\frac{1}{e+1}$",
+                "$e - 1 + \\frac{1}{e+1}$",
+                "$e + \\frac{e}{e+1}$",
+                "$e - 1 + \\frac{e}{e+1}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $f(x)$ is continuous everywhere and $\\int_1^4 f(x) \\, dx = 7$, find the scalar calculation value of $\\int_1^4 (3f(x) - 2) \\, dx$:",
+              "options": [
+                "$19$",
+                "$15$",
+                "$21$",
+                "$13$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Why is the evaluation $\\int_{-1}^2 \\frac{1}{x} \\, dx = [\\ln|x|]_{-1}^2 = \\ln 2 - \\ln 1 = \\ln 2$ technically invalid?",
+              "options": [
+                "The anti-derivative formula is wrong.",
+                "The limits are swapped.",
+                "$f(x) = \\frac{1}{x}$ is discontinuous at $x = 0$, violating FTC conditions.",
+                "The result must be negative."
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Compute the value of the algebraic rational definite integral $\\int_0^3 \\frac{1}{x^2 + 9} \\, dx$:",
+              "options": [
+                "$\\pi/4$",
+                "$\\pi/12$",
+                "$\\pi/3$",
+                "$\\pi/6$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Properties of Definite Integrals & Symmetry Properties",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Core Algebraic and Piecewise Splitting Properties",
+          "concept": "Definite integrals possess algebraic properties that enable the simplification and splitting of complex intervals:\n <ol>\n <li><strong>Reversal of Limits:</strong> Swapping the limits of integration changes the sign of the definite integral:\n \\[ \\int_a^b f(x) \\, dx = -\\int_b^a f(x) \\, dx \\]\n <li><strong>Additivity / Interval Splitting Property:</strong> An integral can be broken down into a sum of multiple sub-interval integrals across an interior point $c$:\n \\[ \\int_a^b f(x) \\, dx = \\int_a^c f(x) \\, dx + \\int_c^b f(x) \\, dx \\quad (\\text{where } a < c < b) \\]\n </ol>\n The interval splitting property is essential for integrating <strong>piecewise functions</strong>, <strong>absolute value functions</strong>, and <strong>greatest integer functions</strong>, where the underlying algebraic rules change across specific internal boundaries.",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Evaluate the absolute modular definite integral $\\int_0^3 |x - 1| \\, dx$.</p>",
+              "solution": "<p>The absolute value function switches its definition at the root boundary $x = 1$. We split the integration interval across this critical point:\n \\[ |x - 1| = \\begin{cases} -(x - 1) = 1 - x & \\text{if } x < 1 \\\\ x - 1 & \\text{if } x \\ge 1 \\end{cases} \\]\n Apply the interval splitting property:\n \\[ \\int_0^3 |x - 1| \\, dx = \\int_0^1 (1 - x) \\, dx + \\int_1^3 (x - 1) \\, dx \\]\n Integrate both components independently using standard rules:\n \\[ \\int_0^1 (1 - x) \\, dx = \\left[ x - \\frac{x^2}{2} \\right]_0^1 = \\left(1 - \\frac{1}{2}\\right) - 0 = \\frac{1}{2} \\]\n \\[ \\int_1^3 (x - 1) \\, dx = \\left[ \\frac{x^2}{2} - x \\right]_1^3 = \\left(\\frac{9}{2} - 3\\right) - \\left(\\frac{1}{2} - 1\\right) = \\frac{3}{2} - \\left(-\\frac{1}{2}\\right) = \\frac{3}{2} + \\frac{1}{2} = 2 \\]\n Sum the two calculated values:\n \\[ \\int_0^3 |x - 1| \\, dx = \\frac{1}{2} + 2 = \\frac{5}{2} \\]\n <strong>Final Answer:</strong> $\\frac{5}{2}$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Evaluate the bounded piecewise integral $\\int_0^2 f(x) \\, dx$ where $f(x) = \\begin{cases} x^2 & \\text{if } 0 \\le x < 1 \\\\ 2 - x & \\text{if } 1 \\le x \\le 2 \\end{cases}$:",
+              "options": [
+                "$1/3$",
+                "$5/6$",
+                "$1$",
+                "$4/3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the greatest integer definite value $\\int_0^2 [x] \\, dx$, where $[\\cdot]$ denotes the floor function:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "$1.5$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Split the absolute valuation integral $\\int_{-2}^2 |x| \\, dx$ into its correct sub-interval components:",
+              "options": [
+                "$\\int_0^2 x \\, dx$",
+                "$\\int_{-2}^0 (-x) \\, dx + \\int_0^2 x \\, dx$",
+                "$\\int_{-2}^2 x \\, dx$",
+                "$\\int_{-2}^0 x \\, dx + \\int_0^2 (-x) \\, dx$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Compute the precise value of the modular baseline form $\\int_{-1}^1 |2x| \\, dx$:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$0$",
+                "$4$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\int_1^5 f(x) \\, dx = 10$ and $\\int_3^5 f(x) \\, dx = 4$, then find the value of $\\int_1^3 f(x) \\, dx$:",
+              "options": [
+                "$14$",
+                "$6$",
+                "$-6$",
+                "$7$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Advanced Symmetrical Transformations (King's, Queen's, and Periodicity)",
+          "concept": "Definite integration uses several powerful symmetry properties to resolve complex trigonometric and rational functions without needing to calculate their anti-derivatives directly:\n <ol>\n <li><strong>King's Property:</strong> Replacing the variable $x$ with the sum of the boundaries minus $x$ leaves the integral value unchanged:\n \\[ \\int_a^b f(x) \\, dx = \\int_a^b f(a + b - x) \\, dx \\]\n <li><strong>Queen's Property:</strong> Useful for halving integration boundaries:\n \\[ \\int_0^{2a} f(x) \\, dx = \\begin{cases} 2\\int_0^a f(x) \\, dx & \\text{if } f(2a - x) = f(x) \\\\ 0 & \\text{if } f(2a - x) = -f(x) \\end{cases} \\]\n <li><strong>Even/Odd Reflection Property:</strong> For symmetric intervals centered around the origin:\n \\[ \\int_{-a}^a f(x) \\, dx = \\begin{cases} 2\\int_0^a f(x) \\, dx & \\text{if } f(-x) = f(x) \\text{ (Even Function)} \\\\ 0 & \\text{if } f(-x) = -f(x) \\text{ (Odd Function)} \\end{cases} \\]\n <li><strong>Periodicity Property:</strong> If $f(x)$ is a periodic function with a fundamental period $T$ such that $f(x + T) = f(x)$, then:\n \\[ \\int_0^{nT} f(x) \\, dx = n\\int_0^T f(x) \\, dx \\quad (\\text{where } n \\in \\mathbb{N}) \\]\n </ol>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Evaluate the classical trigonometric rational integral $I = \\int_0^{\\pi/2} \\frac{\\sin x}{\\sin x + \\cos x} \\, dx$.</p>",
+              "solution": "<p>Apply King's Property ($\\int_a^b f(x) \\, dx = \\int_a^b f(a+b-x) \\, dx$) to the integral expression:\n \\[ x \\to \\left(0 + \\frac{\\pi}{2} - x\\right) = \\frac{\\pi}{2} - x \\]\n Substitute this transformation into the equation:\n \\[ I = \\int_0^{\\pi/2} \\frac{\\sin\\left(\\frac{\\pi}{2} - x\\right)}{\\sin\\left(\\frac{\\pi}{2} - x\\right) + \\cos\\left(\\frac{\\pi}{2} - x\\right)} \\, dx \\]\n Using standard trigonometric co-function identities ($\\sin(\\frac{\\pi}{2} - x) = \\cos x$ and $\\cos(\\frac{\\pi}{2} - x) = \\sin x$), this simplifies to:\n \\[ I = \\int_0^{\\pi/2} \\frac{\\cos x}{\\cos x + \\sin x} \\, dx \\quad \\text{--- (Equation 2)} \\]\n Add the original integral equation and Equation 2 together to combine their numerators over the common denominator:\n \\[ 2I = \\int_0^{\\pi/2} \\frac{\\sin x}{\\sin x + \\cos x} \\, dx + \\int_0^{\\pi/2} \\frac{\\cos x}{\\sin x + \\cos x} \\, dx \\]\n \\[ 2I = \\int_0^{\\pi/2} \\frac{\\sin x + \\cos x}{\\sin x + \\cos x} \\, dx = \\int_0^{\\pi/2} 1 \\, dx \\]\n Integrate this constant form and apply the boundaries:\n \\[ 2I = [x]_0^{\\pi/2} = \\frac{\\pi}{2} - 0 = \\frac{\\pi}{2} \\implies I = \\frac{\\pi}{4} \\]\n <strong>Final Answer:</strong> $\\frac{\\pi}{4}$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Evaluate the odd transcendental integral form $I = \\int_{-\\pi}^{\\pi} \\frac{x^5 \\cos x}{x^4 + 1} \\, dx$:",
+              "options": [
+                "$\\pi$",
+                "$0$",
+                "$2\\pi$",
+                "$\\pi/2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate $I = \\int_0^{\\pi} \\frac{x \\sin x}{1 + \\cos^2 x} \\, dx$ using King's Property:",
+              "options": [
+                "$\\pi^2/4$",
+                "$\\pi^2/2$",
+                "$\\pi/4$",
+                "$\\pi^2/8$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the value of the periodic trigonometric integral $\\int_0^{100\\pi} |\\sin x| \\, dx$:",
+              "options": [
+                "$100$",
+                "$200$",
+                "$50$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the Queen's Property integration form $\\int_0^{\\pi} \\cos^3 x \\, dx$:",
+              "options": [
+                "$1$",
+                "$1/2$",
+                "$0$",
+                "$\\pi$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate $I = \\int_2^7 \\frac{\\sqrt{x}}{\\sqrt{x} + \\sqrt{9-x}} \\, dx$:",
+              "options": [
+                "$5$",
+                "$5/2$",
+                "$9/2$",
+                "$2/5$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Series Summations & Definite Integral Operators",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Definite Integral as a Limit of a Sum (Reverse Mapping)",
+          "concept": "Infinite series sums can be evaluated by reversing the Riemann sum definition to map the limit sequence back into a definite integral. The standard mapping formula transforms a normalized sum into an integral over the interval $[0, 1]$:\n \\[ \\lim_{n \\to \\infty} \\frac{1}{n} \\sum_{r=1}^n f\\left(\\frac{r}{n}\\right) = \\int_0^1 f(x) \\, dx \\]\n To use this technique, convert the given infinite series expression into the standard structural format by applying three substitution rules:\n <ul>\n <li>Factor out and replace the scaling term $\\frac{1}{n}$ with the differential operator $dx$.\n <li>Replace the variable ratio term $\\frac{r}{n}$ with the continuous variable $x$.\n <li>Replace the limit of the summation $\\lim_{n \\to \\infty} \\sum$ with the integral sign $\\int$.\n </ul>\n The lower and upper integration boundaries are computed by finding the limiting values of the ratio $\\frac{r}{n}$ at the summation endpoints:\n \\[ \\text{Lower Boundary } a = \\lim_{n \\to \\infty} \\frac{r_{\\min}}{n}, \\quad \\text{Upper Boundary } b = \\lim_{n \\to \\infty} \\frac{r_{\\max}}{n} \\]",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Evaluate the infinite series sequence limit: $L = \\lim_{n \\to \\infty} \\left( \\frac{1}{n+1} + \\frac{1}{n+2} + \\dots + \\frac{1}{n+n} \\right)$.</p>",
+              "solution": "<p>First, write the series expression using sigma notation:\n \\[ L = \\lim_{n \\to \\infty} \\sum_{r=1}^n \\frac{1}{n + r} \\]\n Factor out $n$ from the denominator to isolate the standard ratio component $\\frac{r}{n}$:\n \\[ L = \\lim_{n \\to \\infty} \\sum_{r=1}^n \\frac{1}{n\\left(1 + \\frac{r}{n}\\right)} = \\lim_{n \\to \\infty} \\frac{1}{n} \\sum_{r=1}^n \\frac{1}{1 + \\frac{r}{n}} \\]\n Apply the substitution rules to map the Riemann sum directly into a definite integral:\n \\[ \\frac{1}{n} \\to dx, \\quad \\frac{r}{n} \\to x, \\quad \\int \\text{ boundaries: } a = \\lim_{n \\to \\infty} \\frac{1}{n} = 0, \\,\\, b = \\lim_{n \\to \\infty} \\frac{n}{n} = 1 \\]\n This yields the standard definite integral:\n \\[ L = \\int_0^1 \\frac{1}{1 + x} \\, dx \\]\n Integrate this rational form and evaluate across the boundaries:\n \\[ L = \\Big[ \\ln|1 + x| \\Big]_0^1 = \\ln(2) - \\ln(1) = \\ln 2 \\]\n <strong>Final Answer:</strong> $\\ln 2$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Evaluate the series limit $L = \\lim_{n \\to \\infty} \\sum_{r=1}^n \\frac{r}{n^2 + r^2}$ using integral transformation mapping:",
+              "options": [
+                "$\\ln 2$",
+                "$\\frac{1}{2}\\ln 2$",
+                "$\\tan^{-1}(1)$",
+                "$\\frac{1}{4}\\ln 2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The series limit sequence $L = \\lim_{n \\to \\infty} \\left[ \\frac{1}{n} + \\frac{n^2}{(n+1)^3} + \\frac{n^2}{(n+2)^3} + \\dots + \\frac{1}{8n} \\right]$ maps to:",
+              "options": [
+                "$\\int_0^1 \\frac{1}{(1+x)^3} \\, dx$",
+                "$\\int_0^1 \\frac{1}{x^3} \\, dx$",
+                "$\\int_0^2 \\frac{1}{(1+x)^3} \\, dx$",
+                "$\\int_0^1 \\frac{x^2}{(1+x)^3} \\, dx$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the value of $L = \\lim_{n \\to \\infty} \\frac{1}{n} \\sum_{r=1}^n \\sin\\left(\\frac{\\pi r}{2n}\\right)$:",
+              "options": [
+                "$1$",
+                "$\\pi/2$",
+                "$2/\\pi$",
+                "$0$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Compute the value of the sequence limit $L = \\lim_{n \\to \\infty} \\sum_{r=1}^n \\frac{1}{\\sqrt{n^2 - r^2}}$:",
+              "options": [
+                "$\\pi/2$",
+                "$\\pi/4$",
+                "$\\pi$",
+                "$\\ln 2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the algebraic ratio limit sequence $L = \\lim_{n \\to \\infty} \\frac{1^4 + 2^4 + 3^4 + \\dots + n^4}{n^5}$:",
+              "options": [
+                "$1/4$",
+                "$1/5$",
+                "$1/6$",
+                "$1/2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Wallis's Formula and Leibniz's Integral Differentiation Rule",
+          "concept": "This subsection covers two advanced integration operators:\n <ul>\n <li><strong>Wallis's Formula:</strong> Provides a direct shortcut for evaluating definite integrals of high integer powers of sine and cosine over the interval $[0, \\frac{\\pi}{2}]$:\n \\[ \\int_0^{\\pi/2} \\sin^n x \\, dx = \\int_0^{\\pi/2} \\cos^n x \\, dx = \\begin{cases} \\frac{(n-1)(n-3)\\dots 1}{n(n-2)\\dots 2} \\cdot \\frac{\\pi}{2} & \\text{if } n \\text{ is an even integer} \\\\ \\frac{(n-1)(n-3)\\dots 2}{n(n-2)\\dots 3} \\cdot 1 & \\text{if } n \\text{ is an odd integer} \\end{cases} \\]\n <li><strong>Leibniz's Rule:</strong> Used to differentiate a definite integral whose integration boundaries are functions of the differentiation variable $x$:\n \\[ \\frac{d}{dx} \\left[ \\int_{g(x)}^{h(x)} f(t) \\, dt \\right] = f(h(x)) \\cdot h'(x) - f(g(x)) \\cdot g'(x) \\]\n This is an essential tool for resolving limit indeterminate forms containing definite integral terms via L'Hôpital's Rule.\n </ul>\n In JEE Advanced, <strong>differentiation under the integral sign (Feynman's Technique)</strong> extends this concept by introducing a dummy parameter $\\alpha$ inside the integrand to simplify and solve difficult definite integrals.",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the value of the derivative expression at $x = \\pi$: $G'(x) = \\frac{d}{dx} \\left[ \\int_0^{\\sin x} e^{t^2} \\, dt \\right]$.</p>",
+              "solution": "<p>Apply Leibniz's Rule directly to differentiate across the boundaries:\n \\[ \\frac{d}{dx} \\left[ \\int_{0}^{\\sin x} e^{t^2} \\, dt \\right] = e^{(\\sin x)^2} \\cdot \\frac{d}{dx}(\\sin x) - e^{(0)^2} \\cdot \\frac{d}{dx}(0) \\]\n Compute the inner derivative terms:\n \\[ G'(x) = e^{\\sin^2 x} \\cdot \\cos x - 0 = e^{\\sin^2 x} \\cos x \\]\n Evaluate the derivative at the target point $x = \\pi$:\n \\[ G'(\\pi) = e^{\\sin^2(\\pi)} \\cdot \\cos(\\pi) = e^{(0)} \\cdot (-1) = 1 \\cdot (-1) = -1 \\]\n <strong>Final Answer:</strong> $-1$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Evaluate the high-power trigonometric integral $\\int_0^{\\pi/2} \\sin^5 x \\, dx$ using Wallis's Formula:",
+              "options": [
+                "$8/15$",
+                "$4/15$",
+                "$\\frac{8}{15}\\pi$",
+                "$2/5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the even trigonometric power integral $\\int_0^{\\pi/2} \\cos^4 x \\, dx$:",
+              "options": [
+                "$3/16$",
+                "$\\frac{3}{16}\\pi$",
+                "$\\frac{3}{8}\\pi$",
+                "$3/8$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Compute the derivative expression $\\frac{d}{dx} \\left[ \\int_{x^2}^{x^3} \\ln t \\, dt \\right]$ for $x > 0$:",
+              "options": [
+                "$3x^2 \\ln(x^3) - 2x \\ln(x^2)$",
+                "$9x^2 \\ln x - 4x \\ln x$",
+                "$\\ln(x^3) - \\ln(x^2)$",
+                "$3x^2 \\ln x - 2x \\ln x$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the indeterminate limit form $L = \\lim_{x \\to 0} \\frac{\\int_0^{x^2} \\sin\\sqrt{t} \\, dt}{x^3}$ using Leibniz's Rule:",
+              "options": [
+                "$1$",
+                "$2/3$",
+                "$0$",
+                "$1/3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $F(x) = \\int_1^x \\frac{1}{t} \\, dt$, then the derivative of $F(x^2)$ with respect to $x$ matches:",
+              "options": [
+                "$\\frac{1}{x^2}$",
+                "$\\frac{2}{x}$",
+                "$\\frac{2}{x^2}$",
+                "$\\frac{1}{x}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Improper Integrals & Transcendental Functions",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Improper Integrals and Convergence Analysis",
+          "concept": "An <strong>improper integral</strong> extends the concept of the definite integral to cases involving infinite intervals or integrands with vertical asymptotes. They are classified into two main types:\n <ul>\n <li><strong>Type 1 (Infinite Limits):</strong> The integration interval extends to infinity:\n \\[ \\int_a^\\infty f(x) \\, dx = \\lim_{b \\to \\infty} \\int_a^b f(x) \\, dx \\]\n <li><strong>Type 2 (Discontinuous Integrand):</strong> The integrand has an infinite discontinuity at a point within the integration interval. For example, if $f(x)$ blows up at the upper bound $b$:\n \\[ \\int_a^b f(x) \\, dx = \\lim_{c \\to b^-} \\int_a^c f(x) \\, dx \\]\n </ul>\n An improper integral is said to <strong>converge</strong> if its defining limit exists and evaluates to a finite real number. If the limit fails to exist or approaches infinity ($\\pm\\infty$), the integral <strong>diverges</strong>.<p>A critical diagnostic tool for Type 1 improper integrals is the <strong>p-test</strong>: the integral $\\int_1^\\infty \\frac{1}{x^p} \\, dx$ converges if and only if $p > 1$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Determine the convergence and value of the Type 1 improper integral: $\\int_1^\\infty \\frac{1}{x^3} \\, dx$.</p>",
+              "solution": "<p>Rewrite the improper integral expression as a finite limit equation:\n \\[ \\int_1^\\infty \\frac{1}{x^3} \\, dx = \\lim_{b \\to \\infty} \\int_1^b x^{-3} \\, dx \\]\n Integrate the interior algebraic expression using the standard power rule:\n \\[ \\int_1^b x^{-3} \\, dx = \\left[ \\frac{x^{-2}}{-2} \\right] _1^b = \\left[ -\\frac{1}{2x^2} \\right]_1^b = \\left(-\\frac{1}{2b^2}\\right) - \\left(-\\frac{1}{2(1)^2}\\right) = -\\frac{1}{2b^2} + \\frac{1}{2} \\]\n Now evaluate the limit as $b \\to \\infty$:\n \\[ \\lim_{b \\to \\infty} \\left( -\\frac{1}{2b^2} + \\frac{1}{2} \\right) = 0 + \\frac{1}{2} = \\frac{1}{2} \\]\n Since the limit converges to a finite real number, the integral is convergent.\n <strong>Final Answer:</strong> Converges to $\\frac{1}{2}$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Analyze the convergence profile of the improper form $\\int_1^\\infty \\frac{1}{x} \\, dx$:",
+              "options": [
+                "Converges to $1$",
+                "Converges to $0$",
+                "Diverges to $\\infty$",
+                "Converges to $\\ln 2$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the exponential Type 1 improper integral $\\int_0^\\infty e^{-2x} \\, dx$:",
+              "options": [
+                "Converges to $1/2$",
+                "Converges to $1$",
+                "Diverges",
+                "Converges to $2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the Type 2 discontinuous improper integral $\\int_0^1 \\frac{1}{\\sqrt{x}} \\, dx$:",
+              "options": [
+                "Diverges",
+                "Converges to $1$",
+                "Converges to $2$",
+                "Converges to $1/2$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "According to the standard p-test criteria, the improper integral $\\int_1^\\infty \\frac{1}{x^{4/3}} \\, dx$ is:",
+              "options": [
+                "Divergent",
+                "Convergent",
+                "Oscillatory",
+                "Undefined"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the improper rational expression form $\\int_0^\\infty \\frac{1}{1+x^2} \\, dx$:",
+              "options": [
+                "Converges to $\\pi/2$",
+                "Converges to $\\pi$",
+                "Diverges",
+                "Converges to $\\pi/4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "The Gamma Function and Higher Transcendental Primitives",
+          "concept": "The <strong>Gamma Function</strong>, denoted by $\\Gamma(n)$, is a higher transcendental function defined as an improper integral for all real numbers $n > 0$:\n \\[ \\Gamma(n) = \\int_0^\\infty t^{n-1} e^{-t} \\, dt \\]\n The Gamma function acts as a continuous extension of the factorial operation to non-integer values. It satisfies the following fundamental recurrence relationships:\n <ul>\n <li><strong>Core Recurrence Formula:</strong> $\\Gamma(n+1) = n\\Gamma(n)$\n <li><strong>Integer Factorial Equivalence:</strong> If $n$ is a positive integer ($n \\in \\mathbb{N}$):\n \\[ \\Gamma(n) = (n-1)! \\quad \\text{and} \\quad \\Gamma(n+1) = n! \\]\n <li><strong>Special Fractional Value:</strong> $\\Gamma\\left(\\frac{1}{2}\\right) = \\sqrt{\\pi}$\n </ul>\n The Gamma function provides a useful shortcut for evaluating definite integrals of exponential-product forms, like $\\int_0^\\infty x^k e^{-x} \\, dx$, which would otherwise require multiple repeated iterations of Integration by Parts.",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Evaluate the exponential product improper integral $\\int_0^\\infty x^4 e^{-x} \\, dx$ using Gamma function properties.</p>",
+              "solution": "<p>Compare the given integral with the standard Gamma function definition template:\n \\[ \\Gamma(n) = \\int_0^\\infty x^{n-1} e^{-x} \\, dx \\]\n Match the exponent of the variable term to determine the value of $n$:\n \\[ n - 1 = 4 \\implies n = 5 \\]\n Therefore, the integral can be written in terms of the Gamma function as:\n \\[ \\int_0^\\infty x^4 e^{-x} \\, dx = \\Gamma(5) \\]\n Since $n = 5$ is a positive integer, apply the integer factorial equivalence rule ($\\Gamma(n) = (n-1)!$):\n \\[ \\Gamma(5) = (5 - 1)! = 4! = 4 \\times 3 \\times 2 \\times 1 = 24 \\]\n <strong>Final Answer:</strong> $24$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Evaluate the Gamma function value $\\Gamma(6)$:",
+              "options": [
+                "$720$",
+                "$120$",
+                "$24$",
+                "$6$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the value of the fractional Gamma expression $\\Gamma\\left(\\frac{3}{2}\\right)$ using recurrence identities:",
+              "options": [
+                "$\\sqrt{\\pi}$",
+                "$\\frac{\\sqrt{\\pi}}{2}$",
+                "$\\frac{3\\sqrt{\\pi}}{4}$",
+                "$2\\sqrt{\\pi}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the improper integral form $\\int_0^\\infty x^2 e^{-x} \\, dx$:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$6$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The numerical calculation value of the product sequence $\\Gamma(3) \\times \\Gamma\\left(\\frac{1}{2}\\right)$ evaluates to:",
+              "options": [
+                "$2\\sqrt{\\pi}$",
+                "$6\\sqrt{\\pi}$",
+                "$\\sqrt{\\pi}$",
+                "$\\frac{\\sqrt{\\pi}}{2}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "What is the value of $\\Gamma(1)$?",
+              "options": [
+                "$0$",
+                "$1$",
+                "$\\infty$",
+                "$\\sqrt{\\pi}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-math-definite-integration-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "Evaluate the trigonometric definite integral $I = \\int_0^{\\pi/2} \\frac{\\sqrt{\\sin x}}{\\sqrt{\\sin x} + \\sqrt{\\cos x}} \\, dx$.",
+              "options": [
+                "$\\pi/2$",
+                "$\\pi/4$",
+                "$\\pi$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the modular absolute value expression integral $\\int_{-1}^2 |x^3 - x| \\, dx$.",
+              "options": [
+                "$7/4$",
+                "$11/4$",
+                "$9/4$",
+                "$2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the value of the infinite series sum sequence limit: $L = \\lim_{n \\to \\infty} \\sum_{r=1}^n \\frac{n}{n^2 + r^2}$.",
+              "options": [
+                "$\\pi/4$",
+                "$\\pi/2$",
+                "$\\ln 2$",
+                "$1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the high-power trigonometric integral $\\int_0^{\\pi/2} \\cos^6 x \\, dx$ using Wallis's Formula.",
+              "options": [
+                "$\\frac{5}{32}\\pi$",
+                "$\\frac{5}{16}\\pi$",
+                "$5/16$",
+                "$5/32$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Differentiate the definite integral function using Leibniz's Rule: $F(x) = \\int_x^{x^2} t^2 \\, dt$. Find $F'(2)$.",
+              "options": [
+                "$60$",
+                "$56$",
+                "$64$",
+                "$52$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the symmetric interval definite integral $\\int_{-\\pi/2}^{\\pi/2} (\\sin^3 x + \\cos^2 x) \\, dx$.",
+              "options": [
+                "$\\pi/2$",
+                "$\\pi$",
+                "$0$",
+                "$\\pi/4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the exponential Type 1 improper integral form: $\\int_1^\\infty \\frac{\\ln x}{x^2} \\, dx$.",
+              "options": [
+                "Converges to $1$",
+                "Converges to $0$",
+                "Diverges",
+                "Converges to $1/2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the value of the fractional Gamma calculation expression: $\\Gamma\\left(\\frac{5}{2}\\right)$.",
+              "options": [
+                "$\\frac{3\\sqrt{\\pi}}{4}$",
+                "$\\frac{15\\sqrt{\\pi}}{8}$",
+                "$\\frac{\\sqrt{\\pi}}{2}$",
+                "$\\frac{3\\sqrt{\\pi}}{2}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate $I = \\int_0^\\pi \\frac{x \\sin^3 x}{1 + \\cos^2 x} \\, dx$ using King's Property transformation.",
+              "options": [
+                "$\\frac{\\pi}{2}(\\pi - 2)$",
+                "$\\frac{\\pi^2}{4}$",
+                "$\\frac{\\pi}{4}(\\pi - 2)$",
+                "$\\pi^2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The sequence limit expression $L = \\lim_{n \\to \\infty} \\frac{1}{n^6} \\sum_{r=1}^n r^5$ maps directly to which area value?",
+              "options": [
+                "$1/6$",
+                "$1/5$",
+                "$1/4$",
+                "$1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "If $\\int_0^{\\alpha} \\frac{1}{1+4x^2} \\, dx = \\frac{\\pi}{8}$, find the value of the positive spatial limit boundary parameter $\\alpha$.",
+              "answer": "0",
+              "explanation": ""
+            },
+            {
+              "q": "Find the value of the integer parameter $k$ if the definite integral satisfies $\\int_0^{50\\pi} |\\cos x| \\, dx = k$.",
+              "answer": "100",
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the Gamma exponential improper integral value: $\\int_0^\\infty x^3 e^{-x} \\, dx$.",
+              "answer": "6",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The value of the symmetric trigonometric integral $\\int_{-1}^1 \\sin^5 x \\, dx$ is identically equal to 0.<br>\n <strong>Reason (R):</strong> For any function that satisfies the odd reflection identity $f(-x) = -f(x)$, the definite integral across a symmetric interval centered at the origin always vanishes.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> The derivative of the accumulator function $F(x) = \\int_0^{x^2} \\sqrt{t} \\, dt$ is given by $F'(x) = x^2$.<br>\n <strong>Reason (R):</strong> Leibniz's rule requires multiplying the evaluated function term $f(h(x))$ by the derivative of the upper limit boundary function $h'(x)$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation ($F'(x) =."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-math-definite-integration-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "Evaluate the classical log-trigonometric definite integral $I = \\int_0^{\\pi/2} \\ln(\\sin x) \\, dx$.",
+              "options": [
+                "$-\\frac{\\pi}{2}\\ln 2$",
+                "$\\frac{\\pi}{2}\\ln 2$",
+                "$-\\pi \\ln 2$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Solve the following infinite series product sequence limit: $L = \\lim_{n \\to \\infty} \\left[ \\frac{n!}{n^n} \\right]^{1/n}$.",
+              "options": [
+                "$e$",
+                "$1/e$",
+                "$1$",
+                "$e^2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the fractional part definite integral $I = \\int_0^{10} \\{x\\} \\, dx$, where $\\{\\cdot\\}$ denotes the fractional part function.",
+              "options": [
+                "$5$",
+                "$10$",
+                "$2.5$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the value of the high-order transcendental limit expression: $\\lim_{x \\to 0} \\frac{\\int_0^{x^2} \\cos t^2 \\, dt}{x^2}$.",
+              "options": [
+                "$0$",
+                "$1$",
+                "$1/2$",
+                "$\\infty$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the following challenging definite integral: $I = \\int_0^{\\pi} \\frac{x}{1 + \\sin x} \\, dx$.",
+              "options": [
+                "$\\pi$",
+                "$\\pi/2$",
+                "$2\\pi$",
+                "$\\pi^2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the mixed algebraic floor integral form $\\int_0^2 [x^2] \\, dx$, where $[\\cdot]$ is the greatest integer function.",
+              "options": [
+                "$5 - \\sqrt{2} - \\sqrt{3}$",
+                "$3 - \\sqrt{2} - \\sqrt{3}$",
+                "$5 + \\sqrt{2} + \\sqrt{3}$",
+                "$2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the value of the improper integral transformation form $I = \\int_0^\\infty \\frac{\\ln x}{1+x^2} \\, dx$.",
+              "options": [
+                "$\\pi/2$",
+                "$0$",
+                "$-\\pi\\ln 2$",
+                "$\\infty$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the product trigonometric integral $I = \\int_0^{\\pi/2} \\sin^4 x \\cos^2 x \\, dx$ using Wallis extensions.",
+              "options": [
+                "$\\frac{\\pi}{32}$",
+                "$\\frac{\\pi}{16}$",
+                "$\\frac{\\pi}{64}$",
+                "$\\frac{3\\pi}{32}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Let $f(x)$ be a continuous function satisfying $f(x) + f(a-x) = k$. The value of $\\int_0^a f(x) \\, dx$ is:",
+              "options": [
+                "$ka$",
+                "$ka/2$",
+                "$k/2$",
+                "$a/2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the parameter differentiation form integral (Feynman's Technique) $I(\\alpha) = \\int_0^1 \\frac{x^\\alpha - 1}{\\ln x} \\, dx$ for $\\alpha > 0$.",
+              "options": [
+                "$\\ln(\\alpha + 1)$",
+                "$\\ln \\alpha$",
+                "$\\frac{1}{\\alpha + 1}$",
+                "$\\alpha \\ln \\alpha$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Find the fundamental period $T$ of the trigonometric baseline expression $f(x) = \\sin x + \\cos x$.",
+              "answer": "",
+              "explanation": ""
+            },
+            {
+              "q": "Find the value of the integer parameter $k$ if the definite integral satisfies $\\int_{-\\pi}^{\\pi} |x| \\sin x \\, dx = k$.",
+              "answer": "0",
+              "explanation": ""
+            },
+            {
+              "q": "If $\\int_0^\\infty t^n e^{-t} \\, dt = 120$, find the positive integer value of the exponent parameter $n$.",
+              "answer": "5",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The periodic definite integral equation satisfies $\\int_0^{10\\pi} |\\sin x| \\, dx = 10 \\int_0^\\pi \\sin x \\, dx$.<br>\n <strong>Reason (R):</strong> The absolute sine function $|\\sin x|$ is periodic with a fundamental period of exactly $\\pi$, allowing the upper boundary multiplier to be factored out.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> The improper integral $\\int_1^\\infty \\frac{1}{x^2} \\, dx$ is convergent and evaluates to exactly 1.<br>\n <strong>Reason (R):</strong> According to the standard p-test criteria, rational infinite integrals converge if and only if the exponent satisfies $p > 1$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

@@ -1,0 +1,796 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": 11,
+  "title": "Determinants",
+  "slug": "determinants",
+  "subtitle": "Determinants and Properties",
+  "level": "JEE Main & Advanced",
+  "color": "#3b82f6",
+  "icon": "math",
+  "seo": {
+    "meta_description": "Master Determinants for JEE Main & Advanced on GrowQR: in-depth notes, solved examples, self-check MCQs and full mock tests. Free, forever."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Foundations & Evaluation of Determinants",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Explicit Formulas, Laplace Expansion, Minors & Cofactors",
+          "concept": "<p>A determinant is a scalar value uniquely assigned to a square matrix, encapsulating its volume-scaling and singular properties. For a $1 \\times 1$ matrix $A = [a]$, $\\det(A) = a$. For a $2 \\times 2$ matrix, $\\det(A) = a_{11}a_{22} - a_{12}a_{21}$. Evaluation of a $3 \\times 3$ matrix uses Laplace expansion along any row or column. The Minor $M_{ij}$ is the determinant of the submatrix left after deleting the $i^{\\text{th}}$ row and $j^{\\text{th}}$ column. The Cofactor $C_{ij}$ incorporates positional signs: $C_{ij} = (-1)^{i+j}M_{ij}$. A critical JEE application is the identity $\\sum_{k=1}^n a_{ik}C_{jk} = \\delta_{ij}|A|$, meaning the dot product of a row with its own cofactors yields the determinant, while the dot product with a different row's cofactors yields exactly zero.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Evaluate the determinant of the matrix $A = \\begin{bmatrix} 1 & 2 & 3 \\\\ 0 & -1 & 4 \\\\ 2 & 1 & 5 \\end{bmatrix}$ by expanding along the second row, and compute the cofactor $C_{32}$.</p>",
+              "solution": "<p>To optimize speed, we expand along the second row since it contains a zero placeholder element:\n \\[ |A| = a_{21}C_{21} + a_{22}C_{22} + a_{23}C_{23} \\]\n Calculate the non-zero positional terms systematically using sign allocations:\n \\[ a_{21} = 0 \\implies 0 \\cdot C_{21} = 0 \\]\n \\[ a_{22} = -1 \\implies C_{22} = (-1)^{2+2} \\begin{vmatrix} 1 & 3 \\\\ 2 & 5 \\end{vmatrix} = 1 \\cdot (1(5) - 3(2)) = 5 - 6 = -1 \\]\n \\[ a_{23} = 4 \\implies C_{23} = (-1)^{2+3} \\begin{vmatrix} 1 & 2 \\\\ 2 & 1 \\end{vmatrix} = -1 \\cdot (1(1) - 2(2)) = -1 \\cdot (1 - 4) = 3 \\]\n Combine the evaluated components:\n \\[ |A| = 0 + (-1)(-1) + 4(3) = 1 + 12 = 13 \\]\n Now, let us calculate the requested standalone cofactor $C_{32}$:\n \\[ C_{32} = (-1)^{3+2} M_{32} = -1 \\cdot \\begin{vmatrix} 1 & 3 \\\\ 0 & 4 \\end{vmatrix} = -1 \\cdot (1(4) - 3(0)) = -4 \\]\n <strong>Final Answer:</strong> $|A| = 13$ and $C_{32} = -4$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>If $\\Delta = \\begin{vmatrix} a_{11} & a_{12} & a_{13} \\\\ a_{21} & a_{22} & a_{23} \\\\ a_{31} & a_{32} & a_{33} \\end{vmatrix} = 5$, evaluate the value of the linear combination expression $E = a_{11}C_{21} + a_{12}C_{22} + a_{13}C_{23}$.</p>",
+              "solution": "<p>According to the properties of Laplace expansions, if you multiply elements of any row by the corresponding cofactors of a <strong>different</strong> row, their sum total vanishes completely to zero.\n Here, the elements belong to Row 1 ($a_{11}, a_{12}, a_{13}$), but the cofactors belong to Row 2 ($C_{21}, C_{22}, C_{23}$).\n Therefore, by orthogonality properties of determinants, $E = 0$, regardless of the value of $\\Delta$.\n <strong>Final Answer:</strong> $0$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Find the value of $x$ that satisfies the determinant equation: $\\begin{vmatrix} x & 2 \\\\ 3 & x \\end{vmatrix} = \\begin{vmatrix} 2x & -1 \\\\ 5 & 2 \\end{vmatrix}$.</p>",
+              "solution": "<p>Expand the $2 \\times 2$ determinants on both sides using the cross-multiplication formula:\n \\[ \\text{Left Side} = x(x) - 2(3) = x^2 - 6 \\]\n \\[ \\text{Right Side} = 2x(2) - (-1)(5) = 4x + 5 \\]\n Equate the two expressions to form a standard quadratic equation:\n \\[ x^2 - 6 = 4x + 5 \\implies x^2 - 4x - 11 = 0 \\]\n Solve using the standard quadratic formula since it does not factor cleanly with integers:\n \\[ x = \\frac{-(-4) \\pm \\sqrt{(-4)^2 - 4(1)(-11)}}{2(1)} = \\frac{4 \\pm \\sqrt{16 + 44}}{2} = \\frac{4 \\pm \\sqrt{60}}{2} \\]\n Simplify the radical term: $\\sqrt{60} = \\sqrt{4 \\times 15} = 2\\sqrt{15}$.\n \\[ x = \\frac{4 \\pm 2\\sqrt{15}}{2} = 2 \\pm \\sqrt{15} \\]\n <strong>Final Answer:</strong> $x = 2 \\pm \\sqrt{15}$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The value of the determinant $\\begin{vmatrix} \\cos\\theta & -\\sin\\theta \\\\ \\sin\\theta & \\cos\\theta \\end{vmatrix}$ is:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$\\cos 2\\theta$",
+                "$-1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If the elements of a $3 \\times 3$ determinant are all multiplied by their respective cofactors, the total sum evaluates to:",
+              "options": [
+                "$3|A|$",
+                "$|A|$",
+                "$0$",
+                "$|A|^3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "For a matrix $A = [a_{ij}]_{3 \\times 3}$, if $M_{23} = 5$, then the corresponding value of the cofactor $C_{23}$ is:",
+              "options": [
+                "$5$",
+                "$-5$",
+                "$0$",
+                "$25$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The evaluation of the determinant $\\begin{vmatrix} 1 & a & b+c \\\\ 1 & b & c+a \\\\ 1 & c & a+b \\end{vmatrix}$ yields:",
+              "options": [
+                "$a+b+c$",
+                "$0$",
+                "$abc$",
+                "$(a-b)(b-c)(c-a)$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\begin{vmatrix} x-2 & 3 \\\\ 2 & x+3 \\end{vmatrix} = 0$, then the integer solutions for $x$ are:",
+              "options": [
+                "$3, -4$",
+                "$-3, 4$",
+                "$2, -3$",
+                "$0, 1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Advanced Operational Properties",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Primary Properties & Scalar Multiples",
+          "concept": "Determinants follow several invariant mathematical properties that simplify row and column manipulations.\n <ol>\n <li>Transposition invariant: $|A^T| = |A|$.\n <li>Swapping any two adjacent rows or columns reverses the operational sign of the determinant value.\n <li>If any row or column contains only zeros, or if any two rows/columns are completely identical or proportional, then $|A| = 0$.\n <li><strong>Scalar Multiples</strong>: For a matrix of order $n \\times n$, factoring a scalar out of the full determinant scales it exponentially: $|kA| = k^n|A|$.\n <li>Multiplicative property: $|AB| = |A||B|$.\n <li>Adding a scalar multiple of one row to another row ($R_i \\to R_i + kR_j$) leaves the value of the determinant unchanged.\n </ol>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>If $A$ is a square matrix of order 3 such that $|A| = -4$, find the value of the determinant of the scaled matrix expression $|2A^T|$.</p>",
+              "solution": "<p>Apply the scalar multiple property alongside the transposition invariant property:\n Since $A$ is of order $3 \\times 3$, pulling the scalar 2 out of the determinant brackets requires raising it to the third power ($n=3$):\n \\[ |2A^T| = 2^3 \\cdot |A^T| \\]\n Using the property $|A^T| = |A|$, substitute the given value into the expression:\n \\[ |2A^T| = 8 \\cdot |A| = 8 \\times (-4) = -32 \\]\n <strong>Final Answer:</strong> $-32$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Evaluate the value of the determinant $\\Delta = \\begin{vmatrix} 2024 & 2025 & 2026 \\\\ 2025 & 2026 & 2027 \\\\ 2026 & 2027 & 2028 \\end{vmatrix}$ without using explicit expansion.</p>",
+              "solution": "<p>Let us use row operations to reduce the large values into manageable numbers. Perform two row operations simultaneously:\n Perform $R_2 \\to R_2 - R_1$ and $R_3 \\to R_3 - R_2$:\n \\[ R_2 \\text{ row becomes: } \\begin{vmatrix} 2025-2024 & 2026-2025 & 2027-2026 \\end{vmatrix} = \\begin{vmatrix} 1 & 1 & 1 \\end{vmatrix} \\]\n \\[ R_3 \\text{ row becomes: } \\begin{vmatrix} 2026-2025 & 2027-2026 & 2028-2027 \\end{vmatrix} = \\begin{vmatrix} 1 & 1 & 1 \\end{vmatrix} \\]\n Update the rows inside the determinant:\n \\[ \\Delta = \\begin{vmatrix} 2024 & 2025 & 2026 \\\\ 1 & 1 & 1 \\\\ 1 & 1 & 1 \\end{vmatrix} \\]\n Notice that the second row ($R_2$) and the third row ($R_3$) are completely identical. According to determinant properties, if two rows are identical, the value of the determinant is 0.\n <strong>Final Answer:</strong> $0$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>If $A$ and $B$ are square matrices of order 3 such that $|A| = 3$ and $|B| = -2$, find the value of the product determinant expression $|A^2 B^{-1}|$.</p>",
+              "solution": "<p>Apply the multiplicative property of determinants ($|XY| = |X||Y|$) to split the terms:\n \\[ |A^2 B^{-1}| = |A^2| \\cdot |B^{-1}| \\]\n Using the power property $|A^k| = |A|^k$ and the inverse property $|B^{-1}| = \\frac{1}{|B|}$:\n \\[ |A^2 B^{-1}| = |A|^2 \\cdot \\frac{1}{|B|} \\]\n Substitute the given numerical metrics into the formula:\n \\[ |A^2 B^{-1}| = (3)^2 \\cdot \\frac{1}{-2} = 9 \\times \\left(-\\frac{1}{2}\\right) = -4.5 \\]\n <strong>Final Answer:</strong> $-\\frac{9}{2}$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If $A$ is a $4 \\times 4$ matrix and $|A| = 2$, then the value of the scaled determinant $|-3A|$ is:",
+              "options": [
+                "$-6$",
+                "$162$",
+                "$-162$",
+                "$54$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If two rows of a determinant are interchanged, the value of the new determinant:",
+              "options": [
+                "Remains exactly the same",
+                "Multiplies by $-1$",
+                "Reduces to zero",
+                "Squares itself"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The value of a determinant is 0 if it contains which of the following features?",
+              "options": [
+                "Two columns that are proportional",
+                "A row containing only zeros",
+                "Both (A) and (B)",
+                "None of these"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If $|A| = 5$ and $|B| = 4$, then the value of the composite transpose product $|(AB)^T|$ is:",
+              "options": [
+                "$20$",
+                "$9$",
+                "$1$",
+                "$40$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Performing the row operation $R_1 \\to R_1 + 5R_2 - 2R_3$ changes the value of a determinant by a factor of:",
+              "options": [
+                "$3$",
+                "$-2$",
+                "$1$ (Value remains completely unchanged)",
+                "$0$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Adjoint Matrix Properties & Area Calculations",
+          "concept": "<p>The adjoint matrix, $\\text{adj}(A)$, is the transpose of the cofactor matrix ($[\\text{adj}(A)]_{ij} = C_{ji}$). This definition leads to the fundamental identity $A \\cdot \\text{adj}(A) = |A| \\cdot I$. In the JEE Advanced exam, several important determinant transformations are derived from this relationship:\n \\[ |\\text{adj}(A)| = |A|^{n-1} \\quad \\text{and} \\quad \\text{adj}(\\text{adj}(A)) = |A|^{n-2}A \\]\n Determinants are also useful for geometric calculations, such as finding the area of a triangle with vertices $(x_1, y_1), (x_2, y_2), (x_3, y_3)$:\n \\[ \\Delta = \\frac{1}{2} \\left| \\det \\begin{bmatrix} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \\end{bmatrix} \\right| \\]\n If this determinant evaluates to exactly 0, the area is zero, which serves as a test for the collinearity of three points.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>If $A$ is a square matrix of order 3 such that $|A| = 4$, find the value of the determinant of its nested adjoint: $|\\text{adj}(\\text{adj}(A))|$.</p>",
+              "solution": "<p>Apply the standard determinant identity for nested adjoint matrices:\n \\[ |\\text{adj}(\\text{adj}(A))| = |A|^{(n-1)^2} \\]\n Identify the given parameters: order $n = 3$ and base determinant $|A| = 4$.\n Substitute these parameters into the exponent formula:\n \\[ \\text{Exponent} = (3 - 1)^2 = 2^2 = 4 \\]\n Now evaluate the final value:\n \\[ |\\text{adj}(\\text{adj}(A))| = 4^4 = 256 \\]\n <strong>Final Answer:</strong> $256$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the value of $k$ for which the three points $(1, 2)$, $(2, 4)$, and $(k, 8)$ are collinear.</p>",
+              "solution": "<p>For three coordinate points to be collinear, they must form a triangle with an area of zero. Set up the coordinate matrix determinant and set it equal to 0:\n \\[ \\det \\begin{bmatrix} 1 & 2 & 1 \\\\ 2 & 4 & 1 \\\\ k & 8 & 1 \\end{bmatrix} = 0 \\]\n Let us use row operations to introduce zeros before expanding. Perform $R_2 \\to R_2 - 2R_1$ and $R_3 \\to R_3 - kR_1$:\n \\[ \\begin{vmatrix} 1 & 2 & 1 \\\\ 0 & 0 & -1 \\\\ 0 & 8-2k & 1-k \\end{vmatrix} = 0 \\]\n Expand along the first column:\n \\[ 1 \\cdot \\begin{vmatrix} 0 & -1 \\\\ 8-2k & 1-k \\end{vmatrix} = 0 \\implies 0 - (-1)(8-2k) = 0 \\implies 8 - 2k = 0 \\implies 2k = 8 \\implies k = 4 \\]\n <strong>Final Answer:</strong> $k = 4$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Calculate the area of the triangle whose vertices are located at the coordinate points $(0, 0)$, $(3, 0)$, and $(0, 4)$ using determinants.</p>",
+              "solution": "<p>Set up the standard area evaluation matrix using the given vertices:\n \\[ \\Delta = \\frac{1}{2} \\left| \\det \\begin{bmatrix} 0 & 0 & 1 \\\\ 3 & 0 & 1 \\\\ 0 & 4 & 1 \\end{bmatrix} \\right| \\]\n Expand the determinant along the first row since it contains two zero placeholders:\n \\[ \\det = 1 \\cdot \\begin{vmatrix} 3 & 0 \\\\ 0 & 4 \\end{vmatrix} = 1 \\cdot (3(4) - 0(0)) = 12 \\]\n Now substitute this value back into the area formula and take the absolute value:\n \\[ \\Delta = \\frac{1}{2} |12| = 6 \\text{ square units} \\]\n This matches the standard geometric area formula for a right-angled triangle ($\\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times 3 \\times 4 = 6$).\n <strong>Final Answer:</strong> $6$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If $A$ is a $3 \\times 3$ matrix and $|A| = 3$, the value of the adjoint determinant $|\\text{adj}(A)|$ is:",
+              "options": [
+                "$3$",
+                "$9$",
+                "$27$",
+                "$1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If the determinant evaluation of three coordinate points yields exactly 0, the points are:",
+              "options": [
+                "Vertices of an equilateral triangle",
+                "Collinear",
+                "Positioned on a circle",
+                "Undefined"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "For a matrix of order $n$, the product expression $A \\cdot \\text{adj}(A)$ is identically equal to:",
+              "options": [
+                "$I$",
+                "$|A| \\cdot I$",
+                "$A^{-1}$",
+                "$O$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The area of a triangle with vertices $(0,0)$, $(k,0)$, and $(0,k)$ evaluated via determinants is:",
+              "options": [
+                "$k^2$",
+                "$0.5 k^2$",
+                "$0.5|k^2|$",
+                "$2k$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If $|\\text{adj}(A)| = 16$ for a square matrix of order 3, the possible values of $|A|$ are:",
+              "options": [
+                "Only 4",
+                "$\\pm 4$",
+                "Only 16",
+                "$\\pm 2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Systems of Linear Equations & Cramer's Rule",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Cramer's Rule & Consistency Analysis",
+          "concept": "Cramer's Rule uses determinants to solve systems of linear equations. For a $3 \\times 3$ system, we define the base coefficient determinant $\\Delta$, and three coordinate-substituted determinants $\\Delta_x, \\Delta_y, \\Delta_z$ (formed by replacing the respective variable columns with the constant vector column). The solution values are found via the ratios: $x = \\frac{\\Delta_x}{\\Delta}$, $y = \\frac{\\Delta_y}{\\Delta}$, $z = \\frac{\\Delta_z}{\\Delta}$.\n We can analyze the consistency of the system by evaluating these determinants:\n <ul>\n <li><strong>Unique Solution</strong>: If $\\Delta \\neq 0$.\n <li><strong>Infinitely Many Solutions</strong>: If $\\Delta = 0$ AND $\\Delta_x = \\Delta_y = \\Delta_z = 0$ (and equations are not parallel).\n <li><strong>No Solution (Inconsistent)</strong>: If $\\Delta = 0$ AND at least one of $\\Delta_x, \\Delta_y, \\Delta_z$ is non-zero.\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Analyze the consistency and find the solution set for the system of linear equations using Cramer's Rule:\n \\[ 2x + 3y = 8 \\]\n \\[ 3x - y = 1 \\]</p>",
+              "solution": "<p>Step 1: Calculate the base system coefficient determinant $\\Delta$:\n \\[ \\Delta = \\begin{vmatrix} 2 & 3 \\\\ 3 & -1 \\end{vmatrix} = 2(-1) - 3(3) = -2 - 9 = -11 \\]\n Since $\\Delta = -11 \\neq 0$, the system is <strong>consistent</strong> and has a <strong>unique solution</strong>.<br>\n Step 2: Calculate the modified variable determinants $\\Delta_x$ and $\\Delta_y$ by substituting the constant vector $\\begin{bmatrix} 8 \\\\ 1 \\end{bmatrix}$ into the columns:\n \\[ \\Delta_x = \\begin{vmatrix} 8 & 3 \\\\ 1 & -1 \\end{vmatrix} = 8(-1) - 3(1) = -8 - 3 = -11 \\]\n \\[ \\Delta_y = \\begin{vmatrix} 2 & 8 \\\\ 3 & 1 \\end{vmatrix} = 2(1) - 8(3) = 2 - 24 = -22 \\]\n Step 3: Calculate the final values of $x$ and $y$ using the determinant ratios:\n \\[ x = \\frac{\\Delta_x}{\\Delta} = \\frac{-11}{-11} = 1 \\]\n \\[ y = \\frac{\\Delta_y}{\\Delta} = \\frac{-22}{-11} = 2 \\]\n The unique solution point is $(1, 2)$.\n <strong>Final Answer:</strong> Consistent with a unique solution: $x = 1, y = 2$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Determine the values of the parameter $\\mu$ for which the system of linear equations has <strong>no solution</strong>:\n \\[ x + y + z = 4 \\]\n \\[ 2x + 2y + 2z = \\mu \\]</p>",
+              "solution": "<p>Let us find the base coefficient determinant $\\Delta$ first:\n \\[ \\Delta = \\begin{vmatrix} 1 & 1 & 1 \\\\ 2 & 2 & 2 \\\\ 0 & 0 & 0 \\end{vmatrix} = 0 \\]\n (The rows are proportional, so $\\Delta = 0$). For the system to have no solution, Cramer's Rule requires the base determinant to be zero ($\\Delta = 0$) and at least one modified variable determinant to be non-zero.<br>\n Let us evaluate $\\Delta_x$ by substituting the constant vector column into the first column:\n \\[ \\Delta_x = \\begin{vmatrix} 4 & 1 & 1 \\\\ \\mu & 2 & 2 \\\\ 0 & 0 & 0 \\end{vmatrix} = 0 \\]\n Notice that the second and third columns are identical, which forces $\\Delta_x = 0$ for any value of $\\mu$. The same is true for $\\Delta_y$ and $\\Delta_z$.<br>\n Instead, let us look at the structural consistency of the rows directly. The equations are parallel planes:\n \\[ R_2 \\implies 2(x+y+z) = \\mu \\implies x+y+z = \\frac{\\mu}{2} \\]\n The first equation states $x+y+z = 4$. For these two statements to contradict each other and produce no solution, the constant values must be different:\n \\[ \\frac{\\mu}{2} \\neq 4 \\implies \\mu \\neq 8 \\]\n If $\\mu \\neq 8$, the planes are parallel and never intersect, so the system has no solution.\n <strong>Final Answer:</strong> $\\mu \\neq 8$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Analyze a homogeneous system of linear equations $AX = 0$. Explain the conditions required to yield a <strong>non-trivial solution</strong> (a solution where variables are non-zero).</p>",
+              "solution": "A homogeneous system of linear equations can be written in matrix form as:\n \\[ \\begin{bmatrix} a_{11} & a_{12} & a_{13} \\\\ a_{21} & a_{22} & a_{23} \\\\ a_{31} & a_{32} & a_{33} \\end{bmatrix} \\begin{bmatrix} x \\\\ y \\\\ z \\end{bmatrix} = \\begin{bmatrix} 0 \\\\ 0 \\\\ 0 \\end{bmatrix} \\]\n Since the constant vector column contains only zeros, substituting it into any column to calculate the modified determinants always yields:\n \\[ \\Delta_x = \\Delta_y = \\Delta_z = 0 \\]\n Now apply Cramer's Rule consistency conditions based on the value of the base determinant $\\Delta$:\n <ul>\n <li>If $\\Delta \\neq 0$: The system has a unique solution. Calculating the ratios yields $x = \\frac{0}{\\Delta} = 0, y = 0, z = 0$. This is the <strong>trivial solution</strong> (zero solution).\n <li>If $\\Delta = 0$: Since all modified determinants are also zero, the system satisfies the condition for <strong>infinitely many solutions</strong>. This allows for non-zero combinations of variables, yielding <strong>non-trivial solutions</strong>.\n </ul>\n Therefore, a homogeneous system has non-trivial solutions if and only if the determinant of its coefficient matrix is exactly zero ($|A| = 0$).\n <strong>Final Answer:</strong> $|A| = 0$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "According to Cramer's Rule, a linear system yields a unique solution if and only if the base determinant satisfies:",
+              "options": [
+                "$\\Delta = 0$",
+                "$\\Delta \\neq 0$",
+                "$\\Delta_x = 0$",
+                "$\\Delta > 1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\Delta = 0$ and $\\Delta_x = 4$, the system of equations has:",
+              "options": [
+                "A unique solution",
+                "Infinitely many solutions",
+                "No solution",
+                "Exactly four solutions"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "For a homogeneous linear system $AX = 0$, the trivial solution is always:",
+              "options": [
+                "$x=1, y=1, z=1$",
+                "$x=0, y=0, z=0$",
+                "Undefined",
+                "Dependent on $\\Delta$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If a system of equations has infinitely many solutions, the determinants must satisfy:",
+              "options": [
+                "$\\Delta \\neq 0$",
+                "$\\Delta = 0$ and all $\\Delta_x, \\Delta_y, \\Delta_z = 0$",
+                "$\\Delta_x \\neq 0$",
+                "$\\Delta = 1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The modified determinant $\\Delta_y$ is constructed by replacing which column of the base determinant with the constant vector column?",
+              "options": [
+                "The first column",
+                "The second column",
+                "The third column",
+                "The diagonal elements"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Eigenvalues & Cayley-Hamilton Theorem",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Characteristic Polynomials, Eigenvalues & Matrix Identities",
+          "concept": "<p>The characteristic equation of a square matrix $A$ is defined by the determinant equation $|A - \\lambda I| = 0$, where $\\lambda$ represents scalar <strong>Eigenvalues</strong> and $I$ is the identity matrix. Solving this polynomial equation yields the roots $\\lambda_1, \\lambda_2, \\dots, \\lambda_n$. \n The <strong>Cayley-Hamilton Theorem</strong> states that <strong>every square matrix satisfies its own characteristic equation</strong>. If the polynomial equation is $\\lambda^2 + c_1\\lambda + c_2 = 0$, then substituting the matrix $A$ yields the valid matrix identity: $A^2 + c_1 A + c_2 I = O$. This theorem is an exceptional tool for evaluating high-power matrix expressions and calculating inverse matrices quickly by multiplying the identity expression by $A^{-1}$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the characteristic equation and the eigenvalues of the $2 \\times 2$ matrix $A = \\begin{bmatrix} 1 & 2 \\\\ 2 & 4 \\end{bmatrix}$.</p>",
+              "solution": "<p>Set up the characteristic determinant equation $|A - \\lambda I| = 0$:\n \\[ \\det \\left( \\begin{bmatrix} 1 & 2 \\\\ 2 & 4 \\end{bmatrix} - \\begin{bmatrix} \\lambda & 0 \\\\ 0 & \\lambda \\end{bmatrix} \\right) = 0 \\implies \\begin{vmatrix} 1-\\lambda & 2 \\\\ 2 & 4-\\lambda \\end{vmatrix} = 0 \\]\n Expand the determinant to form the characteristic polynomial:\n \\[ (1 - \\lambda)(4 - \\lambda) - 2(2) = 0 \\]\n \\[ 4 - \\lambda - 4\\lambda + \\lambda^2 - 4 = 0 \\implies \\lambda^2 - 5\\lambda = 0 \\]\n This is the characteristic equation of the matrix. Let us solve it to find the eigenvalues:\n \\[ \\lambda(\\lambda - 5) = 0 \\implies \\lambda = 0 \\quad \\text{or} \\quad \\lambda = 5 \\]\n Notice that the sum of the eigenvalues ($0 + 5 = 5$) equals the trace of the matrix ($\\text{tr}(A) = 1 + 4 = 5$), and their product ($0 \\times 5 = 0$) equals the determinant ($|A| = 4 - 4 = 0$). This confirms standard eigenvalue properties.\n <strong>Final Answer:</strong> Equation: $\\lambda^2 - 5\\lambda = 0$, Eigenvalues: $0, 5$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Using the Cayley-Hamilton Theorem, find the inverse matrix $A^{-1}$ of $A = \\begin{bmatrix} 3 & 1 \\\\ 2 & 4 \\end{bmatrix}$.</p>",
+              "solution": "<p>Step 1: Find the characteristic equation $|A - \\lambda I| = 0$:\n \\[ \\begin{vmatrix} 3-\\lambda & 1 \\\\ 2 & 4-\\lambda \\end{vmatrix} = 0 \\implies (3-\\lambda)(4-\\lambda) - 2 = 0 \\]\n \\[ 12 - 3\\lambda - 4\\lambda + \\lambda^2 - 2 = 0 \\implies \\lambda^2 - 7\\lambda + 10 = 0 \\]\n Step 2: According to the Cayley-Hamilton Theorem, substitute the matrix $A$ into this polynomial equation to form a valid matrix identity:\n \\[ A^2 - 7A + 10I = O \\]\n Step 3: To isolate $A^{-1}$, multiply the entire matrix equation by $A^{-1}$:\n \\[ A^{-1}(A^2) - 7A^{-1}(A) + 10A^{-1}(I) = A^{-1}(O) \\]\n \\[ A - 7I + 10A^{-1} = O \\]\n Rearrange the terms to solve for $10A^{-1}$:\n \\[ 10A^{-1} = 7I - A \\implies A^{-1} = \\frac{1}{10}(7I - A) \\]\n Step 4: Substitute the matrix entries into the expression:\n \\[ 7I - A = \\begin{bmatrix} 7 & 0 \\\\ 0 & 7 \\end{bmatrix} - \\begin{bmatrix} 3 & 1 \\\\ 2 & 4 \\end{bmatrix} = \\begin{bmatrix} 4 & -1 \\\\ -2 & 3 \\end{bmatrix} \\]\n \\[ A^{-1} = \\frac{1}{10} \\begin{bmatrix} 4 & -1 \\\\ -2 & 3 \\end{bmatrix} \\]\n This matches the result found using the standard adjoint method.\n <strong>Final Answer:</strong> $A^{-1} = \\frac{1}{10} \\begin{bmatrix} 4 & -1 \\\\ -2 & 3 \\end{bmatrix}$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>If a matrix $A$ satisfies the characteristic relationship $A^2 - 5A + 6I = O$, find an expression for $A^3$ in terms of $A$ and $I$.</p>",
+              "solution": "<p>Isolate the highest power term $A^2$ from the given matrix identity:\n \\[ A^2 = 5A - 6I \\]\n To find an expression for $A^3$, multiply the entire equation by the matrix $A$:\n \\[ A \\cdot (A^2) = A \\cdot (5A - 6I) \\implies A^3 = 5A^2 - 6A \\]\n Now substitute our expression for $A^2$ ($5A - 6I$) back into this equation to eliminate the quadratic term:\n \\[ A^3 = 5(5A - 6I) - 6A \\]\n Expand and combine like terms:\n \\[ A^3 = 25A - 30I - 6A = 19A - 30I \\]\n This linear expression allows us to compute $A^3$ quickly without performing full matrix multiplications.\n <strong>Final Answer:</strong> $19A - 30I$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The characteristic equation of a square matrix $A$ is evaluated using which determinant expression?",
+              "options": [
+                "$|A| = 0$",
+                "$|A - \\lambda I| = 0$",
+                "$|\\lambda A - I| = 0$",
+                "$\\text{adj}(A) = O$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The Cayley-Hamilton Theorem states that every square matrix satisfies its own:",
+              "options": [
+                "Adjoint identity",
+                "Inverse transformation matrix",
+                "Characteristic equation",
+                "Transpose matrix entries"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If the eigenvalues of a matrix are $\\lambda_1 = 2$ and $\\lambda_2 = 3$, the trace of the matrix is:",
+              "options": [
+                "$5$",
+                "$6$",
+                "$1$",
+                "$2.5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a matrix satisfies $A^2 - 4A - 5I = O$, then its inverse matrix $A^{-1}$ can be written as:",
+              "options": [
+                "$\\frac{1}{5}(A - 4I)$",
+                "$\\frac{1}{5}(A + 4I)$",
+                "$4A - I$",
+                "$\\frac{1}{5}(4I - A)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The product of all the eigenvalues of a square matrix is always identically equal to:",
+              "options": [
+                "The trace of the matrix",
+                "The determinant of the matrix, $|A|$",
+                "$1$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-math-determinants-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "If $A$ is a square matrix of order 3 and $|A| = -2$, then the value of the scaled determinant $|-2A|$ is:",
+              "options": [
+                "$4$",
+                "$16$",
+                "$-16$",
+                "$8$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the determinant $\\begin{vmatrix} 1 & 2 & 3 \\\\ 2 & 4 & 6 \\\\ 5 & 8 & 9 \\end{vmatrix}$ is equal to:",
+              "options": [
+                "$0$",
+                "$12$",
+                "$-6$",
+                "$5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $|\\text{adj}(A)| = 25$ for a square matrix $A$ of order 3, then the possible values of the determinant $|A|$ are:",
+              "options": [
+                "Only $5$",
+                "$\\pm 5$",
+                "$\\pm 25$",
+                "Only $125$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The system of equations $2x + 4y = 6$ and $3x + 6y = 9$ has:",
+              "options": [
+                "A unique solution",
+                "No solution",
+                "Infinitely many solutions",
+                "Exactly two solutions"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The area of a triangle with vertices $(1,1)$, $(1,4)$, and $(5,1)$ evaluated using determinants is:",
+              "options": [
+                "$12$",
+                "$6$",
+                "$8$",
+                "$24$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If three coordinate points $(1,3)$, $(2,5)$, and $(k,7)$ are collinear, the value of $k$ must be:",
+              "options": [
+                "$3$",
+                "$4$",
+                "$5$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "For a homogeneous system of linear equations $AX = 0$ with 3 unknowns, a non-trivial solution exists if and only if:",
+              "options": [
+                "$|A| \\neq 0$",
+                "$|A| = 0$",
+                "$\\text{adj}(A) = I$",
+                "$X = 0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If the product of two determinants satisfies $|A||B| = 12$ and $|A| = -3$, then the value of $|B|$ is:",
+              "options": [
+                "$4$",
+                "$-4$",
+                "$-36$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The characteristic equation of the matrix $A = \\begin{bmatrix} 2 & 0 \\\\ 0 & 3 \\end{bmatrix}$ is:",
+              "options": [
+                "$\\lambda^2 - 5\\lambda + 6 = 0$",
+                "$\\lambda^2 + 5\\lambda - 6 = 0$",
+                "$\\lambda^2 - 6\\lambda + 5 = 0$",
+                "$\\lambda^2 - 5\\lambda = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a row of a determinant is multiplied by the cofactors of a different row, the sum of these products is always:",
+              "options": [
+                "$|A|$",
+                "$1$",
+                "$0$",
+                "$-1$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "If $A$ is a square matrix of order 3 such that $|A| = 2$, evaluate the value of the determinant of its nested adjoint: $|\\text{adj}(\\text{adj}(A))|$.",
+              "answer": "16",
+              "explanation": ""
+            },
+            {
+              "q": "Find the value of $x$ that satisfies the determinant equation: $\\begin{vmatrix} x & 4 \\\\ 2 & x \\end{vmatrix} = 0$ for a positive integer solution.",
+              "answer": "2",
+              "explanation": ""
+            },
+            {
+              "q": "Determine the trace value of a matrix if its eigenvalues are $\\lambda_1 = 4$ and $\\lambda_2 = -1$.",
+              "answer": "3",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The system of equations $x + y = 3$ and $x + y = 5$ is inconsistent and has no solution.<br>\n <strong>Reason (R):</strong> For an inconsistent system, the base coefficient determinant satisfies $\\Delta = 0$ and at least one of the modified determinants ($\\Delta_x, \\Delta_y$) is non-zero.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> The determinant of a matrix $A$ and its transpose $A^T$ are always equal ($|A| = |A^T|$).<br>\n <strong>Reason (R):</strong> Expanding a determinant along the rows yields the exact same numerical calculation values as expanding it along the columns.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-math-determinants-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "If $\\Delta(x) = \\begin{vmatrix} x & 1 & 2 \\\\ x^2 & 2x & 3 \\\\ x^3 & 3x^2 & 4 \\end{vmatrix}$, then the derivative value $\\Delta'(0)$ is equal to:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$-2$",
+                "$4$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If $A$ is an invertible matrix of order 3, the determinant of its adjoint matrix satisfies $|\\text{adj}(A)| = |A|^2$. The value of $|\\text{adj}(2A)|$ is:",
+              "options": [
+                "$4|A|^2$",
+                "$64|A|^2$",
+                "$8|A|^2$",
+                "$16|A|^2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The system of linear equations $x + y + z = 2$, $2x + 3y + 2z = 5$, $2x + 3y + (a^2-1)z = a+1$ has infinitely many solutions if:",
+              "options": [
+                "$a = 2$",
+                "$a = -2$",
+                "$a = \\pm \\sqrt{3}$",
+                "No such value exists"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If $A$ is a square matrix satisfying $A^2 - A + I = O$, then its inverse matrix $A^{-1}$ is identically equal to:",
+              "options": [
+                "$A - I$",
+                "$I - A$",
+                "$A + I$",
+                "$-A$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the determinant $\\begin{vmatrix} 1 & \\omega & \\omega^2 \\\\ \\omega & \\omega^2 & 1 \\\\ \\omega^2 & 1 & \\omega \\end{vmatrix}$, where $\\omega$ is a non-real cube root of unity, is:",
+              "options": [
+                "$1$",
+                "$0$",
+                "$\\omega$",
+                "$3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If the area of a triangle with vertices $(k, 0)$, $(4, 0)$, and $(0, 2)$ is 4 square units, the possible values of the integer parameter $k$ are:",
+              "options": [
+                "$0$ or $8$",
+                "$2$ or $-2$",
+                "$4$ or $-4$",
+                "Only $8$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\lambda_1, \\lambda_2, \\lambda_3$ are the eigenvalues of a $3 \\times 3$ matrix $A$, then the eigenvalues of the squared matrix $A^2$ are:",
+              "options": [
+                "$\\lambda_1, \\lambda_2, \\lambda_3$",
+                "$\\lambda_1^2, \\lambda_2^2, \\lambda_3^2$",
+                "$2\\lambda_1, 2\\lambda_2, 2\\lambda_3$",
+                "$\\frac{1}{\\lambda_1}, \\frac{1}{\\lambda_2}, \\frac{1}{\\lambda_3}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $A = \\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix}$, the matrix expression $A^2 - 5A - 2I$ evaluates to:",
+              "options": [
+                "$I$",
+                "$O$",
+                "$A$",
+                "$-I$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The number of distinct real roots of the equation $\\begin{vmatrix} x & 0 & 1 \\\\ 0 & x & 0 \\\\ 1 & 0 & x \\end{vmatrix} = 0$ is exactly:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$0$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If a system of 3 linear equations with 3 variables satisfies $\\Delta = 0$ and $\\Delta_x = 2, \\Delta_y = 0, \\Delta_z = 0$, the planes:",
+              "options": [
+                "Intersect at a unique point",
+                "Intersect along a common straight line",
+                "Have no common intersection point (inconsistent)",
+                "Are all completely identical"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Find the positive integer eigenvalue $\\lambda$ for the matrix $A = \\begin{bmatrix} 2 & 4 \\\\ 1 & 2 \\end{bmatrix}$.",
+              "answer": "4",
+              "explanation": ""
+            },
+            {
+              "q": "If a matrix $A$ of order 3 satisfies $A \\cdot \\text{adj}(A) = 5I$, find the value of its determinant $|A|$.",
+              "answer": "5",
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the value of the determinant $\\begin{vmatrix} 1^2 & 2^2 & 3^2 \\\\ 2^2 & 3^2 & 4^2 \\\\ 3^2 & 4^2 & 5^2 \\end{vmatrix} + 9$.",
+              "answer": "1",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> If a matrix is orthogonal ($A A^T = I$), the value of its determinant must be either $1$ or $-1$.<br>\n <strong>Reason (R):</strong> The determinant of a product satisfies $|AA^T| = |A||A^T| = |A|^2$, and the determinant of the identity matrix is $|I| = 1$, so $|A|^2 = 1 \\implies |A| = \\pm 1$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> The homogeneous system of linear equations $AX = 0$ has infinitely many solutions if its coefficient matrix satisfies $|A| = 0$.<br>\n <strong>Reason (R):</strong> For a homogeneous system, all modified determinants ($\\Delta_x, \\Delta_y, \\Delta_z$) are always zero, so if $\\Delta = 0$, the system meets the criteria for infinitely many solutions.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

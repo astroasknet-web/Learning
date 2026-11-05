@@ -1,0 +1,771 @@
+{
+  "exam": "ap",
+  "subject": "calculus-ab",
+  "chapter": 1,
+  "title": "Limits and Continuity",
+  "slug": "limits-and-continuity",
+  "subtitle": "AP Calculus AB — Unit 1",
+  "level": "AP Calculus AB",
+  "color": "#06b6d4",
+  "icon": "math",
+  "seo": {
+    "title": "Limits and Continuity — AP Calculus AB | GrowQR",
+    "meta_description": "Master Limits and Continuity for AP Calculus AB: notes, formulas, worked examples, self-check MCQs and mock tests. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Foundations & Definitions",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Overview, Objectives & Key Definitions",
+          "concept": "<h2>Unit Overview</h2>\n<p>Limits are the foundation on which all of calculus is built. Before we can talk about <em>instantaneous</em> rates of change (derivatives) or <em>accumulated</em> change (integrals), we need a precise way to describe what a function <em>approaches</em> as its input gets arbitrarily close to some value. That idea — the <strong>limit</strong> — is what this unit develops.</p>\n<p>By the end of this unit you should be able to reason about limits four ways: <strong>graphically, numerically, algebraically, and verbally</strong>, and connect them to the idea of <strong>continuity</strong>. On the AP exam, roughly 10–12% of the questions come from this unit, and the ideas reappear everywhere afterward.</p>\n<p><strong>Big picture:</strong> A limit answers the question, <em>&quot;Where is the function heading?&quot;</em> — regardless of whether it ever actually arrives.</p>\n<hr>\n<h2>Learning Objectives</h2>\n<p>After completing this unit you will be able to:</p>\n<ul>\n<li>Distinguish <strong>average rate of change</strong> (slope of a secant line) from <strong>instantaneous rate of change</strong> (slope of a tangent line).</li>\n<li>Express and evaluate limits using correct notation, including one-sided limits.</li>\n<li>Estimate limits from <strong>graphs</strong> and <strong>tables</strong>.</li>\n<li>Evaluate limits <strong>algebraically</strong> using limit laws, factoring, rationalization, and known trigonometric limits.</li>\n<li>Apply the <strong>Squeeze Theorem</strong>.</li>\n<li>Classify <strong>discontinuities</strong> (removable, jump, infinite) and remove removable ones.</li>\n<li>Determine <strong>continuity</strong> at a point and over an interval.</li>\n<li>Connect <strong>infinite limits to vertical asymptotes</strong> and <strong>limits at infinity to horizontal asymptotes</strong>.</li>\n<li>Apply the <strong>Intermediate Value Theorem (IVT)</strong>.</li>\n</ul>\n<hr>\n<h2>Prerequisite Concepts</h2>\n<p>You should be comfortable with:</p>\n<ul>\n<li><strong>Function notation and evaluation</strong>, domain and range.</li>\n<li><strong>Factoring</strong> (difference of squares, difference of cubes, common factors) and <strong>rationalizing</strong> with conjugates.</li>\n<li><strong>Piecewise functions</strong> and reading graphs.</li>\n<li>Basic <strong>trigonometry</strong> (unit-circle values, identities like tan = sin/cos).</li>\n<li><strong>Rational functions</strong> and asymptote behavior from precalculus.</li>\n</ul>\n<hr>\n<h2>Key Definitions</h2>\n<ul>\n<li><strong>Limit:</strong> We write <code>lim_{x→c} f(x) = L</code> if the values of f(x) get arbitrarily close to L as x gets arbitrarily close to c (from both sides), <strong>without requiring x = c</strong>.</li>\n<li><strong>One-sided limits:</strong> <code>lim_{x→c⁻} f(x)</code> (from the left) and <code>lim_{x→c⁺} f(x)</code> (from the right).</li>\n<li><strong>Existence of a two-sided limit:</strong> <code>lim_{x→c} f(x)</code> exists <strong>iff</strong> both one-sided limits exist <strong>and are equal</strong>.</li>\n<li><strong>Average rate of change</strong> of f on [a, b]: <code>(f(b) − f(a)) / (b − a)</code> — the slope of the <strong>secant</strong> line.</li>\n<li><strong>Instantaneous rate of change</strong> at x = a: <code>lim_{h→0} (f(a + h) − f(a)) / h</code> — the slope of the <strong>tangent</strong> line.</li>\n<li><strong>Continuity at x = a:</strong> f is continuous at a if <strong>all three</strong> hold: (1) f(a) is defined, (2) <code>lim_{x→a} f(x)</code> exists, (3) <code>lim_{x→a} f(x) = f(a)</code>.</li>\n<li><strong>Removable discontinuity:</strong> a &quot;hole&quot; — the limit exists but does not equal f(a) (or f(a) is undefined).</li>\n<li><strong>Jump discontinuity:</strong> the one-sided limits both exist but are unequal.</li>\n<li><strong>Infinite discontinuity:</strong> the function grows without bound near the point (a vertical asymptote).</li>\n</ul>\n<hr>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "The position of a particle at time t is given by s(t) = t^2. What is the average velocity of the particle on the interval [1, 3]?",
+              "options": [
+                "2",
+                "4",
+                "6",
+                "8"
+              ],
+              "correct": 1,
+              "explanation": "Average velocity is the change in position divided by the change in time: (s(3) - s(1)) / (3 - 1) = (9 - 1) / 2 = 8 / 2 = 4."
+            },
+            {
+              "q": "If lim_{x→c} f(x) = L, which of the following MUST be true?",
+              "options": [
+                "f(c) = L",
+                "f is continuous at x = c",
+                "The limit from the left and the limit from the right both exist and equal L",
+                "f(x) is defined at x = c"
+              ],
+              "correct": 2,
+              "explanation": "The definition of a two-sided limit requires that the left-hand limit and the right-hand limit exist and are equal. The function need not be defined at c, nor does it need to be continuous."
+            },
+            {
+              "q": "Evaluate lim_{x→1} (x^2 + 3x - 2).",
+              "options": [
+                "0",
+                "2",
+                "4",
+                "6"
+              ],
+              "correct": 1,
+              "explanation": "Since the function is a polynomial, we can use direct substitution: (1)^2 + 3(1) - 2 = 1 + 3 - 2 = 2."
+            },
+            {
+              "q": "A table of values for f(x) near x = 5 shows f(4.9) = 2.9, f(4.99) = 2.99, f(5.1) = 3.1, and f(5.01) = 3.01. What is the best estimate for lim_{x→5} f(x)?",
+              "options": [
+                "2",
+                "3",
+                "4",
+                "Does not exist"
+              ],
+              "correct": 1,
+              "explanation": "The values from both the left (approaching 5 from values less than 5) and the right (approaching 5 from values greater than 5) suggest the function is approaching 3."
+            },
+            {
+              "q": "The average rate of change of a function f(x) over the interval [a, b] is given by:",
+              "options": [
+                "f(b) - f(a)",
+                "(f(b) - f(a)) / (b - a)",
+                "(f(a) + f(b)) / 2",
+                "f'(a)"
+              ],
+              "correct": 1,
+              "explanation": "The average rate of change is the slope of the secant line connecting (a, f(a)) and (b, f(b)), calculated as (f(b) - f(a)) / (b - a)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Theorems & Formulas",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Important Theorems & Formulas",
+          "concept": "<h2>Important Theorems</h2>\n<p><strong>Limit Laws</strong> (valid when the individual limits exist). If <code>lim f = L</code> and <code>lim g = M</code>:</p>\n<ul>\n<li>Sum/Difference: <code>lim (f ± g) = L ± M</code></li>\n<li>Constant multiple: <code>lim (k·f) = k·L</code></li>\n<li>Product: <code>lim (f·g) = L·M</code></li>\n<li>Quotient: <code>lim (f/g) = L/M</code>, provided M ≠ 0</li>\n<li>Power/Root: <code>lim (f)^n = L^n</code></li>\n</ul>\n<p><strong>Squeeze (Sandwich) Theorem:</strong> If <code>g(x) ≤ f(x) ≤ h(x)</code> near c (except possibly at c) and <code>lim_{x→c} g(x) = lim_{x→c} h(x) = L</code>, then <code>lim_{x→c} f(x) = L</code>.</p>\n<p><strong>Intermediate Value Theorem (IVT):</strong> If f is <strong>continuous</strong> on [a, b] and N is any value between f(a) and f(b), then there exists at least one c in (a, b) with f(c) = N. (Guarantees existence, not the value or uniqueness.)</p>\n<p><strong>Continuity of common functions:</strong> Polynomials are continuous everywhere; rational, radical, trig, exponential, and log functions are continuous on their domains; sums, products, quotients (nonzero denominator), and <strong>compositions</strong> of continuous functions are continuous.</p>\n<hr>\n<h2>Important Formulas &amp; Standard Limits</h2>\n<ul>\n<li>Direct substitution (when f is continuous at c): <code>lim_{x→c} f(x) = f(c)</code>.</li>\n<li><strong>Fundamental trig limits:</strong><ul>\n<li><code>lim_{x→0} (sin x)/x = 1</code></li>\n<li><code>lim_{x→0} (1 − cos x)/x = 0</code></li>\n<li><code>lim_{x→0} (tan x)/x = 1</code></li>\n</ul>\n</li>\n<li><strong>Limits at infinity of rational functions</strong> (compare degrees of numerator N and denominator D):<ul>\n<li>deg N &lt; deg D → limit is 0 (horizontal asymptote y = 0)</li>\n<li>deg N = deg D → limit is the ratio of leading coefficients</li>\n<li>deg N &gt; deg D → no horizontal asymptote (limit is ±∞)</li>\n</ul>\n</li>\n</ul>\n<hr>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "For a function f(x), if lim_{x→2^-} f(x) = 5 and lim_{x→2^+} f(x) = 3, which of the following is true?",
+              "options": [
+                "lim_{x→2} f(x) = 4",
+                "lim_{x→2} f(x) = 5",
+                "lim_{x→2} f(x) = 3",
+                "lim_{x→2} f(x) does not exist"
+              ],
+              "correct": 3,
+              "explanation": "Since the left-hand limit (5) does not equal the right-hand limit (3), the two-sided limit at x = 2 does not exist."
+            },
+            {
+              "q": "Evaluate lim_{x→3} (x^2 - 9) / (x - 3).",
+              "options": [
+                "0",
+                "3",
+                "6",
+                "Does not exist"
+              ],
+              "correct": 2,
+              "explanation": "This is an indeterminate form 0/0. Factor the numerator: (x-3)(x+3) / (x-3). Canceling (x-3) leaves lim_{x→3} (x+3) = 3 + 3 = 6."
+            },
+            {
+              "q": "The function f(x) = (x^2 - 1) / (x - 1) has which type of discontinuity at x = 1?",
+              "options": [
+                "Jump discontinuity",
+                "Infinite discontinuity",
+                "Removable discontinuity",
+                "The function is continuous at x = 1"
+              ],
+              "correct": 2,
+              "explanation": "The function simplifies to f(x) = x + 1 for x ≠ 1. The limit exists at x = 1 (it is 2), but the function is undefined there, characterizing a removable discontinuity."
+            },
+            {
+              "q": "For a function to be continuous at x = a, which condition must be met?",
+              "options": [
+                "f(a) is defined",
+                "lim_{x→a} f(x) exists",
+                "lim_{x→a} f(x) = f(a)",
+                "All of the above"
+              ],
+              "correct": 3,
+              "explanation": "Continuity at a point requires the function to be defined, the limit to exist, and the limit to equal the function value."
+            },
+            {
+              "q": "Find the vertical asymptote(s) of f(x) = (x + 2) / (x^2 - 4).",
+              "options": [
+                "x = 2 only",
+                "x = -2 only",
+                "x = 2 and x = -2",
+                "No vertical asymptotes"
+              ],
+              "correct": 0,
+              "explanation": "Simplify f(x) = (x + 2) / ((x - 2)(x + 2)). The factor (x + 2) cancels, leaving a removable discontinuity at x = -2. The factor (x - 2) remains in the denominator, creating a vertical asymptote at x = 2."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Concepts & Worked Examples",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Concept Explanations & Solved Examples",
+          "concept": "<h2>Concept Explanations</h2>\n<p><strong>From average to instantaneous rate (1.1).</strong> The average rate of change over [a, b] is a <em>secant</em> slope you can compute directly. To get the <em>instantaneous</em> rate at a single point, shrink the interval: let the second point slide toward the first (h → 0). That limiting secant slope is the tangent slope — the derivative you&#39;ll define formally in Unit 2.</p>\n<p><strong>Why a limit ignores f(c) (1.2).</strong> The whole power of a limit is that it describes approach, not arrival. A function can have a limit of 3 at x = 4 while f(4) = 5, or while f(4) is undefined. This is exactly what lets us handle the 0/0 forms that derivatives produce.</p>\n<p><strong>Algebraic techniques (1.5–1.6).</strong> Try <strong>direct substitution first</strong>. If you get a real number, you&#39;re done. If you get 0/0 (indeterminate), do algebra: <strong>factor and cancel</strong>, <strong>rationalize</strong> with a conjugate, or use a <strong>known trig limit</strong>. If you get (nonzero)/0, the limit is infinite (check signs for ±∞).</p>\n<p><strong>Discontinuities and continuity (1.10–1.13).</strong> Test continuity with the three-part definition. A <em>removable</em> discontinuity can be &quot;patched&quot; by redefining f(c) to equal the limit. Jump and infinite discontinuities cannot be removed.</p>\n<p><strong>Asymptotes as limits (1.14–1.15).</strong> A <strong>vertical asymptote</strong> at x = c means a one-sided (or two-sided) limit is ±∞. A <strong>horizontal asymptote</strong> y = L means <code>lim_{x→±∞} f(x) = L</code>.</p>\n<hr>\n<h2>Worked Examples</h2>\n<p><strong>Example 1 (Algebraic — factoring).</strong> Evaluate <code>lim_{x→3} (x² − 9)/(x − 3)</code>.\nDirect substitution gives 0/0. Factor: <code>(x − 3)(x + 3)/(x − 3) = x + 3</code>. So the limit is <code>3 + 3 = 6</code>.</p>\n<p><strong>Example 2 (Rationalizing).</strong> Evaluate <code>lim_{x→0} (√(x + 1) − 1)/x</code>.\nMultiply by the conjugate: <code>((x + 1) − 1) / (x(√(x+1) + 1)) = 1/(√(x+1) + 1)</code>. As x → 0 this is <code>1/(1 + 1) = 1/2</code>.</p>\n<p><strong>Example 3 (Squeeze Theorem).</strong> Evaluate <code>lim_{x→0} x² sin(1/x)</code>.\nSince <code>−1 ≤ sin(1/x) ≤ 1</code>, we have <code>−x² ≤ x² sin(1/x) ≤ x²</code>. Both bounds → 0, so the limit is <strong>0</strong>.</p>\n<p><strong>Example 4 (Continuity — solve for a constant).</strong> Find k so that f is continuous at x = 2, where <code>f(x) = kx²</code> for x ≤ 2 and <code>f(x) = x + k</code> for x &gt; 2.\nMatch the pieces: <code>k(2)² = 2 + k → 4k = 2 + k → 3k = 2 → k = 2/3</code>.</p>\n<p><strong>Example 5 (Limit at infinity).</strong> Evaluate <code>lim_{x→∞} (3x² + 5)/(2x² − x)</code>.\nEqual degrees → ratio of leading coefficients = <strong>3/2</strong>.</p>\n<p><strong>Example 6 (IVT).</strong> Show f(x) = x³ − x − 1 has a root in [1, 2].\nf is continuous; f(1) = −1 &lt; 0 and f(2) = 5 &gt; 0. Since 0 lies between −1 and 5, IVT guarantees a c in (1, 2) with f(c) = 0.</p>\n<hr>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Evaluate lim_{x→∞} (3x^2 + 5) / (2x^2 - x).",
+              "options": [
+                "0",
+                "3/2",
+                "3",
+                "Infinity"
+              ],
+              "correct": 1,
+              "explanation": "For limits at infinity of rational functions where degrees are equal, the limit is the ratio of the leading coefficients: 3/2."
+            },
+            {
+              "q": "Evaluate lim_{x→0} (sqrt(x + 1) - 1) / x.",
+              "options": [
+                "0",
+                "1/2",
+                "1",
+                "Undefined"
+              ],
+              "correct": 1,
+              "explanation": "Multiply numerator and denominator by the conjugate (sqrt(x+1)+1): ((x+1)-1) / (x(sqrt(x+1)+1)) = x / (x(sqrt(x+1)+1)) = 1 / (sqrt(x+1)+1). As x→0, this becomes 1 / (1+1) = 1/2."
+            },
+            {
+              "q": "Let f(x) = (x^2 - 4) / (x - 2) for x ≠ 2. What value should be assigned to f(2) to make the function continuous at x = 2?",
+              "options": [
+                "0",
+                "2",
+                "4",
+                "Undefined"
+              ],
+              "correct": 2,
+              "explanation": "The function simplifies to f(x) = x + 2. To remove the discontinuity at x = 2, we must define f(2) = lim_{x→2} (x+2) = 4."
+            },
+            {
+              "q": "The slope of the line tangent to the curve y = f(x) at point (a, f(a)) is defined as:",
+              "options": [
+                "lim_{h→0} (f(a + h) - f(a)) / h",
+                "lim_{h→0} (f(a + h) + f(a)) / h",
+                "(f(a + h) - f(a)) / h",
+                "f(a) / a"
+              ],
+              "correct": 0,
+              "explanation": "This is the definition of the derivative at a point, which represents the instantaneous rate of change or the slope of the tangent line at x = a."
+            },
+            {
+              "q": "A particle moves along a line with position s(t) = t^2 + 3t. What is the instantaneous rate of change of its position at t = 2?",
+              "options": [
+                "4",
+                "5",
+                "7",
+                "10"
+              ],
+              "correct": 2,
+              "explanation": "The instantaneous rate of change is the derivative s'(t) = 2t + 3. At t = 2, s'(2) = 2(2) + 3 = 7."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Graphs, Pitfalls & AP Exam Tips",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Graphical Interpretation, Common Mistakes & Tips",
+          "concept": "<h2>Graphical Interpretation</h2>\n<ul>\n<li>A <strong>two-sided limit exists</strong> when the left and right branches of the graph head to the <strong>same height</strong> — even if there&#39;s a hole or the point is plotted elsewhere.</li>\n<li>A <strong>hole</strong> at (c, L) with the curve approaching L from both sides ⇒ <code>lim = L</code> (removable).</li>\n<li>A <strong>jump</strong> (left branch heads to one height, right branch to another) ⇒ two-sided limit <strong>does not exist</strong>.</li>\n<li>A <strong>vertical asymptote</strong> ⇒ the branch shoots to ±∞ (infinite limit).</li>\n<li>A <strong>horizontal asymptote</strong> ⇒ the far-left/far-right tails flatten toward y = L.</li>\n</ul>\n<hr>\n<h2>Common Mistakes</h2>\n<ul>\n<li><strong>Assuming <code>lim_{x→c} f(x) = f(c)</code> always.</strong> It only holds when f is continuous at c.</li>\n<li><strong>Stopping at 0/0</strong> and writing &quot;does not exist.&quot; 0/0 is <em>indeterminate</em> — do more algebra.</li>\n<li><strong>Confusing &quot;limit does not exist&quot; with &quot;= ∞&quot;.</strong> An infinite limit is a specific behavior; a jump is a different reason a limit fails.</li>\n<li><strong>Forgetting to check both one-sided limits</strong> for piecewise functions and at asymptotes.</li>\n<li><strong>Sign errors on infinite limits.</strong> Near a vertical asymptote, test the sign from each side to decide +∞ vs −∞.</li>\n<li><strong>Misusing IVT.</strong> It requires continuity and only guarantees <em>existence</em> — never a specific value or uniqueness.</li>\n<li><strong>Canceling a factor and forgetting the hole.</strong> After canceling (x − c), the original function still has a removable discontinuity at x = c.</li>\n</ul>\n<hr>\n<h2>AP Exam Tips</h2>\n<ul>\n<li><strong>Always try direct substitution first</strong> — it settles most non-calculator limits instantly.</li>\n<li>Memorize the three <strong>fundamental trig limits</strong>; they appear on both multiple-choice and free-response.</li>\n<li>For <strong>rational-function end behavior</strong>, compare degrees rather than doing long division under time pressure.</li>\n<li>On free-response, when citing <strong>IVT</strong> or discussing continuity, <strong>state that the function is continuous</strong> — that justification earns points.</li>\n<li>Read whether a question asks for the <strong>limit</strong> or the <strong>function value</strong> — they can differ.</li>\n<li>Calculator-active tables: use x-values very close on <strong>both sides</strong> to estimate a limit.</li>\n</ul>\n<hr>\n<h2>Unit Summary</h2>\n<ul>\n<li>A <strong>limit</strong> describes where a function heads as x → c, independent of f(c).</li>\n<li>A two-sided limit exists <strong>iff</strong> both one-sided limits exist and are equal.</li>\n<li>Evaluate limits by <strong>substitution → algebra (factor/rationalize/trig) → interpret ∞</strong>.</li>\n<li><strong>Continuity</strong> requires the value, the limit, and their equality; classify breaks as <strong>removable, jump, or infinite</strong>.</li>\n<li><strong>Infinite limits ⇔ vertical asymptotes; limits at infinity ⇔ horizontal asymptotes.</strong></li>\n<li>The <strong>Squeeze Theorem</strong> handles oscillating bounded functions; the <strong>IVT</strong> guarantees solutions for continuous functions.</li>\n</ul>\n<p><em>Next unit:</em> Unit 2 turns the instantaneous-rate idea into the formal <strong>derivative</strong>.</p>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Using the Squeeze Theorem, what is lim_{x→0} x^2 * sin(1/x)?",
+              "options": [
+                "0",
+                "1",
+                "Does not exist",
+                "Infinity"
+              ],
+              "correct": 0,
+              "explanation": "Since -1 ≤ sin(1/x) ≤ 1, it follows that -x^2 ≤ x^2 * sin(1/x) ≤ x^2. As x approaches 0, both -x^2 and x^2 approach 0, so the limit is 0."
+            },
+            {
+              "q": "Given f(x) = x^3 - x - 1, which interval is guaranteed to contain a root by the Intermediate Value Theorem?",
+              "options": [
+                "[0, 1]",
+                "[1,2]",
+                "[-1,0]",
+                "[2,3]"
+              ],
+              "correct": 1,
+              "explanation": "f(1) = 1 - 1 - 1 = -1. f(2) = 8 - 2 - 1 = 5. Since f(x) is continuous and changes sign on [1, 2], there must be a root."
+            },
+            {
+              "q": "For a function f(x), what is lim_{x→4} f(x) if f(4) = 5 and the function has a hole at x = 4 with the curve approaching 3 from both sides?",
+              "options": [
+                "5",
+                "3",
+                "Does not exist",
+                "∞"
+              ],
+              "correct": 1,
+              "explanation": "The limit as x approaches 4 is the value the function approaches, which is 3, regardless of the actual value f(4) = 5."
+            },
+            {
+              "q": "Which method is most appropriate for evaluating lim_{x→0} (sin x) / x?",
+              "options": [
+                "Direct substitution",
+                "Factoring",
+                "Numerical estimation",
+                "Graphical analysis"
+              ],
+              "correct": 2,
+              "explanation": "Direct substitution yields 0/0, an indeterminate form. Numerical estimation or knowledge of the standard limit lim_{x→0} (sin x)/x = 1 is required."
+            },
+            {
+              "q": "If f(x) is continuous on [0, 2] with f(0) = -3 and f(2) = 5, which of the following must be true?",
+              "options": [
+                "There exists a c in (0, 2) such that f(c) = 0.",
+                "f(x) is differentiable on (0, 2).",
+                "f(x) has a maximum value of 5.",
+                "f(x) is increasing on [0, 2]."
+              ],
+              "correct": 0,
+              "explanation": "By the Intermediate Value Theorem, since f(x) is continuous and changes from -3 to 5, it must pass through 0 at some point c in (0, 2)."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "limits-and-continuity-test-1",
+      "title": "Practice Set A",
+      "level": "Standard",
+      "time_limit_minutes": 30,
+      "total": 20,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Multiple Choice",
+          "questions": [
+            {
+              "q": "What does the notation lim_{x→a} f(x) = L represent?",
+              "options": [
+                "The value of f(x) at x = a is L.",
+                "The value of f(x) approaches L as x approaches a.",
+                "The value of f(x) is undefined at x = a.",
+                "The function f(x) has a vertical asymptote at x = a."
+              ],
+              "correct": 1,
+              "explanation": "The notation lim_{x→a} f(x) = L means that f(x) approaches L as x approaches a, regardless of the value of f(a)."
+            },
+            {
+              "q": "Given a function f(x) with a vertical asymptote at x = 3, what is lim_{x→3+} f(x)?",
+              "options": [
+                "0",
+                "∞",
+                "-∞",
+                "Does not exist"
+              ],
+              "correct": 1,
+              "explanation": "A vertical asymptote at x = 3 with the graph approaching ∞ from the right implies lim_{x→3+} f(x) = ∞."
+            },
+            {
+              "q": "What is lim_{x→1} (3x^2 + 2x - 5)?",
+              "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+              ],
+              "correct": 0,
+              "explanation": "Using direct substitution, lim_{x→1} (3x^2 + 2x - 5) = 3(1)^2 + 2(1) - 5 = 0."
+            },
+            {
+              "q": "Which type of discontinuity does f(x) = (x^2 - 1) / (x - 1) have at x = 1?",
+              "options": [
+                "Removable discontinuity",
+                "Jump discontinuity",
+                "Infinite discontinuity",
+                "No discontinuity"
+              ],
+              "correct": 0,
+              "explanation": "The function simplifies to f(x) = x + 1 for x ≠ 1, so the discontinuity at x = 1 is removable."
+            },
+            {
+              "q": "Given that lim_{x→c} f(x) = 2 and lim_{x→c} g(x) = 5, find lim_{x→c} [3f(x) - g(x)].",
+              "options": [
+                "1",
+                "-1",
+                "6",
+                "11"
+              ],
+              "correct": 0,
+              "explanation": "Using limit laws, the limit is 3 * lim f(x) - lim g(x) = 3(2) - 5 = 6 - 5 = 1."
+            },
+            {
+              "q": "If f(x) = 3x^2 - 5x + 2, what is lim_{x→2} f(x)?",
+              "options": [
+                "0",
+                "4",
+                "12",
+                "20"
+              ],
+              "correct": 1,
+              "explanation": "Use direct substitution for the polynomial: f(2) = 3(4) - 5(2) + 2 = 12 - 10 + 2 = 4."
+            },
+            {
+              "q": "For the function f(x), what is lim_{x→-2} f(x) if the function has a hole at x = -2 and approaches 4 from both sides?",
+              "options": [
+                "-2",
+                "0",
+                "4",
+                "Does not exist"
+              ],
+              "correct": 2,
+              "explanation": "The limit as x approaches -2 is the value the function approaches, which is 4, regardless of the hole at x = -2."
+            },
+            {
+              "q": "What is lim_{x→2} (5x - 7)?",
+              "options": [
+                "3",
+                "5",
+                "7",
+                "10"
+              ],
+              "correct": 0,
+              "explanation": "Using direct substitution, lim_{x→2} (5x - 7) = 5(2) - 7 = 10 - 7 = 3."
+            },
+            {
+              "q": "Which of the following functions is continuous at x = 0?",
+              "options": [
+                "f(x) = |x|",
+                "f(x) = 1 / x",
+                "f(x) = (x^2 - 1) / (x - 1)",
+                "f(x) = sin(1 / x)"
+              ],
+              "correct": 0,
+              "explanation": "The function f(x) = |x| is defined at x = 0, lim_{x→0} |x| = 0, and f(0) = 0, so it is continuous at x = 0."
+            },
+            {
+              "q": "What is the value of lim_{x→0^+} |x| / x?",
+              "options": [
+                "-1",
+                "0",
+                "1",
+                "Does not exist"
+              ],
+              "correct": 2,
+              "explanation": "For x > 0, |x| = x, so the expression simplifies to x / x = 1. Therefore, the right-hand limit as x approaches 0 is 1."
+            },
+            {
+              "q": "If f is continuous on [1, 5] with f(1) = -3 and f(5) = 5, which theorem guarantees a value c in (1, 5) such that f(c) = 0?",
+              "options": [
+                "Extreme Value Theorem",
+                "Intermediate Value Theorem",
+                "Mean Value Theorem",
+                "Squeeze Theorem"
+              ],
+              "correct": 1,
+              "explanation": "The Intermediate Value Theorem states that if a function is continuous on a closed interval, it must take on every value between its values at the endpoints. Since 0 is between -3 and 5, such a c is guaranteed."
+            },
+            {
+              "q": "If lim_{x→c} f(x) = 4 and lim_{x→c} g(x) = -2, evaluate lim_{x→c} [ (f(x) * g(x)) / (f(x) + g(x)) ].",
+              "options": [
+                "-4",
+                "4",
+                "-2",
+                "2"
+              ],
+              "correct": 0,
+              "explanation": "Using algebraic properties of limits: numerator is 4 * (-2) = -8, and denominator is 4 + (-2) = 2. Therefore, -8 / 2 = -4."
+            },
+            {
+              "q": "Evaluate lim_{x→-∞} (4x^3 - 2x) / (2x^3 + 5).",
+              "options": [
+                "-2",
+                "0",
+                "2",
+                "Infinity"
+              ],
+              "correct": 2,
+              "explanation": "For rational functions at negative infinity where the degrees of the polynomial match, the limit is the ratio of the leading coefficients: 4 / 2 = 2."
+            },
+            {
+              "q": "A particle's position is given by s(t) = t^3 - 2t^2. What is the average velocity over the interval [1, 3]?",
+              "options": [
+                "5",
+                "8",
+                "10",
+                "16"
+              ],
+              "correct": 0,
+              "explanation": "Average velocity = (s(3) - s(1))/(3 - 1). s(3) = 27 - 18 = 9 and s(1) = 1 - 2 = -1, so (9 - (-1))/2 = 10/2 = 5."
+            },
+            {
+              "q": "Which of the following is the correct interpretation of lim_{x→c} f(x) = L?",
+              "options": [
+                "f(c) = L",
+                "f(x) approaches L as x approaches c, but f(c) may or may not equal L",
+                "f(x) = L for all x near c",
+                "f(x) is undefined at x = c"
+              ],
+              "correct": 1,
+              "explanation": "The limit lim_{x→c} f(x) = L means that f(x) approaches L as x approaches c, regardless of the value of f(c)."
+            },
+            {
+              "q": "For a function f(x) with a vertical asymptote at x = 2, what is lim_{x→2^-} f(x) if f approaches -∞ from the left?",
+              "options": [
+                "∞",
+                "-∞",
+                "0",
+                "Does not exist"
+              ],
+              "correct": 1,
+              "explanation": "If the graph approaches -∞ as x approaches 2 from the left, then lim_{x→2^-} f(x) = -∞."
+            },
+            {
+              "q": "What is lim_{x→-1} (2x^2 + 3x - 5)?",
+              "options": [
+                "-6",
+                "-4",
+                "0",
+                "6"
+              ],
+              "correct": 0,
+              "explanation": "Polynomials are continuous, so substitute directly: 2(-1)^2 + 3(-1) - 5 = 2 - 3 - 5 = -6."
+            },
+            {
+              "q": "Which type of discontinuity does f(x) = (x^2 - 4) / (x + 2) have at x = -2?",
+              "options": [
+                "Removable discontinuity",
+                "Jump discontinuity",
+                "Infinite discontinuity",
+                "No discontinuity"
+              ],
+              "correct": 0,
+              "explanation": "The function simplifies to f(x) = x - 2 for x ≠ -2, so the discontinuity at x = -2 is removable."
+            },
+            {
+              "q": "The position of a particle moving along a straight line is s(t) = t^3 - 6t^2 + 9t. What is the average velocity from t = 0 to t = 3?",
+              "options": [
+                "0",
+                "3",
+                "9",
+                "-9"
+              ],
+              "correct": 0,
+              "explanation": "Average velocity is (s(3) - s(0)) / (3 - 0). Since s(0) = 0 and s(3) = 27 - 54 + 27 = 0, the average velocity is (0 - 0) / 3 = 0."
+            },
+            {
+              "q": "Which of the following limits does NOT exist?",
+              "options": [
+                "lim_{x→2} (3x^2 - 5)",
+                "lim_{x→0} (sin x)/x",
+                "lim_{x→0^+} 1/x",
+                "lim_{x→3} (x^2 - 9)/(x - 3)"
+              ],
+              "correct": 2,
+              "explanation": "As x approaches 0 from the right, 1/x grows without bound toward positive infinity, meaning the limit does not exist. All other options yield finite, real numbers."
+            }
+          ]
+        }
+      ],
+      "note": "Auto-graded practice from the Limits and Continuity question bank."
+    },
+    {
+      "id": "limits-and-continuity-test-2",
+      "title": "Practice Set B",
+      "level": "Challenge",
+      "time_limit_minutes": 30,
+      "total": 20,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Multiple Choice",
+          "questions": [
+            {
+              "q": "Which of the following is true about the limit lim_{x→2} (x^2 - 4)?",
+              "options": [
+                "The limit is 0 because f(2) = 0",
+                "The limit does not exist because f(2) is undefined",
+                "The limit is 0 because the function approaches 0 as x approaches 2",
+                "The limit is 4 because f(2) = 4"
+              ],
+              "correct": 2,
+              "explanation": "The limit lim_{x→2} (x^2 - 4) = 0 because the function approaches 0 as x approaches 2, regardless of the value of f(2)."
+            },
+            {
+              "q": "For a function f(x) with a hole at x = -1 and the function approaching -3 from both sides, what is lim_{x→-1} f(x)?",
+              "options": [
+                "-1",
+                "-3",
+                "0",
+                "Does not exist"
+              ],
+              "correct": 1,
+              "explanation": "The limit as x approaches -1 is the value the function approaches, which is -3, regardless of the hole at x = -1."
+            },
+            {
+              "q": "What is lim_{x→-3} (4x + 7)?",
+              "options": [
+                "-5",
+                "-1",
+                "1",
+                "5"
+              ],
+              "correct": 0,
+              "explanation": "Using direct substitution, lim_{x→-3} (4x + 7) = 4(-3) + 7 = -12 + 7 = -5."
+            },
+            {
+              "q": "Which type of discontinuity does f(x) = 1 / (x^2) have at x = 0?",
+              "options": [
+                "Removable discontinuity",
+                "Jump discontinuity",
+                "Infinite discontinuity",
+                "No discontinuity"
+              ],
+              "correct": 2,
+              "explanation": "The function f(x) = 1 / (x^2) has a vertical asymptote at x = 0, indicating an infinite discontinuity."
+            },
+            {
+              "q": "For the function f(x) = (x^2 - 4) / (x - 2), what is lim_{x→2} f(x)?",
+              "options": [
+                "0",
+                "2",
+                "4",
+                "Does not exist"
+              ],
+              "correct": 2,
+              "explanation": "The function simplifies to f(x) = x + 2 for x ≠ 2. Thus, lim_{x→2} f(x) = 2 + 2 = 4."
+            },
+            {
+              "q": "Given the table of values for f(x) near x = 2, what is lim_{x→2} f(x)?\n| x | 1.9 | 1.99 | 1.999 | 2.001 | 2.01 | 2.1 |\n|---|-----|-----|------|------|-----|-----|\n| f(x) | 3.9 | 3.99 | 3.999 | 4.001 | 4.01 | 4.1 |",
+              "options": [
+                "3",
+                "4",
+                "5",
+                "Does not exist"
+              ],
+              "correct": 1,
+              "explanation": "As x approaches 2 from both sides, f(x) approaches 4, so lim_{x→2} f(x) = 4."
+            },
+            {
+              "q": "If -x^2 ≤ f(x) ≤ x^2 for all x ≠ 0, what is lim_{x→0} f(x)?",
+              "options": [
+                "-1",
+                "0",
+                "1",
+                "Does not exist"
+              ],
+              "correct": 1,
+              "explanation": "By the Squeeze Theorem, since lim_{x→0} (-x^2) = lim_{x→0} (x^2) = 0, lim_{x→0} f(x) = 0."
+            },
+            {
+              "q": "For f(x) to be continuous at x = a, which of the following must be true?",
+              "options": [
+                "f(a) is defined, lim_{x→a} f(x) exists, and lim_{x→a} f(x) = f(a)",
+                "f(a) is defined and lim_{x→a} f(x) exists",
+                "lim_{x→a} f(x) exists and lim_{x→a} f(x) = f(a)",
+                "f(a) is defined and the function is differentiable at x = a"
+              ],
+              "correct": 0,
+              "explanation": "Continuity at a point requires three conditions: f(a) is defined, lim_{x→a} f(x) exists, and lim_{x→a} f(x) = f(a)."
+            },
+            {
+              "q": "What is lim_{x→∞} (4x^2 + 3x - 1) / (2x^2 - 5)?",
+              "options": [
+                "0",
+                "1/2",
+                "2",
+                "∞"
+              ],
+              "correct": 2,
+              "explanation": "Divide numerator and denominator by x^2: lim_{x→∞} (4 + 3/x - 1/x^2) / (2 - 5/x^2) = 4/2 = 2."
+            },
+            {
+              "q": "Which of the following functions f(x) has a limit as x approaches 0, but the function is not defined at x = 0?",
+              "options": [
+                "f(x) = |x| / x",
+                "f(x) = sin(x) / x",
+                "f(x) = 1 / x",
+                "f(x) = e^(1/x)"
+              ],
+              "correct": 1,
+              "explanation": "The limit as x approaches 0 of sin(x)/x is 1, but the function is undefined at x=0 because of division by zero. Option A has different one-sided limits, Option C has an infinite limit, and Option D has different one-sided limits."
+            },
+            {
+              "q": "What is the horizontal asymptote of a function f(x) = (2 - 5x^3) / (4x^3 + x^2 - 1)?",
+              "options": [
+                "y = 0",
+                "y = 2",
+                "y = -5/4",
+                "No horizontal asymptote"
+              ],
+              "correct": 2,
+              "explanation": "For a rational function where the degree of the numerator equals the degree of the denominator, the horizontal asymptote is the ratio of the leading coefficients, which is -5/4."
+            },
+            {
+              "q": "Let f(x) be a continuous function on the closed interval [0, 4] such that f(0) = 2 and f(4) = 8. Which of the following statements must be true?",
+              "options": [
+                "f(x) = 5 for some x in (0, 4)",
+                "f(2) = 5",
+                "f'(x) = 1.5 for some x in (0, 4)",
+                "f(x) is increasing on [0, 4]"
+              ],
+              "correct": 0,
+              "explanation": "By the Intermediate Value Theorem, since f is continuous, it must take on every value between 2 and 8 on the interval [0, 4]. 5 is in this range, so there must be an x such that f(x) = 5."
+            },
+            {
+              "q": "Which of the following functions has a jump discontinuity at x = 1?",
+              "options": [
+                "f(x) = 1/(x - 1)^2",
+                "f(x) = (x^2 - 1)/(x - 1)",
+                "f(x) = { x + 2 for x < 1; x + 4 for x >= 1 }",
+                "f(x) = sin(1/(x - 1))"
+              ],
+              "correct": 2,
+              "explanation": "For a jump discontinuity the one-sided limits must both exist but be unequal. For C, lim_{x->1^-} = 1 + 2 = 3 and lim_{x->1^+} = 1 + 4 = 5, a finite jump. A is an infinite discontinuity, B is removable, and D oscillates (no one-sided limits)."
+            },
+            {
+              "q": "Find the value of lim_{x→3^+} (2x) / (x - 3).",
+              "options": [
+                "0",
+                "3",
+                "Infinity",
+                "-Infinity"
+              ],
+              "correct": 2,
+              "explanation": "As x approaches 3 from the right, (x - 3) is a very small positive number. (2x) is approximately 6. A positive number divided by a small positive number approaches positive infinity."
+            },
+            {
+              "q": "A function f is defined by f(x) = { kx^2 for x ≤ 2; x + k for x > 2 }. For what value of k is f continuous at x = 2?",
+              "options": [
+                "k = 1/2",
+                "k = 2/3",
+                "k = 2",
+                "k = 1"
+              ],
+              "correct": 1,
+              "explanation": "For continuity, the limits from both sides must equal the function value: k(2)^2 = 2 + k. So, 4k = 2 + k, which means 3k = 2, or k = 2/3."
+            },
+            {
+              "q": "Which of the following best describes the instantaneous rate of change of f(x) at x = a?",
+              "options": [
+                "The slope of the secant line through (a, f(a)) and (a+h, f(a+h))",
+                "The slope of the tangent line to the graph at (a, f(a))",
+                "The average value of f(x) on [0, a]",
+                "The limit of the function value as x approaches a"
+              ],
+              "correct": 1,
+              "explanation": "The instantaneous rate of change at a specific point is represented by the slope of the tangent line at that point."
+            },
+            {
+              "q": "Evaluate lim_{x→∞} (2x^2 + 1) / (x^2 - 3x).",
+              "options": [
+                "0",
+                "1",
+                "2",
+                "Infinity"
+              ],
+              "correct": 2,
+              "explanation": "Divide both numerator and denominator by x^2: (2 + 1/x^2) / (1 - 3/x). As x approaches infinity, this becomes (2 + 0) / (1 - 0) = 2."
+            },
+            {
+              "q": "On which of the following intervals is f(x) = 1 / (x - 2) continuous?",
+              "options": [
+                "[0, 4]",
+                "[2, 5]",
+                "(2, 5]",
+                "[0, 2]"
+              ],
+              "correct": 2,
+              "explanation": "The function has a vertical asymptote at x = 2. It is continuous everywhere except x = 2. Interval (2, 5] does not include 2, so it is continuous there."
+            },
+            {
+              "q": "Evaluate lim_{x→1} (x - 1) / (sqrt(x) - 1).",
+              "options": [
+                "0",
+                "1",
+                "2",
+                "Does not exist"
+              ],
+              "correct": 2,
+              "explanation": "Factor the numerator as a difference of squares: (sqrt(x)-1)(sqrt(x)+1) / (sqrt(x)-1). Canceling the terms gives sqrt(x)+1, and substituting 1 gives 1 + 1 = 2."
+            },
+            {
+              "q": "A function f has a vertical asymptote at x = 3. Which of the following is most likely true?",
+              "options": [
+                "lim_{x→3} f(x) = 0",
+                "lim_{x→3} f(x) = 3",
+                "lim_{x→3} f(x) = Infinity or -Infinity",
+                "f(3) is defined and equal to 0"
+              ],
+              "correct": 2,
+              "explanation": "A vertical asymptote at x = c implies that the function grows without bound (to infinity or negative infinity) as x approaches c from at least one side."
+            }
+          ]
+        }
+      ],
+      "note": "A second auto-graded set covering Limits and Continuity."
+    }
+  ]
+}

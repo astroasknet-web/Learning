@@ -1,0 +1,26 @@
+/* Account pages: the animated brand panel and the colourful form side. Scoped to .auth-*. */
+.auth-panel {
+  background:
+    radial-gradient(55% 45% at 85% 8%, rgba(255, 106, 47, 0.55), transparent 70%),
+    radial-gradient(60% 50% at 8% 95%, rgba(236, 72, 153, 0.5), transparent 70%),
+    radial-gradient(50% 40% at 50% 50%, rgba(99, 60, 255, 0.55), transparent 75%),
+    linear-gradient(160deg, #1a0b4a 0%, #3b1190 48%, #6a1fa8 100%);
+}
+.auth-panel::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none; opacity: 0.4;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.22) 1.2px, transparent 1.2px);
+  background-size: 26px 26px; mask-image: radial-gradient(80% 80% at 45% 45%, #000, transparent);
+}
+.auth-orb { position: absolute; border-radius: 9999px; filter: blur(70px); opacity: 0.55; animation: auth-drift 16s ease-in-out infinite alternate; }
+.auth-card { background: linear-gradient(160deg, rgba(255, 255, 255, 0.17), rgba(255, 255, 255, 0.06)); border: 1px solid rgba(255, 255, 255, 0.2); backdrop-filter: blur(16px); box-shadow: 0 24px 60px -28px rgba(10, 0, 40, 0.8), inset 0 1px 0 rgba(255, 255, 255, 0.16); transition: transform 0.25s ease, background 0.25s ease; }
+.auth-card:hover { transform: translateY(-3px); background: linear-gradient(160deg, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.08)); }
+.auth-float { animation: auth-float 7s ease-in-out infinite; }
+.auth-headline { background: linear-gradient(90deg, #ffffff 10%, #ffd7bd 55%, #ffb3e1 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.auth-side { background: radial-gradient(60% 50% at 100% 0%, rgba(255, 106, 47, 0.12), transparent 70%), radial-gradient(55% 45% at 0% 100%, rgba(120, 87, 255, 0.14), transparent 70%), linear-gradient(180deg, #fbfaff 0%, #fff7f2 100%); }
+.auth-form { background: rgba(255, 255, 255, 0.9); border: 1px solid rgba(120, 87, 255, 0.14); box-shadow: 0 30px 70px -36px rgba(91, 63, 224, 0.45), 0 2px 0 rgba(255, 255, 255, 0.8) inset; backdrop-filter: blur(10px); }
+.auth-stripe { background: linear-gradient(90deg, #7857ff, #ec4899 50%, #ff6a2f); }
+.auth-cta { background: linear-gradient(90deg, #7857ff 0%, #d946ef 55%, #ff6a2f 100%); background-size: 140% 100%; background-position: 0% 0%; transition: background-position 0.4s ease, transform 0.15s ease, box-shadow 0.25s ease; box-shadow: 0 14px 30px -12px rgba(217, 70, 239, 0.65); }
+.auth-cta:hover:not(:disabled) { background-position: 100% 0%; transform: translateY(-1px); }
+@keyframes auth-drift { to { transform: translate3d(40px, 30px, 0) scale(1.18); } }
+@keyframes auth-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+@media (prefers-reduced-motion: reduce) { .auth-orb, .auth-float, .auth-card { animation: none; transition: none; } }

@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "chemistry",
+  "chapter": 6,
+  "title": "Equilibrium",
+  "slug": "equilibrium",
+  "subtitle": "Chemical equilibrium, Le Chatelier, acids & bases, pH, buffers and Ksp for NEET",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "NEET Chemistry — Equilibrium: Kc and Kp, the reaction quotient, Le Chatelier's principle, acids and bases, pH, Ka/Kb, buffers and the Henderson equation, salt hydrolysis and solubility product Ksp, with NEET traps, NCERT notes and MCQs. Free on GrowQR.",
+    "focus_keyword": "equilibrium NEET",
+    "secondary_keywords": [
+      "chemical equilibrium NEET notes",
+      "Le Chatelier principle NEET",
+      "pH and buffers NEET",
+      "ionic equilibrium NCERT",
+      "solubility product Ksp NEET"
+    ],
+    "keywords": [
+      "equilibrium NEET",
+      "Kc Kp NEET",
+      "Le Chatelier NEET",
+      "pH buffer NEET",
+      "Ksp NEET"
+    ]
+  },
+  "summary": "<ul><li><strong>Equilibrium</strong> is dynamic — forward and reverse rates equal; concentrations constant.</li><li><strong>Equilibrium constant:</strong> $K_c$ (concentrations), $K_p$ (partial pressures), with $K_p = K_c (RT)^{\\Delta n_g}$.</li><li><strong>Reaction quotient</strong> $Q$: $Q \\lt K$ forward, $Q \\gt K$ reverse, $Q=K$ equilibrium.</li><li><strong>Le Chatelier:</strong> a system at equilibrium shifts to oppose any change in concentration, pressure or temperature (a catalyst changes neither $K$ nor the position).</li><li><strong>Acids/bases:</strong> Arrhenius, Bronsted-Lowry (proton donor/acceptor, conjugate pairs), Lewis (electron-pair acceptor/donor).</li><li><strong>pH</strong> $= -\\log[\\text{H}^+]$; $K_w = [\\text{H}^+][\\text{OH}^-] = 10^{-14}$ at $25^{\\circ}\\text{C}$; neutral pH $7$.</li><li><strong>Buffer:</strong> resists pH change; $\\text{pH} = \\text{p}K_a + \\log\\dfrac{[\\text{salt}]}{[\\text{acid}]}$ (Henderson).</li><li><strong>Solubility product</strong> $K_{sp}$: precipitation when ionic product $> K_{sp}$; common-ion effect lowers solubility.</li></ul>",
+  "faqs": [
+    { "q": "Why is chemical equilibrium called dynamic?", "a": "At equilibrium the forward and reverse reactions are still happening, but at equal rates, so the concentrations of reactants and products stay constant even though molecules keep reacting in both directions." },
+    { "q": "What is the difference between Q and K?", "a": "K (Kc or Kp) is the fixed ratio at equilibrium, while Q is the same ratio calculated at any instant. If Q < K the reaction goes forward, if Q > K it goes backward, and if Q = K it is at equilibrium." },
+    { "q": "Does a catalyst change the position of equilibrium?", "a": "No. A catalyst speeds up the forward and reverse reactions equally, so the system reaches equilibrium faster but the equilibrium position and the value of K are unchanged." },
+    { "q": "What is a conjugate acid-base pair?", "a": "In the Bronsted-Lowry view, when an acid donates a proton it becomes its conjugate base, and when a base accepts a proton it becomes its conjugate acid; the two differ by exactly one H+ (for example, HCl and Cl-)." },
+    { "q": "How does a buffer keep pH almost constant?", "a": "A buffer contains a weak acid and its salt (or a weak base and its salt). The acid neutralises added base and the salt neutralises added acid, so the pH changes very little; it is calculated from the Henderson equation pH = pKa + log([salt]/[acid])." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Chemical Equilibrium",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Equilibrium State, Kc, Kp and the Reaction Quotient",
+          "concept": "<p>Many reactions are <strong>reversible</strong> — they proceed in both directions. When such a reaction runs in a closed container, it reaches a state of <strong>equilibrium</strong> where the rate of the forward reaction equals the rate of the reverse reaction. Equilibrium is <em>dynamic</em>: molecules keep reacting both ways, but the concentrations of reactants and products no longer change. This dynamic-but-constant nature is the first idea NEET checks.</p><p>At equilibrium, the concentrations obey the <strong>law of mass action</strong>, giving the <strong>equilibrium constant</strong>. For a reaction $aA + bB \\rightleftharpoons cC + dD$, $K_c = \\dfrac{[C]^c [D]^d}{[A]^a [B]^b}$ in terms of molar concentrations. For gas-phase reactions an equivalent constant $K_p$ uses partial pressures. The two are related by $K_p = K_c (RT)^{\\Delta n_g}$, where $\\Delta n_g$ is the change in moles of gas — a formula NEET applies often.</p><p>The size of $K$ tells you how far a reaction goes: a large $K$ means products are favoured at equilibrium, a small $K$ means reactants dominate. Pure solids and pure liquids are left out of the expression (their 'concentration' is constant), a point that trips students in heterogeneous equilibria.</p><p>To predict the <em>direction</em> of a reaction not yet at equilibrium, compute the <strong>reaction quotient</strong> $Q$ using the same expression as $K$ but with current concentrations. If $Q < K$ the reaction moves <em>forward</em> (toward products); if $Q > K$ it moves <em>backward</em>; and if $Q = K$ it is already at equilibrium. This $Q$-versus-$K$ comparison is a guaranteed NEET tool.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Relation</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$K_c$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\dfrac{[C]^c[D]^d}{[A]^a[B]^b}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$K_p$–$K_c$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$K_p = K_c(RT)^{\\Delta n_g}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$Q \\lt K$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>forward reaction</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$Q \\gt K$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>reverse reaction</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>For $\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g)$, find $\\Delta n_g$ and write the $K_p$–$K_c$ relation.</p>",
+              "solution": "<p>$\\Delta n_g = 2 - (1+3) = -2$, so $K_p = K_c (RT)^{-2}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>At a given moment $Q = 5$ while $K = 50$. Which way does the reaction proceed?</p>",
+              "solution": "<p>$Q < K$, so the reaction proceeds in the <strong>forward</strong> direction (making more products) until $Q$ rises to equal $K$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>At equilibrium, the rates of the forward and reverse reactions are:</p>", "options": ["forward greater", "reverse greater", "equal", "both zero"], "correct": 2, "explanation": "Equal rates define dynamic equilibrium." },
+            { "q": "<p>$K_p$ and $K_c$ are related by:</p>", "options": ["$K_p = K_c RT$", "$K_p = K_c(RT)^{\\Delta n_g}$", "$K_p = K_c/RT$", "$K_p = K_c$"], "correct": 1, "explanation": "$K_p = K_c(RT)^{\\Delta n_g}$." },
+            { "q": "<p>If $Q > K$, the reaction proceeds:</p>", "options": ["forward", "backward", "stops", "both ways equally"], "correct": 1, "explanation": "$Q > K$ means reverse direction." },
+            { "q": "<p>A large value of $K$ means at equilibrium:</p>", "options": ["reactants dominate", "products dominate", "equal amounts", "no reaction"], "correct": 1, "explanation": "Large $K$ favours products." },
+            { "q": "<p>In the equilibrium expression, pure solids and liquids are:</p>", "options": ["included", "omitted", "squared", "halved"], "correct": 1, "explanation": "Their activity is constant, so they are left out." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> $K_p = K_c(RT)^{\\Delta n_g}$ (count gas moles only). Compare $Q$ with $K$ for direction: $Q \\lt K$ forward, $Q \\gt K$ reverse. Omit pure solids/liquids from $K$.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Le Chatelier's Principle",
+          "concept": "<p>Once a reaction is at equilibrium, what happens if we disturb it? <strong>Le Chatelier's principle</strong> gives the answer: if a system at equilibrium is subjected to a change in concentration, pressure or temperature, the equilibrium shifts in the direction that <em>opposes</em> (partly undoes) that change. This single principle predicts the outcome of most NEET equilibrium-disturbance questions.</p><p><strong>Concentration:</strong> adding a reactant pushes the equilibrium toward products (to consume the added reactant); removing a product also pulls it forward. The reverse changes shift it backward. The value of $K$ stays the same — only the position moves.</p><p><strong>Pressure (for gases):</strong> increasing the pressure (decreasing volume) shifts the equilibrium toward the side with <em>fewer</em> gas moles, to reduce the pressure. If both sides have equal gas moles, pressure has no effect. Adding an inert gas at constant volume does not shift the equilibrium (partial pressures are unchanged) — a classic NEET trap.</p><p><strong>Temperature:</strong> this is the only factor that actually changes the value of $K$. Raising the temperature favours the <em>endothermic</em> direction (it absorbs the added heat), while lowering it favours the <em>exothermic</em> direction. A <strong>catalyst</strong> changes neither $K$ nor the equilibrium position — it only helps the system reach equilibrium faster by speeding both directions equally. These rules are applied directly in the industrial Haber process (high pressure, moderate temperature) and Contact process, common NEET contexts.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Change</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Equilibrium shifts</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Add reactant</td><td style='border:1px solid #dcfce7;padding:6px 10px'>toward products (forward)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Increase pressure</td><td style='border:1px solid #dcfce7;padding:6px 10px'>toward fewer gas moles</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Increase temperature</td><td style='border:1px solid #dcfce7;padding:6px 10px'>toward endothermic side (changes $K$)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Catalyst</td><td style='border:1px solid #dcfce7;padding:6px 10px'>no shift; reaches equilibrium faster</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>For $\\text{N}_2 + 3\\text{H}_2 \\rightleftharpoons 2\\text{NH}_3$ (exothermic), how does increasing pressure affect the yield of $\\text{NH}_3$?</p>",
+              "solution": "<p>The product side has fewer gas moles (2 vs 4). Increasing pressure shifts equilibrium toward $\\text{NH}_3$, increasing its yield — the basis of high pressure in the Haber process.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Does adding a catalyst increase the equilibrium yield of a reaction?</p>",
+              "solution": "<p>No. A catalyst speeds up both forward and reverse reactions equally, so equilibrium is reached faster but the position and yield (and $K$) are unchanged.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Le Chatelier's principle says a disturbed equilibrium shifts to:</p>", "options": ["enhance the change", "oppose the change", "stop reacting", "double K"], "correct": 1, "explanation": "The shift opposes the imposed change." },
+            { "q": "<p>Increasing pressure shifts equilibrium toward the side with:</p>", "options": ["more gas moles", "fewer gas moles", "more solids", "no change ever"], "correct": 1, "explanation": "Toward fewer gas moles to reduce pressure." },
+            { "q": "<p>The only factor that changes the value of $K$ is:</p>", "options": ["concentration", "pressure", "temperature", "catalyst"], "correct": 2, "explanation": "Only temperature changes $K$." },
+            { "q": "<p>Adding an inert gas at constant volume:</p>", "options": ["shifts forward", "shifts backward", "no shift", "doubles K"], "correct": 2, "explanation": "Partial pressures unchanged, so no shift." },
+            { "q": "<p>A catalyst affects the equilibrium position by:</p>", "options": ["shifting it forward", "shifting it backward", "not shifting it", "changing K"], "correct": 2, "explanation": "Catalyst doesn't change position or $K$." }
+          ],
+          "note": "<p><strong>NEET trap:</strong> only <em>temperature</em> changes $K$; a catalyst and an inert gas (constant V) do NOT shift equilibrium. Pressure increase to fewer-gas-moles side.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Ionic Equilibrium",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Acids, Bases and pH",
+          "concept": "<p>Acids and bases are described by three theories of increasing scope. The <strong>Arrhenius</strong> view: an acid gives $\\text{H}^+$ and a base gives $\\text{OH}^-$ in water. The broader <strong>Bronsted-Lowry</strong> view: an acid is a <em>proton donor</em> and a base a <em>proton acceptor</em>, which introduces <strong>conjugate acid-base pairs</strong> that differ by one $\\text{H}^+$ (e.g. $\\text{HCl}/\\text{Cl}^-$). The most general <strong>Lewis</strong> view: an acid is an <em>electron-pair acceptor</em> and a base an electron-pair donor. NEET regularly asks you to identify conjugate pairs and Lewis acids/bases.</p><p>Acids and bases differ in <strong>strength</strong>. Strong acids/bases ionise completely in water; weak ones ionise only partly, described by a dissociation constant $K_a$ (acids) or $K_b$ (bases). A larger $K_a$ means a stronger acid. For a conjugate pair, $K_a \\times K_b = K_w$, linking the strength of an acid to that of its conjugate base.</p><p>Water itself ionises slightly: $\\text{H}_2\\text{O} \\rightleftharpoons \\text{H}^+ + \\text{OH}^-$, with the <strong>ionic product of water</strong> $K_w = [\\text{H}^+][\\text{OH}^-] = 1.0\\times10^{-14}$ at $25^{\\circ}\\text{C}$. In pure (neutral) water $[\\text{H}^+] = [\\text{OH}^-] = 10^{-7}\\ \\text{M}$.</p><p>Acidity is reported on the <strong>pH scale</strong>: $\\text{pH} = -\\log[\\text{H}^+]$, with $\\text{pOH} = -\\log[\\text{OH}^-]$ and $\\text{pH} + \\text{pOH} = 14$ at $25^{\\circ}\\text{C}$. So pH $< 7$ is acidic, $= 7$ neutral, and $> 7$ basic. A change of one pH unit means a tenfold change in $[\\text{H}^+]$ — a point NEET likes to test numerically. Being fluent with $\\text{pH} = -\\log[\\text{H}^+]$ and $K_w$ handles most acid-base questions.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Concept</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Relation</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Bronsted acid/base</td><td style='border:1px solid #dcfce7;padding:6px 10px'>proton donor / acceptor</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Ionic product of water</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$K_w = [\\text{H}^+][\\text{OH}^-] = 10^{-14}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>pH</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$-\\log[\\text{H}^+]$; $\\text{pH}+\\text{pOH}=14$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Conjugate pair</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$K_a \\times K_b = K_w$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the pH of a $0.001\\ \\text{M}$ solution of a strong acid (HCl).</p>",
+              "solution": "<p>HCl is strong, so $[\\text{H}^+] = 0.001 = 10^{-3}\\ \\text{M}$. $\\text{pH} = -\\log(10^{-3}) = 3$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Identify the conjugate base of $\\text{HCO}_3^-$.</p>",
+              "solution": "<p>Removing one $\\text{H}^+$ from $\\text{HCO}_3^-$ gives $\\text{CO}_3^{2-}$, which is its conjugate base. (Adding $\\text{H}^+$ would give its conjugate acid, $\\text{H}_2\\text{CO}_3$.)</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>A Bronsted-Lowry base is a:</p>", "options": ["proton donor", "proton acceptor", "electron donor", "electron acceptor"], "correct": 1, "explanation": "Bronsted base accepts a proton." },
+            { "q": "<p>The ionic product of water at $25^{\\circ}\\text{C}$ is:</p>", "options": ["$10^{-7}$", "$10^{-14}$", "$10^{-1}$", "$1$"], "correct": 1, "explanation": "$K_w = 10^{-14}$." },
+            { "q": "<p>The pH of a neutral solution at $25^{\\circ}\\text{C}$ is:</p>", "options": ["0", "7", "14", "1"], "correct": 1, "explanation": "Neutral pH is 7." },
+            { "q": "<p>A Lewis acid is an:</p>", "options": ["electron-pair acceptor", "electron-pair donor", "proton donor", "proton acceptor"], "correct": 0, "explanation": "Lewis acid accepts an electron pair." },
+            { "q": "<p>For a conjugate acid-base pair, $K_a \\times K_b$ equals:</p>", "options": ["1", "$K_w$", "$K_w^2$", "0"], "correct": 1, "explanation": "$K_a K_b = K_w$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> $\\text{pH} = -\\log[\\text{H}^+]$, $\\text{pH}+\\text{pOH}=14$, $K_w=10^{-14}$. Conjugate pairs differ by one $\\text{H}^+$ and $K_aK_b=K_w$. A 1-unit pH change = 10× $[\\text{H}^+]$.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Buffers, Hydrolysis and Solubility Product",
+          "concept": "<p>A <strong>buffer solution</strong> resists changes in pH when small amounts of acid or base are added. It is made from a <em>weak acid and its salt</em> (acidic buffer, e.g. $\\text{CH}_3\\text{COOH} + \\text{CH}_3\\text{COONa}$) or a <em>weak base and its salt</em> (basic buffer). Buffers are vital biologically — blood is buffered near pH $7.4$, a fact NEET likes to reference.</p><p>The pH of an acidic buffer is given by the <strong>Henderson-Hasselbalch equation</strong>: $\\text{pH} = \\text{p}K_a + \\log\\dfrac{[\\text{salt}]}{[\\text{acid}]}$. When the salt and acid concentrations are equal, $\\text{pH} = \\text{p}K_a$ and the buffer has its maximum capacity. This equation is a guaranteed NEET calculation.</p><p>When a salt dissolves in water, its ions may react with water — <strong>salt hydrolysis</strong> — affecting the pH. A salt of a strong acid and strong base (e.g. NaCl) gives a <em>neutral</em> solution; a salt of a weak acid and strong base (e.g. $\\text{CH}_3\\text{COONa}$) is <em>basic</em>; and a salt of a strong acid and weak base (e.g. $\\text{NH}_4\\text{Cl}$) is <em>acidic</em>. Predicting the nature of a salt solution from its parent acid and base is a frequent NEET question.</p><p>For sparingly soluble salts, equilibrium between the solid and its dissolved ions is described by the <strong>solubility product</strong> $K_{sp}$. A precipitate forms when the <em>ionic product</em> exceeds $K_{sp}$; the solution is just saturated when they are equal. Adding a common ion shifts this equilibrium back, <em>decreasing</em> solubility — the <strong>common-ion effect</strong>, used to control precipitation and in qualitative salt analysis. Mastering the Henderson equation, salt-nature rules, and the $K_{sp}$/common-ion idea covers the bulk of ionic-equilibrium questions.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Concept</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Key point</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Buffer (Henderson)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{pH} = \\text{p}K_a + \\log\\dfrac{[\\text{salt}]}{[\\text{acid}]}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Salt of weak acid + strong base</td><td style='border:1px solid #dcfce7;padding:6px 10px'>basic solution</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Precipitation</td><td style='border:1px solid #dcfce7;padding:6px 10px'>ionic product $> K_{sp}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Common-ion effect</td><td style='border:1px solid #dcfce7;padding:6px 10px'>decreases solubility</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A buffer has equal concentrations of acetic acid and sodium acetate, with $\\text{p}K_a = 4.74$. Find its pH.</p>",
+              "solution": "<p>$\\text{pH} = \\text{p}K_a + \\log\\dfrac{[\\text{salt}]}{[\\text{acid}]} = 4.74 + \\log(1) = 4.74$ (equal concentrations to maximum buffer capacity).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Is an aqueous solution of $\\text{NH}_4\\text{Cl}$ acidic, basic or neutral?</p>",
+              "solution": "<p>$\\text{NH}_4\\text{Cl}$ is the salt of a strong acid (HCl) and a weak base ($\\text{NH}_3$). The $\\text{NH}_4^+$ hydrolyses to give $\\text{H}^+$, so the solution is <strong>acidic</strong> (pH < 7).</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>An acidic buffer is made of a weak acid and its:</p>", "options": ["strong base", "salt", "metal", "water"], "correct": 1, "explanation": "Weak acid + its salt makes an acidic buffer." },
+            { "q": "<p>The Henderson equation is:</p>", "options": ["$\\text{pH} = \\text{p}K_a - \\log\\frac{[\\text{salt}]}{[\\text{acid}]}$", "$\\text{pH} = \\text{p}K_a + \\log\\frac{[\\text{salt}]}{[\\text{acid}]}$", "$\\text{pH} = \\text{p}K_a \\times [\\text{salt}]$", "$\\text{pH} = -\\log K_a$"], "correct": 1, "explanation": "$\\text{pH} = \\text{p}K_a + \\log([\\text{salt}]/[\\text{acid}])$." },
+            { "q": "<p>A solution of $\\text{CH}_3\\text{COONa}$ (salt of weak acid + strong base) is:</p>", "options": ["acidic", "basic", "neutral", "buffer only"], "correct": 1, "explanation": "Hydrolysis makes it basic." },
+            { "q": "<p>A precipitate forms when the ionic product is:</p>", "options": ["less than $K_{sp}$", "equal to $K_{sp}$", "greater than $K_{sp}$", "zero"], "correct": 2, "explanation": "Ionic product $> K_{sp}$ to precipitation." },
+            { "q": "<p>The common-ion effect on solubility:</p>", "options": ["increases it", "decreases it", "no effect", "doubles it"], "correct": 1, "explanation": "A common ion shifts equilibrium, lowering solubility." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Buffer pH from Henderson ($\\text{pH}=\\text{p}K_a$ when salt = acid). Salt nature: WA+SB to basic, SA+WB to acidic, SA+SB to neutral. Precipitate when ionic product $> K_{sp}$; common ion lowers solubility.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-chemistry-ch6-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct & Statement-based)",
+          "questions": [
+            { "q": "<p>Chemical equilibrium is described as:</p>", "options": ["static", "dynamic", "irreversible", "one-directional"], "correct": 1, "explanation": "Forward and reverse rates equal — dynamic." },
+            { "q": "<p>For a reaction with $\\Delta n_g = 0$, $K_p$ equals:</p>", "options": ["$K_c RT$", "$K_c$", "$K_c/RT$", "$0$"], "correct": 1, "explanation": "$(RT)^0 = 1$, so $K_p = K_c$." },
+            { "q": "<p>Raising the temperature of an exothermic equilibrium shifts it:</p>", "options": ["forward", "backward", "no shift", "to completion"], "correct": 1, "explanation": "Heat added favours the endothermic (reverse) direction." },
+            { "q": "<p>Statements: (I) A catalyst does not change K. (II) Only temperature changes K. Which are correct?</p>", "options": ["only I", "only II", "both I and II", "neither"], "correct": 2, "explanation": "Both are correct." },
+            { "q": "<p>The pH of $0.01\\ \\text{M}$ HCl is:</p>", "options": ["1", "2", "3", "12"], "correct": 1, "explanation": "$[\\text{H}^+]=10^{-2}$, pH $= 2$." },
+            { "q": "<p>The conjugate acid of $\\text{NH}_3$ is:</p>", "options": ["$\\text{NH}_2^-$", "$\\text{NH}_4^+$", "$\\text{N}_2$", "$\\text{OH}^-$"], "correct": 1, "explanation": "Adding $\\text{H}^+$ gives $\\text{NH}_4^+$." },
+            { "q": "<p>At the point where $[\\text{salt}] = [\\text{acid}]$ in a buffer, pH equals:</p>", "options": ["7", "$\\text{p}K_a$", "$K_a$", "0"], "correct": 1, "explanation": "$\\log 1 = 0$, so $\\text{pH} = \\text{p}K_a$." },
+            { "q": "<p>Adding a common ion to a saturated solution makes the salt:</p>", "options": ["more soluble", "less soluble", "unchanged", "ionise fully"], "correct": 1, "explanation": "Common-ion effect lowers solubility." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> A catalyst does not increase the equilibrium yield of a reaction.<br><strong>R:</strong> A catalyst speeds up the forward and reverse reactions equally.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Equal speed-up of both directions means the position (and yield) is unchanged — R explains A." },
+            { "q": "<p><strong>A:</strong> Adding an inert gas at constant volume does not shift a gaseous equilibrium.<br><strong>R:</strong> At constant volume the partial pressures of the reacting gases are unchanged.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Unchanged partial pressures mean no shift — R explains A." },
+            { "q": "<p><strong>A:</strong> An aqueous solution of sodium chloride is basic.<br><strong>R:</strong> NaCl is the salt of a strong acid and a strong base.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "A salt of a strong acid and strong base gives a neutral solution, so A is false; R correctly states NaCl's origin." },
+            { "q": "<p><strong>A:</strong> A buffer solution resists changes in pH on adding small amounts of acid or base.<br><strong>R:</strong> A buffer contains a weak acid and its salt (or a weak base and its salt) that neutralise added base or acid.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The weak-acid/salt pair mops up added acid or base, holding pH steady — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

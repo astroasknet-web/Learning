@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "biology",
+  "chapter": 23,
+  "title": "Principles of Inheritance and Variation",
+  "slug": "principles-of-inheritance-and-variation",
+  "subtitle": "Mendel's laws, monohybrid and dihybrid crosses, incomplete dominance and codominance, the chromosomal theory, linkage, sex determination, mutation and genetic disorders",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "leaf",
+  "seo": {
+    "meta_description": "NEET Biology — Principles of Inheritance and Variation: Mendel's laws of dominance, segregation and independent assortment, monohybrid (3:1) and dihybrid (9:3:3:1) crosses, incomplete dominance, codominance and ABO blood groups, the chromosomal theory, linkage, sex determination, mutation and human genetic disorders, with NEET-level examples and MCQs. Free on GrowQR.",
+    "focus_keyword": "principles of inheritance and variation NEET",
+    "secondary_keywords": [
+      "Mendel laws monohybrid dihybrid cross",
+      "incomplete dominance codominance blood groups",
+      "linkage and recombination sex determination",
+      "Mendelian disorders haemophilia colour blindness",
+      "chromosomal disorders Down Klinefelter Turner"
+    ],
+    "keywords": [
+      "principles of inheritance and variation NEET",
+      "Mendel laws of inheritance",
+      "ABO blood group genetics codominance",
+      "sex determination XY ZW",
+      "genetic disorders sickle cell Down syndrome"
+    ]
+  },
+  "summary": "<ul><li><strong>Mendel</strong> (garden pea, 7 traits): <strong>Law of Dominance</strong>, <strong>Law of Segregation</strong> (purity of gametes), <strong>Law of Independent Assortment</strong>.</li><li><strong>Monohybrid</strong> F2 = <strong>3:1 phenotype, 1:2:1 genotype</strong>; <strong>test cross</strong> = 1:1. <strong>Dihybrid</strong> F2 = <strong>9:3:3:1</strong>.</li><li><strong>Incomplete dominance</strong> (snapdragon: Rr = pink; F2 1:2:1) and <strong>codominance</strong> (AB blood group). <strong>ABO</strong> = multiple alleles (I^A, I^B, i).</li><li><strong>Chromosomal theory</strong> (Sutton &amp; Boveri); <strong>linkage</strong> &amp; recombination (Morgan, <em>Drosophila</em>).</li><li><strong>Sex determination:</strong> XX–XY (humans, male heterogametic), ZZ–ZW (birds, female heterogametic), XX–XO (some insects).</li><li><strong>Mutation:</strong> change in DNA (sickle-cell = single base, Glu→Val).</li><li><strong>Disorders:</strong> Mendelian — haemophilia &amp; colour blindness (X-linked), sickle-cell &amp; thalassaemia &amp; PKU (autosomal recessive); chromosomal — Down's (trisomy 21), Klinefelter's (XXY), Turner's (XO).</li></ul>",
+  "faqs": [
+    { "q": "Why did Mendel choose the garden pea, and what are his three laws?", "a": "The garden pea (Pisum sativum) was ideal because it has clear contrasting traits, is self-pollinating (so true-breeding lines are easy), has a short life cycle and gives many offspring. From his crosses Mendel proposed three laws: the Law of Dominance (one allele masks the other in a hybrid), the Law of Segregation (the two alleles of a trait separate during gamete formation so each gamete gets only one — the law of purity of gametes), and the Law of Independent Assortment (alleles of different traits are inherited independently)." },
+    { "q": "What ratios are obtained in a monohybrid and a dihybrid cross?", "a": "A monohybrid cross (one trait) gives an F2 phenotypic ratio of 3:1 and a genotypic ratio of 1:2:1. A dihybrid cross (two traits) gives an F2 phenotypic ratio of 9:3:3:1. A test cross of a heterozygote with a homozygous recessive gives 1:1." },
+    { "q": "How does incomplete dominance differ from codominance?", "a": "In incomplete dominance the heterozygote shows a blended, intermediate phenotype — e.g. red (RR) × white (rr) snapdragon gives pink (Rr). In codominance both alleles are fully and equally expressed together, so both appear in the heterozygote — e.g. in the AB blood group both A and B antigens are present. In incomplete dominance neither allele dominates; in codominance both express at once." },
+    { "q": "How is sex determined in humans?", "a": "Humans have 22 pairs of autosomes plus one pair of sex chromosomes. Females are XX and males are XY, so the male is heterogametic — he makes two kinds of sperm (X-bearing and Y-bearing) while the female makes only X-bearing eggs. An X sperm gives a girl (XX) and a Y sperm gives a boy (XY); the father's sperm therefore determines the sex of the child." },
+    { "q": "Give examples of Mendelian and chromosomal genetic disorders.", "a": "Mendelian (single-gene) disorders include haemophilia and colour blindness (X-linked recessive), and sickle-cell anaemia, thalassaemia and phenylketonuria (autosomal recessive). Chromosomal disorders are due to extra or missing chromosomes: Down's syndrome (trisomy of chromosome 21), Klinefelter's syndrome (47, XXY — a male) and Turner's syndrome (45, X0 — a female)." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Mendelian Inheritance and Its Extensions",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Mendel's Experiments and the Monohybrid Cross",
+          "concept": "<p><strong>Genetics</strong> is the study of inheritance and variation, and its foundations were laid by <strong>Gregor Mendel</strong>, who worked on the <strong>garden pea (<em>Pisum sativum</em>)</strong>. The pea was an excellent choice: it has several <strong>clear contrasting traits</strong> (he studied <strong>seven</strong>, such as tall/dwarf and round/wrinkled seeds), it is naturally <strong>self-pollinating</strong> (so true-breeding lines are easy to keep), it has a <strong>short life cycle</strong> and produces <strong>many offspring</strong> for statistical analysis.</p><p>In a <strong>monohybrid cross</strong> Mendel crossed two true-breeding parents differing in one trait, e.g. <strong>tall (TT) &times; dwarf (tt)</strong>. The whole <strong>F1 generation was tall (Tt)</strong> &mdash; the dwarf character had not blended or disappeared but was simply <strong>masked</strong>. This is the <strong>Law of Dominance</strong>: in a hybrid, one allele (the <strong>dominant</strong>, T) expresses itself and the other (the <strong>recessive</strong>, t) stays hidden.</p><p>When the F1 plants were self-pollinated, the F2 generation showed <strong>both</strong> tall and dwarf plants in a <strong>3:1 phenotypic ratio</strong> (and a <strong>1:2:1 genotypic ratio</strong>: 1 TT : 2 Tt : 1 tt). The dwarf trait reappeared, proving that the recessive allele had been present but hidden in the F1. To explain this Mendel proposed the <strong>Law of Segregation (Law of Purity of Gametes)</strong>: the two alleles of a trait <strong>separate during gamete formation</strong>, so each gamete carries <strong>only one</strong> allele; a gamete is therefore always 'pure' for the trait.</p><p>To find the genotype of a tall plant (TT or Tt?), Mendel used a <strong>test cross</strong> &mdash; crossing the unknown with the <strong>homozygous recessive (tt)</strong>. If the tall plant is <strong>TT</strong>, all offspring are tall; if it is <strong>Tt</strong>, the offspring are <strong>1 tall : 1 dwarf (1:1)</strong>. For NEET, fix why the pea was chosen, the monohybrid F2 ratios (3:1 phenotype, 1:2:1 genotype), the Laws of Dominance and Segregation, and the test-cross logic (1:1 reveals a heterozygote).</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Concept</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Material</td><td style='border:1px solid #dcfce7;padding:6px 8px'>garden pea (<em>Pisum sativum</em>), 7 traits</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Monohybrid F2 phenotype</td><td style='border:1px solid #dcfce7;padding:6px 8px'>3 : 1</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Monohybrid F2 genotype</td><td style='border:1px solid #dcfce7;padding:6px 8px'>1 (TT) : 2 (Tt) : 1 (tt)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Law of Segregation</td><td style='border:1px solid #dcfce7;padding:6px 8px'>alleles separate; gametes are pure</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Test cross</td><td style='border:1px solid #dcfce7;padding:6px 8px'>× tt → 1:1 reveals a heterozygote</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A tall pea plant is crossed with a dwarf one; the offspring are 1 tall : 1 dwarf. What was the genotype of the tall parent?</p>",
+              "solution": "<p>This is a <strong>test cross</strong> (the dwarf is tt). A <strong>1:1 ratio</strong> shows the tall parent was <strong>heterozygous (Tt)</strong> — if it had been TT, all offspring would have been tall.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>State the Law of Segregation and give the F2 genotypic ratio of a monohybrid cross.</p>",
+              "solution": "<p>The <strong>Law of Segregation</strong>: the two alleles of a character <strong>separate during gamete formation</strong>, so each gamete receives only one (gametes are pure). The F2 genotypic ratio is <strong>1 TT : 2 Tt : 1 tt (1:2:1)</strong>.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Mendel worked on the:</p>", "options": ["garden pea", "sweet pea", "maize", "Drosophila"], "correct": 0, "explanation": "Mendel used the garden pea, Pisum sativum." },
+            { "q": "<p>The F2 phenotypic ratio of a monohybrid cross is:</p>", "options": ["1:1", "3:1", "9:3:3:1", "1:2:1"], "correct": 1, "explanation": "Monohybrid F2 phenotype = 3:1." },
+            { "q": "<p>The genotypic ratio of a monohybrid F2 is:</p>", "options": ["3:1", "1:2:1", "1:1", "9:3:3:1"], "correct": 1, "explanation": "Genotypic ratio = 1 TT : 2 Tt : 1 tt." },
+            { "q": "<p>The law of purity of gametes is another name for the Law of:</p>", "options": ["Dominance", "Segregation", "Independent Assortment", "Linkage"], "correct": 1, "explanation": "The Law of Segregation = law of purity of gametes." },
+            { "q": "<p>A test cross is made with a:</p>", "options": ["homozygous dominant", "homozygous recessive", "heterozygote", "different species"], "correct": 1, "explanation": "Test cross uses the homozygous recessive to reveal the genotype." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Pea = clear traits, self-pollinating, short cycle, many offspring. Monohybrid F2: 3:1 phenotype, 1:2:1 genotype. Law of Dominance + Law of Segregation (purity of gametes). Test cross × tt: 1:1 = heterozygote, all dominant = homozygous.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Dihybrid Cross and Extensions of Mendelism",
+          "concept": "<p>In a <strong>dihybrid cross</strong> Mendel followed <strong>two traits at once</strong>, e.g. round-yellow (RRYY) &times; wrinkled-green (rryy). The F1 were all round-yellow (RrYy). On selfing, the F2 showed four phenotypes in the famous <strong>9:3:3:1 ratio</strong> (9 round-yellow : 3 round-green : 3 wrinkled-yellow : 1 wrinkled-green). The appearance of the two new combinations (round-green and wrinkled-yellow) showed that the two traits were inherited <strong>independently</strong>. This is the <strong>Law of Independent Assortment</strong>: during gamete formation, the alleles of one trait <strong>assort independently</strong> of the alleles of another.</p><p>Later work showed that not all inheritance follows simple dominance &mdash; these are the <strong>extensions of Mendelism</strong>. In <strong>incomplete dominance</strong>, the heterozygote shows a <strong>blended, intermediate phenotype</strong>. The classic example is the <strong>snapdragon (<em>Antirrhinum</em>)</strong> or 4-o'clock plant: red (RR) &times; white (rr) gives <strong>pink (Rr)</strong> in F1, and the F2 ratio is <strong>1 red : 2 pink : 1 white &mdash; i.e. the phenotypic ratio equals the genotypic ratio (1:2:1)</strong> because each genotype looks different.</p><p>In <strong>codominance</strong>, <strong>both alleles are fully and equally expressed</strong> in the heterozygote, so both characters appear together (not blended). The best example is the <strong>human ABO blood group</strong>: a person with genotype I^A I^B has blood group <strong>AB</strong>, showing <strong>both A and B antigens</strong>.</p><p>The ABO system also illustrates <strong>multiple alleles</strong> &mdash; a gene with more than two alleles in the population. Here three alleles exist: <strong>I^A and I^B (codominant to each other, both dominant over i) and i (recessive)</strong>, giving blood groups A, B, AB and O. Another extension is <strong>pleiotropy</strong>, where a <strong>single gene affects several traits</strong> (e.g. phenylketonuria, sickle-cell anaemia). For NEET, fix the dihybrid 9:3:3:1 and Independent Assortment, and clearly separate incomplete dominance (blended; pink; F2 1:2:1) from codominance (both expressed; AB blood) and multiple alleles (I^A, I^B, i).</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Concept</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Example / ratio</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Dihybrid F2</td><td style='border:1px solid #dcfce7;padding:6px 8px'>9 : 3 : 3 : 1 (Independent Assortment)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Incomplete dominance</td><td style='border:1px solid #dcfce7;padding:6px 8px'>snapdragon: Rr = pink; F2 1:2:1</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Codominance</td><td style='border:1px solid #dcfce7;padding:6px 8px'>AB blood group (both A &amp; B expressed)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Multiple alleles</td><td style='border:1px solid #dcfce7;padding:6px 8px'>ABO: I^A, I^B, i</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Pleiotropy</td><td style='border:1px solid #dcfce7;padding:6px 8px'>one gene → many traits (PKU, sickle-cell)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>In snapdragon, why does the F2 of a red × white cross show a 1:2:1 ratio for both phenotype and genotype?</p>",
+              "solution": "<p>Because this is <strong>incomplete dominance</strong>: the heterozygote (Rr) is <strong>pink</strong> — distinct from both red (RR) and white (rr). Since every genotype has its own appearance, the <strong>phenotypic ratio (1 red : 2 pink : 1 white) equals the genotypic ratio (1:2:1)</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is the AB blood group an example of codominance, and which alleles control the ABO system?</p>",
+              "solution": "<p>In group AB (I^A I^B), <strong>both the A and B antigens are expressed equally</strong> — neither masks the other — which is <strong>codominance</strong>. The ABO system is governed by <strong>three alleles (multiple alleles): I^A, I^B and i</strong>.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The F2 phenotypic ratio of a dihybrid cross is:</p>", "options": ["3:1", "1:2:1", "9:3:3:1", "1:1:1:1"], "correct": 2, "explanation": "Dihybrid F2 = 9:3:3:1." },
+            { "q": "<p>Pink-flowered snapdragons (Rr) are an example of:</p>", "options": ["codominance", "incomplete dominance", "epistasis", "linkage"], "correct": 1, "explanation": "The blended pink colour shows incomplete dominance." },
+            { "q": "<p>The AB blood group illustrates:</p>", "options": ["incomplete dominance", "codominance", "pleiotropy", "polygeny"], "correct": 1, "explanation": "Both A and B antigens are expressed — codominance." },
+            { "q": "<p>The ABO blood group is controlled by:</p>", "options": ["one allele", "two alleles", "three alleles (multiple alleles)", "four genes"], "correct": 2, "explanation": "Three alleles: I^A, I^B and i." },
+            { "q": "<p>A single gene affecting several traits shows:</p>", "options": ["codominance", "pleiotropy", "incomplete dominance", "linkage"], "correct": 1, "explanation": "Pleiotropy = one gene, many phenotypic effects." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Dihybrid F2 = 9:3:3:1 → Law of Independent Assortment. Incomplete dominance = blended (snapdragon Rr pink; F2 1:2:1). Codominance = both expressed (AB blood). ABO = multiple alleles (I^A, I^B, i). Pleiotropy = one gene → many traits.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Chromosomal Inheritance, Sex Determination and Disorders",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Chromosomal Theory, Linkage and Sex Determination",
+          "concept": "<p>Mendel's 'factors' were later identified with <strong>genes on chromosomes</strong>. The <strong>chromosomal theory of inheritance</strong>, proposed by <strong>Sutton and Boveri</strong>, noted that the <strong>behaviour of chromosomes during meiosis</strong> (pairing, segregation and independent assortment) <strong>exactly parallels Mendel's laws</strong> &mdash; so genes must be located on chromosomes.</p><p>If genes are on chromosomes, then genes on the <strong>same chromosome should be inherited together</strong>. This is <strong>linkage</strong>, discovered by <strong>Thomas Hunt Morgan</strong> working on the fruit fly <strong><em>Drosophila melanogaster</em></strong>. Linked genes do not assort independently; instead they tend to stay together. The strength of linkage depends on the distance between the genes: genes that are <strong>close together are tightly linked</strong> (rarely separated), while genes <strong>far apart</strong> are separated more often by <strong>recombination (crossing over)</strong>. Morgan's student Sturtevant used <strong>recombination frequency</strong> to build the first genetic <strong>maps</strong> of chromosomes.</p><p>Whether an organism is male or female is fixed by <strong>sex determination</strong>, which often involves special <strong>sex chromosomes</strong>. In the <strong>XX–XY type</strong> (humans and <em>Drosophila</em>), the female is <strong>XX</strong> and the male is <strong>XY</strong>; here the <strong>male is heterogametic</strong> (makes X- and Y-bearing gametes). In the <strong>XX–XO type</strong> (some insects like grasshoppers), females are XX and males have a single X (XO). In the <strong>ZZ–ZW type</strong> (birds), the situation is reversed &mdash; the <strong>female is heterogametic (ZW)</strong> and the male is ZZ.</p><p>In <strong>humans</strong>, each cell has <strong>23 pairs of chromosomes &mdash; 22 pairs of autosomes plus one pair of sex chromosomes</strong> (XX in females, XY in males). Because the female always contributes an X but the male contributes either an X or a Y, it is the <strong>father's sperm that determines the sex of the child</strong>. For NEET, fix Sutton &amp; Boveri (chromosomal theory), Morgan's linkage/recombination on <em>Drosophila</em>, and the sex-determination systems with which sex is heterogametic in each.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Concept</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Chromosomal theory</td><td style='border:1px solid #dcfce7;padding:6px 8px'>Sutton &amp; Boveri — genes on chromosomes</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Linkage</td><td style='border:1px solid #dcfce7;padding:6px 8px'>Morgan, <em>Drosophila</em>; genes on same chromosome</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>XX–XY</td><td style='border:1px solid #dcfce7;padding:6px 8px'>humans/Drosophila; male heterogametic</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>ZZ–ZW</td><td style='border:1px solid #dcfce7;padding:6px 8px'>birds; female heterogametic</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Human chromosomes</td><td style='border:1px solid #dcfce7;padding:6px 8px'>22 autosome pairs + XX/XY</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why are two genes located far apart on the same chromosome more likely to be separated than two genes close together?</p>",
+              "solution": "<p>Genes that are <strong>far apart</strong> have more chromosomal length between them where <strong>crossing over (recombination)</strong> can occur, so they are <strong>separated more often</strong> (loosely linked). Genes that are <strong>close together</strong> are rarely separated (tightly linked).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Which sex is heterogametic in (i) humans and (ii) birds?</p>",
+              "solution": "<p>(i) In humans (XX–XY), the <strong>male is heterogametic</strong> (XY — makes X and Y gametes). (ii) In birds (ZZ–ZW), the <strong>female is heterogametic</strong> (ZW).</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The chromosomal theory of inheritance was proposed by:</p>", "options": ["Mendel", "Sutton and Boveri", "Morgan", "Watson and Crick"], "correct": 1, "explanation": "Sutton and Boveri linked Mendel's laws to chromosome behaviour." },
+            { "q": "<p>Linkage was discovered by Morgan working on:</p>", "options": ["pea", "Drosophila", "Neurospora", "E. coli"], "correct": 1, "explanation": "Morgan studied linkage in Drosophila." },
+            { "q": "<p>In humans the male is:</p>", "options": ["XX (homogametic)", "XY (heterogametic)", "ZW", "XO"], "correct": 1, "explanation": "Human males are XY — heterogametic." },
+            { "q": "<p>In birds, the heterogametic sex is the:</p>", "options": ["male (ZZ)", "female (ZW)", "male (XY)", "female (XX)"], "correct": 1, "explanation": "Birds use ZZ–ZW; the female (ZW) is heterogametic." },
+            { "q": "<p>The number of autosome pairs in humans is:</p>", "options": ["21", "22", "23", "44"], "correct": 1, "explanation": "22 pairs of autosomes + 1 pair of sex chromosomes." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Sutton &amp; Boveri = chromosomal theory. Morgan = linkage/recombination (Drosophila); closer genes = tighter linkage. Sex determination: XX–XY (humans, male heterogametic), XX–XO (insects), ZZ–ZW (birds, female heterogametic). Humans: 22 autosome pairs + XX/XY; father's sperm decides sex.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Mutation and Genetic Disorders",
+          "concept": "<p>Variation can also arise suddenly through <strong>mutation</strong> &mdash; a change in the <strong>genetic material (DNA)</strong>. A <strong>point (gene) mutation</strong> changes a single base pair; the classic example is <strong>sickle-cell anaemia</strong>, caused by the substitution of a <strong>single base</strong> that changes one amino acid (<strong>glutamic acid → valine</strong>, Glu&rarr;Val) at the sixth position of the haemoglobin β-chain. A <strong>frameshift mutation</strong> (insertion or deletion of bases) shifts the reading frame and alters everything downstream. Mutations are the raw material of variation and evolution but can also cause disease.</p><p>Human genetic disorders are of two broad kinds. <strong>Mendelian disorders</strong> are caused by an <strong>alteration in a single gene</strong> and follow Mendelian inheritance. Important <strong>X-linked recessive</strong> disorders are <strong>haemophilia</strong> (blood fails to clot) and <strong>colour blindness</strong> (red-green) &mdash; both are far more common in males, who need only one defective X. Important <strong>autosomal recessive</strong> disorders include <strong>sickle-cell anaemia</strong> and <strong>thalassaemia</strong> (defective haemoglobin) and <strong>phenylketonuria (PKU)</strong> (a metabolic disorder where phenylalanine cannot be broken down). <strong>Thalassaemia</strong> is a <em>quantitative</em> problem (too little globin made), whereas sickle-cell is a <em>qualitative</em> one (abnormal globin).</p><p><strong>Chromosomal disorders</strong> are caused by the <strong>absence, excess or abnormal arrangement of chromosomes</strong>, usually due to <strong>non-disjunction</strong> (failure of chromosomes to separate in meiosis). <strong>Down's syndrome</strong> is a <strong>trisomy of chromosome 21</strong> (an extra 21), with characteristic features and intellectual disability. <strong>Klinefelter's syndrome</strong> is <strong>47, XXY</strong> &mdash; an individual who is overall <strong>male but with some feminine features</strong> and usually sterile. <strong>Turner's syndrome</strong> is <strong>45, X0</strong> (one X missing) &mdash; a <strong>female</strong> who is sterile with underdeveloped ovaries.</p><p>So mutations underlie variation, single-gene changes cause Mendelian disorders, and changes in chromosome number cause chromosomal disorders. For NEET, fix the sickle-cell point mutation (Glu&rarr;Val, single base), the inheritance pattern of each Mendelian disorder (haemophilia &amp; colour blindness = X-linked recessive; sickle-cell, thalassaemia, PKU = autosomal recessive), and the three chromosomal disorders with their karyotypes (Down's = trisomy 21; Klinefelter's = XXY; Turner's = X0).</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Disorder</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Cause / type</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Sickle-cell anaemia</td><td style='border:1px solid #dcfce7;padding:6px 8px'>point mutation (Glu→Val); autosomal recessive</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Haemophilia / colour blindness</td><td style='border:1px solid #dcfce7;padding:6px 8px'>X-linked recessive (commoner in males)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Thalassaemia / PKU</td><td style='border:1px solid #dcfce7;padding:6px 8px'>autosomal recessive</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Down's syndrome</td><td style='border:1px solid #dcfce7;padding:6px 8px'>trisomy of chromosome 21</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Klinefelter's / Turner's</td><td style='border:1px solid #dcfce7;padding:6px 8px'>47,XXY (male) / 45,X0 (female)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>What is the molecular cause of sickle-cell anaemia?</p>",
+              "solution": "<p>A <strong>single base substitution</strong> (point mutation) in the gene for the haemoglobin β-chain changes the codon GAG to GUG, replacing <strong>glutamic acid with valine (Glu&rarr;Val)</strong> at the 6th position. This makes the abnormal haemoglobin (HbS) that distorts red cells into a sickle shape. It is <strong>autosomal recessive</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Give the chromosome basis of (i) Down's syndrome and (ii) Turner's syndrome.</p>",
+              "solution": "<p>(i) <strong>Down's syndrome</strong> = an <strong>extra chromosome 21 (trisomy 21)</strong>. (ii) <strong>Turner's syndrome</strong> = <strong>45, X0</strong> — a female with only one X chromosome (one sex chromosome missing).</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Sickle-cell anaemia is caused by the substitution of:</p>", "options": ["valine by glutamic acid", "glutamic acid by valine", "lysine by valine", "glycine by alanine"], "correct": 1, "explanation": "Glu→Val at position 6 of the β-globin chain." },
+            { "q": "<p>Haemophilia is a/an:</p>", "options": ["autosomal dominant disorder", "X-linked recessive disorder", "chromosomal disorder", "Y-linked disorder"], "correct": 1, "explanation": "Haemophilia is X-linked recessive (commoner in males)." },
+            { "q": "<p>Down's syndrome is due to:</p>", "options": ["trisomy 21", "monosomy X", "XXY", "trisomy 18"], "correct": 0, "explanation": "An extra chromosome 21 (trisomy 21)." },
+            { "q": "<p>Klinefelter's syndrome has the karyotype:</p>", "options": ["45, X0", "47, XXY", "47, +21", "46, XY"], "correct": 1, "explanation": "Klinefelter's = 47, XXY (a male)." },
+            { "q": "<p>Phenylketonuria is a/an:</p>", "options": ["X-linked disorder", "autosomal recessive disorder", "chromosomal disorder", "autosomal dominant disorder"], "correct": 1, "explanation": "PKU is an autosomal recessive metabolic disorder." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Sickle-cell = point mutation Glu→Val (autosomal recessive). X-linked recessive: haemophilia, colour blindness (commoner in males). Autosomal recessive: sickle-cell, thalassaemia, PKU. Chromosomal (non-disjunction): Down's = trisomy 21; Klinefelter's = 47,XXY (male); Turner's = 45,X0 (female).</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-biology-ch23-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>The number of contrasting traits Mendel studied in pea was:</p>", "options": ["five", "seven", "ten", "fourteen"], "correct": 1, "explanation": "Mendel studied seven pairs of contrasting traits." },
+            { "q": "<p>A cross of Tt × tt gives a phenotypic ratio of:</p>", "options": ["3:1", "1:1", "1:2:1", "9:3:3:1"], "correct": 1, "explanation": "A test cross of a heterozygote gives 1:1." },
+            { "q": "<p>The 9:3:3:1 ratio supports the Law of:</p>", "options": ["Dominance", "Segregation", "Independent Assortment", "Linkage"], "correct": 2, "explanation": "Dihybrid 9:3:3:1 demonstrates Independent Assortment." },
+            { "q": "<p>In incomplete dominance, the F2 phenotypic ratio is:</p>", "options": ["3:1", "1:2:1", "9:3:3:1", "1:1"], "correct": 1, "explanation": "It equals the genotypic ratio, 1:2:1." },
+            { "q": "<p>Blood group AB shows:</p>", "options": ["dominance", "codominance", "incomplete dominance", "epistasis"], "correct": 1, "explanation": "Both A and B antigens express — codominance." },
+            { "q": "<p>Linkage reduces the proportion of:</p>", "options": ["parental types", "recombinant types", "gametes", "alleles"], "correct": 1, "explanation": "Linked genes give fewer recombinant types." },
+            { "q": "<p>Colour blindness is:</p>", "options": ["autosomal dominant", "X-linked recessive", "Y-linked", "chromosomal"], "correct": 1, "explanation": "Red-green colour blindness is X-linked recessive." },
+            { "q": "<p>Turner's syndrome individuals are:</p>", "options": ["XXY males", "X0 females", "trisomy 21", "XYY males"], "correct": 1, "explanation": "Turner's = 45, X0 (female)." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> In a monohybrid cross the recessive trait reappears in the F2 generation.<br><strong>R:</strong> The recessive allele is present but masked in the F1 and segregates out during gamete formation.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Segregation of the masked recessive allele is why it reappears — R explains A." },
+            { "q": "<p><strong>A:</strong> Colour blindness and haemophilia are more common in males than in females.<br><strong>R:</strong> They are X-linked recessive, so a single defective X allele expresses the trait in males.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Males (XY) need only one defective X — R explains A." },
+            { "q": "<p><strong>A:</strong> In incomplete dominance one allele completely masks the other.<br><strong>R:</strong> The heterozygote of a cross showing incomplete dominance has an intermediate phenotype.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "A is false — in incomplete dominance neither allele masks the other; R is true (the heterozygote is intermediate)." },
+            { "q": "<p><strong>A:</strong> Down's syndrome is a chromosomal disorder.<br><strong>R:</strong> It results from an extra copy of chromosome 21 (trisomy 21).</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "An extra chromosome 21 makes it a chromosomal disorder — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

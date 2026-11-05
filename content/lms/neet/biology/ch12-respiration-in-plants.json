@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "biology",
+  "chapter": 12,
+  "title": "Respiration in Plants",
+  "slug": "respiration-in-plants",
+  "subtitle": "Glycolysis, fermentation, the Krebs cycle, the electron transport chain and the respiratory balance sheet",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "leaf",
+  "seo": {
+    "meta_description": "NEET Biology — Respiration in Plants: glycolysis, aerobic and anaerobic respiration (fermentation), the Krebs cycle, the electron transport chain and oxidative phosphorylation, the respiratory balance sheet, respiratory quotient and the amphibolic pathway, with NEET-level examples and MCQs. Free on GrowQR.",
+    "focus_keyword": "respiration in plants NEET",
+    "secondary_keywords": [
+      "glycolysis NEET",
+      "Krebs cycle NCERT",
+      "electron transport chain ATP",
+      "respiratory quotient RQ",
+      "fermentation alcoholic lactic acid"
+    ],
+    "keywords": [
+      "respiration in plants NEET",
+      "glycolysis Krebs cycle",
+      "oxidative phosphorylation",
+      "respiratory balance sheet 38 ATP",
+      "amphibolic pathway"
+    ]
+  },
+  "summary": "<ul><li><strong>Glycolysis (EMP):</strong> in the <strong>cytoplasm</strong>; glucose &rarr; 2 pyruvate; net <strong>2 ATP + 2 NADH</strong>; common to all organisms.</li><li><strong>Fermentation (anaerobic):</strong> pyruvate &rarr; <strong>ethanol + CO₂</strong> (yeast) or <strong>lactic acid</strong> (muscle); only the 2 ATP of glycolysis; NADH re-oxidised to NAD⁺.</li><li><strong>Aerobic respiration</strong> (mitochondria): pyruvate &rarr; <strong>acetyl CoA</strong> (link reaction, + CO₂ + NADH) &rarr; <strong>Krebs cycle</strong> in the matrix (per acetyl CoA: 3 NADH, 1 FADH₂, 1 ATP, 2 CO₂).</li><li><strong>ETC + oxidative phosphorylation</strong> on the inner membrane: O₂ is the final electron acceptor (&rarr; water); ATP made by chemiosmosis (1 NADH &asymp; 3 ATP, 1 FADH₂ &asymp; 2 ATP).</li><li><strong>Balance sheet:</strong> up to <strong>38 ATP</strong> per glucose (aerobic) vs only 2 (fermentation).</li><li><strong>RQ</strong> = CO₂/O₂: carbohydrates 1, fats &lt;1, proteins &asymp;0.9. Respiration is <strong>amphibolic</strong> (breakdown + building).</li></ul>",
+  "faqs": [
+    { "q": "Where does glycolysis occur and what are its net products?", "a": "Glycolysis (the EMP pathway) occurs in the cytoplasm of all living cells. It splits one glucose into two molecules of pyruvate, with a net gain of 2 ATP and 2 NADH. It does not require oxygen." },
+    { "q": "What are the two main types of fermentation and their products?", "a": "In alcoholic fermentation (e.g. yeast) pyruvate is converted to ethanol and CO2. In lactic acid fermentation (e.g. in our muscles during vigorous exercise, and in some bacteria) pyruvate is converted to lactic acid. Both yield only the 2 ATP made in glycolysis." },
+    { "q": "How much ATP, NADH and FADH2 does one turn of the Krebs cycle produce per acetyl CoA?", "a": "Per acetyl CoA, one turn of the Krebs cycle produces 3 NADH, 1 FADH2 and 1 ATP (as GTP), and releases 2 molecules of CO2. Because each glucose gives two acetyl CoA, these values are doubled per glucose." },
+    { "q": "What is the role of oxygen in aerobic respiration?", "a": "Oxygen is the final acceptor of electrons in the electron transport chain on the inner mitochondrial membrane; it combines with electrons and protons to form water. This keeps the chain running so that the proton gradient — and hence ATP synthesis by chemiosmosis — can continue." },
+    { "q": "What is the respiratory quotient (RQ) and what values do different substrates give?", "a": "RQ is the ratio of the volume of CO2 released to the volume of O2 consumed in respiration. It is 1 for carbohydrates, less than 1 (about 0.7) for fats, around 0.9 for proteins, and greater than 1 for organic acids." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Glycolysis and Fermentation",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Cellular Respiration and Glycolysis",
+          "concept": "<p><strong>Respiration</strong> is the process by which cells break the C–C bonds of complex organic molecules through oxidation to release energy, which is captured as <strong>ATP</strong> and used for life's activities. The molecule that is oxidised is the <strong>respiratory substrate</strong> — usually glucose, but fats, proteins and organic acids can also be respired. The energy is not released all at once but in small, controlled steps so that it can be trapped efficiently rather than lost as heat.</p><p>The first stage, common to virtually all organisms, is <strong>glycolysis</strong> (the <strong>EMP pathway</strong>, after Embden, Meyerhof and Parnas). A defining NEET fact is that glycolysis occurs in the <strong>cytoplasm</strong> and does <em>not</em> require oxygen, so it is shared by both aerobic and anaerobic respiration. In it, one molecule of six-carbon <strong>glucose</strong> is partially oxidised and split into <strong>two molecules of the three-carbon pyruvate (pyruvic acid)</strong>.</p><p>Along the way, glucose is first phosphorylated to glucose-6-phosphate and then to fructose-1,6-bisphosphate (an 'investment' that uses 2 ATP), which is split into two 3-carbon sugars; these are then oxidised and converted to pyruvate, generating ATP and NADH. The crucial <strong>net yield</strong> is <strong>2 ATP and 2 NADH per glucose</strong> (four ATP are made but two were used at the start). Knowing this net figure and the location is essential.</p><p>The fate of the pyruvate produced depends on whether oxygen is available, and this branch point organises the rest of respiration. In the <strong>presence of oxygen (aerobic respiration)</strong>, pyruvate enters the mitochondria and is completely oxidised through the Krebs cycle and electron transport chain. In the <strong>absence of oxygen (anaerobic respiration / fermentation)</strong>, pyruvate is only partially broken down in the cytoplasm. The two routes differ enormously in how much ATP they ultimately yield, as the next topics show.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Glycolysis</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Location</td><td style='border:1px solid #dcfce7;padding:6px 8px'>cytoplasm</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Substrate &rarr; product</td><td style='border:1px solid #dcfce7;padding:6px 8px'>glucose (6C) &rarr; 2 pyruvate (3C)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Net ATP</td><td style='border:1px solid #dcfce7;padding:6px 8px'>2 (4 made − 2 used)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>NADH</td><td style='border:1px solid #dcfce7;padding:6px 8px'>2</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Oxygen needed?</td><td style='border:1px solid #dcfce7;padding:6px 8px'>no</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>State the location of glycolysis and its net yield of ATP and NADH per glucose.</p>",
+              "solution": "<p>Glycolysis occurs in the <strong>cytoplasm</strong>. Its net yield per glucose is <strong>2 ATP and 2 NADH</strong> (four ATP are produced but two are consumed in the early steps).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Into what is one glucose molecule converted by the end of glycolysis?</p>",
+              "solution": "<p>One six-carbon glucose is split into <strong>two molecules of the three-carbon pyruvate (pyruvic acid)</strong>.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Glycolysis takes place in the:</p>", "options": ["mitochondrial matrix", "cytoplasm", "inner membrane", "nucleus"], "correct": 1, "explanation": "Glycolysis occurs in the cytoplasm." },
+            { "q": "<p>The end product of glycolysis is:</p>", "options": ["acetyl CoA", "pyruvate", "lactic acid", "citrate"], "correct": 1, "explanation": "Glycolysis ends with pyruvate." },
+            { "q": "<p>The net ATP gain in glycolysis per glucose is:</p>", "options": ["2", "4", "36", "38"], "correct": 0, "explanation": "Net 2 ATP (4 made − 2 used)." },
+            { "q": "<p>The EMP pathway is named after:</p>", "options": ["Hatch, Slack, Calvin", "Embden, Meyerhof, Parnas", "Krebs, Lipmann", "Watson, Crick"], "correct": 1, "explanation": "Glycolysis = Embden–Meyerhof–Parnas pathway." },
+            { "q": "<p>Glycolysis requires:</p>", "options": ["oxygen always", "no oxygen (occurs with or without it)", "light", "the mitochondrion"], "correct": 1, "explanation": "Glycolysis is oxygen-independent and cytoplasmic." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Glycolysis = cytoplasm, glucose→2 pyruvate, net 2 ATP + 2 NADH, no O₂ needed. The fate of pyruvate (aerobic vs anaerobic) sets up the rest of the chapter.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Fermentation",
+          "concept": "<p>When oxygen is <strong>absent</strong>, cells cannot run the Krebs cycle or electron transport chain, so pyruvate is processed in the cytoplasm by <strong>fermentation (anaerobic respiration)</strong>. Fermentation is an <strong>incomplete oxidation</strong> of glucose: only a small fraction of its energy is released, and the cell relies entirely on the <strong>2 ATP made earlier in glycolysis</strong>. A key purpose of fermentation is to <strong>regenerate NAD⁺</strong> from the NADH produced in glycolysis, so that glycolysis can keep running.</p><p>There are two main types, and matching each to its organism and product is a guaranteed NEET mark. In <strong>alcoholic fermentation</strong>, carried out by <strong>yeast</strong> and some microbes, pyruvate is converted to <strong>ethanol (alcohol) and CO₂</strong>, using the enzymes pyruvate decarboxylase and alcohol dehydrogenase. This is the basis of brewing and baking.</p><p>In <strong>lactic acid fermentation</strong>, carried out by some bacteria and by our own <strong>skeletal muscle</strong> during strenuous exercise when oxygen runs short, pyruvate is reduced to <strong>lactic acid</strong> by the enzyme lactate dehydrogenase. The build-up of lactic acid in muscle is associated with fatigue and cramps.</p><p>Both forms of fermentation are <strong>energetically poor</strong> — they yield only the 2 ATP of glycolysis, far less than aerobic respiration — and both can be <strong>hazardous</strong> to the cell if the products (alcohol or acid) accumulate. Importantly, in both, the NADH formed in glycolysis is re-oxidised to NAD⁺ as pyruvate (or acetaldehyde) is reduced, which is the chemical 'point' of the process. The contrast to remember is: fermentation = incomplete, cytoplasmic, only 2 ATP, products ethanol+CO₂ (yeast) or lactic acid (muscle).</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Fermentation</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Organism / product</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Alcoholic</td><td style='border:1px solid #dcfce7;padding:6px 8px'>yeast &rarr; ethanol + CO₂</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Lactic acid</td><td style='border:1px solid #dcfce7;padding:6px 8px'>muscle / bacteria &rarr; lactic acid</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>ATP yield</td><td style='border:1px solid #dcfce7;padding:6px 8px'>only 2 (from glycolysis)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Purpose</td><td style='border:1px solid #dcfce7;padding:6px 8px'>regenerate NAD⁺ for glycolysis</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>During very vigorous exercise our muscles run short of oxygen. What process occurs and what product builds up?</p>",
+              "solution": "<p><strong>Lactic acid fermentation</strong> occurs: pyruvate is reduced to <strong>lactic acid</strong> (by lactate dehydrogenase). Its accumulation is linked to muscle fatigue and cramps.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why does fermentation yield so little ATP compared with aerobic respiration?</p>",
+              "solution": "<p>Because glucose is only <strong>incompletely oxidised</strong> — the energy-rich pyruvate is not sent through the Krebs cycle and electron transport chain. The cell gains only the <strong>2 ATP</strong> from glycolysis.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Yeast carries out which type of fermentation?</p>", "options": ["lactic acid", "alcoholic", "acetic acid", "none"], "correct": 1, "explanation": "Yeast performs alcoholic fermentation (ethanol + CO₂)." },
+            { "q": "<p>In human muscle, anaerobic respiration produces:</p>", "options": ["ethanol", "lactic acid", "acetyl CoA", "CO₂ only"], "correct": 1, "explanation": "Muscle produces lactic acid under oxygen shortage." },
+            { "q": "<p>Fermentation yields a net of ___ ATP per glucose:</p>", "options": ["2", "12", "36", "38"], "correct": 0, "explanation": "Only the 2 ATP from glycolysis." },
+            { "q": "<p>A chief purpose of fermentation is to regenerate:</p>", "options": ["ATP", "NAD⁺", "FAD", "O₂"], "correct": 1, "explanation": "Re-oxidising NADH to NAD⁺ keeps glycolysis going." },
+            { "q": "<p>Alcoholic fermentation converts pyruvate to:</p>", "options": ["lactic acid", "ethanol and CO₂", "acetyl CoA", "citrate"], "correct": 1, "explanation": "Pyruvate → ethanol + CO₂ in yeast." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Fermentation = incomplete, cytoplasmic, only 2 ATP, regenerates NAD⁺. Yeast → ethanol + CO₂; muscle/bacteria → lactic acid. Contrast sharply with aerobic respiration's high yield.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Aerobic Respiration and the Balance Sheet",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Aerobic Respiration — Link Reaction and the Krebs Cycle",
+          "concept": "<p>When oxygen is available, pyruvate is completely oxidised in the <strong>mitochondrion</strong>, releasing far more energy. First, the pyruvate made in the cytoplasm enters the <strong>mitochondrial matrix</strong> and undergoes the <strong>link reaction (oxidative decarboxylation)</strong>: catalysed by the pyruvate dehydrogenase complex, each pyruvate loses a CO₂ and joins coenzyme A to form <strong>acetyl coenzyme A (acetyl CoA)</strong>, producing one <strong>NADH</strong> in the process. Since each glucose gave two pyruvate, this happens twice per glucose.</p><p>Acetyl CoA then enters the <strong>Krebs cycle</strong> — also called the <strong>citric acid cycle or TCA cycle</strong> — which takes place in the <strong>mitochondrial matrix</strong>. The 2-carbon acetyl group combines with the 4-carbon <strong>oxaloacetate (OAA)</strong> to form the 6-carbon <strong>citrate</strong>, and the cycle then regenerates OAA through a series of oxidations and decarboxylations. Each turn releases <strong>2 molecules of CO₂</strong>.</p><p>The energy yield of one turn of the Krebs cycle (per acetyl CoA) is a must-memorise figure: <strong>3 NADH, 1 FADH₂ and 1 ATP</strong> (the ATP is actually formed as GTP). Because one glucose produces two acetyl CoA, the cycle turns twice per glucose, doubling these numbers. The CO₂ we exhale comes from the link reaction and the Krebs cycle, not from glycolysis.</p><p>At this point glucose has been fully dismantled and its carbons released as CO₂, but most of the captured energy is still locked in the <strong>reduced coenzymes NADH and FADH₂</strong> rather than in ATP directly. These electron carriers now feed the electron transport chain, the final stage where the bulk of the cell's ATP is actually made. For NEET, the essentials here are: link reaction makes acetyl CoA + CO₂ + NADH; the Krebs cycle is in the matrix; and per acetyl CoA it yields 3 NADH, 1 FADH₂, 1 ATP and 2 CO₂.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Step</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Yield (per acetyl CoA / pyruvate)</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Link reaction (per pyruvate)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>1 NADH + 1 CO₂ &rarr; acetyl CoA</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Krebs cycle (per acetyl CoA)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>3 NADH, 1 FADH₂, 1 ATP, 2 CO₂</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Location</td><td style='border:1px solid #dcfce7;padding:6px 8px'>mitochondrial matrix</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Acetyl CoA + OAA &rarr;</td><td style='border:1px solid #dcfce7;padding:6px 8px'>citrate (6C)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Name the product when pyruvate enters the mitochondrion, and the by-products of that step.</p>",
+              "solution": "<p>Pyruvate is converted to <strong>acetyl CoA</strong> in the link reaction (oxidative decarboxylation), releasing one <strong>CO₂</strong> and forming one <strong>NADH</strong> per pyruvate.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>How many NADH, FADH₂, ATP and CO₂ are produced in one turn of the Krebs cycle?</p>",
+              "solution": "<p>Per turn (per acetyl CoA): <strong>3 NADH, 1 FADH₂, 1 ATP</strong> (as GTP) and <strong>2 CO₂</strong> released.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The Krebs cycle takes place in the:</p>", "options": ["cytoplasm", "mitochondrial matrix", "inner membrane", "nucleus"], "correct": 1, "explanation": "The Krebs (citric acid) cycle occurs in the matrix." },
+            { "q": "<p>Acetyl CoA combines with ___ to start the Krebs cycle:</p>", "options": ["pyruvate", "oxaloacetate", "citrate", "PEP"], "correct": 1, "explanation": "Acetyl CoA + OAA → citrate." },
+            { "q": "<p>Per acetyl CoA, the Krebs cycle yields how many NADH?</p>", "options": ["1", "2", "3", "4"], "correct": 2, "explanation": "3 NADH per acetyl CoA (plus 1 FADH₂, 1 ATP)." },
+            { "q": "<p>The link reaction converts pyruvate to acetyl CoA and releases:</p>", "options": ["O₂", "CO₂ and NADH", "lactic acid", "ATP only"], "correct": 1, "explanation": "It releases CO₂ and forms NADH." },
+            { "q": "<p>The CO₂ exhaled during respiration comes mainly from:</p>", "options": ["glycolysis", "the link reaction and Krebs cycle", "the ETC", "photolysis"], "correct": 1, "explanation": "CO₂ is released in the link reaction and Krebs cycle." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Link reaction = pyruvate → acetyl CoA + CO₂ + NADH. Krebs (matrix): per acetyl CoA = 3 NADH + 1 FADH₂ + 1 ATP + 2 CO₂; doubles per glucose. Energy is stored in NADH/FADH₂ for the ETC.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Electron Transport, the Balance Sheet, RQ and the Amphibolic Pathway",
+          "concept": "<p>The final stage of aerobic respiration is the <strong>electron transport chain (ETC)</strong> and <strong>oxidative phosphorylation</strong>, located on the <strong>inner mitochondrial membrane</strong>. The NADH and FADH₂ made earlier are oxidised here: their electrons pass through a series of carriers (Complexes I–IV, including cytochromes), and at the end <strong>oxygen acts as the final electron acceptor</strong>, combining with electrons and protons to form <strong>water</strong>. This is why oxygen is essential — without it the chain backs up and stops.</p><p>As electrons move through the chain, protons are pumped across the inner membrane, building a <strong>proton gradient</strong>. The protons flow back through <strong>ATP synthase (Complex V)</strong>, and this flow drives ATP synthesis — the same <strong>chemiosmotic</strong> mechanism seen in photosynthesis. The standard NCERT bookkeeping is that each <strong>NADH yields about 3 ATP</strong> and each <strong>FADH₂ yields about 2 ATP</strong> when oxidised through the chain.</p><p>Putting it all together gives the <strong>respiratory balance sheet</strong>. From the complete aerobic oxidation of one glucose — glycolysis (2 ATP + 2 NADH), the link reaction (2 NADH), the Krebs cycle (2 turns: 6 NADH + 2 FADH₂ + 2 ATP) — and feeding the 10 NADH and 2 FADH₂ through the ETC, a cell can make a theoretical maximum of about <strong>38 ATP per glucose</strong> (often cited as 36–38). This dwarfs the 2 ATP of fermentation and shows why aerobic respiration is so much more efficient.</p><p>Two final concepts complete the chapter. The <strong>respiratory quotient (RQ)</strong> is the ratio of CO₂ released to O₂ consumed: it is <strong>1 for carbohydrates</strong>, <strong>less than 1 (~0.7) for fats</strong>, about <strong>0.9 for proteins</strong>, and greater than 1 for organic acids. Lastly, the respiratory pathway is described as <strong>amphibolic</strong> because it is not purely catabolic (breakdown): its intermediates (such as acetyl CoA and Krebs-cycle acids) are also withdrawn to <strong>build (anabolism)</strong> fatty acids, amino acids and other molecules. So respiration both releases energy and supplies building blocks — a point NEET likes to test alongside the balance sheet and RQ values.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Item</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Value</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>1 NADH (via ETC)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>&asymp; 3 ATP</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>1 FADH₂ (via ETC)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>&asymp; 2 ATP</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Total per glucose (aerobic)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>up to ~38 ATP</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Final electron acceptor</td><td style='border:1px solid #dcfce7;padding:6px 8px'>oxygen (&rarr; water)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>RQ: carbohydrate / fat / protein</td><td style='border:1px solid #dcfce7;padding:6px 8px'>1 / &lt;1 (~0.7) / ~0.9</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Using the NCERT values (NADH = 3 ATP, FADH₂ = 2 ATP), why is aerobic respiration of one glucose so much more productive than fermentation?</p>",
+              "solution": "<p>Aerobic respiration sends the many NADH and FADH₂ (from glycolysis, the link reaction and the Krebs cycle) through the ETC, yielding up to <strong>~38 ATP</strong> per glucose. Fermentation stops after glycolysis and gives only <strong>2 ATP</strong> — so aerobic respiration is roughly 19 times more efficient.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A germinating seed rich in fats shows an RQ well below 1. What does this indicate?</p>",
+              "solution": "<p>It indicates that <strong>fats are being used as the respiratory substrate</strong>. Fats require relatively more O₂ for their oxidation, so the CO₂/O₂ ratio (RQ) falls below 1 (around 0.7).</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The electron transport chain is located on the:</p>", "options": ["outer mitochondrial membrane", "inner mitochondrial membrane", "matrix", "cytoplasm"], "correct": 1, "explanation": "The ETC is on the inner mitochondrial membrane." },
+            { "q": "<p>The final acceptor of electrons in aerobic respiration is:</p>", "options": ["NAD⁺", "FAD", "oxygen", "pyruvate"], "correct": 2, "explanation": "Oxygen is the final electron acceptor, forming water." },
+            { "q": "<p>Using NCERT values, one NADH yields about ___ ATP:</p>", "options": ["1", "2", "3", "4"], "correct": 2, "explanation": "1 NADH ≈ 3 ATP; 1 FADH₂ ≈ 2 ATP." },
+            { "q": "<p>The respiratory quotient for carbohydrates is:</p>", "options": ["less than 1", "exactly 1", "greater than 1", "zero"], "correct": 1, "explanation": "RQ = 1 for carbohydrates." },
+            { "q": "<p>Respiration is called an amphibolic pathway because it:</p>", "options": ["only breaks down molecules", "only builds molecules", "involves both breakdown and building", "needs light"], "correct": 2, "explanation": "Its intermediates are used for both catabolism and anabolism." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> ETC on inner membrane; O₂ = final acceptor → water; NADH≈3 ATP, FADH₂≈2 ATP; ~38 ATP per glucose. RQ: carbohydrate 1, fat &lt;1, protein ~0.9. Respiration = amphibolic.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-biology-ch12-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>Glycolysis occurs in the:</p>", "options": ["mitochondrion", "cytoplasm", "chloroplast", "nucleus"], "correct": 1, "explanation": "Glycolysis is cytoplasmic." },
+            { "q": "<p>The net ATP produced in glycolysis per glucose is:</p>", "options": ["2", "4", "8", "38"], "correct": 0, "explanation": "Net 2 ATP from glycolysis." },
+            { "q": "<p>Lactic acid fermentation occurs in:</p>", "options": ["yeast", "human muscle", "chloroplast", "the ETC"], "correct": 1, "explanation": "Muscle (and some bacteria) form lactic acid anaerobically." },
+            { "q": "<p>Pyruvate is converted to acetyl CoA in the:</p>", "options": ["cytoplasm", "mitochondrial matrix", "inner membrane", "nucleus"], "correct": 1, "explanation": "The link reaction occurs in the mitochondrial matrix." },
+            { "q": "<p>Per acetyl CoA, the Krebs cycle releases ___ molecules of CO₂:</p>", "options": ["1", "2", "3", "4"], "correct": 1, "explanation": "2 CO₂ are released per turn." },
+            { "q": "<p>In the ETC, the final electron acceptor is:</p>", "options": ["FAD", "NAD⁺", "oxygen", "water"], "correct": 2, "explanation": "Oxygen accepts electrons, forming water." },
+            { "q": "<p>One FADH₂ yields about ___ ATP via the ETC:</p>", "options": ["1", "2", "3", "4"], "correct": 1, "explanation": "1 FADH₂ ≈ 2 ATP (NADH ≈ 3 ATP)." },
+            { "q": "<p>The respiratory quotient of fats is:</p>", "options": ["1", "greater than 1", "less than 1", "zero"], "correct": 2, "explanation": "Fats give RQ < 1 (~0.7)." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> Aerobic respiration yields far more ATP than fermentation.<br><strong>R:</strong> In aerobic respiration the NADH and FADH₂ are oxidised through the electron transport chain to make ATP.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Feeding the reduced coenzymes into the ETC is what generates the extra ATP — R explains A." },
+            { "q": "<p><strong>A:</strong> Oxygen is essential for the electron transport chain to keep running.<br><strong>R:</strong> Oxygen is the final acceptor of electrons, combining with them to form water.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Without the final acceptor the chain backs up and stops — R explains A." },
+            { "q": "<p><strong>A:</strong> Fermentation produces a large amount of ATP per glucose.<br><strong>R:</strong> It completely oxidises glucose to carbon dioxide and water.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "Both are false — fermentation gives only 2 ATP and is an INCOMPLETE oxidation (no CO₂/water from full oxidation)." },
+            { "q": "<p><strong>A:</strong> The respiratory pathway is described as amphibolic.<br><strong>R:</strong> Its intermediates are used both to release energy and to build other biomolecules.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Serving both catabolism and anabolism is exactly what 'amphibolic' means — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

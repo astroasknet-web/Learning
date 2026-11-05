@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "chemistry",
+  "chapter": 4,
+  "title": "Chemical Bonding & Molecular Structure",
+  "slug": "chemical-bonding-and-molecular-structure",
+  "subtitle": "Ionic & covalent bonds, VSEPR shapes, hybridisation, MOT & hydrogen bonding",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "NEET Chemistry — Chemical Bonding & Molecular Structure: ionic and covalent bonds, Lewis structures, VSEPR shapes and bond angles, hybridisation, molecular orbital theory and hydrogen bonding with biological relevance, with NEET traps, NCERT notes and MCQs. Free on GrowQR.",
+    "focus_keyword": "chemical bonding NEET",
+    "secondary_keywords": [
+      "VSEPR theory NEET",
+      "hybridisation NEET notes",
+      "molecular orbital theory NEET",
+      "hydrogen bonding biology",
+      "shapes of molecules NCERT"
+    ],
+    "keywords": [
+      "chemical bonding NEET",
+      "VSEPR NEET",
+      "hybridisation NEET",
+      "MOT NEET",
+      "hydrogen bonding NEET"
+    ]
+  },
+  "summary": "<ul><li><strong>Ionic bond:</strong> transfer of electrons (metal + non-metal); strength rises with charge and falls with ion size (lattice energy).</li><li><strong>Fajans' rules:</strong> small cation, large anion and high charge to more covalent character.</li><li><strong>Covalent bond:</strong> sharing of electron pairs; drawn with Lewis structures; check <em>formal charge</em> and the octet (with exceptions like $\\text{BF}_3$, $\\text{PCl}_5$, $\\text{SF}_6$).</li><li><strong>VSEPR:</strong> electron pairs repel and spread out. Lone pairs repel more, reducing bond angles ($\\text{CH}_4 = 109.5^{\\circ} > \\text{NH}_3 = 107^{\\circ} > \\text{H}_2\\text{O} = 104.5^{\\circ}$).</li><li><strong>Hybridisation:</strong> $sp$ (linear, $180^{\\circ}$), $sp^2$ (trigonal planar, $120^{\\circ}$), $sp^3$ ($109.5^{\\circ}$), $sp^3d$ (trigonal bipyramidal), $sp^3d^2$ (octahedral).</li><li><strong>MOT:</strong> bond order $= \\tfrac{1}{2}(N_b - N_a)$; explains $\\text{O}_2$ paramagnetism and why $\\text{He}_2$ does not exist.</li><li><strong>Hydrogen bonding</strong> (with N, O, F) gives water its high boiling point and holds the DNA double helix and protein structures together.</li><li><strong>Polarity:</strong> a molecule is polar if bond dipoles do not cancel ($\\text{H}_2\\text{O}$ polar; $\\text{CO}_2$ non-polar).</li></ul>",
+  "faqs": [
+    { "q": "Why is the bond angle in water (104.5 degrees) smaller than in methane (109.5 degrees)?", "a": "Water has two lone pairs on oxygen. Lone pair-lone pair and lone pair-bond pair repulsions are stronger than bond pair-bond pair repulsion, so they push the O-H bonds closer together, reducing the angle." },
+    { "q": "How do you find the hybridisation of a central atom quickly?", "a": "Count the number of sigma bonds plus lone pairs on the central atom: 2 means sp, 3 means sp2, 4 means sp3, 5 means sp3d, and 6 means sp3d2." },
+    { "q": "Why is oxygen (O2) paramagnetic?", "a": "Molecular orbital theory places two electrons singly in the two degenerate pi-antibonding orbitals of O2. These unpaired electrons make the molecule paramagnetic, something the simple Lewis structure cannot explain." },
+    { "q": "Why is hydrogen bonding important in biology?", "a": "Hydrogen bonds hold the two strands of the DNA double helix together (base pairing), stabilise protein folding, and give water its high boiling point and surface tension, all essential for life." },
+    { "q": "Why is carbon dioxide non-polar even though it has polar bonds?", "a": "CO2 is linear, so the two C=O bond dipoles point in opposite directions and cancel exactly, giving a net dipole moment of zero; water, being bent, does not cancel and is polar." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Ionic and Covalent Bonding; VSEPR",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Ionic and Covalent Bonds and Lewis Structures",
+          "concept": "<p>Atoms bond to achieve stable, noble-gas-like electron arrangements — the essence of the <strong>octet rule</strong> (eight electrons in the valence shell). The <strong>Kossel-Lewis</strong> approach explains two main ways this happens: by transferring electrons (ionic bonding) or by sharing them (covalent bonding). Which route an element takes depends largely on its ionisation enthalpy and electron gain enthalpy, linking this chapter directly to periodicity.</p><p>An <strong>ionic (electrovalent) bond</strong> forms when a metal transfers electrons to a non-metal, producing oppositely charged ions held together by electrostatic attraction, as in $\\text{Na}^+\\text{Cl}^-$. The strength of an ionic crystal is measured by its <strong>lattice enthalpy</strong>, which increases with higher ionic charges and smaller ionic sizes. <strong>Fajans' rules</strong> add nuance: a small, highly charged cation with a large anion polarises the anion's cloud, giving ionic compounds partial <em>covalent</em> character — a frequent NEET reasoning point.</p><p>A <strong>covalent bond</strong> forms when two atoms share one or more electron pairs, as in $\\text{H}_2$, $\\text{O}_2$ and $\\text{CH}_4$. These are represented by <strong>Lewis (electron-dot) structures</strong>, drawn by counting total valence electrons, forming bonds, and completing octets (with duplets for hydrogen). Multiple bonds (double, triple) form when atoms share two or three pairs, as in $\\text{O}=\\text{O}$ and $\\text{N}\\equiv\\text{N}$.</p><p>To choose the best Lewis structure, chemists use <strong>formal charge</strong>, calculated as (valence electrons) − (non-bonding electrons) − ½(bonding electrons). The most stable structure has formal charges closest to zero. The octet rule, while powerful, has clear exceptions NEET likes to test: incomplete octets ($\\text{BeCl}_2$, $\\text{BF}_3$), odd-electron species ($\\text{NO}$), and expanded octets ($\\text{PCl}_5$, $\\text{SF}_6$) where the central atom holds more than eight electrons.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Idea</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Key point</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Ionic bond</td><td style='border:1px solid #dcfce7;padding:6px 10px'>electron transfer; lattice enthalpy</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Fajans' rules</td><td style='border:1px solid #dcfce7;padding:6px 10px'>small cation + large anion to covalent character</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Covalent bond</td><td style='border:1px solid #dcfce7;padding:6px 10px'>electron sharing; Lewis structures</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Octet exceptions</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{BF}_3$, $\\text{NO}$, $\\text{PCl}_5$, $\\text{SF}_6$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why does $\\text{AlCl}_3$ show appreciable covalent character despite being a metal halide?</p>",
+              "solution": "<p>By Fajans' rules, the small, highly charged $\\text{Al}^{3+}$ strongly polarises the larger $\\text{Cl}^-$ ions, distorting their electron clouds toward sharing — so $\\text{AlCl}_3$ has significant covalent character.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Name two molecules that violate the octet rule by having an expanded octet.</p>",
+              "solution": "<p>$\\text{PCl}_5$ (10 electrons around P) and $\\text{SF}_6$ (12 electrons around S) both expand the octet using available $d$ orbitals.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>An ionic bond is formed by:</p>", "options": ["sharing electrons", "transfer of electrons", "overlap of orbitals", "metallic bonding"], "correct": 1, "explanation": "Electron transfer from metal to non-metal." },
+            { "q": "<p>Lattice enthalpy increases with:</p>", "options": ["larger ions", "smaller ions and higher charge", "lower charge", "covalent character"], "correct": 1, "explanation": "Higher charge and smaller size strengthen the lattice." },
+            { "q": "<p>Fajans' rules predict more covalent character for a:</p>", "options": ["large cation, small anion", "small cation, large anion", "low charge", "noble gas"], "correct": 1, "explanation": "Small highly-charged cation + large anion polarise to covalency." },
+            { "q": "<p>Which molecule has an incomplete octet?</p>", "options": ["$\\text{CH}_4$", "$\\text{BF}_3$", "$\\text{H}_2\\text{O}$", "$\\text{NH}_3$"], "correct": 1, "explanation": "Boron in $\\text{BF}_3$ has only 6 electrons." },
+            { "q": "<p>Formal charge is calculated using valence electrons, non-bonding electrons and:</p>", "options": ["all bonding electrons", "half the bonding electrons", "lattice energy", "electronegativity"], "correct": 1, "explanation": "FC = V − (nonbonding) − ½(bonding)." }
+          ],
+          "note": "<p><strong>NEET trap:</strong> Octet has exceptions — incomplete ($\\text{BF}_3$), odd-electron ($\\text{NO}$), expanded ($\\text{PCl}_5$, $\\text{SF}_6$). Use Fajans' rules to judge covalent character of 'ionic' compounds.</p>"
+        },
+        {
+          "number": 2,
+          "title": "VSEPR Theory and Shapes of Molecules",
+          "concept": "<p>Lewis structures show which atoms are bonded but not the three-dimensional <strong>shape</strong> of a molecule. The <strong>VSEPR (Valence Shell Electron Pair Repulsion) theory</strong> fills this gap with one simple idea: electron pairs around a central atom repel one another and arrange themselves as far apart as possible. This single principle predicts the geometry of most NEET molecules quickly.</p><p>The key step is to count the <strong>electron pairs</strong> (bond pairs + lone pairs) on the central atom. Two pairs give a <strong>linear</strong> shape ($180^{\\circ}$); three give <strong>trigonal planar</strong> ($120^{\\circ}$); four give <strong>tetrahedral</strong> ($109.5^{\\circ}$); five give <strong>trigonal bipyramidal</strong>; and six give <strong>octahedral</strong> ($90^{\\circ}$). These idealised angles apply when all the pairs are bonding.</p><p>The crucial refinement is the effect of <strong>lone pairs</strong>, which occupy more space than bonding pairs and so repel more strongly. The repulsion order is lone pair-lone pair $>$ lone pair-bond pair $>$ bond pair-bond pair. This compresses bond angles when lone pairs are present, giving the classic NEET series: methane $\\text{CH}_4$ ($109.5^{\\circ}$, no lone pairs) $>$ ammonia $\\text{NH}_3$ ($107^{\\circ}$, one lone pair) $>$ water $\\text{H}_2\\text{O}$ ($104.5^{\\circ}$, two lone pairs).</p><p>Shapes are often described by their <em>actual</em> atom positions, ignoring lone pairs: $\\text{NH}_3$ is pyramidal and $\\text{H}_2\\text{O}$ is bent, even though both are based on a tetrahedral arrangement of electron pairs. Practising the count-pairs-then-adjust-for-lone-pairs routine on common molecules ($\\text{CO}_2$, $\\text{BF}_3$, $\\text{CH}_4$, $\\text{NH}_3$, $\\text{H}_2\\text{O}$, $\\text{PCl}_5$, $\\text{SF}_6$) covers nearly every shape question NEET asks.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Electron pairs</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Geometry / angle</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>2</td><td style='border:1px solid #dcfce7;padding:6px 10px'>linear, $180^{\\circ}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>3</td><td style='border:1px solid #dcfce7;padding:6px 10px'>trigonal planar, $120^{\\circ}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>4</td><td style='border:1px solid #dcfce7;padding:6px 10px'>tetrahedral, $109.5^{\\circ}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>5 / 6</td><td style='border:1px solid #dcfce7;padding:6px 10px'>trigonal bipyramidal / octahedral</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Predict the shape and bond angle of ammonia ($\\text{NH}_3$).</p>",
+              "solution": "<p>Nitrogen has 3 bond pairs and 1 lone pair (4 electron pairs to tetrahedral arrangement). The lone pair compresses the angle, giving a <strong>pyramidal</strong> shape with a bond angle of about $107^{\\circ}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is $\\text{CO}_2$ linear while $\\text{H}_2\\text{O}$ is bent?</p>",
+              "solution": "<p>In $\\text{CO}_2$ the central carbon has 2 bonding regions and no lone pairs to linear ($180^{\\circ}$). In $\\text{H}_2\\text{O}$ oxygen has 2 bond pairs and 2 lone pairs, whose repulsion bends the molecule to about $104.5^{\\circ}$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>VSEPR theory is based on the repulsion between:</p>", "options": ["nuclei", "valence electron pairs", "neutrons", "protons"], "correct": 1, "explanation": "Electron pairs repel and spread apart." },
+            { "q": "<p>A central atom with 4 bond pairs and no lone pairs has the shape:</p>", "options": ["linear", "trigonal planar", "tetrahedral", "octahedral"], "correct": 2, "explanation": "Tetrahedral, $109.5^{\\circ}$." },
+            { "q": "<p>The bond angle order is:</p>", "options": ["$\\text{H}_2\\text{O} > \\text{NH}_3 > \\text{CH}_4$", "$\\text{CH}_4 > \\text{NH}_3 > \\text{H}_2\\text{O}$", "$\\text{NH}_3 > \\text{CH}_4 > \\text{H}_2\\text{O}$", "all equal"], "correct": 1, "explanation": "More lone pairs to smaller angle." },
+            { "q": "<p>The shape of $\\text{H}_2\\text{O}$ is:</p>", "options": ["linear", "bent", "tetrahedral", "pyramidal"], "correct": 1, "explanation": "Two lone pairs make it bent." },
+            { "q": "<p>The strongest repulsion is between:</p>", "options": ["bond pair-bond pair", "lone pair-bond pair", "lone pair-lone pair", "all equal"], "correct": 2, "explanation": "lp-lp > lp-bp > bp-bp." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Count bond pairs + lone pairs on the central atom for geometry, then shrink angles for lone pairs. Remember $\\text{CH}_4\\,(109.5^{\\circ}) > \\text{NH}_3\\,(107^{\\circ}) > \\text{H}_2\\text{O}\\,(104.5^{\\circ})$.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Hybridisation, MOT and Hydrogen Bonding",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Valence Bond Theory and Hybridisation",
+          "concept": "<p><strong>Valence bond theory (VBT)</strong> pictures a covalent bond as the overlap of half-filled atomic orbitals, with greater overlap giving a stronger bond. A head-on overlap forms a strong <strong>sigma ($\\sigma$) bond</strong>, while the sideways overlap of $p$ orbitals forms a weaker <strong>pi ($\\pi$) bond</strong>. A single bond is one $\\sigma$; a double bond is one $\\sigma$ + one $\\pi$; a triple bond is one $\\sigma$ + two $\\pi$ — a counting rule NEET uses constantly.</p><p>Pure atomic orbitals often cannot explain observed shapes (for instance, carbon's four identical bonds in $\\text{CH}_4$). The fix is <strong>hybridisation</strong> — the mixing of atomic orbitals of similar energy to form new, equivalent <em>hybrid orbitals</em> that point toward the bonded atoms. The type of hybridisation fixes the geometry, so identifying it is the master key to molecular shape.</p><p>The common hybridisations and their geometries are: <strong>$sp$</strong> (2 hybrids, linear, $180^{\\circ}$, as in $\\text{BeCl}_2$ and $\\text{C}_2\\text{H}_2$); <strong>$sp^2$</strong> (3 hybrids, trigonal planar, $120^{\\circ}$, as in $\\text{BF}_3$ and $\\text{C}_2\\text{H}_4$); <strong>$sp^3$</strong> (4 hybrids, tetrahedral, $109.5^{\\circ}$, as in $\\text{CH}_4$, $\\text{NH}_3$, $\\text{H}_2\\text{O}$); <strong>$sp^3d$</strong> (5 hybrids, trigonal bipyramidal, as in $\\text{PCl}_5$); and <strong>$sp^3d^2$</strong> (6 hybrids, octahedral, as in $\\text{SF}_6$).</p><p>A fast NEET shortcut finds hybridisation by counting the <strong>sigma bonds plus lone pairs</strong> on the central atom: a total of 2 means $sp$, 3 means $sp^2$, 4 means $sp^3$, 5 means $sp^3d$, and 6 means $sp^3d^2$. Lone pairs occupy hybrid orbitals too, which is why $\\text{NH}_3$ and $\\text{H}_2\\text{O}$ are both $sp^3$ despite being pyramidal and bent rather than tetrahedral. This count-and-classify method handles almost every hybridisation question.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Hybridisation</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Geometry / example</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$sp$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>linear; $\\text{BeCl}_2$, $\\text{C}_2\\text{H}_2$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$sp^2$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>trigonal planar; $\\text{BF}_3$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$sp^3$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>tetrahedral; $\\text{CH}_4$, $\\text{NH}_3$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$sp^3d$ / $sp^3d^2$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{PCl}_5$ / $\\text{SF}_6$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>What is the hybridisation of the central atom in $\\text{SF}_6$?</p>",
+              "solution": "<p>Sulphur has 6 sigma bonds and 0 lone pairs, so $6 to sp^3d^2$ hybridisation, giving an octahedral shape.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>How many sigma and pi bonds are present in ethyne, $\\text{C}_2\\text{H}_2$ ($\\text{H}-\\text{C}\\equiv\\text{C}-\\text{H}$)?</p>",
+              "solution": "<p>Two $\\text{C}-\\text{H}$ single bonds ($2\\sigma$) and one $\\text{C}\\equiv\\text{C}$ triple bond ($1\\sigma + 2\\pi$). Total: $3\\sigma$ and $2\\pi$ bonds; each carbon is $sp$ hybridised.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>A single covalent bond consists of:</p>", "options": ["one pi bond", "one sigma bond", "two sigma bonds", "one sigma + one pi"], "correct": 1, "explanation": "Single bond = 1 sigma." },
+            { "q": "<p>The hybridisation of carbon in $\\text{CH}_4$ is:</p>", "options": ["$sp$", "$sp^2$", "$sp^3$", "$sp^3d$"], "correct": 2, "explanation": "4 sigma bonds to $sp^3$." },
+            { "q": "<p>An $sp$ hybridised central atom gives a shape that is:</p>", "options": ["bent", "linear", "tetrahedral", "octahedral"], "correct": 1, "explanation": "$sp$ to linear, $180^{\\circ}$." },
+            { "q": "<p>The hybridisation in $\\text{PCl}_5$ is:</p>", "options": ["$sp^3$", "$sp^3d$", "$sp^3d^2$", "$sp^2$"], "correct": 1, "explanation": "5 bonds to $sp^3d$ (trigonal bipyramidal)." },
+            { "q": "<p>A triple bond contains:</p>", "options": ["3 sigma", "1 sigma + 2 pi", "2 sigma + 1 pi", "3 pi"], "correct": 1, "explanation": "Triple bond = 1 sigma + 2 pi." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Hybridisation = (sigma bonds + lone pairs): 2 $sp$, 3 $sp^2$, 4 $sp^3$, 5 $sp^3d$, 6 $sp^3d^2$. Single = 1$\\sigma$; double = 1$\\sigma$+1$\\pi$; triple = 1$\\sigma$+2$\\pi$.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Molecular Orbital Theory, Polarity and Hydrogen Bonding",
+          "concept": "<p>VBT explains shapes well but fails for some molecules, so <strong>molecular orbital theory (MOT)</strong> offers a deeper picture. Atomic orbitals combine to form <strong>molecular orbitals</strong> spread over the whole molecule — a lower-energy <em>bonding</em> orbital and a higher-energy <em>antibonding</em> orbital. Electrons fill these by the same rules as atoms (Aufbau, Pauli, Hund). The key quantity is the <strong>bond order</strong> $= \\tfrac{1}{2}(N_b - N_a)$, where $N_b$ and $N_a$ are the electrons in bonding and antibonding orbitals.</p><p>Bond order predicts stability and existence: a bond order of zero means the molecule does not exist, which is why $\\text{He}_2$ is not formed. A higher bond order means a stronger, shorter bond. MOT's most celebrated success is explaining the <strong>paramagnetism of $\\text{O}_2$</strong> — it has two unpaired electrons in its $\\pi^*$ antibonding orbitals, a fact the Lewis and valence-bond pictures cannot show. This single example is a NEET favourite.</p><p>Whether a molecule is <strong>polar</strong> depends on its shape and bond dipoles. A bond between atoms of different electronegativity is polar, but the molecule is non-polar if the bond dipoles cancel by symmetry. So $\\text{CO}_2$ (linear) is non-polar despite polar bonds, while $\\text{H}_2\\text{O}$ (bent) is strongly polar — the asymmetry leaves a net dipole moment. Predicting polarity from geometry is a routine NEET skill.</p><p>The most biologically important interaction is the <strong>hydrogen bond</strong> — a strong dipole attraction when hydrogen is bonded to the small, highly electronegative atoms N, O or F. Hydrogen bonding gives water its unusually high boiling point and surface tension, and, crucially for medical aspirants, holds the two strands of the <strong>DNA double helix</strong> together through base pairing and stabilises the folded shapes of <strong>proteins</strong>. Intermolecular hydrogen bonds (as in water) raise boiling points, while intramolecular ones (as in ortho-nitrophenol) can lower them — a subtle distinction NEET sometimes probes.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Concept</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Key point</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Bond order</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\tfrac{1}{2}(N_b - N_a)$; 0 to no molecule</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{O}_2$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>paramagnetic (2 unpaired $e^-$)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Polarity</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{H}_2\\text{O}$ polar; $\\text{CO}_2$ non-polar</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Hydrogen bond</td><td style='border:1px solid #dcfce7;padding:6px 10px'>H with N, O, F; DNA, proteins, water</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Calculate the bond order of $\\text{O}_2$ given $N_b = 10$ and $N_a = 6$.</p>",
+              "solution": "<p>Bond order $= \\tfrac{1}{2}(N_b - N_a) = \\tfrac{1}{2}(10 - 6) = 2$. (MOT also shows two unpaired electrons, so $\\text{O}_2$ is paramagnetic.)</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why does water have a much higher boiling point than $\\text{H}_2\\text{S}$?</p>",
+              "solution": "<p>Water molecules form extensive intermolecular <strong>hydrogen bonds</strong> (O is small and very electronegative), which require extra energy to break; $\\text{H}_2\\text{S}$ has only weak van der Waals forces, so it boils much lower.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Bond order in MOT is given by:</p>", "options": ["$N_b - N_a$", "$\\tfrac{1}{2}(N_b - N_a)$", "$N_b + N_a$", "$N_a - N_b$"], "correct": 1, "explanation": "Bond order $= \\tfrac{1}{2}(N_b - N_a)$." },
+            { "q": "<p>$\\text{O}_2$ is paramagnetic because it has:</p>", "options": ["no electrons", "two unpaired electrons", "a bond order of 3", "only sigma bonds"], "correct": 1, "explanation": "Two unpaired electrons in $\\pi^*$ orbitals." },
+            { "q": "<p>$\\text{CO}_2$ is non-polar because it is:</p>", "options": ["bent", "linear with cancelling dipoles", "ionic", "paramagnetic"], "correct": 1, "explanation": "Linear shape cancels the bond dipoles." },
+            { "q": "<p>Hydrogen bonding occurs when H is bonded to:</p>", "options": ["C, Si", "N, O, F", "Cl, Br", "Na, K"], "correct": 1, "explanation": "Small, electronegative N, O, F." },
+            { "q": "<p>Hydrogen bonds hold together the two strands of:</p>", "options": ["starch", "DNA", "glucose", "table salt"], "correct": 1, "explanation": "Base-pair hydrogen bonds stabilise the DNA double helix." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Bond order $= \\tfrac{1}{2}(N_b - N_a)$; zero means no molecule ($\\text{He}_2$). MOT explains $\\text{O}_2$ paramagnetism. Hydrogen bonding (N/O/F-H) underlies water's properties, DNA and proteins.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-chemistry-ch4-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct & Statement-based)",
+          "questions": [
+            { "q": "<p>An ionic bond is formed between:</p>", "options": ["two non-metals", "a metal and a non-metal", "two metals", "noble gases"], "correct": 1, "explanation": "Electron transfer from metal to non-metal." },
+            { "q": "<p>The shape of $\\text{NH}_3$ is:</p>", "options": ["trigonal planar", "pyramidal", "tetrahedral", "linear"], "correct": 1, "explanation": "One lone pair makes it pyramidal." },
+            { "q": "<p>The hybridisation of carbon in $\\text{C}_2\\text{H}_4$ (ethene) is:</p>", "options": ["$sp$", "$sp^2$", "$sp^3$", "$sp^3d$"], "correct": 1, "explanation": "3 sigma + 1 pi to $sp^2$." },
+            { "q": "<p>Statements: (I) $\\text{O}_2$ is paramagnetic. (II) $\\text{CO}_2$ is non-polar. Which are correct?</p>", "options": ["only I", "only II", "both I and II", "neither"], "correct": 2, "explanation": "Both are correct." },
+            { "q": "<p>The bond angle in water is approximately:</p>", "options": ["$120^{\\circ}$", "$109.5^{\\circ}$", "$107^{\\circ}$", "$104.5^{\\circ}$"], "correct": 3, "explanation": "Two lone pairs compress it to $104.5^{\\circ}$." },
+            { "q": "<p>A triple bond consists of:</p>", "options": ["3 sigma bonds", "1 sigma + 2 pi", "2 sigma + 1 pi", "3 pi bonds"], "correct": 1, "explanation": "1 sigma + 2 pi." },
+            { "q": "<p>Which molecule has an expanded octet?</p>", "options": ["$\\text{CH}_4$", "$\\text{NH}_3$", "$\\text{SF}_6$", "$\\text{H}_2\\text{O}$"], "correct": 2, "explanation": "Sulphur in $\\text{SF}_6$ holds 12 electrons." },
+            { "q": "<p>The strongest intermolecular force in water is:</p>", "options": ["London force", "dipole-dipole", "hydrogen bonding", "ionic"], "correct": 2, "explanation": "Hydrogen bonding dominates in water." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> The bond angle in $\\text{H}_2\\text{O}$ is less than in $\\text{NH}_3$.<br><strong>R:</strong> Oxygen in water has two lone pairs, causing greater repulsion than the single lone pair in ammonia.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "More lone pairs in water compress the angle further — R explains A." },
+            { "q": "<p><strong>A:</strong> $\\text{O}_2$ is paramagnetic.<br><strong>R:</strong> Molecular orbital theory places two unpaired electrons in the antibonding $\\pi^*$ orbitals of $\\text{O}_2$.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The unpaired $\\pi^*$ electrons are exactly why $\\text{O}_2$ is paramagnetic — R explains A." },
+            { "q": "<p><strong>A:</strong> $\\text{CO}_2$ is a polar molecule.<br><strong>R:</strong> The $\\text{C}=\\text{O}$ bonds in $\\text{CO}_2$ are polar.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "$\\text{CO}_2$ is linear so the dipoles cancel — it is non-polar (A false); the bonds themselves are polar (R true)." },
+            { "q": "<p><strong>A:</strong> Water has an unusually high boiling point for its molar mass.<br><strong>R:</strong> Water molecules are held together by intermolecular hydrogen bonds.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Hydrogen bonding raises the boiling point — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

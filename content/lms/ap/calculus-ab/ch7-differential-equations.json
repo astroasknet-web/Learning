@@ -1,0 +1,771 @@
+{
+  "exam": "ap",
+  "subject": "calculus-ab",
+  "chapter": 7,
+  "title": "Differential Equations",
+  "slug": "differential-equations",
+  "subtitle": "AP Calculus AB — Unit 7",
+  "level": "AP Calculus AB",
+  "color": "#ef4444",
+  "icon": "math",
+  "seo": {
+    "title": "Differential Equations — AP Calculus AB | GrowQR",
+    "meta_description": "Master Differential Equations for AP Calculus AB: notes, formulas, worked examples, self-check MCQs and mock tests. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Foundations & Definitions",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Overview, Objectives & Key Definitions",
+          "concept": "<h2>Unit Overview</h2>\n<p>A <strong>differential equation</strong> relates a function to its derivative(s). This unit is about <em>modeling change</em> and <em>recovering a function from its rate</em>. You will interpret and build models, visualize solution behavior with <strong>slope fields</strong>, verify solutions, and solve the one algebraic type AP AB requires — <strong>separable</strong> equations — including <strong>initial-value problems</strong> and the important applications of <strong>exponential growth/decay</strong> and <strong>logistic growth</strong>.</p>\n<blockquote>\n<p><strong>Scope note.</strong> AP Calculus AB covers <em>separable</em> first-order equations, slope fields, and growth/decay/logistic models. It does <strong>not</strong> require integrating factors, homogeneous or second-order equations (those are JEE / Class-12 topics). This study guide and its question bank are scoped to AP AB.</p>\n</blockquote>\n<p><strong>Big picture:</strong> Separate the variables, integrate both sides, then use an <strong>initial condition</strong> to pin down the constant.</p>\n<hr>\n<h2>Learning Objectives</h2>\n<ul>\n<li>Interpret and <strong>build differential-equation models</strong> from a verbal description.</li>\n<li><strong>Verify</strong> whether a given function solves a differential equation.</li>\n<li>Sketch and read <strong>slope fields</strong>; match a slope field to its equation.</li>\n<li>Solve <strong>separable</strong> equations and <strong>initial-value problems</strong>.</li>\n<li>Model and analyze <strong>exponential growth and decay</strong> (including half-life / doubling time).</li>\n<li>Understand the <strong>logistic</strong> model and its carrying capacity.</li>\n</ul>\n<hr>\n<h2>Prerequisite Concepts</h2>\n<ul>\n<li>Antiderivatives and u-substitution (Unit 6).</li>\n<li>Properties of <code>e^x</code> and <code>ln</code>.</li>\n<li>Interpreting derivatives as rates (Unit 4).</li>\n</ul>\n<hr>\n<h2>Key Definitions</h2>\n<ul>\n<li><strong>Differential equation:</strong> an equation involving a function and its derivative(s).</li>\n<li><strong>General solution:</strong> a family of solutions containing an arbitrary constant C.</li>\n<li><strong>Particular solution:</strong> a specific solution determined by an <strong>initial condition</strong>.</li>\n<li><strong>Slope field (direction field):</strong> a grid of short segments whose slopes equal <code>dy/dx</code> at each point, suggesting solution curves.</li>\n<li><strong>Equilibrium solution:</strong> a constant solution where <code>dy/dx = 0</code>.</li>\n<li><strong>Carrying capacity (M):</strong> the limiting value a logistic population approaches.</li>\n</ul>\n<hr>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "A population grows at a rate proportional to its size. Which differential equation models this?",
+              "options": [
+                "dP/dt = kP",
+                "dP/dt = k",
+                "dP/dt = k/P",
+                "dP/dt = kt"
+              ],
+              "correct": 0,
+              "explanation": "\"Rate proportional to size\" means the derivative dP/dt is a constant k times P, giving dP/dt = kP."
+            },
+            {
+              "q": "To verify that a function is a solution of a differential equation, you should:",
+              "options": [
+                "substitute the function and its derivatives into the equation and check it holds",
+                "integrate the function once",
+                "graph the function",
+                "find its maximum"
+              ],
+              "correct": 0,
+              "explanation": "A function is a solution if substituting it (and its derivatives) into the differential equation produces a true statement."
+            },
+            {
+              "q": "The first step in solving a separable differential equation dy/dx = g(x)h(y) is to:",
+              "options": [
+                "separate variables so all y-terms are with dy and all x-terms with dx",
+                "differentiate both sides",
+                "take the second derivative",
+                "set dy/dx = 0"
+              ],
+              "correct": 0,
+              "explanation": "Separation of variables rearranges the equation to (1/h(y)) dy = g(x) dx, then both sides are integrated."
+            },
+            {
+              "q": "The general solution of the exponential growth equation dy/dt = ky is:",
+              "options": [
+                "y = y0 e^(kt)",
+                "y = y0 + kt",
+                "y = kt^2",
+                "y = y0 t^k"
+              ],
+              "correct": 0,
+              "explanation": "The exponential model dy/dt = ky has solution y = y0 e^(kt), where y0 is the initial amount."
+            },
+            {
+              "q": "A differential equation is an equation that relates a function to:",
+              "options": [
+                "one or more of its derivatives",
+                "only constants",
+                "its inverse",
+                "an integral only"
+              ],
+              "correct": 0,
+              "explanation": "A differential equation involves an unknown function together with one or more of its derivatives."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Theorems & Formulas",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Important Theorems & Formulas",
+          "concept": "<h2>Important Models &amp; Results</h2>\n<p><strong>Exponential model:</strong> <code>dy/dt = k y ⟹ y = y₀ e^(kt)</code> (growth if k &gt; 0, decay if k &lt; 0).</p>\n<ul>\n<li><strong>Half-life</strong> h: from <code>e^(kh) = 1/2</code>, <code>k = −(ln 2)/h</code>.</li>\n<li><strong>Doubling time</strong> d: from <code>e^(kd) = 2</code>, <code>k = (ln 2)/d</code>.</li>\n</ul>\n<p><strong>Logistic model:</strong> <code>dP/dt = k P (1 − P/M)</code>.</p>\n<ul>\n<li>Equilibria: <code>P = 0</code> and <code>P = M</code>.</li>\n<li>Growth is <strong>fastest at P = M/2</strong> (the solution curve&#39;s inflection point).</li>\n<li>As <code>t → ∞</code>, <code>P → M</code>.</li>\n</ul>\n<p><strong>Newton&#39;s Law of Cooling:</strong> <code>dT/dt = k(T − A)</code> (A = ambient temperature; equilibrium T = A).</p>\n<hr>\n<h2>Method: Separation of Variables</h2>\n<p>To solve <code>dy/dx = g(x) h(y)</code>:</p>\n<ol>\n<li><strong>Separate:</strong> <code>dy / h(y) = g(x) dx</code>.</li>\n<li><strong>Integrate both sides</strong> (one <code>+ C</code> suffices).</li>\n<li><strong>Solve for y</strong> if possible.</li>\n<li>Apply the <strong>initial condition</strong> to find C (particular solution).</li>\n</ol>\n<hr>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "A curve has the property that the slope of the tangent at any point is twice the slope of the line joining that point to the origin. The differential equation is:",
+              "options": [
+                "dy/dx = 2y/x",
+                "dy/dx = 2x/y",
+                "dy/dx = 2xy",
+                "dy/dx = y/(2x)"
+              ],
+              "correct": 0,
+              "explanation": "The slope of the line to the origin is y/x. Twice this is 2y/x, so dy/dx = 2y/x. (Adapted from the GrowQR JEE bank; its solution is the parabola family y = Cx^2.)"
+            },
+            {
+              "q": "Newton's Law of Cooling says an object's temperature changes at a rate proportional to the difference between the object's temperature T and the ambient temperature A. The model is:",
+              "options": [
+                "dT/dt = k(T - A)",
+                "dT/dt = kT",
+                "dT/dt = k(A - t)",
+                "dT/dt = kTA"
+              ],
+              "correct": 0,
+              "explanation": "The rate of temperature change is proportional to the temperature difference (T - A), giving dT/dt = k(T - A)."
+            },
+            {
+              "q": "Verify: is y = e^(2x) a solution of dy/dx = 2y?",
+              "options": [
+                "Yes, because dy/dx = 2e^(2x) = 2y",
+                "No",
+                "Only at x = 0",
+                "Cannot be determined"
+              ],
+              "correct": 0,
+              "explanation": "If y = e^(2x), then dy/dx = 2e^(2x). Since 2y = 2e^(2x), the equation dy/dx = 2y holds for all x."
+            },
+            {
+              "q": "Is y = sin(x) a solution of the differential equation y'' + y = 0?",
+              "options": [
+                "Yes, since y'' = -sin(x) and y'' + y = 0",
+                "No",
+                "Only for x > 0",
+                "Only if y = cos(x)"
+              ],
+              "correct": 0,
+              "explanation": "y = sin(x) gives y'' = -sin(x). Then y'' + y = -sin(x) + sin(x) = 0, so it is a solution."
+            },
+            {
+              "q": "For the slope field of dy/dx = x, along the vertical line x = 2 all the slope segments have slope:",
+              "options": [
+                "2",
+                "0",
+                "varies with y",
+                "1"
+              ],
+              "correct": 0,
+              "explanation": "Since dy/dx = x depends only on x, at x = 2 every segment (for all y) has slope 2."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Concepts & Worked Examples",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Concept Explanations & Solved Examples",
+          "concept": "<h2>Concept Explanations</h2>\n<p><strong>Modeling (7.1, 7.8).</strong> Translate phrases into equations: &quot;rate proportional to amount&quot; → <code>dy/dt = ky</code>; &quot;proportional to the difference from A&quot; → <code>dy/dt = k(y − A)</code>; &quot;rate proportional to amount and to room left&quot; → logistic. Watch signs (decay/depreciation ⇒ k &lt; 0).</p>\n<p><strong>Verifying solutions (7.2).</strong> Substitute the candidate (and its derivatives) into the equation and check it holds. <code>y = Cx²</code> solves <code>x·y&#39; = 2y</code> for every C — the general solution.</p>\n<p><strong>Slope fields (7.3).</strong> At each point, plot a segment with slope <code>dy/dx</code>. If <code>dy/dx</code> depends only on x, segments in a vertical column are identical; only on y, identical along horizontal rows. Segments are horizontal where <code>dy/dx = 0</code> (e.g., along y-axis for <code>dy/dx = y</code>). Solution curves <em>flow along</em> the segments.</p>\n<p><strong>Separation &amp; IVPs (7.4–7.5).</strong> Most AP DE work is separable. After separating and integrating, use the initial point to determine C, then simplify. Example: <code>dy/dx = x/y, y(1) = 1</code> → <code>y² = x² + C</code> → C = 0 → <code>y = x</code> (the branch through (1,1)).</p>\n<p><strong>Growth/decay &amp; logistic (7.6–7.7).</strong> Recognize the exponential model instantly and use half-life/doubling relationships. For logistic, remember the population accelerates until M/2, then decelerates toward the carrying capacity.</p>\n<hr>\n<h2>Worked Examples</h2>\n<p><strong>Example 1 (Separable).</strong> <code>dy/dx = e^(x−y)</code> → <code>e^y dy = e^x dx</code> → <code>e^y = e^x + C</code>.</p>\n<p><strong>Example 2 (Separable, harder).</strong> <code>x(1 + y²)dx + y(1 + x²)dy = 0</code> → <code>x/(1+x²)dx + y/(1+y²)dy = 0</code> → <code>(1/2)ln(1+x²) + (1/2)ln(1+y²) = C₁</code> → <code>(1 + x²)(1 + y²) = C</code>. <em>(from the GrowQR NCERT/JEE bank)</em></p>\n<p><strong>Example 3 (IVP).</strong> <code>dy/dx = 2xy, y(0) = 3</code> → <code>ln|y| = x² + C₁</code> → <code>y = Ce^(x²)</code>, and y(0) = 3 gives <code>y = 3e^(x²)</code>.</p>\n<p><strong>Example 4 (Half-life).</strong> A substance halves in 10 years: <code>e^(−10k) = 1/2</code> → <code>k = (ln 2)/10</code>. <em>(from the GrowQR NCERT/JEE bank)</em></p>\n<p><strong>Example 5 (Logistic reasoning).</strong> <code>dP/dt = 0.5 P(1 − P/200)</code> grows fastest at <code>P = 100 (= M/2)</code> and levels off near 200.</p>\n<p><strong>Example 6 (Slope field to solution).</strong> <code>dy/dx = −x/y</code> → <code>y dy = −x dx</code> → <code>x² + y² = C</code>: the solution curves are <strong>circles</strong> centered at the origin.</p>\n<hr>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "For dy/dx = y, where in the slope field are the segments horizontal?",
+              "options": [
+                "along the x-axis (y = 0)",
+                "along the y-axis (x = 0)",
+                "everywhere",
+                "nowhere"
+              ],
+              "correct": 0,
+              "explanation": "Segments are horizontal where dy/dx = 0. Here dy/dx = y = 0 along the x-axis."
+            },
+            {
+              "q": "A slope field is a graphical representation that shows:",
+              "options": [
+                "short segments whose slopes equal dy/dx at each point",
+                "the exact solution curve only",
+                "the area under a curve",
+                "the second derivative"
+              ],
+              "correct": 0,
+              "explanation": "A slope field draws a small segment at each point with slope given by the differential equation, suggesting the shape of solution curves."
+            },
+            {
+              "q": "Solve the separable equation dy/dx = x/y.",
+              "options": [
+                "y^2 = x^2 + C",
+                "y = x^2 + C",
+                "y^2 = 2x + C",
+                "ln y = x + C"
+              ],
+              "correct": 0,
+              "explanation": "Separate: y dy = x dx. Integrate: y^2/2 = x^2/2 + C1, so y^2 = x^2 + C."
+            },
+            {
+              "q": "Solve dy/dx = e^(x - y).",
+              "options": [
+                "e^y = e^x + C",
+                "e^y = e^(-x) + C",
+                "y = e^x + C",
+                "e^(-y) = e^x + C"
+              ],
+              "correct": 0,
+              "explanation": "Write dy/dx = e^x e^(-y). Separate: e^y dy = e^x dx. Integrate: e^y = e^x + C. (Adapted from the GrowQR NCERT/JEE bank.)"
+            },
+            {
+              "q": "Solve dy/dx = ky (k constant).",
+              "options": [
+                "y = C e^(kx)",
+                "y = kx + C",
+                "y = C x^k",
+                "y = e^(kx) + C"
+              ],
+              "correct": 0,
+              "explanation": "Separate: dy/y = k dx. Integrate: ln|y| = kx + C1, so y = C e^(kx)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Graphs, Pitfalls & AP Exam Tips",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Graphical Interpretation, Common Mistakes & Tips",
+          "concept": "<h2>Graphical Interpretation</h2>\n<ul>\n<li>A <strong>slope field</strong> is the &quot;flow&quot; of all solution curves; a particular solution threads through the field from its initial point.</li>\n<li><strong>Exponential growth</strong> curves upward ever-faster; <strong>decay</strong> falls toward 0.</li>\n<li>The <strong>logistic</strong> curve is S-shaped (sigmoidal): concave up below M/2, concave down above, with a horizontal asymptote at M.</li>\n</ul>\n<hr>\n<h2>Common Mistakes</h2>\n<ul>\n<li><strong>Forgetting the constant C</strong> (and hence unable to apply the initial condition).</li>\n<li><strong>Integrating without separating</strong> — variables must be fully separated first.</li>\n<li><strong>Sign errors on decay</strong> (k must be negative) and on <code>∫ dy/y = ln|y|</code>.</li>\n<li><strong>Logistic mix-ups:</strong> fastest growth is at <strong>M/2</strong>, not at M or at the start.</li>\n<li><strong>Trying non-AB methods</strong> (integrating factors, homogeneous substitutions) on the exam — AB expects separable solutions.</li>\n</ul>\n<hr>\n<h2>AP Exam Tips</h2>\n<ul>\n<li>Show the <strong>separation</strong> and the <strong>integration step with + C</strong> on free-response — both earn points.</li>\n<li>After finding the general solution, <strong>apply the initial condition immediately</strong> to get the particular solution.</li>\n<li>For slope-field items, reason from <strong>where dy/dx is 0 or constant</strong>.</li>\n<li>Know the <strong>exponential solution <code>y = y₀e^(kt)</code></strong> and half-life/doubling relations without re-deriving them.</li>\n<li>State logistic facts (equilibria 0 and M; fastest growth at M/2; limit M).</li>\n</ul>\n<hr>\n<h2>Unit Summary</h2>\n<ul>\n<li>A differential equation models change; <strong>separation of variables</strong> is the AB solving method.</li>\n<li><strong>General solution</strong> (with C) → apply <strong>initial condition</strong> → <strong>particular solution</strong>.</li>\n<li><strong>Exponential:</strong> <code>y = y₀e^(kt)</code>; use half-life/doubling to find k.</li>\n<li><strong>Logistic:</strong> equilibria 0 and M, fastest growth at M/2, limit M.</li>\n<li><strong>Slope fields</strong> visualize solution behavior without solving.</li>\n</ul>\n<p><em>Next unit:</em> using integrals for <strong>area, volume, average value, and motion</strong>.</p>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "A radioactive substance decays at a rate proportional to the amount present. If y is the amount, the correct model is:",
+              "options": [
+                "dy/dt = -ky, k > 0",
+                "dy/dt = ky, k > 0",
+                "dy/dt = -k",
+                "dy/dt = -k/y"
+              ],
+              "correct": 0,
+              "explanation": "Decay means the amount decreases, so the proportional model has a negative constant: dy/dt = -ky with k > 0."
+            },
+            {
+              "q": "For which value of r is y = e^(rx) a solution of y'' - 5y' + 6y = 0?",
+              "options": [
+                "r = 2 or r = 3",
+                "r = -2 or -3",
+                "r = 1 or 6",
+                "r = 5"
+              ],
+              "correct": 0,
+              "explanation": "Substituting y = e^(rx) gives (r^2 - 5r + 6)e^(rx) = 0, so r^2 - 5r + 6 = (r - 2)(r - 3) = 0, giving r = 2 or r = 3."
+            },
+            {
+              "q": "A slope field shows segments with slope 0 along the line y = x and positive slopes above it. Which equation could produce it?",
+              "options": [
+                "dy/dx = y - x",
+                "dy/dx = x - y",
+                "dy/dx = xy",
+                "dy/dx = x + y"
+              ],
+              "correct": 0,
+              "explanation": "dy/dx = y - x is 0 when y = x, and positive when y > x (above the line y = x), matching the description."
+            },
+            {
+              "q": "Solve the separable equation x(1 + y^2) dx + y(1 + x^2) dy = 0.",
+              "options": [
+                "(1 + x^2)(1 + y^2) = C",
+                "(1 + x^2) + (1 + y^2) = C",
+                "x^2 + y^2 = C",
+                "arctan(x) + arctan(y) = C"
+              ],
+              "correct": 0,
+              "explanation": "Separate: x/(1+x^2) dx + y/(1+y^2) dy = 0. Integrate: (1/2)ln(1+x^2) + (1/2)ln(1+y^2) = C1, so (1+x^2)(1+y^2) = C. (Adapted from the GrowQR NCERT/JEE bank.)"
+            },
+            {
+              "q": "Solve dy/dx = y with y(0) = 2, and find y(1).",
+              "options": [
+                "2e",
+                "e",
+                "2",
+                "e^2"
+              ],
+              "correct": 0,
+              "explanation": "The solution is y = C e^x; y(0) = 2 gives C = 2, so y = 2e^x. Then y(1) = 2e."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "differential-equations-test-1",
+      "title": "Practice Set A",
+      "level": "Standard",
+      "time_limit_minutes": 30,
+      "total": 20,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Multiple Choice",
+          "questions": [
+            {
+              "q": "Which of the following is a separable differential equation?",
+              "options": [
+                "dy/dx = x y",
+                "dy/dx = x + y",
+                "dy/dx = sin(x + y)",
+                "dy/dx = x/(x + y)"
+              ],
+              "correct": 0,
+              "explanation": "dy/dx = xy separates as dy/y = x dx. The others cannot be written as a product of a function of x times a function of y."
+            },
+            {
+              "q": "A solution of a differential equation that contains an arbitrary constant is called:",
+              "options": [
+                "the general solution",
+                "a particular solution",
+                "an equilibrium solution",
+                "a singular solution"
+              ],
+              "correct": 0,
+              "explanation": "The general solution includes an arbitrary constant and represents the whole family of solution curves."
+            },
+            {
+              "q": "The order of a differential equation is:",
+              "options": [
+                "the highest derivative that appears in it",
+                "the number of terms",
+                "the power of y",
+                "the value of the constant"
+              ],
+              "correct": 0,
+              "explanation": "The order is determined by the highest-order derivative present (e.g., dy/dx is first order; d^2y/dx^2 is second order)."
+            },
+            {
+              "q": "Solve dy/dx = 6x^2 y.",
+              "options": [
+                "y = C e^(2x^3)",
+                "y = C e^(6x^3)",
+                "y = C e^(2x^2)",
+                "y = 2x^3 + C"
+              ],
+              "correct": 0,
+              "explanation": "Separate: dy/y = 6x^2 dx. Integrate: ln|y| = 2x^3 + C1, so y = C e^(2x^3)."
+            },
+            {
+              "q": "Solve the initial-value problem dy/dx = x/y with y(1) = 1. (Take the branch through (1,1).)",
+              "options": [
+                "y = x",
+                "y = x^2",
+                "y = sqrt(x)",
+                "y = 1/x"
+              ],
+              "correct": 0,
+              "explanation": "Separating gives y^2 = x^2 + C. Applying y(1) = 1: 1 = 1 + C, so C = 0 and y^2 = x^2. Through (1,1) the solution branch is y = x. (Adapted from the GrowQR NCERT/JEE bank.)"
+            },
+            {
+              "q": "Solve dy/dx = 2xy with y(0) = 3.",
+              "options": [
+                "y = 3 e^(x^2)",
+                "y = 3 e^(2x)",
+                "y = e^(x^2) + 3",
+                "y = 3x^2"
+              ],
+              "correct": 0,
+              "explanation": "Separate: dy/y = 2x dx, so ln|y| = x^2 + C1 and y = C e^(x^2). Using y(0) = 3 gives C = 3, so y = 3 e^(x^2)."
+            },
+            {
+              "q": "A particular solution of a differential equation is one that:",
+              "options": [
+                "satisfies a given initial condition (a specific value of C)",
+                "contains an arbitrary constant",
+                "is always y = 0",
+                "has no derivative"
+              ],
+              "correct": 0,
+              "explanation": "The general solution contains an arbitrary constant; applying an initial condition determines that constant, yielding a particular solution."
+            },
+            {
+              "q": "A substance decays with a half-life of 10 years. The decay constant k in y = y0 e^(-kt) is:",
+              "options": [
+                "(ln 2)/10",
+                "10 ln 2",
+                "ln 2",
+                "0.5"
+              ],
+              "correct": 0,
+              "explanation": "Half-life: (1/2)y0 = y0 e^(-k*10), so e^(-10k) = 1/2, giving 10k = ln 2 and k = (ln 2)/10. (Adapted from the GrowQR NCERT/JEE bank.)"
+            },
+            {
+              "q": "A bacteria culture doubles every 3 hours and follows exponential growth. The growth constant k is:",
+              "options": [
+                "(ln 2)/3",
+                "3 ln 2",
+                "ln 2",
+                "2/3"
+              ],
+              "correct": 0,
+              "explanation": "Doubling time: 2 y0 = y0 e^(3k), so e^(3k) = 2 and k = (ln 2)/3."
+            },
+            {
+              "q": "If a quantity grows exponentially and triples in 5 years, its value after 10 years (starting from A0) is:",
+              "options": [
+                "9 A0",
+                "6 A0",
+                "3 A0",
+                "A0 e^5"
+              ],
+              "correct": 0,
+              "explanation": "Tripling every 5 years: after 10 years (two tripling periods) the amount is 3 * 3 = 9 times the initial value, 9 A0."
+            },
+            {
+              "q": "In the logistic model dP/dt = kP(1 - P/M), the constant M represents:",
+              "options": [
+                "the carrying capacity",
+                "the initial population",
+                "the growth rate",
+                "the doubling time"
+              ],
+              "correct": 0,
+              "explanation": "M is the carrying capacity, the limiting population that the model approaches as t increases."
+            },
+            {
+              "q": "In a logistic model, as t approaches infinity, the population P approaches:",
+              "options": [
+                "the carrying capacity M",
+                "0",
+                "infinity",
+                "M/2"
+              ],
+              "correct": 0,
+              "explanation": "Logistic solutions level off at the carrying capacity, so P approaches M as t approaches infinity."
+            },
+            {
+              "q": "The velocity of an object under gravity (ignoring air resistance) satisfies dv/dt = -g. If v(0) = v0, then v(t) equals:",
+              "options": [
+                "v0 - g t",
+                "v0 + g t",
+                "-g t^2",
+                "v0 e^(-gt)"
+              ],
+              "correct": 0,
+              "explanation": "Antidifferentiating dv/dt = -g gives v = -g t + C. Using v(0) = v0 gives C = v0, so v(t) = v0 - g t."
+            },
+            {
+              "q": "Is y = Cx^2 a solution of the differential equation x(dy/dx) = 2y?",
+              "options": [
+                "Yes, for every constant C",
+                "No",
+                "Only for C = 1",
+                "Only at x = 0"
+              ],
+              "correct": 0,
+              "explanation": "y = Cx^2 gives dy/dx = 2Cx, so x(dy/dx) = 2Cx^2 = 2y. The equation holds for all C, so this is the general solution."
+            },
+            {
+              "q": "Solve dy/dx = 3x^2 with y(1) = 5.",
+              "options": [
+                "y = x^3 + 4",
+                "y = x^3 + 5",
+                "y = x^3",
+                "y = 3x^3 + 2"
+              ],
+              "correct": 0,
+              "explanation": "Antidifferentiate: y = x^3 + C. Using y(1) = 5: 1 + C = 5, so C = 4 and y = x^3 + 4."
+            },
+            {
+              "q": "A colony of bacteria numbers 1000 initially and grows exponentially, reaching 4000 in 2 hours. Its size after 4 hours is:",
+              "options": [
+                "16000",
+                "8000",
+                "12000",
+                "6000"
+              ],
+              "correct": 0,
+              "explanation": "It quadruples every 2 hours (1000 -> 4000). After another 2 hours (4 total), it quadruples again: 4000 -> 16000."
+            },
+            {
+              "q": "A logistic population P(t) with carrying capacity 1000 currently has P = 400 and is increasing. As time goes on, P will:",
+              "options": [
+                "keep increasing and level off near 1000",
+                "decrease to 0",
+                "increase without bound",
+                "oscillate"
+              ],
+              "correct": 0,
+              "explanation": "Below carrying capacity, a logistic population increases and asymptotically approaches the carrying capacity of 1000."
+            },
+            {
+              "q": "Solve dy/dx = y^2 (for y not 0).",
+              "options": [
+                "y = -1/(x + C)",
+                "y = e^x + C",
+                "y = x^2 + C",
+                "y = 1/(x + C)"
+              ],
+              "correct": 0,
+              "explanation": "Separate: dy/y^2 = dx. Integrate: -1/y = x + C1, so y = -1/(x + C)."
+            },
+            {
+              "q": "Water leaks from a tank so that the volume satisfies dV/dt = -0.2V. This describes:",
+              "options": [
+                "exponential decay of the volume",
+                "linear decrease",
+                "exponential growth",
+                "constant volume"
+              ],
+              "correct": 0,
+              "explanation": "dV/dt = -0.2V is the exponential-decay model; the solution is V = V0 e^(-0.2t)."
+            },
+            {
+              "q": "For dy/dx = x + y, what is the slope of the solution curve at the point (1, 2)?",
+              "options": [
+                "3",
+                "2",
+                "1",
+                "-1"
+              ],
+              "correct": 0,
+              "explanation": "The slope is dy/dx evaluated at the point: 1 + 2 = 3."
+            }
+          ]
+        }
+      ],
+      "note": "Auto-graded practice from the Differential Equations question bank."
+    },
+    {
+      "id": "differential-equations-test-2",
+      "title": "Practice Set B",
+      "level": "Challenge",
+      "time_limit_minutes": 30,
+      "total": 20,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Multiple Choice",
+          "questions": [
+            {
+              "q": "Which situation is modeled by dy/dt = k (a constant)?",
+              "options": [
+                "a quantity changing at a constant rate",
+                "exponential growth",
+                "logistic growth",
+                "radioactive decay"
+              ],
+              "correct": 0,
+              "explanation": "A constant derivative means the quantity changes at a constant rate, giving a linear function y = kt + C."
+            },
+            {
+              "q": "Solve dy/dx = e^x with y(0) = 3.",
+              "options": [
+                "y = e^x + 2",
+                "y = e^x + 3",
+                "y = e^x",
+                "y = e^x - 2"
+              ],
+              "correct": 0,
+              "explanation": "Antidifferentiate: y = e^x + C. Using y(0) = 3: 1 + C = 3, so C = 2 and y = e^x + 2."
+            },
+            {
+              "q": "If dy/dt = 0.05y and y(0) = 200, what is y(t)?",
+              "options": [
+                "200 e^(0.05t)",
+                "200 + 0.05t",
+                "200 e^(5t)",
+                "e^(0.05t) + 200"
+              ],
+              "correct": 0,
+              "explanation": "Exponential growth solution: y = y0 e^(0.05t) = 200 e^(0.05t)."
+            },
+            {
+              "q": "Which function is a solution of dy/dx = -2y?",
+              "options": [
+                "y = e^(-2x)",
+                "y = e^(2x)",
+                "y = -2x",
+                "y = x^(-2)"
+              ],
+              "correct": 0,
+              "explanation": "y = e^(-2x) gives dy/dx = -2 e^(-2x) = -2y, satisfying the equation."
+            },
+            {
+              "q": "Solve dy/dx = (2x)/(y).",
+              "options": [
+                "y^2 = 2x^2 + C",
+                "y^2 = x^2 + C",
+                "y = x^2 + C",
+                "y = 2x^2 + C"
+              ],
+              "correct": 0,
+              "explanation": "Separate: y dy = 2x dx. Integrate: y^2/2 = x^2 + C1, so y^2 = 2x^2 + C."
+            },
+            {
+              "q": "Newton's Law of Cooling gives dT/dt = -k(T - 20) for an object cooling in a 20-degree room. The equilibrium temperature is:",
+              "options": [
+                "20 degrees",
+                "0 degrees",
+                "-20 degrees",
+                "40 degrees"
+              ],
+              "correct": 0,
+              "explanation": "Equilibrium occurs where dT/dt = 0: T - 20 = 0, so T = 20 (the object approaches room temperature)."
+            },
+            {
+              "q": "The logistic differential equation differs from exponential growth because it includes:",
+              "options": [
+                "a factor that limits growth as P approaches the carrying capacity",
+                "a negative growth rate",
+                "no proportionality constant",
+                "a second derivative"
+              ],
+              "correct": 0,
+              "explanation": "Logistic growth multiplies kP by (1 - P/M), which slows growth as P approaches the carrying capacity M."
+            },
+            {
+              "q": "Solve dy/dx = 4x^3 with y(0) = -1.",
+              "options": [
+                "y = x^4 - 1",
+                "y = x^4 + 1",
+                "y = 4x^4 - 1",
+                "y = x^4"
+              ],
+              "correct": 0,
+              "explanation": "Antidifferentiate: y = x^4 + C. Using y(0) = -1: 0 + C = -1, so y = x^4 - 1."
+            },
+            {
+              "q": "If a quantity decays exponentially to 1/4 of its value in 6 hours, its half-life is:",
+              "options": [
+                "3 hours",
+                "6 hours",
+                "1.5 hours",
+                "12 hours"
+              ],
+              "correct": 0,
+              "explanation": "Decaying to 1/4 means two successive halvings occurred in 6 hours, so each half-life is 6/2 = 3 hours."
+            },
+            {
+              "q": "In the slope field for dy/dx = 2, every segment has:",
+              "options": [
+                "the same slope of 2 (parallel segments)",
+                "slope 0",
+                "slopes that vary with x",
+                "slopes that vary with y"
+              ],
+              "correct": 0,
+              "explanation": "Since dy/dx = 2 is constant, every segment in the slope field is parallel with slope 2 (solutions are lines y = 2x + C)."
+            },
+            {
+              "q": "Solve dy/dx = 1/x (x > 0) with y(1) = 0.",
+              "options": [
+                "y = ln(x)",
+                "y = ln(x) + 1",
+                "y = 1/x",
+                "y = -1/x^2"
+              ],
+              "correct": 0,
+              "explanation": "Antidifferentiate: y = ln(x) + C. Using y(1) = 0: ln(1) + C = 0, so C = 0 and y = ln(x)."
+            },
+            {
+              "q": "Solve dy/dx = cos(x) with y(0) = 1, then find y(pi/2).",
+              "options": [
+                "2",
+                "1",
+                "0",
+                "pi/2"
+              ],
+              "correct": 0,
+              "explanation": "Antidifferentiate: y = sin(x) + C. y(0) = 1 gives C = 1, so y = sin(x) + 1. Then y(pi/2) = 1 + 1 = 2."
+            },
+            {
+              "q": "A population follows P(t) = 500 e^(0.04t). What is the population growth rate dP/dt when t = 0?",
+              "options": [
+                "20 per unit time",
+                "500 per unit time",
+                "0.04 per unit time",
+                "40 per unit time"
+              ],
+              "correct": 0,
+              "explanation": "dP/dt = 500(0.04)e^(0.04t) = 20 e^(0.04t). At t = 0, dP/dt = 20."
+            },
+            {
+              "q": "Carbon-14 has a half-life of about 5730 years. The decay model uses k equal to:",
+              "options": [
+                "(ln 2)/5730",
+                "5730 ln 2",
+                "ln(1/5730)",
+                "1/5730"
+              ],
+              "correct": 0,
+              "explanation": "From the half-life relation e^(-5730 k) = 1/2, we get k = (ln 2)/5730."
+            },
+            {
+              "q": "For the logistic equation dP/dt = 0.5 P(1 - P/200), the population grows fastest when P equals:",
+              "options": [
+                "100",
+                "200",
+                "50",
+                "0"
+              ],
+              "correct": 0,
+              "explanation": "Logistic growth is fastest at half the carrying capacity, P = M/2 = 200/2 = 100 (this is the inflection point of the solution curve)."
+            },
+            {
+              "q": "For dP/dt = kP(1 - P/M), the equilibrium solutions (where dP/dt = 0) are:",
+              "options": [
+                "P = 0 and P = M",
+                "P = M/2 only",
+                "P = k",
+                "P = 1"
+              ],
+              "correct": 0,
+              "explanation": "dP/dt = 0 when P = 0 or when 1 - P/M = 0, i.e., P = M. These are the two equilibrium (constant) solutions."
+            },
+            {
+              "q": "A tank holds 100 L of pure water. Brine with 2 g/L of salt flows in at 5 L/min (and well-mixed solution flows out at 5 L/min). If S is the salt amount, the model for dS/dt is:",
+              "options": [
+                "dS/dt = 10 - (5S/100)",
+                "dS/dt = 2 - S",
+                "dS/dt = 10 - S",
+                "dS/dt = 5S"
+              ],
+              "correct": 0,
+              "explanation": "Salt in = (2 g/L)(5 L/min) = 10 g/min. Salt out = (concentration S/100)(5 L/min) = 5S/100. So dS/dt = 10 - 5S/100. (Mixing model adapted from the GrowQR JEE bank.)"
+            },
+            {
+              "q": "A savings account grows continuously at 4% per year: dA/dt = 0.04A. If A(0) = 1000, the balance after t years is:",
+              "options": [
+                "1000 e^(0.04t)",
+                "1000(1.04)^t only",
+                "1000 + 0.04t",
+                "1000 e^(4t)"
+              ],
+              "correct": 0,
+              "explanation": "Continuous growth dA/dt = 0.04A has solution A = A0 e^(0.04t). With A0 = 1000, A(t) = 1000 e^(0.04t)."
+            },
+            {
+              "q": "Solve dy/dx = (y ln y)/x with the solution curve passing through (1, e).",
+              "options": [
+                "y = e^x",
+                "y = x^e",
+                "y = e^(x^2)",
+                "y = x"
+              ],
+              "correct": 0,
+              "explanation": "Separate: dy/(y ln y) = dx/x. Let u = ln y; du = dy/y. Then du/u = dx/x, so ln|ln y| = ln|x| + C1, giving ln y = Cx. Through (1, e): ln e = C(1), so C = 1 and ln y = x, i.e., y = e^x. (Adapted from the GrowQR JEE bank.)"
+            },
+            {
+              "q": "For the slope field of dy/dx = -x/y, the solution curves are:",
+              "options": [
+                "circles centered at the origin",
+                "straight lines",
+                "parabolas",
+                "exponential curves"
+              ],
+              "correct": 0,
+              "explanation": "Separating dy/dx = -x/y gives y dy = -x dx, so y^2/2 = -x^2/2 + C, i.e., x^2 + y^2 = C: circles centered at the origin."
+            }
+          ]
+        }
+      ],
+      "note": "A second auto-graded set covering Differential Equations."
+    }
+  ]
+}

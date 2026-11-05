@@ -1,0 +1,741 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": 25,
+  "title": "Application of Integrals",
+  "slug": "application-of-integrals",
+  "subtitle": "Integral Calculus: Applications of Integrals",
+  "level": "JEE Main & Advanced",
+  "color": "#dc2626",
+  "icon": "math",
+  "seo": {
+    "meta_description": "Master Application of Integrals for JEE Main & Advanced on GrowQR: notes, solved examples, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Planar Quadrature & Area Enclosures",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Area Under a Curve and Vertical vs. Horizontal Strip Mechanics",
+          "concept": "Planar quadrature utilizes definite integration to evaluate the geometric area enclosed by continuous curves. For a continuous function $y = f(x)$ bounded between the vertical lines $x = a$ and $x = b$, the net physical area bounded between the curve and the x-axis requires the absolute value configuration to prevent signed cancellation:\n \\[ A = \\int_a^b |f(x)| \\, dx \\]\n The evaluation can be approached using two distinct geometric setups depending on the orientation of the differential slicing strips:\n <ul>\n <li><strong>Vertical Slicing Strips (Integration with respect to $x$):</strong> Used when functions are naturally given as $y = f(x)$. The strip has width $dx$ and height $y = f(x)$. The area is $A = \\int_a^b f(x) \\, dx$.\n <li><strong>Horizontal Slicing Strips (Integration with respect to $y$):</strong> Essential when functions are easier to express as $x = g(y)$ or when a curve contains a horizontal boundary trace across the y-axis bounded by $y = c$ and $y = d$. The strip has width $dy$ and horizontal length $x = g(y)$. The area is:\n \\[ A = \\int_c^d |g(y)| \\, dy \\]\n </ul>\n A common trap in competitive exams is integrating blindly across areas where a function dips below the axis or changes its definition, which yields a wrong arithmetic result if absolute slicing is neglected.",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the area enclosed by the parabola $y^2 = 4x$ and the vertical line $x = 4$ using vertical strips, and verify the result using horizontal strips.</p>",
+              "solution": "The parabola is symmetric about the x-axis, extending from $x = 0$ to $x = 4$.\n <ul>\n <li><strong>Method 1: Vertical Strip Slicing</strong><br>\n The upper half of the parabola is given by $y = 2\\sqrt{x}$. Due to symmetry, the total area is twice the area of the upper region:\n \\[ A = 2 \\int_0^4 2\\sqrt{x} \\, dx = 4 \\int_0^4 x^{1/2} \\, dx \\]\n Integrate using the standard power rule:\n \\[ A = 4 \\left[ \\frac{x^{3/2}}{3/2} \\right]_0^4 = 4 \\cdot \\frac{2}{3} \\cdot \\left[ 4^{3/2} - 0 \\right] = \\frac{8}{3} \\cdot 8 = \\frac{64}{3} \\]\n <li><strong>Method 2: Horizontal Strip Slicing</strong><br>\n When $x = 4$, $y^2 = 4(4) = 16 \\implies y = \\pm 4$. The boundaries along the y-axis span from $y = -4$ to $y = 4$. Express the inner function as $x = \\frac{y^2}{4}$. The horizontal strip extends from the curve on the left to the line $x = 4$ on the right:\n \\[ A = \\int_{-4}^4 \\left( 4 - \\frac{y^2}{4} \\right) \\, dy \\]\n Since the integrand is an even function, we can simplify the boundaries:\n \\[ A = 2 \\int_0^4 \\left( 4 - \\frac{y^2}{4} \\right) \\, dy = 2 \\left[ 4y - \\frac{y^3}{12} \\right]_0^4 \\]\n \\[ A = 2 \\left[ 4(4) - \\frac{4^3}{12} \\right] = 2 \\left[ 16 - \\frac{64}{12} \\right] = 2 \\left[ 16 - \\frac{16}{3} \\right] = 2 \\left[ \\frac{32}{3} \\right] = \\frac{64}{3} \\]\n </ul>\n Both slicing orientations match precisely.\n <strong>Final Answer:</strong> $\\frac{64}{3}$ square units."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Find the area enclosed between the curve $y = \\ln x$, the x-axis, and the vertical bounding line $x = e$:",
+              "options": [
+                "$1$",
+                "$e - 1$",
+                "$e$",
+                "$1/e$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The area bounded by the curve $y = \\cos x$ and the x-axis between the interval boundaries $x = 0$ and $x = \\pi$ is:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "$4$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the area bounded between the curve $x = 4 - y^2$ and the vertical y-axis trace line:",
+              "options": [
+                "$16/3$",
+                "$32/3$",
+                "$8/3$",
+                "$64/3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The absolute physical area enclosed by the cubic function $y = x^3$ and the x-axis over the symmetric interval $[-1, 1]$ is:",
+              "options": [
+                "$0$",
+                "$1/4$",
+                "$1/2$",
+                "$1$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Find the area of the region bounded by the curve $y = e^x$, the line $x = 0$, and the horizontal line $y = e$ using horizontal strips:",
+              "options": [
+                "$e - 1$",
+                "$1$",
+                "$e$",
+                "$2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Area Between Two Intersecting Curves and Parametric Profiles",
+          "concept": "<p>To evaluate the area bounded between two intersecting continuous curves $y = f(x)$ and $y = g(x)$ over an interval $[a, b]$, you must first determine their exact points of intersection by solving the simultaneous system $f(x) = g(x)$. The area is given by the integral of the absolute difference between the functions:\n \\[ A = \\int_a^b |f(x) - g(x)| \\, dx \\]\n If $f(x) \\ge g(x)$ across the entire interval, this simplifies to $A = \\int_a^b (f(x) - g(x)) \\, dx$. If the curves cross each other at an interior point $c \\in (a, b)$, you must split the integral into sub-intervals to ensure you are always subtracting the lower function from the upper function.</p><p>For curves defined implicitly by <strong>parametric equations</strong> $x = x(t)$ and $y = y(t)$ as the parameter varies from $t_1$ to $t_2$, the area mapping formula is transformed using differentials ($dx = \\dot{x}(t) \\, dt$):\n \\[ A = \\int_{t_1}^{t_2} |y(t) \\cdot \\dot{x}(t)| \\, dt \\quad \\text{where } \\dot{x}(t) = \\frac{dx}{dt} \\]</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the area of the region enclosed between the two standard parabolas $y^2 = x$ and $x^2 = y$.</p>",
+              "solution": "<p>First, determine the points of intersection by substituting $y = x^2$ into the first parabola equation:\n \\[ (x^2)^2 = x \\implies x^4 - x = 0 \\implies x(x^3 - 1) = 0 \\implies x = 0 \\quad \\text{and} \\quad x = 1 \\]\n The corresponding intersection coordinates are $(0, 0)$ and $(1, 1)$. \n Within the interval $[0, 1]$, notice that the curve $y = \\sqrt{x}$ lies above the parabola $y = x^2$. Set up the area integral by subtracting the lower curve from the upper curve:\n \\[ A = \\int_0^1 \\left( \\sqrt{x} - x^2 \\right) \\, dx \\]\n Integrate both components using the standard power rule:\n \\[ A = \\left[ \\frac{x^{3/2}}{3/2} - \\frac{x^3}{3} \\right]_0^1 = \\left[ \\frac{2}{3}x^{3/2} - \\frac{1}{3}x^3 \\right]_0^1 \\]\n Evaluate across the boundaries:\n \\[ A = \\left( \\frac{2}{3}(1) - \\frac{1}{3}(1) \\right) - 0 = \\frac{1}{3} \\]\n <strong>Final Answer:</strong> $\\frac{1}{3}$ square units.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Find the area enclosed between the parabola $y = x^2$ and the linear line $y = x$:",
+              "options": [
+                "$1/2$",
+                "$1/3$",
+                "$1/6$",
+                "$1/4$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Find the area bounded by the curves $y = \\sin x$ and $y = \\cos x$ between two consecutive intersection points spanning from $x = \\pi/4$ to $x = 5\\pi/4$:",
+              "options": [
+                "$\\sqrt{2}$",
+                "$2\\sqrt{2}$",
+                "$2$",
+                "$4$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The area enclosed by the classical ellipse profile given parametrically as $x = a\\cos t$ and $y = b\\sin t$ ($t \\in [0, 2\\pi]$) is:",
+              "options": [
+                "$\\pi a^2$",
+                "$\\pi b^2$",
+                "$\\pi a b$",
+                "$2\\pi ab$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the area bounded between the parabola $y^2 = 4x$ and the linear line $y = 2x$:",
+              "options": [
+                "$1/3$",
+                "$2/3$",
+                "$1$",
+                "$4/3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the total area enclosed between the line $y = x - 1$ and the parabola $y^2 = 2x + 6$:",
+              "options": [
+                "$16$",
+                "$18$",
+                "$24$",
+                "$9$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Solid Geometry & Volumes of Revolution",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Disk, Washer, and Cylindrical Shell Integration Methods",
+          "concept": "When a planar region bounded by continuous curves is rotated $360^\\circ$ around a coordinate axis, it generates a three-dimensional <strong>solid of revolution</strong>. The volume of this solid can be calculated using three standard integration methods, chosen based on the axis of rotation and the orientation of the slicing boundaries:\n <ol>\n <li><strong>Disk Method:</strong> Used when the planar region is bounded by a single curve $y = f(x)$ and is rotated directly around the adjacent x-axis boundary. The solid is sliced into circular cross-sectional disks of radius $R = f(x)$ and thickness $dx$:\n \\[ V = \\pi \\int_a^b [f(x)]^2 \\, dx \\]\n <li><strong>Washer Method:</strong> Used when the region bounded between two nested curves $y = f(x)$ (outer curve) and $y = g(x)$ (inner curve) is rotated around the x-axis. This creates a circular cross-section with a central hole, resembling a washer. The cross-sectional area is the difference between the outer and inner circular areas:\n \\[ V = \\pi \\int_a^b \\left[ [f(x)]^2 - [g(x)]^2 \\right] \\, dx \\]\n <li><strong>Cylindrical Shell Method:</strong> An effective alternative when rotating a region bounded by a function $y = f(x)$ around the *opposite* vertical y-axis. Instead of cross-sectional disks, the region is integrated as a nested set of thin cylindrical shells of radius $x$, height $f(x)$, and thickness $dx$:\n \\[ V = 2\\pi \\int_a^b x \\cdot f(x) \\, dx \\]\n </ol>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the volume of the solid generated by rotating the region bounded by $y = x^2$, the x-axis, and the vertical lines $x = 1$ and $x = 2$ around the x-axis.</p>",
+              "solution": "<p>The region is bounded by a single curve and rotated directly around the x-axis, so we use the <strong>Disk Method</strong>:\n \\[ V = \\pi \\int_a^b [f(x)]^2 \\, dx \\]\n Substitute the function $f(x) = x^2$ and the interval boundaries $a = 1, b = 2$ into the formula:\n \\[ V = \\pi \\int_1^2 (x^2)^2 \\, dx = \\pi \\int_1^2 x^4 \\, dx \\]\n Integrate using the standard power rule:\n \\[ V = \\pi \\left[ \\frac{x^5}{5} \\right]_1^2 = \\frac{\\pi}{5} \\left[ 2^5 - 1^5 \\right] = \\frac{\\pi}{5} [32 - 1] = \\frac{31\\pi}{5} \\]\n <strong>Final Answer:</strong> $\\frac{31\\pi}{5}$ cubic units.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Find the volume of the solid generated by rotating the linear region $y = 2x$ between $x = 0$ and $x = 3$ around the x-axis using the Disk Method:",
+              "options": [
+                "$12\\pi$",
+                "$18\\pi$",
+                "$36\\pi$",
+                "$9\\pi$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Use the Washer Method to find the volume of the solid generated by rotating the region bounded by $y = x$ and $y = x^2$ around the x-axis:",
+              "options": [
+                "$\\pi/15$",
+                "$2\\pi/15$",
+                "$\\pi/5$",
+                "$4\\pi/15$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the volume of the solid generated by rotating the region bounded by $y = \\sqrt{x}$ from $x = 0$ to $x = 4$ around the vertical y-axis using the Cylindrical Shell Method:",
+              "options": [
+                "$64\\pi/5$",
+                "$128\\pi/5$",
+                "$32\\pi/3$",
+                "$64\\pi/3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Rotating a standard circular boundary region $x^2 + y^2 = R^2$ completely around its central axis generates a solid sphere. Its volume can be derived as:",
+              "options": [
+                "$\\pi R^3$",
+                "$\\frac{2}{3}\\pi R^3$",
+                "$\\frac{4}{3}\\pi R^3$",
+                "$2\\pi R^3$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Find the volume of the solid generated by rotating the region bounded by $y = e^x$ from $x = 0$ to $x = 1$ around the x-axis:",
+              "options": [
+                "$\\frac{\\pi}{2}(e^2 - 1)$",
+                "$\\pi(e^2 - 1)$",
+                "$\\frac{\\pi}{2}e^2$",
+                "$\\pi e^2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Differential Metrics & Rectification Profiles",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Arc Length Rectification in Cartesian and Parametric Forms",
+          "concept": "<strong>Rectification</strong> is the process of calculating the exact arc length of a curved path using calculus. The length $L$ of a smooth, continuously differentiable curve can be calculated by integrating a differential arc length element $ds = \\sqrt{dx^2 + dy^2}$ along the path. This differential element can be configured into two standard forms depending on how the curve is defined:\n <ul>\n <li><strong>Cartesian Form:</strong> For a curve defined explicitly as $y = f(x)$ over the interval $[a, b]$, factor out $dx$ from the differential element to express the arc length as:\n \\[ L = \\int_a^b \\sqrt{1 + \\left[ f'(x) \\right]^2} \\, dx = \\int_a^b \\sqrt{1 + \\left(\\frac{dy}{dx}\\right)^2} \\, dx \\]\n <li><strong>Parametric Form:</strong> For a curve defined implicitly by parametric coordinates $x = x(t)$ and $y = y(t)$ as the parameter varies from $t_1$ to $t_2$, factor out $dt$ to express the arc length as:\n \\[ L = \\int_{t_1}^{t_2} \\sqrt{\\left(\\frac{dx}{dt}\\right)^2 + \\left(\\frac{dy}{dt}\\right)^2} \\, dt = \\int_{t_1}^{t_2} \\sqrt{\\dot{x}^2 + \\dot{y}^2} \\, dt \\]\n </ul>\n When solving these problems, look out for algebraic simplifications. Integrands containing square roots often simplify perfectly if you look for hidden perfect square structures ($\\sqrt{1 + (f')^2} \\to \\sqrt{(u)^2} \\to u$) before attempting to integrate.",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the arc length of the parametric circle profile given by $x = a\\cos t$ and $y = a\\sin t$ as the parameter tracks from $t = 0$ to $t = 2\\pi$.</p>",
+              "solution": "<p>Compute the individual rates of change with respect to the parameter $t$:\n \\[ \\dot{x} = \\frac{dx}{dt} = -a\\sin t, \\quad \\dot{y} = \\frac{dy}{dt} = a\\cos t \\]\n Substitute these derivatives into the parametric arc length formula:\n \\[ L = \\int_0^{2\\pi} \\sqrt{(-a\\sin t)^2 + (a\\cos t)^2} \\, dt \\]\n Simplify the terms inside the radical using the standard Pythagorean trigonometric identity ($\\sin^2 t + \\cos^2 t = 1$):\n \\[ L = \\int_0^{2\\pi} \\sqrt{a^2\\sin^2 t + a^2\\cos^2 t} \\, dt = \\int_0^{2\\pi} \\sqrt{a^2(\\sin^2 t + \\cos^2 t)} \\, dt = \\int_0^{2\\pi} a \\, dt \\]\n Integrate this constant form and evaluate across the boundaries to find the perimeter circumference:\n \\[ L = a \\Big[ t \\Big]_0^{2\\pi} = a(2\\pi - 0) = 2\\pi a \\]\n <strong>Final Answer:</strong> $2\\pi a$ units.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Find the exact arc length of the linear path segment $y = \\frac{4}{3}x$ evaluated from $x = 0$ to $x = 3$:",
+              "options": [
+                "$4$",
+                "$5$",
+                "$6$",
+                "$3\\sqrt{5}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the arc length of the parametric curve defined by $x = t^2$ and $y = \\frac{2}{3}t^3$ from $t = 0$ to $t = 1$:",
+              "options": [
+                "$\\frac{2}{3}(2\\sqrt{2}-1)$",
+                "$2\\sqrt{2}-1$",
+                "$\\frac{1}{3}(2\\sqrt{2}-1)$",
+                "$\\frac{4}{3}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Which of the following equations precisely represents the integrand required to find the arc length of the curve $y = \\frac{2}{3}x^{3/2}$?",
+              "options": [
+                "$\\sqrt{1+x}$",
+                "$\\sqrt{1+x^2}$",
+                "$1+x$",
+                "$\\sqrt{1+\\frac{4}{9}x}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Compute the perimeter arc length of the semicircular path $y = \\sqrt{R^2 - x^2}$ from $x = -R$ to $x = R$:",
+              "options": [
+                "$2\\pi R$",
+                "$\\pi R$",
+                "$\\pi R^2$",
+                "$4\\pi R$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the total length of the loop of the parametric curve $x = t^3 - 3t$ and $y = 3t^2$ from $t = -\\sqrt{3}$ to $t = \\sqrt{3}$:",
+              "options": [
+                "$4\\sqrt{3}$",
+                "$12\\sqrt{3}$",
+                "$6\\sqrt{3}$",
+                "$8\\sqrt{3}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Surface Area of Solids of Revolution",
+          "concept": "<p>When a smooth curve $y = f(x)$ is rotated $360^\\circ$ around a coordinate axis, the area of the resulting outer skin is defined as its <strong>surface area of revolution</strong>. To calculate this surface area, integrate the circumference of a differential circular ring element ($2\\pi \\cdot \\text{radius}$) scaled by the differential arc length element $ds$ along the path.</p><p>For a continuously differentiable curve $y = f(x)$ bounded over the interval $[a, b]$ and rotated around the horizontal x-axis, the radius of rotation at any point is its vertical distance $y = f(x)$. The surface area is given by the integral formula:\n \\[ S = 2\\pi \\int_a^b f(x) \\cdot ds = 2\\pi \\int_a^b f(x) \\sqrt{1 + \\left[ f'(x) \\right]^2} \\, dx \\]</p><p>This formula provides an analytical method for deriving standard geometric surface areas (such as the lateral surface area of cones or spheres) by rotating basic linear or circular curves around a central axis.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Derive the surface area of a sphere of radius $R$ by rotating the upper semicircular arc $y = \\sqrt{R^2 - x^2}$ from $x = -R$ to $x = R$ around the x-axis.</p>",
+              "solution": "<p>First, calculate the derivative of the semicircular function:\n \\[ f'(x) = \\frac{d}{dx}\\left(\\sqrt{R^2 - x^2}\\right) = \\frac{-2x}{2\\sqrt{R^2 - x^2}} = -\\frac{x}{\\sqrt{R^2 - x^2}} \\]\n Square the derivative expression and substitute it into the standard arc length element:\n \\[ \\left[ f'(x) \\right]^2 = \\frac{x^2}{R^2 - x^2} \\implies 1 + \\left[ f'(x) \\right]^2 = 1 + \\frac{x^2}{R^2 - x^2} = \\frac{R^2 - x^2 + x^2}{R^2 - x^2} = \\frac{R^2}{R^2 - x^2} \\]\n Take the square root of this expression to find the differential element:\n \\[ \\sqrt{1 + \\left[ f'(x) \\right]^2} = \\frac{R}{\\sqrt{R^2 - x^2}} \\]\n Substitute this element and the function $y = \\sqrt{R^2 - x^2}$ into the surface area formula:\n \\[ S = 2\\pi \\int_{-R}^R \\left(\\sqrt{R^2 - x^2}\\right) \\cdot \\frac{R}{\\sqrt{R^2 - x^2}} \\, dx \\]\n Notice that the radical terms cancel out perfectly, leaving a simple constant integrand:\n \\[ S = 2\\pi \\int_{-R}^R R \\, dx = 2\\pi R \\Big[ x \\Big]_{-R}^R = 2\\pi R \\left[ R - (-R) \\right] = 2\\pi R [2R] = 4\\pi R^2 \\]\n <strong>Final Answer:</strong> $4\\pi R^2$ square units.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Find the surface area generated by rotating the line segment $y = x$ from $x = 0$ to $x = 1$ around the horizontal x-axis:",
+              "options": [
+                "$\\pi\\sqrt{2}$",
+                "$2\\pi\\sqrt{2}$",
+                "$\\frac{\\pi}{\\sqrt{2}}$",
+                "$2\\pi$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The formula used to calculate the surface area of revolution generated by rotating a smooth curve around the horizontal x-axis is:",
+              "options": [
+                "$\\int 2\\pi x \\sqrt{1+(f')^2} \\, dx$",
+                "$\\int \\pi y^2 \\, dx$",
+                "$\\int 2\\pi y \\sqrt{1+(f')^2} \\, dx$",
+                "$\\int 2\\pi x y \\, dx$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Find the surface area generated by rotating the curve $y = 2x$ from $x = 0$ to $x = 2$ around the x-axis:",
+              "options": [
+                "$4\\pi\\sqrt{5}$",
+                "$8\\pi\\sqrt{5}$",
+                "$16\\pi\\sqrt{5}$",
+                "$2\\pi\\sqrt{5}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the surface area of the solid generated by rotating the upper half of the loop of the curve $9y^2 = x(3-x)^2$ around the x-axis from $x = 0$ to $x = 3$:",
+              "options": [
+                "$3\\pi$",
+                "$6\\pi$",
+                "$9\\pi$",
+                "$12\\pi$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a vertical line segment of length $H$ located at a distance $R$ from the origin is rotated around the vertical y-axis, it generates a cylinder. Its lateral surface area can be derived as:",
+              "options": [
+                "$\\pi R H$",
+                "$2\\pi R H$",
+                "$2\\pi R^2 H$",
+                "$4\\pi R H$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-math-application-of-integrals-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "Find the area of the region bounded by the curve $y^2 = x$, the line $y = x - 2$, and the x-axis in the first quadrant.",
+              "options": [
+                "$10/3$",
+                "$16/3$",
+                "$7/3$",
+                "$8/3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The area bounded by the curve $y = \\sin x$ and the x-axis between the interval boundaries $x = 0$ and $x = 2\\pi$ is:",
+              "options": [
+                "$2$",
+                "$0$",
+                "$4$",
+                "$1$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Find the volume of the solid generated by rotating the region bounded by $y = \\sqrt{a^2-x^2}$ from $x = -a$ to $x = a$ around the x-axis using the Disk Method.",
+              "options": [
+                "$\\frac{4}{3}\\pi a^3$",
+                "$\\frac{2}{3}\\pi a^3$",
+                "$\\pi a^3$",
+                "$2\\pi a^3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The area enclosed by the standard circle profile defined parametrically as $x = R\\cos t$ and $y = R\\sin t$ ($t \\in [0, 2\\pi]$) evaluates to:",
+              "options": [
+                "$2\\pi R$",
+                "$\\pi R^2$",
+                "$\\frac{4}{3}\\pi R^3$",
+                "$2\\pi R^2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the area of the region enclosed between the curve $y = x^2$ and the line $y = 4$.",
+              "options": [
+                "$32/3$",
+                "$16/3$",
+                "$64/3$",
+                "$8/3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the volume of the solid generated by rotating the region bounded by $y = x^3$, the x-axis, and the line $x = 1$ around the horizontal x-axis.",
+              "options": [
+                "$\\pi/4$",
+                "$\\pi/7$",
+                "$\\pi/3$",
+                "$\\pi/6$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Calculate the arc length of the curve $y = \\frac{2}{3}(x-1)^{3/2}$ evaluated from $x = 1$ to $x = 4$.",
+              "options": [
+                "$14/3$",
+                "$16/3$",
+                "$7/3$",
+                "$8/3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the area enclosed between the loop of the curve $y^2 = x^2(1-x)$.",
+              "options": [
+                "$8/15$",
+                "$4/15$",
+                "$2/15$",
+                "$16/15$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the volume of the solid generated by rotating the region bounded by $y = 2x - x^2$ and the x-axis around the horizontal x-axis.",
+              "options": [
+                "$16\\pi/15$",
+                "$32\\pi/15$",
+                "$8\\pi/15$",
+                "$4\\pi/5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the area bounded by the curves $y = \\ln x$, $y = 0$, and $x = e$ using horizontal strips.",
+              "options": [
+                "$e - 1$",
+                "$1$",
+                "$e$",
+                "$1/e$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Find the value of the integer parameter $k$ if the area enclosed between the curves $y^2 = kx$ and $x^2 = ky$ is exactly $3$ square units.",
+              "answer": "3",
+              "explanation": ""
+            },
+            {
+              "q": "Calculate the total number of intersection points located in the first quadrant for the two curve profiles $y = \\sin x$ and $y = \\cos x$ within the interval $x \\in [0, 2\\pi]$.",
+              "answer": "1",
+              "explanation": ""
+            },
+            {
+              "q": "Find the value of the parameter $m$ if the area enclosed between the parabola $y^2 = 16x$ and the line $y = mx$ is exactly $\\frac{2}{3}$ square units.",
+              "answer": "8",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The area enclosed by the curve $y = f(x)$ and the x-axis between $x = -1$ and $x = 1$ for the odd function $f(x) = x^3$ evaluates to exactly 0.<br>\n <strong>Reason (R):</strong> Integrating an odd function across a symmetric interval centered at the origin always results in 0 due to signed area cancellation, but calculating physical area requires integrating the absolute value $|f(x)|$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 3,
+              "explanation": "A is false (physical area cannot be 0, $A = 2."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> The volume of the solid generated by rotating the region bounded by $y = x$ and $y = x^2$ around the horizontal x-axis can be calculated as $V = \\pi \\int_0^1 (x - x^2)^2 \\, dx$.<br>\n <strong>Reason (R):</strong> The Washer Method requires subtracting the square of the inner radius from the square of the outer radius ($R_{\\text{outer}}^2 - R_{\\text{inner}}^2$) before integrating.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 3,
+              "explanation": "A is false ($V =."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-math-application-of-integrals-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "Find the area of the region bounded by the curves $y = \\sqrt{x}$, $2y + 3 = x$, and the horizontal x-axis in the first quadrant.",
+              "options": [
+                "$9$",
+                "$6$",
+                "$27/4$",
+                "$36/5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the volume of the solid generated by rotating the region bounded by the curves $y^2 = 8x$ and $x^2 = 8y$ around the horizontal x-axis.",
+              "options": [
+                "$192\\pi/5$",
+                "$96\\pi/5$",
+                "$384\\pi/5$",
+                "$64\\pi/3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the precise area enclosed by the astroid curve defined parametrically as $x = a\\cos^3 t$ and $y = a\\sin^3 t$ ($t \\in [0, 2\\pi]$).",
+              "options": [
+                "$\\frac{3}{8}\\pi a^2$",
+                "$\\frac{3}{4}\\pi a^2$",
+                "$\\frac{3}{2}\\pi a^2$",
+                "$\\frac{3}{16}\\pi a^2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The shortest distance between the non-intersecting smooth curves $y = x^2 + 2$ and $y = x$ corresponds geometrically to the path:",
+              "options": [
+                "Perpendicular to the tangent line at the point of closest approach",
+                "Parallel to the vertical axis trace",
+                "Along their common normal vector line",
+                "Connecting their horizontal intercepts"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Find the arc length of the catenary curve $y = c\\cosh(x/c)$ evaluated from the origin point $x = 0$ to $x = a$.",
+              "options": [
+                "$c\\sinh(a/c)$",
+                "$c\\cosh(a/c)$",
+                "$a\\sinh(a/c)$",
+                "$c\\tanh(a/c)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the area of the region bounded by the curves $y = \\sin x$, $y = \\cos x$, and the vertical y-axis within the interval $x \\in [0, \\pi/4]$.",
+              "options": [
+                "$\\sqrt{2} - 1$",
+                "$\\sqrt{2} + 1$",
+                "$2 - \\sqrt{2}$",
+                "$1 - \\frac{1}{\\sqrt{2}}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Calculate the surface area generated by rotating the cardioid loop $r = a(1+\\cos\\theta)$ around its primary initial axis boundary line.",
+              "options": [
+                "$\\frac{32}{5}\\pi a^2$",
+                "$\\frac{64}{5}\\pi a^2$",
+                "$\\frac{128}{5}\\pi a^2$",
+                "$\\frac{16}{5}\\pi a^2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the area of the region bounded by the curves $y = e^x$, $y = e^{-x}$, and the vertical line $x = 1$.",
+              "options": [
+                "$e + e^{-1} - 2$",
+                "$e - e^{-1}$",
+                "$e + e^{-1}$",
+                "$e - e^{-1} - 2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the volume of the solid generated by rotating the region bounded by the curves $y = \\sin x$ from $x = 0$ to $x = \\pi$ around the vertical y-axis using the Cylindrical Shell Method.",
+              "options": [
+                "$2\\pi^2$",
+                "$\\pi^2$",
+                "$4\\pi^2$",
+                "$\\pi^2/2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the area enclosed by the loop of the curve $y^2 = x(x-1)^2$.",
+              "options": [
+                "$8/15$",
+                "$4/15$",
+                "$16/15$",
+                "$2/15$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Find the value of the integer constant parameter $a$ if the area bounded between the parabolas $y^2 = 32x$ and $y = ax^2$ is exactly $\\frac{2}{3}$ square units.",
+              "answer": "8",
+              "explanation": ""
+            },
+            {
+              "q": "Calculate the total number of real solutions to the equation $f(x) = 0$ if $f(x)$ represents the net area function tracking $f(x) = \\int_0^x (t^2 - 4t + 3) \\, dt$.",
+              "answer": "2",
+              "explanation": ""
+            },
+            {
+              "q": "Find the value of the exponent parameter $n$ if the arc length calculation structure for $y = x^n$ involves a simple perfect square radical reduction across the domain.",
+              "answer": "2",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The area of the region bounded between the standard ellipse $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ and its auxiliary circle $x^2 + y^2 = a^2$ is scaled by the ratio relationship $\\frac{b}{a}$.<br>\n <strong>Reason (R):</strong> Horizontal compression transformation metrics compress vertical scaling heights uniformly across symmetric geometries.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> The Cylindrical Shell Method and the Washer Method yield identical volume calculation results when applied to the same solid of revolution.<br>\n <strong>Reason (R):</strong> Both methods partition the three-dimensional geometric volume space into equivalent differential mass elements using independent spatial orientations.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation (geometric consistency of volume definitions)."
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

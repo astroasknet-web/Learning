@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "chemistry",
+  "chapter": 3,
+  "title": "Classification of Elements & Periodicity in Properties",
+  "slug": "classification-of-elements-and-periodicity",
+  "subtitle": "Modern periodic table, blocks, and periodic trends for NEET",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "NEET Chemistry — Classification of Elements & Periodicity: modern periodic law, s/p/d/f blocks, and trends in atomic radius, ionisation enthalpy, electron gain enthalpy and electronegativity, with NEET traps, NCERT notes and MCQs. Free on GrowQR.",
+    "focus_keyword": "periodicity NEET",
+    "secondary_keywords": [
+      "classification of elements NEET notes",
+      "periodic table NCERT chemistry",
+      "periodic trends NEET",
+      "ionisation enthalpy NEET",
+      "atomic radius trend"
+    ],
+    "keywords": [
+      "periodicity NEET",
+      "periodic table NEET",
+      "NCERT periodicity",
+      "atomic radius NEET",
+      "ionisation enthalpy NEET"
+    ]
+  },
+  "summary": "<ul><li><strong>Modern periodic law:</strong> properties are a periodic function of <em>atomic number</em> (Moseley), not atomic mass.</li><li><strong>Blocks:</strong> last electron enters $s, p, d, f$ to give s-, p-, d-, f-blocks. Groups 1–2 = s; 13–18 = p; 3–12 = d; lanthanoids/actinoids = f.</li><li><strong>Period number</strong> = highest principal quantum number $n$; <strong>group</strong> follows from valence configuration.</li><li><strong>Atomic radius:</strong> decreases across a period (rising nuclear charge), increases down a group (new shells).</li><li><strong>Isoelectronic species:</strong> same electrons; more protons to smaller size.</li><li><strong>Ionisation enthalpy:</strong> increases across, decreases down. Anomalies: $\\text{Be} > \\text{B}$ and $\\text{N} > \\text{O}$ (stable filled/half-filled subshells).</li><li><strong>Electron gain enthalpy:</strong> most negative for halogens; Cl more negative than F (small, compact F).</li><li><strong>Electronegativity:</strong> highest for F; rises across, falls down.</li><li><strong>Cations</strong> are smaller and <strong>anions</strong> larger than the parent atom.</li></ul>",
+  "faqs": [
+    { "q": "Why is the modern periodic table based on atomic number and not atomic mass?", "a": "Moseley showed that the properties of elements depend on the number of protons (atomic number), which fixes the order without the anomalies that arose when Mendeleev used atomic mass." },
+    { "q": "Why is the ionisation enthalpy of nitrogen higher than that of oxygen?", "a": "Nitrogen has a stable exactly half-filled 2p3 configuration, which is harder to disturb, so removing an electron from nitrogen needs more energy than from oxygen." },
+    { "q": "Why does chlorine have a more negative electron gain enthalpy than fluorine?", "a": "Fluorine is very small, so the incoming electron faces strong electron-electron repulsion in its compact 2p shell; chlorine's larger 3p shell accommodates the electron more easily, releasing more energy." },
+    { "q": "How does atomic size change for isoelectronic species?", "a": "Among species with the same number of electrons, the one with the most protons has the greatest nuclear pull and therefore the smallest size." },
+    { "q": "Are cations smaller or larger than their parent atoms?", "a": "Cations are smaller because they have lost electrons (often a whole shell) and the same nucleus now pulls fewer electrons; anions are larger due to added electron-electron repulsion." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "The Modern Periodic Table and Electronic Basis",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Development of the Periodic Table and the Modern Periodic Law",
+          "concept": "<p>Long before the modern table, chemists tried to bring order to the elements. <strong>Dobereiner</strong> grouped elements into <em>triads</em>, where the middle element's atomic mass was roughly the average of the other two. <strong>Newlands' law of octaves</strong> noticed that every eighth element repeated properties, like musical notes — but it failed beyond calcium. These early attempts are popular one-mark NEET recall points, so it helps to link each name to its one key idea.</p><p><strong>Mendeleev</strong> made the real breakthrough, arranging elements by increasing atomic mass into his periodic table. His genius lay in leaving <em>gaps</em> for undiscovered elements (such as eka-silicon, later germanium) and even correcting some atomic masses. However, a few pairs (like argon and potassium) appeared out of order, hinting that atomic mass was not the true basis.</p><p>The puzzle was solved by <strong>Moseley</strong>, who showed from X-ray studies that the fundamental property of an element is its <strong>atomic number</strong> (number of protons), not its mass. This gave the <strong>modern periodic law</strong>: the properties of elements are a periodic function of their atomic numbers. Reordering by atomic number removed Mendeleev's anomalies at a stroke.</p><p>The result is the <strong>long form (modern) periodic table</strong> of 7 horizontal <strong>periods</strong> and 18 vertical <strong>groups</strong>. Elements in the same group have similar valence-shell configurations and hence similar chemistry, while properties change steadily across a period. Understanding that the whole table flows from electronic configuration — not from memorised lists — is the mindset NEET rewards.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Contributor</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Key idea</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Dobereiner</td><td style='border:1px solid #dcfce7;padding:6px 10px'>triads (middle mass = average)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Newlands</td><td style='border:1px solid #dcfce7;padding:6px 10px'>law of octaves</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Mendeleev</td><td style='border:1px solid #dcfce7;padding:6px 10px'>by atomic mass; left gaps</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Moseley</td><td style='border:1px solid #dcfce7;padding:6px 10px'>modern law (atomic number)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why did argon ($\\text{Ar}$) and potassium ($\\text{K}$) appear in the wrong order in Mendeleev's table but the correct order in the modern table?</p>",
+              "solution": "<p>By atomic mass, $\\text{Ar}\\ (40)$ exceeds $\\text{K}\\ (39)$, placing them awkwardly. By atomic number, $\\text{Ar}\\ (18)$ comes before $\\text{K}\\ (19)$, which matches their properties — confirming atomic number as the correct basis.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>State the modern periodic law.</p>",
+              "solution": "<p>The properties of elements are a <strong>periodic function of their atomic numbers</strong>. (Mendeleev's earlier version used atomic mass.)</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The modern periodic law is based on:</p>", "options": ["atomic mass", "atomic number", "density", "valency"], "correct": 1, "explanation": "Properties are a periodic function of atomic number." },
+            { "q": "<p>The law of octaves was proposed by:</p>", "options": ["Mendeleev", "Newlands", "Moseley", "Dobereiner"], "correct": 1, "explanation": "Newlands' law of octaves." },
+            { "q": "<p>Mendeleev's table left gaps for:</p>", "options": ["noble gases", "undiscovered elements", "isotopes", "ions"], "correct": 1, "explanation": "He predicted elements like eka-silicon (germanium)." },
+            { "q": "<p>The modern periodic table has how many groups?</p>", "options": ["8", "16", "18", "7"], "correct": 2, "explanation": "18 groups and 7 periods." },
+            { "q": "<p>Elements in the same group have similar:</p>", "options": ["atomic mass", "valence-shell configuration", "number of neutrons", "density"], "correct": 1, "explanation": "Same valence configuration gives similar chemistry." }
+          ],
+          "note": "<p><strong>NEET trap:</strong> Mendeleev used atomic <em>mass</em>; the modern law uses atomic <em>number</em> (Moseley). Tie each early chemist to one idea — Dobereiner (triads), Newlands (octaves).</p>"
+        },
+        {
+          "number": 2,
+          "title": "Electronic Configuration, Blocks, Periods and Groups",
+          "concept": "<p>The shape of the periodic table is a direct map of electronic configuration. The table is divided into four <strong>blocks</strong> according to which subshell receives the last electron. The <strong>s-block</strong> (groups 1 and 2) has its last electron in an $s$ orbital; the <strong>p-block</strong> (groups 13–18) in a $p$ orbital; the <strong>d-block</strong> (groups 3–12, the transition elements) in a $d$ orbital; and the <strong>f-block</strong> (lanthanoids and actinoids) in an $f$ orbital. NEET frequently asks you to identify an element's block from its configuration.</p><p>Reading position from configuration is a key skill. The <strong>period number</strong> equals the highest principal quantum number $n$ in the configuration. For the <strong>group number</strong>: for s-block elements it equals the number of valence $s$ electrons; for p-block elements it is $10 +$ (valence $s + p$ electrons); and for d-block elements it equals the number of $(n-1)d + ns$ electrons. Practising this prediction makes most placement questions automatic.</p><p>The blocks correlate with broad chemical character. The s-block holds reactive metals (alkali and alkaline-earth) that readily lose electrons; the p-block spans metals, metalloids and the most important non-metals, including the halogens and noble gases. The d-block transition metals show variable oxidation states and form coloured compounds, while the f-block inner-transition elements are chemically similar within each series.</p><p>The noble gases (group 18) sit at the right edge with stable, filled valence shells, which is why they are largely inert. Hydrogen is a special case — placed in group 1 because of its $1s^1$ configuration, yet resembling halogens in some ways. Recognising these block-level patterns helps you predict reactivity and bonding without memorising every element, exactly the efficiency NEET demands.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Block</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Groups / last electron</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>s-block</td><td style='border:1px solid #dcfce7;padding:6px 10px'>1–2; last $e^-$ in $s$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>p-block</td><td style='border:1px solid #dcfce7;padding:6px 10px'>13–18; last $e^-$ in $p$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>d-block</td><td style='border:1px solid #dcfce7;padding:6px 10px'>3–12; last $e^-$ in $d$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>f-block</td><td style='border:1px solid #dcfce7;padding:6px 10px'>lanthanoids/actinoids; $f$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>An element has the configuration $[\\text{Ne}]\\,3s^2\\,3p^3$. Identify its period, group and block.</p>",
+              "solution": "<p>Highest $n = 3$, so period 3. It is a p-block element (last electron in $3p$); group $= 10 + (2 + 3) = 15$. This is phosphorus.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>To which block does an element with configuration $[\\text{Ar}]\\,3d^6\\,4s^2$ belong?</p>",
+              "solution": "<p>The last electron enters the $3d$ subshell, so it is a <strong>d-block (transition) element</strong>. (It is iron, $Z = 26$.)</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>An element with its last electron in a $d$ orbital belongs to the:</p>", "options": ["s-block", "p-block", "d-block", "f-block"], "correct": 2, "explanation": "Last electron in $d$ to d-block." },
+            { "q": "<p>The period number of an element equals its:</p>", "options": ["group number", "highest $n$", "number of valence electrons", "atomic mass"], "correct": 1, "explanation": "Period = highest principal quantum number." },
+            { "q": "<p>Groups 1 and 2 constitute the:</p>", "options": ["p-block", "s-block", "d-block", "f-block"], "correct": 1, "explanation": "s-block elements." },
+            { "q": "<p>The transition elements (groups 3–12) are the:</p>", "options": ["s-block", "p-block", "d-block", "f-block"], "correct": 2, "explanation": "d-block = transition elements." },
+            { "q": "<p>Noble gases belong to group:</p>", "options": ["1", "2", "17", "18"], "correct": 3, "explanation": "Group 18, with filled valence shells." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Period = highest $n$. Block = subshell of the last electron. For p-block, group $= 10 + $ (valence $s+p$ electrons). Practise reading position straight from configuration.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Periodic Trends in Properties",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Atomic and Ionic Radii",
+          "concept": "<p><strong>Atomic radius</strong> measures the size of an atom, and its variation across the table follows two competing effects: the pull of the nucleus and the screening by inner electrons. <strong>Across a period</strong> (left to right) the radius <em>decreases</em>, because electrons are added to the same shell while nuclear charge rises, pulling the cloud inward. <strong>Down a group</strong> the radius <em>increases</em>, because each new period adds a whole new shell that outweighs the greater nuclear charge.</p><p>For ions the same logic applies, with a key extra rule. A <strong>cation</strong> is always smaller than its parent atom: losing electrons (often emptying the outer shell) leaves the same nucleus pulling fewer electrons, so the size shrinks. An <strong>anion</strong> is always larger than its parent atom: extra electrons increase electron-electron repulsion and expand the cloud. So $\\text{Na}^+ < \\text{Na}$ and $\\text{Cl}^- > \\text{Cl}$ — a guaranteed NEET comparison.</p><p>A favourite NEET theme is <strong>isoelectronic species</strong> — ions and atoms with the same number of electrons, such as $\\text{N}^{3-}$, $\\text{O}^{2-}$, $\\text{F}^-$, $\\text{Na}^+$, $\\text{Mg}^{2+}$ and $\\text{Al}^{3+}$ (all with 10 electrons). Among these, size decreases as nuclear charge increases, because more protons pull the same ten electrons more tightly. So the order of size is $\\text{N}^{3-} > \\text{O}^{2-} > \\text{F}^- > \\text{Na}^+ > \\text{Mg}^{2+} > \\text{Al}^{3+}$.</p><p>Note that radius is defined differently in different contexts — covalent radius for covalently bonded atoms, van der Waals radius for non-bonded contact, and metallic radius for metals — and van der Waals radius is the largest. For NEET, the reliable working rules are: smaller across a period, larger down a group, cations smaller, anions larger, and more protons mean smaller size for isoelectronic species.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Change</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Effect on size</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Across a period (→)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>decreases</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Down a group (↓)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>increases</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Cation vs atom</td><td style='border:1px solid #dcfce7;padding:6px 10px'>smaller</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Anion vs atom</td><td style='border:1px solid #dcfce7;padding:6px 10px'>larger</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Arrange the isoelectronic species $\\text{O}^{2-}$, $\\text{F}^-$, $\\text{Na}^+$, $\\text{Mg}^{2+}$ in decreasing order of size.</p>",
+              "solution": "<p>All have 10 electrons; size decreases as protons increase: $\\text{O}^{2-}\\,(8\\text{p}) > \\text{F}^-\\,(9\\text{p}) > \\text{Na}^+\\,(11\\text{p}) > \\text{Mg}^{2+}\\,(12\\text{p})$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Which is larger, $\\text{Na}$ or $\\text{Na}^+$, and why?</p>",
+              "solution": "<p>$\\text{Na}$ is larger. Forming $\\text{Na}^+$ removes the outer $3s$ electron (the whole valence shell), so the cation is considerably smaller than the neutral atom.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Across a period, atomic radius:</p>", "options": ["increases", "decreases", "stays constant", "doubles"], "correct": 1, "explanation": "Rising nuclear charge on the same shell shrinks the atom." },
+            { "q": "<p>Down a group, atomic radius:</p>", "options": ["increases", "decreases", "stays constant", "becomes zero"], "correct": 0, "explanation": "New shells increase the size." },
+            { "q": "<p>A cation compared with its parent atom is:</p>", "options": ["larger", "smaller", "the same", "unpredictable"], "correct": 1, "explanation": "Loss of electrons shrinks the species." },
+            { "q": "<p>Among isoelectronic species, size is greatest for the one with the:</p>", "options": ["most protons", "fewest protons", "most neutrons", "highest mass"], "correct": 1, "explanation": "Fewer protons mean weaker pull, larger size." },
+            { "q": "<p>Which is the largest?</p>", "options": ["$\\text{Mg}^{2+}$", "$\\text{Na}^+$", "$\\text{F}^-$", "$\\text{O}^{2-}$"], "correct": 3, "explanation": "$\\text{O}^{2-}$ has the fewest protons among these isoelectronic ions." }
+          ],
+          "note": "<p><strong>NEET trap:</strong> For isoelectronic species, compare <em>protons</em>: more protons to smaller ion. Cations smaller, anions larger than the parent atom; van der Waals radius is the largest type.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Ionisation Enthalpy, Electron Gain Enthalpy and Electronegativity",
+          "concept": "<p><strong>Ionisation enthalpy</strong> ($\\Delta_i H$) is the energy needed to remove the most loosely held electron from a gaseous atom. It <em>increases</em> across a period (electrons held more tightly by greater nuclear charge) and <em>decreases</em> down a group (the outer electron is farther out and well shielded). Successive ionisation enthalpies always rise ($\\Delta_i H_1 < \\Delta_i H_2 < \\dots$) because removing an electron from an increasingly positive ion is progressively harder.</p><p>Two famous <strong>anomalies</strong> are perennial NEET questions. Beryllium has a higher first ionisation enthalpy than boron, because Be's filled $2s^2$ is more stable than B's $2s^2 2p^1$. Nitrogen has a higher value than oxygen, because N's exactly half-filled $2p^3$ is extra stable, so removing an electron from oxygen (which relieves $2p^4$ pairing) is easier. Remembering 'filled and half-filled are stable' explains both.</p><p><strong>Electron gain enthalpy</strong> ($\\Delta_{eg} H$) is the energy change when a gaseous atom gains an electron — usually negative (energy released). It is most negative for the halogens, which are one electron short of a noble-gas shell. A celebrated exception is that chlorine has a <em>more</em> negative value than fluorine: fluorine's small, compact $2p$ shell creates strong repulsion for the incoming electron, so the energy released is less than for the roomier chlorine.</p><p><strong>Electronegativity</strong> measures an atom's tendency to attract a shared electron pair in a bond. It increases across a period and decreases down a group, making <strong>fluorine the most electronegative element</strong>. Unlike ionisation and electron gain enthalpies, electronegativity is a relative property (no units, e.g. on the Pauling scale) and depends on the bonding environment. Together, these four trends — radius, ionisation enthalpy, electron gain enthalpy and electronegativity — let you predict metallic/non-metallic character and reactivity, the heart of NEET periodicity questions.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Property</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Across (→) / Down (↓)</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Ionisation enthalpy</td><td style='border:1px solid #dcfce7;padding:6px 10px'>increases / decreases</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Electron gain enthalpy (magnitude)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>more negative / less negative</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Electronegativity</td><td style='border:1px solid #dcfce7;padding:6px 10px'>increases / decreases</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Key anomalies</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{Be}>\\text{B}$, $\\text{N}>\\text{O}$; $\\text{Cl}>\\text{F}$ (EGE)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why is the first ionisation enthalpy of nitrogen greater than that of oxygen?</p>",
+              "solution": "<p>Nitrogen has a stable half-filled $2p^3$ configuration that resists electron removal, whereas removing an electron from oxygen's $2p^4$ relieves electron-pair repulsion, so oxygen ionises more easily — giving $\\Delta_i H(\\text{N}) > \\Delta_i H(\\text{O})$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Which element is the most electronegative, and where does it sit in the table?</p>",
+              "solution": "<p>Fluorine is the most electronegative element. It lies at the top of group 17, where the combination of small size and high nuclear charge maximises the pull on bonding electrons.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Ionisation enthalpy generally ___ across a period.</p>", "options": ["increases", "decreases", "stays constant", "becomes zero"], "correct": 0, "explanation": "Greater nuclear charge holds electrons more tightly." },
+            { "q": "<p>The first ionisation enthalpy of nitrogen is ___ that of oxygen.</p>", "options": ["less than", "greater than", "equal to", "double"], "correct": 1, "explanation": "Half-filled $2p^3$ of N is extra stable." },
+            { "q": "<p>The most negative electron gain enthalpy is shown by:</p>", "options": ["noble gases", "halogens", "alkali metals", "transition metals"], "correct": 1, "explanation": "Halogens readily gain an electron." },
+            { "q": "<p>Chlorine has a more negative electron gain enthalpy than fluorine because fluorine is:</p>", "options": ["larger", "small and compact", "metallic", "less reactive"], "correct": 1, "explanation": "Small F has high repulsion for the incoming electron." },
+            { "q": "<p>The most electronegative element is:</p>", "options": ["oxygen", "chlorine", "fluorine", "nitrogen"], "correct": 2, "explanation": "Fluorine has the highest electronegativity." }
+          ],
+          "note": "<p><strong>NEET trap:</strong> Memorise the two IE anomalies ($\\text{Be}>\\text{B}$, $\\text{N}>\\text{O}$) and the EGE exception ($\\text{Cl}>\\text{F}$). Electronegativity peaks at fluorine and has no units (relative scale).</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-chemistry-ch3-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct & Statement-based)",
+          "questions": [
+            { "q": "<p>The modern periodic law is based on atomic:</p>", "options": ["mass", "number", "radius", "volume"], "correct": 1, "explanation": "Atomic number (Moseley)." },
+            { "q": "<p>An element with configuration $[\\text{Ne}]\\,3s^2\\,3p^5$ belongs to group:</p>", "options": ["15", "16", "17", "18"], "correct": 2, "explanation": "$10 + (2+5) = 17$ (a halogen)." },
+            { "q": "<p>Which has the smallest size among these isoelectronic species?</p>", "options": ["$\\text{O}^{2-}$", "$\\text{F}^-$", "$\\text{Na}^+$", "$\\text{Mg}^{2+}$"], "correct": 3, "explanation": "$\\text{Mg}^{2+}$ has the most protons." },
+            { "q": "<p>Consider the statements: (I) Atomic radius decreases across a period. (II) Atomic radius increases down a group. Which are correct?</p>", "options": ["only I", "only II", "both I and II", "neither"], "correct": 2, "explanation": "Both trends are correct." },
+            { "q": "<p>The first ionisation enthalpy is higher for:</p>", "options": ["B than Be", "N than O", "O than F", "Na than Mg"], "correct": 1, "explanation": "Half-filled $2p^3$ makes $\\Delta_i H(\\text{N}) > \\Delta_i H(\\text{O})$." },
+            { "q": "<p>The element with the most negative electron gain enthalpy is:</p>", "options": ["F", "Cl", "Br", "I"], "correct": 1, "explanation": "Cl exceeds F due to F's compact shell." },
+            { "q": "<p>Down a group, metallic character generally:</p>", "options": ["increases", "decreases", "stays constant", "vanishes"], "correct": 0, "explanation": "Lower ionisation enthalpy down a group increases metallic character." },
+            { "q": "<p>The d-block elements are also called:</p>", "options": ["representative elements", "transition elements", "inner-transition elements", "noble gases"], "correct": 1, "explanation": "d-block = transition elements." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> The ionisation enthalpy of beryllium is greater than that of boron.<br><strong>R:</strong> Beryllium has a stable, completely filled $2s^2$ configuration.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The stable $2s^2$ makes Be harder to ionise than B — R explains A." },
+            { "q": "<p><strong>A:</strong> A cation is smaller than its parent atom.<br><strong>R:</strong> Removal of electrons increases the effective nuclear pull on the remaining electrons.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Fewer electrons under the same nucleus shrink the ion — R explains A." },
+            { "q": "<p><strong>A:</strong> Fluorine has a more negative electron gain enthalpy than chlorine.<br><strong>R:</strong> Fluorine is the most electronegative element.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "Chlorine's EGE is more negative than fluorine's, so A is false; R (F most electronegative) is true." },
+            { "q": "<p><strong>A:</strong> Atomic number, not atomic mass, is the basis of the modern periodic table.<br><strong>R:</strong> Moseley showed that element properties depend on the number of protons.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Moseley's finding is exactly why atomic number is the basis — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

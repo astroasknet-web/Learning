@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": 9,
+  "title": "Hydrogen",
+  "slug": "hydrogen",
+  "subtitle": "Hydrogen for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#f97316",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "Master Hydrogen for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Hydrogen — Position, Isotopes, Preparation",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Position in Periodic Table and Isotopes",
+          "concept": "<p><strong>Hydrogen</strong> ($Z = 1$, configuration $1s^1$) is unique — it shows similarities with both alkali metals (Group 1) and halogens (Group 17). Its position in the periodic table is debated.</p><p><strong>Resemblance with Alkali Metals:</strong></p><ul><li>Electronic configuration: $ns^1$</li><li>Forms unipositive ion (H⁺)</li><li>Forms halides (HCl like NaCl)</li><li>Reducing nature</li></ul><p><strong>Resemblance with Halogens:</strong></p><ul><li>One electron short of noble gas configuration</li><li>Forms diatomic molecule (H₂)</li><li>Forms uninegative ion (H⁻, hydride)</li><li>Combines with metals and non-metals</li></ul><p><strong>Unique Features:</strong></p><ul><li>Smallest atom</li><li>H⁺ is just a bare proton (no electrons) — different from any other cation</li><li>Lower IE than expected for halogens</li><li>Higher IE than alkali metals</li></ul><p><strong>Isotopes of Hydrogen:</strong></p><table class=\"md-table\"><thead><tr><th>Isotope</th><th>Symbol</th><th>Composition</th><th>Abundance</th><th>Properties</th></tr></thead><tbody><tr><td><strong>Protium</strong></td><td>$^1H$ or H</td><td>$1p, 1e, 0n$</td><td>$99.98\\%$</td><td>Common hydrogen</td></tr><tr><td><strong>Deuterium</strong></td><td>$^2H$ or D</td><td>$1p, 1e, 1n$</td><td>$0.015\\%$</td><td>Heavy hydrogen</td></tr><tr><td><strong>Tritium</strong></td><td>$^3H$ or T</td><td>$1p, 1e, 2n$</td><td>Trace ($10^{-15}\\%$)</td><td>Radioactive ($\\beta^-$ emitter, $t_{1/2} = 12.3$ years)</td></tr></tbody></table><p><strong>Heavy Water (D₂O):</strong> $D_2O$ (deuterium oxide). Properties differ slightly from $H_2O$:</p><ul><li>Higher BP ($101.4°$C vs $100°$C)</li><li>Higher MP ($3.8°$C vs $0°$C)</li><li>Higher density ($1.106$ g/mL vs $1.000$)</li><li>Used as moderator in nuclear reactors (slows neutrons without absorbing them)</li><li>Toxic in large amounts to organisms</li></ul><p><strong>Ortho and Para Hydrogen:</strong></p><ul><li><strong>Ortho:</strong> nuclear spins parallel (75% at room T)</li><li><strong>Para:</strong> nuclear spins antiparallel (25% at room T)</li><li>At low T (below 20 K), all converts to para (more stable)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Compare hydrogen with alkali metals and halogens.</p>",
+              "solution": "<p>Similarities with <strong>alkali metals</strong>: $ns^1$ config, forms M⁺, reducing. Similarities with <strong>halogens</strong>: forms H⁻, diatomic H₂, one e⁻ short of noble gas. Differences: H is non-metal, gas at RT; alkali metals are solid metals. H is not as electronegative as halogens. Therefore, H is uniquely placed — neither pure alkali nor pure halogen.</p><p><strong>Final Answer:</strong> H shows dual character but matches neither group fully.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is D₂O used as a moderator in nuclear reactors?</p>",
+              "solution": "<p>$D_2O$ slows down fast neutrons (released in fission) by elastic collision. Since D has similar mass to neutron, it effectively slows neutrons. Unlike H, D does not absorb neutrons much — keeping neutron flux available for further fission.</p><p><strong>Final Answer:</strong> Moderates (slows) neutrons without absorbing them.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Hydrogen resembles alkali metals due to:</p>",
+              "options": [
+                "$np^5$ config",
+                "$ns^1$ config and forms M⁺",
+                "Forms diatomic molecule",
+                "Lowest IE"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Tritium is:</p>",
+              "options": [
+                "Stable",
+                "Radioactive",
+                "Non-existent",
+                "Inert"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Mass number of deuterium:</p>",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$4$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Heavy water is used in:</p>",
+              "options": [
+                "Drinking",
+                "Nuclear reactor as moderator",
+                "Acid production",
+                "Bleaching"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Ortho-hydrogen at room temperature has fraction:</p>",
+              "options": [
+                "$0$",
+                "$25\\%$",
+                "$75\\%$",
+                "$100\\%$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Preparation and Properties of Hydrogen",
+          "concept": "<p><strong>Laboratory Preparation:</strong></p><ul><li>Action of dilute HCl or H₂SO₄ on Zn:</li></ul><p>$$\\text{Zn} + 2\\text{HCl} \\to \\text{ZnCl}_2 + \\text{H}_2$$ $$\\text{Zn} + \\text{H}_2\\text{SO}_4 \\to \\text{ZnSO}_4 + \\text{H}_2$$</p><ul><li>(Pure H₂): Action of NaOH on Al or Zn:</li></ul><p>$$2\\text{Al} + 6\\text{NaOH} \\to 2\\text{Na}_3\\text{AlO}_3 + 3\\text{H}_2$$</p><ul><li>Action of pure water on Na (violent — not preferred):</li></ul><p>$$2\\text{Na} + 2\\text{H}_2\\text{O} \\to 2\\text{NaOH} + \\text{H}_2$$</p><p><strong>Industrial Preparation:</strong></p><table class=\"md-table\"><thead><tr><th>Method</th><th>Reaction</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Bosch process</strong></td><td>$C + H_2O \\to CO + H_2$ (water gas); then $CO + H_2O \\to CO_2 + H_2$ on Fe catalyst</td><td>High T</td></tr><tr><td><strong>Lane process</strong></td><td>$3\\text{Fe} + 4\\text{H}_2\\text{O} \\to \\text{Fe}_3\\text{O}_4 + 4\\text{H}_2$ (alternate steam pass)</td><td>$1000$ K</td></tr><tr><td><strong>From hydrocarbons (steam reforming)</strong></td><td>$\\text{CH}_4 + \\text{H}_2\\text{O} \\to \\text{CO} + 3\\text{H}_2$</td><td>Ni catalyst, $1100$ K</td></tr><tr><td><strong>Electrolysis of water</strong></td><td>$2\\text{H}_2\\text{O} \\to 2\\text{H}_2 + \\text{O}_2$</td><td>Trace acid/base added</td></tr></tbody></table><p><strong>Physical Properties:</strong></p><ul><li>Colorless, odorless, tasteless, non-toxic gas</li><li>Lightest gas (M = 2)</li><li>BP $-253°$C, MP $-259°$C</li><li>Slightly soluble in water; very soluble in metals like Pd (used for purification)</li></ul><p><strong>Chemical Properties:</strong></p><ol><li><strong>Combustion:</strong> $2H_2 + O_2 \\to 2H_2O + \\text{heat}$ (used in rockets; produces water vapor only — clean fuel)</li><li><strong>With halogens:</strong> $H_2 + X_2 \\to 2HX$. Reactivity: F > Cl > Br > I.</li><li><strong>With nitrogen</strong> (Haber): $N_2 + 3H_2 \\rightleftharpoons 2NH_3$ (high P, T, Fe catalyst)</li><li><strong>With metals (hydrides):</strong> $2\\text{Na} + H_2 \\to 2\\text{NaH}$</li><li><strong>Reducing agent:</strong> Reduces metal oxides ($\\text{CuO} + H_2 \\to \\text{Cu} + \\text{H}_2\\text{O}$)</li><li><strong>Hydrogenation:</strong> Catalytic addition to unsaturated C=C and C=O (Ni, Pd, Pt catalysts)</li></ol><p><strong>Uses of Hydrogen:</strong></p><ul><li>Hydrogenation of oils → vanaspati ghee</li><li>Ammonia synthesis (Haber)</li><li>Production of methanol ($\\text{CO} + 2H_2 \\to \\text{CH}_3\\text{OH}$)</li><li>Rocket fuel (with O₂)</li><li>Atomic hydrogen torch (welding metals; very high temperature)</li><li>Hydrogen as fuel (zero emissions; fuel cell)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Predict product: $\\text{Cu(s)} + H_2 \\xrightarrow{\\Delta} ?$</p>",
+              "solution": "<p>At ordinary conditions, H₂ doesn't react with Cu. But CuO can be reduced: $\\text{CuO} + H_2 \\to \\text{Cu} + \\text{H}_2\\text{O}$. Cu alone has no reaction with H₂.</p><p><strong>Final Answer:</strong> No reaction with Cu metal; only with CuO.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Write balanced equation for reaction of Zn with NaOH.</p>",
+              "solution": "<p>$\\text{Zn} + 2\\text{NaOH} \\to \\text{Na}_2\\text{ZnO}_2 + H_2$</p><p><strong>Final Answer:</strong> Sodium zincate + H₂ liberated.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Lab preparation of H₂ uses:</p>",
+              "options": [
+                "Zn + dilute HCl",
+                "Cu + HCl",
+                "NaOH + H₂SO₄",
+                "Burning charcoal"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Industrial H₂ production via:</p>",
+              "options": [
+                "Bosch process",
+                "Haber process",
+                "Ostwald",
+                "Contact process"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>H₂ + Cl₂ in sunlight gives:</p>",
+              "options": [
+                "HCl (explosively)",
+                "Cl₂O",
+                "Cl₂",
+                "No reaction"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>H₂ reduces:</p>",
+              "options": [
+                "Active metal oxides like K₂O",
+                "Less active oxides like CuO",
+                "Both",
+                "None"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Atomic H torch produces temperature:</p>",
+              "options": [
+                "$1000°$C",
+                "$2000°$C",
+                "$4000°$C",
+                "$\\sim 4000°$C"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Compounds of Hydrogen",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Hydrides",
+          "concept": "<p><strong>Hydrides:</strong> Binary compounds of hydrogen with other elements. Classified by bonding character.</p><p><strong>Three Major Types:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Bonding</th><th>Examples</th><th>Properties</th></tr></thead><tbody><tr><td><strong>Ionic (Saline) Hydrides</strong></td><td>Ionic; H is H⁻</td><td>LiH, NaH, CaH₂, MgH₂</td><td>Crystalline; high MP; conduct electricity in molten state; strongly reducing</td></tr><tr><td><strong>Covalent (Molecular) Hydrides</strong></td><td>Covalent; H shares e⁻</td><td>CH₄, NH₃, H₂O, HF, HCl, B₂H₆</td><td>Low MP, BP; mostly gases or volatile liquids; can be H-bonded</td></tr><tr><td><strong>Metallic (Interstitial) Hydrides</strong></td><td>H atoms in metallic lattice</td><td>Pd, Ti, La, Ce, Th hydrides</td><td>Variable composition; metallic luster; conduct electricity</td></tr></tbody></table><p><strong>Ionic Hydrides:</strong></p><ul><li>Formed by most reactive metals (Group 1 and heavier Group 2)</li><li>Electrolysis liberates H₂ at anode (proves H⁻)</li><li>React violently with water: $\\text{NaH} + \\text{H}_2\\text{O} \\to \\text{NaOH} + H_2$</li></ul><p><strong>Covalent Hydrides</strong> are further classified:</p><table class=\"md-table\"><thead><tr><th>Sub-type</th><th>Example</th><th>Note</th></tr></thead><tbody><tr><td><strong>Electron-deficient</strong></td><td>$B_2H_6, BH_3$</td><td>Fewer e⁻ than required for normal Lewis structure; have 3-center-2-electron bonds</td></tr><tr><td><strong>Electron-precise</strong></td><td>$CH_4, SiH_4$</td><td>Exact e⁻ for octets</td></tr><tr><td><strong>Electron-rich</strong></td><td>$NH_3, H_2O, HF$</td><td>Lone pairs available; H-bonding possible</td></tr></tbody></table><p><strong>Metallic Hydrides:</strong></p><ul><li>Found in d- and f-block metals</li><li>H₂ adsorbed in interstitial spaces of metal lattice</li><li>Composition often non-stoichiometric (e.g., $TiH_{1.7}$)</li><li>Used in H₂ storage technology</li></ul><p><strong>Some metals do NOT form stable hydrides:</strong></p><ul><li>7-11 groups of d-block (called \"hydride gap\": Cr, Mn, Fe, Co, Ni, Cu, Zn, etc.)</li><li>This is where d-block has incomplete d-orbital filling/cohesion issues</li></ul><p><strong>Properties Comparison of Group 16 Hydrides:</strong></p><table class=\"md-table\"><thead><tr><th>Property</th><th>H₂O</th><th>H₂S</th><th>H₂Se</th><th>H₂Te</th></tr></thead><tbody><tr><td>BP</td><td>$100°$C</td><td>$-60°$C</td><td>$-41°$C</td><td>$-2°$C</td></tr><tr><td>Acidic strength</td><td>weakest</td><td>weak</td><td>moderate</td><td>strongest</td></tr><tr><td>Reducing power</td><td>weakest</td><td>weak</td><td>moderate</td><td>strongest</td></tr></tbody></table><p>H₂O has anomalously high BP due to H-bonding.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why is LiH ionic but BeH₂ covalent?</p>",
+              "solution": "<p>Li⁺ has low charge (+1) and reasonably large size → low polarizing power. So LiH is largely ionic. Be²⁺ has higher charge (+2) and smaller size → high polarizing power. By Fajan's rules, BeH₂ is more covalent.</p><p><strong>Final Answer:</strong> Polarizing power of cation (Li⁺ low, Be²⁺ high) determines ionic vs covalent character.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Predict products: $CaH_2 + 2H_2O \\to ?$</p>",
+              "solution": "<p>$CaH_2 + 2H_2O \\to Ca(OH)_2 + 2H_2 \\uparrow$</p><p>CaH₂ acts as reducing agent; H⁻ + H⁺ → H₂.</p><p><strong>Final Answer:</strong> $Ca(OH)_2$ + $2H_2$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>NaH is:</p>",
+              "options": [
+                "Covalent",
+                "Ionic",
+                "Metallic",
+                "Coordinate"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Hydride gap is observed for:</p>",
+              "options": [
+                "Alkali metals",
+                "Groups 7-11 d-block",
+                "Lanthanides",
+                "Noble gases"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Most acidic among H₂O, H₂S, H₂Se, H₂Te:</p>",
+              "options": [
+                "H₂O",
+                "H₂S",
+                "H₂Se",
+                "H₂Te"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$B_2H_6$ is:</p>",
+              "options": [
+                "Ionic hydride",
+                "Electron-deficient (with 3c-2e bonds)",
+                "Saline",
+                "Metallic"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>When NaH dissolves in water:</p>",
+              "options": [
+                "NaCl + H₂O",
+                "NaOH + H₂",
+                "Na + H₂O",
+                "Na₂O + H₂"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Water, Hydrogen Peroxide and Water Hardness",
+          "concept": "<p><strong>Water (H₂O):</strong> Universal solvent. High BP due to H-bonding. Max density at $4°$C (unique).</p><p><strong>Properties:</strong></p><ul><li>Amphoteric (acts as acid and base): $H_2O + HCl \\to H_3O^+ + Cl^-$; $H_2O + NH_3 \\to NH_4^+ + OH^-$</li><li>Auto-ionization: $2H_2O \\rightleftharpoons H_3O^+ + OH^-$, $K_w = 10^{-14}$ at $25°$C</li><li>Hydration of ions (high dielectric constant ≈ $80$)</li><li>Strong reducing properties in some reactions</li></ul><p><strong>Hardness of Water:</strong> Inability of water to form lather with soap. Caused by dissolved Ca²⁺ and Mg²⁺ ions (also Fe²⁺, sometimes).</p><p><strong>Types:</strong></p><table class=\"md-table\"><thead><tr><th>Hardness type</th><th>Cause</th><th>Removal</th></tr></thead><tbody><tr><td><strong>Temporary</strong></td><td>Bicarbonates: $Ca(HCO_3)_2, Mg(HCO_3)_2$</td><td>Boiling: $Ca(HCO_3)_2 \\to CaCO_3\\downarrow + H_2O + CO_2$; or Clark's process (add lime)</td></tr><tr><td><strong>Permanent</strong></td><td>Sulfates and chlorides: $CaCl_2, CaSO_4, MgSO_4$</td><td>Sodium carbonate (washing soda), ion-exchange resins, Calgon, permutit, zeolite</td></tr></tbody></table><p><strong>Clark's process</strong> (for temporary hardness): $Ca(HCO_3)_2 + Ca(OH)_2 \\to 2CaCO_3\\downarrow + 2H_2O$</p><p><strong>Ion exchange (permutit):</strong> $Na_2P + Ca^{2+} \\to CaP + 2Na^+$. Regenerated with NaCl solution.</p><p><strong>Calgon process:</strong> Sodium hexametaphosphate $Na_6P_6O_{18}$ binds Ca²⁺ and Mg²⁺.</p><p><strong>Soap action with hard water:</strong> $2C_{17}H_{35}COONa + CaSO_4 \\to (C_{17}H_{35}COO)_2Ca\\downarrow + Na_2SO_4$ (scum)</p><p><strong>Units of Hardness:</strong> ppm (mg CaCO₃ per L) or degrees Clark.</p><p><strong>Hydrogen Peroxide (H₂O₂):</strong></p><p><strong>Preparation:</strong></p><ul><li>$BaO_2 + H_2SO_4 \\to BaSO_4 + H_2O_2$</li><li>$2NH_4HSO_4 \\xrightarrow{\\text{electrolysis}} (NH_4)_2S_2O_8 \\xrightarrow{H_2O} 2NH_4HSO_4 + H_2O_2$</li><li>Auto-oxidation of 2-ethyl anthraquinol (industrial)</li></ul><p><strong>Structure:</strong> Non-planar; \"open book\" structure. O-O bond is single ($\\sim$ $1.49$ Å). H-O-O-H dihedral angle $\\sim 111°$ in gas, $\\sim 90°$ in solid.</p><p><strong>Properties:</strong></p><ul><li>Colorless, viscous liquid (sometimes pale blue in pure form)</li><li>Miscible with water</li><li>Unstable; decomposes to $H_2O + O_2$ (catalyzed by MnO₂, Pt, light)</li></ul><p><strong>Concentration Expressions:</strong></p><ul><li>% by mass (e.g., 30%)</li><li><strong>Volume strength:</strong> Volume of O₂ released at STP per volume of H₂O₂ solution. \"$20$ V\" means 1 L of H₂O₂ releases 20 L O₂.</li><li>$\\text{Volume strength} = 5.6 \\times N$</li><li>$\\text{Volume strength} = 11.2 \\times M$</li></ul><p><strong>Chemical Properties:</strong></p><ol><li><strong>As oxidizing agent:</strong> $H_2O_2 + 2I^- + 2H^+ \\to I_2 + 2H_2O$</li><li><strong>As reducing agent:</strong> $H_2O_2 + Cl_2 \\to 2HCl + O_2$; also reduces KMnO₄ in acidic medium</li><li><strong>Acidic nature:</strong> Weak diprotic acid; $K_{a1} = 1.6 \\times 10^{-12}$</li><li><strong>Disproportionation:</strong> $2H_2O_2 \\to 2H_2O + O_2$</li></ol><p><strong>Uses:</strong></p><ul><li>Antiseptic (3% in dental rinses)</li><li>Bleaching agent (paper, hair, textiles)</li><li>Rocket propellant ($90\\%$)</li><li>Synthesis of organic compounds (epoxidation, hydroxylation)</li><li>Pollution control (removes H₂S)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Differentiate between temporary and permanent hardness and methods to remove.</p>",
+              "solution": "<p><strong>Temporary:</strong> Due to $Ca(HCO_3)_2$, $Mg(HCO_3)_2$. Removed by boiling (decomposes to CaCO₃ ppt) or Clark's process. <strong>Permanent:</strong> Due to chlorides and sulfates of Ca²⁺, Mg²⁺. Removed by washing soda, ion exchange, Calgon, zeolite.</p><p><strong>Final Answer:</strong> Differ in source (bicarbonates vs sulfates/chlorides) and removal methods.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Calculate molarity of \"$20$ V\" H₂O₂.</p>",
+              "solution": "<p>Volume strength $= 11.2 \\times M \\implies M = 20/11.2 = 1.786$ M.</p><p><strong>Final Answer:</strong> $M \\approx 1.79$ M.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Hard water does not lather well due to:</p>",
+              "options": [
+                "Acidic nature",
+                "Ca²⁺/Mg²⁺ ions",
+                "Cl⁻ ions",
+                "Bicarbonate"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Temporary hardness is removed by:</p>",
+              "options": [
+                "Filtration",
+                "Boiling",
+                "Distillation",
+                "Acidification"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Calgon is:</p>",
+              "options": [
+                "Na₂CO₃",
+                "Sodium hexametaphosphate",
+                "Permutit",
+                "CaCl₂"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Volume strength \"$10$ V\" of H₂O₂ in mass percent (approx):</p>",
+              "options": [
+                "$1\\%$",
+                "$3\\%$",
+                "$10\\%$",
+                "$30\\%$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$H_2O_2$ in acidic medium acts as:</p>",
+              "options": [
+                "Only OA",
+                "Only RA",
+                "Both OA and RA",
+                "Neither"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-chem-hydrogen-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>Hydrogen has isotopes:</p>",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$4$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Tritium is:</p>",
+              "options": [
+                "Stable",
+                "Radioactive",
+                "Found in pure form",
+                "Most abundant isotope"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The hydride formed by sodium is:</p>",
+              "options": [
+                "Covalent",
+                "Ionic",
+                "Interstitial",
+                "Polymeric"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Heavy water is used in nuclear reactor as:</p>",
+              "options": [
+                "Fuel",
+                "Moderator",
+                "Coolant only",
+                "Shielding"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Ortho-para hydrogen difference is due to:</p>",
+              "options": [
+                "Spin orientation of nuclei",
+                "Electron arrangement",
+                "Bonding",
+                "Mass"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Soap forms scum in hard water due to:</p>",
+              "options": [
+                "Ca and Mg salts of fatty acid",
+                "Na carbonate",
+                "Reaction with chlorides",
+                "Bicarbonates"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The structure of $H_2O_2$ is:</p>",
+              "options": [
+                "Linear",
+                "Open-book (non-planar)",
+                "Tetrahedral",
+                "Triangular"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Most reactive metal with H₂O at room temperature:</p>",
+              "options": [
+                "Na",
+                "K",
+                "Cs",
+                "Li (slow)"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Hydrogen does NOT react readily with:</p>",
+              "options": [
+                "F₂",
+                "Cl₂",
+                "Cu (no reaction)",
+                "Na"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The pH of pure water at $25°$C:</p>",
+              "options": [
+                "$0$",
+                "$7$",
+                "$14$",
+                "$5.6$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Number of stable isotopes of hydrogen:</p>",
+              "answer": "2",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of moles of H⁻ in $1$ mole of NaH:</p>",
+              "answer": "1",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Vol strength of $1.6$ M H₂O₂:</p>",
+              "answer": "18",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Hydrogen can be placed in both Group 1 and Group 17 of the periodic table. <strong>Reason (R):</strong> It has similarities with both alkali metals (ns¹ configuration) and halogens (one electron short of noble gas configuration).</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> $H_2O_2$ acts as both oxidizing and reducing agent. <strong>Reason (R):</strong> Oxygen in $H_2O_2$ has $-1$ oxidation state, intermediate between $-2$ and $0$.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

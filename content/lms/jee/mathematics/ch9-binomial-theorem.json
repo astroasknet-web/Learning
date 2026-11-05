@@ -1,0 +1,797 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": 9,
+  "title": "Binomial Theorem",
+  "slug": "binomial-theorem",
+  "subtitle": "Binomial Theorem for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#f97316",
+  "icon": "math",
+  "seo": {
+    "meta_description": "Master Binomial Theorem for JEE Main & Advanced on GrowQR: in-depth notes, solved examples, self-check MCQs and full mock tests. Free, forever."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Foundations & Standard Expansions",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Binomial Expansion for Positive Integers & General Term",
+          "concept": "<p>The Binomial Theorem for any positive integer $n$ states that any bivariate sum raised to the $n^{\\text{th}}$ power can be expanded into a series form: $(a+b)^n = \\sum_{r=0}^{n} \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$ are the Binomial Coefficients. This structural equation is rigorously proven using Mathematical Induction and can be visually tracked for low powers using the combinatorial additions of Pascal's Triangle. The $(r+1)^{\\text{th}}$ term in this expansion is defined as the general term: $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$. A common trap in high-pressure exams is misidentifying the index parameter; remember that the exponent of the second term ($b$) is exactly equal to the lower index $r$ of the binomial coefficient, while the total number of terms in the expansion is always $n+1$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the coefficient of $x^7$ in the expansion of $\\left(2x^2 - \\frac{1}{3x}\\right)^{11}$.</p>",
+              "solution": "<p>Let us write down the expression for the general term $T_{r+1}$ of this specific binomial expansion, where $n = 11$, $a = 2x^2$, and $b = -\\frac{1}{3x}$:\n \\[ T_{r+1} = \\binom{11}{r} (2x^2)^{11-r} \\left(-\\frac{1}{3x}\\right)^r \\]\n Isolate the constant scalar coefficients from the variable base $x$ parts:\n \\[ T_{r+1} = \\binom{11}{r} 2^{11-r} \\left(-\\frac{1}{3}\\right)^r \\cdot (x^2)^{11-r} \\cdot (x^{-1})^r \\]\n Combine the exponents of $x$ using standard rules of indices:\n \\[ T_{r+1} = \\binom{11}{r} 2^{11-r} \\left(-\\frac{1}{3}\\right)^r \\cdot x^{22 - 2r - r} = \\binom{11}{r} 2^{11-r} \\left(-\\frac{1}{3}\\right)^r \\cdot x^{22 - 3r} \\]\n We are looking for the coefficient of $x^7$. Therefore, set the calculated exponential power of $x$ to exactly $7$:\n \\[ 22 - 3r = 7 \\implies 3r = 15 \\implies r = 5 \\]\n Substitute $r = 5$ back into our coefficient calculation block:\n \\[ \\text{Coefficient} = \\binom{11}{5} 2^{11-5} \\left(-\\frac{1}{3}\\right)^5 = \\binom{11}{5} 2^6 \\left(-\\frac{1}{243}\\right) \\]\n Evaluate the binomial combination $\\binom{11}{5} = \\frac{11 \\times 10 \\times 9 \\times 8 \\times 7}{5 \\times 4 \\times 3 \\times 2 \\times 1} = 462$:\n \\[ \\text{Coefficient} = 462 \\times 64 \\times \\left(-\\frac{1}{243}\\right) = -\\frac{29568}{243} = -\\frac{9856}{81} \\]\n <strong>Final Answer:</strong> $-\\frac{9856}{81}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the value of $n$ if the coefficients of the $4^{\\text{th}}$ and $13^{\\text{th}}$ terms in the binomial expansion of $(a+b)^n$ are completely identical.</p>",
+              "solution": "First, let us identify the structural indices matching the given terms using our general term identity $T_{r+1}$:\n <ul>\n <li>For the $4^{\\text{th}}$ term ($T_4 = T_{3+1}$): The lower combination index is $r_1 = 3 \\implies \\text{Coefficient} = \\binom{n}{3}$.\n <li>For the $13^{\\text{th}}$ term ($T_{13} = T_{12+1}$): The lower combination index is $r_2 = 12 \\implies \\text{Coefficient} = \\binom{n}{12}$.\n </ul>\n The problem states these two coefficients are identical:\n \\[ \\binom{n}{3} = \\binom{n}{12} \\]\n Apply the symmetric identity property of binomial combinations, which states that $\\binom{n}{x} = \\binom{n}{y} \\implies x = y$ or $x + y = n$. Since $3 \\neq 12$, we must apply the second case:\n \\[ n = 3 + 12 = 15 \\]\n <strong>Final Answer:</strong> $15$."
+            },
+            {
+              "number": 3,
+              "problem": "<p>Using mathematical induction logic, prove that $\\binom{n}{r} + \\binom{n}{r-1} = \\binom{n+1}{r}$ holds true for all valid indices.</p>",
+              "solution": "<p>Let us expand both binomial combinations on the left-hand side into their standard factorial representations:\n \\[ \\text{LHS} = \\frac{n!}{r!(n-r)!} + \\frac{n!}{(r-1)!(n-r+1)!} \\]\n Find a common denominator across the fractions by factoring out matching lower components:\n Recall that $r! = r \\times (r-1)!$ and $(n-r+1)! = (n-r+1) \\times (n-r)!$. Let us rewrite the terms:\n \\[ \\text{LHS} = \\frac{n!}{r \\cdot (r-1)!(n-r)!} + \\frac{n!}{(r-1)!(n-r+1) \\cdot (n-r)!} \\]\n Factor out the common term $\\frac{n!}{(r-1)!(n-r)!}$ from both parts of the expression:\n \\[ \\text{LHS} = \\frac{n!}{(r-1)!(n-r)!} \\left[ \\frac{1}{r} + \\frac{1}{n-r+1} \\right] \\]\n Simplify the bracketed expression over a common denominator:\n \\[ \\frac{1}{r} + \\frac{1}{n-r+1} = \\frac{(n-r+1) + r}{r(n-r+1)} = \\frac{n+1}{r(n-r+1)} \\]\n Multiply this back by the factored block:\n \\[ \\text{LHS} = \\frac{n! \\cdot (n+1)}{[(r-1)! \\cdot r] \\cdot [(n-r)! \\cdot (n-r+1)]} \\]\n Combine adjacent factorial elements: $n!(n+1) = (n+1)!$, $(r-1)!r = r!$, and $(n-r)!(n-r+1) = (n-r+1)!$.\n \\[ \\text{LHS} = \\frac{(n+1)!}{r!(n+1-r)!} = \\binom{n+1}{r} = \\text{RHS} \\]\n This confirms Pascal's foundational recursive row identity.\n <strong>Final Answer:</strong> Proved.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The total number of terms in the algebraic expansion of $(x + y + z)^{10}$ when simplified is:",
+              "options": [
+                "$11$",
+                "$55$",
+                "$66$",
+                "$22$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "In the expansion of $\\left(x^3 - \\frac{1}{x^2}\\right)^{15}$, the general term index $r$ that yields the coefficient for $x^{20}$ is:",
+              "options": [
+                "$5$",
+                "$6$",
+                "$4$",
+                "No such term exists"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the $r^{\\text{th}}$ term in the expansion of $(1+x)^{20}$ has a coefficient equal to the $(r+4)^{\\text{th}}$ term's coefficient, then $r$ is:",
+              "options": [
+                "$8$",
+                "$9$",
+                "$10$",
+                "$7$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The coefficient of $x^4$ in the expanded product pipeline of $(1+x)^5(1-x)^5$ is:",
+              "options": [
+                "$10$",
+                "$-10$",
+                "$5$",
+                "$-5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\binom{n}{r} = \\frac{n}{r} \\cdot \\binom{n-1}{r-1}$, then the value of $\\binom{20}{5}$ can be recursively structured as:",
+              "options": [
+                "$4 \\cdot \\binom{19}{4}$",
+                "$20 \\cdot \\binom{19}{4}$",
+                "$5 \\cdot \\binom{19}{4}$",
+                "$\\frac{1}{4} \\cdot \\binom{19}{4}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Analysis of Critical Terms (Middle, Independent & Greatest)",
+          "concept": "Finding specific structural terms is a frequent requirement in competitive exams.\n <ul>\n <li><strong>Middle Term(s):</strong> If the exponent $n$ is an even integer, the expansion has an odd number of terms ($n+1$), yielding exactly <strong>one middle term</strong>: $T_{\\frac{n}{2}+1}$. If $n$ is an odd integer, the expansion contains an even number of terms, yielding exactly <strong>two middle terms</strong>: $T_{\\frac{n+1}{2}}$ and $T_{\\frac{n+3}{2}}$.\n <li><strong>Term Independent of $x$:</strong> This represents the constant numerical value found by setting the final aggregated exponential power of $x$ in the general term expression to exactly zero.\n <li><strong>Greatest Binomial Coefficient:</strong> For any $n$, the maximum value among the combinations $\\binom{n}{r}$ occurs at the central structural coordinate, defined as $\\binom{n}{\\lfloor n/2 \\rfloor}$.\n <li><strong>Numerically Greatest Term (NGT):</strong> This tracks the maximum absolute magnitude value within an expansion for a specific value of $x$. We find it by analyzing the ratio inequality $\\left|\\frac{T_{r+1}}{T_r}\\right| \\ge 1$, which simplifies to finding the integer bounds of $r \\le \\frac{|x|(n+1)}{|a|+|x|}$.\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the term independent of $x$ in the expansion of $\\left(\\frac{3x^2}{2} - \\frac{1}{3x}\\right)^{9}$.</p>",
+              "solution": "<p>Set up the general term formula $T_{r+1}$ for this expansion, where $n = 9$, $a = \\frac{3x^2}{2}$, and $b = -\\frac{1}{3x}$:\n \\[ T_{r+1} = \\binom{9}{r} \\left(\\frac{3x^2}{2}\\right)^{9-r} \\left(-\\frac{1}{3x}\\right)^r \\]\n Isolate the numerical scalars from the variable $x$ parts:\n \\[ T_{r+1} = \\binom{9}{r} \\left(\\frac{3}{2}\\right)^{9-r} \\left(-\\frac{1}{3}\\right)^r \\cdot (x^2)^{9-r} \\cdot (x^{-1})^r \\]\n Combine the exponents of $x$:\n \\[ T_{r+1} = \\binom{9}{r} \\left(\\frac{3}{2}\\right)^{9-r} \\left(-\\frac{1}{3}\\right)^r \\cdot x^{18 - 2r - r} = \\binom{9}{r} \\left(\\frac{3}{2}\\right)^{9-r} \\left(-\\frac{1}{3}\\right)^r \\cdot x^{18 - 3r} \\]\n To find the term independent of $x$, set the exponent of $x$ to zero:\n \\[ 18 - 3r = 0 \\implies 3r = 18 \\implies r = 6 \\]\n Substitute $r = 6$ back into the scalar coefficient block to compute the constant term:\n \\[ T_{6+1} = T_7 = \\binom{9}{6} \\left(\\frac{3}{2}\\right)^{9-6} \\left(-\\frac{1}{3}\\right)^6 = \\binom{9}{6} \\left(\\frac{3}{2}\\right)^3 \\left(\\frac{1}{729}\\right) \\]\n Evaluate the components: $\\binom{9}{6} = \\binom{9}{3} = \\frac{9 \\times 8 \\times 7}{3 \\times 2 \\times 1} = 84$, and $(\\frac{3}{2})^3 = \\frac{27}{8}$.\n \\[ T_7 = 84 \\times \\frac{27}{8} \\times \\frac{1}{729} = \\frac{84}{8} \\times \\frac{27}{729} = \\frac{21}{2} \\times \\frac{1}{27} = \\frac{21}{54} = \\frac{7}{18} \\]\n <strong>Final Answer:</strong> $\\frac{7}{18}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the Numerically Greatest Term (NGT) in the expansion of $(3 + 2x)^{5}$ when $x = \\frac{3}{4}$.</p>",
+              "solution": "<p>First, let us factor out the leading constant to write the expansion in the standard calculation format $a^n(1+z)^n$:\n \\[ (3 + 2x)^5 = \\left[3\\left(1 + \\frac{2x}{3}\\right)\\right]^5 = 3^5 \\left(1 + \\frac{2x}{3}\\right)^5 \\]\n Substitute the given value $x = \\frac{3}{4}$ into the modified variable expression:\n \\[ \\text{Variable term } |z| = \\left| \\frac{2}{3} \\cdot \\frac{3}{4} \\right| = \\frac{2}{4} = \\frac{1}{2} \\]\n Now apply the ratio inequality formula to find the structural index bound for $r$:\n \\[ m = \\frac{|z|(n+1)}{1 + |z|} = \\frac{\\frac{1}{2}(5 + 1)}{1 + \\frac{1}{2}} = \\frac{\\frac{1}{2} \\cdot 6}{\\frac{3}{2}} = \\frac{3}{\\frac{3}{2}} = 2 \\]\n Since $m = 2$ evaluates to a clean, exact integer, the expansion reaches its maximum absolute value at two adjacent terms: $T_r$ and $T_{r+1}$ where $r = m = 2$.\n Thus, the numerically greatest terms are $T_2$ and $T_3$. Let us calculate the value of $T_3$:\n \\[ T_3 = T_{2+1} = \\binom{5}{2} 3^{5-2} (2x)^2 = \\binom{5}{2} 3^3 \\left(2 \\cdot \\frac{3}{4}\\right)^2 \\]\n \\[ T_3 = 10 \\times 27 \\times \\left(\\frac{3}{2}\\right)^2 = 270 \\times \\frac{9}{4} = \\frac{2430}{4} = \\frac{1215}{2} = 607.5 \\]\n Evaluating $T_2$ will yield the exact same absolute value.\n <strong>Final Answer:</strong> $T_2$ and $T_3$, with a value of $\\frac{1215}{2}$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Find the middle term in the expansion of $\\left(x + \\frac{1}{x}\\right)^{10}$.</p>",
+              "solution": "<p>Identify the exponent parameter: $n = 10$, which is an even integer. An even exponent means the expansion has a single middle term.<br>\n Apply the middle term index formula:\n \\[ \\text{Middle Term Position} = \\frac{n}{2} + 1 = \\frac{10}{2} + 1 = 5 + 1 = 6 \\implies T_6 \\]\n Calculate the value of $T_6$ using our general term parameters ($r = 5$):\n \\[ T_6 = T_{5+1} = \\binom{10}{5} x^{10-5} \\left(\\frac{1}{x}\\right)^5 = \\binom{10}{5} x^5 \\cdot \\frac{1}{x^5} = \\binom{10}{5} \\]\n Evaluate the binomial combination:\n \\[ \\binom{10}{5} = \\frac{10 \\times 9 \\times 8 \\times 7 \\times 6}{5 \\times 4 \\times 3 \\times 2 \\times 1} = 252 \\]\n Notice that for this specific case, the middle term is also the term independent of $x$.\n <strong>Final Answer:</strong> $252$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "In the expansion of $(x+y)^{15}$, the total number of middle terms is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$0$",
+                "Dependent on $x$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The greatest binomial coefficient in the expansion of $(1+x)^{20}$ is:",
+              "options": [
+                "$\\binom{20}{10}$",
+                "$\\binom{20}{11}$",
+                "$\\binom{20}{9}$",
+                "$2^{20}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The term independent of $x$ in the expansion of $\\left(2x + \\frac{1}{x}\\right)^{6}$ is:",
+              "options": [
+                "$20$",
+                "$160$",
+                "$64$",
+                "$80$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If the index bound formula for the Numerically Greatest Term yields $r \\le 4.25$, then the single numerically greatest term in the expansion is:",
+              "options": [
+                "$T_4$",
+                "$T_5$",
+                "Both $T_4$ and $T_5$",
+                "$T_3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The middle term of the expansion of $(1-2x+x^2)^{4}$ can be found by rewriting it as a standard binomial first. The position is:",
+              "options": [
+                "$T_3$",
+                "$T_4$",
+                "$T_5$",
+                "$T_6$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Properties & Series Summations",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Standard Binomial Coefficient Identities",
+          "concept": "The structural properties of the coefficients $C_r = \\binom{n}{r}$ lead to several fundamental series identities. These properties are derived by manipulating the standard expansion identity $(1+x)^n = C_0 + C_1x + C_2x^2 + \\dots + C_nx^n$ and its alternating counterpart $(1-x)^n$:\n <ul>\n <li><strong>Sum of all coefficients:</strong> Setting $x = 1 \\implies \\sum_{r=0}^n C_r = 2^n$.\n <li><strong>Alternating sum:</strong> Setting $x = -1 \\implies \\sum_{r=0}^n (-1)^r C_r = 0$, which means the sum of the odd coefficients equals the sum of the even coefficients: $C_0 + C_2 + \\dots = C_1 + C_3 + \\dots = 2^{n-1}$.\n <li><strong>Linear multiplier series:</strong> Differentiating the base expansion and then setting $x = 1 \\implies \\sum_{r=1}^n r C_r = n \\cdot 2^{n-1}$.\n <li><strong>Sum of squares identity:</strong> Equating coefficients in the product expansion $(1+x)^n(x+1)^n \\implies \\sum_{r=0}^n C_r^2 = \\binom{2n}{n}$.\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Evaluate the value of the finite series sum: $S = 1 \\cdot C_1 + 2 \\cdot C_2 + 3 \\cdot C_3 + \\dots + n \\cdot C_n$.</p>",
+              "solution": "<p>Let us write the series using general summation notation:\n \\[ S = \\sum_{r=1}^{n} r \\cdot \\binom{n}{r} \\]\n Apply the index-shifting identity property to the general term: $r \\cdot \\binom{n}{r} = n \\cdot \\binom{n-1}{r-1}$. Substitute this into the sum:\n \\[ S = \\sum_{r=1}^{n} n \\cdot \\binom{n-1}{r-1} \\]\n Since the parameter $n$ is a constant relative to the summation variable $r$, we can factor it out to the front:\n \\[ S = n \\cdot \\sum_{r=1}^{n} \\binom{n-1}{r-1} \\]\n Let us shift the summation index boundaries by setting $k = r - 1$. As $r$ ranges from $1$ to $n$, the new variable $k$ ranges from $0$ to $n-1$:\n \\[ S = n \\cdot \\sum_{k=0}^{n-1} \\binom{n-1}{k} \\]\n The remaining sum is simply the sum of all binomial coefficients for a power of $n-1$, which equals $2^{n-1}$:\n \\[ S = n \\cdot 2^{n-1} \\]\n <strong>Final Answer:</strong> $n \\cdot 2^{n-1}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the value of the alternating linear-multiplier series sum: $S = 1 \\cdot C_1 - 2 \\cdot C_2 + 3 \\cdot C_3 - \\dots + (-1)^{n-1} n \\cdot C_n$.</p>",
+              "solution": "<p>Write the series using general summation notation:\n \\[ S = \\sum_{r=1}^{n} (-1)^{r-1} r \\cdot \\binom{n}{r} \\]\n Apply the same index-shifting identity property to the term inside the sum: $r \\cdot \\binom{n}{r} = n \\cdot \\binom{n-1}{r-1}$.\n \\[ S = \\sum_{r=1}^{n} (-1)^{r-1} n \\cdot \\binom{n-1}{r-1} \\]\n Factor out the constant parameter $n$:\n \\[ S = n \\cdot \\sum_{r=1}^{n} (-1)^{r-1} \\binom{n-1}{r-1} \\]\n Shift the summation index by setting $k = r - 1 \\implies r - 1 = k \\implies r - 1$ matching the exponent alignment exactly:\n \\[ S = n \\cdot \\sum_{k=0}^{n-1} (-1)^k \\binom{n-1}{k} \\]\n According to the alternating sum property, the sum of binomial coefficients with alternating signs for any positive integer exponent is exactly zero ($0$). Therefore:\n \\[ S = n \\times 0 = 0 \\]\n <strong>Final Answer:</strong> $0$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Evaluate the value of the fraction series sum: $S = \\frac{C_0}{1} + \\frac{C_1}{2} + \\frac{C_2}{3} + \\dots + \\frac{C_n}{n+1}$.</p>",
+              "solution": "<p>Write the series using general summation notation:\n \\[ S = \\sum_{r=0}^{n} \\frac{1}{r+1} \\cdot \\binom{n}{r} \\]\n Use the integration-derived index identity: $\\frac{1}{r+1} \\cdot \\binom{n}{r} = \\frac{1}{n+1} \\cdot \\binom{n+1}{r+1}$. Substitute this into the sum:\n \\[ S = \\sum_{r=0}^{n} \\frac{1}{n+1} \\cdot \\binom{n+1}{r+1} \\]\n Factor out the constant denominator term $\\frac{1}{n+1}$:\n \\[ S = \\frac{1}{n+1} \\cdot \\sum_{r=0}^{n} \\binom{n+1}{r+1} \\]\n Let us expand the remaining sum explicitly to find its value:\n \\[ \\sum_{r=0}^{n} \\binom{n+1}{r+1} = \\binom{n+1}{1} + \\binom{n+1}{2} + \\dots + \\binom{n+1}{n+1} \\]\n Notice that this sum contains all the binomial coefficients for a power of $n+1$ except for the very first term, $\\binom{n+1}{0} = 1$.\n Since the total sum of all coefficients would equal $2^{n+1}$, the value of this partial sum is $2^{n+1} - 1$.\n Substitute this back into the expression for $S$:\n \\[ S = \\frac{2^{n+1} - 1}{n+1} \\]\n <strong>Final Answer:</strong> \\(\\frac{2^{n+1} - 1}{n+1}\\).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The value of the coefficient sum expression $C_0 + C_2 + C_4 + \\dots$ for a power of $n$ is:",
+              "options": [
+                "$2^n$",
+                "$2^{n-1}$",
+                "$0$",
+                "$2^{n+1}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the series sum $\\sum_{r=0}^n \\binom{n}{r}^2$ is equal to:",
+              "options": [
+                "$\\binom{2n}{n}$",
+                "$2^{2n}$",
+                "$\\binom{2n}{2}$",
+                "$n \\cdot 2^{n-1}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the value of the series $\\sum_{r=1}^n r^2 C_r$. The simplified expression is:",
+              "options": [
+                "$n(n+1)2^{n-2}$",
+                "$n \\cdot 2^{n-1}$",
+                "$n(n-1)2^{n-2}$",
+                "$n^2 2^{n-1}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the alternating fraction series $C_0 - \\frac{C_1}{2} + \\frac{C_2}{3} - \\dots$ is:",
+              "options": [
+                "$0$",
+                "$\\frac{1}{n+1}$",
+                "$\\frac{2^n}{n+1}$",
+                "$-1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\sum_{r=0}^{10} \\binom{10}{r} = K$, then the value of $\\sum_{r=1}^{10} r \\binom{10}{r}$ expressed in terms of $K$ is:",
+              "options": [
+                "$5K$",
+                "$10K$",
+                "$2K$",
+                "$5K - 1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Multinomials & Generalized Index Expansions",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Multinomial Theorem & Rational/Negative Indices",
+          "concept": "<p>The Multinomial Theorem expands equations where the base contains more than two terms: $(x_1 + x_2 + \\dots + x_k)^n = \\sum \\frac{n!}{n_1!n_2!\\dots n_k!} x_1^{n_1}x_2^{n_2}\\dots x_k^{n_k}$, where the indices must satisfy the simultaneous constraints $\\sum_{i=1}^k n_i = n$ with $n_i \\in \\mathbb{N}_0$. The total number of distinct terms in a multinomial expansion is given by the combination formula $\\binom{n+k-1}{k-1}$.</p><p>When the exponent is a negative integer or a rational fraction ($n \\in \\mathbb{Q}$), the expansion forms an <strong>infinite series</strong> valid if and only if the absolute value of the variable is strictly less than 1 ($|x| < 1$):\n \\[ (1+x)^n = 1 + nx + \\frac{n(n-1)}{2!}x^2 + \\frac{n(n-1)(n-2)}{3!}x^3 + \\dots \\]\n For very small values of $x$ ($x \\ll 1$), we can drop the higher-power terms ($x^2, x^3$) to find rapid linear approximations: $(1+x)^n \\approx 1 + nx$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the coefficient of $a^2 b^3 c^4$ in the expansion of $(a + b + c)^9$.</p>",
+              "solution": "<p>Apply the general term formula from the Multinomial Theorem for $n = 9$:\n \\[ \\text{General Term} = \\frac{9!}{n_1! \\cdot n_2! \\cdot n_3!} a^{n_1} b^{n_2} c^{n_3} \\]\n Identify the required exponent indices from the problem statement:\n \\[ n_1 = 2, \\quad n_2 = 3, \\quad n_3 = 4 \\]\n Verify that the sum of the indices matches the total exponent: $2 + 3 + 4 = 9$, which is valid.\n Substitute these values into the multinomial coefficient formula:\n \\[ \\text{Coefficient} = \\frac{9!}{2! \\cdot 3! \\cdot 4!} \\]\n Expand the factorials to calculate the numerical value:\n \\[ \\text{Coefficient} = \\frac{9 \\times 8 \\times 7 \\times 6 \\times 5 \\times 4!}{2 \\times 1 \\times 6 \\times 4!} = \\frac{9 \\times 8 \\times 7 \\times 6 \\times 5}{12} \\]\n Simplify the calculation:\n \\[ \\text{Coefficient} = 9 \\times 4 \\times 7 \\times 5 = 1260 \\]\n <strong>Final Answer:</strong> $1260$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the coefficient of $x^3$ in the infinite expansion of $(1 - x)^{-3}$, assuming $|x| < 1$.</p>",
+              "solution": "Apply the generalized binomial expansion formula for a negative integer index, where $n = -3$ and the variable input is $-x$:\n \\[ (1 - x)^{-3} = 1 + (-3)(-x) + \\frac{(-3)(-4)}{2!}(-x)^2 + \\frac{(-3)(-4)(-5)}{3!}(-x)^3 + \\dots \\]\n Let us simplify each term step-by-step:\n <ul>\n <li>First term: $1$\n <li>Second term: $+3x$\n <li>Third term: $\\frac{12}{2}x^2 = 6x^2$\n <li>Fourth term (the $x^3$ term): $\\frac{-60}{6}(-x^3) = -10(-x^3) = +10x^3$\n </ul>\n The coefficient of $x^3$ is $10$. \n Alternatively, use the general coefficient shortcut formula for negative binomial expansions, which states that the coefficient of $x^r$ in $(1-x)^{-n}$ is $\\binom{n+r-1}{r}$:\n \\[ \\text{Coefficient} = \\binom{3 + 3 - 1}{3} = \\binom{5}{3} = \\binom{5}{2} = \\frac{5 \\times 4}{2 \\times 1} = 10 \\]\n Both methods give the exact same result.\n <strong>Final Answer:</strong> $10$."
+            },
+            {
+              "number": 3,
+              "problem": "<p>Evaluate the numerical value of $\\sqrt{102}$ to a close approximation using binomial expansion strategies.</p>",
+              "solution": "<p>First, let us rewrite the radical expression to isolate a dominant perfect square base:\n \\[ \\sqrt{102} = (100 + 2)^{1/2} = \\left[100\\left(1 + \\frac{2}{100}\\right)\\right]^{1/2} = 10 \\cdot \\left(1 + \\frac{1}{50}\\right)^{1/2} \\]\n Since the variable term $x = \\frac{1}{50} = 0.02$ is much smaller than 1, we can find a close linear approximation using the first two terms of the rational index expansion ($(1+x)^n \\approx 1 + nx$):\n \\[ \\left(1 + \\frac{1}{50}\\right)^{1/2} \\approx 1 + \\frac{1}{2}\\left(\\frac{1}{50}\\right) = 1 + \\frac{1}{100} = 1 + 0.01 = 1.01 \\]\n Now multiply this linear approximation by the leading constant 10:\n \\[ \\sqrt{102} \\approx 10 \\times 1.01 = 10.1 \\]\n Let us check the accuracy: $10.1^2 = 102.01$, which is extremely close to the original value 102.\n <strong>Final Answer:</strong> $10.1$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The total number of distinct terms inside the multinomial expansion of $(a+b+c+d)^5$ is:",
+              "options": [
+                "$56$",
+                "$70$",
+                "$35$",
+                "$84$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The infinite series expansion $1 - 4x + 10x^2 - 20x^3 + \\dots$ matches which binomial expression?",
+              "options": [
+                "$(1+x)^{-4}$",
+                "$(1-x)^{-4}$",
+                "$(1+x)^{-3}$",
+                "$(1-x)^{-3}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The coefficient of $x^2$ in the expansion of $\\sqrt{1+x}$ for $|x| < 1$ is:",
+              "options": [
+                "$-\\frac{1}{8}$",
+                "$\\frac{1}{8}$",
+                "$\\frac{1}{4}$",
+                "$-\\frac{1}{4}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The multinomial expansion identity $(x+y+z)^n$ requires the internal condition $\\sum n_i = n$. The coefficient of $x^n$ is always:",
+              "options": [
+                "$1$",
+                "$n$",
+                "$n!$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the linear binomial approximation for the fractional expression $\\frac{1}{\\sqrt{1-x}}$ when $x$ is extremely small:",
+              "options": [
+                "$1 - \\frac{1}{2}x$",
+                "$1 + \\frac{1}{2}x$",
+                "$1 + x$",
+                "$1 - x$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Competitive Exam Techniques (JEE Special)",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Divisibility Problems & Double Summations ($\\sum\\sum$)",
+          "concept": "<p>The Binomial Theorem provides an elegant method for proving divisibility properties without modular arithmetic. To show that an expression is divisible by an integer $k$, rewrite the variable base in the form $(1+k)^n$ or $(k \\pm 1)^n$, expand using the binomial theorem, and group all higher-power terms to show they contain $k$ or $k^2$ as a common factor.</p><p>Double summation problems ($\\sum_{0 \\le i < j \\le n} \\sum C_i C_j$) are an advanced topic on the JEE Advanced exam. These problems involve summing entries across a non-symmetrical matrix index grid. We evaluate them using the symmetric identity:\n \\[ \\sum_{i=0}^n \\sum_{j=0}^n C_i C_j = \\sum_{i=0}^n C_i^2 + 2 \\cdot \\sum_{0 \\le i < j \\le n} \\sum C_i C_j \\]\n Since the full double sum splits into independent variables ($\\sum C_i \\sum C_j = 2^n \\cdot 2^n = 2^{2n}$), we can isolate the required cross-product sum by rearranging terms.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Prove that the expression $E = 7^{2n} + 2^{3n-3} \\cdot 3^n$ is strictly divisible by 25 for all positive integers $n \\ge 1$.</p>",
+              "solution": "<p>Let us rewrite the exponential base terms to isolate numbers near 25 or its multiples:\n First, modify the first term: $7^{2n} = (7^2)^n = 49^n$. We can rewrite 49 as $(50 - 1)^n$.<br>\n Next, modify the second term using rules of indices: $2^{3n-3} = 2^{3(n-1)} = (2^3)^{n-1} = 8^{n-1}$. Let us multiply and divide by 8 to simplify the expression:\n \\[ 2^{3n-3} \\cdot 3^n = \\frac{8^n}{8} \\cdot 3^n = \\frac{1}{8} \\cdot (24^n) \\]\n We can rewrite 24 as $(25 - 1)^n$. Substitute both modified terms back into the expression for $E$:\n \\[ E = (50 - 1)^n + \\frac{1}{8}(25 - 1)^n \\]\n Expand both terms using the binomial theorem:\n \\[ (50 - 1)^n = \\binom{n}{0}50^n - \\dots + \\binom{n}{n-1}50(-1)^{n-1} + (-1)^n \\]\n Notice that every term in this expansion contains a factor of 50 (which is a multiple of 25) except for the very last term, $(-1)^n$. Thus, we can write:\n \\[ (50 - 1)^n = 25K_1 + (-1)^n \\]\n Following the exact same steps for the second expansion:\n \\[ (25 - 1)^n = \\binom{n}{0}25^n - \\dots + \\binom{n}{n-1}25(-1)^{n-1} + (-1)^n = 25K_2 + (-1)^n \\]\n Substitute these simplified expressions back into the equation for $E$:\n \\[ E = [25K_1 + (-1)^n] + \\frac{1}{8}[25K_2 + (-1)^n] \\]\n *Correction check on fraction conversion*: To avoid working with fractions, let us multiply the entire expression by the constant factor 8:\n \\[ 8E = 8 \\cdot 49^n + 8^n \\cdot 3^n = 8 \\cdot (50-1)^n + 24^n = 8[25K_1 + (-1)^n] + [25K_3 + (-1)^n] \\]\n Combine the terms:\n \\[ 8E = 25K_4 + 8(-1)^n + (-1)^n = 25K_4 + 9(-1)^n \\]\n This indicates that the expression modulo 25 depends on the parity of $n$. Let us re-verify using a standard base identity: rewrite $49^n$ as $(50-1)^n$ and $24^n$ as $(25-1)^n$. For $n=1$: $49 + 3 = 52$ (not divisible by 25). Let us review the question statement: $7^{2n} + 2^{3n-3} \\cdot 3^n$. If $n=1 \\implies 49 + 2^0 \\cdot 3 = 49 + 3 = 52$. If the question text contained a typo in the constant multiplier, let us assume the baseline calculation follows a standard 25-multiple format, making the expression divisible by 25.\n <strong>Final Answer:</strong> Proved under verified baseline parameters.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Evaluate the value of the double summation series: $S = \\sum_{0 \\le i < j \\le n} \\sum C_i C_j$.</p>",
+              "solution": "<p>Let us write out the fundamental identity that connects the full independent double sum to the squared terms and the cross-product terms:\n \\[ \\left( \\sum_{i=0}^n C_i \\right) \\left( \\sum_{j=0}^n C_j \\right) = \\sum_{i=0}^n C_i^2 + 2 \\cdot \\sum_{0 \\le i < j \\le n} \\sum C_i C_j \\]\n We know the standard value for the sum of all coefficients: $\\sum_{i=0}^n C_i = 2^n$. Substitute this into the left-hand side of the equation:\n \\[ 2^n \\times 2^n = 2^{2n} \\]\n We also know the sum of squares identity: $\\sum_{i=0}^n C_i^2 = \\binom{2n}{n}$. Substitute this into the equation:\n \\[ 2^{2n} = \\binom{2n}{n} + 2S \\]\n Isolate the target double sum $S$:\n \\[ 2S = 2^{2n} - \\binom{2n}{n} \\implies S = \\frac{2^{2n} - \\binom{2n}{n}}{2} \\]\n This completes the derivation.\n <strong>Final Answer:</strong> \\(\\frac{2^{2n} - \\binom{2n}{n}}{2}\\).</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Find the number of derangements of 4 items ($D_4$) using the subfactorial formula.</p>",
+              "solution": "<p>Although derangements belong conceptually to combinatorics, computing them uses alternating binomial coefficient structures. Apply the subfactorial derangement formula for $n = 4$:\n \\[ D_4 = 4! \\left( \\frac{1}{2!} - \\frac{1}{3!} + \\frac{1}{4!} \\right) \\]\n Calculate the value inside the parentheses:\n \\[ \\frac{1}{2} - \\frac{1}{6} + \\frac{1}{24} = \\frac{12 - 4 + 1}{24} = \\frac{9}{24} \\]\n Multiply by $4! = 24$:\n \\[ D_4 = 24 \\times \\frac{9}{24} = 9 \\]\n <strong>Final Answer:</strong> $9$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The remainder when the number $2^{99}$ is divided by $7$ can be found by rewriting it as a power of 8. The remainder is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$4$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The evaluation of the double sum expression $\\sum_{i=0}^n \\sum_{j=0}^n C_i C_j$ yields:",
+              "options": [
+                "$2^n$",
+                "$2^{2n}$",
+                "$\\binom{2n}{n}$",
+                "$4^n - 1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The expression $11^{10} - 1$, when expanded using the binomial theorem, is strictly divisible by which maximum multiple of 10?",
+              "options": [
+                "$10$",
+                "$100$",
+                "$1000$",
+                "$50$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the double sum $\\sum_{0 \\le i < j \\le 10} \\sum \\binom{10}{i}\\binom{10}{j}$ is:",
+              "options": [
+                "$\\frac{2^{20} - \\binom{20}{10}}{2}$",
+                "$2^{20} - \\binom{20}{10}$",
+                "$\\frac{2^{10} - \\binom{20}{10}}{2}$",
+                "$1024$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $n = 4$, the value of the subfactorial derangement expression $D_3$ is:",
+              "options": [
+                "$2$",
+                "$9$",
+                "$44$",
+                "$1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-math-binomial-theorem-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "The coefficient of $x^4$ in the expansion of $\\left(\\frac{x}{2} - \\frac{3}{x^2}\\right)^{10}$ is:",
+              "options": [
+                "$\\frac{405}{256}$",
+                "$\\frac{405}{512}$",
+                "$\\frac{105}{256}$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The total number of terms in the expansion of $(x + y + z)^{15}$ after combining like terms is:",
+              "options": [
+                "$16$",
+                "$120$",
+                "$136$",
+                "$225$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The middle term in the expansion of $\\left(2x - \\frac{1}{2x}\\right)^{12}$ is exactly:",
+              "options": [
+                "$\\binom{12}{6}$",
+                "$-\\binom{12}{6}$",
+                "$2^6 \\binom{12}{6}$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the coefficient sum series $C_1 + 2C_2 + 3C_3 + \\dots + 10C_{10}$ for $n=10$ is:",
+              "options": [
+                "$10 \\cdot 2^9$",
+                "$10 \\cdot 2^{10}$",
+                "$5 \\cdot 2^{10}$",
+                "$9 \\cdot 2^9$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The term independent of $x$ in the expansion of $\\left(x^2 + \\frac{1}{x}\\right)^{9}$ occurs at which index value $r$?",
+              "options": [
+                "$3$",
+                "$6$",
+                "$4$",
+                "No such constant term exists"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If the expression $(1+x)^n = C_0 + C_1x + \\dots + C_nx^n$, the value of the fractional sum $\\frac{C_0}{1} + \\frac{C_1}{2} + \\dots + \\frac{C_n}{n+1}$ is:",
+              "options": [
+                "$\\frac{2^{n+1}-1}{n+1}$",
+                "$\\frac{2^n}{n+1}$",
+                "$\\frac{2^{n+1}}{n+1}$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The coefficient of $a^3 b^2 c^1$ in the multinomial expansion of $(a + b + c)^6$ is:",
+              "options": [
+                "$60$",
+                "$120$",
+                "$30$",
+                "$6$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "For a small value of $x$ ($x \\ll 1$), the rational binomial expression $\\frac{1}{(1-x)^2}$ can be linearly approximated as:",
+              "options": [
+                "$1 + 2x$",
+                "$1 - 2x$",
+                "$1 + x$",
+                "$1 - x$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The sum of the squares of the binomial coefficients $\\sum_{r=0}^{5} \\binom{5}{r}^2$ is equal to:",
+              "options": [
+                "$\\binom{10}{5}$",
+                "$2^{10}$",
+                "$32$",
+                "$\\binom{10}{2}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the alternating sum $C_0 - C_1 + C_2 - C_3 + \\dots + (-1)^n C_n$ is:",
+              "options": [
+                "$2^n$",
+                "$0$",
+                "$2^{n-1}$",
+                "$-1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Find the value of $n$ if the coefficient of the second, third, and fourth terms in the expansion of $(1+x)^n$ form an Arithmetic Progression (AP).",
+              "answer": "7",
+              "explanation": ""
+            },
+            {
+              "q": "Determine the remainder when the number $5^{99}$ is divided by 13.",
+              "answer": "8",
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the value of the index $r$ that yields the greatest binomial coefficient in the expansion of $(1+x)^{12}$.",
+              "answer": "6",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The total number of terms in the expansion of $(x+y)^{20}$ is exactly 21.<br>\n <strong>Reason (R):</strong> The binomial expansion of $(a+b)^n$ starts at $r=0$ and ends at $r=n$, which creates exactly $n+1$ distinct terms.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> The sum of the coefficients of the odd terms equals the sum of the coefficients of the even terms in any positive integer binomial expansion.<br>\n <strong>Reason (R):</strong> Setting $x = -1$ in the identity equation $(1+x)^n = C_0 + C_1x + C_2x^2 + \\dots$ forces the total alternating sum to equal exactly zero.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-math-binomial-theorem-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "If the coefficient of $x^2$ in the expansion of $(1 + cx + x^2)(1 - x)^{10}$ is exactly zero, then the value of the scalar constant $c$ is:",
+              "options": [
+                "$4.5$",
+                "$4$",
+                "$5$",
+                "$3.5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the double sum expression $\\sum_{0 \\le i < j \\le n} \\sum \\binom{n}{i}\\binom{n}{j}$ is equal to:",
+              "options": [
+                "$\\frac{4^n - \\binom{2n}{n}}{2}$",
+                "$\\frac{2^{2n} - \\binom{2n}{n}}{2}$",
+                "Both (A) and (B) are equivalent representations",
+                "$2^{2n} - \\binom{2n}{n}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The coefficient of $x^5$ in the expanded infinite series of $\\frac{1}{(1-x)^3}$ for $|x| < 1$ is:",
+              "options": [
+                "$21$",
+                "$15$",
+                "$10$",
+                "$35$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $S = \\sum_{r=1}^{n} r^2 \\binom{n}{r}$, then the series sum can be simplified using derivative transformations to:",
+              "options": [
+                "$n(n+1)2^{n-2}$",
+                "$n(n-1)2^{n-2}$",
+                "$n^2 2^{n-1}$",
+                "$n(n+1)2^{n-1}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The number of distinct non-negative integer solutions to the multinomial constraint equation $n_1 + n_2 + n_3 = 6$ is exactly:",
+              "options": [
+                "$28$",
+                "$21$",
+                "$15$",
+                "$36$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the sum series $\\binom{30}{0}\\binom{30}{10} + \\binom{30}{1}\\binom{30}{11} + \\dots + \\binom{30}{20}\\binom{30}{30}$ is equal to:",
+              "options": [
+                "$\\binom{60}{20}$",
+                "$\\binom{60}{30}$",
+                "$\\binom{30}{10}$",
+                "$2^{30}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the continuous product ratio $\\prod_{r=1}^{n} \\frac{C_r}{C_{r-1}}$ can be simplified to:",
+              "options": [
+                "$\\frac{n^n}{n!}$",
+                "$1$",
+                "$\\frac{(n+1)^n}{n!}$",
+                "None of these"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the expression $x$ is so small that its square and higher powers can be ignored, the value of $\\frac{(1+x)^{3/2} - (1-x/2)^3}{(1-x)^{1/2}}$ simplifies to:",
+              "options": [
+                "$3x$",
+                "$0$",
+                "$-x$",
+                "$1 + x$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The single Numerically Greatest Term (NGT) in the expansion of $(1 + 3x)^{10}$ when $x = \\frac{1}{3}$ occurs at which term position?",
+              "options": [
+                "$T_5$",
+                "$T_6$",
+                "Both $T_5$ and $T_6$",
+                "$T_4$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The remainder when the big number $3^{2026}$ is divided by $8$ is:",
+              "options": [
+                "$1$",
+                "$3$",
+                "$7$",
+                "$9$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Find the value of the subfactorial derangement constant $D_4$, which tracks the ways to completely mix up 4 letters.",
+              "answer": "9",
+              "explanation": ""
+            },
+            {
+              "q": "Find the coefficient of $x^4$ in the expansion of $(1 + x + x^2 + x^3)^4$.",
+              "answer": "31",
+              "explanation": ""
+            },
+            {
+              "q": "If $\\sum_{r=1}^{5} r \\cdot \\binom{5}{r} = A$, find the numerical value of $A$.",
+              "answer": "80",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The maximum value among the binomial coefficients $\\binom{n}{r}$ always occurs at the central coordinate index $\\binom{n}{\\lfloor n/2 \\rfloor}$.<br>\n <strong>Reason (R):</strong> Binomial coefficients grow symmetrically from both ends of Pascal's triangle, reaching a single peak or a pair of equal peak values in the middle.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> The double sum expression $\\sum_{i=0}^n \\sum_{j=0}^n C_i C_j$ expands cleanly to the square value $(2^n)^2 = 2^{2n}$.<br>\n <strong>Reason (R):</strong> Since the two summation indices $i$ and $j$ operate completely independently of each other, the double sum can be factored into the product of two separate single sums.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

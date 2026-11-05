@@ -1,0 +1,168 @@
+{
+  "exam": "neet",
+  "subject": "physics",
+  "chapter": 5,
+  "title": "System of Particles & Rotational Motion",
+  "slug": "system-of-particles-and-rotational-motion",
+  "subtitle": "Centre of mass, torque, moment of inertia & rolling",
+  "level": "NEET (UG)",
+  "color": "#2563eb",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "NEET Physics — System of Particles & Rotational Motion: centre of mass, torque, angular momentum, moment of inertia and rolling motion with NEET-level solved examples and MCQs. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Centre of Mass and Rotational Quantities",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Centre of Mass",
+          "concept": "<p>An extended body or a group of particles can be treated, for many purposes, as if its entire mass were concentrated at a single point — the <strong>centre of mass (COM)</strong>. For a system of particles, the position of the COM is the mass-weighted average of the positions: $x_{cm} = \\dfrac{\\sum m_i x_i}{\\sum m_i}$, and similarly for $y$ and $z$. The COM lies closer to the heavier particles, exactly as a see-saw balances nearer the heavier child.</p><p>For symmetric, uniform bodies the COM sits at the geometric centre: at the centre of a uniform rod, disc, sphere or ring. Notably, the COM can lie <em>outside</em> the material of the body — for a ring or a hollow shell it is at the empty centre. Recognising these standard positions saves time in NEET.</p><p>The power of the COM idea is in how it moves. The COM of a system moves as though all the external force acted on the total mass placed there: $\\vec{F}_{\\text{ext}} = M\\vec{a}_{cm}$. Internal forces — however complicated — never shift the COM, because they cancel in action-reaction pairs. So a wrench spinning through the air, or an exploding shell, has a COM that follows a simple path (a straight line or a parabola) even while the pieces tumble or scatter.</p><p>This leads to a clean conservation rule. If no external force acts, the velocity of the COM is constant; if the system starts at rest, the COM <em>stays put</em>. When a bomb at rest explodes, the fragments fly apart but their COM remains exactly where the bomb was. When a person walks from one end of a stationary, frictionless boat to the other, the boat slides back so that the COM of person-plus-boat does not move. Spotting that the COM cannot move is often the whole solution to a NEET problem.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Body</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Centre of mass</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Uniform rod</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>midpoint</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Disc / ring</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>geometric centre</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Solid / hollow sphere</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>centre</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Triangular lamina</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>centroid</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Two masses $2\\ \\text{kg}$ and $3\\ \\text{kg}$ lie at $x = 0$ and $x = 5\\ \\text{m}$. Find the centre of mass.</p>",
+              "solution": "<p>$x_{cm} = \\dfrac{2(0) + 3(5)}{2+3} = \\dfrac{15}{5} = 3\\ \\text{m}$ from the origin — closer to the heavier mass, as expected.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A shell at rest explodes into two pieces. What happens to the centre of mass of the system?</p>",
+              "solution": "<p>Explosion forces are internal, so the COM keeps its original velocity — which was zero. The <strong>centre of mass stays exactly where the shell was</strong>, even as the fragments fly apart.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The centre of mass of a uniform ring lies:</p>", "options": ["on the ring", "at its centre (in empty space)", "outside the plane", "undefined"], "correct": 1, "explanation": "It lies at the geometric centre, which is empty space for a ring." },
+            { "q": "<p>Internal forces of a system:</p>", "options": ["shift the COM", "cannot change the COM motion", "double the COM speed", "create external force"], "correct": 1, "explanation": "Internal forces cancel in pairs and cannot move the COM." },
+            { "q": "<p>The COM is closer to the:</p>", "options": ["lighter particle", "heavier particle", "midpoint always", "origin always"], "correct": 1, "explanation": "COM is mass-weighted, so it lies nearer the heavier mass." },
+            { "q": "<p>If no external force acts and the system starts at rest, the COM:</p>", "options": ["accelerates", "moves at constant non-zero speed", "stays at rest", "oscillates"], "correct": 2, "explanation": "Zero external force keeps the COM velocity zero." },
+            { "q": "<p>$\\vec{F}_{ext}$ on a system equals:</p>", "options": ["$M\\vec{a}_{cm}$", "$m_1 a_1$", "zero always", "$Mv_{cm}$"], "correct": 0, "explanation": "The COM moves as if all mass and external force act there." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> If a system has no external force, track the COM — it either stays put or moves uniformly, no matter how the parts move internally.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Torque, Angular Momentum and Equilibrium",
+          "concept": "<p>To make a body <em>rotate</em>, a force alone is not enough — where it acts matters. The turning effect of a force is the <strong>torque</strong> (moment of force), $\\tau = r\\,F\\sin\\theta = rF_{\\perp}$, where $r$ is the distance from the axis to the point of application and $\\theta$ the angle between $\\vec{r}$ and $\\vec{F}$. Torque is largest when the force is applied perpendicular to the position vector and far from the axis — which is why a long spanner and a push at its end loosen a nut most easily. Its SI unit is the newton-metre.</p><p>The rotational analogue of linear momentum is <strong>angular momentum</strong>, $L = I\\omega$ (or $L = mvr$ for a particle), where $I$ is the moment of inertia and $\\omega$ the angular velocity. Just as force changes linear momentum, torque changes angular momentum: $\\tau = \\dfrac{dL}{dt}$. This is the rotational form of Newton's second law.</p><p>The most striking consequence is the <strong>conservation of angular momentum</strong>: when the net external torque is zero, $L = I\\omega$ stays constant. So if a body's moment of inertia decreases, its angular speed must rise to keep $L$ fixed. A spinning skater pulling in their arms speeds up, and a diver tucking into a ball rotates faster — both are NEET-favourite illustrations of $I_1\\omega_1 = I_2\\omega_2$.</p><p>For a body at rest, NEET also tests the conditions for <strong>equilibrium</strong>. A rigid body is in equilibrium when two conditions hold together: the net external force is zero (translational equilibrium) <em>and</em> the net external torque about any axis is zero (rotational equilibrium). The familiar 'principle of moments' for a balanced see-saw or beam — clockwise moments equal anticlockwise moments — is simply the second condition written out. Setting both sums to zero solves problems on ladders, hinged beams and balanced rods.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Linear quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Rotational analogue</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Force $F$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>Torque $\\tau = rF\\sin\\theta$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Momentum $p = mv$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>Angular momentum $L = I\\omega$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>$F = dp/dt$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\tau = dL/dt$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A force of $10\\ \\text{N}$ acts perpendicular to a spanner $0.2\\ \\text{m}$ from the bolt. Find the torque.</p>",
+              "solution": "<p>$\\tau = rF\\sin\\theta = 0.2\\times10\\times\\sin90^{\\circ} = 2\\ \\text{N}\\cdot\\text{m}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A skater spinning with moment of inertia $I$ at $\\omega$ pulls in her arms, halving her moment of inertia. Find her new angular speed.</p>",
+              "solution": "<p>No external torque, so $I\\omega = I'\\omega'$. With $I' = I/2$, $\\omega' = \\dfrac{I\\omega}{I/2} = 2\\omega$ — she spins twice as fast.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Torque is maximum when the force is applied:</p>", "options": ["along the radius", "perpendicular to the radius", "at the axis", "at $45^{\\circ}$"], "correct": 1, "explanation": "$\\tau = rF\\sin\\theta$ is maximum at $\\theta = 90^{\\circ}$." },
+            { "q": "<p>Angular momentum of a rigid body is:</p>", "options": ["$mv$", "$I\\omega$", "$rF$", "$\\tfrac{1}{2}I\\omega^2$"], "correct": 1, "explanation": "$L = I\\omega$." },
+            { "q": "<p>A skater pulling in her arms spins faster because of conservation of:</p>", "options": ["energy", "linear momentum", "angular momentum", "torque"], "correct": 2, "explanation": "Lower $I$ raises $\\omega$ to keep $L = I\\omega$ fixed." },
+            { "q": "<p>For complete equilibrium of a rigid body, we need:</p>", "options": ["net force zero only", "net torque zero only", "both net force and net torque zero", "constant speed"], "correct": 2, "explanation": "Both translational and rotational equilibrium are required." },
+            { "q": "<p>The rotational analogue of force is:</p>", "options": ["momentum", "torque", "inertia", "work"], "correct": 1, "explanation": "Torque is the rotational analogue of force." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> For balance problems, take torques about the point where an unknown force acts — that force then drops out, leaving a single equation.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Moment of Inertia and Rotational Dynamics",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Moment of Inertia and Its Theorems",
+          "concept": "<p><strong>Moment of inertia</strong> $I$ is the rotational counterpart of mass — it measures a body's resistance to a change in its rotational motion. For a single particle, $I = mr^{2}$; for an extended body it is $I = \\sum m_i r_i^{2}$, summed over all mass elements at their distances $r_i$ from the axis. Crucially, $I$ depends not just on the mass but on <em>how that mass is distributed</em> relative to the axis: mass far from the axis contributes much more (because of the $r^{2}$), which is why a flywheel has its mass at the rim.</p><p>Because $I$ depends on the axis, the same body has different moments of inertia about different axes. NEET expects the standard results: for a thin rod of length $L$ about its centre, $I = \\tfrac{1}{12}ML^{2}$; for a ring about its central axis, $I = MR^{2}$; for a disc, $I = \\tfrac{1}{2}MR^{2}$; for a solid sphere, $I = \\tfrac{2}{5}MR^{2}$; and for a hollow sphere, $I = \\tfrac{2}{3}MR^{2}$. A related quantity is the <strong>radius of gyration</strong> $k$, defined by $I = Mk^{2}$ — the distance from the axis at which the whole mass could be concentrated to give the same $I$.</p><p>Two theorems let us find $I$ about new axes without re-summing. The <strong>parallel axis theorem</strong>, $I = I_{cm} + Md^{2}$, gives the moment of inertia about any axis parallel to one through the COM, a distance $d$ away. The <strong>perpendicular axis theorem</strong>, valid only for <em>plane laminae</em>, states $I_z = I_x + I_y$ — the moment about an axis perpendicular to the lamina equals the sum about two perpendicular axes in its plane.</p><p>These theorems are NEET workhorses. For example, the moment of inertia of a disc about a diameter follows from the perpendicular axis theorem ($I_x = I_y$, so each is $\\tfrac{1}{2}I_z = \\tfrac{1}{4}MR^{2}$), and the moment of a rod about one end follows from the parallel axis theorem ($\\tfrac{1}{12}ML^{2} + M(L/2)^{2} = \\tfrac{1}{3}ML^{2}$). Memorising the standard $I$ values and applying these two theorems handles most of the chapter's calculations.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Body (axis)</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Moment of inertia</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Ring (central axis)</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$MR^{2}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Disc (central axis)</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\tfrac{1}{2}MR^{2}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Solid sphere (diameter)</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\tfrac{2}{5}MR^{2}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Rod (centre)</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\tfrac{1}{12}ML^{2}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the moment of inertia of a uniform rod (mass $M$, length $L$) about an axis through one end, perpendicular to it.</p>",
+              "solution": "<p>About the centre $I_{cm} = \\tfrac{1}{12}ML^{2}$. By the parallel axis theorem with $d = L/2$: $I = \\tfrac{1}{12}ML^{2} + M\\left(\\dfrac{L}{2}\\right)^{2} = \\tfrac{1}{12}ML^{2} + \\tfrac{1}{4}ML^{2} = \\tfrac{1}{3}ML^{2}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>The radius of gyration of a disc about its central axis (I = $\\tfrac{1}{2}MR^2$) is:</p>",
+              "solution": "<p>$I = Mk^{2}$, so $k = \\sqrt{I/M} = \\sqrt{\\tfrac{1}{2}R^{2}} = \\dfrac{R}{\\sqrt{2}}$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Moment of inertia is the rotational analogue of:</p>", "options": ["force", "mass", "velocity", "momentum"], "correct": 1, "explanation": "It measures resistance to change in rotation, like mass for translation." },
+            { "q": "<p>For a ring about its central axis, $I$ equals:</p>", "options": ["$\\tfrac{1}{2}MR^{2}$", "$MR^{2}$", "$\\tfrac{2}{5}MR^{2}$", "$\\tfrac{1}{12}ML^{2}$"], "correct": 1, "explanation": "All mass is at distance $R$, so $I = MR^2$." },
+            { "q": "<p>The parallel axis theorem states $I =$:</p>", "options": ["$I_{cm} - Md^{2}$", "$I_{cm} + Md^{2}$", "$I_x + I_y$", "$Mk^{2}$ only"], "correct": 1, "explanation": "$I = I_{cm} + Md^2$." },
+            { "q": "<p>The perpendicular axis theorem applies only to:</p>", "options": ["spheres", "rods", "plane laminae", "all bodies"], "correct": 2, "explanation": "$I_z = I_x + I_y$ holds only for flat (planar) bodies." },
+            { "q": "<p>Radius of gyration $k$ is defined by:</p>", "options": ["$I = Mk$", "$I = Mk^{2}$", "$k = I/M$", "$k = MR$"], "correct": 1, "explanation": "$I = Mk^2$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Memorise the four standard $I$ values (ring, disc, solid sphere, rod) and the two theorems — almost every moment-of-inertia question is built from these.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Rotational Dynamics and Rolling Motion",
+          "concept": "<p>Rotational dynamics mirrors linear dynamics term for term. The rotational form of Newton's second law is $\\tau = I\\alpha$, where $\\alpha$ is the angular acceleration — the direct analogue of $F = ma$. The kinematic equations carry over too, with angle $\\theta$, angular velocity $\\omega$ and angular acceleration $\\alpha$ replacing $s$, $v$ and $a$: $\\omega = \\omega_0 + \\alpha t$, and so on. A rotating body also stores <strong>rotational kinetic energy</strong> $KE_{rot} = \\tfrac{1}{2}I\\omega^{2}$, the counterpart of $\\tfrac{1}{2}mv^{2}$.</p><p><strong>Rolling motion</strong> combines translation of the centre of mass with rotation about it. For rolling <em>without slipping</em>, the contact point is momentarily at rest, which gives the key constraint $v = R\\omega$ (and $a = R\\alpha$). The total kinetic energy of a rolling body is the sum of both parts: $KE = \\tfrac{1}{2}Mv^{2} + \\tfrac{1}{2}I\\omega^{2}$.</p><p>Using $v = R\\omega$ and $I = Mk^{2}$, the rolling kinetic energy becomes $KE = \\tfrac{1}{2}Mv^{2}\\left(1 + \\dfrac{k^{2}}{R^{2}}\\right)$. The factor $k^{2}/R^{2}$ depends only on the <em>shape</em>, not the mass or radius — a hollow body (larger $k^{2}/R^{2}$) stores a bigger share of its energy in rotation than a solid one. This single idea answers the classic NEET question of which body rolls fastest down an incline.</p><p>When several bodies roll from rest down the same incline, the one with the <strong>smallest $k^{2}/R^{2}$ reaches the bottom first</strong>, because less of its energy is tied up in rotation. The order is therefore: solid sphere ($\\tfrac{2}{5}$) &gt; disc/solid cylinder ($\\tfrac{1}{2}$) &gt; ring/hollow cylinder ($1$). Remarkably, this order is independent of mass and radius — all solid spheres reach the bottom together, ahead of all discs, which beat all rings. Recognising this ranking, rather than computing each case, is the efficient NEET approach.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Linear</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Rotational</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>$F = ma$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\tau = I\\alpha$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>$KE = \\tfrac{1}{2}mv^{2}$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$KE_{rot} = \\tfrac{1}{2}I\\omega^{2}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Rolling constraint</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$v = R\\omega$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A torque of $6\\ \\text{N}\\cdot\\text{m}$ acts on a body of moment of inertia $3\\ \\text{kg}\\cdot\\text{m}^{2}$. Find the angular acceleration.</p>",
+              "solution": "<p>$\\alpha = \\dfrac{\\tau}{I} = \\dfrac{6}{3} = 2\\ \\text{rad/s}^{2}$ (the rotational form of $a = F/m$).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A solid sphere, a disc and a ring roll from rest down the same incline. Which reaches the bottom first?</p>",
+              "solution": "<p>The body with the smallest $k^{2}/R^{2}$ wins. Solid sphere has $\\tfrac{2}{5}$, disc $\\tfrac{1}{2}$, ring $1$. So the order of arrival is <strong>solid sphere, then disc, then ring</strong> — independent of their mass and radius.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The rotational form of $F = ma$ is:</p>", "options": ["$L = I\\omega$", "$\\tau = I\\alpha$", "$\\tau = rF$", "$KE = \\tfrac{1}{2}I\\omega^2$"], "correct": 1, "explanation": "$\\tau = I\\alpha$." },
+            { "q": "<p>For rolling without slipping, the constraint is:</p>", "options": ["$v = \\omega/R$", "$v = R\\omega$", "$v = R/\\omega$", "$v = \\omega R^2$"], "correct": 1, "explanation": "$v = R\\omega$ for rolling without slipping." },
+            { "q": "<p>Total KE of a rolling body is:</p>", "options": ["$\\tfrac{1}{2}Mv^2$", "$\\tfrac{1}{2}I\\omega^2$", "$\\tfrac{1}{2}Mv^2 + \\tfrac{1}{2}I\\omega^2$", "$Mv^2$"], "correct": 2, "explanation": "Translation plus rotation: $\\tfrac{1}{2}Mv^2 + \\tfrac{1}{2}I\\omega^2$." },
+            { "q": "<p>Down the same incline, which rolls fastest?</p>", "options": ["ring", "disc", "solid sphere", "all together"], "correct": 2, "explanation": "Smallest $k^2/R^2$ wins — the solid sphere ($\\tfrac{2}{5}$)." },
+            { "q": "<p>Rotational kinetic energy equals:</p>", "options": ["$I\\omega$", "$\\tfrac{1}{2}I\\omega^2$", "$\\tfrac{1}{2}I\\omega$", "$I\\omega^2$"], "correct": 1, "explanation": "$KE_{rot} = \\tfrac{1}{2}I\\omega^2$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> For 'which rolls fastest/down first' questions, you rarely need to calculate — just rank by $k^2/R^2$: solid sphere &lt; disc &lt; ring.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-physics-ch5-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>Two equal masses are at $x = 2\\ \\text{m}$ and $x = 6\\ \\text{m}$. Their centre of mass is at:</p>", "options": ["$2\\ \\text{m}$", "$4\\ \\text{m}$", "$6\\ \\text{m}$", "$8\\ \\text{m}$"], "correct": 1, "explanation": "Equal masses ⇒ COM at the midpoint, $4\\ \\text{m}$." },
+            { "q": "<p>A force of $5\\ \\text{N}$ acts perpendicular to a rod $0.4\\ \\text{m}$ from the pivot. Torque is:</p>", "options": ["$0.08\\ \\text{N}\\cdot\\text{m}$", "$2\\ \\text{N}\\cdot\\text{m}$", "$5.4\\ \\text{N}\\cdot\\text{m}$", "$20\\ \\text{N}\\cdot\\text{m}$"], "correct": 1, "explanation": "$\\tau = rF = 0.4\\times5 = 2\\ \\text{N}\\cdot\\text{m}$." },
+            { "q": "<p>The moment of inertia of a solid sphere about a diameter is:</p>", "options": ["$MR^{2}$", "$\\tfrac{1}{2}MR^{2}$", "$\\tfrac{2}{5}MR^{2}$", "$\\tfrac{2}{3}MR^{2}$"], "correct": 2, "explanation": "Solid sphere: $\\tfrac{2}{5}MR^2$." },
+            { "q": "<p>A diver curls into a ball to:</p>", "options": ["increase moment of inertia", "spin faster (lower $I$)", "reduce angular momentum", "stop rotating"], "correct": 1, "explanation": "Lower $I$ raises $\\omega$ by conservation of angular momentum." },
+            { "q": "<p>A torque of $10\\ \\text{N}\\cdot\\text{m}$ on $I = 5\\ \\text{kg}\\cdot\\text{m}^2$ gives angular acceleration:</p>", "options": ["$0.5\\ \\text{rad/s}^2$", "$2\\ \\text{rad/s}^2$", "$15\\ \\text{rad/s}^2$", "$50\\ \\text{rad/s}^2$"], "correct": 1, "explanation": "$\\alpha = \\tau/I = 10/5 = 2\\ \\text{rad/s}^2$." },
+            { "q": "<p>For a ring about its central axis, the radius of gyration is:</p>", "options": ["$R$", "$R/\\sqrt{2}$", "$R/2$", "$2R$"], "correct": 0, "explanation": "$I = MR^2 = Mk^2$, so $k = R$." },
+            { "q": "<p>A man walks across a frictionless floating boat. The COM of man + boat:</p>", "options": ["moves forward", "moves backward", "stays fixed", "accelerates"], "correct": 2, "explanation": "No external horizontal force ⇒ COM stays put." },
+            { "q": "<p>Angular momentum is conserved when the net external:</p>", "options": ["force is zero", "torque is zero", "energy is zero", "mass is constant"], "correct": 1, "explanation": "Zero net external torque ⇒ angular momentum conserved." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> A solid sphere rolls down an incline faster than a ring of the same mass and radius.<br><strong>R:</strong> The sphere has a smaller value of $k^{2}/R^{2}$, so less of its energy goes into rotation.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Smaller $k^2/R^2$ means more energy goes to translation — R explains A." },
+            { "q": "<p><strong>A:</strong> The centre of mass of a body must lie within the material of the body.<br><strong>R:</strong> Mass is distributed continuously in a rigid body.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "The COM can lie outside the material (e.g. a ring), so A is false; R is a true but unrelated statement." },
+            { "q": "<p><strong>A:</strong> A spinning skater speeds up on pulling in her arms.<br><strong>R:</strong> Her angular momentum is conserved as her moment of inertia decreases.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "$I\\omega$ constant with lower $I$ raises $\\omega$ — R explains A." },
+            { "q": "<p><strong>A:</strong> Moment of inertia depends on the choice of axis.<br><strong>R:</strong> It depends on how mass is distributed relative to the axis.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Different axes give different mass distributions, hence different $I$ — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

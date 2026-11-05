@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "biology",
+  "chapter": 31,
+  "title": "Ecosystem",
+  "slug": "ecosystem",
+  "subtitle": "Ecosystem structure and productivity, decomposition, energy flow and ecological pyramids, nutrient cycling, ecological succession and ecosystem services",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "leaf",
+  "seo": {
+    "meta_description": "NEET Biology — Ecosystem: structure and function, primary productivity (GPP & NPP), decomposition, energy flow and trophic levels, the 10% law, ecological pyramids, the carbon and phosphorus cycles, ecological succession and ecosystem services, with NEET-level examples and MCQs. Free on GrowQR.",
+    "focus_keyword": "ecosystem NEET",
+    "secondary_keywords": [
+      "GPP NPP productivity NEET",
+      "energy flow trophic levels 10 percent law",
+      "ecological pyramids biomass energy",
+      "carbon cycle phosphorus cycle",
+      "ecological succession ecosystem services"
+    ],
+    "keywords": [
+      "ecosystem NEET",
+      "primary productivity decomposition",
+      "energy flow food chain pyramid",
+      "nutrient cycling biogeochemical",
+      "ecological succession"
+    ]
+  },
+  "summary": "<ul><li><strong>Productivity:</strong> <strong>GPP</strong> = total photosynthesis; <strong>NPP = GPP − respiration</strong> (available to consumers). Secondary productivity = by consumers.</li><li><strong>Decomposition</strong> by saprotrophs: fragmentation → leaching → catabolism → <strong>humification</strong> (humus) → <strong>mineralisation</strong>; fastest when <strong>warm &amp; moist</strong>.</li><li><strong>Energy flow</strong> is <strong>unidirectional</strong>; trophic levels: producers → herbivores → carnivores. <strong>10% law</strong> (Lindeman): only ~10% passes to the next level.</li><li><strong>Pyramids:</strong> energy pyramid is <strong>always upright</strong>; biomass &amp; number pyramids can be <strong>inverted</strong> (sea / big tree).</li><li><strong>Nutrient cycles:</strong> <strong>gaseous</strong> (carbon — reservoir atmosphere) and <strong>sedimentary</strong> (phosphorus — reservoir rocks, no gaseous phase).</li><li><strong>Succession:</strong> primary (bare rock, pioneer = lichens, slow) vs secondary (soil present, faster) → <strong>climax</strong> community.</li><li><strong>Ecosystem services:</strong> air/water purification, pollination, climate regulation, nutrient cycling.</li></ul>",
+  "faqs": [
+    { "q": "What is the difference between GPP and NPP?", "a": "Gross Primary Productivity (GPP) is the total rate at which producers capture energy and make organic matter by photosynthesis. Plants use some of this for their own respiration (R). Net Primary Productivity (NPP) is what remains after respiration: NPP = GPP − R. NPP is the biomass actually available to the consumers (herbivores and decomposers) of the ecosystem." },
+    { "q": "What is the 10% law of energy transfer?", "a": "Proposed by Lindeman, the 10% law states that when energy passes from one trophic level to the next, only about 10% of the energy is transferred and stored at the higher level; the remaining ~90% is lost mainly as heat in respiration and in life processes. Because energy is lost at each step, food chains are usually limited to 3–4 (rarely 5) trophic levels, and energy flow is one-way (unidirectional)." },
+    { "q": "Which ecological pyramid is always upright, and which can be inverted?", "a": "The pyramid of energy is always upright, because energy always decreases from one trophic level to the next (10% law). The pyramids of number and biomass can sometimes be inverted — for example, in the sea a small biomass of phytoplankton supports a larger biomass of zooplankton and fish (inverted biomass pyramid), and a single big tree supports many insects and birds (inverted number pyramid)." },
+    { "q": "How does the phosphorus cycle differ from the carbon cycle?", "a": "The carbon cycle is a gaseous cycle — its main reservoir is the atmosphere (as CO2), and carbon moves rapidly through photosynthesis and respiration. The phosphorus cycle is a sedimentary cycle — its reservoir is the rocks (as phosphates), and it has no significant gaseous (atmospheric) phase. Phosphorus is released by weathering of rocks, taken up by plants, passed to animals, and returned to soil by decomposers." },
+    { "q": "What is ecological succession?", "a": "Ecological succession is the gradual and fairly predictable change in the species composition of a community over time at a given site, until a stable 'climax' community is reached. Primary succession starts on a bare area with no soil (like bare rock), where the first colonisers (pioneers, e.g. lichens) appear, and is very slow. Secondary succession occurs where a community has been removed but the soil is still present (e.g. after a fire), and is much faster." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Ecosystem Structure, Productivity and Energy Flow",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Structure, Productivity and Decomposition",
+          "concept": "<p>An <strong>ecosystem</strong> is a functional unit in which the living organisms (the <strong>biotic community</strong>) interact with one another and with their <strong>non-living (abiotic) environment</strong>. Its <strong>structure</strong> has two aspects: the <strong>species composition</strong> and the vertical <strong>stratification</strong> (layering) of the community. The biotic components are the <strong>producers</strong> (green plants), the <strong>consumers</strong> (herbivores and carnivores) and the <strong>decomposers</strong> (saprotrophs). The four key <strong>functions</strong> of an ecosystem are <strong>productivity, decomposition, energy flow and nutrient cycling</strong>.</p><p><strong>Productivity</strong> is the rate at which biomass (organic matter) is produced. <strong>Primary productivity</strong> is the amount produced by <strong>producers</strong> per unit area per unit time, and it has two forms. <strong>Gross Primary Productivity (GPP)</strong> is the <strong>total rate of photosynthesis</strong>. Plants use some of this energy in their own <strong>respiration (R)</strong>; what remains is the <strong>Net Primary Productivity (NPP)</strong>: <strong>NPP = GPP &minus; R</strong>. NPP is the biomass <strong>available to the consumers</strong>. <strong>Secondary productivity</strong> is the rate at which consumers form new organic matter.</p><p><strong>Decomposition</strong> is the breakdown of dead organic matter (<strong>detritus</strong>) into inorganic substances by <strong>decomposers (saprotrophs &mdash; bacteria and fungi)</strong>, helped by <strong>detritivores</strong> like earthworms. It proceeds in steps: <strong>fragmentation</strong> (breaking detritus into small pieces), <strong>leaching</strong> (water-soluble nutrients seep down), <strong>catabolism</strong> (enzymes break it into simpler compounds), <strong>humification</strong> (formation of dark, amorphous, resistant <strong>humus</strong>) and <strong>mineralisation</strong> (humus is broken down to release inorganic nutrients).</p><p>The <strong>rate of decomposition</strong> depends on the climate and the quality of the detritus. It is <strong>faster in a warm and moist environment</strong> and slower in cold/dry conditions; it is also faster when the detritus is rich in <strong>nitrogen and water-soluble sugars</strong>, and slower when rich in <strong>lignin and chitin</strong>. Oxygen is also required (decomposition is largely aerobic). For NEET, fix the ecosystem components/functions, the GPP/NPP distinction (NPP = GPP &minus; R, available to consumers), and the decomposition steps with humus, mineralisation, and the warm-moist (fast) condition.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Concept</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Components</td><td style='border:1px solid #dcfce7;padding:6px 8px'>producers, consumers, decomposers</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>GPP</td><td style='border:1px solid #dcfce7;padding:6px 8px'>total rate of photosynthesis</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>NPP</td><td style='border:1px solid #dcfce7;padding:6px 8px'>GPP − respiration (available to consumers)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Decomposition steps</td><td style='border:1px solid #dcfce7;padding:6px 8px'>fragmentation → leaching → catabolism → humification → mineralisation</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Fastest decomposition</td><td style='border:1px solid #dcfce7;padding:6px 8px'>warm &amp; moist (N-rich detritus)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Write the relationship between GPP, NPP and respiration, and state which is available to consumers.</p>",
+              "solution": "<p><strong>NPP = GPP &minus; R</strong> (net = gross minus respiration). The <strong>NPP</strong> is the biomass <strong>available to the consumers</strong> (herbivores and decomposers) of the ecosystem.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Name the step of decomposition that forms humus, and the one that releases inorganic nutrients.</p>",
+              "solution": "<p><strong>Humification</strong> forms the dark, resistant <strong>humus</strong>. <strong>Mineralisation</strong> then breaks the humus down to <strong>release inorganic nutrients</strong> into the soil.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>NPP is calculated as:</p>", "options": ["GPP + R", "GPP − R", "GPP × R", "R − GPP"], "correct": 1, "explanation": "NPP = GPP minus respiration." },
+            { "q": "<p>GPP is the total rate of:</p>", "options": ["respiration", "photosynthesis", "decomposition", "transpiration"], "correct": 1, "explanation": "GPP is the total photosynthesis rate." },
+            { "q": "<p>The dark, resistant material formed in decomposition is:</p>", "options": ["detritus", "humus", "litter", "compost only"], "correct": 1, "explanation": "Humification forms humus." },
+            { "q": "<p>Decomposition is fastest when the environment is:</p>", "options": ["cold and dry", "warm and moist", "warm and dry", "cold and moist"], "correct": 1, "explanation": "Warm, moist conditions speed up decomposition." },
+            { "q": "<p>Decomposition slows when detritus is rich in:</p>", "options": ["nitrogen", "sugars", "lignin and chitin", "water"], "correct": 2, "explanation": "Lignin and chitin make detritus resistant, slowing decomposition." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Ecosystem = biotic (producers/consumers/decomposers) + abiotic. Functions: productivity, decomposition, energy flow, nutrient cycling. GPP = total photosynthesis; NPP = GPP − R (to consumers). Decomposition: fragmentation→leaching→catabolism→humification (humus)→mineralisation; fastest warm &amp; moist; slow with lignin/chitin.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Energy Flow and Ecological Pyramids",
+          "concept": "<p>The <strong>sun is the ultimate source of energy</strong> for almost all ecosystems. Of the incident light, only the <strong>photosynthetically active radiation (PAR)</strong> is useful, and producers capture only a small fraction (about 2&ndash;10%) of it. A defining feature is that <strong>energy flow is unidirectional</strong> &mdash; it moves from the sun to producers to consumers and is ultimately lost as heat; it never flows back.</p><p>Organisms are arranged in <strong>trophic levels</strong> according to their source of food: <strong>producers</strong> (first trophic level), <strong>primary consumers/herbivores</strong> (second), <strong>secondary consumers/carnivores</strong> (third), and so on. The sequence of who-eats-whom is a <strong>food chain</strong>, and interconnected food chains form a <strong>food web</strong>. There are two types of food chain: the <strong>grazing food chain (GFC)</strong>, which starts from <strong>green plants (producers)</strong>, and the <strong>detritus food chain (DFC)</strong>, which starts from <strong>dead organic matter</strong>.</p><p>The flow of energy obeys the <strong>10% law</strong> (proposed by <strong>Lindeman</strong>): only about <strong>10% of the energy</strong> at one trophic level is transferred to and stored at the next level; the other ~90% is <strong>lost (mainly as heat)</strong> in respiration and life processes. Because of this huge loss at each step, food chains usually have only <strong>3&ndash;4 (rarely 5) trophic levels</strong>.</p><p>The relationship between trophic levels is shown by <strong>ecological pyramids</strong> &mdash; of <strong>number, biomass or energy</strong>. The <strong>pyramid of energy is always upright</strong>, because energy always decreases at each higher level. But the <strong>pyramids of number and biomass can be inverted</strong>: in the sea, a small standing biomass of <strong>phytoplankton supports a larger biomass of zooplankton and fish</strong> (inverted biomass pyramid), and a single <strong>big tree supports a large number of insects and birds</strong> (inverted number pyramid). Pyramids also ignore that a species may occupy more than one trophic level. For NEET, fix unidirectional flow, trophic levels, GFC vs DFC, the 10% law (Lindeman), and which pyramids can be inverted (energy never; number/biomass can be).</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Concept</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Energy flow</td><td style='border:1px solid #dcfce7;padding:6px 8px'>unidirectional (sun → producers → consumers → heat)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Trophic levels</td><td style='border:1px solid #dcfce7;padding:6px 8px'>producers → herbivores → carnivores</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>GFC / DFC</td><td style='border:1px solid #dcfce7;padding:6px 8px'>starts at producers / dead organic matter</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>10% law (Lindeman)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>~10% energy to next level (~90% lost)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Pyramids</td><td style='border:1px solid #dcfce7;padding:6px 8px'>energy = always upright; number/biomass can be inverted</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>If producers capture 10,000 J of energy, roughly how much reaches the secondary consumers?</p>",
+              "solution": "<p>By the <strong>10% law</strong>, ~10% passes to each next level. Producers (10,000 J) → primary consumers ~<strong>1,000 J</strong> → secondary consumers ~<strong>100 J</strong>. So about <strong>100 J</strong> reaches the secondary consumers.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Which ecological pyramid is always upright, and give one example of an inverted pyramid.</p>",
+              "solution": "<p>The <strong>pyramid of energy is always upright</strong> (energy decreases at each level). An <strong>inverted pyramid of biomass</strong> is seen in the <strong>sea</strong>, where a small biomass of phytoplankton supports a larger biomass of zooplankton/fish.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Energy flow in an ecosystem is:</p>", "options": ["cyclic", "unidirectional", "bidirectional", "random"], "correct": 1, "explanation": "Energy flow is one-way (unidirectional)." },
+            { "q": "<p>The grazing food chain starts with:</p>", "options": ["dead matter", "producers (green plants)", "decomposers", "carnivores"], "correct": 1, "explanation": "GFC begins at producers; DFC at detritus." },
+            { "q": "<p>The 10% law was proposed by:</p>", "options": ["Lindeman", "Tansley", "Odum", "Tilman"], "correct": 0, "explanation": "Lindeman gave the 10% law of energy transfer." },
+            { "q": "<p>Which pyramid is always upright?</p>", "options": ["pyramid of number", "pyramid of biomass", "pyramid of energy", "all of these"], "correct": 2, "explanation": "The pyramid of energy is always upright." },
+            { "q": "<p>An inverted pyramid of biomass is typical of a/an:</p>", "options": ["forest", "grassland", "sea (aquatic)", "desert"], "correct": 2, "explanation": "In the sea, phytoplankton biomass < zooplankton biomass." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Energy flow = unidirectional; trophic levels: producers→herbivores→carnivores. GFC (from producers) vs DFC (from detritus). 10% law (Lindeman): ~10% to next level → 3–4 levels only. Energy pyramid always upright; number/biomass pyramids can be inverted (sea biomass; big tree number).</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Nutrient Cycling, Succession and Ecosystem Services",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Nutrient Cycling: The Carbon and Phosphorus Cycles",
+          "concept": "<p>Nutrients, unlike energy, are <strong>not lost but recycled</strong> between the living organisms and the environment &mdash; this movement is <strong>nutrient cycling</strong> (the cycles are called <strong>biogeochemical cycles</strong>). Each cycle has a <strong>reservoir</strong>, and on this basis there are two types. <strong>Gaseous cycles</strong> have their reservoir in the <strong>atmosphere</strong> (e.g. the <strong>carbon and nitrogen cycles</strong>), while <strong>sedimentary cycles</strong> have their reservoir in the <strong>Earth's crust / rocks</strong> (e.g. the <strong>phosphorus and sulphur cycles</strong>).</p><p>The <strong>carbon cycle</strong> is a <strong>gaseous cycle</strong>. A huge amount of carbon is held in the oceans, and a large amount circulates through the atmosphere as <strong>CO₂</strong>. Carbon enters the living world when producers <strong>fix CO₂ by photosynthesis</strong>; it returns to the atmosphere through the <strong>respiration</strong> of organisms, the <strong>decomposition</strong> of dead matter, and the <strong>burning of fossil fuels and wood</strong>. Human activities (burning fossil fuels, deforestation) have raised atmospheric CO₂, contributing to global warming.</p><p>The <strong>phosphorus cycle</strong> is a <strong>sedimentary cycle</strong>, and a favourite point of contrast. Its reservoir is the <strong>rocks</strong>, which contain phosphorus as <strong>phosphates</strong>. The <strong>weathering of rocks</strong> releases phosphate into the soil and water; plants <strong>absorb the phosphate</strong>, animals get it by eating plants, and <strong>decomposers return</strong> it to the soil.</p><p>The key NEET distinction is that the phosphorus cycle has <strong>no significant gaseous (atmospheric) phase</strong> &mdash; phosphorus does not enter the air as carbon does &mdash; and there is <strong>little or no respiratory release of phosphorus into the atmosphere</strong>. So carbon moves rapidly through a gaseous reservoir, while phosphorus moves slowly through a rock/sediment reservoir. For NEET, fix gaseous vs sedimentary cycles, the carbon cycle (atmospheric CO₂; photosynthesis in, respiration/decomposition/burning out) and the phosphorus cycle (reservoir = rocks/phosphates; no gaseous phase).</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Cycle</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Gaseous cycle</td><td style='border:1px solid #dcfce7;padding:6px 8px'>reservoir = atmosphere (carbon, nitrogen)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Sedimentary cycle</td><td style='border:1px solid #dcfce7;padding:6px 8px'>reservoir = rocks (phosphorus, sulphur)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Carbon in</td><td style='border:1px solid #dcfce7;padding:6px 8px'>photosynthesis fixes CO₂</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Carbon out</td><td style='border:1px solid #dcfce7;padding:6px 8px'>respiration, decomposition, burning fuels</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Phosphorus</td><td style='border:1px solid #dcfce7;padding:6px 8px'>reservoir = rocks; NO gaseous phase</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>How does carbon return to the atmosphere from the living world?</p>",
+              "solution": "<p>Carbon returns to the atmosphere as <strong>CO₂</strong> through the <strong>respiration</strong> of plants and animals, the <strong>decomposition</strong> of dead organic matter by decomposers, and the <strong>burning of fossil fuels and wood</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Give two ways the phosphorus cycle differs from the carbon cycle.</p>",
+              "solution": "<p>(1) Phosphorus is a <strong>sedimentary cycle</strong> with its reservoir in <strong>rocks</strong>, while carbon is a <strong>gaseous cycle</strong> with its reservoir in the <strong>atmosphere</strong>. (2) The phosphorus cycle has <strong>no significant gaseous (atmospheric) phase</strong>, whereas carbon circulates rapidly as atmospheric CO₂.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The carbon cycle is a:</p>", "options": ["sedimentary cycle", "gaseous cycle", "rock cycle", "non-cyclic process"], "correct": 1, "explanation": "Carbon's reservoir is the atmosphere — gaseous cycle." },
+            { "q": "<p>The reservoir of the phosphorus cycle is the:</p>", "options": ["atmosphere", "rocks", "oceans only", "living organisms"], "correct": 1, "explanation": "Phosphorus is stored in rocks (phosphates)." },
+            { "q": "<p>A key feature of the phosphorus cycle is the:</p>", "options": ["large gaseous phase", "absence of a gaseous phase", "release as CO₂", "fixation by lightning"], "correct": 1, "explanation": "The phosphorus cycle has no significant gaseous phase." },
+            { "q": "<p>Carbon enters the living world mainly through:</p>", "options": ["respiration", "photosynthesis", "decomposition", "weathering"], "correct": 1, "explanation": "Producers fix CO₂ by photosynthesis." },
+            { "q": "<p>Which is a sedimentary cycle?</p>", "options": ["carbon", "nitrogen", "phosphorus", "water"], "correct": 2, "explanation": "Phosphorus (and sulphur) are sedimentary cycles." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Nutrient (biogeochemical) cycles: gaseous (carbon, nitrogen — reservoir atmosphere) vs sedimentary (phosphorus, sulphur — reservoir rocks). Carbon: in by photosynthesis; out by respiration/decomposition/burning. Phosphorus: reservoir rocks (phosphate), released by weathering, NO gaseous phase.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Ecological Succession and Ecosystem Services",
+          "concept": "<p><strong>Ecological succession</strong> is the <strong>gradual and fairly predictable change in the species composition</strong> of a community at a given site over time. It proceeds through a series of stages (each called a <strong>seral stage / sere</strong>) until a stable, self-perpetuating community &mdash; the <strong>climax community</strong> &mdash; is reached, in balance with the environment.</p><p>There are two main kinds. <strong>Primary succession</strong> starts in an area where <strong>no living organisms ever existed and there is no soil</strong> &mdash; such as a bare rock, a new volcanic island, or a cooled lava flow. Because soil has to form first, primary succession is <strong>very slow</strong> (it may take thousands of years). The first organisms to colonise are the <strong>pioneer species</strong>; on bare rock these are usually <strong>lichens</strong>, which secrete acids that weather the rock and help form soil, paving the way for mosses, herbs, shrubs and finally trees.</p><p><strong>Secondary succession</strong> occurs in areas where a community <strong>existed but was removed</strong> &mdash; for example land cleared by fire, flood or abandoned farmland &mdash; <strong>but the soil is still present</strong>. Because soil (with nutrients and seeds) already exists, secondary succession is <strong>much faster</strong> than primary succession. Succession that begins in water is called <strong>hydrarch</strong> (it moves toward a mesic, i.e. moderate, climax) and that beginning on dry land is called <strong>xerarch</strong>; both tend toward the mesic condition.</p><p>Finally, healthy ecosystems give us <strong>ecosystem services</strong> &mdash; the products and processes that nature provides free of cost. These include <strong>purifying air and water</strong>, <strong>pollinating crops</strong>, <strong>cycling nutrients</strong>, <strong>forming and conserving soil</strong>, <strong>regulating climate</strong>, controlling floods and droughts, and providing aesthetic, cultural and recreational value. (Economists led by Robert Costanza estimated the value of nature's services at trillions of dollars per year, with <strong>soil formation</strong> accounting for the largest share.) These services remind us why ecosystems must be conserved &mdash; leading into the next chapter on biodiversity. For NEET, fix the definition of succession, primary (bare rock, pioneer = lichens, slow) vs secondary (soil present, faster), hydrarch/xerarch, the climax community, and examples of ecosystem services.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Concept</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Primary succession</td><td style='border:1px solid #dcfce7;padding:6px 8px'>bare area, no soil; pioneers = lichens; very slow</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Secondary succession</td><td style='border:1px solid #dcfce7;padding:6px 8px'>soil present (after fire/flood); much faster</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Climax community</td><td style='border:1px solid #dcfce7;padding:6px 8px'>stable end community in balance with environment</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Hydrarch / xerarch</td><td style='border:1px solid #dcfce7;padding:6px 8px'>begins in water / on dry land (→ mesic)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Ecosystem services</td><td style='border:1px solid #dcfce7;padding:6px 8px'>air/water purification, pollination, soil, climate</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why is secondary succession faster than primary succession?</p>",
+              "solution": "<p>Because in <strong>secondary succession the soil is already present</strong> (with nutrients, microbes and seeds), so colonisation can begin quickly. In <strong>primary succession soil must form first</strong> (starting from bare rock via pioneers like lichens), which takes a very long time.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Name the usual pioneer species on bare rock and two ecosystem services.</p>",
+              "solution": "<p>The usual pioneers on bare rock are <strong>lichens</strong> (they weather the rock and help form soil). Ecosystem services (any two): <strong>purifying air and water, pollinating crops, nutrient cycling, soil formation, climate regulation</strong>.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The final stable community in succession is the:</p>", "options": ["pioneer community", "seral stage", "climax community", "sere"], "correct": 2, "explanation": "Succession ends in the climax community." },
+            { "q": "<p>Pioneer species on bare rock are usually:</p>", "options": ["grasses", "lichens", "shrubs", "trees"], "correct": 1, "explanation": "Lichens are the pioneers on bare rock." },
+            { "q": "<p>Primary succession is:</p>", "options": ["faster than secondary", "very slow (soil must form)", "the same speed", "instant"], "correct": 1, "explanation": "It is very slow because soil has to form first." },
+            { "q": "<p>Succession beginning in water is called:</p>", "options": ["xerarch", "hydrarch", "lithosere", "psammosere"], "correct": 1, "explanation": "Hydrarch succession begins in water." },
+            { "q": "<p>Which is an ecosystem service?</p>", "options": ["pollination of crops", "burning fossil fuels", "soil erosion", "deforestation"], "correct": 0, "explanation": "Pollination is a natural ecosystem service." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Succession = predictable change → climax community (sere/seral stages). Primary: bare rock/no soil, pioneers = lichens, very slow. Secondary: soil present (after fire/flood), faster. Hydrarch (water) &amp; xerarch (dry) → mesic. Ecosystem services: air/water purification, pollination, nutrient cycling, soil formation, climate regulation.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-biology-ch31-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>Net primary productivity equals:</p>", "options": ["GPP + R", "GPP − R", "GPP × R", "secondary productivity"], "correct": 1, "explanation": "NPP = GPP − respiration." },
+            { "q": "<p>The biomass available to consumers is the:</p>", "options": ["GPP", "NPP", "respiration", "standing crop only"], "correct": 1, "explanation": "NPP is available to consumers." },
+            { "q": "<p>The detritus food chain begins with:</p>", "options": ["green plants", "dead organic matter", "herbivores", "carnivores"], "correct": 1, "explanation": "DFC starts from detritus (dead matter)." },
+            { "q": "<p>According to the 10% law, energy transferred to the next level is about:</p>", "options": ["1%", "10%", "50%", "90%"], "correct": 1, "explanation": "Only ~10% passes to the next trophic level." },
+            { "q": "<p>The always-upright ecological pyramid is the pyramid of:</p>", "options": ["number", "biomass", "energy", "none"], "correct": 2, "explanation": "The pyramid of energy is always upright." },
+            { "q": "<p>The phosphorus cycle is a:</p>", "options": ["gaseous cycle", "sedimentary cycle", "hydrological cycle", "non-cyclic process"], "correct": 1, "explanation": "Phosphorus is a sedimentary cycle (reservoir = rocks)." },
+            { "q": "<p>Pioneer organisms on bare rock are:</p>", "options": ["mosses", "lichens", "ferns", "grasses"], "correct": 1, "explanation": "Lichens are the pioneers in primary succession on rock." },
+            { "q": "<p>Decomposition is fastest in conditions that are:</p>", "options": ["cold and dry", "warm and moist", "warm and dry", "frozen"], "correct": 1, "explanation": "Warm and moist conditions accelerate decomposition." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> Food chains rarely have more than four or five trophic levels.<br><strong>R:</strong> Only about 10% of energy passes from one trophic level to the next, so little energy is left for higher levels.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The large energy loss at each step is exactly why chains are short — R explains A." },
+            { "q": "<p><strong>A:</strong> The pyramid of energy is always upright.<br><strong>R:</strong> Available energy decreases at each successive trophic level.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Decreasing energy at each level is why the energy pyramid is always upright — R explains A." },
+            { "q": "<p><strong>A:</strong> The phosphorus cycle has no significant gaseous (atmospheric) phase.<br><strong>R:</strong> Unlike carbon, phosphorus is not released into the atmosphere during respiration.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "No respiratory release into air is exactly why the phosphorus cycle lacks a gaseous phase — R explains A." },
+            { "q": "<p><strong>A:</strong> Secondary succession proceeds faster than primary succession.<br><strong>R:</strong> In secondary succession the soil is already present, so colonisation begins quickly.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Pre-existing soil is exactly why secondary succession is faster — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

@@ -1,0 +1,393 @@
+{
+  "engine": "rq_score_engine",
+  "version": "1.0.0",
+  "scoring_model": {
+    "points_per_section": 20,
+    "total_sections_planned": 5,
+    "max_total_score": 100,
+    "section_formula": "SectionScore = (SumEarnedWeightedPoints / SumApplicableMaxWeightedPoints) * points_per_section",
+    "weighted_point_rule": "earned = rawScore(0-5) * multiplier ; max = 5 * multiplier",
+    "na_rule_semantics": {
+      "null": "Parameter is always scored. Never eligible for N/A. Missing content scores 0.",
+      "absent": "N/A only when NO content for this parameter is detected. When detected, it is scored normally.",
+      "force_na_object": "N/A is forced when the career-stage condition is met (e.g. min_years_experience) unless the exception applies; otherwise falls back to 'absent' behaviour."
+    }
+  },
+  "sections": [
+    {
+      "id": 1,
+      "name": "Education & Qualifications",
+      "implemented": true,
+      "calculation_formula": "Section Score = (Sum of Earned Weighted Points / Sum of Applicable Maximum Weighted Points) * 20",
+      "categories": [
+        {
+          "name": "Core Identifiers",
+          "parameters": [
+            {
+              "id": 1,
+              "parameter_name": "Highest qualification clearly stated",
+              "multiplier": 3,
+              "na_eligible": false,
+              "na_rule": null,
+              "scoring_rubric": {
+                "0": "No qualifications listed.",
+                "1": "Qualifications listed as text blocks without clear hierarchy.",
+                "2": "Highest qualification is present but buried below older/lesser degrees.",
+                "3": "Highest qualification is identifiable but requires reading through descriptions.",
+                "4": "Highest qualification is clear and prioritized.",
+                "5": "Highest qualification is immediately obvious, separated structurally, and visually prioritized."
+              }
+            },
+            {
+              "id": 2,
+              "parameter_name": "Degree/qualification name clarity",
+              "multiplier": 3,
+              "na_eligible": false,
+              "na_rule": null,
+              "scoring_rubric": {
+                "0": "Unstated.",
+                "1": "Highly ambiguous (e.g., \"Graduated\").",
+                "2": "Generic or informal (e.g., \"College Degree\", \"Uni\").",
+                "3": "Standard but abbreviated without context (e.g., \"BS\", \"BA\").",
+                "4": "Clear standard naming (e.g., \"Bachelor of Science\").",
+                "5": "Full official nomenclature, including exact degree type and classification if applicable."
+              }
+            },
+            {
+              "id": 3,
+              "parameter_name": "Institution name clarity",
+              "multiplier": 2,
+              "na_eligible": false,
+              "na_rule": null,
+              "scoring_rubric": {
+                "0": "Unstated.",
+                "1": "Vague description (e.g., \"Local College\").",
+                "2": "Unclear abbreviation or acronym only.",
+                "3": "Common name used but lacks location/campus context.",
+                "4": "Full formal institution name provided.",
+                "5": "Full formal institution name with city/country or specific campus designated."
+              }
+            },
+            {
+              "id": 4,
+              "parameter_name": "Field/specialization clarity",
+              "multiplier": 3,
+              "na_eligible": false,
+              "na_rule": null,
+              "scoring_rubric": {
+                "0": "Unstated.",
+                "1": "Overly broad (e.g., \"Business\").",
+                "2": "General field stated (e.g., \"Management\").",
+                "3": "Specific major stated.",
+                "4": "Major and minor/concentration clearly defined.",
+                "5": "Exact specialization, major, and minors precisely delineated with relevant focus areas."
+              }
+            }
+          ]
+        },
+        {
+          "name": "Timeline & Structure",
+          "parameters": [
+            {
+              "id": 5,
+              "parameter_name": "Education dates",
+              "multiplier": 3,
+              "na_eligible": false,
+              "na_rule": null,
+              "scoring_rubric": {
+                "0": "No dates provided.",
+                "1": "Only graduation year provided, vaguely.",
+                "2": "Graduation year provided clearly.",
+                "3": "Start and end years provided.",
+                "4": "Start and end months/years provided.",
+                "5": "Precise timeline with expected graduation dates (if ongoing) or clear completion dates."
+              }
+            },
+            {
+              "id": 6,
+              "parameter_name": "Education chronology",
+              "multiplier": 2,
+              "na_eligible": false,
+              "na_rule": null,
+              "scoring_rubric": {
+                "0": "Random or chaotic order.",
+                "1": "Chronological (oldest first).",
+                "2": "Mostly reverse-chronological, with errors.",
+                "3": "Strict reverse-chronological order.",
+                "4": "Reverse-chronological with clear visual separation between distinct timelines.",
+                "5": "Perfect reverse-chronology, seamlessly integrating concurrent degrees or transfers."
+              }
+            },
+            {
+              "id": 14,
+              "parameter_name": "Education consistency",
+              "multiplier": 2,
+              "na_eligible": false,
+              "na_rule": null,
+              "scoring_rubric": {
+                "0": "Massive unexplained gaps or conflicting dates.",
+                "1": "Overlapping timelines that contradict.",
+                "2": "Formatting changes wildly between degree entries.",
+                "3": "Consistent formatting, minor chronological ambiguity.",
+                "4": "Clear, logical progression with consistent data structure.",
+                "5": "Flawless structural consistency; all entries follow the exact same data hierarchy (Degree, Institution, Date, Location)."
+              }
+            },
+            {
+              "id": 15,
+              "parameter_name": "Education section presentation",
+              "multiplier": 2,
+              "na_eligible": false,
+              "na_rule": null,
+              "scoring_rubric": {
+                "0": "Unreadable block text.",
+                "1": "Poorly spaced, difficult to parse.",
+                "2": "Basic lists but lacks typographical hierarchy (bolding, italics).",
+                "3": "Clean, standard layout.",
+                "4": "Strong use of white space, bullet points, and typographic contrast.",
+                "5": "Optimal ATS-friendly layout that remains highly readable to human eyes; distinct visual hierarchy."
+              }
+            }
+          ]
+        },
+        {
+          "name": "Academic Content & Rigor",
+          "category_notes": "These parameters frequently trigger the N/A redistribution based on the candidate's career stage. A professional with 10+ years of experience is automatically evaluated as N/A for Coursework and Thesis unless transitioning into academia.",
+          "parameters": [
+            {
+              "id": 7,
+              "parameter_name": "Academic achievements",
+              "multiplier": 2,
+              "na_eligible": true,
+              "na_rule": "absent",
+              "scoring_rubric": {
+                "0": "No achievements listed (Triggers N/A if professional).",
+                "1": "Vague claims (e.g., \"Good grades\").",
+                "2": "Basic GPA or overall grade stated without scale context.",
+                "3": "Standard GPA/grade with scale (e.g., 3.8/4.0).",
+                "4": "Strong metrics, including class rank or percentile.",
+                "5": "Quantified academic superiority (e.g., \"Top 5% of class,\" \"Summa Cum Laude\" plus exact metrics)."
+              }
+            },
+            {
+              "id": 8,
+              "parameter_name": "Academic honors/distinctions",
+              "multiplier": 1,
+              "na_eligible": true,
+              "na_rule": "absent",
+              "scoring_rubric": {
+                "0": "None listed (Triggers N/A).",
+                "1": "Mentioned without context.",
+                "2": "Basic listing of honor societies or Dean's List.",
+                "3": "Honors listed with dates/semesters.",
+                "4": "Prestigious scholarships or distinct awards detailed.",
+                "5": "High-level awards with context on selectivity (e.g., \"1 of 3 students awarded globally\")."
+              }
+            },
+            {
+              "id": 9,
+              "parameter_name": "Relevant coursework",
+              "multiplier": 1,
+              "na_eligible": true,
+              "na_rule": { "force_na_when": { "min_years_experience": 10 }, "unless": "academia_transition", "fallback": "absent" },
+              "scoring_rubric": {
+                "0": "None listed (Triggers N/A for experienced hires).",
+                "1": "Generic, irrelevant, or exhaustive \"data dump\" of all classes.",
+                "2": "Basic list of major-related courses.",
+                "3": "Curated list of advanced courses relevant to target roles.",
+                "4": "Coursework contextualized with specific skills learned.",
+                "5": "Highly targeted coursework with specific project applications directly mapped to the courses."
+              }
+            },
+            {
+              "id": 10,
+              "parameter_name": "Thesis/research info",
+              "multiplier": 2,
+              "na_eligible": true,
+              "na_rule": { "force_na_when": { "min_years_experience": 10 }, "unless": "academia_transition", "fallback": "absent" },
+              "scoring_rubric": {
+                "0": "None listed (Triggers N/A if not a research degree).",
+                "1": "Title only, vaguely stated.",
+                "2": "Title and basic topic provided.",
+                "3": "Title, topic, and advisor/committee mentioned.",
+                "4": "Clear summary of methodology and core findings.",
+                "5": "Comprehensive but concise detail of research scope, funding/grants, methodology, and published outcomes."
+              }
+            }
+          ]
+        },
+        {
+          "name": "Supplemental & International Qualifications",
+          "parameters": [
+            {
+              "id": 11,
+              "parameter_name": "Professional qualifications",
+              "multiplier": 2,
+              "na_eligible": true,
+              "na_rule": "absent",
+              "scoring_rubric": {
+                "0": "None listed (Triggers N/A).",
+                "1": "Acronyms only with no context (e.g., \"CPA\").",
+                "2": "Full name provided, no dates or issuing body.",
+                "3": "Name, issuing body, and dates provided.",
+                "4": "Active status and license numbers included.",
+                "5": "Fully detailed, categorized distinctly from academic degrees, demonstrating ongoing compliance/status."
+              }
+            },
+            {
+              "id": 12,
+              "parameter_name": "Vocational/technical",
+              "multiplier": 1,
+              "na_eligible": true,
+              "na_rule": "absent",
+              "scoring_rubric": {
+                "0": "None listed (Triggers N/A).",
+                "1": "Vague mention of trade skills.",
+                "2": "Certificate name provided.",
+                "3": "Certificate, institution, and completion date clear.",
+                "4": "Includes hours completed or specific technical competencies gained.",
+                "5": "Highly detailed vocational framing aligned perfectly with job targets, including apprenticeship details if applicable."
+              }
+            },
+            {
+              "id": 13,
+              "parameter_name": "International clarity",
+              "multiplier": 2,
+              "na_eligible": true,
+              "na_rule": "absent",
+              "scoring_rubric": {
+                "0": "Domestic only (Triggers N/A).",
+                "1": "Foreign degree listed with no context or translation.",
+                "2": "Translated name, but grading scale remains obscure.",
+                "3": "Equivalency loosely stated (e.g., \"US Bachelor equivalent\").",
+                "4": "Formal credential evaluation mentioned (e.g., WES).",
+                "5": "Flawless presentation of original degree, accredited equivalency, and translated grading scale (e.g., \"First Class Honours, UK [US GPA 4.0 Equivalent]\")."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Work Experience",
+      "implemented": true,
+      "calculation_formula": "Section Score = (Sum earned weighted / Sum applicable max weighted) * 20",
+      "categories": [
+        {
+          "name": "Presence & Roles",
+          "parameters": [
+            { "id": 201, "parameter_name": "Experience section present & structured", "multiplier": 3, "na_eligible": false, "na_rule": null, "scoring_rubric": { "0": "No experience shown.", "1": "A line or two, no structure.", "2": "Roles listed without clear structure.", "3": "Clear roles with basic structure.", "4": "Dedicated section, well-structured roles.", "5": "Dedicated section; every role has title, company, dates, bullets." } },
+            { "id": 202, "parameter_name": "Role/title clarity", "multiplier": 2, "na_eligible": false, "na_rule": null, "scoring_rubric": { "0": "No titles.", "1": "Vague titles.", "2": "Generic titles.", "3": "Standard titles.", "4": "Clear, specific titles.", "5": "Specific titles conveying seniority and function." } },
+            { "id": 203, "parameter_name": "Company & context clarity", "multiplier": 2, "na_eligible": false, "na_rule": null, "scoring_rubric": { "0": "No employers.", "1": "Unclear employer names.", "2": "Names only.", "3": "Names with some context.", "4": "Names with location/industry.", "5": "Names with location, industry and scale/context." } },
+            { "id": 204, "parameter_name": "Career progression", "multiplier": 3, "na_eligible": true, "na_rule": "absent", "scoring_rubric": { "0": "No progression evident.", "1": "Lateral only.", "2": "Slight growth.", "3": "Clear upward steps.", "4": "Strong progression in scope/seniority.", "5": "Compelling trajectory with expanding scope and impact." } }
+          ]
+        },
+        {
+          "name": "Timeline & Stability",
+          "parameters": [
+            { "id": 205, "parameter_name": "Employment dates precision", "multiplier": 2, "na_eligible": false, "na_rule": null, "scoring_rubric": { "0": "No dates.", "1": "Vague years.", "2": "Years only.", "3": "Start-end years.", "4": "Month-year ranges.", "5": "Precise month-year ranges incl. current role." } },
+            { "id": 206, "parameter_name": "Reverse-chronological order", "multiplier": 1, "na_eligible": false, "na_rule": null, "scoring_rubric": { "0": "Chaotic.", "1": "Oldest first.", "2": "Mostly reverse with errors.", "3": "Reverse-chronological.", "4": "Reverse with clear separation.", "5": "Flawless reverse-chronology." } },
+            { "id": 207, "parameter_name": "Tenure & stability", "multiplier": 2, "na_eligible": true, "na_rule": "absent", "scoring_rubric": { "0": "Constant job-hopping.", "1": "Many <1yr stints.", "2": "Some short stints.", "3": "Reasonable tenure.", "4": "Healthy tenure, few moves.", "5": "Strong, stable tenure with purposeful moves." } },
+            { "id": 208, "parameter_name": "Recency / current role", "multiplier": 1, "na_eligible": true, "na_rule": "absent", "scoring_rubric": { "0": "No recent role.", "1": "Large recent gap.", "2": "Dated experience.", "3": "Recent role present.", "4": "Current role clearly ongoing.", "5": "Current role with recent, relevant scope." } }
+          ]
+        },
+        {
+          "name": "Description Quality",
+          "parameters": [
+            { "id": 209, "parameter_name": "Bulleted, scannable descriptions", "multiplier": 1, "na_eligible": false, "na_rule": null, "scoring_rubric": { "0": "Dense paragraphs.", "1": "Mostly paragraphs.", "2": "Mixed.", "3": "Mostly bullets.", "4": "Clean bullets.", "5": "Tight, scannable bullets throughout." } },
+            { "id": 210, "parameter_name": "Action-verb strength", "multiplier": 2, "na_eligible": false, "na_rule": null, "scoring_rubric": { "0": "No verbs / passive.", "1": "Weak openers (\"responsible for\").", "2": "Occasional action verbs.", "3": "Mostly action verbs.", "4": "Strong action verbs throughout.", "5": "Powerful, varied action verbs leading every bullet." } },
+            { "id": 211, "parameter_name": "Specificity & scope", "multiplier": 2, "na_eligible": false, "na_rule": null, "scoring_rubric": { "0": "Vague duties.", "1": "Generic responsibilities.", "2": "Some detail.", "3": "Clear what/how.", "4": "Specific scope, tools, context.", "5": "Precise scope, tools and situational context in every role." } },
+            { "id": 212, "parameter_name": "Conciseness", "multiplier": 1, "na_eligible": false, "na_rule": null, "scoring_rubric": { "0": "Extremely verbose or empty.", "1": "Too long or too thin.", "2": "Uneven length.", "3": "Reasonable length.", "4": "Concise and focused.", "5": "Crisp bullets, no filler, ideal density." } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Skills & Competencies",
+      "implemented": true,
+      "calculation_formula": "Section Score = (Sum earned weighted / Sum applicable max weighted) * 20",
+      "categories": [
+        {
+          "name": "Coverage",
+          "parameters": [
+            { "id": 301, "parameter_name": "Skills section present", "multiplier": 3, "na_eligible": false, "na_rule": null, "scoring_rubric": { "0": "No skills listed.", "1": "One or two scattered.", "2": "Short unstructured list.", "3": "Clear skills list.", "4": "Dedicated, organised section.", "5": "Comprehensive, well-organised competencies." } },
+            { "id": 302, "parameter_name": "Hard/technical skills depth", "multiplier": 3, "na_eligible": false, "na_rule": null, "scoring_rubric": { "0": "None.", "1": "One generic skill.", "2": "Few technical skills.", "3": "Solid technical set.", "4": "Broad, specific technical set.", "5": "Deep, current, in-demand technical stack." } },
+            { "id": 303, "parameter_name": "Tools & technologies specificity", "multiplier": 2, "na_eligible": false, "na_rule": null, "scoring_rubric": { "0": "None.", "1": "Vague (\"MS Office\").", "2": "Some named tools.", "3": "Several specific tools.", "4": "Precise, relevant tooling.", "5": "Named tools mapped to versions/contexts." } },
+            { "id": 304, "parameter_name": "Soft skills balance", "multiplier": 1, "na_eligible": true, "na_rule": "absent", "scoring_rubric": { "0": "None.", "1": "Only clichés.", "2": "Generic soft skills.", "3": "Relevant soft skills.", "4": "Soft skills with context.", "5": "Balanced soft skills evidenced by achievements." } }
+          ]
+        },
+        {
+          "name": "Relevance & Quality",
+          "parameters": [
+            { "id": 305, "parameter_name": "Domain relevance / alignment", "multiplier": 3, "na_eligible": false, "na_rule": null, "scoring_rubric": { "0": "Irrelevant.", "1": "Barely aligned.", "2": "Partly aligned.", "3": "Aligned to field.", "4": "Strongly aligned.", "5": "Precisely aligned to target roles and market demand." } },
+            { "id": 306, "parameter_name": "Organisation / grouping", "multiplier": 1, "na_eligible": false, "na_rule": null, "scoring_rubric": { "0": "Random dump.", "1": "Long unbroken list.", "2": "Flat list.", "3": "Some grouping.", "4": "Grouped by category.", "5": "Cleanly grouped (languages, tools, frameworks, soft)." } },
+            { "id": 307, "parameter_name": "Avoids generic buzzwords", "multiplier": 2, "na_eligible": false, "na_rule": null, "scoring_rubric": { "0": "All clichés (\"hardworking, team player\").", "1": "Mostly clichés.", "2": "Several clichés.", "3": "Few clichés.", "4": "Largely concrete.", "5": "No filler; every item is concrete and verifiable." } },
+            { "id": 308, "parameter_name": "Proficiency / evidence", "multiplier": 1, "na_eligible": true, "na_rule": "absent", "scoring_rubric": { "0": "None.", "1": "Unqualified list.", "2": "Vague levels.", "3": "Some proficiency indicated.", "4": "Clear levels or years.", "5": "Proficiency evidenced by projects/experience." } },
+            { "id": 309, "parameter_name": "Certifications & keyword alignment", "multiplier": 2, "na_eligible": true, "na_rule": "absent", "scoring_rubric": { "0": "None.", "1": "Unrelated.", "2": "Loosely related.", "3": "Relevant certs/keywords.", "4": "Strong, current certifications.", "5": "Recognised certifications tightly aligned to target roles." } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Projects & Portfolio",
+      "implemented": true,
+      "calculation_formula": "Section Score = (Sum earned weighted / Sum applicable max weighted) * 20",
+      "categories": [
+        {
+          "name": "Presence",
+          "parameters": [
+            { "id": 401, "parameter_name": "Projects section present", "multiplier": 3, "na_eligible": false, "na_rule": null, "scoring_rubric": { "0": "None.", "1": "Passing mention.", "2": "One vague project.", "3": "A project or two described.", "4": "Dedicated projects section.", "5": "Strong, curated project portfolio." } },
+            { "id": 402, "parameter_name": "Substance / number of projects", "multiplier": 2, "na_eligible": true, "na_rule": "absent", "scoring_rubric": { "0": "None.", "1": "Trivial.", "2": "One real project.", "3": "Two to three projects.", "4": "Several substantial projects.", "5": "Portfolio of substantial, distinct projects." } },
+            { "id": 403, "parameter_name": "Individual contribution clarity", "multiplier": 2, "na_eligible": true, "na_rule": "absent", "scoring_rubric": { "0": "Unclear role.", "1": "Team credit only.", "2": "Vague contribution.", "3": "Contribution stated.", "4": "Clear individual role.", "5": "Precise ownership and personal impact." } }
+          ]
+        },
+        {
+          "name": "Depth & Relevance",
+          "parameters": [
+            { "id": 404, "parameter_name": "Tech stack / methods described", "multiplier": 2, "na_eligible": true, "na_rule": "absent", "scoring_rubric": { "0": "None.", "1": "Vague.", "2": "A tool named.", "3": "Stack listed.", "4": "Stack and approach.", "5": "Stack, approach and rationale." } },
+            { "id": 405, "parameter_name": "Outcomes / results", "multiplier": 3, "na_eligible": true, "na_rule": "absent", "scoring_rubric": { "0": "No outcome.", "1": "\"Built X\".", "2": "Basic result.", "3": "Clear result.", "4": "Quantified result.", "5": "Quantified impact with users/metrics/adoption." } },
+            { "id": 406, "parameter_name": "Links (repo/live/portfolio)", "multiplier": 2, "na_eligible": true, "na_rule": "absent", "scoring_rubric": { "0": "None.", "1": "Mentioned, no link.", "2": "One link.", "3": "Live or repo link.", "4": "Repo and live links.", "5": "Repo, live demo and portfolio all linked." } },
+            { "id": 407, "parameter_name": "Relevance to target domain", "multiplier": 2, "na_eligible": true, "na_rule": "absent", "scoring_rubric": { "0": "Irrelevant.", "1": "Tangential.", "2": "Partly relevant.", "3": "Relevant.", "4": "Strongly relevant.", "5": "Directly showcases target-role capabilities." } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Impact & Presentation",
+      "implemented": true,
+      "calculation_formula": "Section Score = (Sum earned weighted / Sum applicable max weighted) * 20",
+      "categories": [
+        {
+          "name": "Quantified Impact",
+          "parameters": [
+            { "id": 501, "parameter_name": "Quantified results (numbers/%/currency)", "multiplier": 3, "na_eligible": false, "na_rule": null, "scoring_rubric": { "0": "No metrics anywhere.", "1": "One vague number.", "2": "A couple of metrics.", "3": "Several quantified points.", "4": "Most achievements quantified.", "5": "Consistent, credible metrics (%/currency/scale) throughout." } },
+            { "id": 502, "parameter_name": "Outcome / business orientation", "multiplier": 2, "na_eligible": false, "na_rule": null, "scoring_rubric": { "0": "Only duties.", "1": "Task-focused.", "2": "Occasional outcome.", "3": "Outcome-aware.", "4": "Outcome-driven.", "5": "Every point ties effort to a business/user outcome." } },
+            { "id": 503, "parameter_name": "Achievement framing (STAR)", "multiplier": 2, "na_eligible": false, "na_rule": null, "scoring_rubric": { "0": "No achievements.", "1": "Responsibilities only.", "2": "Some achievements.", "3": "Achievement-oriented.", "4": "Action-result framing.", "5": "Situation-action-result framing consistently." } }
+          ]
+        },
+        {
+          "name": "Recognition & Leadership",
+          "parameters": [
+            { "id": 504, "parameter_name": "Awards & recognition", "multiplier": 2, "na_eligible": true, "na_rule": "absent", "scoring_rubric": { "0": "None.", "1": "Mentioned, no context.", "2": "Basic listing.", "3": "Named awards with dates.", "4": "Notable awards detailed.", "5": "Prestigious awards with selectivity context." } },
+            { "id": 505, "parameter_name": "Leadership & scope", "multiplier": 2, "na_eligible": true, "na_rule": "absent", "scoring_rubric": { "0": "None.", "1": "Implied.", "2": "Some ownership.", "3": "Led work/people.", "4": "Clear leadership scope.", "5": "Quantified leadership (team size, budget, ownership)." } },
+            { "id": 506, "parameter_name": "Publications / thought leadership", "multiplier": 1, "na_eligible": true, "na_rule": "absent", "scoring_rubric": { "0": "None.", "1": "Mentioned.", "2": "One item.", "3": "Named publications/talks.", "4": "Peer-reviewed / patents.", "5": "Recognised body of published work or IP." } }
+          ]
+        },
+        {
+          "name": "Professional Presentation",
+          "parameters": [
+            { "id": 507, "parameter_name": "Contact completeness", "multiplier": 2, "na_eligible": false, "na_rule": null, "scoring_rubric": { "0": "No contact info.", "1": "One channel.", "2": "Email or phone.", "3": "Email and phone.", "4": "Email, phone, location.", "5": "Email, phone, location and professional links (LinkedIn/portfolio)." } },
+            { "id": 508, "parameter_name": "Professional summary quality", "multiplier": 2, "na_eligible": true, "na_rule": "absent", "scoring_rubric": { "0": "None.", "1": "Generic objective.", "2": "Vague summary.", "3": "Clear summary.", "4": "Targeted value proposition.", "5": "Sharp, tailored summary with headline value and specialisation." } },
+            { "id": 509, "parameter_name": "Length / brevity", "multiplier": 1, "na_eligible": false, "na_rule": null, "scoring_rubric": { "0": "Extremely short or bloated.", "1": "Clearly off.", "2": "Somewhat off.", "3": "Acceptable length.", "4": "Well-judged length.", "5": "Ideal density for the candidate's level." } },
+            { "id": 510, "parameter_name": "ATS-friendly & consistent formatting", "multiplier": 2, "na_eligible": false, "na_rule": null, "scoring_rubric": { "0": "Unparseable.", "1": "Inconsistent, hard to parse.", "2": "Basic formatting.", "3": "Clean, consistent.", "4": "Standard headings, consistent structure.", "5": "Fully ATS-safe: standard headings, consistent hierarchy, no layout traps." } },
+            { "id": 511, "parameter_name": "Avoids clichés & filler", "multiplier": 1, "na_eligible": false, "na_rule": null, "scoring_rubric": { "0": "Cliché-ridden.", "1": "Many clichés.", "2": "Several clichés.", "3": "Few clichés.", "4": "Largely concrete.", "5": "No filler; confident, concrete language throughout." } }
+          ]
+        }
+      ]
+    }
+  ]
+}

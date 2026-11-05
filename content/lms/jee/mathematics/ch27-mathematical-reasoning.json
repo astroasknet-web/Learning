@@ -1,0 +1,1035 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": 27,
+  "title": "Mathematical Reasoning",
+  "slug": "mathematical-reasoning",
+  "subtitle": "Mathematical Reasoning for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#475569",
+  "icon": "math",
+  "seo": {
+    "meta_description": "Master Mathematical Reasoning for JEE Main & Advanced on GrowQR: notes, solved examples, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Statements and Logical Connectives",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Mathematical Statements and Truth Values",
+          "concept": "<p>A <strong>mathematical statement</strong> (or <strong>proposition</strong>) is a declarative sentence that is either definitively true or definitively false, but not both simultaneously. The truth or falsity of a statement is called its <strong>truth value</strong>, denoted by $T$ (true) or $F$ (false).</p><strong>Examples of statements:</strong>\n <ul>\n <li>\"The sum of two odd integers is even.\" (True statement)\n <li>\"$\\sqrt{2}$ is a rational number.\" (False statement)\n <li>\"$7 > 5$.\" (True statement)\n </ul><strong>Examples that are NOT statements:</strong>\n <ul>\n <li>\"Close the door.\" (command, not declarative)\n <li>\"What time is it?\" (question)\n <li>\"$x + 5 = 8$.\" (open sentence — truth value depends on $x$)\n <li>\"May you have a great day.\" (wish/exclamation)\n </ul><p><strong>Open Sentences:</strong> A declarative sentence containing one or more variables whose truth value depends on the value(s) assigned to the variable(s). For example, \"$x$ is a prime number\" is an open sentence — it becomes a statement once $x$ is specified.</p><strong>Simple vs. Compound Statements:</strong>\n <ul>\n <li><strong>Simple Statement:</strong> Cannot be broken down further into simpler component statements. (e.g., \"It is raining.\")\n <li><strong>Compound Statement:</strong> Formed by combining two or more simple statements using logical connectives (e.g., \"It is raining AND the road is wet.\").\n </ul><p><strong>Component Statements:</strong> The simple statements making up a compound statement. To analyze a compound statement, identify its component statements and the connectives used.</p><p><strong>Notation:</strong> Statements are typically denoted by lowercase letters $p, q, r, s, \\ldots$</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Determine which of the following are statements. For those that are, identify the truth value.\n (i) \"The earth has one moon.\"\n (ii) \"$\\sqrt{3}$ is irrational.\"\n (iii) \"How beautiful!\"\n (iv) \"$x^2 = 4$.\"\n (v) \"5 is a perfect square.\"</p>",
+              "solution": "<p>(i) Statement, True. (It is declarative and definitely true.)<br>\n (ii) Statement, True. (Famous theorem: $\\sqrt{3}$ cannot be expressed as $p/q$.)<br>\n (iii) NOT a statement. (Exclamation, not declarative.)<br>\n (iv) NOT a statement. (Open sentence — truth depends on $x$.)<br>\n (v) Statement, False. (Since 5 is not the square of any integer.)</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Identify the component statements of the following compound statement:<br>\n \"The number 36 is divisible by 4 and by 6.\"</p>",
+              "solution": "Component statements:\n <ul>\n <li>$p$: \"The number 36 is divisible by 4.\" (True)\n <li>$q$: \"The number 36 is divisible by 6.\" (True)\n </ul>\n The connective used is \"and\". Since both $p$ and $q$ are true, the compound statement is true."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Which of the following is a mathematical statement?",
+              "options": [
+                "Where are you going?",
+                "Please stand up.",
+                "Every prime number is odd.",
+                "Wow, that's amazing!"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The sentence \"$x - 5 = 7$\" is:",
+              "options": [
+                "A true statement",
+                "A false statement",
+                "An open sentence",
+                "A compound statement"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The compound statement \"2 is even and 3 is odd\" has truth value:",
+              "options": [
+                "True",
+                "False",
+                "Indeterminate",
+                "Depends on context"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Which of the following statements is FALSE?",
+              "options": [
+                "7 is a prime number",
+                "Every square is a rectangle",
+                "Every integer is a rational number",
+                "Every natural number is an integer and odd"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "The statement \"All multiples of 4 are even\" is:",
+              "options": [
+                "True",
+                "False",
+                "Not a statement",
+                "An open sentence"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Logical Connectives and Truth Tables",
+          "concept": "<p>Compound statements are formed using <strong>logical connectives</strong> (also called logical operators). The five fundamental connectives in propositional logic are:</p><p><strong>1. Negation ($\\sim p$ or $\\neg p$):</strong> The opposite truth value of $p$.<br>\n $\\sim p$ is read as \"not $p$\" or \"it is not the case that $p$\".\n \\[\n\t\\begin{array}{|c|c|}\n\t\n\tp & \\sim p \\\\ \n\tT & F \\\\ \n\tF & T \\\\ \n\t\\end{array}\n\t\\]</p><p><strong>2. Conjunction ($p \\wedge q$):</strong> \"$p$ AND $q$\". True only when both $p$ and $q$ are true.\n \\[\n\t\\begin{array}{|c|c|c|}\n\t\n\tp & q & p \\wedge q \\\\ \n\tT & T & T \\\\ \n\tT & F & F \\\\ \n\tF & T & F \\\\ \n\tF & F & F \\\\ \n\t\\end{array}\n\t\\]</p><p><strong>3. Disjunction ($p \\vee q$):</strong> \"$p$ OR $q$\" (inclusive or). False only when both $p$ and $q$ are false.\n \\[\n\t\\begin{array}{|c|c|c|}\n\t\n\tp & q & p \\vee q \\\\ \n\tT & T & T \\\\ \n\tT & F & T \\\\ \n\tF & T & T \\\\ \n\tF & F & F \\\\ \n\t\\end{array}\n\t\\]</p><p><strong>4. Conditional / Implication ($p \\Rightarrow q$):</strong> \"If $p$ then $q$\". False only when $p$ is true and $q$ is false.\n \\[\n\t\\begin{array}{|c|c|c|}\n\t\n\tp & q & p \\Rightarrow q \\\\ \n\tT & T & T \\\\ \n\tT & F & F \\\\ \n\tF & T & T \\\\ \n\tF & F & T \\\\ \n\t\\end{array}\n\t\\]\n $p$ is called the <em>antecedent</em> (or hypothesis); $q$ is the <em>consequent</em> (or conclusion). The rows with $p$ false are called <em>vacuously true</em>.</p><p><strong>5. Biconditional ($p \\Leftrightarrow q$):</strong> \"$p$ if and only if $q$\" (often abbreviated \"$p$ iff $q$\"). True when $p$ and $q$ have the same truth value.\n \\[\n\t\\begin{array}{|c|c|c|}\n\t\n\tp & q & p \\Leftrightarrow q \\\\ \n\tT & T & T \\\\ \n\tT & F & F \\\\ \n\tF & T & F \\\\ \n\tF & F & T \\\\ \n\t\\end{array}\n\t\\]</p><strong>Relationships and Equivalences:</strong>\n <ul>\n <li>$p \\Leftrightarrow q \\equiv (p \\Rightarrow q) \\wedge (q \\Rightarrow p)$\n <li>$p \\Rightarrow q \\equiv \\sim p \\vee q$ (Material implication)\n <li>Double negation: $\\sim(\\sim p) \\equiv p$\n </ul><strong>Tautology, Contradiction, Contingency:</strong>\n <ul>\n <li><strong>Tautology:</strong> A compound statement that is always true regardless of truth values of components. E.g., $p \\vee \\sim p$.\n <li><strong>Contradiction (Fallacy):</strong> Always false. E.g., $p \\wedge \\sim p$.\n <li><strong>Contingency:</strong> Sometimes true and sometimes false. Most compound statements are contingencies.\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Construct the truth table for $(p \\Rightarrow q) \\wedge (q \\Rightarrow p)$ and verify that it is logically equivalent to $p \\Leftrightarrow q$.</p>",
+              "solution": "<p>\\[\n\t\\begin{array}{|c|c|c|c|c|c|}\n\t\n\tp & q & p \\Rightarrow q & q \\Rightarrow p & (p \\Rightarrow q) \\wedge (q \\Rightarrow p) & p \\Leftrightarrow q \\\\ \n\tT & T & T & T & T & T \\\\ \n\tT & F & F & T & F & F \\\\ \n\tF & T & T & F & F & F \\\\ \n\tF & F & T & T & T & T \\\\ \n\t\\end{array}\n\t\\]\n Columns 5 and 6 are identical, so $(p \\Rightarrow q) \\wedge (q \\Rightarrow p) \\equiv p \\Leftrightarrow q$.<br>\n <strong>Final Answer:</strong> The two compound statements are logically equivalent.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Show that $p \\vee \\sim p$ is a tautology and $p \\wedge \\sim p$ is a contradiction.</p>",
+              "solution": "<p>\\[\n\t\\begin{array}{|c|c|c|c|}\n\t\n\tp & \\sim p & p \\vee \\sim p & p \\wedge \\sim p \\\\ \n\tT & F & T & F \\\\ \n\tF & T & T & F \\\\ \n\t\\end{array}\n\t\\]\n The column for $p \\vee \\sim p$ is all $T$, so it is a tautology.<br>\n The column for $p \\wedge \\sim p$ is all $F$, so it is a contradiction.<br>\n (These are known as the <em>law of excluded middle</em> and the <em>law of non-contradiction</em>.)</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Determine whether the compound statement $[(p \\Rightarrow q) \\wedge p] \\Rightarrow q$ is a tautology, contradiction, or contingency.</p>",
+              "solution": "<p>\\[\n\t\\begin{array}{|c|c|c|c|c|}\n\t\n\tp & q & p \\Rightarrow q & (p \\Rightarrow q) \\wedge p & [(p \\Rightarrow q) \\wedge p] \\Rightarrow q \\\\ \n\tT & T & T & T & T \\\\ \n\tT & F & F & F & T \\\\ \n\tF & T & T & F & T \\\\ \n\tF & F & T & F & T \\\\ \n\t\\end{array}\n\t\\]\n The last column is all $T$, so this statement is a <strong>tautology</strong>.<br>\n This is the classical rule of inference called <em>Modus Ponens</em>: \"If $p$ implies $q$, and $p$ is true, then $q$ must be true.\"</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The negation of \"$2 + 3 = 5$\" is:",
+              "options": [
+                "$2 + 3 \\neq 5$",
+                "$2 - 3 = 5$",
+                "$2 + 3 < 5$",
+                "$5 + 2 = 3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $p$ is true and $q$ is false, then which of the following compound statements is true?",
+              "options": [
+                "$p \\wedge q$",
+                "$p \\Leftrightarrow q$",
+                "$p \\Rightarrow q$",
+                "$p \\vee q$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "The statement $p \\Rightarrow (q \\Rightarrow p)$ is:",
+              "options": [
+                "A tautology",
+                "A contradiction",
+                "A contingency",
+                "False if $p$ is true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Which of the following is logically equivalent to $p \\Rightarrow q$?",
+              "options": [
+                "$\\sim p \\vee q$",
+                "$p \\vee \\sim q$",
+                "$\\sim p \\wedge q$",
+                "$\\sim p \\vee \\sim q$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The truth value of $(\\sim p \\vee q) \\wedge (\\sim q \\vee p)$ when $p$ is true and $q$ is false is:",
+              "options": [
+                "True",
+                "False",
+                "Indeterminate",
+                "Cannot be determined"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Logical Equivalences & Conditional Statements",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Logical Equivalences and De Morgan's Laws",
+          "concept": "<p>Two compound statements $P$ and $Q$ are <strong>logically equivalent</strong>, written $P \\equiv Q$, if they have the same truth value for every assignment of truth values to their atomic components. Equivalently, $P \\Leftrightarrow Q$ is a tautology.</p><p><strong>Important Logical Equivalences (Laws of Logic):</strong></p><p><strong>Idempotent Laws:</strong>\n \\[ p \\vee p \\equiv p, \\quad p \\wedge p \\equiv p \\]</p><p><strong>Commutative Laws:</strong>\n \\[ p \\vee q \\equiv q \\vee p, \\quad p \\wedge q \\equiv q \\wedge p \\]</p><p><strong>Associative Laws:</strong>\n \\[ (p \\vee q) \\vee r \\equiv p \\vee (q \\vee r), \\quad (p \\wedge q) \\wedge r \\equiv p \\wedge (q \\wedge r) \\]</p><p><strong>Distributive Laws:</strong>\n \\[ p \\wedge (q \\vee r) \\equiv (p \\wedge q) \\vee (p \\wedge r) \\]\n \\[ p \\vee (q \\wedge r) \\equiv (p \\vee q) \\wedge (p \\vee r) \\]</p><p><strong>Identity Laws</strong> (where $\\mathbf{T}$ is any tautology and $\\mathbf{F}$ is any contradiction):\n \\[ p \\vee \\mathbf{F} \\equiv p, \\quad p \\wedge \\mathbf{T} \\equiv p \\]\n \\[ p \\vee \\mathbf{T} \\equiv \\mathbf{T}, \\quad p \\wedge \\mathbf{F} \\equiv \\mathbf{F} \\]</p><p><strong>Complement (Negation) Laws:</strong>\n \\[ p \\vee \\sim p \\equiv \\mathbf{T}, \\quad p \\wedge \\sim p \\equiv \\mathbf{F} \\]\n \\[ \\sim(\\sim p) \\equiv p \\quad \\text{(Double negation)} \\]</p><p><strong>De Morgan's Laws (Critical for JEE):</strong>\n \\[ \\sim(p \\wedge q) \\equiv \\sim p \\vee \\sim q \\]\n \\[ \\sim(p \\vee q) \\equiv \\sim p \\wedge \\sim q \\]</p><p><strong>Negation of Conditional:</strong>\n \\[ \\sim(p \\Rightarrow q) \\equiv p \\wedge \\sim q \\]\n This is derived because $p \\Rightarrow q \\equiv \\sim p \\vee q$, and by De Morgan's: $\\sim(\\sim p \\vee q) \\equiv p \\wedge \\sim q$.</p><p><strong>Negation of Biconditional:</strong>\n \\[ \\sim(p \\Leftrightarrow q) \\equiv (p \\wedge \\sim q) \\vee (\\sim p \\wedge q) \\]\n (Which means \"exactly one of $p, q$ is true\" — the XOR operation.)</p><p><strong>Absorption Laws:</strong>\n \\[ p \\vee (p \\wedge q) \\equiv p, \\quad p \\wedge (p \\vee q) \\equiv p \\]</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Use logical equivalences (without truth tables) to simplify the expression $\\sim[\\sim p \\vee (p \\wedge q)]$.</p>",
+              "solution": "<p>Apply De Morgan's law:\n \\[ \\sim[\\sim p \\vee (p \\wedge q)] \\equiv \\sim(\\sim p) \\wedge \\sim(p \\wedge q) \\]\n Apply double negation and De Morgan's again:\n \\[ \\equiv p \\wedge (\\sim p \\vee \\sim q) \\]\n Apply distributive law:\n \\[ \\equiv (p \\wedge \\sim p) \\vee (p \\wedge \\sim q) \\]\n Apply complement law $p \\wedge \\sim p \\equiv \\mathbf{F}$:\n \\[ \\equiv \\mathbf{F} \\vee (p \\wedge \\sim q) \\]\n Apply identity law:\n \\[ \\equiv p \\wedge \\sim q \\]\n <strong>Final Answer:</strong> $p \\wedge \\sim q$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Write the negation of the following statement: \"If it rains, then the streets are wet.\"</p>",
+              "solution": "<p>Let $p$: \"It rains.\" and $q$: \"The streets are wet.\"<br>\n The statement is $p \\Rightarrow q$.<br>\n Its negation is:\n \\[ \\sim(p \\Rightarrow q) \\equiv p \\wedge \\sim q \\]\n In words: \"It rains AND the streets are NOT wet.\"<br>\n <strong>Final Answer:</strong> \"It rains and the streets are not wet.\"</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Write the negation of \"$x = 5$ AND $y \\geq 7$\" using De Morgan's law.</p>",
+              "solution": "<p>Let $p$: \"$x = 5$\" and $q$: \"$y \\geq 7$\".<br>\n The given statement is $p \\wedge q$. Its negation is:\n \\[ \\sim(p \\wedge q) \\equiv \\sim p \\vee \\sim q \\]\n In words: \"$x \\neq 5$ OR $y < 7$\".<br>\n <strong>Final Answer:</strong> \"$x \\neq 5$ or $y < 7$\".</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The negation of $p \\wedge (q \\vee \\sim r)$ is logically equivalent to:",
+              "options": [
+                "$\\sim p \\vee (\\sim q \\wedge r)$",
+                "$\\sim p \\wedge (\\sim q \\vee r)$",
+                "$\\sim p \\vee (\\sim q \\vee \\sim r)$",
+                "$p \\vee (\\sim q \\wedge r)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The negation of \"Either $x > 5$ or $y < 3$\" is:",
+              "options": [
+                "$x \\leq 5$ and $y \\geq 3$",
+                "$x \\leq 5$ or $y \\geq 3$",
+                "$x \\geq 5$ and $y \\leq 3$",
+                "$x < 5$ and $y > 3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "$\\sim(p \\Leftrightarrow q)$ is equivalent to:",
+              "options": [
+                "$(p \\wedge \\sim q) \\vee (\\sim p \\wedge q)$",
+                "$(p \\vee q) \\wedge \\sim(p \\wedge q)$",
+                "Both (A) and (B)",
+                "$p \\Leftrightarrow \\sim q$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Which of the following is a tautology?",
+              "options": [
+                "$p \\vee (\\sim p \\wedge q)$",
+                "$(p \\Rightarrow q) \\vee (q \\Rightarrow p)$",
+                "$p \\wedge \\sim p$",
+                "$\\sim(p \\vee q) \\wedge p$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The simplification of $(p \\wedge q) \\vee (p \\wedge \\sim q)$ is:",
+              "options": [
+                "$p$",
+                "$q$",
+                "$p \\vee q$",
+                "$p \\wedge q$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Converse, Inverse, and Contrapositive",
+          "concept": "<p>Given a conditional statement $p \\Rightarrow q$, we can form three related conditional statements:</p><p><strong>Converse:</strong> $q \\Rightarrow p$<br>\n (Switches the antecedent and consequent.)</p><p><strong>Inverse:</strong> $\\sim p \\Rightarrow \\sim q$<br>\n (Negates both the antecedent and consequent, keeping the order.)</p><p><strong>Contrapositive:</strong> $\\sim q \\Rightarrow \\sim p$<br>\n (Negates both AND switches them.)</p><p><strong>Crucial Logical Equivalences:</strong>\n \\[ p \\Rightarrow q \\equiv \\sim q \\Rightarrow \\sim p \\quad \\text{(Original is equivalent to its contrapositive)} \\]\n \\[ q \\Rightarrow p \\equiv \\sim p \\Rightarrow \\sim q \\quad \\text{(Converse is equivalent to inverse)} \\]</p><p>However:\n \\[ p \\Rightarrow q \\not\\equiv q \\Rightarrow p \\quad \\text{(Original NOT equivalent to converse, in general)} \\]\n \\[ p \\Rightarrow q \\not\\equiv \\sim p \\Rightarrow \\sim q \\quad \\text{(Original NOT equivalent to inverse, in general)} \\]</p><p>Verification table:\n \\[\n\t\\begin{array}{|c|c|c|c|c|c|c|c|}\n\t\n\tp & q & \\sim p & \\sim q & p \\Rightarrow q & q \\Rightarrow p & \\sim p \\Rightarrow \\sim q & \\sim q \\Rightarrow \\sim p \\\\ \n\tT & T & F & F & T & T & T & T \\\\ \n\tT & F & F & T & F & T & T & F \\\\ \n\tF & T & T & F & T & F & F & T \\\\ \n\tF & F & T & T & T & T & T & T \\\\ \n\t\\end{array}\n\t\\]\n Columns 5 and 8 match (original $\\equiv$ contrapositive). Columns 6 and 7 match (converse $\\equiv$ inverse).</p><strong>Necessary and Sufficient Conditions:</strong> In \"$p \\Rightarrow q$\":\n <ul>\n <li>$p$ is a <strong>sufficient condition</strong> for $q$. (If you have $p$, you're guaranteed $q$.)\n <li>$q$ is a <strong>necessary condition</strong> for $p$. (You can't have $p$ without $q$.)\n </ul>\n If $p \\Leftrightarrow q$, then $p$ and $q$ are each both necessary and sufficient for each other (\"if and only if\").<p><strong>Importance in Theorems:</strong> Many mathematical theorems are biconditionals. To prove $p \\Leftrightarrow q$, one must prove both $p \\Rightarrow q$ and $q \\Rightarrow p$.<br>\n An alternative to proving $p \\Rightarrow q$ directly is to prove its contrapositive $\\sim q \\Rightarrow \\sim p$. This is the basis of <strong>proof by contrapositive</strong>.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Write the converse, inverse, and contrapositive of the following statement:<br>\n \"If $n$ is an even integer, then $n^2$ is even.\"</p>",
+              "solution": "Let $p$: \"$n$ is an even integer.\" and $q$: \"$n^2$ is even.\"<br>\n The given statement is $p \\Rightarrow q$.<br>\n <ul>\n <li><strong>Converse</strong> ($q \\Rightarrow p$): \"If $n^2$ is even, then $n$ is an even integer.\"\n <li><strong>Inverse</strong> ($\\sim p \\Rightarrow \\sim q$): \"If $n$ is not an even integer, then $n^2$ is not even.\"\n <li><strong>Contrapositive</strong> ($\\sim q \\Rightarrow \\sim p$): \"If $n^2$ is not even, then $n$ is not an even integer.\"\n </ul>\n (All four — the original, converse, inverse, and contrapositive — happen to be true in this case, but in general only the original and contrapositive are guaranteed to have the same truth value.)"
+            },
+            {
+              "number": 2,
+              "problem": "<p>State the contrapositive of: \"If $x^2 - 5x + 6 = 0$, then $x = 2$ or $x = 3$.\"</p>",
+              "solution": "<p>Let $p$: \"$x^2 - 5x + 6 = 0$\" and $q$: \"$x = 2$ or $x = 3$\".<br>\n $\\sim p$: \"$x^2 - 5x + 6 \\neq 0$\".<br>\n $\\sim q$ (by De Morgan): \"$x \\neq 2$ AND $x \\neq 3$\".<br>\n <strong>Contrapositive:</strong> \"If $x \\neq 2$ and $x \\neq 3$, then $x^2 - 5x + 6 \\neq 0$.\"</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Using proof by contrapositive, show that if $n^2$ is odd, then $n$ is odd (for $n \\in \\mathbb{Z}$).</p>",
+              "solution": "<p>Statement to prove: $p \\Rightarrow q$ where $p$: \"$n^2$ is odd\" and $q$: \"$n$ is odd\".<br>\n Contrapositive: $\\sim q \\Rightarrow \\sim p$: \"If $n$ is even, then $n^2$ is even.\"<br>\n <strong>Proof of contrapositive:</strong> Assume $n$ is even, so $n = 2k$ for some $k \\in \\mathbb{Z}$. Then $n^2 = 4k^2 = 2(2k^2)$, which is even.<br>\n Since the contrapositive is true, the original statement is also true.<br>\n <strong>Final Conclusion:</strong> If $n^2$ is odd, then $n$ is odd.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The contrapositive of \"If $x$ is rational, then $x^2$ is rational\" is:",
+              "options": [
+                "If $x^2$ is not rational, then $x$ is not rational",
+                "If $x^2$ is rational, then $x$ is rational",
+                "If $x$ is not rational, then $x^2$ is not rational",
+                "If $x^2$ is rational, then $x$ is not rational"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Which of the following pairs is NOT logically equivalent?",
+              "options": [
+                "$p \\Rightarrow q$ and $\\sim q \\Rightarrow \\sim p$",
+                "$q \\Rightarrow p$ and $\\sim p \\Rightarrow \\sim q$",
+                "$p \\Rightarrow q$ and $q \\Rightarrow p$",
+                "$p \\Rightarrow q$ and $\\sim p \\vee q$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The inverse of \"If a triangle is equilateral, then it is isosceles\" is:",
+              "options": [
+                "If a triangle is isosceles, then it is equilateral",
+                "If a triangle is not equilateral, then it is not isosceles",
+                "If a triangle is not isosceles, then it is not equilateral",
+                "If a triangle is equilateral, then it is not isosceles"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "In the statement \"$x$ is a multiple of 6 $\\Rightarrow$ $x$ is a multiple of 3\", being a multiple of 6 is:",
+              "options": [
+                "A necessary condition",
+                "A sufficient condition",
+                "Neither necessary nor sufficient",
+                "Both necessary and sufficient"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The contrapositive of \"$p \\vee q \\Rightarrow r$\" is:",
+              "options": [
+                "$\\sim r \\Rightarrow \\sim p \\wedge \\sim q$",
+                "$\\sim r \\Rightarrow \\sim p \\vee \\sim q$",
+                "$r \\Rightarrow p \\vee q$",
+                "$\\sim p \\vee \\sim q \\Rightarrow \\sim r$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Quantifiers and Methods of Proof",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Quantifiers and Their Negations",
+          "concept": "<p>A <strong>quantifier</strong> is a word or phrase that indicates the quantity or range of objects to which a statement applies. In mathematical logic, there are two fundamental quantifiers.</p><p><strong>Universal Quantifier ($\\forall$):</strong> \"for all\", \"for every\", \"for each\".<br>\n $\\forall x \\in S, P(x)$ means \"for every element $x$ in $S$, the property $P(x)$ holds.\"<br>\n Example: $\\forall n \\in \\mathbb{N}, n + 1 > n$.</p><p><strong>Existential Quantifier ($\\exists$):</strong> \"there exists\", \"for some\", \"for at least one\".<br>\n $\\exists x \\in S, P(x)$ means \"there exists at least one $x$ in $S$ such that $P(x)$ holds.\"<br>\n Example: $\\exists n \\in \\mathbb{N}, n^2 = 25$ (namely $n = 5$).</p><p><strong>Negation of Quantified Statements (Critical Rules):</strong>\n \\[ \\sim(\\forall x, P(x)) \\equiv \\exists x, \\sim P(x) \\]\n \\[ \\sim(\\exists x, P(x)) \\equiv \\forall x, \\sim P(x) \\]</p><strong>In words:</strong>\n <ul>\n <li>The negation of \"All $x$ satisfy $P$\" is \"There exists an $x$ that does not satisfy $P$\".\n <li>The negation of \"Some $x$ satisfies $P$\" is \"Every $x$ fails to satisfy $P$\".\n </ul><p><strong>Combining Quantifiers:</strong> A statement may have multiple quantifiers, and the order matters!<br>\n $\\forall x \\exists y P(x, y)$ is generally NOT equivalent to $\\exists y \\forall x P(x, y)$.</p><p>Example: \"For every real number $x$, there exists a real number $y$ such that $y > x$.\" (True)<br>\n But: \"There exists a real number $y$ such that for every real number $x$, $y > x$.\" (False — no universal upper bound exists.)</p><p><strong>Negation of Multiple Quantifiers:</strong><br>\n To negate, flip each quantifier and negate the innermost statement:\n \\[ \\sim(\\forall x \\exists y P(x, y)) \\equiv \\exists x \\forall y \\sim P(x, y) \\]\n \\[ \\sim(\\exists x \\forall y P(x, y)) \\equiv \\forall x \\exists y \\sim P(x, y) \\]</p><strong>Common Language Patterns:</strong>\n <ul>\n <li>\"All triangles have three sides\" $= \\forall t \\in T, \\text{sides}(t) = 3$.\n <li>\"Some real numbers are negative\" $= \\exists r \\in \\mathbb{R}, r < 0$.\n <li>\"No prime is even except 2\" $= \\forall p \\in \\text{Primes}, (p = 2 \\vee p \\neq \\text{even})$.\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Write the negation of the following statements:<br>\n (i) \"All students passed the exam.\"<br>\n (ii) \"There exists an integer $n$ such that $n^2 = 17$.\"<br>\n (iii) \"For every real number $x$, $x^2 \\geq 0$.\"</p>",
+              "solution": "<p>(i) Symbolically: $\\forall s, P(s)$ where $P(s)$ = \"$s$ passed\".<br>\n Negation: $\\exists s, \\sim P(s)$, i.e., \"There exists a student who did not pass.\"<br>\n (ii) Symbolically: $\\exists n \\in \\mathbb{Z}, n^2 = 17$.<br>\n Negation: $\\forall n \\in \\mathbb{Z}, n^2 \\neq 17$, i.e., \"For every integer $n$, $n^2 \\neq 17$.\"<br>\n (iii) Symbolically: $\\forall x \\in \\mathbb{R}, x^2 \\geq 0$.<br>\n Negation: $\\exists x \\in \\mathbb{R}, x^2 < 0$, i.e., \"There exists a real number $x$ such that $x^2 < 0$.\"<br>\n (Note: The original (iii) is true, so the negation must be false, which it is.)</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Negate the statement: \"For every real number $x$, there exists a real number $y$ such that $x + y = 0$.\"</p>",
+              "solution": "<p>Symbolically: $\\forall x \\in \\mathbb{R}, \\exists y \\in \\mathbb{R}, x + y = 0$.<br>\n Negation: $\\exists x \\in \\mathbb{R}, \\forall y \\in \\mathbb{R}, x + y \\neq 0$.<br>\n In words: \"There exists a real number $x$ such that for every real number $y$, $x + y \\neq 0$.\"<br>\n (The original is true with $y = -x$; the negation is false.)</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Determine the truth value of the statement: \"$\\exists x \\in \\mathbb{R}, \\forall y \\in \\mathbb{R}, x \\cdot y = y$.\" Provide a justification.</p>",
+              "solution": "<p>We need a single $x$ that works for ALL $y$. Try $x = 1$: $1 \\cdot y = y$ for every real $y$. \\checkmark<br>\n So the statement is <strong>True</strong>, with witness $x = 1$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The negation of \"All students are intelligent\" is:",
+              "options": [
+                "No student is intelligent",
+                "Some students are intelligent",
+                "Some students are not intelligent",
+                "All students are not intelligent"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The negation of $\\forall x \\in \\mathbb{R}, x^2 + 1 > 0$ is:",
+              "options": [
+                "$\\exists x \\in \\mathbb{R}, x^2 + 1 \\leq 0$",
+                "$\\exists x \\in \\mathbb{R}, x^2 + 1 < 0$",
+                "$\\forall x \\in \\mathbb{R}, x^2 + 1 \\leq 0$",
+                "$\\exists x \\in \\mathbb{R}, x^2 + 1 = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Which of the following is the symbolic form of \"There exists a real number that is its own square root\"?",
+              "options": [
+                "$\\forall x \\in \\mathbb{R}, x = \\sqrt{x}$",
+                "$\\exists x \\in \\mathbb{R}, x = \\sqrt{x}$",
+                "$\\exists x \\in \\mathbb{R}, x^2 = x$",
+                "Both (B) and (C)"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "The negation of \"For some prime $p$, $p$ is even\" is:",
+              "options": [
+                "For every prime $p$, $p$ is odd",
+                "For some prime $p$, $p$ is odd",
+                "For every prime $p$, $p$ is even",
+                "For no prime $p$, $p$ is even"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The statement \"$\\forall x \\exists y$ such that $xy = 1$\" is true when the domain is:",
+              "options": [
+                "All real numbers",
+                "All nonzero real numbers",
+                "All positive integers",
+                "All natural numbers"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Methods of Proof",
+          "concept": "<p>A <strong>proof</strong> is a logical argument that establishes the truth of a mathematical statement using axioms, definitions, and previously proven results. Several proof techniques are essential for JEE:</p><p><strong>1. Direct Proof:</strong> To prove $p \\Rightarrow q$, assume $p$ is true, then deduce $q$ through a chain of logical implications.<br>\n <em>Example:</em> \"If $n$ is odd, then $n^2$ is odd.\"<br>\n Assume $n = 2k + 1$. Then $n^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1$, which is odd. \\checkmark</p><p><strong>2. Proof by Contrapositive:</strong> To prove $p \\Rightarrow q$, instead prove $\\sim q \\Rightarrow \\sim p$, which is logically equivalent.<br>\n <em>Useful when:</em> The contrapositive is easier to manipulate. (E.g., when negating $q$ produces a more concrete algebraic condition.)</p><p><strong>3. Proof by Contradiction (Reductio ad Absurdum):</strong> To prove $p$, assume $\\sim p$ is true and derive a contradiction. Since $\\sim p$ leads to a contradiction, $\\sim p$ must be false, so $p$ is true.<br>\n <em>Classic Example:</em> Prove $\\sqrt{2}$ is irrational. Assume $\\sqrt{2} = p/q$ in lowest terms. Squaring: $2q^2 = p^2$, so $p^2$ is even, hence $p$ is even. Write $p = 2m$; then $2q^2 = 4m^2 \\implies q^2 = 2m^2$, so $q$ is also even — contradicting the assumption that $p/q$ was in lowest terms. Therefore $\\sqrt{2}$ is irrational.</p><strong>4. Proof by Exhaustion (Case Analysis):</strong> Break the problem into a finite number of cases and prove each case separately.<br>\n <em>Example:</em> Show that for any integer $n$, $n^2 + n$ is even. Consider two cases:\n <ul>\n <li>Case 1: $n$ is even. Then $n^2$ is even, and even + even = even.\n <li>Case 2: $n$ is odd. Then $n^2$ is odd, and odd + odd = even.\n </ul><strong>5. Proof by Mathematical Induction:</strong> To prove $P(n)$ for all $n \\geq n_0$:\n <ul>\n <li><strong>Base Case:</strong> Prove $P(n_0)$.\n <li><strong>Inductive Step:</strong> Assume $P(k)$ holds for some arbitrary $k \\geq n_0$ (Inductive Hypothesis). Prove $P(k + 1)$.\n </ul>\n Variants include strong induction (assume $P(j)$ for all $n_0 \\leq j \\leq k$) and infinite descent.<p><strong>6. Counterexample:</strong> To disprove a universal statement $\\forall x, P(x)$, provide a single $x$ for which $P(x)$ fails.<br>\n <em>Example:</em> \"Every prime is odd\" is disproved by the counterexample $p = 2$.</p><strong>Validity of Arguments:</strong> An argument with premises $P_1, P_2, \\ldots, P_n$ and conclusion $C$ is <strong>valid</strong> iff $(P_1 \\wedge P_2 \\wedge \\cdots \\wedge P_n) \\Rightarrow C$ is a tautology. Key rules of inference:\n <ul>\n <li><strong>Modus Ponens:</strong> From $p \\Rightarrow q$ and $p$, infer $q$.\n <li><strong>Modus Tollens:</strong> From $p \\Rightarrow q$ and $\\sim q$, infer $\\sim p$.\n <li><strong>Hypothetical Syllogism:</strong> From $p \\Rightarrow q$ and $q \\Rightarrow r$, infer $p \\Rightarrow r$.\n <li><strong>Disjunctive Syllogism:</strong> From $p \\vee q$ and $\\sim p$, infer $q$.\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Prove by mathematical induction that $1 + 2 + 3 + \\cdots + n = \\dfrac{n(n+1)}{2}$ for all positive integers $n$.</p>",
+              "solution": "<p><strong>Base Case ($n = 1$):</strong> LHS $= 1$, RHS $= \\frac{1 \\cdot 2}{2} = 1$. \\checkmark<br>\n <strong>Inductive Step:</strong> Assume the formula holds for $n = k$:\n \\[ 1 + 2 + \\cdots + k = \\frac{k(k+1)}{2} \\quad \\text{(Inductive Hypothesis)} \\]\n We must show it holds for $n = k + 1$:\n \\[ 1 + 2 + \\cdots + k + (k + 1) = \\frac{k(k+1)}{2} + (k+1) = (k+1)\\left[\\frac{k}{2} + 1\\right] = (k+1) \\cdot \\frac{k+2}{2} = \\frac{(k+1)(k+2)}{2} \\]\n This matches the formula with $n = k + 1$. By the principle of mathematical induction, the formula holds for all $n \\geq 1$. \\qed</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Prove by contradiction: $\\log_2 3$ is irrational.</p>",
+              "solution": "<p>Assume for contradiction that $\\log_2 3$ is rational, say $\\log_2 3 = \\frac{p}{q}$ where $p, q$ are positive integers (since $\\log_2 3 > 0$) with $\\gcd(p, q) = 1$.<br>\n Then $2^{p/q} = 3 \\implies 2^p = 3^q$.<br>\n But $2^p$ is even (a power of 2) while $3^q$ is odd (a power of 3). This is impossible for positive integers $p, q$.<br>\n Hence our assumption is false; $\\log_2 3$ is irrational. \\qed</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Determine whether the following argument is valid: \"If it rains, then the grass is wet. The grass is wet. Therefore, it rained.\"</p>",
+              "solution": "<p>Let $p$: \"it rains\" and $q$: \"the grass is wet.\"<br>\n Premises: $p \\Rightarrow q$ and $q$. Conclusion: $p$.<br>\n This is the <strong>fallacy of affirming the consequent</strong>. We can construct a counterexample: it could be that the grass is wet because of a sprinkler, not rain. In truth-table terms, the conjunction $(p \\Rightarrow q) \\wedge q$ is true when $p = F, q = T$, but the conclusion $p$ would be false.<br>\n <strong>Conclusion: The argument is INVALID.</strong></p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "To prove \"If $n^2$ is even, then $n$ is even\" by contrapositive, we should prove:",
+              "options": [
+                "If $n$ is even, then $n^2$ is even",
+                "If $n$ is odd, then $n^2$ is odd",
+                "If $n^2$ is odd, then $n$ is odd",
+                "Both (B) and (C)"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "The standard proof of \"$\\sqrt{2}$ is irrational\" uses the method of:",
+              "options": [
+                "Mathematical induction",
+                "Direct proof",
+                "Proof by contradiction",
+                "Proof by exhaustion"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The argument \"$p \\Rightarrow q$, $\\sim q$, therefore $\\sim p$\" is an example of:",
+              "options": [
+                "Modus Ponens",
+                "Modus Tollens",
+                "Hypothetical Syllogism",
+                "Disjunctive Syllogism"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "A counterexample to \"Every continuous function is differentiable\" is:",
+              "options": [
+                "$f(x) = x^2$",
+                "$f(x) = |x|$",
+                "$f(x) = e^x$",
+                "$f(x) = \\sin x$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Which proof method is BEST suited to proving \"For all $n \\geq 1$, $n!$ exceeds $2^{n-2}$ when $n \\geq 5$\"?",
+              "options": [
+                "Direct proof",
+                "Proof by contradiction",
+                "Mathematical induction",
+                "Counterexample"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Validity of Arguments & Advanced Reasoning",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Validity, Rules of Inference, and Argument Forms",
+          "concept": "<p>An <strong>argument</strong> is a sequence of statements (premises) followed by a statement (conclusion). The argument is <strong>valid</strong> if the truth of the premises guarantees the truth of the conclusion. Symbolically, if premises are $P_1, P_2, \\ldots, P_n$ and conclusion is $C$, then validity requires:\n \\[ (P_1 \\wedge P_2 \\wedge \\cdots \\wedge P_n) \\Rightarrow C \\quad \\text{is a tautology} \\]</p><p><strong>Key Rules of Inference:</strong></p><p><strong>1. Modus Ponens (Affirming the Antecedent):</strong>\n \\[ \\frac{p \\Rightarrow q, \\; p}{\\therefore q} \\]</p><p><strong>2. Modus Tollens (Denying the Consequent):</strong>\n \\[ \\frac{p \\Rightarrow q, \\; \\sim q}{\\therefore \\sim p} \\]</p><p><strong>3. Hypothetical Syllogism (Chain Rule):</strong>\n \\[ \\frac{p \\Rightarrow q, \\; q \\Rightarrow r}{\\therefore p \\Rightarrow r} \\]</p><p><strong>4. Disjunctive Syllogism:</strong>\n \\[ \\frac{p \\vee q, \\; \\sim p}{\\therefore q} \\]</p><p><strong>5. Constructive Dilemma:</strong>\n \\[ \\frac{(p \\Rightarrow q) \\wedge (r \\Rightarrow s), \\; p \\vee r}{\\therefore q \\vee s} \\]</p><p><strong>6. Simplification:</strong>\n \\[ \\frac{p \\wedge q}{\\therefore p} \\]</p><p><strong>7. Conjunction:</strong>\n \\[ \\frac{p, \\; q}{\\therefore p \\wedge q} \\]</p><p><strong>8. Addition:</strong>\n \\[ \\frac{p}{\\therefore p \\vee q} \\]</p><p><strong>Common Fallacies (Invalid Argument Forms):</strong></p><p><strong>Fallacy of Affirming the Consequent (Converse Fallacy):</strong>\n \\[ \\frac{p \\Rightarrow q, \\; q}{\\therefore p} \\quad \\text{(INVALID)} \\]</p><p><strong>Fallacy of Denying the Antecedent (Inverse Fallacy):</strong>\n \\[ \\frac{p \\Rightarrow q, \\; \\sim p}{\\therefore \\sim q} \\quad \\text{(INVALID)} \\]</p><p><strong>Checking Argument Validity Using Truth Tables:</strong> Construct a truth table for all premises and the conclusion. Look for rows where all premises are true. If the conclusion is also true in every such row, the argument is valid.</p><p><strong>Validity vs. Soundness:</strong> An argument is <em>valid</em> if the conclusion logically follows from the premises (regardless of whether premises are true). It is <em>sound</em> if it is valid AND all premises are actually true.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Determine if the following argument is valid:<br>\n \"If I study hard, then I will pass. I did not pass. Therefore, I did not study hard.\"</p>",
+              "solution": "<p>Let $p$: \"I study hard.\" and $q$: \"I will pass.\"<br>\n Premises: $p \\Rightarrow q$ and $\\sim q$. Conclusion: $\\sim p$.<br>\n This is precisely <strong>Modus Tollens</strong>, a valid rule of inference. The argument is <strong>VALID</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Test the validity of the following argument using a truth table:<br>\n Premises: $p \\vee q$, $p \\Rightarrow r$, $q \\Rightarrow r$. Conclusion: $r$.</p>",
+              "solution": "<p>Construct the truth table:\n \\[\n\t\\begin{array}{|c|c|c|c|c|c|c|}\n\t\n\tp & q & r & p \\vee q & p \\Rightarrow r & q \\Rightarrow r & r \\\\ \n\tT & T & T & T & T & T & T \\\\ \n\tT & T & F & T & F & F & F \\\\ \n\tT & F & T & T & T & T & T \\\\ \n\tT & F & F & T & F & T & F \\\\ \n\tF & T & T & T & T & T & T \\\\ \n\tF & T & F & T & T & F & F \\\\ \n\tF & F & T & F & T & T & T \\\\ \n\tF & F & F & F & T & T & F \\\\ \n\t\\end{array}\n\t\\]\n Find rows where all three premises are TRUE: rows 1, 3, 5. In all these rows, the conclusion $r$ is also TRUE. Therefore the argument is <strong>VALID</strong> (this is the rule of <em>constructive dilemma</em>).</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Show that the following argument is INVALID by giving a counterexample:<br>\n \"If $x$ is divisible by 4, then $x$ is divisible by 2. The number $x = 6$ is divisible by 2. Therefore, $x = 6$ is divisible by 4.\"</p>",
+              "solution": "<p>Let $p$: \"$x$ is divisible by 4\" and $q$: \"$x$ is divisible by 2\".<br>\n Premises: $p \\Rightarrow q$ (true mathematically) and $q$ (true for $x = 6$). Conclusion: $p$.<br>\n This is the <strong>fallacy of affirming the consequent</strong>. The argument is INVALID. The number $x = 6$ is a counterexample: $q$ is true ($6$ is divisible by $2$), but $p$ is false ($6$ is not divisible by $4$).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The argument \"$p \\Rightarrow q$, $\\sim p$, therefore $\\sim q$\" is an example of:",
+              "options": [
+                "Modus Tollens (Valid)",
+                "Modus Ponens (Valid)",
+                "Fallacy of Denying the Antecedent (Invalid)",
+                "Hypothetical Syllogism (Valid)"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Which of the following is a valid argument form?",
+              "options": [
+                "$p \\Rightarrow q, q \\Rightarrow r$; therefore $p \\Rightarrow r$",
+                "$p \\Rightarrow q, q$; therefore $p$",
+                "$p \\Rightarrow q, \\sim p$; therefore $\\sim q$",
+                "$p \\vee q, p$; therefore $\\sim q$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "From the premises \"$p \\vee q$\" and \"$\\sim q$\", we can validly conclude:",
+              "options": [
+                "$p$",
+                "$\\sim p$",
+                "$p \\wedge q$",
+                "$\\sim p \\vee q$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Consider the argument: \"If it is sunny, I will go for a walk. It is not sunny. Therefore, I will not go for a walk.\" This argument is:",
+              "options": [
+                "Valid by Modus Tollens",
+                "Valid by Modus Ponens",
+                "Invalid (fallacy of denying the antecedent)",
+                "Valid by Hypothetical Syllogism"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Which fallacy is committed in: \"If a student is in this class, then they are taking math. John is taking math. Therefore, John is in this class\"?",
+              "options": [
+                "Affirming the consequent",
+                "Denying the antecedent",
+                "False dichotomy",
+                "Modus Ponens"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Boolean Algebra Connections & Switching Circuits (Enrichment)",
+          "concept": "<p>Logic and <strong>Boolean algebra</strong> are equivalent algebraic systems. Each logical statement corresponds to a Boolean expression, where:\n \\[ \\text{TRUE} \\longleftrightarrow 1, \\quad \\text{FALSE} \\longleftrightarrow 0 \\]\n \\[ p \\wedge q \\longleftrightarrow p \\cdot q \\text{ (AND/multiplication)} \\]\n \\[ p \\vee q \\longleftrightarrow p + q \\text{ (OR/addition with } 1 + 1 = 1\\text{)} \\]\n \\[ \\sim p \\longleftrightarrow p' \\text{ or } \\bar{p} \\text{ (NOT/complementation)} \\]</p><strong>Boolean Identities:</strong> Direct translations of the logical equivalences:\n <ul>\n <li>Idempotent: $p \\cdot p = p$, $p + p = p$\n <li>Absorption: $p + (p \\cdot q) = p$, $p \\cdot (p + q) = p$\n <li>De Morgan: $(p \\cdot q)' = p' + q'$, $(p + q)' = p' \\cdot q'$\n <li>Complement: $p \\cdot p' = 0$, $p + p' = 1$\n </ul><strong>Switching Circuits:</strong> A switch can be ON (closed, 1) or OFF (open, 0). Two basic configurations:\n <ul>\n <li><strong>Series Configuration</strong> (current flows iff BOTH switches are closed): Models AND ($p \\wedge q$ or $p \\cdot q$).\n <li><strong>Parallel Configuration</strong> (current flows iff AT LEAST ONE switch is closed): Models OR ($p \\vee q$ or $p + q$).\n </ul><p>A complex switching circuit is equivalent to a Boolean expression, and minimizing the circuit corresponds to simplifying the Boolean expression using algebraic identities (or methods like Karnaugh maps in computer engineering).</p><strong>Practical Applications:</strong>\n <ul>\n <li>Logic gates in computers (AND, OR, NOT, NAND, NOR, XOR).\n <li>Truth tables for combinational circuits.\n <li>Simplifying networks of relays.\n </ul><p><strong>Exclusive OR (XOR):</strong> The Boolean function $p \\oplus q$ outputs 1 iff exactly one of $p, q$ is 1.\n \\[ p \\oplus q = (p \\cdot q') + (p' \\cdot q) = \\sim(p \\Leftrightarrow q) \\]</p><p><strong>NAND and NOR Gates:</strong> The functions NAND $= \\sim(p \\wedge q)$ and NOR $= \\sim(p \\vee q)$ are called <em>functionally complete</em> — any logical function can be expressed using only NAND gates or only NOR gates.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Simplify the Boolean expression $x \\cdot y + x \\cdot y' + x' \\cdot y$.</p>",
+              "solution": "<p>Factor $x$ from the first two terms:\n \\[ x \\cdot y + x \\cdot y' + x' \\cdot y = x(y + y') + x' \\cdot y \\]\n Apply the complement law $y + y' = 1$:\n \\[ = x \\cdot 1 + x' \\cdot y = x + x' \\cdot y \\]\n Apply the absorption-related identity $x + x' \\cdot y = x + y$ (proof: $x + x'y = (x + x')(x + y) = 1 \\cdot (x + y) = x + y$):\n \\[ = x + y \\]\n <strong>Final Answer:</strong> $x + y$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Express the truth table of the XOR function and write it as a Boolean expression.</p>",
+              "solution": "<p>\\[\n\t\\begin{array}{|c|c|c|}\n\t\n\tp & q & p \\oplus q \\\\ \n\t0 & 0 & 0 \\\\ \n\t0 & 1 & 1 \\\\ \n\t1 & 0 & 1 \\\\ \n\t1 & 1 & 0 \\\\ \n\t\\end{array}\n\t\\]\n XOR outputs 1 in rows 2 and 3. By sum-of-products:\n \\[ p \\oplus q = p' \\cdot q + p \\cdot q' \\]\n This is equivalent to $\\sim(p \\Leftrightarrow q)$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Design a switching circuit corresponding to the Boolean expression $(p + q) \\cdot (p' + r)$ and simplify if possible.</p>",
+              "solution": "<strong>Circuit:</strong> The expression $(p + q) \\cdot (p' + r)$ consists of two parallel sub-circuits connected in series:\n <ul>\n <li>Sub-circuit 1 (parallel): switches $p$ and $q$ in parallel.\n <li>Sub-circuit 2 (parallel): switches $p'$ and $r$ in parallel.\n <li>These two are then connected in series.\n </ul><p><strong>Simplification by distribution:</strong>\n \\[ (p + q)(p' + r) = p \\cdot p' + p \\cdot r + q \\cdot p' + q \\cdot r \\]\n Since $p \\cdot p' = 0$:\n \\[ = 0 + p \\cdot r + p' \\cdot q + q \\cdot r = pr + p'q + qr \\]\n Use consensus: $pr + p'q + qr = pr + p'q$ (the consensus term $qr$ is absorbed).<br>\n <strong>Final Simplified Form:</strong> $pr + p'q$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The Boolean expression $x + x \\cdot y$ simplifies to:",
+              "options": [
+                "$x$",
+                "$y$",
+                "$x \\cdot y$",
+                "$x + y$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Using De Morgan's law, $(x + y)'$ equals:",
+              "options": [
+                "$x' \\cdot y'$",
+                "$x' + y'$",
+                "$x \\cdot y$",
+                "$(x \\cdot y)'$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "In a series-parallel switching circuit, two switches in parallel correspond to which logical operation?",
+              "options": [
+                "AND",
+                "OR",
+                "NOT",
+                "NAND"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The XOR function $p \\oplus q$ is logically equivalent to:",
+              "options": [
+                "$p \\Leftrightarrow q$",
+                "$\\sim(p \\Leftrightarrow q)$",
+                "$p \\wedge q$",
+                "$p \\Rightarrow q$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Which gate is functionally complete (can implement any Boolean function on its own)?",
+              "options": [
+                "AND",
+                "OR",
+                "NAND",
+                "XOR"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-math-mathematical-reasoning-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "The negation of \"If $n$ is a prime number, then $n$ is odd or $n = 2$\" is:",
+              "options": [
+                "$n$ is a prime number and $n$ is even and $n \\neq 2$",
+                "$n$ is not a prime number or $n$ is odd or $n = 2$",
+                "$n$ is a prime number and ($n$ is even or $n = 2$)",
+                "$n$ is not prime and $n$ is even and $n \\neq 2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Which of the following is the contrapositive of \"If two triangles are congruent, then their areas are equal\"?",
+              "options": [
+                "If two triangles are not congruent, then their areas are not equal",
+                "If the areas of two triangles are equal, then they are congruent",
+                "If the areas of two triangles are not equal, then they are not congruent",
+                "If two triangles are congruent, then their areas are not equal"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The compound statement $(p \\wedge q) \\Rightarrow (p \\vee q)$ is:",
+              "options": [
+                "A tautology",
+                "A contradiction",
+                "A contingency",
+                "Neither tautology nor contradiction"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The negation of \"$\\forall x \\in \\mathbb{R}, \\exists y \\in \\mathbb{R}, y > x$\" is:",
+              "options": [
+                "$\\exists x \\in \\mathbb{R}, \\forall y \\in \\mathbb{R}, y \\leq x$",
+                "$\\forall x \\in \\mathbb{R}, \\forall y \\in \\mathbb{R}, y \\leq x$",
+                "$\\exists x \\in \\mathbb{R}, \\exists y \\in \\mathbb{R}, y \\leq x$",
+                "$\\exists x \\in \\mathbb{R}, \\forall y \\in \\mathbb{R}, y > x$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Let $p$: \"Suman is brilliant\" and $q$: \"Suman is rich\". The compound statement \"Suman is neither brilliant nor rich\" is:",
+              "options": [
+                "$\\sim p \\wedge \\sim q$",
+                "$\\sim(p \\vee q)$",
+                "$\\sim(p \\wedge q)$",
+                "Both (A) and (B)"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "If $p \\Rightarrow (q \\vee r)$ is false, then the truth values of $p, q, r$ are respectively:",
+              "options": [
+                "$T, F, F$",
+                "$F, F, F$",
+                "$F, T, T$",
+                "$T, T, F$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The converse of \"If $x$ is an even integer, then $x + 2$ is an even integer\" is:",
+              "options": [
+                "If $x + 2$ is not even, then $x$ is not even",
+                "If $x$ is not even, then $x + 2$ is not even",
+                "If $x + 2$ is an even integer, then $x$ is an even integer",
+                "If $x + 2$ is an odd integer, then $x$ is an odd integer"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Which of the following is a tautology?",
+              "options": [
+                "$(p \\Rightarrow q) \\Leftrightarrow (\\sim q \\Rightarrow \\sim p)$",
+                "$p \\wedge \\sim p$",
+                "$(\\sim p) \\Rightarrow p$",
+                "$p \\Rightarrow (p \\wedge q)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The statement $\\sim(p \\Leftrightarrow \\sim q)$ is logically equivalent to:",
+              "options": [
+                "$p \\Leftrightarrow q$",
+                "$\\sim p \\Leftrightarrow \\sim q$",
+                "$p \\Leftrightarrow \\sim q$",
+                "Both (A) and (B)"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The negation of the statement \"If $x$ is real, then $x^2 \\geq 0$\" is:",
+              "options": [
+                "There exists a real number $x$ such that $x^2 < 0$",
+                "For every real number $x$, $x^2 < 0$",
+                "There exists a real number $x$ such that $x^2 \\geq 0$",
+                "$x$ is not real or $x^2 < 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "How many distinct truth value combinations are there in the truth table of a compound statement involving exactly 3 atomic statements $p, q, r$? (Give the integer value.)",
+              "answer": "8",
+              "explanation": ""
+            },
+            {
+              "q": "Consider the compound statement $(p \\Rightarrow q) \\wedge (q \\Rightarrow r) \\Rightarrow (p \\Rightarrow r)$. The number of rows in the truth table where this compound statement is TRUE is (out of 8 rows total).",
+              "answer": "8",
+              "explanation": ""
+            },
+            {
+              "q": "For how many truth value assignments to $(p, q)$ is the statement $p \\Leftrightarrow q$ true (out of the 4 possible assignments)?",
+              "answer": "2",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The contrapositive of \"If $x$ is a multiple of 6, then $x$ is a multiple of 2\" is logically equivalent to the original statement.<br>\n <strong>Reason (R):</strong> For any conditional statement $p \\Rightarrow q$, the contrapositive $\\sim q \\Rightarrow \\sim p$ is logically equivalent to it.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R correctly explains A."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> The statement $p \\vee \\sim p$ is always true regardless of the truth value of $p$.<br>\n <strong>Reason (R):</strong> This is known as the Law of Excluded Middle, a fundamental tautology in classical logic.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R correctly explains A."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-math-mathematical-reasoning-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "The statement $(\\sim(p \\Leftrightarrow q)) \\Leftrightarrow ((p \\wedge \\sim q) \\vee (\\sim p \\wedge q))$ is:",
+              "options": [
+                "A tautology",
+                "A contradiction",
+                "Neither tautology nor contradiction",
+                "Equivalent to $p \\wedge q$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The Boolean expression $\\sim(p \\vee q) \\vee (\\sim p \\wedge q)$ is equivalent to:",
+              "options": [
+                "$\\sim p$",
+                "$p$",
+                "$q$",
+                "$\\sim q$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Let $p$: \"A quadrilateral is a square\", $q$: \"Its diagonals are equal\", $r$: \"Its diagonals are perpendicular\". The statement $p \\Rightarrow (q \\wedge r)$ is:",
+              "options": [
+                "True with $\\sim p$ being a converse of $\\sim q \\vee \\sim r$",
+                "Equivalent to $\\sim(q \\wedge r) \\Rightarrow \\sim p$",
+                "Equivalent to $(\\sim q \\vee \\sim r) \\Rightarrow \\sim p$",
+                "Both (B) and (C)"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "The statement $(p \\Rightarrow q) \\Leftrightarrow (\\sim q \\Rightarrow \\sim p)$ is:",
+              "options": [
+                "A tautology",
+                "A contradiction",
+                "Contingent on $p$",
+                "Contingent on $q$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The negation of the compound statement \"$\\sqrt{2}$ is irrational and 2 is prime\" is:",
+              "options": [
+                "$\\sqrt{2}$ is rational and 2 is not prime",
+                "$\\sqrt{2}$ is rational or 2 is not prime",
+                "$\\sqrt{2}$ is irrational or 2 is not prime",
+                "$\\sqrt{2}$ is rational and 2 is prime"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Consider the argument: \"If a number is divisible by 6, then it is divisible by both 2 and 3. The number $n$ is divisible by 2 and 3. Therefore $n$ is divisible by 6.\" This argument is:",
+              "options": [
+                "Valid by Modus Ponens",
+                "Invalid due to affirming the consequent",
+                "Valid by Modus Tollens",
+                "Sound (valid and premises are true)"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Which of the following is a valid argument form?",
+              "options": [
+                "$p \\Rightarrow q$, $r \\Rightarrow s$, $p \\vee r$, therefore $q \\vee s$",
+                "$p \\Rightarrow q$, $\\sim p$, therefore $\\sim q$",
+                "$p \\Rightarrow q$, $q$, therefore $p$",
+                "$p \\Leftrightarrow q$, $\\sim p$, therefore $q$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The Boolean expression $((p \\cdot q')' \\cdot (p' + q))'$ simplifies to:",
+              "options": [
+                "$p \\cdot q'$",
+                "$p' + q$",
+                "$p \\cdot q$",
+                "$p + q'$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $p$ is the statement \"Ravi is hardworking\" and $q$ is \"Ravi will get a job\", then the statement \"Ravi will get a job if and only if he is hardworking\" is:",
+              "options": [
+                "$p \\Rightarrow q$",
+                "$q \\Rightarrow p$",
+                "$p \\Leftrightarrow q$",
+                "$\\sim p \\vee q$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The contrapositive of \"$(p \\Rightarrow q) \\Rightarrow r$\" is:",
+              "options": [
+                "$\\sim r \\Rightarrow \\sim(p \\Rightarrow q)$, i.e., $\\sim r \\Rightarrow (p \\wedge \\sim q)$",
+                "$\\sim r \\Rightarrow (\\sim p \\Rightarrow \\sim q)$",
+                "$r \\Rightarrow (p \\Rightarrow q)$",
+                "$\\sim(p \\Rightarrow q) \\Rightarrow \\sim r$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Consider 4 atomic statements $p, q, r, s$. How many rows are there in the corresponding truth table?",
+              "answer": "16",
+              "explanation": ""
+            },
+            {
+              "q": "The number of distinct truth tables (functions from $\\{T, F\\}^2 \\to \\{T, F\\}$) that can be defined for two atomic statements $p, q$ is $2^k$. Find $k$.",
+              "answer": "4",
+              "explanation": ""
+            },
+            {
+              "q": "How many of the following are tautologies?<br>\n (i) $p \\vee \\sim p$, (ii) $p \\wedge \\sim p$, (iii) $(p \\Rightarrow q) \\vee (q \\Rightarrow p)$, (iv) $(p \\Rightarrow q) \\Leftrightarrow (\\sim p \\vee q)$",
+              "answer": "3",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The statement \"If $n$ is an integer and $n^2$ is even, then $n$ is even\" can be efficiently proven by contrapositive.<br>\n <strong>Reason (R):</strong> The contrapositive \"If $n$ is odd, then $n^2$ is odd\" is straightforward to prove directly using $n = 2k+1$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R correctly explains A."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> For any propositions $p$ and $q$, the proposition $p \\Rightarrow q$ is logically equivalent to $\\sim p \\vee q$.<br>\n <strong>Reason (R):</strong> Truth table analysis confirms that $p \\Rightarrow q$ and $\\sim p \\vee q$ have identical truth values for all combinations of $p$ and $q$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R correctly explains A."
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

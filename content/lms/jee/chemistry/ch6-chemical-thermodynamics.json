@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": 6,
+  "title": "Chemical Thermodynamics",
+  "slug": "chemical-thermodynamics",
+  "subtitle": "Chemical Thermodynamics for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#14b8a6",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "Master Chemical Thermodynamics for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "First Law and Enthalpy",
+      "topics": [
+        {
+          "number": 1,
+          "title": "System, Surroundings, Internal Energy, First Law",
+          "concept": "<p><strong>System:</strong> Part of universe under study. <strong>Surroundings:</strong> Everything else. Boundary separates them.</p><p><strong>Types of System:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Mass exchange</th><th>Energy exchange</th><th>Example</th></tr></thead><tbody><tr><td><strong>Open</strong></td><td>Yes</td><td>Yes</td><td>Open beaker</td></tr><tr><td><strong>Closed</strong></td><td>No</td><td>Yes</td><td>Sealed flask</td></tr><tr><td><strong>Isolated</strong></td><td>No</td><td>No</td><td>Thermos flask (ideal)</td></tr></tbody></table><p><strong>State Function:</strong> Property depending only on state, not on path (e.g., $P, V, T, U, H, S, G$). <strong>Path Function:</strong> Depends on path taken ($q, W$).</p><p><strong>Extensive Properties:</strong> Depend on amount ($V, n, U, H, S$). <strong>Intensive Properties:</strong> Independent of amount ($T, P, d, \\chi$).</p><p><strong>Internal Energy ($U$):</strong> Total energy (KE + PE + bond + nuclear) of system. Absolute $U$ not measurable; only $\\Delta U$ measurable.</p><p><strong>Work (W):</strong> $W = -P_{\\text{ext}}\\Delta V$ for $P$-$V$ work.</p><p><strong>Sign Convention (IUPAC):</strong></p><ul><li>$q > 0$: heat absorbed by system; $q < 0$: heat released</li><li>$W > 0$: work done on system; $W < 0$: work done by system</li></ul><p><strong>First Law of Thermodynamics:</strong> Energy is conserved. $$\\Delta U = q + W$$</p><p>For different processes:</p><table class=\"md-table\"><thead><tr><th>Process</th><th>Condition</th><th>$\\Delta U$</th><th>$q$</th><th>$W$</th></tr></thead><tbody><tr><td><strong>Isothermal</strong></td><td>$T$ const</td><td>$0$</td><td>$-W$</td><td>$-q$</td></tr><tr><td><strong>Adiabatic</strong></td><td>$q = 0$</td><td>$W$</td><td>$0$</td><td>$\\Delta U$</td></tr><tr><td><strong>Isochoric</strong></td><td>$V$ const</td><td>$q_V$</td><td>$\\Delta U$</td><td>$0$</td></tr><tr><td><strong>Isobaric</strong></td><td>$P$ const</td><td>$q_P + W$</td><td>$\\Delta H$</td><td>$-P\\Delta V$</td></tr><tr><td><strong>Cyclic</strong></td><td>Returns to initial</td><td>$0$</td><td>$-W$</td><td>$-q$</td></tr></tbody></table><p><strong>Reversible vs Irreversible:</strong></p><ul><li>Reversible: infinitely slow, equilibrium maintained</li><li>Irreversible: real, finite time, equilibrium not maintained</li></ul><p><strong>Isothermal reversible work</strong> (ideal gas): $W = -nRT\\ln(V_2/V_1) = -nRT\\ln(P_1/P_2)$.</p><p><strong>Adiabatic reversible work:</strong> $W = (P_2V_2 - P_1V_1)/(\\gamma - 1) = nC_V\\Delta T$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>$2$ moles of ideal gas expand isothermally and reversibly from $5$ L to $20$ L at $300$ K. Calculate $W$ and $q$.</p>",
+              "solution": "<p>$$W = -nRT\\ln(V_2/V_1) = -2 \\times 8.314 \\times 300 \\times \\ln(20/5)$$ $$= -2 \\times 8.314 \\times 300 \\times \\ln 4 = -2 \\times 8.314 \\times 300 \\times 1.386$$ $$= -6914 \\text{ J} \\approx -6.91 \\text{ kJ}$$ For isothermal: $\\Delta U = 0$, so $q = -W = +6.91$ kJ.</p><p><strong>Final Answer:</strong> $W = -6.91$ kJ; $q = +6.91$ kJ.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>$1$ mole of gas is compressed adiabatically from $10$ L to $5$ L. Temperature increases from $300$ K to $400$ K. Find $\\Delta U$. ($C_V = 20.5$ J/mol·K)</p>",
+              "solution": "<p>$\\Delta U = nC_V\\Delta T = 1 \\times 20.5 \\times (400-300) = 2050$ J.</p><p><strong>Final Answer:</strong> $\\Delta U = +2050$ J.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>State function:</p>",
+              "options": [
+                "Heat",
+                "Work",
+                "Internal energy",
+                "Path"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>First law of thermodynamics is:</p>",
+              "options": [
+                "$\\Delta U = q + W$",
+                "$\\Delta U = q - W$",
+                "$\\Delta U = 0$",
+                "$\\Delta U = -W$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>For isothermal process of ideal gas:</p>",
+              "options": [
+                "$q = 0$",
+                "$\\Delta U = 0$",
+                "$W = 0$",
+                "$\\Delta H = q$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Work done in cyclic process:</p>",
+              "options": [
+                "Zero always",
+                "Equal to heat absorbed",
+                "Maximum",
+                "$\\Delta U$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Closed system can exchange:</p>",
+              "options": [
+                "Only mass",
+                "Only energy",
+                "Both",
+                "Neither"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Enthalpy, Hess's Law, Bond Enthalpy",
+          "concept": "<p><strong>Enthalpy ($H$):</strong> State function defined as $H = U + PV$.</p><p>For change at constant $P$: $\\Delta H = \\Delta U + P\\Delta V = q_P$.</p><p><strong>Relation:</strong> $\\Delta H = \\Delta U + \\Delta n_g RT$, where $\\Delta n_g$ = (moles of gaseous products) - (moles of gaseous reactants).</p><p><strong>Exothermic:</strong> $\\Delta H < 0$ (heat released). <strong>Endothermic:</strong> $\\Delta H > 0$ (heat absorbed).</p><p><strong>Standard Enthalpy Changes:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Definition</th><th>Symbol</th></tr></thead><tbody><tr><td><strong>Formation</strong></td><td>$\\Delta H$ for forming 1 mole from elements in standard states</td><td>$\\Delta_f H^\\ominus$</td></tr><tr><td><strong>Combustion</strong></td><td>$\\Delta H$ for complete combustion of 1 mole</td><td>$\\Delta_c H^\\ominus$</td></tr><tr><td><strong>Neutralization</strong></td><td>$\\Delta H$ when 1 equivalent of acid neutralizes 1 equivalent of base in dilute solution</td><td>$\\Delta_{\\text{neut}} H^\\ominus = -57.1$ kJ/mol (strong acid + strong base)</td></tr><tr><td><strong>Solution</strong></td><td>$\\Delta H$ when 1 mole solute is dissolved in large amount of solvent</td><td>$\\Delta_{\\text{sol}} H$</td></tr><tr><td><strong>Hydration</strong></td><td>$\\Delta H$ when ions are hydrated by water</td><td>$\\Delta_{\\text{hyd}} H$</td></tr><tr><td><strong>Atomization</strong></td><td>$\\Delta H$ to convert 1 mole substance into gaseous atoms</td><td>$\\Delta_a H$</td></tr><tr><td><strong>Sublimation</strong></td><td>$\\Delta H$ for solid → gas</td><td>$\\Delta_{\\text{sub}} H$</td></tr><tr><td><strong>Fusion</strong></td><td>$\\Delta H$ for solid → liquid (at MP)</td><td>$\\Delta_{\\text{fus}} H$</td></tr><tr><td><strong>Vaporisation</strong></td><td>$\\Delta H$ for liquid → gas (at BP)</td><td>$\\Delta_{\\text{vap}} H$</td></tr></tbody></table><p><strong>Standard States</strong> are pure substance at $1$ bar pressure (specific $T$, usually $298$ K). $\\Delta_f H^\\ominus$ of element in standard state = $0$.</p><p><strong>Hess's Law of Constant Heat Summation:</strong> Enthalpy change for a reaction depends only on initial and final states, not on the pathway. Allows calculation of $\\Delta H$ for reactions hard to measure directly.</p><p>$$\\Delta H_{\\text{rxn}} = \\sum\\nu \\Delta_f H^\\ominus_{\\text{products}} - \\sum\\nu \\Delta_f H^\\ominus_{\\text{reactants}}$$</p><p><strong>Bond Enthalpy (Bond Dissociation Energy):</strong> Energy needed to break $1$ mole of a particular bond in gaseous state.</p><p>$$\\Delta H_{\\text{rxn}} = \\sum(\\text{Bond enthalpies of reactants}) - \\sum(\\text{Bond enthalpies of products})$$</p><p>(Note: works only for gaseous species; mean bond enthalpies are used for poly-atomic molecules.)</p><p><strong>Lattice Enthalpy:</strong> $\\Delta H$ when 1 mole of an ionic solid dissociates into gaseous ions: $$\\text{NaCl}(s) \\to \\text{Na}^+(g) + \\text{Cl}^-(g); \\quad \\Delta_L H = +788 \\text{ kJ/mol}$$</p><p><strong>Kirchhoff's Equation:</strong> $\\Delta H_2 - \\Delta H_1 = \\Delta C_P(T_2 - T_1)$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Given: $\\Delta_f H$ (CO₂) = $-393.5$, $\\Delta_f H$ (H₂O) = $-285.8$, $\\Delta_f H$ (CH₄) = $-74.8$ kJ/mol. Find $\\Delta_c H$ of methane.</p>",
+              "solution": "<p>CH₄ + 2O₂ → CO₂ + 2H₂O. $\\Delta H = [\\Delta_f H(\\text{CO}_2) + 2\\Delta_f H(\\text{H}_2O)] - [\\Delta_f H(\\text{CH}_4) + 2\\Delta_f H(\\text{O}_2)]$ $= [-393.5 + 2(-285.8)] - [-74.8 + 0]$ $= -393.5 - 571.6 + 74.8 = -890.3$ kJ/mol.</p><p><strong>Final Answer:</strong> $\\Delta_c H = -890.3$ kJ/mol.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Calculate $\\Delta H$ for: $H_2(g) + Cl_2(g) \\to 2HCl(g)$. Given bond enthalpies: H-H = $436$, Cl-Cl = $242$, H-Cl = $431$ kJ/mol.</p>",
+              "solution": "<p>$$\\Delta H = (E_{H-H} + E_{Cl-Cl}) - 2E_{H-Cl} = (436 + 242) - 2(431)$$ $$= 678 - 862 = -184 \\text{ kJ/mol}$$</p><p><strong>Final Answer:</strong> $\\Delta H = -184$ kJ/mol (exothermic).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Enthalpy of formation of element in standard state:</p>",
+              "options": [
+                "$-1$ kJ",
+                "$0$",
+                "Variable",
+                "$+1$ kJ"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Exothermic reaction:</p>",
+              "options": [
+                "$\\Delta H > 0$",
+                "$\\Delta H < 0$",
+                "$\\Delta H = 0$",
+                "Variable"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Hess's law is based on:</p>",
+              "options": [
+                "Conservation of mass",
+                "Conservation of energy",
+                "Entropy",
+                "Volume"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$\\Delta H$ for neutralization of strong acid by strong base in dilute solution is approximately:</p>",
+              "options": [
+                "$-57.1$ kJ/mol",
+                "$-5.71$ kJ/mol",
+                "$0$",
+                "$+57.1$ kJ/mol"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>For a reaction where $\\Delta n_g = -1$, $T = 300$ K:</p>",
+              "options": [
+                "$\\Delta H = \\Delta U + RT$",
+                "$\\Delta H = \\Delta U - RT$",
+                "$\\Delta H = \\Delta U$",
+                "$\\Delta H = \\Delta U - 2RT$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Entropy, Gibbs Free Energy and Spontaneity",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Entropy and Second Law",
+          "concept": "<p><strong>Entropy ($S$):</strong> Measure of disorder/randomness. State function. SI unit: J/(mol·K).</p><p><strong>Definition:</strong> For reversible process at temperature $T$: $dS = dq_{\\text{rev}}/T$.</p><p><strong>Second Law of Thermodynamics:</strong> For an isolated system, entropy never decreases. $$\\Delta S_{\\text{universe}} = \\Delta S_{\\text{system}} + \\Delta S_{\\text{surr}} \\geq 0$$</p><ul><li>Spontaneous (irreversible): $\\Delta S_{\\text{universe}} > 0$</li><li>Reversible (equilibrium): $\\Delta S_{\\text{universe}} = 0$</li></ul><p><strong>Entropy Changes:</strong></p><table class=\"md-table\"><thead><tr><th>Phase change</th><th>$\\Delta S$</th></tr></thead><tbody><tr><td>Fusion (s→l)</td><td>$+$</td></tr><tr><td>Vaporisation (l→g)</td><td>$+$ (large)</td></tr><tr><td>Sublimation (s→g)</td><td>$+$ (largest)</td></tr><tr><td>Solidification (l→s)</td><td>$-$</td></tr></tbody></table><p><strong>Trends:</strong></p><ul><li>$S(\\text{gas}) > S(\\text{liquid}) > S(\\text{solid})$</li><li>$\\Delta S$ positive for: number of gaseous moles increases, mixing, dissolving solids</li><li>$\\Delta S$ negative for: gas → liquid → solid, gas moles decrease</li></ul><p><strong>Standard Entropy of Reaction:</strong> $$\\Delta S^\\ominus_{\\text{rxn}} = \\sum\\nu S^\\ominus_{\\text{products}} - \\sum\\nu S^\\ominus_{\\text{reactants}}$$</p><p><strong>Surroundings:</strong> Heat lost by system is gained by surroundings. $$\\Delta S_{\\text{surr}} = -\\Delta H_{\\text{sys}}/T$$ (for constant $T, P$).</p><p><strong>Third Law of Thermodynamics:</strong> Entropy of a perfectly crystalline solid at absolute zero ($0$ K) is zero. $$S(0 \\text{ K}) = 0 \\text{ (perfect crystal)}$$ Allows absolute entropy values to be defined for substances.</p><p><strong>Entropy for ideal gas (isothermal):</strong> $\\Delta S = nR\\ln(V_2/V_1) = -nR\\ln(P_2/P_1)$.</p><p><strong>For temperature change at const $V$:</strong> $\\Delta S = nC_V \\ln(T_2/T_1)$. At const $P$: $\\Delta S = nC_P \\ln(T_2/T_1)$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>$2$ moles of ideal gas expand isothermally from $1$ L to $10$ L at $300$ K. Find $\\Delta S$ of system.</p>",
+              "solution": "<p>$$\\Delta S = nR\\ln(V_2/V_1) = 2 \\times 8.314 \\times \\ln 10$$ $$= 2 \\times 8.314 \\times 2.303 = 38.29 \\text{ J/K}$$</p><p><strong>Final Answer:</strong> $\\Delta S = +38.29$ J/K.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>$1$ mole of water at $373$ K vaporizes. $\\Delta H_{\\text{vap}} = 40.65$ kJ/mol. Find $\\Delta S$.</p>",
+              "solution": "<p>At BP, process is reversible: $$\\Delta S = \\Delta H/T = 40650/373 \\approx 109 \\text{ J/K mol}$$</p><p><strong>Final Answer:</strong> $\\Delta S \\approx 109$ J/(K·mol).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Entropy of a system at $0$ K (perfect crystal):</p>",
+              "options": [
+                "$0$",
+                "Infinite",
+                "Negative",
+                "Variable"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Among solids, liquids, gases — entropy is highest in:</p>",
+              "options": [
+                "Solid",
+                "Liquid",
+                "Gas",
+                "Same"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In an irreversible process:</p>",
+              "options": [
+                "$\\Delta S_{\\text{univ}} < 0$",
+                "$\\Delta S_{\\text{univ}} > 0$",
+                "$\\Delta S_{\\text{univ}} = 0$",
+                "Cannot say"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Spontaneous endothermic reactions are favored by:</p>",
+              "options": [
+                "Increase in $\\Delta S$",
+                "Decrease in $\\Delta S$",
+                "Low temperature",
+                "Decrease in volume"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Surroundings entropy change at constant $T, P$:</p>",
+              "options": [
+                "$\\Delta H_{\\text{sys}}/T$",
+                "$-\\Delta H_{\\text{sys}}/T$",
+                "$\\Delta U/T$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Gibbs Free Energy and Spontaneity",
+          "concept": "<p><strong>Gibbs Free Energy ($G$):</strong> Combined criterion of spontaneity at constant $T, P$: $$G = H - TS$$ $$\\Delta G = \\Delta H - T\\Delta S$$</p><p><strong>Spontaneity Criteria at constant $T, P$:</strong></p><table class=\"md-table\"><thead><tr><th>$\\Delta G$</th><th>Process</th><th>Reversibility</th></tr></thead><tbody><tr><td>$< 0$</td><td>Spontaneous (favorable)</td><td>Irreversible</td></tr><tr><td>$> 0$</td><td>Non-spontaneous</td><td>Reverse is spontaneous</td></tr><tr><td>$= 0$</td><td>At equilibrium</td><td>Reversible</td></tr></tbody></table><p><strong>$\\Delta G$ Analysis Based on Signs:</strong></p><table class=\"md-table\"><thead><tr><th>$\\Delta H$</th><th>$\\Delta S$</th><th>$\\Delta G$</th><th>Spontaneity</th></tr></thead><tbody><tr><td>$-$ (exothermic)</td><td>$+$ (entropy increases)</td><td>$-$ always</td><td>Spontaneous at all $T$</td></tr><tr><td>$-$</td><td>$-$</td><td>$-$ at low $T$, $+$ at high $T$</td><td>Spontaneous at low $T$</td></tr><tr><td>$+$</td><td>$+$</td><td>$+$ at low $T$, $-$ at high $T$</td><td>Spontaneous at high $T$</td></tr><tr><td>$+$</td><td>$-$</td><td>$+$ always</td><td>Non-spontaneous at all $T$</td></tr></tbody></table><p><strong>Temperature of equilibrium (for case where $\\Delta G$ changes sign):</strong> $$T = \\Delta H/\\Delta S$$</p><p><strong>Relation with Equilibrium Constant:</strong> $$\\Delta G^\\ominus = -RT\\ln K = -2.303 RT\\log K$$</p><p>If $K > 1$: $\\Delta G^\\ominus < 0$ (favors products); $K < 1$: $\\Delta G^\\ominus > 0$ (favors reactants); $K = 1$: $\\Delta G^\\ominus = 0$.</p><p><strong>Free Energy Change Under Non-standard Conditions:</strong> $$\\Delta G = \\Delta G^\\ominus + RT\\ln Q$$ where $Q$ = reaction quotient.</p><p><strong>Relation with Electrochemistry:</strong> $\\Delta G^\\ominus = -nFE^\\ominus_{\\text{cell}}$, where $n$ = electrons, $F$ = Faraday constant ($96500$ C/mol).</p><p><strong>Maximum useful work</strong> (other than P-V): $W_{\\text{useful}} = -\\Delta G$ (at constant $T, P$, reversible).</p><p><strong>Standard $\\Delta G^\\ominus$ of formation:</strong> Like $\\Delta_f H^\\ominus$, $\\Delta_f G^\\ominus$ of element in standard state = $0$. For a reaction: $$\\Delta G^\\ominus_{\\text{rxn}} = \\sum\\nu\\Delta_f G^\\ominus_{\\text{products}} - \\sum\\nu\\Delta_f G^\\ominus_{\\text{reactants}}$$</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>For a reaction at $300$ K, $\\Delta H = -10$ kJ/mol, $\\Delta S = -20$ J/(K·mol). Predict spontaneity.</p>",
+              "solution": "<p>$\\Delta G = \\Delta H - T\\Delta S = -10000 - 300(-20) = -10000 + 6000 = -4000$ J/mol. Since $\\Delta G < 0$, reaction is <strong>spontaneous</strong> at $300$ K.</p><p>Temperature at equilibrium: $T = \\Delta H/\\Delta S = -10000/(-20) = 500$ K. Above $500$ K, $\\Delta G > 0$ → non-spontaneous.</p><p><strong>Final Answer:</strong> Spontaneous; equilibrium at $T = 500$ K.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>$K = 1.0 \\times 10^4$ for a reaction at $298$ K. Find $\\Delta G^\\ominus$.</p>",
+              "solution": "<p>$$\\Delta G^\\ominus = -2.303 RT\\log K = -2.303 \\times 8.314 \\times 298 \\times \\log(10^4)$$ $$= -2.303 \\times 8.314 \\times 298 \\times 4 = -22,826 \\text{ J/mol} \\approx -22.83 \\text{ kJ/mol}$$</p><p><strong>Final Answer:</strong> $\\Delta G^\\ominus = -22.83$ kJ/mol.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>For spontaneous process at const $T, P$:</p>",
+              "options": [
+                "$\\Delta H < 0$",
+                "$\\Delta S > 0$",
+                "$\\Delta G < 0$",
+                "$\\Delta G > 0$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>At equilibrium:</p>",
+              "options": [
+                "$\\Delta G < 0$",
+                "$\\Delta G > 0$",
+                "$\\Delta G = 0$",
+                "$\\Delta H = 0$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The relation $\\Delta G^\\ominus = -RT\\ln K$ holds for:</p>",
+              "options": [
+                "Standard conditions",
+                "Any conditions",
+                "Forward reaction",
+                "Both forward and reverse"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$\\Delta G = \\Delta H - T\\Delta S$ implies spontaneity at high $T$ if:</p>",
+              "options": [
+                "$\\Delta H < 0$, $\\Delta S < 0$",
+                "$\\Delta H > 0$, $\\Delta S > 0$",
+                "$\\Delta H > 0$, $\\Delta S < 0$",
+                "Both $\\Delta H, \\Delta S < 0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>If $\\Delta H = +50$ kJ, $\\Delta S = +100$ J/K. Temperature above which reaction is spontaneous:</p>",
+              "options": [
+                "$500$ K",
+                "$5$ K",
+                "$0.5$ K",
+                "Never"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-chem-chemical-thermodynamics-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>The first law of thermodynamics is statement of:</p>",
+              "options": [
+                "Conservation of momentum",
+                "Conservation of energy",
+                "Conservation of mass",
+                "Conservation of charge"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Heat absorbed at constant pressure equals:</p>",
+              "options": [
+                "$\\Delta U$",
+                "$\\Delta H$",
+                "$\\Delta G$",
+                "$\\Delta S$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>For an ideal gas, $\\Delta U$ depends on:</p>",
+              "options": [
+                "Only $T$",
+                "$T$ and $V$",
+                "$T$ and $P$",
+                "Only $P$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Bond dissociation enthalpy of H-Cl is $431$ kJ/mol. This is energy:</p>",
+              "options": [
+                "Absorbed",
+                "Released",
+                "Used in formation",
+                "Heat of solution"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>For a reversible isothermal process: $W$ for ideal gas:</p>",
+              "options": [
+                "$0$",
+                "$-nRT\\ln(V_2/V_1)$",
+                "$nC_V\\Delta T$",
+                "$-P\\Delta V$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The criterion for spontaneity at const $T, P$:</p>",
+              "options": [
+                "$\\Delta H < 0$",
+                "$\\Delta S > 0$",
+                "$\\Delta G < 0$",
+                "$q > 0$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Standard enthalpy of formation of O₂(g):</p>",
+              "options": [
+                "$0$",
+                "$+498$",
+                "$-498$",
+                "Variable"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The entropy of universe in spontaneous process:</p>",
+              "options": [
+                "Decreases",
+                "Increases",
+                "Same",
+                "Zero"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$\\Delta H$ for reaction is $-10$ kcal. Energy released as heat at const $P$:</p>",
+              "options": [
+                "$0$",
+                "$-10$ kcal",
+                "$+10$ kcal",
+                "Cannot determine"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The standard free energy of formation $\\Delta_f G^\\ominus$ of elements is:</p>",
+              "options": [
+                "Variable",
+                "$0$ in standard state",
+                "$-1$",
+                "Always positive"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Number of moles in a system if $\\Delta U = nC_V\\Delta T = 600$ J, $C_V = 12.47$ J/(mol·K), $\\Delta T = 24.06$ K (rounded integer):</p>",
+              "answer": "2",
+              "explanation": ""
+            },
+            {
+              "q": "<p>For reaction at $T = 500$ K, $K = 10$. $\\Delta G^\\ominus$ (in kJ/mol, magnitude, integer using $R = 8.314$, $\\ln 10 = 2.303$):</p>",
+              "answer": "10",
+              "explanation": ""
+            },
+            {
+              "q": "<p>$\\Delta H$ of reaction = $-200$ kJ/mol. $\\Delta S = -100$ J/(mol·K). Find temperature above which reaction becomes non-spontaneous (in K):</p>",
+              "answer": "2000",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> A spontaneous reaction always has negative $\\Delta H$. <strong>Reason (R):</strong> Negative $\\Delta H$ favors spontaneity at all temperatures.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R false"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> $\\Delta H = \\Delta U$ for reactions where $\\Delta n_g = 0$. <strong>Reason (R):</strong> $\\Delta H = \\Delta U + \\Delta n_g RT$.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "chemistry",
+  "chapter": 10,
+  "title": "Solutions",
+  "slug": "solutions",
+  "subtitle": "Concentration, Raoult's law, colligative properties and van't Hoff factor for NEET",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "NEET Chemistry — Solutions: ways of expressing concentration (molarity, molality, mole fraction), Raoult's law and ideal/non-ideal solutions, colligative properties (relative lowering of vapour pressure, elevation in boiling point, depression in freezing point, osmotic pressure) and van't Hoff factor, with NEET traps, NCERT notes and MCQs. Free on GrowQR.",
+    "focus_keyword": "solutions NEET",
+    "secondary_keywords": [
+      "colligative properties NEET",
+      "Raoult's law NEET",
+      "van't Hoff factor NEET",
+      "osmotic pressure NCERT",
+      "molarity molality NEET"
+    ],
+    "keywords": [
+      "solutions NEET",
+      "colligative properties NEET",
+      "Raoult's law NEET",
+      "van't Hoff factor NEET",
+      "osmotic pressure NEET"
+    ]
+  },
+  "summary": "<ul><li><strong>Concentration:</strong> molarity $M$ (mol/L, temperature-dependent), molality $m$ (mol/kg, temperature-independent), mole fraction $x$ (sum $=1$), ppm.</li><li><strong>Raoult's law</strong> (volatile–volatile): $p = p_A^\\circ x_A + p_B^\\circ x_B$; for a non-volatile solute, $p = p_A^\\circ x_A$.</li><li><strong>Ideal solutions</strong> obey Raoult's law ($\\Delta H_{mix}=0$, $\\Delta V_{mix}=0$); positive/negative deviations give non-ideal solutions and azeotropes.</li><li><strong>Henry's law:</strong> solubility of a gas $\\propto$ partial pressure; $p = K_H x$.</li><li><strong>Colligative properties</strong> depend on number of solute particles, not their nature: relative lowering of vapour pressure, elevation of boiling point ($\\Delta T_b = K_b\\, m$), depression of freezing point ($\\Delta T_f = K_f\\, m$), osmotic pressure ($\\Pi = CRT$).</li><li><strong>Osmotic pressure</strong> is best for measuring molar mass of macromolecules (measurable at room temperature).</li><li><strong>van't Hoff factor</strong> $i$ corrects for dissociation ($i>1$) or association ($i<1$).</li></ul>",
+  "faqs": [
+    { "q": "Why is molality preferred over molarity in colligative-property calculations?", "a": "Molality is moles of solute per kilogram of solvent, which does not change with temperature, whereas molarity is per litre of solution and changes as volume expands or contracts with temperature. Colligative properties are measured over temperature ranges, so molality gives consistent results." },
+    { "q": "What are colligative properties?", "a": "Colligative properties are properties of a solution that depend only on the number of dissolved solute particles, not on their chemical identity. The four are relative lowering of vapour pressure, elevation of boiling point, depression of freezing point and osmotic pressure." },
+    { "q": "What is the van't Hoff factor and why is it needed?", "a": "The van't Hoff factor i is the ratio of the actual number of particles in solution to the number of formula units dissolved. It is greater than 1 for solutes that dissociate (like NaCl) and less than 1 for those that associate (like benzoic acid in benzene), and it corrects colligative-property formulas." },
+    { "q": "Why is osmotic pressure used to find the molar mass of proteins?", "a": "Osmotic pressure can be measured accurately at room temperature even for very dilute solutions, and it gives a sizeable, easily measured value for large molecules like proteins and polymers, where the other colligative effects would be too small to measure reliably." },
+    { "q": "What is the difference between ideal and non-ideal solutions?", "a": "An ideal solution obeys Raoult's law over the whole range with no enthalpy or volume change on mixing, because solute–solvent interactions are similar to the pure-component interactions. Non-ideal solutions deviate from Raoult's law (positively or negatively) because the new interactions differ, and they may form azeotropes." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Concentration and Vapour Pressure",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Expressing Concentration and Solubility",
+          "concept": "<p>A <strong>solution</strong> is a homogeneous mixture of two or more components; the substance present in larger amount is usually the <strong>solvent</strong> and the others are <strong>solutes</strong>. To describe 'how much' solute is present we use several measures of <strong>concentration</strong>, and choosing the right one — and converting between them — is a guaranteed NEET skill.</p><p>The common measures are: <strong>mass percentage</strong> (mass of solute per 100 g of solution); <strong>parts per million (ppm)</strong> for very dilute solutions; <strong>mole fraction</strong> $x$ (moles of a component divided by total moles, so all mole fractions sum to $1$); <strong>molarity</strong> $M$ (moles of solute per litre of solution); and <strong>molality</strong> $m$ (moles of solute per kilogram of solvent). A key NEET point is that molarity depends on temperature (because volume changes with temperature) whereas molality and mole fraction do not — so molality is preferred when temperature varies, as in colligative measurements.</p><p>The <strong>solubility</strong> of a substance is the maximum amount that dissolves in a given amount of solvent at a particular temperature. For solids in liquids, solubility usually increases with temperature for endothermic dissolution and decreases for exothermic dissolution (following Le Chatelier's principle). The general guideline 'like dissolves like' holds — polar solutes dissolve in polar solvents and non-polar in non-polar.</p><p>For <strong>gases dissolving in liquids</strong>, solubility is governed by <strong>Henry's law</strong>: at constant temperature, the solubility of a gas is directly proportional to the partial pressure of the gas above the liquid, written $p = K_H\\, x$, where $K_H$ is the Henry's law constant and $x$ the mole fraction of the gas. A higher $K_H$ means lower solubility. Gas solubility <em>decreases</em> with rising temperature — which is why warm water holds less dissolved oxygen, and why fizzy drinks go flat. Henry's law also explains the painful 'bends' in deep-sea divers and the use of helium–oxygen mixtures, biological links NEET sometimes draws on.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Measure</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Definition</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Molarity ($M$)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>mol solute / L solution (temp-dependent)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Molality ($m$)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>mol solute / kg solvent (temp-independent)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Mole fraction ($x$)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>mol component / total mol (sum $=1$)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Henry's law</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$p = K_H\\, x$ (gas solubility)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Calculate the molality of a solution with $0.5$ mol of solute in $250$ g of solvent.</p>",
+              "solution": "<p>Molality $m = \\dfrac{\\text{mol solute}}{\\text{kg solvent}} = \\dfrac{0.5}{0.250} = 2\\ \\text{mol kg}^{-1}$ (i.e. $2\\,m$).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why does the solubility of a gas decrease as temperature rises?</p>",
+              "solution": "<p>Dissolving a gas is usually exothermic. By Le Chatelier's principle, raising the temperature shifts the equilibrium to expel gas, so less remains dissolved — warm water holds less oxygen and soft drinks lose fizz faster when warm.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Which concentration measure is independent of temperature?</p>", "options": ["molarity", "molality", "normality", "volume %"], "correct": 1, "explanation": "Molality uses mass, so it is temperature-independent." },
+            { "q": "<p>The sum of all mole fractions in a solution is:</p>", "options": ["0", "0.5", "1", "100"], "correct": 2, "explanation": "Mole fractions sum to 1." },
+            { "q": "<p>Henry's law states gas solubility is proportional to:</p>", "options": ["temperature", "partial pressure of the gas", "volume", "molar mass"], "correct": 1, "explanation": "$p = K_H x$ — proportional to partial pressure." },
+            { "q": "<p>Molarity is defined as moles of solute per:</p>", "options": ["kg of solvent", "litre of solution", "mole of solvent", "100 g solution"], "correct": 1, "explanation": "Per litre of solution." },
+            { "q": "<p>As temperature increases, the solubility of most gases in water:</p>", "options": ["increases", "decreases", "stays constant", "doubles"], "correct": 1, "explanation": "Gas solubility falls with temperature." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> molality & mole fraction are temperature-independent; molarity is not. Henry's law $p=K_Hx$ — higher $K_H$ = lower solubility; gas solubility falls as T rises.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Raoult's Law and Ideal / Non-ideal Solutions",
+          "concept": "<p>The vapour pressure of a solution is described by <strong>Raoult's law</strong>. For a solution of two volatile liquids, the partial vapour pressure of each component equals its vapour pressure in the pure state multiplied by its mole fraction in the solution: $p_A = p_A^{\\circ} x_A$ and $p_B = p_B^{\\circ} x_B$, so the total vapour pressure is $p = p_A^{\\circ} x_A + p_B^{\\circ} x_B$. This linear relationship is the foundation for the rest of the chapter.</p><p>When the solute is <strong>non-volatile</strong>, it contributes no vapour, so the solution's vapour pressure is simply $p = p_A^{\\circ} x_A$ (where A is the solvent). Because $x_A < 1$, the vapour pressure is always <em>lowered</em> by adding a non-volatile solute — the origin of the colligative properties studied later. NEET often gives a numerical asking for this lowering.</p><p>An <strong>ideal solution</strong> is one that obeys Raoult's law over the entire range of composition, with <em>zero enthalpy of mixing</em> ($\\Delta H_{mix} = 0$) and <em>zero volume change</em> ($\\Delta V_{mix} = 0$). This happens when the solute–solvent interactions are essentially the same as the interactions in the pure components — for example, benzene with toluene, or n-hexane with n-heptane.</p><p>Most real solutions are <strong>non-ideal</strong> and deviate from Raoult's law. In a <strong>positive deviation</strong>, the components interact more weakly with each other than with themselves, so vapour pressure is higher than predicted ($\\Delta H_{mix} > 0$); ethanol with water is an example, and such mixtures form <em>minimum-boiling azeotropes</em>. In a <strong>negative deviation</strong>, the components attract each other more strongly (e.g. by hydrogen bonding), so vapour pressure is lower than predicted ($\\Delta H_{mix} < 0$); nitric acid with water is an example, forming a <em>maximum-boiling azeotrope</em>. Azeotropes are constant-boiling mixtures that cannot be separated by simple distillation — a recurring NEET fact.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Type</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Behaviour</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Ideal</td><td style='border:1px solid #dcfce7;padding:6px 10px'>obeys Raoult; $\\Delta H_{mix}=0$, $\\Delta V_{mix}=0$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Positive deviation</td><td style='border:1px solid #dcfce7;padding:6px 10px'>weaker A–B forces; min-boiling azeotrope</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Negative deviation</td><td style='border:1px solid #dcfce7;padding:6px 10px'>stronger A–B forces; max-boiling azeotrope</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Non-volatile solute</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$p = p_A^{\\circ} x_A$ (vapour pressure lowered)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>The vapour pressure of pure water is $100$ units. What is the vapour pressure of a solution in which the mole fraction of water is $0.9$ (non-volatile solute)?</p>",
+              "solution": "<p>$p = p_A^{\\circ} x_A = 100 \\times 0.9 = 90$ units. The vapour pressure is lowered from $100$ to $90$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A mixture of ethanol and water shows positive deviation from Raoult's law. What does this imply about the forces between the molecules?</p>",
+              "solution": "<p>Positive deviation means the ethanol–water attractions are <em>weaker</em> than the ethanol–ethanol and water–water attractions, so molecules escape more easily and the vapour pressure is higher than Raoult's law predicts ($\\Delta H_{mix} > 0$).</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Raoult's law for a volatile component is:</p>", "options": ["$p_A = p_A^{\\circ}/x_A$", "$p_A = p_A^{\\circ} x_A$", "$p_A = x_A$", "$p_A = p_A^{\\circ} + x_A$"], "correct": 1, "explanation": "$p_A = p_A^{\\circ} x_A$." },
+            { "q": "<p>For an ideal solution, $\\Delta H_{mix}$ is:</p>", "options": ["positive", "negative", "zero", "infinite"], "correct": 2, "explanation": "Ideal solutions have $\\Delta H_{mix}=0$." },
+            { "q": "<p>A non-volatile solute always ____ the vapour pressure of the solvent.</p>", "options": ["raises", "lowers", "doubles", "does not change"], "correct": 1, "explanation": "$x_A<1$, so vapour pressure is lowered." },
+            { "q": "<p>A minimum-boiling azeotrope is formed by solutions showing:</p>", "options": ["positive deviation", "negative deviation", "ideal behaviour", "no deviation"], "correct": 0, "explanation": "Positive deviation gives minimum-boiling azeotropes." },
+            { "q": "<p>Negative deviation arises when A–B interactions are:</p>", "options": ["weaker than A–A/B–B", "stronger than A–A/B–B", "absent", "equal"], "correct": 1, "explanation": "Stronger A–B attraction lowers vapour pressure." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> $p = p_A^{\\circ}x_A + p_B^{\\circ}x_B$; non-volatile solute lowers vapour pressure. Positive deviation = weaker A–B, min-boiling azeotrope; negative = stronger A–B, max-boiling azeotrope.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Colligative Properties",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Colligative Properties and Molar Mass",
+          "concept": "<p>Adding a non-volatile solute to a solvent changes four measurable properties that depend <em>only on the number of solute particles</em>, not on their chemical nature. These are the <strong>colligative properties</strong>, and they are a cornerstone of NEET physical chemistry because they let us determine the molar mass of an unknown solute.</p><p>The first is the <strong>relative lowering of vapour pressure</strong>. From Raoult's law, the lowering divided by the pure solvent's vapour pressure equals the mole fraction of the solute: $\\dfrac{p_A^{\\circ} - p}{p_A^{\\circ}} = x_B$. The second is the <strong>elevation of boiling point</strong>: a solution boils at a higher temperature than the pure solvent, with $\\Delta T_b = K_b\\, m$, where $K_b$ is the molal elevation (ebullioscopic) constant and $m$ the molality. The third is the <strong>depression of freezing point</strong>: a solution freezes lower than the pure solvent, with $\\Delta T_f = K_f\\, m$, where $K_f$ is the molal depression (cryoscopic) constant. This is why salt is spread on icy roads and why antifreeze is added to car radiators — everyday links NEET often uses.</p><p>The fourth and most important is <strong>osmotic pressure</strong>. Osmosis is the net flow of solvent through a semipermeable membrane from a dilute to a concentrated solution; the pressure needed to just stop this flow is the osmotic pressure $\\Pi$, given by $\\Pi = CRT$ (the van't Hoff equation), where $C$ is the molar concentration. Osmotic pressure is especially valued for finding the molar mass of <em>macromolecules</em> like proteins and polymers, because it is sizeable and can be measured accurately at room temperature, unlike the other three effects.</p><p>All four properties can be rearranged to give the solute's molar mass, since each links a measurable change to the number of moles dissolved. NEET problems typically supply $K_b$ or $K_f$, the masses of solute and solvent, and the measured temperature change, and ask for the molar mass — so being fluent with $\\Delta T_b = K_b m$, $\\Delta T_f = K_f m$, and $\\Pi = CRT$, and rearranging them, covers the bulk of this topic.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Property</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Relation</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Relative lowering of VP</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\dfrac{p_A^{\\circ}-p}{p_A^{\\circ}} = x_B$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Elevation of boiling point</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\Delta T_b = K_b\\, m$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Depression of freezing point</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\Delta T_f = K_f\\, m$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Osmotic pressure</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\Pi = CRT$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>The molal depression constant of water is $K_f = 1.86\\ \\text{K kg mol}^{-1}$. Find $\\Delta T_f$ for a $0.5\\,m$ solution of a non-electrolyte.</p>",
+              "solution": "<p>$\\Delta T_f = K_f\\, m = 1.86 \\times 0.5 = 0.93\\ \\text{K}$. The freezing point is lowered by $0.93\\ \\text{K}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is osmotic pressure preferred for finding the molar mass of polymers?</p>",
+              "solution": "<p>It gives a measurable value even for very dilute solutions of large molecules and can be measured at room temperature, whereas the elevation/depression effects would be too small to measure accurately for high-molar-mass solutes.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Colligative properties depend on the:</p>", "options": ["nature of the solute", "number of solute particles", "mass of the solvent only", "colour of the solute"], "correct": 1, "explanation": "They depend on number, not nature, of particles." },
+            { "q": "<p>The elevation of boiling point is given by:</p>", "options": ["$\\Delta T_b = K_b/m$", "$\\Delta T_b = K_b\\, m$", "$\\Delta T_b = m/K_b$", "$\\Delta T_b = K_b + m$"], "correct": 1, "explanation": "$\\Delta T_b = K_b m$." },
+            { "q": "<p>Osmotic pressure is given by:</p>", "options": ["$\\Pi = CRT$", "$\\Pi = C/RT$", "$\\Pi = RT/C$", "$\\Pi = CR/T$"], "correct": 0, "explanation": "van't Hoff equation $\\Pi = CRT$." },
+            { "q": "<p>Spreading salt on icy roads works by:</p>", "options": ["elevation of boiling point", "depression of freezing point", "osmosis", "raising vapour pressure"], "correct": 1, "explanation": "Salt lowers the freezing point of water." },
+            { "q": "<p>The best colligative property for measuring the molar mass of proteins is:</p>", "options": ["boiling point elevation", "freezing point depression", "osmotic pressure", "vapour pressure lowering"], "correct": 2, "explanation": "Osmotic pressure is measurable for macromolecules at room temperature." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> memorise $\\Delta T_b=K_b m$, $\\Delta T_f=K_f m$, $\\Pi=CRT$. Each gives molar mass when rearranged. Osmotic pressure is best for macromolecules.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Abnormal Molar Mass and the van't Hoff Factor",
+          "concept": "<p>The colligative-property formulas assume that the number of dissolved particles equals the number of solute formula units. But some solutes <strong>dissociate</strong> into ions and others <strong>associate</strong> into larger aggregates, so the actual number of particles differs from what was dissolved. When this happens, the molar mass calculated from a colligative property comes out wrong — an <strong>abnormal molar mass</strong>. NEET frequently builds questions around this idea.</p><p>To correct for it, van't Hoff introduced the <strong>van't Hoff factor</strong> $i$, defined as the ratio of the observed (actual) number of particles in solution to the number of formula units initially dissolved. Equivalently, $i = \\dfrac{\\text{normal molar mass}}{\\text{observed molar mass}}$, or the ratio of the observed colligative effect to the calculated (normal) effect.</p><p>For a solute that <strong>dissociates</strong>, more particles are produced, so $i > 1$. For example, NaCl gives two ions ($\\text{Na}^+$ and $\\text{Cl}^-$), so its ideal $i = 2$; $\\text{BaCl}_2$ gives three ions, so ideal $i = 3$ (the real value is a little less because dissociation is not always complete). For a solute that <strong>associates</strong>, the number of particles falls, so $i < 1$; benzoic acid dimerises in benzene through hydrogen bonding, giving $i \\approx 0.5$. For a solute that neither dissociates nor associates (a normal non-electrolyte like glucose or urea), $i = 1$.</p><p>The colligative formulas are modified by inserting $i$: $\\Delta T_b = i K_b\\, m$, $\\Delta T_f = i K_f\\, m$, $\\Pi = i\\,CRT$, and $\\dfrac{p_A^{\\circ}-p}{p_A^{\\circ}} = i\\, x_B$. NEET problems often ask you to compare the freezing-point depression of equimolar solutions of different solutes — the one that dissociates most (largest $i$) shows the greatest effect. Mastering the meaning of $i$ and these modified equations completes the chapter and turns 'abnormal' colligative problems into routine calculations.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Solute behaviour</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>van't Hoff factor $i$</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>No dissociation/association</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$i = 1$ (glucose, urea)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Dissociation</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$i > 1$ (NaCl $i=2$, $\\text{BaCl}_2$ $i=3$)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Association</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$i < 1$ (benzoic acid in benzene)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Modified formula</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\Delta T_f = i K_f\\, m$, $\\Pi = i\\,CRT$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>What is the ideal van't Hoff factor for $\\text{K}_2\\text{SO}_4$ assuming complete dissociation?</p>",
+              "solution": "<p>$\\text{K}_2\\text{SO}_4 \\rightarrow 2\\text{K}^+ + \\text{SO}_4^{2-}$ gives $3$ particles, so $i = 3$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Two solutions are equimolar: one of glucose ($i=1$) and one of NaCl ($i=2$). Which shows greater depression of freezing point?</p>",
+              "solution": "<p>$\\Delta T_f = i K_f m$, so the NaCl solution (with $i=2$) shows roughly twice the depression of the glucose solution — more particles, larger colligative effect.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The van't Hoff factor for a solute that dissociates is:</p>", "options": ["$i = 1$", "$i > 1$", "$i < 1$", "$i = 0$"], "correct": 1, "explanation": "Dissociation increases particle count, $i>1$." },
+            { "q": "<p>For benzoic acid dimerising in benzene, $i$ is approximately:</p>", "options": ["2", "1", "0.5", "3"], "correct": 2, "explanation": "Association halves the particles, $i\\approx0.5$." },
+            { "q": "<p>The ideal van't Hoff factor of $\\text{BaCl}_2$ is:</p>", "options": ["1", "2", "3", "4"], "correct": 2, "explanation": "$\\text{Ba}^{2+}+2\\text{Cl}^-$ = 3 particles." },
+            { "q": "<p>The modified depression formula is:</p>", "options": ["$\\Delta T_f = K_f m$", "$\\Delta T_f = i K_f m$", "$\\Delta T_f = K_f m / i$", "$\\Delta T_f = i + K_f m$"], "correct": 1, "explanation": "$\\Delta T_f = i K_f m$." },
+            { "q": "<p>For a non-electrolyte like urea, $i$ equals:</p>", "options": ["0", "1", "2", "less than 1"], "correct": 1, "explanation": "No dissociation/association, $i=1$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> $i>1$ dissociation (NaCl=2, $\\text{BaCl}_2$=3), $i<1$ association (benzoic acid in benzene ≈ 0.5), $i=1$ normal. Insert $i$ into every colligative formula; equimolar solutions with larger $i$ show larger effects.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-chemistry-ch10-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct & Statement-based)",
+          "questions": [
+            { "q": "<p>Which is temperature-independent?</p>", "options": ["molarity", "molality", "normality", "formality"], "correct": 1, "explanation": "Molality is mass-based, temperature-independent." },
+            { "q": "<p>Raoult's law for the solvent (non-volatile solute) is:</p>", "options": ["$p = p_A^{\\circ}/x_A$", "$p = p_A^{\\circ} x_A$", "$p = x_A$", "$p = p_A^{\\circ}$"], "correct": 1, "explanation": "$p = p_A^{\\circ} x_A$." },
+            { "q": "<p>An ideal solution has $\\Delta V_{mix}$ equal to:</p>", "options": ["positive", "negative", "zero", "infinite"], "correct": 2, "explanation": "Ideal: $\\Delta V_{mix}=0$." },
+            { "q": "<p>Statements: (I) Colligative properties depend on the number of particles. (II) Osmotic pressure is $\\Pi = CRT$. Which are correct?</p>", "options": ["only I", "only II", "both I and II", "neither"], "correct": 2, "explanation": "Both statements are correct." },
+            { "q": "<p>The ideal van't Hoff factor of NaCl is:</p>", "options": ["1", "2", "3", "0.5"], "correct": 1, "explanation": "$\\text{Na}^+ + \\text{Cl}^-$ = 2 particles." },
+            { "q": "<p>Adding antifreeze to a radiator works by:</p>", "options": ["raising vapour pressure", "depressing the freezing point", "osmosis", "Henry's law"], "correct": 1, "explanation": "Antifreeze lowers the freezing point of water." },
+            { "q": "<p>A solution showing positive deviation forms:</p>", "options": ["a maximum-boiling azeotrope", "a minimum-boiling azeotrope", "no azeotrope", "an ideal solution"], "correct": 1, "explanation": "Positive deviation gives minimum-boiling azeotropes." },
+            { "q": "<p>For benzoic acid dimerising in benzene, the colligative effect is:</p>", "options": ["larger than normal", "smaller than normal", "unchanged", "zero"], "correct": 1, "explanation": "Association ($i<1$) reduces the colligative effect." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> Molality is preferred over molarity in colligative-property calculations.<br><strong>R:</strong> Molality does not change with temperature because it is based on the mass of the solvent.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Temperature independence is exactly why molality is preferred — R explains A." },
+            { "q": "<p><strong>A:</strong> An aqueous NaCl solution shows a greater depression of freezing point than an equimolar glucose solution.<br><strong>R:</strong> NaCl dissociates into two ions, giving a van't Hoff factor of about 2.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "More particles ($i\\approx2$) means a larger colligative effect — R explains A." },
+            { "q": "<p><strong>A:</strong> The vapour pressure of a solvent increases when a non-volatile solute is added.<br><strong>R:</strong> The mole fraction of the solvent in the solution is less than one.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "Vapour pressure actually decreases (A false); the solvent mole fraction is indeed less than one (R true)." },
+            { "q": "<p><strong>A:</strong> Osmotic pressure is the preferred colligative property for measuring the molar mass of macromolecules.<br><strong>R:</strong> Osmotic pressure can be measured accurately at room temperature even for dilute solutions.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Its accurate room-temperature measurement is why it suits macromolecules — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

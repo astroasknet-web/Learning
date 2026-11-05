@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": 7,
+  "title": "Equilibrium",
+  "slug": "equilibrium",
+  "subtitle": "Equilibrium for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#ec4899",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "Master Equilibrium for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Chemical Equilibrium",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Law of Mass Action, Kc, Kp, Reaction Quotient",
+          "concept": "<p><strong>Reversible Reaction:</strong> Reaction that can proceed both forward and backward. Indicated by ⇌.</p><p><strong>Chemical Equilibrium:</strong> State where forward rate = backward rate; concentrations remain constant (dynamic, not static).</p><p><strong>Law of Mass Action</strong> (Guldberg-Waage): Rate of reaction $\\propto$ product of active masses (concentrations) of reactants.</p><p>For: $aA + bB \\rightleftharpoons cC + dD$ $$K_c = \\frac{[C]^c[D]^d}{[A]^a[B]^b}$$</p><p><strong>$K_c$ (concentration):</strong> Used when concentrations expressed in mol/L. Units depend on $\\Delta n = (c+d)-(a+b)$.</p><p><strong>$K_p$ (partial pressure):</strong> Used for gaseous reactions. Relation: $$K_p = K_c(RT)^{\\Delta n_g}$$ $\\Delta n_g$ = (gaseous product moles) - (gaseous reactant moles).</p><ul><li>If $\\Delta n = 0$: $K_p = K_c$</li><li>If $\\Delta n > 0$: $K_p > K_c$</li><li>If $\\Delta n < 0$: $K_p < K_c$</li></ul><p><strong>$K_x$ (mole fraction):</strong> $K_p = K_x(P_{\\text{total}})^{\\Delta n}$.</p><p><strong>Characteristics of Equilibrium Constant:</strong></p><ol><li>Constant at given temperature</li><li>Independent of initial concentrations</li><li>Independent of presence of catalyst</li><li>Changes with temperature</li><li>Reverse reaction: $K_{\\text{reverse}} = 1/K_{\\text{forward}}$</li><li>Adding reactions: $K_{\\text{net}} = K_1 \\times K_2$</li></ol><p><strong>Magnitude of $K$:</strong></p><ul><li>$K > 10^3$: forward strongly favored (products dominate)</li><li>$K < 10^{-3}$: backward favored (reactants dominate)</li><li>$10^{-3} < K < 10^3$: appreciable concentrations of both</li></ul><p><strong>Reaction Quotient ($Q$):</strong> Same expression as $K$, but with current (not equilibrium) concentrations.</p><ul><li>$Q < K$: forward shifts (toward products)</li><li>$Q > K$: backward shifts (toward reactants)</li><li>$Q = K$: at equilibrium</li></ul><p><strong>Relation with Free Energy:</strong> $$\\Delta G^\\ominus = -RT\\ln K = -2.303RT\\log K$$ $$\\Delta G = \\Delta G^\\ominus + RT\\ln Q$$</p><p><strong>Degree of dissociation ($\\alpha$):</strong> Fraction of molecules dissociating.</p><p>For: $PCl_5 \\rightleftharpoons PCl_3 + Cl_2$, starting with $n$ moles in volume $V$: $$K_c = \\frac{n\\alpha^2}{V(1-\\alpha)} \\quad \\text{(if } \\alpha \\ll 1 \\text{: } K_c \\approx \\alpha^2 \\cdot n/V)$$</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>For $N_2 + 3H_2 \\rightleftharpoons 2NH_3$ at $500$ K, $K_p = 1.44 \\times 10^{-5}$. Find $K_c$. ($R = 0.0821$ L·atm/mol·K)</p>",
+              "solution": "<p>$\\Delta n_g = 2 - 4 = -2$. $$K_p = K_c(RT)^{\\Delta n} \\implies K_c = K_p(RT)^{-\\Delta n} = K_p (RT)^2$$ $$K_c = 1.44 \\times 10^{-5} \\times (0.0821 \\times 500)^2 = 1.44 \\times 10^{-5} \\times 1685 \\approx 0.0243$$</p><p><strong>Final Answer:</strong> $K_c \\approx 0.0243$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>$1$ mol PCl₅ in $1$ L container; $\\alpha = 0.2$. Find $K_c$.</p>",
+              "solution": "<p>$PCl_5 \\rightleftharpoons PCl_3 + Cl_2$. Initial: $1, 0, 0$. At eq: $1-\\alpha = 0.8$, $\\alpha = 0.2$, $\\alpha = 0.2$. $$K_c = \\frac{(0.2)(0.2)}{0.8} = \\frac{0.04}{0.8} = 0.05 \\text{ M}$$</p><p><strong>Final Answer:</strong> $K_c = 0.05$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>At equilibrium:</p>",
+              "options": [
+                "Forward rate > backward",
+                "Backward rate > forward",
+                "Both equal",
+                "Both zero"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$K_p = K_c$ when:</p>",
+              "options": [
+                "$\\Delta n = 0$",
+                "$\\Delta n > 0$",
+                "$\\Delta n < 0$",
+                "$T = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>If $Q < K$, reaction proceeds:</p>",
+              "options": [
+                "Backward",
+                "Forward",
+                "Stops",
+                "Reaches equilibrium without change"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The unit of $K_c$ for $N_2 + 3H_2 \\to 2NH_3$:</p>",
+              "options": [
+                "M",
+                "M⁻¹",
+                "M⁻²",
+                "Dimensionless"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Catalyst changes:</p>",
+              "options": [
+                "Forward rate only",
+                "Backward rate only",
+                "Both rates equally",
+                "Equilibrium constant"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Le Chatelier's Principle and Factors Affecting Equilibrium",
+          "concept": "<p><strong>Le Chatelier's Principle (1884):</strong> If a system in equilibrium is disturbed, it shifts in a direction that minimizes the disturbance.</p><p><strong>Factors:</strong></p><table class=\"md-table\"><thead><tr><th>Change</th><th>Direction of Shift</th></tr></thead><tbody><tr><td>Increase [reactant]</td><td>Forward</td></tr><tr><td>Increase [product]</td><td>Backward</td></tr><tr><td>Increase volume (gases)</td><td>Toward more moles of gas</td></tr><tr><td>Decrease volume (gases)</td><td>Toward fewer moles of gas</td></tr><tr><td>Increase $P$ (gases)</td><td>Toward fewer moles</td></tr><tr><td>Decrease $P$ (gases)</td><td>Toward more moles</td></tr><tr><td>Increase $T$ (exothermic forward)</td><td>Backward</td></tr><tr><td>Increase $T$ (endothermic forward)</td><td>Forward</td></tr></tbody></table><p><strong>Effect of inert gas:</strong></p><ul><li><strong>At constant volume:</strong> No effect on equilibrium ($K$ same)</li><li><strong>At constant pressure:</strong> Effectively increases volume → shifts toward more gas moles</li></ul><p><strong>Effect of temperature:</strong></p><ul><li>Exothermic: $K$ decreases with increasing $T$</li><li>Endothermic: $K$ increases with increasing $T$</li></ul><p><strong>Van't Hoff Equation:</strong> $$\\ln\\left(\\frac{K_2}{K_1}\\right) = \\frac{\\Delta H^\\ominus}{R}\\left(\\frac{1}{T_1} - \\frac{1}{T_2}\\right)$$</p><p><strong>Industrial Applications:</strong></p><table class=\"md-table\"><thead><tr><th>Process</th><th>Reaction</th><th>Conditions</th></tr></thead><tbody><tr><td><strong>Haber's process (NH₃)</strong></td><td>$N_2 + 3H_2 \\rightleftharpoons 2NH_3 + \\text{heat}$</td><td>High $P$, moderate $T$ ($450°$C), Fe catalyst</td></tr><tr><td><strong>Contact process (SO₃)</strong></td><td>$2SO_2 + O_2 \\rightleftharpoons 2SO_3 + \\text{heat}$</td><td>Moderate $T$ ($720$ K), V₂O₅ catalyst</td></tr><tr><td><strong>Ostwald (HNO₃)</strong></td><td>$4NH_3 + 5O_2 \\to 4NO + 6H_2O$</td><td>Pt catalyst</td></tr></tbody></table><p><strong>Catalyst:</strong></p><ul><li>Speeds up forward and reverse reactions equally</li><li>Does NOT shift equilibrium</li><li>Only reduces time to reach equilibrium</li></ul><p><strong>Heterogeneous Equilibrium:</strong> Pure solids and pure liquids don't appear in $K$ expression (their activities = 1). e.g., $CaCO_3(s) \\rightleftharpoons CaO(s) + CO_2(g)$: $K_p = P_{CO_2}$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>For $N_2 + 3H_2 \\rightleftharpoons 2NH_3 + Q$, predict effect of: (a) increasing pressure, (b) increasing temperature, (c) adding more N₂.</p>",
+              "solution": "<p>(a) Increase $P$: shifts toward fewer gas moles. Left side: 4 mol, right: 2 mol. → <strong>forward (more NH₃)</strong>. (b) Increase $T$: exothermic forward, so shifts backward (less NH₃). Lower $K$. (c) Add N₂: increases reactant; shifts forward (more NH₃).</p><p><strong>Final Answer:</strong> (a) Forward, (b) Backward, (c) Forward.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>$K_1 = 4 \\times 10^{-2}$ at $300$ K, $K_2$ at $400$ K. $\\Delta H = +20$ kJ/mol. Find $K_2$ using van't Hoff.</p>",
+              "solution": "<p>$$\\ln(K_2/K_1) = (20000/8.314)(1/300 - 1/400) = 2406 \\times 0.000833 = 2.0$$ $K_2 = K_1 \\cdot e^{2.0} = 4 \\times 10^{-2} \\times 7.39 \\approx 0.295$.</p><p><strong>Final Answer:</strong> $K_2 \\approx 0.30$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Le Chatelier's principle states:</p>",
+              "options": [
+                "System at equilibrium adjusts to restore equilibrium",
+                "Catalyst shifts equilibrium",
+                "Increasing $T$ always favors backward",
+                "Volume change has no effect"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>For exothermic reaction, increasing $T$:</p>",
+              "options": [
+                "Increases $K$",
+                "Decreases $K$",
+                "Doesn't affect $K$",
+                "Doubles rate"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Effect of catalyst on equilibrium constant:</p>",
+              "options": [
+                "Increases",
+                "Decreases",
+                "No effect",
+                "Removes equilibrium"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In Haber process, high pressure favors:</p>",
+              "options": [
+                "NH₃ formation",
+                "N₂ formation",
+                "H₂ formation",
+                "Equally all"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Effect of inert gas at constant pressure:</p>",
+              "options": [
+                "No effect",
+                "Shifts toward more moles",
+                "Shifts toward fewer moles",
+                "Removes equilibrium"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Ionic Equilibrium",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Acid-Base Concepts, pH, Buffers",
+          "concept": "<p><strong>Theories of Acids and Bases:</strong></p><table class=\"md-table\"><thead><tr><th>Theory</th><th>Acid</th><th>Base</th></tr></thead><tbody><tr><td><strong>Arrhenius</strong></td><td>Releases H⁺ in water</td><td>Releases OH⁻ in water</td></tr><tr><td><strong>Bronsted-Lowry</strong></td><td>Proton donor</td><td>Proton acceptor</td></tr><tr><td><strong>Lewis</strong></td><td>Electron pair acceptor</td><td>Electron pair donor</td></tr></tbody></table><p><strong>Conjugate Pairs:</strong> Acid → its conjugate base after losing H⁺. e.g., HCl/Cl⁻, H₂O/OH⁻, NH₃/NH₄⁺.</p><p><strong>Strong vs Weak:</strong></p><ul><li>Strong acid (HCl, HBr, HI, HNO₃, H₂SO₄, HClO₄): fully dissociates</li><li>Weak acid (CH₃COOH, HCN, HF): partial dissociation; Ka small</li><li>Strong base (NaOH, KOH, LiOH, group I/II hydroxides): fully dissociates</li><li>Weak base (NH₃, RNH₂): partial; Kb small</li></ul><p><strong>Auto-ionization of Water:</strong> $H_2O \\rightleftharpoons H^+ + OH^-$, $K_w = [H^+][OH^-] = 10^{-14}$ at $25°$C.</p><p><strong>pH Scale:</strong> $$pH = -\\log[H^+], \\quad pOH = -\\log[OH^-], \\quad pH + pOH = 14 \\text{ at } 25°C$$</p><ul><li>Acidic: pH < 7</li><li>Neutral: pH = 7</li><li>Basic: pH > 7</li></ul><p><strong>Ostwald's Dilution Law</strong> (for weak electrolytes): $K_a = c\\alpha^2/(1-\\alpha)$. If $\\alpha \\ll 1$: $K_a \\approx c\\alpha^2$, so $\\alpha = \\sqrt{K_a/c}$.</p><p>For weak acid: $[H^+] = \\sqrt{K_aC}$, $pH = -(1/2)(\\log K_a + \\log C) = (1/2)(pK_a - \\log C)$.</p><p>For weak base: $pOH = (1/2)(pK_b - \\log C)$.</p><p><strong>Buffer Solution:</strong> Resists change in pH on addition of small amounts of acid/base.</p><table class=\"md-table\"><thead><tr><th>Type</th><th>Composition</th><th>Example</th></tr></thead><tbody><tr><td><strong>Acidic buffer</strong></td><td>Weak acid + salt of its conjugate base</td><td>CH₃COOH + CH₃COONa</td></tr><tr><td><strong>Basic buffer</strong></td><td>Weak base + salt of its conjugate acid</td><td>NH₄OH + NH₄Cl</td></tr></tbody></table><p><strong>Henderson-Hasselbalch Equation:</strong> $$pH = pK_a + \\log\\frac{[\\text{salt}]}{[\\text{acid}]} \\text{ (acidic buffer)}$$ $$pOH = pK_b + \\log\\frac{[\\text{salt}]}{[\\text{base}]} \\text{ (basic buffer)}$$</p><p><strong>Buffer Capacity:</strong> Maximum when $[\\text{salt}] = [\\text{acid}]$ (or base), giving pH = pKa.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>$0.01$ M acetic acid has $K_a = 1.8 \\times 10^{-5}$. Find pH.</p>",
+              "solution": "<p>$[H^+] = \\sqrt{K_a C} = \\sqrt{1.8 \\times 10^{-5} \\times 0.01} = \\sqrt{1.8 \\times 10^{-7}} \\approx 4.24 \\times 10^{-4}$ M. $pH = -\\log(4.24 \\times 10^{-4}) \\approx 3.37$.</p><p><strong>Final Answer:</strong> $pH \\approx 3.37$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Buffer: $0.1$ M CH₃COOH + $0.2$ M CH₃COONa. $pK_a = 4.74$. Find pH.</p>",
+              "solution": "<p>$$pH = pK_a + \\log\\frac{[\\text{salt}]}{[\\text{acid}]} = 4.74 + \\log(0.2/0.1) = 4.74 + 0.30 = 5.04$$</p><p><strong>Final Answer:</strong> $pH = 5.04$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>pH of $0.01$ M HCl:</p>",
+              "options": [
+                "$2$",
+                "$0.01$",
+                "$12$",
+                "$1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Conjugate base of NH₃:</p>",
+              "options": [
+                "NH₂⁻",
+                "NH₄⁺",
+                "OH⁻",
+                "H⁺"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Buffer of weak acid and its salt is called:</p>",
+              "options": [
+                "Basic",
+                "Acidic",
+                "Neutral",
+                "Universal"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>pH range of acidic buffer:</p>",
+              "options": [
+                "$0-2$",
+                "$pK_a \\pm 1$",
+                "$7-14$",
+                "Variable"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A strong acid completely dissociates because:</p>",
+              "options": [
+                "Equilibrium lies fully to right",
+                "$K_a$ is very large",
+                "Both",
+                "Acid has strong bond"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Solubility Product, Common Ion Effect, Hydrolysis",
+          "concept": "<p><strong>Solubility Product ($K_{sp}$):</strong> Ionic product of saturated solution of sparingly soluble salt.</p><p>For: $A_xB_y(s) \\rightleftharpoons xA^{p+}(aq) + yB^{q-}(aq)$ $$K_{sp} = [A^{p+}]^x[B^{q-}]^y$$</p><p><strong>Relation with solubility $s$ (mol/L):</strong></p><table class=\"md-table\"><thead><tr><th>Salt type</th><th>$K_{sp}$</th><th>Example</th></tr></thead><tbody><tr><td>AB (e.g., AgCl)</td><td>$K_{sp} = s^2$</td><td>$s = \\sqrt{K_{sp}}$</td></tr><tr><td>AB₂ (e.g., CaF₂)</td><td>$K_{sp} = 4s^3$</td><td>$s = (K_{sp}/4)^{1/3}$</td></tr><tr><td>A₂B (e.g., Ag₂CrO₄)</td><td>$K_{sp} = 4s^3$</td><td>$s = (K_{sp}/4)^{1/3}$</td></tr><tr><td>A₂B₃ (e.g., Fe(OH)₃ → Fe³⁺ + 3OH⁻)</td><td>$K_{sp} = 27s^4$</td><td>(for $AB_3$)</td></tr></tbody></table><p><strong>Ionic Product (Q):</strong> Calculated like $K_{sp}$ but with current concentrations.</p><ul><li>$Q < K_{sp}$: unsaturated; more solid dissolves</li><li>$Q = K_{sp}$: saturated (equilibrium)</li><li>$Q > K_{sp}$: supersaturated; precipitation occurs</li></ul><p><strong>Common Ion Effect:</strong> Solubility of a salt is reduced by the presence of a common ion. e.g., AgCl solubility decreases in NaCl solution.</p><p><strong>Application:</strong> Salt precipitation, qualitative analysis (group separation in salt analysis).</p><p><strong>Salt Hydrolysis:</strong> Ions of dissolved salt react with water, changing pH.</p><table class=\"md-table\"><thead><tr><th>Salt type</th><th>Example</th><th>pH of solution</th></tr></thead><tbody><tr><td>Strong acid + Strong base</td><td>NaCl</td><td>Neutral (7)</td></tr><tr><td>Strong acid + Weak base</td><td>NH₄Cl</td><td>Acidic (< 7)</td></tr><tr><td>Weak acid + Strong base</td><td>CH₃COONa</td><td>Basic (> 7)</td></tr><tr><td>Weak acid + Weak base</td><td>CH₃COONH₄</td><td>Depends on $K_a$ and $K_b$</td></tr></tbody></table><p>For salt of weak acid + strong base (e.g., CH₃COONa): $$K_h = K_w/K_a, \\quad pH = 7 + (1/2)(pK_a + \\log C)$$</p><p>For salt of weak base + strong acid (e.g., NH₄Cl): $$K_h = K_w/K_b, \\quad pH = 7 - (1/2)(pK_b + \\log C)$$</p><p>For salt of weak acid + weak base: $pH = 7 + (1/2)(pK_a - pK_b)$ (independent of concentration to first order).</p><p><strong>Degree of hydrolysis ($h$):</strong> Fraction of salt that hydrolyzes. $h = \\sqrt{K_h/C}$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Solubility of AgCl is $1.3 \\times 10^{-5}$ M. Find $K_{sp}$.</p>",
+              "solution": "<p>$$K_{sp} = s^2 = (1.3 \\times 10^{-5})^2 = 1.69 \\times 10^{-10}$$</p><p><strong>Final Answer:</strong> $K_{sp} = 1.69 \\times 10^{-10}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>$0.1$ M CH₃COONa solution; $pK_a$ of acetic acid = $4.74$. Find pH.</p>",
+              "solution": "<p>$$pH = 7 + (1/2)(pK_a + \\log C) = 7 + (1/2)(4.74 + \\log 0.1)$$ $$= 7 + (1/2)(4.74 - 1) = 7 + 1.87 = 8.87$$</p><p><strong>Final Answer:</strong> $pH = 8.87$ (basic).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Solubility product of $CaF_2$ in terms of solubility $s$:</p>",
+              "options": [
+                "$s^2$",
+                "$4s^3$",
+                "$s^3$",
+                "$s^2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Common ion effect:</p>",
+              "options": [
+                "Increases solubility",
+                "Decreases solubility",
+                "No effect",
+                "Removes precipitate"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Salt of strong acid and weak base in water:</p>",
+              "options": [
+                "Acidic",
+                "Basic",
+                "Neutral",
+                "Depends on T"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>If $Q > K_{sp}$:</p>",
+              "options": [
+                "More dissolves",
+                "Precipitation",
+                "Equilibrium",
+                "No effect"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The hydrolysis constant of CH₃COONa:</p>",
+              "options": [
+                "$K_a$",
+                "$K_b$",
+                "$K_w/K_a$",
+                "$K_w/K_b$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-chem-equilibrium-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>$K_c$ for $H_2 + I_2 \\rightleftharpoons 2HI$ at $700$ K is $50$. $K_c$ for reverse reaction:</p>",
+              "options": [
+                "$50$",
+                "$0.02$",
+                "$-50$",
+                "$100$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$K_p$ and $K_c$ relation:</p>",
+              "options": [
+                "$K_p = K_c$",
+                "$K_p = K_c(RT)^{\\Delta n}$",
+                "$K_p = K_c \\cdot R$",
+                "$K_p = K_c/T$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Catalyst:</p>",
+              "options": [
+                "Changes $K$",
+                "Doesn't change $K$, increases rate",
+                "Changes equilibrium position",
+                "Provides additional reactant"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>pH of $10^{-8}$ M HCl is approximately:</p>",
+              "options": [
+                "$8$",
+                "$7$ (slightly less)",
+                "$6$",
+                "$1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Buffer capacity is maximum when:</p>",
+              "options": [
+                "$[\\text{salt}] >> [\\text{acid}]$",
+                "$[\\text{salt}] = [\\text{acid}]$",
+                "Acid is fully dissociated",
+                "pH = 7"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Solubility of $Ag_2CrO_4$ in water is $s$. $K_{sp}$:</p>",
+              "options": [
+                "$s^2$",
+                "$s^3$",
+                "$4s^3$",
+                "$s^4$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>pH of $0.001$ M NaOH:</p>",
+              "options": [
+                "$11$",
+                "$3$",
+                "$7$",
+                "$13$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Increasing temperature for exothermic reaction:</p>",
+              "options": [
+                "Increases $K$",
+                "Decreases $K$",
+                "No change",
+                "Doubles $K$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Salt of weak acid and weak base in solution has pH:</p>",
+              "options": [
+                "Always 7",
+                "Depends on $K_a$ and $K_b$",
+                "Always > 7",
+                "Always < 7"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Among the following, weakest acid:</p>",
+              "options": [
+                "HCl",
+                "HBr",
+                "HF",
+                "HI"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>For $N_2 + 3H_2 \\rightleftharpoons 2NH_3$, $\\Delta n_g = $ (sign included as integer):</p>",
+              "answer": "-2",
+              "explanation": ""
+            },
+            {
+              "q": "<p>pH of $10^{-3}$ M HCl:</p>",
+              "answer": "3",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of pH units pH changes from $10^{-2}$ M to $10^{-5}$ M HCl:</p>",
+              "answer": "3",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Common ion effect reduces the solubility of a sparingly soluble salt. <strong>Reason (R):</strong> The product of ionic concentrations is restricted to $K_{sp}$; addition of common ion shifts equilibrium backward.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> A catalyst does not alter the equilibrium constant. <strong>Reason (R):</strong> Catalyst lowers activation energy of both forward and reverse reactions equally.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

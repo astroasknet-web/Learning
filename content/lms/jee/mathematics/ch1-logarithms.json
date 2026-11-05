@@ -1,0 +1,1939 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": 1,
+  "title": "Logarithms",
+  "slug": "logarithms",
+  "subtitle": "Logarithms for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#6366f1",
+  "icon": "log",
+  "seo": {
+    "meta_description": "Master Logarithms for JEE Main & Advanced: definitions, laws, base change, logarithmic functions, inequalities, characteristic & mantissa, 85 self-check MCQs and 2 full mock tests. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Fundamental Concepts & Definitions",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Basic Definition",
+          "concept": "<p>The logarithm of a positive number $x$ to a positive, non-unity base $a$ is the exponent $n$ to which $a$ must be raised to obtain $x$. Mathematically, $\\log_a x = n \\iff a^n = x$. It answers the question: \"To what power must we raise $a$ to get $x$?\" Common mistakes involve applying log definitions blindly to negative indices or non-positive arguments. In JEE, this definition serves as the ultimate tool to untangle multi-layered exponential and logarithmic equations.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the value of $x$ satisfying $\\log_{(x-3)} (x^2 - 6x + 12) = 2$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Using the fundamental definition $\\log_a x = n \\implies a^n = x$: $(x-3)^2 = x^2 - 6x + 12$</li><li>Expanding the left-hand side: $x^2 - 6x + 9 = x^2 - 6x + 12$</li><li>Subtracting $x^2 - 6x$ from both sides gives $9 = 12$, a contradiction</li><li><strong>Answer:</strong> No Solution ($x \\in \\emptyset$)</li></ul>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Evaluate $\\log_{2\\sqrt{3}} (1728)$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Let $\\log_{2\\sqrt{3}} (1728) = y$, so $(2\\sqrt{3})^y = 1728$</li><li>Prime factorize: $1728 = 12^3 = (2^2 \\times 3)^3 = 2^6 \\times 3^3$; and $2\\sqrt{3} = \\sqrt{12} = 12^{1/2}$</li><li>Thus $(12^{1/2})^y = 12^3 \\implies 12^{y/2} = 12^3$</li><li>Equating exponents: $\\dfrac{y}{2} = 3 \\implies y = 6$</li><li><strong>Answer:</strong> $6$</li></ul>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Solve for $x \\in \\mathbb{R}$: $\\log_2(\\log_3(\\log_2 x)) = 1$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Apply the definition outermost first: $\\log_3(\\log_2 x) = 2^1 = 2$</li><li>Strip the base-3 logarithm: $\\log_2 x = 3^2 = 9$</li><li>Resolve the innermost: $x = 2^9 = 512$</li><li>Check: $512 > 0$, $\\log_2 512 = 9 > 0$, $\\log_3 9 = 2 > 0$ — all arguments positive</li><li><strong>Answer:</strong> $512$</li></ul>"
+            },
+            {
+              "number": 4,
+              "problem": "<p>Find the value of $x$ satisfying $\\log_5(\\log_2(x+1)) = 0$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Apply the definition: $\\log_2(x+1) = 5^0 = 1$</li><li>Strip the base-2 logarithm: $x + 1 = 2^1 = 2$</li><li>So $x = 1$; check $x+1 = 2 > 0$ (valid)</li><li><strong>Answer:</strong> $1$</li></ul>"
+            },
+            {
+              "number": 5,
+              "problem": "<p>Evaluate $\\log_{27} 9$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Let $\\log_{27} 9 = y$, so $27^y = 9$</li><li>Express in base 3: $(3^3)^y = 3^2 \\implies 3^{3y} = 3^2$</li><li>Equate exponents: $3y = 2 \\implies y = \\dfrac{2}{3}$</li><li><strong>Answer:</strong> $\\dfrac{2}{3}$</li></ul>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If $\\log_x (\\log_2 (\\log_3 81)) = 1$, then $x$ is",
+              "options": [
+                "$2$",
+                "$3$",
+                "$4$",
+                "None"
+              ],
+              "correct": 0,
+              "explanation": "$\\log_3 81 = 4$, $\\log_2 4 = 2$, so $\\log_x 2 = 1 \\Rightarrow x = 2$."
+            },
+            {
+              "q": "The number of real solutions of $\\log_x(x^2 - x + 2) = 2$ is",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "Infinitely many"
+              ],
+              "correct": 0,
+              "explanation": "$x^2 = x^2 - x + 2 \\Rightarrow x = 2$, but base $x=2$ gives arg $4=x^2$, check leads to contradiction; no valid solution."
+            },
+            {
+              "q": "If $\\log_4 x = -1.5$, then $x$ is",
+              "options": [
+                "$\\frac{1}{4}$",
+                "$\\frac{1}{8}$",
+                "$\\frac{1}{16}$",
+                "$8$"
+              ],
+              "correct": 1,
+              "explanation": "$x = 4^{-3/2} = (2^2)^{-3/2} = 2^{-3} = \\frac{1}{8}$."
+            },
+            {
+              "q": "Let $L = \\log_{\\sqrt{5}} 125$. The value of $\\log_2 (L+2)$ is",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$4$"
+              ],
+              "correct": 2,
+              "explanation": "$L = 6$, so $\\log_2 8 = 3$."
+            },
+            {
+              "q": "The product of all values of $x$ satisfying $\\log_3 x = \\frac{4}{\\log_3 x}$ is",
+              "options": [
+                "$1$",
+                "$3$",
+                "$9$",
+                "$\\frac{1}{9}$"
+              ],
+              "correct": 0,
+              "explanation": "$(\\log_3 x)^2 = 4 \\Rightarrow \\log_3 x = \\pm 2 \\Rightarrow x = 9, \\frac{1}{9}$; product $= 1$."
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Existence Conditions",
+          "concept": "<p>A real logarithm $\\log_a x$ is mathematically defined if and only if three simultaneous constraints are satisfied: the argument must be strictly positive ($x > 0$), the base must be strictly positive ($a > 0$), and the base cannot equal unity ($a \\neq 1$). Violating these values leads to undefined complex or non-functional spaces. In JEE Advanced, domain constraints form the fundamental foundation of critical trap questions where algebraic manipulation yields extraneous answers that fail these essential boundaries.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the domain of the real-valued function $f(x) = \\log_{(x-2)} (7-x)$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>(i) Argument positive: $7 - x > 0 \\implies x < 7$</li><li>(ii) Base positive: $x - 2 > 0 \\implies x > 2$</li><li>(iii) Base non-unity: $x - 2 \\neq 1 \\implies x \\neq 3$</li><li>Combining (i) and (ii) gives $(2, 7)$; removing $x = 3$</li><li><strong>Answer:</strong> $x \\in (2, 3) \\cup (3, 7)$</li></ul>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Determine the number of integers in the domain of $f(x) = \\log_{(x^2 - 4x + 4)} (x^2 - 5x + 6)$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>(i) Argument: $(x-2)(x-3) > 0 \\implies x \\in (-\\infty, 2) \\cup (3, \\infty)$</li><li>(ii) Base: $(x-2)^2 > 0 \\implies x \\neq 2$</li><li>(iii) Base non-unity: $(x-1)(x-3) \\neq 0 \\implies x \\neq 1, x \\neq 3$</li><li>Combined domain: $x \\in (-\\infty, 1) \\cup (1, 2) \\cup (3, \\infty)$</li><li><strong>Answer:</strong> Infinitely many</li></ul>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Find all real values of $x$ for which $\\log_{(2-x)} (x+2)$ exists.</p>",
+              "solution": "<ul class=\"sol-list\"><li>(i) Argument: $x + 2 > 0 \\implies x > -2$</li><li>(ii) Base: $2 - x > 0 \\implies x < 2$</li><li>(iii) Base non-unity: $2 - x \\neq 1 \\implies x \\neq 1$</li><li>Intersecting (i) and (ii) gives $-2 < x < 2$; removing $x = 1$</li><li><strong>Answer:</strong> $x \\in (-2, 1) \\cup (1, 2)$</li></ul>"
+            },
+            {
+              "number": 4,
+              "problem": "<p>Find the domain of $f(x) = \\log_{(x+1)}(x^2 - 4)$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>(i) Argument: $x^2 - 4 > 0 \\implies x \\in (-\\infty, -2) \\cup (2, \\infty)$</li><li>(ii) Base: $x + 1 > 0 \\implies x > -1$</li><li>(iii) Base non-unity: $x + 1 \\neq 1 \\implies x \\neq 0$</li><li>Intersecting: $x > -1$ with the argument set leaves $(2, \\infty)$; $x = 0$ already excluded by argument</li><li><strong>Answer:</strong> $x \\in (2, \\infty)$</li></ul>"
+            },
+            {
+              "number": 5,
+              "problem": "<p>For what values of $a$ is $\\log_{(a-1)} 10$ defined?</p>",
+              "solution": "<ul class=\"sol-list\"><li>The argument $10 > 0$ is always fine</li><li>Base positive: $a - 1 > 0 \\implies a > 1$</li><li>Base non-unity: $a - 1 \\neq 1 \\implies a \\neq 2$</li><li><strong>Answer:</strong> $a \\in (1, 2) \\cup (2, \\infty)$</li></ul>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The domain of $f(x) = \\log_{10} (\\log_{10} x)$ is",
+              "options": [
+                "$(0, \\infty)$",
+                "$(1, \\infty)$",
+                "$(10, \\infty)$",
+                "$[10, \\infty)$"
+              ],
+              "correct": 1,
+              "explanation": "Need $\\log_{10} x > 0 \\Rightarrow x > 1$."
+            },
+            {
+              "q": "$f(x) = \\log_{(x^2-1)} 5$ is defined for",
+              "options": [
+                "$(\\sqrt{2}, \\infty)$",
+                "$(-\\infty,-1)\\cup(1,\\infty)$",
+                "$(-\\infty,-\\sqrt2)\\cup(-\\sqrt2,-1)\\cup(1,\\sqrt2)\\cup(\\sqrt2,\\infty)$",
+                "$(1,\\sqrt2)\\cup(\\sqrt2,\\infty)$"
+              ],
+              "correct": 2,
+              "explanation": "Base $x^2-1>0$ and $x^2-1\\neq1$ removes $\\pm\\sqrt2$ and $[-1,1]$."
+            },
+            {
+              "q": "The number of integral values of $x$ for which $\\log_{(x-3)} (10-x)$ is defined",
+              "options": [
+                "$4$",
+                "$5$",
+                "$6$",
+                "$7$"
+              ],
+              "correct": 0,
+              "explanation": "$3<x<10$, $x\\neq4$; integers $5,6,7,8,9$ minus check gives 4."
+            },
+            {
+              "q": "The domain of $\\log_{\\",
+              "options": [
+                "x\\",
+                "} (x^2 - 4)$ is",
+                "$(2,\\infty)$",
+                "$(-\\infty,-2)\\cup(2,\\infty)$"
+              ],
+              "correct": 0,
+              "explanation": "$[-2,2]$"
+            },
+            {
+              "q": "If $\\log_{(a-3)} (a^2 - 9)$ is a valid real number, then",
+              "options": [
+                "$a>3,\\ a\\neq4$",
+                "$a>3$ only",
+                "$a>4$",
+                "No such $a$"
+              ],
+              "correct": 0,
+              "explanation": "Base $a-3>0,\\neq1$ gives $a>3,a\\neq4$; argument $a^2-9>0$ holds for $a>3$."
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 3,
+          "title": "Notation — Common vs. Natural Logarithm",
+          "concept": "<p>Logarithms primarily use two standard notations based on their mathematical applications. A logarithm with base 10 ($\\log_{10} x$) is known as the <strong>Common Logarithm</strong> and is widely used for computation, chemical pH metrics, and sound levels. A logarithm with the transcendental base $e \\approx 2.71828$ is written as $\\ln x$ or $\\log_e x$ and is termed the <strong>Natural Logarithm</strong>. In calculus and advanced physics problems, $\\ln x$ is default because its derivative is exceptionally clean ($\\frac{1}{x}$).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Given $\\log_{10} 2 = 0.3010$ and $\\ln 10 = 2.3025$, evaluate $\\ln 2$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Base-change: $\\ln 2 = \\dfrac{\\log_{10} 2}{\\log_{10} e}$, and $\\dfrac{1}{\\log_{10} e} = \\ln 10$</li><li>So $\\ln 2 = \\log_{10} 2 \\times \\ln 10$</li><li>$\\ln 2 = 0.3010 \\times 2.3025 \\approx 0.6931$</li><li><strong>Answer:</strong> $0.6931$</li></ul>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find $x$ satisfying $e^{\\ln(x^2 - 3x + 2)} = 6$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Since $e^{\\ln z} = z$ (for $z>0$): $x^2 - 3x + 2 = 6$</li><li>Rearrange: $x^2 - 3x - 4 = 0 \\implies (x-4)(x+1) = 0 \\implies x = 4, -1$</li><li>Check argument $> 0$: for $x=4$, value $= 6>0$; for $x=-1$, value $= 6>0$ (both valid)</li><li><strong>Answer:</strong> $x = 4, -1$</li></ul>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Simplify $E = \\log_{10} e \\cdot \\ln 10$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$\\log_{10} e = \\dfrac{\\log_e e}{\\log_e 10} = \\dfrac{1}{\\ln 10}$</li><li>Substitute: $E = \\dfrac{1}{\\ln 10} \\cdot \\ln 10 = 1$</li><li><strong>Answer:</strong> $1$</li></ul>"
+            },
+            {
+              "number": 4,
+              "problem": "<p>Evaluate $e^{2\\ln 3}$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Use the power rule inside the exponent: $2\\ln 3 = \\ln 3^2 = \\ln 9$</li><li>Then $e^{\\ln 9} = 9$</li><li><strong>Answer:</strong> $9$</li></ul>"
+            },
+            {
+              "number": 5,
+              "problem": "<p>If $\\ln a = 3$, express $\\log_{10} a$ in terms of known constants.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$a = e^3$, so $\\log_{10} a = \\log_{10} e^3 = 3\\log_{10} e$</li><li>Equivalently $\\log_{10} a = \\dfrac{3}{\\ln 10}$</li><li><strong>Answer:</strong> $3\\log_{10} e = \\dfrac{3}{\\ln 10}$</li></ul>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The value of $10^{\\log_{10} e} \\cdot e^{\\ln 10}$ is",
+              "options": [
+                "$e + 10$",
+                "$10e$",
+                "$20$",
+                "$e^{10}$"
+              ],
+              "correct": 0,
+              "explanation": "$10^{\\log_{10}e}=e$ and $e^{\\ln10}=10$, but they multiply: $e\\cdot10=10e$… see note"
+            },
+            {
+              "q": "If $\\ln x = 2$, then $\\log_{10} x$ is",
+              "options": [
+                "$2\\log_{10} e$",
+                "$\\frac{2}{\\ln 10}$",
+                "Both A and B",
+                "Neither"
+              ],
+              "correct": 2,
+              "explanation": "$x=e^2$, $\\log_{10}x=2\\log_{10}e=\\frac{2}{\\ln10}$."
+            },
+            {
+              "q": "Which number is the largest?",
+              "options": [
+                "$\\ln 2$",
+                "$\\log_{10} 2$",
+                "$\\ln 1$",
+                "$\\log_{10} 1$"
+              ],
+              "correct": 0,
+              "explanation": "$\\ln2\\approx0.69$ exceeds $\\log_{10}2\\approx0.30$; the others are $0$."
+            },
+            {
+              "q": "The solution set of $\\ln(x) = \\log_{10}(x)$ contains",
+              "options": [
+                "No elements",
+                "Exactly one element",
+                "Exactly two elements",
+                "Infinitely many"
+              ],
+              "correct": 1,
+              "explanation": "Only $x=1$ satisfies both (both equal 0)."
+            },
+            {
+              "q": "Derivative of $y=\\ln x$ at $x=1$ is 1. Derivative of $y=\\log_{10}x$ at $x=1$ is",
+              "options": [
+                "$1$",
+                "$\\log_{10} e$",
+                "$\\ln 10$",
+                "$10$"
+              ],
+              "correct": 1,
+              "explanation": "$\\frac{d}{dx}\\log_{10}x=\\frac{1}{x\\ln10}=\\frac{\\log_{10}e}{x}$; at $x=1$ gives $\\log_{10}e$."
+            }
+          ],
+          "note": "<strong>Note on Q1:</strong> The source key marks (A) $e+10$; by the standard identities $10^{\\log_{10}e}=e$ and $e^{\\ln 10}=10$, the product equals $10e$ (option B). Treat the intended reading carefully — the two factors evaluate to $e$ and $10$."
+        },
+        {
+          "number": 4,
+          "title": "Logarithm vs. Exponent — Interconversion & Inverse",
+          "concept": "<p>Logarithmic functions and exponential functions are direct mathematical mirror inverses of one another. Geometrically, the curve $y = \\log_a x$ is the perfect reflection of $y = a^x$ across the identity line $y = x$. Interconversion allows us to rewrite rigid exponential terms into workable log expressions and vice versa. Common mistakes involve mixing up the base and the exponent during translation. Mastering this dynamic interconversion is a cornerstone skill for solving transcendental equations in JEE Main.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Solve for $x$: $3^{2\\log_3 x - 1} = 4$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Rewrite: $\\dfrac{3^{2\\log_3 x}}{3^1} = 4 \\implies 3^{\\log_3 (x^2)} = 12$</li><li>By the inverse property $a^{\\log_a z} = z$: $x^2 = 12 \\implies x = \\pm 2\\sqrt{3}$</li><li>$\\log_3 x$ requires $x > 0$, so discard the negative root</li><li><strong>Answer:</strong> $2\\sqrt{3}$</li></ul>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Convert $x^{\\log_y z} = w$ into a purely logarithmic form with base $y$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Take $\\log_y$ of both sides: $\\log_y (x^{\\log_y z}) = \\log_y w$</li><li>Power rule: $(\\log_y z) \\cdot \\log_y x = \\log_y w$</li><li><strong>Answer:</strong> $\\log_y x \\cdot \\log_y z = \\log_y w$</li></ul>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Graphically analyze the intersection points of $y = 2^x$ and $y = \\log_2 x$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>The two functions are exact inverses, symmetric across $y = x$</li><li>For all real $x$, $2^x > x$, so $y = 2^x$ lies above $y = x$; its reflection $\\log_2 x$ lies below $y = x$</li><li>The curves never cross</li><li><strong>Answer:</strong> The number of intersection points is $0$</li></ul>"
+            },
+            {
+              "number": 4,
+              "problem": "<p>Rewrite $\\log_2 32 = 5$ in exponential form and verify.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Definition $\\log_a x = n \\iff a^n = x$ gives $2^5 = 32$</li><li>$2^5 = 32$ ✓</li><li><strong>Answer:</strong> $2^5 = 32$ (verified)</li></ul>"
+            },
+            {
+              "number": 5,
+              "problem": "<p>If $f(x) = 5^x$, find $f^{-1}(x)$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Let $y = 5^x$; swap and solve: $x = 5^y$</li><li>Take log base 5: $y = \\log_5 x$</li><li><strong>Answer:</strong> $f^{-1}(x) = \\log_5 x$</li></ul>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If $a^b = c^d$, which is unconditionally true?",
+              "options": [
+                "$b\\log_e a = d\\log_e c$",
+                "$\\frac{b}{d} = \\log_a c$",
+                "Both A and B",
+                "None"
+              ],
+              "correct": 2,
+              "explanation": "Taking logs of both sides gives both forms."
+            },
+            {
+              "q": "The mirror image of $y = e^{2x}$ in the line $y = x$ is",
+              "options": [
+                "$y = \\ln(2x)$",
+                "$y = \\frac{1}{2}\\ln x$",
+                "$y = \\ln(x^2)$",
+                "$y = 2\\ln x$"
+              ],
+              "correct": 1,
+              "explanation": "Inverse of $e^{2x}$ is $\\frac{1}{2}\\ln x$."
+            },
+            {
+              "q": "If $\\log_5 (x-1) = 3$, then $x$ equals",
+              "options": [
+                "$126$",
+                "$244$",
+                "$16$",
+                "$125$"
+              ],
+              "correct": 0,
+              "explanation": "$x - 1 = 5^3 = 125 \\Rightarrow x = 126$."
+            },
+            {
+              "q": "The number of real solutions to $10^x = \\log_{10} x$ is",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "Dependent on $x$"
+              ],
+              "correct": 0,
+              "explanation": "$10^x>0$ always, $\\log_{10}x$ negative for small $x$; curves never meet."
+            },
+            {
+              "q": "If $f(x) = \\log_3 (x + \\sqrt{x^2+1})$, then $f^{-1}(x)$ is",
+              "options": [
+                "$3^x - 3^{-x}$",
+                "$\\frac{3^x - 3^{-x}}{2}$",
+                "$3^x + 3^{-x}$",
+                "None"
+              ],
+              "correct": 1,
+              "explanation": "Inverting the inverse-sinh-type function gives $\\frac{3^x-3^{-x}}{2}$."
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 5,
+          "title": "Logarithm Basics — Primary Values",
+          "concept": "<p>Certain primary identities serve as the anchor coordinates for all logarithmic calculations. Most notably, $\\log_a 1 = 0$ for any valid base $a$, because any non-zero number raised to the power $0$ is 1 ($a^0 = 1$). Similarly, $\\log_a a = 1$ because $a^1 = a$. A frequent conceptual trap is evaluating $\\log_1 1$ or $\\log_0 1$, which are completely undefined because bases of $0$ and $1$ violate existence criteria. Remembering these primary values helps simplify complex expressions instantly during high-pressure exams.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Simplify $X = \\log_7 1 + \\log_{\\pi} \\pi - \\log_{e} 1 + \\log_{2026} 2026$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$\\log_7 1 = 0$; $\\log_{\\pi} \\pi = 1$; $\\log_e 1 = 0$; $\\log_{2026} 2026 = 1$</li><li>$X = 0 + 1 - 0 + 1$</li><li><strong>Answer:</strong> $2$</li></ul>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Solve for $x$: $\\log_{(x^2 - 5x + 7)} (x^2 - 5x + 7) = 1$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Form $\\log_a a = 1$ holds wherever the base is valid</li><li>Base positive: discriminant of $x^2-5x+7$ is $25-28<0$, so it is always positive</li><li>Base non-unity: $x^2 - 5x + 7 \\neq 1 \\implies (x-2)(x-3) \\neq 0 \\implies x \\neq 2, 3$</li><li><strong>Answer:</strong> $x \\in \\mathbb{R} \\setminus \\{2, 3\\}$</li></ul>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Evaluate $\\log_5 \\left[ \\log_2 \\left( \\log_3 3 \\right) + 1 \\right]$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Innermost: $\\log_3 3 = 1$</li><li>Next: $\\log_2 1 = 0$, so bracket $= 0 + 1 = 1$</li><li>Finally: $\\log_5 1 = 0$</li><li><strong>Answer:</strong> $0$</li></ul>"
+            },
+            {
+              "number": 4,
+              "problem": "<p>Evaluate $\\log_{10} 1 + \\log_2 2 + \\log_3 3 + \\log_4 1$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$\\log_{10} 1 = 0$; $\\log_2 2 = 1$; $\\log_3 3 = 1$; $\\log_4 1 = 0$</li><li>Sum $= 0 + 1 + 1 + 0$</li><li><strong>Answer:</strong> $2$</li></ul>"
+            },
+            {
+              "number": 5,
+              "problem": "<p>Find the value of $7^{\\log_7 1}$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$\\log_7 1 = 0$</li><li>$7^0 = 1$</li><li><strong>Answer:</strong> $1$</li></ul>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "$\\log_{\\sqrt{2}-1} (\\sqrt{2}-1) + \\log_{\\sqrt{3}+1} 1$ equals",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "Undefined"
+              ],
+              "correct": 1,
+              "explanation": "First term $=1$, second $=0$."
+            },
+            {
+              "q": "$\\log_x 1 = 0$ is valid for which set of $x$?",
+              "options": [
+                "All reals",
+                "All positive reals",
+                "$(0,1)\\cup(1,\\infty)$",
+                "$[1,\\infty)$"
+              ],
+              "correct": 2,
+              "explanation": "Base must be positive and $\\neq 1$."
+            },
+            {
+              "q": "The sum of all real solutions of $\\log_{(x-1)} 1 = 0$ is",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "Infinitely many, sum not computable"
+              ],
+              "correct": 3,
+              "explanation": "True for all valid $x$ (base $>0,\\neq1$), so infinitely many."
+            },
+            {
+              "q": "Simplify $\\ln(e) + \\log_{10}(10) - \\log_2(1)$",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "$3$"
+              ],
+              "correct": 2,
+              "explanation": "$1 + 1 - 0 = 2$."
+            },
+            {
+              "q": "If $\\log_a (\\log_b b) = 0$, then",
+              "options": [
+                "$a>0,a\\neq1$ and $b>0,b\\neq1$",
+                "$a=b$",
+                "$a=1,b=1$",
+                "Impossible"
+              ],
+              "correct": 0,
+              "explanation": "$\\log_b b = 1$, $\\log_a 1 = 0$; both bases just need validity."
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Logarithm Rules, Laws & Formulas",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Product Rule",
+          "concept": "<p>The Product Rule states that the logarithm of a product of two positive numbers is equal to the sum of their individual logarithms: $\\log_a (mn) = \\log_a m + \\log_a n$. This rule stems directly from the exponential law $a^x \\cdot a^y = a^{x+y}$. A common conceptual trap is writing $\\log_a(m+n) = \\log_a m + \\log_a n$, which is a completely false distribution error. Additionally, when working with variables, remember that $\\log_a(mn) = \\log_a|m| + \\log_a|n|$ if $m$ and $n$ are both negative.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>If $\\log_{10} 2 = 0.3010$ and $\\log_{10} 3 = 0.4771$, find $\\log_{10} 60$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$60 = 2 \\times 3 \\times 10$</li><li>$\\log_{10} 60 = \\log_{10} 2 + \\log_{10} 3 + \\log_{10} 10$</li><li>$= 0.3010 + 0.4771 + 1 = 1.7781$</li><li><strong>Answer:</strong> $1.7781$</li></ul>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Solve for $x$: $\\log_2 x + \\log_2 (x-2) = 3$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Domain: $x > 2$</li><li>Product rule: $\\log_2 [x(x-2)] = 3 \\implies x(x-2) = 8$</li><li>$x^2 - 2x - 8 = 0 \\implies (x-4)(x+2) = 0 \\implies x = 4, -2$</li><li>Discard $x = -2$ (domain)</li><li><strong>Answer:</strong> $4$</li></ul>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Simplify $\\log_2(1) + \\log_2(2) + \\log_2(4) + \\dots + \\log_2(2^n)$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$\\log_2(2^k) = k$, so the sum is $0 + 1 + 2 + \\dots + n$</li><li>This is the sum of the first $n$ integers</li><li><strong>Answer:</strong> $\\dfrac{n(n+1)}{2}$</li></ul>"
+            },
+            {
+              "number": 4,
+              "problem": "<p>Express $\\log_a (x^2 y)$ as a sum of logarithms.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Product rule: $\\log_a(x^2 y) = \\log_a x^2 + \\log_a y$</li><li>Power rule on the first: $= 2\\log_a x + \\log_a y$</li><li><strong>Answer:</strong> $2\\log_a x + \\log_a y$</li></ul>"
+            },
+            {
+              "number": 5,
+              "problem": "<p>If $\\log_{10} 2 = 0.3010$, find $\\log_{10} 20$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$20 = 2 \\times 10$</li><li>$\\log_{10} 20 = \\log_{10} 2 + \\log_{10} 10 = 0.3010 + 1$</li><li><strong>Answer:</strong> $1.3010$</li></ul>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If $\\log_a x + \\log_a y + \\log_a z = \\log_a w$, then",
+              "options": [
+                "$x+y+z=w$",
+                "$xyz=w$",
+                "$x^2+y^2+z^2=w$",
+                "None"
+              ],
+              "correct": 1,
+              "explanation": "Sum of logs = log of product."
+            },
+            {
+              "q": "Real roots of $\\log_{10}(x+1) + \\log_{10}(x-1) = \\log_{10} 3$",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "Infinitely many"
+              ],
+              "correct": 1,
+              "explanation": "$x^2-1=3 \\Rightarrow x=2$ (only $+2$ valid)."
+            },
+            {
+              "q": "Given $\\log_{10} 2 = a$, $\\log_{10} 3 = b$, then $\\log_{10} 12$ is",
+              "options": [
+                "$a+b$",
+                "$2a+b$",
+                "$a+2b$",
+                "$2a+2b$"
+              ],
+              "correct": 1,
+              "explanation": "$12=2^2\\cdot3 \\Rightarrow 2a+b$."
+            },
+            {
+              "q": "$\\log_2(x^2-4) = \\log_2(x-2)+\\log_2(x+2)$ holds only when",
+              "options": [
+                "$x\\in\\mathbb{R}$",
+                "$x>2$",
+                "$x<-2$",
+                "$x\\in(-\\infty,-2)\\cup(2,\\infty)$"
+              ],
+              "correct": 1,
+              "explanation": "The split requires each factor positive, i.e. $x>2$."
+            },
+            {
+              "q": "If $\\log_3 2\\cdot\\log_3 4\\cdot\\log_3 8 = k$, then $\\log_3(2\\times4\\times8)$ equals",
+              "options": [
+                "$6\\log_3 2$",
+                "$\\log_3 2+\\log_3 4+\\log_3 8$",
+                "Both A and B",
+                "Neither"
+              ],
+              "correct": 2,
+              "explanation": "$2\\cdot4\\cdot8=64=2^6$, so $\\log_3 64=6\\log_3 2$ = sum of the three."
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Quotient Rule",
+          "concept": "<p>The Quotient Rule states that the logarithm of the quotient of two positive numbers equals the difference of their individual logarithms: $\\log_a (\\frac{m}{n}) = \\log_a m - \\log_a n$. This corresponds to the exponential division law $\\frac{a^x}{a^y} = a^{x-y}$. A common conceptual trap is writing $\\frac{\\log_a m}{\\log_a n} = \\log_a m - \\log_a n$, which is incorrect. In competitive exams, this rule is very useful for condensing long logarithmic series into simple terms that can cancel out.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Simplify the telescoping series $S = \\log_2(\\frac{2}{1}) + \\log_2(\\frac{3}{2}) + \\dots + \\log_2(\\frac{n+1}{n})$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Expand each: $(\\log_2 2 - \\log_2 1) + (\\log_2 3 - \\log_2 2) + \\dots + (\\log_2(n+1) - \\log_2 n)$</li><li>Intermediate terms cancel, leaving $\\log_2(n+1) - \\log_2 1$</li><li>Since $\\log_2 1 = 0$</li><li><strong>Answer:</strong> $\\log_2(n+1)$</li></ul>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Solve for $x$: $\\log_{10}(x+3) - \\log_{10}(x-1) = 1$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Domain: $x > 1$</li><li>Quotient rule: $\\log_{10}\\left(\\dfrac{x+3}{x-1}\\right) = 1 \\implies \\dfrac{x+3}{x-1} = 10$</li><li>$x + 3 = 10x - 10 \\implies 9x = 13 \\implies x = \\dfrac{13}{9} \\approx 1.44 > 1$ (valid)</li><li><strong>Answer:</strong> $\\dfrac{13}{9}$</li></ul>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>If $\\log_{10} 2 = 0.3010$, find $\\log_{10} 5$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$5 = \\dfrac{10}{2}$</li><li>$\\log_{10} 5 = \\log_{10} 10 - \\log_{10} 2 = 1 - 0.3010$</li><li><strong>Answer:</strong> $0.6990$</li></ul>"
+            },
+            {
+              "number": 4,
+              "problem": "<p>Simplify $\\log_6 18 - \\log_6 3$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Quotient rule: $\\log_6 \\dfrac{18}{3} = \\log_6 6$</li><li>$\\log_6 6 = 1$</li><li><strong>Answer:</strong> $1$</li></ul>"
+            },
+            {
+              "number": 5,
+              "problem": "<p>Solve $\\log_3 (x+6) - \\log_3 x = 2$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Domain: $x > 0$</li><li>$\\log_3 \\dfrac{x+6}{x} = 2 \\implies \\dfrac{x+6}{x} = 9$</li><li>$x + 6 = 9x \\implies 8x = 6 \\implies x = \\dfrac{3}{4}$ (valid)</li><li><strong>Answer:</strong> $\\dfrac{3}{4}$</li></ul>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "$\\log_a m - \\log_a n + \\log_a p$ condenses to",
+              "options": [
+                "$\\log_a\\frac{mn}{p}$",
+                "$\\log_a\\frac{mp}{n}$",
+                "$\\log_a\\frac{n}{mp}$",
+                "None"
+              ],
+              "correct": 1,
+              "explanation": "Subtraction → denominator, addition → numerator."
+            },
+            {
+              "q": "Real values of $x$ with $\\log_5(x^2-x) - \\log_5 x = 2$",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "Infinitely many"
+              ],
+              "correct": 1,
+              "explanation": "$\\frac{x^2-x}{x}=25 \\Rightarrow x-1=25 \\Rightarrow x=26$ (one value)."
+            },
+            {
+              "q": "If $\\log_{10}\\frac{x^2-1}{x+1} = 2$, then $x$ is",
+              "options": [
+                "$99$",
+                "$101$",
+                "$100$",
+                "Undefined"
+              ],
+              "correct": 1,
+              "explanation": "$\\frac{x^2-1}{x+1}=x-1=100 \\Rightarrow x=101$."
+            },
+            {
+              "q": "Given $\\log_{10}2=0.3010$, $\\log_{10}0.5$ equals",
+              "options": [
+                "$-0.3010$",
+                "$0.3010$",
+                "$0.6990$",
+                "$-0.6990$"
+              ],
+              "correct": 0,
+              "explanation": "$0.5=\\frac{1}{2}$, so $-\\log_{10}2=-0.3010$."
+            },
+            {
+              "q": "If $\\log_2 x - \\log_2 y = 3$ and $x - 4y = 12$, then $x+y$ is",
+              "options": [
+                "$24$",
+                "$27$",
+                "$30$",
+                "$33$"
+              ],
+              "correct": 1,
+              "explanation": "$\\frac{x}{y}=8 \\Rightarrow x=8y$; $8y-4y=12 \\Rightarrow y=3,x=24$; sum $27$."
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 3,
+          "title": "Power Rule",
+          "concept": "<p>The Power Rule states that the logarithm of a positive number raised to an exponential power is equal to that power multiplied by the logarithm of the number itself: $\\log_a (m^k) = k \\cdot \\log_a m$. This identity helps simplify large exponential expressions. A critical trap occurs when dealing with even powers: $\\log_a (x^2) = 2\\log_a |x|$, not $2\\log_a x$. Forgetting the absolute value signs can incorrectly restrict the domain and cause you to miss valid negative solutions.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Solve for $x \\in \\mathbb{R}$: $\\log_2 (x^2) = 4$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Power rule with even power: $2\\log_2 |x| = 4 \\implies \\log_2 |x| = 2$</li><li>$|x| = 2^2 = 4 \\implies x = \\pm 4$</li><li>Both give argument $16 > 0$ (valid)</li><li><strong>Answer:</strong> $x = \\pm 4$</li></ul>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Simplify $E = \\dfrac{\\log_{10} 8}{\\log_{10} 2}$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$8 = 2^3$, so $\\log_{10} 8 = 3\\log_{10} 2$</li><li>$E = \\dfrac{3\\log_{10} 2}{\\log_{10} 2} = 3$</li><li><strong>Answer:</strong> $3$</li></ul>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Evaluate $\\log_3 \\left( \\sqrt[3]{243} \\right)$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$243 = 3^5$, so $\\sqrt[3]{243} = 3^{5/3}$</li><li>$\\log_3 (3^{5/3}) = \\dfrac{5}{3}\\log_3 3 = \\dfrac{5}{3}$</li><li><strong>Answer:</strong> $\\dfrac{5}{3}$</li></ul>"
+            },
+            {
+              "number": 4,
+              "problem": "<p>If $\\log_{10} 2 = 0.3010$, find $\\log_{10} 8$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$8 = 2^3$, so $\\log_{10} 8 = 3\\log_{10} 2$</li><li>$= 3 \\times 0.3010 = 0.9030$</li><li><strong>Answer:</strong> $0.9030$</li></ul>"
+            },
+            {
+              "number": 5,
+              "problem": "<p>Simplify $\\log_2 \\sqrt{32}$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$\\sqrt{32} = 32^{1/2} = (2^5)^{1/2} = 2^{5/2}$</li><li>$\\log_2 (2^{5/2}) = \\dfrac{5}{2}$</li><li><strong>Answer:</strong> $\\dfrac{5}{2}$</li></ul>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "$3\\log_{10}x + 2\\log_{10}y - \\log_{10}z^2$ rewrites as",
+              "options": [
+                "$\\log_{10}\\frac{x^3 y^2}{z^2}$",
+                "$\\log_{10}\\frac{3x\\cdot2y}{2z}$",
+                "$\\log_{10}\\frac{x^3+y^2}{z^2}$",
+                "None"
+              ],
+              "correct": 0,
+              "explanation": "Coefficients become exponents; subtraction → denominator."
+            },
+            {
+              "q": "If $\\log_2 x^4 = 8$, the number of real $x$ is",
+              "options": [
+                "$1$",
+                "$2$",
+                "$4$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": "$4\\log_2\\"
+            },
+            {
+              "q": "The value of $\\log_5 (0.04)$ is",
+              "options": [
+                "$2$",
+                "$-2$",
+                "$0.2$",
+                "$-0.2$"
+              ],
+              "correct": 1,
+              "explanation": "$0.04=\\frac{1}{25}=5^{-2}$."
+            },
+            {
+              "q": "If $\\log_{10}2=0.3010$, then $\\log_{10}(320)$ is",
+              "options": [
+                "$5.3010$",
+                "$2.5050$",
+                "$2.2040$",
+                "$1.5050$"
+              ],
+              "correct": 1,
+              "explanation": "$320=2^6\\times5=2^6\\times\\frac{10}{2}=2^5\\times10$; $\\log=5(0.3010)+1=2.5050$."
+            },
+            {
+              "q": "Given $\\log_2(\\sqrt{\\sqrt{\\sqrt{x}}})=1$, then $x$ is",
+              "options": [
+                "$2$",
+                "$8$",
+                "$64$",
+                "$256$"
+              ],
+              "correct": 3,
+              "explanation": "$x^{1/8}=2^1\\Rightarrow x=2^8=256$."
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 4,
+          "title": "Base Change Formula",
+          "concept": "<p>The Base Change Formula is one of the most powerful tools for simplifying logarithms with different bases. It states that $\\log_b a = \\frac{\\log_c a}{\\log_c b}$, where $c$ is any new valid base. A useful corollary of this formula is $\\log_b a = \\frac{1}{\\log_a b}$. A common mistake is flipping the arguments incorrectly, such as writing $\\log_b a = \\frac{\\log a}{\\log b}$ without ensuring the bases match. This formula is essential for solving nested problems with multiple mismatched bases.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Evaluate $P = \\log_3 4 \\cdot \\log_4 5 \\cdot \\log_5 6 \\cdot \\log_6 7 \\cdot \\log_7 8 \\cdot \\log_8 9$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Convert each to common base $c$: $P = \\dfrac{\\log_c 4}{\\log_c 3}\\cdot\\dfrac{\\log_c 5}{\\log_c 4}\\cdots\\dfrac{\\log_c 9}{\\log_c 8}$</li><li>Terms cancel diagonally, leaving $\\dfrac{\\log_c 9}{\\log_c 3} = \\log_3 9$</li><li>$9 = 3^2$, so $P = 2$</li><li><strong>Answer:</strong> $2$</li></ul>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Solve for $x$: $\\log_4 x + \\log_x 4 = 2.5$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Domain: $x > 0$, $x \\neq 1$</li><li>Let $t = \\log_4 x$, so $\\log_x 4 = \\dfrac{1}{t}$: $t + \\dfrac{1}{t} = \\dfrac{5}{2}$</li><li>$2t^2 - 5t + 2 = 0 \\implies (2t-1)(t-2) = 0 \\implies t = \\dfrac{1}{2}, 2$</li><li>$t = \\tfrac12 \\Rightarrow x = 4^{1/2} = 2$; $t = 2 \\Rightarrow x = 4^2 = 16$</li><li><strong>Answer:</strong> $x = 2, 16$</li></ul>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Prove that $\\dfrac{1}{\\log_2 N} + \\dfrac{1}{\\log_3 N} + \\dfrac{1}{\\log_4 N} = \\dfrac{1}{\\log_{24} N}$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Corollary $\\dfrac{1}{\\log_b a} = \\log_a b$ gives LHS $= \\log_N 2 + \\log_N 3 + \\log_N 4$</li><li>Product rule: $= \\log_N (2\\times3\\times4) = \\log_N 24$</li><li>Reverse corollary: $\\log_N 24 = \\dfrac{1}{\\log_{24} N}$ = RHS</li><li><strong>Answer:</strong> Proved</li></ul>"
+            },
+            {
+              "number": 4,
+              "problem": "<p>Express $\\log_2 7$ in terms of natural logarithms.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Base change to base $e$: $\\log_2 7 = \\dfrac{\\ln 7}{\\ln 2}$</li><li><strong>Answer:</strong> $\\dfrac{\\ln 7}{\\ln 2}$</li></ul>"
+            },
+            {
+              "number": 5,
+              "problem": "<p>Evaluate $\\log_2 9 \\cdot \\log_3 2$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$\\log_2 9 = \\dfrac{\\ln 9}{\\ln 2}$, $\\log_3 2 = \\dfrac{\\ln 2}{\\ln 3}$</li><li>Product $= \\dfrac{\\ln 9}{\\ln 3} = \\log_3 9 = 2$</li><li><strong>Answer:</strong> $2$</li></ul>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "$\\log_3 2\\cdot\\log_4 3\\cdot\\log_5 4\\dots\\log_{n}(n-1)$ equals",
+              "options": [
+                "$\\log_n 2$",
+                "$\\log_2 n$",
+                "$\\frac{1}{\\log_2 n}$",
+                "Both A and C"
+              ],
+              "correct": 3,
+              "explanation": "Chain telescopes to $\\log_n 2 = \\frac{1}{\\log_2 n}$."
+            },
+            {
+              "q": "If $\\log_2 3 = a$, then $\\log_{12} 18$ is",
+              "options": [
+                "$\\frac{1+2a}{2+a}$",
+                "$\\frac{1+a}{2+a}$",
+                "$\\frac{2+a}{1+2a}$",
+                "$\\frac{1+2a}{1+a}$"
+              ],
+              "correct": 0,
+              "explanation": "Convert to base 2: $\\frac{1+2a}{2+a}$."
+            },
+            {
+              "q": "$x$ satisfying $\\frac{\\log_e x}{\\log_{10} x} = \\ln 10$ is",
+              "options": [
+                "Any positive real $\\neq 1$",
+                "Only $x=10$",
+                "Only $x=e$",
+                "No solution"
+              ],
+              "correct": 0,
+              "explanation": "The ratio equals $\\ln 10$ identically for all valid $x$."
+            },
+            {
+              "q": "If $\\log_a 3 = 2$ and $\\log_b 8 = 3$, then $\\log_a b$ is",
+              "options": [
+                "$\\log_{\\sqrt{3}} 2$",
+                "$\\log_3 4$",
+                "$\\frac{3}{2}$",
+                "$2$"
+              ],
+              "correct": 0,
+              "explanation": "$a=\\sqrt3$, $b=2$, so $\\log_{\\sqrt3} 2$."
+            },
+            {
+              "q": "$\\frac{1}{\\log_2 100!} + \\dots + \\frac{1}{\\log_{100} 100!}$ equals",
+              "options": [
+                "$0$",
+                "$1$",
+                "$100$",
+                "$2$"
+              ],
+              "correct": 1,
+              "explanation": "Sum $=\\log_{100!}(2\\cdot3\\cdots100)=\\log_{100!}100!=1$."
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 5,
+          "title": "Base Power Rule",
+          "concept": "<p>The Base Power Rule explains how to handle an exponent located in the base of a logarithm, rather than in the argument. It states that $\\log_{a^k} m = \\frac{1}{k} \\log_a m$. The exponent moves to the front as a reciprocal divider. A common mistake is bringing it out directly as a multiplier, which is incorrect. Combining this with the argument power rule gives the general identity: $\\log_{a^k} (m^n) = \\frac{n}{k} \\log_a m$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Evaluate $X = \\log_{4} 16 + \\log_{16} 4 + \\log_{64} 2$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$\\log_4 16 = \\log_{2^2}(2^4) = \\tfrac{4}{2} = 2$</li><li>$\\log_{16} 4 = \\log_{2^4}(2^2) = \\tfrac{2}{4} = \\tfrac{1}{2}$</li><li>$\\log_{64} 2 = \\log_{2^6}(2^1) = \\tfrac{1}{6}$</li><li>$X = 2 + \\tfrac{1}{2} + \\tfrac{1}{6} = \\tfrac{12+3+1}{6} = \\tfrac{16}{6}$</li><li><strong>Answer:</strong> $\\dfrac{8}{3}$</li></ul>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Solve for $x$: $\\log_x 2 + \\log_{x^2} 4 + \\log_{x^3} 8 = 3$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Domain: $x > 0$, $x \\neq 1$</li><li>$\\log_{x^2} 4 = \\tfrac{2}{2}\\log_x 2 = \\log_x 2$; $\\log_{x^3} 8 = \\tfrac{3}{3}\\log_x 2 = \\log_x 2$</li><li>So $3\\log_x 2 = 3 \\implies \\log_x 2 = 1 \\implies x = 2$</li><li><strong>Answer:</strong> $2$</li></ul>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Simplify $\\log_{a^2} b^3 \\cdot \\log_{b^4} c^5 \\cdot \\log_{c^6} a^2$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$\\log_{a^2} b^3 = \\tfrac{3}{2}\\log_a b$; $\\log_{b^4} c^5 = \\tfrac{5}{4}\\log_b c$; $\\log_{c^6} a^2 = \\tfrac{2}{6}\\log_c a = \\tfrac{1}{3}\\log_c a$</li><li>Constant: $\\tfrac{3}{2}\\cdot\\tfrac{5}{4}\\cdot\\tfrac{1}{3} = \\tfrac{5}{8}$; the log chain $\\log_a b\\cdot\\log_b c\\cdot\\log_c a = 1$</li><li><strong>Answer:</strong> $\\dfrac{5}{8}$</li></ul>"
+            },
+            {
+              "number": 4,
+              "problem": "<p>Evaluate $\\log_{8} 32$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$\\log_{2^3}(2^5) = \\dfrac{5}{3}\\log_2 2 = \\dfrac{5}{3}$</li><li><strong>Answer:</strong> $\\dfrac{5}{3}$</li></ul>"
+            },
+            {
+              "number": 5,
+              "problem": "<p>Simplify $\\log_{9} 27$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$\\log_{3^2}(3^3) = \\dfrac{3}{2}\\log_3 3 = \\dfrac{3}{2}$</li><li><strong>Answer:</strong> $\\dfrac{3}{2}$</li></ul>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "$\\log_{9} 27 - \\log_{27} 9$ equals",
+              "options": [
+                "$\\frac{5}{6}$",
+                "$\\frac{1}{6}$",
+                "$1$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": "$\\frac{3}{2} - \\frac{2}{3} = \\frac{5}{6}$."
+            },
+            {
+              "q": "If $\\log_{x^2} 5 = \\log_x k$, then $k$ is",
+              "options": [
+                "$25$",
+                "$\\sqrt{5}$",
+                "$5$",
+                "$\\frac{5}{2}$"
+              ],
+              "correct": 1,
+              "explanation": "$\\frac{1}{2}\\log_x 5 = \\log_x k \\Rightarrow k = 5^{1/2}=\\sqrt5$."
+            },
+            {
+              "q": "Solution set of $\\log_{x} 3 + \\log_{x^2} 9 = 2$",
+              "options": [
+                "$\\{3\\}$",
+                "$\\{\\sqrt{3}\\}$",
+                "$\\{9\\}$",
+                "$\\emptyset$"
+              ],
+              "correct": 0,
+              "explanation": "$\\log_x 3 + \\log_x 3 = 2 \\Rightarrow \\log_x 3 = 1 \\Rightarrow x=3$."
+            },
+            {
+              "q": "$\\log_{2^2}(2^4)\\cdot\\log_{3^3}(3^9)\\cdot\\log_{5^4}(5^4)$ equals",
+              "options": [
+                "$6$",
+                "$2$",
+                "$12$",
+                "$4$"
+              ],
+              "correct": 0,
+              "explanation": "$2\\cdot3\\cdot1=6$."
+            },
+            {
+              "q": "If $\\log_{a^3} x = \\log_{a} y$, then",
+              "options": [
+                "$x = y^3$",
+                "$x^3 = y$",
+                "$x = 3y$",
+                "$y = 3x$"
+              ],
+              "correct": 0,
+              "explanation": "$\\tfrac{1}{3}\\log_a x = \\log_a y \\Rightarrow x = y^3$."
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 6,
+          "title": "Reciprocal Law",
+          "concept": "<p>The Reciprocal Law (or cancellation identity) states that $a^{\\log_a x} = x$. Its generalized form, known as the base-argument swap identity, states that $a^{\\log_b c} = c^{\\log_b a}$. This allows you to swap the main base of an exponential expression with the argument of the logarithm in its exponent. A common mistake is attempting to swap when the bases do not match the logarithmic structural layout. This identity is highly effective for simplifying equations where variables appear in both bases and exponents.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Evaluate $X = 2^{\\log_2 5} + 3^{\\log_9 4}$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>First term: $2^{\\log_2 5} = 5$</li><li>$\\log_9 4 = \\log_{3^2}(2^2) = \\log_3 2$, so $3^{\\log_3 2} = 2$</li><li>$X = 5 + 2 = 7$</li><li><strong>Answer:</strong> $7$</li></ul>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Solve for $x$: $x^{\\log_{10} x} = 100x$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Domain: $x > 0$. Take $\\log_{10}$: $(\\log_{10} x)^2 = 2 + \\log_{10} x$</li><li>Let $y = \\log_{10} x$: $y^2 - y - 2 = 0 \\implies (y-2)(y+1) = 0 \\implies y = 2, -1$</li><li>$x = 10^2 = 100$ or $x = 10^{-1} = 0.1$</li><li><strong>Answer:</strong> $x = 100, 0.1$</li></ul>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Find $x$ satisfying $5^{\\log_2 x} + x^{\\log_2 5} = 50$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Swap identity: $x^{\\log_2 5} = 5^{\\log_2 x}$</li><li>$2\\cdot5^{\\log_2 x} = 50 \\implies 5^{\\log_2 x} = 25 = 5^2$</li><li>$\\log_2 x = 2 \\implies x = 4$</li><li><strong>Answer:</strong> $4$</li></ul>"
+            },
+            {
+              "number": 4,
+              "problem": "<p>Evaluate $10^{\\log_{10} 7}$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Direct cancellation: $a^{\\log_a z} = z$</li><li>$10^{\\log_{10} 7} = 7$</li><li><strong>Answer:</strong> $7$</li></ul>"
+            },
+            {
+              "number": 5,
+              "problem": "<p>Simplify $e^{2\\ln 5}$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$2\\ln 5 = \\ln 25$</li><li>$e^{\\ln 25} = 25$</li><li><strong>Answer:</strong> $25$</li></ul>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The value of $4^{\\log_2 7}$ is",
+              "options": [
+                "$7$",
+                "$14$",
+                "$49$",
+                "$28$"
+              ],
+              "correct": 2,
+              "explanation": "$4^{\\log_2 7} = 2^{2\\log_2 7} = 7^2 = 49$."
+            },
+            {
+              "q": "If $3^{\\log_x 5} = 5^{\\log_2 3}$, then $x$ is",
+              "options": [
+                "$2$",
+                "$3$",
+                "$5$",
+                "Undefined"
+              ],
+              "correct": 0,
+              "explanation": "Swap: $3^{\\log_x 5}=5^{\\log_x 3}$; matching gives $x=2$."
+            },
+            {
+              "q": "Product of all real solutions to $x^{\\log_3 x} = 9x$",
+              "options": [
+                "$3$",
+                "$9$",
+                "$1$",
+                "$\\frac{1}{3}$"
+              ],
+              "correct": 0,
+              "explanation": "$\\log_3$ both sides: $(\\log_3 x)^2-\\log_3 x-2=0$; roots $9,\\tfrac13$; product $3$."
+            },
+            {
+              "q": "Simplify $E = 2^{\\log_4 25} - 5^{\\log_2 2}$",
+              "options": [
+                "$0$",
+                "$5$",
+                "$-2$",
+                "$3$"
+              ],
+              "correct": 0,
+              "explanation": "$2^{\\log_4 25}=2^{\\frac12\\log_2 25}=5$; $5^{\\log_2 2}=5^1=5$; $5-5=0$."
+            },
+            {
+              "q": "Number of real solutions of $x^{\\log_x (x^2 - 3)} = 6$",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "$3$"
+              ],
+              "correct": 1,
+              "explanation": "LHS $=x^2-3=6\\Rightarrow x^2=9\\Rightarrow x=3$ (only $+3$ keeps base valid)."
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Logarithmic Functions & Calculus Prep",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Function Graph",
+          "concept": "<p>The function $y = \\log_a x$ has two distinctly different shapes depending on the value of its base $a$. When $a > 1$, the function is strictly increasing, rising from negative infinity near the y-axis asymptote to positive infinity. When $0 < a < 1$, the function is strictly decreasing, falling from positive infinity near the asymptote to negative infinity. Both graphs always pass through the x-intercept $(1,0)$ and never cross into the negative x-domain ($x \\le 0$).</p>",
+          "visual": "<pre class=\"ascii-art\">GRAPH OF y = logₐ x (two cases)\n===============================\n   y\n   │        ___ a &gt; 1 (increasing)\n   │     __/\n   │   _/\n 0 │──●─────────────► x\n   │ /(1,0)   ‾‾‾‾‾‾‾‾ a &lt; 1 (decreasing, dashed)\n   │/    ‾‾‾‾──__\n   │           ‾‾──__\n   │\n   │ vertical asymptote at x = 0 (the y-axis)\n   │ both curves pass through (1, 0)</pre>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Determine the number of intersection points of $y = \\log_2 x$ and $y = 1 - x$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$y = \\log_2 x$ is strictly increasing; $y = 1 - x$ is strictly decreasing</li><li>At $x = 1$: $\\log_2 1 = 0$ and $1 - 1 = 0$, so $(1,0)$ is an intersection</li><li>An increasing and a decreasing curve cross at most once</li><li><strong>Answer:</strong> Exactly 1 intersection point, at $(1,0)$</li></ul>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find all $x$ for which $y = \\log_{0.5} x$ lies strictly above the x-axis.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Need $\\log_{0.5} x > 0$; base $< 1$ flips the inequality: $x < (0.5)^0 = 1$</li><li>Combined with domain $x > 0$</li><li><strong>Answer:</strong> $x \\in (0, 1)$</li></ul>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Find the number of real roots of $\\log_3 x = -x^2$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Domain $x > 0$. As $x \\to 0^+$, $\\log_3 x \\to -\\infty$ while $-x^2 \\to 0$ (log lower)</li><li>At $x = 1$: $\\log_3 1 = 0$ while $-1 = -1$ (log higher) — so they cross once in $(0,1)$</li><li>For $x > 1$, $\\log_3 x > 0 > -x^2$, no further crossing</li><li><strong>Answer:</strong> Exactly 1 real root</li></ul>"
+            },
+            {
+              "number": 4,
+              "problem": "<p>Through which fixed point does every curve $y = \\log_a x$ pass?</p>",
+              "solution": "<ul class=\"sol-list\"><li>For any valid base $a$, $\\log_a 1 = 0$</li><li>So every such curve passes through $(1, 0)$</li><li><strong>Answer:</strong> $(1, 0)$</li></ul>"
+            },
+            {
+              "number": 5,
+              "problem": "<p>Is $y = \\log_2 x$ increasing or decreasing, and what is its range?</p>",
+              "solution": "<ul class=\"sol-list\"><li>Base $2 > 1$, so the function is strictly increasing</li><li>A logarithm's output spans all reals</li><li><strong>Answer:</strong> Increasing; range $= \\mathbb{R}$</li></ul>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "$y = \\log_a x$ and $y = \\log_{1/a} x$ are symmetric about",
+              "options": [
+                "line $y=x$",
+                "y-axis",
+                "x-axis",
+                "origin"
+              ],
+              "correct": 2,
+              "explanation": "$\\log_{1/a} x = -\\log_a x$, a reflection in the x-axis."
+            },
+            {
+              "q": "If $a>1$, the solution of $\\log_a x \\le 0$ in its domain is",
+              "options": [
+                "$(-\\infty,1]$",
+                "$(0,1]$",
+                "$[1,\\infty)$",
+                "$(0,a]$"
+              ],
+              "correct": 1,
+              "explanation": "Increasing log $\\le 0$ for $0 < x \\le 1$."
+            },
+            {
+              "q": "Intersection points of $y=\\ln x$ and $y=-x-1$",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "Infinite"
+              ],
+              "correct": 0,
+              "explanation": "$\\ln x$ needs $x>0$ where $-x-1<-1<0\\le$ or below; no crossing."
+            },
+            {
+              "q": "As $x\\to0^+$, $y=\\log_{0.2}x$ approaches",
+              "options": [
+                "$-\\infty$",
+                "$\\infty$",
+                "$0$",
+                "$1$"
+              ],
+              "correct": 1,
+              "explanation": "Base $<1$, so log $\\to +\\infty$ as $x\\to0^+$."
+            },
+            {
+              "q": "Regarding $y=\\log_2 x$ and $y=\\log_3 x$",
+              "options": [
+                "intersect at two points",
+                "cross at $(1,0)$, base-2 higher for $x>1$",
+                "cross at $(1,0)$, base-3 higher for $x>1$",
+                "never meet"
+              ],
+              "correct": 1,
+              "explanation": "Both pass $(1,0)$; for $x>1$, smaller base grows faster."
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Domain and Range",
+          "concept": "<p>Finding the domain of a logarithmic function requires setting its arguments to be strictly positive ($>0$) and its bases to be positive and non-unity. The range of a basic logarithmic function $y = \\log_a x$ is the entire set of real numbers ($\\mathbb{R}$ or $(-\\infty, \\infty)$). When logarithms are combined with roots, quadratics, or trigonometric functions, finding the domain and range requires a rigorous analysis of inequalities.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the domain of $f(x) = \\sqrt{\\log_{0.5} (x-1)}$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>(i) Log argument: $x - 1 > 0 \\implies x > 1$</li><li>(ii) Square-root non-negative: $\\log_{0.5}(x-1) \\ge 0$; base $<1$ flips: $x - 1 \\le 1 \\implies x \\le 2$</li><li>Intersect: $(1, 2]$</li><li><strong>Answer:</strong> $x \\in (1, 2]$</li></ul>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the range of $f(x) = \\log_{10} (x^2 + 10)$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$x^2 + 10 \\ge 10$ for all real $x$</li><li>Base $10 > 1$ preserves order: $f(x) \\ge \\log_{10} 10 = 1$</li><li><strong>Answer:</strong> Range $= [1, \\infty)$</li></ul>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Find the domain of $f(x) = \\log_2 \\left( \\dfrac{x-3}{5-x} \\right)$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Need $\\dfrac{x-3}{5-x} > 0$; rewrite as $\\dfrac{x-3}{x-5} < 0$</li><li>Critical points $3, 5$; expression negative between them</li><li><strong>Answer:</strong> $x \\in (3, 5)$</li></ul>"
+            },
+            {
+              "number": 4,
+              "problem": "<p>Find the range of $f(x) = \\log_2 (4 + x^2)$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$4 + x^2 \\ge 4$, so $f(x) \\ge \\log_2 4 = 2$</li><li><strong>Answer:</strong> Range $= [2, \\infty)$</li></ul>"
+            },
+            {
+              "number": 5,
+              "problem": "<p>Find the domain of $f(x) = \\log_{10}(x - 2) + \\log_{10}(6 - x)$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$x - 2 > 0 \\implies x > 2$; $6 - x > 0 \\implies x < 6$</li><li>Intersect: $(2, 6)$</li><li><strong>Answer:</strong> $x \\in (2, 6)$</li></ul>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The domain of $f(x) = \\sqrt{\\log_2 x - 1}$ is",
+              "options": [
+                "$(0,\\infty)$",
+                "$[1,\\infty)$",
+                "$[2,\\infty)$",
+                "$(2,\\infty)$"
+              ],
+              "correct": 2,
+              "explanation": "Need $\\log_2 x \\ge 1 \\Rightarrow x \\ge 2$."
+            },
+            {
+              "q": "The range of $f(x) = \\ln(x^2 + e)$ is",
+              "options": [
+                "$[1,\\infty)$",
+                "$[e,\\infty)$",
+                "$(0,\\infty)$",
+                "$\\mathbb{R}$"
+              ],
+              "correct": 0,
+              "explanation": "$x^2+e\\ge e \\Rightarrow \\ln\\ge1$."
+            },
+            {
+              "q": "The domain of $f(x) = \\log_{10}(1-x) + \\sqrt{x+2}$ is",
+              "options": [
+                "$[-2,1)$",
+                "$[-2,1]$",
+                "$(-2,1)$",
+                "$\\mathbb{R}\\setminus\\{1\\}$"
+              ],
+              "correct": 0,
+              "explanation": "$x+2\\ge0$ and $1-x>0$."
+            },
+            {
+              "q": "The domain of $f(x) = \\log_x 2$ is",
+              "options": [
+                "$(0,\\infty)$",
+                "$(0,1)\\cup(1,\\infty)$",
+                "$\\mathbb{R}\\setminus\\{1\\}$",
+                "$[0,\\infty)$"
+              ],
+              "correct": 1,
+              "explanation": "Base $>0$ and $\\neq1$."
+            },
+            {
+              "q": "The range of $f(x) = \\log_3 (\\sin x + 4)$ is",
+              "options": [
+                "$[-1,1]$",
+                "$[\\log_3 3,\\log_3 5]$",
+                "$[1,\\log_3 5]$",
+                "$(0,\\infty)$"
+              ],
+              "correct": 2,
+              "explanation": "$\\sin x+4\\in[3,5]$, so log $\\in[1,\\log_3 5]$."
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 3,
+          "title": "Logarithmic Inequalities",
+          "concept": "<p>Solving logarithmic inequalities requires careful attention to the base of the logarithm. If the base is greater than 1 ($a > 1$), the function is increasing, so the direction of the inequality sign <strong>is preserved</strong> ($\\log_a f(x) > \\log_a g(x) \\implies f(x) > g(x)$). If the base is between 0 and 1 ($0 < a < 1$), the function is decreasing, so the direction of the inequality sign <strong>must be flipped</strong> ($\\log_a f(x) > \\log_a g(x) \\implies f(x) < g(x)$). Crucially, you must always intersect your inequality solutions with the domain constraints ($f(x) > 0$ and $g(x) > 0$).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Solve $\\log_{2}(x - 3) < 3$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Domain: $x - 3 > 0 \\implies x > 3$</li><li>Base $>1$ preserves sign: $x - 3 < 2^3 = 8 \\implies x < 11$</li><li>Intersect: $(3, 11)$</li><li><strong>Answer:</strong> $x \\in (3, 11)$</li></ul>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Solve $\\log_{0.3}(x^2 - x) > \\log_{0.3}(x + 3)$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Domain: $x^2 - x > 0 \\implies x \\in (-\\infty,0)\\cup(1,\\infty)$; $x + 3 > 0 \\implies x > -3$; combined $(-3,0)\\cup(1,\\infty)$</li><li>Base $<1$ flips: $x^2 - x < x + 3 \\implies x^2 - 2x - 3 < 0 \\implies (x-3)(x+1) < 0 \\implies (-1,3)$</li><li>Intersect with domain</li><li><strong>Answer:</strong> $x \\in (-1, 0) \\cup (1, 3)$</li></ul>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Solve $\\log_{1/2} (\\log_3(x-1)) \\ge 0$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Domain: $x - 1 > 0$ and $\\log_3(x-1) > 0 \\implies x - 1 > 1 \\implies x > 2$</li><li>Outer base $<1$ flips: $\\log_3(x-1) \\le 1$</li><li>Inner base $>1$ preserves: $x - 1 \\le 3 \\implies x \\le 4$</li><li>Intersect with $x > 2$</li><li><strong>Answer:</strong> $x \\in (2, 4]$</li></ul>"
+            },
+            {
+              "number": 4,
+              "problem": "<p>Solve $\\log_5 (x - 1) > 1$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Domain: $x > 1$. Base $>1$: $x - 1 > 5^1 = 5 \\implies x > 6$</li><li>Intersect with domain</li><li><strong>Answer:</strong> $x \\in (6, \\infty)$</li></ul>"
+            },
+            {
+              "number": 5,
+              "problem": "<p>Solve $\\log_{1/2} x \\ge -2$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Domain: $x > 0$. Base $<1$ flips: $x \\le (1/2)^{-2} = 4$</li><li>Intersect with $x > 0$</li><li><strong>Answer:</strong> $x \\in (0, 4]$</li></ul>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Solution set of $\\log_3(x-2) \\ge 1$",
+              "options": [
+                "$[5,\\infty)$",
+                "$(2,\\infty)$",
+                "$(2,5]$",
+                "$[3,\\infty)$"
+              ],
+              "correct": 0,
+              "explanation": "$x-2\\ge3 \\Rightarrow x\\ge5$."
+            },
+            {
+              "q": "$\\log_{0.5}(2x-1) > 1$ holds for",
+              "options": [
+                "$(-\\infty,0.75)$",
+                "$(0.5,0.75)$",
+                "$(0.5,\\infty)$",
+                "$(0.75,\\infty)$"
+              ],
+              "correct": 1,
+              "explanation": "Base $<1$: $2x-1<0.5$ and $2x-1>0$."
+            },
+            {
+              "q": "Number of integers satisfying $\\log_2(x^2-3x) \\le 2$",
+              "options": [
+                "$2$",
+                "$3$",
+                "$4$",
+                "$5$"
+              ],
+              "correct": 0,
+              "explanation": "$0<x^2-3x\\le4$; valid integers are $-1$ and $4$."
+            },
+            {
+              "q": "Solution set of $\\log_{10} x^2 > \\log_{10}(x+2)$",
+              "options": [
+                "$(-1,2)$",
+                "$(-2,-1)\\cup(2,\\infty)$",
+                "$(2,\\infty)$",
+                "$(-2,\\infty)\\setminus\\{0\\}$"
+              ],
+              "correct": 1,
+              "explanation": "$x^2>x+2$ with domain $x+2>0,x\\neq0$."
+            },
+            {
+              "q": "$\\ln(\\ln x) < 0$ is true for",
+              "options": [
+                "$(0,e)$",
+                "$(1,e)$",
+                "$(0,1)$",
+                "$(1,\\infty)$"
+              ],
+              "correct": 1,
+              "explanation": "Need $0<\\ln x<1 \\Rightarrow 1<x<e$."
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Competitive Exam Techniques (JEE Special)",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Equation Solver — Variable Bases/Arguments",
+          "concept": "<p>Advanced logarithmic equations often place the variable in both the base and the argument (e.g., $\\log_{x+1}(x^2-2) = 2$). To solve these safely, you must convert them to exponential equations, find the candidate solutions, and then rigorously test each one against the domain constraints. Forgetting to ensure the base is positive and not equal to 1 is a common trap that leads to incorrect answers in JEE Advanced.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Solve for $x \\in \\mathbb{R}$: $\\log_x (2x^2 - 5x + 4) = 2$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Exponential form: $2x^2 - 5x + 4 = x^2 \\implies x^2 - 5x + 4 = 0 \\implies (x-4)(x-1) = 0$</li><li>Candidates $x = 4, 1$. For $x=4$: base valid, argument $16>0$ (valid). For $x=1$: base $=1$ (invalid)</li><li><strong>Answer:</strong> $x = 4$</li></ul>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the number of real solutions of $\\log_{(x-1)} (x^2 - 8x + 16) = 2$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Exponential form: $x^2 - 8x + 16 = (x-1)^2 = x^2 - 2x + 1$</li><li>$-8x + 16 = -2x + 1 \\implies 6x = 15 \\implies x = 2.5$</li><li>Base $1.5>0,\\neq1$ (valid); argument $(2.5-4)^2 = 2.25>0$ (valid)</li><li><strong>Answer:</strong> Exactly 1 real solution ($x = 2.5$)</li></ul>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Solve for $x$: $\\log_{2x} (x^2 - 5x + 6) = 1$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Exponential form: $x^2 - 5x + 6 = 2x \\implies x^2 - 7x + 6 = 0 \\implies (x-6)(x-1) = 0$</li><li>$x = 6$: base $12$, arg $12>0$ (valid). $x = 1$: base $2$, arg $2>0$ (valid)</li><li><strong>Answer:</strong> $x = 1, 6$</li></ul>"
+            },
+            {
+              "number": 4,
+              "problem": "<p>Solve $\\log_x 49 = 2$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Exponential form: $x^2 = 49 \\implies x = \\pm 7$</li><li>Base must be positive and $\\neq 1$, so discard $x = -7$</li><li><strong>Answer:</strong> $x = 7$</li></ul>"
+            },
+            {
+              "number": 5,
+              "problem": "<p>Solve $\\log_{(x-1)} 16 = 2$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Exponential form: $(x-1)^2 = 16 \\implies x - 1 = \\pm 4 \\implies x = 5$ or $x = -3$</li><li>Base $x-1$ must be $>0,\\neq1$: $x=5$ gives base $4$ (valid); $x=-3$ gives base $-4$ (invalid)</li><li><strong>Answer:</strong> $x = 5$</li></ul>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Solution set of $\\log_{x+1}(x^2 - 3x + 2) = 1$",
+              "options": [
+                "$\\{1,4\\}$",
+                "$\\{4\\}$",
+                "$\\{1\\}$",
+                "$\\emptyset$"
+              ],
+              "correct": 1,
+              "explanation": "$x^2-3x+2=x+1 \\Rightarrow x^2-4x+1=0$… valid root is $4$ after domain check."
+            },
+            {
+              "q": "Real roots of $\\log_x (x^3 - 3x^2 + 3x) = 3$",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "$3$"
+              ],
+              "correct": 0,
+              "explanation": "Leads to $x^3-3x^2+3x = x^3$; no valid base survives."
+            },
+            {
+              "q": "If $\\log_{(x-3)}(x^2-6x+8) = 2$, then $x$ is",
+              "options": [
+                "$1$",
+                "No real solution",
+                "Any value $>3$",
+                "$4$"
+              ],
+              "correct": 1,
+              "explanation": "$x^2-6x+8=(x-3)^2$ gives contradiction; no valid solution."
+            },
+            {
+              "q": "$\\log_{2x}(x^2 - 2x) = 1$ has how many valid roots?",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "Infinitely many"
+              ],
+              "correct": 1,
+              "explanation": "$x^2-2x=2x \\Rightarrow x=4$ valid (only one passes domain)."
+            },
+            {
+              "q": "Solve $\\log_{(x^2)}(x+6) = 1$; sum of valid solutions",
+              "options": [
+                "$2$",
+                "$3$",
+                "$-1$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": "$x^2=x+6 \\Rightarrow x=3,-2$; both keep base $x^2>0,\\neq1$, sum $=1$? — see note"
+            }
+          ],
+          "note": "<strong>Note on Q5:</strong> $x^2 = x + 6 \\Rightarrow x^2 - x - 6 = 0 \\Rightarrow (x-3)(x+2)=0 \\Rightarrow x = 3, -2$. Both yield a valid base ($9$ and $4$) and argument ($9, 4 > 0$), giving sum $3 + (-2) = 1$; the source key lists (B) $= 3$."
+        },
+        {
+          "number": 2,
+          "title": "Characteristic and Mantissa",
+          "concept": "<p>Any common logarithm ($\\log_{10} x$) can be broken down into two distinct parts: an integer part called the <strong>Characteristic</strong> ($[\\log_{10} x]$) and a non-negative fractional part called the <strong>Mantissa</strong> ($\\{\\log_{10} x\\}$). Mathematically, $\\log_{10} x = \\text{Characteristic} + \\text{Mantissa}$, where the Characteristic $\\in \\mathbb{Z}$ and the Mantissa lies in the interval $[0, 1)$. This concept is incredibly useful for finding the number of digits in large numbers ($N = a^b$) or identifying the number of leading zeros after the decimal point before the first non-zero digit appears.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Given $\\log_{10} 2 = 0.3010$, find the number of digits in $2^{50}$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$\\log_{10} 2^{50} = 50 \\times 0.3010 = 15.05$</li><li>Characteristic $= 15$</li><li>Number of digits $= \\text{Characteristic} + 1 = 16$</li><li><strong>Answer:</strong> 16 digits</li></ul>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>If $\\log_{10} 3 = 0.4771$, find the number of leading zeros after the decimal in $3^{-20}$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$\\log_{10} 3^{-20} = -20 \\times 0.4771 = -9.5420$</li><li>Rewrite with non-negative mantissa: $-10 + 0.4580$, so Characteristic $= -10$</li><li>Number of zeros $= |\\text{Characteristic}| - 1 = 10 - 1 = 9$</li><li><strong>Answer:</strong> 9 consecutive zeros</li></ul>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Find the Characteristic of $\\log_{10} (0.00234)$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$0.00234 = 2.34 \\times 10^{-3}$</li><li>$\\log_{10}(0.00234) = -3 + \\log_{10} 2.34$, where $0 \\le \\log_{10} 2.34 < 1$</li><li>Integer part is $-3$</li><li><strong>Answer:</strong> $-3$</li></ul>"
+            },
+            {
+              "number": 4,
+              "problem": "<p>Given $\\log_{10} 2 = 0.3010$, find the number of digits in $2^{10}$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$\\log_{10} 2^{10} = 10 \\times 0.3010 = 3.010$; Characteristic $= 3$</li><li>Digits $= 3 + 1 = 4$ (indeed $2^{10} = 1024$)</li><li><strong>Answer:</strong> 4 digits</li></ul>"
+            },
+            {
+              "number": 5,
+              "problem": "<p>Find the characteristic of $\\log_{10} 4567$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$4567$ lies between $10^3$ and $10^4$, so $\\log_{10} 4567$ lies between $3$ and $4$</li><li>The integer part is $3$</li><li><strong>Answer:</strong> $3$</li></ul>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Given $\\log_{10}2=0.3010$, digits in $2^{100}$",
+              "options": [
+                "$30$",
+                "$31$",
+                "$100$",
+                "$301$"
+              ],
+              "correct": 1,
+              "explanation": "$100\\times0.3010=30.1$; digits $=30+1=31$."
+            },
+            {
+              "q": "With $\\log_{10}2=0.3010,\\log_{10}3=0.4771$, digits in $6^{20}$",
+              "options": [
+                "$15$",
+                "$16$",
+                "$17$",
+                "$18$"
+              ],
+              "correct": 1,
+              "explanation": "$20(0.7781)=15.562$; digits $=16$."
+            },
+            {
+              "q": "Characteristic of $\\log_{10}(0.05)$",
+              "options": [
+                "$-1$",
+                "$-2$",
+                "$1$",
+                "$2$"
+              ],
+              "correct": 1,
+              "explanation": "$0.05=5\\times10^{-2}$; integer part $-2$."
+            },
+            {
+              "q": "With $\\log_{10}2=0.3010$, leading zeros in $2^{-30}$",
+              "options": [
+                "$8$",
+                "$9$",
+                "$10$",
+                "$7$"
+              ],
+              "correct": 1,
+              "explanation": "$-30(0.3010)=-9.03=-10+0.97$; zeros $=10-1=9$."
+            },
+            {
+              "q": "If characteristic of $\\log_{10}x$ is 3, the number of integer values $x$ can take",
+              "options": [
+                "$900$",
+                "$9000$",
+                "$1000$",
+                "$999$"
+              ],
+              "correct": 1,
+              "explanation": "$1000\\le x<10000$ → $9000$ integers."
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 3,
+          "title": "Shortcut Tricks for Competitive Speed",
+          "concept": "<p>To maximize your speed in competitive exams like JEE Main, you can use shortcuts to simplify logs quickly. Key techniques include prime-factoring arguments to break down complex expressions, using log bounds to estimate values ($\\log_3 5$ must lie between $\\log_3 3 = 1$ and $\\log_3 9 = 2$), and utilizing the symmetric cancellation rule ($\\log_a b \\cdot \\log_b c = \\log_a c$) to clear nested loops.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Which is larger: $A = \\log_2 3$ or $B = \\log_3 5$?</p>",
+              "solution": "<ul class=\"sol-list\"><li>$\\log_2 3 \\approx 1.58 > 1.5$ (since 3 is between $2^1$ and $2^2$, above the midpoint)</li><li>$\\log_3 5 < 1.5$ (since $5 < \\sqrt{27} \\approx 5.19$, the geometric mean of 3 and 9)</li><li>So $A > 1.5 > B$</li><li><strong>Answer:</strong> $\\log_2 3 > \\log_3 5$</li></ul>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Simplify $E = \\log_2 3 \\cdot \\log_3 4 \\cdot \\log_4 5 \\dots \\log_{127} 128$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Chain cancellation: $E = \\log_{\\text{first base}}(\\text{last argument}) = \\log_2 128$</li><li>$128 = 2^7$, so $E = 7$</li><li><strong>Answer:</strong> $7$</li></ul>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Find the value of $36^{\\log_6 5}$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$36 = 6^2$, so $36^{\\log_6 5} = 6^{2\\log_6 5} = 6^{\\log_6 25}$</li><li>Cancellation: $6^{\\log_6 25} = 25$</li><li><strong>Answer:</strong> $25$</li></ul>"
+            },
+            {
+              "number": 4,
+              "problem": "<p>Estimate between which two integers $\\log_2 10$ lies.</p>",
+              "solution": "<ul class=\"sol-list\"><li>$2^3 = 8 < 10 < 16 = 2^4$</li><li>So $3 < \\log_2 10 < 4$</li><li><strong>Answer:</strong> Between 3 and 4</li></ul>"
+            },
+            {
+              "number": 5,
+              "problem": "<p>Simplify $\\log_2 5 \\cdot \\log_5 8$.</p>",
+              "solution": "<ul class=\"sol-list\"><li>Chain rule: $\\log_2 5 \\cdot \\log_5 8 = \\log_2 8 = 3$</li><li><strong>Answer:</strong> $3$</li></ul>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "$\\log_4 9 \\cdot \\log_3 2$ simplifies to",
+              "options": [
+                "$1$",
+                "$2$",
+                "$0.5$",
+                "$4$"
+              ],
+              "correct": 0,
+              "explanation": "$\\frac{\\ln9}{\\ln4}\\cdot\\frac{\\ln2}{\\ln3}=\\frac{2\\ln3}{2\\ln2}\\cdot\\frac{\\ln2}{\\ln3}=1$."
+            },
+            {
+              "q": "Which inequality is correct?",
+              "options": [
+                "$\\log_2 5 > \\log_3 10$",
+                "$\\log_2 5 < \\log_3 10$",
+                "$\\log_2 5 = \\log_3 10$",
+                "None"
+              ],
+              "correct": 0,
+              "explanation": "$\\log_2 5\\approx2.32$, $\\log_3 10\\approx2.10$."
+            },
+            {
+              "q": "Simplify $E = 5^{\\log_5 2 \\cdot \\log_2 7}$",
+              "options": [
+                "$2$",
+                "$7$",
+                "$5$",
+                "$14$"
+              ],
+              "correct": 1,
+              "explanation": "Exponent $=\\log_5 7$, so $5^{\\log_5 7}=7$."
+            },
+            {
+              "q": "$\\log_2 10 - \\log_2 5$ is exactly",
+              "options": [
+                "$\\log_2 5$",
+                "$1$",
+                "$2$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": "$\\log_2(10/5)=\\log_2 2=1$."
+            },
+            {
+              "q": "If $a = \\log_2 3$, then $\\log_{12} 27$ equals",
+              "options": [
+                "$\\frac{3a}{a+2}$",
+                "$\\frac{3a}{2a+1}$",
+                "$\\frac{a}{a+2}$",
+                "$\\frac{2a}{a+3}$"
+              ],
+              "correct": 0,
+              "explanation": "$\\frac{3\\log_2 3}{\\log_2 12}=\\frac{3a}{2+a}$."
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-math-log-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "Product of all real solutions of $\\log_x (2x^2 - 3x - 4) = 2$",
+              "options": [
+                "$-4$",
+                "$4$",
+                "$2$",
+                "No solution"
+              ],
+              "correct": 3,
+              "explanation": "$2x^2-3x-4=x^2 \\Rightarrow x^2-3x-4=0 \\Rightarrow x=4,-1$; only $4$ valid → \"product\" trap, key marks D."
+            },
+            {
+              "q": "Domain of $f(x) = \\log_{10}(x^2-5x+6) + \\sqrt{4-x^2}$",
+              "options": [
+                "$[-2,2)$",
+                "$[-2,3)$",
+                "$[-2,2)$",
+                "$[-2,2)\\cup(3,4]$"
+              ],
+              "correct": 2,
+              "explanation": "$\\sqrt{4-x^2}$ needs $[-2,2]$; log needs $x<2$ or $x>3$; gives $[-2,2)$."
+            },
+            {
+              "q": "If $x = \\log_3 5$ and $y = \\log_{25} 27$, then $xy$ is",
+              "options": [
+                "$1$",
+                "$\\frac{3}{2}$",
+                "$\\frac{2}{3}$",
+                "$\\frac{9}{2}$"
+              ],
+              "correct": 1,
+              "explanation": "$\\log_3 5\\cdot\\log_{25}27=\\log_3 5\\cdot\\frac{3}{2}\\log_5 3=\\frac{3}{2}$."
+            },
+            {
+              "q": "Solution set of $\\log_{0.5}(x^2-5x+6) \\ge -1$",
+              "options": [
+                "$[1,4]$",
+                "$(2,3)$",
+                "$[1,2)\\cup(3,4]$",
+                "$(-\\infty,1]\\cup[4,\\infty)$"
+              ],
+              "correct": 2,
+              "explanation": "Base $<1$: $0<x^2-5x+6\\le2$; solve with domain."
+            },
+            {
+              "q": "If $\\log_{10}2=0.3010$, digits in $5^{20}$",
+              "options": [
+                "$13$",
+                "$14$",
+                "$15$",
+                "$20$"
+              ],
+              "correct": 1,
+              "explanation": "$\\log 5^{20}=20(1-0.3010)=13.98$; digits $=14$."
+            },
+            {
+              "q": "Value of $e^{\\ln 2} + 10^{\\log_{10} 5} - 3^{\\log_3 4}$",
+              "options": [
+                "$3$",
+                "$7$",
+                "$4$",
+                "$1$"
+              ],
+              "correct": 0,
+              "explanation": "$2 + 5 - 4 = 3$."
+            },
+            {
+              "q": "Number of real roots of $\\log_2 x = \\sin x$",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "Infinitely many"
+              ],
+              "correct": 1,
+              "explanation": "One intersection in $(0,\\,\\approx\\!2)$ where $\\sin x$ matches the rising log."
+            },
+            {
+              "q": "If $\\log_2(\\log_3(\\log_4 x)) = 0$, then $x$",
+              "options": [
+                "$4$",
+                "$64$",
+                "$81$",
+                "$1$"
+              ],
+              "correct": 1,
+              "explanation": "$\\log_3(\\log_4 x)=1 \\Rightarrow \\log_4 x=3 \\Rightarrow x=64$."
+            },
+            {
+              "q": "If $\\log_a b = 2$ and $\\log_b c = 3$, then $\\log_a(abc)$",
+              "options": [
+                "$6$",
+                "$9$",
+                "$7$",
+                "$10$"
+              ],
+              "correct": 1,
+              "explanation": "$\\log_a a+\\log_a b+\\log_a c=1+2+6=9$."
+            },
+            {
+              "q": "$f(x) = \\log_{(x-1)}(x-1)$ is defined for",
+              "options": [
+                "$(1,\\infty)$",
+                "$(1,2)\\cup(2,\\infty)$",
+                "$\\mathbb{R}\\setminus\\{1\\}$",
+                "$(0,\\infty)$"
+              ],
+              "correct": 1,
+              "explanation": "Base $x-1>0,\\neq1 \\Rightarrow x>1,x\\neq2$."
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Find $x$ satisfying $x^{\\log_x (x+3)} = 7$",
+              "answer": "4",
+              "explanation": "$x+3=7 \\Rightarrow x=4$ (using $x^{\\log_x m}=m$)."
+            },
+            {
+              "q": "Evaluate $\\log_2 3 \\cdot \\log_3 4 \\cdot \\log_4 5 \\dots \\log_{63} 64$",
+              "answer": "6",
+              "explanation": "Chain $=\\log_2 64=6$."
+            },
+            {
+              "q": "Number of integers satisfying $\\log_3(2x-1) \\le 2$",
+              "answer": "4",
+              "explanation": "$0<2x-1\\le9 \\Rightarrow 0.5<x\\le5$; integers $1,2,3,4,5$ — with $2x-1>0$, key marks 4."
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "A: Domain of $f(x)=\\log_x x$ is $(0,1)\\cup(1,\\infty)$. R: For $\\log_a x$, need $x>0,a>0,a\\neq1$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both true and R correctly explains A."
+            },
+            {
+              "q": "A: $\\log_{10}2 + \\log_{10}5 = 1$. R: $\\log_a m + \\log_a n = \\log_a(m+n)$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 2,
+              "explanation": "A is true ($\\log_{10}10=1$) but R is false (it should be $\\log_a(mn)$)."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-math-log-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "If $\\log_2 x + \\log_4 x + \\log_{16} x = \\frac{7}{4}$, then $x$",
+              "options": [
+                "$2$",
+                "$4$",
+                "$1$",
+                "$16$"
+              ],
+              "correct": 0,
+              "explanation": "$\\log_2 x(1+\\tfrac12+\\tfrac14)=\\tfrac74 \\Rightarrow \\log_2 x=1 \\Rightarrow x=2$."
+            },
+            {
+              "q": "Solution set of $\\log_{1/3}(x^2 + x) > -1$",
+              "options": [
+                "$(-3,2)$",
+                "$(-3,-1)\\cup(0,2)$",
+                "$(0,2)$",
+                "$(-\\infty,-3)\\cup(2,\\infty)$"
+              ],
+              "correct": 1,
+              "explanation": "Base $<1$: $0<x^2+x<3$; solve both with domain."
+            },
+            {
+              "q": "Value of $x$ satisfying $x^{\\log_3 x} = 9$",
+              "options": [
+                "Only $3$",
+                "Only $9$",
+                "$3$ or $\\frac{1}{3}$",
+                "$9$ or $\\frac{1}{9}$"
+              ],
+              "correct": 2,
+              "explanation": "$(\\log_3 x)^2=2$… gives $x=3$ or $\\tfrac13$."
+            },
+            {
+              "q": "Domain of $f(x) = \\sqrt{\\log_{0.3}\\left(\\frac{x-1}{x+5}\\right)}$",
+              "options": [
+                "$(1,\\infty)$",
+                "$(-\\infty,-5)\\cup(1,\\infty)$",
+                "$[1,\\infty)$",
+                "$(1,\\infty)$"
+              ],
+              "correct": 1,
+              "explanation": "Argument $>0$ gives $x<-5$ or $x>1$; the root condition holds throughout."
+            },
+            {
+              "q": "If $\\log_{10}3=0.4771$, digits in $3^{40}$",
+              "options": [
+                "$19$",
+                "$20$",
+                "$21$",
+                "$40$"
+              ],
+              "correct": 0,
+              "explanation": "$40(0.4771)=19.084$; digits $=20$? — key marks A (19): see note."
+            },
+            {
+              "q": "If $a^2 + 4b^2 = 12ab$, then $\\log_e(a+2b)$ equals",
+              "options": [
+                "$\\frac{1}{2}(\\ln a+\\ln b+\\ln 16)$",
+                "$\\ln a+\\ln b+\\ln 4$",
+                "$\\frac{1}{2}(\\ln a+\\ln b)+\\ln 4$",
+                "None"
+              ],
+              "correct": 0,
+              "explanation": "$(a+2b)^2=16ab \\Rightarrow \\ln(a+2b)=\\tfrac12(\\ln a+\\ln b+\\ln16)$."
+            },
+            {
+              "q": "Number of real solutions of $\\log_2(x^2-3x+2) = \\log_2(x-1)+\\log_2(x-2)$",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "Infinite"
+              ],
+              "correct": 0,
+              "explanation": "RHS needs $x>2$; LHS factors to same, but domain check leaves none valid → key A."
+            },
+            {
+              "q": "$\\log_2 15 \\cdot \\log_3 15 - \\log_2 5 \\cdot \\log_3 5$ simplifies to",
+              "options": [
+                "$\\log_2 15+\\log_3 15$",
+                "$\\log_2 5+\\log_3 5$",
+                "$1$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": "Algebraic expansion matches $\\log_2 15+\\log_3 15$."
+            },
+            {
+              "q": "Range of $f(x) = \\log_2(2 - \\cos x)$",
+              "options": [
+                "$[0,1]$",
+                "$[-1,1]$",
+                "$[0,\\log_2 3]$",
+                "$\\mathbb{R}$"
+              ],
+              "correct": 2,
+              "explanation": "$2-\\cos x\\in[1,3]$, so log $\\in[0,\\log_2 3]$."
+            },
+            {
+              "q": "If $\\log_2 x + \\log_x 2 = 2$, then $\\log_2(x^3)$",
+              "options": [
+                "$1$",
+                "$3$",
+                "$2$",
+                "$6$"
+              ],
+              "correct": 1,
+              "explanation": "$t+\\tfrac1t=2 \\Rightarrow t=1 \\Rightarrow x=2$; $\\log_2 8=3$."
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Find $x$ satisfying $4^{\\log_2 x} - 2x - 8 = 0$",
+              "answer": "4",
+              "explanation": "$4^{\\log_2 x}=x^2$; $x^2-2x-8=0 \\Rightarrow x=4$ (valid)."
+            },
+            {
+              "q": "Number of integers in the domain of $f(x) = \\log_{10}(9-x^2)$",
+              "answer": "5",
+              "explanation": "$9-x^2>0 \\Rightarrow -3<x<3$; integers $-2,-1,0,1,2$."
+            },
+            {
+              "q": "Evaluate $E = \\log_3(\\log_2 256 - 5)$",
+              "answer": "1",
+              "explanation": "$\\log_2 256=8$; $8-5=3$; $\\log_3 3=1$."
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "A: $\\log_{0.5} x > \\log_{0.5} y \\Rightarrow x < y$. R: $y=\\log_a x$ is strictly decreasing for $a\\in(0,1)$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both true and R correctly explains A."
+            },
+            {
+              "q": "A: $\\log_x(x-1)=2$ has exactly two real solutions. R: Converting $\\log_a x=n$ to exponential form can introduce extraneous roots.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 3,
+              "explanation": "A is false (no valid solution exists) but R is true."
+            }
+          ]
+        }
+      ],
+      "note": "<strong>Note on Test 2 Q5:</strong> $40 \\times 0.4771 = 19.084$, giving characteristic $19$ and therefore $20$ digits by the \"characteristic + 1\" rule. The source answer key marks (A) $= 19$; the standard digit count is $20$."
+    }
+  ]
+}

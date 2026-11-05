@@ -1,0 +1,1052 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": 6,
+  "title": "Quadratic Equations",
+  "slug": "quadratic-equations",
+  "subtitle": "Quadratic Equations & Theory of Equations",
+  "level": "JEE Main & Advanced",
+  "color": "#ec4899",
+  "icon": "math",
+  "seo": {
+    "meta_description": "Master Quadratic Equations for JEE Main & Advanced on GrowQR: in-depth notes, solved examples, self-check MCQs and full mock tests. Free, forever."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Fundamental Concepts",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Definition & Basic Core Form",
+          "concept": "<p>A quadratic equation in one variable is a second-degree polynomial equation of the mathematical form $ax^2 + bx + c = 0$, where the leading coefficient $a \\neq 0$ and $a, b, c \\in \\mathbb{R}$ (or $\\mathbb{C}$). If $a=0$, the expression degenerates into a linear format. The roots represent the x-coordinates where the corresponding parabolic functional graph $y = ax^2+bx+c$ crosses the horizontal x-axis. In complex number configurations, if coefficients are non-real, the roots are no longer guaranteed to emerge as conjugate pairs.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Solve for $x \\in \\mathbb{R}$: $(x^2 - 5x + 7)^2 - (x-2)(x-3) = 1$.</p>",
+              "solution": "Let us expand the product term inside the subtraction section:\n \\[ (x-2)(x-3) = x^2 - 5x + 6 \\]\n Substitute this back into our original expression setup:\n \\[ (x^2 - 5x + 7)^2 - (x^2 - 5x + 6) = 1 \\]\n Let a dummy operational variable be $y = x^2 - 5x + 6$. Then the term $x^2 - 5x + 7 = y + 1$. Rewrite the equation in terms of $y$:\n \\[ (y+1)^2 - y = 1 \\implies y^2 + 2y + 1 - y = 1 \\implies y^2 + y = 0 \\]\n This factors cleanly to give $y(y+1) = 0$, which yields two branches: $y = 0$ or $y = -1$.\n Now substitute back $x^2 - 5x + 6 = y$:\n <ul>\n <li>Branch 1: $x^2 - 5x + 6 = 0 \\implies (x-2)(x-3) = 0 \\implies x = 2, 3$\n <li>Branch 2: $x^2 - 5x + 6 = -1 \\implies x^2 - 5x + 7 = 0$. Let us analyze its discriminant: $D = (-5)^2 - 4(1)(7) = 25 - 28 = -3 < 0$. This branch produces no real roots.\n </ul>\n <strong>Final Answer:</strong> $x = 2, 3$."
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find all real values of $m$ for which the equation $(m-1)x^2 - 2(m+1)x + m = 0$ has exactly one unique solution.</p>",
+              "solution": "A common conceptual trap is to only set the discriminant $D = 0$. We must also analyze the possibility where the expression stops being quadratic entirely (leading coefficient vanishes).\n <ul>\n <li>Case 1: The equation is linear. Set the leading coefficient to zero: $m - 1 = 0 \\implies m = 1$. Substitute $m = 1$ back into the equation: $-4x + 1 = 0 \\implies x = 0.25$. This gives exactly one unique solution, so $m = 1$ is valid.\n <li>Case 2: The equation is quadratic ($m \\neq 1$) and has equal roots ($D = 0$):\n \\[ D = [-2(m+1)]^2 - 4(m-1)m = 4(m^2 + 2m + 1) - 4(m^2 - m) = 4(3m + 1) \\]\n Set $D = 0 \\implies 4(3m + 1) = 0 \\implies m = -\\frac{1}{3}$. Since $-\\frac{1}{3} \\neq 1$, this value is also completely valid.\n </ul>\n <strong>Final Answer:</strong> $m \\in \\{1, -\\frac{1}{3}\\}$."
+            },
+            {
+              "number": 3,
+              "problem": "<p>Find the roots of the quadratic equation with complex coefficients: $x^2 - 2ix - 3 = 0$.</p>",
+              "solution": "<p>Apply the standard quadratic formula directly, noting that $a = 1$, $b = -2i$, and $c = -3$:\n \\[ x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} = \\frac{-(-2i) \\pm \\sqrt{(-2i)^2 - 4(1)(-3)}}{2(1)} \\]\n Calculate the values inside the radical sign: $(-2i)^2 = 4i^2 = -4$. Thus:\n \\[ x = \\frac{2i \\pm \\sqrt{-4 + 12}}{2} = \\frac{2i \\pm \\sqrt{8}}{2} = \\frac{2i \\pm 2\\sqrt{2}}{2} = i \\pm \\sqrt{2} \\]\n Notice that because the coefficients are complex, the roots ($ \\sqrt{2} + i $ and $-\\sqrt{2} + i$) are not complex conjugates of each other.\n <strong>Final Answer:</strong> $x = \\sqrt{2} + i, -\\sqrt{2} + i$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The number of real solutions of the equation $|x^2 + 4x + 3| + 2x + 5 = 0$ is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If the equation $(k^2 - 3k + 2)x^2 + (k^2 - 1)x + k^2 - 4 = 0$ is satisfied for more than two distinct real values of $x$, then the value of $k$ is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$-1$",
+                "No such value exists"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The roots of the equation $ax^2 + bx + c = 0$ are non-real conjugates if and only if:",
+              "options": [
+                "$b^2 - 4ac < 0$ and $a,b,c \\in \\mathbb{R}$",
+                "$b^2 - 4ac < 0$ and $a,b,c \\in \\mathbb{C}$",
+                "$b^2 - 4ac = 0$",
+                "$a,b,c$ are imaginary integers"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The equation $\\sqrt{x+1} - \\sqrt{x-1} = \\sqrt{4x-1}$ has:",
+              "options": [
+                "No real solution",
+                "Exactly one real solution",
+                "Exactly two real solutions",
+                "Infinitely many solutions"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $x^2 - 3x + 2 = 0$ and $x^2 - x - 2 = 0$ share a root, the value of that shared parameter is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$-1$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "The Discriminant ($D$) & Nature of Roots",
+          "concept": "<p>The structural identity of the roots of a real-coefficient quadratic equation is dictated entirely by its discriminant, $D = b^2 - 4ac$. If $D > 0$, the roots are real and distinct; if $D = 0$, they are real and coincident (forming a perfect square graph). If $D < 0$, they form non-real complex conjugate pairs $p \\pm iq$. A critical JEE-level corollary states that if $a, b, c$ are rational numbers ($\\mathbb{Q}$) and $D$ is a perfect square, the roots are rational. Otherwise, irrational roots will always emerge as surd conjugate pairs $p \\pm \\sqrt{q}$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>If $a, b, c$ are distinct odd integers, prove that the roots of the equation $ax^2 + bx + c = 0$ cannot be rational.</p>",
+              "solution": "<p>For the roots to be rational when the coefficients are integers, the discriminant $D = b^2 - 4ac$ must be a perfect square of an integer. Let $D = k^2$ for some integer $k$.<br>\n Since $a, b, c$ are odd integers, let us look at the expression modulo 8:\n Any odd integer squared is always congruent to 1 modulo 8 ($1^2 \\equiv 1, 3^2 \\equiv 9 \\equiv 1, 5^2 \\equiv 25 \\equiv 1, 7^2 \\equiv 49 \\equiv 1$).\n Thus, $b^2 \\equiv 1 \\pmod 8$.<br>\n Now let us look at the second term, $4ac$: since both $a$ and $c$ are odd, their product $ac$ is also odd. Multiplying an odd number by 4 always yields:\n \\[ 4ac = 4(\\text{odd}) \\equiv 4 \\pmod 8 \\]\n Now evaluate the full discriminant modulo 8:\n \\[ D = b^2 - 4ac \\equiv 1 - 4 \\equiv -3 \\equiv 5 \\pmod 8 \\]\n However, a perfect square integer $k^2$ can only be congruent to $0, 1,$ or $4$ modulo 8. It can never be congruent to $5 \\pmod 8$. This is a contradiction, which proves that $D$ cannot be a perfect square. Therefore, the roots cannot be rational.\n <strong>Final Answer:</strong> Proved.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find all values of the parameter $p$ for which the quadratic expression $(p+4)x^2 - 2px + (p-3) = 0$ has real roots.</p>",
+              "solution": "<p>For the equation to have real roots, its discriminant must be non-negative ($D \\ge 0$), and we must ensure the leading coefficient does not vanish ($p+4 \\neq 0 \\implies p \\neq -4$).\n \\[ D = (-2p)^2 - 4(p+4)(p-3) \\ge 0 \\]\n Expand the terms:\n \\[ 4p^2 - 4(p^2 + p - 12) \\ge 0 \\implies 4p^2 - 4p^2 - 4p + 48 \\ge 0 \\]\n Simplify the linear inequality:\n \\[ -4p + 48 \\ge 0 \\implies 4p \\le 48 \\implies p \\le 12 \\]\n Combine this with the quadratic condition $p \\neq -4$ to write the final set:\n \\[ p \\in (-\\infty, -4) \\cup (-4, 12] \\]\n <strong>Final Answer:</strong> $p \\in (-\\infty, -4) \\cup (-4, 12]$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>If the roots of the equation $(b-c)x^2 + (c-a)x + (a-b) = 0$ are equal, prove that $2b = a+c$.</p>",
+              "solution": "<p>Notice that the sum of the coefficients equals zero: $(b-c) + (c-a) + (a-b) = 0$. This means that $x = 1$ is automatically a root of this equation.<br>\n The problem states that the roots are equal ($D=0$), which means both roots must be exactly 1.\n Using the product of roots formula ($\\alpha\\beta = \\frac{\\text{constant term}}{\\text{leading coefficient}}$):\n \\[ 1 \\times 1 = \\frac{a-b}{b-c} \\implies b-c = a-b \\]\n Rearranging the terms gives:\n \\[ 2b = a + c \\]\n This proves that the coefficients $a, b, c$ form an Arithmetic Progression (AP).\n <strong>Final Answer:</strong> Proved.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If $a, b, c \\in \\mathbb{Q}$ and the roots of $(a+2b-3c)x^2 + (b+2c-3a)x + (c+2a-3b) = 0$ are rational, then the roots are always:",
+              "options": [
+                "Real and equal",
+                "Rational",
+                "Complex and distinct",
+                "Imaginary"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If the discriminant of a quadratic equation satisfies $D < 0$, and one root is $3 - 4i$, then the other root is unconditionally $3 + 4i$ provided:",
+              "options": [
+                "The coefficients are real",
+                "The coefficients are imaginary",
+                "The coefficients are rational",
+                "The leading coefficient is 1"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The number of values of $k$ for which the equation $x^2 - 2(1+3k)x + 7(3+2k) = 0$ has equal roots is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$0$",
+                "Infinite"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If the expression $x^2 + 2(a+1)x + (a^2 - 1) = 0$ has real roots, the range of the value $a$ is:",
+              "options": [
+                "$a \\ge -1$",
+                "$a \\le -1$",
+                "$a \\in \\mathbb{R}$",
+                "$a \\ge 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $D_1$ and $D_2$ are the discriminants of two quadratic equations $x^2 + ax + b = 0$ and $x^2 + cx + d = 0$, and $ac = 2(b+d)$, then:",
+              "options": [
+                "At least one of $D_1, D_2$ must be non-negative",
+                "Both $D_1$ and $D_2$ must be negative",
+                "Both $D_1$ and $D_2$ must be positive",
+                "$D_1 = D_2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Advanced Theory of Roots",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Newton's Sums Relation",
+          "concept": "<p>Newton’s Sums identity provides a powerful recursive method to solve high-power symmetric root expressions without ever calculating the individual roots. If $\\alpha$ and $\\beta$ are the roots of the quadratic equation $ax^2 + bx + c = 0$, and we define a power sum function $S_n = \\alpha^n + \\beta^n$ (or $S_n = \\gamma\\alpha^n + \\delta\\beta^n$), then for any integer $n \\ge 2$, the following linear recurrence relation holds true: $aS_n + bS_{n-1} + cS_{n-2} = 0$. This formula can save a massive amount of time on complex high-power matrix calculations in JEE Advanced.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Let $\\alpha, \\beta$ be the roots of $x^2 - 6x - 2 = 0$. If $a_n = \\alpha^n - \\beta^n$ for $n \\ge 1$, evaluate the value of the expression $E = \\frac{a_{10} - 2a_8}{2a_9}$.</p>",
+              "solution": "<p>Notice that $a_n = \\alpha^n - \\beta^n$ matches the exact operational structure of Newton's Sums. The base coefficients of our quadratic equation are $a = 1$, $b = -6$, and $c = -2$.<br>\n Write out the Newton's Sums recurrence relation for $n = 10$:\n \\[ 1a_{10} - 6a_{10-1} - 2a_{10-2} = 0 \\implies a_{10} - 6a_9 - 2a_8 = 0 \\]\n Isolate the terms that appear in our target expression ($a_{10} - 2a_8$):\n \\[ a_{10} - 2a_8 = 6a_9 \\]\n Now substitute this identity directly into the numerator of our expression $E$:\n \\[ E = \\frac{6a_9}{2a_9} \\]\n Since $\\alpha \\neq \\beta$, $a_9 \\neq 0$, so we can cancel $a_9$ from both the top and bottom:\n \\[ E = \\frac{6}{2} = 3 \\]\n <strong>Final Answer:</strong> $3$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>If $\\alpha, \\beta$ are the roots of the equation $x^2 - x - 1 = 0$, find the value of $S_5 = \\alpha^5 + \\beta^5$ using recursive strategies.</p>",
+              "solution": "The coefficients of our quadratic equation are $a = 1$, $b = -1$, and $c = -1$. The recursive formula is:\n \\[ S_n - S_{n-1} - S_{n-2} = 0 \\implies S_n = S_{n-1} + S_{n-2} \\]\n Let us calculate the primary initial values for the sequence manually:\n <ul>\n <li>$S_0 = \\alpha^0 + \\beta^0 = 1 + 1 = 2$\n <li>$S_1 = \\alpha^1 + \\beta^1 = -\\frac{b}{a} = -\\frac{-1}{1} = 1$\n </ul>\n Now apply the recursive rule step-by-step to find higher powers:\n <ul>\n <li>$S_2 = S_1 + S_0 = 1 + 2 = 3$\n <li>$S_3 = S_2 + S_1 = 3 + 1 = 4$\n <li>$S_4 = S_3 + S_2 = 4 + 3 = 7$\n <li>$S_5 = S_4 + S_3 = 7 + 4 = 11$\n </ul>\n This recursive chain is much faster than attempting to raise golden ratio fractions to the fifth power.\n <strong>Final Answer:</strong> $11$."
+            },
+            {
+              "number": 3,
+              "problem": "<p>If $\\alpha$ and $\\beta$ are the roots of $5x^2 + 3x - 7 = 0$, and $V_n = \\alpha^n + \\beta^n$, write the structural connection link isolating $V_{12}$ using $V_{11}$ and $V_{10}$.</p>",
+              "solution": "<p>Identify the base coefficients from the given equation: $a = 5, b = 3, c = -7$.<br>\n Apply the Newton's Sums recurrence relation formula by choosing $n = 12$:\n \\[ aV_{12} + bV_{11} + cV_{10} = 0 \\]\n Substitute the values of the coefficients:\n \\[ 5V_{12} + 3V_{11} - 7V_{10} = 0 \\]\n Isolate $5V_{12}$ to complete the structural connection statement:\n \\[ 5V_{12} = 7V_{10} - 3V_{11} \\]\n <strong>Final Answer:</strong> $5V_{12} + 3V_{11} - 7V_{10} = 0$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Let $\\alpha, \\beta$ be the roots of $x^2 - 5x + 3 = 0$. If $S_n = \\alpha^n + \\beta^n$, then the value of $\\frac{S_6 + 3S_4}{S_5}$ is:",
+              "options": [
+                "$3$",
+                "$5$",
+                "$15$",
+                "$2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\alpha, \\beta$ are the roots of $2x^2 + 5x + 4 = 0$ and $A_n = \\alpha^n + \\beta^n$, then the value of $2A_8 + 5A_7 + 4A_6$ is exactly:",
+              "options": [
+                "$0$",
+                "$4$",
+                "$-5$",
+                "$2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "For the equation $x^2 - \\sqrt{2}x - 1 = 0$, with roots $p$ and $q$, if $U_n = p^n + q^n$, then $U_4$ equals:",
+              "options": [
+                "$4$",
+                "$6$",
+                "$2\\sqrt{2}$",
+                "$1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Newton's sums recurrence relation $\\sum aS_n + bS_{n-1} + cS_{n-2} = 0$ is valid for:",
+              "options": [
+                "Only positive indices $n$",
+                "All integer values of $n$ where terms are defined",
+                "Real non-integer indices",
+                "Only when $D \\ge 0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\alpha, \\beta$ are roots of $x^2 - x - 3 = 0$ and $P_n = \\alpha^n - \\beta^n$, then the value of $P_5 - P_4$ is:",
+              "options": [
+                "$3P_3$",
+                "$-3P_3$",
+                "$P_3$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Location of Roots Constraints",
+          "concept": "<p>Location of Roots involves finding conditions on a parameter such that the roots of a quadratic equation fall within specified real intervals. Let $f(x) = ax^2 + bx + c$. The three fundamental conditions used to build constraints are the sign of the discriminant ($D$), the position of the vertex ($-\\frac{b}{2a}$), and the values of the function at the interval endpoints ($f(k)$). For example, both roots are strictly greater than a threshold $k$ if and only if $D \\ge 0$, $a \\cdot f(k) > 0$, and $-\\frac{b}{2a} > k$ simultaneously.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find all real values of the parameter $a$ for which both roots of the quadratic equation $x^2 - 6ax + (9a^2 - 2a + 2) = 0$ are strictly greater than 3.</p>",
+              "solution": "Let $f(x) = x^2 - 6ax + 9a^2 - 2a + 2$. The target threshold is $k = 3$. Since the leading coefficient is $1 > 0$, the parabola opens upward. Enforce the three conditions simultaneously:\n <ol>\n <li>Discriminant condition ($D \\ge 0$):\n \\[ D = (-6a)^2 - 4(1)(9a^2 - 2a + 2) \\ge 0 \\implies 36a^2 - 36a^2 + 8a - 8 \\ge 0 \\implies 8a \\ge 8 \\implies a \\ge 1 \\]\n <li>Endpoint functional metric ($1 \\cdot f(3) > 0$):\n \\[ f(3) = 3^2 - 6a(3) + 9a^2 - 2a + 2 > 0 \\implies 9 - 18a + 9a^2 - 2a + 2 > 0 \\]\n Combine terms into a standard quadratic inequality:\n \\[ 9a^2 - 20a + 11 > 0 \\implies (9a - 11)(a - 1) > 0 \\]\n This inequality is satisfied for: $a \\in (-\\infty, 1) \\cup (\\frac{11}{9}, \\infty)$.\n <li>Vertex position condition ($-\\frac{b}{2a} > 3$):\n \\[ -\\frac{-6a}{2(1)} > 3 \\implies 3a > 3 \\implies a > 1 \\]\n </ol>\n Now find the intersection of all three conditions:\n Condition (i) requires $a \\in [1, \\infty)$. Condition (iii) refines this to $a \\in (1, \\infty)$.\n Intersecting with Condition (ii) removes the values between 1 and $\\frac{11}{9}$.\n Thus, the valid interval is $a \\in (\\frac{11}{9}, \\infty)$.\n <strong>Final Answer:</strong> $a \\in (\\frac{11}{9}, \\infty)$."
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the range of $k$ for which exactly one root of the equation $x^2 - kx + 4 = 0$ lies inside the open interval $(1, 3)$.</p>",
+              "solution": "<p>The condition for exactly one root to lie inside an open interval $(k_1, k_2)$ is that the values of the function at the endpoints must have opposite signs: $f(k_1) \\cdot f(k_2) < 0$.<br>\n Let $f(x) = x^2 - kx + 4$. Calculate the values at the endpoints $x = 1$ and $x = 3$:\n \\[ f(1) = 1^2 - k(1) + 4 = 5 - k \\]\n \\[ f(3) = 3^2 - k(3) + 4 = 13 - 3k \\]\n Set up the product inequality:\n \\[ (5 - k)(13 - 3k) < 0 \\]\n Multiply by $-1$ twice to change the signs of both linear factors, which leaves the direction of the inequality sign unchanged:\n \\[ (k - 5)(3k - 13) < 0 \\]\n Using the wavy-curve method, the product is negative between the two roots $k = \\frac{13}{3}$ and $k = 5$.\n Thus, $k \\in (\\frac{13}{3}, 5)$. (Note: We must double-check that the endpoints do not create a condition where a root lands exactly on an endpoint, which is excluded by the open interval).\n <strong>Final Answer:</strong> $k \\in (\\frac{13}{3}, 5)$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Find the conditions on $m$ such that both roots of $x^2 - 2mx + m^2 - 1 = 0$ lie inside the interval $(-2, 4)$.</p>",
+              "solution": "Let $f(x) = x^2 - 2mx + m^2 - 1$. The parabola opens upward since the leading coefficient is 1. Enforce the required conditions:\n <ol>\n <li>Discriminant condition ($D \\ge 0$):\n \\[ D = (-2m)^2 - 4(1)(m^2 - 1) = 4m^2 - 4m^2 + 4 = 4 > 0 \\]\n Since $D = 4$, the roots are real and distinct for all values of $m$.\n <li>Endpoint values must be positive ($f(-2) > 0$ and $f(4) > 0$):\n \\[ f(-2) = (-2)^2 - 2m(-2) + m^2 - 1 = m^2 + 4m + 3 > 0 \\implies (m+1)(m+3) > 0 \\]\n This gives the interval: $m \\in (-\\infty, -3) \\cup (-1, \\infty)$.\n \\[ f(4) = 4^2 - 2m(4) + m^2 - 1 = m^2 - 8m + 15 > 0 \\implies (m-3)(m-5) > 0 \\]\n This gives the interval: $m \\in (-\\infty, 3) \\cup (5, \\infty)$.\n Intersecting these two intervals yields: $m \\in (-\\infty, -3) \\cup (-1, 3) \\cup (5, \\infty)$.\n <li>Vertex position condition ($-2 < -\\frac{b}{2a} < 4$):\n \\[ -2 < -\\frac{-2m}{2(1)} < 4 \\implies -2 < m < 4 \\]\n </ol>\n Now find the final intersection of all the conditions:\n We must intersect the valid vertex interval $m \\in (-2, 4)$ with our endpoint values set from step (ii).\n The values that overlap are: $m \\in (-1, 3)$.\n <strong>Final Answer:</strong> $m \\in (-1, 3)$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If both roots of the equation $x^2 - 2kx + k^2 - 1 = 0$ are less than 5, then the parameter $k$ must satisfy:",
+              "options": [
+                "$k < 4$",
+                "$k < 6$",
+                "$k \\in (4, 6)$",
+                "$k > 5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\alpha, \\beta$ are the roots of $x^2 - 2mx + m^2 - 4 = 0$, and $\\alpha < 0 < \\beta$, then the range of $m$ is:",
+              "options": [
+                "$m \\in (-2, 2)$",
+                "$m > 2$",
+                "$m < -2$",
+                "$m \\in \\mathbb{R}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The number of integral values of $m$ for which the roots of $x^2 - 2mx + m^2 - 1 = 0$ lie between $-1$ and $3$ is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$0$",
+                "$3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the roots of $x^2 - 4x + a = 0$ are real and distinct, and exactly one root lies in $(1, 2)$, then:",
+              "options": [
+                "$3 < a < 4$",
+                "$0 < a < 3$",
+                "$a < 3$",
+                "No such value exists"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "For the upward parabola $f(x) = ax^2 + bx + c$, the condition $f(k_1) \\cdot f(k_2) < 0$ guarantees that:",
+              "options": [
+                "Both roots lie within $(k_1, k_2)$",
+                "Exactly one real root lies within $(k_1, k_2)$",
+                "No roots lie within $(k_1, k_2)$",
+                "The roots are non-real conjugates"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Rational Functions and Range",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Range of Quadratic-over-Quadratic Expressions",
+          "concept": "<p>To find the range of a rational expression of the form $y = \\frac{a_1x^2 + b_1x + c_1}{a_2x^2 + b_2x + c_2}$ for real values of $x$, cross-multiply and rearrange the terms into a standard quadratic equation in $x$: $(a_1 - ya_2)x^2 + (b_1 - yb_2)x + (c_1 - yc_2) = 0$. Since $x$ is real, set its discriminant to be non-negative ($D \\ge 0$). This forms a quadratic inequality in terms of $y$, which can be solved to find the range. Always check the boundary values where the leading coefficient of $x^2$ vanishes ($a_1 - ya_2 = 0$) to see if they yield valid real values for $x$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the range of the rational expression $y = \\frac{x^2 - x + 1}{x^2 + x + 1}$ for all $x \\in \\mathbb{R}$.</p>",
+              "solution": "<p>First, verify that the denominator $x^2 + x + 1$ is never zero. Its discriminant is $1^2 - 4(1)(1) = -3 < 0$, so the denominator is strictly positive for all real $x$. The function is well-defined everywhere.<br>\n Cross-multiply to rearrange the expression:\n \\[ y(x^2 + x + 1) = x^2 - x + 1 \\implies yx^2 + yx + y = x^2 - x + 1 \\]\n Group the terms into a standard quadratic equation in terms of $x$:\n \\[ (y - 1)x^2 + (y + 1)x + (y - 1) = 0 \\]\n Since $x$ is a real number ($x \\in \\mathbb{R}$), the discriminant of this quadratic equation must be non-negative ($D \\ge 0$):\n \\[ D = (y + 1)^2 - 4(y - 1)(y - 1) \\ge 0 \\]\n Expand the terms:\n \\[ (y^2 + 2y + 1) - 4(y^2 - 2y + 1) \\ge 0 \\implies y^2 + 2y + 1 - 4y^2 + 8y - 4 \\ge 0 \\]\n Combine like terms to simplify the inequality:\n \\[ -3y^2 + 10y - 3 \\ge 0 \\]\n Multiply by $-1$ and flip the direction of the inequality sign:\n \\[ 3y^2 - 10y + 3 \\le 0 \\implies (3y - 1)(y - 3) \\le 0 \\]\n Using the wavy-curve method, the inequality is satisfied for values of $y$ between the two roots:\n \\[ y \\in \\left[ \\frac{1}{3}, 3 \\right] \\]\n We must check the boundary value where the leading coefficient vanishes ($y - 1 = 0 \\implies y = 1$). If $y = 1$, the equation becomes $2x = 0 \\implies x = 0$, which is a valid real number. Therefore, $y = 1$ is included in the range.\n <strong>Final Answer:</strong> Range $\\in [\\frac{1}{3}, 3]$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the maximum and minimum values of the function $f(x) = \\frac{x}{x^2 - 5x + 9}$ for real $x$.</p>",
+              "solution": "<p>Set the function equal to $y$:\n \\[ y = \\frac{x}{x^2 - 5x + 9} \\implies y(x^2 - 5x + 9) = x \\]\n Rearrange the terms into a standard quadratic equation in $x$:\n \\[ yx^2 - (5y + 1)x + 9y = 0 \\]\n Since $x \\in \\mathbb{R}$, enforce the condition $D \\ge 0$:\n \\[ D = [-(5y + 1)]^2 - 4(y)(9y) \\ge 0 \\]\n Expand and simplify the terms:\n \\[ (25y^2 + 10y + 1) - 36y^2 \\ge 0 \\implies -11y^2 + 10y + 1 \\ge 0 \\]\n Multiply by $-1$ and flip the inequality sign:\n \\[ 11y^2 - 10y - 1 \\le 0 \\implies (11y + 1)(y - 1) \\le 0 \\]\n Using the wavy-curve method, the interval is:\n \\[ y \\in \\left[ -\\frac{1}{11}, 1 \\right] \\]\n Thus, the minimum value is $-\\frac{1}{11}$ and the maximum value is $1$.\n <strong>Final Answer:</strong> Minimum = $-\\frac{1}{11}$, Maximum = $1$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Find the range of $y = \\frac{x^2 + 2x + c}{x^2 + 4x + 3c}$ if the expression can take all real values ($y \\in \\mathbb{R}$).</p>",
+              "solution": "<p>Cross-multiply and rearrange into a quadratic equation in $x$:\n \\[ (y - 1)x^2 + (4y - 2)x + (3cy - c) = 0 \\]\n Enforce the condition $D \\ge 0$ for real $x$:\n \\[ D = (4y - 2)^2 - 4(y - 1)c(3y - 1) \\ge 0 \\]\n Divide the inequality by 4:\n \\[ (2y - 1)^2 - c(y - 1)(3y - 1) \\ge 0 \\]\n Expand the terms to form a quadratic inequality in terms of $y$:\n \\[ (4y^2 - 4y + 1) - c(3y^2 - 4y + 1) \\ge 0 \\implies (4 - 3c)y^2 - 4(1 - c)y + (1 - c) \\ge 0 \\]\n The problem states that this inequality must hold true for <strong>all real values of $y$</strong> ($y \\in \\mathbb{R}$). For a quadratic expression to be non-negative for all real values, its leading coefficient must be positive ($4 - 3c > 0 \\implies c < \\frac{4}{3}$) and its discriminant relative to $y$ must be less than or equal to zero ($D_y \\le 0$):\n \\[ D_y = [-4(1-c)]^2 - 4(4-3c)(1-c) \\le 0 \\]\n Divide by 4 and factor out $(1-c)$:\n \\[ 4(1-c)^2 - (4-3c)(1-c) \\le 0 \\implies (1-c)[4(1-c) - (4-3c)] \\le 0 \\]\n Simplify the inner expression:\n \\[ (1-c)[4 - 4c - 4 + 3c] \\le 0 \\implies (1-c)(-c) \\le 0 \\implies c(c-1) \\le 0 \\]\n This inequality is satisfied for the interval $c \\in [0, 1]$. Since this entire interval is strictly less than $\\frac{4}{3}$, it is completely valid.\n <strong>Final Answer:</strong> $c \\in [0, 1]$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The range of the function $f(x) = \\frac{x^2 + 34x - 71}{x^2 + 2x - 7}$ for real values of $x$ is:",
+              "options": [
+                "$[5, 9]$",
+                "$(-\\infty, 5] \\cup [9, \\infty)$",
+                "$\\mathbb{R}$",
+                "$(-\\infty, \\infty)$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $y = \\frac{x^2 - 2x + 4}{x^2 + 2x + 4}$ for $x \\in \\mathbb{R}$, then the range of $y$ is:",
+              "options": [
+                "$[\\frac{1}{3}, 3]$",
+                "$[0, \\infty)$",
+                "$(\\frac{1}{3}, 3)$",
+                "$[-3, 3]$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the expression $y = \\frac{x+2}{2x^2 + 3x + 6}$ is real, its maximum possible value is:",
+              "options": [
+                "$\\frac{1}{3}$",
+                "$\\frac{1}{6}$",
+                "$1$",
+                "$\\frac{2}{3}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "While finding the range of a rational function, if the condition $D \\ge 0$ yields $y^2 - 4 \\le 0$, we must include the value where the leading coefficient of $x^2$ is 0 if it yields:",
+              "options": [
+                "An imaginary value for $x$",
+                "A valid real value for $x$",
+                "A division by zero error",
+                "No solution"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $y = \\frac{x^2 + ax + 1}{x^2 + x + 1}$ can take all real values ($y \\in \\mathbb{R}$), then the parameter $a$ must satisfy:",
+              "options": [
+                "$a \\in \\mathbb{R}$",
+                "No such real value of $a$ exists",
+                "$a \\in [-1, 1]$",
+                "$a > 2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Theory of Equations (Higher Degree)",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Descartes' Rule & Intermediate Value Theorem",
+          "concept": "<p>Descartes' Rule of Signs sets an upper limit on the number of real roots a polynomial equation can have. The maximum number of positive real roots equals the number of sign changes between consecutive coefficients in $P(x)$. Similarly, the maximum number of negative real roots equals the number of sign changes in $P(-x)$. The Intermediate Value Theorem (IVT) proves the existence of roots within an interval: if a polynomial function satisfies $P(a) \\cdot P(b) < 0$, the curve must cross the x-axis at least once, meaning there is at least one real root inside the open interval $(a, b)$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Analyze the nature of the roots of the higher-degree polynomial equation $P(x) = x^5 - x + 1 = 0$ using Descartes' Rule of Signs.</p>",
+              "solution": "Let us count the sign changes in the coefficients of $P(x)$:\n The signs of the terms are: $+1$ (for $x^5$), $-1$ (for $-x$), and $+1$ (for $+1$).\n <ul>\n <li>First change: from $+1$ to $-1$ (1 sign change).\n <li>Second change: from $-1$ to $+1$ (1 sign change).\n </ul>\n There are a total of 2 sign changes in $P(x)$. By Descartes' Rule, the maximum number of positive real roots is 2.<br>\n Now let us analyze $P(-x)$ to find the limit on negative real roots:\n \\[ P(-x) = (-x)^5 - (-x) + 1 = -x^5 + x + 1 \\]\n The signs of the terms are: $-1, +1, +1$.\n There is exactly 1 sign change (from $-1$ to $+1$). Therefore, the equation has exactly 1 negative real root.<br>\n Let us use calculus to find the exact number of positive real roots: $P'(x) = 5x^4 - 1$. Setting $P'(x) = 0 \\implies x = \\pm(0.2)^{-1/4}$. Analyzing the local minimum shows it is positive, which means the graph never dips below the x-axis in the positive domain.\n Thus, the equation has exactly 0 positive real roots, 1 negative real root, and 4 complex roots.\n <strong>Final Answer:</strong> 1 negative real root and 4 complex roots."
+            },
+            {
+              "number": 2,
+              "problem": "<p>Prove that the cubic equation $x^3 - 3x + 1 = 0$ has at least one real root lying inside the open interval $(0, 1)$.</p>",
+              "solution": "<p>Let $P(x) = x^3 - 3x + 1$. Since $P(x)$ is a polynomial function, it is continuous everywhere. Let us evaluate the value of the function at the interval endpoints $x = 0$ and $x = 1$:\n \\[ P(0) = 0^3 - 3(0) + 1 = 1 \\quad (\\text{which is } > 0) \\]\n \\[ P(1) = 1^3 - 3(1) + 1 = -1 \\quad (\\text{which is } < 0) \\]\n Calculate the product of the endpoint values:\n \\[ P(0) \\cdot P(1) = 1 \\times (-1) = -1 < 0 \\]\n Since the function values at the endpoints have opposite signs, the Intermediate Value Theorem (IVT) guarantees that the continuous curve must cross the x-axis at least once inside the interval. Therefore, there is at least one real root in $(0, 1)$.\n <strong>Final Answer:</strong> Proved.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Show that the polynomial equation $x^7 + x^5 + x^3 + x = 0$ has exactly one real root.</p>",
+              "solution": "Factor out $x$ from the polynomial expression:\n \\[ x(x^6 + x^4 + x^2 + 1) = 0 \\]\n This splits the equation into two branches:\n <ul>\n <li>Branch 1: $x = 0$. This is a valid real root.\n <li>Branch 2: $x^6 + x^4 + x^2 + 1 = 0$.\n </ul>\n Let us analyze Branch 2: For any real value of $x$, even powers are always non-negative ($x^6 \\ge 0, x^4 \\ge 0, x^2 \\ge 0$). Adding 1 means the expression is strictly positive ($x^6 + x^4 + x^2 + 1 \\ge 1$) for all real $x$.\n Therefore, Branch 2 cannot produce any real roots. The only real root of the equation is $x = 0$.\n <strong>Final Answer:</strong> Exactly 1 real root ($x = 0$)."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The maximum possible number of real roots for the equation $x^4 - x^3 - x^2 + 1 = 0$ is:",
+              "options": [
+                "$2$",
+                "$4$",
+                "$3$",
+                "$1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $P(x) = 0$ is a polynomial equation with real coefficients, and $P(1) = -5$ and $P(2) = 10$, then the interval $(1, 2)$ contains:",
+              "options": [
+                "Exactly one real root",
+                "At least one real root",
+                "Zero real roots",
+                "Exactly two real roots"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The total number of positive real solutions to the equation $x^9 + 5x^4 + 2x^2 + 7 = 0$ is:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$4$",
+                "$9$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "According to Descartes' Rule, if a polynomial $P(x)$ has 3 sign changes, the actual number of positive real roots can be:",
+              "options": [
+                "Only 3",
+                "3 or 1",
+                "3, 2, or 1",
+                "3 or 0"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The equation $x^5 + 2x - 7 = 0$ has:",
+              "options": [
+                "Exactly 1 positive real root",
+                "5 real roots",
+                "3 real roots",
+                "No real roots"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Common Roots",
+      "topics": [
+        {
+          "number": 1,
+          "title": "One or Both Roots Common Conditions",
+          "concept": "<p>When two quadratic equations share roots, specific algebraic conditions must be met. If both roots are common, the equations are completely identical, meaning their corresponding coefficients are directly proportional: $\\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2}$. If exactly one root $\\alpha$ is shared, we substitute $\\alpha$ into both equations ($\\mathstrut a_1\\alpha^2 + b_1\\alpha + c_1 = 0$ and $a_2\\alpha^2 + b_2\\alpha + c_2 = 0$) and use Cramer's Rule to eliminate $\\alpha$. This yields the one-common-root condition formula: $(a_1c_2 - a_2c_1)^2 = (a_1b_2 - a_2b_1)(b_1c_2 - b_2c_1)$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the value of the parameter $k$ for which the quadratic equations $x^2 - kx - 21 = 0$ and $x^2 - 3kx + 35 = 0$ share exactly one common root.</p>",
+              "solution": "<p>Let $\\alpha$ be the shared common root. Substitute $\\alpha$ into both equations:\n \\[ \\alpha^2 - k\\alpha - 21 = 0 \\quad \\text{--- (Equation 1)} \\]\n \\[ \\alpha^2 - 3k\\alpha + 35 = 0 \\quad \\text{--- (Equation 2)} \\]\n Subtract Equation 1 from Equation 2 to eliminate the quadratic $\\alpha^2$ term:\n \\[ (\\alpha^2 - 3k\\alpha + 35) - (\\alpha^2 - k\\alpha - 21) = 0 \\implies -2k\\alpha + 56 = 0 \\]\n Isolate the common root $\\alpha$ in terms of $k$:\n \\[ 2k\\alpha = 56 \\implies \\alpha = \\frac{28}{k} \\]\n Now substitute this expression for $\\alpha$ back into Equation 1:\n \\[ \\left(\\frac{28}{k}\\right)^2 - k\\left(\\frac{28}{k}\\right) - 21 = 0 \\implies \\frac{784}{k^2} - 28 - 21 = 0 \\]\n Simplify the equation:\n \\[ \\frac{784}{k^2} = 49 \\implies k^2 = \\frac{784}{49} = 16 \\implies k = \\pm 4 \\]\n Both values of $k$ are valid and create exactly one common root.\n <strong>Final Answer:</strong> $k = \\pm 4$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>If the equations $x^2 + 2x + 3 = 0$ and $ax^2 + bx + c = 0$ (where $a,b,c \\in \\mathbb{R}$) share at least one common root, find the value of the ratio $a:b:c$.</p>",
+              "solution": "<p>Let us analyze the nature of the roots of the first equation, $x^2 + 2x + 3 = 0$:\n Its discriminant is $D = 2^2 - 4(1)(3) = 4 - 12 = -8 < 0$. This means the roots are non-real complex conjugates.\n Since the problem states that the second equation has real coefficients ($a,b,c \\in \\mathbb{R}$), its imaginary roots must also emerge as conjugate pairs.<br>\n Therefore, if the two equations share one imaginary root, they <strong>must share the other root as well</strong>. This means both roots are common, so the equations are identical.\n Equate the ratios of their coefficients:\n \\[ \\frac{a}{1} = \\frac{b}{2} = \\frac{c}{3} \\implies a:b:c = 1:2:3 \\]\n This is a standard trap question on both the JEE Main and Advanced exams.\n <strong>Final Answer:</strong> $1:2:3$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Find the condition on $a$ and $b$ such that $x^2 + ax + b = 0$ and $x^2 + bx + a = 0$ have a common root (given $a \\neq b$).</p>",
+              "solution": "<p>Let $\\alpha$ be the shared common root. Substitute $\\alpha$ into both equations:\n \\[ \\alpha^2 + a\\alpha + b = 0 \\]\n \\[ \\alpha^2 + b\\alpha + a = 0 \\]\n Subtract the two equations to eliminate $\\alpha^2$:\n \\[ (a - b)\\alpha + (b - a) = 0 \\implies (a - b)\\alpha = a - b \\]\n Since the problem states $a \\neq b$, we can divide both sides by $(a - b)$ to find the common root:\n \\[ \\alpha = 1 \\]\n Now substitute the value $\\alpha = 1$ back into the first equation:\n \\[ 1^2 + a(1) + b = 0 \\implies 1 + a + b = 0 \\]\n This gives the required condition: $a + b + 1 = 0$.\n <strong>Final Answer:</strong> $a + b + 1 = 0$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If $x^2 - kx - 6 = 0$ and $x^2 - 5x - k = 0$ share a common root, the number of possible values of the parameter $k$ is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$0$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If the equations $2x^2 + kx + 5 = 0$ and $x^2 - 3x - 4 = 0$ share exactly one common root, that shared root must belong to which set?",
+              "options": [
+                "$\\{4, -1\\}$",
+                "$\\{1, -4\\}$",
+                "$\\{2, 5\\}$",
+                "$\\{0, 1\\}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $x^2 + 3x + 5 = 0$ and $ax^2 + bx + c = 0$ share a root and $a,b,c \\in \\mathbb{R}$, then $\\frac{a+c}{b}$ is:",
+              "options": [
+                "$2$",
+                "$1$",
+                "$3$",
+                "Dependent on $a$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The condition for both roots of $a_1x^2 + b_1x + c_1 = 0$ and $a_2x^2 + b_2x + c_2 = 0$ to be common requires:",
+              "options": [
+                "Proportional coefficients",
+                "Equal discriminants",
+                "Zero coefficients",
+                "Imaginary factors"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $x^2 - 11x + a = 0$ and $x^2 - 14x + 2a = 0$ share a non-zero common root, the value of $a$ is:",
+              "options": [
+                "$24$",
+                "$0$",
+                "$12$",
+                "$6$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Maximum and Minimum Values",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Parabolic Extrema Vertex Coordinate Properties",
+          "concept": "<p>The graph of a real quadratic function $f(x) = ax^2 + bx + c$ forms a vertical parabola. The direction the parabola opens depends on the sign of its leading coefficient $a$, and its turning point (vertex) occurs at $x = -\\frac{b}{2a}$. If $a > 0$, the parabola opens upward, so the function has a global <strong>minimum value</strong> equal to $-\\frac{D}{4a}$ at $x = -\\frac{b}{2a}$. If $a < 0$, the parabola opens downward, so the function has a global <strong>maximum value</strong> equal to $-\\frac{D}{4a}$ at $x = -\\frac{b}{2a}$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the minimum value of the quadratic function $f(x) = 3x^2 - 4x + 7$ over the domain $x \\in \\mathbb{R}$.</p>",
+              "solution": "<p>Identify the coefficients of the quadratic function: $a = 3$, $b = -4$, and $c = 7$.\n Since the leading coefficient is $a = 3 > 0$, the parabola opens upward, meaning the function has a global minimum value at its vertex.<br>\n Let us first calculate the discriminant $D$:\n \\[ D = b^2 - 4ac = (-4)^2 - 4(3)(7) = 16 - 84 = -68 \\]\n Now evaluate the minimum value using the formula $-\\frac{D}{4a}$:\n \\[ \\text{Minimum Value} = -\\frac{-68}{4(3)} = \\frac{68}{12} = \\frac{17}{3} \\]\n This minimum value occurs at the vertex x-coordinate:\n \\[ x = -\\frac{b}{2a} = -\\frac{-4}{2(3)} = \\frac{4}{6} = \\frac{2}{3} \\]\n <strong>Final Answer:</strong> Minimum value is $\\frac{17}{3}$, which occurs at $x = \\frac{2}{3}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the maximum value of the expression $y = 5 + 8x - 4x^2$ for real values of $x$.</p>",
+              "solution": "<p>Rearrange the expression into standard form: $y = -4x^2 + 8x + 5$.\n Identify the coefficients: $a = -4$, $b = 8$, and $c = 5$.<br>\n Since the leading coefficient is $a = -4 < 0$, the parabola opens downward, meaning the function has a global maximum value at its vertex.\n Calculate the discriminant $D$:\n \\[ D = b^2 - 4ac = 8^2 - 4(-4)(5) = 64 + 80 = 144 \\]\n Evaluate the maximum value using the vertex formula $-\\frac{D}{4a}$:\n \\[ \\text{Maximum Value} = -\\frac{144}{4(-4)} = \\frac{144}{16} = 9 \\]\n This peak value occurs at the x-coordinate:\n \\[ x = -\\frac{b}{2a} = -\\frac{8}{2(-4)} = \\frac{-8}{-8} = 1 \\]\n <strong>Final Answer:</strong> Maximum value is $9$, which occurs at $x = 1$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Find the range of the function $f(x) = x^2 - 2x + 5$ when the domain is restricted to the closed interval $x \\in [0, 3]$.</p>",
+              "solution": "<p>A common mistake is to only calculate the values at the endpoints of the interval. We must also check if the vertex falls inside the restricted domain interval.\n Identify the vertex x-coordinate:\n \\[ x_v = -\\frac{b}{2a} = -\\frac{-2}{2(1)} = 1 \\]\n Since $1 \\in [0, 3]$, the vertex lies inside the restricted domain. Since $a = 1 > 0$, the function achieves its global minimum value at this vertex:\n \\[ \\text{Minimum Value} = f(1) = 1^2 - 2(1) + 5 = 4 \\]\n Now evaluate the value of the function at the domain endpoints $x = 0$ and $x = 3$ to find the maximum value:\n \\[ f(0) = 0^2 - 2(0) + 5 = 5 \\]\n \\[ f(3) = 3^2 - 2(3) + 5 = 9 - 6 + 5 = 8 \\]\n Comparing the endpoint values ($5$ and $8$), the maximum value of the function on this interval is $8$.<br>\n Therefore, the range of the function over the restricted domain is $[4, 8]$.\n <strong>Final Answer:</strong> Range $\\in [4, 8]$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The minimum value of the expression $x^2 - x + 1$ for all real $x$ is:",
+              "options": [
+                "$\\frac{3}{4}$",
+                "$\\frac{1}{2}$",
+                "$1$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The maximum value of the function $f(x) = -2x^2 + 6x - 1$ occurs at:",
+              "options": [
+                "$x = \\frac{3}{2}$",
+                "$x = 3$",
+                "$x = -\\frac{3}{2}$",
+                "$x = 1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The range of the function $y = x^2 + 4x + 7$ over the unrestricted domain $x \\in \\mathbb{R}$ is:",
+              "options": [
+                "$[3, \\infty)$",
+                "$(-\\infty, 3]$",
+                "$[7, \\infty)$",
+                "$\\mathbb{R}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a quadratic expression $f(x) = ax^2 + bx + c$ has a negative leading coefficient ($a < 0$), its minimum value over $x \\in \\mathbb{R}$ is:",
+              "options": [
+                "$-\\frac{D}{4a}$",
+                "$-\\infty$",
+                "$0$",
+                "$-\\frac{b}{2a}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The minimum value of $f(x) = x^2 - 6x + 10$ over the restricted interval $x \\in [4, 6]$ is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$10$",
+                "$5$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-math-quadratic-equations-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "If the equations $x^2 + ax + b = 0$ and $x^2 + bx + a = 0$ have exactly one common root, then the value of $(a+b)$ is:",
+              "options": [
+                "$1$",
+                "$-1$",
+                "$0$",
+                "$2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The range of the function $f(x) = \\frac{x^2 - 3x + 4}{x^2 + 3x + 4}$ for all $x \\in \\mathbb{R}$ is:",
+              "options": [
+                "$[\\frac{1}{7}, 7]$",
+                "$(\\frac{1}{7}, 7)$",
+                "$[0, \\infty)$",
+                "$[-7, 7]$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Let $\\alpha, \\beta$ be the roots of $x^2 - 5x - 1 = 0$. If $a_n = \\alpha^n + \\beta^n$, then the value of $\\frac{a_{12} - a_{10}}{a_{11}}$ is equal to:",
+              "options": [
+                "$1$",
+                "$5$",
+                "$-1$",
+                "$3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The number of real solutions of the equation $x^2 - 3|x| + 2 = 0$ is exactly:",
+              "options": [
+                "$2$",
+                "$4$",
+                "$0$",
+                "$1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If both roots of the quadratic equation $x^2 - 4mx + 4m^2 - 1 = 0$ are strictly greater than $-1$, then the parameter $m$ must satisfy:",
+              "options": [
+                "$m > 0$",
+                "$m > -0.5$",
+                "$m \\in (-1, 1)$",
+                "$m < 0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The maximum value of the expression $y = 3 + 4x - 2x^2$ for real values of $x$ is:",
+              "options": [
+                "$5$",
+                "$3$",
+                "$7$",
+                "$\\frac{11}{2}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The total number of positive real roots of the higher-degree equation $x^7 - x^4 + x^2 - 1 = 0$ is at most:",
+              "options": [
+                "$1$",
+                "$3$",
+                "$5$",
+                "$7$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $a, b, c$ are rational numbers and the discriminant of $ax^2 + bx + c = 0$ is $D = 20$, then the roots are always:",
+              "options": [
+                "Rational and distinct",
+                "Irrational conjugate pairs",
+                "Real and equal",
+                "Non-real complex numbers"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The solution set of the inequality $\\log_{2}(x^2 - 3x) \\le 2$ has how many integers?",
+              "options": [
+                "$2$",
+                "$4$",
+                "$0$",
+                "Infinitely many"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the roots of $(q-r)x^2 + (r-p)x + (p-q) = 0$ are real and equal, then $p, q, r$ form an:",
+              "options": [
+                "Arithmetic Progression (AP)",
+                "Geometric Progression (GP)",
+                "Harmonic Progression (HP)",
+                "None of these"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Find the number of real solutions to the radical equation $\\sqrt{x^2 + 1} - x = 2$.",
+              "answer": "1",
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the value of $m$ for which the expression $mx^2 - 2(m+2)x + m + 5 = 0$ has equal roots.",
+              "answer": "4",
+              "explanation": ""
+            },
+            {
+              "q": "Find the minimum integer value of $k$ for which the equation $x^2 - 2kx + 16 = 0$ has real and distinct roots.",
+              "answer": "5",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The quadratic equation $x^2 + 2ix - 1 = 0$ has equal roots, but its roots are not real.<br>\n <strong>Reason (R):</strong> If the discriminant $D = 0$, the roots of a quadratic equation are always real, regardless of whether the coefficients are real or imaginary.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 2,
+              "explanation": "A is true but R is false (equal roots are only real if the coefficients themselves are real numbers)."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> The cubic equation $x^3 - 3x + 1 = 0$ must have at least one real root inside the open interval $(0, 2)$.<br>\n <strong>Reason (R):</strong> If a continuous polynomial function satisfies $P(a) \\cdot P(b) < 0$, there exists at least one real solution to $P(x) = 0$ inside the open interval $(a, b)$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-math-quadratic-equations-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "Let $\\alpha, \\beta$ be the roots of $x^2 - x - 3 = 0$. If $S_n = \\alpha^n + \\beta^n$, then the value of $S_5$ is exactly:",
+              "options": [
+                "$11$",
+                "$31$",
+                "$21$",
+                "$41$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The total number of real roots of the higher-degree equation $x^4 - 4x^3 + 6x^2 - 4x + 2 = 0$ is:",
+              "options": [
+                "$0$",
+                "$2$",
+                "$4$",
+                "$1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The range of the parameter $a$ for which both roots of the equation $x^2 - 2ax + a^2 - 1 = 0$ lie strictly inside the interval $(-3, 5)$ is:",
+              "options": [
+                "$a \\in (-2, 4)$",
+                "$a \\in (-3, 5)$",
+                "$a \\in (-2, 5)$",
+                "$a \\in \\mathbb{R}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The maximum value achieved by the rational expression $y = \\frac{x+1}{x^2 + 4x + 7}$ for real $x$ is:",
+              "options": [
+                "$\\frac{1}{2}$",
+                "$\\frac{1}{6}$",
+                "$1$",
+                "$\\frac{1}{3}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If the quadratic equations $x^2 + ax + b = 0$ and $x^2 + cx + d = 0$ share exactly one common root, and their other roots are non-zero integers, then the condition requires:",
+              "options": [
+                "$(b-d)^2 = (a-c)(bc-ad)$",
+                "$(b-d)^2 = (c-a)(bd-ac)$",
+                "$(a-c)^2 = (b-d)(bc-ad)$",
+                "None of these"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The number of real roots of the equation $\\ln x = -x^2 + 4x - 4$ is exactly:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "$3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $a, b, c$ are distinct real numbers, the roots of the equation $(x-a)(x-b) + (x-b)(x-c) + (x-c)(x-a) = 0$ are always:",
+              "options": [
+                "Real and distinct",
+                "Real and equal",
+                "Imaginary",
+                "Complex with zero real part"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The range of the function $f(x) = \\log_3 (x^2 - 4x + 13)$ over its unrestricted domain is:",
+              "options": [
+                "$[2, \\infty)$",
+                "$[3, \\infty)$",
+                "$(0, \\infty)$",
+                "$\\mathbb{R}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the equation $x^2 - 2(a-1)x + (a+5) = 0$ has roots that are non-real complex numbers, the integer values that $a$ can take lie in the interval:",
+              "options": [
+                "$(-1, 4)$",
+                "$[-1, 4]$",
+                "$(0, 5)$",
+                "$\\emptyset$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $f(x) = a x^2 + b x + c$ satisfies $f(-1) < 1, f(1) > -1,$ and $f(3) < 1$, then the sign of the leading coefficient $a$ must be:",
+              "options": [
+                "Strictly negative ($a < 0$)",
+                "Strictly positive ($a > 0$)",
+                "Zero ($a = 0$)",
+                "Undetermined without $b$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Find the number of distinct real solutions satisfying the equation $(x^2 - 5x + 5)^{x^2 - 9x + 20} = 1$.",
+              "answer": "4",
+              "explanation": ""
+            },
+            {
+              "q": "Find the number of integer values of $x$ in the domain of the function $f(x) = \\sqrt{\\log_{10}(16 - x^2)}$.",
+              "answer": "7",
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the value of the shared common root of the two cubic/quadratic patterns: $x^2 - 5x + 6 = 0$ and $x^3 - 3x^2 + 2x = 0$ that is greater than 1.",
+              "answer": "2",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The expression $f(x) = x^2 + 2x + 5$ is strictly positive ($f(x) > 0$) for all real values of $x$.<br>\n <strong>Reason (R):</strong> If the leading coefficient of a quadratic expression is positive ($a > 0$) and its discriminant is negative ($D < 0$), the corresponding parabola lies entirely above the x-axis.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> The equations $x^2 - 3x + 2 = 0$ and $2x^2 - 6x + 4 = 0$ have both roots in common.<br>\n <strong>Reason (R):</strong> Two quadratic equations share both roots if and only if their discriminants are equal ($D_1 = D_2$).",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 2,
+              "explanation": "A is true but R is false (sharing both roots requires proportional coefficients $."
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

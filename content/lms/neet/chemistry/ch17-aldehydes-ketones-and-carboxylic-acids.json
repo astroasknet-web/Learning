@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "chemistry",
+  "chapter": 17,
+  "title": "Aldehydes, Ketones and Carboxylic Acids",
+  "slug": "aldehydes-ketones-and-carboxylic-acids",
+  "subtitle": "Carbonyl chemistry: nucleophilic addition, oxidation tests, aldol/Cannizzaro and acidity for NEET",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "NEET Chemistry — Aldehydes, Ketones & Carboxylic Acids: the carbonyl group, nucleophilic addition, Tollens'/Fehling's tests, aldol vs Cannizzaro, iodoform test, and the acidity, preparation and reactions of carboxylic acids. NCERT notes, NEET traps & MCQs, free on GrowQR.",
+    "focus_keyword": "aldehydes ketones carboxylic acids NEET",
+    "secondary_keywords": [
+      "nucleophilic addition carbonyl NEET",
+      "Tollens Fehling test NEET",
+      "aldol condensation Cannizzaro NEET",
+      "iodoform test NEET",
+      "carboxylic acid acidity NEET"
+    ],
+    "keywords": [
+      "aldehydes ketones NEET",
+      "carboxylic acids NEET",
+      "Tollens test NEET",
+      "aldol Cannizzaro NEET",
+      "iodoform test NEET"
+    ]
+  },
+  "summary": "<ul><li>The <strong>carbonyl group</strong> (C=O) is planar ($sp^2$) and polar — carbon is $\\delta+$ and is attacked by nucleophiles.</li><li><strong>Nucleophilic addition</strong> is the key reaction; <em>aldehydes are more reactive than ketones</em> (less steric hindrance, less $+\\text{I}$).</li><li>Additions: HCN (cyanohydrin), $\\text{NaHSO}_3$ (bisulphite — purification), Grignard, alcohols (acetal), and ammonia derivatives (2,4-DNP is the carbonyl test).</li><li><strong>Aldehydes are easily oxidised</strong> to acids: <em>Tollens'</em> (silver mirror) and <em>Fehling's</em> (red $\\text{Cu}_2\\text{O}$) distinguish aldehydes from ketones.</li><li><strong>Aldol condensation</strong> needs an $\\alpha$-hydrogen (dilute base); <strong>Cannizzaro</strong> happens with <em>no</em> $\\alpha$-H (conc. base, disproportionation).</li><li><strong>Iodoform test</strong>: $\\text{CH}_3\\text{CO–}$ or $\\text{CH}_3\\text{CH(OH)–}$ groups give yellow $\\text{CHI}_3$.</li><li><strong>Carboxylic acids</strong> are the most acidic common organics — the carboxylate ion is resonance-stabilised over two oxygens; EWGs raise acidity.</li><li>They liberate $\\text{CO}_2$ from $\\text{NaHCO}_3$ (phenols do not) — a key distinguishing test; form esters, acid chlorides, anhydrides and amides.</li></ul>",
+  "faqs": [
+    { "q": "How do you chemically distinguish an aldehyde from a ketone?", "a": "Aldehydes are easily oxidised, so they give a positive Tollens' test (a silver mirror with ammoniacal silver nitrate) and a positive Fehling's test (a brick-red precipitate of cuprous oxide). Ketones are not oxidised by these mild reagents and give no reaction, so a positive Tollens' or Fehling's result identifies the aldehyde." },
+    { "q": "What is the difference between the aldol condensation and the Cannizzaro reaction?", "a": "The aldol condensation occurs with aldehydes or ketones that have at least one alpha-hydrogen: a dilute base makes two molecules join to give a beta-hydroxy carbonyl (aldol), which can dehydrate. The Cannizzaro reaction occurs with aldehydes that have no alpha-hydrogen (like HCHO or benzaldehyde): a concentrated base makes two molecules disproportionate, one being oxidised to an acid salt and the other reduced to an alcohol." },
+    { "q": "Why are carboxylic acids more acidic than phenols and alcohols?", "a": "When a carboxylic acid loses its proton, the resulting carboxylate ion is stabilised by resonance that spreads the negative charge equally over two electronegative oxygen atoms. This is much more effective than the resonance in a phenoxide (charge spread over one oxygen and the ring) and far better than an alkoxide (no resonance), so carboxylic acids release their proton most readily." },
+    { "q": "What is the iodoform test and what does a positive result indicate?", "a": "In the iodoform test a compound is treated with iodine and sodium hydroxide; a pale-yellow precipitate of iodoform (CHI3) forms if the compound contains a CH3CO– group (a methyl ketone) or a CH3CH(OH)– group (which is first oxidised to a methyl ketone). Ethanal and ethanol therefore give it, but methanal and methanol do not." },
+    { "q": "How can you distinguish a carboxylic acid from a phenol?", "a": "Add sodium bicarbonate (NaHCO3) solution. A carboxylic acid is strong enough to liberate carbon dioxide gas, giving brisk effervescence, whereas a phenol is too weak an acid to react with bicarbonate and shows no effervescence. (Both, however, react with the stronger base NaOH.)" }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Aldehydes and Ketones",
+      "topics": [
+        {
+          "number": 1,
+          "title": "The Carbonyl Group: Structure, Nomenclature and Preparation",
+          "concept": "<p>Aldehydes and ketones both contain the <strong>carbonyl group</strong>, a carbon double-bonded to oxygen (C=O). In an <em>aldehyde</em> ($\\text{R–CHO}$) the carbonyl carbon carries at least one hydrogen and sits at the end of a chain; in a <em>ketone</em> ($\\text{R–CO–R'}$) it is flanked by two carbon groups. The carbonyl carbon is $sp^2$ hybridised and the group is planar, and because oxygen is far more electronegative than carbon the bond is strongly <strong>polar</strong> — carbon is electron-poor ($\\delta+$) and oxygen electron-rich ($\\delta-$). That polarity is the engine of the whole chapter: nucleophiles attack the carbon, electrophiles the oxygen.</p><p>The IUPAC names use the suffix <em>-al</em> for aldehydes (methanal, ethanal) and <em>-one</em> for ketones (propanone), with the chain numbered to give the carbonyl carbon the lowest locant; the aldehyde carbon is always C-1. Common names (formaldehyde, acetaldehyde, acetone, benzaldehyde) are still widely used and worth knowing for NEET.</p><p>The most reliable <strong>preparations</strong> start from alcohols: controlled oxidation of a <em>primary</em> alcohol gives an aldehyde (use a mild reagent such as PCC to stop there, since strong oxidants go on to the acid), while oxidation of a <em>secondary</em> alcohol gives a ketone. Two clean routes from unsaturated compounds are <em>ozonolysis</em> of alkenes (which cleaves C=C into two carbonyls) and acid-catalysed <em>hydration of alkynes</em> ($\\text{H}_2\\text{SO}_4$/$\\text{HgSO}_4$ — ethyne gives ethanal, higher alkynes give ketones).</p><p>Several named methods make specific products. The <strong>Rosenmund reduction</strong> reduces an acyl chloride to an aldehyde over $\\text{Pd}/\\text{BaSO}_4$ (a poisoned catalyst that stops at the aldehyde). From nitriles, partial reduction or the <em>Stephen reaction</em> gives aldehydes. For aromatic carbonyls, <strong>Friedel–Crafts acylation</strong> makes aryl ketones, while the <strong>Gattermann–Koch reaction</strong> ($\\text{CO}$ + $\\text{HCl}$ with $\\text{AlCl}_3$) puts a $-\\text{CHO}$ onto benzene to give benzaldehyde. NEET often gives the reagent and asks for the carbonyl product, so linking each name to its outcome is high-yield.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Method</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Product</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Oxidise $1^\\circ$ alcohol (PCC)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>aldehyde</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Oxidise $2^\\circ$ alcohol</td><td style='border:1px solid #dcfce7;padding:6px 10px'>ketone</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Rosenmund (acyl chloride, $\\text{Pd}/\\text{BaSO}_4$)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>aldehyde</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Gattermann–Koch (benzene, $\\text{CO}/\\text{HCl}$)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>benzaldehyde</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Name the reaction that converts an acyl chloride to an aldehyde and the catalyst used.</p>",
+              "solution": "<p>The <strong>Rosenmund reduction</strong>: the acyl chloride is hydrogenated over <strong>palladium on barium sulphate</strong> (a poisoned catalyst), which stops the reduction at the aldehyde.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What carbonyl compound is formed by acid-catalysed hydration of ethyne?</p>",
+              "solution": "<p><strong>Ethanal</strong> (acetaldehyde). Water adds across the triple bond (Markovnikov) to give an enol that rearranges to acetaldehyde; ethyne is the one alkyne that gives an aldehyde, others give ketones.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The carbonyl carbon is hybridised as:</p>", "options": ["$sp$", "$sp^2$", "$sp^3$", "$sp^3d$"], "correct": 1, "explanation": "Planar carbonyl carbon is $sp^2$." },
+            { "q": "<p>In the carbonyl group, the carbon carries a:</p>", "options": ["partial negative charge", "partial positive charge", "full positive charge", "no charge"], "correct": 1, "explanation": "Oxygen is more electronegative, so carbon is $\\delta+$." },
+            { "q": "<p>Oxidation of a secondary alcohol gives a:</p>", "options": ["carboxylic acid", "aldehyde", "ketone", "ester"], "correct": 2, "explanation": "$2^\\circ$ alcohol $\\rightarrow$ ketone." },
+            { "q": "<p>The Rosenmund reduction converts an acyl chloride to a/an:</p>", "options": ["alcohol", "aldehyde", "ketone", "acid"], "correct": 1, "explanation": "Poisoned Pd/BaSO$_4$ stops at the aldehyde." },
+            { "q": "<p>Gattermann–Koch reaction on benzene gives:</p>", "options": ["phenol", "benzaldehyde", "benzoic acid", "toluene"], "correct": 1, "explanation": "$\\text{CO}/\\text{HCl}/\\text{AlCl}_3$ introduces $-\\text{CHO}$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> aldehyde = $-\\text{CHO}$ (terminal), ketone = $-\\text{CO–}$ (internal). $1^\\circ$ alcohol (PCC) $\\rightarrow$ aldehyde; $2^\\circ \\rightarrow$ ketone. Rosenmund $\\rightarrow$ aldehyde; Gattermann–Koch $\\rightarrow$ benzaldehyde.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Nucleophilic Addition and Other Reactions of Aldehydes and Ketones",
+          "concept": "<p>Because the carbonyl carbon is electron-poor, the defining reaction of aldehydes and ketones is <strong>nucleophilic addition</strong>: a nucleophile adds to the carbon and a proton adds to the oxygen, opening the C=O to a tetrahedral product. <strong>Aldehydes are more reactive than ketones</strong> for two reasons — ketones have two electron-donating alkyl groups that reduce the positive charge on carbon ($+\\text{I}$ effect), and those two groups also crowd the carbon (steric hindrance). This reactivity order is one of the most tested NEET facts.</p><p>Key additions include: <em>HCN</em> (giving a cyanohydrin, useful for making hydroxy acids), <em>sodium bisulphite</em> $\\text{NaHSO}_3$ (giving a crystalline adduct used to purify carbonyl compounds), <em>Grignard reagents</em> (then water, building larger alcohols), and <em>alcohols</em> (giving hemiacetals and acetals, important as protecting groups). Reactions with <strong>ammonia derivatives</strong> give condensation products: hydroxylamine gives oximes, hydrazine gives hydrazones, and <strong>2,4-dinitrophenylhydrazine (2,4-DNP, Brady's reagent)</strong> gives orange/yellow precipitates — the standard <em>test for a carbonyl group</em>.</p><p><strong>Reduction</strong> converts carbonyls to alcohols ($\\text{NaBH}_4$/$\\text{LiAlH}_4$/$\\text{H}_2$): aldehydes give $1^\\circ$ alcohols, ketones give $2^\\circ$ alcohols. To remove the oxygen entirely (C=O $\\rightarrow$ CH$_2$) two named methods are used — <em>Clemmensen reduction</em> (Zn–Hg/HCl, acidic) and <em>Wolff–Kishner reduction</em> (hydrazine then strong base, basic). The complementary <strong>oxidation</strong> is hugely diagnostic: aldehydes are oxidised to acids very easily, so they give a positive <strong>Tollens' test</strong> (a silver mirror) and <strong>Fehling's/Benedict's test</strong> (a brick-red $\\text{Cu}_2\\text{O}$ precipitate); ketones do not react with these mild reagents — the classic way to tell the two apart.</p><p>Two condensation reactions hinge on the <strong>$\\alpha$-hydrogen</strong> (a hydrogen on the carbon next to C=O, made acidic by the carbonyl). If at least one $\\alpha$-H is present, a dilute base promotes the <strong>aldol condensation</strong> — two molecules join to give a $\\beta$-hydroxy carbonyl that often dehydrates to an $\\alpha,\\beta$-unsaturated product. If there is <em>no</em> $\\alpha$-H (as in HCHO or benzaldehyde), a concentrated base drives the <strong>Cannizzaro reaction</strong>, a disproportionation giving one alcohol and one carboxylate. Finally, the <strong>iodoform (haloform) test</strong> — $\\text{I}_2$/NaOH gives yellow $\\text{CHI}_3$ — detects a $\\text{CH}_3\\text{CO–}$ group (methyl ketones) or a $\\text{CH}_3\\text{CH(OH)–}$ group; these tests appear in almost every NEET paper.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Reagent / test</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Result</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Tollens' (ammoniacal $\\text{AgNO}_3$)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>silver mirror (aldehydes only)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Fehling's</td><td style='border:1px solid #dcfce7;padding:6px 10px'>brick-red $\\text{Cu}_2\\text{O}$ (aliphatic aldehydes)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>2,4-DNP</td><td style='border:1px solid #dcfce7;padding:6px 10px'>orange ppt (any carbonyl)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{I}_2$/NaOH</td><td style='border:1px solid #dcfce7;padding:6px 10px'>yellow $\\text{CHI}_3$ (methyl ketone / $\\text{CH}_3\\text{CH(OH)}$)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why is ethanal more reactive than propanone towards nucleophilic addition?</p>",
+              "solution": "<p>Propanone (a ketone) has <strong>two</strong> alkyl groups that donate electrons ($+\\text{I}$), lowering the positive charge on the carbonyl carbon, and they also <strong>crowd</strong> the carbon (steric hindrance). Ethanal (an aldehyde) has only one, so its carbon is more electrophilic and less hindered.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Which of benzaldehyde and ethanal undergoes the Cannizzaro reaction, and why?</p>",
+              "solution": "<p><strong>Benzaldehyde</strong>, because it has <em>no</em> $\\alpha$-hydrogen, so with concentrated base it disproportionates (Cannizzaro). Ethanal has $\\alpha$-hydrogens, so it instead undergoes the aldol condensation.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Towards nucleophilic addition, reactivity is:</p>", "options": ["ketones $\\gt$ aldehydes", "aldehydes $\\gt$ ketones", "equal", "neither reacts"], "correct": 1, "explanation": "Aldehydes are more reactive (less $+\\text{I}$, less steric hindrance)." },
+            { "q": "<p>A silver mirror with Tollens' reagent indicates a/an:</p>", "options": ["ketone", "aldehyde", "alcohol", "ether"], "correct": 1, "explanation": "Aldehydes reduce Tollens' to silver." },
+            { "q": "<p>The 2,4-DNP test is a general test for:</p>", "options": ["alcohols", "the carbonyl group", "acids", "amines"], "correct": 1, "explanation": "2,4-DNP gives a precipitate with any aldehyde or ketone." },
+            { "q": "<p>The Cannizzaro reaction occurs with aldehydes having:</p>", "options": ["one $\\alpha$-H", "no $\\alpha$-H", "two $\\alpha$-H", "three $\\alpha$-H"], "correct": 1, "explanation": "No $\\alpha$-H $\\Rightarrow$ disproportionation in conc. base." },
+            { "q": "<p>A positive iodoform test is given by:</p>", "options": ["methanal", "propanone (acetone)", "benzaldehyde", "methanol"], "correct": 1, "explanation": "Acetone has a $\\text{CH}_3\\text{CO–}$ group." }
+          ],
+          "note": "<p><strong>NEET trap:</strong> aldehydes $\\gt$ ketones (addition). Tollens'/Fehling's = aldehyde test. $\\alpha$-H present $\\Rightarrow$ aldol (dilute base); no $\\alpha$-H $\\Rightarrow$ Cannizzaro (conc. base). Iodoform = $\\text{CH}_3\\text{CO–}$ or $\\text{CH}_3\\text{CH(OH)–}$.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Carboxylic Acids",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Carboxylic Acids: Acidity and Preparation",
+          "concept": "<p>Carboxylic acids contain the <strong>carboxyl group</strong>, $-\\text{COOH}$ (a carbonyl and a hydroxyl on the same carbon). They are named with the suffix <em>-oic acid</em> (methanoic, ethanoic acid), and common names (formic, acetic, benzoic acid) are standard. The interaction of the C=O and O–H within the group gives carboxylic acids their hallmark property: they are the <strong>most acidic of the common organic compounds</strong>, far stronger than alcohols or phenols.</p><p>The reason is <strong>resonance stabilisation of the carboxylate ion</strong>. When $-\\text{COOH}$ loses its proton, the resulting $-\\text{COO}^-$ spreads its negative charge <em>equally</em> over two electronegative oxygen atoms, so the ion is very stable and the proton leaves readily. (Contrast a phenoxide, where the charge is shared less effectively with the ring, and an alkoxide, which has no resonance.) The acidity order is therefore carboxylic acid $\\gt$ phenol $\\gt$ water $\\gt$ alcohol — a sequence NEET asks about repeatedly.</p><p>The strength of a particular acid is tuned by substituents. <strong>Electron-withdrawing groups</strong> (such as $-\\text{Cl}$, $-\\text{NO}_2$) stabilise the carboxylate and <em>increase</em> acidity — chloroacetic acid is stronger than acetic acid, and trichloroacetic acid stronger still; the effect weakens with distance from the $-\\text{COOH}$. <strong>Electron-donating groups</strong> (alkyl) <em>decrease</em> acidity. Comparing relative strengths from substituent effects is a guaranteed NEET question.</p><p>The main <strong>preparations</strong> are: oxidation of primary alcohols or aldehydes (with $\\text{KMnO}_4$ or $\\text{K}_2\\text{Cr}_2\\text{O}_7$); oxidation of alkylbenzenes (any alkyl side-chain is oxidised right down to $-\\text{COOH}$, giving benzoic acid); hydrolysis of nitriles (R–CN + water/acid $\\rightarrow$ R–COOH, adding one carbon); the reaction of a <strong>Grignard reagent with carbon dioxide</strong> ($\\text{RMgX} + \\text{CO}_2$, then acid, again adding one carbon — a key chain-lengthening route); and hydrolysis of esters and amides. Physically, carboxylic acids form strong hydrogen bonds (even existing as dimers), so they have high boiling points and the lower members are very water-soluble.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Point</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Carboxylic acids</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Acidity order</td><td style='border:1px solid #dcfce7;padding:6px 10px'>R–COOH $\\gt$ phenol $\\gt$ water $\\gt$ alcohol</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Reason</td><td style='border:1px solid #dcfce7;padding:6px 10px'>resonance over two O atoms in $-\\text{COO}^-$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>EWG ($-\\text{Cl}, -\\text{NO}_2$)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>increase acidity</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Grignard + $\\text{CO}_2$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>R–COOH (adds one carbon)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Arrange in increasing acidity: acetic acid, chloroacetic acid, trichloroacetic acid.</p>",
+              "solution": "<p>acetic acid $\\lt$ chloroacetic acid $\\lt$ trichloroacetic acid. Each electron-withdrawing $-\\text{Cl}$ stabilises the carboxylate more, so more chlorines means a stronger acid.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>How can a Grignard reagent be used to make a carboxylic acid with one more carbon?</p>",
+              "solution": "<p>React the Grignard reagent with <strong>$\\text{CO}_2$</strong> (dry ice) and then acidify: $\\text{RMgX} + \\text{CO}_2 \\rightarrow \\text{RCOOMgX} \\xrightarrow{\\text{H}^+} \\text{RCOOH}$. The product has one more carbon than R.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Carboxylic acids are acidic because the carboxylate ion is:</p>", "options": ["aromatic", "resonance-stabilised over two oxygens", "non-polar", "ionic only"], "correct": 1, "explanation": "Charge is shared equally by two O atoms." },
+            { "q": "<p>The correct acidity order is:</p>", "options": ["alcohol $\\gt$ phenol $\\gt$ acid", "acid $\\gt$ phenol $\\gt$ alcohol", "phenol $\\gt$ acid $\\gt$ water", "water $\\gt$ acid $\\gt$ phenol"], "correct": 1, "explanation": "Carboxylic acid $\\gt$ phenol $\\gt$ water $\\gt$ alcohol." },
+            { "q": "<p>Which is the strongest acid?</p>", "options": ["acetic acid", "chloroacetic acid", "fluoroacetic acid", "trichloroacetic acid"], "correct": 3, "explanation": "Three EWG chlorines stabilise the carboxylate most." },
+            { "q": "<p>Oxidation of toluene with hot $\\text{KMnO}_4$ gives:</p>", "options": ["benzaldehyde", "benzoic acid", "phenol", "benzene"], "correct": 1, "explanation": "Alkyl side-chains oxidise fully to $-\\text{COOH}$." },
+            { "q": "<p>$\\text{RMgX} + \\text{CO}_2$ (then $\\text{H}^+$) gives a:</p>", "options": ["ketone", "carboxylic acid", "alcohol", "ester"], "correct": 1, "explanation": "Adds one carbon to give R–COOH." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> carboxylic acid is most acidic (carboxylate resonance over 2 O). EWG ($-\\text{Cl}$) raise acidity (more Cl = stronger). Grignard + $\\text{CO}_2$ and nitrile hydrolysis both add one carbon.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Reactions of Carboxylic Acids and Their Derivatives",
+          "concept": "<p>The reactions of carboxylic acids fall into three groups: those that show their acidity, those that replace the $-\\text{OH}$ to make derivatives, and reactions of the rest of the molecule. As <strong>acids</strong>, they react with active metals (liberating $\\text{H}_2$) and with bases to form salts. A crucial NEET test lives here: carboxylic acids are strong enough to react with <strong>sodium bicarbonate</strong> ($\\text{NaHCO}_3$), liberating brisk effervescence of $\\text{CO}_2$, whereas phenols are <em>not</em> — so $\\text{NaHCO}_3$ <strong>distinguishes a carboxylic acid from a phenol</strong> (both, however, react with the stronger base NaOH).</p><p>Replacing the $-\\text{OH}$ of $-\\text{COOH}$ gives the <strong>acid derivatives</strong>. With an alcohol and a trace of acid catalyst, <strong>esterification</strong> (Fischer esterification) gives a fragrant ester and water (a reversible reaction). With $\\text{SOCl}_2$, $\\text{PCl}_5$ or $\\text{PCl}_3$, the acid becomes an <strong>acyl (acid) chloride</strong>. Heating with $\\text{P}_2\\text{O}_5$ (or from acid chlorides) gives <strong>anhydrides</strong>, and treatment with ammonia followed by heating gives <strong>amides</strong>. The reactivity order of these derivatives towards nucleophiles is acid chloride $\\gt$ anhydride $\\gt$ ester $\\gt$ amide — useful for predicting interconversions.</p><p>The carbon framework also reacts. <strong>Reduction</strong> with $\\text{LiAlH}_4$ (carboxylic acids resist mild $\\text{NaBH}_4$) gives a primary alcohol. The <strong>Hell–Volhard–Zelinsky (HVZ) reaction</strong> introduces a halogen at the $\\alpha$-carbon (using $\\text{Cl}_2$ or $\\text{Br}_2$ with a little red phosphorus). <strong>Decarboxylation</strong> — heating the sodium salt with soda lime ($\\text{NaOH}$/$\\text{CaO}$) — removes $-\\text{COOH}$ as $\\text{CO}_2$ and gives an alkane with one fewer carbon. For aromatic acids, the $-\\text{COOH}$ group is <em>meta-directing and deactivating</em> in electrophilic substitution.</p><p>These derivatives connect this chapter to much of organic chemistry: esters give the smells of fruits and are the building blocks of fats and polyesters; amides are the linkages in proteins and nylons. For NEET, the practical takeaways are the $\\text{NaHCO}_3$ test (acid vs phenol), the conversion of an acid into its chloride/ester/amide, and the carbon-count changes in decarboxylation (loses one C), Grignard/nitrile routes (gain one C) — these counting tricks frequently decide a multi-step synthesis question.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Reagent</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Product from R–COOH</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{NaHCO}_3$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>salt + $\\text{CO}_2$ (test vs phenol)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>R'OH / $\\text{H}^+$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>ester (Fischer)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{SOCl}_2$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>acyl chloride</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>soda lime, heat</td><td style='border:1px solid #dcfce7;padding:6px 10px'>alkane (loses one C — decarboxylation)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>How would you distinguish ethanoic acid from phenol using a single reagent?</p>",
+              "solution": "<p>Add <strong>$\\text{NaHCO}_3$</strong> solution. Ethanoic acid gives brisk effervescence of $\\text{CO}_2$; phenol gives no effervescence (it is too weak to react with bicarbonate).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What is formed when sodium ethanoate is heated with soda lime, and how many carbons does the product have?</p>",
+              "solution": "<p><strong>Methane</strong> ($\\text{CH}_4$) forms by decarboxylation. Ethanoate (2 C) loses $\\text{CO}_2$ to give a product with <strong>one fewer carbon</strong> (1 C).</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Which reagent distinguishes a carboxylic acid from a phenol?</p>", "options": ["NaOH", "$\\text{NaHCO}_3$", "$\\text{FeCl}_3$", "bromine water"], "correct": 1, "explanation": "Only the acid liberates $\\text{CO}_2$ from bicarbonate." },
+            { "q": "<p>Fischer esterification of an acid uses an alcohol and:</p>", "options": ["NaOH", "a trace of acid catalyst", "$\\text{KMnO}_4$", "Zn"], "correct": 1, "explanation": "Acid-catalysed, reversible, gives ester + water." },
+            { "q": "<p>$\\text{SOCl}_2$ converts a carboxylic acid into a/an:</p>", "options": ["ester", "acyl chloride", "amide", "alcohol"], "correct": 1, "explanation": "Gives the acid chloride." },
+            { "q": "<p>Decarboxylation of a sodium carboxylate with soda lime gives a product with:</p>", "options": ["one more carbon", "one fewer carbon", "same carbons", "double the carbons"], "correct": 1, "explanation": "$-\\text{COOH}$ is lost as $\\text{CO}_2$." },
+            { "q": "<p>The strongest acid derivative towards nucleophiles is the:</p>", "options": ["amide", "ester", "anhydride", "acid chloride"], "correct": 3, "explanation": "Order: acid chloride $\\gt$ anhydride $\\gt$ ester $\\gt$ amide." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> $\\text{NaHCO}_3$ = acid-vs-phenol test (acid fizzes). Acid $\\rightarrow$ ester (R'OH/H$^+$), acyl chloride ($\\text{SOCl}_2$), amide ($\\text{NH}_3$/heat). Decarboxylation (soda lime) loses one carbon; reduction needs $\\text{LiAlH}_4$.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-chemistry-ch17-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct & Statement-based)",
+          "questions": [
+            { "q": "<p>The carbonyl carbon is:</p>", "options": ["$sp$, linear", "$sp^2$, planar", "$sp^3$, tetrahedral", "$sp^3d$"], "correct": 1, "explanation": "$sp^2$, planar carbonyl." },
+            { "q": "<p>Towards nucleophilic addition the order is:</p>", "options": ["acetone $\\gt$ acetaldehyde", "acetaldehyde $\\gt$ acetone", "equal", "neither"], "correct": 1, "explanation": "Aldehydes more reactive than ketones." },
+            { "q": "<p>A silver mirror forms with:</p>", "options": ["acetone", "acetaldehyde", "benzene", "ethanol"], "correct": 1, "explanation": "Aldehydes give a positive Tollens' test." },
+            { "q": "<p>Statements: (I) Benzaldehyde gives the Cannizzaro reaction. (II) Benzaldehyde has alpha-hydrogens. Which is/are correct?</p>", "options": ["only I", "only II", "both I and II", "neither"], "correct": 0, "explanation": "I correct; II wrong — benzaldehyde has NO alpha-H, which is why it gives Cannizzaro." },
+            { "q": "<p>A positive iodoform test is NOT given by:</p>", "options": ["ethanol", "acetone", "acetaldehyde", "methanol"], "correct": 3, "explanation": "Methanol lacks the $\\text{CH}_3\\text{CH(OH)–}$ group." },
+            { "q": "<p>The strongest acid among these is:</p>", "options": ["acetic acid", "phenol", "ethanol", "trichloroacetic acid"], "correct": 3, "explanation": "EWG chlorines make trichloroacetic acid strongest." },
+            { "q": "<p>To distinguish a carboxylic acid from a phenol, use:</p>", "options": ["NaOH", "$\\text{NaHCO}_3$", "neutral $\\text{FeCl}_3$", "Tollens'"], "correct": 1, "explanation": "Only the acid liberates $\\text{CO}_2$ from bicarbonate." },
+            { "q": "<p>Reaction of $\\text{RMgX}$ with $\\text{CO}_2$ then $\\text{H}^+$ gives a product with:</p>", "options": ["one fewer carbon", "the same carbons", "one more carbon", "two more carbons"], "correct": 2, "explanation": "$\\text{CO}_2$ adds one carbon as $-\\text{COOH}$." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> Aldehydes are more reactive than ketones towards nucleophiles.<br><strong>R:</strong> The two alkyl groups of a ketone increase the positive charge on the carbonyl carbon.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 2, "explanation": "A is true, but R is false — the alkyl groups DECREASE (not increase) the positive charge, so R is wrong." },
+            { "q": "<p><strong>A:</strong> Carboxylic acids are more acidic than phenols.<br><strong>R:</strong> The carboxylate ion is resonance-stabilised over two oxygen atoms.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Equal sharing of charge over two oxygens is exactly why the acid is stronger — R explains A." },
+            { "q": "<p><strong>A:</strong> Benzaldehyde does not give a positive iodoform test.<br><strong>R:</strong> Benzaldehyde has no $\\text{CH}_3\\text{CO–}$ or $\\text{CH}_3\\text{CH(OH)–}$ group.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The iodoform test needs a methyl-keto/methyl-carbinol group, which benzaldehyde lacks — R explains A." },
+            { "q": "<p><strong>A:</strong> Trichloroacetic acid is a stronger acid than acetic acid.<br><strong>R:</strong> The three electron-withdrawing chlorine atoms stabilise the trichloroacetate ion.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The electron-withdrawing chlorines stabilise the conjugate base, making the acid stronger — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

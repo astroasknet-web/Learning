@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": 27,
+  "title": "Biomolecules",
+  "slug": "biomolecules",
+  "subtitle": "Biomolecules for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#3b82f6",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "Master Biomolecules for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Carbohydrates and Proteins",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Carbohydrates — Classification, Structures, Reactions",
+          "concept": "<p><strong>Carbohydrates:</strong> Polyhydroxy aldehydes/ketones or compounds that hydrolyze to them. General formula: $C_x(H_2O)_y$ (historically called \"hydrates of carbon\"). Most carbohydrates are optically active.</p><p><strong>Classification:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Description</th><th>Examples</th></tr></thead><tbody><tr><td><strong>Monosaccharides</strong></td><td>Cannot be hydrolyzed; simplest sugars</td><td>Glucose, fructose, galactose, ribose</td></tr><tr><td><strong>Oligosaccharides</strong></td><td>2-10 monomer units</td><td>Sucrose (2), maltose (2), lactose (2)</td></tr><tr><td><strong>Polysaccharides</strong></td><td>Many units</td><td>Starch, glycogen, cellulose</td></tr></tbody></table><p><strong>Monosaccharide nomenclature:</strong> -ose suffix.</p><ul><li><strong>By # carbons:</strong> triose (3), tetrose (4), pentose (5), hexose (6), heptose (7)</li><li><strong>By carbonyl type:</strong> aldose (CHO), ketose (C=O internal)</li><li><strong>Combinations:</strong> aldopentose (e.g., ribose), ketohexose (e.g., fructose), aldohexose (e.g., glucose)</li></ul><p><strong>D/L Configuration:</strong> Based on highest-numbered chiral C relative to glyceraldehyde reference. D = -OH right in Fischer projection; L = -OH left.</p><p><strong>Reducing vs Non-reducing Sugars:</strong></p><ul><li><strong>Reducing:</strong> Free aldehyde/ketone group; reduces Tollens', Fehling's. (Glucose, fructose, maltose, lactose)</li><li><strong>Non-reducing:</strong> No free carbonyl (anomeric C is locked in glycosidic bond). (Sucrose)</li></ul><p><strong>Glucose ($C_6H_{12}O_6$):</strong> Most important monosaccharide. Aldohexose.</p><p><strong>Open Chain Structure (Fischer Projection):</strong></p><ul><li>6 C, with 5 C chain having OH groups; CHO at C1, primary OH at C6</li><li>Chiral centers at C2, C3, C4, C5 (4 chiral centers, $2^4 = 16$ stereoisomers)</li><li>D-glucose: all OH on right except at C3 (which is on left, by Fischer convention)</li></ul><p><strong>Cyclic Structure (Haworth Projection):</strong></p><p>Open chain glucose forms hemiacetal: C1 carbonyl + C5 -OH → 6-membered ring (<strong>pyranose</strong>).</p><p>Two forms:</p><ul><li><strong>α-D-glucose:</strong> -OH at C1 below the ring (anomeric)</li><li><strong>β-D-glucose:</strong> -OH at C1 above the ring</li></ul><p><strong>Mutarotation:</strong> In aqueous solution, α and β forms interconvert via open-chain form: α-D-glucose ⇌ open chain ⇌ β-D-glucose.</p><p>Equilibrium: ~64% β, ~36% α, 0.02% open chain. Specific rotation changes from $+112°$ (pure α) to $+19°$ (pure β) → equilibrium $+52.7°$.</p><p><strong>Fructose ($C_6H_{12}O_6$):</strong> Ketohexose.</p><ul><li>C2 has C=O group</li><li>Cyclic: 5-membered ring (<strong>furanose</strong>); C2 to C5 -OH.</li><li>Sweeter than sucrose.</li></ul><p><strong>Reactions of Glucose:</strong></p><p><strong>1. Oxidation:</strong></p><ul><li>Mild (Br₂/water): $C_6H_{12}O_6 \\to C_6H_{12}O_7$ (gluconic acid; CHO → COOH at C1)</li><li>Strong (HNO₃): saccharic acid (both ends to COOH)</li><li>With Tollens'/Fehling's: positive (reducing sugar; gives gluconate)</li></ul><p><strong>2. Reduction:</strong></p><ul><li>NaBH₄ / Na/Hg: glucose → sorbitol (hexitol; all OH groups)</li><li>Catalytic H₂: same</li></ul><p><strong>3. Hydroxylamine:</strong> Forms oxime; confirms CHO group (in open chain).</p><p><strong>4. HCN addition:</strong> Forms cyanohydrin; confirms carbonyl.</p><p><strong>5. Phenylhydrazine (excess):</strong> Forms <strong>osazone</strong> (yellow crystalline ppt; same osazone formed for glucose, mannose, fructose — they only differ in C1 and C2).</p><p><strong>6. Tollens' and Fehling's tests:</strong> Both positive (glucose is reducing).</p><p><strong>7. Acetylation:</strong> With acetic anhydride, all 5 -OH become acetates: gluconic acid acetate.</p><p><strong>8. Methylation:</strong> -OH → -OCH₃ groups.</p><p><strong>Disaccharides:</strong></p><p><strong>1. Sucrose ($C_{12}H_{22}O_{11}$):</strong> \"Table sugar.\" α-D-glucose + β-D-fructose joined at C1-C2 (1,2-glycosidic bond).</p><ul><li><strong>Non-reducing</strong> (no free anomeric C).</li><li><strong>Hydrolysis:</strong> + dilute acid or invertase → glucose + fructose (mixture is \"invert sugar\" — laevorotatory due to fructose's high rotation in opposite direction). Original sucrose dextro; product is laevo: rotation <strong>inverts</strong>, hence name <strong>inversion of sucrose</strong>.</li><li>Specific rotation: $+66.5°$ (sucrose) → $-39.7°$ (equimolar mix glucose [+52.7°] + fructose [-92.4°]).</li></ul><p><strong>2. Maltose:</strong> Two α-D-glucose units joined α(1,4). Reducing.</p><p><strong>3. Lactose:</strong> β-D-galactose + β-D-glucose joined β(1,4). Reducing.</p><p><strong>Polysaccharides:</strong></p><p><strong>1. Starch:</strong> Storage carbohydrate in plants.</p><ul><li>Mix of <strong>amylose</strong> (~20%, linear, α(1,4)-linked glucose, helical) and <strong>amylopectin</strong> (~80%, branched, α(1,4) chains with α(1,6) branches).</li><li>Test: blue color with iodine solution (amylose-iodine inclusion complex).</li></ul><p><strong>2. Cellulose:</strong> Structural carbohydrate in plant cell walls.</p><ul><li>Linear, β(1,4)-linked D-glucose.</li><li>Humans cannot digest (no $\\beta$-glucosidase).</li><li>Important fibre.</li></ul><p><strong>3. Glycogen:</strong> Animal starch, stored in liver and muscles.</p><ul><li>Highly branched; α(1,4) and α(1,6) like amylopectin but more branched.</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Differentiate $\\alpha$- and $\\beta$-D-glucose.</p>",
+              "solution": "<p>Both are anomers; differ only in configuration at <strong>C1</strong> (anomeric C):</p><ul><li>$\\alpha$-D-glucose: $-OH$ at C1 is on the <strong>same side as $-OH$ at C5 (axial)</strong> in Haworth projection (below ring).</li><li>$\\beta$-D-glucose: $-OH$ at C1 is <strong>opposite to C5</strong> (equatorial; above ring).</li></ul><p>Specific rotations: $\\alpha$ = $+112°$, $\\beta$ = $+19°$.</p><p>In aqueous solution: undergo <strong>mutarotation</strong> to equilibrium ($+52.7°$).</p><p><strong>Final Answer:</strong> Anomers differing at C1 (orientation of -OH).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What is invert sugar?</p>",
+              "solution": "<p><strong>Sucrose hydrolysis:</strong> $C_{12}H_{22}O_{11} + H_2O \\xrightarrow{H^+ \\text{ or invertase}} C_6H_{12}O_6 \\text{(glucose)} + C_6H_{12}O_6 \\text{(fructose)}$</p><p>Sucrose: dextro ($+66.5°$). Product mixture (1:1 glucose + fructose): laevo ($-39.7°$ — dominated by strongly laevorotatory fructose at $-92°$).</p><p>Specific rotation <strong>inverts</strong> from + to − during hydrolysis. Hence the mixture is called <strong>invert sugar</strong>. Naturally found in honey.</p><p><strong>Final Answer:</strong> Invert sugar = glucose + fructose mixture from sucrose hydrolysis; rotation inverts.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Glucose is:</p>",
+              "options": [
+                "Aldohexose",
+                "Ketohexose",
+                "Aldopentose",
+                "Tetraketose"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Anomers differ at:</p>",
+              "options": [
+                "C1 (anomeric carbon)",
+                "C6",
+                "All Cs",
+                "Not chiral"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Sucrose contains:</p>",
+              "options": [
+                "Glucose + glucose",
+                "Glucose + fructose",
+                "Glucose + galactose",
+                "Fructose only"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Sucrose is:</p>",
+              "options": [
+                "Reducing sugar",
+                "Non-reducing (no free anomeric C)",
+                "Strongly basic",
+                "Insoluble"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Cellulose has glycosidic linkage:</p>",
+              "options": [
+                "$\\alpha$(1,4)",
+                "$\\beta$(1,4)",
+                "$\\alpha$(1,6)",
+                "$\\beta$(1,2)"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Proteins — Amino Acids, Peptides, Structure",
+          "concept": "<p><strong>Amino Acids:</strong> Building blocks of proteins. Contains both $-NH_2$ (basic) and $-COOH$ (acidic) groups.</p><p><strong>General formula:</strong> $RCH(NH_2)COOH$ (R is the side chain that varies).</p><p><strong>20 standard amino acids</strong> found in proteins. All are α-amino acids (-NH₂ on α-C, adjacent to -COOH).</p><p><strong>Classification by R Group:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Description</th><th>Examples</th></tr></thead><tbody><tr><td><strong>Neutral</strong></td><td>R is non-polar/uncharged</td><td>Glycine, alanine, valine, leucine, isoleucine, proline</td></tr><tr><td><strong>Acidic</strong></td><td>R has -COOH</td><td>Aspartic acid, glutamic acid</td></tr><tr><td><strong>Basic</strong></td><td>R has -NH₂ or -guanidino</td><td>Lysine, arginine, histidine</td></tr><tr><td><strong>Aromatic</strong></td><td>R has phenyl ring</td><td>Phenylalanine, tyrosine, tryptophan</td></tr><tr><td><strong>Sulfur-containing</strong></td><td>R has -S-</td><td>Cysteine, methionine</td></tr><tr><td><strong>Hydroxyl</strong></td><td>R has -OH</td><td>Serine, threonine</td></tr></tbody></table><p><strong>Essential vs Non-essential:</strong></p><ul><li><strong>Essential:</strong> Cannot be synthesized in body; must come from diet (e.g., valine, leucine, lysine, threonine, methionine, phenylalanine, tryptophan, histidine, isoleucine — 9-10 standard).</li><li><strong>Non-essential:</strong> Synthesized in body (e.g., glycine, alanine, serine).</li></ul><p><strong>Zwitterion (Dipolar Ion):</strong> Amino acids exist as zwitterions: $H_3N^+CHR-COO^-$.</p><ul><li>Both ionic groups present</li><li>High MP (like salt)</li><li>Soluble in water; insoluble in organic solvents</li></ul><p><strong>Isoelectric Point (pI):</strong> pH at which amino acid exists as zwitterion (net charge = 0). Doesn't migrate in electric field at this pH.</p><p><strong>pI depends on amino acid:</strong></p><ul><li>Neutral aa's: pI ~5.5-6.5</li><li>Acidic aa's: pI low (2.7-3.2)</li><li>Basic aa's: pI high (8-10)</li></ul><p><strong>Peptide Bond:</strong> Amide bond ($-CO-NH-$) formed by reaction of $-COOH$ of one aa with $-NH_2$ of another (with loss of $H_2O$).</p><p>$H_2NCHRCOOH + H_2NCHR'COOH \\to H_2NCHRC(O)-NHCHR'COOH + H_2O$</p><p><strong>Peptides (chain of aa's via peptide bonds):</strong></p><ul><li>Dipeptide: 2 aa</li><li>Tripeptide: 3 aa</li><li>Oligopeptide: 4-10 aa</li><li>Polypeptide: 10-100 aa</li><li>Protein: >100 aa typically</li></ul><p><strong>Protein Structure (4 Levels):</strong></p><p><strong>Primary Structure:</strong> Sequence of amino acids in peptide chain (held by peptide bonds).</p><p><strong>Secondary Structure:</strong> Local 3D arrangement.</p><ul><li><strong>α-helix:</strong> Spiral; stabilized by intra-chain H-bonds (between C=O of one aa and N-H of fourth aa down). Found in keratin, hemoglobin, myoglobin.</li><li><strong>β-pleated sheet:</strong> Side-by-side polypeptide strands held by inter-chain H-bonds. Found in silk fibroin.</li></ul><p><strong>Tertiary Structure:</strong> Overall 3D folding of polypeptide. Held by:</p><ul><li>Disulfide bonds (-S-S- between cysteine residues)</li><li>H-bonds (within secondary structure)</li><li>Hydrophobic interactions (non-polar R groups cluster inside)</li><li>Electrostatic (between + and - charged R groups)</li><li>Van der Waals</li></ul><p><strong>Quaternary Structure:</strong> Multiple polypeptide chains aggregating (e.g., hemoglobin has 4 chains; insulin has 2).</p><p><strong>Types of Proteins:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Description</th><th>Example</th></tr></thead><tbody><tr><td><strong>Fibrous</strong></td><td>Long, parallel, insoluble</td><td>Keratin (hair, nails), collagen, silk fibroin</td></tr><tr><td><strong>Globular</strong></td><td>Spherical, soluble</td><td>Hemoglobin, enzymes, hormones (insulin)</td></tr></tbody></table><p><strong>Denaturation of Proteins:</strong></p><ul><li>Loss of secondary/tertiary/quaternary structure (primary intact)</li><li>Causes: heat, strong acid/base, organic solvents, urea, mechanical stress</li><li>Examples: boiling egg (albumin denatures); milk curdling</li></ul><p><strong>Identification of Amino Acids:</strong></p><ul><li><strong>Ninhydrin test:</strong> purple color (or blue-violet) — used in TLC/paper chromatography</li><li><strong>Xanthoproteic test:</strong> yellow color with conc. HNO₃ (for aromatic side chains like Phe, Tyr, Trp)</li><li><strong>Biuret test:</strong> Violet color with copper sulfate in alkali (for proteins/peptides only, not aa's)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>What is the structure of a typical α-amino acid in aqueous solution?</p>",
+              "solution": "<p>Free amino acid form ($H_2N-CHR-COOH$) loses H from COOH ($pK_a \\sim 2$) and gains H on NH₂ ($pK_b$ around 9), giving the <strong>zwitterion</strong>:</p><p>$H_3N^+-CHR-COO^-$</p><p>Both ions present simultaneously; molecule has net zero charge but is highly polar (like a salt). This explains:</p><ul><li>High MP</li><li>Solubility in water</li><li>Insolubility in non-polar solvents</li></ul><p><strong>Final Answer:</strong> Zwitterion: $H_3N^+CHR-COO^-$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Hemoglobin is a globular protein with quaternary structure. Describe.</p>",
+              "solution": "<p>Hemoglobin:</p><ul><li><strong>Primary:</strong> Sequence of 4 polypeptide chains (2 α and 2 β chains).</li><li><strong>Secondary:</strong> Each chain has α-helix segments.</li><li><strong>Tertiary:</strong> Each chain folds; heme group ($Fe^{2+}$ porphyrin) tucked in.</li><li><strong>Quaternary:</strong> 4 chains (2α + 2β) come together as one functional protein; each carries 1 heme; total transports 4 O₂.</li></ul><p>Iron in $Fe^{2+}$ state binds O₂ reversibly. $CO$ binds 200× stronger → toxic.</p><p><strong>Final Answer:</strong> Hb has 4 polypeptide subunits + 4 heme groups; quaternary protein.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>All proteinogenic amino acids are:</p>",
+              "options": [
+                "$\\beta$-amino acids",
+                "$\\alpha$-amino acids",
+                "$\\gamma$-amino acids",
+                "$\\delta$-amino acids"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of standard amino acids:</p>",
+              "options": [
+                "10",
+                "18",
+                "20",
+                "64"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Zwitterion of glycine:</p>",
+              "options": [
+                "$H_2N-CH_2-COOH$",
+                "$H_3N^+-CH_2-COO^-$",
+                "$H_2N-CH_2-COO^-$",
+                "$H_3N^+-CH_2-COOH$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Peptide bond is:</p>",
+              "options": [
+                "C-S bond",
+                "Amide bond (-CO-NH-)",
+                "Glycosidic bond",
+                "Ionic bond"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Disulfide bonds stabilize:</p>",
+              "options": [
+                "Primary structure",
+                "Secondary",
+                "Tertiary structure",
+                "Quaternary"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Other Biomolecules",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Nucleic Acids — DNA and RNA",
+          "concept": "<p><strong>Nucleic Acids:</strong> Carriers of genetic information. Two types: DNA and RNA.</p><p><strong>Building Blocks: Nucleotides.</strong> Each nucleotide has 3 parts:</p><ol><li><strong>Pentose sugar</strong> (deoxyribose in DNA; ribose in RNA)</li><li><strong>Nitrogenous base</strong> (purine or pyrimidine)</li><li><strong>Phosphate group</strong> ($PO_4^{3-}$)</li></ol><p><strong>Nucleoside</strong> = sugar + base. <strong>Nucleotide</strong> = sugar + base + phosphate.</p><p><strong>Bases:</strong></p><p><strong>Purines (2 fused rings):</strong></p><ul><li>Adenine (A)</li><li>Guanine (G)</li></ul><p><strong>Pyrimidines (1 ring):</strong></p><ul><li>Cytosine (C)</li><li>Thymine (T) — DNA only</li><li>Uracil (U) — RNA only</li></ul><p><strong>DNA (Deoxyribonucleic Acid):</strong></p><ul><li>Pentose: 2-deoxyribose (no -OH at C2)</li><li>Bases: A, G, C, T</li><li>Two complementary strands forming <strong>double helix</strong> (Watson-Crick model, 1953)</li><li>Strands run antiparallel (5' to 3' opposite directions)</li><li>Base pairing (H-bonds):</li><li>A pairs with T (2 H-bonds)</li><li>G pairs with C (3 H-bonds)</li><li>Strand backbone: sugar-phosphate-sugar-phosphate (phosphodiester bonds at 3' and 5' OH)</li><li>DNA stores genetic info; passed during cell division</li></ul><p><strong>RNA (Ribonucleic Acid):</strong></p><ul><li>Pentose: ribose (has -OH at C2)</li><li>Bases: A, G, C, U (no T)</li><li>Usually single-stranded (but can fold on itself)</li><li>Base pairing: A-U (instead of A-T), G-C</li><li>Three main types:</li><li><strong>mRNA (messenger):</strong> Carries info from DNA to ribosomes</li><li><strong>tRNA (transfer):</strong> Brings amino acids to ribosome</li><li><strong>rRNA (ribosomal):</strong> Component of ribosomes</li></ul><p><strong>Differences between DNA and RNA:</strong></p><table class=\"md-table\"><thead><tr><th>Property</th><th>DNA</th><th>RNA</th></tr></thead><tbody><tr><td>Sugar</td><td>Deoxyribose</td><td>Ribose</td></tr><tr><td>Bases</td><td>A, G, C, T</td><td>A, G, C, U</td></tr><tr><td>Strands</td><td>Double</td><td>Mostly single</td></tr><tr><td>Function</td><td>Store genetic info</td><td>Protein synthesis</td></tr><tr><td>Stability</td><td>More stable</td><td>Less stable (-OH on C2 makes more reactive)</td></tr><tr><td>Location</td><td>Nucleus mainly</td><td>Nucleus + cytoplasm</td></tr></tbody></table><p><strong>Genetic Code:</strong> Triplet of bases (codon) on mRNA codes for one amino acid.</p><ul><li>$4^3 = 64$ possible codons; 61 code for amino acids (some redundant); 3 are stop codons (UAA, UAG, UGA).</li><li>Codon AUG = methionine = start codon</li></ul><p><strong>Replication:</strong> DNA copies itself before cell division (semi-conservative — each new DNA has one old, one new strand).</p><p><strong>Transcription:</strong> DNA → mRNA (in nucleus).</p><p><strong>Translation:</strong> mRNA → protein (at ribosomes).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>What are the key differences between purines and pyrimidines?</p>",
+              "solution": "<table class=\"md-table\"><thead><tr><th>Property</th><th>Purines</th><th>Pyrimidines</th></tr></thead><tbody><tr><td>Structure</td><td>2 fused rings (pyrimidine + imidazole)</td><td>1 ring</td></tr><tr><td>MW</td><td>Higher</td><td>Lower</td></tr><tr><td>Examples</td><td>Adenine, Guanine</td><td>Cytosine, Thymine, Uracil</td></tr><tr><td>Base pairing</td><td>A-T, G-C</td><td>T-A, C-G, U-A</td></tr></tbody></table><p>Note: A purine always pairs with a pyrimidine (1 ring + 2 rings = consistent width of double helix ~$2$ nm).</p><p><strong>Final Answer:</strong> Purines are bicyclic (A, G); pyrimidines monocyclic (C, T, U).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Write base pairs in DNA strand of sequence $5'$-ATCG-$3'$.</p>",
+              "solution": "<p>Complementary strand (antiparallel, opposite direction): Original: $5'$-A-T-C-G-$3'$ Complement: $3'$-T-A-G-C-$5'$ Written $5'$ → $3'$: $5'$-C-G-A-T-$3'$</p><p>Pairs:</p><ul><li>A : T (2 H-bonds)</li><li>T : A</li><li>C : G (3 H-bonds)</li><li>G : C</li></ul><p><strong>Final Answer:</strong> Complementary strand is $5'$-CGAT-$3'$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Pentose in DNA:</p>",
+              "options": [
+                "Glucose",
+                "Ribose",
+                "Deoxyribose (2-deoxyribose)",
+                "Fructose"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Pairing of A in DNA:</p>",
+              "options": [
+                "G",
+                "C",
+                "T (with 2 H-bonds)",
+                "U"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Nucleoside is:</p>",
+              "options": [
+                "Base + phosphate",
+                "Sugar + base",
+                "Sugar + phosphate",
+                "Base + sugar + phosphate"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Watson-Crick double helix:</p>",
+              "options": [
+                "Single strand",
+                "Two antiparallel strands H-bonded",
+                "Three strands",
+                "Cyclic"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>tRNA function:</p>",
+              "options": [
+                "Stores genetic info",
+                "Carries amino acid to ribosome during protein synthesis",
+                "Forms ribosomes",
+                "Replicates DNA"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Vitamins, Enzymes, and Hormones",
+          "concept": "<p><strong>Vitamins:</strong> Organic compounds required in small amounts for normal metabolic function. Body cannot synthesize them (or insufficient).</p><p><strong>Classification:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Description</th><th>Examples</th></tr></thead><tbody><tr><td><strong>Fat-soluble (A, D, E, K)</strong></td><td>Stored in body fat</td><td>A (retinol), D (calciferol), E (tocopherol), K</td></tr><tr><td><strong>Water-soluble (B complex, C)</strong></td><td>Excreted; need regular intake</td><td>$B_1, B_2, B_3, B_5, B_6, B_7, B_9, B_{12}$, C</td></tr></tbody></table><p><strong>Common Vitamins:</strong></p><table class=\"md-table\"><thead><tr><th>Vitamin</th><th>Function</th><th>Deficiency</th><th>Source</th></tr></thead><tbody><tr><td><strong>A (retinol)</strong></td><td>Vision, immune</td><td>Night blindness, xerophthalmia</td><td>Carrots, liver, eggs</td></tr><tr><td><strong>B₁ (thiamine)</strong></td><td>Carbohydrate metabolism</td><td>Beriberi</td><td>Whole grains</td></tr><tr><td><strong>B₂ (riboflavin)</strong></td><td>Cellular respiration</td><td>Cheilosis</td><td>Milk, eggs</td></tr><tr><td><strong>B₃ (niacin)</strong></td><td>Cellular metabolism</td><td>Pellagra</td><td>Meat, fish</td></tr><tr><td><strong>B₅ (pantothenic acid)</strong></td><td>CoA synthesis</td><td>–</td><td>Meat, eggs</td></tr><tr><td><strong>B₆ (pyridoxine)</strong></td><td>Amino acid metabolism</td><td>Anemia</td><td>Meat, fish</td></tr><tr><td><strong>B₇ (biotin)</strong></td><td>Carbohydrate, fat metabolism</td><td>–</td><td>Eggs, nuts</td></tr><tr><td><strong>B₉ (folic acid)</strong></td><td>DNA synthesis</td><td>Megaloblastic anemia</td><td>Leafy greens</td></tr><tr><td><strong>B₁₂ (cyanocobalamin)</strong></td><td>Nerve function, blood</td><td>Pernicious anemia</td><td>Meat, fish</td></tr><tr><td><strong>C (ascorbic acid)</strong></td><td>Collagen, antioxidant</td><td>Scurvy</td><td>Citrus fruits</td></tr><tr><td><strong>D (calciferol)</strong></td><td>Calcium absorption</td><td>Rickets, osteomalacia</td><td>Sunlight, fish liver</td></tr><tr><td><strong>E (tocopherol)</strong></td><td>Antioxidant</td><td>Sterility (in animals)</td><td>Vegetable oils</td></tr><tr><td><strong>K</strong></td><td>Blood clotting</td><td>Hemorrhage</td><td>Leafy greens</td></tr></tbody></table><p><strong>Enzymes:</strong> Biological catalysts; almost all are proteins (some RNA — ribozymes).</p><p><strong>Properties:</strong></p><ul><li>Highly <strong>specific</strong> for substrate and reaction</li><li>Very <strong>efficient</strong>: rate increase $10^6 - 10^{20}$ times</li><li>Work at mild conditions: body T ($37°$C), neutral pH, atmospheric pressure</li><li>Sensitive to T, pH, inhibitors</li></ul><p><strong>Examples:</strong></p><table class=\"md-table\"><thead><tr><th>Enzyme</th><th>Substrate</th><th>Product</th></tr></thead><tbody><tr><td>Amylase (salivary, pancreatic)</td><td>Starch</td><td>Maltose</td></tr><tr><td>Maltase</td><td>Maltose</td><td>Glucose</td></tr><tr><td>Invertase</td><td>Sucrose</td><td>Glucose + fructose</td></tr><tr><td>Zymase (yeast)</td><td>Glucose</td><td>Ethanol + $CO_2$</td></tr><tr><td>Pepsin (stomach)</td><td>Proteins</td><td>Peptides</td></tr><tr><td>Trypsin (intestine)</td><td>Peptides</td><td>Amino acids</td></tr><tr><td>Lipase (pancreatic)</td><td>Fats</td><td>Glycerol + fatty acids</td></tr><tr><td>Lactase</td><td>Lactose</td><td>Galactose + glucose</td></tr><tr><td>Urease</td><td>Urea</td><td>$NH_3 + CO_2$</td></tr></tbody></table><p><strong>Hormones:</strong> Chemical messengers; secreted by endocrine glands; carried by blood to target organs.</p><p><strong>Classification by Structure:</strong></p><ul><li><strong>Peptide/protein hormones:</strong> Insulin (51 aa), oxytocin (9 aa), vasopressin (9 aa), glucagon (29 aa), growth hormone</li><li><strong>Steroid hormones:</strong> Testosterone (male), estrogen (female), progesterone, cortisol, aldosterone (from cholesterol)</li><li><strong>Amino acid derivatives:</strong> Thyroxine (from tyrosine, contains I), adrenaline (epinephrine)</li></ul><p><strong>Key Examples:</strong></p><table class=\"md-table\"><thead><tr><th>Hormone</th><th>Source</th><th>Function</th><th>Deficiency</th></tr></thead><tbody><tr><td><strong>Insulin</strong></td><td>Pancreas ($\\beta$-cells of islets)</td><td>Lowers blood glucose (promotes uptake into cells)</td><td>Diabetes mellitus</td></tr><tr><td><strong>Glucagon</strong></td><td>Pancreas ($\\alpha$-cells)</td><td>Raises blood glucose</td><td>Hypoglycemia</td></tr><tr><td><strong>Thyroxine</strong></td><td>Thyroid gland</td><td>Metabolism rate</td><td>Hypothyroidism (cretinism, myxedema)</td></tr><tr><td><strong>Adrenaline</strong></td><td>Adrenal medulla</td><td>\"Fight or flight\"; raises BP, glucose</td><td>–</td></tr><tr><td><strong>Cortisol</strong></td><td>Adrenal cortex</td><td>Stress hormone; metabolism</td><td>Addison's disease</td></tr><tr><td><strong>Testosterone</strong></td><td>Testes</td><td>Male secondary characteristics</td><td>–</td></tr><tr><td><strong>Estrogen</strong></td><td>Ovaries</td><td>Female secondary characteristics, menstrual cycle</td><td>–</td></tr><tr><td><strong>Progesterone</strong></td><td>Ovaries (corpus luteum)</td><td>Pregnancy maintenance</td><td>–</td></tr><tr><td><strong>Growth Hormone</strong></td><td>Pituitary</td><td>Growth, bone</td><td>Dwarfism / gigantism (excess)</td></tr><tr><td><strong>Vasopressin (ADH)</strong></td><td>Pituitary</td><td>Water reabsorption</td><td>Diabetes insipidus</td></tr><tr><td><strong>Oxytocin</strong></td><td>Pituitary</td><td>Childbirth, milk letdown</td><td>–</td></tr></tbody></table><p><strong>Note:</strong> Diabetes mellitus is due to insufficient insulin (Type 1) or insulin resistance (Type 2); blood glucose remains high.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Match: scurvy, rickets, beriberi, night blindness with vitamins.</p>",
+              "solution": "<ul><li><strong>Scurvy:</strong> Vitamin C (ascorbic acid) deficiency</li><li><strong>Rickets:</strong> Vitamin D (calciferol) deficiency</li><li><strong>Beriberi:</strong> Vitamin B₁ (thiamine) deficiency</li><li><strong>Night blindness:</strong> Vitamin A (retinol) deficiency</li></ul><p><strong>Final Answer:</strong> As above.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why are enzymes called \"specific\" catalysts?</p>",
+              "solution": "<p>Enzymes have a <strong>specific 3D active site</strong> (lock-and-key model; also induced fit model). The shape, charge distribution, and chemistry of the active site complements only one substrate (or related substrates) and catalyzes only one type of reaction.</p><p>Examples:</p><ul><li><strong>Urease</strong> catalyzes ONLY hydrolysis of urea (not other amides like acetamide).</li><li><strong>Maltase</strong> breaks $\\alpha(1,4)$ in maltose; cannot break $\\beta(1,4)$ in cellobiose.</li></ul><p>This specificity allows precise control of biochemical pathways.</p><p><strong>Final Answer:</strong> Active site is complementary to specific substrate; lock-and-key mechanism.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Vitamin C deficiency causes:</p>",
+              "options": [
+                "Beriberi",
+                "Rickets",
+                "Scurvy",
+                "Pellagra"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Insulin is:</p>",
+              "options": [
+                "Protein hormone (51 amino acids)",
+                "Carbohydrate",
+                "Steroid",
+                "Lipid"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Fat-soluble vitamin:</p>",
+              "options": [
+                "C",
+                "B₁",
+                "D (or A, E, K)",
+                "B₁₂"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Enzyme amylase converts:</p>",
+              "options": [
+                "Protein to amino acid",
+                "Starch to maltose",
+                "Fat to glycerol",
+                "Glucose to ethanol"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Thyroxine is produced by:</p>",
+              "options": [
+                "Pancreas",
+                "Thyroid gland",
+                "Adrenal",
+                "Pituitary"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-chem-biomolecules-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>Glucose is an:</p>",
+              "options": [
+                "Aldohexose",
+                "Ketohexose",
+                "Aldopentose",
+                "Ketopentose"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Mutarotation refers to:</p>",
+              "options": [
+                "Conversion between $\\alpha$ and $\\beta$ anomers of glucose",
+                "Hydrolysis of sucrose",
+                "Tautomerism of fructose",
+                "Oxidation of glucose"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Sucrose hydrolysis gives:</p>",
+              "options": [
+                "Glucose + glucose",
+                "Glucose + fructose",
+                "Fructose + galactose",
+                "Cellulose"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Reducing sugar:</p>",
+              "options": [
+                "Sucrose",
+                "Glucose",
+                "Cellulose",
+                "Starch"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Cellulose has $\\beta(1,4)$ linkage; starch has:</p>",
+              "options": [
+                "$\\beta(1,4)$ only",
+                "$\\alpha(1,4)$ with $\\alpha(1,6)$ branches (amylopectin)",
+                "$\\alpha(1,2)$",
+                "Random"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of chiral centers in glucose:</p>",
+              "options": [
+                "$2$",
+                "$3$",
+                "$4$ (at C2, C3, C4, C5)",
+                "$5$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Zwitterion of an amino acid:</p>",
+              "options": [
+                "$H_3N^+-CHR-COO^-$",
+                "$H_2N-CHR-COOH$ (uncharged)",
+                "$H_2N-CHR-COO^-$",
+                "$H_3N^+-CHR-COOH$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of standard amino acids in proteins:</p>",
+              "options": [
+                "10",
+                "15",
+                "20",
+                "30"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>DNA has pentose:</p>",
+              "options": [
+                "Ribose",
+                "Deoxyribose",
+                "Glucose",
+                "Fructose"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Vitamin K is essential for:</p>",
+              "options": [
+                "Vision",
+                "Blood clotting",
+                "Bone formation",
+                "Reproduction"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Number of H-bonds in G-C base pair:</p>",
+              "answer": "3",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of strands in DNA double helix:</p>",
+              "answer": "2",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of polypeptide chains in hemoglobin (quaternary structure):</p>",
+              "answer": "4",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Sucrose is a non-reducing sugar. <strong>Reason (R):</strong> Both anomeric carbons of glucose and fructose are involved in the glycosidic bond — no free anomeric C remains.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> Enzymes are highly specific. <strong>Reason (R):</strong> Each enzyme has a specific 3D active site that matches only certain substrates (lock-and-key or induced fit model).</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

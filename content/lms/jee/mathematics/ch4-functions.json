@@ -1,0 +1,1046 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": 4,
+  "title": "Functions",
+  "slug": "functions",
+  "subtitle": "Functions & Binary Operations",
+  "level": "JEE Main & Advanced",
+  "color": "#10b981",
+  "icon": "math",
+  "seo": {
+    "meta_description": "Master Functions for JEE Main & Advanced on GrowQR: in-depth notes, solved examples, self-check MCQs and full mock tests. Free, forever."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Foundations of Functions",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Mapping Definitions, Domain, Range & Codomain",
+          "concept": "<p>A function $f: A \\to B$ is a special type of relation that maps every element $a$ in set $A$ (Domain) to exactly one element $b$ in set $B$ (Codomain). The element $b$ is called the <strong>Image</strong> of $a$, and $a$ is the <strong>Pre-image</strong> of $b$. The <strong>Range</strong> is the subset of the codomain containing all actual outputs: $\\text{Range}(f) = \\{f(a) : a \\in A\\} \\subseteq B$. A common mistake is assuming the range always equals the codomain. In the JEE exam, finding the domain of a composite or piecewise function requires solving a simultaneous system of radical, fractional, and logarithmic inequalities.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the domain of definition of the real-valued function $f(x) = \\frac{1}{\\sqrt{\\lfloor x \\rfloor^2 - \\lfloor x \\rfloor - 6}}$, where $\\lfloor \\cdot \\rfloor$ denotes the greatest integer function.</p>",
+              "solution": "For the real-valued function to be well-defined, the expression inside the square root in the denominator must be strictly positive ($>0$):\n \\[ \\lfloor x \\rfloor^2 - \\lfloor x \\rfloor - 6 > 0 \\]\n Let us treat this expression as a quadratic inequality in terms of $\\lfloor x \\rfloor$:\n \\[ (\\lfloor x \\rfloor - 3)(\\lfloor x \\rfloor + 2) > 0 \\]\n Using the wavy-curve method, this inequality splits into two separate cases:\n \\[ \\lfloor x \\rfloor < -2 \\quad \\text{or} \\quad \\lfloor x \\rfloor > 3 \\]\n Now apply the definitions and properties of the greatest integer function to isolate $x$:\n <ul>\n <li>Case 1: $\\lfloor x \\rfloor < -2 \\implies \\lfloor x \\rfloor \\le -3 \\implies x < -2$\n <li>Case 2: $\\lfloor x \\rfloor > 3 \\implies \\lfloor x \\rfloor \\ge 4 \\implies x \\ge 4$\n </ul>\n Combining the intervals from both cases gives the complete domain of the function:\n \\[ x \\in (-\\infty, -2) \\cup [4, \\infty) \\]\n <strong>Final Answer:</strong> $x \\in (-\\infty, -2) \\cup [4, \\infty)$."
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the range of the real function $f(x) = \\sin^2 x - 4\\sin x + 7$.</p>",
+              "solution": "Let $t = \\sin x$. We know that for all real numbers $x$, the range of the sine function is bounded: $t \\in [-1, 1]$.<br>\n Rewrite the function as a quadratic expression in terms of $t$:\n \\[ g(t) = t^2 - 4t + 7 \\quad \\text{for } t \\in [-1, 1] \\]\n Let us complete the square to analyze the behavior of the parabola:\n \\[ g(t) = (t - 2)^2 + 3 \\]\n The vertex of this parabola occurs at $t = 2$. However, $t = 2$ lies completely outside our restricted domain interval $[-1, 1]$. Since the parabola opens upward ($a=1>0$) and the vertex is to the right of the interval, the function is strictly decreasing across the domain $[-1, 1]$.<br>\n Evaluate the function at the boundary endpoints to find the maximum and minimum values:\n <ul>\n <li>Maximum value occurs at the left endpoint $t = -1$: \n \\[ g(-1) = (-1 - 2)^2 + 3 = (-3)^2 + 3 = 9 + 3 = 12 \\]\n <li>Minimum value occurs at the right endpoint $t = 1$: \n \\[ g(1) = (1 - 2)^2 + 3 = (-1)^2 + 3 = 1 + 3 = 4 \\]\n End{itemize}\n Therefore, the range of the function over its valid domain is the closed interval $[4, 12]$.\n <strong>Final Answer:</strong> Range $\\in [4, 12]$."
+            },
+            {
+              "number": 3,
+              "problem": "<p>Determine the domain of the function $f(x) = \\log_x (\\cos x)$.</p>",
+              "solution": "We must apply the domain constraints for both the base and the argument of the logarithm simultaneously:\n <ol>\n <li>Constraints on the base $x$: The base must be strictly positive and cannot equal $1$:\n \\[ x > 0 \\quad \\text{and} \\quad x \\neq 1 \\]\n <li>Constraint on the argument: The argument must be strictly positive:\n \\[ \\cos x > 0 \\]\n </ol>\n The inequality $\\cos x > 0$ is true when $x$ lies in the first and fourth quadrants of the unit circle:\n \\[ x \\in \\left( 2k\\pi - \\frac{\\pi}{2}, \\ 2k\\pi + \\frac{\\pi}{2} \\right), \\quad k \\in \\mathbb{Z} \\]\n Now intersect this solution set with the base conditions $x > 0$ and $x \\neq 1$. Let us look at the first few valid intervals starting from zero ($k=0$ and $k=1$):\n <ul>\n <li>For $k = 0$: The interval is $(-\\frac{\\pi}{2}, \\frac{\\pi}{2})$. Restricting this to positive numbers ($x > 0$) gives $(0, \\frac{\\pi}{2})$. We must also remove $x = 1$, which splits this section into $(0, 1) \\cup (1, \\frac{\\pi}{2})$.\n <li>For $k \\ge 1$: The entire interval is positive, so it is included unchanged.\n </ul>\n Write the complete domain using general notation:\n \\[ x \\in (0, 1) \\cup \\left( 1, \\frac{\\pi}{2} \\right) \\cup \\bigcup_{k=1}^{\\infty} \\left( 2k\\pi - \\frac{\\pi}{2}, \\ 2k\\pi + \\frac{\\pi}{2} \\right) \\]\n <strong>Final Answer:</strong> $x \\in (0, 1) \\cup (1, \\frac{\\pi}{2}) \\cup \\bigcup_{k=1}^{\\infty} \\left( 2k\\pi - \\frac{\\pi}{2}, 2k\\pi + \\frac{\\pi}{2} \\right)$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The mathematical domain of definition of the real function $f(x) = \\sqrt{x - \\lfloor x \\rfloor}$ is:",
+              "options": [
+                "$[0, \\infty)$",
+                "$\\mathbb{R}$",
+                "$\\mathbb{Z}$",
+                "$(0, 1)$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The total number of elements inside the range of the signum function $f(x) = \\text{sgn}(x^2 + 1)$ is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "Infinite"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The domain of the function $f(x) = \\frac{1}{\\sqrt{|x| - x}}$ is given by the set:",
+              "options": [
+                "$(-\\infty, 0)$",
+                "$(0, \\infty)$",
+                "$\\mathbb{R} \\setminus \\{0\\}$",
+                "$\\emptyset$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the domain of a mapping $f(x)$ is finite and contains $m$ elements, and the range contains $n$ elements, then which relationship is unconditionally true?",
+              "options": [
+                "$m < n$",
+                "$m \\ge n$",
+                "$m = n$",
+                "$m + n = 0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The range of the fraction expression $f(x) = \\frac{x^2}{x^2 + 1}$ is:",
+              "options": [
+                "$[0, 1]$",
+                "$[0, 1)$",
+                "$(0, 1)$",
+                "$\\mathbb{R}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Advanced Injectivity, Surjectivity & Bijectivity Classification",
+          "concept": "Functions are classified by their mapping properties into four main structural types:\n <ol>\n <li><strong>One-One (Injective)</strong>: Every distinct element in the domain maps to a distinct element in the codomain. Algebraically, $f(a_1) = f(a_2) \\implies a_1 = a_2$. Geometrically, any horizontal line crosses an injective function's graph <strong>at most once</strong>.\n <li><strong>Many-One</strong>: More than one domain element maps to the same output image.\n <li><strong>Onto (Surjective)</strong>: Every element in the codomain has at least one pre-image in the domain, meaning the <strong>Range equals the Codomain</strong>.\n <li><strong>Into</strong>: At least one codomain element is left uncovered ($\\text{Range} \\subset \\text{Codomain}$).\n </ol>\n A function is <strong>Bijective</strong> if it is both one-one and onto simultaneously. Bijective functions are important because they are the only functions that are completely invertible.",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Determine if the function $f: \\mathbb{R} \\to \\mathbb{R}$ defined by the rule $f(x) = x^3 - 3x^2 + 3x + 5$ is a bijection.</p>",
+              "solution": "To check if the function is a bijection, we must test for both injectivity (one-one) and surjectivity (onto) independently:\n <ol>\n <li><strong>Injectivity Test</strong>: Let us analyze the derivative of the function to check its monotonicity:\n \\[ f'(x) = 3x^2 - 6x + 3 = 3(x^2 - 2x + 1) = 3(x-1)^2 \\]\n For all real numbers $x$, $(x-1)^2 \\ge 0$, which means $f'(x) \\ge 0$ everywhere. Since the derivative is non-negative and only vanishes at a single isolated point ($x=1$), the function is <strong>strictly increasing</strong> across its entire domain. A strictly monotonic function never repeats an output value, which proves it is <strong>One-One (Injective)</strong>.\n <li><strong>Surjectivity Test</strong>: The function is an odd-degree polynomial expression ($n=3$). Let us look at its behavior at the limits of the domain:\n \\[ \\lim_{x \\to \\infty} f(x) = \\infty \\quad \\text{and} \\quad \\lim_{x \\to -\\infty} f(x) = -\\infty \\]\n Since the polynomial is continuous, the Intermediate Value Theorem guarantees that it takes every real value between negative and positive infinity. Thus, $\\text{Range}(f) = (-\\infty, \\infty) = \\mathbb{R}$. Since the calculated range matches the given codomain ($\\mathbb{R}$), the function is <strong>Onto (Surjective)</strong>.\n </ol>\n Since the mapping is both injective and surjective simultaneously, it is a valid bijection.\n <strong>Final Answer:</strong> $f(x)$ is a Bijective function."
+            },
+            {
+              "number": 2,
+              "problem": "<p>Let a mapping be defined as $f: \\mathbb{R} \\to [0, \\infty)$ with the rule $f(x) = x^2$. Analyze the type of function this represents.</p>",
+              "solution": "Let us test the function against our mapping rules:\n <ul>\n <li>Test for Injectivity: Let us choose two symmetric points around zero, $x_1 = 2$ and $x_2 = -2$. Evaluate their images: $f(2) = 2^2 = 4$ and $f(-2) = (-2)^2 = 4$. Since distinct domain inputs produce identical outputs ($f(2) = f(-2)$), the function is <strong>Many-One</strong>, not injective.\n <li>Test for Surjectivity: The function squares real inputs, so its outputs are always non-negative: $\\text{Range}(f) = [0, \\infty)$. The problem states that the codomain is explicitly restricted to $[0, \\infty)$. Since the range equals the codomain, the function is <strong>Onto (Surjective)</strong>.\n </ul>\n Combining these properties, the function is classified as many-one and onto.\n <strong>Final Answer:</strong> Many-One and Onto (Surjective)."
+            },
+            {
+              "number": 3,
+              "problem": "<p>Find the number of structural bijections that can be defined from a finite set $A$ to itself, if $|A| = 4$.</p>",
+              "solution": "A bijection maps each element in a set to a unique element in the target set without leaving any elements out. For a finite set of cardinality $n$ mapping to another set of cardinality $n$, let us count the number of choices for each element step-by-step:\n <ul>\n <li>The first element has exactly $n$ available choices in the target set.\n <li>The second element has exactly $n-1$ choices remaining (since one was taken and the function must be one-one).\n <li>The third element has $n-2$ choices remaining, and so on.\n </ul>\n Multiply the choices together to find the total number of bijections, which is given by the factorial formula:\n \\[ \\text{Total Bijections} = n! \\]\n Substitute the given value $n = 4$ into the formula:\n \\[ \\text{Total Bijections} = 4! = 4 \\times 3 \\times 2 \\times 1 = 24 \\]\n <strong>Final Answer:</strong> 24 distinct bijections."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If a horizontal line can be drawn that crosses the graph of a function at more than one point, the function is classified as:",
+              "options": [
+                "Injective",
+                "Many-One",
+                "Surjective",
+                "Constant"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Let $f: \\mathbb{R} \\to \\mathbb{R}$ be defined by $f(x) = e^x$. This function is:",
+              "options": [
+                "One-One and Onto",
+                "One-One and Into",
+                "Many-One and Onto",
+                "Many-One and Into"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If the cardinality of set $A$ is $3$ and the cardinality of set $B$ is $4$, the total number of surjective functions (onto maps) that can be defined from $A$ to $B$ is:",
+              "options": [
+                "$12$",
+                "$0$",
+                "$64$",
+                "$81$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "A function is completely invertible if and only if it satisfies which of the following conditions?",
+              "options": [
+                "It is strictly decreasing",
+                "It is a polynomial",
+                "It is a bijection (both one-one and onto)",
+                "Its domain is bounded"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The polynomial function $f: \\mathbb{R} \\to \\mathbb{R}$ defined by $f(x) = x^2 - x + 6$ is:",
+              "options": [
+                "Injective",
+                "Bijective",
+                "Many-One and Into",
+                "Surjective"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Advanced Operations & Compositions",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Composition of Functions & Inverse Matrix Dynamics",
+          "concept": "<p>The composition of two functions $f$ and $g$ forms a new mapping, denoted as $f \\circ g$, which is evaluated as $(f \\circ g)(x) = f(g(x))$. For $f \\circ g$ to exist, the range of the inner function $g$ must be a subset of the domain of the outer function $f$: $\\text{Range}(g) \\subseteq \\text{Domain}(f)$. Function composition is <strong>associative</strong> ($(f \\circ g) \\circ h = f \\circ (g \\circ h)$) but generally <strong>not commutative</strong> ($f \\circ g \\neq g \\circ f$). If a function is a bijection, its unique <strong>Inverse Function</strong> $f^{-1}$ exists, which reverses the mapping and swaps the domain and range columns. The inverse of a composite function follows the <strong>socks-and-shoes reversal law</strong>: $(f \\circ g)^{-1} = g^{-1} \\circ f^{-1}$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Let two real-valued piecewise functions be defined by $f(x) = 2x + 1$ and $g(x) = x^2 - 2$. Find the explicit algebraic expressions for the composite terms (a) $(f \\circ g)(x)$ and (b) $(g \\circ f)(x)$.</p>",
+              "solution": "<ul>\n <li>Part (a): Evaluate $(f \\circ g)(x) = f(g(x))$. Substitute the full expression for $g(x)$ into the input slot of function $f$:\n \\[ f(g(x)) = f(x^2 - 2) \\]\n Apply the rule for $f$, which multiplies its input by 2 and adds 1:\n \\[ f(g(x)) = 2(x^2 - 2) + 1 = 2x^2 - 4 + 1 = 2x^2 - 3 \\]\n <li>Part (b): Evaluate $(g \\circ f)(x) = g(f(x))$. Substitute the expression for $f(x)$ into the input slot of function $g$:\n \\[ g(f(x)) = g(2x + 1) \\]\n Apply the rule for $g$, which squares its input and subtracts 2:\n \\[ g(f(x)) = (2x + 1)^2 - 2 \\]\n Expand the perfect square expression:\n \\[ g(f(x)) = (4x^2 + 4x + 1) - 2 = 4x^2 + 4x - 1 \\]\n </ul>\n Notice that $2x^2 - 3 \\neq 4x^2 + 4x - 1$, which confirms that function composition is not commutative ($f \\circ g \\neq g \\circ f$).\n <strong>Final Answer:</strong> $(f \\circ g)(x) = 2x^2 - 3$ and $(g \\circ f)(x) = 4x^2 + 4x - 1$."
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the inverse function $f^{-1}(x)$ of the strictly monotonic mapping $f: (2, \\infty) \\to (5, \\infty)$ defined by the rule $f(x) = x^2 - 4x + 9$.</p>",
+              "solution": "<p>To find the inverse function, set the equation equal to $y$ and isolate $x$ in terms of $y$:\n \\[ y = x^2 - 4x + 9 \\]\n Complete the square on the right-hand side to make isolating $x$ simpler:\n \\[ y = (x^2 - 4x + 4) + 5 \\implies y = (x - 2)^2 + 5 \\]\n Subtract 5 from both sides of the equation:\n \\[ (x - 2)^2 = y - 5 \\]\n Take the square root of both sides. This introduces a choice of signs:\n \\[ x - 2 = \\pm\\sqrt{y - 5} \\implies x = 2 \\pm\\sqrt{y - 5} \\]\n To choose the correct sign, check the specified domain of the original function ($x \\in (2, \\infty)$). Since $x$ must be strictly greater than 2, we must choose the positive sign branch:\n \\[ x = 2 + \\sqrt{y - 5} \\]\n Now swap the variable labels to write the final inverse function in terms of $x$:\n \\[ f^{-1}(x) = 2 + \\sqrt{x - 5} \\]\n The domain of this inverse function is $(5, \\infty)$, which matches the range of the original function.\n <strong>Final Answer:</strong> $f^{-1}(x) = 2 + \\sqrt{x - 5}$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>If $f(x) = \\frac{x+1}{x-1}$ for $x \\neq 1$, evaluate the multi-tier composite iteration expression $f(f(x))$.</p>",
+              "solution": "<p>Substitute the full expression for $f(x)$ back into itself:\n \\[ f(f(x)) = \\frac{f(x) + 1}{f(x) - 1} = \\frac{\\left(\\frac{x+1}{x-1}\\right) + 1}{\\left(\\frac{x+1}{x-1}\\right) - 1} \\]\n Multiply both the numerator and the denominator by the common factor $(x-1)$ to simplify the complex fraction:\n \\[ f(f(x)) = \\frac{(x + 1) + 1(x - 1)}{(x + 1) - 1(x - 1)} \\]\n Expand and combine the terms in the numerator and denominator:\n \\[ \\text{Numerator} = x + 1 + x - 1 = 2x \\]\n \\[ \\text{Denominator} = x + 1 - x + 1 = 2 \\]\n Divide the simplified terms:\n \\[ f(f(x)) = \\frac{2x}{2} = x \\]\n Since $f(f(x)) = x$, the function is its own inverse ($f = f^{-1}$). This type of function is called an <strong>involution</strong>.\n <strong>Final Answer:</strong> $x$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If $f(x) = \\log_e x$ and $g(x) = x^2$, then the composite expression $(g \\circ f)(x)$ expands to:",
+              "options": [
+                "$2\\log_e x$",
+                "$(\\log_e x)^2$",
+                "$\\log_e(x^2)$",
+                "$e^{x^2}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "According to the reversal law for composite inverses, the expression $(f \\circ g)^{-1}$ expands to:",
+              "options": [
+                "$f^{-1} \\circ g^{-1}$",
+                "$g^{-1} \\circ f^{-1}$",
+                "$f \\circ g$",
+                "$g \\circ f$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "For the composite function $f(g(x))$ to be well-defined, which relationship must hold true between the individual ranges and domains?",
+              "options": [
+                "$\\text{Domain}(g) \\subseteq \\text{Range}(f)$",
+                "$\\text{Range}(g) \\subseteq \\text{Domain}(f)$",
+                "$\\text{Domain}(f) \\subseteq \\text{Range}(g)$",
+                "$\\text{Range}(f) = \\text{Codomain}(g)$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $f(x) = 3x - 4$, then its inverse function $f^{-1}(x)$ is equal to:",
+              "options": [
+                "$\\frac{x-4}{3}$",
+                "$\\frac{x+4}{3}$",
+                "$4x - 3$",
+                "$\\frac{1}{3x-4}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Which property does function composition always satisfy?",
+              "options": [
+                "Commutative Property",
+                "Associative Property",
+                "Distributive Property",
+                "Identity Property for all functions"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Functional Symmetry & Periodicity",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Even and Odd Functions",
+          "concept": "<p>Functions display unique symmetries when their inputs are reflected across zero. A function is <strong>Even</strong> if it satisfies the condition $f(-x) = f(x)$ for all $x$ in its domain. Geometrically, even graphs are perfectly symmetrical with respect to the vertical y-axis (like $y = x^2$ or $y = \\cos x$). A function is <strong>Odd</strong> if it satisfies $f(-x) = -f(x)$. Geometrically, odd graphs are symmetrical with respect to the origin (like $y = x^3$ or $y = \\sin x$). Crucially, any general function can be uniquely decomposed into the sum of an even part and an odd part: $f(x) = \\left[\\frac{f(x)+f(-x)}{2}\\right] + \\left[\\frac{f(x)-f(-x)}{2}\\right]$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Determine if the function $f(x) = \\log_e \\left( x + \\sqrt{x^2 + 1} \\right)$ is even, odd, or neither.</p>",
+              "solution": "<p>To test the symmetry of the function, replace $x$ with $-x$ throughout the expression:\n \\[ f(-x) = \\log_e \\left( -x + \\sqrt{(-x)^2 + 1} \\right) = \\log_e \\left( \\sqrt{x^2 + 1} - x \\right) \\]\n To find the relationship between $f(-x)$ and $f(x)$, let us rationalize the expression inside the logarithm by multiplying the numerator and denominator by its conjugate $(\\sqrt{x^2 + 1} + x)$:\n \\[ \\sqrt{x^2 + 1} - x = \\frac{(\\sqrt{x^2 + 1} - x)(\\sqrt{x^2 + 1} + x)}{\\sqrt{x^2 + 1} + x} = \\frac{(x^2 + 1) - x^2}{x + \\sqrt{x^2 + 1}} = \\frac{1}{x + \\sqrt{x^2 + 1}} \\]\n Substitute this reciprocal back into the logarithm expression:\n \\[ f(-x) = \\log_e \\left( \\frac{1}{x + \\sqrt{x^2 + 1}} \\right) = \\log_e \\left( x + \\sqrt{x^2 + 1} \\right)^{-1} \\]\n Apply the logarithmic power rule to bring the exponent $-1$ out to the front:\n \\[ f(-x) = -1 \\cdot \\log_e \\left( x + \\sqrt{x^2 + 1} \\right) = -f(x) \\]\n Since $f(-x) = -f(x)$, the function satisfies the algebraic definition of an odd function.\n <strong>Final Answer:</strong> $f(x)$ is an Odd function.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the purely even component function $E(x)$ of the natural exponential function $f(x) = e^x$.</p>",
+              "solution": "<p>According to the functional decomposition theorem, any function can be split into even and odd components. The formula for the even component is:\n \\[ E(x) = \\frac{f(x) + f(-x)}{2} \\]\n Substitute our given function $f(x) = e^x$ into this formula:\n \\[ E(x) = \\frac{e^x + e^{-x}}{2} \\]\n This specific expression forms the definition of the hyperbolic cosine function ($\\cosh x$). We can verify it is even by checking $E(-x) = \\frac{e^{-x} + e^{-(-x)}}{2} = \\frac{e^{-x} + e^x}{2} = E(x)$.\n <strong>Final Answer:</strong> $E(x) = \\frac{e^x + e^{-x}}{2}$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>If $f(x)$ is an odd function and $g(x)$ is an even function, determine the parity of their product function $h(x) = f(x) \\cdot g(x)$.</p>",
+              "solution": "<p>To determine the parity of the product function $h(x)$, replace $x$ with $-x$:\n \\[ h(-x) = f(-x) \\cdot g(-x) \\]\n Apply the given parity properties for each individual function ($f(-x) = -f(x)$ and $g(-x) = g(x)$):\n \\[ h(-x) = (-f(x)) \\cdot (g(x)) \\]\n Factor out the negative sign:\n \\[ h(-x) = -(f(x) \\cdot g(x)) = -h(x) \\]\n Since $h(-x) = -h(x)$, the product function satisfies the definition of an odd function.\n <strong>Final Answer:</strong> The product function $h(x)$ is Odd.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The graph of an even function always displays perfect geometric symmetry with respect to:",
+              "options": [
+                "The origin",
+                "The vertical y-axis",
+                "The horizontal x-axis",
+                "The line $y = x$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Which of the following functions is classified as an odd function?",
+              "options": [
+                "$f(x) = \\cos x$",
+                "$f(x) = x^2 + \\sin x$",
+                "$f(x) = x^3 + \\sin x$",
+                "$f(x) = |x|$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The unique function that is classified as both an even function and an odd function simultaneously across its entire domain is:",
+              "options": [
+                "$f(x) = 1$",
+                "$f(x) = 0$",
+                "$f(x) = x$",
+                "No such function exists"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $f(x)$ is an odd function, then the composite function $f(f(x))$ must be:",
+              "options": [
+                "Even",
+                "Odd",
+                "Neither even nor odd",
+                "Constant"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the sum of an odd function and an even function is:",
+              "options": [
+                "Always even",
+                "Always odd",
+                "Generally neither even nor odd",
+                "Always zero"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Periodic Functions & Standard Fundamental Periods",
+          "concept": "A function $f(x)$ is <strong>Periodic</strong> if its outputs repeat at regular intervals. Mathematically, this means a positive real constant $T$ exists such that $f(x + T) = f(x)$ for all $x$ in the domain. The smallest such positive constant $T$ is called the <strong>Fundamental Period</strong>. Standard fundamental periods include:\n <ul>\n <li>$\\sin x, \\cos x, \\sec x, \\csc x \\implies T = 2\\pi$\n <li>$\\tan x, \\cot x \\implies T = \\pi$\n <li>Fractional part function $\\{x\\} \\implies T = 1$\n </ul>\n An important theorem states that scaling the input variable changes the period: if the fundamental period of $f(x)$ is $T$, then the period of $f(kx)$ is $\\frac{T}{|k|}$.",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the fundamental period of the composite trigonometric expression $f(x) = \\sin(3x) + \\cos(2x)$.</p>",
+              "solution": "To find the fundamental period of a sum of multiple periodic functions, calculate the fundamental period of each individual term first, and then find their <strong>Least Common Multiple (LCM)</strong>:\n <ul>\n <li>Step 1: Find the period $T_1$ of $\\sin(3x)$. The standard period of sine is $2\\pi$. Divide by the input scaling factor $k = 3$:\n \\[ T_1 = \\frac{2\\pi}{3} \\]\n <li>Step 2: Find the period $T_2$ of $\\cos(2x)$. The standard period of cosine is $2\\pi$. Divide by the input scaling factor $k = 2$:\n \\[ T_2 = \\frac{2\\pi}{2} = \\pi \\]\n </ul>\n Step 3: Calculate the LCM of the fractional periods $T_1 = \\frac{2\\pi}{3}$ and $T_2 = \\frac{\\pi}{1}$. Use the fractional LCM formula ($\\text{LCM} = \\frac{\\text{LCM of Numerators}}{\\text{HCF of Denominators}}$):\n \\[ \\text{Numerator LCM}(2\\pi, \\pi) = 2\\pi \\]\n \\[ \\text{Denominator HCF}(3, 1) = 1 \\]\n Combine these results to find the final period $T$:\n \\[ T = \\frac{2\\pi}{1} = 2\\pi \\]\n <strong>Final Answer:</strong> The fundamental period is $2\\pi$."
+            },
+            {
+              "number": 2,
+              "problem": "<p>Evaluate the fundamental period of the fractional part expression $f(x) = \\{5x\\}$.</p>",
+              "solution": "<p>Let us analyze the base function. The standard fractional part function, defined as $\\{x\\} = x - \\lfloor x \\rfloor$, repeats its values over a constant interval of length 1. Thus, its standard fundamental period is:\n \\[ T_{\\text{base}} = 1 \\]\n The problem introduces an input scaling multiplier of $k = 5$. Apply the scaling theorem, which states that multiplying the input variable divides the fundamental period by that factor:\n \\[ T_{\\text{new}} = \\frac{T_{\\text{base}}}{|k|} = \\frac{1}{5} = 0.2 \\]\n <strong>Final Answer:</strong> $\\frac{1}{5}$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Find the fundamental period of the function $f(x) = |\\sin x| + |\\cos x|$.</p>",
+              "solution": "<p>Let us analyze the individual components first. Taking the absolute value of a trigonometric function folds its negative waves upward, which cuts its period in half: the period of $|\\sin x|$ is $\\pi$, and the period of $|\\cos x|$ is $\\pi$. The LCM of these periods is $\\pi$.<br>\n However, notice that $\\sin x$ and $\\cos x$ are <strong>complementary functions</strong> ($\\sin(\\frac{\\pi}{2} + x) = \\cos x$). For symmetric expressions involving complementary functions, the true fundamental period can be smaller than the LCM. Let us test if half of the LCM angle ($\\frac{\\pi}{2}$) satisfies the periodicity definition:\n \\[ f\\left(x + \\frac{\\pi}{2}\\right) = \\left|\\sin\\left(x + \\frac{\\pi}{2}\\right)\\right| + \\left|\\cos\\left(x + \\frac{\\pi}{2}\\right)\\right| \\]\n Apply the trigonometric reduction identities:\n \\[ \\sin\\left(x + \\frac{\\pi}{2}\\right) = \\cos x \\quad \\text{and} \\quad \\cos\\left(x + \\frac{\\pi}{2}\\right) = -\\sin x \\]\n Substitute these expansions back into the expression for the shifted function:\n \\[ f\\left(x + \\frac{\\pi}{2}\\right) = |\\cos x| + |-\\sin x| = |\\cos x| + |\\sin x| = f(x) \\]\n The function values match exactly over intervals of length $\\frac{\\pi}{2}$. Therefore, the true fundamental period is $\\frac{\\pi}{2}$, not $\\pi$.\n <strong>Final Answer:</strong> $\\frac{\\pi}{2}$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The fundamental period of the standard tangent function $y = \\tan x$ is equal to:",
+              "options": [
+                "$2\\pi$",
+                "$\\pi$",
+                "$\\frac{\\pi}{2}$",
+                "$1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If the fundamental period of $f(x)$ is $T$, then the period of the scaled function $f(4x)$ is:",
+              "options": [
+                "$4T$",
+                "$\\frac{T}{4}$",
+                "$T + 4$",
+                "$T$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The fundamental period of the fractional part function $y = \\{x\\}$ is exactly:",
+              "options": [
+                "$\\pi$",
+                "$1$",
+                "$0.5$",
+                "Infinitely small"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Which of the following functions is completely <strong>non-periodic</strong>?",
+              "options": [
+                "$f(x) = \\sin^2 x$",
+                "$f(x) = x + \\sin x$",
+                "$f(x) = \\{\\sqrt{2}x\\}$",
+                "$f(x) = \\cos(x/3) $"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "To calculate the period of a sum of fractional periods using $\\frac{\\text{LCM of Numerators}}{\\text{HCF of Denominators}}$, the fractions must first be:",
+              "options": [
+                "Converted to decimals",
+                "Reduced to their lowest simplified terms",
+                "Inverted",
+                "Multiplied by $\\pi$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Standard Graphs & Visual Transformations",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Standard Catalog Functions & Pieces",
+          "concept": "<p>Advanced calculus problems require an intimate familiarity with standard functions and their graphs. These core functions include the <strong>Modulus function</strong> ($|x|$), the <strong>Greatest Integer function</strong> ($\\lfloor x \\rfloor$, which creates a step graph), the <strong>Fractional Part function</strong> ($\\{x\\}$), and the <strong>Signum function</strong> ($\\text{sgn}(x)$, which outputs $-1, 0, \\text{or } 1$). Understanding the unique properties of these parent functions allows you to analyze domain, range, and continuity graphs quickly.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Solve for $x \\in \\mathbb{R}$: $\\lfloor x \\rfloor^2 - 5\\lfloor x \\rfloor + 6 = 0$.</p>",
+              "solution": "Let us substitute a dummy variable $t = \\lfloor x \\rfloor$. The equation transforms into a standard quadratic equation:\n \\[ t^2 - 5t + 6 = 0 \\implies (t-2)(t-3) = 0 \\]\n This factors to give two discrete integer values for $t$:\n \\[ t = 2 \\quad \\text{or} \\quad t = 3 \\]\n Now substitute back the definition $t = \\lfloor x \\rfloor$:\n <ul>\n <li>Branch 1: $\\lfloor x \\rfloor = 2 \\implies 2 \\le x < 3$\n <li>Branch 2: $\\lfloor x \\rfloor = 3 \\implies 3 \\le x < 4$\n </ul>\n Combine the intervals from both branches using a set union operation. Since the two intervals share a boundary at $3$ ($[2,3) \\cup [3,4)$), they merge cleanly into a single continuous interval:\n \\[ x \\in [2, 4) \\]\n <strong>Final Answer:</strong> $x \\in [2, 4)$."
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the range of the function $f(x) = \\text{sgn}(x^2 - 2x + 2)$, where $\\text{sgn}(\\cdot)$ denotes the signum function.</p>",
+              "solution": "<p>Let us first analyze the range of the inner quadratic expression:\n \\[ y = x^2 - 2x + 2 \\]\n Complete the square to find the vertex coordinates:\n \\[ y = (x - 1)^2 + 1 \\]\n For all real numbers $x$, $(x-1)^2 \\ge 0$. Adding 1 means the expression is always strictly positive:\n \\[ x^2 - 2x + 2 \\ge 1 \\]\n Now evaluate this result using the definition of the signum function. The signum function maps inputs based on their sign:\n \\[ \\text{sgn}(t) = \\begin{cases} -1 & \\text{if } t < 0 \\\\ 0 & \\text{if } t = 0 \\\\ 1 & \\text{if } t > 0 \\end{cases} \\]\n Since the inner quadratic expression is strictly positive ($y \\ge 1 > 0$) for all real inputs, the signum function outputs a constant value of $1$ everywhere. Thus, the range contains only a single element.\n <strong>Final Answer:</strong> Range $\\in \\{1\\}$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Simplify the expression $E = \\lfloor x \\rfloor + \\lfloor -x \\rfloor$ and state its values for different sets of real numbers.</p>",
+              "solution": "Let us analyze the behavior of this greatest integer expression by splitting the domain into two logical cases:\n <ul>\n <li>Case 1: $x$ is an integer ($x \\in \\mathbb{Z}$). By definition, the greatest integer of any integer is just the number itself. Thus, $\\lfloor x \\rfloor = x$ and $\\lfloor -x \\rfloor = -x$:\n \\[ E = x + (-x) = 0 \\]\n <li>Case 2: $x$ is not an integer ($x \\notin \\mathbb{Z}$). We can write $x$ as the sum of an integer part and a fractional part: $x = n + f$, where $n \\in \\mathbb{Z}$ and $f \\in (0, 1)$. Thus, $\\lfloor x \\rfloor = n$.<br>\n Now evaluate the negative input expression $-x$:\n \\[ -x = -n - f = (-n - 1) + (1 - f) \\]\n Since $f \\in (0, 1)$, the new fractional part $(1-f)$ also lies between 0 and 1. Therefore, the greatest integer of this negative expression is:\n \\[ \\lfloor -x \\rfloor = -n - 1 \\]\n Sum the values from both parts:\n \\[ E = n + (-n - 1) = -1 \\]\n </ul>\n Combine the results from both cases to write the complete piecewise solution:\n \\[ \\lfloor x \\rfloor + \\lfloor -x \\rfloor = \\begin{cases} 0 & \\text{if } x \\in \\mathbb{Z} \\\\ -1 & \\text{if } x \\notin \\mathbb{Z} \\end{cases} \\]\n <strong>Final Answer:</strong> $0$ if $x \\in \\mathbb{Z}$, and $-1$ if $x \\notin \\mathbb{Z}$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The output value of the greatest integer function expression $\\lfloor -4.3 \\rfloor$ is equal to:",
+              "options": [
+                "$-4$",
+                "$-5$",
+                "$4$",
+                "$0.7$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The fractional part function entry $\\{-2.7\\}$ evaluates to:",
+              "options": [
+                "$-0.7$",
+                "$0.3$",
+                "$0.7$",
+                "$-0.3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The solution set of the absolute value inequality $|x - 2| \\le 3$ is:",
+              "options": [
+                "$[-1, 5]$",
+                "$[1, 5]$",
+                "$(-\\infty, -1] \\cup [5, \\infty)$",
+                "$[-5, 1]$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the signum expression $\\text{sgn}(\\log_e 1)$ is exactly:",
+              "options": [
+                "$1$",
+                "$-1$",
+                "$0$",
+                "Undefined"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The range of the fractional part function $y = \\{x\\}$ is bounded by which interval?",
+              "options": [
+                "$[0, 1]$",
+                "$[0, 1)$",
+                "$(0, 1)$",
+                "$\\mathbb{R}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Geometric Transformation of Graphs",
+          "concept": "Graph transformations allow us to deduce the graph of a complex function by applying geometric modifications to the graph of its simpler parent function. Let $y = f(x)$ be a known curve. The rules for transforming graphs are:\n <ul>\n <li>$f(x) \\pm c$: Shifts the graph vertically <strong>up or down</strong> by $c$ units.\n <li>$f(x \\pm c)$: Shifts the graph horizontally <strong>left or right</strong> by $c$ units.\n <li>$-f(x)$: Reflects the graph vertically across the horizontal <strong>x-axis</strong>.\n <li>$f(-x)$: Reflects the graph horizontally across the vertical <strong>y-axis</strong>.\n <li>$|f(x)|$: Folds all negative parts of the graph upward across the x-axis.\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Describe how to obtain the graph of the function $y = |x - 3| + 2$ from the parent absolute value graph $y = |x|$ using a sequence of geometric transformations.</p>",
+              "solution": "Let us break down the expression and trace the transformations step-by-step from the inside out:\n <ul>\n <li>Step 1: Start with the base parent graph: $y_0 = |x|$. This is a V-shaped graph with its vertex at the origin $(0,0)$.\n <li>Step 2: Analyze the horizontal change inside the absolute value braces: $x \\to x - 3$. This horizontal modification shifts the entire curve <strong>3 units to the right</strong> along the x-axis. The vertex moves from $(0,0)$ to $(3,0)$.\n <li>Step 3: Analyze the vertical change outside the braces: $+ 2$. This vertical modification shifts the entire curve <strong>2 units upward</strong> along the y-axis. The vertex moves from $(3,0)$ to its final position at $(3,2)$.\n </ul>\n Combining these steps, the graph of $y = |x - 3| + 2$ is a V-shaped curve shifted 3 units right and 2 units up.\n <strong>Final Answer:</strong> Shift the graph of $y=|x|$ exactly 3 units right, then shift it 2 units up."
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the number of real roots of the equation $|x| = -x^2 + 4x - 3$ by analyzing the intersection of their graphs.</p>",
+              "solution": "Let us plot and analyze the two curves: $f(x) = |x|$ and $g(x) = -x^2 + 4x - 3$.\n <ul>\n <li>The graph of $f(x) = |x|$ consists of two straight lines forming a V-shape that starts at $(0,0)$ and opens upward.\n <li>Let us rewrite the quadratic function $g(x)$ by completing the square:\n \\[ g(x) = -(x^2 - 4x + 4) - 3 + 4 = -(x - 2)^2 + 1 \\]\n This is a parabola with its vertex at $(2, 1)$ that opens downward because of the negative leading coefficient. Its x-intercepts occur where $-(x-2)^2 + 1 = 0 \\implies (x-2)^2 = 1 \\implies x = 1 \\text{ or } x = 3$.\n </ul>\n Now analyze the intersection points of the two curves on the coordinate plane:\n <ul>\n <li>At $x = 1$: $f(1) = |1| = 1$, and $g(1) = 1$. Both functions equal 1 at $x=1$, so $(1,1)$ is a point of intersection.\n <li>For the region $x > 1$, the downward parabola curves back down toward the x-axis, crossing it at $x=3$. Meanwhile, the line $y=x$ rises continuously. The curves must cross exactly once more between $x=1$ and $x=2$.\n <li>For negative values of $x$ ($x < 0$), $f(x)$ is positive while $g(x)$ lies entirely below the x-axis, so they never intersect.\n </ul>\n Counting the intersection points, the two curves cross exactly twice.\n <strong>Final Answer:</strong> Exactly 2 real roots."
+            },
+            {
+              "number": 3,
+              "problem": "<p>If the graph of $y = f(x)$ is given, describe how to construct the graph of $y = f(|x|)$ using reflections.</p>",
+              "solution": "Let us analyze the definition of the function $y = f(|x|)$ by looking at the sign of the input variable $x$:\n \\[ f(|x|) = \\begin{cases} f(x) & \\text{if } x \\ge 0 \\\\ f(-x) & \\text{if } x < 0 \\end{cases} \\]\n This definition gives us a step-by-step method for transforming the graph:\n <ul>\n <li>Step 1: For the positive domain ($x \\ge 0$), the graph of $f(|x|)$ is identical to the original graph of $f(x)$. Therefore, <strong>keep the entire right side of the graph unchanged</strong>.\n <li>Step 2: For the negative domain ($x < 0$), the graph is defined as $f(-x)$, which is the horizontal reflection of the positive side across the y-axis. Therefore, <strong>erase the left side of the original graph completely</strong>.\n <li>Step 3: Take the right side of the graph (from Step 1) and <strong>reflect it across the vertical y-axis</strong> onto the left side.\n </ul>\n The resulting graph is perfectly symmetrical with respect to the y-axis, forming an even function.\n <strong>Final Answer:</strong> Keep the right side ($x \\ge 0$) unchanged, erase the left side, and reflect the right side across the y-axis."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Replacing $x$ with $x + 4$ inside a function's argument shifts its graph:",
+              "options": [
+                "4 units right",
+                "4 units left",
+                "4 units up",
+                "4 units down"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The transformation rule that reflects a curve across the horizontal x-axis is:",
+              "options": [
+                "$f(-x)$",
+                "$-f(x)$",
+                "$|f(x)|$",
+                "$f(x) + c$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "To construct the graph of $y = |f(x)|$ from the graph of $y = f(x)$, you must:",
+              "options": [
+                "Reflect the graph across the y-axis",
+                "Erase the positive parts",
+                "Take any parts of the graph that lie below the x-axis and fold them upward across the x-axis",
+                "Shift the entire curve 1 unit down"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The graph of $y = e^{-x}$ is obtained by reflecting the standard natural exponential curve $y = e^x$ across:",
+              "options": [
+                "The x-axis",
+                "The y-axis",
+                "The origin",
+                "The line $y = x$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If a parent graph has a peak at coordinates $(1, 5)$, then the transformed graph $y = f(x - 2) + 3$ will have a corresponding peak at:",
+              "options": [
+                "$(3, 8)$",
+                "$(-1, 8)$",
+                "$(3, 2)$",
+                "$(-1, 2)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Binary Operations",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Commutativity, Associativity, Identity & Inverse Elements",
+          "concept": "A binary operation $*$ on a non-empty set $A$ is a calculation rule that combines any two elements $a, b \\in A$ to produce an output element that also belongs to $A$ (Closure property).\n Binary operations are classified by four main structural properties:\n <ul>\n <li><strong>Commutative</strong>: If the order of elements can be swapped: $a * b = b * a$.\n <li><strong>Associative</strong>: If the grouping of elements can be changed: $(a * b) * c = a * (b * c)$.\n <li><strong>Identity Element</strong>: An element $e \\in A$ is the identity if it leaves other elements unchanged: $a * e = e * a = a$.\n <li><strong>Inverse Element</strong>: An element $b \\in A$ is the inverse of $a$ if combining them returns the identity element: $a * b = b * a = e$. The inverse of $a$ is conventionally denoted as $a^{-1}$.\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A binary operation $*$ is defined on the set of rational numbers $\\mathbb{Q}$ by the rule $a * b = ab + 2$. Determine if this operation is commutative and associative.</p>",
+              "solution": "<ul>\n <li>Part (a): Test for Commutativity. Evaluate $b * a$ by reversing the elements in the formula:\n \\[ b * a = ba + 2 \\]\n Since standard multiplication of rational numbers is commutative ($ab = ba$), we can see that:\n \\[ a * b = ab + 2 = ba + 2 = b * a \\]\n Since $a * b = b * a$ for all elements, the operation is <strong>Commutative</strong>.\n <li>Part (b): Test for Associativity. Let us evaluate and compare the two grouping configurations:\n \\[ \\text{Left Grouping: } (a * b) * c = (ab + 2) * c \\]\n Apply the operation rule treating $(ab+2)$ as the first element:\n \\[ (ab + 2) * c = (ab + 2)c + 2 = abc + 2c + 2 \\]\n \\[ \\text{Right Grouping: } a * (b * c) = a * (bc + 2) \\]\n Apply the operation rule treating $(bc+2)$ as the second element:\n \\[ a * (bc + 2) = a(bc + 2) + 2 = abc + 2a + 2 \\]\n Comparing the two results, $abc + 2c + 2 \\neq abc + 2a + 2$ unless $a = c$. Since the results are not equal for all elements, the operation is <strong>not Associative</strong>.\n </ul>\n <strong>Final Answer:</strong> The operation $*$ is Commutative but not Associative."
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the identity element $e$ for the binary operation defined on the set of real numbers $\\mathbb{R} \\setminus \\{-1\\}$ by the rule $a * b = a + b + ab$.</p>",
+              "solution": "<p>By definition, an element $e$ is the identity element if it satisfies the condition $a * e = a$ for all elements $a$ in the set.\n Apply the operation rule to the expression $a * e$:\n \\[ a + e + ae = a \\]\n Subtract $a$ from both sides of the equation:\n \\[ e + ae = 0 \\]\n Factor out the identity variable $e$:\n \\[ e(1 + a) = 0 \\]\n Since the domain explicitly excludes $-1$ ($a \\neq -1$), the term $(1+a)$ is never zero. Therefore, we can divide both sides by $(1+a)$ to solve for $e$:\n \\[ e = 0 \\]\n Let us verify this result by checking the other side: $0 * a = 0 + a + 0 \\cdot a = a$. The identity element is confirmed.\n <strong>Final Answer:</strong> The identity element is $e = 0$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Using the binary operation from the previous problem ($a * b = a + b + ab$ with identity $e = 0$), find the inverse element $a^{-1}$ of an arbitrary element $a$.</p>",
+              "solution": "<p>By definition, an element $b$ is the inverse of $a$ if combining them returns the identity element ($a * b = e$). From the previous problem, we know the identity element is $e = 0$.\n Set up the inverse equation:\n \\[ a * b = 0 \\implies a + b + ab = 0 \\]\n Group the terms containing $b$ to isolate it:\n \\[ b + ab = -a \\implies b(1 + a) = -a \\]\n Divide both sides by the factor $(1+a)$ (which is valid since $a \\neq -1$):\n \\[ b = -\\frac{a}{1 + a} \\]\n Thus, the inverse of any element $a$ is given by the formula $-\\frac{a}{1+a}$.\n <strong>Final Answer:</strong> $a^{-1} = -\\frac{a}{1 + a}$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "A binary operation $*$ on a set $A$ is commutative if it satisfies which of the following equations for all elements?",
+              "options": [
+                "$(a * b) * c = a * (b * c)$",
+                "$a * b = b * a$",
+                "$a * b = a$",
+                "$a * e = a$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "For the binary operation $a * b = \\frac{ab}{4}$ defined on the set of positive real numbers, the identity element $e$ is:",
+              "options": [
+                "$1$",
+                "$4$",
+                "$\\frac{1}{4}$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Under the standard operation of matrix multiplication, the identity element is:",
+              "options": [
+                "The Zero Matrix",
+                "The Identity Matrix",
+                "A Diagonal matrix of twos",
+                "Matrix multiplication does not have an identity element"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If an operation is defined as $a * b = a^b$ on the set of natural numbers $\\mathbb{N}$, it fails to be commutative because:",
+              "options": [
+                "$a^b \\neq b^a$ generally",
+                "The output can be negative",
+                "It lacks a zero placeholder",
+                "It is not associative"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "An element $b$ is the inverse of $a$ under a binary operation if combining them returns:",
+              "options": [
+                "The number 0",
+                "The number 1",
+                "The Identity element of that specific operation",
+                "The element $a$ itself"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-math-functions-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "The domain of definition of the real function $f(x) = \\frac{1}{\\sqrt{x - |x|}}$ is:",
+              "options": [
+                "$\\mathbb{R}$",
+                "$(0, \\infty)$",
+                "$(-\\infty, 0)$",
+                "$\\emptyset$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "If the mapping $f: \\mathbb{R} \\to \\mathbb{R}$ is defined by the rule $f(x) = 2x + 3$, then its inverse function $f^{-1}(x)$ is:",
+              "options": [
+                "$\\frac{x-3}{2}$",
+                "$\\frac{x+3}{2}$",
+                "$3x - 2$",
+                "$\\frac{1}{2x+3}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Determine if the function $f(x) = x \\cdot \\left(\\frac{a^x + 1}{a^x - 1}\\right)$ is even, odd, or neither:",
+              "options": [
+                "Even Function",
+                "Odd Function",
+                "Neither even nor odd",
+                "Constant"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The fundamental period of the standard periodic function $f(x) = \\cos(4x)$ is equal to:",
+              "options": [
+                "$2\\pi$",
+                "$\\pi$",
+                "$\\frac{\\pi}{2}$",
+                "$\\frac{\\pi}{4}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The total number of unique bijections that can be defined from a finite set of $3$ elements to itself is:",
+              "options": [
+                "$3$",
+                "$6$",
+                "$9$",
+                "$27$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The range of the fraction expression $f(x) = \\frac{1}{x^2 + 2}$ is bounded by which interval?",
+              "options": [
+                "$(0, 0.5]$",
+                "$[0, 0.5]$",
+                "$(0, \\infty)$",
+                "$\\mathbb{R}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $f(x) = x^2$ and $g(x) = \\sqrt{x}$, then the composite expression $(f \\circ g)(x)$ is identical to $x$ only over which domain?",
+              "options": [
+                "$\\mathbb{R}$",
+                "$[0, \\infty)$",
+                "$(-\\infty, 0]$",
+                "$\\mathbb{Z}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Replacing $x$ with $x - 3$ inside a function's argument shifts its graph geometrically:",
+              "options": [
+                "3 units left",
+                "3 units right",
+                "3 units up",
+                "3 units down"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The output value of the greatest integer function expression $\\lfloor -2.1 \\rfloor$ is equal to:",
+              "options": [
+                "$-2$",
+                "$-3$",
+                "$2$",
+                "$-0.1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "For a binary operation defined by $a * b = a + b - ab$, the identity element $e$ is:",
+              "options": [
+                "$1$",
+                "$0$",
+                "$-1$",
+                "Does not exist"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Find the number of integers in the range of the function $f(x) = 3\\sin x + 4$.",
+              "answer": "7",
+              "explanation": ""
+            },
+            {
+              "q": "If the fundamental period of the function $f(x) = \\sin(kx)$ is $\\frac{\\pi}{3}$, find the value of the positive integer $k$.",
+              "answer": "6",
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the value of the composite function iteration $f(f(2))$ if $f(x) = \\frac{x+2}{x-1}$.",
+              "answer": "4",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The function $f: \\mathbb{R} \\to \\mathbb{R}$ defined by $f(x) = x^3$ is a bijective function.<br>\n <strong>Reason (R):</strong> The derivative of the function is non-negative ($f'(x) = 3x^2 \\ge 0$), making it strictly increasing (one-one), and its range spans from $-\\infty$ to $\\infty$ (onto).",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> The graph of $y = f(-x)$ is obtained by reflecting the curve $y = f(x)$ across the horizontal x-axis.<br>\n <strong>Reason (R):</strong> Reflecting a function horizontally across the vertical y-axis replaces every input coordinate $x$ with its negative counterpart $-x$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 3,
+              "explanation": "A is false (it reflects across the y-axis, not the x-axis) but R is true."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-math-functions-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "The domain of definition of the real-valued function $f(x) = \\sqrt{\\log_{0.5} (x^2 - 5x + 7)}$ is:",
+              "options": [
+                "$[2, 3]$",
+                "$(2, 3)$",
+                "$(-\\infty, 2] \\cup [3, \\infty)$",
+                "$\\emptyset$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Let the function $f: \\mathbb{R} \\to \\mathbb{R}$ be defined by $f(x) = \\frac{e^x - e^{-x}}{e^x + e^{-x}}$. This function can be structurally classified as:",
+              "options": [
+                "One-One and Onto",
+                "One-One and Into",
+                "Many-One and Onto",
+                "Many-One and Into"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The fundamental period of the function $f(x) = |\\sin 3x| + |\\cos 3x|$ is exactly:",
+              "options": [
+                "$\\frac{\\pi}{3}$",
+                "$\\frac{\\pi}{6}$",
+                "$\\frac{2\\pi}{3}$",
+                "$\\pi$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $f(x) = \\log_e \\left(\\frac{1-x}{1+x}\\right)$, then the composite expression $f(x_1) + f(x_2)$ simplifies using logarithmic properties to match which option?",
+              "options": [
+                "$f(x_1 + x_2)$",
+                "$f\\left(\\frac{x_1 + x_2}{1 + x_1x_2}\\right)$",
+                "$f(x_1 x_2)$",
+                "None of these"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The total number of elements inside the range of the function $f(x) = \\lfloor x \\rfloor + \\lfloor -x \\rfloor$ is exactly:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "Infinite"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If a function satisfies the equation $2f(x) + 3f(1/x) = x^2$ for all non-zero real numbers, then the value of $f(2)$ is equal to:",
+              "options": [
+                "$\\frac{7}{4}$",
+                "$-\\frac{7}{20}$",
+                "$\\frac{13}{5}$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Let a graph transformation stretch a curve horizontally. Constructing the graph of $y = |x - 1| - 1$ maps its vertex to coordinates:",
+              "options": [
+                "$(1, -1)$",
+                "$(-1, 1)$",
+                "$(1, 1)$",
+                "$(0, 0)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the function $f(x) = \\frac{4^x}{4^x + 2}$, then the value of the symmetric sum $f(x) + f(1-x)$ is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$0$",
+                "$0.5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "A binary operation on positive integers is defined as $a * b = \\text{HCF}(a, b)$. This operation satisfies which properties?",
+              "options": [
+                "Commutative only",
+                "Associative only",
+                "Commutative and Associative simultaneously",
+                "It has an inverse for every element"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The range of the function $f(x) = \\cos(\\lfloor x \\rfloor)$ over the domain $x \\in (-\\frac{\\pi}{2}, \\frac{\\pi}{2})$ contains how many distinct numerical elements?",
+              "options": [
+                "$2$",
+                "$3$",
+                "$4$",
+                "Infinite"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Find the number of real roots of the transcendental equation $e^x = -x$.",
+              "answer": "1",
+              "explanation": ""
+            },
+            {
+              "q": "Find the cardinality of the range of the fractional part expression $f(x) = \\{\\sin x\\}$ if the domain is restricted to integers.",
+              "answer": "",
+              "explanation": ""
+            },
+            {
+              "q": "Let $f(x)$ be an invertible bijection such that $f(3) = 5$. Find the value of the inverse expression $f^{-1}(5)$.",
+              "answer": "3",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The product of two odd functions is always an even function.<br>\n <strong>Reason (R):</strong> Substituting $-x$ into both functions pulls out two negative signs, which multiply together to become positive ($(-1) \\times (-1) = 1$).",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> The socks-and-shoes identity statement $(f \\circ g)^{-1} = g^{-1} \\circ f^{-1}$ applies to all invertible functions.<br>\n <strong>Reason (R):</strong> To undo a composite process, you must reverse the order of the individual inverse operations step-by-step.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

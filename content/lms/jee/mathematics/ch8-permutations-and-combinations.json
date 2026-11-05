@@ -1,0 +1,878 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": 8,
+  "title": "Permutations and Combinations",
+  "slug": "permutations-and-combinations",
+  "subtitle": "Permutations and Combinations for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#ef4444",
+  "icon": "math",
+  "seo": {
+    "meta_description": "Master Permutations and Combinations for JEE Main & Advanced on GrowQR: in-depth notes, solved examples, self-check MCQs and full mock tests. Free, forever."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Fundamental Principles & Permutations",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Fundamental Principles of Counting & Linear Permutations",
+          "concept": "<p>Counting problems rely on two core logical rules. The <strong>Multiplication Rule</strong> states that if an operation can be performed in $m$ independent ways, and a second operation can follow in $n$ ways, the two operations can be performed together in $m \\times n$ total ways. The <strong>Addition Rule</strong> states that if two operations are mutually exclusive, and can be performed in $m$ and $n$ ways respectively, choosing either operation can be done in $m + n$ ways. An arrangement of $n$ distinct objects taken $r$ at a time is a linear permutation, given by $^nP_r = \\frac{n!}{(n-r)!}$. When all $n$ objects are arranged, this simplifies to $n!$. If items are not all distinct, containing $p$ identical items of one type and $q$ of another, the total arrangements equal $\\frac{n!}{p!q!}$. A common mistake is using the multiplication rule for events that cannot happen simultaneously.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the total number of distinct 4-letter words that can be formed using the letters of the word `UDGAM`, assuming repetition of letters is not allowed. Also, find the count if repetition is allowed.</p>",
+              "solution": "The word `UDGAM` consists of exactly 5 distinct letters: \\{U, D, G, A, M\\}.\n <ul>\n <li><strong>Case 1: Repetition is not allowed.</strong><br>\n We need to choose and arrange 4 distinct letters out of 5. This matches the standard linear permutation definition:\n \\[ ^5P_4 = \\frac{5!}{(5-4)!} = \\frac{120}{1} = 120 \\]\n Alternatively, using the Fundamental Principle of Counting: there are 5 choices for the first slot, 4 for the second, 3 for the third, and 2 for the fourth. By the multiplication rule:\n \\[ 5 \\times 4 \\times 3 \\times 2 = 120 \\text{ ways} \\]\n <li><strong>Case 2: Repetition is allowed.</strong><br>\n For each of the 4 available blank slots in our word layout, we can choose any of the 5 letters independently. By the multiplication rule:\n \\[ 5 \\times 5 \\times 5 \\times 5 = 5^4 = 625 \\text{ ways} \\]\n </ul>\n <strong>Final Answer:</strong> Without repetition $= 120$, with repetition $= 625$."
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the total number of unique arrangements of the letters of the word `SUCCESS`.</p>",
+              "solution": "First, let us count the total number of letters and identify identical sets:\n The word `SUCCESS` contains $n = 7$ total letters. Let us group the identical letters:\n <ul>\n <li>The letter `S` appears exactly $p = 3$ times.\n <li>The letter `C` appears exactly $q = 2$ times.\n <li>The letter `U` appears exactly $1$ time.\n <li>The letter `E` appears exactly $1$ time.\n </ul>\n Apply the permutation formula for objects that are not all distinct:\n \\[ \\text{Total Arrangements} = \\frac{n!}{p! \\cdot q!} = \\frac{7!}{3! \\cdot 2!} \\]\n Expand and simplify the factorials:\n \\[ \\text{Total Arrangements} = \\frac{5040}{6 \\times 2} = \\frac{5040}{12} = 420 \\]\n <strong>Final Answer:</strong> $420$."
+            },
+            {
+              "number": 3,
+              "problem": "<p>How many numbers between 100 and 1000 can be formed using the digits \\{0, 1, 2, 3, 4, 5\\} if no digit is repeated in any number?</p>",
+              "solution": "Numbers between 100 and 1000 must be exactly 3-digit numbers. Let us represent the slots as <strong>H</strong> (Hundreds), <strong>T</strong> (Tens), and <strong>O</strong> (Ones).\n <ul>\n <li><strong>Hundreds Slot</strong>: A valid 3-digit number cannot start with the digit 0, otherwise it becomes a 2-digit number. Therefore, we can choose any digit from \\{1, 2, 3, 4, 5\\}, giving exactly <strong>5 choices</strong>.\n <li><strong>Tens Slot</strong>: The digit 0 can now be safely used. Since repetition is forbidden, we must exclude the digit chosen for the hundreds slot. Out of the 6 total available digits, 1 is gone, leaving exactly <strong>5 choices</strong>.\n <li><strong>Ones Slot</strong>: We must exclude the 2 digits already chosen for the previous slots. This leaves exactly $6 - 2 =$ <strong>4 choices</strong>.\n </ul>\n Apply the fundamental multiplication rule to find the total count:\n \\[ \\text{Total Numbers} = 5 \\times 5 \\times 4 = 100 \\]\n <strong>Final Answer:</strong> $100$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "A student has 3 distinct pairs of pants and 4 distinct shirts. The total number of unique ways they can choose a pants-and-shirt combination to wear is:",
+              "options": [
+                "$7$",
+                "$12$",
+                "$12!$",
+                "$24$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the permutation expression $^{10}P_3$ is equal to:",
+              "options": [
+                "$720$",
+                "$120$",
+                "$5040$",
+                "$30$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The total number of unique permutations that can be formed using all the letters of the word `MATRIX` is:",
+              "options": [
+                "$120$",
+                "$360$",
+                "$720$",
+                "$24$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The total number of arrangements of the letters of the word `APPLE` is:",
+              "options": [
+                "$120$",
+                "$60$",
+                "$24$",
+                "$5$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The number of distinct 3-digit numbers that can be formed using the digits \\{1, 2, 3, 4\\} when repetition of digits is explicitly allowed is:",
+              "options": [
+                "$24$",
+                "$64$",
+                "$12$",
+                "$81$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Advanced Restricted Arrangements (Tie-Together & Gap Methods)",
+          "concept": "Advanced permutation problems include restrictions on how objects can be placed relative to each other.\n <ul>\n <li><strong>Tie-Together Method</strong>: When specific objects must *always be together*, bind them into a single virtual object. Arrange this block with the remaining items, then multiply by the internal permutations of the bounded group.\n <li><strong>Gap Method</strong>: When specific objects must *never be together*, arrange the remaining unrestricted objects first. This creates a sequence of empty spaces (gaps) between them, including the ends. If there are $m$ unrestricted items, they create $m+1$ internal gaps. Choose slots from these gaps to place the restricted items.\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the number of ways in which 5 boys and 4 girls can be arranged in a straight row such that all the girls sit together.</p>",
+              "solution": "Since all 4 girls must sit together, bind them into a single virtual block: (GGGG).\n Now treat this block as 1 single item alongside the 5 individual boys. This gives a total of $5 + 1 = 6$ items to arrange.\n <ul>\n <li>Step 1: Arrange these 6 items in a row, which can be done in $6!$ ways.\n <li>Step 2: For each arrangement, the 4 girls inside the bounded virtual block can rearrange themselves in $4!$ ways.\n </ul>\n Apply the fundamental multiplication rule to find the total number of ways:\n \\[ \\text{Total Ways} = 6! \\times 4! = 720 \\times 24 = 17,280 \\]\n <strong>Final Answer:</strong> $17,280$."
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the number of ways in which 5 boys and 4 girls can be arranged in a straight row such that no two girls sit next to each other.</p>",
+              "solution": "<p>Since the girls must never sit next to each other, use the <strong>Gap Method</strong>.\n Step 1: Arrange the 5 unrestricted boys in a row first. This can be done in $5!$ ways:\n \\[ \\text{\\_ } B_1 \\text{ \\_ } B_2 \\text{ \\_ } B_3 \\text{ \\_ } B_4 \\text{ \\_ } B_5 \\text{ \\_} \\]\n Step 2: Count the number of empty spaces (gaps) created between and around the boys. Arranging 5 boys creates exactly $5 + 1 = 6$ gaps.\n Step 3: Choose 4 gaps out of these 6 to place the 4 girls, and then arrange the girls inside those slots. This can be done in $^6P_4$ ways.\n Apply the multiplication rule to combine the steps:\n \\[ \\text{Total Ways} = 5! \\times ^6P_4 = 120 \\times (6 \\times 5 \\times 4 \\times 3) = 120 \\times 360 = 43,200 \\]\n <strong>Final Answer:</strong> $43,200$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Find the total number of ways to arrange the letters of the word `ARTICLE` such that the vowels always occupy the even places.</p>",
+              "solution": "Let us write out the letters of the word `ARTICLE` and classify them:\n The word contains 7 total letters. The vowels are \\{A, I, E\\} (3 total), and the consonants are \\{R, T, C, L\\} (4 total).\n Set up 7 numbered slots in a row: $1, 2, 3, 4, 5, 6, 7$.\n Identify the even positions: positions 2, 4, and 6 are the only even slots (exactly 3 slots).\n <ul>\n <li>Step 1: Arrange the 3 vowels into the 3 available even slots. This can be done in $3!$ ways.\n <li>Step 2: Arrange the 4 consonants into the remaining 4 odd slots (positions 1, 3, 5, 7). This can be done in $4!$ ways.\n </ul>\n Apply the multiplication rule to find the total number of arrangements:\n \\[ \\text{Total Ways} = 3! \\times 4! = 6 \\times 24 = 144 \\]\n <strong>Final Answer:</strong> $144$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If 6 books are arranged in a shelf row, and 2 specific history books must always be together, the total number of valid ways is:",
+              "options": [
+                "$120$",
+                "$240$",
+                "$720$",
+                "$48$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Using the gap method to arrange 4 men and 3 women such that no two women stand next to each other, the number of available gaps created around the men is:",
+              "options": [
+                "$3$",
+                "$4$",
+                "$5$",
+                "$6$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The number of ways to arrange the letters of the word `VOWEL` such that the vowels are never together is calculated using complementary counting ($5! - \\text{together}$). The result is:",
+              "options": [
+                "$120$",
+                "$48$",
+                "$72$",
+                "$24$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If 5 keys are arranged on a circular ring loop rather than a linear row, the clockwise and anti-clockwise paths are identical. The total number of ways is:",
+              "options": [
+                "$24$",
+                "$12$",
+                "$120$",
+                "$60$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The number of ways to arrange 4 distinct people around a round dinner table is given by $(n-1)!$, which evaluates to:",
+              "options": [
+                "$24$",
+                "$6$",
+                "$12$",
+                "$2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Combinations & Restricted Selections",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Selection Logic & Algebraic Identities",
+          "concept": "Combinations track selection problems where the order of items does not matter. The number of ways to choose $r$ unordered items from a set of $n$ distinct objects is given by $^nC_r = \\frac{n!}{r!(n-r)!}$. Key algebraic identities for combinations include:\n <ul>\n <li><strong>Symmetric Identity</strong>: $^nC_r = ^nC_{n-r}$ (choosing $r$ items is equivalent to leaving $n-r$ items behind).\n <li><strong>Pascal's Identity</strong>: $^nC_r + ^nC_{r-1} = ^{n+1}C_r$.\n </ul>\n In the JEE Advanced exam, Pascal's Identity is frequently used to simplify large combinatorial series summation strings.",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Simplify the summation expression: $S = ^{10}C_4 + ^{10}C_3$.</p>",
+              "solution": "<p>Let us apply Pascal's Identity directly to the expression:\n \\[ ^nC_r + ^nC_{r-1} = ^{n+1}C_r \\]\n Identify the parameters from the problem: $n = 10$ and $r = 4$.\n Substitute these parameters into the right-hand side of the identity:\n \\[ S = ^{10+1}C_4 = ^{11}C_4 \\]\n Now evaluate the combinatorial value explicitly:\n \\[ ^{11}C_4 = \\frac{11 \\times 10 \\times 9 \\times 8}{4 \\times 3 \\times 2 \\times 1} = \\frac{7920}{24} = 330 \\]\n <strong>Final Answer:</strong> $330$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the value of $r$ that satisfies the equation $^{20}C_{r+2} = ^{20}C_{2r-3}$.</p>",
+              "solution": "By the symmetric identity property, the equation $^nC_x = ^nC_y$ splits into two distinct algebraic cases:\n <ul>\n <li><strong>Case 1: The indices are directly equal.</strong><br>\n \\[ r + 2 = 2r - 3 \\implies r = 5 \\]\n Verify the boundary conditions: $r+2 = 7 \\le 20$ and $2r-3 = 7 \\le 20$, which is valid.\n <li><strong>Case 2: The indices add up to the total population ($x + y = n$).</strong><br>\n \\[ (r + 2) + (2r - 3) = 20 \\implies 3r - 1 = 20 \\implies 3r = 21 \\implies r = 7 \\]\n Verify the boundary conditions: $r+2 = 9 \\le 20$ and $2r-3 = 11 \\le 20$, which is also valid.\n </ul>\n Both cases yield valid integer indices.\n <strong>Final Answer:</strong> $r = 5, 7$."
+            },
+            {
+              "number": 3,
+              "problem": "<p>Simplify the series expression: $E = ^{50}C_4 + \\sum_{j=1}^{4} ^{54-j}C_3$.</p>",
+              "solution": "<p>Let us expand the summation series from right to left (starting with $j=4$ up to $j=1$):\n \\[ S = ^{50}C_4 + \\left( ^{50}C_3 + ^{51}C_3 + ^{52}C_3 + ^{53}C_3 \\right) \\]\n Group the first two terms together and apply Pascal's Identity ($^{50}C_4 + ^{50}C_3 = ^{51}C_4$):\n \\[ S = \\left(^{51}C_4\\right) + ^{51}C_3 + ^{52}C_3 + ^{53}C_3 \\]\n Apply Pascal's Identity a second time to the first two terms ($^{51}C_4 + ^{51}C_3 = ^{52}C_4$):\n \\[ S = \\left(^{52}C_4\\right) + ^{52}C_3 + ^{53}C_3 \\]\n Apply the identity a third time ($^{52}C_4 + ^{52}C_3 = ^{53}C_4$):\n \\[ S = \\left(^{53}C_4\\right) + ^{53}C_3 \\]\n Apply the identity one final time to find the simplified expression for the entire series:\n \\[ S = ^{54}C_4 \\]\n This telescoping application of Pascal's identity is a classic JEE strategy.\n <strong>Final Answer:</strong> $^{54}C_4$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "A cricket squad contains 15 players. The number of ways to choose an 11-player team is:",
+              "options": [
+                "$^{15}P_{11}$",
+                "$^{15}C_{11}$",
+                "$15! - 11!$",
+                "$1365$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $^nC_8 = ^nC_2$, then the value of the expression $^nC_2$ is equal to:",
+              "options": [
+                "$10$",
+                "$45$",
+                "$90$",
+                "$8$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the combinatorial sum $^{15}C_3 + ^{15}C_4$ simplifies to:",
+              "options": [
+                "$^{15}C_7$",
+                "$^{16}C_4$",
+                "$^{16}C_3$",
+                "$^{30}C_7$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "A student must select 3 elective courses out of 7 options. The total number of valid choices available is:",
+              "options": [
+                "$35$",
+                "$210$",
+                "$21$",
+                "$7$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The identity relationship $^nC_r = \\frac{n}{r} \\cdot ^{n-1}C_{r-1}$ is known as the property of:",
+              "options": [
+                "Symmetrical inversion",
+                "Index shifting (pull-out property)",
+                "Complementary partitioning",
+                "Binomial expansion"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Restricted Selections & Word Rank Problems",
+          "concept": "Selection problems often include constraints where certain items must always or never be included.\n <ul>\n <li>If $k$ specific items must <strong>always be included</strong>, we reduce both the population and the target selection size by $k$, giving $^{n-k}C_{r-k}$ ways.\n <li>If $k$ specific items must <strong>never be included</strong>, we remove them from the population entirely, giving $^{n-k}C_r$ ways.\n </ul>\n Another important application is finding the <strong>Rank of a Word in a Dictionary</strong>. This involves counting how many words can be formed alphabetically before reaching the target word, processing the letters position-by-position from left to right.",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A committee of 5 members is to be formed from a group of 6 gentlemen and 4 ladies. Find the number of ways this can be done if the committee must contain exactly 2 ladies.</p>",
+              "solution": "The committee requires exactly 5 members in total. We are given the condition that it must contain exactly 2 ladies.\n <ul>\n <li>Step 1: Choose 2 ladies from the 4 available ladies. This can be done in $^{4}C_2$ ways.\n <li>Step 2: Choose the remaining members of the committee from the gentlemen. Since the committee requires 5 members and 2 are ladies, we need $5 - 2 = 3$ gentlemen. Choose 3 gentlemen from the 6 available gentlemen: $^{6}C_3$ ways.\n </ul>\n Apply the fundamental multiplication rule to find the total number of ways:\n \\[ \\text{Total Ways} = ^{4}C_2 \\times ^{6}C_3 \\]\n Evaluate the combinatorial values:\n \\[ ^{4}C_2 = \\frac{4 \\times 3}{2 \\times 1} = 6 \\]\n \\[ ^{6}C_3 = \\frac{6 \\times 5 \\times 4}{3 \\times 2 \\times 1} = 20 \\]\n Multiply the values together:\n \\[ \\text{Total Ways} = 6 \\times 20 = 120 \\]\n <strong>Final Answer:</strong> $120$."
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the rank of the word `MODERN` when all its structural permutations are arranged alphabetically as in a dictionary.</p>",
+              "solution": "First, let us list the 6 distinct letters of the word `MODERN` in alphabetical order:\n \\[ \\text{Alphabetical Order: } E, \\ D, \\ M, \\ N, \\ O, \\ R \\]\n *Correction check on order*: The correct alphabetical order is $D, E, M, N, O, R$.<br>\n Let us count how many words can be formed before reaching `MODERN`, processing position-by-position from left to right:\n <ul>\n <li><strong>Words starting with D</strong>: Fix D in the first slot. The remaining 5 letters can be arranged in $5! = 120$ ways.\n <li><strong>Words starting with E</strong>: Fix E in the first slot. The remaining 5 letters can be arranged in $5! = 120$ ways.\n <li><strong>Words starting with M</strong>: This matches the first letter of our target word `MODERN`. Freeze M and move to the second slot: $\\mathbf{M \\ \\_ \\ \\_ \\ \\_ \\ \\_ \\ \\_}$.\n <ul>\n <li>Words starting with <strong>MD</strong>: The remaining 4 letters can be arranged in $4! = 24$ ways.\n <li>Words starting with <strong>ME</strong>: The remaining 4 letters can be arranged in $4! = 24$ ways.\n <li>Words starting with <strong>MN</strong>: The remaining 4 letters can be arranged in $4! = 24$ ways.\n <li>Words starting with <strong>MO</strong>: This matches the second letter of our target word. Freeze O and move to the third slot: $\\mathbf{MO \\ \\_ \\ \\_ \\ \\_ \\ \\_}$.\n <ul>\n <li>Words starting with <strong>MOD</strong>: This matches the third letter of our target word. Freeze D and move to the fourth slot: $\\mathbf{MOD \\ \\_ \\ \\_ \\ \\_}$.\n <ul>\n <li>Words starting with <strong>MODE</strong>: This matches the fourth letter of our target word. Freeze E and move to the fifth slot: $\\mathbf{MODE \\ \\_ \\ \\_}$.\n <ul>\n <li>The next available letter in alphabetical order is N, which forms the word $\\mathbf{MODERN}$. This is our target word!\n </ul>\n </ul>\n <ul>\n </ul>\n </ul>\n Sum the number of words that appear before our target word:\n \\[ \\text{Words Before} = 120 (\\text{for D}) + 120 (\\text{for E}) + 24 (\\text{for MD}) + 24 (\\text{for ME}) + 24 (\\text{for MN}) = 312 \\]\n The rank of the word `MODERN` is the very next position:\n \\[ \\text{Rank} = 312 + 1 = 313 \\]\n <strong>Final Answer:</strong> $313$."
+            },
+            {
+              "number": 3,
+              "problem": "<p>Out of a pool of 10 distinct mathematical textbooks, find the number of ways to select 4 books such that the most advanced textbook is always included.</p>",
+              "solution": "<p>The total population is $n = 10$, and we need to choose $r = 4$ books. We are given the condition that 1 specific advanced book must <strong>always be included</strong> in the selection.\n This means we have 1 less book to choose, and our remaining choices must be made from the remaining pool of books.\n \\[ \\text{Remaining choices} = r - 1 = 4 - 1 = 3 \\]\n \\[ \\text{Remaining pool} = n - 1 = 10 - 1 = 9 \\]\n Apply the combination formula to find the number of ways to choose the remaining books:\n \\[ \\text{Total Ways} = ^9C_3 = \\frac{9 \\times 8 \\times 7}{3 \\times 2 \\times 1} = 84 \\]\n <strong>Final Answer:</strong> $84$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "A student must choose 5 questions out of 10 on an exam, but the first 2 questions are compulsory. The number of valid choices available is:",
+              "options": [
+                "$^{10}C_5$",
+                "$^8C_3$",
+                "$^8C_5$",
+                "$^{10}C_3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The total number of ways to choose a 4-member team from 8 people such that the oldest person is never included is:",
+              "options": [
+                "$70$",
+                "$35$",
+                "$56$",
+                "$28$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Alphabetical dictionary ordering shows that the rank of the short word `CAT` across its 6 permutations is exactly:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$4$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The number of ways to choose 3 coordinates from a set of 8 distinct points on a circle to form a triangle is:",
+              "options": [
+                "$56$",
+                "$24$",
+                "$336$",
+                "$28$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a box contains 5 red balls and 3 blue balls, the number of ways to select 3 balls such that at least 2 are red is found by summing the cases:",
+              "options": [
+                "$^5C_2 \\cdot ^3C_1 + ^5C_3$",
+                "$^5C_2 + ^3C_1$",
+                "$^8C_3 - ^5C_3$",
+                "$^{15}C_3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Advanced Distributions & Combinatorics",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Division into Groups & Multinomial Integer Solutions",
+          "concept": "Advanced combinations problems involve partitioning objects into groups or finding the number of integer solutions to multi-variable equations.\n <ul>\n <li><strong>Division into Distinct Groups</strong>: The number of ways to divide $m+n$ distinct objects into two distinct groups containing $m$ and $n$ items respectively is given by $\\frac{(m+n)!}{m!n!}$. If the two groups are identical in size ($m=n$), we must divide by $2!$ to remove the ordering of the groups, giving $\\frac{(2m)!}{2!(m!)^2}$.\n <li><strong>Multinomial Equations (Stars and Bars)</strong>: The number of non-negative integer solutions ($x_i \\ge 0$) to the linear equation $x_1 + x_2 + \\dots + x_r = n$ can be found using the stars and bars formula: $^{n+r-1}C_{r-1}$.\n <li>If the problem requires <strong>positive integer solutions</strong> ($x_i \\ge 1$), we use the formula $^{n-1}C_{r-1}$.\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the total number of ways to divide 4 distinct toy tokens into two identical groups of 2 tokens each.</p>",
+              "solution": "The total number of objects is $2m = 4$, so the size of each group is $m = 2$.\n Apply the group division formula for identical groups of equal size:\n \\[ \\text{Total Ways} = \\frac{(2m)!}{2! \\cdot (m!)^2} = \\frac{4!}{2! \\cdot (2!)^2} \\]\n Expand and evaluate the factorials:\n \\[ \\text{Total Ways} = \\frac{24}{2 \\times 4} = \\frac{24}{8} = 3 \\]\n Let us verify this by listing the partitions manually for the set $\\{a, b, c, d\\}$:\n The 3 valid pairs of identical groups are:\n <ol>\n <li>Group 1: $\\{a, b\\}$, Group 2: $\\{c, d\\}$\n <li>Group 1: $\\{a, c\\}$, Group 2: $\\{b, d\\}$\n <li>Group 1: $\\{a, d\\}$, Group 2: $\\{b, c\\}$\n </ol>\n Notice that the order of the groups does not matter because the groups are identical.\n <strong>Final Answer:</strong> $3$."
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the total number of non-negative integer solutions to the equation $x + y + z = 10$.</p>",
+              "solution": "<p>The equation is of the form $x_1 + x_2 + \\dots + x_r = n$, where the sum total is $n = 10$ and the number of variables is $r = 3$. The problem specifies <strong>non-negative integer solutions</strong> ($x, y, z \\ge 0$).\n Apply the standard stars and bars combinatorial formula:\n \\[ \\text{Number of Solutions} = ^{n+r-1}C_{r-1} \\]\n Substitute the values of $n$ and $r$ into the formula:\n \\[ \\text{Number of Solutions} = ^{10+3-1}C_{3-1} = ^{12}C_2 \\]\n Evaluate the binomial coefficient:\n \\[ ^{12}C_2 = \\frac{12 \\times 11}{2 \\times 1} = 66 \\]\n <strong>Final Answer:</strong> $66$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Find the total number of positive integer solutions to the equation $x + y + z = 10$.</p>",
+              "solution": "<p>The sum total is $n = 10$ and the number of variables is $r = 3$. The problem specifies <strong>positive integer solutions</strong>, which means every variable must be strictly greater than or equal to 1 ($x, y, z \\ge 1$).\n Apply the modified positive integer solutions formula:\n \\[ \\text{Number of Solutions} = ^{n-1}C_{r-1} \\]\n Substitute the values of $n$ and $r$ into the formula:\n \\[ \\text{Number of Solutions} = ^{10-1}C_{3-1} = ^9C_2 \\]\n Evaluate the binomial coefficient:\n \\[ ^9C_2 = \\frac{9 \\times 8}{2 \\times 1} = 36 \\]\n Alternatively, we can derive this by substituting variables: let $x = x' + 1, y = y' + 1, z = z' + 1$, where $x', y', z' \\ge 0$. Substituting these into the original equation gives $(x'+1) + (y'+1) + (z'+1) = 10 \\implies x' + y' + z' = 7$. Solving for non-negative solutions yields $^{7+3-1}C_{3-1} = ^9C_2 = 36$. Both methods match perfectly.\n <strong>Final Answer:</strong> $36$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The number of ways to divide 6 distinct items into two separate distinct packets containing 4 and 2 items respectively is:",
+              "options": [
+                "$15$",
+                "$30$",
+                "$45$",
+                "$720$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The number of non-negative integer solutions to the equation $a + b = 5$ is exactly:",
+              "options": [
+                "$5$",
+                "$6$",
+                "$4$",
+                "$10$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Using the positive integer solutions formula $^{n-1}C_{r-1}$, the number of solutions to $x_1 + x_2 + x_3 + x_4 = 6$ (where $x_i \\ge 1$) is:",
+              "options": [
+                "$10$",
+                "$20$",
+                "$5$",
+                "$15$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The total number of ways to distribute $n$ identical items into $r$ distinct bins is structurally identical to finding the number of:",
+              "options": [
+                "Linear permutations with distinct items",
+                "Non-negative integer solutions to a multinomial linear equation",
+                "Derangements",
+                "Circular partitions"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The number of ways to divide 6 distinct blocks into 3 identical groups of 2 blocks each requires dividing by $3!$. The total count is:",
+              "options": [
+                "$15$",
+                "$90$",
+                "$45$",
+                "$10$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Derangements & Grid Geometries",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Derangements & Grid Counting Identities",
+          "concept": "<p>Derangements count permutations where <strong>no element appears in its original natural position</strong>. For example, if $n$ distinct letters are inserted into $n$ addressed envelopes, a derangement occurs if every single letter lands in a wrong envelope. The number of derangements of $n$ objects is given by the subfactorial formula:\n \\[ D_n = n! \\sum_{k=0}^{n} \\frac{(-1)^k}{k!} = n! \\left( \\frac{1}{2!} - \\frac{1}{3!} + \\frac{1}{4!} - \\dots + \\frac{(-1)^n}{n!} \\right) \\]\n Another advanced topic is <strong>Grid Geometry Counting</strong>. In a regular grid map of order $m \\times n$, the total number of rectangles that can be formed is given by choosing 2 horizontal lines and 2 vertical lines simultaneously: $\\text{Rectangles} = ^{m+1}C_2 \\times ^{n+1}C_2$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>There are exactly 4 letters and 4 corresponding directed envelopes. Find the number of ways to insert the letters into the envelopes such that every single letter goes into a wrong envelope.</p>",
+              "solution": "<p>This problem matches the definition of a derangement of $n = 4$ objects. Let us apply the subfactorial derangement formula:\n \\[ D_4 = 4! \\left( \\frac{1}{2!} - \\frac{1}{3!} + \\frac{1}{4!} \\right) \\]\n Expand the terms inside the parentheses:\n \\[ D_4 = 24 \\left( \\frac{1}{2} - \\frac{1}{6} + \\frac{1}{24} \\right) \\]\n Distribute the multiplier 24 across the terms:\n \\[ D_4 = \\frac{24}{2} - \\frac{24}{6} + \\frac{24}{24} = 12 - 4 + 1 = 9 \\]\n Thus, there are exactly 9 ways to completely mix up the 4 letters.\n <strong>Final Answer:</strong> $9$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the total number of rectangles contained inside a standard $3 \\times 4$ grid mesh.</p>",
+              "solution": "A grid mesh of order $m \\times n = 3 \\times 4$ consists of 3 horizontal square blocks and 4 vertical square blocks. Let us find the number of grid lines bounding these blocks:\n <ul>\n <li>Total horizontal grid lines $= m + 1 = 3 + 1 = 4$ lines.\n <li>Total vertical grid lines $= n + 1 = 4 + 1 = 5$ lines.\n </ul>\n To form a rectangle, we must choose exactly 2 horizontal lines out of 4, and 2 vertical lines out of 5. Apply the combination rules:\n \\[ \\text{Total Rectangles} = ^4C_2 \\times ^5C_2 \\]\n Evaluate the binomial coefficients:\n \\[ ^4C_2 = \\frac{4 \\times 3}{2 \\times 1} = 6 \\]\n \\[ ^5C_2 = \\frac{5 \\times 4}{2 \\times 1} = 10 \\]\n Multiply the values together:\n \\[ \\text{Total Rectangles} = 6 \\times 10 = 60 \\]\n <strong>Final Answer:</strong> $60$."
+            },
+            {
+              "number": 3,
+              "problem": "<p>Find the number of ways to rearrange the letters of the word `ABC` such that no letter remains in its original position.</p>",
+              "solution": "The word contains $n = 3$ distinct letters. Let us apply the derangement formula for 3 objects:\n \\[ D_3 = 3! \\left( \\frac{1}{2!} - \\frac{1}{3!} \\right) = 6 \\left( \\frac{1}{2} - \\frac{1}{6} \\right) = 3 - 1 = 2 \\]\n Let us verify this by listing the permutations of `ABC` manually:\n The 6 total arrangements are: `ABC`, `ACB`, `BAC`, `BCA`, `CAB`, `CBA`.\n <ul>\n <li>In `BCA`, position 1 is B (was A), position 2 is C (was B), position 3 is A (was C). Every letter moved!\n <li>In `CAB`, position 1 is C (was A), position 2 is A (was B), position 3 is B (was C). Every letter moved!\n </ul>\n The other 4 arrangements leave at least one letter in its original position. This confirms the result.\n <strong>Final Answer:</strong> $2$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The value of the derangement constant $D_5$, which counts the ways to completely mix up 5 items, is:",
+              "options": [
+                "$44$",
+                "$9$",
+                "$119$",
+                "$53$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The formula to count the total number of rectangles inside an $m \\times n$ grid mesh is:",
+              "options": [
+                "$m \\times n$",
+                "$^{m}C_2 \\times ^{n}C_2$",
+                "$^{m+1}C_2 \\times ^{n+1}C_2$",
+                "$m^2 n^2$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If $D_n$ represents the number of derangements of $n$ items, the value of $D_2$ is exactly:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "$3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The number of horizontal grid lines contained inside a grid structure with $m$ rows of square boxes is:",
+              "options": [
+                "$m$",
+                "$m-1$",
+                "$m+1$",
+                "$2m$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If 3 letters are matched randomly with 3 envelopes, the number of ways where <strong>exactly one</strong> letter goes into its correct envelope is:",
+              "options": [
+                "$3$",
+                "$2$",
+                "$1$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-math-permutations-and-combinations-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "The total number of distinct 3-letter words that can be formed using the letters of the word `LOGARITHM` without repetition is:",
+              "options": [
+                "$504$",
+                "$84$",
+                "$729$",
+                "$9!$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the number of ways to arrange 5 people in a row such that 2 specific individuals, Amit and Bharati, never sit next to each other.",
+              "options": [
+                "$120$",
+                "$72$",
+                "$48$",
+                "$24$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the combinatorial expression $^{20}C_{17} + ^{20}C_{16}$ simplifies by Pascal's Identity to:",
+              "options": [
+                "$^{20}C_{18}$",
+                "$^{21}C_{17}$",
+                "$^{21}C_{16}$",
+                "$^{40}C_{33}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "A committee of 4 members is to be selected from a group of 7 engineers. If the most senior engineer must always serve on the committee, the number of choices is:",
+              "options": [
+                "$35$",
+                "$20$",
+                "$15$",
+                "$21$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The number of non-negative integer solutions to the linear equation $x + y + z = 5$ is exactly:",
+              "options": [
+                "$21$",
+                "$15$",
+                "$10$",
+                "$6$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The number of ways to arrange the letters of the word `ALGEBRA` is:",
+              "options": [
+                "$5040$",
+                "$2520$",
+                "$1260$",
+                "$720$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If 6 distinct keys are arranged on a circular keyring, the total number of unique arrangements is:",
+              "options": [
+                "$120$",
+                "$60$",
+                "$720$",
+                "$360$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The number of ways to choose a 3-member delegation from 6 people such that a specific person is never included is:",
+              "options": [
+                "$10$",
+                "$20$",
+                "$15$",
+                "$4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $^nC_{12} = ^nC_{8}$, then the value of the parameter $n$ is:",
+              "options": [
+                "$4$",
+                "$20$",
+                "$12$",
+                "$96$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The number of derangements of 3 items, where no item matches its original position index, is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Find the number of positive integer solutions to the linear equation $x_1 + x_2 + x_3 = 6$ where $x_i \\ge 1$.",
+              "answer": "10",
+              "explanation": ""
+            },
+            {
+              "q": "Calculate the total number of rectangles contained inside a simple $2 \\times 2$ grid square.",
+              "answer": "9",
+              "explanation": ""
+            },
+            {
+              "q": "Find the total number of distinct rearrangements of the letters of the word `CAT` where every letter changes its initial slot position ($D_3$).",
+              "answer": "2",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The total number of subsets of a finite set with $n$ elements is given by $2^n$.<br>\n <strong>Reason (R):</strong> For each element in the set, there are exactly 2 independent choices: either it is included in the subset, or it is excluded.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> The expansion identity $^{n}C_r + ^{n}C_{r-1} = ^{n+1}C_r$ allows us to simplify compound summation strings.<br>\n <strong>Reason (R):</strong> Combining choices using Pascal's identity scales the population base by 1 while preserving the maximum target selection index $r$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-math-permutations-and-combinations-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "Find the number of ways to arrange 4 boys and 4 girls in a row such that the boys and girls sit alternating.",
+              "options": [
+                "$576$",
+                "$1152$",
+                "$24$",
+                "$40320$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The number of non-negative integer solutions to the equation $x + y + z + w = 12$ such that $x \\ge 1, y \\ge 2, z \\ge 0, w \\ge 0$ is:",
+              "options": [
+                "$^{12}C_3$",
+                "$^{15}C_3$",
+                "$^{11}C_3$",
+                "$^{14}C_3$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Find the rank of the short word `RANK` when all its structural permutations are arranged alphabetically as in a dictionary.",
+              "options": [
+                "$20$",
+                "$21$",
+                "$22$",
+                "$24$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The number of ways to divide 8 distinct objects into 4 equal groups of 2 objects each is:",
+              "options": [
+                "$105$",
+                "$210$",
+                "$420$",
+                "$2520$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "There are 5 distinct fountain pens and 5 distinct caps. The number of ways to pair them such that every single pen gets a wrong cap is:",
+              "options": [
+                "$44$",
+                "$9$",
+                "$11$",
+                "$53$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The total number of rectangles contained inside a standard chessboard grid ($8 \\times 8$ squares) is:",
+              "options": [
+                "$64$",
+                "$1296$",
+                "$204$",
+                "$4096$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The sum of all 4-digit numbers that can be formed using the digits \\{1, 2, 3, 4\\} without repetition is:",
+              "options": [
+                "$66660$",
+                "$26664$",
+                "$66666$",
+                "$24000$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The number of ways to choose 4 letters from the word `EXAMINATION` is a multi-case problem. The total number of selection options is:",
+              "options": [
+                "$136$",
+                "$330$",
+                "$11$",
+                "$44$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If 6 people are to be seated around a round table, and 2 specific individuals refuse to sit next to each other, the number of valid arrangements is:",
+              "options": [
+                "$72$",
+                "$48$",
+                "$24$",
+                "$12$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the combinatorial expression $^{n}C_0 + ^{n}C_1 + ^{n}C_2 + \\dots + ^{n}C_n$ represents the total sum of binomial coefficients, which equals:",
+              "options": [
+                "$n^2$",
+                "$2^n$",
+                "$n!$",
+                "$2^{n-1}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Find the number of distinct ways to arrange the letters of the word `PERMUTATION` such that the relative order of the vowels remains completely unchanged.",
+              "answer": "39916800",
+              "explanation": ""
+            },
+            {
+              "q": "Find the number of divisors of the integer 360, excluding 1 and the number itself.",
+              "answer": "22",
+              "explanation": ""
+            },
+            {
+              "q": "Determine the number of solutions to the equation $x_1 + x_2 + x_3 = 7$ in positive integers ($x_i \\ge 1$).",
+              "answer": "15",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The number of ways to arrange $n$ distinct items in a circle is $(n-1)!$.<br>\n <strong>Reason (R):</strong> Fixing the position of one item breaks the rotational symmetry of the circle, transforming the remaining choices into a standard linear permutation of $n-1$ items.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> The number of non-negative integer solutions to $x+y=10$ is exactly 11.<br>\n <strong>Reason (R):</strong> The variable $x$ can take any integer value from 0 up to 10 independently, and each choice uniquely determines the value of $y$ since $y = 10 - x$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

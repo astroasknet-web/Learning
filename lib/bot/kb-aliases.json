@@ -1,0 +1,266 @@
+{
+  "_readme": [
+    "Routing metadata, NOT content. The KB prose is authored in the SalesIQ UI and",
+    "remains the single source of truth for what is true; this file only records the",
+    "ways visitors ask for each article. It lives in the repo so it can be diffed,",
+    "tested and reviewed, and so `npm run kb:export` never overwrites it.",
+    "",
+    "Rules enforced by lib/bot/answers.test.ts:",
+    "  - every key must be a real article id in kb-snapshot.json",
+    "  - an alias must not be claimed by two different articles",
+    "  - single-word aliases must be distinctive (agent names, product names)",
+    "",
+    "An alias matches on the whole normalised query, or as a contained phrase, and",
+    "short-circuits scoring. Keep them specific: a vague alias hijacks better matches."
+  ],
+
+  "227090000000032003": [
+    "what do you do",
+    "what do you guys do",
+    "who are you",
+    "what is this",
+    "what is this platform",
+    "what is this website about",
+    "what is this website",
+    "what is this app",
+    "how does growqr work",
+    "how does it work",
+    "how it works",
+    "how does this work",
+    "what problem are you solving",
+    "what problem do you solve",
+    "what problem does growqr solve",
+    "give me an overview",
+    "explain the product",
+    "explain the platform",
+    "tell me about the platform",
+    "tell me about this",
+    "what is growqr about",
+    "what does growqr do",
+    "introduce growqr",
+    "overview of growqr",
+    "in short what is growqr"
+  ],
+
+  "227090000000013003": [
+    "who is growqr for",
+    "who uses growqr",
+    "who is this for",
+    "who is it for",
+    "who can use growqr",
+    "is this for me",
+    "is it for me",
+    "who should use growqr",
+    "is growqr for me",
+    "target audience"
+  ],
+
+  "227090000000009082": [
+    "how is growqr different from chatgpt",
+    "why not just use chatgpt",
+    "why not use chatgpt",
+    "how are you different",
+    "how is this different",
+    "what makes growqr different",
+    "why not chatgpt",
+    "growqr vs chatgpt",
+    "difference from chatgpt"
+  ],
+
+  "227090000000030010": [
+    "what is rq",
+    "what is rq score",
+    "rq score",
+    "rq",
+    "what is readiness quotient",
+    "readiness quotient",
+    "explain rq",
+    "how is rq calculated",
+    "how is rq score calculated",
+    "what does rq mean"
+  ],
+
+  "227090000000032005": [
+    "how do i improve my rq score",
+    "how to improve rq",
+    "how to increase rq",
+    "how to raise my rq",
+    "improve my rq",
+    "increase my rq score",
+    "how do i raise my score",
+    "improve my readiness"
+  ],
+
+  "227090000000030012": [
+    "what ai agents does growqr offer",
+    "what agents do you have",
+    "list your ai agents",
+    "tell me about your agents",
+    "what are the ai agents",
+    "how many agents are there",
+    "show me the agents",
+    "all agents",
+    "ai agents"
+  ],
+
+  "227090000000031006": [
+    "vera",
+    "rq-vera",
+    "ai interviewer",
+    "interview practice",
+    "practice interviews",
+    "mock interview",
+    "interview coach"
+  ],
+
+  "227090000000032009": [
+    "nova",
+    "rq-nova",
+    "brand builder",
+    "personal brand",
+    "build my brand"
+  ],
+
+  "227090000000014021": [
+    "lyra",
+    "rq-lyra",
+    "learning curator",
+    "learning path",
+    "what should i learn"
+  ],
+
+  "227090000000027025": [
+    "scout",
+    "rq-scout",
+    "opportunity finder",
+    "find opportunities",
+    "job matching"
+  ],
+
+  "227090000000029004": [
+    "mira",
+    "rq-mira",
+    "resume expert",
+    "resume help",
+    "fix my resume",
+    "improve my resume",
+    "cv help"
+  ],
+
+  "227090000000013009": [
+    "kai",
+    "rq-kai",
+    "roleplay coach",
+    "roleplay practice"
+  ],
+
+  "227090000000027027": [
+    "sage",
+    "rq-sage",
+    "skill trainer",
+    "train my skills"
+  ],
+
+  "227090000000015015": [
+    "can growqr help me get a job",
+    "will this help me find work",
+    "will growqr help me get hired",
+    "can you help me find a job",
+    "help me get a job",
+    "will i get a job"
+  ],
+
+  "227090000000033003": [
+    "how does growqr help me switch careers",
+    "i want to change careers",
+    "help me switch careers",
+    "career change",
+    "changing careers",
+    "career switch"
+  ],
+
+  "227090000000016005": [
+    "does growqr work for universities",
+    "does growqr work for institutes",
+    "do you work with universities",
+    "growqr for universities",
+    "growqr for colleges"
+  ],
+
+  "227090000000027005": [
+    "what do recruiters get from growqr",
+    "growqr for recruiters",
+    "how does growqr help recruiters"
+  ],
+
+  "227090000000013007": [
+    "what does growqr offer companies",
+    "what does growqr offer hr teams",
+    "growqr for companies",
+    "growqr for hr"
+  ],
+
+  "227090000000027009": [
+    "what are q-ryze and q-skale",
+    "what is q-ryze",
+    "what is q-skale",
+    "what is q-kampus",
+    "what is q-kalyber",
+    "q-ryze",
+    "q-skale",
+    "q-kampus",
+    "q-kalyber"
+  ],
+
+  "227090000000030014": [
+    "how is my personal data protected",
+    "is my data safe",
+    "is my data secure",
+    "what happens to my data",
+    "do you sell my data",
+    "personal data"
+  ],
+
+  "227090000000014023": [
+    "how is our organisation's data secured",
+    "how is our organization's data secured",
+    "is our company data secure",
+    "is our organisation data safe",
+    "enterprise data security",
+    "company data security"
+  ],
+
+  "227090000000009086": [
+    "i have a billing problem",
+    "billing problem",
+    "billing issue",
+    "my payment failed",
+    "payment failed",
+    "payment issue",
+    "i was charged twice",
+    "account problem"
+  ],
+
+  "227090000000027007": [
+    "what is the refund policy",
+    "can i get a refund",
+    "refund policy",
+    "how do refunds work",
+    "money back"
+  ],
+
+  "227090000000031008": [
+    "how do i contact the growqr team",
+    "how do i reach support",
+    "how do i contact support",
+    "contact details",
+    "support email",
+    "how do i get in touch"
+  ],
+
+  "227090000000030016": [
+    "how do i book a demo",
+    "how do demos work",
+    "what happens in a demo"
+  ]
+}

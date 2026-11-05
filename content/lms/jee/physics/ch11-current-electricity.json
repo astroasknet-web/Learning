@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "physics",
+  "chapter": 11,
+  "title": "Current Electricity",
+  "slug": "current-electricity",
+  "subtitle": "Current Electricity for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#d946ef",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "Master Current Electricity for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Ohm's Law and Circuit Analysis",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Current, Drift Velocity, Ohm's Law",
+          "concept": "<p><strong>Electric Current:</strong> Rate of flow of charge. $I = dq/dt$. SI unit: ampere (A) = C/s. Scalar (though has direction of conventional positive charge flow).</p><p><strong>Current Density</strong> $\\vec{J} = I/A$ (A/m²); a vector.</p><p><strong>Drift Velocity:</strong> Average velocity acquired by electrons under electric field $E$: $$v_d = \\frac{eE\\tau}{m}$$ where $\\tau$ = relaxation time (mean time between collisions).</p><p><strong>Current in terms of drift velocity:</strong> $$I = neAv_d$$ where $n$ = number density of free electrons, $A$ = cross-section.</p><p><strong>Mobility:</strong> $\\mu = v_d/E = e\\tau/m$, units m²/(V·s).</p><p><strong>Ohm's Law:</strong> $V = IR$ where $R$ = resistance (ohm, Ω). Holds for ohmic conductors at constant temperature.</p><p><strong>Resistivity:</strong> $\\rho = RA/L$. Units: Ω·m. <strong>Conductivity</strong> $\\sigma = 1/\\rho$.</p><p>$$R = \\rho L/A, \\quad \\rho = \\frac{m}{ne^2\\tau}$$</p><p><strong>Temperature dependence:</strong> $R_T = R_0(1 + \\alpha\\Delta T)$, where $\\alpha$ = temperature coefficient. For metals $\\alpha > 0$ (resistance increases with $T$); for semiconductors $\\alpha < 0$ (decreases).</p><p><strong>Color code for resistors</strong> (4-band): first two bands = significant digits, third = multiplier, fourth = tolerance. Mnemonic: BB ROY GBV GW.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A copper wire has $n = 8.5 \\times 10^{28}$ electrons/m³, cross-section $1$ mm², current $1$ A. Find drift velocity.</p>",
+              "solution": "<p>$$v_d = \\frac{I}{neA} = \\frac{1}{8.5 \\times 10^{28} \\times 1.6 \\times 10^{-19} \\times 10^{-6}}$$ $$= \\frac{1}{1.36 \\times 10^4} \\approx 7.35 \\times 10^{-5} \\text{ m/s}$$</p><p><strong>Final Answer:</strong> $v_d \\approx 7.35 \\times 10^{-5}$ m/s (very slow!).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A wire of resistance $4$ Ω is stretched to twice its length. Find new resistance.</p>",
+              "solution": "<p>Volume constant: $AL = A'L'$. With $L' = 2L$: $A' = A/2$. $$R' = \\rho L'/A' = \\rho(2L)/(A/2) = 4\\rho L/A = 4R = 16 \\text{ Ω}$$</p><p><strong>Final Answer:</strong> $R' = 16$ Ω.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>SI unit of current density:</p>",
+              "options": [
+                "A",
+                "A/m",
+                "A/m²",
+                "A·m"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Ohm's law gives:</p>",
+              "options": [
+                "$V = I/R$",
+                "$V = IR$",
+                "$V = R/I$",
+                "$V = I^2R$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The resistance of a metal wire with temperature:</p>",
+              "options": [
+                "Decreases",
+                "Increases",
+                "Remains same",
+                "First decreases then increases"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Drift velocity of electrons in a wire is of the order:</p>",
+              "options": [
+                "$10^{-5}$ m/s",
+                "$10^5$ m/s",
+                "$10^8$ m/s",
+                "$1$ m/s"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The resistivity of a conductor depends on:</p>",
+              "options": [
+                "Length only",
+                "Area only",
+                "Material and temperature",
+                "Voltage applied"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Combinations of Resistors and Kirchhoff's Laws",
+          "concept": "<p><strong>Combinations of Resistors:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Equivalent</th><th>Current/Voltage</th></tr></thead><tbody><tr><td>Series</td><td>$R_{\\text{eq}} = R_1 + R_2 + \\ldots$</td><td>Same current; voltage divides as $V_i = IR_i$</td></tr><tr><td>Parallel</td><td>$\\dfrac{1}{R_{\\text{eq}}} = \\dfrac{1}{R_1} + \\dfrac{1}{R_2} + \\ldots$</td><td>Same voltage; current divides as $I_i = V/R_i$</td></tr><tr><td>Two resistors in parallel</td><td>$R_{\\text{eq}} = R_1R_2/(R_1+R_2)$</td><td>—</td></tr><tr><td>$n$ equal resistors in parallel</td><td>$R/n$</td><td>—</td></tr></tbody></table><p><strong>Power and Energy:</strong></p><table class=\"md-table\"><thead><tr><th>Quantity</th><th>Formula</th></tr></thead><tbody><tr><td>Power dissipated</td><td>$P = VI = I^2R = V^2/R$</td></tr><tr><td>Energy consumed</td><td>$W = Pt$</td></tr></tbody></table><p>In <strong>series</strong>: $P \\propto R$; in <strong>parallel</strong>: $P \\propto 1/R$.</p><p>For combination of two bulbs: in series, lower wattage bulb glows brighter; in parallel, higher wattage glows brighter.</p><p><strong>Kirchhoff's Laws:</strong></p><ol><li><strong>Junction (Current) Rule:</strong> $\\sum I_{\\text{in}} = \\sum I_{\\text{out}}$ at any junction. (Conservation of charge.)</li><li><strong>Loop (Voltage) Rule:</strong> Sum of EMFs and IR drops around any closed loop = 0. (Conservation of energy.)</li></ol><p><strong>Sign Convention for Loop Rule:</strong></p><ul><li>Going through battery from $-$ to $+$: $+\\varepsilon$ (gain); reverse: $-\\varepsilon$</li><li>Going through resistor in direction of current: $-IR$ (drop); opposite: $+IR$</li></ul><p><strong>Wheatstone Bridge (balanced):</strong> $P/Q = R/S$, no current through galvanometer.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Three resistors of $2$ Ω, $4$ Ω, $6$ Ω are connected in parallel. Find equivalent resistance.</p>",
+              "solution": "<p>$$\\frac{1}{R_{\\text{eq}}} = \\frac{1}{2} + \\frac{1}{4} + \\frac{1}{6} = \\frac{6+3+2}{12} = \\frac{11}{12}$$ $$R_{\\text{eq}} = 12/11 \\approx 1.09 \\text{ Ω}$$</p><p><strong>Final Answer:</strong> $R_{\\text{eq}} = 12/11$ Ω $\\approx 1.09$ Ω.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Two bulbs of $40$ W and $100$ W (both rated $220$ V) connected in series across $220$ V supply. Which is brighter? Power consumed?</p>",
+              "solution": "<p>Resistance: $R = V^2/P$. $R_{40} = 220^2/40 = 1210$ Ω, $R_{100} = 220^2/100 = 484$ Ω. In series, same current; bulb with higher $R$ dissipates more ($P = I^2R$). So $40$ W bulb is brighter. Current $I = 220/(1210 + 484) = 220/1694 \\approx 0.13$ A. $P_{40} = I^2R_{40} = 0.13^2 \\times 1210 \\approx 20.5$ W; $P_{100} = 0.13^2 \\times 484 \\approx 8.2$ W.</p><p><strong>Final Answer:</strong> $40$ W bulb glows brighter; $P_{40} \\approx 20.5$ W.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Two equal resistors $R$ each are in parallel. Equivalent resistance:</p>",
+              "options": [
+                "$R$",
+                "$2R$",
+                "$R/2$",
+                "$R/4$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Kirchhoff's junction rule is based on:</p>",
+              "options": [
+                "Conservation of energy",
+                "Conservation of momentum",
+                "Conservation of charge",
+                "Coulomb's law"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A heater coil of $4$ Ω draws $5$ A. Power dissipated:</p>",
+              "options": [
+                "$20$ W",
+                "$80$ W",
+                "$100$ W",
+                "$40$ W"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In a balanced Wheatstone bridge with arms $P, Q, R, S$:</p>",
+              "options": [
+                "$P + Q = R + S$",
+                "$PR = QS$",
+                "$P/Q = R/S$",
+                "$PS = QR$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two bulbs of $25$ W and $100$ W (same voltage rating) are connected in parallel across the rated voltage. The one which glows brighter:</p>",
+              "options": [
+                "$25$ W",
+                "$100$ W",
+                "Both same",
+                "Cannot say"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Measuring Instruments and Special Circuits",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Wheatstone Bridge, Potentiometer, Meter Bridge",
+          "concept": "<p><strong>Wheatstone Bridge:</strong> Four resistors $P, Q, R, S$ in a quadrilateral, with battery on one diagonal and galvanometer on the other. <strong>Balance condition:</strong> No current through galvanometer when: $$\\frac{P}{Q} = \\frac{R}{S}$$</p><p>Used to measure unknown resistance precisely.</p><p><strong>Meter Bridge:</strong> Practical realization of Wheatstone bridge with a $1$-m wire of uniform resistance. With unknown $X$ in one gap and standard $R$ in the other; balance length $\\ell$ from $X$ side: $$X = R \\cdot \\frac{\\ell}{100 - \\ell}$$</p><p><strong>Potentiometer:</strong> Long wire of uniform cross-section with sliding jockey. Measures <strong>EMF</strong> or <strong>potential difference</strong> without drawing current.</p><ul><li>Potential gradient: $k = V/L$ V/m (where $V$ = voltage applied, $L$ = length of wire)</li><li><strong>Balance condition:</strong> $E_{\\text{unknown}} = k\\ell$, where $\\ell$ = balance length</li><li><strong>Comparison of EMFs:</strong> $E_1/E_2 = \\ell_1/\\ell_2$</li><li><strong>Measurement of internal resistance:</strong> $r = R[(l_1 - l_2)/l_2]$, where $l_1$ = balance length with open circuit, $l_2$ = balance length with $R$ in shunt.</li></ul><p><strong>Sensitivity</strong> of potentiometer increases with: smaller potential gradient (longer wire, smaller current).</p><p><strong>Galvanometer:</strong> Detects small currents. Modified to ammeter (low resistance shunt in parallel) or voltmeter (high resistance multiplier in series).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>In a meter bridge, an unknown resistance is in the left gap and $5$ Ω in the right gap. Balance length from left = $40$ cm. Find unknown.</p>",
+              "solution": "<p>$$X = R \\cdot \\frac{\\ell}{100-\\ell} = 5 \\cdot \\frac{40}{60} = \\frac{200}{60} = 10/3 \\approx 3.33 \\text{ Ω}$$</p><p><strong>Final Answer:</strong> $X = 10/3$ Ω $\\approx 3.33$ Ω.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A potentiometer wire is $10$ m long with potential gradient $0.1$ V/m. Find the EMF balanced at length $300$ cm.</p>",
+              "solution": "<p>$$E = k\\ell = 0.1 \\times 3 = 0.3 \\text{ V}$$</p><p><strong>Final Answer:</strong> $E = 0.3$ V.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>In a Wheatstone bridge, the condition for null deflection:</p>",
+              "options": [
+                "$P/Q = R/S$",
+                "$P+Q = R+S$",
+                "$PQ = RS$",
+                "$P = R, Q = S$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The potentiometer measures EMF accurately because:</p>",
+              "options": [
+                "It draws no current at balance",
+                "It has high voltage",
+                "It has long wire",
+                "It uses galvanometer"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>To convert galvanometer to ammeter, connect:</p>",
+              "options": [
+                "Low resistance in series",
+                "High resistance in series",
+                "Low resistance in parallel",
+                "High resistance in parallel"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Sensitivity of potentiometer can be increased by:</p>",
+              "options": [
+                "Increasing potential gradient",
+                "Decreasing potential gradient",
+                "Increasing battery EMF",
+                "Shorter wire"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Meter bridge is based on principle of:</p>",
+              "options": [
+                "Galvanometer",
+                "Wheatstone bridge",
+                "Voltmeter",
+                "Battery"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Cells, EMF, Internal Resistance, Power",
+          "concept": "<p><strong>EMF ($\\varepsilon$):</strong> Total energy supplied by source per unit charge (open circuit voltage). Units: volt.</p><p><strong>Internal Resistance ($r$):</strong> Resistance offered by the cell itself. $$V_{\\text{terminal}} = \\varepsilon - Ir$$ On open circuit ($I = 0$): $V = \\varepsilon$. On short circuit: $I_{\\max} = \\varepsilon/r$.</p><p><strong>Cells in Series ($n$ cells, each $\\varepsilon, r$, external $R$):</strong> $$I = \\frac{n\\varepsilon}{R + nr}$$</p><p><strong>Cells in Parallel ($m$ cells in parallel):</strong> $$I = \\frac{\\varepsilon}{R + r/m}$$</p><p><strong>Mixed grouping ($n$ in series, $m$ rows in parallel):</strong> maximum current for $R = nr/m$.</p><p><strong>Power Dissipation:</strong> $P = I^2R$. Maximum power transferred to external resistance when $R = r$ (impedance matching), with $P_{\\max} = \\varepsilon^2/(4r)$.</p><p><strong>Power in Heating Effect</strong> (Joule's law): $H = I^2Rt$. Practical unit: kWh ($1$ kWh = $3.6 \\times 10^6$ J).</p><p><strong>Charging:</strong> When cell is charged, terminal voltage = $\\varepsilon + Ir$.</p><p><strong>Discharge time:</strong> For battery of capacity $Q_{\\text{Ah}}$ at current $I$, time $t = Q/I$ hours.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A battery of EMF $12$ V and internal resistance $0.5$ Ω drives a current $2$ A through external $R$. Find $R$ and terminal voltage.</p>",
+              "solution": "<p>$$\\varepsilon = I(R+r) \\implies R = \\varepsilon/I - r = 12/2 - 0.5 = 5.5 \\text{ Ω}$$ $$V = \\varepsilon - Ir = 12 - 2(0.5) = 11 \\text{ V}$$</p><p><strong>Final Answer:</strong> $R = 5.5$ Ω; $V = 11$ V.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find condition for maximum power delivered by battery ($\\varepsilon, r$) to external $R$. Calculate that power.</p>",
+              "solution": "<p>$$P = I^2R = \\left(\\frac{\\varepsilon}{R+r}\\right)^2 R = \\frac{\\varepsilon^2 R}{(R+r)^2}$$ $dP/dR = 0$ gives $R = r$. $$P_{\\max} = \\frac{\\varepsilon^2 r}{(2r)^2} = \\frac{\\varepsilon^2}{4r}$$</p><p><strong>Final Answer:</strong> $R = r$; $P_{\\max} = \\varepsilon^2/(4r)$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The EMF of a cell:</p>",
+              "options": [
+                "Depends on current drawn",
+                "Is the open circuit voltage",
+                "Depends on resistance",
+                "Is always less than terminal voltage"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Maximum power is transferred to external $R$ when:</p>",
+              "options": [
+                "$R = 0$",
+                "$R = \\infty$",
+                "$R = r$",
+                "$R = 2r$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Three identical cells of EMF $\\varepsilon$ and internal resistance $r$ in parallel; equivalent EMF and resistance:</p>",
+              "options": [
+                "$3\\varepsilon, 3r$",
+                "$\\varepsilon, r/3$",
+                "$3\\varepsilon, r$",
+                "$\\varepsilon, r$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The energy consumed by a $100$ W bulb in $10$ hours:</p>",
+              "options": [
+                "$10$ Wh",
+                "$100$ Wh",
+                "$1$ kWh",
+                "$10$ kWh"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The terminal voltage of a cell when current $I$ flows through external $R$:</p>",
+              "options": [
+                "$\\varepsilon + Ir$",
+                "$\\varepsilon - Ir$",
+                "$\\varepsilon$",
+                "$Ir$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-phys-current-electricity-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>A wire of resistance $R$ is bent into a circle. Resistance between two diametrically opposite points:</p>",
+              "options": [
+                "$R$",
+                "$R/2$",
+                "$R/4$",
+                "$2R$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A galvanometer of resistance $50$ Ω and full scale current $1$ mA. To convert into voltmeter reading $5$ V, the series resistance:</p>",
+              "options": [
+                "$4950$ Ω",
+                "$5050$ Ω",
+                "$9950$ Ω",
+                "$50$ Ω"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two heaters $1$ kW each at $220$ V connected in parallel across $220$ V. Total heating rate:</p>",
+              "options": [
+                "$0.5$ kW",
+                "$1$ kW",
+                "$2$ kW",
+                "$4$ kW"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The drift velocity of electrons in a conductor when current $I$ flows is proportional to:</p>",
+              "options": [
+                "$I$",
+                "$I^2$",
+                "$\\sqrt{I}$",
+                "$1/I$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Six equal resistors, each $R$, are connected to form a hexagon. Equivalent resistance between two adjacent vertices:</p>",
+              "options": [
+                "$R/2$",
+                "$5R/6$",
+                "$R$",
+                "$6R$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The EMF of a cell with internal resistance $1$ Ω is $2$ V. Current through external $9$ Ω:</p>",
+              "options": [
+                "$0.2$ A",
+                "$0.5$ A",
+                "$0.18$ A",
+                "$1$ A"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Twelve $1$ Ω resistors form a cube. Resistance between diagonally opposite corners:</p>",
+              "options": [
+                "$5/6$ Ω",
+                "$7/12$ Ω",
+                "$1$ Ω",
+                "$3/4$ Ω"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The temperature coefficient of resistance of a metal:</p>",
+              "options": [
+                "Positive",
+                "Negative",
+                "Zero",
+                "Variable"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A potentiometer with potential gradient $0.5$ V/m gives balance length $40$ cm for a cell. EMF of cell:</p>",
+              "options": [
+                "$0.2$ V",
+                "$20$ V",
+                "$0.5$ V",
+                "$2$ V"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The work done per coulomb in carrying a charge from infinity to a point at potential $V$:</p>",
+              "options": [
+                "$V$",
+                "$qV$",
+                "$V/q$",
+                "$1/V$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Two resistors $4$ and $6$ Ω in parallel, then in series with $2.6$ Ω. Equivalent (in Ω):</p>",
+              "answer": "5",
+              "explanation": ""
+            },
+            {
+              "q": "<p>A current of $2$ A flows through $5$ Ω for $10$ s. Heat dissipated (in J):</p>",
+              "answer": "200",
+              "explanation": ""
+            },
+            {
+              "q": "<p>In a balanced Wheatstone bridge: $P = 5$ Ω, $Q = 10$ Ω, $R = 3$ Ω. Find $S$ (in Ω):</p>",
+              "answer": "6",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Kirchhoff's loop rule follows from energy conservation. <strong>Reason (R):</strong> The total potential drop around any closed loop equals zero.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> The resistance of a conductor increases with temperature. <strong>Reason (R):</strong> Increased temperature causes more collisions of electrons with lattice ions.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

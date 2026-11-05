@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "physics",
+  "chapter": 19,
+  "title": "Communication Systems",
+  "slug": "communication-systems",
+  "subtitle": "Communication Systems for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#db2777",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "Master Communication Systems for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Elements of Communication and Propagation",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Communication System Basics and Bandwidth",
+          "concept": "<p><strong>Communication</strong> is the transfer of information from one point to another. A typical <strong>communication system</strong> has three main components:</p><p>``` Information → [TRANSMITTER] → [CHANNEL] → [RECEIVER] → Information ```</p><p><strong>Key elements:</strong></p><ul><li><strong>Transducer:</strong> Converts non-electrical signal (sound, image, temperature) into electrical signal. Example: microphone, camera.</li><li><strong>Transmitter:</strong> Processes signal (amplifies, modulates) for transmission.</li><li><strong>Channel:</strong> The physical medium connecting transmitter and receiver (wire, optical fibre, free space).</li><li><strong>Receiver:</strong> Extracts the original signal from the received signal.</li><li><strong>Noise:</strong> Unwanted random electrical signal that distorts information.</li><li><strong>Repeater:</strong> Amplifies the signal en route to compensate for losses (used in long-distance communication).</li></ul><p><strong>Signal Types:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td><strong>Analog</strong></td><td>Continuous variation of voltage with time (e.g., speech, music)</td></tr><tr><td><strong>Digital</strong></td><td>Discrete (binary: $0$ or $1$); used in computers, digital phones</td></tr></tbody></table><p><strong>Bandwidth:</strong> Range of frequencies necessary to transmit a signal. Different signals require different bandwidth:</p><table class=\"md-table\"><thead><tr><th>Signal</th><th>Approximate bandwidth</th></tr></thead><tbody><tr><td>Speech (intelligible)</td><td>$2.8$ kHz ($300$ Hz – $3.1$ kHz)</td></tr><tr><td>Music</td><td>$20$ kHz ($20$ Hz – $20$ kHz)</td></tr><tr><td>TV (video + audio)</td><td>$6$ MHz</td></tr><tr><td>Digital data</td><td>Depends on bit rate</td></tr></tbody></table><p><strong>Bandwidth of transmission medium:</strong></p><table class=\"md-table\"><thead><tr><th>Medium</th><th>Bandwidth</th></tr></thead><tbody><tr><td>Wire (twisted pair)</td><td>$100$ MHz</td></tr><tr><td>Coaxial cable</td><td>$750$ MHz</td></tr><tr><td>Optical fibre</td><td>$\\sim$ THz (extremely large)</td></tr><tr><td>Free space (radio)</td><td>All EM frequencies (assigned by regulation)</td></tr></tbody></table><p><strong>Attenuation:</strong> Loss of signal strength along the channel. <strong>Amplification:</strong> Boosting signal strength (compensates attenuation). <strong>Range:</strong> Maximum distance between transmitter and receiver beyond which signal is too weak to recover.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A communication channel of bandwidth $5$ MHz is used. Find the maximum frequency for transmission if the lower limit is $100$ MHz.</p>",
+              "solution": "<p>Bandwidth = $f_{\\max} - f_{\\min}$ $f_{\\max} = 100 + 5 = 105$ MHz.</p><p><strong>Final Answer:</strong> $105$ MHz.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>An optical-fibre channel allows $10^{13}$ Hz bandwidth. How many telephone-quality voice channels (each $4$ kHz) can it carry simultaneously?</p>",
+              "solution": "<p>$$N = \\frac{10^{13}}{4 \\times 10^3} = 2.5 \\times 10^9 \\text{ channels}$$</p><p><strong>Final Answer:</strong> $2.5 \\times 10^9$ channels.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The function of a transducer is to:</p>",
+              "options": [
+                "Amplify signal",
+                "Convert non-electrical to electrical signal (or vice versa)",
+                "Modulate",
+                "Filter"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Bandwidth of speech for intelligible reproduction:</p>",
+              "options": [
+                "$300$ Hz – $3.1$ kHz",
+                "$20$ Hz – $20$ kHz",
+                "$1$ MHz",
+                "$1$ kHz"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The medium between transmitter and receiver is called:</p>",
+              "options": [
+                "Source",
+                "Channel",
+                "Signal",
+                "Noise"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A repeater is used to:</p>",
+              "options": [
+                "Modulate",
+                "Amplify signal en route",
+                "Detect signal",
+                "Demodulate"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Bandwidth of TV signal is approximately:</p>",
+              "options": [
+                "$4$ kHz",
+                "$20$ kHz",
+                "$6$ MHz",
+                "$1$ GHz"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Propagation of EM Waves",
+          "concept": "<p>EM waves are used for wireless communication. <strong>Three modes of propagation</strong> are used depending on frequency:</p><p><strong>1. Ground Wave (Surface Wave) Propagation:</strong></p><ul><li>Wave travels along Earth's surface</li><li>Used for: AM broadcast ($530$ kHz – $1710$ kHz)</li><li>Range: Few hundred km (high attenuation at higher frequencies)</li><li>Frequency: $< 2$ MHz typically</li></ul><p><strong>2. Sky Wave Propagation:</strong></p><ul><li>Wave is reflected by <strong>ionosphere</strong> back to Earth</li><li>Used for: short-wave broadcasting, amateur radio</li><li>Frequency: $2-30$ MHz (HF)</li><li>Multiple bounces possible — long-distance global coverage</li><li>Limited by ionosphere conditions (day/night, solar activity)</li></ul><p><strong>3. Space Wave (Line-of-Sight) Propagation:</strong></p><ul><li>Wave travels directly from transmitter to receiver</li><li>Used for: TV, FM, microwave links, satellite communication, mobile phones</li><li>Frequency: $> 30$ MHz (VHF, UHF, microwave)</li><li>Higher frequencies penetrate ionosphere → useful for satellite communication</li></ul><p><strong>Line-of-Sight Distance for Antenna of Height $h_T$:</strong> $$d_T = \\sqrt{2Rh_T}$$ where $R$ = Earth's radius. For both antennas (transmitter $h_T$, receiver $h_R$): $$d_M = \\sqrt{2Rh_T} + \\sqrt{2Rh_R}$$</p><p><strong>Ionosphere Layers:</strong></p><table class=\"md-table\"><thead><tr><th>Layer</th><th>Height (km)</th><th>Density</th></tr></thead><tbody><tr><td>D</td><td>$65-100$</td><td>Lowest</td></tr><tr><td>E</td><td>$100-150$</td><td>Moderate</td></tr><tr><td>F1</td><td>$150-250$</td><td>Higher</td></tr><tr><td>F2</td><td>$250-400$</td><td>Highest</td></tr></tbody></table><p><strong>Critical Frequency:</strong> Maximum frequency reflected back at vertical incidence. Above this, wave penetrates the ionosphere.</p><p><strong>MUF (Maximum Usable Frequency):</strong> Highest frequency that gives reflection from ionosphere for given path.</p><p><strong>Satellite Communication:</strong> Satellites act as relay stations. Geostationary satellites at $36000$ km appear stationary; three suffice for global coverage. Frequencies used: GHz range (microwaves).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find line-of-sight distance for a TV antenna at height $80$ m. ($R = 6400$ km)</p>",
+              "solution": "<p>$$d = \\sqrt{2Rh} = \\sqrt{2 \\times 6.4 \\times 10^6 \\times 80} = \\sqrt{1.024 \\times 10^9}$$ $$\\approx 3.2 \\times 10^4 \\text{ m} = 32 \\text{ km}$$</p><p><strong>Final Answer:</strong> $d \\approx 32$ km.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A transmitter antenna is $200$ m tall, receiver $50$ m. Maximum line-of-sight distance: ($R = 6400$ km)</p>",
+              "solution": "<p>$$d_T = \\sqrt{2 \\times 6.4 \\times 10^6 \\times 200} \\approx 50.6 \\text{ km}$$ $$d_R = \\sqrt{2 \\times 6.4 \\times 10^6 \\times 50} \\approx 25.3 \\text{ km}$$ $$d_M = d_T + d_R \\approx 75.9 \\text{ km}$$</p><p><strong>Final Answer:</strong> $\\approx 75.9$ km.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>AM broadcasts use:</p>",
+              "options": [
+                "Ground wave",
+                "Sky wave",
+                "Space wave",
+                "All"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Frequencies above $30$ MHz are best transmitted via:</p>",
+              "options": [
+                "Ground wave",
+                "Sky wave",
+                "Space wave",
+                "Underground cable"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Ionosphere reflects waves of:</p>",
+              "options": [
+                "Below $2$ MHz",
+                "$2-30$ MHz",
+                "Above $30$ MHz",
+                "Visible light"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Line-of-sight distance from $h$ m high tower:</p>",
+              "options": [
+                "$\\sqrt{Rh}$",
+                "$\\sqrt{2Rh}$",
+                "$2Rh$",
+                "$Rh$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Geostationary satellite altitude:</p>",
+              "options": [
+                "$400$ km",
+                "$36000$ km",
+                "$1$ million km",
+                "$1000$ km"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Modulation and Demodulation",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Need for Modulation, Amplitude Modulation (AM)",
+          "concept": "<p><strong>Why Modulation?</strong> Direct transmission of low-frequency audio (kHz range) faces several problems:</p><ol><li><strong>Antenna size:</strong> Effective antenna length $L \\geq \\lambda/4$. For $f = 1$ kHz: $\\lambda = 300$ km, so $L \\geq 75$ km — impossibly large. For high $f$ (MHz), antenna is just metres.</li><li><strong>Power radiated:</strong> Power radiated by antenna $\\propto (l/\\lambda)^2$. Higher frequency → much more efficient radiation.</li><li><strong>Mixing of signals:</strong> If many transmitters all radiated at audio frequency, signals would overlap. Different carrier frequencies allow many channels simultaneously.</li></ol><p><strong>Modulation:</strong> Process of superimposing low-frequency (modulating/message) signal on a high-frequency carrier wave.</p><p><strong>Three Basic Types:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>What varies with signal</th><th>Symbol</th></tr></thead><tbody><tr><td>Amplitude Modulation</td><td>Amplitude of carrier</td><td><strong>AM</strong></td></tr><tr><td>Frequency Modulation</td><td>Frequency of carrier</td><td><strong>FM</strong></td></tr><tr><td>Phase Modulation</td><td>Phase of carrier</td><td><strong>PM</strong></td></tr></tbody></table><p><strong>Amplitude Modulation (AM):</strong></p><p>Carrier: $c(t) = A_c\\sin\\omega_c t$. Message: $m(t) = A_m\\sin\\omega_m t$.</p><p>AM signal: $c_m(t) = (A_c + A_m\\sin\\omega_m t)\\sin\\omega_c t = A_c(1 + \\mu\\sin\\omega_m t)\\sin\\omega_c t$</p><p>where <strong>modulation index</strong> $\\mu = A_m/A_c$; ranges $0 \\leq \\mu \\leq 1$. <strong>Over-modulation</strong> ($\\mu > 1$) causes distortion.</p><p>Expanding: $$c_m(t) = A_c\\sin\\omega_c t + \\frac{\\mu A_c}{2}\\cos(\\omega_c - \\omega_m)t - \\frac{\\mu A_c}{2}\\cos(\\omega_c + \\omega_m)t$$</p><p><strong>AM signal contains three frequencies:</strong></p><ul><li>Carrier $\\omega_c$</li><li>Upper side band (USB) $\\omega_c + \\omega_m$</li><li>Lower side band (LSB) $\\omega_c - \\omega_m$</li></ul><p><strong>Bandwidth of AM</strong> = $2\\omega_m$ (or $2f_m$ in Hz).</p><p>In terms of voltage amplitudes from waveform: $$\\mu = \\frac{V_{\\max} - V_{\\min}}{V_{\\max} + V_{\\min}}$$</p><p><strong>Power in AM:</strong></p><ul><li>Carrier power: $P_c = V_c^2/(2R)$</li><li>Each sideband: $P_{SB} = \\mu^2 P_c/4$</li><li>Total power: $P_t = P_c(1 + \\mu^2/2)$</li><li>Efficiency: $\\eta = \\mu^2/(2 + \\mu^2)$. For $\\mu = 1$: $\\eta = 1/3 = 33.3\\%$</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A carrier of $1$ MHz is amplitude-modulated by audio of $5$ kHz. Find side bands and bandwidth.</p>",
+              "solution": "<ul><li>USB: $1000 + 5 = 1005$ kHz</li><li>LSB: $1000 - 5 = 995$ kHz</li><li>Bandwidth = $2f_m = 10$ kHz</li></ul><p><strong>Final Answer:</strong> USB $1005$ kHz, LSB $995$ kHz, BW $= 10$ kHz.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>An AM wave has $V_{\\max} = 120$ V, $V_{\\min} = 40$ V. Find $\\mu$.</p>",
+              "solution": "<p>$$\\mu = \\frac{V_{\\max} - V_{\\min}}{V_{\\max} + V_{\\min}} = \\frac{120-40}{120+40} = \\frac{80}{160} = 0.5$$</p><p><strong>Final Answer:</strong> $\\mu = 0.5$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Modulation is needed because:</p>",
+              "options": [
+                "Low frequency signals require huge antennas",
+                "Higher frequencies allow more efficient radiation",
+                "Allows many channels via different carriers",
+                "All of the above"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>AM signal of carrier $f_c$ and modulating $f_m$ has bandwidth:</p>",
+              "options": [
+                "$f_m$",
+                "$2f_c$",
+                "$f_c + f_m$",
+                "$2f_m$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Modulation index for AM:</p>",
+              "options": [
+                "$A_c/A_m$",
+                "$A_m/A_c$",
+                "$A_m + A_c$",
+                "$A_mA_c$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Maximum modulation index without distortion:</p>",
+              "options": [
+                "$0$",
+                "$0.5$",
+                "$1$",
+                "$2$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The carrier signal in AM has:</p>",
+              "options": [
+                "Audio frequency",
+                "Radio frequency (much higher than $f_m$)",
+                "DC voltage",
+                "Variable frequency"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Frequency and Phase Modulation, Demodulation",
+          "concept": "<p><strong>Frequency Modulation (FM):</strong> Instantaneous frequency of carrier varied in proportion to message amplitude. Carrier amplitude remains constant.</p><p>$$f(t) = f_c + k_f m(t)$$</p><p><strong>Advantages of FM over AM:</strong></p><ul><li>Better noise immunity (noise mostly affects amplitude, which FM ignores)</li><li>Higher fidelity sound quality</li><li>Used for high-quality audio broadcasting ($88-108$ MHz commercial FM band)</li></ul><p><strong>Disadvantages:</strong></p><ul><li>Requires larger bandwidth (typically $200$ kHz vs $10$ kHz for AM)</li><li>More complex circuitry</li></ul><p><strong>Carson's Rule (FM bandwidth):</strong> $$BW_{FM} = 2(\\Delta f + f_m)$$ where $\\Delta f$ = peak frequency deviation, $f_m$ = highest modulating frequency.</p><p><strong>Phase Modulation (PM):</strong> Phase of carrier varied with message: $$\\phi(t) = \\phi_c + k_p m(t)$$</p><p>PM and FM are closely related — differentiating phase gives frequency.</p><p><strong>Comparison: AM vs FM</strong></p><table class=\"md-table\"><thead><tr><th>Feature</th><th>AM</th><th>FM</th></tr></thead><tbody><tr><td>What varies</td><td>Amplitude</td><td>Frequency</td></tr><tr><td>Bandwidth</td><td>$2f_m$</td><td>$\\sim 2(\\Delta f + f_m)$</td></tr><tr><td>Noise immunity</td><td>Poor</td><td>Good</td></tr><tr><td>Power efficiency</td><td>Low ($33\\%$ max)</td><td>High</td></tr><tr><td>Quality</td><td>Medium</td><td>High</td></tr><tr><td>Complexity</td><td>Simple</td><td>Complex</td></tr><tr><td>Application</td><td>Long-distance, simple radio</td><td>High-fidelity radio, TV audio</td></tr></tbody></table><p><strong>Demodulation (Detection):</strong> Process of recovering the original message signal from the modulated wave.</p><p><strong>AM Demodulation:</strong> Uses an <strong>envelope detector</strong> = diode + RC low-pass filter. The diode rectifies the AM wave (positive envelope), and the RC filter smooths it, leaving the audio envelope.</p><p>Time constant $\\tau = RC$ should satisfy: $$\\frac{1}{f_c} \\ll RC \\ll \\frac{1}{f_m}$$</p><p><strong>FM Demodulation:</strong> Uses <strong>frequency discriminator</strong> circuits (slope detector, ratio detector, PLL — phase-locked loop). More complex than AM detection.</p><p><strong>Production of AM:</strong> Square-law modulator with carrier and message inputs, followed by band-pass filter to keep $\\omega_c \\pm \\omega_m$ components.</p><p><strong>Production of FM:</strong> Voltage-controlled oscillator (VCO) — frequency depends on input voltage.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>An FM signal has carrier $98$ MHz, max deviation $75$ kHz, max audio frequency $15$ kHz. Find bandwidth (Carson).</p>",
+              "solution": "<p>$$BW = 2(\\Delta f + f_m) = 2(75 + 15) = 180 \\text{ kHz}$$</p><p><strong>Final Answer:</strong> $180$ kHz.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A carrier of $10$ V is modulated by audio with $\\mu = 0.6$. Find total transmitted power if carrier power $= 100$ W.</p>",
+              "solution": "<p>$$P_t = P_c(1 + \\mu^2/2) = 100(1 + 0.36/2) = 100 \\times 1.18 = 118 \\text{ W}$$</p><p><strong>Final Answer:</strong> $P_t = 118$ W.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>In FM, what varies?</p>",
+              "options": [
+                "Amplitude",
+                "Frequency",
+                "Phase",
+                "All"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Commercial FM uses frequency band:</p>",
+              "options": [
+                "$88-108$ MHz",
+                "$530-1710$ kHz",
+                "$6$ MHz",
+                "$1$ GHz"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Bandwidth of AM is:</p>",
+              "options": [
+                "$f_m$",
+                "$2f_m$",
+                "$f_c$",
+                "$\\Delta f$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Envelope detector is used for:</p>",
+              "options": [
+                "FM demodulation",
+                "AM demodulation",
+                "PM demodulation",
+                "Phase shift"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>FM has better noise immunity than AM because:</p>",
+              "options": [
+                "Noise affects amplitude, not frequency",
+                "FM uses higher carrier",
+                "Better antenna",
+                "Larger bandwidth"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-phys-communication-systems-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>The block in a communication system that converts non-electrical to electrical signals:</p>",
+              "options": [
+                "Transmitter",
+                "Receiver",
+                "Transducer",
+                "Repeater"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The size of antenna for $1$ kHz audio direct transmission is impractical because:</p>",
+              "options": [
+                "Wavelength $\\sim$ km",
+                "Power is too low",
+                "Receiver is too small",
+                "Bandwidth is large"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>For ground wave propagation, maximum useful range is about:</p>",
+              "options": [
+                "$10$ km",
+                "Few hundred km",
+                "Few thousand km",
+                "Worldwide"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The frequency range of microwaves:</p>",
+              "options": [
+                "kHz",
+                "MHz",
+                "GHz",
+                "THz"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>An AM wave has $V_{\\max} = 24$ V, $V_{\\min} = 8$ V. Modulation index:</p>",
+              "options": [
+                "$0.25$",
+                "$0.5$",
+                "$0.75$",
+                "$1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The bandwidth required for transmission of $20$ kHz audio by AM:</p>",
+              "options": [
+                "$10$ kHz",
+                "$20$ kHz",
+                "$40$ kHz",
+                "$100$ kHz"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Side bands in AM with $f_c = 5$ MHz and $f_m = 5$ kHz:</p>",
+              "options": [
+                "$4.995$ MHz, $5.005$ MHz",
+                "$5$ MHz only",
+                "$5.005$ MHz only",
+                "$5$, $10$ MHz"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Distance of line-of-sight from a $100$ m tall TV antenna:</p>",
+              "options": [
+                "About $35.8$ km",
+                "$10$ km",
+                "$100$ km",
+                "$1000$ km"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>FM is preferred over AM for:</p>",
+              "options": [
+                "Long-distance broadcasting",
+                "High-fidelity quality due to noise immunity",
+                "Simple receivers",
+                "Low bandwidth"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Sky wave propagation uses:</p>",
+              "options": [
+                "Direct line of sight",
+                "Reflection from ionosphere",
+                "Refraction by air",
+                "Reflection from satellites"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Carrier frequency $1$ MHz amplitude modulated by $5$ kHz audio. Bandwidth (in kHz):</p>",
+              "answer": "10",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Modulation index of an AM wave with $V_{\\max} = 30$, $V_{\\min} = 10$, multiplied by $10$ (integer):</p>",
+              "answer": "5",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two antennas: transmitter $h_T = 50$ m, receiver $h_R = 32$ m. Maximum line-of-sight distance (km, rounded, $R = 6400$ km, use $\\sqrt{640000} = 800$):</p>",
+              "answer": "49",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Sky wave propagation is not possible for very high frequencies (> 30 MHz). <strong>Reason (R):</strong> Above 30 MHz, the EM waves penetrate the ionosphere instead of being reflected.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> Frequency modulation is preferred for high-quality audio broadcasting. <strong>Reason (R):</strong> FM has better noise immunity since noise mostly affects amplitude, not frequency.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

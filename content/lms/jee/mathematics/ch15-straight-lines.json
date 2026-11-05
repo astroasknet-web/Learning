@@ -1,0 +1,889 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": 15,
+  "title": "Straight Lines",
+  "slug": "straight-lines",
+  "subtitle": "Coordinate Geometry: Straight Lines",
+  "level": "JEE Main & Advanced",
+  "color": "#0891b2",
+  "icon": "math",
+  "seo": {
+    "meta_description": "Master Straight Lines for JEE Main & Advanced on GrowQR: notes, solved examples, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Linear Slopes & Core Functional Forms",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Slopes, Inclinations, and Perpendicular Conditions",
+          "concept": "<p>The <strong>inclination</strong> of a non-vertical straight line is defined as the angle $\\theta$ ($0 \\le \\theta < \\pi$) measured in the anti-clockwise direction from the positive direction of the x-axis to the line. The <strong>slope</strong> or gradient $m$ of the line is the trigonometric tangent of its inclination:\n \\[ m = \\tan\\theta \\]\n If a line passes through two distinct coordinate points $P(x_1, y_1)$ and $Q(x_2, y_2)$, its slope is uniquely calculated using the vertical change divided by the horizontal change:\n \\[ m = \\frac{y_2 - y_1}{x_2 - x_1} \\quad (x_1 \\neq x_2) \\]</p>Geometric relationships between multiple lines are governed by their respective slopes:\n <ul>\n <li><strong>Parallel Lines:</strong> Two non-vertical lines are parallel if and only if their slopes are identically equal ($m_1 = m_2$).\n <li><strong>Perpendicular Lines:</strong> Two non-vertical lines are perpendicular if and only if the product of their slopes evaluates to negative unity:\n \\[ m_1 \\cdot m_2 = -1 \\implies m_2 = -\\frac{1}{m_1} \\]\n </ul>\n A common trap in competitive exams involves vertical and horizontal lines, where the slope of a vertical line ($\\theta = 90^\\circ$) is strictly undefined, making the reciprocal slope condition break down unless handled via directional vectors.",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the slope of a straight line that is perpendicular to the line passing through the distinct points $A(2, 5)$ and $B(-4, 3)$.</p>",
+              "solution": "<p>First, determine the slope $m_1$ of the baseline path connecting coordinates $A$ and $B$:\n \\[ m_1 = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{3 - 5}{-4 - 2} = \\frac{-2}{-6} = \\frac{1}{3} \\]\n Let $m_2$ represent the slope of the line perpendicular to $AB$. Apply the standard perpendicular slope condition:\n \\[ m_1 \\cdot m_2 = -1 \\implies \\left(\\frac{1}{3}\\right) \\cdot m_2 = -1 \\implies m_2 = -3 \\]\n <strong>Final Answer:</strong> The slope of the perpendicular line is $-3$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If the line passing through $(k, 3)$ and $(2, 7)$ is parallel to the line passing through $(1, 1)$ and $(5, 9)$, find the value of the constant parameter $k$:",
+              "options": [
+                "$0$",
+                "$4$",
+                "$-2$",
+                "$2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The inclination $\\theta$ of a line whose slope is $m = -1$ matches exactly:",
+              "options": [
+                "$45^\\circ$",
+                "$135^\\circ$",
+                "$120^\\circ$",
+                "$60^\\circ$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the slope of a straight line perpendicular to the linear axis mapping given by $y = -5x + 8$:",
+              "options": [
+                "$-5$",
+                "$5$",
+                "$1/5$",
+                "$-1/5$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If three distinct coordinate points $A(1, 2)$, $B(3, 4)$, and $C(k, 6)$ are collinear, the slope parameters must satisfy $m_{AB} = m_{BC}$, which forces $k$ to equal:",
+              "options": [
+                "$5$",
+                "$4$",
+                "$6$",
+                "$2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The slope of a straight line perfectly parallel to the horizontal x-axis line is:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$\\infty$",
+                "Undefined"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Standard Forms of Equations and Symmetric Parameterizations",
+          "concept": "A straight line can be algebraically modeled using several standard structural equations depending on the given geometric parameters:\n <ul>\n <li><strong>Slope-Intercept Form:</strong> $y = mx + c$ (where $c$ is the y-intercept)\n <li><strong>Point-Slope Form:</strong> $y - y_1 = m(x - x_1)$ (passes through $P(x_1, y_1)$)\n <li><strong>Two-Point Form:</strong> $y - y_1 = \\left(\\frac{y_2 - y_1}{x_2 - x_1}\\right)(x - x_1)$\n <li><strong>Intercept Form:</strong> $\\frac{x}{a} + \\frac{y}{b} = 1$ (where $a$ and $b$ are the x and y intercepts)\n <li><strong>Normal Form:</strong> $x \\cos\\alpha + y \\sin\\alpha = p$ (where $p$ is the perpendicular distance from the origin and $\\alpha$ is the inclination angle of that perpendicular vector)\n <li><strong>Symmetric / Parametric Form:</strong> Tracks coordinates step-wise using a directional distance parameter $r$ from a baseline point $P(x_1, y_1)$ along an inclination angle $\\theta$:\n \\[ \\frac{x - x_1}{\\cos\\theta} = \\frac{y - y_1}{\\sin\\theta} = r \\implies x = x_1 + r\\cos\\theta, \\quad y = y_1 + r\\sin\\theta \\]\n </ul>\n The <strong>Symmetric Form</strong> is highly effective for JEE Advanced problems that require finding points located at a specific scalar distance along a slanted path line.",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the coordinate position of a point located at a distance of $r = 5$ units away from the baseline point $P(2, 3)$ along the direction of the line whose inclination angle is $\\theta = 30^\\circ$.</p>",
+              "solution": "<p>Apply the symmetric parametric structural equations directly to map the shifts along the coordinates:\n \\[ x = x_1 + r\\cos\\theta \\quad \\text{and} \\quad y = y_1 + r\\sin\\theta \\]\n Substitute the given parameters ($x_1 = 2$, $y_1 = 3$, $r = 5$, and $\\theta = 30^\\circ$) into the formulas:\n \\[ x = 2 + 5\\cos(30^\\circ) = 2 + 5\\left(\\frac{\\sqrt{3}}{2}\\right) = 2 + \\frac{5\\sqrt{3}}{2} \\]\n \\[ y = 3 + 5\\sin(30^\\circ) = 3 + 5\\left(\\frac{1}{2}\\right) = 3 + \\frac{5}{2} = \\frac{11}{2} \\]\n <strong>Final Answer:</strong> The coordinate point is $\\left(2 + \\frac{5\\sqrt{3}}{2}, \\frac{11}{2}\\right)$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Express the linear line equation $x - \\sqrt{3}y + 4 = 0$ in the standard normal layout format $x \\cos\\alpha + y \\sin\\alpha = p$:",
+              "options": [
+                "$x \\cos(150^\\circ) + y \\sin(150^\\circ) = 2$",
+                "$x \\cos(300^\\circ) + y \\sin(300^\\circ) = 2$",
+                "$x \\cos(120^\\circ) + y \\sin(120^\\circ) = 4$",
+                "$x \\cos(60^\\circ) + y \\sin(60^\\circ) = 2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "A line cuts off equal intercept boundaries from the coordinate axes and passes through $(2, 5)$. Its equation matches:",
+              "options": [
+                "$x + y = 7$",
+                "$x - y = 3$",
+                "$x + y = 3$",
+                "$2x + 5y = 1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The equation of a straight line passing through $(1, -2)$ with a slope of $m = 3$ is:",
+              "options": [
+                "$3x - y - 5 = 0$",
+                "$3x - y + 5 = 0$",
+                "$3x + y - 1 = 0$",
+                "$x - 3y - 7 = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the x and y intercepts for the general line equation $3x - 4y + 12 = 0$:",
+              "options": [
+                "$a = -4, b = 3$",
+                "$a = 4, b = -3$",
+                "$a = 3, b = -4$",
+                "$a = -3, b = 4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the parametric vector mapping of a line is tracking coordinates via $x = 1 + r\\frac{1}{\\sqrt{2}}$ and $y = 2 + r\\frac{1}{\\sqrt{2}}$, the inclination angle of the line is:",
+              "options": [
+                "$30^\\circ$",
+                "$45^\\circ$",
+                "$60^\\circ$",
+                "$90^\\circ$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Metric Geometry & Point Transformations",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Distances, Angles, and Parallel Splits",
+          "concept": "The acute angle $\\phi$ between two intersecting straight lines with slopes $m_1$ and $m_2$ is calculated using the tangential difference formula:\n \\[ \\tan\\phi = \\left| \\frac{m_1 - m_2}{1 + m_1 m_2} \\right| \\]\n Metric calculations mapping spatial distances from coordinates to lines utilize standard geometric absolute vector formulas:\n <ul>\n <li><strong>Distance of a Point from a Line:</strong> The perpendicular distance $d$ from a point $P(x_1, y_1)$ to the general line $Ax + By + C = 0$ is:\n \\[ d = \\frac{|Ax_1 + By_1 + C|}{\\sqrt{A^2 + B^2}} \\]\n <li><strong>Distance Between Parallel Lines:</strong> Two parallel lines share identical leading coefficients when normalized, written as $L_1: Ax + By + C_1 = 0$ and $L_2: Ax + By + C_2 = 0$. The perpendicular distance between them is the absolute difference of their constants over the norm coefficient:\n \\[ d = \\frac{|C_1 - C_2|}{\\sqrt{A^2 + B^2}} \\]\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Calculate the perpendicular distance between the two parallel lines $3x - 4y + 7 = 0$ and $6x - 8y - 1 = 0$.</p>",
+              "solution": "<p>First, scale the first line equation by $2$ so that the leading directional coefficients match the second equation exactly:\n \\[ 2(3x - 4y + 7) = 0 \\implies 6x - 8y + 14 = 0 \\]\n Now identify the normalized constant parameters from both parallel lines:\n \\[ A = 6, \\quad B = -8, \\quad C_1 = 14, \\quad C_2 = -1 \\]\n Substitute these parameters into the parallel distance formula:\n \\[ d = \\frac{|C_1 - C_2|}{\\sqrt{A^2 + B^2}} = \\frac{|14 - (-1)|}{\\sqrt{6^2 + (-8)^2}} = \\frac{|14 + 1|}{\\sqrt{36 + 64}} = \\frac{15}{\\sqrt{100}} = \\frac{15}{10} = 1.5 \\]\n <strong>Final Answer:</strong> The distance between the parallel lines is $1.5$ units (or $\\frac{3}{2}$).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Find the perpendicular distance from the point $P(2, 3)$ to the line path given by $4x - 3y + 11 = 0$:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$4$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the acute angle between the two lines $y = 3x + 5$ and $y = \\frac{1}{2}x - 1$:",
+              "options": [
+                "$30^\\circ$",
+                "$45^\\circ$",
+                "$60^\\circ$",
+                "$90^\\circ$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The perpendicular distance from the origin $(0, 0)$ to the line $x - y + 4 = 0$ evaluates to:",
+              "options": [
+                "$2$",
+                "$2\\sqrt{2}$",
+                "$\\sqrt{2}$",
+                "$4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the distance separating the parallel lines $x + y + 2 = 0$ and $x + y - 4 = 0$:",
+              "options": [
+                "$3$",
+                "$3\\sqrt{2}$",
+                "$6$",
+                "$\\sqrt{2}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If the lines $2x - 3y + 5 = 0$ and $kx + 4y - 7 = 0$ are perpendicular, then the value of $k$ must be:",
+              "options": [
+                "$6$",
+                "$-6$",
+                "$2$",
+                "$3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Foot of a Perpendicular and Mirror Reflection Images",
+          "concept": "Projecting points orthogonally or reflecting coordinates across a line mirror utilize structured geometric transformation ratio shortcuts:\n <ul>\n <li><strong>Foot of the Perpendicular:</strong> Let $H(h, k)$ represent the coordinates of the foot of the perpendicular dropped from a point $P(x_1, y_1)$ onto the line $Ax + By + C = 0$. The coordinate shifts are calculated using the ratio formula:\n \\[ \\frac{h - x_1}{A} = \\frac{k - y_1}{B} = -\\frac{Ax_1 + By_1 + C}{A^2 + B^2} \\]\n <li><strong>Reflection (Image) of a Point:</strong> Let $I(x_2, y_2)$ represent the coordinates of the mirror reflection image of a point $P(x_1, y_1)$ across the line mirror $Ax + By + C = 0$. Since the line acts as the perpendicular bisector connecting the object $P$ and its image $I$, the transformation ratio doubles its scalar displacement factor:\n \\[ \\frac{x_2 - x_1}{A} = \\frac{y_2 - y_1}{B} = -2\\left(\\frac{Ax_1 + By_1 + C}{A^2 + B^2}\\right) \\]\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the coordinates of the reflection mirror image of the point $P(1, 2)$ in the line $x - y + 4 = 0$.</p>",
+              "solution": "<p>Identify the line parameters and point coordinates:\n \\[ A = 1, \\quad B = -1, \\quad C = 4, \\quad x_1 = 1, \\quad y_1 = 2 \\]\n Evaluate the core scale numerator term ($Ax_1 + By_1 + C$):\n \\[ 1(1) + (-1)(2) + 4 = 1 - 2 + 4 = 3 \\]\n Evaluate the norm coefficient squared ($A^2 + B^2$):\n \\[ 1^2 + (-1)^2 = 1 + 1 = 2 \\]\n Apply the reflection transformation ratio formula to find the coordinates $(x_2, y_2)$:\n \\[ \\frac{x_2 - 1}{1} = \\frac{y_2 - 2}{-1} = -2\\left(\\frac{3}{2}\\right) = -3 \\]\n Separate the equations to solve for each coordinate independently:\n \\[ x_2 - 1 = -3 \\implies x_2 = -2 \\]\n \\[ \\frac{y_2 - 2}{-1} = -3 \\implies y_2 - 2 = 3 \\implies y_2 = 5 \\]\n <strong>Final Answer:</strong> The reflection image coordinates are $I(-2, 5)$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Find the coordinates of the foot of the perpendicular dropped from $(0, 0)$ onto the line $x + y - 2 = 0$:",
+              "options": [
+                "$(1, 1)$",
+                "$(1/2, 1/2)$",
+                "$(2, 2)$",
+                "$(0, 2)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the reflection mirror image of the point $P(4, -13)$ in the line mirror $5x + y + 6 = 0$:",
+              "options": [
+                "$(-1, -14)$",
+                "$(1, 14)$",
+                "$(-6, -15)$",
+                "$(4, 13)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The foot of the perpendicular from $(1, 3)$ to the line $x - y = 0$ is:",
+              "options": [
+                "$(2, 2)$",
+                "$(1, 1)$",
+                "$(3, 3)$",
+                "$(1.5, 1.5)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the coordinate reflection image of the point $(3, 8)$ with respect to the line $x + 3y = 7$:",
+              "options": [
+                "$(-1, -4)$",
+                "$(-1, -2)$",
+                "$(1, -4)$",
+                "$(0, 0)$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The reflection image of any general point $P(x_1, y_1)$ across the standard line mirror $y = x$ swaps coordinates to:",
+              "options": [
+                "$(-x_1, -y_1)$",
+                "$(y_1, x_1)$",
+                "$(-y_1, -x_1)$",
+                "$(x_1, -y_1)$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Linear Systems & Concurrency Operators",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Concurrency Determinants and Families of Lines",
+          "concept": "<p>A set of three or more distinct straight lines is said to be <strong>concurrent</strong> if they all pass through the exact same point of intersection. Three lines given by $L_i: A_i x + B_i y + C_i = 0$ (where $i = 1, 2, 3$) are concurrent if and only if the determinant of their coefficients evaluates to zero:\n \\[ \\begin{vmatrix} A_1 & B_1 & C_1 \\\\ A_2 & B_2 & C_2 \\\\ A_3 & B_3 & C_3 \\end{vmatrix} = 0 \\]</p><p>The infinite set of lines passing through the intersection of two baseline lines $L_1 = 0$ and $L_2 = 0$ is defined as a <strong>family of straight lines</strong>. Any line belonging to this family can be modeled using the linear combination formula:\n \\[ L_1 + \\lambda L_2 = 0 \\implies (A_1 x + B_1 y + C_1) + \\lambda(A_2 x + B_2 y + C_2) = 0 \\]\n where $\\lambda \\in \\mathbb{R}$ is a variable scalar parameter. This formula allows you to find a specific line from the family by applying a given geometric constraint to solve for $\\lambda$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the value of the constant parameter $k$ for which the three straight lines $x - y + 1 = 0$, $2x + y - 4 = 0$, and $kx + 2y - 5 = 0$ are concurrent.</p>",
+              "solution": "<p>Set up the coefficient matrix determinant and equate it to zero to enforce concurrency:\n \\[ \\begin{vmatrix} 1 & -1 & 1 \\\\ 2 & 1 & -4 \\\\ k & 2 & -5 \\end{vmatrix} = 0 \\]\n Expand the matrix determinant along the first row:\n \\[ 1 \\cdot [1(-5) - (-4)(2)] - (-1) \\cdot [2(-5) - (-4)(k)] + 1 \\cdot [2(2) - 1(k)] = 0 \\]\n Simplify the terms inside each bracket:\n \\[ 1 \\cdot [-5 + 8] + 1 \\cdot [-10 + 4k] + 1 \\cdot [4 - k] = 0 \\]\n \\[ 3 - 10 + 4k + 4 - k = 0 \\]\n Combine the constants and the variable terms to solve for $k$:\n \\[ 3k - 3 = 0 \\implies 3k = 3 \\implies k = 1 \\]\n <strong>Final Answer:</strong> The lines are concurrent when $k = 1$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If the three lines $x + y - 1 = 0$, $2x - y + 3 = 0$, and $3x + ky + 2 = 0$ are concurrent, find the value of $k$:",
+              "options": [
+                "$1$",
+                "$0$",
+                "$-1$",
+                "$2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the line passing through the intersection of $x + y - 2 = 0$ and $2x - y + 1 = 0$ that also passes through the point $(1, 3)$:",
+              "options": [
+                "$x - y + 2 = 0$",
+                "$2x - y + 1 = 0$",
+                "$x + y - 4 = 0$",
+                "$3x - y = 0$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "A family of lines is represented by the parametric equation $(x+y-1) + \\lambda(2x-y+3) = 0$. The fixed central point through which all lines in this family must pass is:",
+              "options": [
+                "$(-2/3, 5/3)$",
+                "$(2/3, -5/3)$",
+                "$(1, 0)$",
+                "$(0, 1)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the matrix determinant of the coefficients of three straight lines evaluates to zero, it guarantees concurrency *unless* which condition occurs?",
+              "options": [
+                "The lines are all mutually parallel to each other.",
+                "The lines are all perpendicular.",
+                "The lines pass through the origin.",
+                "The lines have integer slopes."
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of a line belonging to the family $(x+y-2) + \\lambda(x-y) = 0$ that is perfectly horizontal (parallel to the x-axis):",
+              "options": [
+                "$y = 1$",
+                "$y = 2$",
+                "$y = 0$",
+                "$x = 1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Homogeneous Quadratic Forms & Joint Line Pairs",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Homogeneous Second-Degree Equations and Angle Bisectors",
+          "concept": "A homogeneous second-degree equation in terms of $x$ and $y$ has the standard format:\n \\[ ax^2 + 2hxy + by^2 = 0 \\]\n This equation always represents a <strong>pair of straight lines passing through the origin</strong>. Let the individual lines be $y = m_1 x$ and $y = m_2 x$. Factoring the joint quadratic expression reveals key relationships between the slopes and the coefficients:\n \\[ m_1 + m_2 = -\\frac{2h}{b} \\quad \\text{and} \\quad m_1 \\cdot m_2 = \\frac{a}{b} \\]\n The acute angle $\\theta$ between this pair of lines can be calculated directly from the coefficients using the formula:\n \\[ \\tan\\theta = \\left| \\frac{2\\sqrt{h^2 - ab}}{a + b} \\right| \\]\n <ul>\n <li><strong>Coincident Lines:</strong> The lines are coincident (or parallel) if $h^2 - ab = 0 \\implies h^2 = ab$.\n <li><strong>Perpendicular Lines:</strong> The lines are perpendicular if the sum of the squared coefficients vanishes: $a + b = 0$.\n </ul>\n The joint equation of the <strong>internal and external angle bisectors</strong> for this pair of lines forms a symmetric orthogonal relationship, given by the formula:\n \\[ \\frac{x^2 - y^2}{a - b} = \\frac{xy}{h} \\]",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the angle between the pair of straight lines represented by the homogeneous equation $3x^2 + 4xy + y^2 = 0$, and find the joint equation of their angle bisectors.</p>",
+              "solution": "<p>Identify the homogeneous coefficients from the given equation:\n \\[ a = 3, \\quad 2h = 4 \\implies h = 2, \\quad b = 1 \\]\n Calculate the angle $\\theta$ using the joint tangent formula:\n \\[ \\tan\\theta = \\left| \\frac{2\\sqrt{2^2 - 3(1)}}{3 + 1} \\right| = \\left| \\frac{2\\sqrt{4 - 3}}{4} \\right| = \\frac{2(1)}{4} = \\frac{1}{2} \\implies \\theta = \\tan^{-1}\\left(\\frac{1}{2}\\right) \\]\n Now set up the joint equation of the angle bisectors using the standard formula:\n \\[ \\frac{x^2 - y^2}{a - b} = \\frac{xy}{h} \\implies \\frac{x^2 - y^2}{3 - 1} = \\frac{xy}{2} \\implies \\frac{x^2 - y^2}{2} = \\frac{xy}{2} \\]\n Cancel the denominators to find the final equation:\n \\[ x^2 - y^2 = xy \\implies x^2 - xy - y^2 = 0 \\]\n <strong>Final Answer:</strong> $\\theta = \\tan^{-1}\\left(\\frac{1}{2}\\right)$; Bisectors: $x^2 - xy - y^2 = 0$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Find the condition on the coefficients for which the pair of lines $ax^2 + 2hxy + by^2 = 0$ are mutually perpendicular:",
+              "options": [
+                "$h^2 = ab$",
+                "$a + b = 0$",
+                "$a = b$",
+                "$h = 0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The angle between the pair of straight lines $x^2 - 7xy + 12y^2 = 0$ is:",
+              "options": [
+                "$\\tan^{-1}(1/13)$",
+                "$\\tan^{-1}(1/7)$",
+                "$\\tan^{-1}(1/5)$",
+                "$\\pi/4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the joint equation of the angle bisectors for the pair of lines $2x^2 + 5xy + 3y^2 = 0$:",
+              "options": [
+                "$\\frac{x^2-y^2}{-1} = \\frac{xy}{2.5}$",
+                "$5x^2 - 2xy - 5y^2 = 0$",
+                "$x^2 - xy - y^2 = 0$",
+                "$2x^2 - 5xy - 3y^2 = 0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If the pair of lines represented by $x^2 - 2kxy + y^2 = 0$ are coincident, the parameter $k$ must equal:",
+              "options": [
+                "$\\pm 1$",
+                "$0$",
+                "$\\pm 2$",
+                "$\\pm 1/2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The sum of the slopes $m_1 + m_2$ for the joint line pair $4x^2 - 12xy + 3y^2 = 0$ evaluates to:",
+              "options": [
+                "$4$",
+                "$-4$",
+                "$4/3$",
+                "$-4/3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "General Second-Degree Equations and Locus Tracking",
+          "concept": "<p>The general second-degree equation in terms of $x$ and $y$ incorporates linear and constant terms along with the quadratic terms:\n \\[ ax^2 + 2hxy + by^2 + 2gx + 2fy + c = 0 \\]\n This general equation represents a <strong>pair of straight lines</strong> if and only if the determinant of its complete coefficient matrix vanishes. This condition is represented by the discriminant equation $\\Delta = 0$:\n \\[ \\Delta = abc + 2fgh - af^2 - bg^2 - ch^2 = 0 \\]\n Additionally, to represent real lines, the coefficients must satisfy $h^2 \\ge ab$.</p><p>If $\\Delta = 0$, the general equation can be factored into two distinct linear equations representing lines that intersect at an interior point away from the origin. The coordinates of this intersection point can be found by taking the partial derivatives of the general equation with respect to $x$ and $y$ and solving the resulting linear system:\n \\[ \\frac{\\partial f}{\\partial x} = 2ax + 2hy + 2g = 0 \\quad \\text{and} \\quad \\frac{\\partial f}{\\partial y} = 2hx + 2by + 2f = 0 \\]</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Determine the value of the constant parameter $c$ for which the general second-degree equation $2x^2 + 5xy + 2y^2 + 3x + 3y + c = 0$ represents a pair of straight lines.</p>",
+              "solution": "<p>Identify the complete set of coefficients from the general equation structure:\n \\[ a = 2, \\quad b = 2, \\quad 2h = 5 \\implies h = \\frac{5}{2} \\]\n \\[ 2g = 3 \\implies g = \\frac{3}{2}, \\quad 2f = 3 \\implies f = \\frac{3}{2}, \\quad c = c \\]\n Set up the discriminant equation $\\Delta = 0$ to enforce the line pair condition:\n \\[ abc + 2fgh - af^2 - bg^2 - ch^2 = 0 \\]\n Substitute the extracted coefficients into the formula:\n \\[ (2)(2)(c) + 2\\left(\\frac{3}{2}\\right)\\left(\\frac{3}{2}\\right)\\left(\\frac{5}{2}\\right) - 2\\left(\\frac{3}{2}\\right)^2 - 2\\left(\\frac{3}{2}\\right)^2 - c\\left(\\frac{5}{2}\\right)^2 = 0 \\]\n \\[ 4c + \\frac{45}{4} - \\frac{9}{2} - \\frac{9}{2} - \\frac{25}{4}c = 0 \\]\n Combine the constant fractions and the variable terms:\n \\[ \\left(4 - \\frac{25}{4}\\right)c + \\left(\\frac{45}{4} - 9\\right) = 0 \\]\n \\[ -\\frac{9}{4}c + \\frac{9}{4} = 0 \\implies \\frac{9}{4}c = \\frac{9}{4} \\implies c = 1 \\]\n <strong>Final Answer:</strong> The equation represents a pair of lines when $c = 1$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The general second-degree equation $ax^2 + 2hxy + by^2 + 2gx + 2fy + c = 0$ represents a pair of straight lines if its discriminant $\\Delta$ satisfies:",
+              "options": [
+                "$\\Delta > 0$",
+                "$\\Delta = 0$",
+                "$\\Delta < 0$",
+                "$\\Delta = h^2 - ab$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the coordinates of the intersection point for the pair of straight lines represented by $x^2 - y^2 + 2x + 1 = 0$:",
+              "options": [
+                "$(0, 0)$",
+                "$(-1, 0)$",
+                "$(1, 0)$",
+                "$(0, -1)$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The angle between the lines represented by the general second-degree equation depends exclusively on which components of the equation?",
+              "options": [
+                "The quadratic terms $a, h,$ and $b$ only",
+                "The linear terms $g$ and $f$ only",
+                "The constant term $c$ only",
+                "All coefficients simultaneously"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the value of $h^2 - ab$ for the line pair equation $x^2 + 4xy + 4y^2 + 2x + 4y + 1 = 0$:",
+              "options": [
+                "$0$",
+                "$4$",
+                "$-4$",
+                "$2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Tracking the locus of a point whose distance from the x-axis is always twice its distance from the y-axis leads to which straight line equation?",
+              "options": [
+                "$y = 2x$ or $y = -2x$",
+                "$x = 2y$ or $x = -2y$",
+                "$2x + y = 0$",
+                "$x + 2y = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-math-straight-lines-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "Find the equation of the straight line passing through the point $(2, 3)$ that is perpendicular to the line $3x - 4y + 7 = 0$.",
+              "options": [
+                "$4x + 3y - 17 = 0$",
+                "$4x - 3y + 1 = 0$",
+                "$3x + 4y - 18 = 0$",
+                "$4x + 3y + 17 = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The acute angle between the straight lines $x - \\sqrt{3}y + 5 = 0$ and $\\sqrt{3}x - y + 1 = 0$ is:",
+              "options": [
+                "$30^\\circ$",
+                "$45^\\circ$",
+                "$60^\\circ$",
+                "$90^\\circ$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Calculate the perpendicular distance from the coordinate point $P(-1, 4)$ to the line path given by $5x + 12y + 7 = 0$.",
+              "options": [
+                "$2$",
+                "$4$",
+                "$3$",
+                "$5$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the perpendicular distance separating the two parallel lines $8x + 15y - 34 = 0$ and $8x + 15y + 17 = 0$.",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$4$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Find the coordinates of the foot of the perpendicular dropped from the point $(1, 3)$ onto the line $2x - y + 4 = 0$.",
+              "options": [
+                "$(-1, 2)$",
+                "$(1, 6)$",
+                "$(0, 4)$",
+                "$(-0.2, 3.6)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the mirror reflection image of the coordinate point $P(3, 4)$ across the line mirror $x + y - 2 = 0$.",
+              "options": [
+                "$(-1, 0)$",
+                "$(0, -1)$",
+                "$(-2, -1)$",
+                "$(1, 2)$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If the three lines $x + 2y - 3 = 0$, $3x - y + 1 = 0$, and $kx - y + 5 = 0$ are concurrent, find the value of $k$.",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$4$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The angle between the pair of straight lines represented by the homogeneous quadratic equation $x^2 - 3xy + 2y^2 = 0$ is:",
+              "options": [
+                "$\\tan^{-1}(1/3)$",
+                "$\\tan^{-1}(3)$",
+                "$45^\\circ$",
+                "$90^\\circ$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the joint equation of the angle bisectors for the origin line pair $x^2 - 4xy + y^2 = 0$.",
+              "options": [
+                "$x^2 - y^2 = 0$",
+                "$xy = 0$",
+                "$x^2 + y^2 = 0$",
+                "$x^2 - 2xy - y^2 = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "A line passes through $(1, 2)$ and makes an angle of $45^\\circ$ with the positive x-axis. Find the coordinates of a point on this line located at a distance of $\\sqrt{2}$ units away from the starting point in the positive direction.",
+              "options": [
+                "$(2, 3)$",
+                "$(3, 4)$",
+                "$(0, 1)$",
+                "$(2, 2)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "If the pair of straight lines represented by the equation $kx^2 + 4xy + y^2 = 0$ are coincident, find the value of the integer parameter $k$.",
+              "answer": "4",
+              "explanation": ""
+            },
+            {
+              "q": "Find the total number of independent arbitrary constants that must be eliminated to form the differential equation representing a general family of straight lines ($y = mx + c$).",
+              "answer": "2",
+              "explanation": ""
+            },
+            {
+              "q": "If the perpendicular distance from the origin $(0, 0)$ to the line $3x + 4y + c = 0$ is exactly $5$ units, find the positive value of the constant parameter $c$.",
+              "answer": "25",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The straight lines $2x - 3y + 5 = 0$ and $4x - 6y + 11 = 0$ are parallel to each other.<br>\n <strong>Reason (R):</strong> Two straight lines are parallel if and only if their slopes are identically equal ($m_1 = m_2$).",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> The joint homogeneous equation $x^2 + 2xy + y^2 = 0$ represents two distinct, mutually perpendicular lines passing through the origin.<br>\n <strong>Reason (R):</strong> A pair of lines $ax^2 + 2hxy + by^2 = 0$ are perpendicular if and only if the sum of their quadratic coefficients satisfies $a + b = 0$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 3,
+              "explanation": "A is false (the equation factors to $(x+y)^2 = 0$, representing coincident lines, not perpendicular lines), but R is true."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-math-straight-lines-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "A straight line passes through the fixed coordinate point $P(2, 1)$. If the line cuts the positive x and y axes at points $A$ and $B$ respectively, find the minimum possible area of the triangle $OAB$ formed with the origin.",
+              "options": [
+                "$2$",
+                "$4$",
+                "$8$",
+                "$1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the line belonging to the family $(2x+3y-5) + \\lambda(x-y-1) = 0$ that stands at the maximum possible perpendicular distance from the point $(3, 4)$.",
+              "options": [
+                "$x + 4y - 9 = 0$",
+                "$4x - y - 7 = 0$",
+                "$x - y - 1 = 0$",
+                "$2x + 3y - 5 = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The general second-degree equation $3x^2 + 8xy + 2y^2 + 4x + 2y + c = 0$ represents a pair of straight lines. Find the coordinates of their point of intersection.",
+              "options": [
+                "$(1/5, -3/5)$",
+                "$(-1/5, 3/5)$",
+                "$(0, 0)$",
+                "$(1, -1)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "A variable line drawn through the origin cuts the parallel lines $x + 2y = 3$ and $x + 2y = 6$ at points $P$ and $Q$ respectively. The ratio of the lengths $OP : OQ$ remains:",
+              "options": [
+                "Variable depending on the slope",
+                "Constant and equal to $1:2$",
+                "Constant and equal to $1:4$",
+                "Constant and equal to $2:3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the reflection image of the straight line $x - 2y + 4 = 0$ across the horizontal line mirror $y = x$.",
+              "options": [
+                "$2x - y + 4 = 0$",
+                "$x - 2y - 4 = 0$",
+                "$2x - y - 4 = 0$",
+                "$x + 2y + 4 = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the joint equation of the pair of lines passing through the origin that are mutually perpendicular to the line pair $ax^2 + 2hxy + by^2 = 0$.",
+              "options": [
+                "$bx^2 - 2hxy + ax^2 = 0$",
+                "$bx^2 + 2hxy + ay^2 = 0$",
+                "$ax^2 - 2hxy + by^2 = 0$",
+                "$bx^2 - 2hxy + ay^2 = 0$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "If the sum of the perpendicular distances from a variable point $P(x,y)$ to the two lines $x + y = 1$ and $x - y = 1$ is bounded at $2$ units, the locus track of $P$ forms a:",
+              "options": [
+                "Circle",
+                "Square",
+                "Rectangle",
+                "Pair of straight lines"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the value of the parameter $h$ if the general second-degree equation $x^2 + 2hxy + y^2 + 2x + 2y + 1 = 0$ factors into a pair of parallel straight lines.",
+              "options": [
+                "$\\pm 1$",
+                "$0$",
+                "$\\pm 2$",
+                "$\\pm 1/2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "A line is drawn through $P(1, 2)$ making an angle of $\\theta$ with the positive direction of the x-axis. If it intersects the line $x + y = 4$ at a distance of $r$ units from $P$, then $r$ matches:",
+              "options": [
+                "$\\frac{1}{\\cos\\theta + \\sin\\theta}$",
+                "$\\frac{2}{\\cos\\theta + \\sin\\theta}$",
+                "$\\frac{1}{\\cos\\theta - \\sin\\theta}$",
+                "$\\cos\\theta + \\sin\\theta$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The product of the perpendicular distances dropped from the origin $(0, 0)$ to the pair of lines represented by $ax^2 + 2hxy + by^2 + 2gx + 2fy + c = 0$ is:",
+              "options": [
+                "$\\frac{|c|}{\\sqrt{(a-b)^2 + 4h^2}}$",
+                "$\\frac{|c|}{\\sqrt{a^2 + b^2}}$",
+                "$\\frac{|c|}{a+b}$",
+                "$\\frac{g^2+f^2}{\\sqrt{(a-b)^2 + 4h^2}}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "If the lines $x + 3y = 4$, $3x - y = 2$, and $kx + y = 0$ form a right-angled triangle where the line $kx+y=0$ contains the hypotenuse, find the value of the perpendicular slope parameter $k$ if it matches the first line's orthogonal direction.",
+              "answer": "3",
+              "explanation": ""
+            },
+            {
+              "q": "Find the total number of points of intersection that a family of lines $L_1 + \\lambda L_2 = 0$ has across all possible real values of $\\lambda$.",
+              "answer": "1",
+              "explanation": ""
+            },
+            {
+              "q": "If the joint equation $x^2 - 2xy - y^2 = 0$ represents the angle bisectors of the line pair $ax^2 + 2xy + by^2 = 0$, find the value of the sum of coefficients $a + b$.",
+              "answer": "0",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The symmetric form of a straight line $\\frac{x - x_1}{\\cos\\theta} = \\frac{y - y_1}{\\sin\\theta} = r$ tracks geometric displacement, where $|r|$ represents the absolute distance between $(x,y)$ and $(x_1, y_1)$.<br>\n <strong>Reason (R):</strong> Squaring and adding the parametric shifts confirms that $(x-x_1)^2 + (y-y_1)^2 = r^2(\\cos^2\\theta + \\sin^2\\theta) = r^2$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> The general second-degree equation represents a pair of straight lines if its matrix determinant discriminant satisfies $\\Delta = 0$.<br>\n <strong>Reason (R):</strong> A vanishing determinant ensures that the quadratic expression can be factored cleanly into two real or imaginary linear polynomial equations.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

@@ -1,0 +1,1364 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": 5,
+  "title": "Complex Numbers",
+  "slug": "complex-numbers",
+  "subtitle": "Complex Numbers for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#8b5cf6",
+  "icon": "math",
+  "seo": {
+    "meta_description": "Master Complex Numbers for JEE Main & Advanced on GrowQR: in-depth notes, solved examples, self-check MCQs and full mock tests. Free, forever."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Foundational Algebra of Complex Numbers",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Need for Complex Numbers & Imaginary Unit",
+          "concept": "<p>The real number system falls short when handling negative radicands, such as solving the quadratic equation $x^2 + 1 = 0$. To overcome this, we define the imaginary unit $i = \\sqrt{-1}$, where $i^2 = -1$. Any number of the form $bi$ (where $b \\in \\mathbb{R} \\setminus \\{0\\}$) is purely imaginary. A primary structural feature is the cyclic property of the powers of $i$: $i^{4k} = 1, i^{4k+1} = i, i^{4k+2} = -1, i^{4k+3} = -i$ for any $k \\in \\mathbb{Z}$. A common mistake in JEE is writing $\\sqrt{-a}\\sqrt{-b} = \\sqrt{ab}$ directly; instead, you must convert it to $(i\\sqrt{a})(i\\sqrt{b}) = -\\sqrt{ab}$ to preserve mathematical validity.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Evaluate the value of the finite sum $S = \\sum_{n=1}^{2026} i^n$.</p>",
+              "solution": "<p>The sum can be expanded as follows:\n \\[ S = i^1 + i^2 + i^3 + i^4 + i^5 + \\dots + i^{2026} \\]\n Notice that the sum of any four consecutive powers of $i$ is exactly zero:\n \\[ i^{4k+1} + i^{4k+2} + i^{4k+3} + i^{4k+4} = i - 1 - i + 1 = 0 \\]\n To evaluate $S$, we divide the total number of terms ($2026$) by $4$:\n \\[ 2026 = 4 \\times 506 + 2 \\]\n This means there are $506$ full cycles of four that sum to zero, leaving exactly the last two terms remaining:\n \\[ S = i^{2025} + i^{2026} \\]\n Using the cyclic properties of $i$:\n \\[ i^{2025} = i^{4(506)+1} = i^1 = i \\]\n \\[ i^{2026} = i^{4(506)+2} = i^2 = -1 \\]\n Thus, the sum simplifies to $i - 1$.\n <strong>Final Answer:</strong> $-1 + i$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Simplify the radical expression $E = \\sqrt{-9} \\times \\sqrt{-16} + \\sqrt{-25}$.</p>",
+              "solution": "<p>First, convert each negative radicand into expressions using the imaginary unit $i$ to avoid arithmetic errors:\n \\[ \\sqrt{-9} = i\\sqrt{9} = 3i \\]\n \\[ \\sqrt{-16} = i\\sqrt{16} = 4i \\]\n \\[ \\sqrt{-25} = i\\sqrt{25} = 5i \\]\n Now substitute these values back into the expression:\n \\[ E = (3i) \\times (4i) + 5i \\]\n Calculate the product term:\n \\[ (3i) \\times (4i) = 12i^2 = 12(-1) = -12 \\]\n Combine the real and imaginary components:\n \\[ E = -12 + 5i \\]\n <strong>Final Answer:</strong> $-12 + 5i$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Find the value of $x \\in \\mathbb{R}$ that satisfies the equation $i^{x^2 - 7x + 12} = 1$.</p>",
+              "solution": "<p>For an integral power of $i$ to equal $1$, the exponent must be a multiple of $4$. Let us solve for when the quadratic exponent satisfies this condition:\n \\[ x^2 - 7x + 12 = 4k, \\quad \\text{where } k \\in \\mathbb{Z} \\]\n The problem states that $x$ must be a real number ($x \\in \\mathbb{R}$). Let us rearrange the equation into a standard quadratic form:\n \\[ x^2 - 7x + (12 - 4k) = 0 \\]\n For this quadratic equation to yield real roots, its discriminant must be non-negative ($D \\ge 0$):\n \\[ D = (-7)^2 - 4(1)(12 - 4k) \\ge 0 \\]\n \\[ 49 - 48 + 16k \\ge 0 \\implies 1 + 16k \\ge 0 \\implies k \\ge -\\frac{1}{16} \\]\n Since $k$ must be an integer, the values it can take are $k \\in \\{0, 1, 2, 3, \\dots\\}$. \n Let us check the simplest baseline value where $k = 0$:\n \\[ x^2 - 7x + 12 = 0 \\implies (x-3)(x-4) = 0 \\implies x = 3 \\text{ or } x = 4 \\]\n Both $x=3$ and $x=4$ are valid real numbers that satisfy the equation.\n <strong>Final Answer:</strong> $x = 3, 4$ (for $k=0$).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The value of the expression $\\frac{i^{592} + i^{590} + i^{588} + i^{586} + i^{584}}{i^{582} + i^{580} + i^{578} + i^{576} + i^{574}}$ is:",
+              "options": [
+                "$1$",
+                "$-1$",
+                "$i$",
+                "$-i$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The values of the product $\\sqrt{-5} \\times \\sqrt{-5}$ evaluated within complex field properties yields:",
+              "options": [
+                "$5$",
+                "$-5$",
+                "$5i$",
+                "$-5i$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The smallest positive integer $n$ for which $\\left(\\frac{1+i}{1-i}\\right)^n = 1$ is:",
+              "options": [
+                "$2$",
+                "$4$",
+                "$8$",
+                "$16$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the infinite sum $i^1 + i^2 + i^3 + \\dots + i^n + \\dots$ cannot converge, but the value of the finite block $i^{100} + i^{101} + i^{102} + i^{103}$ is exactly:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$i$",
+                "$-1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $f(x) = x^4 - x^3 + x^2 - x + 1$, then the value of $f(i)$ is equal to:",
+              "options": [
+                "$1$",
+                "$i$",
+                "$1-i$",
+                "$1+i$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Standard Form & Equality of Complex Numbers",
+          "concept": "<p>The standard form of a complex number is written as $z = a + ib$, where $a$ and $b$ are real numbers ($a, b \\in \\mathbb{R}$). Here, $a$ is the real part, denoted as $\\text{Re}(z)$, and $b$ is the imaginary part, denoted as $\\text{Im}(z)$. Two complex numbers $z_1 = a_1 + ib_1$ and $z_2 = a_2 + ib_2$ are equal ($z_1 = z_2$) if and only if their real and imaginary parts are equal simultaneously: $a_1 = a_2$ and $b_1 = b_2$. A common mistake is trying to use inequality symbols with complex numbers (such as $z_1 > z_2$); inequalities are completely undefined for non-real numbers because the complex field lacks a natural geometric ordering.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the real values of $x$ and $y$ that satisfy the equation $(x + iy)(2 - 3i) = 4 + i$.</p>",
+              "solution": "<p>Expand the left-hand side of the equation:\n \\[ (x + iy)(2 - 3i) = 2x - 3ix + 2iy - 3i^2y \\]\n Since $i^2 = -1$, group the terms into real and imaginary parts:\n \\[ (2x + 3y) + i(2y - 3x) = 4 + i \\]\n Equate the real and imaginary components from both sides to form a system of simultaneous linear equations:\n \\[ 2x + 3y = 4 \\quad \\text{--- (Equation 1)} \\]\n \\[ -3x + 2y = 1 \\quad \\text{--- (Equation 2)} \\]\n Let us solve this system using elimination. Multiply Equation 1 by $3$ and Equation 2 by $2$:\n \\[ 6x + 9y = 12 \\]\n \\[ -6x + 4y = 2 \\]\n Add the two equations together to eliminate $x$:\n \\[ 13y = 14 \\implies y = \\frac{14}{13} \\]\n Substitute this value for $y$ back into Equation 1 to solve for $x$:\n \\[ 2x + 3\\left(\\frac{14}{13}\\right) = 4 \\implies 2x + \\frac{42}{13} = 4 \\implies 2x = 4 - \\frac{42}{13} = \\frac{10}{13} \\implies x = \\frac{5}{13} \\]\n <strong>Final Answer:</strong> $x = \\frac{5}{13}, y = \\frac{14}{13}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Express the complex number $z = \\frac{1 + 3i}{1 - 2i}$ in standard form $a + ib$.</p>",
+              "solution": "<p>To eliminate the imaginary unit from the denominator, multiply both the numerator and the denominator by the complex conjugate of the denominator ($1 + 2i$):\n \\[ z = \\frac{1 + 3i}{1 - 2i} \\times \\frac{1 + 2i}{1 + 2i} \\]\n Expand the expressions:\n \\[ \\text{Numerator} = (1 + 3i)(1 + 2i) = 1 + 2i + 3i + 6i^2 = 1 + 5i - 6 = -5 + 5i \\]\n \\[ \\text{Denominator} = (1 - 2i)(1 + 2i) = 1^2 - (2i)^2 = 1 - 4(-1) = 1 + 4 = 5 \\]\n Combine the simplified numerator and denominator:\n \\[ z = \\frac{-5 + 5i}{5} = \\frac{-5}{5} + i\\frac{5}{5} = -1 + i \\]\n The real part is $\\text{Re}(z) = -1$ and the imaginary part is $\\text{Im}(z) = 1$.\n <strong>Final Answer:</strong> $-1 + i$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>If $z = x + iy$ and $\\text{Im}\\left(\\frac{2z+1}{iz+1}\\right) = -2$, find the equation of the curve that $z$ traces.</p>",
+              "solution": "<p>Substitute $z = x + iy$ into the rational expression:\n \\[ w = \\frac{2(x+iy)+1}{i(x+iy)+1} = \\frac{(2x+1) + 2iy}{(1-y) + ix} \\]\n Multiply both the top and the bottom by the conjugate of the denominator, which is $(1-y) - ix$:\n \\[ w = \\frac{[(2x+1) + 2iy][(1-y) - ix]}{(1-y)^2 + x^2} \\]\n Expand the numerator to find the imaginary part ($\\text{Im}(w)$):\n \\[ \\text{Im}(\\text{Numerator}) = -(2x+1)x + 2y(1-y) = -2x^2 - x + 2y - 2y^2 \\]\n Set the imaginary part of the full expression equal to $-2$:\n \\[ \\frac{-2x^2 - 2y^2 - x + 2y}{x^2 + (1-y)^2} = -2 \\]\n Cross-multiply and simplify:\n \\[ -2x^2 - 2y^2 - x + 2y = -2(x^2 + 1 - 2y + y^2) \\]\n \\[ -2x^2 - 2y^2 - x + 2y = -2x^2 - 2y^2 + 4y - 2 \\]\n Cancel out the quadratic terms $-2x^2$ and $-2y^2$ from both sides:\n \\[ -x + 2y = 4y - 2 \\implies x + 2y - 2 = 0 \\]\n This is the equation of a straight line.\n <strong>Final Answer:</strong> $x + 2y - 2 = 0$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If $a + ib = \\frac{1+i}{1-i}$, then the value pair $(a, b)$ is:",
+              "options": [
+                "$(1, 0)$",
+                "$(0, 1)$",
+                "$(1, 1)$",
+                "$(-1, 0)$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $x^2 - y^2 - i(2x+y) = 2i$, where $x, y \\in \\mathbb{R}$, then the values of $x$ and $y$ are found by setting:",
+              "options": [
+                "$x^2-y^2=0$ and $2x+y=-2$",
+                "$x^2-y^2=2$ and $2x+y=0$",
+                "$x^2-y^2=0$ and $2x+y=2$",
+                "No equations can be formed"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The complex statement $2 + 3i > 1 + i$ is mathematically:",
+              "options": [
+                "Completely true because $2>1$ and $3>1$",
+                "False because ordering is inverted",
+                "Completely meaningless because complex numbers cannot be ordered using inequalities",
+                "Dependent on the value of $i$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If $z$ is a purely imaginary number such that $\\text{Re}(z) = 0$, then the expression $\\frac{z-1}{z+1}$ always has a real part equal to:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$-1$",
+                "Dependent on $\\text{Im}(z)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $(x+1) + i(y-2) = 0$, then the values of $x$ and $y$ are:",
+              "options": [
+                "$x = 1, y = 2$",
+                "$x = -1, y = 2$",
+                "$x = -1, y = -2$",
+                "$x = 0, y = 0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 3,
+          "title": "Conjugate & Its Algebraic Properties",
+          "concept": "<p>The complex conjugate of a complex number $z = a + ib$ is defined as $\\bar{z} = a - ib$, which geometrically represents its reflection across the real axis. Key algebraic properties of conjugates include $z\\bar{z} = |z|^2$, $\\overline{z_1 \\pm z_2} = \\bar{z}_1 \\pm \\bar{z}_2$, and $\\overline{z_1 z_2} = \\bar{z}_1 \\bar{z}_2$. Additionally, a complex number is purely real if $z = \\bar{z}$, and purely imaginary if $z = -\\bar{z}$. These symmetric properties are essential for simplifying complex equations in JEE Advanced.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>If $\\frac{z-i}{z+i}$ is purely imaginary, prove that $z$ lies on a circle of radius 1 centered at the origin.</p>",
+              "solution": "<p>Let $w = \\frac{z-i}{z+i}$. The problem states that $w$ is a purely imaginary number. By definition, a number is purely imaginary if it satisfies the condition $w + \\bar{w} = 0$:\n \\[ \\frac{z-i}{z+i} + \\overline{\\left(\\frac{z-i}{z+i}\\right)} = 0 \\]\n Apply the conjugate distribution property over quotients and sums ($\\overline{z_1/z_2} = \\bar{z}_1/\\bar{z}_2$):\n \\[ \\frac{z-i}{z+i} + \\frac{\\bar{z}-\\bar{i}}{\\bar{z}+\\bar{i}} = 0 \\]\n Since $\\bar{i} = -i$, rewrite the expression:\n \\[ \\frac{z-i}{z+i} + \\frac{\\bar{z}+i}{\\bar{z}-i} = 0 \\]\n Combine the terms over a common denominator:\n \\[ \\frac{(z-i)(\\bar{z}-i) + (\\bar{z}+i)(z+i)}{(z+i)(\\bar{z}-i)} = 0 \\]\n Expand the numerator expressions:\n \\[ (z\\bar{z} - iz - i\\bar{z} + i^2) + (z\\bar{z} + i\\bar{z} + iz + i^2) = 0 \\]\n Group like terms and cancel out opposite terms ($-iz$ cancels with $+iz$, and $-i\\bar{z}$ cancels with $+i\\bar{z}$):\n \\[ 2z\\bar{z} + 2i^2 = 0 \\]\n Since $i^2 = -1$, divide the equation by $2$:\n \\[ z\\bar{z} - 1 = 0 \\implies z\\bar{z} = 1 \\]\n Using the property $z\\bar{z} = |z|^2$, we get $|z|^2 = 1 \\implies |z| = 1$. This is the equation of a unit circle centered at the origin.\n <strong>Final Answer:</strong> Proved ($|z| = 1$).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the value of $z$ that satisfies the equation $2z + 3\\bar{z} = 5 - i$.</p>",
+              "solution": "<p>Let $z = x + iy$. Then its conjugate is $\\bar{z} = x - iy$. Substitute these variables into the equation:\n \\[ 2(x + iy) + 3(x - iy) = 5 - i \\]\n Expand and group the real and imaginary parts:\n \\[ (2x + 2iy) + (3x - 3iy) = 5 - i \\implies (2x + 3x) + i(2y - 3y) = 5 - i \\]\n \\[ 5x - iy = 5 - i \\]\n Equate the real and imaginary components from both sides:\n \\[ 5x = 5 \\implies x = 1 \\]\n \\[ -y = -1 \\implies y = 1 \\]\n Reconstruct the complex number $z = x + iy$:\n \\[ z = 1 + i \\]\n <strong>Final Answer:</strong> $1 + i$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Simplify the expression $\\overline{(1+i)^4}$.</p>",
+              "solution": "<p>We can apply the conjugate power distribution property $\\overline{(z^n)} = (\\bar{z})^n$ to make the calculation simpler:\n \\[ \\overline{(1+i)^4} = (\\overline{1+i})^4 = (1-i)^4 \\]\n Now evaluate $(1-i)^2$ first:\n \\[ (1-i)^2 = 1^2 - 2i + i^2 = 1 - 2i - 1 = -2i \\]\n Raise this result to the second power to find the fourth power:\n \\[ (1-i)^4 = [(-2i)^2] = 4i^2 = 4(-1) = -4 \\]\n <strong>Final Answer:</strong> $-4$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The value of $z\\bar{z}$ for $z = 3 + 4i$ is equal to:",
+              "options": [
+                "$5$",
+                "$7$",
+                "$25$",
+                "$-7$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If $z_1$ and $z_2$ are two complex numbers, the expression $\\overline{z_1 \\cdot z_2} - \\bar{z}_1 \\cdot \\bar{z}_2$ is equal to:",
+              "options": [
+                "$0$",
+                "$2z_1z_2$",
+                "$2\\bar{z}_1\\bar{z}_2$",
+                "Dependent on $z$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a complex number satisfies $z = -\\bar{z}$, then $z$ must be:",
+              "options": [
+                "Purely real",
+                "Purely imaginary",
+                "Equal to 1",
+                "Equal to $i$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The conjugate of the imaginary unit $i$ is:",
+              "options": [
+                "$i$",
+                "$-i$",
+                "$1$",
+                "$-1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The system solution to $\\bar{z} = i(z-1)$ has a real part equal to:",
+              "options": [
+                "$0.5$",
+                "$-0.5$",
+                "$1$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 4,
+          "title": "Modulus & Triangle Inequalities",
+          "concept": "<p>The modulus of a complex number $z = a + ib$ represents its distance from the origin on the complex plane and is defined as $|z| = \\sqrt{a^2 + b^2}$. Important properties of the modulus include $|z_1 z_2| = |z_1||z_2|$ and $|\\frac{z_1}{z_2}| = \\frac{|z_1|}{|z_2|}$. The interactions between different complex numbers are governed by the <strong>Triangle Inequalities</strong>:\n \\[ ||z_1| - |z_2|| \\le |z_1 + z_2| \\le |z_1| + |z_2| \\]\n The upper bound is reached when $z_1$ and $z_2$ are collinear and point in the same direction from the origin (meaning $\\arg(z_1) = \\arg(z_2)$).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>If $|z - \\frac{4}{z}| = 2$, find the maximum possible value of $|z|$.</p>",
+              "solution": "<p>To find the upper bound for $|z|$, use the lower bound branch of the Triangle Inequality:\n \\[ |z_1 + z_2| \\ge ||z_1| - |z_2|| \\]\n Let us rewrite $|z|$ to include the expression given in the problem statement:\n \\[ |z| = \\left| \\left(z - \\frac{4}{z}\\right) + \\frac{4}{z} \\right| \\]\n Apply the upper bound branch of the Triangle Inequality ($|A+B| \\le |A| + |B|$):\n \\[ |z| \\le \\left| z - \\frac{4}{z} \\right| + \\left| \\frac{4}{z} \\right| \\]\n Substitute the given value $|z - \\frac{4}{z}| = 2$ and use the modulus quotient property ($|\\frac{4}{z}| = \\frac{4}{|z|}$):\n \\[ |z| \\le 2 + \\frac{4}{|z|} \\]\n Multiply the entire inequality by the positive value $|z|$ to clear the denominator:\n \\[ |z|^2 \\le 2|z| + 4 \\implies |z|^2 - 2|z| - 4 \\le 0 \\]\n Solve the corresponding quadratic boundary equation using the quadratic formula:\n \\[ |z| = \\frac{-(-2) \\pm \\sqrt{(-2)^2 - 4(1)(-4)}}{2(1)} = \\frac{2 \\pm \\sqrt{20}}{2} = 1 \\pm \\sqrt{5} \\]\n Since a modulus must be non-negative, the valid interval for the inequality is:\n \\[ 0 \\le |z| \\le \\sqrt{5} + 1 \\]\n Thus, the maximum possible value that $|z|$ can reach is $\\sqrt{5} + 1$.\n <strong>Final Answer:</strong> $\\sqrt{5} + 1$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the modulus of the complex fraction $z = \\frac{(2+i)(3-2i)}{(1+2i)(2-i)}$.</p>",
+              "solution": "Instead of expanding the full fraction first, we can apply the modulus distribution properties ($|z_1 z_2| = |z_1||z_2|$ and $|\\frac{A}{B}| = \\frac{|A|}{|B|}$) to simplify the calculation:\n \\[ |z| = \\frac{|2+i| \\cdot |3-2i|}{|1+2i| \\cdot |2-i|} \\]\n Calculate the modulus of each component individually:\n <ul>\n <li>$|2+i| = \\sqrt{2^2 + 1^2} = \\sqrt{5}$\n <li>$|3-2i| = \\sqrt{3^2 + (-2)^2} = \\sqrt{9 + 4} = \\sqrt{13}$\n <li>$|1+2i| = \\sqrt{1^2 + 2^2} = \\sqrt{5}$\n <li>$|2-i| = \\sqrt{2^2 + (-1)^2} = \\sqrt{5}$\n </ul>\n Substitute these values back into the expression:\n \\[ |z| = \\frac{\\sqrt{5} \\cdot \\sqrt{13}}{\\sqrt{5} \\cdot \\sqrt{5}} = \\frac{\\sqrt{13}}{\\sqrt{5}} = \\sqrt{\\frac{13}{5}} \\]\n <strong>Final Answer:</strong> $\\sqrt{\\frac{13}{5}}$."
+            },
+            {
+              "number": 3,
+              "problem": "<p>If $|z_1| = 3$ and $|z_2| = 4$, find the maximum value of $|z_1 + z_2|$, and state the condition required to reach it.</p>",
+              "solution": "<p>According to the upper bound of the Triangle Inequality:\n \\[ |z_1 + z_2| \\le |z_1| + |z_2| \\]\n Substitute the given values:\n \\[ |z_1 + z_2| \\le 3 + 4 = 7 \\]\n Thus, the maximum value is $7$. This maximum value is reached when the two complex vectors are perfectly aligned along the same ray from the origin, which means their arguments must be equal: $\\arg(z_1) = \\arg(z_2)$.\n <strong>Final Answer:</strong> $7$, when $\\arg(z_1) = \\arg(z_2)$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The modulus of the complex number $z = \\frac{1}{1+i}$ is:",
+              "options": [
+                "$1$",
+                "$\\sqrt{2}$",
+                "$\\frac{1}{\\sqrt{2}}$",
+                "$0.5$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If $|z_1| = 5$ and $|z_2| = 12$, the minimum possible value of $|z_1 - z_2|$ is:",
+              "options": [
+                "$7$",
+                "$17$",
+                "$0$",
+                "$13$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The equality condition $|z_1 + z_2| = |z_1| + |z_2|$ holds true if and only if:",
+              "options": [
+                "$z_1 = z_2$",
+                "$\\arg(z_1) = \\arg(z_2)$",
+                "$z_1 \\bar{z}_2 = 0$",
+                "$\\arg(z_1) - \\arg(z_2) = \\pi$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $|z| = 1$, then the expression $\\left|\\frac{z-1}{z+1}\\right|$ (where $z \\neq -1$) can be geometrically evaluated. The value of $|z^2|$ is always:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$0$",
+                "Dependent on $z$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $|z-3+4i| \\le 2$, the maximum modulus value that $z$ can achieve is:",
+              "options": [
+                "$5$",
+                "$7$",
+                "$3$",
+                "$\\sqrt{29}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Geometric Representation & Forms",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Argand Plane & Polar Form Representation",
+          "concept": "<p>The Argand Plane is a geometric coordinate system where the horizontal x-axis represents the <strong>Real Axis</strong> and the vertical y-axis represents the <strong>Imaginary Axis</strong>. Every complex number $z = a + ib$ maps uniquely to the point $(a, b)$. By converting to polar coordinates ($r, \\theta$), we can write $z$ in its <strong>Polar (Trigonometric) Form</strong>: $z = r(\\cos\\theta + i\\sin\\theta)$. Here, $r = |z|$ is the absolute distance from the origin, and $\\theta = \\arg(z)$ is the directional angle measured counter-clockwise from the positive real axis.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Convert the complex number $z = -1 + i\\sqrt{3}$ into its standard polar form.</p>",
+              "solution": "<p>Step 1: Calculate the modulus radius $r$:\n \\[ r = |z| = \\sqrt{(-1)^2 + (\\sqrt{3})^2} = \\sqrt{1 + 3} = \\sqrt{4} = 2 \\]\n Step 2: Identify the geometric quadrant of the point. The coordinates are $(-\\text{Real}, +\\text{Imaginary}) = (-1, \\sqrt{3})$, which lies in the <strong>Second Quadrant</strong>.<br>\n Step 3: Calculate the baseline reference angle $\\alpha$ using the positive tangent ratio:\n \\[ \\tan \\alpha = \\left| \\frac{\\text{Im}(z)}{\\text{Re}(z)} \\right| = \\left| \\frac{\\sqrt{3}}{-1} \\right| = \\sqrt{3} \\implies \\alpha = \\frac{\\pi}{3} \\]\n Step 4: Use the quadrant rule to find the argument $\\theta$. For the second quadrant, $\\theta = \\pi - \\alpha$:\n \\[ \\theta = \\pi - \\frac{\\pi}{3} = \\frac{2\\pi}{3} \\]\n Step 5: Assemble the components into standard polar form $r(\\cos\\theta + i\\sin\\theta)$:\n \\[ z = 2\\left(\\cos\\frac{2\\pi}{3} + i\\sin\\frac{2\\pi}{3}\\right) \\]\n <strong>Final Answer:</strong> $2\\left(\\cos\\frac{2\\pi}{3} + i\\sin\\frac{2\\pi}{3}\\right)$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the standard algebraic form $a + ib$ of a complex number whose polar parameters are $r = 4$ and $\\theta = \\frac{7\\pi}{6}$.</p>",
+              "solution": "<p>Write out the polar expression and distribute the radius value:\n \\[ z = 4\\left(\\cos\\frac{7\\pi}{6} + i\\sin\\frac{7\\pi}{6}\\right) \\]\n Evaluate the trigonometric values for the angle $\\frac{7\\pi}{6}$ (which lies in the third quadrant):\n \\[ \\cos\\frac{7\\pi}{6} = \\cos\\left(\\pi + \\frac{\\pi}{6}\\right) = -\\cos\\frac{\\pi}{6} = -\\frac{\\sqrt{3}}{2} \\]\n \\[ \\sin\\frac{7\\pi}{6} = \\sin\\left(\\pi + \\frac{\\pi}{6}\\right) = -\\sin\\frac{\\pi}{6} = -\\frac{1}{2} \\]\n Substitute these values back into the distributed expression:\n \\[ z = 4\\left(-\\frac{\\sqrt{3}}{2} + i\\left(-\\frac{1}{2}\\right)\\right) = -2\\sqrt{3} - 2i \\]\n <strong>Final Answer:</strong> $-2\\sqrt{3} - 2i$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Plot the numbers $z_1 = 2i$ and $z_2 = -3$ on the Argand plane, and determine their polar angles directly from their geometric positions.</p>",
+              "solution": "Let us analyze the positions of these two numbers on the coordinate axes:\n <ul>\n <li>$z_1 = 0 + 2i \\implies$ This maps to the point $(0, 2)$, which sits directly on the <strong>Positive Imaginary Axis</strong>. The ray from the origin to this point points straight up, forming a $90^\\circ$ angle with the positive real axis. Thus, $\\arg(z_1) = \\frac{\\pi}{2}$.\n <li>$z_2 = -3 + 0i \\implies$ This maps to the point $(-3, 0)$, which sits directly on the <strong>Negative Real Axis</strong>. The ray points straight left, forming a $180^\\circ$ angle. Thus, $\\arg(z_2) = \\pi$.\n </ul>\n <strong>Final Answer:</strong> $\\arg(2i) = \\frac{\\pi}{2}$ and $\\arg(-3) = \\pi$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "A complex number located at coordinates $(-2, -2)$ on the Argand plane lies in which quadrant?",
+              "options": [
+                "First Quadrant",
+                "Second Quadrant",
+                "Third Quadrant",
+                "Fourth Quadrant"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The polar form parameter $r$ for the complex number $z = 1 + i$ is equal to:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$\\sqrt{2}$",
+                "$0$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If a complex point lies on the negative imaginary axis, its argument angle $\\theta$ can be written as:",
+              "options": [
+                "$0$",
+                "$\\pi$",
+                "$\\frac{\\pi}{2}$",
+                "$-\\frac{\\pi}{2}$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "The polar expression $z = \\cos\\theta - i\\sin\\theta$ is not in standard polar form because of the negative sign. Its standard polar form is:",
+              "options": [
+                "$\\cos(-\\theta) + i\\sin(-\\theta)$",
+                "$\\cos\\theta + i\\sin\\theta$",
+                "$\\sin\\theta + i\\cos\\theta$",
+                "None of these"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The product of the modulus values of $z_1 = 1 + i\\sqrt{3}$ and $z_2 = \\sqrt{3} + i$ is:",
+              "options": [
+                "$2$",
+                "$4$",
+                "$1$",
+                "$8$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Principal Argument Constraints",
+          "concept": "<p>While a complex number has infinitely many valid arguments spaced $2\\pi$ apart ($\\theta + 2k\\pi$), the <strong>Principal Argument</strong> is uniquely restricted to the half-open interval $\\arg(z) \\in (-\\pi, \\pi]$. This range prevents notation confusion and ensures consistency across calculations. The value of the principal argument depends on the quadrant in which the complex number lies:\n \\[ \\text{Q1: } \\theta = \\alpha, \\quad \\text{Q2: } \\theta = \\pi - \\alpha, \\quad \\text{Q3: } \\theta = -\\pi + \\alpha, \\quad \\text{Q4: } \\theta = -\\alpha \\]\n where $\\alpha = \\arctan\\left|\\frac{\\text{Im}(z)}{\\text{Re}(z)}\\right|$. A common mistake is using the second quadrant formula for third quadrant numbers, which gives an angle that lies outside the principal range.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the principal argument of the complex number $z = -1 - i$.</p>",
+              "solution": "<p>Step 1: Find the baseline reference angle $\\alpha$ using the absolute values of the components:\n \\[ \\alpha = \\arctan\\left| \\frac{\\text{Im}(z)}{\\text{Re}(z)} \\right| = \\arctan\\left| \\frac{-1}{-1} \\right| = \\arctan(1) = \\frac{\\pi}{4} \\]\n Step 2: Identify the geometric quadrant. The components are $(-\\text{Real}, -\\text{Imaginary})$, so the point lies in the <strong>Third Quadrant</strong>.<br>\n Step 3: Apply the principal argument rule for the third quadrant ($\\theta = -\\pi + \\alpha$) to ensure the angle falls within the allowed range $(-\\pi, \\pi]$:\n \\[ \\theta = -\\pi + \\frac{\\pi}{4} = -\\frac{3\\pi}{4} \\]\n Notice that using the alternative positive angle layout gives $\\frac{5\\pi}{4}$, which is incorrect because it is greater than $\\pi$.\n <strong>Final Answer:</strong> $-\\frac{3\\pi}{4}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the principal argument of the complex expression $z = \\frac{1+i\\sqrt{3}}{1+i}$.</p>",
+              "solution": "<p>We can find the argument of a fraction quickly by using the argument distribution property, which converts division into subtraction: $\\arg\\left(\\frac{z_1}{z_2}\\right) = \\arg(z_1) - \\arg(z_2)$.<br>\n Calculate the principal argument of the numerator ($z_1 = 1 + i\\sqrt{3}$):\n It lies in the first quadrant. $\\alpha_1 = \\arctan(\\sqrt{3}/1) = \\frac{\\pi}{3} \\implies \\arg(z_1) = \\frac{\\pi}{3}$.<br>\n Calculate the principal argument of the denominator ($z_2 = 1 + i$):\n It also lies in the first quadrant. $\\alpha_2 = \\arctan(1/1) = \\frac{\\pi}{4} \\implies \\arg(z_2) = \\frac{\\pi}{4}$.<br>\n Now subtract the two arguments:\n \\[ \\theta = \\arg(z_1) - \\arg(z_2) = \\frac{\\pi}{3} - \\frac{\\pi}{4} = \\frac{4\\pi - 3\\pi}{12} = \\frac{\\pi}{12} \\]\n Since $\\frac{\\pi}{12}$ lies within the interval $(-\\pi, \\pi]$, it is the valid principal argument.\n <strong>Final Answer:</strong> $\\frac{\\pi}{12}$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Evaluate the principal argument of $z = 1 - \\cos\\theta + i\\sin\\theta$, given that $\\theta \\in (0, \\pi)$.</p>",
+              "solution": "<p>Use trigonometric half-angle identities to simplify the real and imaginary parts of the expression:\n \\[ 1 - \\cos\\theta = 2\\sin^2\\left(\\frac{\\theta}{2}\\right) \\]\n \\[ \\sin\\theta = 2\\sin\\left(\\frac{\\theta}{2}\\right)\\cos\\left(\\frac{\\theta}{2}\\right) \\]\n Substitute these identities back into the expression for $z$:\n \\[ z = 2\\sin^2\\left(\\frac{\\theta}{2}\\right) + i \\cdot 2\\sin\\left(\\frac{\\theta}{2}\\right)\\cos\\left(\\frac{\\theta}{2}\\right) = 2\\sin\\left(\\frac{\\theta}{2}\\right) \\left[ \\sin\\left(\\frac{\\theta}{2}\\right) + i\\cos\\left(\\frac{\\theta}{2}\\right) \\right] \\]\n To convert this into standard polar form, the real part must be a cosine function and the imaginary part must be a sine function. Use co-function identities to switch them:\n \\[ \\sin\\left(\\frac{\\theta}{2}\\right) = \\cos\\left(\\frac{\\pi}{2} - \\frac{\\theta}{2}\\right) \\quad \\text{and} \\quad \\cos\\left(\\frac{\\theta}{2}\\right) = \\sin\\left(\\frac{\\pi}{2} - \\frac{\\theta}{2}\\right) \\]\n The expression becomes:\n \\[ z = 2\\sin\\left(\\frac{\\theta}{2}\\right) \\left[ \\cos\\left(\\frac{\\pi}{2} - \\frac{\\theta}{2}\\right) + i\\sin\\left(\\frac{\\pi}{2} - \\frac{\\theta}{2}\\right) \\right] \\]\n Since $\\theta \\in (0, \\pi)$, the amplitude term $2\\sin(\\frac{\\theta}{2})$ is strictly positive, meaning the expression is in standard polar form. Therefore, the principal argument is $\\frac{\\pi - \\theta}{2}$.\n <strong>Final Answer:</strong> $\\frac{\\pi - \\theta}{2}$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Which of the following angles cannot represent a principal argument value?",
+              "options": [
+                "$-\\frac{\\pi}{2}$",
+                "$\\pi$",
+                "$\\frac{5\\pi}{4}$",
+                "$-\\frac{3\\pi}{4}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The principal argument of the complex number $z = \\sqrt{3} - i$ is:",
+              "options": [
+                "$-\\frac{\\pi}{6}$",
+                "$\\frac{11\\pi}{6}$",
+                "$\\frac{\\pi}{6}$",
+                "$-\\frac{\\pi}{3}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\arg(z) = \\theta$, then the principal argument of its conjugate $\\bar{z}$ (where $\\theta \\neq \\pi$) is:",
+              "options": [
+                "$\\theta$",
+                "$-\\theta$",
+                "$\\pi - \\theta$",
+                "$\\theta + \\pi$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The principal argument of $z = -5$ is exactly:",
+              "options": [
+                "$0$",
+                "$\\pi$",
+                "$-\\pi$",
+                "$\\frac{\\pi}{2}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\arg(z_1) = \\frac{3\\pi}{4}$ and $\\arg(z_2) = \\frac{\\pi}{2}$, the raw sum of their arguments is $\\frac{5\\pi}{4}$. The true <strong>principal argument</strong> of their product $z_1 z_2$ is:",
+              "options": [
+                "$\\frac{5\\pi}{4}$",
+                "$-\\frac{3\\pi}{4}$",
+                "$\\frac{\\pi}{4}$",
+                "$-\\frac{\\pi}{4}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 3,
+          "title": "Euler's Form & Identity",
+          "concept": "<p>Euler's Form provides an exceptionally compact notation for complex numbers by linking trigonometry to complex exponentials through the relationship $e^{i\\theta} = \\cos\\theta + i\\sin\\theta$. Any complex number can be written in Euler's form as $z = re^{i\\theta}$, where $r = |z|$ and $\\theta = \\arg(z)$. Setting $\\theta = \\pi$ leads directly to <strong>Euler's Identity</strong>: $e^{i\\pi} = -1 \\implies e^{i\\pi} + 1 = 0$, which famously connects five fundamental mathematical constants ($0, 1, e, i, \\pi$) in a single equation. In competitive exams, Euler's form simplifies multiplication and division problems because it follows standard exponential rules.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Express the complex number product $z = (2e^{i\\pi/3}) \\times (3e^{i\\pi/6})$ in standard algebraic form $a + ib$.</p>",
+              "solution": "<p>Since both terms are expressed in Euler's form, we can find their product quickly by multiplying the moduli and adding the exponents following standard exponential rules:\n \\[ z = (2 \\times 3) \\cdot e^{i(\\pi/3 + \\pi/6)} \\]\n Calculate the sum of the angles in the exponent:\n \\[ \\frac{\\pi}{3} + \\frac{\\pi}{6} = \\frac{2\\pi + \\pi}{6} = \\frac{3\\pi}{6} = \\frac{\\pi}{2} \\]\n The expression simplifies to:\n \\[ z = 6e^{i\\pi/2} \\]\n Now convert this back to standard form using Euler's formula ($e^{i\\theta} = \\cos\\theta + i\\sin\\theta$):\n \\[ z = 6\\left(\\cos\\frac{\\pi}{2} + i\\sin\\frac{\\pi}{2}\\right) \\]\n Substitute the trigonometric values $\\cos(\\frac{\\pi}{2}) = 0$ and $\\sin(\\frac{\\pi}{2}) = 1$:\n \\[ z = 6(0 + i(1)) = 6i \\]\n <strong>Final Answer:</strong> $6i$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Simplify the complex expression $w = \\frac{e^{i\\theta} + e^{-i\\theta}}{2}$ and identify its real-valued trigonometric equivalent.</p>",
+              "solution": "<p>Expand both complex exponential terms using Euler's identity:\n \\[ e^{i\\theta} = \\cos\\theta + i\\sin\\theta \\]\n \\[ e^{-i\\theta} = \\cos(-\\theta) + i\\sin(-\\theta) = \\cos\\theta - i\\sin\\theta \\]\n Substitute these expansions into the numerator of the expression for $w$:\n \\[ e^{i\\theta} + e^{-i\\theta} = (\\cos\\theta + i\\sin\\theta) + (\\cos\\theta - i\\sin\\theta) \\]\n The imaginary $+i\\sin\\theta$ and $-i\\sin\\theta$ terms cancel out completely:\n \\[ e^{i\\theta} + e^{-i\\theta} = 2\\cos\\theta \\]\n Divide the expression by 2:\n \\[ w = \\frac{2\\cos\\theta}{2} = \\cos\\theta \\]\n This identity forms the foundation for hyperbolic functions and advanced calculus proofs.\n <strong>Final Answer:</strong> $\\cos\\theta$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Evaluate the value of the complex exponential expression $E = i^i$ using Euler's form conversions.</p>",
+              "solution": "<p>To evaluate a variable base raised to a complex exponent, we must first express the base unit $i$ in Euler's form. \n The complex number $i$ has a modulus of $1$ and a principal argument of $\\frac{\\pi}{2}$, so it can be written as:\n \\[ i = 1 \\cdot e^{i\\pi/2} \\]\n Substitute this conversion back into the expression for $E$:\n \\[ E = (e^{i\\pi/2})^i \\]\n Apply standard exponential multiplication rules to the exponents:\n \\[ E = e^{i^2 \\cdot \\pi/2} \\]\n Since $i^2 = -1$, substitute this value into the exponent:\n \\[ E = e^{-\\pi/2} \\]\n Notice that $e^{-\\pi/2} \\approx 0.207$ is a purely <strong>real number</strong>. This surprising result is a common conceptual question on the JEE Advanced exam.\n <strong>Final Answer:</strong> $e^{-\\pi/2}$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Euler's identity statement can be written as $e^{i\\pi} = \\dots$:",
+              "options": [
+                "$1$",
+                "$-1$",
+                "$i$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The product of $e^{i\\alpha}$ and $e^{i\\beta}$ yields:",
+              "options": [
+                "$e^{i(\\alpha + \\beta)}$",
+                "$e^{-\\alpha\\beta}$",
+                "$e^{i(\\alpha\\beta)}$",
+                "$\\cos(\\alpha\\beta) + i\\sin(\\alpha\\beta)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Expressed in Euler's form, the complex conjugate of $re^{i\\theta}$ is:",
+              "options": [
+                "$re^{i\\theta}$",
+                "$-re^{i\\theta}$",
+                "$re^{-i\\theta}$",
+                "$\\frac{1}{r}e^{i\\theta}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The expression $\\frac{e^{i\\theta} - e^{-i\\theta}}{2i}$ is equal to which real trigonometric function?",
+              "options": [
+                "$\\cos\\theta$",
+                "$\\sin\\theta$",
+                "$\\tan\\theta$",
+                "$i\\sin\\theta$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the complex modulus $|e^{i\\sqrt{3}}|$, where the exponent is purely imaginary, is exactly:",
+              "options": [
+                "$\\sqrt{3}$",
+                "$1$",
+                "$e$",
+                "Undefined"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Theorems, Roots & Polynomials",
+      "topics": [
+        {
+          "number": 1,
+          "title": "De Moivre's Theorem & Applications",
+          "concept": "<p>De Moivre's Theorem establishes a powerful connection link between complex numbers and trigonometry when raising expressions to an integral power. It states that for any integer $n$, $(\\cos\\theta + i\\sin\\theta)^n = \\cos n\\theta + i\\sin n\\theta$. Expressed in Euler's form, this takes the form of the exponential rule $(e^{i\\theta})^n = e^{in\\theta}$. In the JEE Advanced exam, a common application of this theorem is expanding $\\cos n\\theta$ and $\\sin n\\theta$ in terms of powers of $\\cos\\theta$ and $\\sin\\theta$ by using binomial expansions and equating the real and imaginary parts.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Simplify the expression $E = \\frac{(\\cos 2\\theta + i\\sin 2\\theta)^5}{(\\cos 3\\theta - i\\sin 3\\theta)^3}$.</p>",
+              "solution": "<p>First, convert the terms in the numerator and denominator into standard form using De Moivre's Theorem or Euler's form:\n For the numerator:\n \\[ (\\cos 2\\theta + i\\sin 2\\theta)^5 = (e^{i2\\theta})^5 = e^{i10\\theta} \\]\n For the denominator, adjust the sign using the negative angle identities $\\cos(-\\phi) = \\cos\\phi$ and $\\sin(-\\phi) = -\\sin\\phi$:\n \\[ \\cos 3\\theta - i\\sin 3\\theta = \\cos(-3\\theta) + i\\sin(-3\\theta) = e^{-i3\\theta} \\]\n Now raise this expression to the third power as indicated in the denominator:\n \\[ (e^{-i3\\theta})^3 = e^{-i9\\theta} \\]\n Substitute these simplified terms back into the fraction expression $E$:\n \\[ E = \\frac{e^{i10\\theta}}{e^{-i9\\theta}} \\]\n Combine the exponents following standard division rules:\n \\[ E = e^{i10\\theta} \\cdot e^{i9\\theta} = e^{i(10\\theta + 9\\theta)} = e^{i19\\theta} \\]\n Convert back to trigonometric form:\n \\[ E = \\cos 19\\theta + i\\sin 19\\theta \\]\n <strong>Final Answer:</strong> $\\cos 19\\theta + i\\sin 19\\theta$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Express $\\cos 3\\theta$ in terms of powers of $\\cos\\theta$ using complex number expansions.</p>",
+              "solution": "<p>By De Moivre's Theorem, we know that:\n \\[ \\cos 3\\theta + i\\sin 3\\theta = (\\cos\\theta + i\\sin\\theta)^3 \\]\n Expand the right-hand side of the equation using the binomial theorem:\n \\[ (\\cos\\theta + i\\sin\\theta)^3 = \\binom{3}{0}\\cos^3\\theta + \\binom{3}{1}\\cos^2\\theta(i\\sin\\theta) + \\binom{3}{2}\\cos\\theta(i\\sin\\theta)^2 + \\binom{3}{3}(i\\sin\\theta)^3 \\]\n Evaluate the powers of the imaginary unit $i$ ($i^2 = -1$ and $i^3 = -i$):\n \\[ = \\cos^3\\theta + 3i\\cos^2\\theta\\sin\\theta - 3\\cos\\theta\\sin^2\\theta - i\\sin^3\\theta \\]\n Group the terms into real and imaginary parts:\n \\[ = (\\cos^3\\theta - 3\\cos\\theta\\sin^2\\theta) + i(3\\cos^2\\theta\\sin\\theta - \\sin^3\\theta) \\]\n To isolate $\\cos 3\\theta$, equate the real parts from both sides of the equation:\n \\[ \\cos 3\\theta = \\cos^3\\theta - 3\\cos\\theta\\sin^2\\theta \\]\n Use the Pythagorean identity $\\sin^2\\theta = 1 - \\cos^2\\theta$ to express the equation purely in terms of cosine:\n \\[ \\cos 3\\theta = \\cos^3\\theta - 3\\cos\\theta(1 - \\cos^2\\theta) = \\cos^3\\theta - 3\\cos\\theta + 3\\cos^3\\theta \\]\n Combine like terms to complete the derivation:\n \\[ \\cos 3\\theta = 4\\cos^3\\theta - 3\\cos\\theta \\]\n <strong>Final Answer:</strong> $4\\cos^3\\theta - 3\\cos\\theta$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Evaluate the value of the expression $\\left(\\frac{1+i}{\\sqrt{2}}\\right)^{2026}$.</p>",
+              "solution": "<p>Convert the complex number base into its polar form first. Let $z = \\frac{1}{\\sqrt{2}} + i\\frac{1}{\\sqrt{2}}$:\n The modulus is $r = \\sqrt{(\\frac{1}{\\sqrt{2}})^2 + (\\frac{1}{\\sqrt{2}})^2} = \\sqrt{\\frac{1}{2} + \\frac{1}{2}} = 1$.<br>\n The argument angle is $\\theta = \\arctan(1/1) = \\frac{\\pi}{4}$. Thus, $z = e^{i\\pi/4}$.<br>\n Now raise this expression to the $2026^{\\text{th}}$ power:\n \\[ z^{2026} = (e^{i\\pi/4})^{2026} = e^{i \\cdot \\frac{2026\\pi}{4}} = e^{i \\cdot \\frac{1013\\pi}{2}} \\]\n To simplify this large fraction, divide $1013$ by $2$:\n \\[ \\frac{1013\\pi}{2} = 506\\pi + \\frac{\\pi}{2} \\]\n Since adding multiples of $2\\pi$ corresponds to full rotations around the circle, they can be omitted without changing the value:\n \\[ e^{i(506\\pi + \\pi/2)} = e^{i\\pi/2} = i \\]\n <strong>Final Answer:</strong> $i$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The simplified value of $(\\cos\\theta + i\\sin\\theta)^{-n}$ is equal to:",
+              "options": [
+                "$\\cos n\\theta - i\\sin n\\theta$",
+                "$\\cos n\\theta + i\\sin n\\theta$",
+                "$-\\cos n\\theta - i\\sin n\\theta$",
+                "None of these"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $z = \\cos\\theta + i\\sin\\theta$, then the expression $z^n + \\frac{1}{z^n}$ simplifies to:",
+              "options": [
+                "$2i\\sin n\\theta$",
+                "$2\\cos n\\theta$",
+                "$2\\sin n\\theta$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the expression $(1+i)^8$ evaluated using De Moivre's Theorem is:",
+              "options": [
+                "$16$",
+                "$-16$",
+                "$16i$",
+                "$-16i$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Binomial expansion of $(\\cos\\theta + i\\sin\\theta)^n$ allows us to extract $\\sin n\\theta$ by isolating which part of the equation?",
+              "options": [
+                "The purely real part",
+                "The purely imaginary part",
+                "The absolute modulus",
+                "The tangent ratio"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The value of $\\left(\\cos\\frac{\\pi}{6} + i\\sin\\frac{\\pi}{6}\\right)^6$ is:",
+              "options": [
+                "$1$",
+                "$-1$",
+                "$i$",
+                "$-i$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Cube Roots of Unity & Applications",
+          "concept": "<p>The cube roots of unity are the solutions to the polynomial equation $x^3 = 1 \\implies x^3 - 1 = 0$. Factoring this expression yields $(x-1)(x^2 + x + 1) = 0$. The roots are the real number $1$ and two complex roots, denoted as $\\omega$ and $\\omega^2$, where $\\omega = e^{2\\pi i/3} = \\frac{-1 + i\\sqrt{3}}{2}$ and $\\omega^2 = e^{4\\pi i/3} = \\frac{-1 - i\\sqrt{3}}{2}$. These roots satisfy two fundamental algebraic properties:\n \\[ \\mathbf{1 + \\omega + \\omega^2 = 0 \\quad \\text{and} \\quad \\omega^3 = 1} \\]\n In JEE problems, these identities are used to simplify higher-degree polynomials and factor algebraic expressions.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Evaluate the value of the complex expression $E = (1 - \\omega + \\omega^2) \\times (1 + \\omega - \\omega^2)$.</p>",
+              "solution": "<p>Use the core cube root identity $1 + \\omega + \\omega^2 = 0$ to find expressions for the terms inside the parentheses:\n From the identity, we can isolate parts of the sum:\n \\[ 1 + \\omega^2 = -\\omega \\]\n \\[ 1 + \\omega = -\\omega^2 \\]\n Substitute these equations into the two factors of the expression $E$:\n \\[ \\text{First factor: } (1 + \\omega^2) - \\omega = (-\\omega) - \\omega = -2\\omega \\]\n \\[ \\text{Second factor: } (1 + \\omega) - \\omega^2 = (-\\omega^2) - \\omega^2 = -2\\omega^2 \\]\n Multiply the two simplified factors together:\n \\[ E = (-2\\omega) \\times (-2\\omega^2) = 4\\omega^3 \\]\n Now apply the second identity property $\\omega^3 = 1$:\n \\[ E = 4 \\times 1 = 4 \\]\n <strong>Final Answer:</strong> $4$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Factorize the algebraic expression $x^3 + y^3$ completely using cube roots of unity.</p>",
+              "solution": "<p>The standard factorization of a sum of cubes is:\n \\[ x^3 + y^3 = (x+y)(x^2 - xy + y^2) \\]\n Let us focus on rewriting the quadratic factor $(x^2 - xy + y^2)$ using the properties of $\\omega$. Recall that $1 = \\omega^3$ and $-\\omega - \\omega^2 = 1 \\implies -1 = \\omega + \\omega^2$.\n Substitute these identities into the coefficients of the quadratic expression:\n \\[ x^2 + (-1)xy + (1)y^2 = x^2 + (\\omega + \\omega^2)xy + (\\omega^3)y^2 \\]\n Expand the terms:\n \\[ = x^2 + \\omega xy + \\omega^2 xy + \\omega^3 y^2 \\]\n Group the terms to factor the expression by grouping:\n \\[ = x(x + \\omega y) + \\omega^2 y(x + \\omega y) = (x + \\omega y)(x + \\omega^2 y) \\]\n Combine this result back with the first linear factor to find the complete factorization:\n \\[ x^3 + y^3 = (x+y)(x + \\omega y)(x + \\omega^2 y) \\]\n This technique can be used similarly to factor $x^3 - y^3$ and $x^3 + y^3 + z^3 - 3xyz$.\n <strong>Final Answer:</strong> $(x+y)(x + \\omega y)(x + \\omega^2 y)$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Evaluate the value of the large power sum $S = \\omega^{2026} + \\omega^{4052}$.</p>",
+              "solution": "<p>Since $\\omega^3 = 1$, the powers of $\\omega$ repeat in a cycle of $3$. To simplify the expressions, divide the exponents by $3$ and find the remainders:\n For the first term:\n \\[ 2026 = 3 \\times 675 + 1 \\implies \\omega^{2026} = (\\omega^3)^{675} \\cdot \\omega^1 = 1 \\cdot \\omega = \\omega \\]\n For the second term:\n \\[ 4052 = 3 \\times 1350 + 2 \\implies \\omega^{4052} = (\\omega^3)^{1350} \\cdot \\omega^2 = 1 \\cdot \\omega^2 = \\omega^2 \\]\n Substitute these simplified terms back into the sum $S$:\n \\[ S = \\omega + \\omega^2 \\]\n Apply the core identity $1 + \\omega + \\omega^2 = 0 \\implies \\omega + \\omega^2 = -1$:\n \\[ S = -1 \\]\n <strong>Final Answer:</strong> $-1$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The numerical value of $\\omega^6 + \\omega^3 + 1$ is equal to:",
+              "options": [
+                "$0$",
+                "$3$",
+                "$-1$",
+                "$1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The expression $(1-\\omega)(1-\\omega^2)$ simplifies to:",
+              "options": [
+                "$1$",
+                "$3$",
+                "$0$",
+                "$-3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the determinant $\\begin{vmatrix} 1 & \\omega & \\omega^2 \\\\ \\omega & \\omega^2 & 1 \\\\ \\omega^2 & 1 & \\omega \\end{vmatrix}$ is exactly:",
+              "options": [
+                "$1$",
+                "$0$",
+                "$\\omega$",
+                "$3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $z = \\frac{-1-i\\sqrt{3}}{2}$, then the value of $z^{99}$ is:",
+              "options": [
+                "$\\omega$",
+                "$\\omega^2$",
+                "$1$",
+                "$-1$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The factorization of $a^2 + ab + b^2$ in terms of $\\omega$ is written as:",
+              "options": [
+                "$(a-b\\omega)(a-b\\omega^2)$",
+                "$(a+b\\omega)(a+b\\omega^2)$",
+                "$(a-b\\omega)(a+b\\omega^2)$",
+                "None of these"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 3,
+          "title": "$n^{\\text{th",
+          "concept": "<p>The $n^{\\text{th}}$ roots of unity are the solutions to the polynomial equation $z^n = 1$. Expressing $1$ in its general polar form ($e^{i2k\\pi}$), the roots are given by the formula $\\alpha_k = e^{\\frac{2\\pi i k}{n}}$ for $k = 0, 1, 2, \\dots, n-1$. Geometrically, these $n$ roots form the vertices of a regular $n$-sided polygon inscribed inside the unit circle on the Argand plane. The roots satisfy two important properties: their <strong>sum is always 0</strong> ($\\sum_{k=0}^{n-1} \\alpha_k = 0$), and their <strong>product equals $(-1)^{n+1}$</strong>. This concept can be extended to find the roots of a general complex number equation $z^n = w$ by finding the primary root and multiplying it by each of the $n^{\\text{th}}$ roots of unity.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the product of all 5 separate roots of the equation $z^5 - 1 = 0$.</p>",
+              "solution": "<p>The equation $z^5 - 1 = 0 \\implies z^5 = 1$ defines the $5^{\\text{th}}$ roots of unity, so $n = 5$.<br>\n According to the product property for the $n^{\\text{th}}$ roots of unity:\n \\[ \\text{Product} = (-1)^{n+1} \\]\n Substitute $n = 5$ into the exponent formula:\n \\[ \\text{Product} = (-1)^{5+1} = (-1)^6 = 1 \\]\n Let us verify this result using the theory of equations. For a polynomial equation $z^5 + 0z^4 + 0z^3 + 0z^2 + 0z - 1 = 0$, the product of the roots is given by $(-1)^5 \\times \\frac{\\text{constant term}}{\\text{leading coefficient}}$:\n \\[ \\text{Product} = (-1) \\times \\frac{-1}{1} = 1 \\]\n Both methods yield the exact same result.\n <strong>Final Answer:</strong> $1$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Simplify the product expression $P = (1 - \\alpha_1)(1 - \\alpha_2)\\dots(1 - \\alpha_{n-1})$, where $\\alpha_k$ are the non-real $n^{\\text{th}}$ roots of unity.</p>",
+              "solution": "<p>The roots of the equation $z^n - 1 = 0$ are $1, \\alpha_1, \\alpha_2, \\dots, \\alpha_{n-1}$. We can write the polynomial as a product of its linear root factors:\n \\[ z^n - 1 = (z - 1)(z - \\alpha_1)(z - \\alpha_2)\\dots(z - \\alpha_{n-1}) \\]\n Divide both sides of the equation by the linear factor $(z - 1)$:\n \\[ \\frac{z^n - 1}{z - 1} = (z - \\alpha_1)(z - \\alpha_2)\\dots(z - \\alpha_{n-1}) \\]\n Apply the algebraic identity for the sum of a geometric series to rewrite the left-hand side:\n \\[ z^{n-1} + z^{n-2} + \\dots + z + 1 = (z - \\alpha_1)(z - \\alpha_2)\\dots(z - \\alpha_{n-1}) \\]\n To evaluate the target product expression $P$, evaluate this polynomial identity at the point $z = 1$:\n \\[ 1^{n-1} + 1^{n-2} + \\dots + 1 + 1 = (1 - \\alpha_1)(1 - \\alpha_2)\\dots(1 - \\alpha_{n-1}) \\]\n The left-hand side is a sum of the number $1$ repeated exactly $n$ times. Therefore:\n \\[ n = (1 - \\alpha_1)(1 - \\alpha_2)\\dots(1 - \\alpha_{n-1}) \\]\n This identity is a powerful shortcut for solving root product problems on the JEE Advanced exam.\n <strong>Final Answer:</strong> $n$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Solve the complex equation $z^3 = 8i$ and express the solutions in Euler's form.</p>",
+              "solution": "First, convert the right-hand constant $8i$ into its exponential form:\n The modulus is $r = 8$ and the principal argument angle is $\\theta = \\frac{\\pi}{2}$. To find all roots, write it in its general exponential form by adding multiples of $2\\pi$:\n \\[ 8i = 8e^{i(\\pi/2 + 2k\\pi)} \\]\n Now take the cube root on both sides of the equation:\n \\[ z = \\left( 8e^{i(\\pi/2 + 2k\\pi)} \\right)^{1/3} = 2e^{i \\left( \\frac{\\pi/2 + 2k\\pi}{3} \\right)} = 2e^{i \\left( \\frac{\\pi + 4k\\pi}{6} \\right)} \\]\n Evaluate this formula for $k = 0, 1, 2$ to find the three distinct cube roots:\n <ul>\n <li>For $k = 0$: $z_0 = 2e^{i\\pi/6}$\n <li>For $k = 1$: $z_1 = 2e^{i(5\\pi/6)}$\n <li>For $k = 2$: $z_2 = 2e^{i(9\\pi/6)} = 2e^{i3\\pi/2} = 2e^{-i\\pi/2}$\n </ul>\n These three roots are the vertices of an equilateral triangle inscribed inside a circle of radius 2.\n <strong>Final Answer:</strong> $2e^{i\\pi/6}, 2e^{i5\\pi/6}, 2e^{-i\\pi/2}$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The sum of all $n$ distinct $n^{\\text{th}}$ roots of unity is always equal to:",
+              "options": [
+                "$1$",
+                "$0$",
+                "$-1$",
+                "$n$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The product of all $4$ distinct $4^{\\text{th}}$ roots of unity ($z^4 = 1$) is:",
+              "options": [
+                "$1$",
+                "$-1$",
+                "$i$",
+                "$-i$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Geometrically, the $n^{\\text{th}}$ roots of unity plotted on an Argand plane form the vertices of a:",
+              "options": [
+                "Regular $n$-sided polygon inscribed inside a unit circle",
+                "Straight line crossing the origin",
+                "Continuous spiral path",
+                "Right-angled triangle"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\alpha$ is a non-real $7^{\\text{th}}$ root of unity, the value of the sum $\\sum_{m=1}^{6} \\alpha^m$ is:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$-1$",
+                "$7$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The total number of solutions to the complex equation $z^6 = 1 - i$ is exactly:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$6$",
+                "$3$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Advanced Topics & Locus",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Locus Problems in the Argand Plane",
+          "concept": "Locus problems involve determining the geometric path traced by a complex number $z = x + iy$ that satisfies given algebraic conditions. The expression $|z - z_0|$ represents the geometric distance between the moving point $z$ and a fixed point $z_0$. Key locus equations include:\n <ul>\n <li>$|z - z_0| = r$: A circle centered at $z_0$ with radius $r$.\n <li>$|z - z_1| = |z - z_2|$: The perpendicular bisector of the line segment joining $z_1$ and $z_2$.\n <li>$|z - z_1| + |z - z_2| = 2a$: An ellipse with foci at $z_1$ and $z_2$, provided $2a > |z_1 - z_2|$.\n </ul>\n A common mistake is misinterpreting the sign conditions, which can lead to identifying the wrong geometric shape.",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Identify the geometric curve represented by the complex equation $|z - 3 + i| = 4$.</p>",
+              "solution": "<p>Let us rearrange the terms inside the modulus to match the standard distance layout format $|z - z_0| = r$:\n \\[ |z - (3 - i)| = 4 \\]\n This equation states that the geometric distance between the moving point $z$ and the fixed point $z_0 = 3 - i$ is always exactly equal to $4$.<br>\n This matches the definition of a circle. The center of the circle is located at the coordinates $(3, -1)$ on the Argand plane, and its radius is exactly $4$.\n We can verify this by substituting $z = x + iy$ into the equation:\n \\[ |(x-3) + i(y+1)| = 4 \\implies \\sqrt{(x-3)^2 + (y+1)^2} = 4 \\]\n Square both sides of the equation:\n \\[ (x-3)^2 + (y+1)^2 = 16 \\]\n This is the standard Cartesian equation of a circle.\n <strong>Final Answer:</strong> A circle centered at $3 - i$ with a radius of $4$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Determine the locus traced by a complex number $z$ that satisfies the equation $|z - 2i| = |z - 4|$.</p>",
+              "solution": "<p>The equation is of the form $|z - z_1| = |z - z_2|$, where $z_1 = 2i$ (coordinates $(0, 2)$) and $z_2 = 4$ (coordinates $(4, 0)$). Geometrically, this represents the perpendicular bisector of the line segment connecting these two points.<br>\n Let us find the equation of this line using Cartesian coordinates by substituting $z = x + iy$:\n \\[ |x + i(y-2)| = |(x-4) + iy| \\]\n Calculate the modulus expressions on both sides:\n \\[ \\sqrt{x^2 + (y-2)^2} = \\sqrt{(x-4)^2 + y^2} \\]\n Square both sides to eliminate the radicals:\n \\[ x^2 + y^2 - 4y + 4 = x^2 - 8x + 16 + y^2 \\]\n Cancel out the quadratic terms $x^2$ and $y^2$ from both sides:\n \\[ -4y + 4 = -8x + 16 \\]\n Rearrange the terms into standard linear form:\n \\[ 8x - 4y - 12 = 0 \\implies 2x - y - 3 = 0 \\]\n This is the equation of a straight line.\n <strong>Final Answer:</strong> A straight line with the equation $2x - y - 3 = 0$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Identify the locus of $z$ that satisfies the equation $|z - 2| + |z + 2| = 6$.</p>",
+              "solution": "<p>The equation is of the form $|z - z_1| + |z - z_2| = 2a$, where $z_1 = 2$, $z_2 = -2$, and $2a = 6 \\implies a = 3$.<br>\n This definition matches an ellipse, provided the total sum value ($2a = 6$) is strictly greater than the distance between the two fixed foci points ($|z_1 - z_2|$):\n \\[ \\text{Distance between foci} = |2 - (-2)| = |4| = 4 \\]\n Since $6 > 4$, the condition is met, and the equation represents a valid ellipse. The foci are located at $(2, 0)$ and $(-2, 0)$, and the length of the major axis is $6$.\n <strong>Final Answer:</strong> An ellipse with foci at $2$ and $-2$, and a major axis of length $6$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The locus represented by the equation $\\arg(z) = \\frac{\\pi}{4}$ is a:",
+              "options": [
+                "Complete straight line crossing the origin",
+                "Ray starting from the origin (excluding origin) angled at $45^\\circ$",
+                "Circle centered at the origin",
+                "Curved parabola"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Identify the locus of $z$ if it satisfies the equation $|z - i| = |z + i|$:",
+              "options": [
+                "The Real Axis ($y = 0$)",
+                "The Imaginary Axis ($x = 0$)",
+                "The line $y = x$",
+                "A circle of radius 1"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The equation $|z - 5| + |z + 5| = 8$ represents which geometric shape?",
+              "options": [
+                "An ellipse",
+                "A circle",
+                "No real locus exists because the sum of distances is less than the distance between the foci",
+                "A straight line segment"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The locus represented by the equation $|z - 2| - |z + 2| = 2$ is a branch of a:",
+              "options": [
+                "Parabola",
+                "Ellipse",
+                "Hyperbola",
+                "Circle"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The equation $|z - 1|^2 + |z + 1|^2 = 4$ can be expanded in Cartesian coordinates to reveal a:",
+              "options": [
+                "Straight line",
+                "Circle centered at the origin with radius $\\sqrt{1}$",
+                "Ellipse",
+                "Hyperbola"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Logarithm & Square Root of a Complex Number",
+          "concept": "<p>The logarithm of a complex number is found by converting it to Euler's form ($z = re^{i\\theta}$). This allows us to write the logarithm as:\n \\[ \\ln z = \\ln|z| + i\\arg(z) \\]\n Because the argument has infinitely many valid values, $\\ln z$ is a multi-valued function unless we restrict it to the principal argument angle ($\\arg(z) \\in (-\\pi, \\pi]$). The square root of a complex number $\\sqrt{a+ib} = \\pm(x+iy)$ can be found using the system formulas:\n \\[ x = \\sqrt{\\frac{|z|+a}{2}} \\quad \\text{and} \\quad y = \\text{sign}(b)\\sqrt{\\frac{|z|-a}{2}} \\]\n The sign of the imaginary component $y$ must match the sign of $b$ to ensure the cross-product term is consistent.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the principal value of the natural logarithm of the complex number $z = 1 + i\\sqrt{3}$.</p>",
+              "solution": "<p>To find the logarithm using the formula $\\ln z = \\ln|z| + i\\arg(z)$, calculate the modulus and principal argument of $z$:\n Step 1: Calculate the modulus $|z|$:\n \\[ |z| = \\sqrt{1^2 + (\\sqrt{3})^2} = \\sqrt{1 + 3} = 2 \\]\n Step 2: Calculate the principal argument $\\arg(z)$. The point lies in the first quadrant:\n \\[ \\theta = \\arctan\\left(\\frac{\\sqrt{3}}{1}\\right) = \\frac{\\pi}{3} \\]\n Step 3: Substitute these values into the complex logarithm formula:\n \\[ \\ln z = \\ln(2) + i\\frac{\\pi}{3} \\]\n This separates the logarithm cleanly into its real part $\\ln(2)$ and its imaginary part $\\frac{\\pi}{3}$.\n <strong>Final Answer:</strong> $\\ln 2 + i\\frac{\\pi}{3}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Calculate the square roots of the complex number $z = 7 + 24i$ using standard algebraic formulas.</p>",
+              "solution": "<p>The complex number is of the form $a + ib$, where $a = 7$ and $b = 24$. Since $b = 24 > 0$, the real and imaginary parts of the square root must have the same sign.<br>\n Step 1: Calculate the absolute modulus $|z|$:\n \\[ |z| = \\sqrt{7^2 + 24^2} = \\sqrt{49 + 576} = \\sqrt{625} = 25 \\]\n Step 2: Apply the standard formulas to find the real part $x$ and imaginary part $y$ of the root:\n \\[ x = \\sqrt{\\frac{|z| + a}{2}} = \\sqrt{\\frac{25 + 7}{2}} = \\sqrt{\\frac{32}{2}} = \\sqrt{16} = 4 \\]\n \\[ y = \\sqrt{\\frac{|z| - a}{2}} = \\sqrt{\\frac{25 - 7}{2}} = \\sqrt{\\frac{18}{2}} = \\sqrt{9} = 3 \\]\n Step 3: Combine the components, using the same sign for both parts because $b > 0$:\n \\[ \\sqrt{7 + 24i} = \\pm(4 + 3i) \\]\n Let us verify this result by squaring the answer: $(4+3i)^2 = 16 + 24i - 9 = 7 + 24i$. The solution is confirmed.\n <strong>Final Answer:</strong> $\\pm(4 + 3i)$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Find the purely imaginary part of the complex logarithm expression $\\ln(-1)$.</p>",
+              "solution": "<p>Convert the real number base $-1$ into its polar form on the Argand plane:\n The point lies on the negative real axis, so its modulus is $|-1| = 1$ and its principal argument angle is $\\arg(-1) = \\pi$. Write the number in exponential form:\n \\[ -1 = 1 \\cdot e^{i\\pi} \\]\n Apply the complex logarithm formula to this expression:\n \\[ \\ln(-1) = \\ln(1) + i\\pi \\]\n Since $\\ln(1) = 0$, the real part vanishes, leaving only the imaginary component:\n \\[ \\ln(-1) = i\\pi \\]\n The imaginary part of this expression is exactly $\\pi$.\n <strong>Final Answer:</strong> $\\pi$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The principal value of the real part of $\\ln(i)$ is equal to:",
+              "options": [
+                "$0$",
+                "$\\frac{\\pi}{2}$",
+                "$1$",
+                "$-1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The square roots of the imaginary unit $i$ can be written as:",
+              "options": [
+                "$\\pm\\frac{1+i}{\\sqrt{2}}$",
+                "$\\pm(1+i)$",
+                "$\\pm\\frac{1-i}{\\sqrt{2}}$",
+                "$\\pm i$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The multi-valued general expression for the logarithm of a complex number includes a step factor of:",
+              "options": [
+                "$+ 2k\\pi$",
+                "$+ i2k\\pi$",
+                "$+ k\\pi$",
+                "$\\times 2k\\pi$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\sqrt{a+ib} = \\pm(x+iy)$ and $b$ is a negative value ($b < 0$), then the signs of $x$ and $y$ must be:",
+              "options": [
+                "Always identical",
+                "Always opposite",
+                "Both strictly positive",
+                "Both strictly negative"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The value of $\\ln(e^{2+i})$ simplifies directly using exponential inverse rules to:",
+              "options": [
+                "$2+i$",
+                "$2$",
+                "$i$",
+                "$\\ln 2 + i$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-math-complex-numbers-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "The value of the finite sum $\\sum_{n=1}^{100} i^n$ is equal to:",
+              "options": [
+                "$0$",
+                "$i$",
+                "$-1$",
+                "$1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $z = \\frac{4 + 3i}{1 + i}$, then the absolute modulus value $|z|$ is:",
+              "options": [
+                "$5$",
+                "$\\frac{5}{\\sqrt{2}}$",
+                "$\\frac{25}{2}$",
+                "$\\sqrt{7}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The principal argument of the complex number $z = -1 - i\\sqrt{3}$ is:",
+              "options": [
+                "$\\frac{2\\pi}{3}$",
+                "$-\\frac{2\\pi}{3}$",
+                "$\\frac{4\\pi}{3}$",
+                "$-\\frac{\\pi}{3}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\omega$ is a non-real cube root of unity, the value of the expression $(1+\\omega)(1+\\omega^2)(1+\\omega^4)(1+\\omega^8)$ is:",
+              "options": [
+                "$1$",
+                "$9$",
+                "$0$",
+                "$3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The locus represented by the complex equation $|z - 4i| + |z + 4i| = 10$ is an:",
+              "options": [
+                "Ellipse",
+                "Circle",
+                "Hyperbola",
+                "Perpendicular Bisector"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $z^2 = -i$, then the value solutions for $z$ can be written as:",
+              "options": [
+                "$\\pm\\frac{1-i}{\\sqrt{2}}$",
+                "$\\pm\\frac{1+i}{\\sqrt{2}}$",
+                "$\\pm i$",
+                "$\\pm 1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the product $(\\cos\\frac{\\pi}{3} + i\\sin\\frac{\\pi}{3}) \\times (\\cos\\frac{\\pi}{6} + i\\sin\\frac{\\pi}{6})$ is equal to:",
+              "options": [
+                "$i$",
+                "$-1$",
+                "$1$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\text{Re}\\left(\\frac{z-1}{z+1}\\right) = 0$, then the locus of the moving point $z$ is a:",
+              "options": [
+                "Circle of radius 1 centered at the origin (excluding $z=-1$)",
+                "Straight line along the imaginary axis",
+                "Parabola opening right",
+                "Ellipse with major axis 2"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the complex exponent expression $e^{i\\pi/2}$ matches which unit algebraic term?",
+              "options": [
+                "$i$",
+                "$-i$",
+                "$1$",
+                "$-1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the complex numbers $z_1, z_2, z_3$ form the vertices of an equilateral triangle inscribed inside the unit circle $|z|=1$, their sum $z_1 + z_2 + z_3$ must equal:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$3$",
+                "Dependent on $z_1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Evaluate the value of the integer product: $(1-\\omega)(1-\\omega^2)(1-\\omega^4)(1-\\omega^8)$ where $\\omega$ is a cube root of unity.",
+              "answer": "9",
+              "explanation": ""
+            },
+            {
+              "q": "Find the number of distinct real solution roots that satisfy the equation $|x + i| = \\sqrt{5}$ for $x \\in \\mathbb{R}$.",
+              "answer": "2",
+              "explanation": ""
+            },
+            {
+              "q": "Determine the radius value $r$ of the circular locus path given by the expression $z\\bar{z} - 2z - 2\\bar{z} - 7 = 0$.",
+              "answer": "3",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The upper bound statement $|z_1 + z_2| = |z_1| + |z_2|$ is true if the vector rays point in the same direction.<br>\n <strong>Reason (R):</strong> The Triangle Inequality holds across all fields, and equality requires the arguments of the two numbers to be completely equal ($\\arg z_1 = \\arg z_2$).",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> The expression $\\sqrt{-4} \\times \\sqrt{-9}$ evaluates to $\\sqrt{36} = 6$.<br>\n <strong>Reason (R):</strong> The product identity $\\sqrt{a}\\sqrt{b} = \\sqrt{ab}$ is strictly valid only when at least one of the real radicand variables is non-negative.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 3,
+              "explanation": "A is false (the product evaluates to $-6$) but R is true."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-math-complex-numbers-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "If $z = \\left(\\frac{\\sqrt{3}+i}{2}\\right)^6 + \\left(\\frac{\\sqrt{3}-i}{2}\\right)^6$, then the value of $z$ simplifies to:",
+              "options": [
+                "$2$",
+                "$-2$",
+                "$2i$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The minimum value of the expression $|z - 1| + |z - 5i|$ achieved across the Argand plane is exactly:",
+              "options": [
+                "$6$",
+                "$\\sqrt{26}$",
+                "$4$",
+                "$5$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\alpha, \\beta, \\gamma$ are the roots of the cubic equation $x^3 - 3x^2 + 3x - 2 = 0$, then they match which geometric configuration?",
+              "options": [
+                "Vertices of an equilateral triangle centered at $(1,0)$",
+                "A straight line crossing the imaginary axis",
+                "A circle centered at the origin",
+                "None of these"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The principal value of the complex logarithm expression $\\ln(1-i)$ has an imaginary part equal to:",
+              "options": [
+                "$\\frac{\\pi}{4}$",
+                "$-\\frac{\\pi}{4}$",
+                "$\\frac{3\\pi}{4}$",
+                "$-\\frac{3\\pi}{4}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The locus represented by the equation $\\arg\\left(\\frac{z-1}{z+1}\\right) = \\frac{\\pi}{2}$ is a:",
+              "options": [
+                "Straight line crossing the origin",
+                "Semicircle lying above the real axis with diameter endpoints at $-1$ and $1$",
+                "Complete circle centered at the origin",
+                "Parabola opening downward"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $|z_1| = 1, |z_2| = 2, |z_3| = 3$ and $|9z_1z_2 + 4z_1z_3 + z_2z_3| = 12$, then the value of the modulus sum $|z_1 + z_2 + z_3|$ is:",
+              "options": [
+                "$2$",
+                "$3$",
+                "$1$",
+                "$4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\omega$ is a non-real cube root of unity, the value of the polynomial sum $\\sum_{k=1}^{30} (1+\\omega^k+\\omega^{2k})$ is:",
+              "options": [
+                "$0$",
+                "$30$",
+                "$90$",
+                "$10$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The complex number equation $x^2 + |x|^2 = 0$ has how many distinct solutions over the complex field?",
+              "options": [
+                "Exactly one solution ($x=0$)",
+                "Exactly two solutions",
+                "Infinitely many solutions lying along the imaginary axis",
+                "No solution exists"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the product expression $\\prod_{k=1}^{4} \\left(2 - e^{i2\\pi k/5}\\right)$ can be evaluated using $n^{\\text{th}}$ root identities. The value is:",
+              "options": [
+                "$31$",
+                "$32$",
+                "$15$",
+                "$16$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $|z-2| = \\text{Re}(z)$, then the path traced by the moving complex point $z$ is a:",
+              "options": [
+                "Circle",
+                "Ellipse",
+                "Parabola",
+                "Hyperbola"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Evaluate the maximum value of the modulus $|z|$ if it satisfies the structural distance inequality $|z - 3/z| = 2$.",
+              "answer": "4",
+              "explanation": ""
+            },
+            {
+              "q": "Find the number of real roots of the complex-coefficient polynomial equation $z^2 + 2iz + 3 = 0$.",
+              "answer": "0",
+              "explanation": ""
+            },
+            {
+              "q": "Find the number of solutions to the equation $z^3 + \\bar{z} = 0$.",
+              "answer": "5",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The complex value of $i^i$ is a purely real number.<br>\n <strong>Reason (R):</strong> Converting $i$ to Euler's form gives $e^{i\\pi/2}$. Raising this expression to the power $i$ multiplies the exponents, which eliminates the imaginary unit because $i^2 = -1$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> The roots of the equation $z^n = w$ always form a regular polygon centered at the origin on the Argand plane.<br>\n <strong>Reason (R):</strong> Multiplying a complex root by the $n^{\\text{th}}$ roots of unity preserves its modulus and adds constant angle increments of $\\frac{2\\pi}{n}$ to its argument, which rotates the points uniformly around a circle.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": 13,
+  "title": "Hydrocarbons",
+  "slug": "hydrocarbons",
+  "subtitle": "Hydrocarbons for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#eab308",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "Master Hydrocarbons for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Alkanes and Alkenes",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Alkanes — Preparation, Properties, Reactions",
+          "concept": "<p><strong>Alkanes:</strong> Saturated hydrocarbons, general formula $C_nH_{2n+2}$. $sp^3$ hybridized C. Single bonds only.</p><p><strong>Examples:</strong> $CH_4$ methane, $C_2H_6$ ethane, $C_3H_8$ propane, $C_4H_{10}$ butane.</p><p><strong>Preparation Methods:</strong></p><p><strong>1. From Unsaturated Hydrocarbons (Hydrogenation):</strong> $$CH_2=CH_2 + H_2 \\xrightarrow{\\text{Ni}/\\text{Pt}/\\text{Pd}, \\Delta} CH_3CH_3$$</p><ul><li>Catalyst: Ni (most common), Pt, Pd</li><li>Heterogeneous catalysis</li></ul><p><strong>2. From Alkyl Halides:</strong></p><ul><li><strong>Wurtz Reaction:</strong> $2RX + 2Na \\xrightarrow{\\text{dry ether}} R-R + 2NaX$</li><li>Two molecules of alkyl halide; Na in dry ether</li><li>Best with primary RX; gives symmetrical alkanes</li><li>$2CH_3CH_2Br + 2Na \\to CH_3CH_2CH_2CH_3 + 2NaBr$ (butane)</li><li><strong>Reduction with Zn/HCl:</strong> $RX + 2[H] \\to RH + HX$</li></ul><p><strong>3. From Carboxylic Acids (Decarboxylation):</strong></p><ul><li><strong>Sodium salt heated with NaOH/CaO (soda-lime):</strong></li></ul><p>$$RCOONa + NaOH \\xrightarrow{CaO, \\Delta} RH + Na_2CO_3$$</p><ul><li>e.g., $CH_3COONa + NaOH \\to CH_4 + Na_2CO_3$</li><li><strong>Kolbe's electrolysis:</strong> Electrolysis of sodium carboxylate solution gives alkanes:</li></ul><p>$2RCOO^- \\to R-R + 2CO_2 + 2e^-$ (anode)</p><p><strong>Physical Properties:</strong></p><ul><li>C1-C4: gases at RT; C5-C17: liquids; C18 and above: solids</li><li>BP increases with chain length (more London forces)</li><li>Branched alkanes have lower BP than straight chain (less surface area)</li><li>Insoluble in water; soluble in non-polar solvents</li><li>Density < $1$ g/mL</li></ul><p><strong>Chemical Properties:</strong></p><p><strong>1. Combustion:</strong> $$C_nH_{2n+2} + \\frac{3n+1}{2}O_2 \\to nCO_2 + (n+1)H_2O$$</p><ul><li>Highly exothermic</li><li>Major use as fuel</li></ul><p><strong>2. Halogenation (Free Radical Substitution):</strong> $$CH_4 + Cl_2 \\xrightarrow{h\\nu \\text{ or } \\Delta} CH_3Cl + HCl$$</p><ul><li>Photochemical or thermal initiation</li><li>Further substitution: $CH_3Cl \\to CH_2Cl_2 \\to CHCl_3 \\to CCl_4$</li><li>Order of reactivity of halogens: F₂ > Cl₂ > Br₂ > I₂</li><li>Selectivity: $3° H > 2° H > 1° H > CH_3$ (radical stability)</li><li>F is too reactive (explosive); I doesn't react (endothermic)</li></ul><p><strong>Mechanism (3 steps):</strong></p><ul><li><strong>Initiation:</strong> $Cl_2 \\xrightarrow{h\\nu} 2Cl^\\bullet$</li><li><strong>Propagation:</strong></li><li>$CH_4 + Cl^\\bullet \\to CH_3^\\bullet + HCl$</li><li>$CH_3^\\bullet + Cl_2 \\to CH_3Cl + Cl^\\bullet$</li><li><strong>Termination:</strong> $Cl^\\bullet + Cl^\\bullet \\to Cl_2$; $CH_3^\\bullet + Cl^\\bullet \\to CH_3Cl$; etc.</li></ul><p><strong>3. Pyrolysis (Cracking):</strong></p><ul><li>$C_{10}H_{22} \\to C_5H_{12} + C_5H_{10}$ (mix of smaller alkanes and alkenes)</li><li>Used in petroleum cracking</li></ul><p><strong>4. Isomerization:</strong></p><ul><li>$n$-Butane $\\to$ isobutane (anhydrous $AlCl_3 + HCl$, heat)</li><li>Used in petroleum refining</li></ul><p><strong>5. Aromatization:</strong></p><ul><li>Higher alkanes ($C_6+$) heated over $Cr_2O_3/V_2O_5$ on alumina at ~$770$ K, 10-20 atm → aromatic compounds</li><li>e.g., $n$-hexane → benzene</li></ul><p><strong>6. Reaction with steam:</strong></p><ul><li>$CH_4 + H_2O \\xrightarrow{Ni, 1273K} CO + 3H_2$ (syn gas — used for methanol)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Identify product of Wurtz reaction with $C_2H_5Br$.</p>",
+              "solution": "<p>$2C_2H_5Br + 2Na \\xrightarrow{ether} C_2H_5-C_2H_5 + 2NaBr$ $= CH_3CH_2CH_2CH_3$ (n-butane)</p><p><strong>Final Answer:</strong> n-Butane.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Predict product when soda-lime is heated with $CH_3CH_2COONa$.</p>",
+              "solution": "<p>$CH_3CH_2COONa + NaOH \\xrightarrow{CaO, \\Delta} CH_3CH_3 + Na_2CO_3$</p><p><strong>Final Answer:</strong> Ethane.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>General formula of alkanes:</p>",
+              "options": [
+                "$C_nH_{2n}$",
+                "$C_nH_{2n+2}$",
+                "$C_nH_{2n-2}$",
+                "$CH_4$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Wurtz reaction is for:</p>",
+              "options": [
+                "Halide + alcohol",
+                "Alkyl halide + Na in dry ether",
+                "Alkene + H₂",
+                "Acid + base"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Chlorination of methane is initiated by:</p>",
+              "options": [
+                "Heat alone",
+                "UV light",
+                "Both",
+                "Acid"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Selectivity of halogenation: $3°$ vs $1°$ H:</p>",
+              "options": [
+                "$1° > 3°$",
+                "$3° > 2° > 1°$",
+                "All equal",
+                "Depends on T"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Cracking is used in:</p>",
+              "options": [
+                "Glass manufacture",
+                "Petroleum refining",
+                "Plastics",
+                "Fertilizer"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Alkenes — Preparation and Electrophilic Addition",
+          "concept": "<p><strong>Alkenes:</strong> Unsaturated hydrocarbons with one C=C; general formula $C_nH_{2n}$. $sp^2$ C; planar around C=C.</p><p><strong>Examples:</strong> $CH_2=CH_2$ ethene, $CH_3CH=CH_2$ propene.</p><p><strong>Preparation Methods:</strong></p><p><strong>1. From Alkyl Halides (Dehydrohalogenation):</strong> $$RCH_2CH_2X \\xrightarrow{\\text{alc. KOH}, \\Delta} RCH=CH_2 + HX$$</p><ul><li>$\\beta$-elimination</li><li>Follows <strong>Saytzeff's rule:</strong> more substituted alkene (more stable) is major</li><li>Example: $CH_3CH_2CH(Br)CH_3 \\to CH_3CH=CHCH_3$ (major, but-2-ene) over $CH_2=CHCH_2CH_3$</li></ul><p><strong>2. From Alcohols (Dehydration):</strong> $$RCH_2CH_2OH \\xrightarrow{conc.\\ H_2SO_4, \\Delta} RCH=CH_2 + H_2O$$</p><ul><li>Acid-catalyzed; conc. $H_2SO_4$ at $443$ K, or alumina at $623$ K</li><li>Saytzeff rule applies</li><li>Reactivity: $3° > 2° > 1°$ alcohols</li></ul><p><strong>3. From Vicinal Dihalides (Dehalogenation):</strong> $$RCH(X)CH(X)R' + Zn \\to RCH=CHR' + ZnX_2$$</p><ul><li>$CH_2BrCH_2Br + Zn \\to CH_2=CH_2 + ZnBr_2$</li></ul><p><strong>4. From Alkynes (Partial Reduction):</strong></p><ul><li>$RC \\equiv CR' + H_2 \\xrightarrow{Lindlar} \\text{cis-alkene}$</li><li>$RC \\equiv CR' + Na/NH_3(liq) \\to \\text{trans-alkene}$ (Birch reduction)</li></ul><p><strong>Physical Properties:</strong></p><ul><li>Similar to alkanes; slightly higher BPs due to greater polarizability of C=C</li><li>C2-C4 gases; C5-C17 liquids</li><li>Insoluble in water</li></ul><p><strong>Chemical Properties (Electrophilic Addition Reactions):</strong></p><p><strong>1. Addition of Hydrogen (Catalytic Hydrogenation):</strong> $CH_2=CH_2 + H_2 \\xrightarrow{Ni/Pd/Pt} CH_3CH_3$</p><p><strong>2. Addition of Halogens:</strong> $CH_2=CH_2 + Br_2 \\to BrCH_2CH_2Br$ (1,2-dibromoethane)</p><ul><li>Decolorization of bromine water = test for unsaturation</li><li>Mechanism: $\\pi$ → cyclic bromonium ion → trans-addition</li></ul><p><strong>3. Addition of HX (Hydrogen halides):</strong> $CH_2=CH_2 + HBr \\to CH_3CH_2Br$ (ethyl bromide)</p><p><strong>Markovnikov's Rule:</strong> In addition of HX to unsymmetrical alkene, H adds to the C with more H atoms; X to C with fewer H. $CH_3CH=CH_2 + HBr \\to CH_3CHBrCH_3$ (2-bromopropane, not 1-)</p><p><strong>Mechanism:</strong> Protonation gives more stable carbocation (Markovnikov product follows carbocation stability: $3° > 2° > 1°$).</p><p><strong>Anti-Markovnikov (Peroxide Effect, Kharasch):</strong> In presence of peroxides, HBr addition follows opposite: $CH_3CH=CH_2 + HBr \\xrightarrow{ROOR} CH_3CH_2CH_2Br$ (1-bromopropane)</p><ul><li>Only HBr exhibits this (not HCl, HI)</li><li>Free radical mechanism</li></ul><p><strong>4. Addition of H₂SO₄:</strong> $CH_2=CH_2 + H_2SO_4 \\to CH_3CH_2OSO_3H$ (ethyl hydrogen sulfate) $CH_3CH_2OSO_3H + H_2O \\xrightarrow{\\Delta} CH_3CH_2OH + H_2SO_4$ (hydration)</p><p><strong>5. Addition of Water (Acid-catalyzed):</strong> $CH_2=CH_2 + H_2O \\xrightarrow{H^+} CH_3CH_2OH$ (follows Markovnikov)</p><p><strong>6. Oxidation:</strong></p><ul><li><strong>Cold dilute KMnO₄ (Baeyer's reagent):</strong> $CH_2=CH_2 + H_2O \\xrightarrow{KMnO_4} CH_2(OH)CH_2(OH)$ (glycol; cis-diol)</li><li><strong>Hot KMnO₄/acidic:</strong> Cleavage of C=C → carboxylic acids/ketones/CO₂</li><li><strong>OsO₄:</strong> gives syn-diol; followed by NaHSO₃</li></ul><p><strong>7. Ozonolysis:</strong> $RCH=CHR' + O_3 \\to \\text{ozonide} \\xrightarrow{H_2O, Zn} RCHO + R'CHO$</p><ul><li>Cleaves C=C to give aldehydes (or ketones if substituted)</li><li>Used to determine position of double bond</li></ul><p><strong>8. Polymerization:</strong> $nCH_2=CH_2 \\xrightarrow{cat} -[CH_2CH_2]_n-$ (polyethylene)</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Product of $CH_3CH=CH_2 + HBr$ (i) without peroxide (ii) with peroxide.</p>",
+              "solution": "<p>(i) Markovnikov: H goes to terminal $CH_2$, Br to inner C: $CH_3CHBrCH_3$ (2-bromopropane) (ii) Anti-Markovnikov (peroxide effect): reverse: $CH_3CH_2CH_2Br$ (1-bromopropane)</p><p><strong>Final Answer:</strong> (i) 2-bromopropane; (ii) 1-bromopropane.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Ozonolysis of 2-butene gives:</p>",
+              "solution": "<p>$CH_3CH=CHCH_3 + O_3 \\to \\text{ozonide} \\xrightarrow{H_2O, Zn} 2CH_3CHO$ (two molecules of acetaldehyde)</p><p><strong>Final Answer:</strong> $2CH_3CHO$ (acetaldehyde).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>General formula of alkenes:</p>",
+              "options": [
+                "$C_nH_{2n}$",
+                "$C_nH_{2n-2}$",
+                "$C_nH_{2n+2}$",
+                "$CH_4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Markovnikov rule:</p>",
+              "options": [
+                "Random addition",
+                "H to C with more H; X to C with fewer",
+                "Reverse",
+                "Equal addition"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Anti-Markovnikov is observed in:</p>",
+              "options": [
+                "HCl + alkene",
+                "HBr + alkene + peroxide",
+                "HI + alkene",
+                "HF + alkene"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Decolorization of Br₂/CCl₄ tests for:</p>",
+              "options": [
+                "Aromatic ring",
+                "Unsaturation (C=C or C≡C)",
+                "-OH",
+                "-COOH"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Ozonolysis of $CH_3CH=CH_2$ gives:</p>",
+              "options": [
+                "$CH_3CHO + HCHO$",
+                "$CH_3OH + HCHO$",
+                "$CH_4 + CO_2$",
+                "$2CH_3CHO$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Alkynes and Aromatic Hydrocarbons",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Alkynes — Preparation, Acidic Character, Reactions",
+          "concept": "<p><strong>Alkynes:</strong> Hydrocarbons with at least one C≡C triple bond; general formula $C_nH_{2n-2}$. $sp$ hybridized C at triple bond; linear geometry, bond angle $180°$.</p><p><strong>Examples:</strong> $HC \\equiv CH$ ethyne (acetylene), $CH_3 C \\equiv CH$ propyne.</p><p><strong>Preparation:</strong></p><p><strong>1. From Calcium Carbide:</strong> $CaC_2 + 2H_2O \\to Ca(OH)_2 + C_2H_2$ (acetylene)</p><ul><li>$CaC_2$ from $CaO + 3C \\xrightarrow{\\text{electric furnace}} CaC_2 + CO$</li></ul><p><strong>2. From Vicinal Dihalides:</strong> $RCH(X)CH(X)R' + 2KOH(alc) \\xrightarrow{\\Delta} RC \\equiv CR' + 2KX + 2H_2O$</p><ul><li>Double dehydrohalogenation</li><li>e.g., $CH_3CHBrCH_2Br + 2KOH \\to CH_3C\\equiv CH$</li></ul><p><strong>3. From Tetrahalides:</strong> $RCX_2CX_2R' + 2Zn \\to RC \\equiv CR' + 2ZnX_2$</p><p><strong>4. From Sodium Acetylide:</strong> $HC \\equiv C-Na + RX \\to HC \\equiv C-R + NaX$ (extends chain)</p><p><strong>Acidic Character (Distinctive!):</strong></p><p>Terminal alkynes (with $\\equiv C-H$) are weakly acidic due to high s-character of $sp$ C-H bond (50% s → more EN).</p><table class=\"md-table\"><thead><tr><th>Compound</th><th>$pK_a$</th></tr></thead><tbody><tr><td>$HC \\equiv CH$ (ethyne)</td><td>$\\sim 25$</td></tr><tr><td>$CH_2 = CH_2$</td><td>$\\sim 44$</td></tr><tr><td>$CH_4$</td><td>$\\sim 50$</td></tr></tbody></table><p>Order: Alkyne > Alkene > Alkane in acidity. Reason: more s-character → e⁻ closer to nucleus → more stable C⁻.</p><p><strong>Acidic reactions:</strong></p><ul><li>$HC \\equiv CH + Na \\to HC \\equiv C^-Na^+ + \\frac{1}{2}H_2$</li><li>$HC \\equiv CH + NaNH_2 \\to HC \\equiv C^-Na^+ + NH_3$</li><li>$RC \\equiv CH + [Cu(NH_3)_2]^+ \\to RC \\equiv C-Cu \\downarrow$ (red ppt — test for terminal alkyne)</li><li>$RC \\equiv CH + [Ag(NH_3)_2]^+ \\to RC \\equiv C-Ag \\downarrow$ (white-grey ppt — test)</li></ul><p>Note: Only <strong>terminal</strong> alkynes show this acidity.</p><p><strong>Addition Reactions (similar to alkenes but two steps):</strong></p><p><strong>1. Hydrogenation:</strong></p><ul><li>Complete: $RC \\equiv CR' + 2H_2 \\xrightarrow{Pt} RCH_2CH_2R'$</li><li>Partial: $RC \\equiv CR' + H_2 \\xrightarrow{Lindlar (Pd/CaCO_3/Pb)} cis$-alkene</li><li>Partial trans: $Na/liq NH_3$ → trans-alkene</li></ul><p><strong>2. Halogenation:</strong> Two molar of X₂; gives tetrahalide. $HC \\equiv CH + 2Br_2 \\to CHBr_2CHBr_2$</p><p><strong>3. Addition of HX:</strong> Two steps (each follows Markovnikov): $CH_3C \\equiv CH + HBr \\to CH_3CBr=CH_2 \\xrightarrow{HBr} CH_3CBr_2CH_3$</p><p><strong>4. Addition of Water (Hydration):</strong> $RC \\equiv CH + H_2O \\xrightarrow{H_2SO_4, HgSO_4} \\text{enol} \\to RCOCH_3$ (ketone)</p><ul><li>$CH \\equiv CH + H_2O \\to CH_3CHO$ (acetaldehyde — only alkyne giving aldehyde)</li><li>Other terminal alkynes give methyl ketones (Markovnikov)</li></ul><p><strong>5. Polymerization:</strong></p><ul><li>$3HC \\equiv CH \\xrightarrow{Cu \\text{ tube, } 873K} C_6H_6$ (benzene)</li><li>Trimerization</li></ul><p><strong>6. Ozonolysis:</strong> $RC \\equiv CR' + O_3 \\to RCOOH + R'COOH$ (carboxylic acids)</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why is acetylene acidic?</p>",
+              "solution": "<p>The $\\equiv C-H$ bond has high s-character (50% in $sp$ vs 25% in $sp^3$). More s-character → electrons closer to C nucleus → C-H bond more polar → H easily removed as $H^+$, leaving stable acetylide ion. Thus $pK_a \\sim 25$ vs alkanes' $\\sim 50$.</p><p><strong>Final Answer:</strong> High s-character of $sp$ C → polar C-H → acidic.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Predict product of hydration of propyne.</p>",
+              "solution": "<p>$CH_3C \\equiv CH + H_2O \\xrightarrow{H_2SO_4, HgSO_4} CH_3COCH_3$ (acetone, by Markovnikov)</p><p>Mechanism: $H_2O$ adds with H going to terminal C (more H) and -OH to internal C ($sp$ C with R), giving enol $CH_3C(OH)=CH_2$ which tautomerizes to ketone.</p><p><strong>Final Answer:</strong> Acetone ($CH_3COCH_3$).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Acetylene from CaC₂:</p>",
+              "options": [
+                "$CaC_2 + H_2O \\to Ca(OH)_2 + C_2H_2$",
+                "$CaC_2$ heated",
+                "$CaC_2 + Cl_2$",
+                "Pure $CaC_2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$HC \\equiv CH$ has hybridization:</p>",
+              "options": [
+                "$sp$",
+                "$sp^2$",
+                "$sp^3$",
+                "Mixed"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Most acidic:</p>",
+              "options": [
+                "$CH_4$",
+                "$C_2H_4$",
+                "$C_2H_2$",
+                "$C_2H_6$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Lindlar catalyst gives:</p>",
+              "options": [
+                "Trans-alkene",
+                "Cis-alkene from alkyne",
+                "Alkane",
+                "Aromatic"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Trimerization of acetylene gives:</p>",
+              "options": [
+                "Cyclohexane",
+                "Benzene",
+                "Cyclopentane",
+                "Pentene"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Aromatic Hydrocarbons — Aromaticity, Electrophilic Substitution",
+          "concept": "<p><strong>Aromatic compounds</strong> have special stability beyond ordinary unsaturated compounds — \"aromatic character\" or aromaticity.</p><p><strong>Hückel's Rule for Aromaticity</strong> (4n + 2 rule): A compound is aromatic if:</p><ol><li><strong>Planar</strong> cyclic structure</li><li><strong>Conjugated</strong> $\\pi$ system (alternate double-single bonds)</li><li><strong>All atoms in ring contribute</strong> to $\\pi$ system ($p$ orbital)</li><li><strong>$(4n+2)$ $\\pi$ electrons</strong> in ring, $n = 0, 1, 2, 3, \\ldots$</li></ol><p>Examples:</p><ul><li>Benzene ($C_6H_6$): 6 $\\pi$ electrons ($n = 1$)</li><li>Pyridine, pyrrole, furan, thiophene: all aromatic</li><li>Naphthalene: 10 $\\pi$ ($n=2$)</li><li>Cyclopentadienyl anion ($C_5H_5^-$): 6 $\\pi$</li><li>Cycloheptatrienyl cation ($C_7H_7^+$, tropylium): 6 $\\pi$</li></ul><p><strong>Antiaromatic</strong> ($4n$ $\\pi$ electrons, planar): Less stable; cyclobutadiene, cyclooctatetraene dianion is aromatic.</p><p><strong>Benzene Structure (Kekulé):</strong></p><ul><li>Two resonance structures (alternating double-single bonds)</li><li>Real molecule: hybrid; all C-C bonds equal length ($1.39$ Å, intermediate between $C-C$ $1.54$ and $C=C$ $1.34$)</li><li>6 $\\pi$ electrons in delocalized $\\pi$ molecular orbital above/below plane</li><li>Resonance energy ≈ $150$ kJ/mol (more stable than expected)</li></ul><p><strong>Electrophilic Aromatic Substitution ($S_E^{Ar}$):</strong></p><p>General mechanism: $E^+$ attacks $\\pi$ system → forms $\\sigma$-complex (carbocation intermediate; loss of aromaticity) → loss of $H^+$ → restored aromatic ring.</p><p><strong>Major Reactions:</strong></p><p><strong>1. Nitration:</strong> $C_6H_6 + HNO_3 \\xrightarrow{conc.\\ H_2SO_4} C_6H_5NO_2 + H_2O$</p><ul><li>$E^+ = NO_2^+$ (formed by $HNO_3 + H_2SO_4 \\to NO_2^+ + HSO_4^- + H_2O$)</li></ul><p><strong>2. Halogenation:</strong> $C_6H_6 + Br_2 \\xrightarrow{FeBr_3 \\text{ or } AlBr_3} C_6H_5Br + HBr$</p><ul><li>$E^+ = Br^+$ (Lewis acid activates)</li></ul><p><strong>3. Sulfonation:</strong> $C_6H_6 + H_2SO_4 \\to C_6H_5SO_3H$</p><ul><li>Reversible; can desulfonate with steam</li><li>$E^+ = SO_3$ or $HSO_3^+$</li></ul><p><strong>4. Friedel-Crafts Alkylation:</strong> $C_6H_6 + RCl \\xrightarrow{AlCl_3} C_6H_5R + HCl$</p><ul><li>$E^+ = R^+$ (carbocation)</li><li>Issues: polyalkylation, rearrangement of carbocation</li><li>Doesn't work on strongly deactivated rings (e.g., nitrobenzene)</li></ul><p><strong>5. Friedel-Crafts Acylation:</strong> $C_6H_6 + RCOCl \\xrightarrow{AlCl_3} C_6H_5COR + HCl$</p><ul><li>$E^+ = RCO^+$ (acylium ion)</li><li>No polyacylation (deactivating product); no rearrangement</li></ul><p><strong>Directing Effects in Disubstituted Benzene:</strong></p><table class=\"md-table\"><thead><tr><th>Group</th><th>Directing</th><th>Activating/Deactivating</th><th>Examples</th></tr></thead><tbody><tr><td><strong>Ortho/Para directors, activating</strong></td><td>o/p</td><td>Activating</td><td>$-OH, -OR, -NH_2, -NR_2, -NHCOR, -CH_3, -OR$</td></tr><tr><td><strong>Ortho/Para directors, deactivating</strong></td><td>o/p</td><td>Deactivating</td><td>$-X$ (halogens: F, Cl, Br, I)</td></tr><tr><td><strong>Meta directors, deactivating</strong></td><td>m</td><td>Deactivating</td><td>$-NO_2, -CN, -COOH, -COR, -CHO, -SO_3H, -NR_3^+$</td></tr></tbody></table><p><strong>Reasons:</strong></p><ul><li><strong>o/p directors:</strong> Donate $e^-$ to ring (via +R or +I); stabilize intermediate at o/p positions where +ve charge can resonate onto substituted carbon</li><li><strong>m directors:</strong> Withdraw $e^-$; destabilize o/p (carbocation at carbon bearing EWG); m attack avoids this</li></ul><p><strong>Important Note on Halogens:</strong> Despite being o/p directors (due to +R donation from lone pair), they deactivate ring overall (strong -I from electronegativity).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Predict product: $C_6H_5CH_3 + HNO_3/H_2SO_4 \\to ?$</p>",
+              "solution": "<p>$-CH_3$ is o/p director, activator. Nitration gives ortho and para products as major: $o$-Nitrotoluene + $p$-Nitrotoluene (mainly p, since less steric).</p><p><strong>Final Answer:</strong> Major: o-nitrotoluene and p-nitrotoluene.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Predict product: $C_6H_5NO_2 + Br_2/FeBr_3 \\to ?$</p>",
+              "solution": "<p>$-NO_2$ is meta director, strongly deactivating. Bromination gives: $m$-bromonitrobenzene as major product. Reaction is slower than for benzene.</p><p><strong>Final Answer:</strong> m-Bromonitrobenzene.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Hückel's rule: aromatic needs:</p>",
+              "options": [
+                "$4n$ $\\pi$ electrons",
+                "$(4n+2)$ $\\pi$ electrons",
+                "Any $\\pi$",
+                "No $\\pi$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of $\\pi$ electrons in benzene:</p>",
+              "options": [
+                "$2$",
+                "$4$",
+                "$6$",
+                "$8$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Nitration of benzene gives nitrobenzene; electrophile is:</p>",
+              "options": [
+                "$NO_2^-$",
+                "$NO_2^+$",
+                "HNO₃",
+                "NO"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>-OH group on benzene is:</p>",
+              "options": [
+                "o/p, deactivating",
+                "o/p, activating",
+                "m, deactivating",
+                "m, activating"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Friedel-Crafts alkylation does NOT work on:</p>",
+              "options": [
+                "Toluene",
+                "Phenol",
+                "Nitrobenzene (deactivated)",
+                "Anisole"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-chem-hydrocarbons-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>IUPAC name of $CH_3CH_2CH=CHCH_3$:</p>",
+              "options": [
+                "pent-1-ene",
+                "pent-2-ene",
+                "2-methylbutene",
+                "hexene"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Reactivity of free radical halogenation: F₂ vs Cl₂ vs Br₂:</p>",
+              "options": [
+                "F₂ > Cl₂ > Br₂",
+                "Reverse",
+                "Br₂ > Cl₂ > F₂",
+                "Same"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of monohalogenated products of $(CH_3)_3CH$:</p>",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$4$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Saytzeff's rule applies in:</p>",
+              "options": [
+                "Substitution",
+                "Elimination",
+                "Addition",
+                "Polymerization"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Decolorization of Baeyer's reagent indicates:</p>",
+              "options": [
+                "Alkane",
+                "Unsaturation",
+                "Halide",
+                "Aromatic only"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Markovnikov product of $CH_3CH=CHCH_3$ with HBr:</p>",
+              "options": [
+                "Asymmetric, gives mix",
+                "2-bromobutane (single product since alkene is symmetric)",
+                "1-bromobutane",
+                "No reaction"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Terminal alkyne reacts with $AgNO_3/NH_3$ to give:</p>",
+              "options": [
+                "Black solution",
+                "White-grey ppt (silver acetylide)",
+                "Yellow gas",
+                "Brown ppt"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Toluene on free radical chlorination gives major:</p>",
+              "options": [
+                "Ortho-chloro",
+                "Para-chloro",
+                "Side chain attack: $C_6H_5CH_2Cl$ (benzyl chloride)",
+                "Meta-chloro"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Sulfonation of benzene is reversible because:</p>",
+              "options": [
+                "Reversible $S_E^{Ar}$",
+                "Strong $E^+$",
+                "Polar product",
+                "Catalyzed"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Hückel rule: cycloheptatrienyl cation $C_7H_7^+$ is:</p>",
+              "options": [
+                "Aromatic ($6\\pi$)",
+                "Antiaromatic",
+                "Non-aromatic",
+                "Saturated"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Number of carbons in benzene:</p>",
+              "answer": "6",
+              "explanation": ""
+            },
+            {
+              "q": "<p>$\\pi$ electrons in pyridine ($C_5H_5N$):</p>",
+              "answer": "6",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of $sp^2$ carbons in benzene:</p>",
+              "answer": "6",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Terminal alkynes are acidic in nature. <strong>Reason (R):</strong> The $\\equiv C-H$ bond has 50% s-character, leading to higher acidity than $sp^3$ C-H.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> $-NO_2$ group is a meta director. <strong>Reason (R):</strong> $-NO_2$ is strongly electron-withdrawing; destabilizes carbocation intermediate at ortho/para positions.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

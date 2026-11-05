@@ -1,0 +1,704 @@
+{
+  "exam": "jee",
+  "subject": "physics",
+  "chapter": 4,
+  "title": "Work, Energy and Power",
+  "slug": "work-energy-and-power",
+  "subtitle": "Work, Energy and Power for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#f59e0b",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "Master Work, Energy and Power for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Work, Energy and the Work-Energy Theorem",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Work Done by Constant and Variable Forces",
+          "concept": "<p><strong>Work</strong> is the energy transferred to or from a body by a force acting over a displacement. For a constant force $\\vec{F}$ producing displacement $\\vec{s}$: $$W = \\vec{F} \\cdot \\vec{s} = Fs\\cos\\theta$$ where $\\theta$ is the angle between $\\vec{F}$ and $\\vec{s}$. Work is a <strong>scalar</strong> with SI unit <strong>joule (J)</strong> = $\\text{N·m} = \\text{kg·m}^2/\\text{s}^2$. Dimensions: $[ML^2T^{-2}]$.</p><p>Three regimes:</p><ul><li>$\\theta = 0$ ⟹ maximum positive work ($W = Fs$). Force is along the displacement.</li><li>$\\theta = 90^\\circ$ ⟹ $W = 0$. Force is perpendicular (e.g., centripetal force does no work on a body in circular motion; normal force does no work on a sliding block).</li><li>$\\theta = 180^\\circ$ ⟹ maximum negative work ($W = -Fs$). Force opposes displacement (e.g., kinetic friction).</li></ul><p><strong>Variable Force:</strong> For a force that varies with position $\\vec{F}(\\vec{r})$, work is the line integral along the path: $$W = \\int_{\\vec{r}_1}^{\\vec{r}_2} \\vec{F} \\cdot d\\vec{r}$$</p><p>For 1D motion: $W = \\int_{x_1}^{x_2} F(x)\\,dx$ — geometrically, the <strong>area under the $F$ vs $x$ curve</strong>. Negative area below the axis counts as negative work.</p><p><strong>Examples of Variable-Force Work:</strong></p><ul><li><strong>Spring force</strong> ($F = -kx$, Hooke's law): Work done by spring as it stretches from $x_1$ to $x_2$:</li></ul><p>$$W_{\\text{spring}} = -\\int_{x_1}^{x_2} kx\\,dx = -\\frac{1}{2}k(x_2^2 - x_1^2)$$</p><p>Work done on the spring (by external agent) is positive of this.</p><ul><li><strong>Gravitational force near Earth</strong> ($F = -mg$, downward): Work done by gravity in displacement $y$ upward = $-mgy$. (Negative because force opposes upward displacement.)</li><li><strong>Inverse-square gravitational force</strong> ($F = -GMm/r^2$, attractive): Work done by gravity from $r_1$ to $r_2$:</li></ul><p>$$W_{\\text{grav}} = -\\int_{r_1}^{r_2} \\frac{-GMm}{r^2}\\,dr = -GMm\\left(\\frac{1}{r_1} - \\frac{1}{r_2}\\right)$$</p><p><strong>Conservative Forces:</strong> A force is <strong>conservative</strong> if the work done by it between any two points depends only on the endpoints, not on the path taken. Equivalently, the work done around any closed path is zero: $$\\oint \\vec{F} \\cdot d\\vec{r} = 0 \\quad (\\text{conservative})$$</p><p>Equivalently, conservative forces can be written as the negative gradient of a scalar <strong>potential energy</strong> function: $\\vec{F} = -\\nabla U$.</p><p>Examples: gravity, spring force, electrostatic force.</p><p><strong>Non-conservative Forces:</strong> Work depends on path; cannot be derived from a potential. Examples: friction, viscous drag, applied forces with hysteresis. Work done dissipates as heat or other energy forms.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A force of $20$ N acts on a body at $60^\\circ$ to its displacement of $5$ m. Find the work done.</p>",
+              "solution": "<p>$$W = Fs\\cos\\theta = 20 \\times 5 \\times \\cos 60^\\circ = 20 \\times 5 \\times 0.5 = 50 \\text{ J}$$</p><p><strong>Final Answer:</strong> $W = 50$ J.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A spring of force constant $k = 100$ N/m is stretched from its natural length to $5$ cm. Find the work done in stretching it further to $15$ cm.</p>",
+              "solution": "<p>Work done by external agent to stretch from $x_1$ to $x_2$: $$W = \\frac{1}{2}k(x_2^2 - x_1^2) = \\frac{1}{2}(100)[(0.15)^2 - (0.05)^2]$$ $$= 50 \\times (0.0225 - 0.0025) = 50 \\times 0.02 = 1 \\text{ J}$$</p><p><strong>Final Answer:</strong> $W = 1$ J.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>A force $F = (3x^2 - 2x)$ N acts on a body. Find the work done as it moves from $x = 1$ m to $x = 3$ m.</p>",
+              "solution": "<p>$$W = \\int_1^3 (3x^2 - 2x)\\,dx = [x^3 - x^2]_1^3 = (27 - 9) - (1 - 1) = 18 \\text{ J}$$</p><p><strong>Final Answer:</strong> $W = 18$ J.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>A body lifts a $10$ kg mass to a height of $2$ m. Work done against gravity ($g = 10 \\text{ m/s}^2$):</p>",
+              "options": [
+                "$50$ J",
+                "$100$ J",
+                "$200$ J",
+                "$20$ J"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The work done by friction on a body sliding $5$ m at $\\mu = 0.4$ ($m = 2$ kg, $g = 10$):</p>",
+              "options": [
+                "$+40$ J",
+                "$-40$ J",
+                "$-20$ J",
+                "$20$ J"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Work done by a constant force perpendicular to displacement is:</p>",
+              "options": [
+                "Maximum",
+                "Zero",
+                "Negative",
+                "Half of $Fs$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The area under a force-displacement graph represents:</p>",
+              "options": [
+                "Power",
+                "Energy",
+                "Work",
+                "Impulse"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A spring of force constant $k$ is cut into two equal parts. The force constant of each half is:</p>",
+              "options": [
+                "$k/2$",
+                "$k$",
+                "$2k$",
+                "$4k$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Kinetic Energy, Potential Energy and Energy Conservation",
+          "concept": "<p><strong>Kinetic Energy</strong> of a body of mass $m$ moving with velocity $v$: $$K = \\frac{1}{2}mv^2$$</p><p>It is a scalar, always non-negative. SI unit: joule. In terms of momentum: $K = p^2/(2m)$.</p><p><strong>Work-Energy Theorem:</strong> The net work done by all forces on a body equals the change in its kinetic energy: $$W_{\\text{net}} = \\Delta K = K_f - K_i = \\frac{1}{2}m v_f^2 - \\frac{1}{2}m v_i^2$$</p><p><strong>Proof:</strong> From Newton's second law, $F = m\\,dv/dt$. Then $W = \\int F\\,dx = \\int m\\,(dv/dt)\\,dx = \\int m\\,v\\,dv = \\frac{1}{2}m v^2 \\big|_i^f$.</p><p>This theorem holds for both constant and variable forces, and includes the work of all forces (including friction). It is one of the most powerful problem-solving tools in mechanics.</p><p><strong>Potential Energy ($U$):</strong> Energy stored in a body or system due to position or configuration, associated with a conservative force: $$U(\\vec{r}_2) - U(\\vec{r}_1) = -W_{\\text{cons}} = -\\int_{\\vec{r}_1}^{\\vec{r}_2} \\vec{F}_{\\text{cons}} \\cdot d\\vec{r}$$</p><p>Only <strong>differences</strong> in $U$ are physically meaningful; the reference point is arbitrary.</p><p><strong>Common Potential Energy Functions:</strong></p><ul><li><strong>Gravity near Earth's surface:</strong> $U = mgh$ (with reference $h = 0$).</li><li><strong>Spring potential:</strong> $U = \\frac{1}{2}kx^2$ (reference at natural length).</li><li><strong>Universal gravity:</strong> $U = -GMm/r$ (reference at infinity).</li><li><strong>Electrostatic (point charges):</strong> $U = kq_1 q_2 / r$ (reference at infinity).</li></ul><p><strong>Conservation of Mechanical Energy:</strong> If only conservative forces do work, $$E = K + U = \\text{constant}$$ This means $K_i + U_i = K_f + U_f$ at any two points along the trajectory.</p><p>When non-conservative forces (friction, drag) act, the work-energy theorem generalizes: $$\\Delta K + \\Delta U = W_{\\text{non-cons}}$$ or equivalently: $\\Delta E_{\\text{mech}} = W_{\\text{nc}}$, where $W_{\\text{nc}}$ is typically negative (energy dissipated as heat/sound).</p><p><strong>Force from Potential:</strong> For a 1D conservative system: $$F(x) = -\\frac{dU}{dx}$$</p><p>Stable equilibrium: $dU/dx = 0$ and $d^2U/dx^2 > 0$ (minimum of $U$). Unstable equilibrium: $dU/dx = 0$ and $d^2U/dx^2 < 0$ (maximum of $U$). Neutral equilibrium: $dU/dx = 0$ and $d^2U/dx^2 = 0$ over a region.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A body of mass $4$ kg moves with velocity $5$ m/s on a frictionless surface. A force opposing the motion brings it to rest. Find the work done by the force.</p>",
+              "solution": "<p>By work-energy theorem: $$W = \\Delta K = K_f - K_i = 0 - \\frac{1}{2}(4)(5)^2 = -50 \\text{ J}$$</p><p>The negative sign indicates the force opposes motion.</p><p><strong>Final Answer:</strong> $W = -50$ J.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A ball of mass $0.5$ kg is dropped from a height of $20$ m. Using energy conservation, find its velocity just before striking the ground. ($g = 10 \\text{ m/s}^2$.)</p>",
+              "solution": "<p>$$mgh = \\frac{1}{2}mv^2 \\implies v = \\sqrt{2gh} = \\sqrt{2 \\times 10 \\times 20} = \\sqrt{400} = 20 \\text{ m/s}$$</p><p><strong>Final Answer:</strong> $v = 20$ m/s.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>A block of mass $1$ kg slides down a frictionless track of height $5$ m and then onto a rough horizontal surface ($\\mu = 0.2$). Find the distance it travels on the horizontal before stopping. ($g = 10 \\text{ m/s}^2$.)</p>",
+              "solution": "<p>By energy conservation from top of track to base of track: $v^2 = 2gh = 2 \\times 10 \\times 5 = 100$ ⟹ $v = 10$ m/s.</p><p>On the rough surface, friction does negative work: $$-\\mu mg \\cdot d = -\\frac{1}{2}m v^2$$ $$0.2 \\times 10 \\times d = \\frac{1}{2} \\times 100 \\implies d = 25 \\text{ m}$$</p><p><strong>Final Answer:</strong> $d = 25$ m.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The kinetic energy of a $2$ kg body moving at $4$ m/s is:</p>",
+              "options": [
+                "$8$ J",
+                "$16$ J",
+                "$32$ J",
+                "$4$ J"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A body moving at $20$ m/s comes to rest after applying brakes. If $m = 100$ kg, the energy dissipated:</p>",
+              "options": [
+                "$1000$ J",
+                "$2000$ J",
+                "$20000$ J",
+                "$40000$ J"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The potential energy stored in a spring of $k = 200$ N/m compressed by $0.1$ m is:</p>",
+              "options": [
+                "$1$ J",
+                "$0.5$ J",
+                "$2$ J",
+                "$4$ J"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Conservation of mechanical energy holds when:</p>",
+              "options": [
+                "Only conservative forces act",
+                "Friction is present",
+                "External forces act",
+                "Always"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A body of $m$ falls from height $h$. Velocity at impact (frictionless):</p>",
+              "options": [
+                "$\\sqrt{gh}$",
+                "$\\sqrt{2gh}$",
+                "$\\sqrt{gh/2}$",
+                "$2gh$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Power and Collisions",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Instantaneous and Average Power; Force Fields",
+          "concept": "<p><strong>Power</strong> is the rate at which work is done (or energy transferred): $$P_{\\text{avg}} = \\frac{W}{t}, \\quad P_{\\text{inst}} = \\frac{dW}{dt} = \\vec{F} \\cdot \\vec{v}$$</p><p>SI unit: <strong>watt (W)</strong> = J/s. Other units: $1 \\text{ horsepower (hp)} = 746$ W; $1 \\text{ kWh} = 3.6 \\times 10^6$ J (commercial energy unit).</p><p>The instantaneous power delivered by a force $\\vec{F}$ on a body moving with velocity $\\vec{v}$ is: $$P = \\vec{F} \\cdot \\vec{v} = Fv\\cos\\theta$$</p><p>This is positive if the force has a component along $\\vec{v}$, zero if perpendicular, negative if opposite (energy being extracted).</p><p><strong>Important Special Cases:</strong></p><ul><li><strong>Constant power machine</strong> (e.g., car engine at constant power $P_0$): $F = P_0/v$. The force decreases as speed increases, characteristic of internal combustion engines.</li><li><strong>Power for vehicle on horizontal road:</strong> Force = friction + air drag. At terminal speed, $P = F_{\\text{drag}} \\cdot v$.</li><li><strong>Pumping water:</strong> Power to raise water at rate $\\dot{m}$ (kg/s) to height $h$ with exit velocity $v$:</li></ul><p>$$P = \\dot{m}gh + \\frac{1}{2}\\dot{m}v^2$$</p><p><strong>Conservation of Energy (Generalized):</strong> $$E_{\\text{total}} = K + U + E_{\\text{internal}} + \\cdots = \\text{constant}$$</p><p>Energy is never created or destroyed but transformed between forms (kinetic, potential, thermal, electrical, chemical, nuclear).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A pump lifts $1000$ kg of water per minute through a height of $10$ m. Find the power. ($g = 10 \\text{ m/s}^2$.)</p>",
+              "solution": "<p>$$\\dot{m} = \\frac{1000}{60} \\text{ kg/s} = \\frac{50}{3} \\text{ kg/s}$$ $$P = \\dot{m}gh = \\frac{50}{3} \\times 10 \\times 10 = \\frac{5000}{3} \\approx 1666.7 \\text{ W} \\approx 1.67 \\text{ kW}$$</p><p><strong>Final Answer:</strong> $P \\approx 1.67$ kW.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A car of mass $1500$ kg travels at constant velocity $20$ m/s up an incline of $\\sin\\theta = 0.1$. If $\\mu = 0.05$, find the power output. ($g = 10 \\text{ m/s}^2$.)</p>",
+              "solution": "<p>Force needed = gravity component + friction: $$F = mg\\sin\\theta + \\mu mg\\cos\\theta \\approx 1500 \\times 10 \\times 0.1 + 0.05 \\times 1500 \\times 10 \\times \\sqrt{1 - 0.01}$$</p><p>Approximating $\\cos\\theta \\approx 1$: $$F \\approx 1500 + 750 = 2250 \\text{ N}$$ $$P = Fv = 2250 \\times 20 = 45000 \\text{ W} = 45 \\text{ kW}$$</p><p><strong>Final Answer:</strong> $P \\approx 45$ kW.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>A body of mass $5$ kg accelerates from rest under constant power $50$ W. Find the velocity after $5$ s.</p>",
+              "solution": "<p>Constant power: $P = Fv = m(dv/dt)v$. So $m v\\,dv = P\\,dt$. Integrating: $$\\int_0^v m v'\\,dv' = \\int_0^t P\\,dt' \\implies \\frac{1}{2}m v^2 = Pt$$ $$v = \\sqrt{\\frac{2Pt}{m}} = \\sqrt{\\frac{2 \\times 50 \\times 5}{5}} = \\sqrt{100} = 10 \\text{ m/s}$$</p><p><strong>Final Answer:</strong> $v = 10$ m/s.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>A force of $50$ N moves a body at $10$ m/s in the same direction. The power developed:</p>",
+              "options": [
+                "$5$ W",
+                "$50$ W",
+                "$500$ W",
+                "$5000$ W"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$1$ horsepower equals approximately:</p>",
+              "options": [
+                "$746$ W",
+                "$1000$ W",
+                "$500$ W",
+                "$100$ W"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The unit kWh is a unit of:</p>",
+              "options": [
+                "Power",
+                "Energy",
+                "Force",
+                "Voltage"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A motor of power $P$ pumps water at constant rate to height $h$. The mass pumped per second:</p>",
+              "options": [
+                "$P/(gh)$",
+                "$Pgh$",
+                "$P^2/(gh)$",
+                "$\\sqrt{P/(gh)}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A car of mass $1$ ton on a horizontal road experiences a constant resistive force of $200$ N. Power needed at $20$ m/s:</p>",
+              "options": [
+                "$2$ kW",
+                "$4$ kW",
+                "$10$ kW",
+                "$20$ kW"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Elastic and Inelastic Collisions",
+          "concept": "<p>A <strong>collision</strong> is a brief interaction between two (or more) bodies, during which they exert large forces on each other and exchange momentum and energy. The interaction time is so short that external forces (such as gravity) can be neglected; therefore <strong>total momentum is conserved</strong> during any collision.</p><p><strong>Types of Collisions:</strong></p><ul><li><strong>Elastic collision:</strong> Total kinetic energy is conserved. Momentum is also conserved.</li><li><strong>Inelastic collision:</strong> Momentum is conserved, but kinetic energy is <strong>not</strong> conserved (some energy is lost to heat, sound, deformation).</li><li><strong>Perfectly inelastic collision:</strong> The bodies stick together after collision (a special inelastic case). Maximum loss of kinetic energy occurs here.</li></ul><p><strong>Coefficient of Restitution (Newton's Experimental Law):</strong> $$e = \\frac{\\text{relative velocity of separation}}{\\text{relative velocity of approach}} = \\frac{v_2' - v_1'}{u_1 - u_2}$$ where primes denote post-collision velocities. The values:</p><ul><li>$e = 1$: perfectly elastic</li><li>$0 < e < 1$: inelastic</li><li>$e = 0$: perfectly inelastic</li></ul><p><strong>1D Elastic Collision Between Two Bodies:</strong> With masses $m_1, m_2$ and initial velocities $u_1, u_2$: $$v_1 = \\frac{(m_1 - m_2) u_1 + 2 m_2 u_2}{m_1 + m_2}$$ $$v_2 = \\frac{(m_2 - m_1) u_2 + 2 m_1 u_1}{m_1 + m_2}$$</p><p><strong>Special Cases:</strong></p><ul><li><strong>Equal masses</strong> ($m_1 = m_2$): velocities are exchanged. $v_1 = u_2$, $v_2 = u_1$.</li><li><strong>Light hits heavy at rest</strong> ($m_1 \\ll m_2$, $u_2 = 0$): $v_1 \\approx -u_1$, $v_2 \\approx 0$. The light body bounces back; heavy stays nearly stationary.</li><li><strong>Heavy hits light at rest</strong> ($m_1 \\gg m_2$, $u_2 = 0$): $v_1 \\approx u_1$, $v_2 \\approx 2u_1$. Heavy continues; light shoots forward at twice the incident speed.</li></ul><p><strong>1D Perfectly Inelastic Collision:</strong> Bodies stick together. Common velocity: $$v = \\frac{m_1 u_1 + m_2 u_2}{m_1 + m_2}$$</p><p>KE loss: $$\\Delta K = \\frac{1}{2} \\frac{m_1 m_2}{m_1 + m_2}(u_1 - u_2)^2$$ The factor $\\mu = m_1 m_2/(m_1 + m_2)$ is the <strong>reduced mass</strong>.</p><p><strong>1D Partially Elastic Collision</strong> (general $e$): For initial velocities $u_1, u_2$: $$v_1 = \\frac{(m_1 - e m_2) u_1 + (1 + e) m_2 u_2}{m_1 + m_2}, \\quad v_2 = \\frac{(1 + e) m_1 u_1 + (m_2 - e m_1) u_2}{m_1 + m_2}$$</p><p><strong>Ballistic Pendulum:</strong> A bullet of mass $m$ at velocity $v$ hits and sticks to a wooden block of mass $M$ suspended as a pendulum. Common velocity after impact: $v' = mv/(m+M)$. The block rises to a height $h$ given by $(m+M)gh = \\frac{1}{2}(m+M)v'^2$, so $h = v'^2/(2g)$. This gives: $$v = \\frac{m+M}{m}\\sqrt{2gh}$$</p><p><strong>Oblique (2D) Collisions:</strong> Conservation of momentum applies to each axis. For elastic collision of equal masses in 2D, the two velocity vectors after collision are <strong>perpendicular</strong>.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A ball of mass $0.2$ kg moving at $10$ m/s collides elastically head-on with a stationary ball of mass $0.4$ kg. Find the velocities after collision.</p>",
+              "solution": "<p>$m_1 = 0.2$, $m_2 = 0.4$, $u_1 = 10$, $u_2 = 0$. $$v_1 = \\frac{(0.2 - 0.4)(10) + 0}{0.6} = \\frac{-2}{0.6} = -\\frac{10}{3} \\approx -3.33 \\text{ m/s}$$ $$v_2 = \\frac{2 \\times 0.2 \\times 10}{0.6} = \\frac{4}{0.6} = \\frac{20}{3} \\approx 6.67 \\text{ m/s}$$</p><p><strong>Final Answer:</strong> $v_1 = -10/3$ m/s (bounces back), $v_2 = 20/3$ m/s.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A bullet of mass $20$ g moving at $300$ m/s embeds in a block of mass $1.98$ kg at rest. Find (a) the common velocity, (b) the loss of kinetic energy.</p>",
+              "solution": "<p>(a) Conservation of momentum: $$v = \\frac{m_1 u_1}{m_1 + m_2} = \\frac{0.02 \\times 300}{2.0} = 3 \\text{ m/s}$$</p><p>(b) $K_i = \\frac{1}{2}(0.02)(300)^2 = 900$ J; $K_f = \\frac{1}{2}(2)(3)^2 = 9$ J. $\\Delta K = 900 - 9 = 891$ J (lost mostly as heat).</p><p><strong>Final Answer:</strong> $v = 3$ m/s; energy lost = $891$ J.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>A ball is dropped from height $h_0 = 4$ m. Coefficient of restitution with the floor is $e = 0.5$. Find the total distance travelled before the ball stops bouncing.</p>",
+              "solution": "<p>Velocity just before first impact: $v_0 = \\sqrt{2gh_0}$. After rebounding: $v_1 = ev_0$. Height after $n$-th bounce: $h_n = e^{2n} h_0$.</p><p>Total distance = $h_0 + 2(h_1 + h_2 + \\ldots) = h_0 + 2 h_0 \\cdot \\dfrac{e^2}{1 - e^2}$ $$= h_0\\left(1 + \\frac{2e^2}{1-e^2}\\right) = h_0 \\cdot \\frac{1+e^2}{1-e^2}$$ $$= 4 \\times \\frac{1 + 0.25}{1 - 0.25} = 4 \\times \\frac{1.25}{0.75} = 4 \\times \\frac{5}{3} = \\frac{20}{3} \\approx 6.67 \\text{ m}$$</p><p><strong>Final Answer:</strong> Total distance ≈ $20/3 \\approx 6.67$ m.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>In a perfectly elastic collision, conserved are:</p>",
+              "options": [
+                "Momentum only",
+                "Kinetic energy only",
+                "Both momentum and KE",
+                "Neither"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two bodies of equal mass collide elastically head-on. After collision:</p>",
+              "options": [
+                "Both stop",
+                "Velocities are exchanged",
+                "Both move together",
+                "They reverse"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A heavy bullet sticks to a light stationary block. Loss of KE is maximum in:</p>",
+              "options": [
+                "Elastic collision",
+                "Inelastic collision",
+                "Perfectly inelastic collision",
+                "None"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The coefficient of restitution of a ball dropped from $1$ m rebounding to $0.64$ m is:</p>",
+              "options": [
+                "$0.5$",
+                "$0.6$",
+                "$0.8$",
+                "$0.4$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A ball of mass $m$ moving at $v$ collides head-on elastically with a stationary ball of mass $2m$. Velocity of the first ball after:</p>",
+              "options": [
+                "$-v/3$",
+                "$v/3$",
+                "$-v/2$",
+                "$v/2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-phys-work-energy-and-power-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>A particle moves under $F = (3\\hat{i} + 4\\hat{j})$ N along displacement $(2\\hat{i} + 3\\hat{j})$ m. Work done:</p>",
+              "options": [
+                "$6$ J",
+                "$18$ J",
+                "$12$ J",
+                "$24$ J"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The KE of a body becomes $9$ times. Its momentum becomes:</p>",
+              "options": [
+                "$9$ times",
+                "$3$ times",
+                "$\\sqrt{3}$ times",
+                "Same"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A spring is cut into 3 equal parts. New spring constant of each part:</p>",
+              "options": [
+                "$k/3$",
+                "$k$",
+                "$3k$",
+                "$9k$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A man pulls a $10$ kg crate at $30^\\circ$ above horizontal by $50$ N over $5$ m on smooth surface. Work done by him:</p>",
+              "options": [
+                "$125$ J",
+                "$216.5$ J",
+                "$250$ J",
+                "$187.5$ J"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two bodies of masses $m$ and $4m$ have equal KE. Ratio of their momenta:</p>",
+              "options": [
+                "$1:1$",
+                "$1:2$",
+                "$2:1$",
+                "$1:4$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A body of mass $2$ kg at rest is acted on by a constant power $4$ W. Velocity after $2$ s:</p>",
+              "options": [
+                "$2$ m/s",
+                "$\\sqrt{2}$ m/s",
+                "$2\\sqrt{2}$ m/s",
+                "$4$ m/s"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A bullet of $20$ g penetrates $10$ cm in a wooden block. To penetrate $40$ cm with the same block, its velocity should be multiplied by:</p>",
+              "options": [
+                "$2$",
+                "$4$",
+                "$\\sqrt{2}$",
+                "$\\sqrt{4}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A spring with force constant $200$ N/m is compressed by $5$ cm. The potential energy stored:</p>",
+              "options": [
+                "$0.25$ J",
+                "$0.5$ J",
+                "$1$ J",
+                "$2$ J"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A pump delivers $10$ litres of water per second at $5$ m/s through a horizontal pipe. Power:</p>",
+              "options": [
+                "$25$ W",
+                "$50$ W",
+                "$125$ W",
+                "$250$ W"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A bullet hits a stationary block, embeds in it. The maximum loss in KE is when:</p>",
+              "options": [
+                "Bullet mass = block mass",
+                "Bullet mass >> block mass",
+                "Bullet mass << block mass",
+                "Bullet at lower velocity"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>A spring of $k = 1000$ N/m stretched by $10$ cm. Energy stored (in J):</p>",
+              "answer": "5",
+              "explanation": ""
+            },
+            {
+              "q": "<p>A body of $2$ kg is dropped from $10$ m. KE just before hitting ground (J, $g = 10$):</p>",
+              "answer": "200",
+              "explanation": ""
+            },
+            {
+              "q": "<p>A bullet of $30$ g at $100$ m/s embeds in a $1.47$ kg block. Common velocity (m/s):</p>",
+              "answer": "2",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Work-energy theorem holds for non-conservative forces too. <strong>Reason (R):</strong> It states that the net work done by all forces equals the change in KE.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> Total mechanical energy is conserved only when conservative forces act. <strong>Reason (R):</strong> Non-conservative forces convert mechanical energy to other forms.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": "-."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-phys-work-energy-and-power-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>A particle of $m = 1$ kg moves under $F = -kx$ (SHM) with $k = 100$ N/m. Maximum velocity at $x = 0$ if amplitude = $0.1$ m:</p>",
+              "options": [
+                "$1$ m/s",
+                "$10$ m/s",
+                "$0.1$ m/s",
+                "$\\sqrt{10}$ m/s"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A ball is projected at $u$ from ground at $\\theta$. At max height, KE equals:</p>",
+              "options": [
+                "$\\frac{1}{2}m u^2 \\cos^2\\theta$",
+                "$\\frac{1}{2}m u^2 \\sin^2\\theta$",
+                "$\\frac{1}{2}m u^2$",
+                "Zero"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A body of $m$ slides down a smooth quarter-circle of radius $R$ from top. Speed at bottom:</p>",
+              "options": [
+                "$\\sqrt{gR}$",
+                "$\\sqrt{2gR}$",
+                "$\\sqrt{gR/2}$",
+                "$\\sqrt{4gR}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A car of $1000$ kg accelerates uniformly from rest to $20$ m/s in $5$ s. Average power developed:</p>",
+              "options": [
+                "$20$ kW",
+                "$40$ kW",
+                "$80$ kW",
+                "$200$ kW"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A particle's PE is $U(x) = (x^2 - 6x) $ J. The position of stable equilibrium:</p>",
+              "options": [
+                "$x = 0$",
+                "$x = 3$",
+                "$x = 6$",
+                "$x = -3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A ball of mass $m$ at rest is bombarded by another of mass $2m$ at velocity $v$, in elastic collision head-on. Velocity of $m$ after:</p>",
+              "options": [
+                "$v$",
+                "$4v/3$",
+                "$2v/3$",
+                "$v/3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A 2D elastic collision between equal masses, one initially at rest: after collision, velocity vectors are:</p>",
+              "options": [
+                "Parallel",
+                "Anti-parallel",
+                "Perpendicular",
+                "At $60^\\circ$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A vertical chain of mass $M$, length $L$ is held by upper end. When released, the speed of any point distance $x$ from upper end when it has just fallen $x$:</p>",
+              "options": [
+                "$\\sqrt{2gx}$",
+                "$\\sqrt{gx}$",
+                "$\\sqrt{gL}$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A body of mass $0.5$ kg at $4$ m/s collides with $1$ kg at rest. After collision, both move with same velocity. The collision is:</p>",
+              "options": [
+                "Elastic",
+                "Inelastic",
+                "Perfectly inelastic",
+                "Cannot decide"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Ball thrown horizontally from $20$ m height with $10$ m/s. Speed on impact ($g = 10$):</p>",
+              "options": [
+                "$10$ m/s",
+                "$20$ m/s",
+                "$30$ m/s",
+                "$\\sqrt{500}$ m/s"
+              ],
+              "correct": 3,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>A man weighing $60$ kg climbs $20$ m in $40$ s. Power developed (W, $g = 10$):</p>",
+              "answer": "300",
+              "explanation": ""
+            },
+            {
+              "q": "<p>A bullet at $400$ m/s penetrates $10$ cm in wood. If fired into double thickness ($20$ cm) of same wood at $400$ m/s, the depth of penetration (cm):</p>",
+              "answer": "10",
+              "explanation": ""
+            },
+            {
+              "q": "<p>A ball is dropped from $80$ m on a hard floor. Coefficient of restitution = $0.5$. Maximum height attained after first rebound (m):</p>",
+              "answer": "20",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Power output of a constant-force engine increases linearly with speed. <strong>Reason (R):</strong> Power = force × velocity.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> In an elastic collision between equal masses, one initially at rest, after collision, they have perpendicular velocity vectors. <strong>Reason (R):</strong> Conservation of momentum and KE together imply perpendicularity for equal masses.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

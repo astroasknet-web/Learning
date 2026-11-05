@@ -1,0 +1,771 @@
+{
+  "exam": "ap",
+  "subject": "calculus-ab",
+  "chapter": 2,
+  "title": "Differentiation: Definition and Fundamental Properties",
+  "slug": "differentiation-definition",
+  "subtitle": "AP Calculus AB — Unit 2",
+  "level": "AP Calculus AB",
+  "color": "#8b5cf6",
+  "icon": "math",
+  "seo": {
+    "title": "Differentiation: Definition and Fundamental Properties — AP Calculus AB | GrowQR",
+    "meta_description": "Master Differentiation: Definition and Fundamental Properties for AP Calculus AB: notes, formulas, worked examples, self-check MCQs and mock tests. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Foundations & Definitions",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Overview, Objectives & Key Definitions",
+          "concept": "<h2>Unit Overview</h2>\n<p>Unit 1 ended with the idea that the <em>instantaneous</em> rate of change is a limit of secant slopes. This unit turns that idea into a precise, computable object: the <strong>derivative</strong>. You will define the derivative as a limit, then build a toolkit of rules — power, product, quotient, and the derivatives of the basic trig functions — that lets you differentiate quickly without returning to the limit each time.</p>\n<p>Differentiation is the single most-used skill in AP Calculus. Almost every later unit assumes you can differentiate fluently and correctly. This unit is about <strong>10–12%</strong> of the exam on its own, but its reach is total.</p>\n<p><strong>Big picture:</strong> The derivative <code>f&#39;(x)</code> measures how fast f changes, and geometrically it is the <strong>slope of the tangent line</strong>.</p>\n<hr>\n<h2>Learning Objectives</h2>\n<p>You will be able to:</p>\n<ul>\n<li>Define <code>f&#39;(x)</code> using the <strong>limit of a difference quotient</strong> (both forms).</li>\n<li>Interpret the derivative as a <strong>slope of a tangent line</strong> and an <strong>instantaneous rate of change</strong>.</li>\n<li>Estimate derivatives from <strong>graphs and tables</strong>.</li>\n<li>Explain the relationship between <strong>differentiability and continuity</strong> (and where differentiability fails).</li>\n<li>Apply the <strong>Power Rule</strong>, constant multiple, and sum/difference rules.</li>\n<li>Differentiate <strong>sin, cos, tan, cot, sec, csc</strong>.</li>\n<li>Apply the <strong>Product Rule</strong> and <strong>Quotient Rule</strong>.</li>\n<li>Compute <strong>higher-order derivatives</strong>.</li>\n<li>Perform <strong>implicit differentiation</strong> and differentiate <strong>inverse functions</strong>.</li>\n</ul>\n<hr>\n<h2>Prerequisite Concepts</h2>\n<ul>\n<li>Limits and the difference quotient (Unit 1).</li>\n<li>Exponent rules, including negative and fractional exponents.</li>\n<li>Trig values and identities.</li>\n<li>Function composition and the meaning of an inverse function.</li>\n</ul>\n<hr>\n<h2>Key Definitions</h2>\n<ul>\n<li><strong>Difference quotient:</strong> <code>(f(x + h) − f(x)) / h</code> — the average rate of change over a step of size h.</li>\n<li><strong>Derivative (limit definition):</strong>\n<code>f&#39;(x) = lim_{h→0} (f(x + h) − f(x)) / h</code></li>\n<li><strong>Alternate (point) form:</strong>\n<code>f&#39;(a) = lim_{x→a} (f(x) − f(a)) / (x − a)</code></li>\n<li><strong>Notations:</strong> <code>f&#39;(x)</code>, <code>dy/dx</code>, <code>y&#39;</code>, <code>d/dx[f(x)]</code>, and for higher orders <code>f&#39;&#39;(x)</code>, <code>d²y/dx²</code>.</li>\n<li><strong>Differentiable at a:</strong> the limit defining f&#39;(a) exists (the graph has a single, non-vertical tangent line there).</li>\n<li><strong>Higher-order derivative:</strong> the derivative of a derivative; <code>f&#39;&#39;</code> is the second derivative, <code>f&#39;&#39;&#39;</code> the third, etc.</li>\n</ul>\n<hr>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "The position of a particle moving along a coordinate axis is given by s(t) = t^3 - 3t^2 + 2t. What is the average rate of change of position on the interval [0, 2]?",
+              "options": [
+                "0",
+                "1",
+                "2",
+                "4"
+              ],
+              "correct": 0,
+              "explanation": "The average rate of change is [s(2) - s(0)] / (2 - 0). s(2) = 8 - 12 + 4 = 0. s(0) = 0. Thus, (0 - 0) / 2 = 0."
+            },
+            {
+              "q": "Which of the following expressions is equivalent to the definition of the derivative of f(x) at x = a?",
+              "options": [
+                "lim_{h→0} [f(a+h) - f(a)] / h",
+                "lim_{h→0} [f(x+h) - f(x)] / h",
+                "lim_{x→a} [f(x) - f(a)] / (x - a)",
+                "Both A and C"
+              ],
+              "correct": 3,
+              "explanation": "Both lim_{h→0} [f(a+h) - f(a)] / h and lim_{x→a} [f(x) - f(a)] / (x - a) are standard limit definitions for f'(a)."
+            },
+            {
+              "q": "If f(2) = 5 and f'(2) = -3, what is the best linear approximation for f(2.1)?",
+              "options": [
+                "4.7",
+                "5.3",
+                "4.9",
+                "5.1"
+              ],
+              "correct": 0,
+              "explanation": "The tangent line approximation is L(x) = f(a) + f'(a)(x - a). L(2.1) = 5 + (-3)(2.1 - 2) = 5 - 0.3 = 4.7."
+            },
+            {
+              "q": "Let f(x) = |x - 2|. Which of the following is true at x = 2?",
+              "options": [
+                "f is continuous and differentiable at x = 2.",
+                "f is continuous but not differentiable at x = 2.",
+                "f is differentiable but not continuous at x = 2.",
+                "f is neither continuous nor differentiable at x = 2."
+              ],
+              "correct": 1,
+              "explanation": "The graph of f(x) = |x - 2| has a sharp corner (v-shape) at x = 2. It is continuous everywhere, but the derivative does not exist at the corner."
+            },
+            {
+              "q": "Find the derivative of f(x) = 4x^(1/2) - 3x^(-2).",
+              "options": [
+                "2x^(-1/2) + 6x^(-3)",
+                "2x^(1/2) - 6x^(-3)",
+                "2x^(-1/2) - 6x^(-3)",
+                "4x^(-1/2) + 3x^(-3)"
+              ],
+              "correct": 0,
+              "explanation": "Using the power rule: d/dx(4x^(1/2)) = 4(1/2)x^(-1/2) = 2x^(-1/2). d/dx(-3x^(-2)) = -3(-2)x^(-3) = 6x^(-3)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Theorems & Formulas",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Important Theorems & Formulas",
+          "concept": "<h2>Important Theorems</h2>\n<p><strong>Differentiability implies continuity.</strong> If f is differentiable at a, then f is continuous at a. <strong>The converse is false:</strong> a function can be continuous but not differentiable (e.g., <code>|x|</code> at x = 0).</p>\n<p><strong>Where differentiability fails:</strong> at <strong>corners</strong> (like |x|), <strong>cusps</strong> (like x^(2/3) at 0), <strong>vertical tangents</strong>, and any <strong>discontinuity</strong>.</p>\n<p><strong>Inverse Function Derivative Theorem.</strong> If f is differentiable and one-to-one with inverse g, then\n<code>g&#39;(a) = 1 / f&#39;(g(a))</code>, provided <code>f&#39;(g(a)) ≠ 0</code>.</p>\n<hr>\n<h2>Important Formulas</h2>\n<p><strong>Basic rules</strong> (c constant, n any real number):</p>\n<ul>\n<li>Constant: <code>d/dx[c] = 0</code></li>\n<li><strong>Power Rule:</strong> <code>d/dx[x^n] = n·x^(n−1)</code></li>\n<li>Constant multiple: <code>d/dx[c·f] = c·f&#39;</code></li>\n<li>Sum/Difference: <code>d/dx[f ± g] = f&#39; ± g&#39;</code></li>\n</ul>\n<p><strong>Product Rule:</strong> <code>d/dx[f·g] = f&#39;·g + f·g&#39;</code></p>\n<p><strong>Quotient Rule:</strong> <code>d/dx[f/g] = (f&#39;·g − f·g&#39;) / g²</code>  <em>(remember: &quot;low d-high minus high d-low, over low squared&quot;)</em></p>\n<p><strong>Trig derivatives:</strong></p>\n<ul>\n<li><code>d/dx[sin x] = cos x</code></li>\n<li><code>d/dx[cos x] = −sin x</code></li>\n<li><code>d/dx[tan x] = sec² x</code></li>\n<li><code>d/dx[cot x] = −csc² x</code></li>\n<li><code>d/dx[sec x] = sec x · tan x</code></li>\n<li><code>d/dx[csc x] = −csc x · cot x</code></li>\n</ul>\n<hr>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Find the derivative of f(x) = (x^2 + 1) / (x - 1).",
+              "options": [
+                "(x^2 - 2x - 1) / (x - 1)^2",
+                "(x^2 - 2x + 1) / (x - 1)^2",
+                "(3x^2 - 2x - 1) / (x - 1)^2",
+                "(x^2 + 2x - 1) / (x - 1)^2"
+              ],
+              "correct": 0,
+              "explanation": "Using the quotient rule: (u'v - uv')/v^2 = [(2x)(x - 1) - (x^2 + 1)(1)] / (x - 1)^2 = (2x^2 - 2x - x^2 - 1) / (x - 1)^2 = (x^2 - 2x - 1) / (x - 1)^2."
+            },
+            {
+              "q": "If f(x) = x^3 + x - 2, and g is the inverse function of f, what is g'(0)?",
+              "options": [
+                "1/4",
+                "1/5",
+                "4",
+                "5"
+              ],
+              "correct": 0,
+              "explanation": "Since f(1) = 1 + 1 - 2 = 0, g(0) = 1. g'(0) = 1 / f'(g(0)) = 1 / f'(1). f'(x) = 3x^2 + 1. f'(1) = 3(1)^2 + 1 = 4. Therefore, g'(0) = 1/4."
+            },
+            {
+              "q": "The derivative of f(x) = √(x + 3) at x = 1 using the definition of the derivative is:",
+              "options": [
+                "1/4",
+                "1/2",
+                "1/√2",
+                "1/√4"
+              ],
+              "correct": 0,
+              "explanation": "Using the definition: f'(x) = lim(h→0) [√(x + h + 3) - √(x + 3)] / h. At x = 1, f'(1) = 1 / (2√(1 + 3)) = 1/4."
+            },
+            {
+              "q": "A function is continuous at a point but not differentiable. Which of the following could be true?",
+              "options": [
+                "The function has a vertical tangent at that point.",
+                "The function has a removable discontinuity at that point.",
+                "The function has a jump discontinuity at that point.",
+                "The function is not defined at that point."
+              ],
+              "correct": 0,
+              "explanation": "A vertical tangent (e.g., f(x) = ∛x at x = 0) makes a function continuous but non-differentiable. The other options describe discontinuities or undefined points."
+            },
+            {
+              "q": "The derivative of f(x) = (x² + 1)(x³ - 2) is:",
+              "options": [
+                "5x^4 + 3x^2 - 4x",
+                "5x^4 - 3x^2 - 4x",
+                "5x^4 + 3x^2 + 4x",
+                "3x^4 + 3x^2 - 4x"
+              ],
+              "correct": 0,
+              "explanation": "Product rule: (2x)(x^3 - 2) + (x^2 + 1)(3x^2) = 2x^4 - 4x + 3x^4 + 3x^2 = 5x^4 + 3x^2 - 4x."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Concepts & Worked Examples",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Concept Explanations & Solved Examples",
+          "concept": "<h2>Concept Explanations</h2>\n<p><strong>Two forms of the derivative (2.2).</strong> The <code>h → 0</code> form gives the derivative <em>function</em> f&#39;(x); the <code>x → a</code> form gives the derivative <em>value</em> f&#39;(a) directly. Recognizing a limit as one of these forms is a common AP multiple-choice task: e.g., <code>lim_{h→0} ((2+h)⁴ − 16)/h</code> is exactly <code>f&#39;(2)</code> for <code>f(x) = x⁴</code>, which is 32.</p>\n<p><strong>Differentiability vs. continuity (2.4).</strong> Differentiability is <em>stronger</em> than continuity. To be differentiable, a function must be continuous <strong>and</strong> smooth (no corner, cusp, or vertical tangent). For a piecewise function, check both that the pieces <strong>meet</strong> (continuity) and that their <strong>one-sided derivatives match</strong> (smoothness).</p>\n<p><strong>Choosing a rule (2.11).</strong> Read the <em>structure</em> of the expression:</p>\n<ul>\n<li>A single power → <strong>Power Rule</strong>.</li>\n<li>A product of two functions of x → <strong>Product Rule</strong>.</li>\n<li>A quotient → <strong>Quotient Rule</strong>.</li>\n<li>(A function inside another → Chain Rule, formally Unit 3, but often needed alongside these.)</li>\n</ul>\n<p><strong>Implicit differentiation (2.13).</strong> When y is defined implicitly (e.g., <code>x² + y² = 25</code>), differentiate <strong>both sides with respect to x</strong>, treating y as a function of x (so <code>d/dx[y²] = 2y·(dy/dx)</code>), then solve for <code>dy/dx</code>.</p>\n<p><strong>Inverse-function derivatives (2.14).</strong> You do not need a formula for the inverse itself. Use <code>g&#39;(a) = 1 / f&#39;(g(a))</code>: find the input where f outputs a, then reciprocate the derivative of f there.</p>\n<hr>\n<h2>Worked Examples</h2>\n<p><strong>Example 1 (Limit definition).</strong> Find f&#39;(x) for f(x) = x² from the definition.\n<code>lim_{h→0} ((x+h)² − x²)/h = lim_{h→0} (2xh + h²)/h = lim_{h→0} (2x + h) = 2x.</code></p>\n<p><strong>Example 2 (Power Rule with fractional/negative exponents).</strong></p>\n<ul>\n<li><code>d/dx[x^(3/2)] = (3/2)x^(1/2)</code>.</li>\n<li><code>d/dx[4/x²] = d/dx[4x^(−2)] = −8x^(−3) = −8/x³</code>.</li>\n</ul>\n<p><strong>Example 3 (Product Rule).</strong> <code>d/dx[x² sin x] = 2x·sin x + x²·cos x</code>.</p>\n<p><strong>Example 4 (Quotient Rule).</strong> <code>d/dx[(2x + 1)/(x − 1)] = (2(x−1) − (2x+1)(1))/(x−1)² = −3/(x−1)²</code>.</p>\n<p><strong>Example 5 (Higher-order).</strong> For f(x) = x⁵: <code>f&#39;(x) = 5x⁴, f&#39;&#39;(x) = 20x³, f&#39;&#39;&#39;(x) = 60x²</code>.</p>\n<p><strong>Example 6 (Implicit).</strong> For <code>x² + y² = 25</code>: differentiate to get <code>2x + 2y·(dy/dx) = 0</code>, so <code>dy/dx = −x/y</code>. At (3, 4), the tangent slope is −3/4.</p>\n<p><strong>Example 7 (Inverse).</strong> For <code>f(x) = x³</code> with inverse g, find g&#39;(8). Since 2³ = 8, g(8) = 2. <code>f&#39;(x) = 3x²</code>, so <code>f&#39;(2) = 12</code>. Thus <code>g&#39;(8) = 1/12</code>.</p>\n<hr>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "The derivative of f(x) = (3x + 2)/(x - 1) is:",
+              "options": [
+                "-5/(x - 1)^2",
+                "5/(x - 1)^2",
+                "-5/(x + 1)^2",
+                "-1/(x - 1)^2"
+              ],
+              "correct": 0,
+              "explanation": "Quotient rule: [3(x - 1) - (3x + 2)]/(x - 1)^2 = (3x - 3 - 3x - 2)/(x - 1)^2 = -5/(x - 1)^2."
+            },
+            {
+              "q": "Given the function f(x) = 1/x, use the tangent line at x = 1 to approximate the value of f(1.1).",
+              "options": [
+                "0.8",
+                "0.9",
+                "1.1",
+                "1.2"
+              ],
+              "correct": 1,
+              "explanation": "f(1) = 1, f'(x) = -1/x^2, so f'(1) = -1. L(x) = f(1) + f'(1)(x - 1) = 1 - 1(x - 1) = 1 - x + 1 = 2 - x. L(1.1) = 2 - 1.1 = 0.9."
+            },
+            {
+              "q": "If f(x) = (x^2 + 3)^2, what is f'(x)?",
+              "options": [
+                "2(x^2 + 3)",
+                "4x(x^2 + 3)",
+                "2x^2 + 6",
+                "4x^3 + 12x"
+              ],
+              "correct": 1,
+              "explanation": "Expand f(x) = x^4 + 6x^2 + 9. Then f'(x) = 4x^3 + 12x = 4x(x^2 + 3)."
+            },
+            {
+              "q": "Find the derivative of f(x) = sin(x) cos(x).",
+              "options": [
+                "cos(2x)",
+                "sin(2x)",
+                "-cos(2x)",
+                "1"
+              ],
+              "correct": 0,
+              "explanation": "f(x) = 0.5 sin(2x). f'(x) = 0.5 * 2 cos(2x) = cos(2x)."
+            },
+            {
+              "q": "Find the derivative of f(x) = csc(x) + cot(x).",
+              "options": [
+                "-csc(x)cot(x) - csc^2(x)",
+                "csc(x)cot(x) + csc^2(x)",
+                "-sec(x)tan(x) - sec^2(x)",
+                "csc(x)tan(x) + csc^2(x)"
+              ],
+              "correct": 0,
+              "explanation": "d/dx(csc x) = -csc x cot x and d/dx(cot x) = -csc^2 x."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Graphs, Pitfalls & AP Exam Tips",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Graphical Interpretation, Common Mistakes & Tips",
+          "concept": "<h2>Graphical Interpretation</h2>\n<ul>\n<li><code>f&#39;(x)</code> is the <strong>slope of the tangent</strong> to y = f(x) at x.</li>\n<li>Where f is <strong>increasing</strong>, <code>f&#39; &gt; 0</code>; where <strong>decreasing</strong>, <code>f&#39; &lt; 0</code>; at a smooth peak/valley, <code>f&#39; = 0</code>.</li>\n<li>A <strong>corner</strong> ⇒ left and right tangent slopes differ ⇒ not differentiable.</li>\n<li>A <strong>vertical tangent</strong> ⇒ f&#39;(x) → ±∞ ⇒ not differentiable, even though the function may be continuous.</li>\n<li>The graph of <code>f&#39;</code> records the <em>slopes</em> of f; reading one from the other is a frequent exam skill (developed further in Unit 5).</li>\n</ul>\n<hr>\n<h2>Common Mistakes</h2>\n<ul>\n<li><strong>Quotient Rule sign/order errors.</strong> It is <code>(low·d-high − high·d-low)/low²</code>, not the reverse — the subtraction order matters.</li>\n<li><strong>Forgetting the Product Rule</strong> and writing <code>d/dx[f·g] = f&#39;·g&#39;</code> (wrong).</li>\n<li><strong>Dropping the <code>dy/dx</code> factor</strong> in implicit differentiation when differentiating a y-term.</li>\n<li><strong>Assuming continuity ⇒ differentiability.</strong> |x| is the classic counterexample at 0.</li>\n<li><strong>Power Rule on the wrong form.</strong> Rewrite roots and reciprocals as exponents first (<code>√x = x^(1/2)</code>, <code>1/x² = x^(−2)</code>).</li>\n<li><strong>Inverse-derivative confusion.</strong> <code>g&#39;(a) = 1/f&#39;(g(a))</code>, <em>not</em> <code>1/f&#39;(a)</code>.</li>\n</ul>\n<hr>\n<h2>AP Exam Tips</h2>\n<ul>\n<li><strong>Recognize limit definitions</strong> of the derivative in disguise — they are common multiple-choice items.</li>\n<li>Know the <strong>six trig derivatives</strong> cold; the &quot;co-&quot; functions (cos, cot, csc) all carry a <strong>negative</strong> sign.</li>\n<li>On <strong>implicit differentiation</strong> free-response, show the <code>dy/dx</code> factor explicitly — it earns method points.</li>\n<li>For a tangent-line question: find the <strong>point</strong> and the <strong>slope</strong> <code>f&#39;(a)</code>, then use point-slope form.</li>\n<li>Simplify only as needed; an unsimplified but correct derivative still earns full credit on free-response.</li>\n</ul>\n<hr>\n<h2>Unit Summary</h2>\n<ul>\n<li>The derivative is <code>f&#39;(x) = lim_{h→0} (f(x+h) − f(x))/h</code> — a slope of a tangent and an instantaneous rate.</li>\n<li><strong>Differentiability ⇒ continuity</strong>, but not conversely (corners, cusps, vertical tangents break differentiability).</li>\n<li>Master the <strong>Power, Product, Quotient</strong> rules and the <strong>six trig derivatives</strong>.</li>\n<li><strong>Implicit differentiation</strong> differentiates both sides in x (with <code>dy/dx</code> on y-terms); <strong>inverse derivatives</strong> use <code>g&#39;(a) = 1/f&#39;(g(a))</code>.</li>\n<li><strong>Higher-order derivatives</strong> are derivatives of derivatives.</li>\n</ul>\n<p><em>Next unit:</em> the <strong>Chain Rule</strong> and its combinations (composite, implicit, and inverse functions).</p>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "The derivative of f(x) = (x² - 3)(x³ + 2x + 1) is:",
+              "options": [
+                "5x^4 - 3x^2 + 2x - 6",
+                "5x^4 + 3x^2 + 2x - 6",
+                "5x^4 - 3x^2 + 2x + 6",
+                "5x^4 - 7x^2 + 2x - 6"
+              ],
+              "correct": 0,
+              "explanation": "Product rule: 2x(x^3 + 2x + 1) + (x^2 - 3)(3x^2 + 2) = (2x^4 + 4x^2 + 2x) + (3x^4 - 7x^2 - 6) = 5x^4 - 3x^2 + 2x - 6."
+            },
+            {
+              "q": "The derivative of f(x) = (2x + 1)/(x² + 3) is:",
+              "options": [
+                "(-2x^2 - 2x + 6)/(x^2 + 3)^2",
+                "(2x^2 + 2x - 6)/(x^2 + 3)^2",
+                "(-2x^2 - 2x - 6)/(x^2 + 3)^2",
+                "(-2x^2 + 2x + 6)/(x^2 + 3)^2"
+              ],
+              "correct": 0,
+              "explanation": "Quotient rule: [2(x^2 + 3) - (2x + 1)(2x)]/(x^2 + 3)^2 = (2x^2 + 6 - 4x^2 - 2x)/(x^2 + 3)^2 = (-2x^2 - 2x + 6)/(x^2 + 3)^2."
+            },
+            {
+              "q": "The position of a particle moving along a coordinate axis is given by s(t) = (1/3)t^3 - 2t^2 + 3t for t > 0. By the Mean Value Theorem, for what value of t in the open interval (0, 3) does the instantaneous velocity equal the average velocity of the particle on [0, 3]?",
+              "options": [
+                "1",
+                "1 + √2",
+                "2",
+                "3"
+              ],
+              "correct": 0,
+              "explanation": "Average velocity on [0,3] = (s(3) - s(0))/3 = 0, since s(3) = 9 - 18 + 9 = 0 and s(0) = 0. Setting v(t) = t^2 - 4t + 3 = 0 gives t = 1 or t = 3; only t = 1 lies in the open interval (0, 3)."
+            },
+            {
+              "q": "What is the value of the derivative of f(x) = csc(x) cot(x) at x = π/6?",
+              "options": [
+                "-14",
+                "-8",
+                "-6",
+                "14"
+              ],
+              "correct": 0,
+              "explanation": "Using the product rule: f'(x) = (-csc(x)cot(x))cot(x) + csc(x)(-csc^2(x)) = -csc(x)cot^2(x) - csc^3(x). At x = π/6, csc(π/6) = 2 and cot(π/6) = √3. Thus, f'(π/6) = -(2)(√3)^2 - (2)^3 = -2(3) - 8 = -6 - 8 = -14."
+            },
+            {
+              "q": "The derivative of f(x) = (x^2 + 1)(x^3 - 3x^2 + 2) is:",
+              "options": [
+                "5x^4 - 12x^3 + 3x^2 - 2x",
+                "5x^4 - 12x^3 + 3x^2 + 2x",
+                "5x^4 - 12x^3 - 3x^2 - 2x",
+                "5x^4 - 6x^3 + 3x^2 - 2x"
+              ],
+              "correct": 0,
+              "explanation": "Product rule: 2x(x^3 - 3x^2 + 2) + (x^2 + 1)(3x^2 - 6x) = (2x^4 - 6x^3 + 4x) + (3x^4 - 6x^3 + 3x^2 - 6x) = 5x^4 - 12x^3 + 3x^2 - 2x."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "differentiation-definition-test-1",
+      "title": "Practice Set A",
+      "level": "Standard",
+      "time_limit_minutes": 30,
+      "total": 20,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Multiple Choice",
+          "questions": [
+            {
+              "q": "If f(x) = x sin(x), find f'(x).",
+              "options": [
+                "cos(x)",
+                "sin(x) + x cos(x)",
+                "sin(x) - x cos(x)",
+                "x cos(x) - sin(x)"
+              ],
+              "correct": 1,
+              "explanation": "Using the product rule: f'(x) = (d/dx(x))sin(x) + x(d/dx(sin(x))) = (1)sin(x) + x(cos(x)) = sin(x) + x cos(x)."
+            },
+            {
+              "q": "What is the derivative of f(x) = tan(x)?",
+              "options": [
+                "cot(x)",
+                "sec^2(x)",
+                "-csc^2(x)",
+                "sec(x)tan(x)"
+              ],
+              "correct": 1,
+              "explanation": "The derivative of tan(x) is a standard trigonometric derivative formula: d/dx(tan(x)) = sec^2(x)."
+            },
+            {
+              "q": "Differentiate f(x) = x^2 cos(x).",
+              "options": [
+                "2x sin(x)",
+                "2x cos(x) - x^2 sin(x)",
+                "2x cos(x) + x^2 sin(x)",
+                "-2x sin(x)"
+              ],
+              "correct": 1,
+              "explanation": "Using product rule: f'(x) = (d/dx(x^2))cos(x) + x^2(d/dx(cos(x))) = 2x cos(x) + x^2(-sin(x)) = 2x cos(x) - x^2 sin(x)."
+            },
+            {
+              "q": "If f(x) = 2x^3 - 4x^2 + 5x, what is the second derivative f''(x)?",
+              "options": [
+                "6x^2 - 8x + 5",
+                "12x - 8",
+                "12x",
+                "6x - 4"
+              ],
+              "correct": 1,
+              "explanation": "f'(x) = 6x^2 - 8x + 5. f''(x) = d/dx(6x^2 - 8x + 5) = 12x - 8."
+            },
+            {
+              "q": "Find dy/dx for the curve x^2 + y^2 = 25.",
+              "options": [
+                "x/y",
+                "-x/y",
+                "y/x",
+                "-y/x"
+              ],
+              "correct": 1,
+              "explanation": "Implicit differentiation: 2x + 2y(dy/dx) = 0. Solving for dy/dx gives 2y(dy/dx) = -2x, so dy/dx = -x/y."
+            },
+            {
+              "q": "A function f(x) is defined such that lim_{x→3} f(x) = f(3). Which of the following MUST be true?",
+              "options": [
+                "f is differentiable at x = 3.",
+                "f is continuous at x = 3.",
+                "The graph of f has a horizontal tangent at x = 3.",
+                "f'(3) exists."
+              ],
+              "correct": 1,
+              "explanation": "The definition provided is the definition of continuity at a point: lim_{x→c} f(x) = f(c)."
+            },
+            {
+              "q": "What is the derivative of f(x) = sec(x)?",
+              "options": [
+                "csc(x)cot(x)",
+                "sec(x)tan(x)",
+                "-sec(x)tan(x)",
+                "tan^2(x)"
+              ],
+              "correct": 1,
+              "explanation": "The derivative of sec(x) is a standard trigonometric identity: d/dx(sec(x)) = sec(x)tan(x)."
+            },
+            {
+              "q": "Given f(1.9) = 2.7, f(2) = 3, and f(2.1) = 3.3, estimate f'(2) using the symmetric difference quotient.",
+              "options": [
+                "3",
+                "2",
+                "6",
+                "1.5"
+              ],
+              "correct": 0,
+              "explanation": "Symmetric difference quotient: f'(2) ~ (f(2.1) - f(1.9))/(2.1 - 1.9) = (3.3 - 2.7)/0.2 = 0.6/0.2 = 3."
+            },
+            {
+              "q": "The average rate of change of the function f(x) = x² + 3x - 5 over the interval [1, 4] is:",
+              "options": [
+                "5",
+                "6",
+                "7",
+                "8"
+              ],
+              "correct": 3,
+              "explanation": "The average rate of change is calculated as (f(4) - f(1)) / (4 - 1). f(4) = 16 + 12 - 5 = 23, f(1) = 1 + 3 - 5 = -1. Thus, (23 - (-1)) / 3 = 24 / 3 = 8."
+            },
+            {
+              "q": "If the position of a particle is given by s(t) = t³ - 2t² + 4, the instantaneous velocity at t = 2 is:",
+              "options": [
+                "4",
+                "8",
+                "12",
+                "16"
+              ],
+              "correct": 0,
+              "explanation": "v(t) = s'(t) = 3t^2 - 4t. v(2) = 3(4) - 8 = 12 - 8 = 4."
+            },
+            {
+              "q": "Which of the following represents the derivative of f(x) = 1/x at x = 2 using the limit definition?",
+              "options": [
+                "-1/4",
+                "-1/2",
+                "1/4",
+                "1/2"
+              ],
+              "correct": 0,
+              "explanation": "f'(x) = lim(h→0) [1/(x + h) - 1/x] / h = -1/x². At x = 2, f'(2) = -1/4."
+            },
+            {
+              "q": "Given the table of values for f(x), estimate f'(2) if f(1.9) = 3.61, f(2) = 4, and f(2.1) = 4.41.",
+              "options": [
+                "0.8",
+                "2",
+                "4",
+                "8"
+              ],
+              "correct": 2,
+              "explanation": "Symmetric difference quotient: f'(2) ~ (f(2.1) - f(1.9))/0.2 = (4.41 - 3.61)/0.2 = 0.8/0.2 = 4."
+            },
+            {
+              "q": "The slope of the tangent line to the curve y = sin(x) at x = π/2 is:",
+              "options": [
+                "-1",
+                "0",
+                "1",
+                "π/2"
+              ],
+              "correct": 1,
+              "explanation": "The derivative of sin(x) is cos(x). At x = π/2, cos(π/2) = 0, so the slope is 0."
+            },
+            {
+              "q": "Which of the following functions is NOT differentiable at x = 0?",
+              "options": [
+                "f(x) = |x|",
+                "f(x) = x²",
+                "f(x) = sin(x)",
+                "f(x) = e^x"
+              ],
+              "correct": 0,
+              "explanation": "f(x) = |x| has a corner at x = 0, making it non-differentiable there. The other functions are smooth and differentiable everywhere."
+            },
+            {
+              "q": "The derivative of f(x) = x⁴ - 3x² + 5x - 7 is:",
+              "options": [
+                "4x³ - 6x + 5",
+                "4x³ - 3x + 5",
+                "4x³ - 6x - 7",
+                "x³ - 6x + 5"
+              ],
+              "correct": 0,
+              "explanation": "Applying the power rule: d/dx(x⁴) = 4x³, d/dx(-3x²) = -6x, d/dx(5x) = 5, d/dx(-7) = 0. Combined: 4x³ - 6x + 5."
+            },
+            {
+              "q": "The derivative of f(x) = x⁻³ + 2x⁻¹ is:",
+              "options": [
+                "-3x⁻⁴ - 2x⁻²",
+                "3x⁻⁴ + 2x⁻²",
+                "-3x⁻⁴ + 2x⁻²",
+                "3x⁻⁴ - 2x⁻²"
+              ],
+              "correct": 0,
+              "explanation": "Applying the power rule: d/dx(x⁻³) = -3x⁻⁴, d/dx(2x⁻¹) = -2x⁻². Combined: -3x⁻⁴ - 2x⁻²."
+            },
+            {
+              "q": "The derivative of f(x) = 3sin(x) - 2cos(x) is:",
+              "options": [
+                "3cos(x) + 2sin(x)",
+                "3cos(x) - 2sin(x)",
+                "-3cos(x) + 2sin(x)",
+                "-3cos(x) - 2sin(x)"
+              ],
+              "correct": 0,
+              "explanation": "d/dx(3sin(x)) = 3cos(x), d/dx(-2cos(x)) = 2sin(x). Combined: 3cos(x) + 2sin(x)."
+            },
+            {
+              "q": "The derivative of f(x) = tan(x) is:",
+              "options": [
+                "sec²(x)",
+                "csc²(x)",
+                "sec(x)tan(x)",
+                "-csc(x)cot(x)"
+              ],
+              "correct": 0,
+              "explanation": "The derivative of tan(x) is sec²(x)."
+            },
+            {
+              "q": "If f(x) = x⁴ - 2x³ + 5, then f''(x) is:",
+              "options": [
+                "12x² - 12x",
+                "12x² - 6x",
+                "12x - 12",
+                "12x - 6"
+              ],
+              "correct": 0,
+              "explanation": "First derivative: f'(x) = 4x³ - 6x². Second derivative: f''(x) = 12x² - 12x."
+            },
+            {
+              "q": "A particle moves along the x-axis such that its position at time t is given by x(t) = 5t^2 - t^3. What is the instantaneous velocity of the particle at t = 2?",
+              "options": [
+                "4",
+                "8",
+                "-4",
+                "0"
+              ],
+              "correct": 1,
+              "explanation": "v(t) = x'(t) = 10t - 3t^2. v(2) = 20 - 12 = 8."
+            }
+          ]
+        }
+      ],
+      "note": "Auto-graded practice from the Differentiation: Definition and Fundamental Properties question bank."
+    },
+    {
+      "id": "differentiation-definition-test-2",
+      "title": "Practice Set B",
+      "level": "Challenge",
+      "time_limit_minutes": 30,
+      "total": 20,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Multiple Choice",
+          "questions": [
+            {
+              "q": "The limit lim_{h→0} [cos(π/4 + h) - cos(π/4)] / h represents the derivative of which function at what value?",
+              "options": [
+                "f(x) = sin(x) at x = π/4",
+                "f(x) = cos(x) at x = 0",
+                "f(x) = cos(x) at x = π/4",
+                "f(x) = sin(x) at x = 0"
+              ],
+              "correct": 2,
+              "explanation": "The limit is the definition f'(a) = lim_{h→0} [f(a+h)-f(a)]/h. Here f(x)=cos(x) and a=π/4."
+            },
+            {
+              "q": "Calculate d/dx [ (x+1)/(x-1) ].",
+              "options": [
+                "2 / (x-1)^2",
+                "-2 / (x-1)^2",
+                "1 / (x-1)^2",
+                "0"
+              ],
+              "correct": 1,
+              "explanation": "Quotient rule: [(1)(x-1) - (x+1)(1)] / (x-1)^2 = (x-1-x-1) / (x-1)^2 = -2 / (x-1)^2."
+            },
+            {
+              "q": "If f(x) = sin(x), what is the 4th derivative f''''(x)?",
+              "options": [
+                "sin(x)",
+                "cos(x)",
+                "-sin(x)",
+                "-cos(x)"
+              ],
+              "correct": 0,
+              "explanation": "f' = cos, f'' = -sin, f''' = -cos, f'''' = sin."
+            },
+            {
+              "q": "Estimate the derivative of f(x) at x = 2 using the data: f(1.9) = 10, f(2.1) = 12.",
+              "options": [
+                "5",
+                "10",
+                "20",
+                "1"
+              ],
+              "correct": 1,
+              "explanation": "Symmetric difference quotient = [f(2.1) - f(1.9)] / (2.1 - 1.9) = (12 - 10) / 0.2 = 2 / 0.2 = 10."
+            },
+            {
+              "q": "Which of the following is equivalent to d/dx [x^2 tan(x)]?",
+              "options": [
+                "2x sec^2(x)",
+                "x^2 sec^2(x) + 2x tan(x)",
+                "2x tan(x) + x^2 sec^2(x)",
+                "Both B and C"
+              ],
+              "correct": 3,
+              "explanation": "Product rule: d/dx(x^2)tan(x) + x^2(d/dx tan(x)) = 2x tan(x) + x^2 sec^2(x). Both B and C represent this sum."
+            },
+            {
+              "q": "The instantaneous rate of change of y = e^x at x = ln(2) is:",
+              "options": [
+                "1",
+                "2",
+                "e",
+                "ln(2)"
+              ],
+              "correct": 1,
+              "explanation": "The derivative of e^x is e^x. At x = ln(2), e^{ln(2)} = 2."
+            },
+            {
+              "q": "Using the limit definition, the derivative of f(x) = 2x + 1 at x = 3 is:",
+              "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+              ],
+              "correct": 2,
+              "explanation": "f'(x) = lim(h→0) [2(x + h) + 1 - (2x + 1)] / h = lim(h→0) (2h / h) = 2."
+            },
+            {
+              "q": "The derivative of f(x) = √x at x = 9 using the limit definition is:",
+              "options": [
+                "1/3",
+                "1/6",
+                "1/4",
+                "1/2"
+              ],
+              "correct": 1,
+              "explanation": "f'(x) = lim(h→0) [√(x + h) - √x] / h. At x = 9, f'(9) = 1 / (2√9) = 1/6."
+            },
+            {
+              "q": "Given f(2) = 5, f(2.1) = 5.61, and f(1.9) = 4.41, estimate f'(2):",
+              "options": [
+                "1.2",
+                "3",
+                "6",
+                "12"
+              ],
+              "correct": 2,
+              "explanation": "Symmetric difference quotient: f'(2) ~ (5.61 - 4.41)/0.2 = 1.2/0.2 = 6."
+            },
+            {
+              "q": "The slope of the tangent line to y = cos(x) at x = π is:",
+              "options": [
+                "-1",
+                "0",
+                "1",
+                "π"
+              ],
+              "correct": 1,
+              "explanation": "The derivative of cos(x) is -sin(x). At x = π, -sin(π) = 0."
+            },
+            {
+              "q": "The derivative of f(x) = x^(-1/2) is:",
+              "options": [
+                "(-1/2)x^(-3/2)",
+                "(1/2)x^(-3/2)",
+                "(-1/2)x^(3/2)",
+                "(1/2)x^(3/2)"
+              ],
+              "correct": 0,
+              "explanation": "Applying the power rule: d/dx(x^(-1/2)) = (-1/2)x^(-3/2)."
+            },
+            {
+              "q": "The derivative of f(x) = cot(x) is:",
+              "options": [
+                "csc²(x)",
+                "-csc²(x)",
+                "sec²(x)",
+                "-sec²(x)"
+              ],
+              "correct": 1,
+              "explanation": "The derivative of cot(x) is -csc²(x)."
+            },
+            {
+              "q": "The derivative of f(x) = (x + 1)(x² - 2x) is:",
+              "options": [
+                "3x² - 2x - 2",
+                "3x² - 4x - 1",
+                "3x² - 2x + 1",
+                "x² - 2x + 1"
+              ],
+              "correct": 0,
+              "explanation": "Product rule: (1)(x^2 - 2x) + (x + 1)(2x - 2) = x^2 - 2x + 2x^2 - 2 = 3x^2 - 2x - 2."
+            },
+            {
+              "q": "The average rate of change of a function f on the interval [a, b] is represented by which of the following?",
+              "options": [
+                "f'(c) for some c in (a, b)",
+                "[f(b) - f(a)] / (b - a)",
+                "lim_{h→0} [f(a+h) - f(a)] / h",
+                "f(b) - f(a)"
+              ],
+              "correct": 1,
+              "explanation": "The average rate of change is the slope of the secant line passing through (a, f(a)) and (b, f(b)), which is [f(b) - f(a)] / (b - a)."
+            },
+            {
+              "q": "If f(x) = x^2, what is the value of lim_{h→0} [(x+h)^2 - x^2] / h?",
+              "options": [
+                "x",
+                "2x",
+                "x^2",
+                "0"
+              ],
+              "correct": 1,
+              "explanation": "This is the definition of the derivative of f(x) = x^2. By the power rule, f'(x) = 2x."
+            },
+            {
+              "q": "A function f is differentiable at x = 3 with f(3) = 2 and f'(3) = -4. What is the equation of the line tangent to f at x = 3?",
+              "options": [
+                "y - 2 = -4(x - 3)",
+                "y + 2 = -4(x + 3)",
+                "y - 3 = -4(x - 2)",
+                "y = -4x + 2"
+              ],
+              "correct": 0,
+              "explanation": "The point-slope form of a line is y - y1 = m(x - x1). Here, (x1, y1) = (3, 2) and m = -4."
+            },
+            {
+              "q": "For which of the following values of x does the graph of f(x) = |x - 5| have a derivative that does not exist?",
+              "options": [
+                "x = 0",
+                "x = 5",
+                "x = -5",
+                "x = 10"
+              ],
+              "correct": 1,
+              "explanation": "The function f(x) = |x - 5| has a sharp corner (v-shape) at x = 5, where the slope changes abruptly from -1 to 1."
+            },
+            {
+              "q": "Find f'(x) for f(x) = 5x^4 - 2x^2 + 7.",
+              "options": [
+                "20x^3 - 4x",
+                "5x^3 - 2x",
+                "20x^3 - 4x + 7",
+                "20x^5 - 4x^3"
+              ],
+              "correct": 0,
+              "explanation": "Apply the power rule: d/dx(5x^4) = 20x^3, d/dx(-2x^2) = -4x, and d/dx(7) = 0."
+            },
+            {
+              "q": "If f(x) = 3 sin(x) + 2 cos(x), find f'(x).",
+              "options": [
+                "3 cos(x) + 2 sin(x)",
+                "-3 cos(x) + 2 sin(x)",
+                "3 cos(x) - 2 sin(x)",
+                "-3 cos(x) - 2 sin(x)"
+              ],
+              "correct": 2,
+              "explanation": "The derivative of sin(x) is cos(x) and the derivative of cos(x) is -sin(x). Thus, f'(x) = 3 cos(x) + 2(-sin(x)) = 3 cos(x) - 2 sin(x)."
+            },
+            {
+              "q": "What is the derivative of f(x) = tan(x) + sec(x)?",
+              "options": [
+                "sec^2(x) + sec(x)tan(x)",
+                "csc^2(x) + csc(x)cot(x)",
+                "sec^2(x) - sec(x)tan(x)",
+                "tan^2(x) + sec(x)"
+              ],
+              "correct": 0,
+              "explanation": "d/dx(tan x) = sec^2(x) and d/dx(sec x) = sec(x)tan(x)."
+            }
+          ]
+        }
+      ],
+      "note": "A second auto-graded set covering Differentiation: Definition and Fundamental Properties."
+    }
+  ]
+}

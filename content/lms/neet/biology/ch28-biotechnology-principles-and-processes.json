@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "biology",
+  "chapter": 28,
+  "title": "Biotechnology: Principles and Processes",
+  "slug": "biotechnology-principles-and-processes",
+  "subtitle": "Tools of recombinant DNA technology — restriction enzymes, vectors and hosts — and the processes of gene cloning, PCR and downstream processing",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "leaf",
+  "seo": {
+    "meta_description": "NEET Biology — Biotechnology: Principles and Processes: the tools of recombinant DNA technology (restriction enzymes, cloning vectors, host cells), and the processes — isolating DNA, cutting and ligating, PCR amplification, inserting recombinant DNA and downstream processing, with NEET-level examples and MCQs. Free on GrowQR.",
+    "focus_keyword": "biotechnology principles and processes NEET",
+    "secondary_keywords": [
+      "restriction enzymes sticky ends NEET",
+      "cloning vector plasmid pBR322",
+      "recombinant DNA technology steps",
+      "PCR polymerase chain reaction",
+      "gene gun bioreactor downstream processing"
+    ],
+    "keywords": [
+      "biotechnology principles and processes NEET",
+      "recombinant DNA technology tools",
+      "restriction endonuclease ligase",
+      "cloning vector selectable marker",
+      "PCR Taq polymerase"
+    ]
+  },
+  "summary": "<ul><li><strong>rDNA tools:</strong> <strong>restriction enzymes</strong> (molecular scissors; cut at palindromes leaving <strong>sticky ends</strong>, e.g. EcoRI), <strong>DNA ligase</strong> (joins/'glue'), <strong>cloning vectors</strong> (carriers, e.g. plasmid pBR322) and a <strong>host</strong> (e.g. <em>E. coli</em>).</li><li><strong>Vector features:</strong> origin of replication (ori), <strong>selectable markers</strong>, recognition (cloning) sites.</li><li><strong>Making cells competent</strong> to take up DNA: CaCl₂ treatment, heat shock; or <strong>gene gun (biolistics)</strong>, micro-injection, disarmed <em>Agrobacterium</em>.</li><li><strong>PCR</strong> amplifies DNA in 3 steps — <strong>denaturation, annealing (primers), extension</strong> by heat-stable <strong>Taq polymerase</strong>.</li><li><strong>Process steps:</strong> isolate DNA → cut with restriction enzyme → ligate into vector → transform host → grow in a <strong>bioreactor</strong> → <strong>downstream processing</strong> (separation, purification, formulation).</li></ul>",
+  "faqs": [
+    { "q": "What are restriction enzymes and what are sticky ends?", "a": "Restriction enzymes (restriction endonucleases) are the 'molecular scissors' of genetic engineering — they cut DNA at specific recognition sequences, which are usually palindromes. Many cut the two strands a little apart, leaving short single-stranded overhangs called 'sticky ends'. Because the sticky ends of a vector and a foreign DNA cut by the same enzyme are complementary, they can pair up and be joined by DNA ligase. EcoRI is a well-known example." },
+    { "q": "What three things make a good cloning vector?", "a": "A cloning vector needs (1) an origin of replication (ori) so it can multiply inside the host, (2) a selectable marker (such as antibiotic-resistance genes) to identify and select the cells that have taken up the vector, and (3) recognition/cloning sites where restriction enzymes can cut to insert the foreign DNA. Plasmids and bacteriophages are commonly used as vectors; pBR322 is a classic example." },
+    { "q": "How are host cells made 'competent' to take up DNA?", "a": "Bacterial cells normally don't take up DNA easily, so they are made 'competent'. A common method is treating them with a divalent cation like calcium chloride and then giving a brief heat shock (about 42°C), which helps the DNA enter. Other delivery methods include the gene gun or biolistics (shooting DNA-coated gold/tungsten particles into cells), micro-injection, and using a disarmed Agrobacterium for plants." },
+    { "q": "What is PCR and what are its three steps?", "a": "PCR (Polymerase Chain Reaction) is a technique to make many copies of a specific DNA segment in vitro. Each cycle has three steps: denaturation (heating to separate the two DNA strands), annealing (cooling so that two short primers bind to the ends of the target region), and extension (a heat-stable DNA polymerase — Taq polymerase — synthesises the new strands). Repeating the cycle ~30 times amplifies the DNA over a billion-fold." },
+    { "q": "What is downstream processing?", "a": "Downstream processing is the set of steps carried out after the biosynthesis (fermentation) is complete, to turn the product into a finished, usable form. It includes separating the product from the cells/medium, purifying it, and formulating it with suitable preservatives, followed by clinical trials and strict quality control for drugs. It is product-specific and a major part of making a biotechnology product." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "The Tools of Recombinant DNA Technology",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Restriction Enzymes and Other Tools",
+          "concept": "<p><strong>Biotechnology</strong> uses living organisms (or their parts) to make useful products. Its heart is <strong>recombinant DNA (rDNA) technology</strong> &mdash; cutting a desired gene from one organism and joining it into the DNA of another. This needs a specific set of <strong>tools</strong>, and the most important are the enzymes.</p><p><strong>Restriction enzymes (restriction endonucleases)</strong> are the <strong>'molecular scissors'</strong>. Each recognises a <strong>specific short sequence (recognition site), usually a palindrome</strong> (reads the same 5'&rarr;3' on both strands), and cuts the DNA there. Crucially, many of them cut the two strands a little apart, leaving short single-stranded overhangs called <strong>'sticky ends'</strong>. Because a vector and a foreign DNA cut by the <strong>same restriction enzyme</strong> have <strong>complementary sticky ends</strong>, they can base-pair and be joined together. A famous example is <strong>EcoRI</strong> (from <em>E. coli</em>); restriction enzymes are named after the bacteria they come from. The sticky ends are then sealed by <strong>DNA ligase</strong>, the 'molecular glue' that joins the two DNA fragments.</p><p>The recombinant DNA must be carried into a host cell by a <strong>cloning vector</strong> &mdash; a DNA molecule that can <strong>self-replicate in the host and carry the foreign DNA</strong>. The commonest vectors are <strong>plasmids</strong> (small, circular, extra-chromosomal DNA of bacteria) and <strong>bacteriophages</strong>; <strong>pBR322</strong> is a classic plasmid vector. A good vector must have three features: an <strong>origin of replication (ori)</strong> so it multiplies in the host; a <strong>selectable marker</strong> (such as antibiotic-resistance genes) to pick out the cells that took up the vector; and <strong>recognition (cloning) sites</strong> where restriction enzymes can cut to insert the gene.</p><p>Finally, a <strong>host (competent) cell</strong> &mdash; usually the bacterium <strong><em>Escherichia coli</em></strong> &mdash; receives and multiplies the recombinant DNA. (Other useful tools include reverse transcriptase, which makes DNA from mRNA.) For NEET, fix the four tool groups: restriction enzymes (cut at palindromes → sticky ends, e.g. EcoRI), DNA ligase (joins), cloning vectors (carry; ori + selectable marker + cloning sites; pBR322) and the host (<em>E. coli</em>).</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Tool</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Role</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Restriction enzyme</td><td style='border:1px solid #dcfce7;padding:6px 8px'>'scissors'; cut at palindrome → sticky ends (EcoRI)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>DNA ligase</td><td style='border:1px solid #dcfce7;padding:6px 8px'>'glue'; joins DNA fragments</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Cloning vector</td><td style='border:1px solid #dcfce7;padding:6px 8px'>carrier (plasmid pBR322); ori + marker + cloning site</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Host cell</td><td style='border:1px solid #dcfce7;padding:6px 8px'>receives rDNA — usually <em>E. coli</em></td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Selectable marker</td><td style='border:1px solid #dcfce7;padding:6px 8px'>antibiotic resistance — picks transformed cells</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why must the vector and the foreign DNA be cut by the same restriction enzyme?</p>",
+              "solution": "<p>Because the same enzyme produces <strong>identical, complementary 'sticky ends'</strong> on both pieces. These overhangs can then <strong>base-pair with each other</strong>, allowing DNA ligase to join the foreign DNA into the vector. Different enzymes would give non-matching ends.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>List the three features a good cloning vector must have.</p>",
+              "solution": "<p>(1) An <strong>origin of replication (ori)</strong> to multiply in the host; (2) a <strong>selectable marker</strong> (e.g. antibiotic-resistance gene) to identify transformed cells; and (3) <strong>recognition/cloning sites</strong> where restriction enzymes cut to insert the foreign DNA.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Restriction enzymes are also called:</p>", "options": ["molecular glue", "molecular scissors", "primers", "vectors"], "correct": 1, "explanation": "They cut DNA — the 'molecular scissors'." },
+            { "q": "<p>The recognition site of a restriction enzyme is usually a:</p>", "options": ["palindrome", "codon", "promoter", "telomere"], "correct": 0, "explanation": "Recognition sequences are typically palindromes." },
+            { "q": "<p>Single-stranded overhangs left after cutting are called:</p>", "options": ["blunt ends", "sticky ends", "primers", "okazaki fragments"], "correct": 1, "explanation": "These complementary overhangs are 'sticky ends'." },
+            { "q": "<p>The enzyme that joins DNA fragments is:</p>", "options": ["restriction enzyme", "DNA ligase", "Taq polymerase", "helicase"], "correct": 1, "explanation": "DNA ligase is the 'molecular glue'." },
+            { "q": "<p>A commonly used cloning vector is the plasmid:</p>", "options": ["pBR322", "Taq", "EcoRI", "tRNA"], "correct": 0, "explanation": "pBR322 is a classic plasmid cloning vector." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> rDNA tools — restriction enzymes (cut palindromes → sticky ends; EcoRI from <em>E. coli</em>), DNA ligase (joins), cloning vectors (carry; need ori + selectable marker + cloning site; e.g. pBR322), host = <em>E. coli</em>. Same enzyme on vector + insert → complementary sticky ends.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Making Competent Hosts and Delivering DNA",
+          "concept": "<p>Even with the gene joined into a vector, the recombinant DNA must get <strong>inside a host cell</strong> to be cloned. But cells &mdash; with their hydrophobic membranes &mdash; do not normally take up large, hydrophilic DNA molecules. So the host must first be made <strong>'competent'</strong> to receive the DNA.</p><p>A standard chemical method makes bacteria competent using a <strong>divalent cation, usually calcium (CaCl₂)</strong>: treating the cells with calcium increases the efficiency with which DNA enters through pores in the cell wall. The recombinant DNA is then added, and the cells are given a <strong>brief heat shock (about 42&nbsp;°C) followed by cooling</strong> on ice; this <strong>heat-shock treatment</strong> helps the DNA pass into the cell. A bacterium that takes up the recombinant DNA is said to be <strong>transformed</strong>, and the process is <strong>transformation</strong>.</p><p>Several other methods physically deliver DNA. <strong>Micro-injection</strong> directly injects recombinant DNA into the nucleus of an animal cell. The <strong>gene gun (biolistics)</strong> bombards plant cells with <strong>high-velocity micro-particles of gold or tungsten coated with DNA</strong> &mdash; a popular method for plants. For plants, a 'disarmed' (non-pathogenic) <strong><em>Agrobacterium tumefaciens</em></strong> can also be used as a natural vector to deliver genes.</p><p>Once the recombinant DNA is inside, the host cell <strong>replicates and expresses</strong> it; growing many such cells gives many copies of the gene (and its product). To select the transformed cells, the <strong>selectable markers</strong> on the vector are used &mdash; for example, only cells carrying the vector survive on a medium with the relevant antibiotic. For NEET, fix the meaning of 'competent' cells, the CaCl₂ + heat-shock method (and the term transformation), and the alternative delivery methods (micro-injection, gene gun/biolistics, disarmed <em>Agrobacterium</em>).</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Method</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>How DNA gets in</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Competent cells</td><td style='border:1px solid #dcfce7;padding:6px 8px'>CaCl₂ + brief heat shock (~42 °C) → transformation</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Micro-injection</td><td style='border:1px solid #dcfce7;padding:6px 8px'>DNA injected into the nucleus (animal cells)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Gene gun / biolistics</td><td style='border:1px solid #dcfce7;padding:6px 8px'>gold/tungsten micro-particles coated with DNA (plants)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Disarmed <em>Agrobacterium</em></td><td style='border:1px solid #dcfce7;padding:6px 8px'>natural vector for plant cells</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Selection</td><td style='border:1px solid #dcfce7;padding:6px 8px'>selectable markers (e.g. antibiotic resistance)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>How is a bacterial cell made competent and transformed with recombinant DNA?</p>",
+              "solution": "<p>The cells are treated with a <strong>divalent cation (CaCl₂)</strong> to make them competent, the recombinant DNA is added, and the mixture is given a <strong>brief heat shock at ~42&nbsp;°C then cooled</strong>. This helps the DNA enter the cell — the cell is now <strong>transformed</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What is the gene gun (biolistics) method, and where is it mainly used?</p>",
+              "solution": "<p>The <strong>gene gun</strong> bombards cells with <strong>high-velocity micro-particles of gold or tungsten coated with the DNA</strong>, forcing the DNA into the cells. It is mainly used to transform <strong>plant cells</strong>.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>To make bacteria competent, they are commonly treated with:</p>", "options": ["NaCl", "CaCl₂ (calcium ions)", "glucose", "ethanol"], "correct": 1, "explanation": "Divalent calcium ions increase DNA uptake." },
+            { "q": "<p>The heat shock in transformation is at about:</p>", "options": ["4 °C", "25 °C", "42 °C", "100 °C"], "correct": 2, "explanation": "A brief ~42 °C heat shock helps DNA enter." },
+            { "q": "<p>The gene gun shoots micro-particles made of:</p>", "options": ["iron", "gold or tungsten", "silver", "plastic"], "correct": 1, "explanation": "DNA-coated gold/tungsten particles are used in biolistics." },
+            { "q": "<p>A natural vector used to deliver genes into plants is:</p>", "options": ["E. coli", "disarmed Agrobacterium", "Taq", "Penicillium"], "correct": 1, "explanation": "Disarmed Agrobacterium tumefaciens delivers genes to plants." },
+            { "q": "<p>A bacterium that has taken up recombinant DNA is said to be:</p>", "options": ["competent", "transformed", "denatured", "ligated"], "correct": 1, "explanation": "It is 'transformed'." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Cells made 'competent' with CaCl₂ + brief heat shock (~42 °C) → transformation. Other delivery: micro-injection (animal nucleus), gene gun/biolistics (gold/tungsten + DNA, plants), disarmed <em>Agrobacterium</em> (plants). Transformed cells selected via selectable markers.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The Processes of Recombinant DNA Technology",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Isolating DNA, Cutting, Ligating and PCR Amplification",
+          "concept": "<p>Making a recombinant product follows an ordered sequence of <strong>processes</strong>. The first is <strong>isolation of the genetic material (DNA)</strong>. Because DNA is enclosed within membranes, the cells are first broken open and treated with enzymes &mdash; <strong>lysozyme</strong> (for bacterial cell walls), <strong>cellulase</strong> (plant cells) or <strong>chitinase</strong> (fungal cells) &mdash; and proteins and RNA are removed with <strong>protease and ribonuclease</strong>. The purified DNA is then precipitated out by adding <strong>chilled ethanol</strong>, where it appears as fine, collectible threads.</p><p>Next comes <strong>cutting (digestion) with restriction enzymes</strong>. Both the source DNA (carrying the gene of interest) and the vector are cut with the <strong>same restriction enzyme</strong> so that they have <strong>complementary sticky ends</strong>. The progress of cutting can be checked by <strong>gel electrophoresis</strong>, in which DNA fragments are separated by size in an agarose gel under an electric field &mdash; smaller fragments move farther toward the positive electrode (DNA is negatively charged), and the bands are seen under UV after staining with <strong>ethidium bromide</strong>. This step also lets the desired fragment be cut out and recovered (<strong>elution</strong>).</p><p>The cut gene and vector are then <strong>joined by DNA ligase</strong> to form the <strong>recombinant DNA</strong>. To get usable amounts of the gene, it is often <strong>amplified</strong> first by the <strong>Polymerase Chain Reaction (PCR)</strong>, an in-vitro method that makes millions of copies of a target DNA segment. Each PCR cycle has three steps: <strong>denaturation</strong> (heating to ~94&nbsp;°C to separate the two DNA strands), <strong>annealing</strong> (cooling so that two short <strong>primers</strong> bind to the ends of the target region) and <strong>extension</strong> (a DNA polymerase synthesises the complementary strands).</p><p>The key enzyme of PCR is the <strong>heat-stable <em>Taq</em> polymerase</strong> (from the thermophilic bacterium <em>Thermus aquaticus</em>), which survives the high denaturation temperature, so the same enzyme works through every cycle. Repeating the cycle about 30 times amplifies the DNA <strong>roughly a billion-fold</strong>. For NEET, fix the isolation enzymes (lysozyme/cellulase/chitinase; precipitation by chilled ethanol), gel electrophoresis (size separation, ethidium bromide/UV), and PCR's three steps with heat-stable <em>Taq</em> polymerase and primers.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Step</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Isolate DNA</td><td style='border:1px solid #dcfce7;padding:6px 8px'>lysozyme/cellulase/chitinase; precipitate with chilled ethanol</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Cut DNA</td><td style='border:1px solid #dcfce7;padding:6px 8px'>restriction enzymes (same one for vector + insert)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Gel electrophoresis</td><td style='border:1px solid #dcfce7;padding:6px 8px'>separates fragments by size; ethidium bromide + UV</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>PCR steps</td><td style='border:1px solid #dcfce7;padding:6px 8px'>denaturation → annealing (primers) → extension</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>PCR enzyme</td><td style='border:1px solid #dcfce7;padding:6px 8px'>heat-stable <em>Taq</em> polymerase</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Name the three steps of one PCR cycle and the enzyme used.</p>",
+              "solution": "<p>(1) <strong>Denaturation</strong> (strands separate by heat), (2) <strong>annealing</strong> (primers bind the target ends), (3) <strong>extension</strong> (new strands synthesised). The enzyme is the <strong>heat-stable <em>Taq</em> polymerase</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>In gel electrophoresis, which DNA fragments move farthest and why?</p>",
+              "solution": "<p><strong>Smaller fragments move farther</strong> toward the positive electrode. DNA is <strong>negatively charged</strong> (so it moves toward the anode), and smaller fragments travel faster through the agarose gel pores, so they migrate the greatest distance.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>DNA is precipitated from solution by adding:</p>", "options": ["warm water", "chilled ethanol", "acid", "salt only"], "correct": 1, "explanation": "Chilled ethanol precipitates DNA as fine threads." },
+            { "q": "<p>Bacterial cell walls are broken using:</p>", "options": ["cellulase", "lysozyme", "chitinase", "protease"], "correct": 1, "explanation": "Lysozyme breaks bacterial cell walls." },
+            { "q": "<p>In gel electrophoresis, DNA moves toward the:</p>", "options": ["negative electrode", "positive electrode", "neither", "both"], "correct": 1, "explanation": "Negatively charged DNA moves to the positive electrode (anode)." },
+            { "q": "<p>The heat-stable enzyme used in PCR is:</p>", "options": ["DNA ligase", "Taq polymerase", "restriction enzyme", "helicase"], "correct": 1, "explanation": "Taq polymerase withstands the denaturation heat." },
+            { "q": "<p>Short sequences that bind to target ends in PCR are:</p>", "options": ["vectors", "primers", "markers", "codons"], "correct": 1, "explanation": "Primers anneal to the ends of the target DNA." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Isolate DNA (lysozyme/cellulase/chitinase; precipitate with chilled ethanol). Cut with restriction enzymes; check by gel electrophoresis (size separation; DNA→+ electrode; ethidium bromide/UV). PCR = denaturation → annealing (primers) → extension, by heat-stable <em>Taq</em> polymerase (~30 cycles ≈ billion-fold).</p>"
+        },
+        {
+          "number": 4,
+          "title": "Insertion into Host, Bioreactors and Downstream Processing",
+          "concept": "<p>After the recombinant DNA is made (and amplified), it is <strong>inserted into the host cell</strong>, which is made competent as described earlier. Once inside, the recombinant DNA <strong>multiplies and expresses</strong> itself, and the host cells are grown so that many copies &mdash; and the protein product &mdash; are obtained. The transformed cells are selected using the vector's <strong>selectable markers</strong>.</p><p>To obtain the product on a large scale, the cells are not grown in small flasks but in <strong>bioreactors (fermentors)</strong> &mdash; large vessels (often <strong>100&ndash;1000 litres</strong> or more) in which cultures are grown under <strong>controlled, optimal conditions</strong> of temperature, pH, oxygen (aeration), substrate (nutrient) supply, agitation and removal of products/wastes. The most common type is the <strong>stirred-tank bioreactor</strong>, which has a <strong>stirrer (to mix and aerate), an oxygen-delivery system, a foam-control system, temperature- and pH-control systems</strong>, and sampling ports. Bioreactors allow the production of useful proteins/enzymes in commercial quantities.</p><p>The final stage is <strong>downstream processing</strong> &mdash; everything done <strong>after the biosynthesis (fermentation) is over</strong> to turn the crude culture into a finished, marketable product. It includes <strong>separation and purification</strong> of the product from the cells and medium, followed by <strong>formulation</strong> with suitable preservatives. For a drug, this is followed by <strong>clinical trials</strong> and rigorous <strong>quality control testing</strong>.</p><p>Downstream processing and quality control are <strong>product-specific</strong> (they differ for each product) and form a major, often costly, part of biotechnology manufacturing. So the complete cycle of rDNA technology is: <strong>isolate DNA &rarr; cut with restriction enzymes &rarr; amplify (PCR) &rarr; ligate into a vector &rarr; transform a host &rarr; grow in a bioreactor &rarr; downstream processing</strong> to obtain the final product. For NEET, fix the role of the bioreactor (large-scale, controlled growth; stirred-tank parts) and downstream processing (post-fermentation separation, purification, formulation, QC; product-specific).</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Stage</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Insert into host</td><td style='border:1px solid #dcfce7;padding:6px 8px'>competent cell takes up rDNA → multiplies &amp; expresses</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Bioreactor</td><td style='border:1px solid #dcfce7;padding:6px 8px'>large-scale, controlled (T, pH, O₂, agitation)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Stirred-tank type</td><td style='border:1px solid #dcfce7;padding:6px 8px'>stirrer, O₂ supply, foam/T/pH control</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Downstream processing</td><td style='border:1px solid #dcfce7;padding:6px 8px'>separation, purification, formulation, QC</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Nature</td><td style='border:1px solid #dcfce7;padding:6px 8px'>product-specific; done after fermentation</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why are bioreactors used instead of flasks, and name two conditions they control.</p>",
+              "solution": "<p>Bioreactors allow culture growth on a <strong>large (commercial) scale</strong> — hundreds to thousands of litres — under <strong>controlled optimal conditions</strong>. They control parameters such as <strong>temperature and pH</strong> (also oxygen/aeration, agitation and nutrient supply), which flasks cannot maintain at scale.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What is downstream processing and when is it carried out?</p>",
+              "solution": "<p><strong>Downstream processing</strong> is the <strong>separation, purification and formulation</strong> of the product (with quality control) carried out <strong>after the biosynthesis/fermentation is complete</strong>, to turn the culture into a finished, marketable product. It is product-specific.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Large-scale culture for biotech products is done in a:</p>", "options": ["test tube", "bioreactor", "petri dish", "centrifuge"], "correct": 1, "explanation": "Bioreactors grow cultures at commercial scale." },
+            { "q": "<p>The commonest type of bioreactor is the:</p>", "options": ["stirred-tank", "shake-flask", "rotary", "column-only"], "correct": 0, "explanation": "The stirred-tank bioreactor is most common." },
+            { "q": "<p>Separation and purification of the product is part of:</p>", "options": ["upstream processing", "downstream processing", "transformation", "ligation"], "correct": 1, "explanation": "These are downstream-processing steps." },
+            { "q": "<p>Downstream processing is carried out:</p>", "options": ["before fermentation", "during DNA isolation", "after biosynthesis is complete", "during PCR"], "correct": 2, "explanation": "It follows the completion of fermentation/biosynthesis." },
+            { "q": "<p>Which is NOT a parameter controlled in a bioreactor?</p>", "options": ["temperature", "pH", "oxygen", "the host's DNA sequence"], "correct": 3, "explanation": "Bioreactors control growth conditions (T, pH, O₂), not the DNA sequence." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Insert rDNA into competent host → multiplies/expresses (select via markers). Grow at scale in a bioreactor (stirred-tank; controls T, pH, O₂, agitation). Downstream processing (after fermentation) = separation + purification + formulation + QC; product-specific. Full cycle: isolate→cut→amplify→ligate→transform→bioreactor→downstream.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-biology-ch28-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>Restriction enzymes cut DNA at specific:</p>", "options": ["codons", "palindromic sequences", "promoters", "telomeres"], "correct": 1, "explanation": "They recognise palindromic recognition sites." },
+            { "q": "<p>EcoRI is an example of a:</p>", "options": ["ligase", "restriction enzyme", "polymerase", "vector"], "correct": 1, "explanation": "EcoRI is a restriction endonuclease." },
+            { "q": "<p>Which joins DNA fragments to form recombinant DNA?</p>", "options": ["restriction enzyme", "DNA ligase", "Taq polymerase", "primase"], "correct": 1, "explanation": "DNA ligase seals the fragments." },
+            { "q": "<p>A selectable marker on a vector is used to:</p>", "options": ["cut DNA", "identify transformed cells", "amplify DNA", "denature DNA"], "correct": 1, "explanation": "Markers select cells that took up the vector." },
+            { "q": "<p>Bacteria are made competent using:</p>", "options": ["CaCl₂ + heat shock", "PCR", "ethidium bromide", "cellulase"], "correct": 0, "explanation": "Calcium ions + a brief heat shock aid DNA uptake." },
+            { "q": "<p>The heat-stable enzyme of PCR is:</p>", "options": ["DNA ligase", "Taq polymerase", "lysozyme", "restriction enzyme"], "correct": 1, "explanation": "Taq polymerase survives the denaturation heat." },
+            { "q": "<p>DNA is precipitated using:</p>", "options": ["warm water", "chilled ethanol", "acetic acid", "glucose"], "correct": 1, "explanation": "Chilled ethanol precipitates DNA." },
+            { "q": "<p>Downstream processing includes:</p>", "options": ["DNA isolation", "ligation", "purification and formulation", "denaturation"], "correct": 2, "explanation": "It is post-fermentation separation/purification/formulation." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> The vector and the foreign DNA are cut with the same restriction enzyme.<br><strong>R:</strong> This produces complementary sticky ends that can base-pair and be joined by ligase.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Matching sticky ends are exactly why the same enzyme is used — R explains A." },
+            { "q": "<p><strong>A:</strong> Taq polymerase is ideal for PCR.<br><strong>R:</strong> It is heat-stable and is not destroyed by the high temperature used to denature DNA.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Its heat stability is precisely why it suits PCR — R explains A." },
+            { "q": "<p><strong>A:</strong> In gel electrophoresis, larger DNA fragments move farther than smaller ones.<br><strong>R:</strong> DNA is negatively charged and moves toward the positive electrode.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "A is false — SMALLER fragments move farther; R is true (DNA moves toward the positive electrode)." },
+            { "q": "<p><strong>A:</strong> Bioreactors are used to obtain products in large quantities.<br><strong>R:</strong> They provide controlled optimal conditions (temperature, pH, oxygen) for large-scale culture.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Controlled large-scale conditions are why bioreactors give large yields — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

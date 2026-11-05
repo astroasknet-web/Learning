@@ -1,0 +1,86 @@
+/* Resume Studio templates. One look per style, structure tweaks per format and region. System fonts only; sizes in pt so a page prints true. */
+.rs { box-sizing: border-box; background: #fff; color: #111827; width: 210mm; min-height: 297mm; padding: 14mm 15mm; font: 10.5pt/1.45 var(--rs-font, "Segoe UI", system-ui, -apple-system, "Noto Sans", Roboto, Arial, sans-serif); --accent: #1f2937; --rs-line: #d1d5db; text-align: left; overflow-wrap: anywhere; }
+.rs *, .rs *::before, .rs *::after { box-sizing: border-box; }
+.rs.paper-letter { width: 215.9mm; min-height: 279.4mm; }
+.rs a { color: inherit; text-decoration: none; }
+.rs ul { margin: 0; padding: 0 0 0 1.15em; }
+.rs p { margin: 0; }
+.rs h3 { margin: 0; font-size: 10.5pt; line-height: 1.2; }
+.rs-name { font-size: 22pt; font-weight: 700; line-height: 1.15; }
+.rs-headline { font-size: 11.5pt; margin-top: 2pt; color: #374151; }
+.rs-contact, .rs-extras { margin-top: 5pt; font-size: .95em; color: #374151; }
+.rs-extras { margin-top: 2pt; }
+.rs-sep { color: #9ca3af; }
+.rs-sec { margin-top: 11pt; }
+.rs-item { display: grid; grid-template-columns: 1fr auto; grid-template-areas: "role when" "body body"; gap: 0 12px; margin: 0 0 7pt; break-inside: avoid; }
+.rs-role { grid-area: role; } .rs-when { grid-area: when; white-space: nowrap; color: #4b5563; font-size: .93em; text-align: right; } .rs-body { grid-area: body; }
+.rs-role b { display: block; font-weight: 700; } .rs-org { display: block; color: #4b5563; }
+.rs-bul { margin-top: 2pt; } .rs-bul li { margin: 1pt 0; }
+.rs-skilltext { line-height: 1.5; }
+.rs-skills { list-style: none; padding: 0; margin: 0; }
+.rs-skills.is-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2pt 14pt; padding-left: 1.1em; list-style: disc; }
+.rs-list { padding-left: 1.1em; } .rs-list li { margin: 1pt 0; }
+.rs-inline { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 2pt 14pt; }
+.rs-yr, .rs-score, .rs-fed { color: #4b5563; font-size: .93em; }
+.rs-summary { line-height: 1.5; }
+
+/* ---- styles ---- */
+.tpl-classic { --rs-font: Georgia, "Times New Roman", "Noto Serif", serif; --accent: #111827; }
+.tpl-classic .rs-head { text-align: center; border-bottom: 1.5px solid #111827; padding-bottom: 8pt; }
+.tpl-classic .rs-name { font-size: 23pt; letter-spacing: .02em; }
+.tpl-classic .rs-sec h3 { text-transform: uppercase; letter-spacing: .12em; font-size: 10pt; border-bottom: 1px solid #9ca3af; padding-bottom: 2pt; margin-bottom: 6pt; }
+
+.tpl-modern { --accent: #4338ca; }
+.tpl-modern .rs-head { border-bottom: 3px solid var(--accent); padding-bottom: 8pt; }
+.tpl-modern .rs-name { color: var(--accent); font-size: 25pt; letter-spacing: -.01em; }
+.tpl-modern .rs-sec h3 { color: var(--accent); text-transform: uppercase; letter-spacing: .1em; font-size: 9.5pt; margin-bottom: 5pt; padding-left: 7px; border-left: 3px solid var(--accent); }
+
+.tpl-minimal { --accent: #374151; line-height: 1.55; }
+.tpl-minimal .rs-name { font-size: 20pt; font-weight: 600; }
+.tpl-minimal .rs-sec { margin-top: 14pt; }
+.tpl-minimal .rs-sec h3 { text-transform: uppercase; letter-spacing: .14em; font-size: 8.8pt; color: #6b7280; margin-bottom: 6pt; }
+
+.tpl-compact { padding: 10mm 12mm; font-size: 9.4pt; line-height: 1.35; --accent: #1e3a8a; }
+.tpl-compact .rs-name { font-size: 18pt; }
+.tpl-compact .rs-sec { margin-top: 7pt; } .tpl-compact .rs-item { margin-bottom: 4pt; }
+.tpl-compact .rs-sec h3 { text-transform: uppercase; letter-spacing: .08em; font-size: 9pt; color: var(--accent); border-bottom: 1px solid var(--rs-line); padding-bottom: 1pt; margin-bottom: 4pt; }
+
+.tpl-sidebar { padding: 0; --accent: #0f766e; }
+.tpl-sidebar .rs-head { padding: 12mm 15mm 5mm 15mm; }
+.tpl-sidebar .rs-name { color: var(--accent); font-size: 25pt; }
+.tpl-sidebar .rs-cols { display: grid; grid-template-columns: 33% 1fr; min-height: 230mm; }
+.tpl-sidebar .rs-side { background: #f0fdfa; padding: 7mm 6mm 10mm 15mm; font-size: .96em; }
+.tpl-sidebar .rs-main { padding: 0 15mm 10mm 9mm; }
+.tpl-sidebar .rs-sec:first-child { margin-top: 0; }
+.tpl-sidebar .rs-sec h3 { color: var(--accent); text-transform: uppercase; letter-spacing: .1em; font-size: 9.2pt; margin-bottom: 5pt; border-bottom: 2px solid var(--accent); padding-bottom: 2pt; }
+.tpl-sidebar .rs-side ul { padding-left: 1em; } .tpl-sidebar .rs-side .rs-skills.is-grid { grid-template-columns: 1fr; }
+.tpl-sidebar .rs-side li { margin: 2pt 0; overflow-wrap: anywhere; } .tpl-sidebar .rs-contactblock ul { list-style: none; padding: 0; }
+
+.tpl-bold { padding: 0; --accent: #312e81; }
+.tpl-bold .rs-head { background: #1e1b4b; color: #fff; padding: 13mm 15mm 9mm; }
+.tpl-bold .rs-name { font-size: 27pt; } .tpl-bold .rs-headline, .tpl-bold .rs-contact, .tpl-bold .rs-extras { color: #c7d2fe; }
+.tpl-bold .rs-sep { color: #818cf8; }
+.tpl-bold .rs-sec { padding: 0 15mm; } .tpl-bold .rs-sec:last-child { padding-bottom: 12mm; }
+.tpl-bold .rs-sec h3 { color: #312e81; text-transform: uppercase; letter-spacing: .1em; font-size: 10pt; border-bottom: 2px solid #c7d2fe; padding-bottom: 2pt; margin-bottom: 6pt; }
+
+/* ---- formats / regions ---- */
+.fmt-academic .rs-name { font-size: 20pt; }
+.fmt-academic .rs-item { margin-bottom: 6pt; }
+.fmt-executive .rs-summary { font-size: 1.04em; line-height: 1.55; }
+.fmt-executive .rs-awards .rs-list li { font-weight: 600; }
+.fmt-creative .rs-proj .rs-role b { color: var(--accent); }
+.fmt-functional .rs-skills.is-grid { grid-template-columns: repeat(2, 1fr); font-weight: 600; }
+.fmt-hybrid .rs-skills.is-grid { grid-template-columns: repeat(3, 1fr); }
+.fmt-de .rs-item, .fmt-jp .rs-item { grid-template-columns: 34mm 1fr; grid-template-areas: "when role" "when body"; gap: 0 10px; }
+.fmt-de .rs-when, .fmt-jp .rs-when { text-align: left; white-space: normal; font-weight: 600; color: #111827; }
+.fmt-jp .rs-item { border-top: 1px solid #9ca3af; padding: 4pt 0; margin: 0; }
+.fmt-jp .rs-sec h3 { background: #f3f4f6; padding: 3pt 6pt; border: 1px solid #9ca3af; border-bottom: 0; }
+.fmt-us_fed .rs-fed { margin-top: 3pt; }
+
+/* ---- thumbnails (scaled by the page that embeds them) ---- */
+.rs.is-thumb { pointer-events: none; user-select: none; }
+
+@media print {
+  .rs { box-shadow: none; margin: 0; }
+  .rs, .rs * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}

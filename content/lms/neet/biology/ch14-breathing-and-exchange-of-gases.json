@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "biology",
+  "chapter": 14,
+  "title": "Breathing and Exchange of Gases",
+  "slug": "breathing-and-exchange-of-gases",
+  "subtitle": "The human respiratory system, the mechanism of breathing, lung volumes and capacities, gas exchange and transport, and respiratory disorders",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "leaf",
+  "seo": {
+    "meta_description": "NEET Biology — Breathing and Exchange of Gases: the human respiratory system, the mechanism of breathing, respiratory volumes and capacities, exchange and transport of O2 and CO2 with the oxygen dissociation curve, regulation of respiration and disorders, with NEET-level examples and MCQs. Free on GrowQR.",
+    "focus_keyword": "breathing and exchange of gases NEET",
+    "secondary_keywords": [
+      "human respiratory system NEET",
+      "lung volumes and capacities",
+      "oxygen transport haemoglobin",
+      "oxygen dissociation curve Bohr",
+      "mechanism of breathing"
+    ],
+    "keywords": [
+      "breathing and exchange of gases NEET",
+      "respiratory volumes capacities",
+      "transport of CO2 bicarbonate",
+      "regulation of respiration medulla",
+      "emphysema asthma"
+    ]
+  },
+  "summary": "<ul><li><strong>Pathway:</strong> nostrils &rarr; nasal chamber &rarr; pharynx &rarr; larynx &rarr; trachea &rarr; bronchi &rarr; bronchioles &rarr; <strong>alveoli</strong> (gas exchange).</li><li><strong>Breathing:</strong> inspiration — diaphragm &amp; external intercostals contract &rarr; thoracic volume up &rarr; intrapulmonary pressure falls below atmospheric &rarr; air in. Expiration is usually passive.</li><li><strong>Volumes/capacities:</strong> TV 500 mL; <strong>Vital Capacity = TV + IRV + ERV</strong>; FRC = ERV + RV; <strong>Total Lung Capacity = VC + RV</strong>.</li><li><strong>Transport:</strong> O₂ — ~97% by <strong>haemoglobin</strong> (oxyhaemoglobin), ~3% in plasma. CO₂ — ~70% as <strong>bicarbonate</strong> (carbonic anhydrase), ~20–25% as carbamino-Hb, ~7% dissolved.</li><li><strong>Oxygen dissociation curve</strong> is sigmoid; high CO₂/low pH/high temperature shift it <strong>right</strong> (Bohr effect &rarr; O₂ released to tissues).</li><li><strong>Regulation:</strong> respiratory centre in the <strong>medulla</strong>; CO₂/H⁺ are the main stimuli. <strong>Disorders:</strong> asthma, emphysema (mainly smoking), occupational (e.g. silicosis).</li></ul>",
+  "faqs": [
+    { "q": "What happens during inspiration?", "a": "The diaphragm contracts and flattens and the external intercostal muscles contract, raising the ribs and sternum. This increases the volume of the thoracic cavity, which lowers the intrapulmonary pressure below atmospheric pressure, so air rushes into the lungs." },
+    { "q": "How are vital capacity and total lung capacity defined?", "a": "Vital capacity (VC) is the maximum volume of air a person can breathe out after a maximum inspiration; it equals tidal volume + inspiratory reserve volume + expiratory reserve volume. Total lung capacity (TLC) is the total volume the lungs can hold; it equals vital capacity + residual volume." },
+    { "q": "How is oxygen transported in the blood?", "a": "About 97% of oxygen is carried bound to haemoglobin in red blood cells as oxyhaemoglobin (each haemoglobin can bind four O2 molecules), and only about 3% is carried dissolved in the plasma." },
+    { "q": "How is carbon dioxide transported in the blood?", "a": "About 70% of CO2 is transported as bicarbonate ions (formed with the help of the enzyme carbonic anhydrase in red blood cells), about 20–25% as carbamino-haemoglobin (bound to haemoglobin), and about 7% dissolved in the plasma." },
+    { "q": "Where is breathing regulated and what is the main chemical stimulus?", "a": "Breathing is regulated by the respiratory rhythm centre in the medulla oblongata, moderated by the pneumotaxic centre in the pons. The main chemical stimulus is the level of carbon dioxide (and H+ ions); oxygen plays only a minor regulatory role." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "The Respiratory System and Breathing",
+      "topics": [
+        {
+          "number": 1,
+          "title": "The Human Respiratory System and Mechanism of Breathing",
+          "concept": "<p>Animals exchange gases in different ways — by simple diffusion across the body surface (sponges, cnidarians), through a network of <strong>tracheal tubes</strong> (insects), by <strong>gills</strong> (aquatic animals) or by <strong>lungs</strong> (terrestrial vertebrates). Humans use a pair of lungs housed in the thoracic cavity. Air follows a fixed <strong>pathway</strong>, a guaranteed NEET sequence: external nostrils &rarr; nasal chamber &rarr; pharynx &rarr; <strong>larynx</strong> (the sound box) &rarr; <strong>trachea</strong> &rarr; primary, secondary and tertiary <strong>bronchi</strong> &rarr; <strong>bronchioles</strong> &rarr; terminal bronchioles, ending in the thin-walled, balloon-like <strong>alveoli</strong> where the actual gas exchange occurs.</p><p>The trachea and bronchi are held open by C-shaped <strong>cartilage rings</strong> to prevent collapse. The lungs are enclosed in a double-layered membrane, the <strong>pleura</strong>, with pleural fluid that reduces friction. Breathing movements are powered by the dome-shaped <strong>diaphragm</strong> below and the <strong>intercostal muscles</strong> between the ribs. The whole process of respiration is conveniently broken into five steps: breathing (ventilation), diffusion of gases at the alveoli, transport of gases by blood, diffusion of gases between blood and tissues, and the cellular utilisation of O₂.</p><p><strong>Breathing (pulmonary ventilation)</strong> moves air in and out by changing the volume — and hence the pressure — of the thoracic cavity. During <strong>inspiration</strong>, the <strong>diaphragm contracts and flattens</strong> and the <strong>external intercostal muscles contract</strong>, lifting the ribs and sternum; this <strong>increases the thoracic volume</strong>, which lowers the <strong>intrapulmonary pressure below the atmospheric pressure</strong>, so air rushes into the lungs. The need for a pressure below atmospheric is the key mechanical point.</p><p><strong>Expiration</strong> is usually a <strong>passive</strong> process: the diaphragm and external intercostals relax, the thoracic volume decreases, the intrapulmonary pressure rises above atmospheric, and air is pushed out. Forced expiration uses additional (internal intercostal and abdominal) muscles. In short, air always moves down a <strong>pressure gradient</strong>: inspiration needs intrapulmonary pressure below atmospheric, expiration needs it above. NEET frequently tests the muscle actions and the direction of the pressure change.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Phase</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>What happens</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Inspiration</td><td style='border:1px solid #dcfce7;padding:6px 8px'>diaphragm + ext. intercostals contract; volume up; pressure falls; air in</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Expiration</td><td style='border:1px solid #dcfce7;padding:6px 8px'>muscles relax; volume down; pressure rises; air out (passive)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Gas exchange site</td><td style='border:1px solid #dcfce7;padding:6px 8px'>alveoli</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Sound box</td><td style='border:1px solid #dcfce7;padding:6px 8px'>larynx</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>State what happens to the diaphragm, the thoracic volume and the intrapulmonary pressure during inspiration.</p>",
+              "solution": "<p>The diaphragm <strong>contracts and flattens</strong>, the thoracic <strong>volume increases</strong>, and the intrapulmonary pressure <strong>falls below atmospheric pressure</strong>, drawing air into the lungs.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Name the actual site of gas exchange in the human lung and one feature that suits it to this role.</p>",
+              "solution": "<p>The <strong>alveoli</strong>. They have extremely <strong>thin walls</strong> (and a huge combined surface area, with a rich blood supply), allowing rapid diffusion of O₂ and CO₂.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The actual site of gas exchange in the lungs is the:</p>", "options": ["trachea", "bronchi", "bronchioles", "alveoli"], "correct": 3, "explanation": "Alveoli are the gas-exchange surface." },
+            { "q": "<p>The larynx is also known as the:</p>", "options": ["wind pipe", "sound box", "food pipe", "voice cord only"], "correct": 1, "explanation": "The larynx is the sound box." },
+            { "q": "<p>During inspiration the diaphragm:</p>", "options": ["relaxes and domes up", "contracts and flattens", "stays still", "moves sideways"], "correct": 1, "explanation": "The diaphragm contracts and flattens to increase thoracic volume." },
+            { "q": "<p>Air enters the lungs when the intrapulmonary pressure is:</p>", "options": ["above atmospheric", "below atmospheric", "equal to atmospheric", "zero"], "correct": 1, "explanation": "Inspiration needs pressure below atmospheric." },
+            { "q": "<p>The trachea is kept open by:</p>", "options": ["smooth muscle only", "C-shaped cartilage rings", "bone", "ligaments"], "correct": 1, "explanation": "C-shaped cartilage rings prevent the trachea from collapsing." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Memorise the air pathway (… larynx → trachea → bronchi → bronchioles → alveoli). Inspiration: diaphragm contracts/flattens, volume↑, pressure↓ below atmospheric. Expiration is passive (pressure↑).</p>"
+        },
+        {
+          "number": 2,
+          "title": "Respiratory Volumes and Capacities",
+          "concept": "<p>The amount of air moved during breathing is measured with a <strong>spirometer</strong> and described as <strong>respiratory volumes</strong> and their sums, the <strong>capacities</strong>. These figures, and especially how the capacities are built from the volumes, are among the most directly examined facts in this chapter.</p><p>There are four primary <strong>volumes</strong>. The <strong>tidal volume (TV)</strong> is the air inspired or expired in a normal, quiet breath — about <strong>500 mL</strong>. The <strong>inspiratory reserve volume (IRV)</strong> is the extra air that can be forcibly inhaled over a normal inspiration (about 2500–3000 mL). The <strong>expiratory reserve volume (ERV)</strong> is the extra air that can be forcibly exhaled after a normal expiration (about 1000–1100 mL). The <strong>residual volume (RV)</strong> is the air that always remains in the lungs even after the most forceful expiration (about 1100–1200 mL).</p><p>The <strong>capacities</strong> are obtained by adding two or more volumes, and you should learn each formula. <strong>Inspiratory capacity (IC) = TV + IRV</strong> (total air a person can inspire after a normal expiration). <strong>Expiratory capacity (EC) = TV + ERV</strong>. <strong>Functional residual capacity (FRC) = ERV + RV</strong> (air left after a normal expiration).</p><p>The two most important capacities are the vital capacity and the total lung capacity. <strong>Vital capacity (VC) = TV + IRV + ERV</strong> — the maximum volume that can be exhaled after a maximum inhalation (it does not include the residual volume, because that air can never be exhaled). <strong>Total lung capacity (TLC) = VC + RV</strong>, equivalently TV + IRV + ERV + RV — the total volume the lungs can hold. A reliable NEET approach is to memorise VC = TV + IRV + ERV and TLC = VC + RV, and to remember that residual volume is excluded from vital capacity.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Term</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Definition / value</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Tidal volume (TV)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>normal breath ~500 mL</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Residual volume (RV)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>air left after forced expiration</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Vital capacity (VC)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>TV + IRV + ERV</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Functional residual capacity</td><td style='border:1px solid #dcfce7;padding:6px 8px'>ERV + RV</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Total lung capacity (TLC)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>VC + RV</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Express vital capacity and total lung capacity in terms of the four primary volumes.</p>",
+              "solution": "<p><strong>Vital capacity = TV + IRV + ERV</strong> (residual volume excluded, because it cannot be exhaled). <strong>Total lung capacity = TV + IRV + ERV + RV</strong> (= VC + RV).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is the residual volume not part of the vital capacity?</p>",
+              "solution": "<p>Because the <strong>residual volume is the air that always stays in the lungs</strong> even after the most forceful expiration — it can never be breathed out, so it cannot be part of the 'maximum volume exhaled' (vital capacity).</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The tidal volume in a normal breath is about:</p>", "options": ["100 mL", "500 mL", "1200 mL", "4500 mL"], "correct": 1, "explanation": "TV ≈ 500 mL." },
+            { "q": "<p>Vital capacity equals:</p>", "options": ["TV + RV", "TV + IRV + ERV", "ERV + RV", "IRV + RV"], "correct": 1, "explanation": "VC = TV + IRV + ERV." },
+            { "q": "<p>Functional residual capacity is:</p>", "options": ["TV + IRV", "ERV + RV", "TV + ERV", "VC + RV"], "correct": 1, "explanation": "FRC = ERV + RV." },
+            { "q": "<p>The air remaining after the most forceful expiration is the:</p>", "options": ["tidal volume", "residual volume", "expiratory reserve volume", "vital capacity"], "correct": 1, "explanation": "Residual volume always remains in the lungs." },
+            { "q": "<p>Total lung capacity equals:</p>", "options": ["VC − RV", "VC + RV", "TV + IRV", "ERV + RV"], "correct": 1, "explanation": "TLC = VC + RV." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Learn the sums — IC = TV+IRV, EC = TV+ERV, FRC = ERV+RV, VC = TV+IRV+ERV, TLC = VC+RV. Residual volume is excluded from vital capacity.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Transport of Gases and Regulation",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Exchange and Transport of O₂ and CO₂",
+          "concept": "<p>Gases are exchanged by simple <strong>diffusion</strong> along <strong>partial-pressure gradients</strong>, with the <strong>alveoli</strong> as the primary site (a second exchange happens between blood and tissues). Oxygen diffuses from the alveolar air (where its partial pressure pO₂ is about 104 mm Hg) into the deoxygenated blood arriving from the body (pO₂ about 40), while carbon dioxide diffuses the other way, from the blood (pCO₂ ~45) into the alveoli (pCO₂ ~40). CO₂ diffuses readily because it is about <strong>20–25 times more soluble</strong> than O₂.</p><p><strong>Transport of oxygen</strong> is dominated by haemoglobin. About <strong>97% of O₂ is carried bound to haemoglobin</strong> in the red blood cells as <strong>oxyhaemoglobin</strong>, and only about <strong>3% is dissolved in the plasma</strong>. Each haemoglobin molecule can bind up to <strong>four O₂ molecules</strong>. The binding depends on conditions, summarised by the <strong>oxygen dissociation curve</strong> — a sigmoid (S-shaped) plot of percentage saturation of Hb against pO₂.</p><p>The position of this curve shifts with the environment, a high-yield NEET concept known as the <strong>Bohr effect</strong>. In the tissues, where CO₂ is high, pH is low (more H⁺) and temperature is higher, the curve <strong>shifts to the right</strong>, meaning haemoglobin releases its oxygen more readily — exactly where the tissues need it. In the lungs, the opposite conditions favour loading of O₂ onto haemoglobin. So the curve elegantly matches oxygen delivery to demand.</p><p><strong>Transport of carbon dioxide</strong> uses three routes, and the proportions are commonly asked. About <strong>70% of CO₂ travels as bicarbonate ions (HCO₃⁻)</strong>, formed in the red blood cells with the help of the enzyme <strong>carbonic anhydrase</strong>; about <strong>20–25% is carried as carbamino-haemoglobin</strong> (CO₂ bound directly to haemoglobin); and about <strong>7% is dissolved</strong> in the plasma. The essentials here are the 97%/3% split for O₂, the four-O₂ capacity of Hb, the right-shift of the dissociation curve in the tissues, and the ~70% bicarbonate route for CO₂.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Gas</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>How it is transported</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>O₂ (~97%)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>bound to haemoglobin (oxyhaemoglobin)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>O₂ (~3%)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>dissolved in plasma</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>CO₂ (~70%)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>as bicarbonate (carbonic anhydrase)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>CO₂ (~20–25%)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>as carbamino-haemoglobin</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>CO₂ (~7%)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>dissolved in plasma</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>What fraction of oxygen is carried by haemoglobin, and how many O₂ molecules can one haemoglobin bind?</p>",
+              "solution": "<p>About <strong>97%</strong> of oxygen is carried bound to <strong>haemoglobin</strong> (as oxyhaemoglobin); the remaining ~3% is dissolved in plasma. Each haemoglobin can bind up to <strong>four O₂ molecules</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>In actively respiring tissue (high CO₂, low pH, high temperature), which way does the oxygen dissociation curve shift and why is that useful?</p>",
+              "solution": "<p>It shifts to the <strong>right</strong> (the Bohr effect), so haemoglobin <strong>releases oxygen more readily</strong> — delivering more O₂ exactly where the active tissue demands it.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The primary site of gas exchange is the:</p>", "options": ["tissues", "alveoli", "trachea", "plasma"], "correct": 1, "explanation": "Alveoli are the primary exchange site (tissues are secondary)." },
+            { "q": "<p>Oxygen is mostly transported:</p>", "options": ["dissolved in plasma", "as bicarbonate", "bound to haemoglobin", "as carbamino compounds"], "correct": 2, "explanation": "~97% of O₂ is bound to haemoglobin." },
+            { "q": "<p>Most carbon dioxide is transported as:</p>", "options": ["dissolved CO₂", "bicarbonate ions", "carbamino-haemoglobin", "carbonic acid gas"], "correct": 1, "explanation": "~70% of CO₂ travels as bicarbonate." },
+            { "q": "<p>The enzyme that helps form bicarbonate in RBCs is:</p>", "options": ["catalase", "carbonic anhydrase", "amylase", "lipase"], "correct": 1, "explanation": "Carbonic anhydrase catalyses CO₂ + H₂O → carbonic acid/bicarbonate." },
+            { "q": "<p>A right shift of the oxygen dissociation curve favours:</p>", "options": ["loading O₂ in lungs", "releasing O₂ in tissues", "no change", "binding CO", "—"], "correct": 1, "explanation": "Right shift (Bohr effect) means O₂ is unloaded at the tissues." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> O₂ = 97% Hb + 3% plasma; Hb binds 4 O₂. CO₂ = 70% bicarbonate + 20–25% carbamino-Hb + 7% plasma. Right shift (high CO₂/low pH/high temp) = O₂ released to tissues (Bohr effect).</p>"
+        },
+        {
+          "number": 4,
+          "title": "Regulation of Respiration and Disorders",
+          "concept": "<p>Breathing must adjust automatically to the body's changing needs, and this is achieved by neural <strong>regulation of respiration</strong>. The master control is the <strong>respiratory rhythm centre</strong> in the <strong>medulla oblongata</strong> of the brain, which sets the basic breathing rhythm. A second centre in the pons, the <strong>pneumotaxic centre</strong>, can moderate the medullary centre and alter the rate of breathing (mainly by influencing the duration of inspiration).</p><p>The strongest chemical signal to change breathing is the level of <strong>carbon dioxide</strong>. A <strong>chemosensitive area</strong> near the respiratory centre is highly sensitive to <strong>CO₂ and hydrogen ions (H⁺)</strong>: a rise in CO₂/H⁺ stimulates this area, which signals the respiratory centre to increase the rate and depth of breathing so that the excess CO₂ is removed. By contrast, <strong>oxygen plays only a minor role</strong> in the moment-to-moment regulation of breathing — an important NEET distinction. Receptors in the aorta and carotid arteries also feed information to the centre.</p><p>Several <strong>respiratory disorders</strong> are part of the syllabus. <strong>Asthma</strong> is difficulty in breathing, with wheezing, caused by inflammation and spasm of the <strong>bronchi and bronchioles</strong>, which narrows the airways. <strong>Emphysema</strong> is a chronic disorder in which the <strong>alveolar walls are damaged and broken down</strong>, drastically reducing the surface area for gas exchange; its <strong>major cause is cigarette smoking</strong>.</p><p>Finally, <strong>occupational respiratory disorders</strong> arise in workplaces with a lot of dust. Long exposure to fine particles causes inflammation and <strong>fibrosis (scarring)</strong> of the lung tissue — for example <strong>silicosis</strong> (from silica/grinding dust) and <strong>asbestosis</strong> (from asbestos). Protective measures and proper masks reduce the risk. For NEET, remember: rhythm centre in the medulla; CO₂/H⁺ are the chief stimuli (not O₂); asthma = bronchiolar inflammation; emphysema = alveolar damage from smoking; occupational disorders = dust-induced fibrosis.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Item</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Respiratory rhythm centre</td><td style='border:1px solid #dcfce7;padding:6px 8px'>medulla oblongata</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Pneumotaxic centre</td><td style='border:1px solid #dcfce7;padding:6px 8px'>pons — moderates rate</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Main chemical stimulus</td><td style='border:1px solid #dcfce7;padding:6px 8px'>CO₂ and H⁺ (O₂ minor)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Asthma / Emphysema</td><td style='border:1px solid #dcfce7;padding:6px 8px'>bronchiolar spasm / alveolar damage (smoking)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Occupational</td><td style='border:1px solid #dcfce7;padding:6px 8px'>silicosis, asbestosis (dust &rarr; fibrosis)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Which gas is the chief regulator of the rate of breathing, and where is the respiratory rhythm centre located?</p>",
+              "solution": "<p><strong>Carbon dioxide</strong> (together with H⁺) is the chief chemical regulator; oxygen has only a minor role. The respiratory rhythm centre is in the <strong>medulla oblongata</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Distinguish asthma from emphysema in terms of the part of the lung affected.</p>",
+              "solution": "<p><strong>Asthma</strong> affects the <strong>bronchi and bronchioles</strong> (inflammation/spasm narrowing the airways). <strong>Emphysema</strong> affects the <strong>alveoli</strong> (their walls are damaged, reducing exchange surface); it is mainly caused by smoking.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The respiratory rhythm centre is located in the:</p>", "options": ["cerebrum", "cerebellum", "medulla oblongata", "spinal cord"], "correct": 2, "explanation": "The respiratory rhythm centre lies in the medulla oblongata." },
+            { "q": "<p>The chemosensitive area is most sensitive to:</p>", "options": ["O₂", "CO₂ and H⁺", "nitrogen", "glucose"], "correct": 1, "explanation": "It responds chiefly to CO₂ and H⁺ levels." },
+            { "q": "<p>Emphysema mainly damages the:</p>", "options": ["bronchi", "alveoli", "trachea", "pleura"], "correct": 1, "explanation": "Emphysema destroys alveolar walls, reducing surface area." },
+            { "q": "<p>The major cause of emphysema is:</p>", "options": ["dust", "cigarette smoking", "allergy", "bacteria"], "correct": 1, "explanation": "Cigarette smoking is the major cause of emphysema." },
+            { "q": "<p>Silicosis and asbestosis are examples of:</p>", "options": ["allergic disorders", "occupational respiratory disorders", "infections", "genetic disorders"], "correct": 1, "explanation": "They are dust-induced occupational respiratory disorders (fibrosis)." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Rhythm centre = medulla; pneumotaxic = pons. CO₂/H⁺ are the main stimuli, O₂ minor. Asthma = bronchiolar spasm; emphysema = alveolar damage (smoking); occupational (silicosis/asbestosis) = dust → fibrosis.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-biology-ch14-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>The site of gas exchange in the human lung is the:</p>", "options": ["bronchus", "bronchiole", "alveolus", "trachea"], "correct": 2, "explanation": "Alveoli are the gas-exchange surface." },
+            { "q": "<p>During inspiration the volume of the thoracic cavity:</p>", "options": ["decreases", "increases", "stays the same", "becomes zero"], "correct": 1, "explanation": "Thoracic volume increases, lowering intrapulmonary pressure." },
+            { "q": "<p>Vital capacity is:</p>", "options": ["TV + RV", "TV + IRV + ERV", "ERV + RV", "TLC + RV"], "correct": 1, "explanation": "VC = TV + IRV + ERV." },
+            { "q": "<p>The air left in the lungs after the most forceful expiration is the:</p>", "options": ["tidal volume", "residual volume", "inspiratory reserve volume", "vital capacity"], "correct": 1, "explanation": "Residual volume always remains in the lungs." },
+            { "q": "<p>About 97% of oxygen is carried in the blood:</p>", "options": ["dissolved in plasma", "bound to haemoglobin", "as bicarbonate", "as carbonic acid"], "correct": 1, "explanation": "Most O₂ is bound to haemoglobin." },
+            { "q": "<p>Most CO₂ is transported as:</p>", "options": ["dissolved gas", "carbamino-haemoglobin", "bicarbonate", "carbonic anhydrase"], "correct": 2, "explanation": "~70% of CO₂ travels as bicarbonate." },
+            { "q": "<p>The respiratory rhythm centre is in the:</p>", "options": ["pons only", "medulla oblongata", "cerebellum", "hypothalamus"], "correct": 1, "explanation": "The rhythm centre is in the medulla oblongata." },
+            { "q": "<p>Damage to alveolar walls, mainly due to smoking, characterises:</p>", "options": ["asthma", "emphysema", "silicosis", "pneumonia"], "correct": 1, "explanation": "Emphysema = alveolar damage, mainly from smoking." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> During inspiration air moves into the lungs.<br><strong>R:</strong> Contraction of the diaphragm and external intercostals raises the thoracic volume and lowers the intrapulmonary pressure below atmospheric.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The pressure dropping below atmospheric is exactly what draws air in — R explains A." },
+            { "q": "<p><strong>A:</strong> In actively respiring tissues, haemoglobin releases oxygen more easily.<br><strong>R:</strong> High CO₂, low pH and high temperature shift the oxygen dissociation curve to the right (Bohr effect).</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The right shift (Bohr effect) lowers Hb's O₂ affinity, releasing O₂ — R explains A." },
+            { "q": "<p><strong>A:</strong> Oxygen is the main chemical that regulates the rate of breathing.<br><strong>R:</strong> A chemosensitive area in the brain is highly sensitive to CO₂ and H⁺ ions.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "A is false — CO₂/H⁺ (not O₂) are the main regulators; R correctly states the chemosensitive area responds to CO₂ and H⁺." },
+            { "q": "<p><strong>A:</strong> Residual volume is not included in the vital capacity.<br><strong>R:</strong> Residual volume is the air that can never be exhaled, even after a forced expiration.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Since RV can't be exhaled, it cannot be part of the maximum exhaled volume (VC) — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "physics",
+  "chapter": 12,
+  "title": "Magnetism and Magnetic Effects of Current",
+  "slug": "magnetism-and-magnetic-effects-of-current",
+  "subtitle": "Magnetism and Magnetic Effects of Current for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#22c55e",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "Master Magnetism and Magnetic Effects of Current for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Magnetic Field of Currents and Forces",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Biot-Savart Law and Ampere's Law",
+          "concept": "<p><strong>Biot-Savart Law:</strong> Magnetic field due to small current element $I\\,d\\vec{l}$ at a point distance $r$ away: $$d\\vec{B} = \\frac{\\mu_0}{4\\pi}\\frac{I\\,d\\vec{l}\\times\\hat{r}}{r^2}$$ $\\mu_0 = 4\\pi \\times 10^{-7}$ T·m/A (permeability of vacuum).</p><p><strong>Magnetic Fields of Standard Currents:</strong></p><table class=\"md-table\"><thead><tr><th>Configuration</th><th>Field magnitude</th></tr></thead><tbody><tr><td>Straight wire (finite, angles $\\theta_1, \\theta_2$ from perpendicular at point)</td><td>$B = \\dfrac{\\mu_0 I}{4\\pi a}(\\sin\\theta_1 + \\sin\\theta_2)$</td></tr><tr><td>Infinite straight wire</td><td>$B = \\dfrac{\\mu_0 I}{2\\pi a}$</td></tr><tr><td>Circular loop (centre), radius $R$</td><td>$B = \\dfrac{\\mu_0 I}{2R}$</td></tr><tr><td>Loop on axis, distance $x$</td><td>$B = \\dfrac{\\mu_0 IR^2}{2(R^2+x^2)^{3/2}}$</td></tr><tr><td>Arc subtending angle $\\theta$ at centre</td><td>$B = \\dfrac{\\mu_0 I\\theta}{4\\pi R}$</td></tr><tr><td>Solenoid (long, inside)</td><td>$B = \\mu_0 n I$</td></tr><tr><td>Toroid (inside)</td><td>$B = \\mu_0 n I = \\mu_0 NI/(2\\pi r)$</td></tr></tbody></table><p><strong>Ampere's Circuital Law:</strong> Line integral of $\\vec{B}$ around any closed loop equals $\\mu_0$ times enclosed current: $$\\oint \\vec{B}\\cdot d\\vec{l} = \\mu_0 I_{\\text{enc}}$$</p><p>Useful for symmetric configurations like infinite wire, solenoid, toroid.</p><p><strong>Right-hand rule:</strong> For straight wire, thumb along current → fingers curl in direction of $\\vec{B}$. For a loop, fingers along current → thumb gives $\\vec{B}$ at centre.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find magnetic field at the centre of a circular coil of $50$ turns, radius $10$ cm, carrying current $2$ A.</p>",
+              "solution": "<p>$$B = \\frac{\\mu_0 NI}{2R} = \\frac{4\\pi \\times 10^{-7} \\times 50 \\times 2}{2 \\times 0.1}$$ $$= \\frac{4\\pi \\times 10^{-5}}{0.2} = 2\\pi \\times 10^{-4} \\approx 6.28 \\times 10^{-4} \\text{ T}$$</p><p><strong>Final Answer:</strong> $B \\approx 6.28 \\times 10^{-4}$ T.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A solenoid has $1000$ turns per metre and carries current $2$ A. Find magnetic field inside.</p>",
+              "solution": "<p>$$B = \\mu_0 n I = 4\\pi \\times 10^{-7} \\times 1000 \\times 2 = 8\\pi \\times 10^{-4} \\approx 2.51 \\times 10^{-3} \\text{ T}$$</p><p><strong>Final Answer:</strong> $B \\approx 2.51 \\times 10^{-3}$ T.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The unit of magnetic field is:</p>",
+              "options": [
+                "N",
+                "T",
+                "Wb",
+                "A/m"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The magnetic field at the centre of a circular loop of radius $R$ carrying current $I$:</p>",
+              "options": [
+                "$\\mu_0 I/(2R)$",
+                "$\\mu_0 I/(4\\pi R)$",
+                "$\\mu_0 I/R$",
+                "$\\mu_0 IR^2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Ampere's law gives the magnetic field for:</p>",
+              "options": [
+                "Any current loop",
+                "Symmetric current configurations",
+                "Only solenoid",
+                "Permanent magnet"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The magnetic field inside an infinitely long solenoid:</p>",
+              "options": [
+                "Varies with position",
+                "Constant",
+                "Zero",
+                "Maximum at center"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The Biot-Savart law gives magnetic field due to:</p>",
+              "options": [
+                "Moving charge",
+                "Current element",
+                "Stationary charge",
+                "Magnetic poles"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Lorentz Force, Cyclotron and Force on Wires",
+          "concept": "<p><strong>Lorentz Force on Moving Charge:</strong> $$\\vec{F} = q(\\vec{E} + \\vec{v}\\times\\vec{B})$$</p><p>Magnetic force is always perpendicular to velocity → does no work, changes only direction.</p><p><strong>Motion of Charge in Magnetic Field:</strong></p><ul><li>Velocity perpendicular to $\\vec{B}$: circular motion of radius $r = mv/(qB)$, period $T = 2\\pi m/(qB)$.</li><li>Velocity at angle $\\theta$ to $\\vec{B}$: helical path with pitch $p = (v\\cos\\theta)T$.</li><li>Time period <strong>independent</strong> of speed and radius.</li></ul><p><strong>Cyclotron:</strong> Accelerates charged particles using crossed electric and magnetic fields. Resonance condition: $$f_{\\text{osc}} = \\frac{qB}{2\\pi m}$$ This frequency is independent of velocity and radius. Maximum KE: $K_{\\max} = q^2B^2r^2/(2m)$.</p><p><strong>Cyclotron limitation:</strong> At relativistic speeds, mass increases ($m_{\\text{rel}}$), frequency changes — fixed-frequency cyclotron fails.</p><p><strong>Force on Current-Carrying Wire</strong> in magnetic field: $$\\vec{F} = I\\vec{L}\\times\\vec{B}$$ Magnitude: $F = BIL\\sin\\theta$.</p><p><strong>Force between Two Parallel Current-Carrying Wires:</strong> Wires separated by $d$ carrying $I_1, I_2$ in same direction attract; opposite directions repel. $$\\frac{F}{L} = \\frac{\\mu_0 I_1 I_2}{2\\pi d}$$ This relation defines the ampere: $1$ A is current that produces force of $2 \\times 10^{-7}$ N/m between two parallel wires $1$ m apart.</p><p><strong>Torque on Current Loop:</strong> A flat loop of area $A$ carrying current $I$ in field $B$: $$\\vec{\\tau} = \\vec{M}\\times\\vec{B}$$ where $\\vec{M} = NI\\vec{A}$ is magnetic moment ($N$ = turns). Magnitude: $\\tau = NIAB\\sin\\theta$.</p><p><strong>Potential Energy:</strong> $U = -\\vec{M}\\cdot\\vec{B} = -MB\\cos\\theta$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>An electron moves in a magnetic field $B = 1$ T at $v = 2 \\times 10^6$ m/s perpendicular to $B$. Find radius of circular motion. ($m_e = 9.1 \\times 10^{-31}$ kg, $e = 1.6 \\times 10^{-19}$ C)</p>",
+              "solution": "<p>$$r = \\frac{mv}{eB} = \\frac{9.1 \\times 10^{-31} \\times 2 \\times 10^6}{1.6 \\times 10^{-19} \\times 1}$$ $$= \\frac{1.82 \\times 10^{-24}}{1.6 \\times 10^{-19}} \\approx 1.14 \\times 10^{-5} \\text{ m}$$</p><p><strong>Final Answer:</strong> $r \\approx 1.14 \\times 10^{-5}$ m $\\approx 11.4\\,\\mu$m.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A wire of length $50$ cm carrying $2$ A is placed at $30°$ to a magnetic field of $0.5$ T. Find force.</p>",
+              "solution": "<p>$$F = BIL\\sin\\theta = 0.5 \\times 2 \\times 0.5 \\times 0.5 = 0.25 \\text{ N}$$</p><p><strong>Final Answer:</strong> $F = 0.25$ N.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The work done by magnetic force on a moving charge is:</p>",
+              "options": [
+                "Always positive",
+                "Always negative",
+                "Zero",
+                "Depends on time"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A charged particle moves perpendicular to $\\vec{B}$. Its trajectory is:</p>",
+              "options": [
+                "Straight line",
+                "Parabola",
+                "Circle",
+                "Helix"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The period of revolution in cyclotron:</p>",
+              "options": [
+                "Depends on speed",
+                "Independent of speed",
+                "Increases with radius",
+                "Depends on charge only"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two parallel wires carrying currents in same direction:</p>",
+              "options": [
+                "Attract",
+                "Repel",
+                "No force",
+                "Variable force"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The torque on a current loop in a uniform field is:</p>",
+              "options": [
+                "$BIL$",
+                "$BIA\\sin\\theta$",
+                "$BIL\\cos\\theta$",
+                "$BIL^2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Magnetic Properties of Matter",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Earth's Magnetism and Magnetic Materials",
+          "concept": "<p><strong>Earth's Magnetism:</strong> Earth acts like a bar magnet tilted at $\\sim 11°$ to rotation axis. The south magnetic pole is in geographic north (since N-pole of compass points north).</p><p><strong>Earth's Magnetic Field Components:</strong></p><ul><li><strong>Horizontal component</strong> $B_H = B_E\\cos\\delta$ (along magnetic meridian)</li><li><strong>Vertical component</strong> $B_V = B_E\\sin\\delta$</li><li><strong>Total intensity</strong> $B_E = \\sqrt{B_H^2 + B_V^2}$</li><li><strong>Angle of dip</strong> $\\delta$ = angle of $B_E$ with horizontal; $\\tan\\delta = B_V/B_H$</li><li><strong>Angle of declination:</strong> angle between magnetic and geographic meridian</li></ul><p>At poles: $\\delta = 90°$ (vertical). At equator: $\\delta = 0°$ (horizontal).</p><p><strong>Magnetic Quantities for Materials:</strong></p><table class=\"md-table\"><thead><tr><th>Quantity</th><th>Definition</th><th>Symbol</th></tr></thead><tbody><tr><td>Magnetic field intensity</td><td>applied</td><td>$\\vec{H}$, units A/m</td></tr><tr><td>Magnetisation</td><td>magnetic moment per unit volume</td><td>$\\vec{M}$</td></tr><tr><td>Magnetic flux density</td><td>total field</td><td>$\\vec{B}$</td></tr><tr><td>Permeability</td><td>$\\vec{B} = \\mu\\vec{H}$</td><td>$\\mu = \\mu_0\\mu_r$</td></tr><tr><td>Susceptibility</td><td>$\\vec{M} = \\chi\\vec{H}$</td><td>$\\chi = \\mu_r - 1$</td></tr></tbody></table><p><strong>Types of Magnetic Materials:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>$\\chi$</th><th>$\\mu_r$</th><th>Behaviour</th></tr></thead><tbody><tr><td><strong>Diamagnetic</strong></td><td>Small, negative</td><td>< 1</td><td>Weakly repelled (e.g., bismuth, water, copper)</td></tr><tr><td><strong>Paramagnetic</strong></td><td>Small, positive</td><td>> 1</td><td>Weakly attracted (e.g., aluminium, oxygen)</td></tr><tr><td><strong>Ferromagnetic</strong></td><td>Large, positive</td><td>>> 1</td><td>Strongly attracted; show hysteresis (e.g., iron, cobalt, nickel)</td></tr></tbody></table><p><strong>Curie Law:</strong> For paramagnets, $\\chi = C/T$ ($C$ = Curie constant). Above the <strong>Curie temperature</strong>, ferromagnets become paramagnetic.</p><p><strong>Hysteresis Loop</strong> of ferromagnet: Area of $B$-$H$ loop represents energy dissipated per cycle. <strong>Soft iron:</strong> narrow loop, low retentivity, low coercivity — used in transformers and electromagnets. <strong>Steel:</strong> wide loop, high retentivity — used for permanent magnets.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>At a place, $B_H = 0.3$ G and $B_V = 0.4$ G. Find the total Earth's magnetic field and angle of dip.</p>",
+              "solution": "<p>$$B_E = \\sqrt{0.3^2 + 0.4^2} = \\sqrt{0.09 + 0.16} = \\sqrt{0.25} = 0.5 \\text{ G}$$ $$\\tan\\delta = B_V/B_H = 0.4/0.3 = 4/3 \\implies \\delta \\approx 53°$$</p><p><strong>Final Answer:</strong> $B_E = 0.5$ G; $\\delta \\approx 53°$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A magnetic material has susceptibility $\\chi = 0.001$. Find $\\mu_r$ and identify material type.</p>",
+              "solution": "<p>$\\mu_r = 1 + \\chi = 1.001$ (slightly greater than 1). Material is paramagnetic.</p><p><strong>Final Answer:</strong> $\\mu_r = 1.001$; paramagnetic.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The angle of dip at the magnetic equator is:</p>",
+              "options": [
+                "$0°$",
+                "$45°$",
+                "$90°$",
+                "$180°$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Diamagnetic materials have:</p>",
+              "options": [
+                "$\\chi > 0$",
+                "$\\chi < 0$",
+                "$\\chi = 0$",
+                "$\\chi = 1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Above Curie temperature, a ferromagnetic material becomes:</p>",
+              "options": [
+                "Diamagnetic",
+                "Paramagnetic",
+                "Non-magnetic",
+                "Antiferromagnetic"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The hysteresis loop area represents:</p>",
+              "options": [
+                "Energy stored",
+                "Energy dissipated per cycle",
+                "Magnetic moment",
+                "Coercivity"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Soft iron is used in electromagnets because:</p>",
+              "options": [
+                "High coercivity",
+                "Low retentivity",
+                "Both (a) and (b)",
+                "Low coercivity and low retentivity"
+              ],
+              "correct": 3,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Galvanometer, Moving Coil and Magnetic Dipole",
+          "concept": "<p><strong>Moving Coil Galvanometer (MCG):</strong> A coil suspended in radial magnetic field. Torque on coil $\\tau = NIAB$; balanced by torsion of suspension $\\tau = C\\phi$. So: $$\\phi = \\frac{NAB}{C}I$$ Deflection $\\propto$ current.</p><p><strong>Current sensitivity</strong> = $\\phi/I = NAB/C$. <strong>Voltage sensitivity</strong> = $\\phi/V = NAB/(CR)$.</p><p><strong>Conversion to Ammeter:</strong> Connect low resistance shunt $S$ in parallel with galvanometer. $$S = \\frac{I_g R_g}{I - I_g}$$ where $I_g$ = full-scale current of galvanometer, $R_g$ = galvanometer resistance, $I$ = desired full-scale current.</p><p><strong>Conversion to Voltmeter:</strong> Connect high resistance $R$ in series with galvanometer. $$R = \\frac{V}{I_g} - R_g$$</p><p><strong>Magnetic Dipole:</strong> Closed current loop or bar magnet of moment $\\vec{M} = NIA\\hat{n}$ behaves like a dipole.</p><p><strong>Bar magnet of length $2\\ell$ and pole strength $m$:</strong> moment $M = m \\cdot 2\\ell$. Field on axis ($r \\gg \\ell$): $B_{\\text{axial}} = (\\mu_0/4\\pi)(2M/r^3)$. On equatorial line: $B_{\\text{eq}} = (\\mu_0/4\\pi)(M/r^3)$.</p><p><strong>Comparison with electric dipole:</strong> Same formulas with $1/(4\\pi\\epsilon_0) \\to \\mu_0/(4\\pi)$ and $p \\to M$.</p><p><strong>Oscillating bar magnet</strong> in uniform $\\vec{B}$ (vibration magnetometer): $T = 2\\pi\\sqrt{I/(MB)}$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A galvanometer of $R_g = 100$ Ω, $I_g = 1$ mA needs to read $10$ A as ammeter. Find shunt.</p>",
+              "solution": "<p>$$S = \\frac{I_g R_g}{I - I_g} = \\frac{10^{-3} \\times 100}{10 - 10^{-3}} \\approx \\frac{0.1}{10} = 0.01 \\text{ Ω}$$</p><p><strong>Final Answer:</strong> Shunt = $0.01$ Ω.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A bar magnet of moment $0.5$ A·m² is placed perpendicular to a uniform field $0.2$ T. Find torque.</p>",
+              "solution": "<p>$$\\tau = MB\\sin\\theta = 0.5 \\times 0.2 \\times \\sin 90° = 0.1 \\text{ N·m}$$</p><p><strong>Final Answer:</strong> $\\tau = 0.1$ N·m.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>To convert a galvanometer to ammeter:</p>",
+              "options": [
+                "High R in series",
+                "High R in parallel",
+                "Low R in series",
+                "Low R (shunt) in parallel"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The voltage sensitivity of galvanometer increases if:</p>",
+              "options": [
+                "$N$ decreases",
+                "$C$ increases",
+                "Both $N$ and $A$ increase",
+                "$B$ decreases"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The magnetic moment of a current loop is:</p>",
+              "options": [
+                "$IA$",
+                "$NIA$",
+                "$IL$",
+                "$BIA$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Field on axis of a bar magnet at distance $r \\gg \\ell$:</p>",
+              "options": [
+                "$\\propto 1/r$",
+                "$\\propto 1/r^2$",
+                "$\\propto 1/r^3$",
+                "$\\propto 1/r^4$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The time period of oscillation of a magnet in a uniform field:</p>",
+              "options": [
+                "$T = 2\\pi\\sqrt{MB/I}$",
+                "$T = 2\\pi\\sqrt{I/(MB)}$",
+                "$T = 2\\pi I/M$",
+                "$T = 2\\pi B/I$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-phys-magnetism-and-magnetic-effects-of-current-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>The magnetic field at distance $5$ cm from a wire carrying $10$ A:</p>",
+              "options": [
+                "$4 \\times 10^{-5}$ T",
+                "$2 \\times 10^{-5}$ T",
+                "$4 \\times 10^{-6}$ T",
+                "$8 \\times 10^{-5}$ T"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>An electron and proton enter a magnetic field with equal velocities perpendicular to $\\vec{B}$. Radii ratio:</p>",
+              "options": [
+                "$1:1$",
+                "$m_p:m_e$",
+                "$m_e:m_p$",
+                "Independent of mass"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A proton ($q = e$) moves in a circular orbit of radius $r$ in field $B$. KE:</p>",
+              "options": [
+                "$eBr$",
+                "$eBr/m$",
+                "$e^2B^2r^2/(2m)$",
+                "$\\sqrt{eBr/m}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The Lorentz force on a charge $q$ moving in $\\vec{E}$ and $\\vec{B}$:</p>",
+              "options": [
+                "$q\\vec{E}$",
+                "$q\\vec{v}\\times\\vec{B}$",
+                "$q(\\vec{E} + \\vec{v}\\times\\vec{B})$",
+                "$q\\vec{B}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two wires $2$ m long, separated by $1$ m, carry currents $5$ A each in opposite directions. Force per metre:</p>",
+              "options": [
+                "Attractive, $2 \\times 10^{-6}$ N",
+                "Repulsive, $2 \\times 10^{-6}$ N",
+                "Attractive, $5 \\times 10^{-6}$ N",
+                "Repulsive, $5 \\times 10^{-6}$ N"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The earth's magnetic field at the equator is approximately:</p>",
+              "options": [
+                "Vertical",
+                "Horizontal",
+                "$45°$",
+                "Zero"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A diamagnetic material:</p>",
+              "options": [
+                "Is strongly attracted",
+                "Is weakly repelled",
+                "Has high susceptibility",
+                "Aligns with field"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Cyclotron frequency of charged particle is:</p>",
+              "options": [
+                "$qB/(2\\pi m)$",
+                "$qB/m$",
+                "$2\\pi m/qB$",
+                "$qm/B$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A circular coil of $N$ turns, radius $R$, current $I$ has magnetic moment:</p>",
+              "options": [
+                "$NIR$",
+                "$NI\\pi R^2$",
+                "$I\\pi R^2/N$",
+                "$NI/R^2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The dimensions of magnetic flux:</p>",
+              "options": [
+                "$[ML^2T^{-2}A^{-1}]$",
+                "$[MLT^{-2}A^{-1}]$",
+                "$[ML^2T^{-1}A^{-1}]$",
+                "$[MT^{-2}A^{-1}]$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>The magnetic field at the centre of a coil of $100$ turns, radius $10$ cm, current $0.1$ A, in $\\mu$T (rounded):</p>",
+              "answer": "63",
+              "explanation": ""
+            },
+            {
+              "q": "<p>A galvanometer of resistance $50$ Ω and full-scale current $2$ mA. The series resistance to convert it into voltmeter reading $10$ V (in Ω, integer):</p>",
+              "answer": "4950",
+              "explanation": ""
+            },
+            {
+              "q": "<p>A circular coil of radius $5$ cm carrying $2$ A. Magnetic moment in $10^{-3}$ A·m² (use $\\pi^2 \\approx 9.87$):</p>",
+              "answer": "16",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Magnetic force does no work on a moving charge. <strong>Reason (R):</strong> Magnetic force is always perpendicular to velocity.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> A galvanometer cannot be used to measure heavy currents directly. <strong>Reason (R):</strong> A galvanometer is a low-current instrument, so it must be shunted with a low resistance to convert it to an ammeter.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

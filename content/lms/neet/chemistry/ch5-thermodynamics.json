@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "chemistry",
+  "chapter": 5,
+  "title": "Thermodynamics",
+  "slug": "thermodynamics",
+  "subtitle": "First law, enthalpy & Hess's law, entropy and Gibbs free energy for NEET",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "NEET Chemistry — Thermodynamics: system & surroundings, first law and internal energy, enthalpy and Hess's law, entropy, and Gibbs free energy with spontaneity criteria, with NEET traps, NCERT notes and MCQs. Free on GrowQR.",
+    "focus_keyword": "thermodynamics NEET",
+    "secondary_keywords": [
+      "chemical thermodynamics NEET notes",
+      "Hess's law NEET",
+      "Gibbs free energy NEET",
+      "enthalpy NCERT chemistry",
+      "spontaneity NEET"
+    ],
+    "keywords": [
+      "thermodynamics NEET",
+      "enthalpy NEET",
+      "Gibbs free energy NEET",
+      "Hess's law NEET",
+      "entropy NEET"
+    ]
+  },
+  "summary": "<ul><li><strong>First law:</strong> $\\Delta U = q + W$ (energy conserved). For a gas $W = -P\\Delta V$. $U$ and $H$ are <em>state functions</em>; $q$ and $W$ are not.</li><li><strong>Enthalpy:</strong> $H = U + PV$; at constant pressure $q_p = \\Delta H$. $\\Delta H = \\Delta U + \\Delta n_g RT$.</li><li><strong>Sign:</strong> exothermic $\\Delta H < 0$; endothermic $\\Delta H > 0$.</li><li><strong>Hess's law:</strong> total enthalpy change is the same whatever the path — add steps' $\\Delta H$.</li><li><strong>Entropy</strong> $S$ measures disorder; gas $>$ liquid $>$ solid. $\\Delta S_{universe} > 0$ for a spontaneous change (second law).</li><li><strong>Gibbs energy:</strong> $\\Delta G = \\Delta H - T\\Delta S$. Spontaneous if $\\Delta G < 0$; equilibrium at $\\Delta G = 0$.</li><li>$\\Delta H<0,\\ \\Delta S>0$ to spontaneous at all T; $\\Delta H>0,\\ \\Delta S<0$ to never spontaneous; the mixed cases are temperature-dependent.</li><li>$\\Delta G^\\circ = -RT\\ln K$ — links free energy to the equilibrium constant.</li></ul>",
+  "faqs": [
+    { "q": "What is the difference between a state function and a path function?", "a": "A state function depends only on the initial and final states (like internal energy U, enthalpy H, entropy S, Gibbs energy G), while a path function depends on the route taken (like heat q and work W)." },
+    { "q": "How are enthalpy change and internal energy change related?", "a": "They are linked by delta-H = delta-U + (delta n_gas) RT, where delta n_gas is the change in the number of moles of gas in the reaction. When delta n_gas is zero, delta-H equals delta-U." },
+    { "q": "What does Hess's law let you do?", "a": "Hess's law says the total enthalpy change of a reaction is the same no matter how many steps it takes, so you can add the enthalpies of individual steps to find the enthalpy of an overall reaction you cannot measure directly." },
+    { "q": "When is a reaction spontaneous?", "a": "A reaction is spontaneous when the Gibbs free energy change is negative (delta-G < 0). Since delta-G = delta-H - T delta-S, a negative delta-H and a positive delta-S both favour spontaneity, and temperature decides the mixed cases." },
+    { "q": "Why can an endothermic reaction still be spontaneous?", "a": "If the entropy increase (delta-S positive) is large enough, the T delta-S term can outweigh a positive delta-H, making delta-G negative — so the reaction proceeds despite absorbing heat, especially at high temperature." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "First Law and Enthalpy",
+      "topics": [
+        {
+          "number": 1,
+          "title": "System, Surroundings and the First Law",
+          "concept": "<p>Thermodynamics studies the energy changes that accompany physical and chemical processes. The part of the universe under study is the <strong>system</strong>; everything else is the <strong>surroundings</strong>. A system is <em>open</em> (exchanges matter and energy), <em>closed</em> (energy only) or <em>isolated</em> (neither) — a distinction NEET often opens with.</p><p>The total energy stored in a system is its <strong>internal energy</strong> $U$. We cannot measure $U$ itself, only its <em>change</em> $\\Delta U$. The <strong>first law of thermodynamics</strong> is simply the conservation of energy: $\\Delta U = q + W$, where $q$ is heat added to the system and $W$ is work done on it. For a gas expanding or compressing against an external pressure, the work is $W = -P\\Delta V$ (work done <em>by</em> the gas is negative for the system).</p><p>A vital idea is the difference between <strong>state functions</strong> and <strong>path functions</strong>. A state function depends only on the present state, not on how it was reached — $U$, enthalpy $H$, entropy $S$ and Gibbs energy $G$ are all state functions. Heat $q$ and work $W$ are <strong>path functions</strong>: their values depend on the route taken. Knowing which quantities are state functions is a recurring NEET point.</p><p>Sign conventions matter. Heat absorbed by the system is positive, heat released is negative; work done on the system is positive, work done by the system is negative. For special processes the first law simplifies: at constant volume $W = 0$ so $\\Delta U = q_V$, and in an isothermal process for an ideal gas $\\Delta U = 0$ (internal energy depends only on temperature). Getting these signs right turns most numerical questions into one-line substitutions.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Idea</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Relation</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>First law</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\Delta U = q + W$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Work (gas)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$W = -P\\Delta V$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Constant volume</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\Delta U = q_V$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>State functions</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$U, H, S, G$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A system absorbs $150\\ \\text{J}$ of heat and does $40\\ \\text{J}$ of work on the surroundings. Find $\\Delta U$.</p>",
+              "solution": "<p>Heat in $q = +150\\ \\text{J}$; work done <em>by</em> the system means $W = -40\\ \\text{J}$. So $\\Delta U = q + W = 150 - 40 = +110\\ \\text{J}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is $\\Delta U = q$ for a process carried out at constant volume?</p>",
+              "solution": "<p>At constant volume $\\Delta V = 0$, so the pressure-volume work $W = -P\\Delta V = 0$. The first law then gives $\\Delta U = q_V$ — all the heat changes the internal energy.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The first law of thermodynamics is a statement of conservation of:</p>", "options": ["mass", "energy", "momentum", "charge"], "correct": 1, "explanation": "$\\Delta U = q + W$ conserves energy." },
+            { "q": "<p>Which of these is a state function?</p>", "options": ["heat", "work", "internal energy", "both heat and work"], "correct": 2, "explanation": "Internal energy is a state function; $q$ and $W$ are path functions." },
+            { "q": "<p>A system that exchanges neither matter nor energy is:</p>", "options": ["open", "closed", "isolated", "ideal"], "correct": 2, "explanation": "An isolated system exchanges neither." },
+            { "q": "<p>For an isothermal process in an ideal gas, $\\Delta U$ is:</p>", "options": ["positive", "negative", "zero", "infinite"], "correct": 2, "explanation": "$U$ depends only on $T$; constant $T$ means $\\Delta U = 0$." },
+            { "q": "<p>The pressure-volume work done by a gas is:</p>", "options": ["$P\\Delta V$", "$-P\\Delta V$", "$\\Delta V/P$", "$PV$"], "correct": 1, "explanation": "$W = -P\\Delta V$ (work done on the system convention)." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Fix signs first — heat in $+$, work done by the gas $-$. $U, H, S, G$ are state functions; $q, W$ are not. At constant volume $\\Delta U = q_V$.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Enthalpy, Hess's Law and Reaction Enthalpies",
+          "concept": "<p>Most chemistry happens at constant (atmospheric) pressure, where it is convenient to define <strong>enthalpy</strong> $H = U + PV$. At constant pressure the heat exchanged equals the enthalpy change: $q_p = \\Delta H$. For reactions involving gases, enthalpy and internal energy are related by $\\Delta H = \\Delta U + \\Delta n_g RT$, where $\\Delta n_g$ is the change in the number of gas moles — a formula NEET tests directly.</p><p>The sign of $\\Delta H$ classifies reactions: <strong>exothermic</strong> reactions release heat ($\\Delta H < 0$, e.g. combustion) and <strong>endothermic</strong> reactions absorb it ($\\Delta H > 0$, e.g. photosynthesis, decomposition). Several standard enthalpies are defined: of <em>formation</em> (forming one mole of a compound from its elements), <em>combustion</em>, <em>neutralisation</em>, and <em>bond enthalpy</em>.</p><p><strong>Hess's law of constant heat summation</strong> is the most powerful tool here. Because enthalpy is a state function, the total enthalpy change of a reaction is the same whether it occurs in one step or several. This lets you add the enthalpies of individual steps (reversing a step flips the sign; multiplying a step multiplies its $\\Delta H$) to find an enthalpy that is hard to measure directly.</p><p>Hess's law also gives the standard enthalpy of reaction from formation values: $\\Delta H_{rxn} = \\sum \\Delta H_f(\\text{products}) - \\sum \\Delta H_f(\\text{reactants})$, remembering that the $\\Delta H_f$ of an element in its standard state is zero. Reaction enthalpy can likewise be estimated from bond enthalpies as (bonds broken) − (bonds formed). These three routes — steps, formation values, and bond enthalpies — cover essentially every NEET enthalpy calculation.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Relation</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Enthalpy</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$H = U + PV$; $q_p = \\Delta H$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\Delta H$–$\\Delta U$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\Delta H = \\Delta U + \\Delta n_g RT$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>From formation</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\sum \\Delta H_f(\\text{prod}) - \\sum \\Delta H_f(\\text{react})$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>From bonds</td><td style='border:1px solid #dcfce7;padding:6px 10px'>(broken) − (formed)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>For a reaction $\\Delta U = -100\\ \\text{kJ}$ and $\\Delta n_g = -1$ at $300\\ \\text{K}$. Find $\\Delta H$. ($R = 8.314\\ \\text{J mol}^{-1}\\text{K}^{-1}$)</p>",
+              "solution": "<p>$\\Delta H = \\Delta U + \\Delta n_g RT = -100\\,000 + (-1)(8.314)(300) \\approx -100\\,000 - 2494 = -102.5\\ \\text{kJ}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>How does Hess's law let us find an enthalpy that can't be measured directly?</p>",
+              "solution": "<p>Since enthalpy is a state function, we add the $\\Delta H$ of a series of measurable steps that sum to the target reaction (reversing a step flips its sign). The total equals the target reaction's $\\Delta H$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>At constant pressure, the heat exchanged equals:</p>", "options": ["$\\Delta U$", "$\\Delta H$", "$\\Delta S$", "$\\Delta G$"], "correct": 1, "explanation": "$q_p = \\Delta H$." },
+            { "q": "<p>$\\Delta H$ and $\\Delta U$ are related by:</p>", "options": ["$\\Delta H = \\Delta U - \\Delta n_g RT$", "$\\Delta H = \\Delta U + \\Delta n_g RT$", "$\\Delta H = \\Delta U RT$", "$\\Delta H = \\Delta U/RT$"], "correct": 1, "explanation": "$\\Delta H = \\Delta U + \\Delta n_g RT$." },
+            { "q": "<p>An exothermic reaction has:</p>", "options": ["$\\Delta H > 0$", "$\\Delta H < 0$", "$\\Delta H = 0$", "$\\Delta S < 0$"], "correct": 1, "explanation": "Exothermic releases heat, $\\Delta H < 0$." },
+            { "q": "<p>Hess's law is a consequence of enthalpy being a:</p>", "options": ["path function", "state function", "constant", "bond energy"], "correct": 1, "explanation": "State function to path-independent total." },
+            { "q": "<p>The standard enthalpy of formation of an element in its standard state is:</p>", "options": ["positive", "negative", "zero", "undefined"], "correct": 2, "explanation": "Defined as zero by convention." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Use $\\Delta H = \\Delta U + \\Delta n_g RT$ (count only gas moles). For reaction enthalpy: $\\sum\\Delta H_f$(products) − $\\sum\\Delta H_f$(reactants), with elements = 0; or bonds (broken − formed).</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Entropy and Spontaneity",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Entropy and the Second Law",
+          "concept": "<p>The first law tells us energy is conserved, but it does not say which way a process will go. That direction is governed by <strong>entropy</strong> $S$, a measure of the <em>disorder</em> or number of ways the energy and particles of a system can be arranged. The more disordered a state, the higher its entropy, and entropy — like enthalpy — is a state function.</p><p>Entropy increases with disorder, so for the same substance $S_{gas} > S_{liquid} > S_{solid}$. It rises on melting, boiling and dissolving, when a solid decomposes into gases, or when the number of gas molecules increases in a reaction. NEET frequently asks you to predict the <em>sign</em> of $\\Delta S$ from such changes, so reading the disorder of reactants versus products is the key skill.</p><p>The <strong>second law of thermodynamics</strong> states that the total entropy of the universe always increases for a spontaneous process: $\\Delta S_{universe} = \\Delta S_{system} + \\Delta S_{surroundings} > 0$. A process can lower the entropy of the system (for instance, freezing) only if the surroundings gain even more entropy, keeping the universe's total rising.</p><p>The <strong>third law</strong> adds a reference point: the entropy of a perfect crystalline solid is zero at absolute zero ($0\\ \\text{K}$), because there is only one way to arrange a perfectly ordered, motionless crystal. This allows <em>absolute</em> entropies to be tabulated. For NEET the practical takeaways are: predict the sign of $\\Delta S$ from changes in state and gas moles, and remember that a spontaneous change always raises the entropy of the universe.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Change</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Effect on entropy</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Solid to liquid to gas</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$S$ increases</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>More gas moles formed</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\Delta S > 0$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Second law</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\Delta S_{universe} > 0$ (spontaneous)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Third law</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$S = 0$ for perfect crystal at $0\\ \\text{K}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Predict the sign of $\\Delta S$ for: $\\text{CaCO}_3(s) \\rightarrow \\text{CaO}(s) + \\text{CO}_2(g)$.</p>",
+              "solution": "<p>A gas ($\\text{CO}_2$) is produced from a solid, greatly increasing disorder, so $\\Delta S > 0$ (positive).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Water freezing into ice lowers the system's entropy. How is this consistent with the second law?</p>",
+              "solution": "<p>The system loses entropy, but the heat released to the surroundings raises their entropy by a larger amount, so $\\Delta S_{universe} > 0$ overall — the second law is satisfied.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Entropy is a measure of:</p>", "options": ["energy", "disorder", "heat", "pressure"], "correct": 1, "explanation": "Entropy measures disorder/randomness." },
+            { "q": "<p>For the same substance, entropy is highest in the:</p>", "options": ["solid", "liquid", "gas", "all equal"], "correct": 2, "explanation": "$S_{gas} > S_{liquid} > S_{solid}$." },
+            { "q": "<p>For a spontaneous process, the entropy of the universe:</p>", "options": ["decreases", "increases", "stays constant", "is zero"], "correct": 1, "explanation": "Second law: $\\Delta S_{universe} > 0$." },
+            { "q": "<p>The entropy of a perfect crystal at $0\\ \\text{K}$ is:</p>", "options": ["maximum", "zero", "negative", "infinite"], "correct": 1, "explanation": "Third law of thermodynamics." },
+            { "q": "<p>$\\Delta S$ is positive when:</p>", "options": ["a gas condenses", "moles of gas increase", "a solid forms", "T decreases"], "correct": 1, "explanation": "More gas molecules means more disorder." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Predict $\\Delta S$ sign from disorder: gas formed / more gas moles / dissolving to positive. Spontaneity is decided by the <em>universe's</em> entropy, not the system's alone.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Gibbs Free Energy and Spontaneity",
+          "concept": "<p>Tracking the entropy of the universe is awkward, so chemists use a property of the <em>system</em> alone that still predicts spontaneity: the <strong>Gibbs free energy</strong> $G = H - TS$. For a process at constant temperature and pressure, the change is $\\Delta G = \\Delta H - T\\Delta S$. This single equation is the heart of chemical thermodynamics for NEET.</p><p>The sign of $\\Delta G$ decides the direction: a process is <strong>spontaneous</strong> (feasible) when $\\Delta G < 0$, <strong>non-spontaneous</strong> when $\\Delta G > 0$, and at <strong>equilibrium</strong> when $\\Delta G = 0$. The magnitude of $\\Delta G$ also represents the maximum useful (non-expansion) work a reaction can deliver.</p><p>Because $\\Delta G$ combines enthalpy and entropy with temperature, four cases arise. If $\\Delta H < 0$ and $\\Delta S > 0$, $\\Delta G$ is negative at all temperatures (always spontaneous). If $\\Delta H > 0$ and $\\Delta S < 0$, it is positive at all temperatures (never spontaneous). The two mixed cases are <strong>temperature-dependent</strong>: an exothermic reaction with $\\Delta S < 0$ is spontaneous only at low temperature, while an endothermic reaction with $\\Delta S > 0$ becomes spontaneous only at high temperature. This explains why an endothermic reaction can still proceed.</p><p>Gibbs energy also links to equilibrium. The standard free-energy change relates to the equilibrium constant by $\\Delta G^{\\circ} = -RT\\ln K$, so a large negative $\\Delta G^{\\circ}$ means a large $K$ (products favoured). Mastering $\\Delta G = \\Delta H - T\\Delta S$, the four spontaneity cases, and $\\Delta G^{\\circ} = -RT\\ln K$ covers nearly every spontaneity question NEET asks.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>$\\Delta H$ / $\\Delta S$</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Spontaneity</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\Delta H<0,\\ \\Delta S>0$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>spontaneous at all T</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\Delta H>0,\\ \\Delta S<0$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>never spontaneous</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\Delta H<0,\\ \\Delta S<0$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>spontaneous at low T</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\Delta H>0,\\ \\Delta S>0$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>spontaneous at high T</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A reaction has $\\Delta H = +50\\ \\text{kJ}$ and $\\Delta S = +0.2\\ \\text{kJ K}^{-1}$. Is it spontaneous at $300\\ \\text{K}$?</p>",
+              "solution": "<p>$\\Delta G = \\Delta H - T\\Delta S = 50 - (300)(0.2) = 50 - 60 = -10\\ \\text{kJ}$. Since $\\Delta G < 0$, it is spontaneous at $300\\ \\text{K}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What is the value of $\\Delta G$ for a reaction at equilibrium?</p>",
+              "solution": "<p>At equilibrium $\\Delta G = 0$ (the system has no tendency to move in either direction). Note this is $\\Delta G$, not the standard $\\Delta G^{\\circ}$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The Gibbs free energy is defined as:</p>", "options": ["$G = H + TS$", "$G = H - TS$", "$G = U - TS$", "$G = H - S$"], "correct": 1, "explanation": "$G = H - TS$." },
+            { "q": "<p>A reaction is spontaneous when:</p>", "options": ["$\\Delta G > 0$", "$\\Delta G < 0$", "$\\Delta G = 0$", "$\\Delta H < 0$ only"], "correct": 1, "explanation": "$\\Delta G < 0$ means spontaneous." },
+            { "q": "<p>At equilibrium, $\\Delta G$ equals:</p>", "options": ["positive", "negative", "zero", "infinite"], "correct": 2, "explanation": "$\\Delta G = 0$ at equilibrium." },
+            { "q": "<p>A reaction with $\\Delta H < 0$ and $\\Delta S > 0$ is spontaneous:</p>", "options": ["at low T only", "at high T only", "at all temperatures", "never"], "correct": 2, "explanation": "Both terms favour negative $\\Delta G$." },
+            { "q": "<p>The standard free energy relates to $K$ by:</p>", "options": ["$\\Delta G^{\\circ} = RT\\ln K$", "$\\Delta G^{\\circ} = -RT\\ln K$", "$\\Delta G^{\\circ} = -RT/K$", "$\\Delta G^{\\circ} = K/RT$"], "correct": 1, "explanation": "$\\Delta G^{\\circ} = -RT\\ln K$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> $\\Delta G = \\Delta H - T\\Delta S$; spontaneous if $< 0$, equilibrium at $= 0$. Memorise the four sign cases and $\\Delta G^{\\circ} = -RT\\ln K$ (negative $\\Delta G^{\\circ}$ to large $K$).</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-chemistry-ch5-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct & Statement-based)",
+          "questions": [
+            { "q": "<p>The first law of thermodynamics is written as:</p>", "options": ["$\\Delta U = q - W$ (W on system)", "$\\Delta U = q + W$ (W on system)", "$\\Delta U = q \\times W$", "$\\Delta U = W - q$"], "correct": 1, "explanation": "$\\Delta U = q + W$ with work-on-system convention." },
+            { "q": "<p>Which quantity is NOT a state function?</p>", "options": ["internal energy", "enthalpy", "work", "entropy"], "correct": 2, "explanation": "Work is a path function." },
+            { "q": "<p>At constant pressure, $q_p$ equals:</p>", "options": ["$\\Delta U$", "$\\Delta H$", "$\\Delta S$", "$W$"], "correct": 1, "explanation": "$q_p = \\Delta H$." },
+            { "q": "<p>Statements: (I) Exothermic reactions have $\\Delta H<0$. (II) Hess's law follows from enthalpy being a state function. Which are correct?</p>", "options": ["only I", "only II", "both I and II", "neither"], "correct": 2, "explanation": "Both statements are correct." },
+            { "q": "<p>For $\\text{H}_2(g) + \\tfrac{1}{2}\\text{O}_2(g) \\rightarrow \\text{H}_2\\text{O}(l)$, $\\Delta n_g$ is:</p>", "options": ["$+1.5$", "$-1.5$", "$0$", "$+1$"], "correct": 1, "explanation": "$0 - 1.5 = -1.5$ (liquid product has no gas moles)." },
+            { "q": "<p>Entropy increases most in which change?</p>", "options": ["gas to liquid", "liquid to solid", "solid to gas", "gas compression"], "correct": 2, "explanation": "Solid to gas is the largest disorder increase." },
+            { "q": "<p>A reaction with $\\Delta H>0$ and $\\Delta S<0$ is:</p>", "options": ["always spontaneous", "never spontaneous", "spontaneous at high T", "spontaneous at low T"], "correct": 1, "explanation": "$\\Delta G > 0$ at all T." },
+            { "q": "<p>If $\\Delta G^{\\circ}$ is large and negative, the equilibrium constant $K$ is:</p>", "options": ["very small", "very large", "exactly 1", "negative"], "correct": 1, "explanation": "$\\Delta G^{\\circ} = -RT\\ln K$; negative $\\Delta G^{\\circ}$ to large $K$." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> Work done is not a state function.<br><strong>R:</strong> The work done in a process depends on the path taken between the initial and final states.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Path-dependence is exactly why work is not a state function — R explains A." },
+            { "q": "<p><strong>A:</strong> An endothermic reaction can be spontaneous.<br><strong>R:</strong> A sufficiently large positive $\\Delta S$ can make $\\Delta G$ negative even when $\\Delta H$ is positive.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "A large $T\\Delta S$ can overcome a positive $\\Delta H$ — R explains A." },
+            { "q": "<p><strong>A:</strong> The entropy of the system always increases in a spontaneous process.<br><strong>R:</strong> The second law requires the entropy of the universe to increase.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "The system's entropy can decrease (e.g. freezing) as long as the universe's rises, so A is false; R correctly states the second law." },
+            { "q": "<p><strong>A:</strong> At equilibrium the Gibbs free energy change $\\Delta G$ is zero.<br><strong>R:</strong> At equilibrium there is no net tendency for the reaction to proceed in either direction.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "No net drive corresponds to $\\Delta G = 0$ — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

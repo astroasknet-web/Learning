@@ -1,0 +1,818 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": 16,
+  "title": "Circles",
+  "slug": "circles",
+  "subtitle": "Coordinate Geometry: Circles",
+  "level": "JEE Main & Advanced",
+  "color": "#2563eb",
+  "icon": "math",
+  "seo": {
+    "meta_description": "Master Circles for JEE Main & Advanced on GrowQR: notes, solved examples, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Center-Radius Forms & Core Configurations",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Standard, General, Diameter, and Parametric Forms",
+          "concept": "A circle is geometrically defined as the locus of a variable point that moves in a two-dimensional plane such that its distance from a fixed point (the center) remains constantly fixed (the radius). \n <ul>\n <li><strong>Standard Form:</strong> A circle centered at $H(h, k)$ with radius $r$ satisfies:\n \\[ (x-h)^2 + (y-k)^2 = r^2 \\]\n <li><strong>General Form:</strong> Written as $x^2 + y^2 + 2gx + 2fy + c = 0$. By completing the square, the central characteristics are extracted directly from the coefficients:\n \\[ \\text{Center: } (-g, -f), \\quad \\text{Radius: } \\sqrt{g^2 + f^2 - c} \\]\n <ol>\n <li>If $g^2 + f^2 - c > 0$, the circle is a real circle.\n <li>If $g^2 + f^2 - c = 0$, it collapses into a point circle at $(-g, -f)$.\n <li>If $g^2 + f^2 - c < 0$, the radius is imaginary, defining a virtual curve.\n </ol>\n <li><strong>Diameter Form:</strong> If $A(x_1, y_1)$ and $B(x_2, y_2)$ form the endpoints of a diameter segment, any point $P(x,y)$ on the boundary forms a right angle $\\angle APB = 90^\\circ$. Equating the orthogonal slope product ($m_{AP} \\cdot m_{BP} = -1$) yields the joint equation:\n \\[ (x - x_1)(x - x_2) + (y - y_1)(y - y_2) = 0 \\]\n <li><strong>Parametric Form:</strong> Expresses coordinates dynamically using an angular parameter $\\theta$:\n \\[ x = h + r\\cos\\theta, \\quad y = k + r\\sin\\theta \\quad (0 \\le \\theta < 2\\pi) \\]\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the center coordinates and radius of the circle represented by the general second-degree equation $2x^2 + 2y^2 - 8x + 12y - 10 = 0$.</p>",
+              "solution": "<p>First, normalize the equation by dividing all terms by $2$ so that the leading quadratic coefficients match unity exactly:\n \\[ x^2 + y^2 - 4x + 6y - 5 = 0 \\]\n Extract the general coefficients by comparing with the standard form:\n \\[ 2g = -4 \\implies g = -2, \\quad 2f = 6 \\implies f = 3, \\quad c = -5 \\]\n Compute the center parameters:\n \\[ \\text{Center: } (-g, -f) = (-(-2), -3) = (2, -3) \\]\n Compute the metric radius:\n \\[ r = \\sqrt{g^2 + f^2 - c} = \\sqrt{(-2)^2 + (3)^2 - (-5)} = \\sqrt{4 + 9 + 5} = \\sqrt{18} = 3\\sqrt{2} \\]\n <strong>Final Answer:</strong> Center = $(2, -3)$, Radius = $3\\sqrt{2}$ units.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Find the center and radius of the circle equation $x^2 + y^2 + 4x - 8y - 5 = 0$:",
+              "options": [
+                "$(-2, 4)$, $r = 5$",
+                "$(2, -4)$, $r = 5$",
+                "$(-2, 4)$, $r = \\sqrt{15}$",
+                "$(-2, 4)$, $r = 25$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the circle having diameter endpoints at $A(1, 2)$ and $B(3, 4)$:",
+              "options": [
+                "$x^2 + y^2 - 4x - 6y + 11 = 0$",
+                "$x^2 + y^2 + 4x + 6y + 11 = 0$",
+                "$x^2 + y^2 - 4x - 6y - 11 = 0$",
+                "$x^2 + y^2 - 2x - 2y + 3 = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The parametric tracking trajectory $x = -1 + 3\\cos\\theta$, $y = 2 + 3\\sin\\theta$ maps to which general Cartesian circle form?",
+              "options": [
+                "$x^2 + y^2 + 2x - 4y - 4 = 0$",
+                "$x^2 + y^2 - 2x + 4y - 4 = 0$",
+                "$x^2 + y^2 + 2x - 4y + 4 = 0$",
+                "$x^2 + y^2 + 2x - 4y - 9 = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "For what value of the constant parameter $c$ does the general expression $x^2 + y^2 - 6x + 8y + c = 0$ represent a point circle?",
+              "options": [
+                "$0$",
+                "$25$",
+                "$-25$",
+                "$5$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If a straight line intercept circle cuts the axes at $(a, 0)$ and $(0, b)$ and passes through the origin $(0,0)$, its diameter form equation is:",
+              "options": [
+                "$x(x-a) + y(y-b) = 0$",
+                "$x(x+a) + y(y+b) = 0$",
+                "$x^2 + y^2 = a^2 + b^2$",
+                "$x^2 + y^2 + ax + by = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Tangency Metrics & Point Transformations",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Point Power and Tangent/Normal Line Equations",
+          "concept": "Let $S \\equiv x^2 + y^2 + 2g|x + 2fy + c = 0$ represent our baseline circle. Evaluating a point $P(x_1, y_1)$ inside the expression defines the <strong>Power of a Point</strong>, denoted as $S_1 = x_1^2 + y_1^2 + 2gx_1 + 2fy_1 + c$. The position of $P$ relative to the circle depends on the sign of $S_1$:\n <ul>\n <li>$S_1 > 0 \\implies P$ is located <strong>outside</strong> the circle boundary.\n <li>$S_1 = 0 \\implies P$ lies exactly <strong>on</strong> the circle boundary trace.\n <li>$S_1 < 0 \\implies P$ is situated <strong>inside</strong> the circle boundary.\n </ul>\n If $P$ is outside the circle ($S_1 > 0$), the geometric length $L$ of the tangent line segment drawn from $P$ to the circle is:\n \\[ L = \\sqrt{S_1} \\]\n To construct linear boundary lines at a point on the circle, apply standard calculus transformations ($x^2 \\to x x_1$, $2x \\to x + x_1$, etc.) using the $T = 0$ notation:\n <ul>\n <li><strong>Tangent Line ($T=0$):</strong> At a point $P(x_1, y_1)$ on the circle, the tangent equation is:\n \\[ T \\equiv x x_1 + y y_1 + g(x + x_1) + f(y + y_1) + c = 0 \\]\n <li><strong>Slope Form Tangent:</strong> For a given slope $m$, a line parallel to $y = mx$ is tangent to the circle $(x-h)^2 + (y-k)^2 = r^2$ if its perpendicular distance from the center equals the radius, yielding:\n \\[ y - k = m(x - h) \\pm r\\sqrt{1 + m^2} \\]\n <li><strong>Normal Line:</strong> A normal line stands perpendicular to the tangent at the point of contact. Since a circle is perfectly symmetric, every normal line must pass through the center coordinates $(-g, -f)$. Thus, the normal equation connecting the center and $P(x_1, y_1)$ is simply the line passing through those two points.\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the equation of the tangent line to the circle $x^2 + y^2 - 4x + 2y - 5 = 0$ at the point $P(5, 0)$ lying on its boundary.</p>",
+              "solution": "<p>First, verify that $P(5, 0)$ lies on the circle boundary by checking that $S_1 = 0$:\n \\[ 5^2 + 0^2 - 4(5) + 2(0) - 5 = 25 + 0 - 20 + 0 - 5 = 0 \\quad (\\text{Valid Boundary Point}) \\]\n Apply the $T = 0$ template transformation rules directly:\n \\[ x^2 \\to 5x, \\quad y^2 \\to 0y, \\quad 2x \\to x + 5, \\quad 2y \\to y + 0 \\]\n Substitute these into the general equation:\n \\[ 5x + 0y - 2(x + 5) + 1(y + 0) - 5 = 0 \\]\n Expand and gather the variable coefficients:\n \\[ 5x - 2x - 10 + y - 5 = 0 \\implies 3x + y - 15 = 0 \\]\n <strong>Final Answer:</strong> The tangent line equation is $3x + y - 15 = 0$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Calculate the length of the tangent line segment drawn from the external point $P(6, 5)$ to the circle curve $x^2 + y^2 - 2x - 4y - 4 = 0$:",
+              "options": [
+                "$3$",
+                "$5$",
+                "$\\sqrt{15}$",
+                "$4$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The line $y = mx + c$ is tangent to the circle $x^2 + y^2 = R^2$ if the constant parameter satisfies which condition?",
+              "options": [
+                "$c^2 = R^2(1 + m^2)$",
+                "$c = R(1 + m^2)$",
+                "$c^2 = R^2(1 - m^2)$",
+                "$c = mR$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the normal line to the circle $x^2 + y^2 - 6x - 4y - 12 = 0$ at the boundary point $P(6, 6)$:",
+              "options": [
+                "$4x - 3y - 6 = 0$",
+                "$3x - 4y + 6 = 0$",
+                "$4x + 3y - 42 = 0$",
+                "$x - y = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Determine the structural position of the point $Q(1, 2)$ relative to the circle curve $x^2 + y^2 - 4x - 2y + 2 = 0$:",
+              "options": [
+                "Inside the circle",
+                "Outside the circle",
+                "On the circle boundary",
+                "At the center point"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The equation of the tangent line to the circle $x^2 + y^2 = 25$ at the point $(3, 4)$ is:",
+              "options": [
+                "$3x + 4y = 25$",
+                "$4x - 3y = 0$",
+                "$3x + 4y = 5$",
+                "$3x - 4y = 25$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Chords of Contact and Midpoint Structural Parametrizations",
+          "concept": "This subsection covers chord lines generated by tracking points and lines across the circle field:\n <ul>\n <li><strong>Chord of Contact:</strong> If two tangent lines are drawn from an external point $P(x_1, y_1)$ to a circle, they touch the boundary at two points of tangency, $A$ and $B$. The line segment $AB$ connecting these points is the <strong>chord of contact</strong>. Its equation matches the $T = 0$ format:\n \\[ x x_1 + y y_1 + g(x + x_1) + f(y + y_1) + c = 0 \\]\n Note that while this equation shares the same format as a tangent line, it represents a chord line because $P$ lies outside the circle boundary.\n <li><strong>Chord with a Given Midpoint:</strong> If a chord line is bisected exactly at an interior point $M(x_1, y_1)$, its equation can be found using the $T = S_1$ formula:\n \\[ x x_1 + y y_1 + g(x + x_1) + f(y + y_1) + c = x_1^2 + y_1^2 + 2gx_1 + 2fy_1 + c \\]\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the equation of the chord of the circle $x^2 + y^2 = 25$ whose midpoint is located at $M(2, -1)$.</p>",
+              "solution": "Apply the $T = S_1$ chord formula directly.\n <ul>\n <li><strong>Step 1: Formulate the $T$ expression mapping</strong><br>\n \\[ T = x(2) + y(-1) = 2x - y \\]\n <li><strong>Step 2: Evaluate the $S_1$ scalar power value</strong><br>\n \\[ S_1 = (2)^2 + (-1)^2 = 4 + 1 = 5 \\]\n </ul>\n Equate the two expressions ($T = S_1$):\n \\[ 2x - y = 5 \\implies 2x - y - 5 = 0 \\]\n <strong>Final Answer:</strong> The chord equation is $2x - y - 5 = 0$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Find the equation of the chord of contact drawn from the external point $P(4, 3)$ to the circle curve $x^2 + y^2 = 9$:",
+              "options": [
+                "$4x + 3y = 9$",
+                "$4x + 3y = 0$",
+                "$3x + 4y = 9$",
+                "$4x - 3y = 9$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the chord of the circle $x^2 + y^2 - 4x - 6y - 3 = 0$ that is bisected exactly at the point $M(1, 1)$:",
+              "options": [
+                "$x + 2y - 3 = 0$",
+                "$2x + 1y - 3 = 0$",
+                "$x - 2y + 1 = 0$",
+                "$x + 2y + 3 = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the chord of contact of tangents drawn from a variable point $P$ to the circle $x^2 + y^2 = R^2$ always passes through a fixed point $(a, b)$, then the locus of $P$ forms a:",
+              "options": [
+                "Straight line",
+                "Circle",
+                "Parabola",
+                "Ellipse"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The length of a chord of a circle with radius $R$ whose midpoint is located at a distance $d$ from the center point evaluates to:",
+              "options": [
+                "$2\\sqrt{R^2 - d^2}$",
+                "$\\sqrt{R^2 - d^2}$",
+                "$2\\sqrt{R^2 + d^2}$",
+                "$R^2 - d^2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the chord of contact from the origin $(0,0)$ to the circle $(x-2)^2 + (y-3)^2 = 4$:",
+              "options": [
+                "$2x + 3y = 9$",
+                "$2x + 3y = 4$",
+                "$2x + 3y = 13$",
+                "$2x + 3y = 5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Multi-Circle Operators & Radical Fields",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Radical Axis, Centres, and Common Chords",
+          "concept": "The geometric relationships between multiple circles can be analyzed using linear combinations of their equations:\n <ul>\n <li><strong>Radical Axis:</strong> The radical axis of two circles $S_1 = 0$ and $S_2 = 0$ is the locus of a point that moves such that the lengths of the tangents drawn from it to both circles are equal. Mathematically, it is found by subtracting the two normalized equations:\n \\[ S_1 - S_2 = 0 \\implies 2(g_1 - g_2)x + 2(f_1 - f_2)y + (c_1 - c_2) = 0 \\]\n The radical axis is always a straight line perpendicular to the line joining the centers of the two circles. If the circles intersect, the radical axis matches their <strong>common chord line</strong>.\n <li><strong>Radical Center:</strong> For a system of three circles, the three independent radical axes intersect at a single point called the <strong>radical center</strong>. The lengths of the tangents drawn from this point to all three circles are equal.\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the equation of the common chord (radical axis) for the two circles $S_1: x^2 + y^2 - 4x - 6y + 3 = 0$ and $S_2: x^2 + y^2 - 2x - 2y - 1 = 0$.</p>",
+              "solution": "<p>Verify that both circle equations are normalized, then subtract $S_2$ from $S_1$:\n \\[ S_1 - S_2 = 0 \\]\n \\[ (x^2 + y^2 - 4x - 6y + 3) - (x^2 + y^2 - 2x - 2y - 1) = 0 \\]\n Combine like terms to find the linear equation:\n \\[ -4x + 2x - 6y + 2y + 3 + 1 = 0 \\implies -2x - 4y + 4 = 0 \\]\n Divide by $-2$ to simplify the coefficients:\n \\[ x + 2y - 2 = 0 \\]\n <strong>Final Answer:</strong> The common chord equation is $x + 2y - 2 = 0$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Find the equation of the radical axis for the two circles $x^2 + y^2 + 2x + 4y + 1 = 0$ and $x^2 + y^2 + 4x + 2y + 1 = 0$:",
+              "options": [
+                "$x - y = 0$",
+                "$x + y = 0$",
+                "$2x + 2y = 1$",
+                "$x - y + 2 = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The radical axis of two non-intersecting circles stands perpendicular to:",
+              "options": [
+                "The x-axis",
+                "The y-axis",
+                "The line joining the centers of the circles",
+                "The tangent drawn at the origin"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Find the length of the common chord of the intersecting circles $x^2 + y^2 = 4$ and $x^2 + y^2 - 4x = 0$:",
+              "options": [
+                "$\\sqrt{3}$",
+                "$2\\sqrt{3}$",
+                "$2$",
+                "$4$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The radical center of three mutually intersecting circles where each pair has a common chord line is the point of intersection of their:",
+              "options": [
+                "Common chords",
+                "Direct tangents",
+                "Normal lines",
+                "Centers"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If two circles touch each other externally, their radical axis matches their:",
+              "options": [
+                "Common internal tangent line",
+                "Line of centers",
+                "Direct external tangent line",
+                "Chord of contact"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Intersection Angles, Orthogonality, and Coaxial Systems",
+          "concept": "Advanced multi-circle architectures track intersection profiles and system configurations:\n <ul>\n <li><strong>Angle of Intersection:</strong> The angle $\\phi$ between two intersecting circles is defined as the angle between their tangent lines at a point of intersection. It can be found from the radii and center distance $d$ using the Law of Cosines:\n \\[ \\cos\\phi = \\frac{r_1^2 + r_2^2 - d^2}{2r_1 r_2} \\]\n <li><strong>Orthogonal Circles ($\\phi = 90^\\circ$):</strong> Two circles are orthogonal if they intersect at a right angle. Setting $\\cos(90^\\circ) = 0$ simplifies the relationship to $d^2 = r_1^2 + r_2^2$. Written in terms of the general coefficients, this yields the standard orthogonality condition:\n \\[ 2g_1 g_2 + 2f_1 f_2 = c_1 + c_2 \\]\n <li><strong>Coaxial System of Circles:</strong> A system of circles is coaxial if every pair of circles in the system shares the exact same radical axis. The family can be generated using a base circle $S$ and the common radical axis line $L$:\n \\[ S + \\lambda L = 0 \\]\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the value of the constant parameter $k$ for which the two circles $x^2 + y^2 - 4x + 6y + 5 = 0$ and $x^2 + y^2 + kx - 2y + 9 = 0$ intersect orthogonally.</p>",
+              "solution": "Extract the general coefficients from both circle equations:\n <ul>\n <li>Circle 1: $2g_1 = -4 \\implies g_1 = -2, \\quad 2f_1 = 6 \\implies f_1 = 3, \\quad c_1 = 5$\n <li>Circle 2: $2g_2 = k \\implies g_2 = \\frac{k}{2}, \\quad 2f_2 = -2 \\implies f_2 = -1, \\quad c_2 = 9$\n </ul>\n Apply the standard orthogonality condition equation:\n \\[ 2g_1 g_2 + 2f_1 f_2 = c_1 + c_2 \\]\n Substitute the extracted coefficients into the formula:\n \\[ 2(-2)\\left(\\frac{k}{2}\\right) + 2(3)(-1) = 5 + 9 \\]\n Simplify the terms and solve for $k$:\n \\[ -2k - 6 = 14 \\implies -2k = 20 \\implies k = -10 \\]\n <strong>Final Answer:</strong> The circles are orthogonal when $k = -10$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Find the value of $c$ if the circles $x^2 + y^2 - 2x - 4y + c = 0$ and $x^2 + y^2 - 4x - 2y + 4 = 0$ cut orthogonally:",
+              "options": [
+                "$4$",
+                "$0$",
+                "$-4$",
+                "$2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If two circles are orthogonal, the angle of intersection between their boundaries is exactly:",
+              "options": [
+                "$0^\\circ$",
+                "$45^\\circ$",
+                "$90^\\circ$",
+                "$180^\\circ$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Any line belonging to the family of radical axes inside a coaxial system of circles is:",
+              "options": [
+                "Unique and identical across all pairings",
+                "Parallel to the line of centers",
+                "Dependent on the parameter $\\lambda$",
+                "Passing through the origin unconditionally"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the angle of intersection between the two circles $x^2 + y^2 = 4$ and $x^2 + y^2 - 4x = 0$ if their center distance matches $d = 2$:",
+              "options": [
+                "$30^\\circ$",
+                "$60^\\circ$",
+                "$45^\\circ$",
+                "$90^\\circ$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The condition for the two general circles to be orthogonal depends strictly on which coefficients?",
+              "options": [
+                "$g, f,$ and $c$ only",
+                "$g$ and $f$ only",
+                "$c$ only",
+                "The quadratic terms only"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Tangent Topology & Relative Configurations",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Relative Positions and Common Tangent Profiles",
+          "concept": "The relative position of two circles in a plane depends on the relationship between their center distance $d$ and the sum or difference of their radii, $r_1$ and $r_2$. This relationship also determines the number of <strong>common tangent lines</strong> that can be drawn to the circles:\n <ul>\n <li><strong>Case 1: Circles are completely separate ($d > r_1 + r_2$)</strong><br>\n The circles do not intersect or touch. There are <strong>4 common tangents</strong>: 2 direct (external) tangents and 2 transverse (internal) tangents.\n <li><strong>Case 2: Circles touch externally ($d = r_1 + r_2$)</strong><br>\n There are <strong>3 common tangents</strong>: 2 direct tangents and 1 common internal tangent at the point of contact.\n <li><strong>Case 3: Circles intersect at two points ($|r_1 - r_2| < d < r_1 + r_2$)</strong><br>\n There are <strong>2 common tangents</strong>: both are direct external tangents.\n <li><strong>Case 4: Circles touch internally ($d = |r_1 - r_2|$)</strong><br>\n There is <strong>1 common tangent</strong>: a single common external tangent passing through the point of contact.\n <li><strong>Case 5: One circle lies entirely inside the other ($d < |r_1 - r_2|$)</strong><br>\n The circles do not touch or intersect. There are <strong>0 common tangents</strong>.\n </ul>\n Direct tangents intersect on the line of centers at an external point $O_1$ that divides the center segment externally in the ratio of the radii ($r_1 : r_2$). Transverse tangents intersect at an internal point $O_2$ that divides the center segment internally in the same ratio ($r_1 : r_2$).",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Determine the relative position and the total number of common tangents for the two circles $S_1: x^2 + y^2 = 4$ and $S_2: x^2 + y^2 - 6x - 8y + 21 = 0$.</p>",
+              "solution": "Extract the center coordinates and radii for both circles:\n <ul>\n <li>Circle 1: Center $C_1(0, 0)$, Radius $r_1 = 2$\n <li>Circle 2: Center $C_2(3, 4)$, Radius $r_2 = \\sqrt{(-3)^2 + (-4)^2 - 21} = \\sqrt{9 + 16 - 21} = \\sqrt{4} = 2$\n </ul>\n Compute the distance $d$ between the centers $C_1$ and $C_2$:\n \\[ d = \\sqrt{(3 - 0)^2 + (4 - 0)^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5 \\]\n Evaluate the sum of the radii:\n \\[ r_1 + r_2 = 2 + 2 = 4 \\]\n Compare the center distance with the sum of the radii:\n \\[ d = 5 > 4 = r_1 + r_2 \\]\n Since the center distance is strictly greater than the sum of the radii ($d > r_1 + r_2$), the circles are completely separate and do not touch or intersect. This configuration allows for the maximum number of common tangents.\n <strong>Final Answer:</strong> The circles are separate; there are exactly 4 common tangents."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If the center distance between two circles satisfies $d = r_1 + r_2$, the total number of common tangents that can be drawn is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$4$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Find the total number of common tangents for the two circles $x^2 + y^2 = 9$ and $x^2 + y^2 - 2x = 0$ if they intersect at two points:",
+              "options": [
+                "$2$",
+                "$1$",
+                "$0$",
+                "$4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The internal intersection point $O_2$ of the transverse common tangents divides the line segment joining the centers of the circles in what ratio?",
+              "options": [
+                "$r_1 : r_2$ internally",
+                "$r_1 : r_2$ externally",
+                "$1 : 1$ internally",
+                "$r_1^2 : r_2^2$ internally"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the center distance satisfies $d < |r_1 - r_2|$, the total number of common tangents matches:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "$4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the relative position condition if two circles satisfy the center-radius equation $d = |r_1 - r_2|$:",
+              "options": [
+                "Intersect at two distinct points",
+                "Touch each other internally",
+                "Touch each other externally",
+                "Are completely separate"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-math-circles-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "Find the equation of the circle passing through the origin $(0,0)$ that has intercepts equal to $a = 4$ and $b = 6$ on the positive x and y axes respectively.",
+              "options": [
+                "$x^2 + y^2 - 4x - 6y = 0$",
+                "$x^2 + y^2 + 4x + 6y = 0$",
+                "$x^2 + y^2 - 2x - 3y = 0$",
+                "$x^2 + y^2 - 8x - 12y = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the tangent line to the circle $x^2 + y^2 = 25$ at the point $P(-3, 4)$ lying on its boundary.",
+              "options": [
+                "$-3x + 4y = 25$",
+                "$3x + 4y = 25$",
+                "$-3x + 4y = 5$",
+                "$4x + 3y = 25$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Calculate the length of the tangent line segment drawn from the external point $P(5, 6)$ to the circle curve $x^2 + y^2 = 9$.",
+              "options": [
+                "$\\sqrt{52}$",
+                "$4$",
+                "$2\\sqrt{13}$",
+                "$\\sqrt{32}$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the chord of contact drawn from the external point $P(2, 3)$ to the circle curve $x^2 + y^2 = 4$.",
+              "options": [
+                "$2x + 3y = 4$",
+                "$2x + 3y = 0$",
+                "$3x + 2y = 4$",
+                "$2x - 3y = 4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the common chord for the two intersecting circles $x^2 + y^2 - 4x - 2y + 1 = 0$ and $x^2 + y^2 - 2x - 4y + 1 = 0$.",
+              "options": [
+                "$x - y = 0$",
+                "$x + y = 0$",
+                "$x - y + 1 = 0$",
+                "$2x + 2y = 1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the value of the parameter $k$ for which the two circles $x^2 + y^2 - 2x - 4y + 1 = 0$ and $x^2 + y^2 - 4x + ky + 3 = 0$ intersect orthogonally.",
+              "options": [
+                "$-3$",
+                "$-1$",
+                "$2$",
+                "$1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Determine the total number of common tangents that can be drawn to the two circles $x^2 + y^2 = 4$ and $x^2 + y^2 - 8x - 6y + 21 = 0$.",
+              "options": [
+                "$4$",
+                "$3$",
+                "$2$",
+                "$1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the normal line to the circle $x^2 + y^2 = 16$ at the boundary point $P(2, 2\\sqrt{3})$.",
+              "options": [
+                "$y = \\sqrt{3}x$",
+                "$y = -\\sqrt{3}x$",
+                "$x = \\sqrt{3}y$",
+                "$\\sqrt{3}x + y = 4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the chord of the circle $x^2 + y^2 = 16$ whose midpoint is located at $M(1, 2)$.",
+              "options": [
+                "$x + 2y = 5$",
+                "$x + 2y = 16$",
+                "$2x + y = 5$",
+                "$x - 2y = 5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the radius of the circle given parametrically by $x = 2 + 5\\cos\\theta$ and $y = -3 + 5\\sin\\theta$.",
+              "options": [
+                "$5$",
+                "$25$",
+                "$\\sqrt{5}$",
+                "$2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "If the line $y = x + c$ is tangent to the circle $x^2 + y^2 = 18$, find the positive value of the constant intercept parameter $c$.",
+              "answer": "6",
+              "explanation": ""
+            },
+            {
+              "q": "Find the total number of common tangents that can be drawn to two circles that intersect each other at exactly two distinct points.",
+              "answer": "2",
+              "explanation": ""
+            },
+            {
+              "q": "If the orthogonal system condition satisfies $2g_1 g_2 + 2f_1 f_2 = c_1 + k$, and the second circle has a constant term $c_2 = 5$ with $c_1 = 4$, find the integer value of $k$.",
+              "answer": "5",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The straight line equation $3x - 4y + 25 = 0$ stands as a valid tangent line to the circle $x^2 + y^2 = 25$.<br>\n <strong>Reason (R):</strong> A straight line is tangent to a circle if and only if its perpendicular distance from the center point equals the metric radius.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> The chord of contact from an internal point $P(1,1)$ to the circle $x^2 + y^2 = 25$ can be found using the formula $T = 0$.<br>\n <strong>Reason (R):</strong> A chord of contact can only be generated from an external point lying outside the circle boundary, where $S_1 > 0$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 3,
+              "explanation": "A is false (because an internal point cannot generate a chord of contact), but R is true."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-math-circles-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "Find the coordinates of the radical center for the system of three circles $x^2+y^2=1$, $x^2+y^2-2x=3$, and $x^2+y^2-4y=5$.",
+              "options": [
+                "$(-1, -1)$",
+                "$(1, 1)$",
+                "$(0, 0)$",
+                "$(-1, 1)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a variable circle cuts the two fixed orthogonal circles $S_1 = 0$ and $S_2 = 0$ orthogonally, then the locus of its center point forms a:",
+              "options": [
+                "Straight line (the radical axis of $S_1$ and $S_2$)",
+                "Circle centered at the origin",
+                "Parabola along the center line",
+                "Coaxial circular system curve"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the direct external common tangent line to the circles $x^2+y^2=4$ and $x^2+y^2-10x+16=0$ if their radii are $r_1 = 2$ and $r_2 = 3$.",
+              "options": [
+                "$\\sqrt{5}x - 2y = 6$",
+                "$\\sqrt{5}x - 2y = 12$",
+                "$x - y = 2$",
+                "$2x - \\sqrt{5}y = 6$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The locus of the point of intersection of two mutually perpendicular tangent lines drawn to the circle $x^2 + y^2 = R^2$ forms a concentric circle called the director circle, whose equation matches:",
+              "options": [
+                "$x^2 + y^2 = 2R^2$",
+                "$x^2 + y^2 = \\sqrt{2}R^2$",
+                "$x^2 + y^2 = 4R^2$",
+                "$x^2 + y^2 = R^2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of a circle belonging to the coaxial system family $(x^2+y^2-4) + \\lambda(x-y) = 0$ that passes through the point $(2, 4)$.",
+              "options": [
+                "$x^2 + y^2 + 8x - 8y - 4 = 0$",
+                "$x^2 + y^2 - 8x + 8y - 4 = 0$",
+                "$x^2 + y^2 - 4x + 4y - 4 = 0$",
+                "$x^2 + y^2 - 4 = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the angle of intersection between the two circles $x^2 + y^2 - 4x - 2y + 1 = 0$ and $x^2 + y^2 - 2x - 4y + 1 = 0$.",
+              "options": [
+                "$\\cos^{-1}(7/9)$",
+                "$90^\\circ$",
+                "$60^\\circ$",
+                "$\\cos^{-1}(1/3)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The length of the transverse internal common tangent line to two separate circles with center distance $d$ and radii $r_1, r_2$ is:",
+              "options": [
+                "$\\sqrt{d^2 - (r_1 + r_2)^2}$",
+                "$\\sqrt{d^2 - (r_1 - r_2)^2}$",
+                "$\\sqrt{d^2 + (r_1 + r_2)^2}$",
+                "$d - r_1 - r_2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the circle $x^2 + y^2 + 2gx + 2fy + c = 0$ bisects the circumference of the circle $x^2 + y^2 + 2g'x + 2f'y + c' = 0$, then their common chord line must pass through:",
+              "options": [
+                "The center of the second circle $(-g', -f')$",
+                "The center of the first circle $(-g, -f)$",
+                "The origin $(0,0)$",
+                "The radical center"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the locus of the midpoint of a chord of the circle $x^2 + y^2 = R^2$ that subtends a right angle ($90^\\circ$) at the center point.",
+              "options": [
+                "$x^2 + y^2 = R^2/2$",
+                "$x^2 + y^2 = R^2/4$",
+                "$x^2 + y^2 = 2R^2$",
+                "$x^2 + y^2 = 3R^2/4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The numbers of common tangents that can be drawn to the two circles $(x-1)^2 + (y-1)^2 = 1$ and $(x-2)^2 + (y-2)^2 = 4$ is exactly:",
+              "options": [
+                "$2$",
+                "$1$",
+                "$3$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "If the two circles $x^2 + y^2 = 25$ and $x^2 + y^2 - 24x - 10y + c = 0$ touch each other externally, find the value of the constant parameter $c$ if $r_1=5$ and $r_2=21$.",
+              "answer": "-119",
+              "explanation": ""
+            },
+            {
+              "q": "Find the total number of common tangents that can be drawn to two concentric circles with distinct non-zero radii.",
+              "answer": "0",
+              "explanation": ""
+            },
+            {
+              "q": "Find the value of the scaling parameter $k$ if the director circle equation for $x^2 + y^2 = 50$ is mapped as $x^2 + y^2 = k$.",
+              "answer": "100",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The radical axis of two intersecting circles is identical to their common chord line format equation $S_1 - S_2 = 0$.<br>\n <strong>Reason (R):</strong> The power of any point lying on the common chord line is zero with respect to both circles, satisfying the definitions of the radical axis locus tracker.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> Two circles with equations $x^2 + y^2 - 2x = 0$ and $x^2 + y^2 - 2y = 0$ cut each other orthogonally.<br>\n <strong>Reason (R):</strong> The orthogonality criterion equation evaluates as $2( -1)(0) + 2(0)( -1) = 0 + 0 = 0$, matching the sum of their constant parameters $c_1 + c_2 = 0$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

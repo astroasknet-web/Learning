@@ -1,0 +1,241 @@
+{
+  "_comment": "Recommendation engine data for GrowQR RQ Score, wired to the real GrowQR course catalog (/courses/). Course URL = base_url + course_path + slug. 'resume_rules' map education-section weaknesses to career-readiness courses; 'domains' map the candidate's detected field to upskilling courses; 'catalog' is the editable list of all 116 courses.",
+  "base_url": "/",
+  "course_path": "/courses/",
+  "max_total": 6,
+
+  "resume_rules": [
+    {
+      "id": "resume-makeover",
+      "when": { "section_below": 12 },
+      "slug": "corporate-readiness-interview",
+      "reason": "Your education section scores low on clarity and structure. This course covers resume building, ATS formatting and mock interviews to fix that fast."
+    },
+    {
+      "id": "ats-formatting",
+      "when": { "param_below": { "id": 15, "score": 3 } },
+      "slug": "corporate-readiness-interview",
+      "reason": "Layout hierarchy is weak. Resume-building sessions here rework spacing, bullets and typography so you read well to both ATS and humans."
+    },
+    {
+      "id": "degree-wording",
+      "when": { "param_below": { "id": 2, "score": 3 } },
+      "slug": "business-communication",
+      "reason": "Your degree is written informally or abbreviated. Professional-writing skills help you present credentials with precise, formal wording."
+    },
+    {
+      "id": "positioning",
+      "when": { "param_below": { "id": 4, "score": 3 } },
+      "slug": "linkedin-personal-branding",
+      "reason": "Your field/specialisation reads as broad. Personal-branding work sharpens how you position your background for target roles."
+    },
+    {
+      "id": "certifications-early",
+      "when": { "param_below": { "id": 11, "score": 2 }, "career_stage": ["student", "fresher"] },
+      "slug": "corporate-readiness-interview",
+      "reason": "Few professional certifications detected for an early-career profile. Get interview-ready and learn which credentials matter for your target roles."
+    }
+  ],
+
+  "domain_recommendation": {
+    "max": 3,
+    "reason_template": "Based on your %DOMAIN% background, this GrowQR course builds job-ready, in-demand skills that strengthen your profile."
+  },
+
+  "domains": {
+    "software": {
+      "label": "software engineering",
+      "keywords": ["computer science", "software engineer", "software developer", "developer", "programmer", "programming", "full stack", "web developer", "backend", "front-end", "frontend", "java", "javascript", "python", "c++", "c#", ".net", "node", "react", "angular", "software development"],
+      "courses": ["dsa-for-interviews", "front-end-development", "git-github"]
+    },
+    "data": {
+      "label": "data & analytics",
+      "keywords": ["data analyst", "data analytics", "business intelligence", "power bi", "tableau", "sql", "excel analyst", "reporting", "dashboards", "data science", "statistics"],
+      "courses": ["data-analytics-python-sql", "sql-for-data-business", "business-analytics-power-bi"]
+    },
+    "ai": {
+      "label": "AI / machine learning",
+      "keywords": ["machine learning", "artificial intelligence", "deep learning", "neural network", "nlp", "natural language processing", "ml engineer", "ai engineer", "computer vision", "llm"],
+      "courses": ["machine-learning-python", "generative-ai-llm-development", "prompt-engineering"]
+    },
+    "cloud": {
+      "label": "cloud & DevOps",
+      "keywords": ["cloud", "aws", "azure", "gcp", "google cloud", "devops", "kubernetes", "docker", "ci/cd", "infrastructure", "system administrator", "sysadmin", "site reliability", "sre"],
+      "courses": ["cloud-computing-fundamentals", "devops-cicd", "aws-solutions-architect"]
+    },
+    "cybersecurity": {
+      "label": "cybersecurity",
+      "keywords": ["cybersecurity", "cyber security", "information security", "penetration testing", "ethical hacking", "soc analyst", "security operations", "network security", "infosec"],
+      "courses": ["cybersecurity-essentials", "ethical-hacking-pentesting", "soc-analyst"]
+    },
+    "design": {
+      "label": "design & creative",
+      "keywords": ["ui/ux", "ux designer", "ui designer", "graphic design", "figma", "photoshop", "illustrator", "video editing", "premiere", "motion graphics", "visual design", "creative"],
+      "courses": ["ui-ux-design-figma", "graphic-design-canva", "video-editing-premiere-pro"]
+    },
+    "marketing": {
+      "label": "digital marketing",
+      "keywords": ["digital marketing", "seo", "sem", "social media", "performance marketing", "paid ads", "growth marketing", "content marketing", "brand manager", "marketing executive"],
+      "courses": ["digital-marketing-foundations", "seo", "performance-marketing-ads"]
+    },
+    "finance": {
+      "label": "finance & investing",
+      "keywords": ["finance", "financial analyst", "investment", "banking", "equity research", "financial planning", "cfa", "treasury", "fp&a"],
+      "courses": ["financial-literacy-investing", "executive-financial-management", "advanced-excel-data-analysis"]
+    },
+    "accounting": {
+      "label": "accounting & taxation",
+      "keywords": ["chartered accountant", "accountant", "accounting", "bookkeeping", "tally", "gst", "audit", "taxation", "accounts payable", "accounts receivable", "ca"],
+      "courses": ["tally-gst-compliance", "basic-accounting-bookkeeping", "advanced-excel"]
+    },
+    "hr": {
+      "label": "human resources",
+      "keywords": ["human resources", "hr executive", "hr manager", "recruitment", "recruiter", "talent acquisition", "people operations", "payroll", "hr generalist", "administration", "admin executive"],
+      "courses": ["hr-people-analytics", "business-communication", "advanced-excel"]
+    },
+    "sales": {
+      "label": "sales & business development",
+      "keywords": ["sales", "business development", "account manager", "bdm", "inside sales", "field sales", "lead generation", "key accounts", "relationship manager"],
+      "courses": ["sales-business-development", "customer-success-support", "business-communication"]
+    },
+    "product": {
+      "label": "product management",
+      "keywords": ["product manager", "product management", "product owner", "roadmap", "associate product", "apm"],
+      "courses": ["product-management-fundamentals", "agile-scrum-jira", "business-strategy-consulting"]
+    },
+    "operations": {
+      "label": "operations & supply chain",
+      "keywords": ["operations", "supply chain", "logistics", "procurement", "inventory", "warehouse", "demand planning", "operations manager"],
+      "courses": ["operations-supply-chain", "project-management-pmp", "advanced-excel"]
+    },
+    "blockchain": {
+      "label": "blockchain & Web3",
+      "keywords": ["blockchain", "web3", "solidity", "smart contract", "ethereum", "cryptocurrency", "defi", "nft", "dapp"],
+      "courses": ["intro-blockchain-web3", "solidity-programming-beginners", "build-first-blockchain-dapp"]
+    },
+    "general": {
+      "label": "career readiness",
+      "keywords": [],
+      "courses": ["corporate-readiness-interview", "spoken-english", "advanced-excel"]
+    }
+  },
+
+  "catalog": [
+    { "slug": "basic-computer-internet-literacy", "title": "Basic Computer & Internet Literacy", "category": "Digital & Office Productivity" },
+    { "slug": "basic-microsoft-excel", "title": "Basic Microsoft Excel", "category": "Digital & Office Productivity" },
+    { "slug": "advanced-excel", "title": "Advanced Excel", "category": "Digital & Office Productivity" },
+    { "slug": "excel-macros-vba", "title": "Excel Automation with Macros & VBA", "category": "Digital & Office Productivity" },
+    { "slug": "google-workspace", "title": "Google Workspace (Docs, Sheets, Slides, Forms)", "category": "Digital & Office Productivity" },
+    { "slug": "microsoft-word", "title": "Microsoft Word — Professional Documents", "category": "Digital & Office Productivity" },
+    { "slug": "powerpoint-presentation-design", "title": "PowerPoint & Presentation Design", "category": "Digital & Office Productivity" },
+    { "slug": "data-analytics-python-sql", "title": "Data Analytics with Python & SQL", "category": "Data, Analytics & BI" },
+    { "slug": "sql-for-data-business", "title": "SQL for Data & Business", "category": "Data, Analytics & BI" },
+    { "slug": "business-analytics-power-bi", "title": "Business Analytics with Power BI", "category": "Data, Analytics & BI" },
+    { "slug": "data-visualization-tableau", "title": "Data Visualization with Tableau", "category": "Data, Analytics & BI" },
+    { "slug": "advanced-excel-data-analysis", "title": "Advanced Excel for Data Analysis", "category": "Data, Analytics & BI" },
+    { "slug": "statistics-for-analysts", "title": "Statistics for Analysts & Data Science", "category": "Data, Analytics & BI" },
+    { "slug": "data-engineering-fundamentals", "title": "Data Engineering Fundamentals", "category": "Data, Analytics & BI" },
+    { "slug": "google-analytics-4", "title": "Google Analytics 4 & Web Analytics", "category": "Data, Analytics & BI" },
+    { "slug": "ai-literacy-productivity", "title": "AI Literacy & Everyday Productivity", "category": "AI & Machine Learning" },
+    { "slug": "prompt-engineering", "title": "Prompt Engineering", "category": "AI & Machine Learning" },
+    { "slug": "machine-learning-python", "title": "Machine Learning with Python", "category": "AI & Machine Learning" },
+    { "slug": "deep-learning-neural-networks", "title": "Deep Learning & Neural Networks", "category": "AI & Machine Learning" },
+    { "slug": "natural-language-processing", "title": "Natural Language Processing (NLP)", "category": "AI & Machine Learning" },
+    { "slug": "generative-ai-llm-development", "title": "Generative AI & LLM Application Development", "category": "AI & Machine Learning" },
+    { "slug": "agentic-ai-multi-agent", "title": "Agentic AI & Multi-Agent Systems", "category": "AI & Machine Learning" },
+    { "slug": "mlops-model-deployment", "title": "MLOps & Model Deployment", "category": "AI & Machine Learning" },
+    { "slug": "computer-vision-essentials", "title": "Computer Vision Essentials", "category": "AI & Machine Learning" },
+    { "slug": "ai-for-business-leaders", "title": "AI for Business Leaders / Generative AI Strategy", "category": "AI & Machine Learning" },
+    { "slug": "responsible-ethical-ai", "title": "Responsible & Ethical AI", "category": "AI & Machine Learning" },
+    { "slug": "python-foundations", "title": "Programming Foundations with Python", "category": "Software Development" },
+    { "slug": "front-end-development", "title": "Front-End Development (HTML, CSS, JavaScript)", "category": "Software Development" },
+    { "slug": "java-spring-boot", "title": "Java Programming & Spring Boot", "category": "Software Development" },
+    { "slug": "flutter-mobile-development", "title": "Mobile App Development with Flutter", "category": "Software Development" },
+    { "slug": "git-github", "title": "Git & GitHub for Developers", "category": "Software Development" },
+    { "slug": "dsa-for-interviews", "title": "Data Structures & Algorithms for Interviews", "category": "Software Development" },
+    { "slug": "api-development", "title": "API Development & Integration", "category": "Software Development" },
+    { "slug": "cloud-computing-fundamentals", "title": "Cloud Computing Fundamentals (AWS/Azure/GCP)", "category": "Cloud, DevOps & Infrastructure" },
+    { "slug": "aws-solutions-architect", "title": "AWS Solutions Architect Path", "category": "Cloud, DevOps & Infrastructure" },
+    { "slug": "azure-administration", "title": "Microsoft Azure Administration", "category": "Cloud, DevOps & Infrastructure" },
+    { "slug": "google-cloud-essentials", "title": "Google Cloud Essentials", "category": "Cloud, DevOps & Infrastructure" },
+    { "slug": "devops-cicd", "title": "DevOps & CI/CD Pipeline Engineering", "category": "Cloud, DevOps & Infrastructure" },
+    { "slug": "docker-kubernetes", "title": "Docker & Kubernetes", "category": "Cloud, DevOps & Infrastructure" },
+    { "slug": "linux-shell-scripting", "title": "Linux & Shell Scripting", "category": "Cloud, DevOps & Infrastructure" },
+    { "slug": "site-reliability-monitoring", "title": "Site Reliability & Cloud Monitoring", "category": "Cloud, DevOps & Infrastructure" },
+    { "slug": "cybersecurity-essentials", "title": "Cybersecurity Essentials", "category": "Cybersecurity" },
+    { "slug": "ethical-hacking-pentesting", "title": "Ethical Hacking & Penetration Testing", "category": "Cybersecurity" },
+    { "slug": "network-security-firewalls", "title": "Network Security & Firewalls", "category": "Cybersecurity" },
+    { "slug": "cloud-security", "title": "Cloud Security", "category": "Cybersecurity" },
+    { "slug": "soc-analyst", "title": "Security Operations (SOC Analyst)", "category": "Cybersecurity" },
+    { "slug": "data-privacy-compliance", "title": "Data Privacy & Compliance (DPDP/GDPR)", "category": "Cybersecurity" },
+    { "slug": "ui-ux-design-figma", "title": "UI/UX Design with Figma", "category": "Design & Creative" },
+    { "slug": "graphic-design-canva", "title": "Graphic Design with Canva", "category": "Design & Creative" },
+    { "slug": "photoshop-illustrator", "title": "Graphic Design with Photoshop & Illustrator", "category": "Design & Creative" },
+    { "slug": "video-editing-premiere-pro", "title": "Video Editing with Premiere Pro", "category": "Design & Creative" },
+    { "slug": "short-form-video", "title": "Reels & Short-Form Video Production", "category": "Design & Creative" },
+    { "slug": "3d-blender-basics", "title": "3D & Blender Basics", "category": "Design & Creative" },
+    { "slug": "digital-marketing-foundations", "title": "Digital Marketing Foundations", "category": "Digital Marketing & Growth" },
+    { "slug": "seo", "title": "Search Engine Optimization (SEO)", "category": "Digital Marketing & Growth" },
+    { "slug": "performance-marketing-ads", "title": "Performance Marketing & Paid Ads", "category": "Digital Marketing & Growth" },
+    { "slug": "social-media-marketing", "title": "Social Media Marketing & Management", "category": "Digital Marketing & Growth" },
+    { "slug": "growth-marketing-funnels", "title": "Growth Marketing & Funnels", "category": "Digital Marketing & Growth" },
+    { "slug": "email-marketing-automation", "title": "Email Marketing & Automation", "category": "Digital Marketing & Growth" },
+    { "slug": "content-marketing-copywriting", "title": "Content Marketing & Copywriting", "category": "Digital Marketing & Growth" },
+    { "slug": "ecommerce-marketplace-selling", "title": "E-commerce & Marketplace Selling", "category": "Digital Marketing & Growth" },
+    { "slug": "youtube-creator", "title": "YouTube Creator Masterclass", "category": "Content & Personal Branding" },
+    { "slug": "linkedin-personal-branding", "title": "Personal Branding on LinkedIn", "category": "Content & Personal Branding" },
+    { "slug": "ai-assisted-content-creation", "title": "AI-Assisted Content Creation", "category": "Content & Personal Branding" },
+    { "slug": "product-management-fundamentals", "title": "Product Management Fundamentals", "category": "Business, Management & Product" },
+    { "slug": "advanced-product-management", "title": "Advanced Product Management for Tech", "category": "Business, Management & Product" },
+    { "slug": "project-management-pmp", "title": "Project Management (PMP / CAPM / Agile)", "category": "Business, Management & Product" },
+    { "slug": "agile-scrum-jira", "title": "Agile & Scrum with Jira", "category": "Business, Management & Product" },
+    { "slug": "business-strategy-consulting", "title": "Business Strategy & Consulting Skills", "category": "Business, Management & Product" },
+    { "slug": "operations-supply-chain", "title": "Operations & Supply Chain Management", "category": "Business, Management & Product" },
+    { "slug": "hr-people-analytics", "title": "Human Resources & People Analytics", "category": "Business, Management & Product" },
+    { "slug": "sales-business-development", "title": "Sales & Business Development", "category": "Business, Management & Product" },
+    { "slug": "customer-success-support", "title": "Customer Success & Support Excellence", "category": "Business, Management & Product" },
+    { "slug": "digital-transformation-leaders", "title": "Digital Transformation & AI Strategy for Leaders", "category": "Business, Management & Product" },
+    { "slug": "financial-literacy-investing", "title": "Financial Literacy & Personal Investing", "category": "Finance, Accounting & Investing" },
+    { "slug": "basic-accounting-bookkeeping", "title": "Basic Accounting & Bookkeeping", "category": "Finance, Accounting & Investing" },
+    { "slug": "tally-gst-compliance", "title": "Tally & GST Compliance", "category": "Finance, Accounting & Investing" },
+    { "slug": "executive-financial-management", "title": "Executive Financial Management", "category": "Finance, Accounting & Investing" },
+    { "slug": "crypto-blockchain-basics", "title": "Cryptocurrency & Blockchain Basics", "category": "Finance, Accounting & Investing" },
+    { "slug": "entrepreneurship-startup", "title": "Entrepreneurship & Startup Building", "category": "Entrepreneurship & Freelancing" },
+    { "slug": "freelancing-gig-economy", "title": "Freelancing & Gig Economy Mastery", "category": "Entrepreneurship & Freelancing" },
+    { "slug": "no-code-app-development", "title": "No-Code / Low-Code App Development", "category": "Entrepreneurship & Freelancing" },
+    { "slug": "public-speaking-leadership", "title": "Public Speaking & Leadership Communication", "category": "Entrepreneurship & Freelancing" },
+    { "slug": "spoken-english", "title": "Spoken English & Accent Neutralization", "category": "Communication & Career Skills" },
+    { "slug": "business-communication", "title": "Business Communication & Email Etiquette", "category": "Communication & Career Skills" },
+    { "slug": "corporate-readiness-interview", "title": "Corporate Readiness & Interview Preparation", "category": "Communication & Career Skills" },
+    { "slug": "time-management-productivity", "title": "Time Management & Productivity", "category": "Communication & Career Skills" },
+    { "slug": "critical-thinking-problem-solving", "title": "Critical Thinking & Problem Solving", "category": "Communication & Career Skills" },
+    { "slug": "german-a1-b2", "title": "German (A1–B2)", "category": "Foreign Languages" },
+    { "slug": "french-spanish-global", "title": "French / Spanish for Global Careers", "category": "Foreign Languages" },
+    { "slug": "vedic-mathematics", "title": "Vedic Mathematics & Speed Calculation", "category": "Test Prep & Study Skills" },
+    { "slug": "ielts-toefl-prep", "title": "IELTS / TOEFL Preparation", "category": "Test Prep & Study Skills" },
+    { "slug": "sat-preparation", "title": "SAT Preparation", "category": "Test Prep & Study Skills" },
+    { "slug": "coding-for-kids", "title": "Coding for Kids & Teens", "category": "Test Prep & Study Skills" },
+    { "slug": "yoga-nutrition-health", "title": "Yoga, Nutrition & Preventive Health", "category": "Health & Wellness" },
+    { "slug": "mental-health-mindfulness", "title": "Mental Health & Mindfulness", "category": "Health & Wellness" },
+    { "slug": "cyber-hygiene-families", "title": "Cyber Hygiene & Digital Safety for Families", "category": "Digital Safety & Life Skills" },
+    { "slug": "everyday-financial-digital-life", "title": "Everyday Financial & Digital Life Skills", "category": "Digital Safety & Life Skills" },
+    { "slug": "intro-blockchain-web3", "title": "Introduction to Blockchain & Web3", "category": "Blockchain & Web3" },
+    { "slug": "blockchain-blocks-hashing-consensus", "title": "Blockchain Fundamentals: Blocks, Hashing & Consensus", "category": "Blockchain & Web3" },
+    { "slug": "cryptocurrency-digital-assets-fundamentals", "title": "Cryptocurrency & Digital Assets Fundamentals", "category": "Blockchain & Web3" },
+    { "slug": "blockchain-architecture-networks", "title": "Blockchain Architecture & Networks", "category": "Blockchain & Web3" },
+    { "slug": "ethereum-smart-contracts", "title": "Ethereum & Smart Contracts", "category": "Blockchain & Web3" },
+    { "slug": "solidity-programming-beginners", "title": "Solidity Programming for Beginners", "category": "Blockchain & Web3" },
+    { "slug": "build-first-blockchain-dapp", "title": "Build Your First Blockchain DApp", "category": "Blockchain & Web3" },
+    { "slug": "advanced-solidity-development", "title": "Advanced Solidity & Smart Contract Development", "category": "Blockchain & Web3" },
+    { "slug": "smart-contract-security-auditing", "title": "Smart Contract Security & Auditing", "category": "Blockchain & Web3" },
+    { "slug": "token-development-erc-standards", "title": "Token Development: ERC-20, ERC-721 & ERC-1155", "category": "Blockchain & Web3" },
+    { "slug": "nfts-decentralized-applications", "title": "NFTs & Decentralized Applications", "category": "Blockchain & Web3" },
+    { "slug": "web3-development-javascript-nodejs", "title": "Web3 Development with JavaScript/Node.js", "category": "Blockchain & Web3" },
+    { "slug": "blockchain-php-nodejs", "title": "Blockchain Development with PHP & Node.js", "category": "Blockchain & Web3" },
+    { "slug": "production-ready-web3-apps", "title": "Building Production-Ready Web3 Applications", "category": "Blockchain & Web3" },
+    { "slug": "blockchain-5-real-world-projects", "title": "Blockchain Projects: Build 5 Real-World Applications", "category": "Blockchain & Web3" },
+    { "slug": "blockchain-enterprise-architecture", "title": "Blockchain Architecture & Enterprise Solutions", "category": "Blockchain & Web3" },
+    { "slug": "blockchain-defi", "title": "Blockchain & Decentralized Finance (DeFi)", "category": "Blockchain & Web3" },
+    { "slug": "blockchain-capstone-project", "title": "Blockchain Capstone Project", "category": "Blockchain & Web3" }
+  ]
+}

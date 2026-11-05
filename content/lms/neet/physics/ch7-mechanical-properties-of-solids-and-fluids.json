@@ -1,0 +1,168 @@
+{
+  "exam": "neet",
+  "subject": "physics",
+  "chapter": 7,
+  "title": "Mechanical Properties of Solids & Fluids",
+  "slug": "mechanical-properties-of-solids-and-fluids",
+  "subtitle": "Elasticity, pressure, buoyancy, Bernoulli, viscosity & surface tension",
+  "level": "NEET (UG)",
+  "color": "#2563eb",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "NEET Physics — Mechanical Properties of Solids & Fluids: stress-strain and elastic moduli, pressure and Pascal's law, Archimedes' principle, Bernoulli's theorem, viscosity and surface tension with NEET-level examples and MCQs. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Mechanical Properties of Solids (Elasticity)",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Stress, Strain and Young's Modulus",
+          "concept": "<p>When a force is applied to a solid, it deforms; when the force is removed, an <strong>elastic</strong> body returns to its original shape, while a <strong>plastic</strong> body does not. To describe deformation independently of the object's size, physics uses two ratios. <strong>Stress</strong> is the internal restoring force per unit area, $\\sigma = \\dfrac{F}{A}$, with SI unit pascal ($\\text{N/m}^{2}$). <strong>Strain</strong> is the fractional change produced — for stretching, the longitudinal strain is $\\dfrac{\\Delta L}{L}$, a pure number with no units.</p><p><strong>Hooke's law</strong> states that within the elastic limit, stress is directly proportional to strain. The constant of proportionality is the <strong>modulus of elasticity</strong>, a measure of a material's stiffness. For lengthwise deformation this is <strong>Young's modulus</strong>, $Y = \\dfrac{\\text{longitudinal stress}}{\\text{longitudinal strain}} = \\dfrac{F/A}{\\Delta L/L} = \\dfrac{FL}{A\\,\\Delta L}$. A large $Y$ (steel) means a stiff material that stretches little; a small $Y$ (rubber) means an easily-stretched one.</p><p>The <strong>stress-strain curve</strong> is a NEET staple. It rises linearly (Hooke's-law region) up to the <em>proportional limit</em>; then to the <em>elastic limit</em> (yield point), beyond which permanent deformation begins; on stretching further the material reaches its maximum stress, the <em>ultimate strength</em>, and finally <em>fractures</em>. The area under the curve represents the energy absorbed per unit volume. Reading off these points — and knowing that a material is 'elastic' only up to the elastic limit — answers many graph questions.</p><p>Because $\\Delta L = \\dfrac{FL}{AY}$, the extension of a wire is directly proportional to the load and the original length, and inversely proportional to the area of cross-section and Young's modulus. This explains why a thick wire stretches less than a thin one under the same load, and why doubling the length doubles the extension. Steel's high $Y$ is also why it is chosen for bridges and rails — it resists deformation strongly.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Definition</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Stress</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\sigma = F/A$ (Pa)</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Longitudinal strain</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\Delta L/L$ (no unit)</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Young's modulus</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$Y = \\dfrac{FL}{A\\,\\Delta L}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A wire of length $2\\ \\text{m}$ and area $1\\ \\text{mm}^{2}$ stretches by $1\\ \\text{mm}$ under a $100\\ \\text{N}$ load. Find Young's modulus.</p>",
+              "solution": "<p>$Y = \\dfrac{FL}{A\\,\\Delta L} = \\dfrac{100\\times2}{(1\\times10^{-6})(1\\times10^{-3})} = \\dfrac{200}{10^{-9}} = 2\\times10^{11}\\ \\text{N/m}^{2}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Two wires of the same material and length but radii $r$ and $2r$ carry equal loads. Find the ratio of their extensions.</p>",
+              "solution": "<p>$\\Delta L \\propto 1/A \\propto 1/r^{2}$. So $\\dfrac{\\Delta L_1}{\\Delta L_2} = \\dfrac{(2r)^{2}}{r^{2}} = 4$ — the thinner wire stretches four times as much.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The SI unit of stress is the:</p>", "options": ["newton", "pascal", "joule", "no unit"], "correct": 1, "explanation": "Stress = force/area = $\\text{N/m}^2$ = pascal." },
+            { "q": "<p>Strain has:</p>", "options": ["unit of pascal", "unit of newton", "no units", "unit of metre"], "correct": 2, "explanation": "Strain is a ratio of like quantities — dimensionless." },
+            { "q": "<p>Hooke's law holds:</p>", "options": ["always", "within the elastic limit", "only for fluids", "beyond fracture"], "correct": 1, "explanation": "Stress ∝ strain only within the elastic limit." },
+            { "q": "<p>A material with a large Young's modulus is:</p>", "options": ["easily stretched", "very stiff", "a liquid", "plastic"], "correct": 1, "explanation": "Large $Y$ means small strain for given stress — stiff." },
+            { "q": "<p>Extension of a wire is inversely proportional to its:</p>", "options": ["length", "load", "area of cross-section", "temperature"], "correct": 2, "explanation": "$\\Delta L = FL/AY$, so $\\Delta L \\propto 1/A$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Convert area to $\\text{m}^2$ and extension to metres before using $Y = FL/(A\\,\\Delta L)$. Remember $\\Delta L \\propto L/A$ for comparison questions.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Bulk Modulus, Shear Modulus and Elastic Energy",
+          "concept": "<p>Young's modulus describes stretching, but materials can also be squeezed from all sides or twisted, and each has its own modulus. The <strong>bulk modulus</strong> $K$ measures resistance to a uniform change in volume: $K = -\\dfrac{\\Delta P}{\\Delta V/V}$, where $\\Delta P$ is the change in pressure and $\\Delta V/V$ the volume strain (the minus sign makes $K$ positive, since increasing pressure reduces volume). Solids and liquids have large bulk moduli — they are hard to compress — while gases have very small ones. The reciprocal of $K$ is the <strong>compressibility</strong>.</p><p>The <strong>shear (rigidity) modulus</strong> $\\eta$ measures resistance to a change in shape at constant volume, produced by a tangential force: $\\eta = \\dfrac{\\text{shear stress}}{\\text{shear strain}}$. Only solids have rigidity — they resist being twisted or sheared. Fluids cannot sustain a shear stress, which is precisely why they flow; this is a key conceptual point NEET likes to test.</p><p>Stretching or compressing a body stores <strong>elastic potential energy</strong>, just like a spring. The work done per unit volume in straining a body within the elastic limit is the area under the stress-strain graph: $u = \\tfrac{1}{2}\\times\\text{stress}\\times\\text{strain} = \\tfrac{1}{2}\\dfrac{\\sigma^{2}}{Y}$. For a stretched wire, the total stored energy is $\\tfrac{1}{2}\\times\\text{load}\\times\\text{extension}$ — the same $\\tfrac{1}{2}Fx$ form as a spring, which makes it easy to remember.</p><p>A practical idea built on these moduli is <strong>Poisson's ratio</strong>: when a wire is stretched lengthwise it thins sideways, and the ratio of lateral strain to longitudinal strain (typically $0.2$–$0.5$) is a property of the material. NEET also expects you to know that of the three deformations, a gas responds only to bulk stress (it has no shape rigidity), a liquid resists volume change but not shape change, and a solid resists all three — a clean way to compare states of matter through elasticity.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Modulus</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Deformation resisted</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Young's $Y$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>change in length</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Bulk $K$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>change in volume</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Shear $\\eta$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>change in shape (solids only)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A pressure increase of $2\\times10^{5}\\ \\text{Pa}$ causes a fractional volume decrease of $10^{-6}$ in a liquid. Find its bulk modulus.</p>",
+              "solution": "<p>$K = \\dfrac{\\Delta P}{|\\Delta V/V|} = \\dfrac{2\\times10^{5}}{10^{-6}} = 2\\times10^{11}\\ \\text{Pa}$ — very large, confirming liquids are nearly incompressible.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A wire stretches by $1\\ \\text{mm}$ under a $40\\ \\text{N}$ load. Find the elastic potential energy stored.</p>",
+              "solution": "<p>$U = \\tfrac{1}{2}Fx = \\tfrac{1}{2}\\times40\\times(1\\times10^{-3}) = 0.02\\ \\text{J}$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Bulk modulus measures resistance to change in:</p>", "options": ["length", "volume", "shape", "temperature"], "correct": 1, "explanation": "$K$ relates pressure change to volume strain." },
+            { "q": "<p>Which modulus is defined only for solids?</p>", "options": ["Young's", "bulk", "shear (rigidity)", "all"], "correct": 2, "explanation": "Fluids cannot sustain shear, so only solids have rigidity modulus." },
+            { "q": "<p>Fluids flow because they cannot resist:</p>", "options": ["compression", "a shear (tangential) stress", "gravity", "pressure"], "correct": 1, "explanation": "Zero rigidity ⇒ any shear stress makes them flow." },
+            { "q": "<p>Elastic energy per unit volume equals:</p>", "options": ["stress × strain", "$\\tfrac{1}{2}$ stress × strain", "$Y$ × strain", "stress / strain"], "correct": 1, "explanation": "$u = \\tfrac{1}{2}\\sigma\\varepsilon$ (area under the stress-strain line)." },
+            { "q": "<p>The reciprocal of bulk modulus is called:</p>", "options": ["rigidity", "compressibility", "Poisson's ratio", "strain"], "correct": 1, "explanation": "Compressibility $= 1/K$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Match the deformation to the modulus — length → $Y$, volume → $K$, shape → $\\eta$. Remember gases have only $K$, liquids $K$ (not shape), solids all three.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Mechanical Properties of Fluids",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Pressure, Pascal's Law and Archimedes' Principle",
+          "concept": "<p><strong>Pressure</strong> is the normal force per unit area, $P = \\dfrac{F}{A}$ (pascal). In a fluid at rest, pressure acts equally in all directions at a point and increases with depth: the pressure at depth $h$ below the surface is $P = P_0 + \\rho g h$, where $P_0$ is the pressure at the top (atmospheric, if open) and $\\rho$ is the fluid density. Notice that this depends only on depth, density and $g$ — not on the shape or amount of the container, the basis of the 'hydrostatic paradox'.</p><p><strong>Pascal's law</strong> states that a pressure applied to an enclosed fluid is transmitted undiminished to every part of the fluid and the walls. This is the principle behind hydraulic machines such as the car lift and hydraulic brakes: a small force on a small piston creates a pressure that, acting on a large piston, produces a large force. Because $\\dfrac{F_1}{A_1} = \\dfrac{F_2}{A_2}$, the force is multiplied by the ratio of areas — a genuine force amplifier, traded against a larger distance moved.</p><p><strong>Archimedes' principle</strong> deals with bodies immersed in a fluid: the upward <strong>buoyant force</strong> on a body equals the weight of the fluid it displaces, $F_B = \\rho_{\\text{fluid}} V_{\\text{displaced}}\\, g$. This explains why objects feel lighter in water (apparent weight = real weight − buoyant force) and is responsible for floating and sinking.</p><p>The condition for <strong>floating</strong> follows directly. A body floats when the buoyant force balances its weight, which requires the body's average density to be less than (or equal to) the fluid's density. A floating body sinks until it displaces fluid equal to its own weight; the fraction submerged equals the ratio of densities, $\\dfrac{V_{\\text{sub}}}{V} = \\dfrac{\\rho_{\\text{body}}}{\\rho_{\\text{fluid}}}$. This is why about $90\\%$ of an iceberg lies below water (ice and water densities are close), a classic NEET illustration.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Concept</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Relation</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Pressure at depth $h$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$P = P_0 + \\rho g h$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Pascal (hydraulic)</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$F_1/A_1 = F_2/A_2$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Buoyant force</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$F_B = \\rho_f V_{disp}\\,g$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the pressure due to water at a depth of $10\\ \\text{m}$. ($\\rho = 1000\\ \\text{kg/m}^3$, $g = 10\\ \\text{m/s}^2$, ignore atmosphere)</p>",
+              "solution": "<p>$P = \\rho g h = 1000\\times10\\times10 = 10^{5}\\ \\text{Pa}$ — about one atmosphere, so the total pressure at $10\\ \\text{m}$ depth is roughly double atmospheric.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A block of density $600\\ \\text{kg/m}^3$ floats in water. What fraction is submerged?</p>",
+              "solution": "<p>$\\dfrac{V_{sub}}{V} = \\dfrac{\\rho_{body}}{\\rho_{water}} = \\dfrac{600}{1000} = 0.6$ — so $60\\%$ is submerged and $40\\%$ floats above the surface.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Pressure in a liquid at rest increases with:</p>", "options": ["area", "depth", "container shape", "colour"], "correct": 1, "explanation": "$P = P_0 + \\rho g h$ grows with depth." },
+            { "q": "<p>Hydraulic lifts work on:</p>", "options": ["Archimedes' principle", "Pascal's law", "Bernoulli's theorem", "Hooke's law"], "correct": 1, "explanation": "Pressure is transmitted undiminished (Pascal's law)." },
+            { "q": "<p>The buoyant force equals the weight of:</p>", "options": ["the body", "the displaced fluid", "the container", "air above"], "correct": 1, "explanation": "Archimedes' principle: $F_B$ = weight of displaced fluid." },
+            { "q": "<p>A body floats if its average density is:</p>", "options": ["greater than the fluid's", "equal to or less than the fluid's", "zero", "infinite"], "correct": 1, "explanation": "Floating needs body density ≤ fluid density." },
+            { "q": "<p>The fraction of a floating body submerged equals:</p>", "options": ["$\\rho_{fluid}/\\rho_{body}$", "$\\rho_{body}/\\rho_{fluid}$", "1 always", "0"], "correct": 1, "explanation": "$V_{sub}/V = \\rho_{body}/\\rho_{fluid}$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Liquid pressure depends only on depth, density and $g$ — never on container shape or the volume of liquid. For floating, use the density ratio for the submerged fraction.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Fluid Dynamics: Bernoulli, Viscosity and Surface Tension",
+          "concept": "<p>For a fluid in steady, streamline flow, mass conservation gives the <strong>equation of continuity</strong>: $A_1 v_1 = A_2 v_2$, so a fluid speeds up where the pipe narrows. Energy conservation for an ideal (non-viscous, incompressible) fluid gives <strong>Bernoulli's theorem</strong>: $P + \\tfrac{1}{2}\\rho v^{2} + \\rho g h = \\text{constant}$ along a streamline. Its central message is that where a fluid flows faster, its pressure is lower — the basis of the aerofoil lift on aeroplane wings, the spin of a swerving ball, and the action of a sprayer or carburettor.</p><p>Real fluids resist flow because of <strong>viscosity</strong>, an internal friction between fluid layers moving at different speeds. The viscous force follows Newton's law of viscosity, with the coefficient of viscosity $\\eta$ (SI unit Pa·s) measuring the 'thickness' of a fluid — honey has a far higher $\\eta$ than water. A small sphere falling through a viscous fluid quickly reaches a constant <strong>terminal velocity</strong>, given by <strong>Stokes' law</strong> as $v_t = \\dfrac{2r^{2}(\\rho - \\sigma)g}{9\\eta}$, where $r$ is the sphere's radius and $\\rho$, $\\sigma$ the densities of sphere and fluid. Terminal velocity grows with the <em>square</em> of the radius, so larger drops fall faster.</p><p>At a liquid's surface, molecules are pulled inward by their neighbours, giving the surface an elastic, stretched-skin behaviour called <strong>surface tension</strong> $T$ — the force per unit length along the surface (N/m), equal to the surface energy per unit area. Surface tension makes small drops and bubbles spherical (least surface area for a given volume), lets insects walk on water, and causes the excess pressure inside a drop, $\\Delta P = \\dfrac{2T}{r}$ (and $\\dfrac{4T}{r}$ for a soap bubble with two surfaces).</p><p>Surface tension also drives <strong>capillary action</strong> — the rise or fall of a liquid in a thin tube. The capillary rise is $h = \\dfrac{2T\\cos\\theta}{\\rho g r}$, where $\\theta$ is the contact angle and $r$ the tube radius; the narrower the tube, the higher the rise. Water rises in a glass tube (it wets the glass, $\\theta &lt; 90^{\\circ}$), while mercury is depressed (it does not wet glass, $\\theta &gt; 90^{\\circ}$). These results — Bernoulli's pressure-speed link, Stokes' $r^{2}$ dependence, and the $1/r$ pressure and $1/r$ capillary-rise laws — are the most frequently tested fluid-dynamics facts in NEET.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Principle</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Relation</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Continuity</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$A_1 v_1 = A_2 v_2$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Bernoulli</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$P + \\tfrac{1}{2}\\rho v^{2} + \\rho g h = $ const</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Terminal velocity</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$v_t \\propto r^{2}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Excess pressure (drop)</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\Delta P = 2T/r$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Water flows through a pipe whose cross-section narrows from $A$ to $A/4$. By what factor does the speed change?</p>",
+              "solution": "<p>By continuity $A_1 v_1 = A_2 v_2$, so $v_2 = v_1\\dfrac{A_1}{A_2} = v_1\\dfrac{A}{A/4} = 4v_1$ — the water speeds up four times in the narrow section.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the excess pressure inside a water drop of radius $0.001\\ \\text{m}$. (surface tension $T = 0.072\\ \\text{N/m}$)</p>",
+              "solution": "<p>$\\Delta P = \\dfrac{2T}{r} = \\dfrac{2\\times0.072}{0.001} = 144\\ \\text{Pa}$. (For a soap bubble it would be $4T/r = 288\\ \\text{Pa}$, because a bubble has two surfaces.)</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>According to Bernoulli, where fluid speed is high, the pressure is:</p>", "options": ["high", "low", "unchanged", "zero"], "correct": 1, "explanation": "Faster flow ⇒ lower pressure along a streamline." },
+            { "q": "<p>The equation of continuity expresses conservation of:</p>", "options": ["energy", "momentum", "mass", "charge"], "correct": 2, "explanation": "$A_1 v_1 = A_2 v_2$ is mass conservation." },
+            { "q": "<p>Terminal velocity of a sphere in a viscous fluid varies with radius as:</p>", "options": ["$r$", "$r^{2}$", "$1/r$", "$r^{3}$"], "correct": 1, "explanation": "Stokes' law gives $v_t \\propto r^2$." },
+            { "q": "<p>Excess pressure inside a soap bubble of radius $r$ is:</p>", "options": ["$T/r$", "$2T/r$", "$4T/r$", "$T r$"], "correct": 2, "explanation": "A soap bubble has two surfaces, so $\\Delta P = 4T/r$." },
+            { "q": "<p>Water rises higher in a:</p>", "options": ["wider tube", "narrower tube", "tube of any width equally", "tube only if heated"], "correct": 1, "explanation": "Capillary rise $h \\propto 1/r$ — narrower tube, higher rise." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Three high-yield laws: Bernoulli (fast ⇒ low pressure), terminal velocity $\\propto r^2$, and the $1/r$ laws for excess pressure ($2T/r$ drop, $4T/r$ bubble) and capillary rise.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-physics-ch7-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>Stress has the same unit as:</p>", "options": ["force", "pressure", "energy", "strain"], "correct": 1, "explanation": "Both stress and pressure are $\\text{N/m}^2$." },
+            { "q": "<p>A wire of length $L$ extends by $\\Delta L$ under a load. A wire of the same material and area but length $2L$ under the same load extends by:</p>", "options": ["$\\Delta L$", "$2\\Delta L$", "$\\Delta L/2$", "$4\\Delta L$"], "correct": 1, "explanation": "$\\Delta L \\propto L$, so doubling length doubles extension." },
+            { "q": "<p>Which modulus exists for gases?</p>", "options": ["Young's", "shear", "bulk", "rigidity"], "correct": 2, "explanation": "Gases resist only volume change (bulk modulus)." },
+            { "q": "<p>The pressure at $5\\ \\text{m}$ depth in water ($\\rho = 1000$, $g = 10$) due to the water column is:</p>", "options": ["$5000\\ \\text{Pa}$", "$50000\\ \\text{Pa}$", "$500000\\ \\text{Pa}$", "$500\\ \\text{Pa}$"], "correct": 1, "explanation": "$\\rho g h = 1000\\times10\\times5 = 50000\\ \\text{Pa}$." },
+            { "q": "<p>An object floats with $\\tfrac{3}{4}$ submerged in water. Its density is:</p>", "options": ["$250\\ \\text{kg/m}^3$", "$500\\ \\text{kg/m}^3$", "$750\\ \\text{kg/m}^3$", "$1000\\ \\text{kg/m}^3$"], "correct": 2, "explanation": "$\\rho_{body} = 0.75\\times1000 = 750\\ \\text{kg/m}^3$." },
+            { "q": "<p>An aeroplane wing generates lift because air moves:</p>", "options": ["slower above, lower pressure above", "faster above, lower pressure above", "faster below, lower pressure below", "equally on both sides"], "correct": 1, "explanation": "Faster flow above ⇒ lower pressure above ⇒ upward lift (Bernoulli)." },
+            { "q": "<p>The terminal velocity of a raindrop depends on its radius as:</p>", "options": ["$r$", "$r^{2}$", "$1/r$", "constant"], "correct": 1, "explanation": "Stokes' law: $v_t \\propto r^2$." },
+            { "q": "<p>Excess pressure inside a liquid drop of radius $r$ is:</p>", "options": ["$T/r$", "$2T/r$", "$4T/r$", "$T r$"], "correct": 1, "explanation": "A drop has one surface: $\\Delta P = 2T/r$." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> Liquids cannot sustain a shear stress.<br><strong>R:</strong> Liquids have no rigidity (shear) modulus and therefore flow.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Zero rigidity means any shear stress causes flow — R explains A." },
+            { "q": "<p><strong>A:</strong> A small drop of liquid tends to be spherical.<br><strong>R:</strong> Surface tension minimises the surface area for a given volume.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "A sphere has the least surface area for a given volume, which surface tension favours — R explains A." },
+            { "q": "<p><strong>A:</strong> Water rises higher in a narrower capillary tube.<br><strong>R:</strong> Capillary rise is directly proportional to the tube radius.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 2, "explanation": "A is true (rise is higher in narrower tubes), but R is false — capillary rise is inversely proportional to radius ($h \\propto 1/r$)." },
+            { "q": "<p><strong>A:</strong> Pressure in a static liquid is the same at all points at the same depth.<br><strong>R:</strong> Liquid pressure at a point depends only on depth, density and $g$, not on container shape.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Since $P = P_0 + \\rho g h$ depends only on depth, equal depths give equal pressure — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

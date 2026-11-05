@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "biology",
+  "chapter": 8,
+  "title": "Cell: The Unit of Life",
+  "slug": "cell-the-unit-of-life",
+  "subtitle": "Cell theory, the prokaryotic cell, the cell membrane and wall, the endomembrane system and the cell organelles",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "leaf",
+  "seo": {
+    "meta_description": "NEET Biology — Cell: The Unit of Life: cell theory, prokaryotic vs eukaryotic cells, the fluid-mosaic membrane, cell wall, endomembrane system (ER, Golgi, lysosomes, vacuoles), mitochondria, plastids, ribosomes, cytoskeleton and nucleus, with NEET-level examples and MCQs. Free on GrowQR.",
+    "focus_keyword": "cell the unit of life NEET",
+    "secondary_keywords": [
+      "cell theory NEET",
+      "prokaryotic cell features",
+      "fluid mosaic model",
+      "cell organelles functions NEET",
+      "endomembrane system"
+    ],
+    "keywords": [
+      "cell the unit of life NEET",
+      "prokaryotic eukaryotic cell",
+      "mitochondria chloroplast semi-autonomous",
+      "ribosome 70S 80S",
+      "cell organelles NCERT"
+    ]
+  },
+  "summary": "<ul><li><strong>Cell theory</strong> (Schleiden + Schwann; extended by Virchow — <em>omnis cellula-e cellula</em>): all organisms are made of cells, and all cells arise from pre-existing cells. Hooke saw dead cork 'cells'; Leeuwenhoek saw the first live cell.</li><li><strong>Prokaryote:</strong> no membrane-bound nucleus (nucleoid) or organelles; cell wall of peptidoglycan; <strong>70S ribosomes</strong>; mesosomes; inclusion bodies; flagella.</li><li><strong>Membrane:</strong> fluid-mosaic model (Singer &amp; Nicolson) — lipid bilayer + proteins; selectively permeable (passive vs active transport).</li><li><strong>Endomembrane system:</strong> ER (rough = protein, smooth = lipid), Golgi (packaging/secretion), lysosomes (digestion), vacuoles (storage).</li><li><strong>Energy/expression organelles:</strong> mitochondria (ATP) and plastids (photosynthesis) are <strong>semi-autonomous</strong> (own DNA + 70S ribosomes); ribosomes (80S in eukaryotes) make protein; nucleus holds the chromatin.</li></ul>",
+  "faqs": [
+    { "q": "Who proposed the cell theory and what did Virchow add?", "a": "The cell theory was proposed by Matthias Schleiden (for plants) and Theodor Schwann (for animals), stating that all living organisms are composed of cells. Rudolf Virchow later extended it with 'omnis cellula-e cellula' — that all cells arise from pre-existing cells." },
+    { "q": "How does a prokaryotic cell differ from a eukaryotic cell?", "a": "A prokaryotic cell has no membrane-bound nucleus (its genetic material lies in a region called the nucleoid) and no membrane-bound organelles, and it has 70S ribosomes. A eukaryotic cell has a true membrane-bound nucleus, membrane-bound organelles, and 80S ribosomes in the cytoplasm." },
+    { "q": "What is the fluid-mosaic model of the plasma membrane?", "a": "Proposed by Singer and Nicolson, the fluid-mosaic model describes the membrane as a fluid bilayer of phospholipids (polar heads outward, hydrophobic tails inward) in which proteins are embedded (integral) or attached (peripheral) and can move laterally — giving the membrane both fluidity and a mosaic of proteins." },
+    { "q": "Why are mitochondria and chloroplasts called semi-autonomous organelles?", "a": "Because each has its own circular DNA and its own 70S ribosomes, so it can synthesise some of its own proteins and divide by fission independently of the cell — though it still depends on the nucleus for most of its proteins." },
+    { "q": "What is the difference between rough and smooth endoplasmic reticulum?", "a": "Rough ER bears ribosomes on its surface and is the site of protein synthesis and secretion, whereas smooth ER lacks ribosomes and is the site of lipid and steroid synthesis (and, in muscle, calcium storage)." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Cell Theory and the Prokaryotic Cell",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Cell Theory and an Overview of the Cell",
+          "concept": "<p>The cell is the basic <strong>structural and functional unit</strong> of all living organisms — the smallest unit capable of independent existence. The history is a frequent NEET one-marker. <strong>Robert Hooke</strong> in 1665 first saw and named 'cells' while looking at dead cork under his microscope, but these were only empty walls. <strong>Anton von Leeuwenhoek</strong> was the first to see and describe a <strong>living cell</strong>. Later, <strong>Robert Brown</strong> discovered the nucleus.</p><p>The <strong>cell theory</strong> was formulated by two scientists: <strong>Matthias Schleiden</strong> (1838), who concluded that all plants are composed of cells, and <strong>Theodor Schwann</strong> (1839), who proposed the same for animals and noted that cells have a thin outer layer (the plasma membrane). Their combined statement — that all living organisms are made of cells and their products — was incomplete because it did not explain how new cells form. <strong>Rudolf Virchow</strong> (1855) supplied the missing piece with <strong>'omnis cellula-e cellula'</strong>: all cells arise from pre-existing cells. The modern cell theory therefore has two parts: (1) all organisms are composed of cells, and (2) all cells come from pre-existing cells.</p><p>Cells fall into two fundamental categories. <strong>Prokaryotic cells</strong> (bacteria, cyanobacteria, mycoplasma and PPLO) lack a true membrane-bound nucleus and membrane-bound organelles, and are generally smaller and multiply faster. <strong>Eukaryotic cells</strong> (protists, fungi, plants and animals) have a true nucleus enclosed by a nuclear envelope and possess membrane-bound organelles. Recognising which organisms are prokaryotic versus eukaryotic is essential.</p><p>Although every cell shares some features — a plasma membrane, cytoplasm and genetic material — cells vary enormously in size, shape and function. The smallest cells are mycoplasmas (about 0.3&nbsp;µm), bacteria are a few micrometres, while the largest isolated single cell is the egg of an ostrich. Cell shape ranges from the disc-like red blood cell to the long branched nerve cell, each shape suited to its job. This diversity, built on a common plan, is the theme that the rest of the chapter develops.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Scientist</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Contribution</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Robert Hooke</td><td style='border:1px solid #dcfce7;padding:6px 8px'>saw &amp; named 'cells' (dead cork)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Leeuwenhoek</td><td style='border:1px solid #dcfce7;padding:6px 8px'>first saw a living cell</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Schleiden &amp; Schwann</td><td style='border:1px solid #dcfce7;padding:6px 8px'>cell theory (plants &amp; animals)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Virchow</td><td style='border:1px solid #dcfce7;padding:6px 8px'>cells arise from pre-existing cells</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Schleiden and Schwann's cell theory was considered incomplete. What did Virchow add, and in what phrase?</p>",
+              "solution": "<p>Virchow added that <strong>all cells arise from pre-existing cells</strong>, expressed as <strong>'omnis cellula-e cellula'</strong>. This explained the origin of new cells, which the original theory had not.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>State the single biggest structural difference between a prokaryotic and a eukaryotic cell.</p>",
+              "solution": "<p>A eukaryotic cell has a <strong>true membrane-bound nucleus</strong> (and membrane-bound organelles), whereas a prokaryotic cell has <strong>no membrane-bound nucleus</strong> — its DNA lies free in a region called the nucleoid.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The term 'cell' was coined by:</p>", "options": ["Leeuwenhoek", "Robert Hooke", "Schwann", "Virchow"], "correct": 1, "explanation": "Robert Hooke named cells while observing cork." },
+            { "q": "<p>'Omnis cellula-e cellula' was given by:</p>", "options": ["Schleiden", "Schwann", "Virchow", "Brown"], "correct": 2, "explanation": "Virchow stated cells arise from pre-existing cells." },
+            { "q": "<p>The nucleus was discovered by:</p>", "options": ["Robert Brown", "Robert Hooke", "Schwann", "Singer"], "correct": 0, "explanation": "Robert Brown discovered the nucleus." },
+            { "q": "<p>The smallest cells known are:</p>", "options": ["bacteria", "mycoplasmas", "RBCs", "yeast"], "correct": 1, "explanation": "Mycoplasmas (~0.3 µm) are the smallest cells." },
+            { "q": "<p>Prokaryotic cells lack:</p>", "options": ["plasma membrane", "cytoplasm", "a membrane-bound nucleus", "genetic material"], "correct": 2, "explanation": "Prokaryotes lack a membrane-bound nucleus and organelles." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Fix the names — Hooke (named cells, cork), Leeuwenhoek (first live cell), Brown (nucleus), Schleiden + Schwann (cell theory), Virchow (omnis cellula-e cellula).</p>"
+        },
+        {
+          "number": 2,
+          "title": "The Prokaryotic Cell",
+          "concept": "<p><strong>Prokaryotic cells</strong> represent the bacteria, cyanobacteria, mycoplasma and PPLO. They are the most abundant micro-organisms and, despite their simple appearance, are metabolically very diverse. By shape, bacteria are bacillus (rod), coccus (sphere), vibrio (comma) and spirillum (spiral). The crucial point — heavily tested — is that a prokaryote has <strong>no membrane-bound nucleus and no membrane-bound organelles</strong>; its genetic material is a single, naked, circular DNA lying in a region called the <strong>nucleoid</strong>, often with extra small circular DNA called <strong>plasmids</strong>.</p><p>The prokaryotic cell is bounded by a three-layered <strong>cell envelope</strong>: an outer sticky <strong>glycocalyx</strong> (a slime layer or a firmer capsule), a rigid <strong>cell wall</strong> made of <strong>peptidoglycan (murein)</strong> that gives shape and prevents bursting, and an inner <strong>plasma membrane</strong> that is selectively permeable. Differences in the wall make bacteria <strong>Gram-positive</strong> or <strong>Gram-negative</strong> in the Gram stain, a distinction with clinical importance.</p><p>Because prokaryotes lack organelles, several functions are carried out by membrane specialisations. <strong>Mesosomes</strong> — infoldings of the plasma membrane — help in respiration, secretion, DNA replication and cell division. In cyanobacteria, membranous extensions called <strong>chromatophores</strong> contain pigments for photosynthesis. Ribosomes here are the smaller <strong>70S</strong> type (made of 50S and 30S subunits) and are the site of protein synthesis. Reserve materials are stored in non-membrane-bound <strong>inclusion bodies</strong> such as gas vacuoles, glycogen and phosphate granules.</p><p>Many prokaryotes are motile or have surface appendages. The bacterial <strong>flagellum</strong> — composed of a filament, hook and basal body — produces movement; short bristle-like <strong>fimbriae</strong> help cells attach to surfaces, and <strong>pili</strong> are involved in attachment and the transfer of genetic material between cells. For NEET, the must-knows are: nucleoid (not a true nucleus), peptidoglycan wall, mesosomes, 70S ribosomes, inclusion bodies (non-membranous) and the flagellar structure.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Prokaryotic feature</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Genetic material</td><td style='border:1px solid #dcfce7;padding:6px 8px'>naked circular DNA in nucleoid</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Cell wall</td><td style='border:1px solid #dcfce7;padding:6px 8px'>peptidoglycan (murein)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Mesosome</td><td style='border:1px solid #dcfce7;padding:6px 8px'>membrane infolding (respiration etc.)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Ribosome</td><td style='border:1px solid #dcfce7;padding:6px 8px'>70S (50S + 30S)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Inclusion bodies</td><td style='border:1px solid #dcfce7;padding:6px 8px'>storage; NOT membrane-bound</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>What is the chemical nature of the bacterial cell wall, and what is its function?</p>",
+              "solution": "<p>The bacterial cell wall is made of <strong>peptidoglycan (murein)</strong>. It gives the cell its <strong>shape</strong> and provides rigidity that prevents the cell from bursting.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Name the membrane infoldings of a bacterium and list two of their functions.</p>",
+              "solution": "<p><strong>Mesosomes</strong>. They assist in <strong>respiration</strong> and <strong>secretion</strong> (also DNA replication and cell division).</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The genetic material of a prokaryote lies in the:</p>", "options": ["nucleus", "nucleoid", "nucleolus", "mesosome"], "correct": 1, "explanation": "Naked circular DNA lies in the nucleoid." },
+            { "q": "<p>Prokaryotic ribosomes are of the type:</p>", "options": ["80S", "70S", "60S", "40S"], "correct": 1, "explanation": "Prokaryotes have 70S ribosomes (50S + 30S)." },
+            { "q": "<p>The bacterial cell wall is made of:</p>", "options": ["cellulose", "chitin", "peptidoglycan", "lignin"], "correct": 2, "explanation": "Peptidoglycan (murein) forms the bacterial wall." },
+            { "q": "<p>Mesosomes are formed by infolding of the:</p>", "options": ["cell wall", "plasma membrane", "nucleoid", "capsule"], "correct": 1, "explanation": "Mesosomes are plasma-membrane infoldings." },
+            { "q": "<p>Inclusion bodies of prokaryotes are:</p>", "options": ["membrane-bound", "not membrane-bound", "ribosomes", "always pigmented"], "correct": 1, "explanation": "Inclusion bodies are reserve stores lying free, not membrane-bound." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Prokaryote must-knows: nucleoid (not true nucleus), peptidoglycan wall, mesosome (membrane infolding), 70S ribosome, inclusion bodies (non-membranous), flagellum = filament + hook + basal body.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The Eukaryotic Cell and Its Organelles",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Cell Membrane, Cell Wall and the Endomembrane System",
+          "concept": "<p>Every cell is bounded by the <strong>plasma (cell) membrane</strong>, whose accepted structure is the <strong>fluid-mosaic model</strong> proposed by <strong>Singer and Nicolson (1972)</strong>. The membrane is a bilayer of <strong>phospholipids</strong> with their polar (hydrophilic) heads facing outward and their non-polar (hydrophobic) tails facing inward, together with <strong>proteins</strong> that are either embedded through the bilayer (<strong>integral</strong>) or attached to its surface (<strong>peripheral</strong>). The 'fluid' nature allows lateral movement of lipids and proteins, which is important for functions like growth, endocytosis and cell division.</p><p>The membrane is <strong>selectively permeable</strong>, controlling what enters and leaves. Movement of substances is <strong>passive</strong> when it needs no energy and occurs down a concentration gradient — by <strong>diffusion</strong> (and the diffusion of water, <strong>osmosis</strong>) — and <strong>active</strong> when it uses ATP to pump substances <strong>against</strong> their gradient (e.g. the Na⁺/K⁺ pump). Passive vs active transport is a standard NEET contrast.</p><p>Plant cells, fungi and many protists have, outside the membrane, a <strong>cell wall</strong> that gives shape and protection and prevents bursting. In plants it is made mainly of <strong>cellulose</strong> (hemicellulose, pectin and proteins), in fungi of <strong>chitin</strong>. The wall has a <strong>middle lamella</strong> (calcium pectate) cementing adjacent cells, a primary wall and often a thicker secondary wall; adjacent plant cells stay connected by cytoplasmic bridges called <strong>plasmodesmata</strong>.</p><p>Within the cytoplasm, several organelles whose functions are coordinated form the <strong>endomembrane system</strong>: the endoplasmic reticulum, Golgi apparatus, lysosomes and vacuoles. The <strong>endoplasmic reticulum (ER)</strong> is a network of tubules; <strong>rough ER</strong> bears ribosomes and synthesises and transports proteins, while <strong>smooth ER</strong> lacks ribosomes and makes lipids and steroids. The <strong>Golgi apparatus</strong> is a stack of flattened sacs (cisternae) that modifies, packages and dispatches materials (its <em>cis</em> face receives from the ER and its <em>trans</em> face ships out). <strong>Lysosomes</strong> are membrane sacs full of hydrolytic (digestive) enzymes — the cell's 'suicidal bags' for intracellular digestion — and <strong>vacuoles</strong> are membrane-bound spaces (the membrane is the <strong>tonoplast</strong>) for storage; the large central vacuole of a plant cell maintains turgor.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Component</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Function</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Rough ER</td><td style='border:1px solid #dcfce7;padding:6px 8px'>protein synthesis (has ribosomes)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Smooth ER</td><td style='border:1px solid #dcfce7;padding:6px 8px'>lipid &amp; steroid synthesis</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Golgi apparatus</td><td style='border:1px solid #dcfce7;padding:6px 8px'>packaging, modification, secretion</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Lysosome</td><td style='border:1px solid #dcfce7;padding:6px 8px'>intracellular digestion (hydrolases)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Vacuole</td><td style='border:1px solid #dcfce7;padding:6px 8px'>storage; turgor (tonoplast membrane)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A cell pumps Na⁺ out against its concentration gradient. What kind of transport is this and what does it require?</p>",
+              "solution": "<p>This is <strong>active transport</strong>. Because it moves the ion <strong>against</strong> its concentration gradient, it requires energy in the form of <strong>ATP</strong> (e.g. the Na⁺/K⁺ pump).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why are lysosomes called the 'suicidal bags' of the cell?</p>",
+              "solution": "<p>Because they are membrane sacs packed with <strong>hydrolytic (digestive) enzymes</strong>; if released, these enzymes can digest the cell's own contents — hence 'suicidal bags'.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The fluid-mosaic model was proposed by:</p>", "options": ["Schwann", "Singer and Nicolson", "Robert Brown", "Camillo Golgi"], "correct": 1, "explanation": "Singer and Nicolson (1972) proposed the fluid-mosaic model." },
+            { "q": "<p>Transport against a concentration gradient using ATP is:</p>", "options": ["diffusion", "osmosis", "active transport", "passive transport"], "correct": 2, "explanation": "Active transport needs ATP and moves substances against the gradient." },
+            { "q": "<p>The fungal cell wall is made of:</p>", "options": ["cellulose", "peptidoglycan", "chitin", "pectin"], "correct": 2, "explanation": "Fungal walls are made of chitin." },
+            { "q": "<p>Lipid and steroid synthesis is carried out by:</p>", "options": ["rough ER", "smooth ER", "Golgi", "lysosome"], "correct": 1, "explanation": "Smooth ER synthesises lipids and steroids." },
+            { "q": "<p>The membrane around a plant vacuole is the:</p>", "options": ["plasmalemma", "tonoplast", "cristae", "thylakoid"], "correct": 1, "explanation": "The vacuolar membrane is the tonoplast." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Fluid-mosaic (Singer &amp; Nicolson); passive (no ATP, down gradient) vs active (ATP, against gradient); ER (rough=protein, smooth=lipid), Golgi=packaging, lysosome=digestion, vacuole/tonoplast=storage.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Mitochondria, Plastids, Ribosomes, Cytoskeleton and the Nucleus",
+          "concept": "<p>The remaining organelles handle energy, expression and architecture. <strong>Mitochondria</strong> are the 'power houses' of the cell: each is bounded by a <strong>double membrane</strong> whose inner membrane folds inward into <strong>cristae</strong> that increase surface area, enclosing a <strong>matrix</strong>. They are the site of <strong>aerobic respiration</strong>, producing ATP. Crucially, mitochondria are <strong>semi-autonomous</strong> — they contain their own circular DNA and <strong>70S ribosomes</strong>, so they make some of their own proteins and divide by fission.</p><p><strong>Plastids</strong> are found only in plant cells and certain protists. <strong>Chloroplasts</strong> carry out <strong>photosynthesis</strong>; within their double membrane lies the <strong>stroma</strong> containing stacks of membranous <strong>thylakoids</strong> (a stack is a <strong>granum</strong>) that hold the chlorophyll, and like mitochondria they have their own DNA and 70S ribosomes (also semi-autonomous). <strong>Chromoplasts</strong> contain coloured carotenoid pigments (giving flowers and fruits their colour), while <strong>leucoplasts</strong> are colourless storage plastids — amyloplasts (starch), elaioplasts (oils) and aleuroplasts (proteins).</p><p><strong>Ribosomes</strong> are the granular, non-membrane-bound sites of <strong>protein synthesis</strong>; in the eukaryotic cytoplasm they are the larger <strong>80S</strong> type (60S + 40S subunits), in contrast to the 70S ribosomes of prokaryotes (and of mitochondria/chloroplasts). The cell's shape and internal movements are maintained by the <strong>cytoskeleton</strong> of microtubules, microfilaments and intermediate filaments. <strong>Cilia and flagella</strong> are membrane-bound projections with a core (axoneme) of microtubules in a <strong>9 + 2</strong> arrangement, arising from a basal body; the <strong>centrosome</strong> contains two <strong>centrioles</strong> made of microtubules in a <strong>9 + 0</strong> pattern that organise the spindle during division.</p><p>The control centre is the <strong>nucleus</strong>, bounded by a double-membraned <strong>nuclear envelope</strong> perforated by <strong>nuclear pores</strong> for exchange with the cytoplasm. Inside, the <strong>nucleoplasm</strong> holds one or more <strong>nucleoli</strong> (sites of ribosomal-RNA synthesis and ribosome assembly) and the <strong>chromatin</strong> — a complex of DNA and histone proteins that condenses into <strong>chromosomes</strong> during division. Finally, <strong>microbodies</strong> such as peroxisomes and glyoxysomes are tiny membrane-bound vesicles containing specialised enzymes. The high-yield NEET facts here are: mitochondria/chloroplasts are double-membraned and semi-autonomous (own DNA + 70S), ribosome 80S vs 70S, cilia/flagella 9+2 vs centriole 9+0, and the nucleolus makes rRNA.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.88rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Organelle</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Key fact</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Mitochondrion</td><td style='border:1px solid #dcfce7;padding:6px 8px'>double membrane (cristae); ATP; own DNA + 70S</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Chloroplast</td><td style='border:1px solid #dcfce7;padding:6px 8px'>thylakoids/grana; photosynthesis; own DNA + 70S</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Ribosome (eukaryote)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>80S (60S + 40S); protein synthesis</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Cilia/flagella vs centriole</td><td style='border:1px solid #dcfce7;padding:6px 8px'>9 + 2 vs 9 + 0 microtubules</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Nucleolus</td><td style='border:1px solid #dcfce7;padding:6px 8px'>rRNA synthesis &amp; ribosome assembly</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Give two reasons why mitochondria and chloroplasts are described as semi-autonomous organelles.</p>",
+              "solution": "<p>Because each possesses (1) its own <strong>circular DNA</strong> and (2) its own <strong>70S ribosomes</strong>, allowing it to synthesise some of its own proteins and to divide by fission, partly independent of the nucleus.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Contrast the microtubule arrangement in a cilium/flagellum with that in a centriole.</p>",
+              "solution": "<p>A cilium or flagellum has a <strong>9 + 2</strong> arrangement (nine peripheral doublets + two central microtubules), whereas a centriole has a <strong>9 + 0</strong> arrangement (nine peripheral triplets, no central tubules).</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The infoldings of the inner mitochondrial membrane are called:</p>", "options": ["grana", "cristae", "thylakoids", "cisternae"], "correct": 1, "explanation": "Cristae are the inner-membrane folds of mitochondria." },
+            { "q": "<p>Eukaryotic cytoplasmic ribosomes are of the type:</p>", "options": ["70S", "80S", "50S", "30S"], "correct": 1, "explanation": "Eukaryotic cytoplasmic ribosomes are 80S (60S + 40S)." },
+            { "q": "<p>Coloured pigments of flowers and fruits are stored in:</p>", "options": ["chloroplasts", "chromoplasts", "leucoplasts", "amyloplasts"], "correct": 1, "explanation": "Chromoplasts contain carotenoid pigments." },
+            { "q": "<p>The 9 + 2 microtubule arrangement is found in:</p>", "options": ["centrioles", "cilia and flagella", "ribosomes", "lysosomes"], "correct": 1, "explanation": "Cilia/flagella have a 9 + 2 axoneme; centrioles are 9 + 0." },
+            { "q": "<p>Synthesis of ribosomal RNA occurs in the:</p>", "options": ["nucleoplasm", "nucleolus", "nuclear pore", "chromatin"], "correct": 1, "explanation": "The nucleolus is the site of rRNA synthesis." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Top recall — mitochondria &amp; chloroplasts: double membrane + semi-autonomous (own DNA + 70S); ribosome 80S (eukaryote) vs 70S; cilia/flagella 9+2 vs centriole 9+0; nucleolus = rRNA.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-biology-ch8-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>The cell theory was given by:</p>", "options": ["Hooke and Brown", "Schleiden and Schwann", "Singer and Nicolson", "Watson and Crick"], "correct": 1, "explanation": "Schleiden (plants) and Schwann (animals) gave the cell theory." },
+            { "q": "<p>A naked circular DNA without a nuclear membrane occurs in the:</p>", "options": ["nucleus", "nucleolus", "nucleoid", "ribosome"], "correct": 2, "explanation": "Prokaryotic DNA lies in the nucleoid." },
+            { "q": "<p>Peptidoglycan is the building material of the:</p>", "options": ["plant cell wall", "fungal cell wall", "bacterial cell wall", "plasma membrane"], "correct": 2, "explanation": "Bacterial walls are peptidoglycan (murein)." },
+            { "q": "<p>Which organelle is the site of aerobic respiration?</p>", "options": ["chloroplast", "mitochondrion", "ribosome", "lysosome"], "correct": 1, "explanation": "Mitochondria carry out aerobic respiration (ATP)." },
+            { "q": "<p>Mitochondria and chloroplasts contain ribosomes of the type:</p>", "options": ["80S", "70S", "60S", "40S"], "correct": 1, "explanation": "Both contain 70S ribosomes (semi-autonomous)." },
+            { "q": "<p>The Golgi apparatus is mainly concerned with:</p>", "options": ["respiration", "packaging and secretion", "photosynthesis", "DNA replication"], "correct": 1, "explanation": "The Golgi modifies, packages and secretes materials." },
+            { "q": "<p>The colourless plastid that stores starch is the:</p>", "options": ["chromoplast", "chloroplast", "amyloplast", "elaioplast"], "correct": 2, "explanation": "Amyloplasts (a leucoplast type) store starch." },
+            { "q": "<p>Ribosomal RNA is synthesised in the:</p>", "options": ["nucleolus", "nuclear pore", "cytoplasm", "mitochondrion"], "correct": 0, "explanation": "The nucleolus synthesises rRNA." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> Mitochondria are called semi-autonomous organelles.<br><strong>R:</strong> They possess their own DNA and 70S ribosomes.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Having their own DNA and ribosomes is exactly why they are semi-autonomous — R explains A." },
+            { "q": "<p><strong>A:</strong> The plasma membrane allows lateral movement of its lipids and proteins.<br><strong>R:</strong> The fluid-mosaic model describes the membrane as a fluid bilayer with embedded proteins.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The fluidity of the bilayer is what permits lateral movement — R explains A." },
+            { "q": "<p><strong>A:</strong> Active transport can move a solute against its concentration gradient.<br><strong>R:</strong> It does so without using any cellular energy.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 2, "explanation": "A is true, but R is false — active transport REQUIRES ATP; it is not energy-free." },
+            { "q": "<p><strong>A:</strong> Prokaryotic cells have no membrane-bound organelles.<br><strong>R:</strong> Functions like respiration are aided by infoldings of the plasma membrane called mesosomes.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 1, "explanation": "Both are true, but R describes a workaround for the lack of organelles rather than explaining why they are absent — so R does not explain A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

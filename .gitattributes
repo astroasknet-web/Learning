@@ -1,0 +1,3 @@
+# Test fixtures contain deliberate CRLF/LF variants: store them byte for byte.
+lib/qrscore/__fixtures__/** -text
+lib/qrscore/__golden__/** -text

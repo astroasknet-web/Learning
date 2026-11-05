@@ -1,0 +1,960 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": 20,
+  "title": "Vector Algebra",
+  "slug": "vector-algebra",
+  "subtitle": "Vector Algebra for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#7c3aed",
+  "icon": "math",
+  "seo": {
+    "meta_description": "Master Vector Algebra for JEE Main & Advanced on GrowQR: notes, solved examples, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Foundations of Vectors and Algebraic Structure",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Scalars, Vectors, and Their Classification",
+          "concept": "<p>A physical quantity having only magnitude (size or number) is termed a <strong>scalar</strong>. Examples include mass, time, temperature, and arc length. In contrast, a quantity possessing both <strong>magnitude and a specific direction</strong> which obeys the parallelogram law of addition is termed a <strong>vector</strong>. Examples include displacement, velocity, acceleration, force, and torque.</p><p>A vector is typically denoted by a bold lowercase letter $\\mathbf{a}$ or by directed segment notation $\\overrightarrow{AB}$, where $A$ is the initial point (tail) and $B$ is the terminal point (head). The magnitude of vector $\\mathbf{a}$ is denoted $|\\mathbf{a}|$ and represents the length of the directed segment.</p><strong>Classification of Vectors:</strong>\n <ul>\n <li><strong>Zero (Null) Vector</strong> $\\mathbf{0}$: A vector with zero magnitude and an indeterminate direction. The starting and terminal points coincide.\n <li><strong>Unit Vector</strong> $\\hat{\\mathbf{a}}$: A vector of magnitude unity in the direction of $\\mathbf{a}$, defined as $\\hat{\\mathbf{a}} = \\dfrac{\\mathbf{a}}{|\\mathbf{a}|}$, valid only when $|\\mathbf{a}| \\neq 0$.\n <li><strong>Equal Vectors:</strong> Two vectors are equal if they have the same magnitude and the same direction, regardless of initial point positions.\n <li><strong>Negative Vector:</strong> The vector $-\\mathbf{a}$ has the same magnitude as $\\mathbf{a}$ but opposite direction.\n <li><strong>Collinear (Parallel) Vectors:</strong> Vectors lying along the same line or parallel lines, irrespective of magnitude and sense. They satisfy $\\mathbf{a} = \\lambda \\mathbf{b}$ for some scalar $\\lambda \\in \\mathbb{R}$.\n <li><strong>Co-initial Vectors:</strong> Vectors sharing the same initial point.\n <li><strong>Coplanar Vectors:</strong> Three or more vectors lying in or parallel to the same plane.\n <li><strong>Free Vector:</strong> A vector whose position in space is arbitrary; only magnitude and direction matter.\n <li><strong>Localised Vector:</strong> A vector with a fixed initial point (used in mechanics for forces applied at specific points).\n </ul><p>The <strong>position vector</strong> of a point $P(x, y, z)$ relative to the origin $O$ is $\\overrightarrow{OP} = x\\hat{i} + y\\hat{j} + z\\hat{k}$, with magnitude $|\\overrightarrow{OP}| = \\sqrt{x^2 + y^2 + z^2}$. Here, $\\hat{i}$, $\\hat{j}$, $\\hat{k}$ are mutually perpendicular unit vectors along the positive $x$, $y$, $z$ axes respectively.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find a unit vector in the direction of $\\mathbf{a} = 2\\hat{i} - 3\\hat{j} + 6\\hat{k}$, and also find a vector of magnitude $14$ in the same direction.</p>",
+              "solution": "<p>First, compute the magnitude of the given vector:\n \\[ |\\mathbf{a}| = \\sqrt{(2)^2 + (-3)^2 + (6)^2} = \\sqrt{4 + 9 + 36} = \\sqrt{49} = 7 \\]\n The unit vector in the direction of $\\mathbf{a}$ is:\n \\[ \\hat{\\mathbf{a}} = \\frac{\\mathbf{a}}{|\\mathbf{a}|} = \\frac{2\\hat{i} - 3\\hat{j} + 6\\hat{k}}{7} = \\frac{2}{7}\\hat{i} - \\frac{3}{7}\\hat{j} + \\frac{6}{7}\\hat{k} \\]\n A vector of magnitude $14$ in the same direction equals $14$ times the unit vector:\n \\[ \\mathbf{v} = 14 \\hat{\\mathbf{a}} = 14 \\cdot \\frac{1}{7}(2\\hat{i} - 3\\hat{j} + 6\\hat{k}) = 2(2\\hat{i} - 3\\hat{j} + 6\\hat{k}) = 4\\hat{i} - 6\\hat{j} + 12\\hat{k} \\]\n <strong>Final Answer:</strong> $\\hat{\\mathbf{a}} = \\dfrac{1}{7}(2\\hat{i} - 3\\hat{j} + 6\\hat{k})$ and $\\mathbf{v} = 4\\hat{i} - 6\\hat{j} + 12\\hat{k}$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If $\\mathbf{a} = \\hat{i} + 2\\hat{j} - 2\\hat{k}$, the unit vector along $\\mathbf{a}$ is:",
+              "options": [
+                "$\\dfrac{1}{3}(\\hat{i} + 2\\hat{j} - 2\\hat{k})$",
+                "$\\dfrac{1}{9}(\\hat{i} + 2\\hat{j} - 2\\hat{k})$",
+                "$\\dfrac{1}{\\sqrt{3}}(\\hat{i} + 2\\hat{j} - 2\\hat{k})$",
+                "$\\hat{i} + 2\\hat{j} - 2\\hat{k}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the position vectors of points $A$ and $B$ are $3\\hat{i} - 5\\hat{j} + 4\\hat{k}$ and $5\\hat{i} - 2\\hat{j} + 4\\hat{k}$ respectively, then $|\\overrightarrow{AB}|$ equals:",
+              "options": [
+                "$\\sqrt{13}$",
+                "$\\sqrt{14}$",
+                "$\\sqrt{15}$",
+                "$\\sqrt{17}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Two vectors $\\mathbf{a}$ and $\\mathbf{b}$ are said to be equal if:",
+              "options": [
+                "They have the same magnitude only",
+                "They have the same direction only",
+                "They have the same magnitude and the same direction",
+                "They have the same initial point"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The vector having initial point $(2, -3, 1)$ and terminal point $(4, 1, -2)$ is:",
+              "options": [
+                "$2\\hat{i} + 4\\hat{j} - 3\\hat{k}$",
+                "$-2\\hat{i} - 4\\hat{j} + 3\\hat{k}$",
+                "$2\\hat{i} - 4\\hat{j} + 3\\hat{k}$",
+                "$6\\hat{i} - 2\\hat{j} - \\hat{k}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\mathbf{a}$ is a non-zero vector of magnitude $a$ and $\\lambda$ a non-zero scalar, then $\\lambda \\mathbf{a}$ is a unit vector if:",
+              "options": [
+                "$\\lambda = 1$",
+                "$\\lambda = -1$",
+                "$a = |\\lambda|$",
+                "$a = \\dfrac{1}{|\\lambda|}$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Vector Addition, Section Formula, and Linear Combinations",
+          "concept": "The sum of two vectors $\\mathbf{a}$ and $\\mathbf{b}$ can be obtained geometrically using two equivalent laws:\n <ul>\n <li><strong>Triangle Law:</strong> If the tail of $\\mathbf{b}$ is placed at the head of $\\mathbf{a}$, then $\\mathbf{a} + \\mathbf{b}$ is the vector from the tail of $\\mathbf{a}$ to the head of $\\mathbf{b}$.\n <li><strong>Parallelogram Law:</strong> If $\\mathbf{a}$ and $\\mathbf{b}$ are co-initial, then their sum is the diagonal of the parallelogram formed by $\\mathbf{a}$ and $\\mathbf{b}$.\n </ul><strong>Properties of Vector Addition:</strong>\n <ul>\n <li>Commutativity: $\\mathbf{a} + \\mathbf{b} = \\mathbf{b} + \\mathbf{a}$\n <li>Associativity: $(\\mathbf{a} + \\mathbf{b}) + \\mathbf{c} = \\mathbf{a} + (\\mathbf{b} + \\mathbf{c})$\n <li>Existence of identity: $\\mathbf{a} + \\mathbf{0} = \\mathbf{a}$\n <li>Existence of inverse: $\\mathbf{a} + (-\\mathbf{a}) = \\mathbf{0}$\n </ul><p><strong>Section Formula:</strong> If point $P$ divides the line segment joining points $A$ (position vector $\\mathbf{a}$) and $B$ (position vector $\\mathbf{b}$) in the ratio $m : n$, then the position vector of $P$ is:\n \\[ \\mathbf{r}_P = \\frac{m\\mathbf{b} + n\\mathbf{a}}{m + n} \\quad \\text{(internal division)} \\]\n \\[ \\mathbf{r}_P = \\frac{m\\mathbf{b} - n\\mathbf{a}}{m - n} \\quad \\text{(external division)} \\]\n The <strong>midpoint</strong> of $AB$ has position vector $\\mathbf{r}_M = \\dfrac{\\mathbf{a} + \\mathbf{b}}{2}$.</p><p><strong>Linear Combination and Linear Independence:</strong> A vector $\\mathbf{r}$ is a linear combination of vectors $\\mathbf{a}_1, \\mathbf{a}_2, \\ldots, \\mathbf{a}_n$ if there exist scalars $\\lambda_1, \\lambda_2, \\ldots, \\lambda_n$ such that $\\mathbf{r} = \\lambda_1 \\mathbf{a}_1 + \\lambda_2 \\mathbf{a}_2 + \\cdots + \\lambda_n \\mathbf{a}_n$.</p><strong>Collinearity &amp; Coplanarity Conditions:</strong>\n <ul>\n <li>Three points $A$, $B$, $C$ with position vectors $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$ are collinear iff $\\overrightarrow{AB} = \\lambda \\overrightarrow{AC}$, equivalently $\\exists$ scalars $x, y, z$ (not all zero) such that $x\\mathbf{a} + y\\mathbf{b} + z\\mathbf{c} = \\mathbf{0}$ with $x + y + z = 0$.\n <li>Four points $A, B, C, D$ are coplanar iff $\\exists$ scalars $x, y, z, w$ (not all zero) such that $x\\mathbf{a} + y\\mathbf{b} + z\\mathbf{c} + w\\mathbf{d} = \\mathbf{0}$ and $x + y + z + w = 0$.\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>The position vectors of points $A$, $B$, $C$ are $\\mathbf{a} = \\hat{i} + 2\\hat{j} + 3\\hat{k}$, $\\mathbf{b} = -\\hat{i} + \\hat{j} + 8\\hat{k}$, $\\mathbf{c} = -4\\hat{i} + 4\\hat{j} + 6\\hat{k}$. Find the position vector of point $D$ such that $ABCD$ forms a parallelogram (with $AB \\parallel DC$).</p>",
+              "solution": "<p>In a parallelogram $ABCD$, the diagonals $AC$ and $BD$ bisect each other. The midpoint of $AC$ equals the midpoint of $BD$.\n \\[ \\text{Midpoint of } AC = \\frac{\\mathbf{a} + \\mathbf{c}}{2} = \\frac{(\\hat{i} + 2\\hat{j} + 3\\hat{k}) + (-4\\hat{i} + 4\\hat{j} + 6\\hat{k})}{2} = \\frac{-3\\hat{i} + 6\\hat{j} + 9\\hat{k}}{2} \\]\n Let position vector of $D$ be $\\mathbf{d}$. Midpoint of $BD$:\n \\[ \\frac{\\mathbf{b} + \\mathbf{d}}{2} = \\frac{-3\\hat{i} + 6\\hat{j} + 9\\hat{k}}{2} \\]\n \\[ \\implies \\mathbf{d} = -3\\hat{i} + 6\\hat{j} + 9\\hat{k} - \\mathbf{b} = -3\\hat{i} + 6\\hat{j} + 9\\hat{k} - (-\\hat{i} + \\hat{j} + 8\\hat{k}) \\]\n \\[ = -3\\hat{i} + 6\\hat{j} + 9\\hat{k} + \\hat{i} - \\hat{j} - 8\\hat{k} = -2\\hat{i} + 5\\hat{j} + \\hat{k} \\]\n <strong>Final Answer:</strong> $\\mathbf{d} = -2\\hat{i} + 5\\hat{j} + \\hat{k}$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$ are position vectors of vertices $A, B, C$ of a triangle, then the position vector of its centroid is:",
+              "options": [
+                "$\\dfrac{\\mathbf{a} + \\mathbf{b} + \\mathbf{c}}{3}$",
+                "$\\dfrac{\\mathbf{a} + \\mathbf{b} + \\mathbf{c}}{2}$",
+                "$\\mathbf{a} + \\mathbf{b} + \\mathbf{c}$",
+                "$\\dfrac{\\mathbf{a} + \\mathbf{b}}{2}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Points with position vectors $2\\mathbf{a} - 3\\mathbf{b} + 4\\mathbf{c}$, $-\\mathbf{a} + 2\\mathbf{b} - \\mathbf{c}$, $\\mathbf{a} - \\mathbf{b} + 2\\mathbf{c}$ are collinear if $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$ are:",
+              "options": [
+                "Coplanar",
+                "Non-coplanar",
+                "Always (no condition required)",
+                "Equal"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The point dividing the line joining points $(2, -1, 3)$ and $(4, 3, 1)$ in the ratio $2:3$ internally is:",
+              "options": [
+                "$\\left(\\dfrac{14}{5}, \\dfrac{3}{5}, \\dfrac{11}{5}\\right)$",
+                "$\\left(\\dfrac{14}{5}, \\dfrac{1}{5}, \\dfrac{11}{5}\\right)$",
+                "$\\left(\\dfrac{16}{5}, \\dfrac{3}{5}, \\dfrac{13}{5}\\right)$",
+                "$\\left(3, 1, 2\\right)$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\mathbf{a} + \\mathbf{b} + \\mathbf{c} = \\mathbf{0}$ and $|\\mathbf{a}| = 3$, $|\\mathbf{b}| = 5$, $|\\mathbf{c}| = 7$, then the angle between $\\mathbf{a}$ and $\\mathbf{b}$ is:",
+              "options": [
+                "$\\dfrac{\\pi}{6}$",
+                "$\\dfrac{2\\pi}{3}$",
+                "$\\dfrac{5\\pi}{3}$",
+                "$\\dfrac{\\pi}{3}$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "If $ABCDEF$ is a regular hexagon, then $\\overrightarrow{AB} + \\overrightarrow{AC} + \\overrightarrow{AD} + \\overrightarrow{AE} + \\overrightarrow{AF}$ equals:",
+              "options": [
+                "$3 \\overrightarrow{AD}$",
+                "$2 \\overrightarrow{AD}$",
+                "$4 \\overrightarrow{AD}$",
+                "$6 \\overrightarrow{AD}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Scalar (Dot) Product and Geometric Applications",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Dot Product Definition, Properties and Projections",
+          "concept": "<p>The <strong>scalar product</strong> (dot product) of two non-zero vectors $\\mathbf{a}$ and $\\mathbf{b}$, inclined at angle $\\theta$ ($0 \\leq \\theta \\leq \\pi$), is the scalar:\n \\[ \\mathbf{a} \\cdot \\mathbf{b} = |\\mathbf{a}||\\mathbf{b}|\\cos\\theta \\]\n If $\\mathbf{a} = a_1\\hat{i} + a_2\\hat{j} + a_3\\hat{k}$ and $\\mathbf{b} = b_1\\hat{i} + b_2\\hat{j} + b_3\\hat{k}$, then in component form:\n \\[ \\mathbf{a} \\cdot \\mathbf{b} = a_1 b_1 + a_2 b_2 + a_3 b_3 \\]</p><strong>Key Properties:</strong>\n <ul>\n <li>Commutativity: $\\mathbf{a} \\cdot \\mathbf{b} = \\mathbf{b} \\cdot \\mathbf{a}$\n <li>Distributivity: $\\mathbf{a} \\cdot (\\mathbf{b} + \\mathbf{c}) = \\mathbf{a} \\cdot \\mathbf{b} + \\mathbf{a} \\cdot \\mathbf{c}$\n <li>Scalar multiplication: $(\\lambda \\mathbf{a}) \\cdot \\mathbf{b} = \\lambda(\\mathbf{a} \\cdot \\mathbf{b})$\n <li>$\\mathbf{a} \\cdot \\mathbf{a} = |\\mathbf{a}|^2$\n <li>Perpendicularity: $\\mathbf{a} \\perp \\mathbf{b} \\iff \\mathbf{a} \\cdot \\mathbf{b} = 0$ (for non-zero vectors)\n <li>For standard basis: $\\hat{i} \\cdot \\hat{i} = \\hat{j} \\cdot \\hat{j} = \\hat{k} \\cdot \\hat{k} = 1$; $\\hat{i} \\cdot \\hat{j} = \\hat{j} \\cdot \\hat{k} = \\hat{k} \\cdot \\hat{i} = 0$\n </ul><p><strong>Angle Between Two Vectors:</strong>\n \\[ \\cos\\theta = \\frac{\\mathbf{a} \\cdot \\mathbf{b}}{|\\mathbf{a}||\\mathbf{b}|} \\]</p><p><strong>Projection (Component) of $\\mathbf{a}$ along $\\mathbf{b}$:</strong> The scalar projection (signed length) of $\\mathbf{a}$ on $\\mathbf{b}$ is:\n \\[ \\text{Scalar projection of } \\mathbf{a} \\text{ on } \\mathbf{b} = |\\mathbf{a}|\\cos\\theta = \\frac{\\mathbf{a} \\cdot \\mathbf{b}}{|\\mathbf{b}|} \\]\n The vector projection of $\\mathbf{a}$ on $\\mathbf{b}$ is:\n \\[ \\text{proj}_\\mathbf{b}\\mathbf{a} = \\left(\\frac{\\mathbf{a} \\cdot \\mathbf{b}}{|\\mathbf{b}|^2}\\right)\\mathbf{b} = \\left(\\frac{\\mathbf{a} \\cdot \\mathbf{b}}{|\\mathbf{b}|}\\right)\\hat{\\mathbf{b}} \\]</p><p><strong>Direction Cosines:</strong> If $\\mathbf{a} = a_1\\hat{i} + a_2\\hat{j} + a_3\\hat{k}$, then the direction cosines (with respect to coordinate axes) are:\n \\[ \\ell = \\frac{a_1}{|\\mathbf{a}|}, \\quad m = \\frac{a_2}{|\\mathbf{a}|}, \\quad n = \\frac{a_3}{|\\mathbf{a}|}, \\quad \\text{and} \\quad \\ell^2 + m^2 + n^2 = 1 \\]</p><p><strong>Useful Identity (Polarization):</strong>\n \\[ |\\mathbf{a} + \\mathbf{b}|^2 = |\\mathbf{a}|^2 + |\\mathbf{b}|^2 + 2(\\mathbf{a} \\cdot \\mathbf{b}) \\]\n \\[ |\\mathbf{a} - \\mathbf{b}|^2 = |\\mathbf{a}|^2 + |\\mathbf{b}|^2 - 2(\\mathbf{a} \\cdot \\mathbf{b}) \\]\n \\[ |\\mathbf{a} + \\mathbf{b}|^2 + |\\mathbf{a} - \\mathbf{b}|^2 = 2(|\\mathbf{a}|^2 + |\\mathbf{b}|^2) \\quad \\text{(Parallelogram identity)} \\]</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>If $\\mathbf{a} = 2\\hat{i} + 2\\hat{j} - \\hat{k}$ and $\\mathbf{b} = 6\\hat{i} - 3\\hat{j} + 2\\hat{k}$, find:\n (i) the angle between $\\mathbf{a}$ and $\\mathbf{b}$, (ii) the vector projection of $\\mathbf{a}$ on $\\mathbf{b}$.</p>",
+              "solution": "<p>Compute $|\\mathbf{a}|$, $|\\mathbf{b}|$, and $\\mathbf{a} \\cdot \\mathbf{b}$:\n \\[ |\\mathbf{a}| = \\sqrt{4 + 4 + 1} = 3, \\qquad |\\mathbf{b}| = \\sqrt{36 + 9 + 4} = 7 \\]\n \\[ \\mathbf{a} \\cdot \\mathbf{b} = (2)(6) + (2)(-3) + (-1)(2) = 12 - 6 - 2 = 4 \\]\n (i) The angle between $\\mathbf{a}$ and $\\mathbf{b}$:\n \\[ \\cos\\theta = \\frac{\\mathbf{a} \\cdot \\mathbf{b}}{|\\mathbf{a}||\\mathbf{b}|} = \\frac{4}{3 \\times 7} = \\frac{4}{21} \\implies \\theta = \\cos^{-1}\\left(\\frac{4}{21}\\right) \\]\n (ii) Vector projection of $\\mathbf{a}$ on $\\mathbf{b}$:\n \\[ \\text{proj}_\\mathbf{b}\\mathbf{a} = \\frac{\\mathbf{a} \\cdot \\mathbf{b}}{|\\mathbf{b}|^2}\\mathbf{b} = \\frac{4}{49}(6\\hat{i} - 3\\hat{j} + 2\\hat{k}) = \\frac{24}{49}\\hat{i} - \\frac{12}{49}\\hat{j} + \\frac{8}{49}\\hat{k} \\]\n <strong>Final Answer:</strong> $\\theta = \\cos^{-1}\\left(\\dfrac{4}{21}\\right)$ and $\\text{proj}_\\mathbf{b}\\mathbf{a} = \\dfrac{4}{49}(6\\hat{i} - 3\\hat{j} + 2\\hat{k})$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If the vectors $\\mathbf{a} = 2\\hat{i} - \\hat{j} + 2\\hat{k}$ and $\\mathbf{b} = 3\\hat{i} + 6\\hat{j} + \\lambda \\hat{k}$ are perpendicular, then $\\lambda$ equals:",
+              "options": [
+                "$-3$",
+                "$0$",
+                "$3$",
+                "$6$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $|\\mathbf{a}| = 5$, $|\\mathbf{b}| = 4$, and the angle between $\\mathbf{a}$ and $\\mathbf{b}$ is $\\dfrac{\\pi}{3}$, then $\\mathbf{a} \\cdot \\mathbf{b}$ equals:",
+              "options": [
+                "$20$",
+                "$10\\sqrt{3}$",
+                "$10$",
+                "$20\\sqrt{3}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The projection of $\\mathbf{a} = 2\\hat{i} + 3\\hat{j} + 2\\hat{k}$ on $\\mathbf{b} = \\hat{i} + 2\\hat{j} + \\hat{k}$ is:",
+              "options": [
+                "$\\dfrac{5}{\\sqrt{6}}$",
+                "$\\dfrac{10}{\\sqrt{6}}$",
+                "$\\dfrac{5\\sqrt{6}}{3}$",
+                "$\\sqrt{6}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\mathbf{a}$ and $\\mathbf{b}$ are unit vectors and $\\theta$ is the angle between them, then $|\\mathbf{a} - \\mathbf{b}|$ equals:",
+              "options": [
+                "$2\\sin\\dfrac{\\theta}{2}$",
+                "$\\sin\\dfrac{\\theta}{2}$",
+                "$2\\cos\\dfrac{\\theta}{2}$",
+                "$\\cos\\dfrac{\\theta}{2}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\mathbf{a} + \\mathbf{b} + \\mathbf{c} = \\mathbf{0}$, $|\\mathbf{a}| = 3$, $|\\mathbf{b}| = 5$, $|\\mathbf{c}| = 7$, then $\\mathbf{a} \\cdot \\mathbf{b} + \\mathbf{b} \\cdot \\mathbf{c} + \\mathbf{c} \\cdot \\mathbf{a}$ equals:",
+              "options": [
+                "$-\\dfrac{83}{2}$",
+                "$\\dfrac{83}{2}$",
+                "$0$",
+                "$-83$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Geometric Applications of the Dot Product",
+          "concept": "<p>The dot product offers an elegant route to several classical results in geometry:</p><p><strong>Cosine Rule (Vector Proof):</strong> In triangle $ABC$ with $\\overrightarrow{BC} = \\mathbf{a}$, $\\overrightarrow{CA} = \\mathbf{b}$, $\\overrightarrow{AB} = \\mathbf{c}$, the relation $\\mathbf{a} + \\mathbf{b} + \\mathbf{c} = \\mathbf{0}$ yields:\n \\[ a^2 = b^2 + c^2 - 2bc \\cos A \\]</p><strong>Diagonals of a Parallelogram:</strong> For a parallelogram with adjacent sides $\\mathbf{a}$ and $\\mathbf{b}$, the diagonals are $\\mathbf{d}_1 = \\mathbf{a} + \\mathbf{b}$ and $\\mathbf{d}_2 = \\mathbf{a} - \\mathbf{b}$. The diagonals are:\n <ul>\n <li>Equal in length iff $|\\mathbf{a} + \\mathbf{b}| = |\\mathbf{a} - \\mathbf{b}|$ iff $\\mathbf{a} \\cdot \\mathbf{b} = 0$ (rectangle)\n <li>Perpendicular iff $|\\mathbf{a}| = |\\mathbf{b}|$ (rhombus)\n </ul><p><strong>Equation of a Line:</strong> The vector equation of a line passing through point with position vector $\\mathbf{a}$ and parallel to vector $\\mathbf{b}$ is:\n \\[ \\mathbf{r} = \\mathbf{a} + \\lambda \\mathbf{b}, \\quad \\lambda \\in \\mathbb{R} \\]\n The line through two points $\\mathbf{a}$ and $\\mathbf{b}$ has equation:\n \\[ \\mathbf{r} = \\mathbf{a} + \\lambda(\\mathbf{b} - \\mathbf{a}) = (1 - \\lambda)\\mathbf{a} + \\lambda \\mathbf{b} \\]</p><p><strong>Component Resolution:</strong> Any vector $\\mathbf{a}$ can be decomposed uniquely into components parallel and perpendicular to a unit vector $\\hat{\\mathbf{b}}$:\n \\[ \\mathbf{a} = (\\mathbf{a} \\cdot \\hat{\\mathbf{b}})\\hat{\\mathbf{b}} + \\left[\\mathbf{a} - (\\mathbf{a} \\cdot \\hat{\\mathbf{b}})\\hat{\\mathbf{b}}\\right] \\]\n The first term is parallel to $\\mathbf{b}$, the bracket is perpendicular to $\\mathbf{b}$.</p><p><strong>Work Done by a Force:</strong> If a constant force $\\mathbf{F}$ produces displacement $\\mathbf{d}$, the work done is the scalar:\n \\[ W = \\mathbf{F} \\cdot \\mathbf{d} = |\\mathbf{F}||\\mathbf{d}|\\cos\\theta \\]</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Resolve the vector $\\mathbf{a} = 2\\hat{i} + \\hat{j} - 3\\hat{k}$ into components parallel and perpendicular to $\\mathbf{b} = \\hat{i} - 2\\hat{j} + 2\\hat{k}$.</p>",
+              "solution": "<p>Compute the necessary quantities:\n \\[ \\mathbf{a} \\cdot \\mathbf{b} = (2)(1) + (1)(-2) + (-3)(2) = 2 - 2 - 6 = -6 \\]\n \\[ |\\mathbf{b}|^2 = 1 + 4 + 4 = 9 \\]\n Component parallel to $\\mathbf{b}$:\n \\[ \\mathbf{a}_{\\parallel} = \\frac{\\mathbf{a} \\cdot \\mathbf{b}}{|\\mathbf{b}|^2}\\mathbf{b} = \\frac{-6}{9}(\\hat{i} - 2\\hat{j} + 2\\hat{k}) = -\\frac{2}{3}\\hat{i} + \\frac{4}{3}\\hat{j} - \\frac{4}{3}\\hat{k} \\]\n Component perpendicular to $\\mathbf{b}$:\n \\[ \\mathbf{a}_{\\perp} = \\mathbf{a} - \\mathbf{a}_{\\parallel} = (2\\hat{i} + \\hat{j} - 3\\hat{k}) - \\left(-\\frac{2}{3}\\hat{i} + \\frac{4}{3}\\hat{j} - \\frac{4}{3}\\hat{k}\\right) \\]\n \\[ = \\frac{8}{3}\\hat{i} - \\frac{1}{3}\\hat{j} - \\frac{5}{3}\\hat{k} \\]\n <strong>Verification:</strong> $\\mathbf{a}_{\\perp} \\cdot \\mathbf{b} = \\dfrac{8}{3} - \\dfrac{-2}{3}(-1)\\cdot\\ldots = \\dfrac{8}{3}(1) + \\left(-\\dfrac{1}{3}\\right)(-2) + \\left(-\\dfrac{5}{3}\\right)(2) = \\dfrac{8 + 2 - 10}{3} = 0$. \\checkmark<br>\n <strong>Final Answer:</strong> $\\mathbf{a}_{\\parallel} = -\\dfrac{2}{3}\\hat{i} + \\dfrac{4}{3}\\hat{j} - \\dfrac{4}{3}\\hat{k}$, $\\mathbf{a}_{\\perp} = \\dfrac{8}{3}\\hat{i} - \\dfrac{1}{3}\\hat{j} - \\dfrac{5}{3}\\hat{k}$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If $\\mathbf{a} \\cdot \\mathbf{b} = \\mathbf{a} \\cdot \\mathbf{c}$ and $\\mathbf{a} \\neq \\mathbf{0}$, then:",
+              "options": [
+                "$\\mathbf{b} = \\mathbf{c}$ always",
+                "$\\mathbf{b} - \\mathbf{c}$ is perpendicular to $\\mathbf{a}$",
+                "$\\mathbf{b}$ is parallel to $\\mathbf{c}$",
+                "$\\mathbf{a}$ is parallel to $\\mathbf{b}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If a force $\\mathbf{F} = 4\\hat{i} + 3\\hat{j} + \\hat{k}$ acts on a particle and displaces it from point $(1, 2, 3)$ to $(5, 7, 4)$, then the work done equals:",
+              "options": [
+                "$30$ units",
+                "$32$ units",
+                "$42$ units",
+                "$24$ units"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The cosine of the angle between two diagonals of a cube equals:",
+              "options": [
+                "$\\dfrac{1}{2}$",
+                "$\\dfrac{1}{3}$",
+                "$\\dfrac{1}{\\sqrt{3}}$",
+                "$\\dfrac{2}{3}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$ are unit vectors satisfying $\\mathbf{a} + \\mathbf{b} + \\mathbf{c} = \\mathbf{0}$, then $\\mathbf{a} \\cdot \\mathbf{b} + \\mathbf{b} \\cdot \\mathbf{c} + \\mathbf{c} \\cdot \\mathbf{a}$ equals:",
+              "options": [
+                "$1$",
+                "$3$",
+                "$-\\dfrac{3}{2}$",
+                "$-\\dfrac{1}{2}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "A vector $\\mathbf{r}$ has magnitude $14$ and direction ratios $2, 3, -6$. Then $\\mathbf{r}$ equals:",
+              "options": [
+                "$4\\hat{i} + 6\\hat{j} - 12\\hat{k}$",
+                "$2\\hat{i} + 3\\hat{j} - 6\\hat{k}$",
+                "$\\dfrac{1}{7}(2\\hat{i} + 3\\hat{j} - 6\\hat{k})$",
+                "$14(2\\hat{i} + 3\\hat{j} - 6\\hat{k})$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Vector (Cross) Product and Area Applications",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Cross Product Definition and Properties",
+          "concept": "<p>The <strong>vector product</strong> (cross product) of two non-zero vectors $\\mathbf{a}$ and $\\mathbf{b}$ at angle $\\theta$ ($0 \\leq \\theta \\leq \\pi$) is defined as the vector:\n \\[ \\mathbf{a} \\times \\mathbf{b} = |\\mathbf{a}||\\mathbf{b}|\\sin\\theta \\, \\hat{\\mathbf{n}} \\]\n where $\\hat{\\mathbf{n}}$ is the unit vector perpendicular to both $\\mathbf{a}$ and $\\mathbf{b}$ such that $\\{\\mathbf{a}, \\mathbf{b}, \\hat{\\mathbf{n}}\\}$ forms a right-handed system.</p><p><strong>Determinant Form (Coordinate Definition):</strong> If $\\mathbf{a} = a_1\\hat{i} + a_2\\hat{j} + a_3\\hat{k}$ and $\\mathbf{b} = b_1\\hat{i} + b_2\\hat{j} + b_3\\hat{k}$, then:\n \\[ \\mathbf{a} \\times \\mathbf{b} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ a_1 & a_2 & a_3 \\\\ b_1 & b_2 & b_3 \\end{vmatrix} = (a_2 b_3 - a_3 b_2)\\hat{i} - (a_1 b_3 - a_3 b_1)\\hat{j} + (a_1 b_2 - a_2 b_1)\\hat{k} \\]</p><strong>Key Properties:</strong>\n <ul>\n <li>Anti-commutativity: $\\mathbf{a} \\times \\mathbf{b} = -(\\mathbf{b} \\times \\mathbf{a})$\n <li>Distributivity: $\\mathbf{a} \\times (\\mathbf{b} + \\mathbf{c}) = \\mathbf{a} \\times \\mathbf{b} + \\mathbf{a} \\times \\mathbf{c}$\n <li>$\\mathbf{a} \\times \\mathbf{a} = \\mathbf{0}$\n <li>Parallelism: $\\mathbf{a} \\parallel \\mathbf{b} \\iff \\mathbf{a} \\times \\mathbf{b} = \\mathbf{0}$\n <li>Standard basis: $\\hat{i} \\times \\hat{j} = \\hat{k}$, $\\hat{j} \\times \\hat{k} = \\hat{i}$, $\\hat{k} \\times \\hat{i} = \\hat{j}$ (cyclic)\n <li>Lagrange's Identity: $|\\mathbf{a} \\times \\mathbf{b}|^2 = |\\mathbf{a}|^2|\\mathbf{b}|^2 - (\\mathbf{a} \\cdot \\mathbf{b})^2$\n </ul><strong>Geometric Significance:</strong>\n <ul>\n <li>$|\\mathbf{a} \\times \\mathbf{b}|$ = area of parallelogram with adjacent sides $\\mathbf{a}$ and $\\mathbf{b}$\n <li>Area of triangle with adjacent sides $\\mathbf{a}, \\mathbf{b}$ = $\\dfrac{1}{2}|\\mathbf{a} \\times \\mathbf{b}|$\n <li>Area of triangle with vertices $A, B, C$ = $\\dfrac{1}{2}|\\overrightarrow{AB} \\times \\overrightarrow{AC}|$\n <li>Unit vector perpendicular to both $\\mathbf{a}$ and $\\mathbf{b}$: $\\hat{\\mathbf{n}} = \\pm \\dfrac{\\mathbf{a} \\times \\mathbf{b}}{|\\mathbf{a} \\times \\mathbf{b}|}$\n </ul><strong>Applications in Mechanics:</strong>\n <ul>\n <li>Moment of force $\\mathbf{F}$ about point $O$ with position vector $\\mathbf{r}$: $\\boldsymbol{\\tau} = \\mathbf{r} \\times \\mathbf{F}$\n <li>Velocity of a point in rotation: $\\mathbf{v} = \\boldsymbol{\\omega} \\times \\mathbf{r}$\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the area of the triangle with vertices $A(1, -1, 2)$, $B(2, 1, -1)$, $C(3, -1, 2)$.</p>",
+              "solution": "<p>Compute the vectors $\\overrightarrow{AB}$ and $\\overrightarrow{AC}$:\n \\[ \\overrightarrow{AB} = (2-1)\\hat{i} + (1-(-1))\\hat{j} + (-1-2)\\hat{k} = \\hat{i} + 2\\hat{j} - 3\\hat{k} \\]\n \\[ \\overrightarrow{AC} = (3-1)\\hat{i} + (-1-(-1))\\hat{j} + (2-2)\\hat{k} = 2\\hat{i} + 0\\hat{j} + 0\\hat{k} = 2\\hat{i} \\]\n Compute the cross product:\n \\[ \\overrightarrow{AB} \\times \\overrightarrow{AC} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & 2 & -3 \\\\ 2 & 0 & 0 \\end{vmatrix} = \\hat{i}(2 \\cdot 0 - (-3) \\cdot 0) - \\hat{j}(1 \\cdot 0 - (-3) \\cdot 2) + \\hat{k}(1 \\cdot 0 - 2 \\cdot 2) \\]\n \\[ = \\hat{i}(0) - \\hat{j}(6) + \\hat{k}(-4) = -6\\hat{j} - 4\\hat{k} \\]\n The magnitude is:\n \\[ |\\overrightarrow{AB} \\times \\overrightarrow{AC}| = \\sqrt{0 + 36 + 16} = \\sqrt{52} = 2\\sqrt{13} \\]\n The area of the triangle is:\n \\[ \\text{Area} = \\frac{1}{2}|\\overrightarrow{AB} \\times \\overrightarrow{AC}| = \\frac{1}{2}(2\\sqrt{13}) = \\sqrt{13} \\]\n <strong>Final Answer:</strong> Area $= \\sqrt{13}$ square units.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If $\\mathbf{a} = 3\\hat{i} - \\hat{j} + 2\\hat{k}$ and $\\mathbf{b} = 2\\hat{i} + \\hat{j} - \\hat{k}$, then $\\mathbf{a} \\times \\mathbf{b}$ equals:",
+              "options": [
+                "$-\\hat{i} + 7\\hat{j} + 5\\hat{k}$",
+                "$\\hat{i} - 7\\hat{j} + 5\\hat{k}$",
+                "$-\\hat{i} - 7\\hat{j} + 5\\hat{k}$",
+                "$\\hat{i} + 7\\hat{j} - 5\\hat{k}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The area of the parallelogram whose adjacent sides are $\\mathbf{a} = 3\\hat{i} + \\hat{j} - 2\\hat{k}$ and $\\mathbf{b} = \\hat{i} - 3\\hat{j} + 4\\hat{k}$ is:",
+              "options": [
+                "$\\sqrt{56}$",
+                "$\\sqrt{140}$",
+                "$10\\sqrt{3}$",
+                "$4\\sqrt{10}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $|\\mathbf{a}| = 10$, $|\\mathbf{b}| = 2$, and $\\mathbf{a} \\cdot \\mathbf{b} = 12$, then $|\\mathbf{a} \\times \\mathbf{b}|$ equals:",
+              "options": [
+                "$5$",
+                "$10$",
+                "$14$",
+                "$16$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "A unit vector perpendicular to both $\\hat{i} + \\hat{j}$ and $\\hat{j} + \\hat{k}$ is:",
+              "options": [
+                "$\\dfrac{1}{\\sqrt{3}}(\\hat{i} - \\hat{j} + \\hat{k})$",
+                "$\\dfrac{1}{\\sqrt{3}}(\\hat{i} + \\hat{j} + \\hat{k})$",
+                "$\\dfrac{1}{\\sqrt{2}}(\\hat{i} - \\hat{k})$",
+                "$\\dfrac{1}{\\sqrt{2}}(\\hat{i} + \\hat{k})$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\mathbf{a}$ and $\\mathbf{b}$ are unit vectors and $|\\mathbf{a} \\times \\mathbf{b}| = 1$, then the angle between them is:",
+              "options": [
+                "$0$",
+                "$\\dfrac{\\pi}{6}$",
+                "$\\dfrac{\\pi}{4}$",
+                "$\\dfrac{\\pi}{2}$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Scalar Triple Product (Box Product) and Volume",
+          "concept": "<p>The <strong>scalar triple product</strong> (STP) of three vectors $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$ is the scalar:\n \\[ [\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}] = \\mathbf{a} \\cdot (\\mathbf{b} \\times \\mathbf{c}) = (\\mathbf{a} \\times \\mathbf{b}) \\cdot \\mathbf{c} \\]\n In component form, if $\\mathbf{a} = a_1\\hat{i} + a_2\\hat{j} + a_3\\hat{k}$, etc.:\n \\[ [\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}] = \\begin{vmatrix} a_1 & a_2 & a_3 \\\\ b_1 & b_2 & b_3 \\\\ c_1 & c_2 & c_3 \\end{vmatrix} \\]</p><strong>Properties of STP:</strong>\n <ul>\n <li><strong>Cyclic property:</strong> $[\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}] = [\\mathbf{b}\\,\\mathbf{c}\\,\\mathbf{a}] = [\\mathbf{c}\\,\\mathbf{a}\\,\\mathbf{b}]$\n <li><strong>Sign change with interchange:</strong> $[\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}] = -[\\mathbf{b}\\,\\mathbf{a}\\,\\mathbf{c}]$\n <li><strong>Coplanarity test:</strong> $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$ are coplanar iff $[\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}] = 0$\n <li>If any two of $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$ are equal or parallel, then $[\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}] = 0$\n <li>Scalar multiplication: $[\\lambda \\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}] = \\lambda [\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}]$\n <li>$[\\mathbf{a} + \\mathbf{d}\\,\\mathbf{b}\\,\\mathbf{c}] = [\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}] + [\\mathbf{d}\\,\\mathbf{b}\\,\\mathbf{c}]$\n </ul><strong>Geometric Interpretation:</strong> $|[\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}]|$ equals the volume of the parallelepiped with concurrent edges $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$. Consequently:\n <ul>\n <li>Volume of tetrahedron with concurrent edges $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$ from one vertex: $V = \\dfrac{1}{6}|[\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}]|$\n <li>Four points $A, B, C, D$ with position vectors $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}, \\mathbf{d}$ are coplanar iff $[\\overrightarrow{AB}\\,\\overrightarrow{AC}\\,\\overrightarrow{AD}] = 0$\n </ul><p><strong>Vector Triple Product (BAC--CAB Rule):</strong>\n \\[ \\mathbf{a} \\times (\\mathbf{b} \\times \\mathbf{c}) = (\\mathbf{a} \\cdot \\mathbf{c})\\mathbf{b} - (\\mathbf{a} \\cdot \\mathbf{b})\\mathbf{c} \\]\n \\[ (\\mathbf{a} \\times \\mathbf{b}) \\times \\mathbf{c} = (\\mathbf{a} \\cdot \\mathbf{c})\\mathbf{b} - (\\mathbf{b} \\cdot \\mathbf{c})\\mathbf{a} \\]\n Note that the vector triple product is <em>not</em> associative; in general, $\\mathbf{a} \\times (\\mathbf{b} \\times \\mathbf{c}) \\neq (\\mathbf{a} \\times \\mathbf{b}) \\times \\mathbf{c}$.</p><p><strong>Lagrange's Identity for STP:</strong>\n \\[ [\\mathbf{a} \\times \\mathbf{b}\\,\\,\\mathbf{c} \\times \\mathbf{d}\\,\\,\\mathbf{e} \\times \\mathbf{f}] \\text{ (advanced expansion exists)} \\]\n A more frequently used identity:\n \\[ (\\mathbf{a} \\times \\mathbf{b}) \\cdot (\\mathbf{c} \\times \\mathbf{d}) = \\begin{vmatrix} \\mathbf{a}\\cdot\\mathbf{c} & \\mathbf{a}\\cdot\\mathbf{d} \\\\ \\mathbf{b}\\cdot\\mathbf{c} & \\mathbf{b}\\cdot\\mathbf{d} \\end{vmatrix} \\]</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Show that the points with position vectors $\\mathbf{a} = \\hat{i} - \\hat{j} + 3\\hat{k}$, $\\mathbf{b} = 2\\hat{i} + 3\\hat{j} - 4\\hat{k}$, $\\mathbf{c} = -3\\hat{i} + 4\\hat{j} - 7\\hat{k}$, and $\\mathbf{d} = 4\\hat{i} + \\hat{j} + 0\\hat{k}$ are coplanar.</p>",
+              "solution": "<p>Compute vectors from $A$:\n \\[ \\overrightarrow{AB} = \\mathbf{b} - \\mathbf{a} = (2-1)\\hat{i} + (3-(-1))\\hat{j} + (-4-3)\\hat{k} = \\hat{i} + 4\\hat{j} - 7\\hat{k} \\]\n \\[ \\overrightarrow{AC} = \\mathbf{c} - \\mathbf{a} = -4\\hat{i} + 5\\hat{j} - 10\\hat{k} \\]\n \\[ \\overrightarrow{AD} = \\mathbf{d} - \\mathbf{a} = 3\\hat{i} + 2\\hat{j} - 3\\hat{k} \\]\n Compute the STP:\n \\[ [\\overrightarrow{AB}\\,\\overrightarrow{AC}\\,\\overrightarrow{AD}] = \\begin{vmatrix} 1 & 4 & -7 \\\\ -4 & 5 & -10 \\\\ 3 & 2 & -3 \\end{vmatrix} \\]\n Expand along the first row:\n \\[ = 1\\begin{vmatrix} 5 & -10 \\\\ 2 & -3 \\end{vmatrix} - 4\\begin{vmatrix} -4 & -10 \\\\ 3 & -3 \\end{vmatrix} + (-7)\\begin{vmatrix} -4 & 5 \\\\ 3 & 2 \\end{vmatrix} \\]\n \\[ = 1(-15 - (-20)) - 4(12 - (-30)) - 7(-8 - 15) \\]\n \\[ = 1(5) - 4(42) - 7(-23) = 5 - 168 + 161 = -2 \\]</p><p>Since the STP $\\neq 0$, the four points are <strong>not</strong> coplanar. (This illustrates the need to verify coplanarity through computation rather than assertion.)<br>\n <strong>Final Answer:</strong> The given points are not coplanar; $[\\overrightarrow{AB}\\,\\overrightarrow{AC}\\,\\overrightarrow{AD}] = -2$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The value of $[\\hat{i}\\,\\hat{j}\\,\\hat{k}]$ is:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$-1$",
+                "$3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The volume of the parallelepiped whose edges are $\\mathbf{a} = 2\\hat{i} + 3\\hat{j} + 4\\hat{k}$, $\\mathbf{b} = \\hat{i} + 2\\hat{j} - \\hat{k}$, $\\mathbf{c} = 3\\hat{i} - \\hat{j} + 2\\hat{k}$ is:",
+              "options": [
+                "$5$ cubic units",
+                "$-5$ cubic units",
+                "$7$ cubic units",
+                "$|-7|$ cubic units"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\mathbf{a} = \\hat{i} + 2\\hat{j} - \\hat{k}$, $\\mathbf{b} = 2\\hat{i} + \\hat{j} + 3\\hat{k}$, $\\mathbf{c} = 3\\hat{i} + 3\\hat{j} + \\lambda\\hat{k}$ are coplanar, then $\\lambda$ equals:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$-1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The vector triple product $\\hat{i} \\times (\\hat{j} \\times \\hat{k})$ equals:",
+              "options": [
+                "$\\hat{i}$",
+                "$\\hat{j}$",
+                "$\\hat{k}$",
+                "$\\mathbf{0}$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "If $[\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}] = 4$, then $[\\mathbf{a}+\\mathbf{b}\\,\\,\\mathbf{b}+\\mathbf{c}\\,\\,\\mathbf{c}+\\mathbf{a}]$ equals:",
+              "options": [
+                "$4$",
+                "$8$",
+                "$16$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Vector Equations of Lines, Planes & Reciprocal Systems",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Vector Equations of Lines and Shortest Distance",
+          "concept": "<p>A line in space is uniquely determined by a point and a direction vector. The <strong>vector equation of a line</strong> through a point with position vector $\\mathbf{a}$ and parallel to $\\mathbf{b}$ is:\n \\[ \\mathbf{r} = \\mathbf{a} + \\lambda \\mathbf{b}, \\quad \\lambda \\in \\mathbb{R} \\]</p><p><strong>Distance from a Point to a Line:</strong> The perpendicular distance $d$ from a point $P$ with position vector $\\mathbf{p}$ to the line $\\mathbf{r} = \\mathbf{a} + \\lambda\\mathbf{b}$ is:\n \\[ d = \\frac{|(\\mathbf{p} - \\mathbf{a}) \\times \\mathbf{b}|}{|\\mathbf{b}|} \\]</p><p><strong>Shortest Distance between Two Skew Lines:</strong> Consider two lines:\n \\[ L_1: \\mathbf{r} = \\mathbf{a}_1 + \\lambda \\mathbf{b}_1, \\qquad L_2: \\mathbf{r} = \\mathbf{a}_2 + \\mu \\mathbf{b}_2 \\]\n These lines are <strong>skew</strong> (non-intersecting and non-parallel) when $\\mathbf{b}_1 \\times \\mathbf{b}_2 \\neq \\mathbf{0}$ and the common perpendicular has non-zero length. The shortest distance between them is:\n \\[ d = \\frac{|[\\mathbf{a}_2 - \\mathbf{a}_1\\,\\,\\mathbf{b}_1\\,\\,\\mathbf{b}_2]|}{|\\mathbf{b}_1 \\times \\mathbf{b}_2|} = \\frac{|(\\mathbf{a}_2 - \\mathbf{a}_1) \\cdot (\\mathbf{b}_1 \\times \\mathbf{b}_2)|}{|\\mathbf{b}_1 \\times \\mathbf{b}_2|} \\]</p><p>If $\\mathbf{b}_1 \\times \\mathbf{b}_2 = \\mathbf{0}$ (the lines are parallel), the shortest distance is computed using the point-to-line formula.</p><p><strong>Condition for Coplanarity of Two Lines:</strong> Two lines $L_1$ and $L_2$ are coplanar iff:\n \\[ [\\mathbf{a}_2 - \\mathbf{a}_1\\,\\,\\mathbf{b}_1\\,\\,\\mathbf{b}_2] = 0 \\]</p><strong>Vector Equation of a Plane:</strong>\n <ul>\n <li>Plane through point $\\mathbf{a}$ with normal $\\mathbf{n}$: $\\quad (\\mathbf{r} - \\mathbf{a}) \\cdot \\mathbf{n} = 0$, equivalently $\\mathbf{r} \\cdot \\mathbf{n} = \\mathbf{a} \\cdot \\mathbf{n} = d$\n <li>Plane through three non-collinear points $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$: $\\quad (\\mathbf{r} - \\mathbf{a}) \\cdot [(\\mathbf{b} - \\mathbf{a}) \\times (\\mathbf{c} - \\mathbf{a})] = 0$\n <li>Plane through point $\\mathbf{a}$ parallel to vectors $\\mathbf{b}$ and $\\mathbf{c}$: $\\quad \\mathbf{r} = \\mathbf{a} + \\lambda \\mathbf{b} + \\mu \\mathbf{c}$\n </ul><p><strong>Distance from Point to Plane:</strong> The perpendicular distance from point $\\mathbf{p}$ to the plane $\\mathbf{r} \\cdot \\hat{\\mathbf{n}} = d$ is:\n \\[ \\text{Distance} = |\\mathbf{p} \\cdot \\hat{\\mathbf{n}} - d| \\]</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the shortest distance between the lines:\n \\[ L_1: \\mathbf{r} = (\\hat{i} + 2\\hat{j} + 3\\hat{k}) + \\lambda(2\\hat{i} + 3\\hat{j} + 4\\hat{k}) \\]\n \\[ L_2: \\mathbf{r} = (2\\hat{i} + 4\\hat{j} + 5\\hat{k}) + \\mu(3\\hat{i} + 4\\hat{j} + 5\\hat{k}) \\]</p>",
+              "solution": "<p>Identify: $\\mathbf{a}_1 = \\hat{i} + 2\\hat{j} + 3\\hat{k}$, $\\mathbf{b}_1 = 2\\hat{i} + 3\\hat{j} + 4\\hat{k}$, $\\mathbf{a}_2 = 2\\hat{i} + 4\\hat{j} + 5\\hat{k}$, $\\mathbf{b}_2 = 3\\hat{i} + 4\\hat{j} + 5\\hat{k}$.</p><p>Compute $\\mathbf{a}_2 - \\mathbf{a}_1 = \\hat{i} + 2\\hat{j} + 2\\hat{k}$.</p><p>Compute $\\mathbf{b}_1 \\times \\mathbf{b}_2$:\n \\[ \\mathbf{b}_1 \\times \\mathbf{b}_2 = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 2 & 3 & 4 \\\\ 3 & 4 & 5 \\end{vmatrix} = \\hat{i}(15 - 16) - \\hat{j}(10 - 12) + \\hat{k}(8 - 9) = -\\hat{i} + 2\\hat{j} - \\hat{k} \\]\n \\[ |\\mathbf{b}_1 \\times \\mathbf{b}_2| = \\sqrt{1 + 4 + 1} = \\sqrt{6} \\]\n Compute the numerator:\n \\[ (\\mathbf{a}_2 - \\mathbf{a}_1) \\cdot (\\mathbf{b}_1 \\times \\mathbf{b}_2) = (1)(-1) + (2)(2) + (2)(-1) = -1 + 4 - 2 = 1 \\]\n Therefore:\n \\[ d = \\frac{|1|}{\\sqrt{6}} = \\frac{1}{\\sqrt{6}} \\]\n <strong>Final Answer:</strong> Shortest distance $= \\dfrac{1}{\\sqrt{6}}$ units.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The equation of the plane passing through the point $(1, 0, -2)$ and perpendicular to vector $\\hat{i} + \\hat{j} - \\hat{k}$ is:",
+              "options": [
+                "$x + y - z = 3$",
+                "$x - y - z = 3$",
+                "$x + y + z = 3$",
+                "$x + y - z = -3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The distance from the point $(2, 3, -5)$ to the plane $\\mathbf{r} \\cdot (\\hat{i} + 2\\hat{j} - 2\\hat{k}) = 9$ is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$\\dfrac{2}{3}$",
+                "$3$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "The lines $\\dfrac{x-1}{2} = \\dfrac{y-2}{3} = \\dfrac{z-3}{4}$ and $\\dfrac{x-2}{3} = \\dfrac{y-3}{4} = \\dfrac{z-4}{5}$ are:",
+              "options": [
+                "Parallel",
+                "Intersecting",
+                "Skew",
+                "Identical"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The vector equation of the line passing through $(1, 2, -4)$ and parallel to $\\dfrac{x-1}{3} = \\dfrac{y+2}{-2} = \\dfrac{z-1}{1}$ is:",
+              "options": [
+                "$\\mathbf{r} = (\\hat{i} + 2\\hat{j} - 4\\hat{k}) + \\lambda(3\\hat{i} - 2\\hat{j} + \\hat{k})$",
+                "$\\mathbf{r} = (\\hat{i} - 2\\hat{j} + \\hat{k}) + \\lambda(\\hat{i} + 2\\hat{j} - 4\\hat{k})$",
+                "$\\mathbf{r} = (3\\hat{i} - 2\\hat{j} + \\hat{k}) + \\lambda(\\hat{i} + 2\\hat{j} - 4\\hat{k})$",
+                "$\\mathbf{r} = (\\hat{i} + 2\\hat{j} - 4\\hat{k}) + \\lambda(\\hat{i} - 2\\hat{j} + \\hat{k})$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The equation of the plane passing through the three points $(2, 1, 0)$, $(3, -2, -2)$, $(3, 1, 7)$ is:",
+              "options": [
+                "$7x - 3y + z = 11$",
+                "$7x + 3y - z = 17$",
+                "$-7x + 3y + z = -11$",
+                "$7x + 3y + z = 17$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Reciprocal System of Vectors and Differentiation",
+          "concept": "<p><strong>Reciprocal System of Vectors (JEE Advanced):</strong> Given three non-coplanar vectors $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$, their reciprocal system $\\mathbf{a}', \\mathbf{b}', \\mathbf{c}'$ is defined by:\n \\[ \\mathbf{a}' = \\frac{\\mathbf{b} \\times \\mathbf{c}}{[\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}]}, \\quad \\mathbf{b}' = \\frac{\\mathbf{c} \\times \\mathbf{a}}{[\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}]}, \\quad \\mathbf{c}' = \\frac{\\mathbf{a} \\times \\mathbf{b}}{[\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}]} \\]</p><strong>Properties of Reciprocal Systems:</strong>\n <ul>\n <li><strong>Biorthogonality:</strong> $\\mathbf{a} \\cdot \\mathbf{a}' = \\mathbf{b} \\cdot \\mathbf{b}' = \\mathbf{c} \\cdot \\mathbf{c}' = 1$, and all other cross dot products vanish.\n <li><strong>Reciprocal STP:</strong> $[\\mathbf{a}'\\,\\mathbf{b}'\\,\\mathbf{c}'] = \\dfrac{1}{[\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}]}$\n <li>The reciprocal of a reciprocal system gives the original system.\n <li>Any vector $\\mathbf{r}$ can be expanded as:\n \\[ \\mathbf{r} = (\\mathbf{r} \\cdot \\mathbf{a}')\\mathbf{a} + (\\mathbf{r} \\cdot \\mathbf{b}')\\mathbf{b} + (\\mathbf{r} \\cdot \\mathbf{c}')\\mathbf{c} \\]\n </ul><p>The reciprocal system is also called the <strong>dual basis</strong> and is fundamental in crystallography (used to describe reciprocal lattices).</p><p><strong>Differentiation of Vector Functions:</strong> A vector-valued function $\\mathbf{a}(t) = a_1(t)\\hat{i} + a_2(t)\\hat{j} + a_3(t)\\hat{k}$ is differentiable if each component is differentiable. Then:\n \\[ \\frac{d\\mathbf{a}}{dt} = \\frac{da_1}{dt}\\hat{i} + \\frac{da_2}{dt}\\hat{j} + \\frac{da_3}{dt}\\hat{k} \\]</p><strong>Rules of Vector Differentiation:</strong>\n <ul>\n <li>Linearity: $\\dfrac{d}{dt}[\\mathbf{a} + \\mathbf{b}] = \\dfrac{d\\mathbf{a}}{dt} + \\dfrac{d\\mathbf{b}}{dt}$\n <li>Scalar product rule: $\\dfrac{d}{dt}[\\phi(t)\\mathbf{a}] = \\phi'(t)\\mathbf{a} + \\phi(t)\\dfrac{d\\mathbf{a}}{dt}$\n <li>Dot product rule: $\\dfrac{d}{dt}[\\mathbf{a} \\cdot \\mathbf{b}] = \\dfrac{d\\mathbf{a}}{dt} \\cdot \\mathbf{b} + \\mathbf{a} \\cdot \\dfrac{d\\mathbf{b}}{dt}$\n <li>Cross product rule: $\\dfrac{d}{dt}[\\mathbf{a} \\times \\mathbf{b}] = \\dfrac{d\\mathbf{a}}{dt} \\times \\mathbf{b} + \\mathbf{a} \\times \\dfrac{d\\mathbf{b}}{dt}$ (order matters!)\n <li>STP rule: $\\dfrac{d}{dt}[\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}] = [\\mathbf{a}'\\,\\mathbf{b}\\,\\mathbf{c}] + [\\mathbf{a}\\,\\mathbf{b}'\\,\\mathbf{c}] + [\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}']$\n </ul><p><strong>Important Theorem:</strong> If $|\\mathbf{a}(t)| = $ constant, then $\\mathbf{a}(t) \\cdot \\dfrac{d\\mathbf{a}}{dt} = 0$. Hence, a vector of constant magnitude is perpendicular to its derivative. This explains why position vectors on a sphere always have radial-tangential decomposition.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the reciprocal system to the vectors $\\mathbf{a} = 2\\hat{i} + 3\\hat{j} - \\hat{k}$, $\\mathbf{b} = \\hat{i} - \\hat{j} - 2\\hat{k}$, $\\mathbf{c} = -\\hat{i} + 2\\hat{j} + 2\\hat{k}$.</p>",
+              "solution": "<p>First compute $[\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}]$:\n \\[ [\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}] = \\begin{vmatrix} 2 & 3 & -1 \\\\ 1 & -1 & -2 \\\\ -1 & 2 & 2 \\end{vmatrix} = 2(-2+4) - 3(2-2) + (-1)(2-1) = 4 - 0 - 1 = 3 \\]\n Compute the cross products:\n \\[ \\mathbf{b} \\times \\mathbf{c} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & -1 & -2 \\\\ -1 & 2 & 2 \\end{vmatrix} = \\hat{i}(-2 + 4) - \\hat{j}(2 - 2) + \\hat{k}(2 - 1) = 2\\hat{i} + \\hat{k} \\]\n \\[ \\mathbf{c} \\times \\mathbf{a} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ -1 & 2 & 2 \\\\ 2 & 3 & -1 \\end{vmatrix} = \\hat{i}(-2 - 6) - \\hat{j}(1 - 4) + \\hat{k}(-3 - 4) = -8\\hat{i} + 3\\hat{j} - 7\\hat{k} \\]\n \\[ \\mathbf{a} \\times \\mathbf{b} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 2 & 3 & -1 \\\\ 1 & -1 & -2 \\end{vmatrix} = \\hat{i}(-6 - 1) - \\hat{j}(-4 + 1) + \\hat{k}(-2 - 3) = -7\\hat{i} + 3\\hat{j} - 5\\hat{k} \\]\n Therefore:\n \\[ \\mathbf{a}' = \\frac{1}{3}(2\\hat{i} + \\hat{k}), \\quad \\mathbf{b}' = \\frac{1}{3}(-8\\hat{i} + 3\\hat{j} - 7\\hat{k}), \\quad \\mathbf{c}' = \\frac{1}{3}(-7\\hat{i} + 3\\hat{j} - 5\\hat{k}) \\]\n <strong>Final Answer:</strong> As stated above; one can verify $\\mathbf{a} \\cdot \\mathbf{a}' = 1$ as required.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$ and $\\mathbf{a}', \\mathbf{b}', \\mathbf{c}'$ are reciprocal systems, then $\\mathbf{a} \\cdot \\mathbf{a}' + \\mathbf{b} \\cdot \\mathbf{b}' + \\mathbf{c} \\cdot \\mathbf{c}'$ equals:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$3$",
+                "$[\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}]$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\mathbf{r}(t) = (\\cos t)\\hat{i} + (\\sin t)\\hat{j} + t\\hat{k}$, then $\\left|\\dfrac{d\\mathbf{r}}{dt}\\right|$ equals:",
+              "options": [
+                "$1$",
+                "$\\sqrt{2}$",
+                "$2$",
+                "$t$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\mathbf{r}(t)$ has constant magnitude, then $\\mathbf{r} \\cdot \\dfrac{d\\mathbf{r}}{dt}$ equals:",
+              "options": [
+                "$|\\mathbf{r}|^2$",
+                "$|\\mathbf{r}|$",
+                "$0$",
+                "$|\\mathbf{r}|\\left|\\dfrac{d\\mathbf{r}}{dt}\\right|$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "For reciprocal systems, $[\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}] \\cdot [\\mathbf{a}'\\,\\mathbf{b}'\\,\\mathbf{c}']$ equals:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$[\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}]^2$",
+                "$[\\mathbf{a}'\\,\\mathbf{b}'\\,\\mathbf{c}']^2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\mathbf{a}(t) = t^2\\hat{i} - t\\hat{j} + (2t+1)\\hat{k}$ and $\\mathbf{b}(t) = (2t-3)\\hat{i} + \\hat{j} - t\\hat{k}$, then $\\dfrac{d}{dt}(\\mathbf{a} \\cdot \\mathbf{b})$ at $t = 1$ equals:",
+              "options": [
+                "$-6$",
+                "$6$",
+                "$0$",
+                "$2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-math-vector-algebra-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "If $\\mathbf{a} \\cdot \\mathbf{b} = 0$ and $\\mathbf{a} \\times \\mathbf{b} = \\mathbf{0}$, where $\\mathbf{a}$ is a non-zero vector, then $\\mathbf{b}$ must be:",
+              "options": [
+                "Parallel to $\\mathbf{a}$",
+                "Perpendicular to $\\mathbf{a}$",
+                "The zero vector",
+                "Equal to $\\mathbf{a}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If the position vectors of points $A, B, C, D$ are $\\hat{i} + \\hat{j} + \\hat{k}$, $2\\hat{i} + 5\\hat{j}$, $3\\hat{i} + 2\\hat{j} - 3\\hat{k}$, $\\hat{i} - 6\\hat{j} - \\hat{k}$ respectively, then the angle between $\\overrightarrow{AB}$ and $\\overrightarrow{CD}$ is:",
+              "options": [
+                "$\\dfrac{\\pi}{2}$",
+                "$\\dfrac{\\pi}{3}$",
+                "$\\dfrac{\\pi}{4}$",
+                "$\\dfrac{\\pi}{6}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\mathbf{a}$, $\\mathbf{b}$, $\\mathbf{c}$ are mutually perpendicular unit vectors, then $|\\mathbf{a} + \\mathbf{b} + \\mathbf{c}|$ equals:",
+              "options": [
+                "$\\sqrt{3}$",
+                "$1$",
+                "$3$",
+                "$\\sqrt{2}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$ are three vectors such that $\\mathbf{a} + \\mathbf{b} + \\mathbf{c} = \\mathbf{0}$, then $\\mathbf{a} \\times \\mathbf{b} + \\mathbf{b} \\times \\mathbf{c} + \\mathbf{c} \\times \\mathbf{a}$ equals:",
+              "options": [
+                "$\\mathbf{0}$",
+                "$3(\\mathbf{a} \\times \\mathbf{b})$",
+                "$\\mathbf{a} \\times \\mathbf{b}$",
+                "$-(\\mathbf{a} \\times \\mathbf{b})$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\mathbf{a} = \\hat{i} + \\hat{j} + \\hat{k}$ and $\\mathbf{b} = \\hat{j} - \\hat{k}$, then a vector $\\mathbf{c}$ satisfying $\\mathbf{a} \\times \\mathbf{c} = \\mathbf{b}$ and $\\mathbf{a} \\cdot \\mathbf{c} = 3$ is:",
+              "options": [
+                "$\\dfrac{5}{3}\\hat{i} + \\dfrac{2}{3}\\hat{j} + \\dfrac{2}{3}\\hat{k}$",
+                "$\\dfrac{5}{3}\\hat{i} - \\dfrac{2}{3}\\hat{j} + \\dfrac{2}{3}\\hat{k}$",
+                "$-\\dfrac{5}{3}\\hat{i} + \\dfrac{2}{3}\\hat{j} + \\dfrac{2}{3}\\hat{k}$",
+                "$\\dfrac{5}{3}\\hat{i} + \\dfrac{2}{3}\\hat{j} - \\dfrac{2}{3}\\hat{k}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The value of $[\\mathbf{a} - \\mathbf{b}\\,\\,\\mathbf{b} - \\mathbf{c}\\,\\,\\mathbf{c} - \\mathbf{a}]$ is:",
+              "options": [
+                "$0$",
+                "$2[\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}]$",
+                "$-[\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}]$",
+                "$[\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}]$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The vectors $\\mathbf{a} = \\lambda\\hat{i} + \\mu\\hat{j} + 4\\hat{k}$, $\\mathbf{b} = 3\\hat{i} - 4\\hat{j} + 5\\hat{k}$ are perpendicular if:",
+              "options": [
+                "$3\\lambda - 4\\mu + 20 = 0$",
+                "$3\\lambda + 4\\mu = 20$",
+                "$3\\lambda - 4\\mu = 20$",
+                "$\\lambda + \\mu = 4$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Vectors $\\overrightarrow{AB} = 3\\hat{i} + \\hat{k}$ and $\\overrightarrow{AC} = 5\\hat{i} - 2\\hat{j} + 4\\hat{k}$ are the sides of triangle $ABC$. The length of the median through $A$ equals:",
+              "options": [
+                "$\\sqrt{18}$",
+                "$\\sqrt{72}$",
+                "$\\sqrt{33}$",
+                "$\\sqrt{288}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\mathbf{a}$, $\\mathbf{b}$, $\\mathbf{c}$ are three non-coplanar vectors and $\\mathbf{p}$, $\\mathbf{q}$, $\\mathbf{r}$ are their reciprocal system, then $(\\mathbf{a} + \\mathbf{b}) \\cdot \\mathbf{p} + (\\mathbf{b} + \\mathbf{c}) \\cdot \\mathbf{q} + (\\mathbf{c} + \\mathbf{a}) \\cdot \\mathbf{r}$ equals:",
+              "options": [
+                "$0$",
+                "$3$",
+                "$1$",
+                "$-3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The shortest distance between the lines $\\mathbf{r} = \\hat{i} + 2\\hat{j} + \\hat{k} + \\lambda(\\hat{i} - \\hat{j} + \\hat{k})$ and $\\mathbf{r} = 2\\hat{i} - \\hat{j} - \\hat{k} + \\mu(2\\hat{i} + \\hat{j} + 2\\hat{k})$ is:",
+              "options": [
+                "$\\dfrac{3\\sqrt{2}}{2}$",
+                "$\\dfrac{2}{\\sqrt{3}}$",
+                "$\\dfrac{\\sqrt{3}}{2}$",
+                "$\\dfrac{1}{\\sqrt{3}}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "If $\\mathbf{a} = 2\\hat{i} + \\lambda\\hat{j} + \\hat{k}$ and $\\mathbf{b} = \\hat{i} - 2\\hat{j} + 3\\hat{k}$ are perpendicular, find the value of $\\lambda$.",
+              "answer": "",
+              "explanation": ""
+            },
+            {
+              "q": "The volume of the parallelepiped with adjacent edges $2\\hat{i} - 3\\hat{j} + 4\\hat{k}$, $\\hat{i} + 2\\hat{j} - \\hat{k}$, $3\\hat{i} - \\hat{j} + 2\\hat{k}$ is $V$. Find $V$.",
+              "answer": "",
+              "explanation": ""
+            },
+            {
+              "q": "If $\\mathbf{a}$ and $\\mathbf{b}$ are unit vectors and $\\mathbf{a} + 2\\mathbf{b}$ and $5\\mathbf{a} - 4\\mathbf{b}$ are perpendicular, find $60\\cos\\theta$ where $\\theta$ is the angle between $\\mathbf{a}$ and $\\mathbf{b}$.",
+              "answer": "",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The vector triple product satisfies $\\mathbf{a} \\times (\\mathbf{b} \\times \\mathbf{c}) = (\\mathbf{a} \\cdot \\mathbf{c})\\mathbf{b} - (\\mathbf{a} \\cdot \\mathbf{b})\\mathbf{c}$.<br>\n <strong>Reason (R):</strong> The vector triple product is always associative; that is, $\\mathbf{a} \\times (\\mathbf{b} \\times \\mathbf{c}) = (\\mathbf{a} \\times \\mathbf{b}) \\times \\mathbf{c}$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 2,
+              "explanation": "A is true, but R is false (vector triple product is NOT associative)."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> If $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$ are coplanar non-zero vectors, then $[\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}] = 0$.<br>\n <strong>Reason (R):</strong> The scalar triple product equals the volume of the parallelepiped formed by the three vectors, and coplanar vectors form a degenerate parallelepiped of zero volume.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation of A."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-math-vector-algebra-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "If $\\mathbf{a} = \\hat{i} + \\hat{j} + \\hat{k}$, $\\mathbf{b} = \\hat{i} - \\hat{j} + 2\\hat{k}$, $\\mathbf{c} = x\\hat{i} + (x-2)\\hat{j} - \\hat{k}$, and $[\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}] = 0$, then $x$ equals:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$-2$",
+                "$2$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Let $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$ be unit vectors such that $\\mathbf{a} \\cdot \\mathbf{b} = \\mathbf{a} \\cdot \\mathbf{c} = 0$ and the angle between $\\mathbf{b}$ and $\\mathbf{c}$ is $\\dfrac{\\pi}{6}$. Then $\\mathbf{a}$ equals:",
+              "options": [
+                "$\\pm 2(\\mathbf{b} \\times \\mathbf{c})$",
+                "$\\pm \\dfrac{1}{2}(\\mathbf{b} \\times \\mathbf{c})$",
+                "$\\pm (\\mathbf{b} \\times \\mathbf{c})$",
+                "$\\pm \\dfrac{1}{\\sqrt{2}}(\\mathbf{b} \\times \\mathbf{c})$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "For three vectors $\\mathbf{u}, \\mathbf{v}, \\mathbf{w}$ which of the following is NOT generally equal to the others?",
+              "options": [
+                "$\\mathbf{u} \\cdot (\\mathbf{v} \\times \\mathbf{w})$",
+                "$\\mathbf{v} \\cdot (\\mathbf{w} \\times \\mathbf{u})$",
+                "$\\mathbf{w} \\cdot (\\mathbf{u} \\times \\mathbf{v})$",
+                "$\\mathbf{v} \\cdot (\\mathbf{u} \\times \\mathbf{w})$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$ are non-coplanar vectors and $\\mathbf{a} \\times \\mathbf{b} = \\mathbf{c}$, $\\mathbf{b} \\times \\mathbf{c} = \\mathbf{a}$, $\\mathbf{c} \\times \\mathbf{a} = \\mathbf{b}$, then $|\\mathbf{a}| + |\\mathbf{b}| + |\\mathbf{c}|$ equals:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "$3$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "The volume of the tetrahedron with vertices at $(0,0,0)$, $(1,2,3)$, $(2,-1,1)$, $(3,1,-2)$ is:",
+              "options": [
+                "$\\dfrac{13}{6}$",
+                "$\\dfrac{17}{6}$",
+                "$\\dfrac{23}{6}$",
+                "$\\dfrac{7}{6}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\mathbf{a} \\times \\mathbf{b} = \\mathbf{c} \\times \\mathbf{d}$ and $\\mathbf{a} \\times \\mathbf{c} = \\mathbf{b} \\times \\mathbf{d}$, then $\\mathbf{a} - \\mathbf{d}$ is parallel to:",
+              "options": [
+                "$\\mathbf{b} - \\mathbf{c}$",
+                "$\\mathbf{b} + \\mathbf{c}$",
+                "$\\mathbf{b} \\times \\mathbf{c}$",
+                "$\\mathbf{0}$ only"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Let $\\mathbf{a} = 2\\hat{i} + \\hat{j} - 2\\hat{k}$ and $\\mathbf{b} = \\hat{i} + \\hat{j}$. If $\\mathbf{c}$ is a vector such that $\\mathbf{a} \\cdot \\mathbf{c} = |\\mathbf{c}|$, $|\\mathbf{c} - \\mathbf{a}| = 2\\sqrt{2}$, and the angle between $\\mathbf{a} \\times \\mathbf{b}$ and $\\mathbf{c}$ is $30°$, then $|(\\mathbf{a} \\times \\mathbf{b}) \\times \\mathbf{c}|$ equals:",
+              "options": [
+                "$\\dfrac{2}{3}$",
+                "$\\dfrac{3}{2}$",
+                "$2$",
+                "$3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$ are vectors such that $[\\mathbf{a}\\,\\mathbf{b}\\,\\mathbf{c}] = 4$, then $[\\mathbf{a} \\times \\mathbf{b}\\,\\,\\mathbf{b} \\times \\mathbf{c}\\,\\,\\mathbf{c} \\times \\mathbf{a}]$ equals:",
+              "options": [
+                "$4$",
+                "$16$",
+                "$64$",
+                "$8$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Let $\\mathbf{a}$ and $\\mathbf{b}$ be two unit vectors. If the vectors $\\mathbf{c} = \\mathbf{a} + 2\\mathbf{b}$ and $\\mathbf{d} = 5\\mathbf{a} - 4\\mathbf{b}$ are perpendicular to each other, then the angle between $\\mathbf{a}$ and $\\mathbf{b}$ is:",
+              "options": [
+                "$\\dfrac{\\pi}{6}$",
+                "$\\dfrac{\\pi}{2}$",
+                "$\\dfrac{\\pi}{3}$",
+                "$\\dfrac{\\pi}{4}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\mathbf{a}$, $\\mathbf{b}$, $\\mathbf{c}$ are unit vectors satisfying $\\mathbf{a} + \\mathbf{b} + \\mathbf{c} = \\mathbf{0}$ and the magnitude of $\\mathbf{a} \\times \\mathbf{b} + \\mathbf{b} \\times \\mathbf{c} + \\mathbf{c} \\times \\mathbf{a}$ equals:",
+              "options": [
+                "$0$",
+                "$\\dfrac{3\\sqrt{3}}{2}$",
+                "$\\dfrac{\\sqrt{3}}{2}$",
+                "$\\sqrt{3}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "If $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$ are three vectors of magnitudes $1, 2, 3$ respectively, and they are mutually perpendicular, then $|\\mathbf{a} + \\mathbf{b} + \\mathbf{c}|^2 = N$. Find the value of $N$.",
+              "answer": "",
+              "explanation": ""
+            },
+            {
+              "q": "The vectors $\\mathbf{a} = \\hat{i} - 2\\hat{j} + 3\\hat{k}$, $\\mathbf{b} = -2\\hat{i} + 3\\hat{j} - 4\\hat{k}$, $\\mathbf{c} = \\hat{i} - 3\\hat{j} + 5\\hat{k}$ are coplanar. Find the number $\\lambda$ (if any) such that $\\mathbf{a} - \\lambda\\mathbf{b} - (1+\\lambda)\\mathbf{c}$ becomes the zero vector, expressed as the closest integer.",
+              "answer": "",
+              "explanation": ""
+            },
+            {
+              "q": "In a parallelepiped with concurrent edges $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$, if $|\\mathbf{a}| = |\\mathbf{b}| = |\\mathbf{c}| = 1$ and all the angles between consecutive edges equal $60°$, then the square of the volume of the parallelepiped equals $\\dfrac{N}{4}$. Find $N$.",
+              "answer": "",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> If $\\mathbf{a} \\times \\mathbf{b} = \\mathbf{a} \\times \\mathbf{c}$ and $\\mathbf{a} \\neq \\mathbf{0}$, then $\\mathbf{b} = \\mathbf{c}$.<br>\n <strong>Reason (R):</strong> The cross product equation implies $\\mathbf{a} \\times (\\mathbf{b} - \\mathbf{c}) = \\mathbf{0}$, which only guarantees $\\mathbf{b} - \\mathbf{c}$ is parallel to $\\mathbf{a}$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 3,
+              "explanation": "A is false (counterexample: $."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> For any three vectors $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$, the identity $\\mathbf{a} \\times (\\mathbf{b} \\times \\mathbf{c}) + \\mathbf{b} \\times (\\mathbf{c} \\times \\mathbf{a}) + \\mathbf{c} \\times (\\mathbf{a} \\times \\mathbf{b}) = \\mathbf{0}$ holds (Jacobi identity).<br>\n <strong>Reason (R):</strong> This follows by expanding each term using the BAC--CAB rule and observing the cancellation.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

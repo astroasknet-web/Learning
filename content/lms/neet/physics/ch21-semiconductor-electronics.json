@@ -1,0 +1,168 @@
+{
+  "exam": "neet",
+  "subject": "physics",
+  "chapter": 21,
+  "title": "Semiconductor Electronics",
+  "slug": "semiconductor-electronics",
+  "subtitle": "Intrinsic & extrinsic semiconductors, p-n junction diode, rectifiers & logic gates",
+  "level": "NEET (UG)",
+  "color": "#2563eb",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "NEET Physics — Semiconductor Electronics: intrinsic and extrinsic (p-type, n-type) semiconductors, the p-n junction diode and biasing, half- and full-wave rectifiers, special diodes (Zener, LED, photodiode, solar cell) and logic gates, with NEET-level examples and MCQs. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Semiconductors and the p-n Junction",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Intrinsic and Extrinsic Semiconductors",
+          "concept": "<p>Materials are classified by how easily they conduct. <strong>Conductors</strong> (metals) conduct freely; <strong>insulators</strong> hardly conduct; and <strong>semiconductors</strong> like silicon and germanium lie in between. In the energy-band picture, a semiconductor has a small <strong>energy gap</strong> (about $1\\ \\text{eV}$) between its filled valence band and empty conduction band — small enough that some electrons can cross it as temperature rises.</p><p>A pure semiconductor is called <strong>intrinsic</strong>. At absolute zero it behaves as an insulator, but at room temperature thermal energy frees a few electrons into the conduction band, each leaving behind a vacancy called a <strong>hole</strong> that acts like a positive charge carrier. In an intrinsic semiconductor the number of electrons equals the number of holes ($n_e = n_h$). A counterintuitive but key NEET fact: unlike metals, the conductivity of a semiconductor <em>increases</em> with temperature, because heating creates more carriers.</p><p>Pure semiconductors conduct too weakly to be useful, so their conductivity is boosted by <strong>doping</strong> — adding tiny amounts of impurity. Doping silicon with a <strong>pentavalent</strong> impurity (such as phosphorus or arsenic, group 15) donates extra electrons, giving an <strong>n-type</strong> semiconductor in which electrons are the majority carriers and holes the minority.</p><p>Doping instead with a <strong>trivalent</strong> impurity (such as boron or aluminium, group 13) creates extra holes, giving a <strong>p-type</strong> semiconductor in which holes are the majority carriers and electrons the minority. Crucially, both n-type and p-type materials remain electrically <strong>neutral</strong> overall — doping changes the type of carrier, not the net charge. These doped (extrinsic) semiconductors are the building blocks of every diode and transistor.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Type</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Dopant & majority carrier</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Intrinsic</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>pure; $n_e = n_h$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>n-type</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>pentavalent; electrons</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>p-type</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>trivalent; holes</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>With temperature</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>conductivity increases</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Silicon is doped with arsenic (a pentavalent element). What type of semiconductor is formed and which are the majority carriers?</p>",
+              "solution": "<p>A pentavalent dopant donates extra electrons, forming an <strong>n-type</strong> semiconductor in which electrons are the majority carriers (holes are the minority).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>How does the conductivity of a semiconductor change as temperature rises, and how does this differ from a metal?</p>",
+              "solution": "<p>A semiconductor's conductivity <em>increases</em> with temperature, as more electron-hole pairs are created. A metal's conductivity <em>decreases</em> (its resistance rises) because of greater lattice vibrations.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The energy gap of a typical semiconductor is about:</p>", "options": ["$0\\ \\text{eV}$", "$1\\ \\text{eV}$", "$10\\ \\text{eV}$", "$100\\ \\text{eV}$"], "correct": 1, "explanation": "About $1\\ \\text{eV}$ for semiconductors." },
+            { "q": "<p>In an intrinsic semiconductor, the number of electrons and holes are:</p>", "options": ["unequal", "equal", "zero", "infinite"], "correct": 1, "explanation": "$n_e = n_h$ in an intrinsic semiconductor." },
+            { "q": "<p>A pentavalent dopant produces a:</p>", "options": ["p-type", "n-type", "intrinsic", "insulator"], "correct": 1, "explanation": "Pentavalent donors give n-type." },
+            { "q": "<p>In a p-type semiconductor, the majority carriers are:</p>", "options": ["electrons", "holes", "protons", "neutrons"], "correct": 1, "explanation": "Holes are the majority carriers in p-type." },
+            { "q": "<p>As temperature increases, the conductivity of a semiconductor:</p>", "options": ["increases", "decreases", "stays constant", "becomes zero"], "correct": 0, "explanation": "More carriers are created, so conductivity rises." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Pentavalent to n-type (electrons), trivalent to p-type (holes); both stay neutral overall. Semiconductor conductivity rises with temperature, opposite to a metal.</p>"
+        },
+        {
+          "number": 2,
+          "title": "The p-n Junction Diode and Biasing",
+          "concept": "<p>Joining a p-type and an n-type region forms a <strong>p-n junction</strong>, the basic semiconductor device. Near the junction, electrons and holes diffuse across and recombine, leaving a thin region with no free carriers called the <strong>depletion layer</strong>. The exposed fixed charges set up an internal <strong>potential barrier</strong> (about $0.7\\ \\text{V}$ for silicon, $0.3\\ \\text{V}$ for germanium) that opposes further crossing.</p><p>The junction's behaviour depends on how it is connected to a battery — its <strong>bias</strong>. In <strong>forward bias</strong>, the p-side is connected to the positive terminal; this lowers the barrier and narrows the depletion layer, so once the applied voltage exceeds the barrier, a large current flows easily. The diode then behaves almost like a closed switch.</p><p>In <strong>reverse bias</strong>, the p-side is connected to the negative terminal; this raises the barrier and widens the depletion layer, so only a tiny <strong>leakage current</strong> (from minority carriers) flows. The diode then behaves almost like an open switch. This asymmetry — easy current one way, almost none the other — gives the diode its defining property: it allows current in essentially <em>one direction only</em>.</p><p>This one-way behaviour shows up as the diode's <strong>V–I characteristic</strong>: negligible current in reverse bias, then a sharp rise once the forward voltage passes the knee. A heavily reverse-biased diode can also undergo <strong>breakdown</strong> at a high enough voltage. The rectifying action of the p-n junction is the single most important idea in this module, underlying rectifiers, logic and most analog circuits.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Condition</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Behaviour</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Forward bias</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>low resistance, large current</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Reverse bias</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>high resistance, tiny leakage</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Barrier voltage (Si)</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\approx 0.7\\ \\text{V}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Net function</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>conducts in one direction</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A silicon diode is connected with its p-side to the positive terminal of a battery. Is it forward or reverse biased, and does it conduct?</p>",
+              "solution": "<p>It is <strong>forward biased</strong>. The barrier is lowered, so once the applied voltage exceeds about $0.7\\ \\text{V}$, the diode conducts a large current.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why does only a very small current flow in a reverse-biased diode?</p>",
+              "solution": "<p>Reverse bias widens the depletion layer and raises the barrier, blocking the majority carriers. Only the few minority carriers cross, giving a tiny reverse (leakage) current.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The region near a p-n junction with no free carriers is the:</p>", "options": ["conduction band", "depletion layer", "valence band", "barrier electrode"], "correct": 1, "explanation": "It is called the depletion layer." },
+            { "q": "<p>A forward-biased diode has:</p>", "options": ["high resistance", "low resistance", "infinite resistance", "no current"], "correct": 1, "explanation": "Forward bias gives low resistance and large current." },
+            { "q": "<p>The barrier potential of a silicon junction is about:</p>", "options": ["$0.3\\ \\text{V}$", "$0.7\\ \\text{V}$", "$1.5\\ \\text{V}$", "$5\\ \\text{V}$"], "correct": 1, "explanation": "Silicon barrier $\\approx 0.7\\ \\text{V}$." },
+            { "q": "<p>In reverse bias, the depletion layer:</p>", "options": ["narrows", "widens", "vanishes", "stays the same"], "correct": 1, "explanation": "Reverse bias widens the depletion layer." },
+            { "q": "<p>The essential property of a p-n junction diode is that it:</p>", "options": ["conducts both ways", "conducts one way only", "stores charge", "amplifies signals"], "correct": 1, "explanation": "It conducts in essentially one direction." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Forward bias (p to +): low resistance, conducts above $\\sim0.7\\ \\text{V}$ (Si). Reverse bias: widens depletion layer, only tiny leakage. The diode conducts one way — the heart of rectification.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Diode Applications and Logic Gates",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Rectifiers and Special-Purpose Diodes",
+          "concept": "<p>The diode's one-way conduction is used to convert AC into DC — a process called <strong>rectification</strong>. A <strong>half-wave rectifier</strong> uses a single diode that conducts only during the half of each AC cycle when it is forward biased, blocking the other half. The output is a pulsing DC present for only half the time, so it is inefficient and has a low average value.</p><p>A <strong>full-wave rectifier</strong> uses two diodes (with a centre-tapped transformer) or four diodes in a bridge, arranged so that current flows through the load in the same direction during <em>both</em> halves of the cycle. This gives an output for the whole cycle, with double the frequency and a higher average value — far more efficient, which is why it is used in practice. The remaining ripple is smoothed by a <strong>filter</strong> (typically a capacitor) to produce steady DC.</p><p>Several diodes are designed for special jobs. A <strong>Zener diode</strong> is built to operate safely in reverse breakdown at a fixed voltage, so it is used as a <strong>voltage regulator</strong> that holds the output steady. A <strong>light-emitting diode (LED)</strong> emits light when forward biased, converting electrical energy directly to light — used in displays and lighting.</p><p>Two more are commonly tested. A <strong>photodiode</strong> is operated in reverse bias and its current increases when light falls on it, so it works as a light detector. A <strong>solar cell</strong> is a large-area junction that generates a voltage when illuminated, converting light directly into electrical energy. Recognising which diode does which job — Zener regulates, LED emits, photodiode detects, solar cell generates — covers most NEET special-diode questions.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Device</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Function</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Half / full-wave rectifier</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>AC to DC (half / whole cycle)</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Zener diode</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>voltage regulator (reverse breakdown)</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>LED</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>emits light (forward bias)</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Photodiode / Solar cell</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>detects / generates from light</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>How many diodes are used in a bridge full-wave rectifier, and over how much of the AC cycle is there output?</p>",
+              "solution": "<p>Four diodes. The bridge directs current through the load in the same direction during both halves of the cycle, so there is a rectified output over the <strong>entire</strong> cycle.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Which diode is used as a voltage regulator, and in which bias does it operate?</p>",
+              "solution": "<p>A Zener diode, operated in <strong>reverse bias</strong> at its breakdown voltage, where the voltage across it stays nearly constant despite changes in current.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>A half-wave rectifier uses:</p>", "options": ["one diode", "two diodes", "four diodes", "no diodes"], "correct": 0, "explanation": "A single diode conducts on one half-cycle." },
+            { "q": "<p>A bridge full-wave rectifier uses:</p>", "options": ["one diode", "two diodes", "four diodes", "six diodes"], "correct": 2, "explanation": "Four diodes in a bridge." },
+            { "q": "<p>A Zener diode operates as a regulator in:</p>", "options": ["forward bias", "reverse breakdown", "open circuit", "no bias"], "correct": 1, "explanation": "It works in reverse breakdown at a fixed voltage." },
+            { "q": "<p>An LED emits light when it is:</p>", "options": ["reverse biased", "forward biased", "unbiased", "in breakdown"], "correct": 1, "explanation": "An LED emits when forward biased." },
+            { "q": "<p>A solar cell converts:</p>", "options": ["light into electricity", "electricity into light", "heat into light", "AC into DC"], "correct": 0, "explanation": "A solar cell generates electricity from light." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Half-wave (1 diode, half cycle) vs full-wave/bridge (2 or 4 diodes, whole cycle, smoothed by a capacitor). Zener regulates (reverse breakdown), LED emits, photodiode detects, solar cell generates.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Logic Gates",
+          "concept": "<p><strong>Logic gates</strong> are the building blocks of digital electronics. They operate on binary inputs — represented as $0$ (low) and $1$ (high) — and produce a binary output according to a fixed rule. The behaviour of a gate is summarised in a <strong>truth table</strong> listing the output for every combination of inputs, which NEET expects you to read and reproduce.</p><p>There are three basic gates. The <strong>OR gate</strong> outputs $1$ if <em>any</em> input is $1$ (output is $0$ only when all inputs are $0$). The <strong>AND gate</strong> outputs $1$ only if <em>all</em> inputs are $1$. The <strong>NOT gate</strong> (inverter) has a single input and simply reverses it, turning $0$ into $1$ and $1$ into $0$.</p><p>Combining a NOT with the basic gates gives two very important compound gates. The <strong>NAND gate</strong> is an AND followed by NOT, so its output is $0$ only when all inputs are $1$. The <strong>NOR gate</strong> is an OR followed by NOT, so its output is $1$ only when all inputs are $0$. These are simply the inverted versions of AND and OR.</p><p>NAND and NOR are called <strong>universal gates</strong> because any logic circuit whatsoever can be built using only NAND gates, or only NOR gates — a fact NEET likes to test directly. For example, a NOT gate can be made from a single NAND gate by tying its two inputs together. Mastery here is mostly about memorising the simple rule for each gate and being able to fill in its truth table quickly, which makes this final topic one of the most reliable and predictable sources of marks in the whole paper.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Gate</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Output is 1 when</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>OR</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>any input is 1</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>AND</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>all inputs are 1</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>NOT</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>input is 0 (inverts)</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>NAND / NOR</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>universal gates</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>For an AND gate with inputs $A = 1$ and $B = 0$, what is the output? And for an OR gate with the same inputs?</p>",
+              "solution": "<p>AND gives $1 \\cdot 0 = 0$ (output $0$, since not all inputs are $1$). OR gives $1 + 0 = 1$ (output $1$, since at least one input is $1$).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Which gates are called universal gates and why?</p>",
+              "solution": "<p>NAND and NOR gates. Any logic function can be implemented using only NAND gates, or only NOR gates, so each alone is sufficient to build any digital circuit.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>An AND gate outputs 1 only when:</p>", "options": ["any input is 1", "all inputs are 1", "all inputs are 0", "inputs differ"], "correct": 1, "explanation": "AND requires all inputs to be 1." },
+            { "q": "<p>An OR gate outputs 0 only when:</p>", "options": ["any input is 1", "all inputs are 1", "all inputs are 0", "one input is 0"], "correct": 2, "explanation": "OR is 0 only when all inputs are 0." },
+            { "q": "<p>A NOT gate:</p>", "options": ["adds inputs", "inverts the input", "multiplies inputs", "stores a bit"], "correct": 1, "explanation": "NOT inverts: 0 becomes 1 and 1 becomes 0." },
+            { "q": "<p>A NAND gate is an AND gate followed by a:</p>", "options": ["OR gate", "NOT gate", "second AND gate", "NOR gate"], "correct": 1, "explanation": "NAND = AND then NOT." },
+            { "q": "<p>The universal gates are:</p>", "options": ["AND and OR", "NOT and OR", "NAND and NOR", "AND and NOT"], "correct": 2, "explanation": "NAND and NOR are universal." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> OR = any-1; AND = all-1; NOT inverts. NAND/NOR are the inverted AND/OR and are universal — any circuit can be built from NAND-only or NOR-only. Memorise the truth tables.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-physics-ch21-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>In an intrinsic semiconductor, the number of free electrons:</p>", "options": ["exceeds holes", "equals the number of holes", "is less than holes", "is zero"], "correct": 1, "explanation": "$n_e = n_h$ for intrinsic." },
+            { "q": "<p>Doping with a trivalent impurity gives a:</p>", "options": ["n-type", "p-type", "intrinsic", "conductor"], "correct": 1, "explanation": "Trivalent dopant to p-type." },
+            { "q": "<p>The majority carriers in an n-type semiconductor are:</p>", "options": ["holes", "electrons", "protons", "ions"], "correct": 1, "explanation": "Electrons are the majority carriers in n-type." },
+            { "q": "<p>A forward-biased p-n junction has:</p>", "options": ["high resistance", "low resistance", "no current", "infinite resistance"], "correct": 1, "explanation": "Forward bias gives low resistance." },
+            { "q": "<p>A full-wave bridge rectifier uses:</p>", "options": ["one diode", "two diodes", "four diodes", "eight diodes"], "correct": 2, "explanation": "Four diodes in a bridge." },
+            { "q": "<p>A Zener diode is used as a:</p>", "options": ["rectifier", "voltage regulator", "amplifier", "oscillator"], "correct": 1, "explanation": "Zener regulates voltage in reverse breakdown." },
+            { "q": "<p>An AND gate gives output 1 when:</p>", "options": ["any input is 1", "all inputs are 1", "all inputs are 0", "inputs differ"], "correct": 1, "explanation": "AND needs all inputs 1." },
+            { "q": "<p>The universal gates are:</p>", "options": ["AND, OR", "NAND, NOR", "NOT, OR", "AND, NOT"], "correct": 1, "explanation": "NAND and NOR are universal." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> The conductivity of a semiconductor increases with rising temperature.<br><strong>R:</strong> Thermal energy creates additional electron-hole pairs in the semiconductor.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "More carriers from heating raise conductivity — R explains A." },
+            { "q": "<p><strong>A:</strong> A p-n junction diode conducts appreciably in only one direction.<br><strong>R:</strong> Forward bias lowers the potential barrier while reverse bias raises it.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Lowered barrier (forward) allows current; raised barrier (reverse) blocks it — R explains A." },
+            { "q": "<p><strong>A:</strong> An n-type semiconductor carries a net negative charge.<br><strong>R:</strong> It contains more free electrons than holes.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "An n-type semiconductor is electrically neutral overall, so A is false; it does have more free electrons than holes, so R is true." },
+            { "q": "<p><strong>A:</strong> Any digital circuit can be constructed using only NAND gates.<br><strong>R:</strong> NAND is a universal gate.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Being universal means NAND alone can build any circuit — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

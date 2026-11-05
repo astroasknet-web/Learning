@@ -1,0 +1,168 @@
+{
+  "exam": "neet",
+  "subject": "physics",
+  "chapter": 11,
+  "title": "Current Electricity",
+  "slug": "current-electricity",
+  "subtitle": "Ohm's law, resistance, combinations, Kirchhoff's laws & measuring instruments",
+  "level": "NEET (UG)",
+  "color": "#2563eb",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "NEET Physics — Current Electricity: electric current and drift, Ohm's law and resistivity, series and parallel resistors, EMF and internal resistance, Kirchhoff's laws, Wheatstone bridge, potentiometer and meters, with NEET-level examples and MCQs. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Current, Ohm's Law and Resistance",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Electric Current, Drift Velocity and Ohm's Law",
+          "concept": "<p><strong>Electric current</strong> is the rate of flow of charge, $I = \\dfrac{q}{t}$, measured in amperes. Although conventional current is taken in the direction of positive-charge flow, in metals it is actually electrons drifting the other way. In the absence of a field, free electrons move randomly with no net flow; switching on a field gives them a small steady <strong>drift velocity</strong> $v_d$ superimposed on this random motion.</p><p>The current links to drift velocity through $I = neAv_d$, where $n$ is the number of free electrons per unit volume, $A$ the cross-section and $e$ the electronic charge. A surprising NEET fact emerges here: the drift velocity is tiny (a fraction of a millimetre per second), yet bulbs light instantly because the electric field is established along the wire at nearly the speed of light, setting all electrons moving together.</p><p><strong>Ohm's law</strong> states that, at constant temperature, the current through a conductor is proportional to the potential difference across it: $V = IR$, where $R$ is the resistance in ohms. Conductors obeying this are <em>ohmic</em>; devices like diodes and filament bulbs are <em>non-ohmic</em>, with a curved $V$–$I$ graph, a distinction NEET likes to test through graphs.</p><p>Resistance arises because drifting electrons collide with the lattice. It depends on the material and geometry: $R = \\rho\\dfrac{L}{A}$, where $\\rho$ is the <strong>resistivity</strong>, a property of the material alone. Stretching a wire or using a longer, thinner one raises its resistance. For metals, resistivity <em>increases</em> with temperature (more lattice vibrations), while for semiconductors it <em>decreases</em> — an important contrast for NEET.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Relation</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Current</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$I = q/t = neAv_d$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Ohm's law</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$V = IR$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Resistance</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$R = \\rho\\dfrac{L}{A}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A current of $2\\ \\text{A}$ flows for $5\\ \\text{minutes}$. How much charge passes a point in the wire?</p>",
+              "solution": "<p>$q = It = 2\\times(5\\times60) = 2\\times300 = 600\\ \\text{C}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A wire of resistance $R$ is stretched to twice its length (volume constant). Find its new resistance.</p>",
+              "solution": "<p>Doubling the length halves the area, so $R = \\rho L/A$ becomes $\\rho(2L)/(A/2) = 4\\rho L/A = 4R$. The resistance becomes four times.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Electric current is the rate of flow of:</p>", "options": ["energy", "charge", "mass", "field"], "correct": 1, "explanation": "$I = q/t$." },
+            { "q": "<p>The resistance of a wire is given by:</p>", "options": ["$\\rho A/L$", "$\\rho L/A$", "$\\rho L A$", "$L/\\rho A$"], "correct": 1, "explanation": "$R = \\rho L/A$." },
+            { "q": "<p>Drift velocity of electrons in a typical wire is of the order of:</p>", "options": ["$10^{8}\\ \\text{m/s}$", "$10^{-4}\\ \\text{m/s}$", "$3\\times10^{8}\\ \\text{m/s}$", "$1\\ \\text{m/s}$"], "correct": 1, "explanation": "Drift velocity is very small (~$10^{-4}\\ \\text{m/s}$)." },
+            { "q": "<p>With rising temperature, the resistivity of a metal:</p>", "options": ["decreases", "increases", "stays constant", "becomes zero"], "correct": 1, "explanation": "Metal resistivity increases with temperature." },
+            { "q": "<p>A device whose $V$–$I$ graph is a straight line through the origin is:</p>", "options": ["non-ohmic", "ohmic", "a diode", "a capacitor"], "correct": 1, "explanation": "A linear $V$–$I$ graph means ohmic behaviour." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> $I = neAv_d$ links current and drift. When a wire is stretched at constant volume, $R \\propto L^{2}$. Metals: resistivity rises with $T$; semiconductors: it falls.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Combination of Resistors and EMF",
+          "concept": "<p>Resistors are combined to control current. In <strong>series</strong>, the same current flows through each and the resistances add: $R_s = R_1 + R_2 + \\dots$, giving a value larger than any single resistor. In <strong>parallel</strong>, the same voltage appears across each and the reciprocals add: $\\dfrac{1}{R_p} = \\dfrac{1}{R_1} + \\dfrac{1}{R_2} + \\dots$, giving a value smaller than the smallest resistor. (Note this is exactly opposite to how capacitors combine.)</p><p>A source like a cell does work to drive charge around a circuit; the energy supplied per unit charge is its <strong>electromotive force</strong> (EMF), $\\varepsilon$. EMF is not a force but a potential — the voltage the cell would give with no current drawn. Every real cell also has a small <strong>internal resistance</strong> $r$, so when it delivers current $I$ the usable <strong>terminal voltage</strong> drops to $V = \\varepsilon - Ir$.</p><p>This explains why a car's headlights dim when the starter motor runs: the large current causes a large $Ir$ drop, lowering the terminal voltage. For a cell driving an external resistance $R$, the current is $I = \\dfrac{\\varepsilon}{R + r}$ — a standard NEET starting equation. The terminal voltage equals the EMF only when no current flows (open circuit).</p><p>Cells too can be combined. In <strong>series</strong> the EMFs add (useful for higher voltage), while in <strong>parallel</strong> the EMF stays the same but the combination can supply more current with reduced internal resistance. Maximum power is delivered to the external load when $R = r$, the impedance-matching condition occasionally asked in NEET.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Relation</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Series resistance</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$R_s = R_1 + R_2 + \\dots$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Parallel resistance</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\dfrac{1}{R_p} = \\dfrac{1}{R_1} + \\dfrac{1}{R_2}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Terminal voltage</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$V = \\varepsilon - Ir$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Circuit current</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$I = \\dfrac{\\varepsilon}{R + r}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Two resistors of $4\\ \\Omega$ and $4\\ \\Omega$ are connected in parallel. Find the equivalent resistance.</p>",
+              "solution": "<p>$\\dfrac{1}{R_p} = \\dfrac{1}{4} + \\dfrac{1}{4} = \\dfrac{1}{2}$, so $R_p = 2\\ \\Omega$ — half the value, as expected for equal parallel resistors.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A cell of EMF $6\\ \\text{V}$ and internal resistance $0.5\\ \\Omega$ drives a $5.5\\ \\Omega$ resistor. Find the current and terminal voltage.</p>",
+              "solution": "<p>$I = \\dfrac{\\varepsilon}{R + r} = \\dfrac{6}{5.5 + 0.5} = 1\\ \\text{A}$. Terminal voltage $V = \\varepsilon - Ir = 6 - 1\\times0.5 = 5.5\\ \\text{V}$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Resistors in series have an equivalent resistance equal to:</p>", "options": ["the reciprocal sum", "$R_1 + R_2$", "the smallest one", "the product"], "correct": 1, "explanation": "$R_s = R_1 + R_2 + \\dots$." },
+            { "q": "<p>The terminal voltage of a cell delivering current is:</p>", "options": ["$\\varepsilon + Ir$", "$\\varepsilon - Ir$", "$\\varepsilon$", "$Ir$"], "correct": 1, "explanation": "$V = \\varepsilon - Ir$." },
+            { "q": "<p>The EMF of a cell equals its terminal voltage when:</p>", "options": ["large current flows", "no current flows", "$R = r$", "the cell is shorted"], "correct": 1, "explanation": "Open circuit ($I = 0$) gives $V = \\varepsilon$." },
+            { "q": "<p>The current in a circuit with external $R$ and internal $r$ is:</p>", "options": ["$\\varepsilon/R$", "$\\varepsilon/(R+r)$", "$\\varepsilon/r$", "$\\varepsilon R$"], "correct": 1, "explanation": "$I = \\varepsilon/(R+r)$." },
+            { "q": "<p>Maximum power is delivered to the load when:</p>", "options": ["$R \\gg r$", "$R = r$", "$R = 0$", "$R \\ll r$"], "correct": 1, "explanation": "Maximum power transfer at $R = r$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Resistors add in series and combine reciprocally in parallel (opposite to capacitors). Always include internal resistance: $I = \\varepsilon/(R+r)$, $V = \\varepsilon - Ir$.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kirchhoff's Laws, Heating and Instruments",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Kirchhoff's Laws and Electrical Power",
+          "concept": "<p>Simple series–parallel reduction fails for complex networks with multiple cells, so we use <strong>Kirchhoff's two laws</strong>. The <strong>junction rule</strong> (KCL) states that the total current entering a junction equals the total current leaving it — a statement of charge conservation. The <strong>loop rule</strong> (KVL) states that the algebraic sum of potential changes around any closed loop is zero — a statement of energy conservation. Applying them with a consistent sign convention solves almost any circuit.</p><p>A classic application is the <strong>Wheatstone bridge</strong>, four resistors in a diamond with a galvanometer across the middle. The bridge is <em>balanced</em> (no galvanometer current) when $\\dfrac{P}{Q} = \\dfrac{R}{S}$. At balance the central branch carries no current, so it can be removed — a trick that simplifies many NEET network problems. The metre bridge is a practical version used to measure an unknown resistance.</p><p>When current flows through a resistor, electrical energy converts to heat — <strong>Joule heating</strong>. The power dissipated is $P = VI = I^{2}R = \\dfrac{V^{2}}{R}$, and the heat produced in time $t$ is $H = I^{2}Rt$. Choosing the right form matters: for a fixed current use $I^{2}R$, but for a fixed voltage use $V^{2}/R$, which reverses how series versus parallel resistors share the heat.</p><p>This is why a heater's element has high resistance while connecting wires have low resistance, and why bulbs are rated by power at a stated voltage. A subtle NEET point: at constant voltage, a <em>lower</em>-resistance device draws more current and dissipates more power, so a 100 W bulb actually has lower resistance than a 60 W bulb of the same voltage rating.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Law / quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Statement</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Junction rule (KCL)</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\sum I_{in} = \\sum I_{out}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Loop rule (KVL)</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\sum \\Delta V = 0$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Wheatstone balance</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\dfrac{P}{Q} = \\dfrac{R}{S}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Power dissipated</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$P = I^{2}R = V^{2}/R$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>In a balanced Wheatstone bridge, $P = 10\\ \\Omega$, $Q = 20\\ \\Omega$, $R = 15\\ \\Omega$. Find the unknown $S$.</p>",
+              "solution": "<p>At balance $\\dfrac{P}{Q} = \\dfrac{R}{S}$, so $S = \\dfrac{QR}{P} = \\dfrac{20\\times15}{10} = 30\\ \\Omega$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A heater draws $5\\ \\text{A}$ at $220\\ \\text{V}$. Find the power consumed.</p>",
+              "solution": "<p>$P = VI = 220\\times5 = 1100\\ \\text{W} = 1.1\\ \\text{kW}$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Kirchhoff's junction rule is based on conservation of:</p>", "options": ["energy", "charge", "momentum", "mass"], "correct": 1, "explanation": "KCL expresses charge conservation." },
+            { "q": "<p>Kirchhoff's loop rule is based on conservation of:</p>", "options": ["charge", "energy", "current", "flux"], "correct": 1, "explanation": "KVL expresses energy conservation." },
+            { "q": "<p>A Wheatstone bridge is balanced when:</p>", "options": ["$PQ = RS$", "$P/Q = R/S$", "$P + Q = R + S$", "$P = S$"], "correct": 1, "explanation": "Balance condition $P/Q = R/S$." },
+            { "q": "<p>The power dissipated in a resistor is:</p>", "options": ["$I R$", "$I^{2}R$", "$IR^{2}$", "$I/R$"], "correct": 1, "explanation": "$P = I^2 R = V^2/R$." },
+            { "q": "<p>At the same voltage, a 100 W bulb compared with a 60 W bulb has:</p>", "options": ["higher resistance", "lower resistance", "equal resistance", "no resistance"], "correct": 1, "explanation": "$P = V^2/R$; higher power means lower resistance at fixed $V$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Use $I^{2}R$ for fixed current, $V^{2}/R$ for fixed voltage. At balance the Wheatstone galvanometer branch carries no current and can be ignored.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Galvanometer, Ammeter, Voltmeter and Potentiometer",
+          "concept": "<p>A <strong>galvanometer</strong> detects small currents, deflecting in proportion to the current through its coil. On its own it cannot measure large currents or voltages, so it is converted into the meters we need by adding the right resistor — a favourite NEET topic because the logic is precise and quantitative.</p><p>To make an <strong>ammeter</strong> (which measures current and is connected in <em>series</em>), a small resistance called a <strong>shunt</strong> is connected in <em>parallel</em> with the galvanometer. The shunt carries most of the current, so only a small known fraction passes through the coil. An ideal ammeter has <em>zero</em> resistance so it does not disturb the circuit current.</p><p>To make a <strong>voltmeter</strong> (which measures potential difference and is connected in <em>parallel</em>), a large resistance is connected in <em>series</em> with the galvanometer. This keeps the current drawn tiny, so the voltmeter barely loads the circuit. An ideal voltmeter has <em>infinite</em> resistance. Mixing up these two — shunt in parallel for an ammeter, high resistance in series for a voltmeter — is a common NEET error worth drilling.</p><p>The <strong>potentiometer</strong> is a long uniform wire that measures potential difference and EMF <em>without drawing any current</em> at balance, making it more accurate than a voltmeter (which always draws a little). The potential drops uniformly along the wire, so the balance length is proportional to the EMF being measured. It is used to compare two EMFs and to find a cell's internal resistance — applications NEET tests with simple ratio calculations.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Instrument</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Made from galvanometer by</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Ammeter (series)</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>small shunt in parallel; ideal $R = 0$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Voltmeter (parallel)</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>large resistance in series; ideal $R = \\infty$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Potentiometer</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>draws no current at balance; $V \\propto$ length</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why does an ideal ammeter have zero resistance?</p>",
+              "solution": "<p>An ammeter is connected in series, so any resistance it adds would reduce the circuit current it is meant to measure. Zero resistance means it does not disturb the current.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A potentiometer balances a cell of EMF $\\varepsilon_1$ at $40\\ \\text{cm}$ and another of EMF $\\varepsilon_2$ at $60\\ \\text{cm}$. Find the ratio $\\varepsilon_1 : \\varepsilon_2$.</p>",
+              "solution": "<p>EMF is proportional to balance length: $\\dfrac{\\varepsilon_1}{\\varepsilon_2} = \\dfrac{40}{60} = \\dfrac{2}{3}$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>A galvanometer is converted into an ammeter by connecting a:</p>", "options": ["high resistance in series", "low resistance (shunt) in parallel", "capacitor in series", "cell in parallel"], "correct": 1, "explanation": "Shunt (low resistance) in parallel makes an ammeter." },
+            { "q": "<p>An ideal voltmeter has resistance:</p>", "options": ["zero", "very low", "infinite", "equal to the galvanometer's"], "correct": 2, "explanation": "Ideal voltmeter draws no current, so $R = \\infty$." },
+            { "q": "<p>An ammeter is always connected in:</p>", "options": ["parallel", "series", "either", "a separate loop"], "correct": 1, "explanation": "Ammeters are connected in series." },
+            { "q": "<p>The potentiometer is more accurate than a voltmeter because at balance it:</p>", "options": ["draws maximum current", "draws no current", "has zero resistance", "is shorter"], "correct": 1, "explanation": "No current is drawn at balance, so no loading error." },
+            { "q": "<p>In a potentiometer, the EMF measured is proportional to the:</p>", "options": ["wire thickness", "balance length", "current in the galvanometer", "resistance of the cell"], "correct": 1, "explanation": "$\\varepsilon \\propto$ balance length." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Ammeter = shunt in parallel (ideal $R = 0$, in series); Voltmeter = high resistance in series (ideal $R = \\infty$, in parallel). Potentiometer draws no current at balance, so EMF $\\propto$ length.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-physics-ch11-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>The SI unit of electric current is the:</p>", "options": ["coulomb", "volt", "ampere", "ohm"], "correct": 2, "explanation": "Current is measured in amperes." },
+            { "q": "<p>The resistance of a wire of length $L$ and area $A$ is:</p>", "options": ["$\\rho A/L$", "$\\rho L/A$", "$\\rho/LA$", "$L A/\\rho$"], "correct": 1, "explanation": "$R = \\rho L/A$." },
+            { "q": "<p>Three $3\\ \\Omega$ resistors in parallel give:</p>", "options": ["$9\\ \\Omega$", "$3\\ \\Omega$", "$1\\ \\Omega$", "$6\\ \\Omega$"], "correct": 2, "explanation": "$1/R_p = 3/3 = 1 \\Rightarrow R_p = 1\\ \\Omega$." },
+            { "q": "<p>The terminal voltage of a cell of EMF $\\varepsilon$ delivering current $I$ through internal resistance $r$ is:</p>", "options": ["$\\varepsilon + Ir$", "$\\varepsilon - Ir$", "$Ir$", "$\\varepsilon r$"], "correct": 1, "explanation": "$V = \\varepsilon - Ir$." },
+            { "q": "<p>Kirchhoff's loop rule expresses conservation of:</p>", "options": ["charge", "energy", "momentum", "mass"], "correct": 1, "explanation": "KVL is energy conservation." },
+            { "q": "<p>Heat produced in a resistor in time $t$ is:</p>", "options": ["$IRt$", "$I^{2}Rt$", "$I^{2}R/t$", "$IR/t$"], "correct": 1, "explanation": "Joule's law: $H = I^2 R t$." },
+            { "q": "<p>A galvanometer becomes a voltmeter when connected with a:</p>", "options": ["shunt in parallel", "high resistance in series", "capacitor", "low resistance in series"], "correct": 1, "explanation": "High resistance in series makes a voltmeter." },
+            { "q": "<p>A balanced Wheatstone bridge has galvanometer current equal to:</p>", "options": ["maximum", "zero", "half the supply", "infinite"], "correct": 1, "explanation": "At balance, no current flows through the galvanometer." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> A 100 W bulb has a lower resistance than a 60 W bulb of the same voltage rating.<br><strong>R:</strong> At a fixed voltage, power dissipated is inversely proportional to resistance.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "$P = V^2/R$, so higher power means lower resistance — R explains A." },
+            { "q": "<p><strong>A:</strong> An ammeter is connected in series in a circuit.<br><strong>R:</strong> An ideal ammeter has zero resistance so it does not change the current it measures.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 1, "explanation": "Both statements are true, but the reason for series connection (to measure the same current) is not the same as having zero resistance — R does not directly explain A." },
+            { "q": "<p><strong>A:</strong> A potentiometer can measure EMF more accurately than a voltmeter.<br><strong>R:</strong> At the balance point a potentiometer draws no current from the cell.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Drawing no current avoids the loading error, so the potentiometer is more accurate — R explains A." },
+            { "q": "<p><strong>A:</strong> The drift velocity of electrons in a conductor is very high, of the order of the speed of light.<br><strong>R:</strong> Electric current is established almost instantly when a circuit is switched on.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "Drift velocity is very small (A is false); the field, not the electrons, propagates near light speed, so current starts almost instantly (R is true)." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

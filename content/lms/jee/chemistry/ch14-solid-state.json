@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": 14,
+  "title": "Solid State",
+  "slug": "solid-state",
+  "subtitle": "Solid State for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#06b6d4",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "Master Solid State for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Crystal Lattice and Unit Cells",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Classification of Solids and Crystal Systems",
+          "concept": "<p><strong>Solids:</strong> Substances with definite shape, volume, rigid. Particles closely packed; only vibrational motion.</p><p><strong>Classification of Solids:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Description</th><th>Examples</th></tr></thead><tbody><tr><td><strong>Crystalline</strong></td><td>Long-range ordered arrangement; sharp MP</td><td>NaCl, ice, metals</td></tr><tr><td><strong>Amorphous</strong></td><td>Short-range order only; gradual softening</td><td>Glass, rubber, plastics</td></tr></tbody></table><p><strong>Properties of crystalline solids:</strong></p><ul><li>Definite geometric shape</li><li>Sharp melting point</li><li>Anisotropic (properties depend on direction)</li><li>Show cleavage along definite planes</li></ul><p><strong>Amorphous solids:</strong> Isotropic (same in all directions); also called pseudo-solids or supercooled liquids.</p><p><strong>Classification of Crystalline Solids by Bonding:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Constituent particles</th><th>Bonding</th><th>Example</th><th>Properties</th></tr></thead><tbody><tr><td><strong>Ionic</strong></td><td>Ions</td><td>Coulombic</td><td>NaCl, KCl</td><td>Hard, brittle, high MP, conduct when molten/aqueous</td></tr><tr><td><strong>Molecular</strong></td><td>Molecules</td><td>Van der Waals/H-bond</td><td>Ice, dry ice, I₂</td><td>Soft, low MP, poor conductors</td></tr><tr><td><strong>Covalent (Network)</strong></td><td>Atoms</td><td>Covalent bonds</td><td>Diamond, SiC, quartz</td><td>Very hard, very high MP, insulators (except graphite)</td></tr><tr><td><strong>Metallic</strong></td><td>Cations + e⁻ sea</td><td>Metallic bond</td><td>Cu, Fe, Ag</td><td>Lustrous, malleable, conduct electricity</td></tr></tbody></table><p><strong>Molecular Solids subtype:</strong></p><ul><li><strong>Non-polar molecular:</strong> $H_2, CO_2, I_2$ — only London forces, low MP</li><li><strong>Polar molecular:</strong> $HCl, SO_2$ — dipole-dipole</li><li><strong>Hydrogen-bonded:</strong> $H_2O$ (ice), $NH_3$ — H-bonding, harder</li></ul><p><strong>Crystal Lattice:</strong> Regular 3D arrangement of points in space. <strong>Unit Cell:</strong> Smallest repeating unit; when repeated in 3D gives the entire lattice.</p><p><strong>Parameters of Unit Cell:</strong></p><ul><li>Edge lengths: $a, b, c$</li><li>Angles: $\\alpha$ (between b, c), $\\beta$ (between a, c), $\\gamma$ (between a, b)</li></ul><p><strong>Seven Crystal Systems:</strong></p><table class=\"md-table\"><thead><tr><th>System</th><th>Edge lengths</th><th>Angles</th><th>Example</th></tr></thead><tbody><tr><td><strong>Cubic</strong></td><td>$a = b = c$</td><td>$\\alpha = \\beta = \\gamma = 90°$</td><td>NaCl, Cu</td></tr><tr><td><strong>Tetragonal</strong></td><td>$a = b \\neq c$</td><td>All $90°$</td><td>$SnO_2$, white tin</td></tr><tr><td><strong>Orthorhombic</strong></td><td>$a \\neq b \\neq c$</td><td>All $90°$</td><td>$BaSO_4$, rhombic sulfur</td></tr><tr><td><strong>Hexagonal</strong></td><td>$a = b \\neq c$</td><td>$\\alpha = \\beta = 90°, \\gamma = 120°$</td><td>Graphite, $ZnO$</td></tr><tr><td><strong>Trigonal (Rhombohedral)</strong></td><td>$a = b = c$</td><td>$\\alpha = \\beta = \\gamma \\neq 90°$</td><td>$CaCO_3$ (calcite)</td></tr><tr><td><strong>Monoclinic</strong></td><td>$a \\neq b \\neq c$</td><td>$\\alpha = \\gamma = 90°, \\beta \\neq 90°$</td><td>Monoclinic sulfur</td></tr><tr><td><strong>Triclinic</strong></td><td>$a \\neq b \\neq c$</td><td>All angles $\\neq 90°$</td><td>$CuSO_4 \\cdot 5H_2O$</td></tr></tbody></table><p><strong>Bravais Lattices:</strong> $14$ total (combinations of $7$ systems with positions of points: primitive, body-centred, face-centred, end-centred).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Classify based on bonding: Diamond, NaCl, Ice, Cu.</p>",
+              "solution": "<ul><li>Diamond: covalent network</li><li>NaCl: ionic</li><li>Ice: molecular (H-bonded)</li><li>Cu: metallic</li></ul><p><strong>Final Answer:</strong> Covalent, ionic, molecular, metallic respectively.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is glass considered an amorphous solid even though it appears rigid?</p>",
+              "solution": "<p>Glass has only <strong>short-range order</strong> — its molecules are arranged randomly over long distances. It doesn't have a sharp MP (softens over a range), and is isotropic. Hence amorphous (supercooled liquid).</p><p><strong>Final Answer:</strong> Lacks long-range order; isotropic; softens gradually.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Crystalline solid is characterized by:</p>",
+              "options": [
+                "Long-range order",
+                "Sharp MP",
+                "Anisotropy",
+                "All above"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>NaCl is a:</p>",
+              "options": [
+                "Molecular solid",
+                "Ionic solid",
+                "Covalent solid",
+                "Metallic solid"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of Bravais lattices:</p>",
+              "options": [
+                "$7$",
+                "$10$",
+                "$14$",
+                "$24$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Cubic system has:</p>",
+              "options": [
+                "$a = b = c, \\alpha = \\beta = \\gamma = 90°$",
+                "Different lengths",
+                "Two equal, one different",
+                "Always perpendicular"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Diamond is a:</p>",
+              "options": [
+                "Ionic",
+                "Covalent network solid",
+                "Molecular",
+                "Metallic"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Unit Cells, Packing Efficiency, Density",
+          "concept": "<p><strong>Types of Cubic Unit Cells:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Atoms per cell</th><th>Coordination #</th><th>Atoms at</th></tr></thead><tbody><tr><td><strong>Simple Cubic (SC)</strong></td><td>$1$</td><td>$6$</td><td>$8$ corners</td></tr><tr><td><strong>Body-Centred Cubic (BCC)</strong></td><td>$2$</td><td>$8$</td><td>$8$ corners + $1$ centre</td></tr><tr><td><strong>Face-Centred Cubic (FCC) / CCP</strong></td><td>$4$</td><td>$12$</td><td>$8$ corners + $6$ face centres</td></tr><tr><td><strong>Hexagonal Closest Packing (HCP)</strong></td><td>$6$</td><td>$12$</td><td>Layered</td></tr></tbody></table><p><strong>Contribution to Unit Cell:</strong></p><ul><li>Corner atom: $1/8$</li><li>Face-centred: $1/2$</li><li>Edge-centred: $1/4$</li><li>Body-centred: $1$ (full)</li></ul><p><strong>For SC:</strong> $8 \\times (1/8) = 1$ atom <strong>For BCC:</strong> $8 \\times (1/8) + 1 = 2$ atoms <strong>For FCC:</strong> $8 \\times (1/8) + 6 \\times (1/2) = 4$ atoms</p><p><strong>Relation between Edge Length ($a$) and Atomic Radius ($r$):</strong></p><table class=\"md-table\"><thead><tr><th>Cell type</th><th>Relation</th><th>Derivation</th></tr></thead><tbody><tr><td><strong>SC</strong></td><td>$a = 2r$</td><td>Atoms touch along edge</td></tr><tr><td><strong>BCC</strong></td><td>$\\sqrt{3}a = 4r \\Rightarrow r = a\\sqrt{3}/4$</td><td>Atoms touch along body diagonal</td></tr><tr><td><strong>FCC</strong></td><td>$\\sqrt{2}a = 4r \\Rightarrow r = a\\sqrt{2}/4$</td><td>Atoms touch along face diagonal</td></tr></tbody></table><p><strong>Packing Efficiency:</strong></p><p>$$\\text{PE} = \\frac{n \\times \\frac{4}{3}\\pi r^3}{a^3} \\times 100\\%$$</p><table class=\"md-table\"><thead><tr><th>Cell</th><th>Packing Efficiency</th></tr></thead><tbody><tr><td>Simple Cubic</td><td>$52.4\\%$</td></tr><tr><td>BCC</td><td>$68\\%$</td></tr><tr><td>FCC (CCP)</td><td>$74\\%$</td></tr><tr><td>HCP</td><td>$74\\%$</td></tr></tbody></table><p><strong>FCC and HCP are closest packings</strong> (maximum, $74\\%$).</p><p><strong>Closest Packing of Spheres:</strong></p><ul><li>2D layer: each sphere in contact with 6 others (hexagonal layer)</li><li>3D layered: layers stacked in pattern</li><li><strong>HCP</strong>: ABAB... (hexagonal)</li><li><strong>CCP/FCC</strong>: ABCABC... (cubic)</li></ul><p><strong>Tetrahedral and Octahedral Voids:</strong></p><p>In closest packing:</p><ul><li><strong>Tetrahedral void:</strong> Surrounded by $4$ spheres</li><li><strong>Octahedral void:</strong> Surrounded by $6$ spheres</li></ul><p><strong>Number of voids:</strong> If $N$ = number of atoms in closest packing:</p><ul><li>Tetrahedral voids = $2N$</li><li>Octahedral voids = $N$</li></ul><p><strong>Filling of Voids by Cations:</strong></p><ul><li>Radius ratio rules:</li><li>$r_+/r_- < 0.225$: linear (CN 2)</li><li>$0.225 - 0.414$: tetrahedral (CN 4)</li><li>$0.414 - 0.732$: octahedral (CN 6)</li><li>$0.732 - 1.0$: BCC (CN 8)</li></ul><p><strong>Density of Unit Cell:</strong> $$\\rho = \\frac{Z \\times M}{N_A \\times a^3}$$</p><ul><li>$Z$: atoms per unit cell</li><li>$M$: molar mass</li><li>$N_A$: Avogadro</li><li>$a$: edge length</li></ul><p><strong>Important Ionic Crystal Structures:</strong></p><table class=\"md-table\"><thead><tr><th>Crystal</th><th>Type</th><th>CN</th></tr></thead><tbody><tr><td><strong>NaCl</strong> (rock salt)</td><td>FCC anions + cations in octahedral voids</td><td>6:6</td></tr><tr><td><strong>CsCl</strong></td><td>BCC-like (Cs at center of Cl cube or vice versa)</td><td>8:8</td></tr><tr><td><strong>ZnS (zinc blende)</strong></td><td>FCC S + Zn in alternate tetrahedral voids</td><td>4:4</td></tr><tr><td><strong>CaF₂ (fluorite)</strong></td><td>FCC Ca²⁺ + F⁻ in all tetrahedral voids</td><td>8:4</td></tr><tr><td><strong>Na₂O (antifluorite)</strong></td><td>Reverse of fluorite</td><td>4:8</td></tr></tbody></table>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Cu has FCC; edge length $a = 361$ pm. Find radius of Cu atom.</p>",
+              "solution": "<p>For FCC: $r = a\\sqrt{2}/4 = 361 \\times 1.414/4 = 510.5/4 = 127.6$ pm.</p><p><strong>Final Answer:</strong> $r \\approx 127.6$ pm.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Density of Cu (FCC, $M = 63.5$, $a = 361$ pm, $N_A = 6.022 \\times 10^{23}$):</p>",
+              "solution": "<p>$Z = 4$ for FCC. $a^3 = (361 \\times 10^{-10})^3$ cm³ $= 4.7 \\times 10^{-23}$ cm³. $$\\rho = \\frac{4 \\times 63.5}{6.022 \\times 10^{23} \\times 4.7 \\times 10^{-23}} = \\frac{254}{28.3} \\approx 8.97 \\text{ g/cm}^3$$</p><p><strong>Final Answer:</strong> $\\rho \\approx 8.97$ g/cm³ (matches Cu).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Number of atoms in FCC unit cell:</p>",
+              "options": [
+                "$1$",
+                "$2$",
+                "$4$",
+                "$6$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Packing efficiency in BCC:</p>",
+              "options": [
+                "$52.4\\%$",
+                "$68\\%$",
+                "$74\\%$",
+                "$100\\%$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>For BCC, $r$ and $a$ relation:</p>",
+              "options": [
+                "$a = 2r$",
+                "$\\sqrt{3}a = 4r$",
+                "$\\sqrt{2}a = 4r$",
+                "$a = r$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Coordination number in CsCl:</p>",
+              "options": [
+                "$4$",
+                "$6$",
+                "$8$",
+                "$12$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of tetrahedral voids for $N$ atoms in CCP:</p>",
+              "options": [
+                "$N$",
+                "$2N$",
+                "$N/2$",
+                "$4N$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Defects and Properties",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Point Defects, Stoichiometric and Non-Stoichiometric",
+          "concept": "<p><strong>Defects</strong> are deviations from perfect crystal arrangement. Real crystals always have defects.</p><p><strong>Types of Defects:</strong></p><ul><li><strong>Point defects:</strong> Around a single point</li><li><strong>Line defects:</strong> Along a line/edge</li><li><strong>Plane defects:</strong> Across a plane</li></ul><p><strong>Point Defects:</strong></p><p><strong>A. Stoichiometric Defects</strong> (do not change the ratio of cations to anions):</p><p><strong>1. Schottky Defect:</strong></p><ul><li>Equal pairs of cations and anions missing from lattice</li><li>Maintains electrical neutrality</li><li>Decreases density</li><li>Found in: NaCl, KCl, CsCl, AgBr — ionic compounds with similar-sized ions and high CN</li></ul><p><strong>2. Frenkel Defect:</strong></p><ul><li>Cation displaced from regular site to interstitial site</li><li>Density remains unchanged</li><li>Found in: AgCl, AgBr, AgI, ZnS — ionic compounds with low CN and high size difference between cation and anion (small cation, large anion)</li></ul><p><strong>B. Non-Stoichiometric Defects</strong> (ratio of ions differs from formula):</p><p><strong>1. Metal Excess Defect:</strong></p><ul><li>(a) Due to <strong>anion vacancy:</strong> missing anion; electron occupies the vacant site → <strong>F-centre</strong> (Farben = color)</li><li>NaCl heated with Na vapor → yellow color due to F-centres (e⁻ traps absorb light)</li><li>Similarly, KCl → violet, LiCl → pink</li><li>(b) Due to extra cation in interstitial position: e.g., $ZnO$ heated → loses O, gives $Zn^{2+}$ in interstitial, with electron(s); becomes yellow when hot, white when cool. ZnO is a non-stoichiometric solid.</li></ul><p><strong>2. Metal Deficiency Defect:</strong></p><ul><li>Less cations than required by stoichiometry</li><li>Some cations exhibit higher oxidation state to compensate</li><li>Example: $Fe_{0.95}O$, $Cu_{1.97}S$. The $Fe^{2+}$ deficiency is compensated by $Fe^{3+}$ ions.</li></ul><p><strong>Effect of Defects on Properties:</strong></p><ul><li>Schottky: lowers density, affects ionic conductivity</li><li>Frenkel: increases ionic conductivity</li><li>F-centres: cause color (excited electrons absorb visible light)</li><li>Metal deficiency: causes semiconducting behavior</li></ul><p><strong>Impurity Defects:</strong> Adding aliovalent ions creates vacancies (e.g., $SrCl_2$ in NaCl creates one cation vacancy per $Sr^{2+}$ added).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Differentiate Schottky and Frenkel defects.</p>",
+              "solution": "<table class=\"md-table\"><thead><tr><th>Property</th><th>Schottky</th><th>Frenkel</th></tr></thead><tbody><tr><td>Defect</td><td>Cation-anion pair missing</td><td>Cation displaced to interstitial</td></tr><tr><td>Effect on density</td><td>Decreases</td><td>No change</td></tr><tr><td>Electrical neutrality</td><td>Maintained</td><td>Maintained</td></tr><tr><td>Examples</td><td>NaCl, KCl</td><td>AgCl, ZnS</td></tr><tr><td>Conditions</td><td>Similar-sized ions, high CN</td><td>Different-sized ions, low CN</td></tr></tbody></table><p><strong>Final Answer:</strong> See table.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why does heating NaCl in Na vapor give a yellow color?</p>",
+              "solution": "<p>Excess Na atoms diffuse into NaCl lattice. Cl⁻ vacancies form; electrons from Na occupy these vacancies (anion sites with electrons) — these are <strong>F-centres</strong>. F-centres absorb light in visible region, giving yellow color to NaCl crystal. This is metal excess defect due to anion vacancy.</p><p><strong>Final Answer:</strong> F-centres absorb visible light → color.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Schottky defect decreases:</p>",
+              "options": [
+                "Density",
+                "Conductivity",
+                "Color",
+                "Hardness"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>F-centre is:</p>",
+              "options": [
+                "Filled anion vacancy with electron",
+                "Electron in cation site",
+                "Empty interstitial",
+                "Dislocation"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Frenkel defect is found in:</p>",
+              "options": [
+                "NaCl",
+                "AgCl",
+                "KCl",
+                "Diamond"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Metal deficient compound:</p>",
+              "options": [
+                "Fe₀.₉₅O",
+                "NaCl",
+                "ZnO",
+                "Pure metals"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Density unchanged in:</p>",
+              "options": [
+                "Schottky",
+                "Frenkel",
+                "Metal excess",
+                "Anion missing"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Electrical, Magnetic Properties and Band Theory",
+          "concept": "<p><strong>Electrical Conductivity:</strong> Variation based on solid type.</p><table class=\"md-table\"><thead><tr><th>Type</th><th>Conductivity ($\\Omega^{-1}$m⁻¹)</th></tr></thead><tbody><tr><td>Insulators</td><td>$10^{-20}$ to $10^{-10}$</td></tr><tr><td>Semiconductors</td><td>$10^{-6}$ to $10^{4}$</td></tr><tr><td>Conductors (metals)</td><td>$10^{6}$ to $10^{8}$</td></tr></tbody></table><p><strong>Band Theory of Solids:</strong></p><ul><li>Atomic orbitals combine to form molecular orbitals, then bands of energy levels</li><li><strong>Valence band:</strong> Lower energy filled band</li><li><strong>Conduction band:</strong> Higher energy band, may be empty or partially filled</li><li><strong>Energy gap:</strong> Between valence and conduction bands</li></ul><p><strong>Classification:</strong></p><ul><li><strong>Conductors:</strong> Bands overlap; electrons free to move; very high conductivity</li><li><strong>Insulators:</strong> Large band gap (> $5$ eV); electrons cannot reach conduction band</li><li><strong>Semiconductors:</strong> Small band gap (< $3$ eV); electrons thermally excited to conduction band</li></ul><p><strong>Intrinsic Semiconductors:</strong> Pure Si, Ge — low conductivity at low T, increases with T.</p><p><strong>Extrinsic Semiconductors (Doped):</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Dopant</th><th>Behavior</th></tr></thead><tbody><tr><td><strong>n-type</strong></td><td>Group 15 (P, As, Sb) — extra electron</td><td>Conduction by extra electrons</td></tr><tr><td><strong>p-type</strong></td><td>Group 13 (B, Al, Ga) — electron deficient → \"hole\"</td><td>Conduction by hole movement</td></tr></tbody></table><p><strong>Magnetic Properties of Solids:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Behavior in magnetic field</th><th>Cause</th><th>Examples</th></tr></thead><tbody><tr><td><strong>Diamagnetic</strong></td><td>Weakly repelled</td><td>All electrons paired</td><td>NaCl, $H_2O$, Cu, Au, Bi</td></tr><tr><td><strong>Paramagnetic</strong></td><td>Weakly attracted</td><td>Unpaired electrons</td><td>$O_2$, $Cu^{2+}$, $Fe^{3+}$, NO, $CuSO_4$</td></tr><tr><td><strong>Ferromagnetic</strong></td><td>Strongly attracted; can be magnetized</td><td>Aligned unpaired electrons in domains</td><td>Fe, Co, Ni, $CrO_2$</td></tr><tr><td><strong>Antiferromagnetic</strong></td><td>Net moment $= 0$</td><td>Opposite alignments cancel</td><td>MnO, FeO, Mn₂O₃, $V_2O_3$</td></tr><tr><td><strong>Ferrimagnetic</strong></td><td>Some net moment</td><td>Unequal opposing alignments</td><td>$Fe_3O_4$ (magnetite), ferrites</td></tr></tbody></table><p><strong>Curie temperature:</strong> Above this $T$, ferromagnetic materials become paramagnetic (thermal energy disrupts domain alignment).</p><ul><li>Fe: $1043$ K</li><li>Co: $1394$ K</li><li>Ni: $631$ K</li></ul><p><strong>Dielectric Properties:</strong> Insulators that align dipoles in electric field. Used in capacitors.</p><p><strong>Piezoelectricity:</strong> Some crystals (e.g., quartz, Rochelle salt) generate electric current when pressed; conversely vibrate when current applied.</p><p><strong>Pyroelectricity:</strong> Generate small electric current on heating.</p><p><strong>Ferroelectricity:</strong> Have permanent dipoles even without external field; align in same direction. Example: $BaTiO_3$, Rochelle salt. (Above critical T, become paraelectric.)</p><p><strong>Antiferroelectricity:</strong> Dipoles align in alternating opposite directions; net dipole zero. Example: $PbZrO_3$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Classify: $H_2O, O_2, Cu, Fe_3O_4, MnO$ based on magnetic behavior.</p>",
+              "solution": "<ul><li>$H_2O$: diamagnetic (all paired)</li><li>$O_2$: paramagnetic (2 unpaired in MOT)</li><li>Cu: diamagnetic ($3d^{10}4s^1$ — but bulk Cu metal is diamagnetic)</li><li>$Fe_3O_4$: ferrimagnetic (mixed valence; net moment)</li><li>MnO: antiferromagnetic</li></ul><p><strong>Final Answer:</strong> As above.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why does Si doped with B make a p-type semiconductor?</p>",
+              "solution": "<p>Si is Group 14 (4 valence e⁻). B is Group 13 (3 valence e⁻). When B replaces Si in lattice, it has one fewer electron — creates a \"hole\" (positive vacancy). Conduction occurs via hole movement: adjacent electrons fill holes, propagating the hole. Hence p-type.</p><p><strong>Final Answer:</strong> Boron's electron deficiency creates positive holes — p-type.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Semiconductor band gap:</p>",
+              "options": [
+                "$> 10$ eV",
+                "$< 3$ eV",
+                "$0$",
+                "$5-10$ eV"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Si doped with P gives:</p>",
+              "options": [
+                "n-type",
+                "p-type",
+                "Insulator",
+                "Conductor"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Ferromagnetism occurs in:</p>",
+              "options": [
+                "Cu",
+                "Fe",
+                "NaCl",
+                "$H_2O$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$Fe_3O_4$ is:</p>",
+              "options": [
+                "Diamagnetic",
+                "Antiferromagnetic",
+                "Ferrimagnetic",
+                "Non-magnetic"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Diamagnetic substance is repelled because:</p>",
+              "options": [
+                "Induced opposing magnetic moment",
+                "Aligned magnetic moments",
+                "Random magnetic",
+                "Conducts current"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-chem-solid-state-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>Anisotropy is characteristic of:</p>",
+              "options": [
+                "Glass",
+                "Crystalline solids",
+                "Liquids",
+                "Gases"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Coordination number in NaCl:</p>",
+              "options": [
+                "$4$",
+                "$6$",
+                "$8$",
+                "$12$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Packing efficiency of FCC:</p>",
+              "options": [
+                "$52.4\\%$",
+                "$68\\%$",
+                "$74\\%$",
+                "$100\\%$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Density of FCC with $a = 400$ pm, $M = 60$ g/mol (approx):</p>",
+              "options": [
+                "$\\sim 6.2$ g/cm³",
+                "$\\sim 1.0$ g/cm³",
+                "$\\sim 10.0$ g/cm³",
+                "$\\sim 0.5$ g/cm³"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Schottky defect is seen in:</p>",
+              "options": [
+                "NaCl",
+                "AgBr",
+                "ZnS",
+                "AgI"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>AgI shows:</p>",
+              "options": [
+                "Schottky",
+                "Frenkel",
+                "F-centre",
+                "None"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of octahedral voids in 1 mole CCP atoms:</p>",
+              "options": [
+                "$0.5$ mol",
+                "$1$ mol",
+                "$2$ mol",
+                "$4$ mol"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>F-centre in NaCl heated in Na vapor:</p>",
+              "options": [
+                "Anion vacancy with electron",
+                "Cation in interstitial",
+                "Both",
+                "Empty pore"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Curie temperature of Fe is approximately:</p>",
+              "options": [
+                "$300$ K",
+                "$1043$ K",
+                "$5000$ K",
+                "$10000$ K"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>p-type semiconductor:</p>",
+              "options": [
+                "Si + Group 15 dopant",
+                "Si + Group 13 dopant (B, Al)",
+                "Pure Ge",
+                "Pure Si"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Number of atoms in BCC unit cell:</p>",
+              "answer": "2",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Coordination number in body-centred cubic:</p>",
+              "answer": "8",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of tetrahedral voids for $1$ atom in CCP:</p>",
+              "answer": "2",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> FCC and HCP both have packing efficiency $74\\%$. <strong>Reason (R):</strong> Both involve identical sphere-packing arrangement in 3D with $12$ coordination number.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> Frenkel defect increases ionic conductivity. <strong>Reason (R):</strong> Frenkel defect creates an interstitial cation and a vacancy, both of which can act as carriers under electric field.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

@@ -1,0 +1,1126 @@
+{
+  "meta": {
+    "slug": "jee-mains",
+    "name": "JEE Main",
+    "fullName": "Joint Entrance Examination (Main)",
+    "emoji": "🏅",
+    "order": 1,
+    "category": "Engineering Entrance",
+    "level": "After Class 12 (PCM)",
+    "authority": "National Testing Agency (NTA)",
+    "authorityUrl": "https://jeemain.nta.nic.in",
+    "accent": "#4338ca",
+    "accent2": "#6366f1",
+    "tagline": "The gateway to NITs, IIITs, GFTIs — and the qualifier for JEE Advanced.",
+    "blurb": "India's largest engineering entrance. A full-length, exam-pattern mock with instant scoring, negative marking and worked solutions for every question."
+  },
+  "pattern": {
+    "durationMin": 180,
+    "totalQuestions": 75,
+    "totalMarks": 300,
+    "attemptAll": true,
+    "marking": "+4 for each correct answer, −1 for each wrong answer. Unattempted: 0.",
+    "negative": true,
+    "perQuestionMarks": 4,
+    "perQuestionNeg": 1,
+    "sections": [
+      {
+        "name": "Physics",
+        "questions": 25,
+        "marks": 100,
+        "note": "20 MCQ + 5 numerical (all compulsory)"
+      },
+      {
+        "name": "Chemistry",
+        "questions": 25,
+        "marks": 100,
+        "note": "20 MCQ + 5 numerical (all compulsory)"
+      },
+      {
+        "name": "Mathematics",
+        "questions": 25,
+        "marks": 100,
+        "note": "20 MCQ + 5 numerical (all compulsory)"
+      }
+    ],
+    "facts": [
+      {
+        "k": "Mode",
+        "v": "Computer-Based Test (CBT)"
+      },
+      {
+        "k": "Conducting body",
+        "v": "National Testing Agency (NTA)"
+      },
+      {
+        "k": "Frequency",
+        "v": "Twice a year — Session 1 (Jan) & Session 2 (Apr)"
+      },
+      {
+        "k": "Eligibility",
+        "v": "Class 12 / equivalent with Physics, Chemistry & Mathematics"
+      },
+      {
+        "k": "Languages",
+        "v": "13 languages incl. English & Hindi"
+      },
+      {
+        "k": "Negative marking",
+        "v": "Yes — −1 per wrong answer"
+      }
+    ]
+  },
+  "briefing": "JEE Main is the first hurdle for nearly a million engineering aspirants every year, and the score decides both admission to the NITs, IIITs and centrally funded institutes and your eligibility for JEE Advanced. The paper is sharp and time-pressured: 75 questions in 180 minutes means roughly 2.4 minutes per question, so accuracy and smart question-selection matter as much as knowledge. Each subject carries equal weight — 100 marks — so you cannot afford to neglect any one of Physics, Chemistry or Mathematics. With −1 negative marking on every wrong answer, reckless guessing hurts; this mock reproduces that pressure exactly so you learn to judge when to attempt and when to leave a question. Every question here is original and built to the current NTA syllabus and difficulty, and each comes with a full worked solution so the test doubles as a study session.",
+  "strategy": [
+    "Start with the subject you are strongest at to bank marks and build confidence.",
+    "Numerical questions carry the same +4 — don't skip them, but flag long ones for a second pass.",
+    "With −1 negative marking, only guess when you can eliminate at least two options.",
+    "Watch the clock: aim for ~40 minutes per subject, leaving 60 minutes of buffer for review."
+  ],
+  "subjects": [
+    {
+      "name": "Physics",
+      "emoji": "⚛️",
+      "chapters": [
+        "Units, Dimensions & Measurement",
+        "Kinematics",
+        "Laws of Motion",
+        "Work, Energy & Power",
+        "Rotational Motion & System of Particles",
+        "Gravitation",
+        "Mechanical Properties of Solids & Fluids",
+        "Thermodynamics & Kinetic Theory",
+        "Oscillations (SHM)",
+        "Waves & Sound",
+        "Electrostatics",
+        "Current Electricity",
+        "Moving Charges & Magnetism",
+        "Magnetism & Matter",
+        "Electromagnetic Induction & Alternating Current",
+        "Electromagnetic Waves",
+        "Ray & Wave Optics",
+        "Dual Nature of Radiation & Matter",
+        "Atoms & Nuclei",
+        "Semiconductor Electronics",
+        "Experimental Skills"
+      ]
+    },
+    {
+      "name": "Chemistry",
+      "emoji": "⚗️",
+      "chapters": [
+        "Some Basic Concepts (Mole Concept)",
+        "Atomic Structure",
+        "Chemical Bonding & Molecular Structure",
+        "States of Matter & Gaseous State",
+        "Thermodynamics",
+        "Chemical & Ionic Equilibrium",
+        "Solutions",
+        "Redox Reactions & Electrochemistry",
+        "Chemical Kinetics",
+        "Periodic Table & Periodicity",
+        "s-Block & Hydrogen",
+        "p-Block Elements",
+        "d & f-Block Elements",
+        "Coordination Compounds",
+        "Basic Principles of Organic Chemistry (GOC)",
+        "Hydrocarbons",
+        "Haloalkanes & Haloarenes",
+        "Alcohols, Phenols & Ethers",
+        "Aldehydes, Ketones & Carboxylic Acids",
+        "Amines",
+        "Biomolecules & Polymers",
+        "Chemistry in Everyday Life"
+      ]
+    },
+    {
+      "name": "Mathematics",
+      "emoji": "📐",
+      "chapters": [
+        "Sets, Relations & Functions",
+        "Complex Numbers & Quadratic Equations",
+        "Matrices & Determinants",
+        "Permutations & Combinations",
+        "Binomial Theorem",
+        "Sequences & Series",
+        "Limits, Continuity & Differentiability",
+        "Applications of Derivatives",
+        "Integral Calculus",
+        "Differential Equations",
+        "Straight Lines & Circles",
+        "Conic Sections (Parabola, Ellipse, Hyperbola)",
+        "Three-Dimensional Geometry",
+        "Vector Algebra",
+        "Statistics & Probability",
+        "Trigonometry",
+        "Inverse Trigonometry",
+        "Mathematical Reasoning"
+      ]
+    }
+  ],
+  "test": {
+    "title": "JEE Main — Full Mock Test",
+    "questions": [
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Kinematics",
+        "q": "Two particles are projected simultaneously from the same point: the first vertically upward with speed $u$, the second horizontally with the same speed $u$. After time $t$ (before either lands), the magnitude of the velocity of the first particle relative to the second is:",
+        "options": [
+          "$u\\sqrt{2}$",
+          "$\\sqrt{2}\\,u - gt$",
+          "$\\sqrt{2u^2 + g^2t^2}$",
+          "$\\sqrt{2u^2 + g^2t^2 - 2ugt}$"
+        ],
+        "correct": 0,
+        "explanation": "Velocity of particle 1: $\\vec{v_1} = (0,\\, u - gt)$. Velocity of particle 2: $\\vec{v_2} = (u,\\, -gt)$. Relative velocity $\\vec{v_1}-\\vec{v_2} = (-u,\\, u)$ — the $-gt$ terms cancel since both share the same gravitational acceleration. Magnitude $=\\sqrt{u^2+u^2}=u\\sqrt{2}$, constant in time."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Laws of Motion",
+        "q": "Blocks $m_1=2\\,\\text{kg}$ and $m_2=3\\,\\text{kg}$ are joined by a light string over a frictionless pulley at a table edge. $m_1$ rests on the rough horizontal table ($\\mu=0.5$); $m_2$ hangs freely. Take $g=10\\,\\text{m/s}^2$. The acceleration of the system is:",
+        "options": [
+          "$2\\,\\text{m/s}^2$",
+          "$4\\,\\text{m/s}^2$",
+          "$6\\,\\text{m/s}^2$",
+          "$5\\,\\text{m/s}^2$"
+        ],
+        "correct": 1,
+        "explanation": "Driving force $= m_2 g = 30\\,\\text{N}$. Friction on $m_1$ $=\\mu m_1 g = 0.5\\times2\\times10 = 10\\,\\text{N}$. Net force $= 30-10 = 20\\,\\text{N}$ acting on total mass $5\\,\\text{kg}$: $a = 20/5 = 4\\,\\text{m/s}^2$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Work, Energy and Power",
+        "q": "A block of mass $2\\,\\text{kg}$ is pushed against a spring ($k=800\\,\\text{N/m}$) on a horizontal surface, compressing it by $0.2\\,\\text{m}$, then released. The surface is rough with $\\mu=0.2$. Take $g=10\\,\\text{m/s}^2$. The total distance the block travels from the point of release before finally stopping is:",
+        "options": [
+          "$2\\,\\text{m}$",
+          "$4\\,\\text{m}$",
+          "$3\\,\\text{m}$",
+          "$5\\,\\text{m}$"
+        ],
+        "correct": 1,
+        "explanation": "Spring PE released $=\\tfrac12 k x^2 = \\tfrac12(800)(0.2)^2 = 16\\,\\text{J}$. All of it is eventually dissipated by friction over total path $d$ (measured from release point): friction force $=\\mu mg = 0.2\\times2\\times10 = 4\\,\\text{N}$. So $4d = 16 \\Rightarrow d = 4\\,\\text{m}$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Rotational Motion",
+        "q": "A uniform solid sphere of mass $M$ and radius $R$ is released from rest at the top of an incline of height $h$ and rolls without slipping to the bottom. The speed of its centre at the bottom is:",
+        "options": [
+          "$\\sqrt{2gh}$",
+          "$\\sqrt{\\tfrac{10}{7}gh}$",
+          "$\\sqrt{\\tfrac{4}{3}gh}$",
+          "$\\sqrt{\\tfrac{6}{5}gh}$"
+        ],
+        "correct": 1,
+        "explanation": "Rolling without slipping: $mgh = \\tfrac12 mv^2 + \\tfrac12 I\\omega^2$ with $I=\\tfrac25 mR^2$, $\\omega=v/R$. So $mgh = \\tfrac12 mv^2(1+\\tfrac25) = \\tfrac{7}{10}mv^2$, giving $v=\\sqrt{\\tfrac{10}{7}gh}$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Rotational Motion",
+        "q": "A uniform rod of mass $M$ and length $L$ is pivoted at one end and held horizontal, then released from rest. The angular acceleration of the rod immediately after release is:",
+        "options": [
+          "$\\dfrac{3g}{2L}$",
+          "$\\dfrac{6g}{7L}$",
+          "$\\dfrac{g}{L}$",
+          "$\\dfrac{2g}{3L}$"
+        ],
+        "correct": 0,
+        "explanation": "Torque about the pivot from gravity acting at the centre: $\\tau = Mg\\cdot\\tfrac{L}{2}$. Moment of inertia of a rod about its end: $I=\\tfrac13 ML^2$. Angular acceleration $\\alpha=\\dfrac{\\tau}{I}=\\dfrac{MgL/2}{ML^2/3}=\\dfrac{3g}{2L}$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Gravitation",
+        "q": "A satellite of mass $m$ is in a circular orbit of radius $r$ around Earth (mass $M$). To raise it to a circular orbit of radius $2r$, the additional energy required is (with $G$ the gravitational constant):",
+        "options": [
+          "$\\dfrac{GMm}{4r}$",
+          "$\\dfrac{GMm}{2r}$",
+          "$\\dfrac{GMm}{r}$",
+          "$\\dfrac{3GMm}{4r}$"
+        ],
+        "correct": 0,
+        "explanation": "Total orbital energy $E=-\\dfrac{GMm}{2r}$. At radius $r$: $E_1=-\\dfrac{GMm}{2r}$; at $2r$: $E_2=-\\dfrac{GMm}{4r}$. Required energy $=E_2-E_1 = -\\dfrac{GMm}{4r}+\\dfrac{GMm}{2r} = \\dfrac{GMm}{4r}$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Fluid Mechanics",
+        "q": "A large tank is filled with water to height $H$. A small hole is made at depth $h$ below the free surface. The horizontal range of the emerging jet on the ground is maximised when:",
+        "options": [
+          "$h = H/4$",
+          "$h = H/2$",
+          "$h = 3H/4$",
+          "$h = H$"
+        ],
+        "correct": 1,
+        "explanation": "Efflux speed $v=\\sqrt{2gh}$ (Torricelli). Fall height to ground $=H-h$, time $t=\\sqrt{2(H-h)/g}$. Range $R=v\\,t=2\\sqrt{h(H-h)}$. Maximising the product $h(H-h)$ gives $h=H/2$, with $R_{max}=H$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Thermodynamics",
+        "q": "One mole of an ideal monatomic gas undergoes a cycle: isothermal expansion at temperature $T$ doubling its volume, then isochoric cooling, then adiabatic compression returning to the initial state. The net work done by the gas over one complete cycle is:",
+        "options": [
+          "Positive",
+          "Negative",
+          "Zero",
+          "Cannot be determined"
+        ],
+        "correct": 0,
+        "explanation": "On a P-V diagram: isothermal expansion moves rightward, isochoric cooling drops vertically at constant V, adiabatic compression curves back to the start. The closed loop is traversed clockwise, so the enclosed area — equal to the net work done by the gas — is positive."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Kinetic Theory",
+        "q": "The ratio of the root-mean-square speed of hydrogen molecules ($M=2\\,\\text{g/mol}$) to that of oxygen molecules ($M=32\\,\\text{g/mol}$) at the same temperature is:",
+        "options": [
+          "$1:4$",
+          "$4:1$",
+          "$1:16$",
+          "$16:1$"
+        ],
+        "correct": 1,
+        "explanation": "$v_{rms}=\\sqrt{3RT/M}$, so at equal $T$, $\\dfrac{v_{H_2}}{v_{O_2}}=\\sqrt{\\dfrac{M_{O_2}}{M_{H_2}}}=\\sqrt{\\dfrac{32}{2}}=\\sqrt{16}=4$. Ratio $=4:1$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Simple Harmonic Motion",
+        "q": "A particle executing SHM of amplitude $A$ has kinetic energy equal to three times its potential energy at a certain instant. Its displacement from the mean position at that instant is:",
+        "options": [
+          "$A/2$",
+          "$A/\\sqrt{2}$",
+          "$A\\sqrt{3}/2$",
+          "$A/4$"
+        ],
+        "correct": 0,
+        "explanation": "PE $=\\tfrac12 k x^2$, total $E=\\tfrac12 kA^2$, KE $=E-\\text{PE}$. KE $=3\\,\\text{PE}$ implies total $=4\\,\\text{PE}$: $\\tfrac12 kA^2 = 4\\cdot\\tfrac12 kx^2 \\Rightarrow x^2 = A^2/4 \\Rightarrow x=A/2$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Waves and Sound",
+        "q": "A source emitting $500\\,\\text{Hz}$ moves at $30\\,\\text{m/s}$ directly toward a stationary observer, then after passing recedes at $30\\,\\text{m/s}$. Taking the speed of sound as $330\\,\\text{m/s}$, the drop in observed frequency from approach to recede is closest to:",
+        "options": [
+          "$48\\,\\text{Hz}$",
+          "$97\\,\\text{Hz}$",
+          "$84\\,\\text{Hz}$",
+          "$110\\,\\text{Hz}$"
+        ],
+        "correct": 1,
+        "explanation": "Approaching: $f_1=500\\cdot\\dfrac{330}{330-30}=500\\cdot\\dfrac{330}{300}=550\\,\\text{Hz}$. Receding: $f_2=500\\cdot\\dfrac{330}{330+30}=500\\cdot\\dfrac{330}{360}=458.3\\,\\text{Hz}$. Difference $=550-458.3\\approx 92$; nearest option is $97\\,\\text{Hz}$ (and well above the small-shift distractors)."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Electrostatics",
+        "q": "An electric dipole of moment $p$ sits in a uniform field $E$. It is rotated by an external agent from alignment with the field ($\\theta=0$) to the perpendicular position ($\\theta=90^\\circ$). The work done by the external agent is:",
+        "options": [
+          "$pE$",
+          "$2pE$",
+          "$pE/2$",
+          "Zero"
+        ],
+        "correct": 0,
+        "explanation": "Potential energy $U(\\theta)=-pE\\cos\\theta$. $W_{ext}=U(90^\\circ)-U(0^\\circ)=(-pE\\cos90^\\circ)-(-pE\\cos0^\\circ)=0-(-pE)=pE$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Electrostatics",
+        "q": "Three equal point charges $+q$ are fixed at the vertices of an equilateral triangle of side $a$. The work done to bring a fourth charge $+q$ from infinity to the centroid is (with $k=1/4\\pi\\varepsilon_0$):",
+        "options": [
+          "$\\dfrac{3kq^2}{a}$",
+          "$\\dfrac{\\sqrt{3}\\,kq^2}{a}$",
+          "$\\dfrac{3\\sqrt{3}\\,kq^2}{a}$",
+          "$\\dfrac{kq^2}{a}$"
+        ],
+        "correct": 2,
+        "explanation": "Distance from each vertex to the centroid $=a/\\sqrt{3}$. Potential at centroid $V=3\\cdot\\dfrac{kq}{a/\\sqrt{3}}=\\dfrac{3\\sqrt{3}\\,kq}{a}$. Work to bring $+q$ from infinity $=qV=\\dfrac{3\\sqrt{3}\\,kq^2}{a}$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Capacitors",
+        "q": "A $2\\,\\mu\\text{F}$ capacitor charged to $100\\,\\text{V}$ is connected in parallel with an uncharged $3\\,\\mu\\text{F}$ capacitor. The energy lost during charge redistribution is:",
+        "options": [
+          "$2\\,\\text{mJ}$",
+          "$4\\,\\text{mJ}$",
+          "$6\\,\\text{mJ}$",
+          "$10\\,\\text{mJ}$"
+        ],
+        "correct": 2,
+        "explanation": "Energy lost $=\\dfrac12\\dfrac{C_1 C_2}{C_1+C_2}(V_1-V_2)^2=\\dfrac12\\cdot\\dfrac{2\\times3}{5}\\,\\mu\\text{F}\\cdot(100)^2=\\dfrac12\\cdot1.2\\times10^{-6}\\cdot10^4=6\\times10^{-3}\\,\\text{J}=6\\,\\text{mJ}$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Current Electricity",
+        "q": "A $12\\,\\text{V}$ battery of negligible internal resistance feeds two parallel branches: branch 1 is $4\\,\\Omega$ and $2\\,\\Omega$ in series; branch 2 is $3\\,\\Omega$ and $3\\,\\Omega$ in series. The total current drawn from the battery is:",
+        "options": [
+          "$2\\,\\text{A}$",
+          "$3\\,\\text{A}$",
+          "$4\\,\\text{A}$",
+          "$6\\,\\text{A}$"
+        ],
+        "correct": 2,
+        "explanation": "Branch 1 $=4+2=6\\,\\Omega$, current $=12/6=2\\,\\text{A}$. Branch 2 $=3+3=6\\,\\Omega$, current $=12/6=2\\,\\text{A}$. Total $=2+2=4\\,\\text{A}$ (equivalently $6\\|6=3\\,\\Omega$, $I=12/3=4\\,\\text{A}$)."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Magnetism and EMI",
+        "q": "A conducting rod of length $L$ slides on frictionless rails at constant velocity $v$ perpendicular to a uniform field $B$ (into the page), closing a circuit of total resistance $R$. The external force needed to maintain constant velocity is:",
+        "options": [
+          "$\\dfrac{BLv}{R}$",
+          "$\\dfrac{B^2L^2v}{R}$",
+          "$\\dfrac{B^2Lv}{R}$",
+          "$\\dfrac{BL^2v}{R}$"
+        ],
+        "correct": 1,
+        "explanation": "EMF $=BLv$, induced current $I=BLv/R$. The retarding magnetic force on the rod $=BIL=B\\cdot\\dfrac{BLv}{R}\\cdot L=\\dfrac{B^2L^2v}{R}$. To keep $v$ constant the applied force must equal this."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Alternating Current",
+        "q": "A series LCR circuit has $R=30\\,\\Omega$, $X_L=80\\,\\Omega$, $X_C=40\\,\\Omega$, driven by an AC source of $V_{rms}=100\\,\\text{V}$. The average power dissipated is:",
+        "options": [
+          "$120\\,\\text{W}$",
+          "$240\\,\\text{W}$",
+          "$96\\,\\text{W}$",
+          "$160\\,\\text{W}$"
+        ],
+        "correct": 0,
+        "explanation": "$Z=\\sqrt{R^2+(X_L-X_C)^2}=\\sqrt{30^2+40^2}=50\\,\\Omega$. $I_{rms}=100/50=2\\,\\text{A}$. Power factor $\\cos\\phi=R/Z=0.6$. $P=V_{rms}I_{rms}\\cos\\phi=100\\times2\\times0.6=120\\,\\text{W}$ (check: $I^2R=4\\times30=120\\,\\text{W}$)."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Ray Optics",
+        "q": "An object is placed $15\\,\\text{cm}$ in front of a converging lens of focal length $10\\,\\text{cm}$. The image so formed acts as the object for a concave mirror of focal length $10\\,\\text{cm}$ placed $30\\,\\text{cm}$ behind the lens. Using the lens result, the image formed by the lens alone is located:",
+        "options": [
+          "$30\\,\\text{cm}$ behind the lens, real",
+          "$30\\,\\text{cm}$ in front of the lens, virtual",
+          "$15\\,\\text{cm}$ behind the lens, real",
+          "at infinity"
+        ],
+        "correct": 0,
+        "explanation": "Lens formula $\\dfrac1v-\\dfrac1u=\\dfrac1f$ with $u=-15\\,\\text{cm}$, $f=+10\\,\\text{cm}$: $\\dfrac1v=\\dfrac1{10}+\\dfrac1{-15}=\\dfrac{3-2}{30}=\\dfrac{1}{30}$, so $v=+30\\,\\text{cm}$. Positive $v$ means a real image $30\\,\\text{cm}$ behind the lens (which conveniently lands at the mirror's centre of curvature)."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Wave Optics",
+        "q": "In Young's double-slit experiment with light of wavelength $\\lambda$, a thin transparent sheet of refractive index $\\mu$ and thickness $t$ is placed over one slit. The number of fringe widths by which the central fringe shifts is:",
+        "options": [
+          "$\\dfrac{(\\mu-1)t}{\\lambda}$",
+          "$\\dfrac{\\mu t}{\\lambda}$",
+          "$\\dfrac{(\\mu-1)t}{2\\lambda}$",
+          "$\\dfrac{(\\mu-1)\\lambda}{t}$"
+        ],
+        "correct": 0,
+        "explanation": "The sheet adds extra optical path $(\\mu-1)t$ in that arm. The central maximum moves to where this is compensated; since one fringe corresponds to a path difference of $\\lambda$, the shift is $N=\\dfrac{(\\mu-1)t}{\\lambda}$ fringe widths."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Modern Physics",
+        "q": "In a photoelectric experiment the stopping potential is $1.5\\,\\text{V}$ for light of frequency $\\nu_1$ and $3.5\\,\\text{V}$ for frequency $\\nu_2=2\\nu_1$. The work function of the metal is:",
+        "options": [
+          "$0.5\\,\\text{eV}$",
+          "$1.0\\,\\text{eV}$",
+          "$1.5\\,\\text{eV}$",
+          "$2.0\\,\\text{eV}$"
+        ],
+        "correct": 0,
+        "explanation": "$eV_s=h\\nu-\\phi$. Thus $1.5=h\\nu_1-\\phi$ and $3.5=2h\\nu_1-\\phi$. Subtracting: $2.0=h\\nu_1$, so $h\\nu_1=2.0\\,\\text{eV}$. Then $\\phi=h\\nu_1-1.5=2.0-1.5=0.5\\,\\text{eV}$."
+      },
+      {
+        "section": "Physics",
+        "type": "numerical",
+        "topic": "Work, Energy and Power",
+        "q": "A $1\\,\\text{kg}$ block moving at $6\\,\\text{m/s}$ on a frictionless surface collides head-on and sticks to a stationary $2\\,\\text{kg}$ block attached to an unstretched spring of stiffness $k=300\\,\\text{N/m}$. Find the maximum compression of the spring in metres. Round to 1 decimal place.",
+        "answer": "0.2",
+        "explanation": "Perfectly inelastic collision: common velocity $v=\\dfrac{1\\times6}{1+2}=2\\,\\text{m/s}$. KE just after $=\\tfrac12(3)(2)^2=6\\,\\text{J}$. At maximum compression all this KE is stored in the spring: $\\tfrac12 k x^2=6 \\Rightarrow x^2=\\dfrac{12}{300}=0.04 \\Rightarrow x=0.2\\,\\text{m}$."
+      },
+      {
+        "section": "Physics",
+        "type": "numerical",
+        "topic": "Rotational Motion",
+        "q": "A solid disc of mass $M=2\\,\\text{kg}$ and radius $R=0.5\\,\\text{m}$ rotates freely about its central axis at $\\omega=4\\,\\text{rad/s}$. A lump of clay of mass $m=1\\,\\text{kg}$ is dropped gently onto its rim and sticks. Find the final common angular speed in rad/s. Round to 1 decimal place.",
+        "answer": "2.0",
+        "explanation": "Conserve angular momentum about the axis. $I_{disc}=\\tfrac12 MR^2=\\tfrac12(2)(0.25)=0.25\\,\\text{kg·m}^2$, initial $L=0.25\\times4=1.0$. After: clay at the rim adds $mR^2=1\\times0.25=0.25$, so $I_f=0.50$. $\\omega_f=\\dfrac{L}{I_f}=\\dfrac{1.0}{0.50}=2.0\\,\\text{rad/s}$."
+      },
+      {
+        "section": "Physics",
+        "type": "numerical",
+        "topic": "Current Electricity",
+        "q": "A battery of EMF $10\\,\\text{V}$ and internal resistance $1\\,\\Omega$ drives an external resistance $R$. Find the value of $R$ (in ohms) for which the power delivered to $R$ is maximum.",
+        "answer": "1",
+        "explanation": "Maximum power transfer to the external load occurs when the load resistance equals the source's internal resistance: $R=r=1\\,\\Omega$. (At this value $P_{max}=\\dfrac{E^2}{4r}=\\dfrac{100}{4}=25\\,\\text{W}$.)"
+      },
+      {
+        "section": "Physics",
+        "type": "numerical",
+        "topic": "Magnetism and EMI",
+        "q": "A circular coil of $100$ turns and area $0.02\\,\\text{m}^2$ lies in a magnetic field (perpendicular to its plane) that decreases uniformly from $0.5\\,\\text{T}$ to $0.1\\,\\text{T}$ in $0.1\\,\\text{s}$. Find the magnitude of the induced EMF in volts.",
+        "answer": "8",
+        "explanation": "$\\varepsilon=N\\dfrac{\\Delta\\Phi}{\\Delta t}=N A\\dfrac{\\Delta B}{\\Delta t}=100\\times0.02\\times\\dfrac{0.5-0.1}{0.1}=100\\times0.02\\times4=8\\,\\text{V}$."
+      },
+      {
+        "section": "Physics",
+        "type": "numerical",
+        "topic": "Modern Physics",
+        "q": "A radioactive sample has a half-life of $20\\,\\text{minutes}$. Starting from $80\\,\\text{g}$, find the mass (in grams) remaining after $1\\,\\text{hour}$.",
+        "answer": "10",
+        "explanation": "$1\\,\\text{hour}=60\\,\\text{min}=3$ half-lives. Remaining fraction $=(1/2)^3=1/8$. Mass remaining $=80\\times\\tfrac18=10\\,\\text{g}$."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Chemical Equilibrium",
+        "q": "For $N_2O_4(g) \\rightleftharpoons 2NO_2(g)$, $N_2O_4$ is found to be 50% dissociated at equilibrium at a total pressure of 1 atm. The value of $K_p$ (in atm) is:",
+        "options": [
+          "1.33",
+          "0.50",
+          "0.25",
+          "2.00"
+        ],
+        "correct": 0,
+        "explanation": "With $\\alpha = 0.5$ and $P = 1$ atm, $K_p = \\dfrac{4\\alpha^2}{1-\\alpha^2}P = \\dfrac{4(0.25)}{1-0.25}(1) = \\dfrac{1.0}{0.75} = 1.33$ atm."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Electrochemistry",
+        "q": "For the concentration cell $Cu | Cu^{2+}(0.001\\,M) \\,||\\, Cu^{2+}(0.1\\,M) | Cu$ at 298 K, the EMF (in V) is approximately ($\\frac{0.059}{n}$ convention):",
+        "options": [
+          "0.059",
+          "0.118",
+          "0.0295",
+          "0.0098"
+        ],
+        "correct": 0,
+        "explanation": "For a concentration cell, $E = \\dfrac{0.059}{n}\\log\\dfrac{[\\text{cathode}]}{[\\text{anode}]} = \\dfrac{0.059}{2}\\log\\dfrac{0.1}{0.001} = 0.0295\\times\\log(100) = 0.0295\\times 2 = 0.059$ V."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Chemical Kinetics",
+        "q": "A first-order reaction is 75% complete in 60 minutes. The time required for 50% completion is approximately:",
+        "options": [
+          "30 min",
+          "20 min",
+          "40 min",
+          "45 min"
+        ],
+        "correct": 0,
+        "explanation": "For first order, 75% completion means two half-lives (75% = $1 - (1/2)^2$). So $2t_{1/2} = 60$ min $\\Rightarrow t_{1/2} = 30$ min, which is the time for 50% completion."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Ionic Equilibrium",
+        "q": "The pH of a buffer made by mixing 0.20 mol $CH_3COOH$ and 0.10 mol $CH_3COONa$ in 1 L of solution is ($pK_a$ of acetic acid = 4.74):",
+        "options": [
+          "4.44",
+          "4.74",
+          "5.04",
+          "4.34"
+        ],
+        "correct": 0,
+        "explanation": "Henderson equation: $pH = pK_a + \\log\\dfrac{[\\text{salt}]}{[\\text{acid}]} = 4.74 + \\log\\dfrac{0.10}{0.20} = 4.74 + \\log(0.5) = 4.74 - 0.30 = 4.44$."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Solutions",
+        "q": "When 0.6 g of acetic acid ($M = 60$) is dissolved in 100 g of benzene, the freezing point depression observed corresponds to a van't Hoff factor $i = 0.5$. This indicates the acetic acid:",
+        "options": [
+          "dissociates completely",
+          "exists as a dimer",
+          "is unchanged (monomer)",
+          "trimerises"
+        ],
+        "correct": 1,
+        "explanation": "$i = 0.5$ means the number of particles is half the expected, i.e. two molecules associate into one. In a non-polar solvent like benzene, acetic acid forms hydrogen-bonded dimers, giving $i = 0.5$."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Thermodynamics",
+        "q": "For a reaction at 300 K, $\\Delta H = +30\\,\\text{kJ mol}^{-1}$ and $\\Delta S = +150\\,\\text{J K}^{-1}\\text{mol}^{-1}$. The reaction is:",
+        "options": [
+          "spontaneous at all temperatures",
+          "non-spontaneous at all temperatures",
+          "spontaneous at 300 K",
+          "non-spontaneous at 300 K but spontaneous above 200 K"
+        ],
+        "correct": 2,
+        "explanation": "$\\Delta G = \\Delta H - T\\Delta S = 30000 - 300(150) = 30000 - 45000 = -15000\\,\\text{J} = -15\\,\\text{kJ}$. Since $\\Delta G < 0$, the reaction is spontaneous at 300 K. (Crossover temperature $= \\Delta H/\\Delta S = 200$ K; spontaneous above 200 K, and 300 K qualifies.)"
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Atomic Structure",
+        "q": "The number of radial nodes and angular nodes, respectively, in a $4d$ orbital are:",
+        "options": [
+          "1 and 2",
+          "2 and 1",
+          "1 and 1",
+          "2 and 2"
+        ],
+        "correct": 0,
+        "explanation": "Radial nodes $= n - l - 1 = 4 - 2 - 1 = 1$. Angular nodes $= l = 2$ (for d, $l=2$). So 1 radial and 2 angular nodes."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Chemical Kinetics",
+        "q": "The rate constant of a reaction doubles when the temperature increases from 300 K to 310 K. The activation energy ($E_a$) is closest to (use $R = 8.314\\,\\text{J K}^{-1}\\text{mol}^{-1}$):",
+        "options": [
+          "35.5 kJ/mol",
+          "26.8 kJ/mol",
+          "53.6 kJ/mol",
+          "107 kJ/mol"
+        ],
+        "correct": 2,
+        "explanation": "Arrhenius: $\\ln\\dfrac{k_2}{k_1} = \\dfrac{E_a}{R}\\left(\\dfrac{1}{T_1}-\\dfrac{1}{T_2}\\right)$. $\\ln 2 = 0.693 = \\dfrac{E_a}{8.314}\\left(\\dfrac{1}{300}-\\dfrac{1}{310}\\right) = \\dfrac{E_a}{8.314}(1.0753\\times10^{-4})$. $E_a = \\dfrac{0.693\\times 8.314}{1.0753\\times10^{-4}} \\approx 53600\\,\\text{J} = 53.6$ kJ/mol."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Coordination Compounds",
+        "q": "The spin-only magnetic moment of $[Fe(H_2O)_6]^{2+}$ is closest to (use $\\mu = \\sqrt{n(n+2)}$ BM):",
+        "options": [
+          "1.73 BM",
+          "3.87 BM",
+          "4.90 BM",
+          "5.92 BM"
+        ],
+        "correct": 2,
+        "explanation": "$Fe^{2+}$ is $d^6$. $H_2O$ is a weak-field ligand, so high-spin: $t_{2g}^4 e_g^2$ gives 4 unpaired electrons. $\\mu = \\sqrt{4(4+2)} = \\sqrt{24} = 4.90$ BM."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Coordination Compounds",
+        "q": "The number of geometrical isomers possible for the octahedral complex $[Ma_2b_2c_2]$ (all monodentate) is:",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "correct": 3,
+        "explanation": "For $[Ma_2b_2c_2]$, the geometrical isomers number 6: five geometric diastereomers, one of which (the all-cis form) is itself chiral and exists as an enantiomeric pair, giving a total of 6 stereoisomers. The classic count for $[Ma_2b_2c_2]$ is 6."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Periodic Properties",
+        "q": "The correct order of first ionisation enthalpy for the elements B, C, N, O is:",
+        "options": [
+          "B < C < O < N",
+          "B < C < N < O",
+          "O < N < C < B",
+          "B < O < C < N"
+        ],
+        "correct": 0,
+        "explanation": "Generally IE increases across a period: B < C < N. But oxygen ($2p^4$) loses an electron to give a stable half-filled-like config, and its IE is lower than nitrogen ($2p^3$, extra-stable half-filled). So the order is B < C < O < N."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Chemical Bonding",
+        "q": "Among $NO$, $NO^+$, $NO^-$, and $O_2$, the species with the highest bond order is:",
+        "options": [
+          "$NO$",
+          "$NO^+$",
+          "$NO^-$",
+          "$O_2$"
+        ],
+        "correct": 1,
+        "explanation": "Bond orders: $NO$ (15 e) = 2.5; $NO^+$ (14 e) = 3.0; $NO^-$ (16 e) = 2.0; $O_2$ (16 e) = 2.0. The highest is $NO^+$ with bond order 3.0 (isoelectronic with $N_2$/CO)."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "p-Block Elements",
+        "q": "The correct order of acidic strength of the oxoacids $HClO$, $HClO_2$, $HClO_3$, $HClO_4$ is:",
+        "options": [
+          "$HClO > HClO_2 > HClO_3 > HClO_4$",
+          "$HClO_4 > HClO_3 > HClO_2 > HClO$",
+          "$HClO_2 > HClO > HClO_4 > HClO_3$",
+          "$HClO_3 > HClO_4 > HClO_2 > HClO$"
+        ],
+        "correct": 1,
+        "explanation": "Acid strength of oxoacids increases with the oxidation state of the central atom (and number of terminal O atoms), which stabilises the conjugate base by delocalisation. Cl oxidation states: +1, +3, +5, +7. So $HClO_4 > HClO_3 > HClO_2 > HClO$."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Organic Reaction Mechanism",
+        "q": "The major product when 2-bromo-2-methylbutane is treated with hot alcoholic KOH is:",
+        "options": [
+          "2-methylbut-2-ene",
+          "2-methylbut-1-ene",
+          "3-methylbut-1-ene",
+          "2-methylbutan-2-ol"
+        ],
+        "correct": 0,
+        "explanation": "Alcoholic KOH promotes E2/E1 elimination. By Saytzeff's rule the more substituted (more stable) alkene predominates. Eliminating to form the tetrasubstituted double bond gives 2-methylbut-2-ene as the major product."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Carbonyl Chemistry",
+        "q": "When a mixture of benzaldehyde and formaldehyde is treated with concentrated NaOH (crossed Cannizzaro), the major organic products are:",
+        "options": [
+          "Benzoic acid and methanol",
+          "Sodium benzoate and methanol",
+          "Benzyl alcohol and sodium formate",
+          "Sodium benzoate and sodium formate"
+        ],
+        "correct": 2,
+        "explanation": "In crossed Cannizzaro, formaldehyde (more readily oxidised, having no $\\alpha$-H) acts as the reducing agent and is oxidised to formate, while benzaldehyde is reduced to benzyl alcohol. Products: benzyl alcohol + sodium formate."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Aromatic Chemistry",
+        "q": "Which of the following is the most reactive towards electrophilic aromatic substitution?",
+        "options": [
+          "Nitrobenzene",
+          "Chlorobenzene",
+          "Toluene",
+          "Anisole"
+        ],
+        "correct": 3,
+        "explanation": "Anisole ($C_6H_5OCH_3$) has the strongly activating $-OCH_3$ group (+M effect, strong electron donation by resonance), making it the most reactive. Toluene is activating but weaker; chlorobenzene is deactivating; nitrobenzene is strongly deactivating."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Stereochemistry",
+        "q": "The number of stereoisomers possible for 2,3-dichlorobutane ($CH_3CHClCHClCH_3$) is:",
+        "options": [
+          "4",
+          "3",
+          "2",
+          "1"
+        ],
+        "correct": 1,
+        "explanation": "The molecule has two similar stereocentres. It gives a pair of enantiomers (d and l) plus one achiral meso form. Total = 3 stereoisomers (the meso compound has an internal plane of symmetry)."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Organic Acidity",
+        "q": "The correct order of acidic strength is:",
+        "options": [
+          "Phenol > Ethanol > Carbonic acid > Acetic acid",
+          "Ethanol > Phenol > Acetic acid > Carbonic acid",
+          "Acetic acid > Carbonic acid > Phenol > Ethanol",
+          "Carbonic acid > Acetic acid > Ethanol > Phenol"
+        ],
+        "correct": 2,
+        "explanation": "$pK_a$ values: acetic acid (~4.76) < carbonic acid (~6.35) < phenol (~10) < ethanol (~16). Lower $pK_a$ means stronger acid. Order: acetic acid > carbonic acid > phenol > ethanol."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Carbocation Stability",
+        "q": "The correct order of stability of the following carbocations is: (I) $CH_3^+$ (II) $CH_3CH_2^+$ (III) $(CH_3)_2CH^+$ (IV) $C_6H_5CH_2^+$ (benzyl)",
+        "options": [
+          "I > II > III > IV",
+          "IV > III > II > I",
+          "III > IV > II > I",
+          "IV > II > III > I"
+        ],
+        "correct": 1,
+        "explanation": "Benzyl cation (IV) is most stable due to resonance delocalisation into the ring. Among alkyl cations stability increases with substitution: $3°$-like isopropyl (III, secondary) > ethyl (II) > methyl (I). Order: IV > III > II > I."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Solid State",
+        "q": "An element crystallises in a face-centred cubic (FCC) lattice with edge length $a = 400$ pm. The radius of the atom is approximately:",
+        "options": [
+          "100 pm",
+          "173 pm",
+          "141 pm",
+          "200 pm"
+        ],
+        "correct": 2,
+        "explanation": "For FCC, atoms touch along the face diagonal: $4r = \\sqrt{2}\\,a$, so $r = \\dfrac{\\sqrt{2}\\,a}{4} = \\dfrac{1.414\\times 400}{4} = \\dfrac{565.6}{4} \\approx 141$ pm."
+      },
+      {
+        "section": "Chemistry",
+        "type": "numerical",
+        "topic": "Electrochemistry",
+        "q": "A current of 9.65 A is passed through molten $AlCl_3$ for 1000 seconds. Calculate the mass of aluminium (atomic mass 27) deposited at the cathode, in grams. Round to 2 decimal places. (Faraday constant $F = 96500\\,\\text{C mol}^{-1}$)",
+        "answer": "0.90",
+        "explanation": "Charge $Q = It = 9.65 \\times 1000 = 9650$ C. Moles of electrons $= 9650/96500 = 0.1$ mol. $Al^{3+} + 3e^- \\to Al$, so moles of Al $= 0.1/3 = 0.0333$ mol. Mass $= 0.0333 \\times 27 = 0.90$ g."
+      },
+      {
+        "section": "Chemistry",
+        "type": "numerical",
+        "topic": "Ionic Equilibrium",
+        "q": "Calculate the pH of a 0.01 M solution of a weak monobasic acid HA whose dissociation constant $K_a = 1.0\\times10^{-5}$. Give the answer to 1 decimal place.",
+        "answer": "3.5",
+        "explanation": "$[H^+] = \\sqrt{K_a \\cdot C} = \\sqrt{(1.0\\times10^{-5})(0.01)} = \\sqrt{1.0\\times10^{-7}} = 3.16\\times10^{-4}$ M. $pH = -\\log(3.16\\times10^{-4}) = 4 - \\log 3.16 = 4 - 0.5 = 3.5$."
+      },
+      {
+        "section": "Chemistry",
+        "type": "numerical",
+        "topic": "Chemical Kinetics",
+        "q": "The half-life of a first-order reaction is 138.6 seconds. Calculate the time (in seconds) required for the concentration of the reactant to fall to 1/8 of its initial value. Give a whole number.",
+        "answer": "415.8",
+        "explanation": "Falling to 1/8 means three half-lives ($(1/2)^3 = 1/8$). Time $= 3 \\times t_{1/2} = 3 \\times 138.6 = 415.8$ s."
+      },
+      {
+        "section": "Chemistry",
+        "type": "numerical",
+        "topic": "Redox / Oxidation State",
+        "q": "Determine the oxidation state of chromium in the dichromate ion $Cr_2O_7^{2-}$. Give the answer as a signed integer (e.g. +6).",
+        "answer": "+6",
+        "explanation": "Let oxidation state of Cr be $x$. Oxygen is $-2$. $2x + 7(-2) = -2 \\Rightarrow 2x - 14 = -2 \\Rightarrow 2x = 12 \\Rightarrow x = +6$."
+      },
+      {
+        "section": "Chemistry",
+        "type": "numerical",
+        "topic": "Mole Concept / Empirical Formula",
+        "q": "An organic compound contains 40.0% carbon, 6.7% hydrogen and 53.3% oxygen by mass. Its molar mass is 180 g/mol. Calculate the number of carbon atoms in one molecule (i.e. subscript of C in the molecular formula).",
+        "answer": "6",
+        "explanation": "Moles per 100 g: C $= 40/12 = 3.33$; H $= 6.7/1 = 6.7$; O $= 53.3/16 = 3.33$. Ratio C:H:O $= 1:2:1$, empirical formula $CH_2O$ (mass 30). $n = 180/30 = 6$, so molecular formula $C_6H_{12}O_6$. Carbon atoms $= 6$."
+      },
+      {
+        "section": "Mathematics",
+        "type": "mcq",
+        "topic": "Combinatorial Identities",
+        "q": "$\\binom n{r+1}+\\binom n{r-1}+2\\binom nr$ equals",
+        "options": [
+          "$\\binom{n+1}{r+1}$",
+          "$\\binom{n+2}r$",
+          "$\\binom{n+2}{r+1}$",
+          "$\\binom{n+1}r$"
+        ],
+        "correct": 2,
+        "explanation": "$(\\binom n{r+1}+\\binom nr)+(\\binom nr+\\binom n{r-1})=\\binom{n+1}{r+1}+\\binom{n+1}r=\\binom{n+2}{r+1}$."
+      },
+      {
+        "section": "Mathematics",
+        "type": "mcq",
+        "topic": "Trig Identities",
+        "q": "$\\dfrac{\\tan A}{1-\\cot A}+\\dfrac{\\cot A}{1-\\tan A}$ can be written as",
+        "options": [
+          "$\\sin A\\cos A+1$",
+          "$\\sec A\\operatorname{cosec}A+1$",
+          "$\\tan A+\\cot A$",
+          "$\\sec A+\\operatorname{cosec}A$"
+        ],
+        "correct": 1,
+        "explanation": "The expression simplifies to $1+\\tan A+\\cot A=1+\\frac{\\sin^2A+\\cos^2A}{\\sin A\\cos A}=1+\\sec A\\operatorname{cosec}A$."
+      },
+      {
+        "section": "Mathematics",
+        "type": "mcq",
+        "topic": "Standard Form",
+        "q": "A value of $\\theta$ for which $\\dfrac{2+3i\\sin\\theta}{1-2i\\sin\\theta}$ is purely imaginary is",
+        "options": [
+          "$\\sin^{-1}\\frac{\\sqrt3}4$",
+          "$\\sin^{-1}\\frac1{\\sqrt3}$",
+          "$\\frac\\pi3$",
+          "$\\frac\\pi6$"
+        ],
+        "correct": 1,
+        "explanation": "Rationalising, the real part is $\\frac{2-6\\sin^2\\theta}{1+4\\sin^2\\theta}$; setting it to $0$ gives $\\sin^2\\theta=\\frac13$, i.e. $\\theta=\\sin^{-1}\\frac1{\\sqrt3}$."
+      },
+      {
+        "section": "Mathematics",
+        "type": "mcq",
+        "topic": "Location Of Roots",
+        "q": "All values of $m$ for which both roots of $x^2-2mx+m^2-1=0$ are greater than $-2$ but less than $4$ lie in",
+        "options": [
+          "$-2<m<0$",
+          "$m>3$",
+          "$-1<m<3$",
+          "$1<m<4$"
+        ],
+        "correct": 2,
+        "explanation": "Roots are $m\\pm1$; $m-1>-2\\Rightarrow m>-1$ and $m+1<4\\Rightarrow m<3$, so $-1<m<3$."
+      },
+      {
+        "section": "Mathematics",
+        "type": "mcq",
+        "topic": "Coefficients",
+        "q": "For $r>1,n>2$, if the coefficients of the $(r+2)$th and $(3r)$th terms in $(1+x)^{2n}$ are equal, then $n$ equals",
+        "options": [
+          "$3r$",
+          "$3r+1$",
+          "$2r$",
+          "$2r+1$"
+        ],
+        "correct": 2,
+        "explanation": "$\\binom{2n}{r+1}=\\binom{2n}{3r-1}\\Rightarrow(r+1)+(3r-1)=2n\\Rightarrow n=2r$."
+      },
+      {
+        "section": "Mathematics",
+        "type": "mcq",
+        "topic": "Hyperbola",
+        "q": "$(at^2,2bt)$ lies on $\\tfrac{x^2}{a^2}-\\tfrac{y^2}{b^2}=1$ for",
+        "options": [
+          "$t^2=2-\\sqrt5$",
+          "$2t^2=2+\\sqrt3$",
+          "$t^2=1+\\sqrt5$",
+          "$t^2=2+\\sqrt5$"
+        ],
+        "correct": 3,
+        "explanation": "$t^4-4t^2-1=0\\Rightarrow t^2=2\\pm\\sqrt5$; the positive value is $2+\\sqrt5$."
+      },
+      {
+        "section": "Mathematics",
+        "type": "mcq",
+        "topic": "Integration",
+        "q": "$\\displaystyle\\int f'(ax+b)\\,[f(ax+b)]^n\\,dx$ equals",
+        "options": [
+          "$\\frac{1}{a(n+1)}[f(ax+b)]^{n+1}+C$",
+          "$\\frac{1}{a(n+1)}[f(ax+b)]^{n-1}+C$",
+          "$\\frac{1}{a(n+2)}[f(ax+b)]^{n+1}+C$",
+          "$\\frac{1}{a(n-1)}[f(ax+b)]^{n+1}+C$"
+        ],
+        "correct": 0,
+        "explanation": "With $u=f(ax+b)$, $du=a f'(ax+b)dx$, giving $\\frac{1}{a(n+1)}[f(ax+b)]^{n+1}+C$."
+      },
+      {
+        "section": "Mathematics",
+        "type": "mcq",
+        "topic": "Trigonometric Identities",
+        "q": "$\\tan\\left(\\tfrac\\pi4\\sin^2x\\right)$, $-\\infty<x<\\infty$, lies between",
+        "options": [
+          "$0$ and $1$",
+          "$-1$ and $1$",
+          "$0$ and $\\infty$",
+          "$-1$ and $\\infty$"
+        ],
+        "correct": 0,
+        "explanation": "$\\sin^2x\\in[0,1]$ so the argument $\\in[0,\\tfrac\\pi4]$ and $\\tan(\\cdot)\\in[0,1]$."
+      },
+      {
+        "section": "Mathematics",
+        "type": "mcq",
+        "topic": "Coordinate Geometry Advanced",
+        "q": "$AB,AC$ are tangents to $y^2=4ax$. If $l_1,l_2,l_3$ are the perpendicular distances from $A,B,C$ to any tangent to the parabola, then $l_1,l_2,l_3$ are in",
+        "options": [
+          "G.P.",
+          "A.P.",
+          "H.P.",
+          "A.G.P."
+        ],
+        "correct": 0,
+        "explanation": "For the parabola these perpendiculars satisfy $l_1^2=l_2l_3$, so they are in G.P."
+      },
+      {
+        "section": "Mathematics",
+        "type": "mcq",
+        "topic": "Parabola",
+        "q": "$ax^2+2hxy+by^2+2gx+2fy+c=0$ (non-degenerate) represents a parabola if",
+        "options": [
+          "$h^2=ab$",
+          "$h^2>ab$",
+          "$h^2<ab$",
+          "none of these"
+        ],
+        "correct": 0,
+        "explanation": "A conic is a parabola when $h^2=ab$."
+      },
+      {
+        "section": "Mathematics",
+        "type": "mcq",
+        "topic": "Circles",
+        "q": "$C_1$ has centre $O$ radius $r$; $C_2$ has centre $(3r,0)$ radius $2r$. The number of common tangents is",
+        "options": [
+          "$1$",
+          "$3$",
+          "$5$",
+          "$4$"
+        ],
+        "correct": 1,
+        "explanation": "Distance between centres $=3r=r+2r$, so the circles touch externally — exactly $3$ common tangents."
+      },
+      {
+        "section": "Mathematics",
+        "type": "mcq",
+        "topic": "Ellipse",
+        "q": "$P$ is variable on $\\tfrac{x^2}{a^2}+\\tfrac{y^2}{b^2}=1$ with major axis $AA'$. The maximum area of $\\triangle APA'$ is",
+        "options": [
+          "$ab$",
+          "$2ab$",
+          "$3ab$",
+          "$4ab$"
+        ],
+        "correct": 0,
+        "explanation": "Base $AA'=2a$, maximum height $=b$ (at the minor-axis end), so max area $=\\tfrac12(2a)(b)=ab$."
+      },
+      {
+        "section": "Mathematics",
+        "type": "mcq",
+        "topic": "Probability",
+        "q": "6 boys and 6 girls sit in a row randomly. The probability that all 6 girls sit together is",
+        "options": [
+          "$\\frac{1}{132}$",
+          "$\\frac{1}{133}$",
+          "$\\frac{2}{133}$",
+          "none of these"
+        ],
+        "correct": 0,
+        "explanation": "$\\frac{7!\\cdot6!}{12!}=\\frac{6!}{12\\cdot11\\cdot10\\cdot9\\cdot8}=\\frac{720}{95040}=\\frac{1}{132}$."
+      },
+      {
+        "section": "Mathematics",
+        "type": "mcq",
+        "topic": "Straight Lines",
+        "q": "A line $L$ has intercepts $a,b$ on the axes. After rotating the axes (origin fixed), $L$ has intercepts $p,q$. Then",
+        "options": [
+          "$a^2+b^2=p^2+q^2$",
+          "$\\frac{1}{a^2}+\\frac{1}{b^2}=\\frac{1}{p^2}+\\frac{1}{q^2}$",
+          "$a^2+p^2=b^2+q^2$",
+          "$\\frac{1}{a^2}+\\frac{1}{p^2}=\\frac{1}{b^2}+\\frac{1}{q^2}$"
+        ],
+        "correct": 1,
+        "explanation": "The perpendicular distance from the origin to $L$ is unchanged: $\\tfrac1{d^2}=\\tfrac1{a^2}+\\tfrac1{b^2}=\\tfrac1{p^2}+\\tfrac1{q^2}$."
+      },
+      {
+        "section": "Mathematics",
+        "type": "mcq",
+        "topic": "Permutations And Combinations",
+        "q": "A number greater than $1000$ but less than $4000$ is formed using the digits $0,1,2,3,4$ (repetition allowed). The number of such numbers is",
+        "options": [
+          "$125$",
+          "$105$",
+          "$375$",
+          "$625$"
+        ],
+        "correct": 2,
+        "explanation": "Four-digit numbers with first digit $\\in\\{1,2,3\\}$ (3 ways) and the other three digits free ($5^3=125$): $3\\times125=375$."
+      },
+      {
+        "section": "Mathematics",
+        "type": "mcq",
+        "topic": "Sequence And Series",
+        "q": "An A.P. has $2n$ terms. The sum of terms in even positions is $P$ and in odd positions is $Q$. The $n$th term of the A.P. is",
+        "options": [
+          "$\\dfrac{P}{n}$",
+          "$\\dfrac{Q}{n}$",
+          "$\\dfrac{P+Q}{2n}$",
+          "none of these"
+        ],
+        "correct": 1,
+        "explanation": "The $n$ odd-position terms $a_1,a_3,\\dots,a_{2n-1}$ have average $a_n$ (mean of first and last), so $Q=n\\,a_n\\Rightarrow a_n=Q/n$."
+      },
+      {
+        "section": "Mathematics",
+        "type": "mcq",
+        "topic": "Matrices And Determinants",
+        "q": "For a square matrix $A$, which is NOT symmetric?",
+        "options": [
+          "$A+A'$",
+          "$AA'$",
+          "$A'A$",
+          "$A-A'$"
+        ],
+        "correct": 3,
+        "explanation": "$A-A'$ is skew-symmetric, not symmetric."
+      },
+      {
+        "section": "Mathematics",
+        "type": "mcq",
+        "topic": "Logarithm",
+        "q": "For positive reals $x,y,z$, the minimum of $\\tfrac{y+z}{x}+\\tfrac{z+x}{y}+\\tfrac{x+y}{z}$ is",
+        "options": [
+          "$6$",
+          "$3$",
+          "$2$",
+          "$1$"
+        ],
+        "correct": 0,
+        "explanation": "Group into three pairs $\\left(\\tfrac xy+\\tfrac yx\\right)+\\cdots$, each $\\ge2$ by AM–GM, so the minimum is $6$."
+      },
+      {
+        "section": "Mathematics",
+        "type": "mcq",
+        "topic": "Trigonometric Equations",
+        "q": "If $\\cos2\\theta=\\sqrt2(\\cos\\theta-\\sin\\theta)$, then $\\tan\\theta$ is",
+        "options": [
+          "$\\frac{1}{\\sqrt2},-\\frac{1}{\\sqrt2}$ or $1$",
+          "$1$",
+          "$1$ or $-1$",
+          "$0$"
+        ],
+        "correct": 1,
+        "explanation": "$\\cos2\\theta=(\\cos\\theta-\\sin\\theta)(\\cos\\theta+\\sin\\theta)=\\sqrt2(\\cos\\theta-\\sin\\theta)$ gives $\\cos\\theta+\\sin\\theta=\\sqrt2$, i.e. $\\theta=\\tfrac\\pi4$, so $\\tan\\theta=1$."
+      },
+      {
+        "section": "Mathematics",
+        "type": "mcq",
+        "topic": "Inverse Trigonometric Functions",
+        "q": "If $\\sum_{i=1}^{2n}\\sin^{-1}x_i=n\\pi$, then $\\sum_{i=1}^{2n}x_i$ equals",
+        "options": [
+          "$n$",
+          "$\\frac{1}{2n}$",
+          "$n^2$",
+          "$2n$"
+        ],
+        "correct": 3,
+        "explanation": "Each $\\sin^{-1}x_i\\le\\frac\\pi2$, so the sum of $2n$ terms is at most $n\\pi$; equality forces every $x_i=1$, hence $\\sum x_i=2n$."
+      },
+      {
+        "section": "Mathematics",
+        "type": "numerical",
+        "topic": "Nth Roots Unity",
+        "q": "For integer $k$, $\\alpha_k=\\cos\\frac{k\\pi}7+i\\sin\\frac{k\\pi}7$. The value of $\\dfrac{\\sum_{k=1}^{12}|\\alpha_{k+1}-\\alpha_k|}{\\sum_{k=1}^{3}|\\alpha_{4k-1}-\\alpha_{4k-2}|}$ is",
+        "answer": "4",
+        "explanation": "Each $|\\alpha_{k+1}-\\alpha_k|=|e^{i\\pi/7}-1|=2\\sin\\frac\\pi{14}$ — a constant, since consecutive indices differ by $1$. Numerator $=12c$, denominator $=3c$, ratio $=4$."
+      },
+      {
+        "section": "Mathematics",
+        "type": "numerical",
+        "topic": "System Of Equations",
+        "q": "$(x,y,z)$ are integer points with $3x-y-z=0$ and $-3x+2y+z=0$. The number of such points with $x^2+y^2+z^2\\le100$ is",
+        "answer": "7",
+        "explanation": "Adding the equations gives $y=0$, then $z=3x$. So points are $(x,0,3x)$ with $10x^2\\le100\\Rightarrow|x|\\le3$ — seven integer values."
+      },
+      {
+        "section": "Mathematics",
+        "type": "numerical",
+        "topic": "Distribution And Partition",
+        "q": "$n_1<n_2<n_3<n_4<n_5$ are positive integers with sum $20$. The number of such $(n_1,\\dots,n_5)$ is",
+        "answer": "7",
+        "explanation": "Partitions of $20$ into $5$ distinct positive parts $=$ partitions of $20-15=5$, which number $7$."
+      },
+      {
+        "section": "Mathematics",
+        "type": "numerical",
+        "topic": "Coefficients",
+        "q": "The sum of the coefficients of $(1+x-3x^2)^{2163}$ is",
+        "answer": "-1",
+        "explanation": "Put $x=1$: $(1+1-3)^{2163}=(-1)^{2163}=-1$."
+      },
+      {
+        "section": "Mathematics",
+        "type": "numerical",
+        "topic": "Modulus Triangle Inequality",
+        "q": "If $|z-3-2i|\\le2$, then the minimum value of $|2z-6+5i|$ is",
+        "answer": "5",
+        "explanation": "$|2z-6+5i|=2\\left|z-\\left(3-\\tfrac52 i\\right)\\right|$. The centre $3+2i$ is at distance $4.5$ from $3-\\tfrac52 i$; minus radius $2$ gives $2.5$, doubled $=5$."
+      }
+    ]
+  }
+}

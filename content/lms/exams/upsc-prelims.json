@@ -1,0 +1,2943 @@
+{
+  "meta": {
+    "slug": "upsc-prelims",
+    "name": "UPSC Prelims",
+    "fullName": "UPSC Civil Services (Preliminary) Examination",
+    "emoji": "🏛️",
+    "order": 3,
+    "category": "Civil Services",
+    "level": "Graduate (any discipline)",
+    "authority": "Union Public Service Commission (UPSC)",
+    "authorityUrl": "https://upsc.gov.in",
+    "accent": "#7c2d12",
+    "accent2": "#b45309",
+    "tagline": "The first stage of the Civil Services Examination — the gateway to the IAS, IPS, IFS and allied services.",
+    "blurb": "Two papers — General Studies (merit) and CSAT (qualifying). Attempt both as full-length, exam-pattern mocks with instant scoring, negative marking and explanations."
+  },
+  "pattern": {
+    "durationMin": 240,
+    "totalQuestions": 180,
+    "totalMarks": 400,
+    "negative": true,
+    "marking": "GS Paper I: +2 / −0.66 · CSAT Paper II: +2.5 / −0.83 (CSAT is qualifying, ≥33%).",
+    "sections": [],
+    "facts": [
+      {
+        "k": "Mode",
+        "v": "Offline (OMR), two papers in one day"
+      },
+      {
+        "k": "Conducting body",
+        "v": "Union Public Service Commission (UPSC)"
+      },
+      {
+        "k": "Frequency",
+        "v": "Once a year (Prelims ~ May/June)"
+      },
+      {
+        "k": "Eligibility",
+        "v": "Bachelor's degree in any discipline; age 21–32 (relaxations apply)"
+      },
+      {
+        "k": "Papers",
+        "v": "GS Paper I (merit) + CSAT Paper II (qualifying ≥33%)"
+      },
+      {
+        "k": "Nature",
+        "v": "Screening test — marks not counted in the final merit"
+      }
+    ]
+  },
+  "papers": [
+    {
+      "key": "gs1",
+      "name": "General Studies Paper I",
+      "role": "Merit / ranking paper",
+      "durationMin": 120,
+      "totalQuestions": 100,
+      "totalMarks": 200,
+      "perQuestionMarks": 2,
+      "perQuestionNeg": 0.66,
+      "marking": "+2 for correct, −0.66 for wrong (one-third negative).",
+      "sections": [
+        {
+          "name": "Polity & Governance",
+          "questions": 18
+        },
+        {
+          "name": "History & Art and Culture",
+          "questions": 18
+        },
+        {
+          "name": "Geography",
+          "questions": 15
+        },
+        {
+          "name": "Economy",
+          "questions": 16
+        },
+        {
+          "name": "Environment & Ecology",
+          "questions": 15
+        },
+        {
+          "name": "Science & Technology",
+          "questions": 10
+        },
+        {
+          "name": "Current Affairs",
+          "questions": 8
+        }
+      ]
+    },
+    {
+      "key": "csat",
+      "name": "CSAT Paper II",
+      "role": "Qualifying paper (≥33%)",
+      "durationMin": 120,
+      "totalQuestions": 80,
+      "totalMarks": 200,
+      "perQuestionMarks": 2.5,
+      "perQuestionNeg": 0.83,
+      "marking": "+2.5 for correct, −0.83 for wrong. Qualifying only — you need ≥33% (66/200).",
+      "sections": [
+        {
+          "name": "Reading Comprehension",
+          "questions": 26
+        },
+        {
+          "name": "Logical Reasoning & Analytical Ability",
+          "questions": 22
+        },
+        {
+          "name": "Basic Numeracy",
+          "questions": 18
+        },
+        {
+          "name": "Data Interpretation",
+          "questions": 14
+        }
+      ]
+    }
+  ],
+  "briefing": "The UPSC Civil Services Preliminary Examination is the screening stage that filters over a million applicants down to the few thousand who reach the Mains. It is two papers written on the same day. General Studies Paper I is the one that matters for selection — your score here decides whether you clear the cut-off — and it ranges across polity, history and culture, geography, economy, environment, science and a heavy dose of current affairs, rewarding the candidate who reads widely and connects the static syllabus to the news. CSAT Paper II is only qualifying: you must score at least 33%, but many serious aspirants stumble here on comprehension and basic numeracy under time pressure, so it cannot be ignored. With one-third negative marking on both papers, intelligent elimination beats blind guessing. These mocks reproduce both papers to the real pattern, with a worked explanation on every question.",
+  "strategy": [
+    "GS Paper I decides your fate — prioritise accuracy in Polity, Environment and Current Affairs, the highest-yield areas.",
+    "Treat CSAT seriously: clearing 33% is non-negotiable, and comprehension + numeracy are the usual trip-wires.",
+    "With −1/3 negative marking, attempt a question only if you can eliminate at least two options.",
+    "Practise reading long comprehension passages quickly — CSAT is as much a time-management test as a reasoning one."
+  ],
+  "subjects": [
+    {
+      "name": "Polity & Governance",
+      "emoji": "⚖️",
+      "chapters": [
+        "Indian Constitution — features & sources",
+        "Preamble, Fundamental Rights & Duties",
+        "DPSP",
+        "Union & State Executive",
+        "Parliament & State Legislatures",
+        "Judiciary & Judicial Review",
+        "Centre–State Relations & Federalism",
+        "Constitutional & Statutory Bodies",
+        "Panchayati Raj & Local Government",
+        "Amendments & Basic Structure",
+        "Governance, Transparency & e-Governance"
+      ]
+    },
+    {
+      "name": "History & Art/Culture",
+      "emoji": "🏺",
+      "chapters": [
+        "Indus Valley & Vedic Age",
+        "Mauryan & Gupta Empires",
+        "Medieval India — Delhi Sultanate & Mughals",
+        "Bhakti & Sufi Movements",
+        "Art, Architecture, Dance, Music & Painting",
+        "Modern India — advent of Europeans",
+        "1857 Revolt & socio-religious reform",
+        "Indian National Movement (1885–1947)",
+        "Post-independence consolidation"
+      ]
+    },
+    {
+      "name": "Geography",
+      "emoji": "🌏",
+      "chapters": [
+        "Physical Geography — geomorphology, climatology, oceanography",
+        "Indian Geography — physiography, rivers, monsoon",
+        "Soils, agriculture & cropping patterns",
+        "Minerals, energy & industries",
+        "World Geography & mapping",
+        "Population, settlement & urbanisation"
+      ]
+    },
+    {
+      "name": "Economy",
+      "emoji": "📈",
+      "chapters": [
+        "National income & basic macro concepts",
+        "Money, banking & RBI / monetary policy",
+        "Fiscal policy, budget & taxation (GST)",
+        "Inflation, unemployment & poverty",
+        "Planning, NITI Aayog & growth",
+        "External sector — BoP, trade & forex",
+        "Agriculture, MSP & food security",
+        "Financial markets & inclusion",
+        "Government schemes & welfare"
+      ]
+    },
+    {
+      "name": "Environment & Ecology",
+      "emoji": "🌱",
+      "chapters": [
+        "Ecology, ecosystems & biodiversity",
+        "Biodiversity hotspots & conservation (IUCN, CITES)",
+        "Protected areas — NP, WLS, Biosphere Reserves",
+        "Climate change — UNFCCC, IPCC, COP & agreements",
+        "Pollution & environmental laws/bodies (NGT, CPCB)",
+        "Renewable energy & sustainable development"
+      ]
+    },
+    {
+      "name": "Science & Technology",
+      "emoji": "🔬",
+      "chapters": [
+        "Space — ISRO missions & applications",
+        "Defence technology & missiles",
+        "Biotechnology & health",
+        "IT, AI, computing & communication",
+        "Nuclear technology & energy",
+        "Recent science in the news"
+      ]
+    },
+    {
+      "name": "Current Affairs",
+      "emoji": "📰",
+      "chapters": [
+        "National & international news",
+        "Government schemes & policies",
+        "International organisations & summits",
+        "Reports, indices & rankings",
+        "Awards, persons & places in news"
+      ]
+    },
+    {
+      "name": "CSAT — Aptitude (Paper II)",
+      "emoji": "🧮",
+      "chapters": [
+        "Reading Comprehension",
+        "Logical Reasoning & Analytical Ability",
+        "Decision-making & problem-solving",
+        "Basic Numeracy (Class X level)",
+        "Data Interpretation (tables, charts, graphs)",
+        "General Mental Ability"
+      ]
+    }
+  ],
+  "test": {
+    "title": "UPSC Prelims — Full Mock",
+    "questions": [
+      {
+        "paper": "gs1",
+        "section": "Polity & Governance",
+        "topic": "Preamble",
+        "type": "mcq",
+        "q": "Consider the following statements regarding the Preamble of the Constitution of India:\n1. The Preamble was enacted after the rest of the Constitution had been finalised, so as to conform to it.\n2. The words 'Socialist', 'Secular' and 'Integrity' were added to the Preamble by the 42nd Constitutional Amendment Act, 1976.\n3. The Preamble can be amended under Article 368.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "1, 2 and 3",
+          "2 and 3 only",
+          "1 and 3 only"
+        ],
+        "correct": 1,
+        "explanation": "All three are correct. The Preamble was adopted last so it would accord with the Constitution as adopted. The 42nd Amendment (1976) added 'Socialist', 'Secular' and 'Integrity'. In Kesavananda Bharati (1973) and the 42nd Amendment itself, the Supreme Court held the Preamble is a part of the Constitution and can be amended under Article 368, subject to the basic structure."
+      },
+      {
+        "paper": "gs1",
+        "section": "Polity & Governance",
+        "topic": "Fundamental Rights",
+        "type": "mcq",
+        "q": "Which one of the following Fundamental Rights is available only to citizens of India and not to foreigners?",
+        "options": [
+          "Right to equality before the law (Article 14)",
+          "Protection of life and personal liberty (Article 21)",
+          "Protection against arrest and detention in certain cases (Article 22)",
+          "Freedom of speech and expression (Article 19)"
+        ],
+        "correct": 3,
+        "explanation": "Article 19 freedoms (including speech and expression) are available only to citizens. Articles 14, 21 and 22 are available to all persons, including foreigners, within Indian territory."
+      },
+      {
+        "paper": "gs1",
+        "section": "Polity & Governance",
+        "topic": "Directive Principles",
+        "type": "mcq",
+        "q": "Consider the following provisions:\n1. Uniform Civil Code\n2. Organisation of village panchayats\n3. Promotion of international peace and security\n4. Free and compulsory education for children up to age fourteen\nHow many of the above are Directive Principles of State Policy as originally found in Part IV?",
+        "options": [
+          "All four",
+          "Only two",
+          "Only three",
+          "Only one"
+        ],
+        "correct": 0,
+        "explanation": "All four were Directive Principles. The UCC (Art 44), village panchayats (Art 40) and international peace (Art 51) remain DPSPs. Free and compulsory education up to 14 was originally Art 45 (a DPSP); the 86th Amendment later inserted Art 21A making it a Fundamental Right while recasting Art 45."
+      },
+      {
+        "paper": "gs1",
+        "section": "Polity & Governance",
+        "topic": "Parliament",
+        "type": "mcq",
+        "q": "Consider the following statements about the Rajya Sabha:\n1. It is not subject to dissolution and one-third of its members retire every second year.\n2. A money bill cannot be introduced in the Rajya Sabha.\n3. The Rajya Sabha alone has the power to authorise Parliament to make laws on a State List subject in the national interest.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "1, 2 and 3",
+          "2 and 3 only",
+          "1 and 3 only"
+        ],
+        "correct": 1,
+        "explanation": "All three are correct. The Rajya Sabha is a permanent house with one-third retiring every two years. Money bills (Art 110) can be introduced only in the Lok Sabha. Under Article 249, the Rajya Sabha may pass a resolution (by two-thirds present and voting) empowering Parliament to legislate on a State List subject in the national interest."
+      },
+      {
+        "paper": "gs1",
+        "section": "Polity & Governance",
+        "topic": "President",
+        "type": "mcq",
+        "q": "With reference to the President of India, consider the following statements:\n1. The President is elected by an electoral college consisting of the elected members of both Houses of Parliament and the elected members of the Legislative Assemblies of the States and of the Union Territories of Delhi and Puducherry.\n2. The value of the vote of an MLA varies from State to State.\n3. A person to be eligible for election as President must be qualified for election as a member of the Lok Sabha.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 3,
+        "explanation": "All three are correct. The electoral college includes elected MPs and elected MLAs of States plus Delhi and Puducherry (nominated members are excluded). The value of an MLA's vote depends on the State's population (1971 census) and number of elected members, so it varies. Article 58 requires the candidate to be qualified for election to the Lok Sabha."
+      },
+      {
+        "paper": "gs1",
+        "section": "Polity & Governance",
+        "topic": "Judiciary",
+        "type": "mcq",
+        "q": "Consider the following writs:\n1. Habeas Corpus\n2. Mandamus\n3. Quo Warranto\nWhich of the above can be issued against a private individual?",
+        "options": [
+          "1 only",
+          "1 and 3 only",
+          "2 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 0,
+        "explanation": "Only Habeas Corpus can be issued against both public authorities and private individuals (e.g., illegal private detention). Mandamus lies only against public authorities to perform a public duty, and Quo Warranto applies only to public offices of a substantive character."
+      },
+      {
+        "paper": "gs1",
+        "section": "Polity & Governance",
+        "topic": "Federalism / Emergency",
+        "type": "mcq",
+        "q": "During the operation of a National Emergency under Article 352, which one of the following Fundamental Rights can never be suspended?",
+        "options": [
+          "Right to freedom under Article 19",
+          "Rights under Articles 20 and 21",
+          "Right to property as it then stood",
+          "Right to constitutional remedies under Article 32"
+        ],
+        "correct": 1,
+        "explanation": "The 44th Amendment Act, 1978 provided that Articles 20 (protection in respect of conviction for offences) and 21 (protection of life and personal liberty) cannot be suspended even during a National Emergency. Article 19 stands automatically suspended only when the emergency is declared on grounds of war or external aggression."
+      },
+      {
+        "paper": "gs1",
+        "section": "Polity & Governance",
+        "topic": "Constitutional Bodies",
+        "type": "mcq",
+        "q": "Consider the following statements about the Election Commission of India:\n1. It is a constitutional body established under Article 324.\n2. The Chief Election Commissioner can be removed in the same manner and on the same grounds as a Judge of the Supreme Court.\n3. The other Election Commissioners can be removed by the President only on the recommendation of the Chief Election Commissioner.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 3,
+        "explanation": "All three are correct. The ECI is established under Article 324. The CEC enjoys security of tenure and can be removed only like a Supreme Court judge (by Parliament for proved misbehaviour or incapacity). Other Election Commissioners cannot be removed except on the recommendation of the CEC."
+      },
+      {
+        "paper": "gs1",
+        "section": "Polity & Governance",
+        "topic": "Panchayati Raj",
+        "type": "mcq",
+        "q": "Consider the following statements regarding the 73rd Constitutional Amendment Act:\n1. It added Part IX and the Eleventh Schedule to the Constitution.\n2. Reservation of not less than one-third of seats for women is a mandatory provision.\n3. It is applicable to the Scheduled Areas and Tribal Areas referred to in Article 244 without any modification.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 0,
+        "explanation": "Statements 1 and 2 are correct. The 73rd Amendment added Part IX and the Eleventh Schedule (29 subjects) and mandates reservation of at least one-third seats for women. Statement 3 is wrong: it did not automatically apply to Scheduled and Tribal Areas; their extension was made through the separate PESA Act, 1996."
+      },
+      {
+        "paper": "gs1",
+        "section": "Polity & Governance",
+        "topic": "Amendment / Basic Structure",
+        "type": "mcq",
+        "q": "The doctrine of 'basic structure' of the Constitution was propounded by the Supreme Court for the first time in which one of the following cases?",
+        "options": [
+          "Golaknath case (1967)",
+          "Kesavananda Bharati case (1973)",
+          "Minerva Mills case (1980)",
+          "Maneka Gandhi case (1978)"
+        ],
+        "correct": 1,
+        "explanation": "The basic structure doctrine was first laid down in Kesavananda Bharati v. State of Kerala (1973), which held that Parliament cannot amend the Constitution so as to destroy its basic structure. Minerva Mills (1980) later reinforced it; Golaknath (1967) had instead held that Fundamental Rights could not be amended."
+      },
+      {
+        "paper": "gs1",
+        "section": "Polity & Governance",
+        "topic": "Centre-State Relations",
+        "type": "mcq",
+        "q": "With reference to the Seventh Schedule of the Constitution, consider the following subjects:\n1. Public health and sanitation\n2. Criminal law and criminal procedure\n3. Forests\nWhich of the above are in the Concurrent List?",
+        "options": [
+          "1 and 2 only",
+          "1 and 3 only",
+          "2 only",
+          "2 and 3 only"
+        ],
+        "correct": 3,
+        "explanation": "Criminal law/criminal procedure and Forests are in the Concurrent List (Forests was moved from the State List to the Concurrent List by the 42nd Amendment, 1976). 'Public health and sanitation' is a State List subject. Hence 2 and 3 only."
+      },
+      {
+        "paper": "gs1",
+        "section": "Polity & Governance",
+        "topic": "Fundamental Duties",
+        "type": "mcq",
+        "q": "Consider the following statements about the Fundamental Duties:\n1. They were added to the Constitution on the recommendation of the Swaran Singh Committee.\n2. The duty to provide opportunities for education to one's child between the ages of six and fourteen years was part of the original list inserted in 1976.\n3. Fundamental Duties are confined to citizens and do not extend to foreigners.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 3 only",
+          "2 and 3 only",
+          "1 and 2 only",
+          "1, 2 and 3"
+        ],
+        "correct": 0,
+        "explanation": "Statements 1 and 3 are correct. Fundamental Duties (Article 51A) were added by the 42nd Amendment on the Swaran Singh Committee's recommendation and apply only to citizens. Statement 2 is wrong: the education-of-children duty was the 11th duty added later by the 86th Amendment (2002), not part of the original ten."
+      },
+      {
+        "paper": "gs1",
+        "section": "Polity & Governance",
+        "topic": "Governor",
+        "type": "mcq",
+        "q": "Which one of the following statements about the Governor of a State is NOT correct?",
+        "options": [
+          "The same person can be appointed as Governor for two or more States.",
+          "The Governor is paid a salary out of the Consolidated Fund of India.",
+          "The Governor holds office during the pleasure of the President.",
+          "A Governor must have completed the age of 35 years."
+        ],
+        "correct": 1,
+        "explanation": "The statement that the Governor's salary is paid from the Consolidated Fund of India is incorrect; the Governor's emoluments and allowances are charged on the Consolidated Fund of the State. The other three statements are correct under Articles 153–158."
+      },
+      {
+        "paper": "gs1",
+        "section": "Polity & Governance",
+        "topic": "Parliamentary Procedure",
+        "type": "mcq",
+        "q": "Consider the following statements regarding a Money Bill:\n1. The Speaker of the Lok Sabha certifies whether a bill is a Money Bill or not.\n2. The Rajya Sabha must return a Money Bill to the Lok Sabha within fourteen days with or without recommendations.\n3. The President can return a Money Bill for reconsideration of the Houses.\nWhich of the statements given above are correct?",
+        "options": [
+          "2 and 3 only",
+          "1 and 3 only",
+          "1 and 2 only",
+          "1, 2 and 3"
+        ],
+        "correct": 2,
+        "explanation": "Statements 1 and 2 are correct. The Speaker's certification on whether a bill is a Money Bill is final (Art 110), and the Rajya Sabha must return it within 14 days. Statement 3 is wrong: the President cannot return a Money Bill for reconsideration—it can only be assented to or withheld, since it is introduced with the President's prior recommendation."
+      },
+      {
+        "paper": "gs1",
+        "section": "Polity & Governance",
+        "topic": "Statutory Bodies",
+        "type": "mcq",
+        "q": "Which one of the following is a statutory body and NOT a constitutional body?",
+        "options": [
+          "Finance Commission",
+          "National Commission for Scheduled Castes",
+          "Union Public Service Commission",
+          "National Human Rights Commission"
+        ],
+        "correct": 3,
+        "explanation": "The National Human Rights Commission is a statutory body created under the Protection of Human Rights Act, 1993. The Finance Commission (Art 280), the National Commission for SCs (Art 338) and the UPSC (Art 315) are all constitutional bodies."
+      },
+      {
+        "paper": "gs1",
+        "section": "Polity & Governance",
+        "topic": "Citizenship",
+        "type": "mcq",
+        "q": "Consider the following statements about citizenship under the Constitution and the Citizenship Act, 1955:\n1. The Constitution provides for both single citizenship and a uniform citizenship for the whole of India.\n2. India permits dual citizenship for persons of Indian origin.\n3. Citizenship is a subject in the Union List.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 3 only",
+          "1 and 2 only",
+          "2 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 0,
+        "explanation": "Statements 1 and 3 are correct. India follows single citizenship, and citizenship/naturalisation/aliens is in the Union List. Statement 2 is wrong: India does not allow dual citizenship; the Overseas Citizen of India (OCI) status is not full dual citizenship and confers no voting or office-holding rights."
+      },
+      {
+        "paper": "gs1",
+        "section": "Polity & Governance",
+        "topic": "Anti-Defection",
+        "type": "mcq",
+        "q": "With reference to the Tenth Schedule (anti-defection law), consider the following statements:\n1. It was added to the Constitution by the 52nd Amendment Act, 1985.\n2. The decision on disqualification on the ground of defection is made by the President or Governor.\n3. The provision for exemption in case of a 'split' in a party was deleted by the 91st Amendment Act, 2003.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "1 and 3 only",
+          "2 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 1,
+        "explanation": "Statements 1 and 3 are correct. The Tenth Schedule was added by the 52nd Amendment (1985), and the one-third 'split' exemption was removed by the 91st Amendment (2003), leaving only the two-thirds 'merger' exemption. Statement 2 is wrong: the decision is taken by the presiding officer (Speaker/Chairman), not the President or Governor."
+      },
+      {
+        "paper": "gs1",
+        "section": "Polity & Governance",
+        "topic": "CAG",
+        "type": "mcq",
+        "q": "Consider the following statements regarding the Comptroller and Auditor General (CAG) of India:\n1. The CAG audits all expenditure from the Consolidated Fund of India and of the States.\n2. The CAG submits audit reports relating to the accounts of the Union directly to Parliament.\n3. The CAG is the guardian of the public purse and controls the issue of money from the Consolidated Fund.\nWhich of the statements given above are correct?",
+        "options": [
+          "2 and 3 only",
+          "1 and 3 only",
+          "1 and 2 only",
+          "1, 2 and 3"
+        ],
+        "correct": 2,
+        "explanation": "Statements 1 and 2 are correct. The CAG audits expenditure from the Consolidated Fund of India and the States and submits Union audit reports to the President, who lays them before Parliament. Statement 3 is wrong: unlike the British model, India's CAG is only an auditor (Comptroller of accounts after spending); it does not control the issue of money from the Consolidated Fund—no money can be drawn without legislative authorisation, but the CAG has no role at that issuing stage."
+      },
+      {
+        "paper": "gs1",
+        "section": "History & Art and Culture",
+        "topic": "Indus Valley Civilisation",
+        "type": "mcq",
+        "q": "Consider the following statements about the Harappan (Indus Valley) Civilisation:\n1. The Great Bath has been found at the site of Mohenjodaro.\n2. Evidence of a ploughed field has been found at Kalibangan.\n3. A dockyard has been discovered at Lothal.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 3,
+        "explanation": "All three are correct. The Great Bath is at Mohenjodaro, the earliest evidence of a ploughed field comes from Kalibangan, and the dockyard (a tidal harbour) is at Lothal in Gujarat."
+      },
+      {
+        "paper": "gs1",
+        "section": "History & Art and Culture",
+        "topic": "Vedic Period",
+        "type": "mcq",
+        "q": "With reference to the Vedic literature, which one of the following is correctly matched?",
+        "options": [
+          "Rigveda — the Gayatri Mantra is found in it",
+          "Yajurveda — contains only hymns of magic and charms",
+          "Samaveda — deals with sacrificial formulae in prose",
+          "Atharvaveda — the oldest of the four Vedas"
+        ],
+        "correct": 0,
+        "explanation": "The Gayatri Mantra, addressed to the solar deity Savitri, occurs in the Rigveda, the oldest Veda. The Yajurveda contains sacrificial formulae (prose and verse), the Samaveda contains melodies/hymns mostly drawn from the Rigveda, and the Atharvaveda (charms and spells) is the latest, not the oldest."
+      },
+      {
+        "paper": "gs1",
+        "section": "History & Art and Culture",
+        "topic": "Mauryan Empire",
+        "type": "mcq",
+        "q": "Consider the following statements about Ashoka's inscriptions:\n1. Most of Ashoka's edicts are written in the Brahmi script.\n2. The bilingual rock inscription using Greek and Aramaic was found at Kandahar.\n3. The Major Rock Edict XIII describes the Kalinga war and Ashoka's remorse.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "1, 2 and 3",
+          "2 and 3 only",
+          "1 and 3 only"
+        ],
+        "correct": 1,
+        "explanation": "All three are correct. Most Ashokan edicts are in Brahmi; the Kandahar inscription is bilingual in Greek and Aramaic; and Major Rock Edict XIII records the Kalinga war and Ashoka's subsequent remorse and turn to dhamma."
+      },
+      {
+        "paper": "gs1",
+        "section": "History & Art and Culture",
+        "topic": "Gupta Period",
+        "type": "mcq",
+        "q": "Which one of the following is NOT correctly associated with the Gupta period?",
+        "options": [
+          "Aryabhata wrote the Aryabhatiya",
+          "The iron pillar at Mehrauli, Delhi",
+          "Hiuen Tsang visited the court of Chandragupta II",
+          "The mural paintings of the Ajanta caves were largely executed"
+        ],
+        "correct": 2,
+        "explanation": "Hiuen Tsang (Xuanzang) visited India during the reign of Harshavardhana in the 7th century CE, not Chandragupta II of the Gupta age. It was Fa-Hien (Faxian) who visited during Chandragupta II's reign. The other three are correctly associated with the Gupta period."
+      },
+      {
+        "paper": "gs1",
+        "section": "History & Art and Culture",
+        "topic": "Delhi Sultanate",
+        "type": "mcq",
+        "q": "Consider the following statements about Alauddin Khalji:\n1. He introduced market control (price regulation) measures in Delhi.\n2. He was the first Sultan to introduce the system of measurement of land for revenue assessment.\n3. He built the Qutub Minar to commemorate his victories.\nWhich of the statements given above are correct?",
+        "options": [
+          "2 and 3 only",
+          "1 and 3 only",
+          "1 only",
+          "1 and 2 only"
+        ],
+        "correct": 3,
+        "explanation": "Statements 1 and 2 are correct. Alauddin Khalji introduced famous market/price-control reforms and a system of land measurement (masahat) for revenue assessment. Statement 3 is wrong: the Qutub Minar was begun by Qutb-ud-din Aibak and completed by Iltutmish, not Alauddin."
+      },
+      {
+        "paper": "gs1",
+        "section": "History & Art and Culture",
+        "topic": "Bhakti and Sufi Movements",
+        "type": "mcq",
+        "q": "Consider the following pairs of saints and their associations:\n1. Kabir — Nirguna Bhakti tradition\n2. Chaitanya Mahaprabhu — Krishna devotion in Bengal\n3. Mirabai — devotee of Lord Shiva\nHow many of the pairs given above are correctly matched?",
+        "options": [
+          "Only two",
+          "Only one",
+          "All three",
+          "None"
+        ],
+        "correct": 0,
+        "explanation": "Only two pairs are correct. Kabir belonged to the Nirguna (formless God) tradition, and Chaitanya popularised Krishna devotion in Bengal. The third is wrong: Mirabai was a devotee of Lord Krishna, not Shiva."
+      },
+      {
+        "paper": "gs1",
+        "section": "History & Art and Culture",
+        "topic": "Mughal Empire",
+        "type": "mcq",
+        "q": "With reference to the mansabdari system under the Mughals, consider the following statements:\n1. It was introduced by Akbar.\n2. The rank 'zat' determined the personal status and salary of the holder.\n3. The rank 'sawar' indicated the number of cavalrymen a mansabdar was required to maintain.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "1, 2 and 3",
+          "2 and 3 only",
+          "1 and 3 only"
+        ],
+        "correct": 1,
+        "explanation": "All three are correct. Akbar introduced the mansabdari system. The 'zat' fixed the mansabdar's personal rank and pay, while the 'sawar' indicated the number of horsemen (cavalry) the mansabdar had to maintain."
+      },
+      {
+        "paper": "gs1",
+        "section": "History & Art and Culture",
+        "topic": "Temple Architecture",
+        "type": "mcq",
+        "q": "With reference to Indian temple architecture, consider the following statements:\n1. The Nagara style is generally associated with northern India.\n2. The Dravida style temple is typically enclosed within a compound wall with a gateway called a gopuram.\n3. The Kandariya Mahadeva temple at Khajuraho is built in the Dravida style.\nWhich of the statements given above are correct?",
+        "options": [
+          "2 and 3 only",
+          "1 and 3 only",
+          "1 and 2 only",
+          "1, 2 and 3"
+        ],
+        "correct": 2,
+        "explanation": "Statements 1 and 2 are correct. The Nagara style is the northern style and Dravida temples in the south are enclosed in compound walls with gopuram gateways. Statement 3 is wrong: the Kandariya Mahadeva temple at Khajuraho is a classic Nagara-style temple, not Dravida."
+      },
+      {
+        "paper": "gs1",
+        "section": "History & Art and Culture",
+        "topic": "Classical Dance",
+        "type": "mcq",
+        "q": "Which one of the following classical dance forms is correctly paired with its State of origin?",
+        "options": [
+          "Kuchipudi — Tamil Nadu",
+          "Sattriya — Manipur",
+          "Odissi — Andhra Pradesh",
+          "Mohiniyattam — Kerala"
+        ],
+        "correct": 3,
+        "explanation": "Mohiniyattam originated in Kerala. The others are mismatched: Kuchipudi is from Andhra Pradesh, Sattriya is from Assam, and Odissi is from Odisha."
+      },
+      {
+        "paper": "gs1",
+        "section": "History & Art and Culture",
+        "topic": "Revolt of 1857",
+        "type": "mcq",
+        "q": "Consider the following statements about the Revolt of 1857:\n1. The revolt began at Meerut on 10 May 1857.\n2. Bahadur Shah II was proclaimed as the symbolic leader at Delhi.\n3. After the revolt, the control of India passed from the East India Company to the British Crown.\nWhich of the statements given above are correct?",
+        "options": [
+          "1, 2 and 3",
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only"
+        ],
+        "correct": 0,
+        "explanation": "All three are correct. The revolt broke out at Meerut on 10 May 1857, the rebels declared Bahadur Shah II (Zafar) the symbolic emperor at Delhi, and the Government of India Act 1858 transferred power from the Company to the British Crown."
+      },
+      {
+        "paper": "gs1",
+        "section": "History & Art and Culture",
+        "topic": "Indian National Congress",
+        "type": "mcq",
+        "q": "With reference to the early Indian National Congress, consider the following statements:\n1. The first session was held in Bombay in 1885 under W.C. Bonnerjee.\n2. A.O. Hume, a retired British civil servant, was associated with its founding.\n3. The Surat Split of the Congress occurred in 1907.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "1, 2 and 3",
+          "2 and 3 only",
+          "1 and 3 only"
+        ],
+        "correct": 1,
+        "explanation": "All three are correct. The INC's first session was held at Bombay in 1885 with W.C. Bonnerjee as president; A.O. Hume played a key role in its founding; and the Congress split into Moderates and Extremists at the Surat session in 1907."
+      },
+      {
+        "paper": "gs1",
+        "section": "History & Art and Culture",
+        "topic": "Gandhian Movements",
+        "type": "mcq",
+        "q": "Consider the following events of the Indian freedom struggle:\n1. Champaran Satyagraha\n2. Kheda Satyagraha\n3. Non-Cooperation Movement\n4. Dandi Salt March\nWhich one of the following is the correct chronological order?",
+        "options": [
+          "2 - 1 - 3 - 4",
+          "1 - 2 - 4 - 3",
+          "1 - 2 - 3 - 4",
+          "2 - 1 - 4 - 3"
+        ],
+        "correct": 2,
+        "explanation": "The correct order is Champaran (1917), Kheda (1918), Non-Cooperation Movement (1920–22) and the Dandi Salt March (1930). Hence 1-2-3-4."
+      },
+      {
+        "paper": "gs1",
+        "section": "History & Art and Culture",
+        "topic": "Socio-Religious Reform",
+        "type": "mcq",
+        "q": "Which one of the following pairs of reformers and organisations is NOT correctly matched?",
+        "options": [
+          "Raja Ram Mohan Roy — Brahmo Samaj",
+          "Swami Dayananda Saraswati — Arya Samaj",
+          "Swami Vivekananda — Ramakrishna Mission",
+          "Jyotiba Phule — Prarthana Samaj"
+        ],
+        "correct": 3,
+        "explanation": "Jyotiba Phule founded the Satyashodhak Samaj, not the Prarthana Samaj (which was founded by Atmaram Pandurang, associated with M.G. Ranade). The other three pairs are correctly matched."
+      },
+      {
+        "paper": "gs1",
+        "section": "History & Art and Culture",
+        "topic": "Buddhism",
+        "type": "mcq",
+        "q": "Consider the following statements about Buddhism:\n1. The Buddha delivered his first sermon at Sarnath, an event known as Dharma Chakra Pravartana.\n2. The Third Buddhist Council was held at Pataliputra under the patronage of Ashoka.\n3. The doctrine of the 'middle path' avoids the extremes of severe penance and self-indulgence.\nWhich of the statements given above are correct?",
+        "options": [
+          "1, 2 and 3",
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only"
+        ],
+        "correct": 0,
+        "explanation": "All three are correct. The Buddha's first sermon at Sarnath is called the Dharma Chakra Pravartana (turning of the wheel of law); the Third Buddhist Council was held at Pataliputra under Ashoka; and the Madhyama Pratipada (middle path) avoids both extreme asceticism and indulgence."
+      },
+      {
+        "paper": "gs1",
+        "section": "History & Art and Culture",
+        "topic": "Indian Painting",
+        "type": "mcq",
+        "q": "Consider the following statements about Indian painting:\n1. The Ajanta cave paintings depict mainly Jaina themes.\n2. The Mughal school of painting reached its zenith under Jahangir.\n3. The Kangra school is a notable example of the Pahari style of miniature painting.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 1,
+        "explanation": "Statements 2 and 3 are correct. Mughal painting peaked under Jahangir, a great connoisseur, and the Kangra school is a famous branch of the Pahari miniature tradition. Statement 1 is wrong: the Ajanta paintings depict primarily Buddhist themes (Jataka tales), not Jaina."
+      },
+      {
+        "paper": "gs1",
+        "section": "History & Art and Culture",
+        "topic": "Vijayanagara Empire",
+        "type": "mcq",
+        "q": "With reference to the Vijayanagara Empire, consider the following statements:\n1. It was founded by Harihara and Bukka of the Sangama dynasty.\n2. Krishnadeva Raya belonged to the Tuluva dynasty.\n3. The traveller Domingo Paes visited Vijayanagara during the reign of Krishnadeva Raya.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1, 2 and 3",
+          "1 and 3 only"
+        ],
+        "correct": 2,
+        "explanation": "All three are correct. Vijayanagara was founded in 1336 by Harihara and Bukka (Sangama dynasty); Krishnadeva Raya, its greatest ruler, belonged to the Tuluva dynasty; and the Portuguese traveller Domingo Paes visited during his reign."
+      },
+      {
+        "paper": "gs1",
+        "section": "History & Art and Culture",
+        "topic": "Post-Independence India",
+        "type": "mcq",
+        "q": "Consider the following statements about the integration of princely states after independence:\n1. The States Department was headed by Sardar Vallabhbhai Patel with V.P. Menon as its secretary.\n2. The state of Hyderabad was integrated through a police action code-named 'Operation Polo'.\n3. Goa was liberated from Portuguese control in 1961.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 3,
+        "explanation": "All three are correct. Sardar Patel headed the States Department with V.P. Menon as secretary; Hyderabad was integrated through 'Operation Polo' (1948); and Goa was liberated from Portuguese rule in December 1961."
+      },
+      {
+        "paper": "gs1",
+        "section": "History & Art and Culture",
+        "topic": "Maurya / Administration",
+        "type": "mcq",
+        "q": "The Arthashastra, an ancient treatise on statecraft and economic policy, is attributed to which one of the following?",
+        "options": [
+          "Kautilya (Chanakya)",
+          "Megasthenes",
+          "Patanjali",
+          "Banabhatta"
+        ],
+        "correct": 0,
+        "explanation": "The Arthashastra is attributed to Kautilya (also known as Chanakya or Vishnugupta), the minister of Chandragupta Maurya. Megasthenes wrote the Indica, Patanjali authored the Mahabhashya/Yoga Sutras, and Banabhatta wrote the Harshacharita."
+      },
+      {
+        "paper": "gs1",
+        "section": "Geography",
+        "topic": "Geomorphology",
+        "type": "mcq",
+        "q": "Consider the following statements regarding the formation of fold mountains: 1. They are formed by the compressional forces acting on sedimentary rocks accumulated in geosynclines. 2. The Himalayas, Alps and Andes are examples of fold mountains. 3. They are always older than block mountains formed by faulting. Which of the statements given above is/are correct?",
+        "options": [
+          "2 and 3 only",
+          "1 and 2 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 1,
+        "explanation": "Fold mountains form from compression of sediments deposited in geosynclines; the Himalayas, Alps and Andes are classic examples. Statement 3 is wrong because fold mountains are not necessarily older than block mountains; relative age depends on the specific orogeny, not the mountain type."
+      },
+      {
+        "paper": "gs1",
+        "section": "Geography",
+        "topic": "Climatology",
+        "type": "mcq",
+        "q": "The phenomenon of 'inversion of temperature' (where temperature increases with altitude instead of decreasing) is most likely to occur under which of the following conditions?",
+        "options": [
+          "Cloudy summer afternoons with strong winds",
+          "Warm humid days with rising convection currents",
+          "Long winter nights with clear skies and calm air",
+          "Stormy weather with heavy precipitation"
+        ],
+        "correct": 2,
+        "explanation": "Temperature inversion occurs on clear, calm, long winter nights when rapid terrestrial radiation cools the ground and the air just above it, while air higher up remains warmer. Winds and clouds inhibit inversion by mixing the air or trapping heat."
+      },
+      {
+        "paper": "gs1",
+        "section": "Geography",
+        "topic": "Oceanography",
+        "type": "mcq",
+        "q": "With reference to ocean currents, consider the following pairs: 1. Gulf Stream - warm current of the North Atlantic. 2. Humboldt (Peru) Current - cold current off the western coast of South America. 3. Kuroshio Current - cold current of the North Pacific. How many of the above pairs are correctly matched?",
+        "options": [
+          "Only one",
+          "All three",
+          "None",
+          "Only two"
+        ],
+        "correct": 3,
+        "explanation": "The Gulf Stream is a warm current and the Humboldt (Peru) Current is a cold current - both correct. The Kuroshio Current is a WARM current of the North Pacific (the Oyashio is the cold one), so pair 3 is wrong. Hence only two pairs are correct."
+      },
+      {
+        "paper": "gs1",
+        "section": "Geography",
+        "topic": "Indian Physiography",
+        "type": "mcq",
+        "q": "Consider the following statements about the Western Ghats and the Eastern Ghats: 1. The Western Ghats are continuous and can be crossed through passes only. 2. The Eastern Ghats are discontinuous and dissected by rivers draining into the Bay of Bengal. 3. Anaimudi, the highest peak of peninsular India, lies in the Eastern Ghats. Which of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 0,
+        "explanation": "The Western Ghats are continuous (crossed via passes like Thal, Bhor, Pal Ghats), and the Eastern Ghats are discontinuous, dissected by east-flowing rivers. Statement 3 is wrong - Anaimudi (2,695 m) lies in the Western Ghats (Anaimalai Hills), not the Eastern Ghats."
+      },
+      {
+        "paper": "gs1",
+        "section": "Geography",
+        "topic": "Indian Rivers",
+        "type": "mcq",
+        "q": "Which one of the following rivers does NOT originate from the Western Ghats?",
+        "options": [
+          "Krishna",
+          "Mahanadi",
+          "Godavari",
+          "Kaveri"
+        ],
+        "correct": 1,
+        "explanation": "The Krishna (Mahabaleshwar), Godavari (Trimbak/Nasik) and Kaveri (Talakaveri/Brahmagiri) all rise in the Western Ghats. The Mahanadi originates in the highlands of Chhattisgarh (near Sihawa), not the Western Ghats."
+      },
+      {
+        "paper": "gs1",
+        "section": "Geography",
+        "topic": "Indian Monsoon",
+        "type": "mcq",
+        "q": "Consider the following statements regarding the Indian monsoon: 1. The Tamil Nadu coast receives most of its rainfall during the northeast (retreating) monsoon. 2. The 'burst' of the monsoon is associated with the sudden onset of the southwest monsoon over Kerala. 3. El Nino conditions are generally associated with weaker than normal Indian monsoon rainfall. Which of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1, 2 and 3",
+          "1 and 3 only"
+        ],
+        "correct": 2,
+        "explanation": "All three are correct. Tamil Nadu gets most rain from the retreating (NE) monsoon (Oct-Dec); the 'burst' refers to the sudden, vigorous onset of the SW monsoon over Kerala in early June; and El Nino (warming of the equatorial Pacific) is generally linked to deficient Indian monsoon rainfall."
+      },
+      {
+        "paper": "gs1",
+        "section": "Geography",
+        "topic": "Indian Soils",
+        "type": "mcq",
+        "q": "With reference to soils of India, consider the following statements: 1. Black (regur) soil is rich in calcium carbonate, magnesium and potash but poor in nitrogen and phosphorus. 2. Laterite soil forms under conditions of high temperature and heavy rainfall with alternate wet and dry periods. 3. Alluvial soils cover the largest area of India. Which of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 3,
+        "explanation": "All three statements are correct. Black soil is rich in lime, magnesia, potash but deficient in nitrogen, phosphorus and organic matter; laterite forms by leaching under high temperature and alternating wet/dry seasons; and alluvial soils are the most widespread soil type, covering the largest area of India."
+      },
+      {
+        "paper": "gs1",
+        "section": "Geography",
+        "topic": "Indian Agriculture",
+        "type": "mcq",
+        "q": "Consider the following crops: 1. Tea 2. Coffee 3. Rubber 4. Cotton. How many of the above are grown primarily on red and laterite/well-drained slopes rather than on black cotton soil?",
+        "options": [
+          "Only three",
+          "Only one",
+          "Only two",
+          "All four"
+        ],
+        "correct": 0,
+        "explanation": "Tea, coffee and rubber are plantation crops grown on well-drained, often laterite hill slopes (NE India and Western Ghats). Cotton is the classic crop of black (regur) soil of the Deccan. Hence three of the four grow on red/laterite/well-drained slopes."
+      },
+      {
+        "paper": "gs1",
+        "section": "Geography",
+        "topic": "World Geography",
+        "type": "mcq",
+        "q": "The Strait of Hormuz, a strategic chokepoint for global oil transport, connects which of the following water bodies?",
+        "options": [
+          "The Red Sea with the Gulf of Aden",
+          "The Persian Gulf with the Gulf of Oman",
+          "The Mediterranean Sea with the Red Sea",
+          "The Black Sea with the Mediterranean Sea"
+        ],
+        "correct": 1,
+        "explanation": "The Strait of Hormuz connects the Persian Gulf to the Gulf of Oman (and onward to the Arabian Sea). The Bab-el-Mandeb links the Red Sea with the Gulf of Aden, and the Suez Canal links the Mediterranean with the Red Sea."
+      },
+      {
+        "paper": "gs1",
+        "section": "Geography",
+        "topic": "World Mapping",
+        "type": "mcq",
+        "q": "Consider the following countries: 1. Kazakhstan 2. Uzbekistan 3. Afghanistan 4. Turkmenistan. How many of the above share a land border with the Caspian Sea coast?",
+        "options": [
+          "Only one",
+          "Only three",
+          "Only two",
+          "All four"
+        ],
+        "correct": 2,
+        "explanation": "The five Caspian littoral states are Russia, Kazakhstan, Turkmenistan, Iran and Azerbaijan. From the list, Kazakhstan and Turkmenistan border the Caspian, while Uzbekistan and Afghanistan do not. Hence only two."
+      },
+      {
+        "paper": "gs1",
+        "section": "Geography",
+        "topic": "Resources and Industries",
+        "type": "mcq",
+        "q": "With reference to the iron and steel industry in India, the largest reserves of high-grade haematite iron ore are found in which of the following regions?",
+        "options": [
+          "Bailadila and Dalli-Rajhara (Chhattisgarh)",
+          "Bellary-Hospet (Karnataka)",
+          "Goa coastal belt",
+          "Singhbhum (Jharkhand) and Keonjhar-Mayurbhanj (Odisha)"
+        ],
+        "correct": 3,
+        "explanation": "Although iron ore occurs in all these belts, the largest high-grade haematite reserves are concentrated in the Singhbhum (Jharkhand) and Odisha (Keonjhar, Mayurbhanj, Sundargarh) belt, which forms the backbone of India's haematite resources."
+      },
+      {
+        "paper": "gs1",
+        "section": "Geography",
+        "topic": "Physical Geography",
+        "type": "mcq",
+        "q": "Coral reefs require specific environmental conditions to flourish. Which of the following is NOT favourable for coral reef growth?",
+        "options": [
+          "High salinity from very high evaporation in enclosed lagoons",
+          "Warm water with temperatures around 20-25 degrees Celsius",
+          "Clear, sediment-free shallow water",
+          "Adequate sunlight penetration"
+        ],
+        "correct": 0,
+        "explanation": "Corals need warm (about 20-25 C), clear, shallow, well-oxygenated water with normal marine salinity and sunlight for their symbiotic zooxanthellae. Excessively high salinity (hypersaline conditions) and heavy sediment are detrimental to coral growth."
+      },
+      {
+        "paper": "gs1",
+        "section": "Geography",
+        "topic": "Indian Geography",
+        "type": "mcq",
+        "q": "Consider the following passes and their locations: 1. Nathu La - Sikkim 2. Zoji La - Jammu & Kashmir/Ladakh 3. Shipki La - Himachal Pradesh 4. Bomdi La - Arunachal Pradesh. How many of the above pairs are correctly matched?",
+        "options": [
+          "Only one",
+          "All four",
+          "Only two",
+          "Only three"
+        ],
+        "correct": 1,
+        "explanation": "All four pairs are correct. Nathu La is in Sikkim, Zoji La connects Srinagar with Leh (J&K/Ladakh), Shipki La is in Himachal Pradesh (Sutlej enters India here), and Bomdi La is in Arunachal Pradesh."
+      },
+      {
+        "paper": "gs1",
+        "section": "Geography",
+        "topic": "Climatology",
+        "type": "mcq",
+        "q": "The 'Doldrums' belt near the equator is best characterised by which of the following?",
+        "options": [
+          "Strong, steady westerly winds",
+          "Persistent high pressure and clear dry skies",
+          "Calm conditions with light variable winds and convergence of trade winds",
+          "Cold polar easterlies"
+        ],
+        "correct": 2,
+        "explanation": "The Doldrums, located in the Inter-Tropical Convergence Zone (ITCZ) near the equator, is a low-pressure belt where the northeast and southeast trade winds converge, producing calm conditions, light variable winds and frequent convectional rain."
+      },
+      {
+        "paper": "gs1",
+        "section": "Geography",
+        "topic": "Indian Geography",
+        "type": "mcq",
+        "q": "Which one of the following correctly lists rivers that flow into the Arabian Sea?",
+        "options": [
+          "Mahanadi, Godavari, Krishna",
+          "Kaveri, Penna, Vaigai",
+          "Subarnarekha, Brahmani, Baitarani",
+          "Narmada, Tapi, Mahi"
+        ],
+        "correct": 3,
+        "explanation": "The Narmada, Tapi and Mahi are west-flowing rivers that drain into the Arabian Sea (Gulf of Khambhat). The other options list east-flowing rivers that empty into the Bay of Bengal."
+      },
+      {
+        "paper": "gs1",
+        "section": "Environment & Ecology",
+        "topic": "Ecology and Ecosystems",
+        "type": "mcq",
+        "q": "Consider the following statements regarding ecological pyramids: 1. The pyramid of energy is always upright. 2. The pyramid of numbers in a grassland ecosystem is upright. 3. The pyramid of biomass in an ocean is generally inverted. Which of the statements given above are correct?",
+        "options": [
+          "1, 2 and 3",
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only"
+        ],
+        "correct": 0,
+        "explanation": "All three are correct. The energy pyramid is always upright because energy is lost at each trophic level (10% law). A grassland pyramid of numbers is upright, and the oceanic biomass pyramid is typically inverted because the phytoplankton (producers) have lower standing biomass than the consumers at a given time."
+      },
+      {
+        "paper": "gs1",
+        "section": "Environment & Ecology",
+        "topic": "Biodiversity Conservation",
+        "type": "mcq",
+        "q": "With reference to the IUCN Red List, the categories in order of increasing threat of extinction are:",
+        "options": [
+          "Endangered - Vulnerable - Critically Endangered",
+          "Vulnerable - Endangered - Critically Endangered",
+          "Critically Endangered - Endangered - Vulnerable",
+          "Vulnerable - Critically Endangered - Endangered"
+        ],
+        "correct": 1,
+        "explanation": "On the IUCN Red List, the 'threatened' categories in order of increasing extinction risk are Vulnerable, then Endangered, then Critically Endangered (followed by Extinct in the Wild and Extinct). Vulnerable is the least threatened of the three."
+      },
+      {
+        "paper": "gs1",
+        "section": "Environment & Ecology",
+        "topic": "Biodiversity Hotspots",
+        "type": "mcq",
+        "q": "Consider the following global biodiversity hotspots: 1. The Himalaya 2. Indo-Burma 3. Western Ghats and Sri Lanka 4. Sundaland. How many of the above extend into Indian territory?",
+        "options": [
+          "Only one",
+          "Only two",
+          "All four",
+          "Only three"
+        ],
+        "correct": 2,
+        "explanation": "India is part of all four of these biodiversity hotspots. The Himalaya, Indo-Burma and the Western Ghats-Sri Lanka are well known, while Sundaland extends into India through the Nicobar Islands. Hence all four extend into Indian territory."
+      },
+      {
+        "paper": "gs1",
+        "section": "Environment & Ecology",
+        "topic": "CITES",
+        "type": "mcq",
+        "q": "With reference to CITES (Convention on International Trade in Endangered Species), consider the following statements: 1. Species listed in Appendix I are threatened with extinction and their commercial international trade is generally prohibited. 2. CITES is a legally binding treaty on its parties. 3. CITES is administered with the support of the UN Environment Programme (UNEP). Which of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 3,
+        "explanation": "All three are correct. CITES Appendix I species are those threatened with extinction, with commercial trade essentially banned; the Convention is legally binding on parties (though it does not replace national laws); and its Secretariat is administered under UNEP, based in Geneva."
+      },
+      {
+        "paper": "gs1",
+        "section": "Environment & Ecology",
+        "topic": "Protected Areas",
+        "type": "mcq",
+        "q": "Consider the following statements distinguishing National Parks and Wildlife Sanctuaries in India: 1. In a National Park, no grazing or private tenurial rights are permitted. 2. A Wildlife Sanctuary can be upgraded to a National Park. 3. Boundaries of both are fixed and notified only by the Central Government. Which of the statements given above is/are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 0,
+        "explanation": "Statements 1 and 2 are correct - National Parks prohibit grazing and private rights, and a sanctuary can be upgraded to a park. Statement 3 is wrong: National Parks and Wildlife Sanctuaries are notified by the State Government (under the Wildlife Protection Act, 1972), not the Centre."
+      },
+      {
+        "paper": "gs1",
+        "section": "Environment & Ecology",
+        "topic": "Biosphere Reserves",
+        "type": "mcq",
+        "q": "With reference to a Biosphere Reserve, the zone where no human activity is allowed and which is legally protected is called the:",
+        "options": [
+          "Buffer zone",
+          "Core zone",
+          "Transition zone",
+          "Manipulation zone"
+        ],
+        "correct": 1,
+        "explanation": "A Biosphere Reserve has three zones: the Core zone (legally protected, no human activity, undisturbed), the Buffer zone (limited research and education activities), and the Transition/Manipulation zone (where human settlements and sustainable use occur)."
+      },
+      {
+        "paper": "gs1",
+        "section": "Environment & Ecology",
+        "topic": "Climate Change",
+        "type": "mcq",
+        "q": "Consider the following greenhouse gases: 1. Carbon dioxide 2. Methane 3. Nitrous oxide 4. Water vapour. Considering Global Warming Potential (GWP) over a 100-year horizon, which one has the HIGHEST GWP per molecule among the listed long-lived gases?",
+        "options": [
+          "Carbon dioxide",
+          "Methane",
+          "Nitrous oxide",
+          "Water vapour"
+        ],
+        "correct": 2,
+        "explanation": "Among the listed gases, nitrous oxide (N2O) has the highest 100-year Global Warming Potential (about 265-298 times CO2), higher than methane (about 28-34 times). CO2 is the reference (GWP=1); water vapour, though a major greenhouse gas, is not assigned a conventional GWP as it is short-lived."
+      },
+      {
+        "paper": "gs1",
+        "section": "Environment & Ecology",
+        "topic": "UNFCCC and COP",
+        "type": "mcq",
+        "q": "With reference to the Paris Agreement (2015), consider the following statements: 1. It aims to limit the global average temperature rise to well below 2 degrees Celsius above pre-industrial levels, pursuing efforts towards 1.5 degrees Celsius. 2. It legally binds every country to specific emission reduction targets set by the UNFCCC Secretariat. 3. It operates on the principle of Nationally Determined Contributions (NDCs). Which of the statements given above are correct?",
+        "options": [
+          "2 and 3 only",
+          "1 and 2 only",
+          "1, 2 and 3",
+          "1 and 3 only"
+        ],
+        "correct": 3,
+        "explanation": "Statements 1 and 3 are correct. The Paris Agreement targets keeping warming well below 2 C (pursuing 1.5 C) and works through nationally determined contributions (NDCs). Statement 2 is wrong: targets are self-determined by each country (NDCs), not imposed by the UNFCCC Secretariat."
+      },
+      {
+        "paper": "gs1",
+        "section": "Environment & Ecology",
+        "topic": "Pollution and Bodies",
+        "type": "mcq",
+        "q": "With reference to the National Green Tribunal (NGT), consider the following statements: 1. It was established under the National Green Tribunal Act, 2010. 2. It is bound by the procedure laid down under the Code of Civil Procedure, 1908. 3. Appeals against its orders lie with the Supreme Court. Which of the statements given above is/are correct?",
+        "options": [
+          "1 and 3 only",
+          "2 and 3 only",
+          "1 and 2 only",
+          "1, 2 and 3"
+        ],
+        "correct": 0,
+        "explanation": "Statements 1 and 3 are correct - the NGT was set up under the NGT Act, 2010, and appeals against its orders go to the Supreme Court. Statement 2 is wrong: the NGT is NOT bound by the Code of Civil Procedure but is guided by principles of natural justice."
+      },
+      {
+        "paper": "gs1",
+        "section": "Current Affairs",
+        "topic": "International Organisations",
+        "type": "mcq",
+        "q": "Consider the following statements about the International Solar Alliance (ISA): 1. It was jointly launched by India and France. 2. Its headquarters is located in Gurugram (Gurgaon), India. 3. Originally membership was restricted to countries lying fully or partly between the Tropic of Cancer and the Tropic of Capricorn. Which of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "1, 2 and 3",
+          "2 and 3 only",
+          "1 and 3 only"
+        ],
+        "correct": 1,
+        "explanation": "All three are correct. The ISA was launched by India and France (at COP21, Paris, 2015); its headquarters/secretariat is at the National Institute of Solar Energy campus in Gurugram, India; and originally membership was open to 'sunshine countries' lying wholly or partly between the two tropics (later opened to all UN members)."
+      },
+      {
+        "paper": "gs1",
+        "section": "Environment & Ecology",
+        "topic": "Ecology",
+        "type": "mcq",
+        "q": "The process of 'eutrophication' in a water body is most directly caused by which of the following?",
+        "options": [
+          "Accumulation of heavy metals from industrial effluents",
+          "Thermal pollution from power plants",
+          "Excessive enrichment of nutrients like nitrates and phosphates leading to algal blooms",
+          "Acidification due to sulphur dioxide deposition"
+        ],
+        "correct": 2,
+        "explanation": "Eutrophication is the over-enrichment of a water body with nutrients, chiefly nitrates and phosphates (often from fertiliser runoff and sewage), which triggers excessive algal growth (blooms). The decomposition of this algae depletes dissolved oxygen, harming aquatic life."
+      },
+      {
+        "paper": "gs1",
+        "section": "Environment & Ecology",
+        "topic": "Conservation",
+        "type": "mcq",
+        "q": "Project Tiger and Project Elephant are conservation initiatives in India. Which one of the following statements is INCORRECT?",
+        "options": [
+          "Project Tiger was launched in 1973.",
+          "Tiger reserves are constituted under the Wildlife Protection Act on the recommendation of the National Tiger Conservation Authority (NTCA).",
+          "Project Elephant was launched in 1992.",
+          "The elephant has been declared the National Heritage Animal and a Schedule II species under the Wildlife Protection Act."
+        ],
+        "correct": 3,
+        "explanation": "Statements A, B and C are correct. Statement D is incorrect: while the elephant is the National Heritage Animal, it is listed in Schedule I (not Schedule II) of the Wildlife Protection Act, 1972, giving it the highest level of protection."
+      },
+      {
+        "paper": "gs1",
+        "section": "Environment & Ecology",
+        "topic": "Wetlands",
+        "type": "mcq",
+        "q": "With reference to the Ramsar Convention, consider the following statements: 1. It is an intergovernmental treaty for the conservation and wise use of wetlands. 2. The 'Montreux Record' is a register of Ramsar sites where ecological character has changed or is likely to change. 3. The Convention is named after a city in Iran. Which of the statements given above are correct?",
+        "options": [
+          "1, 2 and 3",
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only"
+        ],
+        "correct": 0,
+        "explanation": "All three are correct. The Ramsar Convention (1971) promotes conservation and wise use of wetlands; the Montreux Record lists Ramsar sites undergoing adverse ecological change (India's Keoladeo and Loktak have featured on it); and it is named after the city of Ramsar in Iran."
+      },
+      {
+        "paper": "gs1",
+        "section": "Environment & Ecology",
+        "topic": "Climate Change Bodies",
+        "type": "mcq",
+        "q": "The Intergovernmental Panel on Climate Change (IPCC) is best described by which of the following?",
+        "options": [
+          "A fund under the UNFCCC to finance climate projects in developing nations",
+          "A scientific body established by WMO and UNEP to assess climate change science",
+          "A regulatory agency that sets binding emission limits on member states",
+          "A specialised agency of the United Nations that conducts its own original research"
+        ],
+        "correct": 1,
+        "explanation": "The IPCC was established in 1988 by the World Meteorological Organization (WMO) and the UN Environment Programme (UNEP). It does not conduct original research or set binding limits; it assesses and synthesises existing peer-reviewed scientific literature on climate change for policymakers."
+      },
+      {
+        "paper": "gs1",
+        "section": "Environment & Ecology",
+        "topic": "Biodiversity",
+        "type": "mcq",
+        "q": "The term 'Keystone species' refers to a species that:",
+        "options": [
+          "Is the most abundant species in a given ecosystem",
+          "Has been recently introduced into a new habitat",
+          "Has a disproportionately large effect on its ecosystem relative to its abundance",
+          "Is at the highest trophic level in every food chain"
+        ],
+        "correct": 2,
+        "explanation": "A keystone species exerts an influence on community structure that is disproportionately large relative to its numerical abundance. Its removal can cause dramatic shifts in the ecosystem (e.g., sea otters, the African elephant, certain fig species)."
+      },
+      {
+        "paper": "gs1",
+        "section": "Environment & Ecology",
+        "topic": "Conventions",
+        "type": "mcq",
+        "q": "Consider the following pairs of environmental conventions and their primary focus: 1. Montreal Protocol - phasing out ozone-depleting substances. 2. Basel Convention - control of transboundary movement of hazardous wastes. 3. Stockholm Convention - persistent organic pollutants (POPs). How many of the above pairs are correctly matched?",
+        "options": [
+          "Only one",
+          "Only two",
+          "None",
+          "All three"
+        ],
+        "correct": 3,
+        "explanation": "All three pairs are correctly matched. The Montreal Protocol (1987) phases out ozone-depleting substances; the Basel Convention controls transboundary movement of hazardous wastes; and the Stockholm Convention targets persistent organic pollutants (POPs)."
+      },
+      {
+        "paper": "gs1",
+        "section": "Current Affairs",
+        "topic": "Government Schemes",
+        "type": "mcq",
+        "q": "The 'PM-KISAN' scheme, which provides income support to farmers, is implemented by which Union Ministry?",
+        "options": [
+          "Ministry of Agriculture and Farmers Welfare",
+          "Ministry of Rural Development",
+          "Ministry of Finance",
+          "Ministry of Cooperation"
+        ],
+        "correct": 0,
+        "explanation": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi) provides eligible farmer families Rs 6,000 per year in three instalments. It is implemented by the Department of Agriculture and Farmers Welfare under the Ministry of Agriculture and Farmers Welfare."
+      },
+      {
+        "paper": "gs1",
+        "section": "Current Affairs",
+        "topic": "International Organisations",
+        "type": "mcq",
+        "q": "Consider the following international organisations and their headquarters: 1. World Trade Organization - Geneva 2. International Monetary Fund - Washington D.C. 3. OPEC - Vienna. How many of the above pairs are correctly matched?",
+        "options": [
+          "Only one",
+          "All three",
+          "Only two",
+          "None"
+        ],
+        "correct": 1,
+        "explanation": "All three are correct. The WTO is headquartered in Geneva, Switzerland; the IMF (and the World Bank) in Washington D.C., USA; and OPEC (Organization of the Petroleum Exporting Countries) in Vienna, Austria."
+      },
+      {
+        "paper": "gs1",
+        "section": "Current Affairs",
+        "topic": "Indices and Reports",
+        "type": "mcq",
+        "q": "The 'Global Hunger Index' (GHI), which ranks countries on hunger and undernutrition, is published by which of the following?",
+        "options": [
+          "The World Bank and IMF",
+          "The World Health Organization",
+          "Concern Worldwide and Welthungerhilfe",
+          "The Food and Agriculture Organization (FAO)"
+        ],
+        "correct": 2,
+        "explanation": "The Global Hunger Index is jointly published by Concern Worldwide (Ireland) and Welthungerhilfe (Germany). It uses four indicators - undernourishment, child wasting, child stunting and child mortality - to score countries."
+      },
+      {
+        "paper": "gs1",
+        "section": "Current Affairs",
+        "topic": "Constitutional Bodies",
+        "type": "mcq",
+        "q": "With reference to the Finance Commission of India, consider the following statements: 1. It is a constitutional body established under Article 280. 2. It is constituted by the President every five years or earlier. 3. Its recommendations on the distribution of taxes are binding on the Government. Which of the statements given above are correct?",
+        "options": [
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3",
+          "1 and 2 only"
+        ],
+        "correct": 3,
+        "explanation": "Statements 1 and 2 are correct - the Finance Commission is a constitutional body under Article 280, constituted by the President every fifth year or earlier. Statement 3 is wrong: its recommendations are advisory and NOT binding on the Government."
+      },
+      {
+        "paper": "gs1",
+        "section": "Current Affairs",
+        "topic": "Statutory Bodies",
+        "type": "mcq",
+        "q": "The 'NITI Aayog' differs from the erstwhile Planning Commission in which one of the following respects?",
+        "options": [
+          "NITI Aayog is a think tank without fund-allocation powers, functioning on cooperative federalism",
+          "NITI Aayog is a constitutional body whereas the Planning Commission was statutory",
+          "NITI Aayog has powers to allocate funds to states whereas the Planning Commission did not",
+          "NITI Aayog reports to Parliament whereas the Planning Commission reported to the President"
+        ],
+        "correct": 0,
+        "explanation": "NITI Aayog (set up in 2015 by an executive resolution, like the Planning Commission) is essentially a policy think tank that promotes cooperative federalism and does NOT have powers to allocate funds to states. The Planning Commission, in contrast, used to allocate plan funds to states."
+      },
+      {
+        "paper": "gs1",
+        "section": "Current Affairs",
+        "topic": "International Organisations",
+        "type": "mcq",
+        "q": "Which one of the following pairs is INCORRECTLY matched?",
+        "options": [
+          "INTERPOL - Lyon, France",
+          "United Nations Environment Programme (UNEP) - Geneva, Switzerland",
+          "World Health Organization - Geneva, Switzerland",
+          "International Atomic Energy Agency (IAEA) - Vienna, Austria"
+        ],
+        "correct": 1,
+        "explanation": "INTERPOL (Lyon), WHO (Geneva) and IAEA (Vienna) are correctly matched. The pairing of UNEP with Geneva is incorrect - the UN Environment Programme is headquartered in Nairobi, Kenya."
+      },
+      {
+        "paper": "gs1",
+        "section": "Current Affairs",
+        "topic": "Government Schemes",
+        "type": "mcq",
+        "q": "The 'Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (PM-JAY)' provides health cover. What is the annual health insurance cover provided per eligible family under the scheme?",
+        "options": [
+          "Rs 1 lakh",
+          "Rs 3 lakh",
+          "Rs 5 lakh",
+          "Rs 10 lakh"
+        ],
+        "correct": 2,
+        "explanation": "PM-JAY, the world's largest government-funded health assurance scheme, provides health cover of Rs 5 lakh per family per year for secondary and tertiary care hospitalisation to eligible poor and vulnerable families. It is implemented by the National Health Authority."
+      },
+      {
+        "paper": "gs1",
+        "section": "Economy",
+        "topic": "Money & Banking - Monetary Policy",
+        "type": "mcq",
+        "q": "Consider the following actions by the Reserve Bank of India: (1) Cut in the Cash Reserve Ratio (2) Sale of government securities in the open market (3) Reduction in the repo rate. Which of these actions tend to increase the money supply in the economy?",
+        "options": [
+          "2 only",
+          "1, 2 and 3",
+          "2 and 3 only",
+          "1 and 3 only"
+        ],
+        "correct": 3,
+        "explanation": "Cutting CRR releases more lendable funds to banks, and reducing the repo rate makes borrowing cheaper, both expanding money supply. Selling government securities (OMO sale) absorbs liquidity and contracts money supply, so statement 2 reduces it."
+      },
+      {
+        "paper": "gs1",
+        "section": "Economy",
+        "topic": "Money & Banking - Policy Rates",
+        "type": "mcq",
+        "q": "With reference to the repo rate and the reverse repo rate, consider the following statements: (1) The repo rate is the rate at which the RBI lends short-term funds to commercial banks against securities. (2) An increase in the reverse repo rate encourages banks to park more funds with the RBI. Which of the statements given above is/are correct?",
+        "options": [
+          "1 only",
+          "2 only",
+          "Both 1 and 2",
+          "Neither 1 nor 2"
+        ],
+        "correct": 2,
+        "explanation": "Repo rate is the rate at which RBI lends to banks against eligible securities; a higher reverse repo rate makes parking funds with the RBI more attractive, reducing funds available for lending. Both statements are correct."
+      },
+      {
+        "paper": "gs1",
+        "section": "Economy",
+        "topic": "National Income",
+        "type": "mcq",
+        "q": "Which of the following correctly describes the relationship between Gross Domestic Product (GDP) at market price and Net National Product (NNP) at factor cost?",
+        "options": [
+          "NNP at factor cost = GDP at market price - Depreciation - Net indirect taxes + Net factor income from abroad",
+          "NNP at factor cost = GDP at market price + Depreciation + Net indirect taxes",
+          "NNP at factor cost = GDP at market price + Net factor income from abroad + Depreciation",
+          "NNP at factor cost = GDP at market price - Net factor income from abroad + Subsidies"
+        ],
+        "correct": 0,
+        "explanation": "To move from GDP at market price to NNP at factor cost: subtract depreciation (to make it 'Net'), add net factor income from abroad (to make it 'National'), and subtract net indirect taxes i.e. indirect taxes minus subsidies (to convert market price to factor cost)."
+      },
+      {
+        "paper": "gs1",
+        "section": "Economy",
+        "topic": "Taxation - GST",
+        "type": "mcq",
+        "q": "Consider the following statements regarding the Goods and Services Tax (GST) in India: (1) It is a destination-based consumption tax. (2) The GST Council is chaired by the Union Finance Minister. (3) Petroleum crude, diesel, and petrol have been brought fully under GST. Which of the statements given above are correct?",
+        "options": [
+          "2 and 3 only",
+          "1 and 2 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 1,
+        "explanation": "GST is a destination-based (consumption) tax accruing to the consuming state, and the GST Council (Article 279A) is chaired by the Union Finance Minister. Petroleum crude, diesel, petrol, natural gas and ATF are constitutionally within GST but are currently kept outside its levy, so statement 3 is incorrect."
+      },
+      {
+        "paper": "gs1",
+        "section": "Economy",
+        "topic": "Taxation - Direct vs Indirect",
+        "type": "mcq",
+        "q": "Which one of the following is a direct tax in India?",
+        "options": [
+          "Goods and Services Tax",
+          "Customs duty",
+          "Corporation tax",
+          "Excise duty"
+        ],
+        "correct": 2,
+        "explanation": "Corporation tax is a direct tax levied on company profits, where the incidence and impact fall on the same entity. GST, customs duty and excise duty are indirect taxes whose burden can be shifted to the consumer."
+      },
+      {
+        "paper": "gs1",
+        "section": "Economy",
+        "topic": "Fiscal Policy - Deficits",
+        "type": "mcq",
+        "q": "The 'fiscal deficit' of the Government of India is best defined as:",
+        "options": [
+          "Revenue expenditure minus revenue receipts",
+          "Total expenditure minus total receipts including borrowings",
+          "Primary deficit minus interest payments",
+          "Total expenditure minus total receipts excluding borrowings"
+        ],
+        "correct": 3,
+        "explanation": "Fiscal deficit = Total expenditure - Total receipts (excluding borrowings). It represents the total borrowing requirement of the government. Revenue expenditure minus revenue receipts is the revenue deficit."
+      },
+      {
+        "paper": "gs1",
+        "section": "Economy",
+        "topic": "Inflation",
+        "type": "mcq",
+        "q": "Consider the following statements about inflation in India: (1) The RBI's flexible inflation targeting framework targets Consumer Price Index (Combined) inflation. (2) The medium-term inflation target is 4 percent with a tolerance band of plus or minus 2 percent. Which of the statements given above is/are correct?",
+        "options": [
+          "1 only",
+          "2 only",
+          "Both 1 and 2",
+          "Neither 1 nor 2"
+        ],
+        "correct": 2,
+        "explanation": "Under the flexible inflation targeting framework adopted in 2016, the RBI targets CPI (Combined) inflation, with a medium-term target of 4 percent and a tolerance band of 2 to 6 percent (4 plus or minus 2). Both statements are correct."
+      },
+      {
+        "paper": "gs1",
+        "section": "Economy",
+        "topic": "Planning - NITI Aayog",
+        "type": "mcq",
+        "q": "With reference to the NITI Aayog, which of the following statements is INCORRECT?",
+        "options": [
+          "It has the power to allocate funds to states and ministries",
+          "It was established in 2015 to replace the Planning Commission",
+          "The Prime Minister is its ex-officio Chairperson",
+          "It functions as a think tank fostering cooperative federalism"
+        ],
+        "correct": 0,
+        "explanation": "Unlike the erstwhile Planning Commission, NITI Aayog does not allocate funds; it is an advisory think tank. It was set up in 2015 with the PM as ex-officio Chairperson and promotes cooperative federalism, so the other statements are correct."
+      },
+      {
+        "paper": "gs1",
+        "section": "Economy",
+        "topic": "External Sector - BoP",
+        "type": "mcq",
+        "q": "In the context of India's Balance of Payments, the 'current account' includes which of the following? (1) Merchandise trade in goods (2) Net invisibles such as services and remittances (3) Foreign direct investment inflows. Select the correct answer using the code given below.",
+        "options": [
+          "1 and 3 only",
+          "1 and 2 only",
+          "2 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 1,
+        "explanation": "The current account covers trade in goods (merchandise), services, income, and current transfers like remittances (invisibles). Foreign direct investment is a capital flow recorded under the capital and financial account, not the current account."
+      },
+      {
+        "paper": "gs1",
+        "section": "Economy",
+        "topic": "Agriculture - MSP",
+        "type": "mcq",
+        "q": "Consider the following statements regarding the Minimum Support Price (MSP) in India: (1) MSP is recommended by the Commission for Agricultural Costs and Prices (CACP). (2) The final MSP is announced by the Cabinet Committee on Economic Affairs. Which of the statements given above is/are correct?",
+        "options": [
+          "1 only",
+          "2 only",
+          "Both 1 and 2",
+          "Neither 1 nor 2"
+        ],
+        "correct": 2,
+        "explanation": "The CACP, an attached office of the Ministry of Agriculture, recommends MSPs, and these are approved and announced by the Cabinet Committee on Economic Affairs. Both statements are correct."
+      },
+      {
+        "paper": "gs1",
+        "section": "Economy",
+        "topic": "Financial Inclusion",
+        "type": "mcq",
+        "q": "The Pradhan Mantri Jan Dhan Yojana (PMJDY) is primarily aimed at:",
+        "options": [
+          "Providing crop insurance to farmers",
+          "Offering subsidised housing loans",
+          "Ensuring universal access to banking and financial services",
+          "Guaranteeing employment in rural areas"
+        ],
+        "correct": 2,
+        "explanation": "PMJDY, launched in 2014, is a national mission for financial inclusion, providing access to basic savings accounts, remittances, credit, insurance and pension to the unbanked. Crop insurance is PMFBY and rural employment is MGNREGA."
+      },
+      {
+        "paper": "gs1",
+        "section": "Economy",
+        "topic": "Money & Banking - SLR",
+        "type": "mcq",
+        "q": "The Statutory Liquidity Ratio (SLR) requires commercial banks in India to maintain a percentage of their net demand and time liabilities in which of the following forms? (1) Cash (2) Gold (3) Approved government securities. Select the correct answer using the code given below.",
+        "options": [
+          "1 only",
+          "3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 3,
+        "explanation": "SLR can be maintained in the form of cash, gold, and RBI-approved securities (mainly government securities), held by the bank itself. This is distinct from CRR, which must be kept as cash reserves with the RBI."
+      },
+      {
+        "paper": "gs1",
+        "section": "Economy",
+        "topic": "Poverty & Unemployment",
+        "type": "mcq",
+        "q": "The type of unemployment that arises when the marginal productivity of additional workers in an activity is zero, so removing them does not reduce output, is called:",
+        "options": [
+          "Disguised unemployment",
+          "Frictional unemployment",
+          "Cyclical unemployment",
+          "Structural unemployment"
+        ],
+        "correct": 0,
+        "explanation": "Disguised unemployment, common in Indian agriculture, occurs when more people are engaged than required and the marginal product of extra workers is effectively zero. Frictional is transitional job search, cyclical is demand-driven, and structural arises from skill or industry mismatch."
+      },
+      {
+        "paper": "gs1",
+        "section": "Economy",
+        "topic": "External Sector - Forex",
+        "type": "mcq",
+        "q": "Consider the following components of India's foreign exchange reserves: (1) Foreign currency assets (2) Gold (3) Special Drawing Rights (4) Reserve Tranche Position in the IMF. How many of the above are part of the foreign exchange reserves as reported by the RBI?",
+        "options": [
+          "Only two",
+          "All four",
+          "Only three",
+          "Only one"
+        ],
+        "correct": 1,
+        "explanation": "India's foreign exchange reserves comprise four components: Foreign Currency Assets, Gold, SDRs (allocated by the IMF), and the Reserve Tranche Position in the IMF. All four are included."
+      },
+      {
+        "paper": "gs1",
+        "section": "Economy",
+        "topic": "Financial Markets",
+        "type": "mcq",
+        "q": "With reference to capital and money markets in India, consider the following statements: (1) Treasury Bills are instruments of the money market. (2) Treasury Bills are issued by the Reserve Bank of India on behalf of the Government of India. (3) Treasury Bills are issued at a discount and redeemed at face value, carrying no separate coupon interest. Which of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "1 and 3 only",
+          "1, 2 and 3",
+          "2 and 3 only"
+        ],
+        "correct": 2,
+        "explanation": "Treasury Bills are short-term (up to 364 days) money market instruments issued by the RBI on behalf of the Government of India. They are zero-coupon securities sold at a discount and redeemed at face value, the difference being the investor's return. All three statements are correct."
+      },
+      {
+        "paper": "gs1",
+        "section": "Economy",
+        "topic": "Schemes - Food Security",
+        "type": "mcq",
+        "q": "The National Food Security Act, 2013 provides for subsidised foodgrains to which proportion of the population?",
+        "options": [
+          "Up to 50 percent of the urban and 67 percent of the rural population",
+          "100 percent of the Below Poverty Line population only",
+          "Up to 60 percent of the total population uniformly",
+          "Up to 75 percent of the rural and 50 percent of the urban population"
+        ],
+        "correct": 3,
+        "explanation": "The NFSA, 2013 covers up to 75 percent of the rural population and up to 50 percent of the urban population, amounting to about two-thirds of the country's population, under the Targeted Public Distribution System."
+      },
+      {
+        "paper": "gs1",
+        "section": "Science & Technology",
+        "topic": "Space - ISRO Missions",
+        "type": "mcq",
+        "q": "Consider the following statements about Chandrayaan-3: (1) It achieved a soft landing near the south polar region of the Moon. (2) Its lander module was named Vikram and the rover was named Pragyan. (3) Unlike Chandrayaan-2, it did not carry an orbiter of its own but used a propulsion module. Which of the statements given above are correct?",
+        "options": [
+          "1, 2 and 3",
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only"
+        ],
+        "correct": 0,
+        "explanation": "Chandrayaan-3 (2023) made India the first country to soft-land near the lunar south pole. Its lander was Vikram and rover Pragyan. It carried a propulsion module instead of a full scientific orbiter, relying on Chandrayaan-2's orbiter for communication. All three statements are correct."
+      },
+      {
+        "paper": "gs1",
+        "section": "Science & Technology",
+        "topic": "Space - Launch Vehicles",
+        "type": "mcq",
+        "q": "With reference to ISRO's launch vehicles, which one of the following is primarily used to place heavy communication satellites into Geostationary Transfer Orbit?",
+        "options": [
+          "PSLV",
+          "LVM3 (GSLV Mk III)",
+          "SSLV",
+          "Sounding rockets"
+        ],
+        "correct": 1,
+        "explanation": "LVM3, formerly GSLV Mk III, is ISRO's heaviest operational launcher, capable of placing about 4 tonnes into Geostationary Transfer Orbit, used for heavy communication satellites and crewed Gaganyaan missions. PSLV mainly serves polar/sun-synchronous orbits and SSLV targets small satellites."
+      },
+      {
+        "paper": "gs1",
+        "section": "Science & Technology",
+        "topic": "Biotechnology",
+        "type": "mcq",
+        "q": "The gene-editing tool CRISPR-Cas9 is best described as a technology that:",
+        "options": [
+          "Amplifies DNA segments through repeated heating and cooling cycles",
+          "Produces identical copies of an entire organism",
+          "Allows precise cutting and editing of specific DNA sequences in the genome",
+          "Sequences the complete genome of an organism rapidly"
+        ],
+        "correct": 2,
+        "explanation": "CRISPR-Cas9 uses a guide RNA to direct the Cas9 enzyme to a specific DNA sequence, where it cuts the DNA, enabling precise editing. DNA amplification is PCR, copying a whole organism is cloning, and reading the genome is sequencing."
+      },
+      {
+        "paper": "gs1",
+        "section": "Science & Technology",
+        "topic": "Health - Vaccines",
+        "type": "mcq",
+        "q": "Consider the following statements about mRNA vaccines: (1) They introduce a piece of genetic instruction that prompts cells to produce a viral protein, triggering an immune response. (2) They alter the recipient's own DNA permanently. Which of the statements given above is/are correct?",
+        "options": [
+          "1 only",
+          "2 only",
+          "Both 1 and 2",
+          "Neither 1 nor 2"
+        ],
+        "correct": 0,
+        "explanation": "mRNA vaccines deliver messenger RNA that instructs cells to make a harmless viral antigen (such as the spike protein), prompting an immune response. The mRNA does not enter the nucleus or integrate into the host's DNA, so statement 2 is incorrect."
+      },
+      {
+        "paper": "gs1",
+        "section": "Science & Technology",
+        "topic": "Nuclear Technology",
+        "type": "mcq",
+        "q": "With reference to India's three-stage nuclear power programme, the third stage envisages the use of which of the following as the main fuel?",
+        "options": [
+          "Natural uranium in pressurised heavy water reactors",
+          "Plutonium-based fast breeder reactors",
+          "Enriched uranium in light water reactors",
+          "Thorium-Uranium-233 based reactors"
+        ],
+        "correct": 3,
+        "explanation": "India's three-stage programme uses natural uranium in PHWRs (Stage 1), plutonium in fast breeder reactors (Stage 2), and finally thorium with bred Uranium-233 (Stage 3), leveraging India's large thorium reserves."
+      },
+      {
+        "paper": "gs1",
+        "section": "Science & Technology",
+        "topic": "IT / Computing",
+        "type": "mcq",
+        "q": "Quantum computers can potentially outperform classical computers for certain problems primarily because qubits can:",
+        "options": [
+          "Exist in a superposition of states and be entangled",
+          "Store data permanently without electricity",
+          "Operate only in binary 0 and 1 states faster",
+          "Transmit information faster than the speed of light"
+        ],
+        "correct": 0,
+        "explanation": "Qubits exploit quantum superposition (existing in combinations of 0 and 1) and entanglement, enabling massive parallelism for specific computations. They do not violate relativity, are not classical binary bits, and require careful conditions to operate."
+      },
+      {
+        "paper": "gs1",
+        "section": "Science & Technology",
+        "topic": "Defence Technology",
+        "type": "mcq",
+        "q": "The Agni series of missiles developed by India are best classified as:",
+        "options": [
+          "Surface-to-air missiles",
+          "Surface-to-surface ballistic missiles",
+          "Anti-tank guided missiles",
+          "Submarine-launched cruise missiles"
+        ],
+        "correct": 1,
+        "explanation": "The Agni series comprises surface-to-surface, nuclear-capable ballistic missiles with varying ranges, forming a key part of India's strategic deterrent. BrahMos is a cruise missile, Akash is surface-to-air, and Nag is an anti-tank missile."
+      },
+      {
+        "paper": "gs1",
+        "section": "Science & Technology",
+        "topic": "Space - Navigation",
+        "type": "mcq",
+        "q": "NavIC, India's regional navigation satellite system, is operated by which of the following organisations?",
+        "options": [
+          "DRDO",
+          "Survey of India",
+          "ISRO",
+          "BSNL"
+        ],
+        "correct": 2,
+        "explanation": "NavIC (Navigation with Indian Constellation), formerly IRNSS, is developed and operated by ISRO to provide accurate position information over India and a region extending about 1,500 km around it."
+      },
+      {
+        "paper": "gs1",
+        "section": "Science & Technology",
+        "topic": "Applied Science - Computing",
+        "type": "mcq",
+        "q": "In the context of artificial intelligence, 'machine learning' is best described as:",
+        "options": [
+          "A system explicitly programmed with fixed rules for every situation",
+          "Hardware designed to mimic the human brain physically",
+          "A method of manually labelling all possible outcomes in a database",
+          "Algorithms that improve their performance on a task by learning patterns from data"
+        ],
+        "correct": 3,
+        "explanation": "Machine learning enables systems to learn patterns from data and improve performance without being explicitly programmed with rules for every case. It is a subset of AI distinct from rule-based expert systems and from physical neuromorphic hardware."
+      },
+      {
+        "paper": "gs1",
+        "section": "Science & Technology",
+        "topic": "Health - Biotechnology",
+        "type": "mcq",
+        "q": "Consider the following statements about stem cells: (1) Embryonic stem cells are pluripotent and can differentiate into nearly any cell type. (2) Induced pluripotent stem cells (iPSCs) are adult cells reprogrammed to a pluripotent state. Which of the statements given above is/are correct?",
+        "options": [
+          "1 only",
+          "2 only",
+          "Both 1 and 2",
+          "Neither 1 nor 2"
+        ],
+        "correct": 2,
+        "explanation": "Embryonic stem cells are pluripotent, able to form almost any cell type. Induced pluripotent stem cells are mature adult cells genetically reprogrammed back to a pluripotent state, avoiding the ethical concerns of embryonic sources. Both statements are correct."
+      },
+      {
+        "paper": "csat",
+        "section": "Reading Comprehension",
+        "topic": "Governance",
+        "type": "mcq",
+        "q": "Passage: Decentralisation is often praised as a cure for distant, unresponsive government. Yet bringing power closer to people does not automatically make it more accountable. When local bodies lack independent revenue, they remain financially tethered to higher tiers and merely implement decisions taken elsewhere. Accountability requires not just proximity but the genuine authority to raise funds, set priorities and bear the consequences of failure. Where these conditions are absent, decentralisation can become an elaborate exercise that shifts blame downward while keeping real control upward.\n\nQ. Which one of the following best reflects the central idea of the passage?",
+        "options": [
+          "Genuine accountability depends on local bodies having real fiscal and decision-making authority, not merely on proximity.",
+          "Decentralisation always improves the responsiveness of government.",
+          "Local bodies should never depend on higher tiers for any funds.",
+          "Distant government is inherently more efficient than local government."
+        ],
+        "correct": 0,
+        "explanation": "The passage states accountability 'requires not just proximity but the genuine authority to raise funds, set priorities and bear the consequences,' making the key correct. The 'always improves' option is contradicted by 'does not automatically.' The 'never depend on higher tiers' option is too extreme; the passage notes dependence weakens accountability but never demands zero dependence. The 'distant government is more efficient' option is unstated."
+      },
+      {
+        "paper": "csat",
+        "section": "Reading Comprehension",
+        "topic": "Environment",
+        "type": "mcq",
+        "q": "Passage: Restoring a degraded forest is rarely as simple as planting trees. A monoculture plantation may green a satellite image, but it supports a fraction of the species a natural forest holds and is more vulnerable to a single pest. True restoration mimics the original mix of plants, the layered canopy and the soil life that took centuries to develop. It is slower, costlier and less photogenic, which is precisely why it is so often skipped in favour of quick planting drives that count seedlings rather than measure ecological recovery.\n\nQ. What does the passage imply about large tree-planting drives?",
+        "options": [
+          "They are the most reliable way to restore biodiversity.",
+          "They may create an appearance of recovery without delivering genuine ecological restoration.",
+          "They are illegal in most countries.",
+          "They cost more than natural restoration methods."
+        ],
+        "correct": 1,
+        "explanation": "The passage contrasts monoculture drives that 'green a satellite image' and 'count seedlings' with true restoration that measures ecological recovery, implying appearance without substance, so the key is correct. The 'most reliable' option is contradicted. The 'illegal' option is unstated. The 'cost more than natural restoration' option reverses the passage, which calls true restoration 'costlier.'"
+      },
+      {
+        "paper": "csat",
+        "section": "Reading Comprehension",
+        "topic": "Economy",
+        "type": "mcq",
+        "q": "Passage: A rising stock market is frequently treated as proof that an economy is thriving. But share prices reflect the expected future profits of listed companies, not the daily reality of most households. In economies where ownership of shares is concentrated among a small wealthy minority, a booming market can coexist with stagnant wages, rising joblessness and falling consumption. Mistaking the index for the economy can lead policymakers to celebrate while the broader population sees no improvement in its circumstances.\n\nQ. Which one of the following is the most logical inference from the passage?",
+        "options": [
+          "Stock markets are useless as economic indicators.",
+          "Wages always fall when the stock market rises.",
+          "A buoyant stock market need not indicate improving conditions for the majority.",
+          "Concentrated share ownership guarantees economic growth."
+        ],
+        "correct": 2,
+        "explanation": "The passage says a booming market 'can coexist with stagnant wages, rising joblessness,' so the key follows. The 'useless' option is too extreme; the passage critiques misreading, not the index entirely. The 'wages always fall' option overstates 'can coexist' into an always-relationship. The 'guarantees growth' option is unstated and contrary to the passage's concern."
+      },
+      {
+        "paper": "csat",
+        "section": "Reading Comprehension",
+        "topic": "Ethics",
+        "type": "mcq",
+        "q": "Passage: We tend to admire people who follow rules and condemn those who break them. Yet history is full of moments when breaking an unjust rule was the more ethical act. Obedience is a virtue only when the thing obeyed is itself just; otherwise it becomes a way of escaping personal responsibility by pointing to orders. The moral worth of an action lies not in whether a rule was followed, but in the judgement the person exercised about whether that rule deserved to be followed.\n\nQ. Which statement best reflects the author's view?",
+        "options": [
+          "All rules should be broken whenever convenient.",
+          "Following rules is always the safest ethical choice.",
+          "Personal judgement has no place in moral decisions.",
+          "Obedience to rules is morally valuable only when the rules themselves are just."
+        ],
+        "correct": 3,
+        "explanation": "The author states 'obedience is a virtue only when the thing obeyed is itself just,' giving the key. The 'broken whenever convenient' option is far more extreme than the passage, which speaks of unjust rules specifically. The 'always the safest choice' and 'no place for judgement' options are directly contradicted, since the author elevates personal judgement over rule-following."
+      },
+      {
+        "paper": "csat",
+        "section": "Reading Comprehension",
+        "topic": "Science",
+        "type": "mcq",
+        "q": "Passage: A scientific theory earns trust not by being proven true forever, but by surviving repeated attempts to prove it false. Each failed attempt to refute a theory strengthens our confidence in it, yet leaves open the possibility that some future test will overturn it. This is why scientists speak of theories as the best current explanation rather than final truth. The willingness to be wrong is not a weakness of science but the very mechanism that allows it to correct itself over time.\n\nQ. What can be concluded from the passage?",
+        "options": [
+          "A theory's credibility grows from withstanding attempts to disprove it, while remaining open to revision.",
+          "Scientific theories are proven true once and never change.",
+          "Science avoids testing its theories to protect them.",
+          "A theory that has never been tested is the strongest kind."
+        ],
+        "correct": 0,
+        "explanation": "The passage says trust comes from 'surviving repeated attempts to prove it false' while leaving open the possibility of being overturned, so the key is correct. The 'never change' option contradicts 'rather than final truth.' The 'avoids testing' option reverses the passage. The 'never tested is strongest' option is the opposite of the testing-based credibility described."
+      },
+      {
+        "paper": "csat",
+        "section": "Reading Comprehension",
+        "topic": "Society",
+        "type": "mcq",
+        "q": "Passage: Cities promise anonymity, and for many that is their attraction. You can reinvent yourself among strangers who carry no memory of who you used to be. But anonymity has a price. The same crowd that frees you from judgement also frees others from any sense of obligation toward you. In a village, a person who collapses on the road is known; in a vast city, they are simply one more body that others step around. The freedom of the city and its indifference are two faces of the same coin.\n\nQ. Which one of the following best captures the main idea of the passage?",
+        "options": [
+          "Villages are always kinder than cities.",
+          "Urban anonymity offers freedom and indifference as inseparable consequences of the same condition.",
+          "People in cities are inherently cruel.",
+          "Anonymity has no drawbacks for city dwellers."
+        ],
+        "correct": 1,
+        "explanation": "The closing line calls freedom and indifference 'two faces of the same coin,' making the key correct. The 'villages always kinder' option overgeneralises beyond the single example. The 'inherently cruel' option attributes cruelty of character, but the passage speaks of structural indifference. The 'no drawbacks' option contradicts the stated 'price' of anonymity."
+      },
+      {
+        "paper": "csat",
+        "section": "Reading Comprehension",
+        "topic": "Governance",
+        "type": "mcq",
+        "q": "Passage: Transparency laws are designed to let citizens see how decisions are made, on the assumption that visibility breeds honesty. But officials who know every record may be requested can simply stop creating records. Verbal instructions replace written orders, meetings go undocumented, and the trail that transparency was meant to expose quietly disappears. A right to information is only as strong as the information that actually exists. Without a parallel duty to record decisions properly, transparency can hollow out the very thing it seeks to reveal.\n\nQ. Which one of the following is an assumption underlying the author's argument?",
+        "options": [
+          "Citizens never misuse transparency laws.",
+          "Verbal instructions are always corrupt.",
+          "Meaningful transparency depends on decisions being documented in the first place.",
+          "Officials are incapable of honesty under any law."
+        ],
+        "correct": 2,
+        "explanation": "The argument that transparency 'is only as strong as the information that actually exists' rests on the assumption that documentation must exist, giving the key. The 'never misuse' and 'incapable of honesty' options are unrelated extremes. The 'always corrupt' option overstates; the passage notes verbal instructions evade trails, not that they are inherently corrupt."
+      },
+      {
+        "paper": "csat",
+        "section": "Reading Comprehension",
+        "topic": "Economy",
+        "type": "mcq",
+        "q": "Passage: Subsidies meant to help the poor often leak to those who need them least. A cheap fuel intended for a struggling household is just as cheap for a wealthy one, and the wealthy typically consume more of it. Universal price subsidies therefore spend the largest share of public money on the people with the largest capacity to pay. Targeted transfers, though harder to administer and more open to errors of exclusion, at least direct support toward those for whom it was designed.\n\nQ. What does the passage imply about universal price subsidies?",
+        "options": [
+          "They are the fairest way to assist the poor.",
+          "They are cheaper to administer than targeted transfers but reach the poor better.",
+          "They never reach poor households at all.",
+          "They often deliver the greatest benefit to wealthier consumers."
+        ],
+        "correct": 3,
+        "explanation": "The passage states the wealthy 'consume more' and thus universal subsidies spend most money on 'people with the largest capacity to pay,' so the key is correct. The 'fairest' option is contradicted by the leakage argument. The 'cheaper to administer and reach poor better' option conflates ideas; admin ease is not claimed to improve targeting. The 'never reach' option is too absolute."
+      },
+      {
+        "paper": "csat",
+        "section": "Reading Comprehension",
+        "topic": "Technology",
+        "type": "mcq",
+        "q": "Passage: Recommendation algorithms learn what holds our attention and feed us more of it. Over time, this narrows what we see rather than broadening it, because the content most likely to keep us engaged is often that which confirms what we already believe. The result is not a marketplace of ideas but a hall of mirrors, where each user is shown a reflection of their own preferences. The technology is not malicious; it is simply optimising for engagement, indifferent to whether that engagement leaves us better informed.\n\nQ. Which one of the following is the most logical inference from the passage?",
+        "options": [
+          "Optimising for engagement can unintentionally narrow the range of views a person encounters.",
+          "Recommendation algorithms are deliberately designed to misinform users.",
+          "Users always seek out content that challenges their beliefs.",
+          "Algorithms make people more broadly informed over time."
+        ],
+        "correct": 0,
+        "explanation": "The passage says engagement-optimisation 'narrows what we see' and is 'indifferent to whether that engagement leaves us better informed,' so the key follows. The 'deliberately designed to misinform' option is contradicted by 'not malicious.' The 'seek out challenging content' option reverses the confirmation tendency. The 'more broadly informed' option is the opposite of 'narrows what we see.'"
+      },
+      {
+        "paper": "csat",
+        "section": "Reading Comprehension",
+        "topic": "Environment",
+        "type": "mcq",
+        "q": "Passage: Water scarcity is often described as a problem of supply, prompting calls for more dams and deeper wells. But in many regions the deeper trouble is how water is used once it arrives. Crops unsuited to dry climates are grown because the water to sustain them is free or heavily subsidised, while leaking pipes lose a large share before it reaches any tap. Adding supply to a system that wastes what it already has is like pouring water into a bucket riddled with holes.\n\nQ. Which one of the following best reflects the author's view?",
+        "options": [
+          "Building more dams is the only solution to water scarcity.",
+          "Tackling wasteful use matters as much as, if not more than, increasing supply.",
+          "Water scarcity is entirely a natural phenomenon beyond human control.",
+          "Subsidised water always benefits the poorest farmers."
+        ],
+        "correct": 1,
+        "explanation": "The author argues the 'deeper trouble is how water is used' and likens adding supply to filling a leaky bucket, supporting the key. The 'more dams only' option is contradicted. The 'natural phenomenon' option is unstated; the passage stresses human choices. The 'benefits poorest farmers' option is not addressed and contrary to the critique of wasteful subsidies."
+      },
+      {
+        "paper": "csat",
+        "section": "Reading Comprehension",
+        "topic": "Education",
+        "type": "mcq",
+        "q": "Passage: Examinations were introduced to make selection fair, replacing patronage with measurable merit. Over time, however, the test can quietly become the goal itself. Students learn to produce the answers an exam rewards rather than to understand the subject, and teachers narrow their lessons to what will be assessed. The instrument designed to measure learning begins to distort it. When a measure becomes a target, it often ceases to be a good measure, and an exam meant to reveal ability ends up shaping students to fit the exam.\n\nQ. What can be concluded from the passage?",
+        "options": [
+          "Examinations should be abolished entirely.",
+          "Patronage is a fairer selection method than examinations.",
+          "An assessment can lose its value when preparing for it replaces genuine learning.",
+          "Teachers deliberately sabotage student understanding."
+        ],
+        "correct": 2,
+        "explanation": "The passage states the exam 'begins to distort' learning and 'ceases to be a good measure' when it becomes the goal, giving the key. The 'abolished entirely' option is too extreme; the author critiques distortion, not exams as such. The 'patronage fairer' option reverses the passage's praise of merit over patronage. The 'deliberately sabotage' option imputes intent not stated."
+      },
+      {
+        "paper": "csat",
+        "section": "Reading Comprehension",
+        "topic": "Ethics",
+        "type": "mcq",
+        "q": "Passage: Charity feels good to give and is easy to praise, but it can also conceal the conditions that make it necessary. When a community relies on donations to survive, attention shifts from why it is poor to how generous the donors are. The giver is celebrated; the structures that produce need remain unexamined. This is not an argument against helping people in distress, but a caution that relief, however kind, is not the same as justice, and may even delay it.\n\nQ. Which one of the following best captures the central idea of the passage?",
+        "options": [
+          "Charity should never be given to anyone.",
+          "Generous donors are responsible for creating poverty.",
+          "Justice and charity are identical responses to need.",
+          "Charity, while valuable, can divert attention from the structural causes of poverty."
+        ],
+        "correct": 3,
+        "explanation": "The passage explicitly says it is 'not an argument against helping' but warns relief 'is not the same as justice, and may even delay it,' so the key is correct. The 'never given' option is contradicted. The 'donors create poverty' option is unstated. The 'identical' option is the very distinction the passage draws."
+      },
+      {
+        "paper": "csat",
+        "section": "Reading Comprehension",
+        "topic": "Governance",
+        "type": "mcq",
+        "q": "Passage: A law that is perfectly drafted but rarely enforced sends a peculiar message. It signals that the state disapproves of an act in principle while tolerating it in practice. Citizens learn to read not the words of the statute but the behaviour of the authorities, and they calibrate their own conduct accordingly. Selective enforcement can be worse than no law at all, because it grants officials the discretion to punish some while ignoring others, turning the law into an instrument of arbitrary power rather than equal treatment.\n\nQ. Which one of the following is the most logical inference from the passage?",
+        "options": [
+          "Inconsistent enforcement of a law can enable arbitrary use of state power.",
+          "Well-drafted laws guarantee fair outcomes.",
+          "Citizens always obey laws regardless of enforcement.",
+          "Removing all laws would ensure equal treatment."
+        ],
+        "correct": 0,
+        "explanation": "The passage says selective enforcement 'grants officials the discretion to punish some while ignoring others,' turning law into 'arbitrary power,' supporting the key. The 'guarantee fair outcomes' option is contradicted by the gap between drafting and enforcement. The 'always obey' option reverses 'calibrate their own conduct.' The 'removing all laws' option is an unstated extreme."
+      },
+      {
+        "paper": "csat",
+        "section": "Reading Comprehension",
+        "topic": "Science",
+        "type": "mcq",
+        "q": "Passage: When a new disease emerges, the first instinct is to demand certainty before acting. But waiting for complete data can itself be a decision, one that allows the threat to spread while evidence accumulates. Public health often requires acting on incomplete information, accepting that some early measures may later prove unnecessary. The cost of overreacting to a false alarm is usually smaller and more reversible than the cost of underreacting to a real one. Caution, in such moments, can be the riskier path.\n\nQ. What does the passage imply about decision-making during an emerging disease?",
+        "options": [
+          "Action should always be delayed until full certainty is achieved.",
+          "Acting on incomplete information may be wiser than waiting for complete data.",
+          "Overreaction is always costlier than underreaction.",
+          "Public health decisions require no evidence at all."
+        ],
+        "correct": 1,
+        "explanation": "The passage argues public health 'often requires acting on incomplete information' and that caution 'can be the riskier path,' so the key is correct. The 'delayed until certainty' option is contradicted. The 'overreaction always costlier' option reverses the stated comparison. The 'no evidence at all' option overstates; the passage assumes evidence accumulates, just not waiting for completeness."
+      },
+      {
+        "paper": "csat",
+        "section": "Reading Comprehension",
+        "topic": "Economy",
+        "type": "mcq",
+        "q": "Passage: Automation is often discussed as if machines simply destroy jobs. The reality is more tangled. Machines tend to take over specific tasks rather than whole occupations, and in doing so they change what a job involves rather than eliminating it outright. A role may shed its routine parts while gaining new responsibilities that require judgement a machine cannot supply. Whether workers benefit depends less on the technology itself than on whether they are given the chance and the training to move toward the tasks that remain valuably human.\n\nQ. Which statement best reflects the author's view?",
+        "options": [
+          "Automation inevitably eliminates most occupations.",
+          "Technology alone determines whether workers prosper.",
+          "Automation reshapes jobs by replacing tasks, and worker outcomes depend on retraining.",
+          "Machines can perform all tasks requiring human judgement."
+        ],
+        "correct": 2,
+        "explanation": "The author says machines 'take over specific tasks rather than whole occupations' and outcomes depend on 'the chance and the training,' giving the key. The 'eliminates most occupations' option overstates the destroy-jobs claim the passage corrects. The 'technology alone' option is contradicted by 'depends less on the technology itself.' The 'all human judgement' option contradicts 'judgement a machine cannot supply.'"
+      },
+      {
+        "paper": "csat",
+        "section": "Reading Comprehension",
+        "topic": "Society",
+        "type": "mcq",
+        "q": "Passage: We often assume that giving people more choices makes them freer and happier. Yet beyond a certain point, an abundance of options can become paralysing. Each additional choice demands comparison, raises the fear of choosing wrongly, and breeds regret about the paths not taken. A person facing dozens of nearly identical products may end up less satisfied than one who simply picked from a handful. Freedom, it turns out, is not the same as an unlimited menu; sometimes it lies in having enough good options, not endless ones.\n\nQ. What can be concluded from the passage?",
+        "options": [
+          "More choices always lead to greater happiness.",
+          "People should be given no choices to avoid regret.",
+          "All products in a large selection are identical.",
+          "An excess of options can reduce satisfaction rather than increase it."
+        ],
+        "correct": 3,
+        "explanation": "The passage says abundance 'can become paralysing' and leave a person 'less satisfied,' supporting the key. The 'always greater happiness' option is directly contradicted. The 'no choices' option is an extreme the passage rejects ('enough good options'). The 'all identical' option misreads 'nearly identical,' which is an example, not a universal claim."
+      },
+      {
+        "paper": "csat",
+        "section": "Reading Comprehension",
+        "topic": "Environment",
+        "type": "mcq",
+        "q": "Passage: Recycling is widely treated as the citizen's main answer to waste, yet it sits last among the choices that actually matter. Reducing what we consume and reusing what we own prevent waste before it forms; recycling only manages what already exists, often imperfectly and at real energy cost. By framing recycling as the responsible act, the burden quietly moves from producers who design disposable goods to consumers who must sort the aftermath. The bin becomes a comfort that lets the deeper problem continue undisturbed.\n\nQ. Which one of the following best reflects the author's view?",
+        "options": [
+          "Recycling is less effective than reducing and reusing, and can shift responsibility onto consumers.",
+          "Recycling is the most effective way to deal with waste.",
+          "Consumers alone are responsible for the waste problem.",
+          "Producers have no role in reducing waste."
+        ],
+        "correct": 0,
+        "explanation": "The author ranks recycling 'last,' calls reduce and reuse better, and notes the burden 'moves from producers... to consumers,' so the key is correct. The 'most effective' option is contradicted. The 'consumers alone' option inverts the passage, which faults producers' designs. The 'producers no role' option contradicts the criticism of producers of 'disposable goods.'"
+      },
+      {
+        "paper": "csat",
+        "section": "Reading Comprehension",
+        "topic": "Governance",
+        "type": "mcq",
+        "q": "Passage: Performance targets can sharpen the focus of a public service, but they also teach institutions to game the number. If hospitals are judged by waiting times, patients may be reclassified or shuffled to make the figures look better without anyone being treated faster. The target captures one slice of reality and turns it into the whole picture, while the parts it does not measure are quietly neglected. What gets measured gets managed; what does not get measured tends to get ignored, however important it may be.\n\nQ. Which one of the following is an assumption in the passage?",
+        "options": [
+          "Public services cannot be improved by any means.",
+          "Institutions will adapt their behaviour to whatever is measured and rewarded.",
+          "Waiting times are unimportant to patients.",
+          "All hospitals routinely falsify their records."
+        ],
+        "correct": 1,
+        "explanation": "The argument rests on the assumption that institutions respond to what is measured, captured in 'what gets measured gets managed,' giving the key. The 'cannot be improved' option is contradicted by 'can sharpen the focus.' The 'unimportant' option misreads the example; waiting times matter, which is why gaming them is harmful. The 'all hospitals falsify' option overgeneralises 'may be reclassified.'"
+      },
+      {
+        "paper": "csat",
+        "section": "Reading Comprehension",
+        "topic": "Technology",
+        "type": "mcq",
+        "q": "Passage: The promise of paperless offices was that digital files would be cheaper, searchable and instantly shareable. Much of that came true, yet paper consumption in many offices actually rose for years afterward. The ease of printing meant people printed more, not less; a document that once required a trip to a copier could now be produced at a desk with a click. Convenience, it turned out, did not reduce demand but multiplied it. A technology that makes an activity easier often increases how much of it we do.\n\nQ. Which one of the following is the most logical inference from the passage?",
+        "options": [
+          "Digital files failed to become searchable or shareable.",
+          "Paperless offices eliminated printing entirely.",
+          "Making an activity easier can increase rather than decrease how often it is done.",
+          "People print less when printing becomes more convenient."
+        ],
+        "correct": 2,
+        "explanation": "The passage concludes that easier activity 'often increases how much of it we do,' supporting the key. The 'failed to become searchable' option is contradicted by 'much of that came true.' The 'eliminated printing' option is false; paper use rose. The 'print less' option reverses the central observation that convenience multiplied demand."
+      },
+      {
+        "paper": "csat",
+        "section": "Reading Comprehension",
+        "topic": "Ethics",
+        "type": "mcq",
+        "q": "Passage: Loyalty is celebrated as a virtue, yet it can quietly corrode judgement. To be loyal is to favour a particular person or group, and that favour can blind us to their faults and to the harm they cause others. The loyal employee who covers for a dishonest colleague, the citizen who excuses a leader's abuses because of shared identity, both mistake a feeling of belonging for a moral compass. Loyalty without limits is not nobility; it is the surrender of conscience to attachment.\n\nQ. Which statement best reflects the author's view?",
+        "options": [
+          "Loyalty is always a noble and unquestionable virtue.",
+          "People should feel no attachment to others.",
+          "Conscience and loyalty are the same thing.",
+          "Unconditional loyalty can override moral judgement and excuse wrongdoing."
+        ],
+        "correct": 3,
+        "explanation": "The author warns 'loyalty without limits... is the surrender of conscience to attachment,' supporting the key. The 'always noble' option is contradicted by the whole critique. The 'no attachment' option is an extreme not implied; the passage faults limitless loyalty, not all attachment. The 'same thing' option is the opposite of the passage, which distinguishes the two."
+      },
+      {
+        "paper": "csat",
+        "section": "Reading Comprehension",
+        "topic": "Economy",
+        "type": "mcq",
+        "q": "Passage: A country rich in a single valuable resource often grows poorer in unexpected ways. The wealth from oil or minerals can flood in so easily that other industries wither, unable to compete for workers and investment. Currencies strengthen, exports of everything else become costlier abroad, and the economy grows lopsided and fragile. When the resource price eventually falls, there is little else to fall back on. Abundance, paradoxically, can leave a nation more exposed than scarcity would have.\n\nQ. What does the passage imply about resource-rich economies?",
+        "options": [
+          "Dependence on one resource can weaken other industries and increase vulnerability.",
+          "A single valuable resource always guarantees lasting prosperity.",
+          "Falling resource prices benefit such economies.",
+          "Resource-poor countries can never develop."
+        ],
+        "correct": 0,
+        "explanation": "The passage describes other industries withering and the economy growing 'lopsided and fragile,' leaving the nation 'more exposed,' so the key is correct. The 'guarantees prosperity' option is contradicted by the paradox. The 'falling prices benefit' option reverses 'little else to fall back on.' The 'never develop' option is unstated and contrary to the implied contrast with scarcity."
+      },
+      {
+        "paper": "csat",
+        "section": "Reading Comprehension",
+        "topic": "Society",
+        "type": "mcq",
+        "q": "Passage: Nostalgia paints the past in warm, flattering colours. We remember the songs and the gatherings, not the diseases that killed children or the rigid hierarchies that confined people to their place at birth. This selective memory is comforting, but it can be politically dangerous when it fuels demands to return to a golden age that never quite existed. The remembered past is an edited version, and policies built on that edited memory risk recreating the hardships the editing left out.\n\nQ. Which one of the following best captures the central idea of the passage?",
+        "options": [
+          "The past was genuinely better than the present in every way.",
+          "Idealised memories of the past are selective and can mislead present-day choices.",
+          "Remembering the past serves no useful purpose.",
+          "Modern societies have eliminated all hierarchies."
+        ],
+        "correct": 1,
+        "explanation": "The passage calls the remembered past 'an edited version' that can be 'politically dangerous' when guiding policy, supporting the key. The 'better in every way' option is exactly the illusion the passage critiques. The 'no useful purpose' option is too sweeping; the passage critiques selective memory, not all memory. The 'eliminated all hierarchies' option is unstated."
+      },
+      {
+        "paper": "csat",
+        "section": "Reading Comprehension",
+        "topic": "Science",
+        "type": "mcq",
+        "q": "Passage: Correlation tempts us toward stories of cause. When two things rise together, the mind reaches for a link, and often invents one. Ice cream sales and drowning deaths climb in the same months, yet neither causes the other; both follow the heat of summer. Many confident claims about what causes what are really observations of things that happen to move together, with a hidden third factor pulling the strings. Mistaking company for causation is among the most common and costly errors in reasoning.\n\nQ. What can be concluded from the passage?",
+        "options": [
+          "Two variables that rise together must cause each other.",
+          "Ice cream consumption causes drowning.",
+          "Variables can move together because of a shared underlying factor rather than a direct causal link.",
+          "Correlation can never coexist with genuine causation."
+        ],
+        "correct": 2,
+        "explanation": "The passage explains that ice cream and drowning 'both follow the heat of summer,' a 'hidden third factor,' supporting the key. The 'must cause each other' option is the very error warned against. The 'ice cream causes drowning' option is the absurd causal story the passage refutes. The 'never coexist' option overstates; the passage says correlation need not mean causation, not that the two cannot coexist."
+      },
+      {
+        "paper": "csat",
+        "section": "Reading Comprehension",
+        "topic": "Governance",
+        "type": "mcq",
+        "q": "Passage: Emergency powers are granted on the understanding that they are temporary, to be surrendered once the crisis passes. History suggests otherwise. Powers seized in a moment of danger tend to outlive the danger, because those who hold them rarely volunteer to give them up, and a frightened public is slow to demand their return. Each emergency leaves behind a residue of expanded authority that becomes the new normal, so that the state grows steadily more powerful one crisis at a time, never quite shrinking back.\n\nQ. Which one of the following is the most logical inference from the passage?",
+        "options": [
+          "Emergency powers are always relinquished promptly after a crisis.",
+          "Crises have no effect on the scope of state power.",
+          "The public always demands the immediate return of emergency powers.",
+          "Temporary emergency powers tend to become permanent expansions of state authority."
+        ],
+        "correct": 3,
+        "explanation": "The passage says such powers 'tend to outlive the danger' and leave 'a residue of expanded authority that becomes the new normal,' so the key is correct. The 'relinquished promptly' option is contradicted by 'rarely volunteer to give them up.' The 'no effect' option reverses the central claim. The 'always demands return' option contradicts 'a frightened public is slow to demand their return.'"
+      },
+      {
+        "paper": "csat",
+        "section": "Reading Comprehension",
+        "topic": "Health",
+        "type": "mcq",
+        "q": "Passage: A medicine that works on average may still fail the individual in front of you. Clinical trials report what happens to large groups, smoothing over the variation between one body and another. A drug that helps most people can harm a minority, and an average benefit can hide a wide spread of outcomes. Treating each patient as the statistical average is convenient but imperfect; good medicine reads the trial as a guide to probabilities, not as a guarantee about the particular person being treated.\n\nQ. Which statement best reflects the author's view?",
+        "options": [
+          "Average trial results guide probabilities but do not guarantee outcomes for any individual.",
+          "Clinical trials are useless for treating patients.",
+          "A drug that helps on average helps every patient equally.",
+          "Doctors should ignore clinical trial data entirely."
+        ],
+        "correct": 0,
+        "explanation": "The author says trials should be read 'as a guide to probabilities, not as a guarantee about the particular person,' supporting the key. The 'useless' and 'ignore entirely' options overstate; the passage values trials as guides. The 'helps every patient equally' option is contradicted by 'can harm a minority' and 'wide spread of outcomes.'"
+      },
+      {
+        "paper": "csat",
+        "section": "Reading Comprehension",
+        "topic": "Society",
+        "type": "mcq",
+        "q": "Passage: Trust is often described as something earned slowly and lost quickly, but its deeper value lies in what it spares us. A society with high trust spends less on locks, contracts, audits and the endless verification that suspicion demands. People cooperate on a handshake, strangers extend credit, and energy that would go into guarding against betrayal flows instead into productive work. Where trust collapses, every transaction grows heavier with precaution, and the hidden tax of distrust quietly drags on everything a community tries to achieve.\n\nQ. What can be concluded from the passage?",
+        "options": [
+          "Trust has no measurable effect on economic activity.",
+          "High social trust lowers the costs of verification and enables smoother cooperation.",
+          "Contracts and audits are unnecessary in all societies.",
+          "Distrust improves the efficiency of transactions."
+        ],
+        "correct": 1,
+        "explanation": "The passage states high-trust societies 'spend less on locks, contracts, audits' and energy 'flows instead into productive work,' supporting the key. The 'no measurable effect' option is contradicted by the 'hidden tax of distrust.' The 'unnecessary in all societies' option overstates; the passage says less, not none. The 'distrust improves efficiency' option reverses 'every transaction grows heavier with precaution.'"
+      },
+      {
+        "paper": "csat",
+        "section": "Logical Reasoning & Analytical Ability",
+        "topic": "Blood Relations",
+        "type": "mcq",
+        "q": "Pointing to a photograph, Ravi said, \"She is the daughter of the only son of my grandmother.\" Assuming Ravi's father is that only son, how is the woman in the photograph related to Ravi?",
+        "options": [
+          "His mother",
+          "His aunt",
+          "His sister",
+          "His cousin"
+        ],
+        "correct": 2,
+        "explanation": "The only son of Ravi's grandmother is Ravi's father. The daughter of Ravi's father is Ravi's sister. Hence the woman is Ravi's sister."
+      },
+      {
+        "paper": "csat",
+        "section": "Logical Reasoning & Analytical Ability",
+        "topic": "Blood Relations",
+        "type": "mcq",
+        "q": "A is the brother of B. B is the brother of C. C is the husband of D. E is the father of A. How is D related to E?",
+        "options": [
+          "Daughter",
+          "Sister",
+          "Mother",
+          "Daughter-in-law"
+        ],
+        "correct": 3,
+        "explanation": "E is the father of A. A, B and C are brothers (all sons of E). C is the husband of D, so D is the wife of E's son, i.e. E's daughter-in-law."
+      },
+      {
+        "paper": "csat",
+        "section": "Logical Reasoning & Analytical Ability",
+        "topic": "Blood Relations",
+        "type": "mcq",
+        "q": "Introducing a man, a woman said, \"His mother is the only daughter of my mother.\" How is the woman related to the man?",
+        "options": [
+          "Mother",
+          "Sister",
+          "Aunt",
+          "Grandmother"
+        ],
+        "correct": 0,
+        "explanation": "\"The only daughter of my mother\" - the woman's mother has only one daughter, which is the woman herself. So the man's mother is the woman; she is the man's mother."
+      },
+      {
+        "paper": "csat",
+        "section": "Logical Reasoning & Analytical Ability",
+        "topic": "Direction Sense",
+        "type": "mcq",
+        "q": "A man walks 5 km towards South, then turns left and walks 3 km, then turns left again and walks 5 km, and finally turns right and walks 2 km. In which direction is he now facing, and how far is he from the starting point along the straight line?",
+        "options": [
+          "West; 5 km",
+          "East; 5 km",
+          "East; 3 km",
+          "North; 5 km"
+        ],
+        "correct": 1,
+        "explanation": "Start facing South, walk 5 (now 5 South). Turn left -> East, walk 3 (3 East). Turn left -> North, walk 5 (back to original latitude, 3 East of start). Turn right -> East, walk 2 (now 5 East of start). He faces East and is 3+2 = 5 km East of start."
+      },
+      {
+        "paper": "csat",
+        "section": "Logical Reasoning & Analytical Ability",
+        "topic": "Direction Sense",
+        "type": "mcq",
+        "q": "Starting from his house, Mohan walks 4 km North, then 3 km East, then 4 km South. How far and in which direction is he from his house?",
+        "options": [
+          "5 km North-East",
+          "7 km East",
+          "3 km East",
+          "3 km West"
+        ],
+        "correct": 2,
+        "explanation": "4 km North then 4 km South cancel out, leaving the 3 km East displacement. He is 3 km East of his house."
+      },
+      {
+        "paper": "csat",
+        "section": "Logical Reasoning & Analytical Ability",
+        "topic": "Direction Sense",
+        "type": "mcq",
+        "q": "Two friends start from the same point. A walks 6 km East, then 8 km North. B walks 6 km West, then 8 km North. What is the straight-line distance between A and B at the end?",
+        "options": [
+          "10 km",
+          "14 km",
+          "8 km",
+          "12 km"
+        ],
+        "correct": 3,
+        "explanation": "A ends at (6, 8) and B ends at (-6, 8). Both are at the same height (8 North). Distance = horizontal gap = 6 - (-6) = 12 km."
+      },
+      {
+        "paper": "csat",
+        "section": "Logical Reasoning & Analytical Ability",
+        "topic": "Number Series",
+        "type": "mcq",
+        "q": "Find the next term in the series: 2, 6, 12, 20, 30, ?",
+        "options": [
+          "42",
+          "38",
+          "40",
+          "44"
+        ],
+        "correct": 0,
+        "explanation": "Differences are 4, 6, 8, 10, so the next difference is 12. 30 + 12 = 42. (Also, terms are n(n+1): 1x2, 2x3, 3x4, 4x5, 5x6, 6x7 = 42.)"
+      },
+      {
+        "paper": "csat",
+        "section": "Logical Reasoning & Analytical Ability",
+        "topic": "Number Series",
+        "type": "mcq",
+        "q": "Find the missing term: 3, 7, 15, 31, 63, ?",
+        "options": [
+          "95",
+          "127",
+          "111",
+          "121"
+        ],
+        "correct": 1,
+        "explanation": "Each term is double the previous plus 1: 3x2+1=7, 7x2+1=15, 15x2+1=31, 31x2+1=63, 63x2+1=127."
+      },
+      {
+        "paper": "csat",
+        "section": "Logical Reasoning & Analytical Ability",
+        "topic": "Number Series",
+        "type": "mcq",
+        "q": "Find the odd one out: 4, 9, 16, 25, 35, 49",
+        "options": [
+          "16",
+          "25",
+          "35",
+          "49"
+        ],
+        "correct": 2,
+        "explanation": "The sequence is of perfect squares: 2^2=4, 3^2=9, 4^2=16, 5^2=25, 6^2=36, 7^2=49. The value 35 should be 36; 35 is the odd one out."
+      },
+      {
+        "paper": "csat",
+        "section": "Logical Reasoning & Analytical Ability",
+        "topic": "Letter Series",
+        "type": "mcq",
+        "q": "Find the next term in the series: B, D, G, K, P, ?",
+        "options": [
+          "U",
+          "T",
+          "W",
+          "V"
+        ],
+        "correct": 3,
+        "explanation": "Positions: B(2), D(4), G(7), K(11), P(16). Differences increase 2, 3, 4, 5, so next is +6 -> 16+6 = 22 = V."
+      },
+      {
+        "paper": "csat",
+        "section": "Logical Reasoning & Analytical Ability",
+        "topic": "Coding-Decoding",
+        "type": "mcq",
+        "q": "If in a code MONDAY is written as NPOEBZ, then how is FRIDAY written in that code?",
+        "options": [
+          "GSJEBZ",
+          "GSJEAZ",
+          "GTJEBZ",
+          "GSKEBZ"
+        ],
+        "correct": 0,
+        "explanation": "Each letter is shifted forward by 1: M->N, O->P, N->O, D->E, A->B, Y->Z. Apply to FRIDAY: F->G, R->S, I->J, D->E, A->B, Y->Z = GSJEBZ."
+      },
+      {
+        "paper": "csat",
+        "section": "Logical Reasoning & Analytical Ability",
+        "topic": "Coding-Decoding",
+        "type": "mcq",
+        "q": "In a certain code, FRIEND is written as HUMJTK (each letter shifted by 2, 3, 4, 5, 6, 7 respectively). How is CANDLE written in that code?",
+        "options": [
+          "DCQHQK",
+          "EDRIRL",
+          "ECPHQL",
+          "DEQJQM"
+        ],
+        "correct": 1,
+        "explanation": "Shifts are 2,3,4,5,6,7. Verify FRIEND: F+2=H, R+3=U, I+4=M, E+5=J, N+6=T, D+7=K = HUMJTK. Apply to CANDLE: C+2=E, A+3=D, N+4=R, D+5=I, L+6=R, E+7=L = EDRIRL."
+      },
+      {
+        "paper": "csat",
+        "section": "Logical Reasoning & Analytical Ability",
+        "topic": "Letter-Number Coding",
+        "type": "mcq",
+        "q": "If A = 1, B = 2, C = 3, ... Z = 26, what is the sum of the letter-values of the word 'CAB'?",
+        "options": [
+          "5",
+          "7",
+          "6",
+          "8"
+        ],
+        "correct": 2,
+        "explanation": "C = 3, A = 1, B = 2. Sum = 3 + 1 + 2 = 6."
+      },
+      {
+        "paper": "csat",
+        "section": "Logical Reasoning & Analytical Ability",
+        "topic": "Syllogism",
+        "type": "mcq",
+        "q": "Statements: (1) All pens are pencils. (2) Some pencils are erasers.\nConclusions: (I) Some pens are erasers. (II) Some erasers are pencils.\nWhich conclusion(s) logically follow?",
+        "options": [
+          "Only I follows",
+          "Only II follows",
+          "Both I and II follow",
+          "Neither follows"
+        ],
+        "correct": 1,
+        "explanation": "All pens are pencils, and some pencils are erasers. The erasers that are pencils need not include any pens, so 'some pens are erasers' does not necessarily follow. 'Some pencils are erasers' converts to 'some erasers are pencils' (valid conversion of a particular affirmative). Only II follows."
+      },
+      {
+        "paper": "csat",
+        "section": "Logical Reasoning & Analytical Ability",
+        "topic": "Syllogism",
+        "type": "mcq",
+        "q": "Statements: (1) All cats are animals. (2) All animals are mortal.\nConclusions: (I) All cats are mortal. (II) Some mortals are cats.\nWhich conclusion(s) logically follow?",
+        "options": [
+          "Only I follows",
+          "Only II follows",
+          "Neither follows",
+          "Both I and II follow"
+        ],
+        "correct": 3,
+        "explanation": "All cats are animals and all animals are mortal, so all cats are mortal (I follows). Since all cats are mortal and cats exist, some mortals are cats (II follows). Both follow."
+      },
+      {
+        "paper": "csat",
+        "section": "Logical Reasoning & Analytical Ability",
+        "topic": "Syllogism",
+        "type": "mcq",
+        "q": "Statements: (1) No teacher is rich. (2) Some rich people are wise.\nConclusions: (I) Some wise people are not teachers. (II) No wise person is a teacher.\nWhich conclusion(s) logically follow?",
+        "options": [
+          "Only I follows",
+          "Only II follows",
+          "Both follow",
+          "Neither follows"
+        ],
+        "correct": 0,
+        "explanation": "Some rich are wise; no teacher is rich, so those wise-and-rich people are not teachers. Hence some wise people are not teachers (I follows). But other wise people could be teachers, so II (no wise person is a teacher) does not follow. Only I follows."
+      },
+      {
+        "paper": "csat",
+        "section": "Logical Reasoning & Analytical Ability",
+        "topic": "Statements & Assumptions",
+        "type": "mcq",
+        "q": "Statement: \"Please do not lean out of the moving train.\" - a notice in a railway compartment.\nAssumptions: (I) Leaning out of a moving train is dangerous. (II) Passengers will read and follow the notice.\nWhich assumption(s) is/are implicit?",
+        "options": [
+          "Only I is implicit",
+          "Only II is implicit",
+          "Both I and II are implicit",
+          "Neither is implicit"
+        ],
+        "correct": 2,
+        "explanation": "The notice is issued because leaning out is dangerous (I implicit). A notice is displayed expecting passengers to read and comply (II implicit). Both assumptions are implicit."
+      },
+      {
+        "paper": "csat",
+        "section": "Logical Reasoning & Analytical Ability",
+        "topic": "Seating Arrangement",
+        "type": "mcq",
+        "q": "Five people A, B, C, D and E sit in a row facing North. C sits at the middle (third position). A sits immediately to the left of C. E sits at the extreme right end. B sits to the immediate left of A. Who sits at the extreme left end?",
+        "options": [
+          "A",
+          "D",
+          "C",
+          "B"
+        ],
+        "correct": 3,
+        "explanation": "Positions 1-5. C is at 3. A is immediately left of C, so A at 2. B immediately left of A, so B at 1. E at the extreme right (5). D takes the remaining position 4. Extreme left end is position 1 = B."
+      },
+      {
+        "paper": "csat",
+        "section": "Logical Reasoning & Analytical Ability",
+        "topic": "Arrangement Puzzle",
+        "type": "mcq",
+        "q": "Six books A, B, C, D, E, F are stacked in a pile. C is immediately above D. A is at the bottom. F is immediately above A. There are exactly two books between F and C. B is at the top. From bottom to top, what is the order?",
+        "options": [
+          "A, F, E, D, C, B",
+          "A, F, D, C, E, B",
+          "A, F, E, C, D, B",
+          "A, F, D, E, C, B"
+        ],
+        "correct": 0,
+        "explanation": "A bottom (position 1), F immediately above A (position 2). B at top (position 6). Two books between F and C means C is at position 5 (positions 3 and 4 lie between F at 2 and C at 5). C immediately above D means D is at position 4. Position 3 is left for E. Order bottom to top: A, F, E, D, C, B."
+      },
+      {
+        "paper": "csat",
+        "section": "Logical Reasoning & Analytical Ability",
+        "topic": "Calendar",
+        "type": "mcq",
+        "q": "If 1st January 2024 was a Monday, what day of the week was 1st January 2025? (Note: 2024 is a leap year.)",
+        "options": [
+          "Tuesday",
+          "Wednesday",
+          "Monday",
+          "Sunday"
+        ],
+        "correct": 1,
+        "explanation": "2024 is a leap year with 366 days, giving 2 odd days (366 mod 7 = 2). Monday + 2 days = Wednesday. So 1st Jan 2025 was a Wednesday."
+      },
+      {
+        "paper": "csat",
+        "section": "Logical Reasoning & Analytical Ability",
+        "topic": "Clocks",
+        "type": "mcq",
+        "q": "At what time between 3 o'clock and 4 o'clock will the hour hand and the minute hand of a clock coincide (overlap)?",
+        "options": [
+          "15 minutes past 3",
+          "16 and 8/11 minutes past 3",
+          "16 and 4/11 minutes past 3",
+          "17 minutes past 3"
+        ],
+        "correct": 2,
+        "explanation": "At 3:00 the minute hand is 15 minute-spaces behind the hour hand. The minute hand gains 55/60 of a minute-space per minute relative to the hour hand, and must gain 15 minute-spaces. Time = 15 / (55/60) = 15 x 60/55 = 900/55 = 16 and 4/11 minutes. They coincide at 16 4/11 minutes past 3."
+      },
+      {
+        "paper": "csat",
+        "section": "Logical Reasoning & Analytical Ability",
+        "topic": "Analytical Decision Making",
+        "type": "mcq",
+        "q": "In a class, Ramesh ranks 7th from the top and 26th from the bottom. How many students are there in the class?",
+        "options": [
+          "31",
+          "33",
+          "34",
+          "32"
+        ],
+        "correct": 3,
+        "explanation": "Total students = (rank from top) + (rank from bottom) - 1 = 7 + 26 - 1 = 32."
+      },
+      {
+        "paper": "csat",
+        "section": "Data Interpretation",
+        "topic": "DI-Table",
+        "type": "mcq",
+        "q": "A shop sold the following number of units of a product across a week - Mon: 40, Tue: 55, Wed: 30, Thu: 65, Fri: 50. What was the average number of units sold per day over these five days?",
+        "options": [
+          "48",
+          "46",
+          "50",
+          "52"
+        ],
+        "correct": 0,
+        "explanation": "Total = 40 + 55 + 30 + 65 + 50 = 240. Average = 240 / 5 = 48 units per day."
+      },
+      {
+        "paper": "csat",
+        "section": "Data Interpretation",
+        "topic": "DI-Percentage",
+        "type": "mcq",
+        "q": "A factory produced 800 units in January and 1000 units in February. What is the percentage increase in production from January to February?",
+        "options": [
+          "20%",
+          "25%",
+          "18%",
+          "22%"
+        ],
+        "correct": 1,
+        "explanation": "Increase = 1000 - 800 = 200. Percentage increase = (200 / 800) x 100 = 25%."
+      },
+      {
+        "paper": "csat",
+        "section": "Data Interpretation",
+        "topic": "DI-Table",
+        "type": "mcq",
+        "q": "Marks scored by four students in a test (out of 100) - Asha: 72, Bina: 85, Chitra: 64, Deepa: 79. By how many marks did the highest scorer exceed the lowest scorer?",
+        "options": [
+          "19",
+          "23",
+          "21",
+          "13"
+        ],
+        "correct": 2,
+        "explanation": "Highest = Bina 85, lowest = Chitra 64. Difference = 85 - 64 = 21 marks."
+      },
+      {
+        "paper": "csat",
+        "section": "Data Interpretation",
+        "topic": "DI-Ratio",
+        "type": "mcq",
+        "q": "In a college, the number of students enrolled in three streams is - Science: 360, Commerce: 240, Arts: 120. What is the ratio of Science to Commerce to Arts students in simplest form?",
+        "options": [
+          "6:4:2",
+          "9:6:3",
+          "4:3:1",
+          "3:2:1"
+        ],
+        "correct": 3,
+        "explanation": "360 : 240 : 120, divide each by 120 -> 3 : 2 : 1."
+      },
+      {
+        "paper": "csat",
+        "section": "Data Interpretation",
+        "topic": "DI-Percentage",
+        "type": "mcq",
+        "q": "A company's monthly expenditure is distributed as - Salaries: 45%, Rent: 20%, Utilities: 10%, Marketing: 15%, Miscellaneous: 10%. If the total monthly expenditure is Rs 2,00,000, how much is spent on Marketing?",
+        "options": [
+          "Rs 30,000",
+          "Rs 25,000",
+          "Rs 35,000",
+          "Rs 40,000"
+        ],
+        "correct": 0,
+        "explanation": "Marketing = 15% of 2,00,000 = 0.15 x 200000 = Rs 30,000."
+      },
+      {
+        "paper": "csat",
+        "section": "Data Interpretation",
+        "topic": "DI-Table",
+        "type": "mcq",
+        "q": "Rainfall (in mm) recorded over five months - Jun: 150, Jul: 200, Aug: 180, Sep: 90, Oct: 60. What percentage of the total rainfall fell in July?",
+        "options": [
+          "28.4%",
+          "29.6%",
+          "30.3%",
+          "32.5%"
+        ],
+        "correct": 1,
+        "explanation": "Total = 150 + 200 + 180 + 90 + 60 = 680 mm. July share = (200 / 680) x 100 = 29.41% ~ 29.6% is closest. Using exact total 680: 200/680 = 0.2941, i.e. about 29.4%, nearest given option 29.6%."
+      },
+      {
+        "paper": "csat",
+        "section": "Data Interpretation",
+        "topic": "DI-Table",
+        "type": "mcq",
+        "q": "A car travels the following distances on four days - Day1: 180 km, Day2: 220 km, Day3: 150 km, Day4: 250 km. If petrol costs Rs 100 per litre and the car gives 20 km per litre, what is the total fuel cost for the four days?",
+        "options": [
+          "Rs 3,500",
+          "Rs 4,500",
+          "Rs 4,000",
+          "Rs 5,000"
+        ],
+        "correct": 2,
+        "explanation": "Total distance = 180 + 220 + 150 + 250 = 800 km. Fuel used = 800 / 20 = 40 litres. Cost = 40 x 100 = Rs 4,000."
+      },
+      {
+        "paper": "csat",
+        "section": "Data Interpretation",
+        "topic": "DI-Comparison",
+        "type": "mcq",
+        "q": "Sales of two products over three months - Product A: Jan 50, Feb 70, Mar 90. Product B: Jan 80, Feb 60, Mar 70. Over the three months combined, how many more units of Product B were sold than Product A?",
+        "options": [
+          "10",
+          "20",
+          "30",
+          "0"
+        ],
+        "correct": 3,
+        "explanation": "Product A total = 50 + 70 + 90 = 210. Product B total = 80 + 60 + 70 = 210. Difference = 210 - 210 = 0. They sold the same number; B exceeded A by 0."
+      },
+      {
+        "paper": "csat",
+        "section": "Data Interpretation",
+        "topic": "DI-Percentage",
+        "type": "mcq",
+        "q": "A book originally priced at Rs 500 is first discounted by 20%, then a further 10% is taken off the reduced price. What is the final price?",
+        "options": [
+          "Rs 360",
+          "Rs 350",
+          "Rs 370",
+          "Rs 400"
+        ],
+        "correct": 0,
+        "explanation": "After 20% off: 500 x 0.8 = 400. After a further 10% off: 400 x 0.9 = 360. Final price = Rs 360."
+      },
+      {
+        "paper": "csat",
+        "section": "Data Interpretation",
+        "topic": "DI-Table",
+        "type": "mcq",
+        "q": "Number of books issued by a library on five days - Mon: 35, Tue: 42, Wed: 28, Thu: 50, Fri: 45. On which day were the books issued closest to the daily average, and what was that average?",
+        "options": [
+          "Mon; average 40",
+          "Tue; average 40",
+          "Fri; average 40",
+          "Wed; average 40"
+        ],
+        "correct": 1,
+        "explanation": "Total = 35 + 42 + 28 + 50 + 45 = 200. Average = 200 / 5 = 40. Differences from 40: Mon 5, Tue 2, Wed 12, Thu 10, Fri 5. Tuesday (42) is closest to the average of 40."
+      },
+      {
+        "paper": "csat",
+        "section": "Data Interpretation",
+        "topic": "DI-Ratio",
+        "type": "mcq",
+        "q": "A sum of Rs 9,000 is divided among three people P, Q and R in the ratio 2 : 3 : 4. How much does R receive?",
+        "options": [
+          "Rs 2,000",
+          "Rs 3,000",
+          "Rs 4,000",
+          "Rs 4,500"
+        ],
+        "correct": 2,
+        "explanation": "Total parts = 2 + 3 + 4 = 9. Each part = 9000 / 9 = 1000. R's share = 4 parts = 4 x 1000 = Rs 4,000."
+      },
+      {
+        "paper": "csat",
+        "section": "Data Interpretation",
+        "topic": "DI-Table",
+        "type": "mcq",
+        "q": "A survey of 500 people on preferred drinks gave - Tea: 220, Coffee: 150, Juice: 80, Others: 50. What fraction of the surveyed people preferred Coffee?",
+        "options": [
+          "1/5",
+          "11/25",
+          "1/4",
+          "3/10"
+        ],
+        "correct": 3,
+        "explanation": "Coffee = 150 out of 500. Fraction = 150 / 500 = 3 / 10."
+      },
+      {
+        "paper": "csat",
+        "section": "Data Interpretation",
+        "topic": "DI-Percentage",
+        "type": "mcq",
+        "q": "A student scored the following in five subjects (each out of 100) - English: 68, Maths: 92, Science: 84, History: 56, Geography: 70. What is the student's overall percentage across the five subjects?",
+        "options": [
+          "74%",
+          "72%",
+          "76%",
+          "70%"
+        ],
+        "correct": 0,
+        "explanation": "Total marks = 68 + 92 + 84 + 56 + 70 = 370 out of 500. Percentage = (370 / 500) x 100 = 74%."
+      },
+      {
+        "paper": "csat",
+        "section": "Data Interpretation",
+        "topic": "DI-Comparison",
+        "type": "mcq",
+        "q": "Production of wheat (in tonnes) by a farm over four years - 2020: 400, 2021: 500, 2022: 450, 2023: 600. In which year was the percentage increase over the immediately preceding year the highest?",
+        "options": [
+          "2021",
+          "2023",
+          "2022",
+          "Increase was equal in 2021 and 2023"
+        ],
+        "correct": 1,
+        "explanation": "2021 vs 2020: (500-400)/400 = 25%. 2022 vs 2021: production fell, so no increase. 2023 vs 2022: (600-450)/450 = 150/450 = 33.3%. The highest percentage increase was in 2023 (33.3%)."
+      },
+      {
+        "section": "Basic Numeracy",
+        "topic": "Probability",
+        "q": "12 defective pens are accidentally mixed with 132 good ones. One pen is taken out at random. What is the probability it is a good pen?",
+        "options": [
+          "1/12",
+          "1/11",
+          "11/12",
+          "12/13"
+        ],
+        "correct": 2,
+        "explanation": "Total pens = 12 + 132 = 144. Good pens = 132. Probability = 132/144 = 11/12.",
+        "paper": "csat",
+        "type": "mcq"
+      },
+      {
+        "section": "Basic Numeracy",
+        "topic": "Real Numbers",
+        "q": "96 storybooks and 240 textbooks are stacked so every stack has the same number of books of one kind and is as tall as possible. Each stack has:",
+        "options": [
+          "12 books",
+          "16 books",
+          "24 books",
+          "48 books"
+        ],
+        "correct": 3,
+        "explanation": "The greatest equal stack is HCF(96, 240) = 48 books.",
+        "paper": "csat",
+        "type": "mcq"
+      },
+      {
+        "section": "Basic Numeracy",
+        "topic": "Statistics",
+        "q": "A 'less than' ogive is always:",
+        "options": [
+          "non-decreasing",
+          "non-increasing",
+          "constant",
+          "V-shaped"
+        ],
+        "correct": 0,
+        "explanation": "Cumulative frequencies only build up, so the curve never falls.",
+        "paper": "csat",
+        "type": "mcq"
+      },
+      {
+        "section": "Basic Numeracy",
+        "topic": "Triangles",
+        "q": "A 1.5 m tall person casts a 3 m shadow while a nearby tree casts a 12 m shadow. The tree's height is:",
+        "options": [
+          "8 m",
+          "6 m",
+          "5 m",
+          "9 m"
+        ],
+        "correct": 1,
+        "explanation": "By similar triangles, height/12 = 1.5/3, so height = 6 m.",
+        "paper": "csat",
+        "type": "mcq"
+      },
+      {
+        "section": "Basic Numeracy",
+        "topic": "Surface Areas and Volumes",
+        "q": "A 20 m deep well with diameter 7 m is dug and the earth from digging is evenly spread out to form a platform 22 m by 14 m. Find the height of the platform.",
+        "options": [
+          "3.5 m",
+          "1.5 m",
+          "2.5 m",
+          "2 m"
+        ],
+        "correct": 2,
+        "explanation": "Volume of earth dug out = Volume of cylindrical well = πr²h = (22/7) × (3.5)² × 20 = (22/7) × 12.25 × 20 = 770 m³. Volume of platform = l × b × h = 22 × 14 × h = 308h. 308h = 770 → h = 770 / 308 = 2.5 m.",
+        "paper": "csat",
+        "type": "mcq"
+      },
+      {
+        "section": "Basic Numeracy",
+        "topic": "Polynomials",
+        "q": "A ball thrown up has height h = −5t² + 20t metres after t seconds. It returns to the ground at:",
+        "options": [
+          "t = 2 s",
+          "t = 5 s",
+          "t = 10 s",
+          "t = 4 s"
+        ],
+        "correct": 3,
+        "explanation": "h = 0 gives −5t(t − 4) = 0, so t = 0 (start) or t = 4 s (landing).",
+        "paper": "csat",
+        "type": "mcq"
+      },
+      {
+        "section": "Basic Numeracy",
+        "topic": "Areas Related to Circles",
+        "q": "A bicycle wheel of radius 35 cm makes 5 revolutions. The distance moved (π = 22/7) is:",
+        "options": [
+          "1100 cm",
+          "220 cm",
+          "550 cm",
+          "880 cm"
+        ],
+        "correct": 0,
+        "explanation": "Distance = 5 × 2 × 22/7 × 35 = 5 × 220 = 1100 cm.",
+        "paper": "csat",
+        "type": "mcq"
+      },
+      {
+        "section": "Basic Numeracy",
+        "topic": "Pair of Linear Equations in Two Variables",
+        "q": "A boat goes 12 km downstream and 8 km upstream in the same time pattern; if its speed in still water is 10 km/h, the stream speed (downstream 12, upstream 8) is:",
+        "options": [
+          "1 km/h",
+          "2 km/h",
+          "3 km/h",
+          "4 km/h"
+        ],
+        "correct": 1,
+        "explanation": "Downstream 10 + s = 12 and upstream 10 − s = 8 both give s = 2 km/h.",
+        "paper": "csat",
+        "type": "mcq"
+      },
+      {
+        "section": "Basic Numeracy",
+        "topic": "Arithmetic Progressions",
+        "q": "A child builds a triangle of coins: 1 in the top row, 2 in the next, and so on. To build 10 rows she needs:",
+        "options": [
+          "45 coins",
+          "50 coins",
+          "55 coins",
+          "60 coins"
+        ],
+        "correct": 2,
+        "explanation": "1 + 2 + … + 10 = 10 × 11 ÷ 2 = 55 coins.",
+        "paper": "csat",
+        "type": "mcq"
+      },
+      {
+        "section": "Basic Numeracy",
+        "topic": "Circles",
+        "q": "A chord of length 16 cm is drawn in a circle of radius 10 cm. Find the distance of the chord from the centre of the circle.",
+        "options": [
+          "8 cm",
+          "10 cm",
+          "12 cm",
+          "6 cm"
+        ],
+        "correct": 3,
+        "explanation": "Half of the chord = 8 cm. Using Pythagoras theorem in the right triangle formed by the radius, distance to chord, and half-chord: distance = √(10² − 8²) = √(100 − 64) = √36 = 6 cm.",
+        "paper": "csat",
+        "type": "mcq"
+      },
+      {
+        "section": "Basic Numeracy",
+        "topic": "Circles (Tangents)",
+        "q": "A circle of radius 6 cm has two parallel tangents. The distance between them is:",
+        "options": [
+          "12 cm",
+          "6 cm",
+          "3 cm",
+          "24 cm"
+        ],
+        "correct": 0,
+        "explanation": "Parallel tangents touch the ends of a diameter, so they are a diameter (12 cm) apart.",
+        "paper": "csat",
+        "type": "mcq"
+      },
+      {
+        "section": "Basic Numeracy",
+        "topic": "Number Systems",
+        "q": "A circular garden has radius √7 m. If the radius is increased to 3√7 m, how many times does the area increase?",
+        "options": [
+          "3 times",
+          "9 times",
+          "6 times",
+          "27 times"
+        ],
+        "correct": 1,
+        "explanation": "Area is proportional to radius². The radius becomes 3 times, so the area becomes 3² = 9 times.",
+        "paper": "csat",
+        "type": "mcq"
+      },
+      {
+        "section": "Basic Numeracy",
+        "topic": "Coordinate Geometry",
+        "q": "A delivery van goes from (2, 1) to (2, 9) then to (8, 9). The total path length is:",
+        "options": [
+          "10 units",
+          "12 units",
+          "14 units",
+          "16 units"
+        ],
+        "correct": 2,
+        "explanation": "Vertical leg 8 plus horizontal leg 6 gives 8 + 6 = 14 units.",
+        "paper": "csat",
+        "type": "mcq"
+      },
+      {
+        "section": "Basic Numeracy",
+        "topic": "Areas of Parallelograms and Triangles",
+        "q": "A farmer has a triangular field with sides 50 m, 65 m, and 65 m. He leaves a 10 m wide straight path along the base (50 m) to the opposite vertex. Is it possible to find the exact area lost to the path without knowing the shape of the path?",
+        "options": [
+          "Yes, the area is 500 m²",
+          "Yes, the area is 250 m²",
+          "Yes, the area depends on the height of the triangle",
+          "No, the path's shape must be known"
+        ],
+        "correct": 3,
+        "explanation": "The problem states 'straight path along the base to the opposite vertex' which is ambiguous in width configuration. However, assuming it's a constant width strip, area logic implies we need its geometric definition to calculate the intersection.",
+        "paper": "csat",
+        "type": "mcq"
+      },
+      {
+        "section": "Basic Numeracy",
+        "topic": "Heron's Formula",
+        "q": "A floral design is made from 16 identical triangular tiles and has a total area of 576√6 cm². If polishing costs 50 paise per cm², what is the total polishing cost?",
+        "options": [
+          "₹288√6",
+          "₹576√6",
+          "₹144√6",
+          "₹1152√6"
+        ],
+        "correct": 0,
+        "explanation": "Total area = 576√6 cm². Cost in Rupees = 576√6 × 0.50 = ₹288√6.",
+        "paper": "csat",
+        "type": "mcq"
+      },
+      {
+        "section": "Basic Numeracy",
+        "topic": "Quadrilaterals",
+        "q": "A line segment joins the mid-points of any two sides of a triangle. If the length of this segment is represented by x − 2 and the third side is 3x − 10, find the value of x.",
+        "options": [
+          "8",
+          "6",
+          "4",
+          "10"
+        ],
+        "correct": 1,
+        "explanation": "By the mid-point theorem, the line segment joining the mid-points is half of the third side. So, x − 2 = (3x − 10) / 2 → 2(x − 2) = 3x − 10 → 2x − 4 = 3x − 10 → x = 6.",
+        "paper": "csat",
+        "type": "mcq"
+      },
+      {
+        "section": "Basic Numeracy",
+        "topic": "Linear Equations in Two Variables",
+        "q": "A manufacturing unit produces items where the total cost y consists of a fixed setup expense of ₹5000 plus a raw material expense of ₹45 per item produced (x). Find the number of items produced if total cost is ₹9500.",
+        "options": [
+          "200",
+          "150",
+          "100",
+          "120"
+        ],
+        "correct": 2,
+        "explanation": "The linear equation is y = 45x + 5000. Given total cost y = 9500, substitute to get 9500 = 45x + 5000 → 4500 = 45x → x = 100.",
+        "paper": "csat",
+        "type": "mcq"
+      },
+      {
+        "section": "Basic Numeracy",
+        "topic": "Euclid's Geometry",
+        "q": "A mathematical statement whose truth has been logically established using axioms, definitions, and previously proven statements is called a:",
+        "options": [
+          "Postulate",
+          "Axiom",
+          "Conjecture",
+          "Theorem"
+        ],
+        "correct": 3,
+        "explanation": "A theorem is a mathematical statement that has been proven true using logical arguments based on axioms, definitions, and other established theorems.",
+        "paper": "csat",
+        "type": "mcq"
+      }
+    ]
+  }
+}

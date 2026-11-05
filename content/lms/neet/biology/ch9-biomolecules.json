@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "biology",
+  "chapter": 9,
+  "title": "Biomolecules",
+  "slug": "biomolecules",
+  "subtitle": "Metabolites, the structure of proteins, carbohydrates and nucleic acids, and the nature and action of enzymes",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "leaf",
+  "seo": {
+    "meta_description": "NEET Biology — Biomolecules: primary & secondary metabolites, amino acids, lipids and sugars, the four levels of protein structure, polysaccharides, nucleic acids and DNA base pairing, and enzymes (mechanism, factors, six classes, cofactors), with NEET-level examples and MCQs. Free on GrowQR.",
+    "focus_keyword": "biomolecules NEET",
+    "secondary_keywords": [
+      "primary secondary metabolites NEET",
+      "protein structure levels",
+      "enzyme classification cofactors",
+      "nucleic acid structure NEET",
+      "competitive inhibition malonate succinate"
+    ],
+    "keywords": [
+      "biomolecules NEET",
+      "protein structure NEET",
+      "enzymes classification",
+      "nucleic acids DNA base pairing",
+      "metabolites NCERT"
+    ]
+  },
+  "summary": "<ul><li><strong>Metabolites:</strong> <strong>primary</strong> (amino acids, sugars, nucleotides — direct roles) and <strong>secondary</strong> (alkaloids, rubber, pigments, antibiotics — ecological/human use).</li><li><strong>Building blocks &amp; bonds:</strong> amino acids &rarr; proteins (<strong>peptide bonds</strong>); monosaccharides &rarr; polysaccharides (<strong>glycosidic bonds</strong>); nucleotides &rarr; nucleic acids (<strong>phosphodiester bonds</strong>); lipids (MW &lt; 800, not true macromolecules).</li><li><strong>Protein structure:</strong> primary (sequence) &rarr; secondary (helix/sheet) &rarr; tertiary (3D) &rarr; quaternary (e.g. haemoglobin, 4 subunits). Collagen is the most abundant animal protein.</li><li><strong>Polysaccharides:</strong> starch (helical, stores; blue with iodine), glycogen (animal store), cellulose (structural, no helix).</li><li><strong>Nucleic acids:</strong> purines (A, G) &amp; pyrimidines (C, T/U); DNA double helix — A=T (2 H-bonds), G&equiv;C (3 H-bonds), antiparallel.</li><li><strong>Enzymes:</strong> protein biocatalysts; lower activation energy; affected by temperature, pH, substrate; <strong>6 classes</strong>; holoenzyme = apoenzyme + cofactor.</li></ul>",
+  "faqs": [
+    { "q": "What is the difference between primary and secondary metabolites?", "a": "Primary metabolites such as amino acids, sugars and nucleotides have identifiable, direct roles in normal physiological processes. Secondary metabolites — alkaloids, flavonoids, rubber, essential oils, antibiotics and pigments — have no direct role in basic metabolism but are useful ecologically and to humans." },
+    { "q": "Name the four levels of protein structure with one feature each.", "a": "Primary structure is the linear sequence of amino acids; secondary structure is local folding into an alpha-helix or beta-pleated sheet; tertiary structure is the overall three-dimensional folding of the chain; and quaternary structure is the assembly of two or more polypeptide chains, as in haemoglobin's four subunits." },
+    { "q": "Which bonds join the monomers in proteins, polysaccharides and nucleic acids?", "a": "Amino acids in proteins are joined by peptide bonds; monosaccharides in polysaccharides by glycosidic bonds; and nucleotides in nucleic acids by phosphodiester bonds." },
+    { "q": "What is a holoenzyme, an apoenzyme and a cofactor?", "a": "Many enzymes need a non-protein helper called a cofactor. The complete, catalytically active enzyme (protein + cofactor) is the holoenzyme; its protein part alone is the apoenzyme. Cofactors include metal ions, prosthetic groups and organic coenzymes (often derived from vitamins)." },
+    { "q": "How does competitive inhibition work? Give the classic example.", "a": "A competitive inhibitor resembles the substrate and binds the enzyme's active site, competing with the substrate and lowering the reaction rate; it can be overcome by raising substrate concentration. The classic example is malonate, which competitively inhibits succinic dehydrogenase (whose substrate is succinate)." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Metabolites and the Macromolecules",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Chemical Analysis, Metabolites and the Building Blocks",
+          "concept": "<p>If we grind any living tissue, make an extract and analyse it chemically, we find two kinds of compounds. The <strong>acid-soluble pool</strong> contains small molecules of low molecular weight — amino acids, monosaccharides (sugars), nucleotides and lipids — while the <strong>acid-insoluble fraction</strong> contains the giant <strong>macromolecules</strong>: proteins, nucleic acids and polysaccharides. A frequently tested subtlety is that <strong>lipids</strong>, although they appear in the acid-insoluble fraction, have molecular weights under about 800 and are therefore <em>not</em> true macromolecules; they sediment there only because they form parts of membranes.</p><p>The thousands of small organic compounds in a cell are called <strong>metabolites</strong>, and NCERT divides them into two groups. <strong>Primary metabolites</strong> — amino acids, sugars, nucleotides, fatty acids — have clear, identifiable roles in normal physiology (growth, energy, structure). <strong>Secondary metabolites</strong> — <strong>alkaloids</strong> (morphine, codeine), <strong>flavonoids</strong>, <strong>rubber</strong>, essential oils, <strong>antibiotics</strong>, coloured <strong>pigments</strong> (carotenoids, anthocyanins), gums and spices — have no obvious role in basic metabolism but are of great ecological and human importance. Recognising examples of each category is a guaranteed NEET mark.</p><p>The building blocks themselves are worth knowing. <strong>Amino acids</strong> are organic acids that carry an amino group (–NH₂), a carboxyl group (–COOH) and a variable side chain (R) on the same carbon; twenty of them build all proteins, and at cellular pH they exist as dipolar <strong>zwitterions</strong>. <strong>Lipids</strong> are usually water-insoluble and include fats and oils (glycerol esterified with fatty acids) and phospholipids; fatty acids may be <strong>saturated</strong> (no double bonds) or <strong>unsaturated</strong> (with double bonds).</p><p><strong>Carbohydrates (sugars)</strong> range from simple <strong>monosaccharides</strong> (glucose, fructose, the pentose ribose) through oligosaccharides to long <strong>polysaccharides</strong>. The most abundant biomolecule in the whole living world is in fact a polysaccharide — <strong>cellulose</strong>. These four classes of building blocks — amino acids, sugars, nucleotides and fatty acids — are the monomers from which the cell assembles its macromolecules, the subject of the next topic.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Category</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Examples</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Primary metabolites</td><td style='border:1px solid #dcfce7;padding:6px 8px'>amino acids, sugars, nucleotides</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Secondary metabolites</td><td style='border:1px solid #dcfce7;padding:6px 8px'>alkaloids, rubber, antibiotics, pigments</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Macromolecules</td><td style='border:1px solid #dcfce7;padding:6px 8px'>proteins, nucleic acids, polysaccharides</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Lipids</td><td style='border:1px solid #dcfce7;padding:6px 8px'>MW &lt; 800 — NOT true macromolecules</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Classify each as a primary or secondary metabolite: glucose, morphine, an amino acid, rubber.</p>",
+              "solution": "<p><strong>Glucose</strong> and the <strong>amino acid</strong> are <strong>primary metabolites</strong> (direct physiological roles). <strong>Morphine</strong> (an alkaloid) and <strong>rubber</strong> are <strong>secondary metabolites</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why are lipids found in the acid-insoluble fraction although they are not macromolecules?</p>",
+              "solution": "<p>Their molecular weight is under ~800, so chemically they are <strong>not macromolecules</strong>; they appear in the acid-insoluble fraction only because they are organised into <strong>membranes</strong> that sediment together as cellular fragments.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Which of these is a secondary metabolite?</p>", "options": ["glucose", "an amino acid", "morphine", "a nucleotide"], "correct": 2, "explanation": "Morphine is an alkaloid — a secondary metabolite." },
+            { "q": "<p>Lipids are generally NOT classed as macromolecules because their molecular weight is:</p>", "options": ["over 10,000", "under ~800", "exactly 1000", "variable and huge"], "correct": 1, "explanation": "Lipid MW is under ~800, below the macromolecule range." },
+            { "q": "<p>An amino acid contains which two functional groups on the same carbon?</p>", "options": ["hydroxyl and aldehyde", "amino and carboxyl", "carboxyl and phosphate", "amino and hydroxyl"], "correct": 1, "explanation": "Amino acids bear an amino (–NH₂) and a carboxyl (–COOH) group." },
+            { "q": "<p>The most abundant biomolecule in the living world is:</p>", "options": ["protein", "cellulose", "DNA", "glycogen"], "correct": 1, "explanation": "Cellulose (a polysaccharide) is the most abundant biomolecule." },
+            { "q": "<p>At cellular pH, an amino acid exists mainly as a:</p>", "options": ["cation", "anion", "zwitterion", "neutral non-ionic molecule"], "correct": 2, "explanation": "Amino acids are dipolar zwitterions at cellular pH." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Sort metabolites fast — primary = amino acids/sugars/nucleotides; secondary = alkaloids/rubber/antibiotics/pigments. Remember lipids are NOT macromolecules, and cellulose is the most abundant biomolecule.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Proteins and Polysaccharides",
+          "concept": "<p><strong>Proteins</strong> are the most abundant biomacromolecules and are polymers of amino acids joined by <strong>peptide bonds</strong>. Their roles are vast: they act as <strong>enzymes</strong>, as transporters (the glucose transporter GLUT-4), as <strong>antibodies</strong>, as some hormones and receptors, and as structural materials. The most abundant protein in the whole animal world is <strong>collagen</strong>, while the most abundant protein in the entire biosphere is the photosynthetic enzyme RuBisCO.</p><p>A protein's shape is described at four levels, a classic NEET topic. The <strong>primary structure</strong> is simply the linear sequence of amino acids, with a defined N-terminal and C-terminal end. The <strong>secondary structure</strong> is the regular local folding of that chain into shapes such as the right-handed <strong>alpha-helix</strong> or the <strong>beta-pleated sheet</strong>, held by hydrogen bonds. The <strong>tertiary structure</strong> is the overall three-dimensional folding of the whole chain into a compact shape, essential for biological activity.</p><p>The highest level, the <strong>quaternary structure</strong>, arises only when a functional protein is built from two or more polypeptide chains (subunits) assembled together — the textbook example is <strong>haemoglobin</strong>, made of <strong>four</strong> subunits (two alpha and two beta). Not every protein has a quaternary structure, but identifying haemoglobin as the standard example, and matching each level to its description, is reliably examined.</p><p><strong>Polysaccharides</strong> are long chains of monosaccharides linked by <strong>glycosidic bonds</strong>, and three are key. <strong>Starch</strong> is the storage carbohydrate of plants: it is a helically coiled molecule (amylose plus branched amylopectin) and forms a blue-black colour with iodine because iodine slots into its helix. <strong>Glycogen</strong> is the more highly branched storage carbohydrate of animals. <strong>Cellulose</strong> is a structural polysaccharide of plant cell walls; it has <em>no</em> helix and no iodine colour because it is made of straight chains of β-glucose. Chitin (in fungal walls and arthropod exoskeletons) is a nitrogen-containing structural polysaccharide. Remembering 'starch = helix + iodine-blue, cellulose = straight + structural, glycogen = animal store' covers the common questions.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Protein level</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Description</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Primary</td><td style='border:1px solid #dcfce7;padding:6px 8px'>linear amino-acid sequence</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Secondary</td><td style='border:1px solid #dcfce7;padding:6px 8px'>alpha-helix / beta-sheet (H-bonds)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Tertiary</td><td style='border:1px solid #dcfce7;padding:6px 8px'>overall 3-D folding</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Quaternary</td><td style='border:1px solid #dcfce7;padding:6px 8px'>&ge;2 subunits (e.g. haemoglobin = 4)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Haemoglobin is made of four polypeptide chains. Which level of protein structure does this represent?</p>",
+              "solution": "<p>The assembly of multiple polypeptide chains into one functional molecule is the <strong>quaternary structure</strong> — haemoglobin's four subunits are the classic example.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why does starch give a blue colour with iodine while cellulose does not?</p>",
+              "solution": "<p>Starch is <strong>helically coiled</strong>, and iodine fits inside the helix to give the blue-black colour. Cellulose consists of <strong>straight, unbranched chains</strong> with no helix, so iodine cannot lodge in it and no colour develops.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Amino acids in a protein are joined by:</p>", "options": ["glycosidic bonds", "peptide bonds", "phosphodiester bonds", "hydrogen bonds"], "correct": 1, "explanation": "Peptide bonds link amino acids." },
+            { "q": "<p>The most abundant protein in the animal world is:</p>", "options": ["haemoglobin", "collagen", "insulin", "RuBisCO"], "correct": 1, "explanation": "Collagen is the most abundant animal protein." },
+            { "q": "<p>Quaternary structure is best illustrated by:</p>", "options": ["a single helix", "haemoglobin", "amylose", "a dipeptide"], "correct": 1, "explanation": "Haemoglobin (4 subunits) shows quaternary structure." },
+            { "q": "<p>The storage polysaccharide of animals is:</p>", "options": ["starch", "cellulose", "glycogen", "chitin"], "correct": 2, "explanation": "Glycogen is the animal storage polysaccharide." },
+            { "q": "<p>Cellulose differs from starch in that it:</p>", "options": ["is helical", "gives blue with iodine", "has no helix and is structural", "stores energy"], "correct": 2, "explanation": "Cellulose is straight-chained and structural; it gives no iodine colour." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Protein levels: primary (sequence) &rarr; secondary (helix/sheet) &rarr; tertiary (3D) &rarr; quaternary (haemoglobin = 4). Polysaccharides: starch (helix, iodine-blue), glycogen (animal), cellulose (structural, no helix).</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Nucleic Acids and Enzymes",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Nucleic Acids and the Bonds in Biomolecules",
+          "concept": "<p><strong>Nucleic acids</strong> — DNA and RNA — are the macromolecules that store and transmit genetic information. They are polymers of <strong>nucleotides</strong>, and each nucleotide has three parts: a <strong>nitrogenous base</strong>, a <strong>pentose sugar</strong> (deoxyribose in DNA, ribose in RNA) and a <strong>phosphate</strong> group. A base joined only to the sugar (no phosphate) is a <strong>nucleoside</strong>. The nucleotides are linked into a chain by <strong>phosphodiester bonds</strong> between the phosphate of one and the sugar of the next.</p><p>The nitrogenous bases fall into two groups, a guaranteed NEET fact: the double-ringed <strong>purines</strong> are <strong>adenine (A)</strong> and <strong>guanine (G)</strong>, and the single-ringed <strong>pyrimidines</strong> are <strong>cytosine (C)</strong>, <strong>thymine (T)</strong> (found in DNA) and <strong>uracil (U)</strong> (which replaces thymine in RNA). So DNA uses A, G, C, T while RNA uses A, G, C, U.</p><p>The <strong>Watson–Crick double helix</strong> of DNA has two strands that run <strong>antiparallel</strong> (one 5'&rarr;3', the other 3'&rarr;5') and are coiled into a right-handed helix. The strands are held together by <strong>complementary base pairing</strong>: adenine pairs with thymine through <strong>two hydrogen bonds</strong> (A=T) and guanine pairs with cytosine through <strong>three hydrogen bonds</strong> (G&equiv;C). This is why Chargaff's rule holds — the amount of A equals T and G equals C. The B-form helix makes one full turn every <strong>10 base pairs</strong> (pitch 3.4 nm, with 0.34 nm between adjacent base pairs).</p><p>It helps to collect the <strong>bonds of biomolecules</strong> in one place, because NEET often asks which bond joins which monomer. <strong>Peptide bonds</strong> link amino acids in proteins; <strong>glycosidic bonds</strong> link sugars in polysaccharides; <strong>phosphodiester bonds</strong> link nucleotides in nucleic acids; and weaker <strong>hydrogen bonds</strong> stabilise the secondary and higher structures of proteins and hold the two strands of DNA together. Mastering this short list resolves a whole family of questions.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Item</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Purines</td><td style='border:1px solid #dcfce7;padding:6px 8px'>adenine (A), guanine (G)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Pyrimidines</td><td style='border:1px solid #dcfce7;padding:6px 8px'>cytosine (C), thymine (T), uracil (U)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Base pairing</td><td style='border:1px solid #dcfce7;padding:6px 8px'>A=T (2 H-bonds), G&equiv;C (3 H-bonds)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Helix (B-DNA)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>10 bp/turn; 0.34 nm per bp; antiparallel</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>If one DNA strand has the sequence 5'-ATGC-3', what is the sequence of the complementary strand?</p>",
+              "solution": "<p>Pairing A with T and G with C and keeping the strands antiparallel, the complement is <strong>3'-TACG-5'</strong> (i.e. written 5'&rarr;3' it is 5'-GCAT-3').</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Which base pair is held by three hydrogen bonds, and why does that matter?</p>",
+              "solution": "<p>The <strong>guanine&equiv;cytosine (G&equiv;C)</strong> pair has <strong>three</strong> hydrogen bonds (A=T has only two). More G&equiv;C pairs therefore make a DNA molecule more <strong>thermally stable</strong> (harder to denature).</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The purine bases are:</p>", "options": ["cytosine and thymine", "adenine and guanine", "thymine and uracil", "guanine and cytosine"], "correct": 1, "explanation": "Adenine and guanine are the double-ringed purines." },
+            { "q": "<p>In RNA, thymine is replaced by:</p>", "options": ["adenine", "cytosine", "uracil", "guanine"], "correct": 2, "explanation": "RNA uses uracil instead of thymine." },
+            { "q": "<p>The G&equiv;C base pair is held by:</p>", "options": ["one H-bond", "two H-bonds", "three H-bonds", "a peptide bond"], "correct": 2, "explanation": "G pairs with C via three hydrogen bonds." },
+            { "q": "<p>Nucleotides in a nucleic acid are joined by:</p>", "options": ["peptide bonds", "glycosidic bonds", "phosphodiester bonds", "ester bonds only"], "correct": 2, "explanation": "Phosphodiester bonds link nucleotides." },
+            { "q": "<p>In B-form DNA, the number of base pairs per complete turn is about:</p>", "options": ["5", "10", "15", "20"], "correct": 1, "explanation": "B-DNA has ~10 base pairs per turn." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Purines (A, G) double-ring; pyrimidines (C, T, U) single-ring. A=T (2 bonds), G&equiv;C (3 bonds), antiparallel, 10 bp/turn. Bonds: peptide (protein), glycosidic (sugar), phosphodiester (nucleic acid).</p>"
+        },
+        {
+          "number": 4,
+          "title": "Enzymes",
+          "concept": "<p><strong>Enzymes</strong> are biological catalysts that speed up the chemical reactions of life; almost all are <strong>proteins</strong> (a few RNA molecules, called <strong>ribozymes</strong>, are catalytic too). An enzyme works by lowering the <strong>activation energy</strong> needed for a reaction, so the reaction proceeds far faster without the enzyme itself being consumed. The reactant binds to a specific pocket on the enzyme called the <strong>active site</strong>, forming a transient <strong>enzyme–substrate complex</strong> that passes through an unstable <strong>transition state</strong> before products are released.</p><p>Because enzymes are proteins, their activity is sensitive to conditions, and NEET expects the standard graphs. Each enzyme has an <strong>optimum temperature</strong> and an <strong>optimum pH</strong>; above the optimum, high temperature or extreme pH <strong>denatures</strong> the protein and activity falls sharply. As <strong>substrate concentration</strong> rises, the rate increases and then plateaus at a maximum velocity (<strong>V<sub>max</sub></strong>) when all active sites are saturated. Some molecules slow enzymes by <strong>inhibition</strong>: in <strong>competitive inhibition</strong>, an inhibitor that resembles the substrate competes for the active site — the classic example is <strong>malonate</strong>, which competitively inhibits <strong>succinic dehydrogenase</strong> (whose true substrate is succinate).</p><p>Enzymes are grouped by the type of reaction they catalyse into <strong>six classes</strong>, which you should be able to list: <strong>oxidoreductases</strong> (oxidation–reduction), <strong>transferases</strong> (transfer of a group), <strong>hydrolases</strong> (hydrolysis), <strong>lyases</strong> (removal of groups forming double bonds, not by hydrolysis), <strong>isomerases</strong> (interconversion of isomers) and <strong>ligases</strong> (joining two molecules using ATP). A simple way to remember them is the order OTHLIL: Oxidoreductase, Transferase, Hydrolase, Lyase, Isomerase, Ligase.</p><p>Many enzymes are active only when a non-protein helper, a <strong>cofactor</strong>, is attached. The protein part on its own is the <strong>apoenzyme</strong>, and the complete, catalytically active enzyme (apoenzyme + cofactor) is the <strong>holoenzyme</strong>. Cofactors are of three kinds: tightly bound <strong>prosthetic groups</strong> (e.g. haem in peroxidase), loosely bound organic <strong>coenzymes</strong> (often derived from <strong>vitamins</strong>, such as NAD and NADP from niacin), and <strong>metal ions</strong> (e.g. zinc in carbonic anhydrase). The relations 'holoenzyme = apoenzyme + cofactor' and the malonate–succinate example are among the most frequently asked enzyme facts.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.88rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Enzyme class</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Reaction catalysed</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Oxidoreductase</td><td style='border:1px solid #dcfce7;padding:6px 8px'>oxidation–reduction</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Transferase</td><td style='border:1px solid #dcfce7;padding:6px 8px'>transfer of a group</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Hydrolase</td><td style='border:1px solid #dcfce7;padding:6px 8px'>hydrolysis of bonds</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Lyase</td><td style='border:1px solid #dcfce7;padding:6px 8px'>add/remove groups (form double bonds)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Isomerase</td><td style='border:1px solid #dcfce7;padding:6px 8px'>interconvert isomers</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Ligase</td><td style='border:1px solid #dcfce7;padding:6px 8px'>join molecules (uses ATP)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Malonate slows the action of succinic dehydrogenase, and adding more succinate restores the rate. What type of inhibition is this?</p>",
+              "solution": "<p><strong>Competitive inhibition</strong> — malonate resembles the substrate succinate and competes for the active site, so increasing the substrate concentration outcompetes it and restores the rate.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Define holoenzyme and apoenzyme.</p>",
+              "solution": "<p>The <strong>apoenzyme</strong> is the protein part of an enzyme alone (inactive). The <strong>holoenzyme</strong> is the complete, active enzyme — apoenzyme plus its cofactor.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Enzymes speed up reactions by lowering the:</p>", "options": ["temperature", "activation energy", "substrate concentration", "product amount"], "correct": 1, "explanation": "Enzymes lower the activation energy of a reaction." },
+            { "q": "<p>Malonate inhibits succinic dehydrogenase by:</p>", "options": ["non-competitive inhibition", "competitive inhibition", "denaturation", "raising pH"], "correct": 1, "explanation": "Malonate competes with succinate for the active site." },
+            { "q": "<p>Enzymes that join two molecules using ATP are:</p>", "options": ["hydrolases", "lyases", "ligases", "isomerases"], "correct": 2, "explanation": "Ligases join molecules using ATP." },
+            { "q": "<p>The complete, catalytically active enzyme is the:</p>", "options": ["apoenzyme", "holoenzyme", "coenzyme", "substrate"], "correct": 1, "explanation": "Holoenzyme = apoenzyme + cofactor." },
+            { "q": "<p>Coenzymes are often derived from:</p>", "options": ["metals", "vitamins", "lipids", "nucleic acids"], "correct": 1, "explanation": "Many coenzymes (e.g. NAD/NADP) are derived from vitamins." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Remember the six classes (OTHLIL), the malonate–succinate competitive-inhibition example, and 'holoenzyme = apoenzyme + cofactor' (cofactors = prosthetic group / coenzyme / metal ion).</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-biology-ch9-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>Alkaloids, rubber and antibiotics are examples of:</p>", "options": ["primary metabolites", "secondary metabolites", "macromolecules", "vitamins"], "correct": 1, "explanation": "These are secondary metabolites." },
+            { "q": "<p>The bond between two amino acids in a protein is a:</p>", "options": ["glycosidic bond", "peptide bond", "phosphodiester bond", "ester bond"], "correct": 1, "explanation": "Amino acids are linked by peptide bonds." },
+            { "q": "<p>The four-subunit structure of haemoglobin is its ___ structure:</p>", "options": ["primary", "secondary", "tertiary", "quaternary"], "correct": 3, "explanation": "Multiple subunits = quaternary structure." },
+            { "q": "<p>Starch gives a blue colour with iodine because it is:</p>", "options": ["branched only", "helically coiled", "a straight chain", "a protein"], "correct": 1, "explanation": "Iodine fits inside the helical starch molecule." },
+            { "q": "<p>In DNA, adenine pairs with thymine through:</p>", "options": ["one H-bond", "two H-bonds", "three H-bonds", "a peptide bond"], "correct": 1, "explanation": "A=T has two hydrogen bonds." },
+            { "q": "<p>The pentose sugar in RNA is:</p>", "options": ["deoxyribose", "ribose", "glucose", "fructose"], "correct": 1, "explanation": "RNA contains ribose (DNA has deoxyribose)." },
+            { "q": "<p>Which enzyme class catalyses hydrolysis reactions?</p>", "options": ["oxidoreductases", "transferases", "hydrolases", "ligases"], "correct": 2, "explanation": "Hydrolases catalyse hydrolysis." },
+            { "q": "<p>An inactive protein part of an enzyme without its cofactor is the:</p>", "options": ["holoenzyme", "apoenzyme", "coenzyme", "prosthetic group"], "correct": 1, "explanation": "The apoenzyme is the protein part alone." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> A DNA molecule rich in G&equiv;C pairs is more stable to heat.<br><strong>R:</strong> The G&equiv;C pair is held by three hydrogen bonds, compared with two in A=T.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "More hydrogen bonds per pair means greater thermal stability — R explains A." },
+            { "q": "<p><strong>A:</strong> The effect of malonate on succinic dehydrogenase can be reversed by adding more succinate.<br><strong>R:</strong> Malonate is a competitive inhibitor that competes with succinate for the active site.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Because the inhibition is competitive, excess substrate outcompetes the inhibitor — R explains A." },
+            { "q": "<p><strong>A:</strong> Lipids are not regarded as true macromolecules.<br><strong>R:</strong> Their molecular weights are very high, generally above 10,000.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 2, "explanation": "A is true, but R is false — lipid MW is LOW (under ~800), which is why they are not macromolecules." },
+            { "q": "<p><strong>A:</strong> Enzyme activity falls sharply above its optimum temperature.<br><strong>R:</strong> High temperature denatures the enzyme's protein structure.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Denaturation destroys the active site, so activity drops — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

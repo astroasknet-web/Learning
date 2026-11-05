@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "physics",
+  "chapter": 9,
+  "title": "Oscillations and Waves",
+  "slug": "oscillations-and-waves",
+  "subtitle": "Oscillations and Waves for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#f97316",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "Master Oscillations and Waves for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Simple Harmonic Motion",
+      "topics": [
+        {
+          "number": 1,
+          "title": "SHM Equations, Energy and Phase",
+          "concept": "<p><strong>SHM</strong> is periodic motion in which restoring force is proportional to displacement and directed toward equilibrium: $F = -kx$, giving $a = -\\omega^2 x$ where $\\omega = \\sqrt{k/m}$.</p><p><strong>Solution:</strong> $x(t) = A\\sin(\\omega t + \\phi)$, where $A$ = amplitude, $\\omega$ = angular frequency, $\\phi$ = phase constant.</p><p><strong>Key Quantities:</strong></p><table class=\"md-table\"><thead><tr><th>Quantity</th><th>Formula</th></tr></thead><tbody><tr><td>Angular frequency</td><td>$\\omega = 2\\pi/T = 2\\pi f$</td></tr><tr><td>Period</td><td>$T = 2\\pi\\sqrt{m/k}$</td></tr><tr><td>Velocity</td><td>$v(t) = A\\omega\\cos(\\omega t + \\phi)$; $v_{\\max} = A\\omega$</td></tr><tr><td>Acceleration</td><td>$a(t) = -A\\omega^2\\sin(\\omega t + \\phi)$; $a_{\\max} = A\\omega^2$</td></tr><tr><td>$v$ in terms of $x$</td><td>$v = \\omega\\sqrt{A^2 - x^2}$</td></tr></tbody></table><p><strong>Energy in SHM:</strong></p><table class=\"md-table\"><thead><tr><th>Energy</th><th>Formula</th></tr></thead><tbody><tr><td>Kinetic</td><td>$K = \\dfrac{1}{2}m\\omega^2(A^2 - x^2)$</td></tr><tr><td>Potential</td><td>$U = \\dfrac{1}{2}m\\omega^2 x^2 = \\dfrac{1}{2}kx^2$</td></tr><tr><td>Total</td><td>$E = K + U = \\dfrac{1}{2}m\\omega^2 A^2 = \\dfrac{1}{2}kA^2$</td></tr></tbody></table><p>Energy is <strong>constant</strong>; $K$ and $U$ oscillate at twice the SHM frequency.</p><p><strong>Phase relation:</strong> Velocity leads displacement by $\\pi/2$; acceleration leads displacement by $\\pi$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A particle in SHM has amplitude $5$ cm and period $2$ s. Find (a) maximum velocity, (b) maximum acceleration, (c) velocity at $x = 3$ cm.</p>",
+              "solution": "<p>$\\omega = 2\\pi/T = \\pi$ rad/s, $A = 0.05$ m. (a) $v_{\\max} = A\\omega = 0.05\\pi \\approx 0.157$ m/s. (b) $a_{\\max} = A\\omega^2 = 0.05\\pi^2 \\approx 0.493$ m/s². (c) $v = \\omega\\sqrt{A^2-x^2} = \\pi\\sqrt{0.05^2 - 0.03^2} = \\pi\\sqrt{0.0016} = 0.04\\pi \\approx 0.126$ m/s.</p><p><strong>Final Answer:</strong> $v_{\\max} \\approx 0.157$ m/s; $a_{\\max} \\approx 0.493$ m/s²; $v(x=3\\,\\text{cm}) \\approx 0.126$ m/s.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A particle of mass $0.2$ kg executes SHM with amplitude $0.1$ m and frequency $5$ Hz. Find total energy.</p>",
+              "solution": "<p>$\\omega = 2\\pi f = 10\\pi$ rad/s. $$E = \\frac{1}{2}m\\omega^2 A^2 = \\frac{1}{2}(0.2)(10\\pi)^2(0.1)^2$$ $$= 0.1 \\times 100\\pi^2 \\times 0.01 = 0.1\\pi^2 \\approx 0.987 \\text{ J}$$</p><p><strong>Final Answer:</strong> $E \\approx 0.987$ J.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>In SHM, the acceleration is proportional to:</p>",
+              "options": [
+                "Velocity",
+                "Displacement",
+                "Time",
+                "Square of velocity"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The total energy of a particle in SHM:</p>",
+              "options": [
+                "Increases with displacement",
+                "Decreases with displacement",
+                "Constant",
+                "Zero at maxima"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A particle in SHM has period $4$ s. The time to reach half amplitude from mean position:</p>",
+              "options": [
+                "$1/3$ s",
+                "$2/3$ s",
+                "$1$ s",
+                "$4/3$ s"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The ratio of kinetic to potential energy at $x = A/2$ in SHM:</p>",
+              "options": [
+                "$1:1$",
+                "$1:3$",
+                "$3:1$",
+                "$2:1$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Phase difference between displacement and acceleration in SHM:</p>",
+              "options": [
+                "$0$",
+                "$\\pi/2$",
+                "$\\pi$",
+                "$2\\pi$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Pendulums and Spring Systems",
+          "concept": "<p><strong>Simple Pendulum:</strong> Mass $m$ on light inextensible string of length $L$. For small amplitudes: $$T = 2\\pi\\sqrt{L/g}$$ Independent of mass and amplitude (isochronous).</p><p><strong>Physical Pendulum:</strong> Rigid body suspended from pivot at distance $d$ from CM, moment of inertia $I$ about pivot: $$T = 2\\pi\\sqrt{\\frac{I}{mgd}}$$</p><p><strong>Torsional Pendulum:</strong> $T = 2\\pi\\sqrt{I/C}$, where $C$ = torsional constant.</p><p><strong>Spring-Mass System:</strong> $T = 2\\pi\\sqrt{m/k}$.</p><p><strong>Spring Combinations:</strong></p><table class=\"md-table\"><thead><tr><th>Configuration</th><th>Equivalent $k$</th></tr></thead><tbody><tr><td>Series ($k_1, k_2$)</td><td>$k_{\\text{eq}} = \\dfrac{k_1 k_2}{k_1+k_2}$</td></tr><tr><td>Parallel ($k_1, k_2$)</td><td>$k_{\\text{eq}} = k_1 + k_2$</td></tr><tr><td>Spring of constant $k$ cut into $n$ equal parts</td><td>each part has $k' = nk$</td></tr></tbody></table><p><strong>Liquid Column in U-Tube:</strong> $T = 2\\pi\\sqrt{L/(2g)}$, where $L$ = total length of liquid column.</p><p><strong>Pendulum in accelerated frame:</strong> Effective $g$ replaces $g$. E.g., in lift with upward acceleration $a$: $g_{\\text{eff}} = g+a$, period decreases.</p><p><strong>Damped SHM:</strong> $x = A_0 e^{-bt/2m}\\cos(\\omega' t + \\phi)$, $\\omega' = \\sqrt{\\omega_0^2 - (b/2m)^2}$. Energy decays as $e^{-bt/m}$.</p><p><strong>Forced/Resonance:</strong> At driving frequency = natural frequency, amplitude is maximum (sharp peak for low damping).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A simple pendulum has length $1$ m and is taken to the Moon where $g = 1.6$ m/s². Find new period.</p>",
+              "solution": "<p>$$T = 2\\pi\\sqrt{L/g} = 2\\pi\\sqrt{1/1.6} = 2\\pi\\sqrt{0.625} = 2\\pi(0.79) \\approx 4.97 \\text{ s}$$</p><p><strong>Final Answer:</strong> $T \\approx 4.97$ s.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A mass $0.5$ kg is suspended from two springs of $k_1 = 100$ N/m and $k_2 = 200$ N/m connected in parallel. Find the period.</p>",
+              "solution": "<p>$k_{\\text{eq}} = 100 + 200 = 300$ N/m. $$T = 2\\pi\\sqrt{m/k} = 2\\pi\\sqrt{0.5/300} = 2\\pi\\sqrt{1/600} \\approx 0.257 \\text{ s}$$</p><p><strong>Final Answer:</strong> $T \\approx 0.26$ s.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Period of a simple pendulum depends on:</p>",
+              "options": [
+                "Mass",
+                "Length",
+                "Amplitude (large)",
+                "Material"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A pendulum in a lift falling freely has period:</p>",
+              "options": [
+                "Same",
+                "Doubled",
+                "Halved",
+                "Infinite"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A spring of $k$ is cut into $4$ equal parts. Force constant of each:</p>",
+              "options": [
+                "$k/4$",
+                "$k$",
+                "$4k$",
+                "$16k$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The period of a pendulum is $2$ s on Earth. At a place where $g = g/4$:</p>",
+              "options": [
+                "$4$ s",
+                "$1$ s",
+                "$\\sqrt{2}$ s",
+                "$0.5$ s"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>At resonance, the amplitude of forced oscillation is:</p>",
+              "options": [
+                "Minimum",
+                "Zero",
+                "Maximum",
+                "Independent of damping"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Wave Motion",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Wave Equation, Travelling Waves and Superposition",
+          "concept": "<p><strong>Wave</strong> = disturbance propagating through a medium (mechanical waves need a medium; EM waves do not). Two main types:</p><ul><li><strong>Transverse:</strong> Particle motion perpendicular to wave direction (e.g., on a string, EM waves)</li><li><strong>Longitudinal:</strong> Particle motion along wave direction (e.g., sound in fluids)</li></ul><p><strong>Wave Quantities:</strong></p><ul><li>Wavelength $\\lambda$, frequency $f$, period $T = 1/f$</li><li>Wave speed: $v = f\\lambda = \\omega/k$</li><li>Angular frequency $\\omega = 2\\pi f$</li><li>Wave number $k = 2\\pi/\\lambda$</li></ul><p><strong>Travelling wave:</strong> $y(x,t) = A\\sin(\\omega t - kx + \\phi)$ (moving in $+x$).</p><p><strong>Wave equation</strong> (general): $\\dfrac{\\partial^2 y}{\\partial t^2} = v^2\\dfrac{\\partial^2 y}{\\partial x^2}$.</p><p><strong>Wave Speeds:</strong></p><table class=\"md-table\"><thead><tr><th>Medium</th><th>Formula</th></tr></thead><tbody><tr><td>Transverse on string</td><td>$v = \\sqrt{T/\\mu}$, $\\mu$ = mass per unit length</td></tr><tr><td>Longitudinal in solid</td><td>$v = \\sqrt{Y/\\rho}$</td></tr><tr><td>In liquid/gas</td><td>$v = \\sqrt{B/\\rho}$</td></tr><tr><td>Sound in gas (Newton-Laplace)</td><td>$v = \\sqrt{\\gamma P/\\rho} = \\sqrt{\\gamma RT/M}$</td></tr></tbody></table><p>Sound speed depends on temperature: $v \\propto \\sqrt{T}$ (in Kelvin).</p><p><strong>Intensity:</strong> Power per unit area, $I = \\dfrac{1}{2}\\rho v\\omega^2 A^2$.</p><p>For point source: $I \\propto 1/r^2$.</p><p><strong>Sound Level (decibel):</strong> $\\beta = 10\\log_{10}(I/I_0)$ dB, $I_0 = 10^{-12}$ W/m².</p><p><strong>Superposition Principle:</strong> If two waves overlap, resultant displacement = vector sum. Leads to interference, beats, and standing waves.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A string of mass per unit length $0.1$ kg/m is stretched with tension $40$ N. Find speed of transverse wave.</p>",
+              "solution": "<p>$$v = \\sqrt{T/\\mu} = \\sqrt{40/0.1} = \\sqrt{400} = 20 \\text{ m/s}$$</p><p><strong>Final Answer:</strong> $v = 20$ m/s.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>The equation of a wave is $y = 0.05 \\sin(20t - 4x)$ m. Find amplitude, wavelength, frequency, speed.</p>",
+              "solution": "<p>Compare with $y = A\\sin(\\omega t - kx)$:</p><ul><li>$A = 0.05$ m</li><li>$\\omega = 20$ rad/s, so $f = 20/2\\pi \\approx 3.18$ Hz</li><li>$k = 4$ rad/m, so $\\lambda = 2\\pi/4 = \\pi/2 \\approx 1.57$ m</li><li>$v = \\omega/k = 20/4 = 5$ m/s</li></ul><p><strong>Final Answer:</strong> $A = 0.05$ m, $\\lambda \\approx 1.57$ m, $f \\approx 3.18$ Hz, $v = 5$ m/s.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The velocity of sound in air increases with:</p>",
+              "options": [
+                "Pressure",
+                "Density",
+                "Temperature",
+                "Humidity (decreases)"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In a transverse wave, particle motion is:</p>",
+              "options": [
+                "Along wave",
+                "Opposite to wave",
+                "Perpendicular to wave",
+                "At $45°$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Wave speed on string $= \\sqrt{T/\\mu}$. If $T$ doubles, speed becomes:</p>",
+              "options": [
+                "Doubles",
+                "Halves",
+                "$\\sqrt{2}$ times",
+                "$4$ times"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The unit of intensity of sound is:</p>",
+              "options": [
+                "W",
+                "W/m²",
+                "Pa",
+                "dB"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The sound level for $I = 10^{-6}$ W/m² ($I_0 = 10^{-12}$):</p>",
+              "options": [
+                "$6$ dB",
+                "$60$ dB",
+                "$-60$ dB",
+                "$10^6$ dB"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Standing Waves, Beats and Doppler Effect",
+          "concept": "<p><strong>Standing Wave:</strong> Superposition of two identical waves travelling in opposite directions: $$y = 2A\\sin(kx)\\cos(\\omega t)$$ <strong>Nodes</strong> at $kx = n\\pi$ (zero amplitude); <strong>antinodes</strong> at $kx = (2n+1)\\pi/2$ (max). Distance between consecutive nodes (or antinodes) = $\\lambda/2$.</p><p><strong>Vibrating String</strong> (both ends fixed): Allowed wavelengths $\\lambda_n = 2L/n$, frequencies $f_n = nv/(2L)$, $n = 1, 2, 3, \\ldots$ Fundamental: $f_1 = v/(2L)$.</p><p><strong>Air Column:</strong></p><table class=\"md-table\"><thead><tr><th>Configuration</th><th>Fundamental $f_1$</th><th>Harmonics present</th></tr></thead><tbody><tr><td>Closed pipe (one end closed)</td><td>$v/(4L)$</td><td>Only odd: $f_1, 3f_1, 5f_1, \\ldots$</td></tr><tr><td>Open pipe (both ends open)</td><td>$v/(2L)$</td><td>All: $f_1, 2f_1, 3f_1, \\ldots$</td></tr></tbody></table><p><strong>End correction</strong> for resonance tube: $L_{\\text{eff}} = L + 0.6r$ (single end open) or $L + 1.2r$ (both ends open).</p><p><strong>Beats:</strong> Two slightly different frequency waves give resultant whose amplitude varies. Beat frequency: $$f_{\\text{beat}} = |f_1 - f_2|$$ Only audible if difference $\\leq 10$ Hz.</p><p><strong>Doppler Effect</strong> (sound, source frequency $f_0$, speed of sound $v$, source velocity $v_s$ toward observer, observer velocity $v_o$ toward source): $$f' = f_0 \\cdot \\frac{v + v_o}{v - v_s}$$</p><p>Sign convention: velocities are positive toward each other. Examples:</p><ul><li>Source toward stationary observer: $f' = f_0 \\cdot v/(v - v_s)$ — higher frequency</li><li>Observer toward stationary source: $f' = f_0 \\cdot (v + v_o)/v$ — higher frequency</li><li>Both moving apart: $f' = f_0 \\cdot (v - v_o)/(v + v_s)$ — lower frequency</li></ul><p>For light (EM): relativistic Doppler $f' = f_0\\sqrt{(c+v)/(c-v)}$ approaching.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A string of length $1$ m fixed at both ends has linear mass density $10^{-3}$ kg/m and tension $40$ N. Find the fundamental frequency.</p>",
+              "solution": "<p>$v = \\sqrt{T/\\mu} = \\sqrt{40/10^{-3}} = \\sqrt{40000} = 200$ m/s. $$f_1 = v/(2L) = 200/2 = 100 \\text{ Hz}$$</p><p><strong>Final Answer:</strong> $f_1 = 100$ Hz.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A car moves at $20$ m/s toward a stationary observer, sounding a horn of $400$ Hz. Find the frequency heard. Speed of sound $= 340$ m/s.</p>",
+              "solution": "<p>$$f' = f_0 \\cdot \\frac{v}{v - v_s} = 400 \\cdot \\frac{340}{340 - 20} = 400 \\cdot \\frac{340}{320} = 425 \\text{ Hz}$$</p><p><strong>Final Answer:</strong> $f' = 425$ Hz.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Distance between consecutive nodes in standing wave:</p>",
+              "options": [
+                "$\\lambda$",
+                "$\\lambda/2$",
+                "$\\lambda/4$",
+                "$2\\lambda$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Fundamental frequency of closed pipe of length $L$:</p>",
+              "options": [
+                "$v/L$",
+                "$v/(2L)$",
+                "$v/(4L)$",
+                "$2v/L$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two waves of frequencies $200$ Hz and $206$ Hz produce beats of frequency:</p>",
+              "options": [
+                "$206$ Hz",
+                "$200$ Hz",
+                "$6$ Hz",
+                "$403$ Hz"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Doppler effect is observed when:</p>",
+              "options": [
+                "Source approaches observer",
+                "Observer approaches source",
+                "Both move",
+                "All of the above"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A closed pipe and open pipe of same length have fundamental frequency ratio:</p>",
+              "options": [
+                "$1:1$",
+                "$1:2$",
+                "$2:1$",
+                "$1:4$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-phys-oscillations-and-waves-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>A particle in SHM with amplitude $A$ has KE = PE at:</p>",
+              "options": [
+                "$x = A$",
+                "$x = A/\\sqrt{2}$",
+                "$x = A/2$",
+                "$x = 0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The time period of a vertical spring of $k$ with mass $m$ does not depend on:</p>",
+              "options": [
+                "$m$",
+                "$k$",
+                "$g$",
+                "Restoring force"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A wave $y = 2\\sin(4t - 0.1x)$ m. Speed:</p>",
+              "options": [
+                "$4$ m/s",
+                "$0.4$ m/s",
+                "$40$ m/s",
+                "$25$ m/s"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The fundamental frequency of an open pipe is $300$ Hz. If both ends are closed, what is the new fundamental?</p>",
+              "options": [
+                "$150$ Hz",
+                "$300$ Hz (same)",
+                "$600$ Hz",
+                "$75$ Hz"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A tuning fork of frequency $256$ Hz produces $4$ beats with another. The second fork has frequency:</p>",
+              "options": [
+                "$256$ Hz",
+                "$260$ Hz",
+                "$252$ Hz",
+                "Either $252$ or $260$ Hz"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Speed of sound in air at $273$ K is $v_0$. At $546$ K:</p>",
+              "options": [
+                "$v_0$",
+                "$2v_0$",
+                "$\\sqrt{2}v_0$",
+                "$v_0/\\sqrt{2}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two SHMs $y_1 = a\\sin\\omega t$ and $y_2 = a\\cos\\omega t$ superpose. Resultant amplitude:</p>",
+              "options": [
+                "$a$",
+                "$a\\sqrt{2}$",
+                "$2a$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The energy stored in a stretched spring is $E$. To double the energy, extension should be multiplied by:</p>",
+              "options": [
+                "$\\sqrt{2}$",
+                "$2$",
+                "$4$",
+                "$2\\sqrt{2}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A pendulum clock is fast by $5$ s/day. To make it correct, its length should be:</p>",
+              "options": [
+                "Decreased",
+                "Increased",
+                "Doubled",
+                "Halved"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A source of $1000$ Hz moves away from a stationary observer at $34$ m/s. Frequency heard ($v = 340$ m/s):</p>",
+              "options": [
+                "$1000$ Hz",
+                "$909$ Hz",
+                "$1100$ Hz",
+                "$834$ Hz"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>A particle moves in SHM of amplitude $5$ cm with frequency $2$ Hz. Maximum velocity in cm/s (use $\\pi = 3.14$, rounded):</p>",
+              "answer": "63",
+              "explanation": ""
+            },
+            {
+              "q": "<p>A string fixed at both ends has length $0.5$ m, $\\mu = 4 \\times 10^{-3}$ kg/m. Tension is $36$ N. Fundamental frequency in Hz:</p>",
+              "answer": "90",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two whistles emit sounds of frequencies $100$ Hz and $105$ Hz. Number of beats per second:</p>",
+              "answer": "5",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> All harmonic motions are periodic. <strong>Reason (R):</strong> SHM is a special case of periodic motion.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> In a closed organ pipe, only odd harmonics are present. <strong>Reason (R):</strong> The closed end is a displacement node and the open end is an antinode.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": 3,
+  "title": "Classification of Elements and Periodicity",
+  "slug": "classification-of-elements-and-periodicity",
+  "subtitle": "Classification of Elements and Periodicity for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#f59e0b",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "Master Classification of Elements and Periodicity for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Periodic Table and Electronic Configurations",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Historical Development and Modern Periodic Table",
+          "concept": "<p><strong>Historical Development:</strong></p><table class=\"md-table\"><thead><tr><th>Year</th><th>Scientist</th><th>Contribution</th></tr></thead><tbody><tr><td>1817</td><td>Döbereiner</td><td><strong>Triads</strong> — atomic mass of middle element = mean of other two</td></tr><tr><td>1864</td><td>Newlands</td><td><strong>Law of Octaves</strong> — every 8th element similar (failed beyond Ca)</td></tr><tr><td>1869</td><td>Mendeleev</td><td><strong>Periodic Law</strong> — properties are periodic functions of atomic masses</td></tr><tr><td>1913</td><td>Moseley</td><td>Atomic number ($Z$) more fundamental than atomic mass</td></tr></tbody></table><p><strong>Mendeleev's Periodic Law:</strong> Properties of elements are periodic function of their <strong>atomic masses</strong>.</p><p><strong>Modern Periodic Law (Moseley):</strong> Properties of elements are periodic function of their <strong>atomic numbers</strong>.</p><p><strong>Mendeleev's Achievements:</strong></p><ul><li>Predicted properties of undiscovered elements (eka-Al = Ga; eka-Si = Ge; eka-B = Sc)</li><li>Arranged elements based on similarities</li></ul><p><strong>Mendeleev's Defects:</strong></p><ul><li>Position of hydrogen ambiguous</li><li>Anomalous pairs: Ar before K, Co before Ni, Te before I (mass order violated)</li><li>Isotopes had no separate place</li><li>Did not explain lanthanide/actinide series</li></ul><p><strong>Modern Periodic Table:</strong></p><ul><li>$18$ groups (vertical columns)</li><li>$7$ periods (horizontal rows)</li><li>$4$ blocks: $s, p, d, f$</li><li>Total elements known up to $Z = 118$ (Oganesson, Og)</li></ul><p><strong>IUPAC Naming for $Z > 100$:</strong></p><table class=\"md-table\"><thead><tr><th>Digit</th><th>Root</th><th>Symbol</th></tr></thead><tbody><tr><td>0</td><td>nil</td><td>n</td></tr><tr><td>1</td><td>un</td><td>u</td></tr><tr><td>2</td><td>bi</td><td>b</td></tr><tr><td>3</td><td>tri</td><td>t</td></tr><tr><td>4</td><td>quad</td><td>q</td></tr><tr><td>5</td><td>pent</td><td>p</td></tr><tr><td>6</td><td>hex</td><td>h</td></tr><tr><td>7</td><td>sept</td><td>s</td></tr><tr><td>8</td><td>oct</td><td>o</td></tr><tr><td>9</td><td>enn</td><td>e</td></tr></tbody></table><p>Suffix '-ium'. Example: $Z = 119$ = unununium (Uue); $Z = 120$ = unbinilium (Ubn).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Predict IUPAC symbol of element with $Z = 116$.</p>",
+              "solution": "<p>Digits: 1, 1, 6 → un + un + hex + ium = ununhexium (Uuh). (Officially named Livermorium, Lv.)</p><p><strong>Final Answer:</strong> Uuh (Livermorium).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Mendeleev placed Te (atomic mass $128$) before I ($127$). Why?</p>",
+              "solution": "<p>Although Te is heavier, Mendeleev placed it in Group VI (with O, S, Se) based on similar chemical properties, and I in Group VII (halogens). Modern periodic law (based on $Z$) resolves this: Te = 52, I = 53 — natural order.</p><p><strong>Final Answer:</strong> Based on chemical property similarity; modern law (using $Z$) fixed this issue.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Modern periodic law arranges elements by:</p>",
+              "options": [
+                "Atomic mass",
+                "Atomic number",
+                "Density",
+                "Electron count"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of periods in modern periodic table:</p>",
+              "options": [
+                "$6$",
+                "$7$",
+                "$8$",
+                "$9$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Mendeleev's table failed to place:</p>",
+              "options": [
+                "Inert gases properly",
+                "Isotopes",
+                "Hydrogen uniquely",
+                "All of the above"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Eka-silicon predicted by Mendeleev turned out to be:</p>",
+              "options": [
+                "Ga",
+                "Sc",
+                "Ge",
+                "Te"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Newlands' law was called:</p>",
+              "options": [
+                "Triads",
+                "Periodic law",
+                "Octaves",
+                "Octet"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Electronic Configuration, Blocks, Periods and Groups",
+          "concept": "<p><strong>Period number</strong> = principal quantum number ($n$) of outermost shell.</p><p><strong>Periods and Number of Elements:</strong></p><table class=\"md-table\"><thead><tr><th>Period</th><th>$n$</th><th>Elements</th><th>Number</th></tr></thead><tbody><tr><td>1</td><td>$1$</td><td>H, He</td><td>$2$</td></tr><tr><td>2</td><td>$2$</td><td>Li → Ne</td><td>$8$</td></tr><tr><td>3</td><td>$3$</td><td>Na → Ar</td><td>$8$</td></tr><tr><td>4</td><td>$4$</td><td>K → Kr</td><td>$18$</td></tr><tr><td>5</td><td>$5$</td><td>Rb → Xe</td><td>$18$</td></tr><tr><td>6</td><td>$6$</td><td>Cs → Rn</td><td>$32$</td></tr><tr><td>7</td><td>$7$</td><td>Fr → Og</td><td>$32$ (still incomplete in some respects)</td></tr></tbody></table><p><strong>Blocks (based on subshell of last electron entering):</strong></p><table class=\"md-table\"><thead><tr><th>Block</th><th>Last subshell</th><th>Groups</th><th>Properties</th></tr></thead><tbody><tr><td><strong>s-block</strong></td><td>$ns^{1-2}$</td><td>1, 2</td><td>Most reactive metals (alkali, alkaline earth)</td></tr><tr><td><strong>p-block</strong></td><td>$np^{1-6}$</td><td>13–18</td><td>Mixed: metals, non-metals, noble gases</td></tr><tr><td><strong>d-block</strong></td><td>$(n-1)d^{1-10}\\,ns^{0-2}$</td><td>3–12</td><td>Transition metals; variable oxidation states, colored</td></tr><tr><td><strong>f-block</strong></td><td>$(n-2)f^{1-14}$</td><td>3 (sub)</td><td>Lanthanoids ($4f$), actinoids ($5f$)</td></tr></tbody></table><p><strong>Group Determination:</strong></p><ul><li>For $s$-block: group = number of valence electrons (1 or 2)</li><li>For $p$-block: group = $10 + $ number of valence electrons (13 to 18)</li><li>For $d$-block: group = number of $(n-1)d + ns$ electrons (3 to 12)</li></ul><p><strong>Examples:</strong></p><ul><li>Na ($Z = 11$): $[Ne]\\,3s^1$ → period 3, group 1, s-block</li><li>Cl ($Z = 17$): $[Ne]\\,3s^2\\,3p^5$ → period 3, group 17, p-block</li><li>Fe ($Z = 26$): $[Ar]\\,3d^6\\,4s^2$ → period 4, group 8, d-block</li><li>Ce ($Z = 58$): $[Xe]\\,4f^1\\,5d^1\\,6s^2$ → period 6, f-block (lanthanide)</li></ul><p><strong>Metals, Non-metals, and Metalloids:</strong></p><ul><li><strong>Metals:</strong> Left and centre — about $78\\%$ of elements</li><li><strong>Non-metals:</strong> Right (p-block top), e.g., H, C, N, O, halogens, noble gases</li><li><strong>Metalloids:</strong> B, Si, Ge, As, Sb, Te, Po (diagonal line)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find period and group of element with $Z = 33$.</p>",
+              "solution": "<p>Config: $[Ar]\\,3d^{10}\\,4s^2\\,4p^3$. Outermost $n = 4$ → Period 4. Valence electrons in $s+p$ = $2 + 3 = 5$. p-block. Group = $10 + 5 = 15$.</p><p><strong>Final Answer:</strong> Period 4, Group 15 (As — Arsenic).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Identify block, period, group of $Z = 64$.</p>",
+              "solution": "<p>Configuration: $[Xe]\\,4f^7\\,5d^1\\,6s^2$ (Gd, gadolinium). Block: f. Period: 6 (highest $n$). Group: officially Group 3 (f-block placed under Group 3).</p><p><strong>Final Answer:</strong> f-block, Period 6, Group 3 (Gd).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The element with $Z = 17$ belongs to:</p>",
+              "options": [
+                "s-block",
+                "p-block",
+                "d-block",
+                "f-block"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of elements in 6th period:</p>",
+              "options": [
+                "$18$",
+                "$32$",
+                "$8$",
+                "$36$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Configuration $[Ar]\\,3d^5\\,4s^1$ corresponds to:</p>",
+              "options": [
+                "Mn",
+                "Cr",
+                "Fe",
+                "Cu"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Group 18 elements have configuration:</p>",
+              "options": [
+                "$ns^2$",
+                "$ns^2\\,np^5$",
+                "$ns^2\\,np^6$",
+                "$ns^1$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>f-block elements include:</p>",
+              "options": [
+                "Halogens",
+                "Lanthanides and actinides",
+                "Alkali metals",
+                "Noble gases"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Periodic Trends",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Atomic Radius, Ionic Radius, Ionization Enthalpy",
+          "concept": "<p><strong>Effective Nuclear Charge ($Z_{\\text{eff}}$):</strong> $$Z_{\\text{eff}} = Z - \\sigma$$ where $\\sigma$ = screening (shielding) constant calculated by <strong>Slater's rules</strong>.</p><p><strong>Slater's Rules</strong> (for $\\sigma$ on a given electron):</p><ul><li>Other electrons in same group (or higher): $0$</li><li>Each other electron in same $(ns, np)$ group: $0.35$ (but $1s$: $0.30$)</li><li>Each electron in $(n-1)$ shell: $0.85$</li><li>Each electron in $(n-2)$ or deeper: $1.00$</li><li>For $d, f$ electrons: each electron in same group $0.35$; all underlying $= 1.00$</li></ul><p><strong>Atomic Radius:</strong> Half the distance between two bonded atoms.</p><ul><li><strong>Covalent radius</strong> (for non-metals): half of bond length in covalent molecule</li><li><strong>Metallic radius</strong> (for metals): half the distance between two adjacent metal atoms in crystal</li><li><strong>van der Waals radius</strong>: half the distance between two non-bonded atoms</li></ul><p><strong>Trends:</strong></p><ul><li><strong>Down a group:</strong> Atomic radius <strong>increases</strong> (new shell added)</li><li><strong>Across a period (L→R):</strong> Atomic radius <strong>decreases</strong> ($Z_{\\text{eff}}$ increases for same shell)</li></ul><p><strong>Ionic Radius:</strong></p><ul><li><strong>Cations</strong> are smaller than parent atoms (loss of outer shell, reduced repulsions)</li><li><strong>Anions</strong> are larger than parent atoms (added electrons, more repulsion)</li><li>For isoelectronic species (same e⁻): radius decreases as $Z$ increases. e.g., O²⁻ > F⁻ > Na⁺ > Mg²⁺ > Al³⁺</li></ul><p><strong>Ionization Enthalpy ($\\Delta_i H$):</strong> Minimum energy to remove an electron from an isolated gaseous atom. $$M(g) \\to M^+(g) + e^-; \\quad \\Delta_i H_1 > 0$$</p><p><strong>Trends:</strong></p><ul><li><strong>Across period:</strong> Increases (smaller atom, more $Z_{\\text{eff}}$)</li><li><strong>Down group:</strong> Decreases (larger atom)</li></ul><p><strong>Successive IEs:</strong> $\\Delta_i H_1 < \\Delta_i H_2 < \\Delta_i H_3 < \\ldots$</p><p>Big jump occurs when noble gas configuration is reached.</p><p><strong>Anomalies in IE:</strong></p><ul><li>B < Be (filled $2s^2$ extra stable; removing from $2p^1$ easier than $2s^2$)</li><li>O < N ($2p^3$ half-filled extra stable; removing from $2p^4$ easier than $2p^3$)</li><li>Similar: Al < Mg; S < P</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Arrange in increasing order of ionic radius: Mg²⁺, Al³⁺, Na⁺, O²⁻, F⁻.</p>",
+              "solution": "<p>All have $10$ electrons (isoelectronic). Radius decreases as $Z$ increases: $Z$: O²⁻ (8) < F⁻ (9) < Na⁺ (11) < Mg²⁺ (12) < Al³⁺ (13). Order of radii: Al³⁺ < Mg²⁺ < Na⁺ < F⁻ < O²⁻.</p><p><strong>Final Answer:</strong> Al³⁺ < Mg²⁺ < Na⁺ < F⁻ < O²⁻.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is the first ionization enthalpy of N greater than that of O?</p>",
+              "solution": "<p>N: $2p^3$ (half-filled, extra stable). Removing one electron disrupts stable arrangement → requires more energy. O: $2p^4$ — removal of one electron gives stable $2p^3$. Hence, lower IE.</p><p><strong>Final Answer:</strong> N has stable half-filled $2p^3$; harder to remove an electron.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Across a period, atomic radius:</p>",
+              "options": [
+                "Increases",
+                "Decreases",
+                "Unchanged",
+                "Random"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Among Na, Na⁺, K, K⁺:</p>",
+              "options": [
+                "Smallest is K⁺",
+                "Smallest is Na⁺",
+                "Largest is Na",
+                "Largest is Na⁺"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Which has highest first ionization energy?</p>",
+              "options": [
+                "Na",
+                "Mg",
+                "Al",
+                "Si"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Down group 1, ionization enthalpy:</p>",
+              "options": [
+                "Increases",
+                "Decreases",
+                "First decreases then increases",
+                "Random"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Isoelectronic species N³⁻, O²⁻, F⁻, Ne. Radius order:</p>",
+              "options": [
+                "N³⁻ > O²⁻ > F⁻ > Ne",
+                "Ne > F⁻ > O²⁻ > N³⁻",
+                "N³⁻ < O²⁻ < F⁻ < Ne",
+                "All equal"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Electron Gain Enthalpy, Electronegativity, Anomalies",
+          "concept": "<p><strong>Electron Gain Enthalpy ($\\Delta_{eg} H$):</strong> Enthalpy change when an electron is added to a neutral gaseous atom. $$X(g) + e^- \\to X^-(g); \\quad \\Delta_{eg}H$$</p><p><strong>Trends:</strong></p><ul><li><strong>Across period:</strong> Becomes more negative (electron readily accepted by smaller, more electronegative atoms)</li><li><strong>Down group:</strong> Less negative (atom larger; added electron experiences less attraction)</li></ul><p><strong>Highest</strong> electron affinity: <strong>Cl</strong> (more than F because F is small → electron-electron repulsion in compact $2p$ subshell makes F's $\\Delta_{eg}H$ less negative than Cl's).</p><table class=\"md-table\"><thead><tr><th>Halogen</th><th>$\\Delta_{eg}H$ (kJ/mol)</th></tr></thead><tbody><tr><td>F</td><td>$-328$</td></tr><tr><td>Cl</td><td>$-349$</td></tr><tr><td>Br</td><td>$-325$</td></tr><tr><td>I</td><td>$-295$</td></tr></tbody></table><p><strong>Electronegativity (EN):</strong> Tendency of an atom to attract shared electron pair in a covalent bond. Dimensionless.</p><p><strong>Pauling scale:</strong> F = $4.0$ (highest); Cs (or Fr) = $0.7$ (lowest among non-radioactive). H = $2.1$.</p><p><strong>Other scales:</strong> Mulliken (avg of IE and EA), Allred-Rochow.</p><p><strong>Trends in EN:</strong></p><ul><li><strong>Across period:</strong> Increases (smaller atom, higher $Z_{\\text{eff}}$)</li><li><strong>Down group:</strong> Decreases (larger atom)</li></ul><p><strong>Diagonal Relationship:</strong> Diagonally adjacent elements (Li-Mg, Be-Al, B-Si) show similar properties because of similar charge density (charge/size ratio).</p><p><strong>Anomalous Properties of 2nd Period Elements:</strong></p><ul><li>Small size, high EN, no d-orbitals → limit covalency to 4</li><li>Examples: Li (resembles Mg), Be (resembles Al)</li></ul><p><strong>Periodic Trends Summary:</strong></p><table class=\"md-table\"><thead><tr><th>Property</th><th>Across period (L→R)</th><th>Down group</th></tr></thead><tbody><tr><td>Atomic radius</td><td>↓</td><td>↑</td></tr><tr><td>Ionic radius (cation)</td><td>↓</td><td>↑</td></tr><tr><td>IE</td><td>↑</td><td>↓</td></tr><tr><td>Electron gain enthalpy (magnitude)</td><td>More negative</td><td>Less negative</td></tr><tr><td>Electronegativity</td><td>↑</td><td>↓</td></tr><tr><td>Metallic character</td><td>↓</td><td>↑</td></tr><tr><td>Non-metallic character</td><td>↑</td><td>↓</td></tr><tr><td>Oxidising power</td><td>↑</td><td>↓</td></tr><tr><td>Reducing power</td><td>↓</td><td>↑</td></tr></tbody></table>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why is the electron affinity of fluorine less than chlorine?</p>",
+              "solution": "<p>F is very small ($2p$ subshell compact). Added electron experiences significant electron-electron repulsion → less energy released. In Cl ($3p$), the orbital is larger → less repulsion. Hence, Cl has more negative $\\Delta_{eg}H$.</p><p><strong>Final Answer:</strong> Electron-electron repulsion in compact $2p$ of F is the cause.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Arrange in increasing electronegativity: O, F, N, C.</p>",
+              "solution": "<p>Period 2 elements; EN increases left to right: C < N < O < F.</p><p><strong>Final Answer:</strong> C < N < O < F.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The most electronegative element:</p>",
+              "options": [
+                "Cl",
+                "F",
+                "O",
+                "Cs"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Electron gain enthalpy of Cl is more negative than F because:</p>",
+              "options": [
+                "Cl is bigger",
+                "F has compact $2p$, more e-e repulsion",
+                "Cl has higher EN",
+                "F is more electropositive"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Electronegativity scale by Pauling: $F$ value:</p>",
+              "options": [
+                "$2.1$",
+                "$3.0$",
+                "$3.5$",
+                "$4.0$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Across a period, metallic character:</p>",
+              "options": [
+                "Increases",
+                "Decreases",
+                "Same",
+                "Random"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Diagonal relationship is shown by:</p>",
+              "options": [
+                "Li and Na",
+                "Be and Mg",
+                "Li and Mg",
+                "F and Cl"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-chem-classification-of-elements-and-periodicity-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>Total elements in 4th period:</p>",
+              "options": [
+                "$8$",
+                "$18$",
+                "$32$",
+                "$36$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Which is the most electronegative?</p>",
+              "options": [
+                "F",
+                "Cl",
+                "O",
+                "N"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Among Li, Na, K, Cs — highest 1st IE:</p>",
+              "options": [
+                "Li",
+                "Na",
+                "K",
+                "Cs"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Ionization energy of inert gases is:</p>",
+              "options": [
+                "Lowest in period",
+                "Highest in period",
+                "Same as halogens",
+                "Variable"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Element with $Z = 26$ belongs to:</p>",
+              "options": [
+                "s-block",
+                "p-block",
+                "d-block",
+                "f-block"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Which is NOT isoelectronic with Na⁺?</p>",
+              "options": [
+                "F⁻",
+                "Mg²⁺",
+                "Ne",
+                "K⁺"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The IE of Be is greater than B because:</p>",
+              "options": [
+                "Be has higher $Z$",
+                "Be has filled $2s^2$, stable",
+                "B has lower $Z_{\\text{eff}}$",
+                "Be is smaller"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Smallest atomic radius among the following:</p>",
+              "options": [
+                "Na",
+                "Mg",
+                "Al",
+                "Si"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Decreasing order of atomic radius in group 2:</p>",
+              "options": [
+                "Ba > Sr > Ca > Mg > Be",
+                "Be > Mg > Ca > Sr > Ba",
+                "Mg > Ca > Sr > Ba > Be",
+                "Same in all"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The diagonal relationship between Li and Mg arises due to:</p>",
+              "options": [
+                "Same group",
+                "Similar charge/size ratio",
+                "Same EN",
+                "Same configuration"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Group number of element with $Z = 38$:</p>",
+              "answer": "2",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Period number of element with $Z = 19$:</p>",
+              "answer": "4",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of valence electrons in N ($Z = 7$):</p>",
+              "answer": "5",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> The atomic size of noble gases is largest in their respective period. <strong>Reason (R):</strong> They are reported using van der Waals radius (non-bonded radius), which is larger than covalent radius.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> The first ionization energy of nitrogen is greater than that of oxygen. <strong>Reason (R):</strong> Nitrogen has half-filled $2p^3$ which is extra stable.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

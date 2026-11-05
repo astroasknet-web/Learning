@@ -1,0 +1,168 @@
+{
+  "exam": "neet",
+  "subject": "physics",
+  "chapter": 19,
+  "title": "Dual Nature of Radiation & Matter",
+  "slug": "dual-nature-of-radiation-and-matter",
+  "subtitle": "Photoelectric effect, Einstein's equation, photons & de Broglie waves",
+  "level": "NEET (UG)",
+  "color": "#2563eb",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "NEET Physics — Dual Nature of Radiation & Matter: the photoelectric effect and its laws, Einstein's photoelectric equation, work function and stopping potential, the photon, and de Broglie's matter waves, with NEET-level examples and MCQs. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "The Photoelectric Effect",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Photoelectric Effect and Its Laws",
+          "concept": "<p>The <strong>photoelectric effect</strong> is the emission of electrons from a metal surface when light of a high enough frequency shines on it. Discovered through careful experiments, it could not be explained by the wave theory of light and became one of the key clues that light has a particle nature. The emitted electrons are called <strong>photoelectrons</strong>.</p><p>The experiments revealed clear laws. First, emission occurs only if the frequency exceeds a certain minimum, the <strong>threshold frequency</strong> $\\nu_0$ — below it, no electrons are emitted no matter how intense the light. Second, above threshold the <em>number</em> of photoelectrons (and hence the current) is proportional to the <em>intensity</em>, while the maximum <em>kinetic energy</em> of the electrons depends only on the <em>frequency</em>, not the intensity.</p><p>Third, the emission is <strong>instantaneous</strong> — electrons appear within nanoseconds of the light striking, with no time delay even at very low intensity. Each of these facts contradicts the wave model, which predicts that any frequency should eventually eject electrons given enough time and intensity, and that brighter light should give more energetic electrons.</p><p>To measure the electrons' energy, a reverse voltage is applied until the current just stops; this is the <strong>stopping potential</strong> $V_0$, related to the maximum kinetic energy by $eV_0 = K_{max}$. The stopping potential increases with frequency but is independent of intensity — a result that is central to NEET questions and directly demonstrates the particle behaviour of light.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Observation</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Depends on</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Number of photoelectrons</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>intensity</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Max. kinetic energy</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>frequency only</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Threshold frequency</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>the metal</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Stopping potential</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$eV_0 = K_{max}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>In a photoelectric experiment, the light intensity is doubled while frequency stays fixed. What happens to the photoelectric current and the maximum kinetic energy?</p>",
+              "solution": "<p>The current doubles (more photons eject more electrons), but the maximum kinetic energy is unchanged, since it depends only on the frequency.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>The stopping potential for a metal is $1.5\\ \\text{V}$. Find the maximum kinetic energy of the photoelectrons.</p>",
+              "solution": "<p>$K_{max} = eV_0 = (1.6\\times10^{-19})(1.5) = 2.4\\times10^{-19}\\ \\text{J}$, or simply $1.5\\ \\text{eV}$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The photoelectric effect shows that light behaves as:</p>", "options": ["a wave only", "a particle (photons)", "a fluid", "sound"], "correct": 1, "explanation": "It demonstrates the particle nature of light." },
+            { "q": "<p>Below the threshold frequency, the number of photoelectrons emitted is:</p>", "options": ["maximum", "zero", "proportional to intensity", "constant"], "correct": 1, "explanation": "No emission below the threshold frequency." },
+            { "q": "<p>The number of photoelectrons depends on the:</p>", "options": ["frequency", "intensity", "work function only", "stopping potential"], "correct": 1, "explanation": "Number (current) is proportional to intensity." },
+            { "q": "<p>The maximum kinetic energy of photoelectrons depends on the:</p>", "options": ["intensity", "frequency", "current", "area"], "correct": 1, "explanation": "$K_{max}$ depends on frequency only." },
+            { "q": "<p>The stopping potential $V_0$ relates to $K_{max}$ by:</p>", "options": ["$K_{max} = eV_0$", "$K_{max} = V_0/e$", "$K_{max} = e/V_0$", "$K_{max} = V_0$"], "correct": 0, "explanation": "$eV_0 = K_{max}$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Intensity controls the <em>number</em> of photoelectrons; frequency controls their <em>energy</em>. Emission is instantaneous and needs $\\nu > \\nu_0$. Stopping potential measures $K_{max}$ via $eV_0 = K_{max}$.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Einstein's Photoelectric Equation and the Photon",
+          "concept": "<p>Einstein explained the photoelectric effect by proposing that light comes in discrete packets of energy called <strong>photons</strong>, each carrying energy $E = h\\nu$, where $h = 6.63\\times10^{-34}\\ \\text{J s}$ is Planck's constant. A single photon is absorbed by a single electron in an all-or-nothing event, which immediately accounts for the instantaneous emission and the frequency threshold.</p><p>Some minimum energy, the <strong>work function</strong> $\\phi$, is needed just to free an electron from the metal. Any photon energy beyond this appears as the electron's kinetic energy, giving <strong>Einstein's photoelectric equation</strong>: $h\\nu = \\phi + K_{max}$, or $K_{max} = h\\nu - \\phi$. The work function is related to the threshold frequency by $\\phi = h\\nu_0$, so emission occurs only when $h\\nu > \\phi$.</p><p>This single equation explains every observation. The kinetic energy rises linearly with frequency and is independent of intensity; below $\\nu_0$ the photon simply lacks the energy to free an electron; and brighter light means more photons, hence more electrons but not more energetic ones. A graph of $K_{max}$ against $\\nu$ is a straight line of slope $h$ and intercept $-\\phi$ — a classic NEET graph.</p><p>The photon also carries <strong>momentum</strong> $p = \\dfrac{h}{\\lambda} = \\dfrac{h\\nu}{c}$, despite having no rest mass, confirmed by the scattering of X-rays off electrons (the Compton effect). So light shows a genuine <strong>dual nature</strong>: it propagates and interferes like a wave, yet exchanges energy and momentum in particle-like quanta. Which face it shows depends on the experiment — the central idea of this chapter.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Expression</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Photon energy</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$E = h\\nu$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Photoelectric equation</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$K_{max} = h\\nu - \\phi$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Work function</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\phi = h\\nu_0$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Photon momentum</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$p = h/\\lambda$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A metal has work function $2\\ \\text{eV}$. Light of energy $5\\ \\text{eV}$ falls on it. Find the maximum kinetic energy of the photoelectrons.</p>",
+              "solution": "<p>$K_{max} = h\\nu - \\phi = 5 - 2 = 3\\ \\text{eV}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the energy of a photon of wavelength $600\\ \\text{nm}$. (Use $hc = 1240\\ \\text{eV nm}$.)</p>",
+              "solution": "<p>$E = \\dfrac{hc}{\\lambda} = \\dfrac{1240}{600} \\approx 2.07\\ \\text{eV}$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The energy of a photon is:</p>", "options": ["$h/\\nu$", "$h\\nu$", "$\\nu/h$", "$h\\nu^{2}$"], "correct": 1, "explanation": "$E = h\\nu$." },
+            { "q": "<p>Einstein's photoelectric equation is:</p>", "options": ["$K_{max} = h\\nu + \\phi$", "$K_{max} = h\\nu - \\phi$", "$K_{max} = \\phi - h\\nu$", "$K_{max} = h\\nu\\phi$"], "correct": 1, "explanation": "$K_{max} = h\\nu - \\phi$." },
+            { "q": "<p>The work function relates to the threshold frequency by:</p>", "options": ["$\\phi = h/\\nu_0$", "$\\phi = h\\nu_0$", "$\\phi = \\nu_0/h$", "$\\phi = h\\nu_0^{2}$"], "correct": 1, "explanation": "$\\phi = h\\nu_0$." },
+            { "q": "<p>A graph of $K_{max}$ versus frequency has slope equal to:</p>", "options": ["$\\phi$", "$h$", "$e$", "$c$"], "correct": 1, "explanation": "Slope is Planck's constant $h$." },
+            { "q": "<p>The momentum of a photon is:</p>", "options": ["$h\\lambda$", "$h/\\lambda$", "$\\lambda/h$", "zero"], "correct": 1, "explanation": "$p = h/\\lambda$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> $K_{max} = h\\nu - \\phi$ with $\\phi = h\\nu_0$. A $K_{max}$-vs-$\\nu$ graph is a line of slope $h$. Photons carry momentum $p = h/\\lambda$ despite zero rest mass.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Matter Waves",
+      "topics": [
+        {
+          "number": 3,
+          "title": "de Broglie Waves and the Wave Nature of Matter",
+          "concept": "<p>If light waves can behave like particles, de Broglie proposed the converse: particles of matter can behave like waves. Every moving particle has an associated <strong>de Broglie wavelength</strong> $\\lambda = \\dfrac{h}{p} = \\dfrac{h}{mv}$. This bold symmetry completed the idea of <strong>wave–particle duality</strong> and is the conceptual heart of this module.</p><p>The key feature is that the wavelength is <em>inversely</em> proportional to momentum. A fast or heavy particle has a tiny wavelength, while a slow, light particle has a larger one. This is exactly why we never notice the wave nature of everyday objects — a moving cricket ball has a de Broglie wavelength far too small to detect — but electrons, being very light, have measurable wavelengths.</p><p>For a charged particle accelerated through a potential difference $V$, the kinetic energy is $eV = \\tfrac{1}{2}mv^{2}$, which gives a convenient form $\\lambda = \\dfrac{h}{\\sqrt{2meV}}$. For an electron this reduces to the handy NEET shortcut $\\lambda \\approx \\dfrac{12.27}{\\sqrt{V}}\\ \\text{angstrom}$ (with $V$ in volts) — a result worth memorising for quick numericals.</p><p>de Broglie's idea was confirmed by the <strong>Davisson–Germer experiment</strong>, in which a beam of electrons was diffracted by a crystal, producing a pattern just like X-ray diffraction. Since diffraction is a wave phenomenon, this directly proved that electrons have a wave nature. Today, electron microscopes exploit the very short wavelength of fast electrons to resolve detail far finer than any light microscope — a powerful real-world payoff of matter waves.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Expression</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>de Broglie wavelength</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\lambda = \\dfrac{h}{mv} = \\dfrac{h}{p}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Accelerated charge</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\lambda = \\dfrac{h}{\\sqrt{2meV}}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Electron shortcut</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\lambda \\approx \\dfrac{12.27}{\\sqrt{V}}\\ \\text{angstrom}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the de Broglie wavelength of an electron accelerated through $100\\ \\text{V}$.</p>",
+              "solution": "<p>$\\lambda \\approx \\dfrac{12.27}{\\sqrt{V}} = \\dfrac{12.27}{\\sqrt{100}} = \\dfrac{12.27}{10} \\approx 1.23\\ \\text{angstrom}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>If the momentum of a particle is doubled, how does its de Broglie wavelength change?</p>",
+              "solution": "<p>$\\lambda = h/p$, so doubling the momentum halves the wavelength.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The de Broglie wavelength is given by:</p>", "options": ["$h p$", "$h/p$", "$p/h$", "$h/p^{2}$"], "correct": 1, "explanation": "$\\lambda = h/p$." },
+            { "q": "<p>The de Broglie wavelength is ___ to the particle's momentum.</p>", "options": ["directly proportional", "inversely proportional", "unrelated", "equal"], "correct": 1, "explanation": "$\\lambda \\propto 1/p$." },
+            { "q": "<p>The wave nature of matter is not noticeable for large objects because their wavelength is:</p>", "options": ["very large", "extremely small", "negative", "infinite"], "correct": 1, "explanation": "Large momentum gives a negligibly small wavelength." },
+            { "q": "<p>The wave nature of electrons was confirmed by the:</p>", "options": ["photoelectric effect", "Davisson–Germer experiment", "Millikan experiment", "Rutherford experiment"], "correct": 1, "explanation": "Davisson–Germer showed electron diffraction." },
+            { "q": "<p>For an electron accelerated through $V$ volts, $\\lambda \\approx$:</p>", "options": ["$12.27\\sqrt{V}$", "$12.27/\\sqrt{V}$ angstrom", "$12.27 V$", "$\\sqrt{V}/12.27$"], "correct": 1, "explanation": "$\\lambda \\approx 12.27/\\sqrt{V}$ angstrom." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> $\\lambda = h/mv$ — wavelength falls as momentum rises, so only light particles show it. For electrons use $\\lambda \\approx 12.27/\\sqrt{V}$ angstrom. Davisson–Germer confirmed matter waves.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Photon Properties and Wave–Particle Duality",
+          "concept": "<p>It is worth gathering together the properties of the <strong>photon</strong>, the particle of light, because NEET tests them as a set. A photon has energy $E = h\\nu$ and momentum $p = h\\nu/c = h/\\lambda$. It travels at the speed of light $c$ in vacuum and, crucially, has <strong>zero rest mass</strong> — it cannot exist at rest. Its energy and momentum depend only on the frequency (or wavelength) of the light.</p><p>Photons are electrically <strong>neutral</strong>, so they are not deflected by electric or magnetic fields, unlike electrons. In any interaction, total energy and total momentum are conserved. The intensity of a light beam is the number of photons crossing per unit area per unit time multiplied by the energy per photon — so a brighter beam of the same colour simply has more photons, each still of energy $h\\nu$.</p><p>The deep lesson of this chapter is <strong>wave–particle duality</strong>: both light and matter exhibit wave and particle aspects, and which aspect appears depends on the experiment performed. Interference and diffraction reveal the wave side; the photoelectric and Compton effects reveal the particle side. No single experiment shows both at once, a complementarity that is itself examinable.</p><p>This duality marks the boundary of classical physics and the start of quantum ideas, leading on to the structure of the atom in the next chapter. For NEET, the practical skills are computing photon energy and momentum, applying $K_{max} = h\\nu - \\phi$, finding de Broglie wavelengths, and knowing which phenomena demonstrate the wave versus the particle nature — a compact, high-frequency cluster of questions.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Photon property</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Value</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Energy</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$E = h\\nu$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Momentum</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$p = h\\nu/c = h/\\lambda$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Rest mass</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>zero</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Charge</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>neutral (undeflected by fields)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the momentum of a photon of wavelength $500\\ \\text{nm}$. ($h = 6.63\\times10^{-34}\\ \\text{J s}$)</p>",
+              "solution": "<p>$p = \\dfrac{h}{\\lambda} = \\dfrac{6.63\\times10^{-34}}{500\\times10^{-9}} \\approx 1.33\\times10^{-27}\\ \\text{kg m/s}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Which phenomena demonstrate the wave nature of light, and which the particle nature?</p>",
+              "solution": "<p>Wave nature: interference, diffraction and polarisation. Particle nature: the photoelectric effect and the Compton effect. The two faces appear in different experiments — wave–particle duality.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The rest mass of a photon is:</p>", "options": ["equal to an electron's", "zero", "infinite", "half that of a proton"], "correct": 1, "explanation": "Photons have zero rest mass." },
+            { "q": "<p>A photon is deflected by an electric field:</p>", "options": ["strongly", "weakly", "not at all", "only at high speed"], "correct": 2, "explanation": "Photons are neutral, so fields do not deflect them." },
+            { "q": "<p>The momentum of a photon equals:</p>", "options": ["$h\\lambda$", "$h/\\lambda$", "$hc$", "$\\lambda/h$"], "correct": 1, "explanation": "$p = h/\\lambda$." },
+            { "q": "<p>The particle nature of light is demonstrated by the:</p>", "options": ["interference", "diffraction", "photoelectric effect", "polarisation"], "correct": 2, "explanation": "The photoelectric effect shows the particle nature." },
+            { "q": "<p>The wave nature of light is demonstrated by:</p>", "options": ["the photoelectric effect", "the Compton effect", "interference and diffraction", "none of these"], "correct": 2, "explanation": "Interference and diffraction show the wave nature." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Photon: $E = h\\nu$, $p = h/\\lambda$, zero rest mass, neutral. Wave nature to interference/diffraction/polarisation; particle nature to photoelectric/Compton. Duality: the aspect shown depends on the experiment.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-physics-ch19-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>The maximum kinetic energy of photoelectrons depends on the:</p>", "options": ["intensity", "frequency", "current", "exposure time"], "correct": 1, "explanation": "$K_{max}$ depends on frequency only." },
+            { "q": "<p>The number of photoelectrons emitted per second is proportional to the:</p>", "options": ["frequency", "intensity", "work function", "wavelength"], "correct": 1, "explanation": "Number (current) is proportional to intensity." },
+            { "q": "<p>Einstein's photoelectric equation is:</p>", "options": ["$K_{max} = h\\nu + \\phi$", "$K_{max} = h\\nu - \\phi$", "$K_{max} = \\phi - h\\nu$", "$K_{max} = \\phi/h\\nu$"], "correct": 1, "explanation": "$K_{max} = h\\nu - \\phi$." },
+            { "q": "<p>The energy of a photon is:</p>", "options": ["$h/\\nu$", "$h\\nu$", "$\\nu/h$", "$hc\\nu$"], "correct": 1, "explanation": "$E = h\\nu$." },
+            { "q": "<p>The work function equals:</p>", "options": ["$h/\\nu_0$", "$h\\nu_0$", "$\\nu_0/h$", "$h\\nu_0^{2}$"], "correct": 1, "explanation": "$\\phi = h\\nu_0$." },
+            { "q": "<p>The de Broglie wavelength of a particle is:</p>", "options": ["$h p$", "$h/p$", "$p/h$", "$h/p^{2}$"], "correct": 1, "explanation": "$\\lambda = h/p$." },
+            { "q": "<p>The wave nature of electrons was confirmed by:</p>", "options": ["Millikan", "Davisson–Germer", "Rutherford", "Thomson"], "correct": 1, "explanation": "Davisson–Germer demonstrated electron diffraction." },
+            { "q": "<p>The momentum of a photon of wavelength $\\lambda$ is:</p>", "options": ["$h\\lambda$", "$h/\\lambda$", "$\\lambda/h$", "$hc\\lambda$"], "correct": 1, "explanation": "$p = h/\\lambda$." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> Increasing the intensity of incident light does not increase the maximum kinetic energy of photoelectrons.<br><strong>R:</strong> The maximum kinetic energy depends only on the frequency of the incident light.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Since $K_{max} = h\\nu - \\phi$ depends on frequency, intensity does not change it — R explains A." },
+            { "q": "<p><strong>A:</strong> Heavy, fast-moving objects do not show observable wave behaviour.<br><strong>R:</strong> Their de Broglie wavelength is extremely small because of their large momentum.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Large momentum gives a tiny $\\lambda = h/p$, too small to detect — R explains A." },
+            { "q": "<p><strong>A:</strong> A photon is deflected when it passes through an electric field.<br><strong>R:</strong> A photon carries energy and momentum.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "A photon is neutral and is not deflected by fields, so A is false; it does carry energy and momentum, so R is true." },
+            { "q": "<p><strong>A:</strong> Light exhibits both wave and particle nature.<br><strong>R:</strong> Interference shows its wave nature while the photoelectric effect shows its particle nature.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The two phenomena demonstrate the two natures, supporting duality — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

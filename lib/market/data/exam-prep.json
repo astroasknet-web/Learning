@@ -1,0 +1,703 @@
+{
+  "note": "Exam-prep hubs and the course catalogue shown at /exam-prep. Every entry links to a page on this site.",
+  "catalogue": [
+    {
+      "title": "Digital Literacy",
+      "group": "Skills",
+      "own": "/courses/digital-literacy-master"
+    },
+    {
+      "title": "HTML & CSS Academy",
+      "group": "Skills",
+      "own": "/courses/html-css-academy"
+    },
+    {
+      "title": "Data Analytics using Python",
+      "group": "Skills",
+      "own": "/courses/data-analytics-python"
+    },
+    {
+      "title": "Data Science using Python",
+      "group": "Skills",
+      "own": "/courses/data-science-python"
+    },
+    {
+      "title": "Computer Science",
+      "group": "Skills",
+      "own": "/courses?cat=dev"
+    },
+    {
+      "title": "Mathematics",
+      "group": "School subjects",
+      "own": "/school"
+    },
+    {
+      "title": "Vedic Mathematics",
+      "group": "School subjects",
+      "own": "/vedic-math"
+    },
+    {
+      "title": "Physics",
+      "group": "School subjects",
+      "own": "/school"
+    },
+    {
+      "title": "Chemistry",
+      "group": "School subjects",
+      "own": "/school"
+    },
+    {
+      "title": "Biology",
+      "group": "School subjects",
+      "own": "/school"
+    },
+    {
+      "title": "English Grammar",
+      "group": "Languages",
+      "own": "/school"
+    },
+    {
+      "title": "Spoken English",
+      "group": "Languages",
+      "own": "/courses/spoken-english"
+    },
+    {
+      "title": "Vocabulary Builder",
+      "group": "Languages",
+      "comingSoon": true
+    },
+    {
+      "title": "IELTS Reading & Writing",
+      "group": "Exam prep",
+      "own": "/ielts"
+    },
+    {
+      "title": "JEE (Main & Advanced)",
+      "group": "Exam prep",
+      "own": "/learn/jee"
+    },
+    {
+      "title": "NEET UG Prep",
+      "group": "Exam prep",
+      "own": "/learn/neet"
+    },
+    {
+      "title": "UPSC Civil Services",
+      "group": "Exam prep",
+      "own": "/exam/upsc-prelims"
+    },
+    {
+      "title": "SSC CGL",
+      "group": "Exam prep",
+      "own": "/exam/ssc-cgl"
+    },
+    {
+      "title": "Social Studies",
+      "group": "School subjects",
+      "comingSoon": true
+    },
+    {
+      "title": "Hindi",
+      "group": "Languages",
+      "comingSoon": true
+    }
+  ],
+  "hubs": [
+    {
+      "slug": "jee",
+      "title": "JEE (Main & Advanced)",
+      "kind": "Engineering entrance",
+      "intro": "Free study material based on NCERT, with solved examples and JEE-level practice for Mathematics, Physics and Chemistry.",
+      "unit": "chapters",
+      "sections": [
+        {
+          "name": "Mathematics",
+          "desc": "Algebra, calculus and coordinate geometry.",
+          "count": 27,
+          "own": "/learn/jee/mathematics"
+        },
+        {
+          "name": "Physics",
+          "desc": "From mechanics to modern physics.",
+          "count": 19,
+          "own": "/learn/jee/physics"
+        },
+        {
+          "name": "Chemistry",
+          "desc": "Physical, organic and inorganic chemistry.",
+          "count": 29,
+          "own": "/learn/jee/chemistry"
+        }
+      ],
+      "tests": [
+        {
+          "name": "JEE Mock Test",
+          "desc": "A full-length timed test in the real exam pattern, with instant scoring and worked solutions.",
+          "own": "/exam/jee-mains/test/full"
+        }
+      ],
+      "learn": "/learn/jee",
+      "mock": "/exam/jee-mains"
+    },
+    {
+      "slug": "neet",
+      "title": "NEET UG",
+      "kind": "Medical entrance",
+      "intro": "Free NCERT-based notes, worked examples and NEET-level practice across Physics, Chemistry and Biology.",
+      "unit": "chapters",
+      "sections": [
+        {
+          "name": "Physics",
+          "desc": "Concepts, formulas and NEET-style numerical problems.",
+          "count": 21,
+          "own": "/learn/neet/physics"
+        },
+        {
+          "name": "Chemistry",
+          "desc": "Physical, organic and inorganic chemistry for NEET.",
+          "count": 21,
+          "own": "/learn/neet/chemistry"
+        },
+        {
+          "name": "Biology",
+          "desc": "Botany and Zoology, the largest scoring section of NEET.",
+          "count": 32,
+          "own": "/learn/neet/biology"
+        }
+      ],
+      "tests": [
+        {
+          "name": "NEET Mock Test",
+          "desc": "A full-length timed mock in the real exam pattern, with instant scoring and worked solutions.",
+          "own": "/exam/neet-ug/test/full"
+        }
+      ],
+      "learn": "/learn/neet",
+      "mock": "/exam/neet-ug"
+    },
+    {
+      "slug": "upsc-prelims",
+      "title": "UPSC Civil Services (Prelims)",
+      "kind": "Civil services",
+      "intro": "Syllabus, exam pattern and free online mock tests for GS Paper I and the qualifying CSAT Paper II.",
+      "unit": "topic groups",
+      "sections": [
+        {
+          "name": "Polity & Governance",
+          "desc": "Constitution, rights and duties, executive, legislature, judiciary, constitutional bodies and amendments.",
+          "count": 11,
+          "own": "/exam/upsc-prelims"
+        },
+        {
+          "name": "History & Art/Culture",
+          "desc": "Ancient, medieval and modern history, art and culture, and the freedom struggle.",
+          "count": 9,
+          "own": "/exam/upsc-prelims"
+        },
+        {
+          "name": "Geography",
+          "desc": "Physical and Indian geography, rivers, monsoon, soils, resources and population.",
+          "count": 6,
+          "own": "/exam/upsc-prelims"
+        },
+        {
+          "name": "Economy",
+          "desc": "Macro basics, RBI and fiscal policy, GST, inflation, external sector and welfare schemes.",
+          "count": 9,
+          "own": "/exam/upsc-prelims"
+        },
+        {
+          "name": "Environment & Ecology",
+          "desc": "Ecosystems, biodiversity, conservation, climate agreements and pollution laws.",
+          "count": 6,
+          "own": "/exam/upsc-prelims"
+        },
+        {
+          "name": "Science & Technology",
+          "desc": "Space, defence, biotechnology, IT and AI, and nuclear energy.",
+          "count": 6,
+          "own": "/exam/upsc-prelims"
+        },
+        {
+          "name": "Current Affairs",
+          "desc": "National and international news, schemes, organisations, reports and awards.",
+          "count": 5,
+          "own": "/exam/upsc-prelims"
+        },
+        {
+          "name": "CSAT: Aptitude (Paper II)",
+          "desc": "Comprehension, reasoning, numeracy and data interpretation.",
+          "count": 6,
+          "own": "/exam/upsc-prelims"
+        }
+      ],
+      "tests": [
+        {
+          "name": "General Studies Paper I",
+          "desc": "100 questions, 200 marks, 120 minutes. Marking +2 for correct and -0.66 for wrong.",
+          "own": "/exam/upsc-prelims/test/gs1"
+        },
+        {
+          "name": "CSAT Paper II",
+          "desc": "80 questions, 200 marks, 120 minutes. Qualifying only: 33% needed.",
+          "own": "/exam/upsc-prelims/test/csat"
+        }
+      ],
+      "mock": "/exam/upsc-prelims"
+    },
+    {
+      "slug": "ssc-cgl",
+      "title": "SSC CGL",
+      "kind": "Government jobs",
+      "intro": "Free mock tests for Tier 1 and Tier 2 Paper-1, with explanations, exam pattern and syllabus.",
+      "unit": "topic groups",
+      "sections": [
+        {
+          "name": "Quantitative Aptitude",
+          "desc": "Number system, percentages, time and work, algebra, geometry, trigonometry and data interpretation.",
+          "count": 11,
+          "own": "/study/ssc-quant"
+        },
+        {
+          "name": "General Intelligence & Reasoning",
+          "desc": "Analogies, series, coding-decoding, blood relations, syllogisms and non-verbal reasoning.",
+          "count": 11,
+          "own": "/study/ssc-reasoning"
+        },
+        {
+          "name": "General Awareness",
+          "desc": "Static GK: history, geography, polity, economy, science and current affairs.",
+          "count": 8,
+          "own": "/study/ssc-gk"
+        },
+        {
+          "name": "English",
+          "desc": "Comprehension, vocabulary, idioms, error spotting, cloze tests and para jumbles.",
+          "count": 10,
+          "own": "/study/ssc-english"
+        }
+      ],
+      "tests": [
+        {
+          "name": "Tier 1 mock",
+          "desc": "100 questions across four sections in 60 minutes.",
+          "own": "/exam/ssc-cgl/test/t1"
+        },
+        {
+          "name": "Tier 2 Paper-1 mock",
+          "desc": "130 questions across four sections in 150 minutes.",
+          "own": "/exam/ssc-cgl/test/t2"
+        },
+        {
+          "name": "Full Tier-1 mock (100 questions)",
+          "desc": "A full-length Tier 1 mock.",
+          "own": "/exam/ssc-cgl/test/t1"
+        }
+      ],
+      "mock": "/exam/ssc-cgl",
+      "studyMap": {
+        "Quantitative Aptitude": "ssc-quant",
+        "General Intelligence & Reasoning": "ssc-reasoning",
+        "General Awareness": "ssc-gk",
+        "English": "ssc-english"
+      }
+    },
+    {
+      "slug": "cat-quant",
+      "title": "CAT Quantitative Aptitude",
+      "kind": "MBA entrance",
+      "intro": "A free course of 6 modules and 57 chapters with concept notes, shortcuts, solved examples and auto-graded tests.",
+      "unit": "chapters",
+      "sections": [
+        {
+          "name": "Module 1: Arithmetic",
+          "desc": "Percentages, ratios, averages, profit and loss, interest, work, motion, partnership and ages.",
+          "count": 15,
+          "own": "/study/cat-quant"
+        },
+        {
+          "name": "Module 2: Algebra",
+          "desc": "Equations, quadratics, polynomials, inequalities, functions, logarithms and progressions.",
+          "count": 12,
+          "own": "/study/cat-quant"
+        },
+        {
+          "name": "Module 3: Number System",
+          "desc": "Divisibility, factors, primes, HCF/LCM, remainders, bases and factorials.",
+          "count": 14,
+          "own": "/study/cat-quant"
+        },
+        {
+          "name": "Module 4: Geometry",
+          "desc": "Lines and angles, triangles, quadrilaterals, polygons, circles and coordinate geometry.",
+          "count": 6,
+          "own": "/study/cat-quant"
+        },
+        {
+          "name": "Module 5: Mensuration",
+          "desc": "2D and 3D mensuration, with area and volume applications.",
+          "count": 4,
+          "own": "/study/cat-quant"
+        },
+        {
+          "name": "Module 6: Modern Mathematics",
+          "desc": "Sets, permutations and combinations, probability and the binomial theorem.",
+          "count": 6,
+          "own": "/study/cat-quant"
+        }
+      ],
+      "tests": [],
+      "learn": "/study/cat-quant"
+    },
+    {
+      "slug": "sat",
+      "title": "SAT Math",
+      "kind": "Study abroad (undergraduate)",
+      "intro": "A free 40-chapter Digital SAT Math course with unlimited full-length mocks scored on the 200 to 800 scale and domain-wise analytics.",
+      "unit": "domains",
+      "sections": [
+        {
+          "name": "Algebra",
+          "desc": "Linear equations, inequalities, systems and functions.",
+          "own": "/study/sat-math"
+        },
+        {
+          "name": "Advanced Math",
+          "desc": "Exponents, polynomials, quadratics, radicals, rationals and nonlinear functions.",
+          "own": "/study/sat-math"
+        },
+        {
+          "name": "Problem-Solving & Data Analysis",
+          "desc": "Ratios, percentages, statistics, probability and charts.",
+          "own": "/study/sat-math"
+        },
+        {
+          "name": "Geometry & Trigonometry",
+          "desc": "Lines, triangles, circles, coordinate geometry, area and volume.",
+          "own": "/study/sat-math"
+        }
+      ],
+      "tests": [],
+      "learn": "/study/sat-math"
+    },
+    {
+      "slug": "gre-maths",
+      "title": "GRE Quantitative Reasoning",
+      "kind": "Study abroad (graduate)",
+      "intro": "Syllabus and format overview for GRE Quant (27 questions, two sections, 47 minutes), with a separate full course of 5 modules and 31 chapters.",
+      "unit": "areas",
+      "sections": [
+        {
+          "name": "Arithmetic",
+          "desc": "Integers, divisibility, primes, exponents, percent, ratio and sequences.",
+          "count": 4,
+          "own": "/study/gre-quant"
+        },
+        {
+          "name": "Algebra",
+          "desc": "Expressions, equations, inequalities, word problems and coordinate geometry.",
+          "count": 5,
+          "own": "/study/gre-quant"
+        },
+        {
+          "name": "Geometry",
+          "desc": "Lines, angles, triangles, polygons, circles, 3D figures, area and volume.",
+          "count": 5,
+          "own": "/study/gre-quant"
+        },
+        {
+          "name": "Data Analysis",
+          "desc": "Statistics, tables and graphs, counting, probability and distributions.",
+          "count": 5,
+          "own": "/study/gre-quant"
+        }
+      ],
+      "tests": [
+        {
+          "name": "Full GRE Quant course",
+          "desc": "5 modules and 31 chapters.",
+          "own": "/study/gre-quant"
+        }
+      ],
+      "learn": "/study/gre-quant"
+    },
+    {
+      "slug": "gmat-maths",
+      "title": "GMAT Quantitative Reasoning",
+      "kind": "Study abroad (MBA)",
+      "intro": "Syllabus and study roadmap for GMAT Focus Quantitative Reasoning: 21 timed problem-solving questions, no calculator.",
+      "unit": "areas",
+      "sections": [
+        {
+          "name": "Arithmetic",
+          "desc": "Integer properties, fractions, percentages, ratio, powers and roots, rate and work problems.",
+          "count": 6
+        },
+        {
+          "name": "Algebra",
+          "desc": "Linear and quadratic equations, inequalities, factoring, functions and sequences.",
+          "count": 6
+        },
+        {
+          "name": "Data Insights (related section)",
+          "desc": "Data Sufficiency, multi-source reasoning, table analysis and graphics interpretation.",
+          "count": 5
+        }
+      ],
+      "tests": []
+    },
+    {
+      "slug": "ielts",
+      "title": "IELTS",
+      "kind": "Study abroad (English test)",
+      "intro": "Free IELTS preparation for Academic and General Training: 17 lessons on Reading and Writing, plus practice tests for all four skills.",
+      "unit": "lessons",
+      "sections": [
+        {
+          "name": "Reading: format and band scores",
+          "desc": "How the test is structured and scored.",
+          "count": 4,
+          "own": "/ielts/reading/reading-overview"
+        },
+        {
+          "name": "Reading: Matching Headings",
+          "desc": "Main ideas versus details.",
+          "count": 4,
+          "own": "/ielts/reading/matching-headings"
+        },
+        {
+          "name": "Reading: True / False / Not Given",
+          "desc": "Fact versus opinion and qualifier traps.",
+          "count": 4,
+          "own": "/ielts/reading/true-false-not-given"
+        },
+        {
+          "name": "Reading: Multiple choice and matching",
+          "desc": "Strategies for each question type.",
+          "count": 4,
+          "own": "/ielts/reading/multiple-choice-and-matching"
+        },
+        {
+          "name": "Reading: Completion and labelling",
+          "desc": "Sentence, summary, table and diagram tasks.",
+          "count": 4,
+          "own": "/ielts/reading/completion-tasks"
+        },
+        {
+          "name": "Reading: Skimming, scanning and time",
+          "desc": "Finding answers quickly.",
+          "count": 4,
+          "own": "/ielts/reading/skimming-scanning"
+        },
+        {
+          "name": "Writing: format and band descriptors",
+          "desc": "The four marking criteria and pacing.",
+          "count": 4,
+          "own": "/ielts/writing/writing-overview"
+        },
+        {
+          "name": "Writing Task 1: graphs, bars, pies and tables",
+          "desc": "Structure and trend language.",
+          "count": 4,
+          "own": "/ielts/writing/task1-academic-graphs"
+        },
+        {
+          "name": "Writing Task 1: processes and maps",
+          "desc": "Sequencing, change and location language.",
+          "count": 4,
+          "own": "/ielts/writing/task1-academic-process-maps"
+        },
+        {
+          "name": "Writing Task 1 (General Training): letters",
+          "desc": "Formal, semi-formal and informal letters.",
+          "count": 4,
+          "own": "/ielts/writing/task1-gt-letters"
+        },
+        {
+          "name": "Writing Task 2: structure and essay types",
+          "desc": "The five essay types.",
+          "count": 4,
+          "own": "/ielts/writing/task2-essay-basics"
+        },
+        {
+          "name": "Writing Task 2: opinion and discussion",
+          "desc": "Building a clear position.",
+          "count": 4,
+          "own": "/ielts/writing/task2-opinion-discussion"
+        },
+        {
+          "name": "Writing Task 2: problem/solution and advantages",
+          "desc": "Problem-solution and two-part essays.",
+          "count": 4,
+          "own": "/ielts/writing/task2-problem-advantage"
+        },
+        {
+          "name": "Writing clinic",
+          "desc": "Practise and self-assess with an instant band estimate.",
+          "count": 4,
+          "own": "/ielts/writing/writing-practice-clinic"
+        }
+      ],
+      "tests": [
+        {
+          "name": "Reading mock tests",
+          "desc": "Auto-scored with band estimates.",
+          "own": "/practice-tests/ielts-reading"
+        },
+        {
+          "name": "Writing practice tests",
+          "desc": "Auto-scored with band estimates.",
+          "own": "/ielts/writing-practice-tests"
+        },
+        {
+          "name": "Listening tests",
+          "desc": "Auto-scored with band estimates.",
+          "own": "/practice-tests/ielts-listening"
+        },
+        {
+          "name": "Speaking tests",
+          "desc": "A three-part speaking interview with recording and timers.",
+          "own": "/ielts/speaking-practice-tests"
+        }
+      ],
+      "learn": "/ielts"
+    },
+    {
+      "slug": "ap-calculus-ab",
+      "title": "AP Calculus AB",
+      "kind": "Advanced Placement",
+      "intro": "A complete free course aligned to the College Board framework: concept notes, worked examples, self-check questions and timed practice tests.",
+      "unit": "chapters",
+      "sections": [
+        {
+          "name": "Limits and Continuity",
+          "desc": "Limits and continuity concepts.",
+          "count": 4,
+          "own": "/learn/ap-calculus-ab/calculus-ab"
+        },
+        {
+          "name": "Differentiation: definition and fundamental properties",
+          "desc": "The derivative and its basic rules.",
+          "count": 4,
+          "own": "/learn/ap-calculus-ab/calculus-ab"
+        },
+        {
+          "name": "Differentiation: composite, implicit and inverse functions",
+          "desc": "Chain rule, implicit and inverse differentiation.",
+          "count": 4,
+          "own": "/learn/ap-calculus-ab/calculus-ab"
+        },
+        {
+          "name": "Contextual applications of differentiation",
+          "desc": "Derivatives in real-world contexts.",
+          "count": 4,
+          "own": "/learn/ap-calculus-ab/calculus-ab"
+        },
+        {
+          "name": "Analytical applications of differentiation",
+          "desc": "Using derivatives to analyse function behaviour.",
+          "count": 4,
+          "own": "/learn/ap-calculus-ab/calculus-ab"
+        },
+        {
+          "name": "Integration and accumulation of change",
+          "desc": "Integrals and accumulation.",
+          "count": 4,
+          "own": "/learn/ap-calculus-ab/calculus-ab"
+        },
+        {
+          "name": "Differential equations",
+          "desc": "Differential equation concepts.",
+          "count": 4,
+          "own": "/learn/ap-calculus-ab/calculus-ab"
+        },
+        {
+          "name": "Applications of integration",
+          "desc": "Integrals in applied problems.",
+          "count": 4,
+          "own": "/learn/ap-calculus-ab/calculus-ab"
+        }
+      ],
+      "tests": [
+        {
+          "name": "Chapter mock tests",
+          "desc": "Two mock tests for each of the eight chapters.",
+          "own": "/learn/ap-calculus-ab/calculus-ab"
+        }
+      ],
+      "learn": "/learn/ap-calculus-ab"
+    },
+    {
+      "slug": "imo",
+      "title": "Maths Olympiad (IMO)",
+      "kind": "Olympiad",
+      "intro": "Free IMO preparation for Class 1 to 12, with chapter lessons, in-lesson checks, chapter tests and full-syllabus mocks in the olympiad pattern.",
+      "unit": "classes",
+      "sections": [
+        {
+          "name": "Class 1",
+          "desc": "Olympiad preparation for Class 1.",
+          "own": "/olympiad/imo/class-1"
+        },
+        {
+          "name": "Class 2",
+          "desc": "Olympiad preparation for Class 2.",
+          "own": "/olympiad/imo/class-2"
+        },
+        {
+          "name": "Class 3",
+          "desc": "Olympiad preparation for Class 3.",
+          "own": "/olympiad/imo/class-3"
+        },
+        {
+          "name": "Class 4",
+          "desc": "Olympiad preparation for Class 4.",
+          "own": "/olympiad/imo/class-4"
+        },
+        {
+          "name": "Class 5",
+          "desc": "Olympiad preparation for Class 5.",
+          "own": "/olympiad/imo/class-5"
+        },
+        {
+          "name": "Class 6",
+          "desc": "Olympiad preparation for Class 6.",
+          "own": "/olympiad/imo/class-6"
+        },
+        {
+          "name": "Class 7",
+          "desc": "Olympiad preparation for Class 7.",
+          "own": "/olympiad/imo/class-7"
+        },
+        {
+          "name": "Class 8",
+          "desc": "Olympiad preparation for Class 8.",
+          "own": "/olympiad/imo/class-8"
+        },
+        {
+          "name": "Class 9",
+          "desc": "Olympiad preparation for Class 9.",
+          "own": "/olympiad/imo/class-9"
+        },
+        {
+          "name": "Class 10",
+          "desc": "Olympiad preparation for Class 10.",
+          "own": "/olympiad/imo/class-10"
+        },
+        {
+          "name": "Class 11",
+          "desc": "Olympiad preparation for Class 11.",
+          "own": "/olympiad/imo/class-11"
+        },
+        {
+          "name": "Class 12",
+          "desc": "Olympiad preparation for Class 12.",
+          "own": "/olympiad/imo/class-12"
+        }
+      ],
+      "tests": [],
+      "learn": "/olympiad/imo",
+      "mockOwn": "/olympiad/imo"
+    }
+  ]
+}

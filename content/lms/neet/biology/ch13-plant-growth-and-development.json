@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "biology",
+  "chapter": 13,
+  "title": "Plant Growth and Development",
+  "slug": "plant-growth-and-development",
+  "subtitle": "Phases and rates of growth, differentiation and development, the plant growth regulators, photoperiodism and vernalisation",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "leaf",
+  "seo": {
+    "meta_description": "NEET Biology — Plant Growth and Development: phases and rates of growth, differentiation/dedifferentiation/redifferentiation, the five plant growth regulators (auxin, gibberellin, cytokinin, ethylene, ABA), photoperiodism and vernalisation, with NEET-level examples and MCQs. Free on GrowQR.",
+    "focus_keyword": "plant growth and development NEET",
+    "secondary_keywords": [
+      "plant growth regulators NEET",
+      "auxin gibberellin cytokinin ethylene ABA",
+      "photoperiodism short long day plants",
+      "vernalisation NCERT",
+      "dedifferentiation redifferentiation"
+    ],
+    "keywords": [
+      "plant growth and development NEET",
+      "phytohormones functions",
+      "photoperiodism vernalisation",
+      "growth phases sigmoid curve",
+      "auxin apical dominance"
+    ]
+  },
+  "summary": "<ul><li><strong>Growth phases:</strong> meristematic &rarr; elongation &rarr; maturation. Growth rate is <strong>arithmetic</strong> (linear) or <strong>geometric</strong> (sigmoid S-curve: lag, log, stationary).</li><li><strong>Differentiation</strong> (cells mature for a function) &rarr; <strong>dedifferentiation</strong> (mature cells regain division, e.g. cork cambium) &rarr; <strong>redifferentiation</strong>. <strong>Development = growth + differentiation</strong>; plasticity = heterophylly.</li><li><strong>Growth promoters:</strong> auxin (apical dominance, rooting, 2,4-D), gibberellin (bolting, malting), cytokinin (cell division, delays senescence). <strong>Inhibitors:</strong> ethylene (fruit ripening, abscission) and ABA (stress hormone — stomatal closure, dormancy).</li><li><strong>Photoperiodism:</strong> flowering response to day/night length — short-day, long-day, day-neutral plants; the <strong>leaf</strong> perceives the photoperiod.</li><li><strong>Vernalisation:</strong> promotion of flowering by exposure to low temperature (e.g. winter wheat).</li></ul>",
+  "faqs": [
+    { "q": "What is the difference between dedifferentiation and redifferentiation?", "a": "Dedifferentiation is when already-differentiated, non-dividing cells regain the capacity to divide (for example, parenchyma forming interfascicular cambium or cork cambium). Redifferentiation is when those dedifferentiated cells mature once more and lose the ability to divide, taking on a specific function." },
+    { "q": "Name the three growth-promoting and two growth-inhibiting plant hormones.", "a": "The growth promoters are auxins, gibberellins and cytokinins. The growth inhibitors are abscisic acid (ABA) and ethylene (ethylene has mixed roles but is grouped as an inhibitor along with ABA)." },
+    { "q": "Why is abscisic acid called the stress hormone?", "a": "Because it helps plants cope with stress, especially water stress: ABA triggers the closure of stomata to reduce water loss, induces and maintains seed dormancy, and inhibits growth. It generally acts as an antagonist to the gibberellins." },
+    { "q": "What is photoperiodism and where is the photoperiod perceived?", "a": "Photoperiodism is the response of flowering to the relative lengths of day and night (the photoperiod). Plants are classed as short-day, long-day or day-neutral. The photoperiod is perceived by the leaves, which then produce a hormonal signal (florigen) that moves to the shoot apex to induce flowering." },
+    { "q": "What is vernalisation?", "a": "Vernalisation is the promotion of flowering by a period of exposure to low temperature (cold). It prevents premature flowering and is required by many winter varieties of cereals (e.g. winter wheat) and by biennials such as sugar beet and cabbage." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Growth, Differentiation and Development",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Growth — Phases and Rates",
+          "concept": "<p><strong>Growth</strong> is defined as an <strong>irreversible permanent increase</strong> in the size, mass or number of cells of an organism (or its parts). In plants it is brought about by cell division followed by cell enlargement, and it is fuelled by metabolism. A distinctive feature of plants is that they show <strong>indeterminate (open) growth</strong> throughout life, because they retain regions of perpetually dividing cells — the <strong>meristems</strong> — at their root and shoot tips.</p><p>Growth at the tips proceeds through three <strong>zones (phases)</strong> in sequence. The <strong>phase of meristematic growth</strong> is the tip itself, where cells divide repeatedly and are rich in protoplasm. Just behind it is the <strong>phase of elongation</strong>, where cells increase in size through vacuolation and the deposition of new wall material. Beyond that lies the <strong>phase of maturation</strong>, where the enlarged cells differentiate and attain their final size and form. Recognising these three phases in order is a standard NEET point.</p><p>The <strong>rate of growth</strong> — the increase per unit time — can follow two patterns. In <strong>arithmetic growth</strong>, after a cell divides only one daughter continues to divide while the other differentiates, giving a constant, <strong>linear</strong> increase (e.g. a root elongating at a steady rate). In <strong>geometric growth</strong>, both daughter cells keep dividing, so growth is <strong>exponential</strong> at first; in practice it produces the classic <strong>sigmoid (S-shaped) growth curve</strong> with three parts — a slow <strong>lag phase</strong>, a rapid <strong>log (exponential) phase</strong>, and a levelling <strong>stationary phase</strong> as nutrients become limiting.</p><p>Growth can be <strong>measured</strong> in many ways — increase in length, area, volume, cell number, or fresh and dry weight — and the right measure depends on the system. Several <strong>conditions</strong> are essential for growth: an adequate supply of <strong>water</strong> (cells need turgor to enlarge), <strong>oxygen</strong> (for the energy of respiration), <strong>nutrients</strong> (raw materials), and a suitable <strong>temperature</strong> and light environment. For NEET, the key takeaways are the three growth phases, the arithmetic-versus-geometric distinction, and the sigmoid growth curve.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Concept</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Key idea</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Growth phases</td><td style='border:1px solid #dcfce7;padding:6px 8px'>meristematic &rarr; elongation &rarr; maturation</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Arithmetic growth</td><td style='border:1px solid #dcfce7;padding:6px 8px'>one daughter divides &rarr; linear</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Geometric growth</td><td style='border:1px solid #dcfce7;padding:6px 8px'>both daughters divide &rarr; sigmoid curve</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Sigmoid phases</td><td style='border:1px solid #dcfce7;padding:6px 8px'>lag &rarr; log (exponential) &rarr; stationary</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>In which growth pattern does only one daughter cell continue to divide while the other matures, and what is the shape of its curve?</p>",
+              "solution": "<p>This is <strong>arithmetic growth</strong>. Because the number of dividing cells stays constant, the increase is steady and the curve is a <strong>straight line (linear)</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Name the three parts of the sigmoid growth curve in order.</p>",
+              "solution": "<p>The <strong>lag phase</strong> (slow initial growth), the <strong>log or exponential phase</strong> (rapid growth), and the <strong>stationary phase</strong> (growth levels off as resources become limiting).</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Growth is best defined as a/an ___ increase:</p>", "options": ["reversible", "irreversible permanent", "temporary", "external only"], "correct": 1, "explanation": "Growth is an irreversible permanent increase." },
+            { "q": "<p>The region of a root where cells divide is the:</p>", "options": ["elongation zone", "maturation zone", "meristematic zone", "root cap"], "correct": 2, "explanation": "Cells divide in the meristematic phase/zone." },
+            { "q": "<p>Geometric growth produces a curve that is:</p>", "options": ["linear", "sigmoid (S-shaped)", "circular", "flat"], "correct": 1, "explanation": "Geometric growth gives a sigmoid (S-shaped) curve." },
+            { "q": "<p>The middle, fastest part of the sigmoid curve is the:</p>", "options": ["lag phase", "log phase", "stationary phase", "death phase"], "correct": 1, "explanation": "The log (exponential) phase is the rapid middle part." },
+            { "q": "<p>Cells enlarge mainly through vacuolation in the phase of:</p>", "options": ["meristematic growth", "elongation", "maturation", "senescence"], "correct": 1, "explanation": "Cell enlargement by vacuolation occurs in the elongation phase." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Phases = meristematic → elongation → maturation. Arithmetic = linear (one daughter divides); geometric = sigmoid (both divide) with lag/log/stationary phases.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Differentiation, Dedifferentiation and Development",
+          "concept": "<p>As cells leave the meristem and mature they undergo <strong>differentiation</strong> — they take on specific structures and functions suited to a particular role. For example, cells that become the water-conducting <strong>tracheary elements</strong> of the xylem lose their protoplasm and develop strong, lignified secondary walls. Differentiation thus converts simple meristematic cells into the many specialised cell types of the plant body.</p><p>Remarkably, plant cells can reverse and re-reverse this. <strong>Dedifferentiation</strong> is when already-differentiated cells that had stopped dividing <strong>regain the ability to divide</strong>. Familiar examples are the formation of the <strong>interfascicular cambium</strong> and the <strong>cork cambium</strong> from fully mature parenchyma cells during secondary growth. <strong>Redifferentiation</strong> is the opposite final step: these dedifferentiated cells <strong>mature once more and again lose the capacity to divide</strong>, becoming specialised. Distinguishing these three terms — differentiation, dedifferentiation, redifferentiation — is a guaranteed NEET question.</p><p>Taken together, <strong>development</strong> is the sum of all the changes an organism passes through during its life cycle, from seed germination to senescence; in short, <strong>development = growth + differentiation</strong>. The same genes can produce different outcomes depending on internal (intrinsic) and external (environmental) signals, which is why a plant can adjust its body to its surroundings.</p><p>This adaptability is called <strong>plasticity</strong>. A clear illustration is <strong>heterophylly</strong> — the production of <strong>different leaf shapes</strong> on the same plant under different conditions. In cotton, coriander and larkspur the leaves of the juvenile plant differ from those of the mature plant; and in an aquatic plant such as <em>buttercup</em>, the leaves formed under water are finely dissected while those in air are broad. Plasticity shows how growth and differentiation are tuned by both the plant's age and its environment, completing the picture of plant development.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Term</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Meaning / example</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Differentiation</td><td style='border:1px solid #dcfce7;padding:6px 8px'>cells specialise (e.g. tracheary elements)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Dedifferentiation</td><td style='border:1px solid #dcfce7;padding:6px 8px'>mature cells regain division (cork cambium)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Redifferentiation</td><td style='border:1px solid #dcfce7;padding:6px 8px'>divide again then re-specialise</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Development</td><td style='border:1px solid #dcfce7;padding:6px 8px'>growth + differentiation (whole life)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Plasticity</td><td style='border:1px solid #dcfce7;padding:6px 8px'>heterophylly (cotton, buttercup)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Parenchyma cells in a dicot stem give rise to the cork cambium during secondary growth. Which process is this an example of?</p>",
+              "solution": "<p><strong>Dedifferentiation</strong> — the mature, non-dividing parenchyma cells regain the ability to divide and form the cork cambium (a meristem).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>An aquatic buttercup produces dissected leaves under water and broad leaves in air. What phenomenon does this illustrate?</p>",
+              "solution": "<p><strong>Plasticity</strong>, specifically <strong>heterophylly</strong> — different leaf forms develop on the same plant in response to the environment (submerged vs aerial).</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Mature cells regaining the capacity to divide is called:</p>", "options": ["differentiation", "dedifferentiation", "redifferentiation", "senescence"], "correct": 1, "explanation": "Dedifferentiation restores division ability to mature cells." },
+            { "q": "<p>Development is best summarised as:</p>", "options": ["growth only", "differentiation only", "growth + differentiation", "cell division only"], "correct": 2, "explanation": "Development = growth + differentiation over the life cycle." },
+            { "q": "<p>The cork cambium arises by dedifferentiation of:</p>", "options": ["xylem vessels", "parenchyma", "sieve tubes", "guard cells"], "correct": 1, "explanation": "Cork cambium forms from mature parenchyma." },
+            { "q": "<p>Heterophylly (different leaf shapes) is an example of:</p>", "options": ["dormancy", "plasticity", "abscission", "vernalisation"], "correct": 1, "explanation": "Heterophylly demonstrates developmental plasticity." },
+            { "q": "<p>Tracheary elements lose their protoplasm during:</p>", "options": ["dedifferentiation", "differentiation", "germination", "dormancy"], "correct": 1, "explanation": "Differentiation makes xylem cells lose protoplasm and lignify." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Differentiation (specialise) → dedifferentiation (regain division: cork/interfascicular cambium) → redifferentiation (re-specialise). Development = growth + differentiation; plasticity = heterophylly (cotton, buttercup).</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Plant Growth Regulators, Photoperiodism and Vernalisation",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Plant Growth Regulators",
+          "concept": "<p><strong>Plant growth regulators (PGRs)</strong>, also called phytohormones, are small chemical molecules that control growth and development. They fall into two broad groups: <strong>growth promoters</strong> — <strong>auxins, gibberellins and cytokinins</strong> — and <strong>growth inhibitors</strong> — <strong>abscisic acid (ABA)</strong> and <strong>ethylene</strong> (ethylene has mixed roles but is grouped with the inhibitors). Knowing the signature function and a key example for each is the single most-tested part of this chapter.</p><p><strong>Auxins</strong> (the natural one is IAA) were the first to be discovered, from the Darwins' work on coleoptile bending toward light and Went's isolation from oat coleoptile tips. Auxins promote <strong>cell elongation</strong>, maintain <strong>apical dominance</strong> (the suppression of lateral buds by the shoot tip), initiate <strong>rooting</strong> in cuttings, induce <strong>parthenocarpy</strong> (seedless fruit, e.g. tomato), prevent premature <strong>abscission</strong>, and as the synthetic <strong>2,4-D</strong> act as a weedkiller selective for broad-leaved (dicot) weeds. <strong>Gibberellins</strong> (GA₃) cause <strong>bolting</strong> (rapid internode/stem elongation in rosette plants), increase the length of axes and the size of fruit (e.g. grapes), help in <strong>malting</strong> in the brewing industry, and break seed and bud dormancy.</p><p><strong>Cytokinins</strong> (such as kinetin and zeatin) promote <strong>cell division (cytokinesis)</strong>, help overcome apical dominance and promote lateral shoot growth, aid the <strong>mobilisation of nutrients</strong>, and notably <strong>delay leaf senescence (ageing)</strong> — the Richmond–Lang effect. Among the inhibitors, <strong>ethylene</strong> is a gaseous hormone that promotes <strong>fruit ripening</strong>, senescence and <strong>abscission</strong> of leaves and flowers, breaks dormancy, and induces flowering in pineapple and mango.</p><p><strong>Abscisic acid (ABA)</strong> is the great inhibitor, well known as the <strong>'stress hormone'</strong>. It induces and maintains <strong>seed dormancy</strong>, inhibits growth, and — crucially for surviving drought — triggers the <strong>closure of stomata</strong> during water stress; it generally acts as an <strong>antagonist of the gibberellins</strong>. The most efficient way to revise is a single line per hormone: auxin = apical dominance + 2,4-D; GA = bolting + malting; cytokinin = cell division + delays senescence; ethylene = ripening + abscission; ABA = stress, stomatal closure, dormancy.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.88rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Hormone</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Signature role</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Auxin (IAA)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>apical dominance; rooting; 2,4-D weedkiller</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Gibberellin (GA₃)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>bolting; fruit length; malting</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Cytokinin</td><td style='border:1px solid #dcfce7;padding:6px 8px'>cell division; delays leaf senescence</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Ethylene (gas)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>fruit ripening; abscission</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Abscisic acid (ABA)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>stress hormone; stomatal closure; dormancy</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A gardener removes the shoot tip of a plant and the side branches start to grow. Which hormone, and which phenomenon, explains this?</p>",
+              "solution": "<p>The shoot tip is the source of <strong>auxin</strong>, which maintains <strong>apical dominance</strong> (suppression of lateral buds). Removing the tip removes the auxin, releasing the lateral buds to grow.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Which hormone is sprayed to ripen fruits uniformly, and which closes stomata during drought?</p>",
+              "solution": "<p><strong>Ethylene</strong> promotes fruit ripening. <strong>Abscisic acid (ABA)</strong>, the stress hormone, closes the stomata during water stress.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Apical dominance is caused by:</p>", "options": ["cytokinin", "auxin", "ethylene", "ABA"], "correct": 1, "explanation": "Auxin from the shoot tip maintains apical dominance." },
+            { "q": "<p>The weedkiller 2,4-D is a synthetic:</p>", "options": ["gibberellin", "auxin", "cytokinin", "ABA"], "correct": 1, "explanation": "2,4-D is a synthetic auxin (kills dicot weeds)." },
+            { "q": "<p>Bolting (stem elongation in rosette plants) is induced by:</p>", "options": ["auxin", "gibberellin", "cytokinin", "ethylene"], "correct": 1, "explanation": "Gibberellins cause bolting." },
+            { "q": "<p>Which hormone delays leaf senescence?</p>", "options": ["ABA", "ethylene", "cytokinin", "auxin"], "correct": 2, "explanation": "Cytokinins delay senescence (Richmond–Lang effect)." },
+            { "q": "<p>The 'stress hormone' that closes stomata is:</p>", "options": ["ethylene", "ABA", "gibberellin", "auxin"], "correct": 1, "explanation": "ABA closes stomata under water stress." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> One line each — auxin (apical dominance, 2,4-D), GA (bolting, malting), cytokinin (cell division, delays senescence), ethylene (ripening, abscission), ABA (stress, stomatal closure, dormancy). Promoters = first three; inhibitors = ABA + ethylene.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Photoperiodism and Vernalisation",
+          "concept": "<p>Flowering is not triggered by hormones alone; many plants also depend on environmental cues, chiefly the length of day and the temperature. <strong>Photoperiodism</strong> is the response of flowering to the relative lengths of the light and dark periods — the <strong>photoperiod</strong>. On this basis plants are classified into three groups, a guaranteed NEET fact.</p><p><strong>Short-day plants (SDPs)</strong> flower only when the day length is <em>below</em> a critical value — i.e. when the night is long (e.g. chrysanthemum, soybean). <strong>Long-day plants (LDPs)</strong> flower only when the day length is <em>above</em> a critical value — when the night is short (e.g. spinach, henbane). <strong>Day-neutral plants (DNPs)</strong> flower regardless of day length (e.g. tomato, cucumber). It later emerged that the <strong>length of the dark period</strong> is in fact the critical factor, so a 'short-day' plant is really a long-night plant.</p><p>A key detail often tested is the <strong>site of perception</strong>: the photoperiod is sensed by the <strong>leaves</strong>, not by the shoot tip where flowers form. The leaves are thought to produce a flowering hormone (historically named <strong>florigen</strong>) that travels to the shoot apex and switches on flowering. Thus a plant can be made to flower or kept vegetative simply by controlling the duration of light and darkness its leaves receive.</p><p>The second environmental control is temperature, through <strong>vernalisation</strong> — the <strong>promotion of flowering by a period of exposure to low temperature (cold)</strong>. Vernalisation prevents plants from flowering before winter is over and is required by many <strong>winter varieties of cereals</strong> (e.g. winter wheat, rye) and by <strong>biennials</strong> such as sugar beet, cabbage and carrot. Together, photoperiodism and vernalisation let plants time their flowering to the most favourable season. For NEET, remember: SDP/LDP/DNP definitions, that the leaf perceives the photoperiod, and that vernalisation is a cold requirement for flowering.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Concept</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail / example</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Short-day plant</td><td style='border:1px solid #dcfce7;padding:6px 8px'>flowers if day &lt; critical (chrysanthemum)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Long-day plant</td><td style='border:1px solid #dcfce7;padding:6px 8px'>flowers if day &gt; critical (spinach)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Day-neutral</td><td style='border:1px solid #dcfce7;padding:6px 8px'>flowers regardless (tomato)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Photoperiod sensed by</td><td style='border:1px solid #dcfce7;padding:6px 8px'>leaves (signal = florigen)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Vernalisation</td><td style='border:1px solid #dcfce7;padding:6px 8px'>cold promotes flowering (winter wheat)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A plant flowers only when the days are short and the nights are long. What is it called, and what is actually the critical factor?</p>",
+              "solution": "<p>It is a <strong>short-day plant</strong>. The <strong>critical factor is the length of the dark (night) period</strong> — a short-day plant is really a long-night plant that flowers when the night exceeds a critical length.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Winter wheat sown in spring fails to flower unless first given a cold treatment. Name this requirement.</p>",
+              "solution": "<p>This is <strong>vernalisation</strong> — flowering is promoted by exposing the plant (or its seedling/seed) to a period of low temperature.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>A short-day plant flowers when the day length is:</p>", "options": ["above a critical value", "below a critical value", "exactly 12 hours always", "irrelevant"], "correct": 1, "explanation": "SDPs flower when day length is below the critical value (long night)." },
+            { "q": "<p>The photoperiod is perceived by the:</p>", "options": ["shoot apex", "roots", "leaves", "flowers"], "correct": 2, "explanation": "Leaves perceive the photoperiod and signal the apex." },
+            { "q": "<p>Spinach, which flowers in long days, is a:</p>", "options": ["short-day plant", "long-day plant", "day-neutral plant", "vernalised plant"], "correct": 1, "explanation": "Spinach is a long-day plant." },
+            { "q": "<p>Promotion of flowering by low temperature is:</p>", "options": ["photoperiodism", "vernalisation", "dormancy", "senescence"], "correct": 1, "explanation": "Cold-induced promotion of flowering is vernalisation." },
+            { "q": "<p>The hypothetical flowering hormone is called:</p>", "options": ["florigen", "auxin", "cytokinin", "phytochrome"], "correct": 0, "explanation": "Florigen is the proposed flowering signal from the leaves." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> SDP = day below critical (long night, chrysanthemum); LDP = day above critical (spinach); DNP = any (tomato). Leaf perceives photoperiod → florigen. Vernalisation = cold promotes flowering (winter wheat, biennials).</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-biology-ch13-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>The correct sequence of growth phases at a root tip is:</p>", "options": ["elongation, meristematic, maturation", "meristematic, elongation, maturation", "maturation, elongation, meristematic", "meristematic, maturation, elongation"], "correct": 1, "explanation": "Meristematic → elongation → maturation." },
+            { "q": "<p>The sigmoid growth curve is typical of:</p>", "options": ["arithmetic growth", "geometric growth", "no growth", "negative growth"], "correct": 1, "explanation": "Geometric growth gives the sigmoid (S-shaped) curve." },
+            { "q": "<p>Formation of cork cambium from parenchyma is an example of:</p>", "options": ["differentiation", "dedifferentiation", "redifferentiation", "senescence"], "correct": 1, "explanation": "Mature cells regain division — dedifferentiation." },
+            { "q": "<p>Which hormone is used to induce rooting in stem cuttings?</p>", "options": ["ABA", "auxin", "ethylene", "gibberellin"], "correct": 1, "explanation": "Auxins promote root initiation in cuttings." },
+            { "q": "<p>Fruit ripening is promoted by:</p>", "options": ["auxin", "cytokinin", "ethylene", "ABA"], "correct": 2, "explanation": "Ethylene promotes fruit ripening." },
+            { "q": "<p>Closure of stomata during water stress is brought about by:</p>", "options": ["gibberellin", "cytokinin", "ABA", "auxin"], "correct": 2, "explanation": "ABA (stress hormone) closes stomata." },
+            { "q": "<p>Chrysanthemum, which flowers in short days, is a:</p>", "options": ["long-day plant", "short-day plant", "day-neutral plant", "biennial"], "correct": 1, "explanation": "Chrysanthemum is a short-day plant." },
+            { "q": "<p>Vernalisation is the promotion of flowering by:</p>", "options": ["long days", "low temperature", "high temperature", "darkness"], "correct": 1, "explanation": "Vernalisation = cold-induced promotion of flowering." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> Removing the shoot apex promotes the growth of lateral branches.<br><strong>R:</strong> The shoot apex is the source of auxin, which maintains apical dominance over the lateral buds.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Removing the auxin source releases the lateral buds — R explains A." },
+            { "q": "<p><strong>A:</strong> Abscisic acid helps plants survive drought.<br><strong>R:</strong> ABA induces closure of stomata, reducing water loss.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Stomatal closure conserving water is how ABA helps in drought — R explains A." },
+            { "q": "<p><strong>A:</strong> In photoperiodism, the photoperiod is perceived by the shoot apex.<br><strong>R:</strong> The leaves produce the flowering signal that moves to the shoot apex.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "A is false — the LEAVES perceive the photoperiod (not the shoot apex); R correctly states the leaves produce the signal." },
+            { "q": "<p><strong>A:</strong> Cytokinins can delay the ageing of detached leaves.<br><strong>R:</strong> Cytokinins promote nutrient mobilisation and delay senescence (Richmond–Lang effect).</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Delaying senescence is exactly why leaves stay green longer — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

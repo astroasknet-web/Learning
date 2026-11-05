@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": 28,
+  "title": "Polymers",
+  "slug": "polymers",
+  "subtitle": "Polymers for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#d946ef",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "Master Polymers for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Classification and Polymerization",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Classification of Polymers and Types of Polymerization",
+          "concept": "<p><strong>Polymer:</strong> High molecular mass substance formed by joining many small repeating units (monomers).</p><p>$n \\cdot \\text{Monomer} \\xrightarrow{\\text{Polymerization}} \\text{Polymer}$</p><p>Example: $n \\cdot CH_2=CH_2 \\to -(CH_2-CH_2)_n-$ (polyethylene).</p><p><strong>Terminology:</strong></p><ul><li><strong>Monomer:</strong> Repeating unit (small molecule).</li><li><strong>Polymer:</strong> Macromolecule (chain of monomers).</li><li><strong>Degree of polymerization (n):</strong> Number of repeating units.</li><li><strong>Polymer chain:</strong> $-(M)_n-$ where $M$ is the repeating unit.</li></ul><p><strong>Classification of Polymers:</strong></p><p><strong>A. Based on Source:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Description</th><th>Example</th></tr></thead><tbody><tr><td><strong>Natural</strong></td><td>From plants/animals</td><td>Starch, cellulose, proteins, natural rubber, silk, wool, DNA</td></tr><tr><td><strong>Synthetic</strong></td><td>Man-made</td><td>Polyethylene, PVC, nylon, Bakelite</td></tr><tr><td><strong>Semi-synthetic</strong></td><td>Natural polymer chemically modified</td><td>Rayon (cellulose acetate), vulcanized rubber</td></tr></tbody></table><p><strong>B. Based on Structure:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Description</th><th>Example</th></tr></thead><tbody><tr><td><strong>Linear</strong></td><td>Long, straight chains</td><td>High density polyethylene (HDPE), nylon</td></tr><tr><td><strong>Branched</strong></td><td>Side branches off main chain</td><td>Low density polyethylene (LDPE), amylopectin</td></tr><tr><td><strong>Cross-linked</strong></td><td>3D network</td><td>Bakelite, melamine, vulcanized rubber</td></tr></tbody></table><p><strong>C. Based on Mode of Polymerization:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Description</th><th>Example</th></tr></thead><tbody><tr><td><strong>Addition (Chain growth)</strong></td><td>Monomers add successively; no loss of small molecule</td><td>PE, PP, PVC, Teflon</td></tr><tr><td><strong>Condensation (Step growth)</strong></td><td>Monomers combine with loss of small molecule ($H_2O$, $NH_3$, $HCl$, etc.)</td><td>Nylon, Dacron, Bakelite, polyester</td></tr></tbody></table><p><strong>D. Based on Properties:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Description</th><th>Example</th></tr></thead><tbody><tr><td><strong>Elastomers</strong></td><td>Elastic; stretch and return</td><td>Natural rubber, neoprene, buna-S</td></tr><tr><td><strong>Fibres</strong></td><td>Long thread-like; high tensile strength</td><td>Nylon, dacron, silk, cotton</td></tr><tr><td><strong>Thermoplastic</strong></td><td>Soften on heating; can be remolded</td><td>PE, PP, PVC, polystyrene</td></tr><tr><td><strong>Thermosetting</strong></td><td>Harden on heating; cannot remold</td><td>Bakelite, melamine</td></tr></tbody></table><p><strong>E. Based on Molecular Forces:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Intermolecular Force</th><th>Properties</th></tr></thead><tbody><tr><td><strong>Elastomers</strong></td><td>Weak; restoring forces only</td><td>Stretchy</td></tr><tr><td><strong>Fibres</strong></td><td>Strong (H-bond, dipole)</td><td>High tensile strength</td></tr><tr><td><strong>Thermoplastics</strong></td><td>Moderate (van der Waals)</td><td>Soften on heating</td></tr><tr><td><strong>Thermosetting</strong></td><td>Covalent cross-links</td><td>Strong; insoluble after curing</td></tr></tbody></table><p><strong>Types of Polymerization Mechanisms:</strong></p><p><strong>1. Addition Polymerization</strong> (chain growth):</p><ul><li>Free radical: peroxides initiate (most common)</li><li>Cationic: with $H^+$ acids; gives high MW polymer</li><li>Anionic: with organometallic bases (e.g., $RLi$)</li><li>Coordination (Ziegler-Natta): $TiCl_4 + Al(C_2H_5)_3$ — gives stereoregular (isotactic) polymers</li></ul><p><strong>2. Condensation Polymerization</strong> (step growth):</p><ul><li>Two functional groups react and lose small molecule ($H_2O$, $HCl$, etc.).</li><li>Examples: ester formation (polyester), amide formation (polyamide).</li></ul><p><strong>Homo- vs Co-polymers:</strong></p><ul><li><strong>Homopolymer:</strong> Only one monomer type. e.g., polyethylene ($CH_2=CH_2$).</li><li><strong>Copolymer:</strong> Two or more monomers. e.g., buna-S (butadiene + styrene), nylon (different diamine + diacid).</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Distinguish thermoplastic and thermosetting polymers.</p>",
+              "solution": "<table class=\"md-table\"><thead><tr><th>Property</th><th>Thermoplastic</th><th>Thermosetting</th></tr></thead><tbody><tr><td>On heating</td><td>Softens (can remold)</td><td>Hardens (cannot remold)</td></tr><tr><td>Structure</td><td>Linear / branched</td><td>Cross-linked 3D</td></tr><tr><td>Re-cyclable</td><td>Yes</td><td>No</td></tr><tr><td>Examples</td><td>PE, PP, PVC, polystyrene</td><td>Bakelite, melamine</td></tr></tbody></table><p><strong>Final Answer:</strong> Thermoplastics soften on heat; thermosets harden permanently.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is Bakelite thermosetting?</p>",
+              "solution": "<p>Bakelite is formed by condensation of phenol and formaldehyde. The initial product is a linear or branched polymer (novolac/resol).</p><p>On heating, additional condensation occurs creating <strong>cross-links</strong> between chains. These covalent cross-links form a rigid 3D network. Once cured, the polymer is highly stable; reheating only decomposes it without softening.</p><p><strong>Final Answer:</strong> Phenol-formaldehyde forms 3D cross-linked structure on curing → thermosetting.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Polymer made of repeating units of:</p>",
+              "options": [
+                "Monomers",
+                "Atoms",
+                "Ions",
+                "Salts"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Nylon is a:</p>",
+              "options": [
+                "Addition polymer",
+                "Condensation polymer",
+                "Elastomer",
+                "Thermosetting"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Natural polymer:</p>",
+              "options": [
+                "PE",
+                "Cellulose",
+                "Nylon",
+                "PVC"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Thermosetting polymer:</p>",
+              "options": [
+                "PE",
+                "Bakelite",
+                "Rubber",
+                "PP"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Ziegler-Natta catalyst:</p>",
+              "options": [
+                "$TiCl_4 + Al(C_2H_5)_3$",
+                "$H_2SO_4$",
+                "Pt",
+                "$V_2O_5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Addition Polymerization Mechanisms",
+          "concept": "<p><strong>Addition (Chain Growth) Polymerization:</strong></p><p>Mechanism has three steps:</p><ol><li><strong>Initiation:</strong> Active species (radical, cation, anion) generated.</li><li><strong>Propagation:</strong> Active species adds successive monomers.</li><li><strong>Termination:</strong> Two active chain ends combine or disproportionate.</li></ol><p><strong>1. Free Radical Polymerization:</strong></p><p><strong>Initiator:</strong> Benzoyl peroxide, $H_2O_2$, AIBN (azobisisobutyronitrile), $K_2S_2O_8$.</p><p><strong>Mechanism for ethylene → polyethylene:</strong></p><p><strong>Initiation:</strong> $(C_6H_5COO)_2 \\xrightarrow{\\Delta} 2C_6H_5COO^\\bullet \\to 2C_6H_5^\\bullet + 2CO_2$ $C_6H_5^\\bullet + CH_2=CH_2 \\to C_6H_5CH_2CH_2^\\bullet$</p><p><strong>Propagation:</strong> $C_6H_5(CH_2CH_2)_n^\\bullet + CH_2=CH_2 \\to C_6H_5(CH_2CH_2)_{n+1}^\\bullet$ (continues...)</p><p><strong>Termination:</strong></p><ul><li>Coupling: $R^\\bullet + R'^\\bullet \\to R-R'$</li><li>Disproportionation: $R^\\bullet + R'^\\bullet \\to R(-H) + R'(+H)$ (gives alkene + alkane)</li></ul><p><strong>Important Addition Polymers:</strong></p><table class=\"md-table\"><thead><tr><th>Polymer</th><th>Monomer</th><th>Structure</th><th>Uses</th></tr></thead><tbody><tr><td><strong>Polyethylene (PE)</strong></td><td>$CH_2=CH_2$</td><td>$-(CH_2-CH_2)_n-$</td><td>Plastic bags, bottles</td></tr><tr><td>HDPE (high density)</td><td>–</td><td>Linear (Ziegler-Natta)</td><td>Containers, pipes</td></tr><tr><td>LDPE (low density)</td><td>–</td><td>Branched (free radical, high P)</td><td>Films, bags</td></tr><tr><td><strong>Polypropylene (PP)</strong></td><td>$CH_2=CHCH_3$</td><td>$-(CH_2-CH(CH_3))_n-$</td><td>Ropes, carpets</td></tr><tr><td><strong>Polyvinyl Chloride (PVC)</strong></td><td>$CH_2=CHCl$</td><td>$-(CH_2-CHCl)_n-$</td><td>Pipes, gloves, electrical insulation</td></tr><tr><td><strong>Polystyrene (PS)</strong></td><td>$C_6H_5CH=CH_2$</td><td>$-(CH_2-CHC_6H_5)_n-$</td><td>Foam, packaging</td></tr><tr><td><strong>Teflon (PTFE)</strong></td><td>$CF_2=CF_2$</td><td>$-(CF_2-CF_2)_n-$</td><td>Non-stick coatings, gaskets</td></tr><tr><td><strong>PMMA (Acrylic, Plexiglass)</strong></td><td>$CH_2=C(CH_3)COOCH_3$</td><td>–</td><td>Glass alternative, lenses</td></tr><tr><td><strong>Polyacrylonitrile (Orlon)</strong></td><td>$CH_2=CHCN$</td><td>$-(CH_2-CHCN)_n-$</td><td>Synthetic wool, fibers</td></tr><tr><td><strong>Polyvinyl Acetate (PVAc)</strong></td><td>$CH_2=CHOCOCH_3$</td><td>–</td><td>Adhesives, paints</td></tr></tbody></table><p><strong>Vinyl Family</strong> = monomers with $CH_2=CH-X$ structure (X = H for PE; Cl for PVC; etc.).</p><p><strong>2. Cationic Polymerization:</strong></p><ul><li>Initiator: strong acid or Lewis acid ($H^+, BF_3, AlCl_3$).</li><li>Favors electron-rich monomers (isobutylene, vinyl ethers).</li><li>Example: isobutylene + $H^+$ → polyisobutylene (butyl rubber when copolymerized with isoprene).</li></ul><p><strong>3. Anionic Polymerization:</strong></p><ul><li>Initiator: strong base or organometallic (RLi, $NaNH_2$).</li><li>Favors electron-poor monomers (styrene, acrylonitrile).</li><li>Living polymerization: chain ends remain active; can add more monomer later.</li></ul><p><strong>4. Coordination Polymerization (Ziegler-Natta):</strong></p><ul><li>Catalyst: $TiCl_4 + Al(C_2H_5)_3$ (organometallic).</li><li>Produces stereoregular polymers (isotactic, syndiotactic).</li><li>Used for HDPE, isotactic polypropylene.</li></ul><p><strong>Stereoregularity in PP:</strong></p><ul><li><strong>Isotactic:</strong> All -CH₃ on same side; crystalline, high MP, hard.</li><li><strong>Syndiotactic:</strong> Alternating sides; semi-crystalline.</li><li><strong>Atactic:</strong> Random; amorphous, low MP, soft.</li><li>Ziegler-Natta gives isotactic (commercially useful).</li></ul><p><strong>Co-polymers:</strong></p><ul><li><strong>Buna-S (SBR — Styrene-Butadiene Rubber):</strong> Styrene + 1,3-butadiene; used in tires, conveyor belts.</li><li><strong>Buna-N (NBR — Nitrile rubber):</strong> Acrylonitrile + 1,3-butadiene; oil-resistant; used in fuel hoses.</li><li><strong>ABS:</strong> Acrylonitrile + butadiene + styrene; tough plastic for housings (Lego pieces, helmets).</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Show free radical mechanism for polymerization of vinyl chloride.</p>",
+              "solution": "<p><strong>Initiation:</strong> $(C_6H_5COO)_2 \\xrightarrow{\\Delta} 2C_6H_5^\\bullet + 2CO_2$ $C_6H_5^\\bullet + CH_2=CHCl \\to C_6H_5-CH_2-CHCl^\\bullet$</p><p><strong>Propagation:</strong> $C_6H_5-CH_2-CHCl^\\bullet + CH_2=CHCl \\to C_6H_5-CH_2-CHCl-CH_2-CHCl^\\bullet$ (continues n times) $\\to C_6H_5-(CH_2-CHCl)_n^\\bullet$</p><p><strong>Termination:</strong> (coupling) $2 R^\\bullet \\to R-R$</p><p><strong>Final Answer:</strong> Polyvinyl chloride (PVC): $-(CH_2-CHCl)_n-$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Identify the monomer for each polymer: (a) Teflon (b) Polystyrene (c) Polypropylene (d) Acrylic (PMMA)</p>",
+              "solution": "<p>(a) Teflon: $CF_2=CF_2$ (tetrafluoroethene) (b) Polystyrene: $C_6H_5CH=CH_2$ (styrene) (c) Polypropylene: $CH_2=CHCH_3$ (propene) (d) PMMA: $CH_2=C(CH_3)COOCH_3$ (methyl methacrylate)</p><p><strong>Final Answer:</strong> As above.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Free radical initiator:</p>",
+              "options": [
+                "HCl",
+                "Benzoyl peroxide (or AIBN)",
+                "NaCl",
+                "NaOH"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>PVC monomer:</p>",
+              "options": [
+                "$CH_2=CH_2$",
+                "$CH_2=CHCl$",
+                "$CH_2=CCl_2$",
+                "$CHCl=CHCl$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Teflon:</p>",
+              "options": [
+                "$-(CF_2-CF_2)_n-$",
+                "$-(CH_2-CHCl)_n-$",
+                "$-(CH_2-CH_2)_n-$",
+                "Cellulose"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Buna-S contains:</p>",
+              "options": [
+                "Butadiene + styrene",
+                "Butadiene + acrylonitrile",
+                "Isoprene",
+                "Vinyl chloride"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Polypropylene with all $-CH_3$ on same side:</p>",
+              "options": [
+                "Isotactic",
+                "Syndiotactic",
+                "Atactic",
+                "Random"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Important Polymers and Applications",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Condensation Polymers (Nylon, Dacron, Bakelite)",
+          "concept": "<p><strong>Condensation (Step Growth) Polymerization:</strong></p><p>Monomers with two functional groups combine, losing a small molecule (water, methanol, HCl, etc.) per linkage.</p><p>Common reactions:</p><ul><li>Diamine + dicarboxylic acid → polyamide + water</li><li>Diol + dicarboxylic acid → polyester + water</li><li>Diol + diisocyanate → polyurethane (no loss)</li></ul><p><strong>1. Nylon-66:</strong></p><p>Monomers: <strong>hexamethylenediamine</strong> ($H_2N(CH_2)_6NH_2$) + <strong>adipic acid</strong> ($HOOC(CH_2)_4COOH$).</p><p>$nH_2N(CH_2)_6NH_2 + nHOOC(CH_2)_4COOH \\xrightarrow{\\Delta, -H_2O} -[NH(CH_2)_6NHCO(CH_2)_4CO]_n-$</p><p>Properties: strong fibre; H-bonding between amide groups; high MP; tensile strength. Uses: fabrics, ropes, bristles, carpets, fishing nets.</p><p><strong>2. Nylon-6:</strong></p><p>Monomer: <strong>caprolactam</strong> (cyclic amide, $-CO-NH-(CH_2)_5-$).</p><p>$\\text{Caprolactam} \\xrightarrow{\\Delta, \\text{ring opening}} -[NH(CH_2)_5CO]_n-$</p><p>Properties similar to nylon-66; uses similar (tire cords).</p><p><strong>3. Nylon-2-Nylon-6:</strong></p><p>Alternating glycine ($H_2NCH_2COOH$) and aminocaproic acid units. <strong>Biodegradable</strong> because peptide-like bonds are hydrolyzed by enzymes.</p><p><strong>4. Dacron (Terylene, PET — Polyethylene terephthalate):</strong></p><p>Monomers: <strong>ethylene glycol</strong> ($HOCH_2CH_2OH$) + <strong>terephthalic acid</strong> ($HOOC-C_6H_4-COOH$).</p><p>$nHOOC-C_6H_4-COOH + nHOCH_2CH_2OH \\to -[OC-C_6H_4-COOCH_2CH_2O]_n- + 2nH_2O$</p><p>Properties: strong, durable polyester. Uses: clothing (synthetic fibers), bottles (PET water bottles), films, magnetic tape.</p><p><strong>5. Bakelite (Phenol-Formaldehyde):</strong></p><p>Monomers: phenol ($C_6H_5OH$) + formaldehyde (HCHO).</p><p>Two stages: <strong>Stage 1 (Novolac):</strong> Acid-catalyzed; linear or slightly branched polymer. <strong>Stage 2 (Resol/Bakelite):</strong> Heated with more formaldehyde; cross-linking via methylene bridges; forms 3D network.</p><p>$-CH_2-C_6H_4-OH-CH_2-C_6H_4-OH-...$ with cross-linking.</p><p>Properties: hard, infusible, insoluble; thermosetting. Uses: electrical switches, telephone handsets, casings, billiard balls.</p><p><strong>6. Melamine-Formaldehyde:</strong></p><p>Monomers: melamine ($C_3N_3(NH_2)_3$) + formaldehyde. Forms hard, scratch-resistant; cross-linked. Uses: melamine dinnerware (unbreakable plates), Formica.</p><p><strong>7. Urea-Formaldehyde:</strong></p><p>Monomers: urea + formaldehyde. Uses: adhesives, particle board, plywood.</p><p><strong>8. Glyptal (Polyester from Phthalic acid + Glycerol):</strong></p><p>Cross-linked polymer; used in paints, coatings.</p><p><strong>9. Polyurethanes:</strong></p><p>Monomers: diisocyanate (-NCO-NCO) + diol. $R(NCO)_2 + HOCH_2CH_2OH \\to -O-C(=O)NHR-NHC(=O)O-CH_2CH_2-$</p><p>No water loss (urethane group is -OCONH-). Used in foam (mattresses, car seats), spandex (elastic fabric), coatings.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Write structures and uses of nylon-66 and nylon-6.</p>",
+              "solution": "<p><strong>Nylon-66:</strong></p><ul><li>Monomers: hexamethylenediamine $H_2N(CH_2)_6NH_2$ + adipic acid $HOOC(CH_2)_4COOH$</li><li>Polymer: $-[NH(CH_2)_6NHCO(CH_2)_4CO]_n-$</li><li>Uses: garments, carpets, ropes, hosiery.</li></ul><p><strong>Nylon-6:</strong></p><ul><li>Monomer: caprolactam (cyclic amide of 6-aminohexanoic acid)</li><li>Polymer: $-[NH(CH_2)_5CO]_n-$</li><li>Uses: tire cords, ropes, fabrics.</li></ul><p><strong>Final Answer:</strong> As above.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What is the role of glycerol in Glyptal manufacture?</p>",
+              "solution": "<p>Glyptal is made by condensation of <strong>glycerol</strong> ($HOCH_2CH(OH)CH_2OH$, triol) and <strong>phthalic acid</strong> ($1,2$-benzenedicarboxylic acid, diacid).</p><p>Glycerol has 3 -OH groups → can form three ester linkages per molecule, leading to a <strong>cross-linked 3D structure</strong>. This cross-linking gives Glyptal its hard, durable properties suitable for <strong>paints, glazes, and lacquers</strong>.</p><p><strong>Final Answer:</strong> Provides 3 -OH for cross-linking → hard cross-linked polyester.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Nylon-66 from:</p>",
+              "options": [
+                "Caprolactam",
+                "Hexamethylenediamine + adipic acid",
+                "Phenol + HCHO",
+                "Glycol + terephthalic acid"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Dacron is a:</p>",
+              "options": [
+                "Polyamide",
+                "Polyester (PET)",
+                "Polyether",
+                "Polyurethane"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Bakelite is from:</p>",
+              "options": [
+                "Phenol + formaldehyde",
+                "Urea + formaldehyde",
+                "Caprolactam",
+                "Ethylene glycol + acid"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>PET stands for:</p>",
+              "options": [
+                "Polyethylene",
+                "Polyethylene terephthalate (Dacron)",
+                "Polyethylene terephtalde",
+                "Polypropylene"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Cross-linked polymer Glyptal is from:</p>",
+              "options": [
+                "Glycerol + Phthalic acid",
+                "Ethanol + butyric acid",
+                "Methanol + formic acid",
+                "Ethylene + propylene"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Natural Polymers, Rubbers, and Biodegradable Polymers",
+          "concept": "<p><strong>Natural Polymers:</strong></p><table class=\"md-table\"><thead><tr><th>Polymer</th><th>Source</th><th>Composition</th></tr></thead><tbody><tr><td>Cellulose</td><td>Plant cell walls</td><td>$\\beta$(1,4)-glucose</td></tr><tr><td>Starch</td><td>Plant storage</td><td>$\\alpha$(1,4)/(1,6)-glucose</td></tr><tr><td>Glycogen</td><td>Animal storage</td><td>Branched $\\alpha$-glucose</td></tr><tr><td>Proteins</td><td>Animals/plants</td><td>Amino acids</td></tr><tr><td>DNA, RNA</td><td>All cells</td><td>Nucleotides</td></tr><tr><td>Natural rubber</td><td>Hevea tree</td><td>cis-1,4-polyisoprene</td></tr><tr><td>Silk</td><td>Silkworm</td><td>Fibroin (β-pleated sheet of glycine, alanine)</td></tr><tr><td>Wool</td><td>Sheep</td><td>Keratin (α-helix of cysteine-rich amino acids)</td></tr></tbody></table><p><strong>Natural Rubber:</strong></p><ul><li><strong>Monomer:</strong> Isoprene (2-methyl-1,3-butadiene), $CH_2=C(CH_3)-CH=CH_2$</li><li><strong>Polymer:</strong> cis-1,4-polyisoprene</li><li>Structure: long, irregular chains; <strong>cis</strong> double bonds give the random coiled structure → elastic.</li></ul><p>Source: latex from rubber tree (Hevea brasiliensis); coagulated with acid.</p><p><strong>Properties of natural rubber:</strong></p><ul><li>Soft, tacky in summer; hard in winter</li><li>Low tensile strength</li><li>Soluble in petroleum solvents</li><li>Reacts with $O_2$, becomes brittle</li></ul><p><strong>Vulcanization:</strong></p><p>Heating natural rubber with sulfur (~$5\\%$ S) at $373$ K introduces <strong>S-S cross-links</strong> between polyisoprene chains.</p><p>Result:</p><ul><li>Increased tensile strength, hardness</li><li>Reduces stickiness</li><li>Resistant to wear</li><li>Used in tires (more S → harder rubber for tires; less S → softer)</li></ul><p><strong>Synthetic Rubbers:</strong></p><table class=\"md-table\"><thead><tr><th>Rubber</th><th>Monomer(s)</th><th>Use</th></tr></thead><tbody><tr><td><strong>Neoprene</strong></td><td>Chloroprene (2-chloro-1,3-butadiene)</td><td>Hoses, conveyor belts, oil-resistant</td></tr><tr><td><strong>Buna-S (SBR)</strong></td><td>1,3-Butadiene + styrene</td><td>Tires, conveyor belts</td></tr><tr><td><strong>Buna-N (NBR)</strong></td><td>1,3-Butadiene + acrylonitrile</td><td>Oil-resistant; fuel lines, gaskets</td></tr><tr><td><strong>Butyl rubber</strong></td><td>Isobutylene + 1-2% isoprene (for cross-linking)</td><td>Inner tubes, balloons</td></tr><tr><td><strong>Silicone rubber</strong></td><td>Polysiloxane</td><td>Heat-resistant; medical implants</td></tr></tbody></table><p><strong>Biodegradable Polymers:</strong></p><p>Conventional plastics persist in environment for centuries (causing pollution). Biodegradable polymers decompose via:</p><ul><li>Microbial action (enzymes break ester/amide bonds)</li><li>UV light</li><li>Hydrolysis</li></ul><p><strong>Examples:</strong></p><table class=\"md-table\"><thead><tr><th>Polymer</th><th>Structure</th><th>Use</th></tr></thead><tbody><tr><td><strong>PHBV (Poly-β-hydroxybutyrate-co-β-hydroxyvalerate)</strong></td><td>Copolymer of 3-hydroxybutyric acid + 3-hydroxypentanoic acid</td><td>Drug delivery, packaging</td></tr><tr><td><strong>Nylon-2-Nylon-6</strong></td><td>Glycine + aminocaproic acid</td><td>Bandages</td></tr><tr><td><strong>PGA (Polyglycolic acid)</strong></td><td>Glycolic acid</td><td>Surgical sutures (dissolves in body)</td></tr><tr><td><strong>PLA (Polylactic acid)</strong></td><td>Lactic acid</td><td>Implants, bottles</td></tr><tr><td><strong>PLGA</strong></td><td>Mix of PLA + PGA</td><td>Drug delivery, sutures</td></tr></tbody></table><p><strong>Environmental Importance:</strong></p><ul><li>Replace non-biodegradable plastics (PE, PP)</li><li>Compost back to $CO_2 + H_2O$</li><li>Sustainable materials</li></ul><p><strong>Molecular Mass of Polymers:</strong></p><p>Two types:</p><ul><li><strong>Number-average molecular mass ($\\bar{M}_n$):</strong> $\\bar{M}_n = \\frac{\\sum n_i M_i}{\\sum n_i}$ where $n_i$ = number of molecules of mass $M_i$.</li><li><strong>Weight-average molecular mass ($\\bar{M}_w$):</strong> $\\bar{M}_w = \\frac{\\sum n_i M_i^2}{\\sum n_i M_i}$.</li></ul><p>$\\bar{M}_w \\geq \\bar{M}_n$. <strong>Polydispersity Index (PDI)</strong> = $\\bar{M}_w / \\bar{M}_n$. PDI = 1 means uniform (monodisperse, all chains same length); > 1 means range of lengths.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Explain vulcanization of rubber.</p>",
+              "solution": "<p><strong>Natural rubber</strong> is cis-1,4-polyisoprene; soft, tacky, weak.</p><p><strong>Process:</strong> Heat rubber with sulfur ($\\sim 5\\%$) at $373$ K (sometimes with accelerators like ZnO, mercaptobenzothiazole).</p><p><strong>Effect:</strong> Sulfur forms <strong>S-S cross-links</strong> between polymer chains (especially at allylic carbons next to C=C). Cross-links lock chains in place; restrict slippage.</p><p><strong>Result:</strong></p><ul><li>Increased tensile strength, hardness, elasticity</li><li>Reduced stickiness, T-sensitivity</li><li>Resistance to wear</li></ul><p><strong>Uses:</strong> Tires (more S → harder), rubber bands, hoses (less S → softer).</p><p><strong>Final Answer:</strong> Sulfur creates S-S cross-links → harder, stronger, more elastic rubber.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is PHBV biodegradable while PE is not?</p>",
+              "solution": "<p><strong>PHBV (Poly-β-hydroxybutyrate-co-β-hydroxyvalerate):</strong></p><ul><li>Contains <strong>ester bonds</strong> (-CO-O-) linking monomers.</li><li>Microorganisms produce enzymes (esterases) that hydrolyze ester bonds.</li><li>Breaks down to small carboxylic acids, eventually to $CO_2 + H_2O$.</li></ul><p><strong>Polyethylene (PE):</strong></p><ul><li>Contains only <strong>C-C bonds</strong> and C-H bonds.</li><li>No enzymes can break C-C bond efficiently.</li><li>Inert; persists in environment for centuries.</li></ul><p><strong>Final Answer:</strong> PHBV has ester linkages cleavable by microbial enzymes; PE has only C-C bonds.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Natural rubber is:</p>",
+              "options": [
+                "cis-1,4-polyisoprene",
+                "trans-polyisoprene",
+                "Polystyrene",
+                "Polyethylene"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Vulcanization uses:</p>",
+              "options": [
+                "Cl₂",
+                "S (sulfur)",
+                "Br₂",
+                "HCl"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Neoprene monomer:</p>",
+              "options": [
+                "Isoprene",
+                "Chloroprene",
+                "Vinyl chloride",
+                "Styrene"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Biodegradable polymer:</p>",
+              "options": [
+                "PE",
+                "PVC",
+                "PHBV",
+                "PMMA"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Cellulose has bond:</p>",
+              "options": [
+                "$\\alpha(1,4)$",
+                "$\\beta(1,4)$",
+                "$\\alpha(1,6)$",
+                "Random"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-chem-polymers-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>Polymer is:</p>",
+              "options": [
+                "Macromolecule of repeating units",
+                "Single molecule",
+                "Ion",
+                "Crystal"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Polyethylene is:</p>",
+              "options": [
+                "Addition polymer",
+                "Condensation",
+                "Natural",
+                "Cross-linked"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Nylon-66 has linkage:</p>",
+              "options": [
+                "Ester (-COO-)",
+                "Amide (-CONH-)",
+                "Ether (-O-)",
+                "Urea"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Bakelite is:</p>",
+              "options": [
+                "Thermoplastic",
+                "Thermosetting",
+                "Elastomer",
+                "Fibre"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Free radical polymerization of vinyl chloride:</p>",
+              "options": [
+                "Anionic",
+                "Cationic",
+                "Free radical with peroxide initiator",
+                "Coordination"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Ziegler-Natta gives:</p>",
+              "options": [
+                "Isotactic polypropylene (stereoregular)",
+                "Atactic only",
+                "Random",
+                "No effect"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Vulcanization improves:</p>",
+              "options": [
+                "Elasticity, strength, hardness",
+                "Color only",
+                "Smell",
+                "Solubility"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Teflon contains:</p>",
+              "options": [
+                "Cl",
+                "F (fluorine)",
+                "S",
+                "N"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Glyptal is from:</p>",
+              "options": [
+                "Phenol + HCHO",
+                "Glycerol + phthalic acid",
+                "Caprolactam",
+                "Adipic acid"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>PET (Dacron) is used in:</p>",
+              "options": [
+                "Tires",
+                "Plastic water bottles, synthetic clothing",
+                "Tube",
+                "Stamp"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Number of monomers in homopolymer (per repeating unit, typically):</p>",
+              "answer": "1",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Carbons per monomer in ethylene:</p>",
+              "answer": "2",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of -OH groups per glycerol molecule:</p>",
+              "answer": "3",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Bakelite cannot be remolded after curing. <strong>Reason (R):</strong> It is a thermosetting polymer with extensive 3D cross-linking; reheating decomposes rather than softens it.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> Natural rubber becomes soft and sticky in summer. <strong>Reason (R):</strong> Natural rubber has weak intermolecular forces between linear chains; chains slide past each other on heating.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

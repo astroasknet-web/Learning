@@ -1,0 +1,771 @@
+{
+  "exam": "ap",
+  "subject": "calculus-ab",
+  "chapter": 4,
+  "title": "Contextual Applications of Differentiation",
+  "slug": "contextual-applications",
+  "subtitle": "AP Calculus AB — Unit 4",
+  "level": "AP Calculus AB",
+  "color": "#f59e0b",
+  "icon": "math",
+  "seo": {
+    "title": "Contextual Applications of Differentiation — AP Calculus AB | GrowQR",
+    "meta_description": "Master Contextual Applications of Differentiation for AP Calculus AB: notes, formulas, worked examples, self-check MCQs and mock tests. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Foundations & Definitions",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Overview, Objectives & Key Definitions",
+          "concept": "<h2>Unit Overview</h2>\n<p>Having learned <em>how</em> to differentiate, this unit is about <em>what derivatives mean</em> in the real world. A derivative is a <strong>rate of change</strong>, and interpreting it correctly — with units and direction — is a core AP skill. You will study <strong>motion</strong> (position, velocity, acceleration), <strong>related rates</strong> (how linked quantities change together in time), <strong>linearization</strong> (using a tangent line to approximate), and <strong>L&#39;Hôpital&#39;s Rule</strong> (using derivatives to resolve indeterminate limits).</p>\n<p>This unit is heavy on interpretation and problem set-up. On the exam it is a frequent source of free-response questions.</p>\n<p><strong>Big picture:</strong> A derivative carries <strong>units of output per unit of input</strong> and tells you both <strong>how fast</strong> and <strong>which direction</strong> a quantity is changing.</p>\n<hr>\n<h2>Learning Objectives</h2>\n<ul>\n<li>Interpret a derivative&#39;s <strong>value, sign, and units</strong> in context.</li>\n<li>Analyze <strong>rectilinear motion</strong>: relate position, velocity, acceleration, speed, and displacement.</li>\n<li>Set up and solve <strong>related-rates</strong> problems.</li>\n<li>Use <strong>local linearity / linearization</strong> to approximate function values.</li>\n<li>Apply <strong>L&#39;Hôpital&#39;s Rule</strong> to indeterminate forms <code>0/0</code> and <code>∞/∞</code>.</li>\n</ul>\n<hr>\n<h2>Prerequisite Concepts</h2>\n<ul>\n<li>Fluent differentiation, especially the <strong>Chain Rule</strong> (Unit 3) — essential for related rates.</li>\n<li>Geometry formulas (area, volume, Pythagoras, similar triangles).</li>\n<li>Indeterminate forms from Unit 1.</li>\n</ul>\n<hr>\n<h2>Key Definitions</h2>\n<ul>\n<li><strong>Rate of change in context:</strong> <code>f&#39;(a)</code> has units of (units of f) per (unit of x); its <strong>sign</strong> tells direction (increasing/decreasing).</li>\n<li><strong>Velocity:</strong> <code>v(t) = s&#39;(t)</code>. <strong>Acceleration:</strong> <code>a(t) = v&#39;(t) = s&#39;&#39;(t)</code>. <strong>Speed:</strong> <code>|v(t)|</code>.</li>\n<li><strong>Displacement:</strong> net change in position. <strong>At rest:</strong> <code>v(t) = 0</code>.</li>\n<li><strong>Related rates:</strong> quantities linked by an equation, each changing with time; differentiate the relation with respect to t.</li>\n<li><strong>Linearization of f at a:</strong> <code>L(x) = f(a) + f&#39;(a)(x − a)</code> (the tangent-line approximation).</li>\n<li><strong>Indeterminate form:</strong> an expression like <code>0/0</code> or <code>∞/∞</code> whose value is not determined by the parts alone.</li>\n</ul>\n<hr>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "The volume of water in a tank is V(t) liters after t minutes. What are the units of V'(t)?",
+              "options": [
+                "liters per minute",
+                "liters",
+                "minutes per liter",
+                "liters per minute squared"
+              ],
+              "correct": 0,
+              "explanation": "A derivative has units of (units of output) per (unit of input): liters per minute."
+            },
+            {
+              "q": "A cup of coffee cools so that its temperature is T(t) degrees Celsius after t minutes. T'(5) = -2 means:",
+              "options": [
+                "The coffee is cooling at 2 C per minute at t = 5",
+                "The coffee is 2 C at t = 5",
+                "The coffee is warming at 2 C per minute",
+                "The temperature is -2 C"
+              ],
+              "correct": 0,
+              "explanation": "A negative derivative means the quantity is decreasing; T'(5) = -2 means the temperature is falling at 2 C per minute at t = 5."
+            },
+            {
+              "q": "The height of a plant is h(t) cm after t days. h'(t) represents:",
+              "options": [
+                "The growth rate of the plant in cm per day",
+                "The total height in cm",
+                "The number of days",
+                "The plant's age"
+              ],
+              "correct": 0,
+              "explanation": "h'(t) is the instantaneous rate of change of height with respect to time, i.e., the growth rate in cm/day."
+            },
+            {
+              "q": "A particle moves with position s(t) = t^2 - 4t. What is its velocity function v(t)?",
+              "options": [
+                "2t - 4",
+                "2t",
+                "t^2 - 4",
+                "2"
+              ],
+              "correct": 0,
+              "explanation": "Velocity is the derivative of position: v(t) = s'(t) = 2t - 4."
+            },
+            {
+              "q": "If v(t) is velocity, what is the acceleration a(t)?",
+              "options": [
+                "v'(t)",
+                "the integral of v(t)",
+                "v(t)/t",
+                "s(t)"
+              ],
+              "correct": 0,
+              "explanation": "Acceleration is the derivative of velocity: a(t) = v'(t) = s''(t)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Theorems & Formulas",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Important Theorems & Formulas",
+          "concept": "<h2>Important Theorems / Rules</h2>\n<p><strong>L&#39;Hôpital&#39;s Rule:</strong> If <code>lim f/g</code> gives <code>0/0</code> or <code>∞/∞</code> and the limits of f&#39; and g&#39; behave, then\n<code>lim f(x)/g(x) = lim f&#39;(x)/g&#39;(x)</code>.\nCheck the indeterminate form <strong>before</strong> applying; a form like <code>1/0</code> is <em>not</em> indeterminate.</p>\n<p><strong>Speeding up / slowing down:</strong> a particle is <strong>speeding up</strong> when v and a have the <strong>same sign</strong>, and <strong>slowing down</strong> when they have <strong>opposite signs</strong>.</p>\n<hr>\n<h2>Important Theorems / Rules</h2>\n<p><strong>L&#39;Hôpital&#39;s Rule:</strong> If <code>lim f/g</code> gives <code>0/0</code> or <code>∞/∞</code> and the limits of f&#39; and g&#39; behave, then\n<code>lim f(x)/g(x) = lim f&#39;(x)/g&#39;(x)</code>.\nCheck the indeterminate form <strong>before</strong> applying; a form like <code>1/0</code> is <em>not</em> indeterminate.</p>\n<p><strong>Speeding up / slowing down:</strong> a particle is <strong>speeding up</strong> when v and a have the <strong>same sign</strong>, and <strong>slowing down</strong> when they have <strong>opposite signs</strong>.</p>\n<hr>\n<h2>Important Formulas</h2>\n<ul>\n<li>Linearization: <code>L(x) = f(a) + f&#39;(a)(x − a)</code>; differential <code>dy = f&#39;(x) dx</code>.</li>\n<li>Common related-rates relations (differentiate w.r.t. t):<ul>\n<li>Circle area <code>A = πr²</code> → <code>dA/dt = 2πr (dr/dt)</code></li>\n<li>Sphere volume <code>V = (4/3)πr³</code> → <code>dV/dt = 4πr² (dr/dt)</code></li>\n<li>Cube volume <code>V = s³</code> → <code>dV/dt = 3s² (ds/dt)</code></li>\n<li>Right-triangle / Pythagoras <code>x² + y² = z²</code> → <code>2x(dx/dt) + 2y(dy/dt) = 2z(dz/dt)</code></li>\n</ul>\n</li>\n</ul>\n<hr>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "If C(x) is the cost in dollars to produce x items, what does C'(200) = 3 mean?",
+              "options": [
+                "Producing the 200th item costs about $3 more (marginal cost is $3/item)",
+                "It costs $3 to produce 200 items",
+                "The total cost is $600",
+                "The cost is decreasing"
+              ],
+              "correct": 0,
+              "explanation": "C'(x) is the marginal cost, the approximate cost of producing one additional item. C'(200) = 3 means the cost is rising by about $3 per item at x = 200."
+            },
+            {
+              "q": "A population P(t) satisfies P(10) = 5000 and P'(10) = 120. Approximately what is P(11)?",
+              "options": [
+                "5120",
+                "5000",
+                "6200",
+                "4880"
+              ],
+              "correct": 0,
+              "explanation": "Using the local linear approximation, P(11) ≈ P(10) + P'(10)(1) = 5000 + 120 = 5120."
+            },
+            {
+              "q": "If f'(a) > 0 at a point a, what can be concluded about f near a?",
+              "options": [
+                "f is increasing at a",
+                "f is decreasing at a",
+                "f has a maximum at a",
+                "f is constant"
+              ],
+              "correct": 0,
+              "explanation": "A positive derivative indicates that the function is increasing at that point."
+            },
+            {
+              "q": "The number of bacteria is N(t) after t hours. If N'(3) = 400, the units are:",
+              "options": [
+                "bacteria per hour",
+                "bacteria",
+                "hours per bacterium",
+                "bacteria per hour squared"
+              ],
+              "correct": 0,
+              "explanation": "The derivative measures how fast the count changes with time: bacteria per hour."
+            },
+            {
+              "q": "A particle has position s(t) = t^2 - 4t. At what time t is the particle at rest?",
+              "options": [
+                "t = 2",
+                "t = 0",
+                "t = 4",
+                "t = -2"
+              ],
+              "correct": 0,
+              "explanation": "The particle is at rest when v(t) = 2t - 4 = 0, which gives t = 2."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Concepts & Worked Examples",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Concept Explanations & Solved Examples",
+          "concept": "<h2>Concept Explanations</h2>\n<p><strong>Interpreting derivatives (4.1).</strong> Always attach <strong>units</strong> and read the <strong>sign</strong>. If <code>T(t)</code> is temperature in °C after t minutes, then <code>T&#39;(5) = −2</code> means &quot;cooling at 2 °C per minute at t = 5.&quot; A second derivative describes how the rate itself is changing (e.g., increasing at a decreasing rate).</p>\n<p><strong>Motion (4.2).</strong> Differentiate position to get velocity, again to get acceleration. Watch the distinction between <strong>displacement</strong> (integral/net of velocity, can be negative) and <strong>total distance</strong> (accounts for turnarounds where v = 0). Use the same-sign rule to decide speeding up vs. slowing down.</p>\n<p><strong>Related rates (4.4–4.5) — the standard method:</strong></p>\n<ol>\n<li>Draw and label; identify which rates are given and which is wanted.</li>\n<li>Write an <strong>equation relating the variables</strong> (geometry).</li>\n<li><strong>Differentiate both sides with respect to t</strong> (Chain Rule everywhere).</li>\n<li><strong>Substitute</strong> the known instantaneous values <strong>last</strong> — never before differentiating.</li>\n<li>Solve for the unknown rate; include units.</li>\n</ol>\n<p><strong>Linearization (4.6).</strong> Near x = a, a smooth curve looks like its tangent line. Use <code>L(x)</code> to approximate hard values (e.g., √4.1 ≈ 2.025). For a <strong>concave-up</strong> function the tangent lies below the curve, so the estimate is an <strong>underestimate</strong>; concave-down gives an <strong>overestimate</strong>.</p>\n<p><strong>L&#39;Hôpital&#39;s Rule (4.7).</strong> When substitution yields <code>0/0</code> or <code>∞/∞</code>, differentiate top and bottom separately and re-evaluate; repeat if still indeterminate. It elegantly recovers the fundamental limits, e.g. <code>lim_{x→0} sin x / x = lim cos x / 1 = 1</code>.</p>\n<hr>\n<h2>Worked Examples</h2>\n<p><strong>Example 1 (Motion — distance).</strong> For <code>s(t) = t³ − 6t² + 9t + 1</code>, find total distance on [0, 2]. <code>v(t) = 3(t−1)(t−3)</code>, so it turns at t = 1. <code>s(0) = 1, s(1) = 5, s(2) = 3</code>. Distance = <code>|5 − 1| + |3 − 5| = 4 + 2 = 6</code>.</p>\n<p><strong>Example 2 (Speeding up?).</strong> <code>v(t) = t² − 4</code>, <code>a(t) = 2t</code>. At t = 3: v = 5 &gt; 0 and a = 6 &gt; 0 — same sign — so the particle is <strong>speeding up</strong>.</p>\n<p><strong>Example 3 (Related rates — balloon).</strong> Air enters a sphere at 100 cm³/s. How fast is r growing when r = 5? <code>dV/dt = 4πr²(dr/dt)</code> → <code>100 = 4π(25)(dr/dt) = 100π(dr/dt)</code> → <code>dr/dt = 1/π</code> cm/s.</p>\n<p><strong>Example 4 (Related rates — ladder).</strong> A 10-ft ladder&#39;s base slides out at 2 ft/s. When the base is 6 ft out, the top is 8 ft up. <code>2x·x&#39; + 2y·y&#39; = 0</code> → <code>2(6)(2) + 2(8)(y&#39;) = 0</code> → <code>y&#39; = −1.5</code> ft/s (sliding down).</p>\n<p><strong>Example 5 (Linearization).</strong> Approximate √4.1 with <code>f(x) = √x</code> at a = 4: <code>f&#39;(4) = 1/4</code>, so <code>L(4.1) = 2 + (1/4)(0.1) = 2.025</code>.</p>\n<p><strong>Example 6 (L&#39;Hôpital).</strong> <code>lim_{x→0} (1 − cos x)/x²</code> = (0/0) → <code>lim sin x/(2x)</code> = (0/0) → <code>lim cos x/2 = 1/2</code>.</p>\n<hr>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "A particle moves along a line with s(t) = t^3 - 6t^2 + 9t. On what interval is the particle moving to the right (v > 0)?",
+              "options": [
+                "t < 1 or t > 3",
+                "1 < t < 3",
+                "t > 3 only",
+                "t < 3"
+              ],
+              "correct": 0,
+              "explanation": "v(t) = 3t^2 - 12t + 9 = 3(t - 1)(t - 3). This is positive when t < 1 or t > 3."
+            },
+            {
+              "q": "The position of an object is s(t) = -16t^2 + 64t (feet). What is its velocity at t = 1 second?",
+              "options": [
+                "32 ft/s",
+                "48 ft/s",
+                "64 ft/s",
+                "-32 ft/s"
+              ],
+              "correct": 0,
+              "explanation": "v(t) = -32t + 64. At t = 1, v(1) = -32 + 64 = 32 ft/s."
+            },
+            {
+              "q": "An object is thrown upward with s(t) = -16t^2 + 64t. At what time does it reach its maximum height?",
+              "options": [
+                "t = 2 s",
+                "t = 4 s",
+                "t = 1 s",
+                "t = 3 s"
+              ],
+              "correct": 0,
+              "explanation": "Maximum height occurs when v(t) = -32t + 64 = 0, giving t = 2 seconds."
+            },
+            {
+              "q": "The speed of a particle is defined as:",
+              "options": [
+                "|v(t)|, the absolute value of velocity",
+                "v(t)",
+                "a(t)",
+                "s(t)"
+              ],
+              "correct": 0,
+              "explanation": "Speed is the magnitude of velocity, |v(t)|; it is always nonnegative and ignores direction."
+            },
+            {
+              "q": "A spherical balloon's volume is V = (4/3) pi r^3. The rate dV/dr equals:",
+              "options": [
+                "4 pi r^2",
+                "4 pi r",
+                "(4/3) pi r^2",
+                "pi r^2"
+              ],
+              "correct": 0,
+              "explanation": "d/dr [(4/3) pi r^3] = (4/3) pi * 3 r^2 = 4 pi r^2 (which is the surface area)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Graphs, Pitfalls & AP Exam Tips",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Graphical Interpretation, Common Mistakes & Tips",
+          "concept": "<h2>Graphical Interpretation</h2>\n<ul>\n<li>The <strong>velocity graph</strong>&#39;s sign shows direction of motion; its zeros mark turning points; its own slope is acceleration.</li>\n<li><strong>Linearization</strong> is literally the tangent line; the approximation error grows with distance from a and with the curve&#39;s concavity.</li>\n<li>A quantity increasing <strong>at a decreasing rate</strong> has <code>f&#39; &gt; 0, f&#39;&#39; &lt; 0</code> — rising but leveling off.</li>\n</ul>\n<hr>\n<h2>Common Mistakes</h2>\n<ul>\n<li><strong>Omitting units</strong> or misreading the sign of a rate in context.</li>\n<li><strong>Confusing displacement with total distance</strong> (forgetting to split at v = 0).</li>\n<li><strong>Substituting numbers before differentiating</strong> in related rates — this freezes variables that are actually changing.</li>\n<li><strong>Forgetting the Chain Rule</strong> (<code>dr/dt</code>, <code>dh/dt</code>, …) when differentiating a related-rates relation.</li>\n<li><strong>Applying L&#39;Hôpital to a non-indeterminate form</strong> (e.g., <code>1/0</code>), or forgetting to re-check the form after one application.</li>\n</ul>\n<hr>\n<h2>AP Exam Tips</h2>\n<ul>\n<li>Related-rates and motion questions are <strong>free-response staples</strong> — practice clean set-ups and always state units.</li>\n<li>Justify &quot;speeding up/slowing down&quot; by <strong>comparing the signs of v and a</strong> explicitly.</li>\n<li>For approximations, state the <strong>linearization</strong> and note whether it&#39;s an over- or under-estimate using concavity.</li>\n<li>Confirm the <strong>indeterminate form</strong> in writing before using L&#39;Hôpital&#39;s Rule.</li>\n</ul>\n<hr>\n<h2>Unit Summary</h2>\n<ul>\n<li>A derivative in context has <strong>units and a sign</strong> — interpret both.</li>\n<li><strong>Motion:</strong> v = s&#39;, a = v&#39;; speed = |v|; distance splits at v = 0; same-sign v, a ⇒ speeding up.</li>\n<li><strong>Related rates:</strong> relate → differentiate in t → substitute last.</li>\n<li><strong>Linearization</strong> <code>L(x) = f(a) + f&#39;(a)(x − a)</code> approximates near a; concavity decides over/under.</li>\n<li><strong>L&#39;Hôpital&#39;s Rule</strong> resolves <code>0/0</code> and <code>∞/∞</code> by differentiating top and bottom.</li>\n</ul>\n<p><em>Next unit:</em> use derivatives to analyze the <strong>shape of graphs</strong> — extrema, concavity, and optimization.</p>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Water flows into a tank at a rate R(t) = t^2 gallons per minute. What does R'(t) represent?",
+              "options": [
+                "How fast the inflow rate itself is changing (gallons per minute per minute)",
+                "The total gallons in the tank",
+                "The gallons per minute flowing in",
+                "The volume of the tank"
+              ],
+              "correct": 0,
+              "explanation": "R(t) is already a rate (gallons/min). Its derivative R'(t) is the rate of change of that rate, with units gallons per minute per minute."
+            },
+            {
+              "q": "A particle has v(t) = t^2 - 4 and a(t) = 2t. At t = 3, is the particle speeding up or slowing down?",
+              "options": [
+                "Speeding up (v and a are both positive)",
+                "Slowing down",
+                "At rest",
+                "Moving left"
+              ],
+              "correct": 0,
+              "explanation": "At t = 3: v(3) = 5 > 0 and a(3) = 6 > 0. Since velocity and acceleration have the same sign, the particle is speeding up."
+            },
+            {
+              "q": "A particle has velocity v(t) = t^2 - 2t. At t = 3, the particle is:",
+              "options": [
+                "moving right and speeding up",
+                "moving right and slowing down",
+                "moving left and speeding up",
+                "at rest"
+              ],
+              "correct": 0,
+              "explanation": "v(3) = 9 - 6 = 3 > 0 (moving right). a(t) = 2t - 2, so a(3) = 4 > 0. Same sign as v, so speeding up."
+            },
+            {
+              "q": "A particle has position s(t) = t^3 - 3t^2 - 9t. On what interval is it slowing down?",
+              "options": [
+                "t < -1 and 1 < t < 3",
+                "t > 3",
+                "-1 < t < 1",
+                "always speeding up"
+              ],
+              "correct": 0,
+              "explanation": "v(t) = 3t^2 - 6t - 9 = 3(t-3)(t+1), zero at t = -1, 3. a(t) = 6t - 6, zero at t = 1. Slowing down where v and a have opposite signs: for t < -1 (v>0? check: at t=-2 v=3(−5)(−1)=15>0, a=−18<0 → opposite → slowing) and 1 < t < 3 (v<0, a>0 → opposite → slowing)."
+            },
+            {
+              "q": "The temperature of an object is T(t) = 20 + 60e^(-0.1t) degrees. What is the rate of temperature change at t = 0?",
+              "options": [
+                "-6 degrees per unit time",
+                "-60 degrees per unit time",
+                "6 degrees per unit time",
+                "-0.6 degrees per unit time"
+              ],
+              "correct": 0,
+              "explanation": "T'(t) = 60 * (-0.1) e^(-0.1t) = -6 e^(-0.1t). At t = 0, T'(0) = -6."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "contextual-applications-test-1",
+      "title": "Practice Set A",
+      "level": "Standard",
+      "time_limit_minutes": 30,
+      "total": 20,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Multiple Choice",
+          "questions": [
+            {
+              "q": "For the area of a circle A = pi r^2, what is dA/dt in terms of dr/dt?",
+              "options": [
+                "2 pi r (dr/dt)",
+                "pi r^2 (dr/dt)",
+                "2 pi r",
+                "pi (dr/dt)"
+              ],
+              "correct": 0,
+              "explanation": "Differentiating A = pi r^2 with respect to t: dA/dt = 2 pi r (dr/dt)."
+            },
+            {
+              "q": "In a related-rates problem, the first step is usually to:",
+              "options": [
+                "Write an equation relating the variables, then differentiate with respect to time",
+                "Substitute numbers before differentiating",
+                "Integrate the equation",
+                "Solve for a maximum"
+              ],
+              "correct": 0,
+              "explanation": "You relate the quantities with an equation, differentiate implicitly with respect to t, and only then substitute the known instantaneous values."
+            },
+            {
+              "q": "The linearization of f at x = a is given by:",
+              "options": [
+                "L(x) = f(a) + f'(a)(x - a)",
+                "L(x) = f'(a)(x - a)",
+                "L(x) = f(a)(x - a)",
+                "L(x) = f(a) + f(a)(x - a)"
+              ],
+              "correct": 0,
+              "explanation": "The linearization (tangent-line approximation) at x = a is L(x) = f(a) + f'(a)(x - a)."
+            },
+            {
+              "q": "L'Hopital's Rule can be applied directly to a limit only when it has which indeterminate form?",
+              "options": [
+                "0/0 or infinity/infinity",
+                "0 * infinity",
+                "1/0",
+                "any limit"
+              ],
+              "correct": 0,
+              "explanation": "L'Hopital's Rule applies to indeterminate quotients of the form 0/0 or infinity/infinity."
+            },
+            {
+              "q": "If g(x) measures the distance (miles) traveled after x hours, the units of g'(x) are:",
+              "options": [
+                "miles per hour",
+                "hours per mile",
+                "miles",
+                "hours"
+              ],
+              "correct": 0,
+              "explanation": "The derivative gives distance per unit time: miles per hour (a speed)."
+            },
+            {
+              "q": "A particle moving along a line is momentarily at rest when:",
+              "options": [
+                "v(t) = 0",
+                "a(t) = 0",
+                "s(t) = 0",
+                "v(t) is maximum"
+              ],
+              "correct": 0,
+              "explanation": "The particle is at rest exactly when its velocity is zero."
+            },
+            {
+              "q": "When differentiating a related-rates equation, every variable is treated as a function of:",
+              "options": [
+                "time t",
+                "x only",
+                "a constant",
+                "itself"
+              ],
+              "correct": 0,
+              "explanation": "In related rates, quantities change over time, so each variable is differentiated with respect to time t (implicit differentiation)."
+            },
+            {
+              "q": "The revenue from selling x units is R(x) = 50x - 0.1x^2 dollars. What is the marginal revenue at x = 100?",
+              "options": [
+                "$30 per unit",
+                "$50 per unit",
+                "$40 per unit",
+                "$20 per unit"
+              ],
+              "correct": 0,
+              "explanation": "R'(x) = 50 - 0.2x. At x = 100, R'(100) = 50 - 20 = 30 dollars per unit."
+            },
+            {
+              "q": "A population grows according to P(t) = 200 + 30t - t^2 (t in years). At what rate is the population changing at t = 5?",
+              "options": [
+                "20 per year",
+                "30 per year",
+                "-10 per year",
+                "10 per year"
+              ],
+              "correct": 0,
+              "explanation": "P'(t) = 30 - 2t. At t = 5, P'(5) = 30 - 10 = 20 per year."
+            },
+            {
+              "q": "The area of a circle is A = pi r^2. When r = 5, dA/dr equals:",
+              "options": [
+                "10 pi",
+                "25 pi",
+                "5 pi",
+                "2 pi"
+              ],
+              "correct": 0,
+              "explanation": "dA/dr = 2 pi r. At r = 5, this is 10 pi (the circumference)."
+            },
+            {
+              "q": "For a sphere V = (4/3) pi r^3, what is dV/dt in terms of dr/dt?",
+              "options": [
+                "4 pi r^2 (dr/dt)",
+                "(4/3) pi r^2 (dr/dt)",
+                "4 pi r (dr/dt)",
+                "pi r^2 (dr/dt)"
+              ],
+              "correct": 0,
+              "explanation": "Differentiating with respect to t: dV/dt = 4 pi r^2 (dr/dt)."
+            },
+            {
+              "q": "Given x^2 + y^2 = 100 with x and y functions of t, what equation relates dx/dt and dy/dt?",
+              "options": [
+                "2x(dx/dt) + 2y(dy/dt) = 0",
+                "x(dx/dt) = y(dy/dt)",
+                "2x + 2y = 0",
+                "dx/dt + dy/dt = 0"
+              ],
+              "correct": 0,
+              "explanation": "Differentiating both sides with respect to t: 2x(dx/dt) + 2y(dy/dt) = 0."
+            },
+            {
+              "q": "The volume of a cube with edge s is V = s^3. What is dV/dt in terms of ds/dt?",
+              "options": [
+                "3s^2 (ds/dt)",
+                "s^2 (ds/dt)",
+                "3s (ds/dt)",
+                "s^3 (ds/dt)"
+              ],
+              "correct": 0,
+              "explanation": "Differentiating V = s^3 with respect to t: dV/dt = 3s^2 (ds/dt)."
+            },
+            {
+              "q": "The radius of a circle increases at 3 cm/s. How fast is the area increasing when r = 4 cm?",
+              "options": [
+                "24 pi cm^2/s",
+                "12 pi cm^2/s",
+                "6 pi cm^2/s",
+                "16 pi cm^2/s"
+              ],
+              "correct": 0,
+              "explanation": "dA/dt = 2 pi r (dr/dt) = 2 pi (4)(3) = 24 pi cm^2/s."
+            },
+            {
+              "q": "The area of a square increases at 8 cm^2/s. How fast is the side length increasing when the side is 4 cm?",
+              "options": [
+                "1 cm/s",
+                "2 cm/s",
+                "0.5 cm/s",
+                "4 cm/s"
+              ],
+              "correct": 0,
+              "explanation": "A = s^2, so dA/dt = 2s(ds/dt). Then 8 = 2(4)(ds/dt) = 8(ds/dt), giving ds/dt = 1 cm/s."
+            },
+            {
+              "q": "Use linearization of f(x) = sqrt(x) at a = 4 to estimate sqrt(4.1).",
+              "options": [
+                "2.025",
+                "2.05",
+                "2.1",
+                "2.005"
+              ],
+              "correct": 0,
+              "explanation": "f(4) = 2, f'(x) = 1/(2 sqrt(x)), so f'(4) = 1/4. L(4.1) = 2 + (1/4)(0.1) = 2 + 0.025 = 2.025."
+            },
+            {
+              "q": "The tangent line to f(x) = x^3 at x = 2 is used to approximate f(2.1). The approximation is:",
+              "options": [
+                "9.2",
+                "9.261",
+                "8.4",
+                "12"
+              ],
+              "correct": 0,
+              "explanation": "f(2) = 8, f'(x) = 3x^2, f'(2) = 12. L(2.1) = 8 + 12(0.1) = 8 + 1.2 = 9.2. (The true value 9.261 is close.)"
+            },
+            {
+              "q": "Use the linearization of f(x) = e^x at a = 0 to approximate e^(0.02).",
+              "options": [
+                "1.02",
+                "1.2",
+                "1.002",
+                "0.98"
+              ],
+              "correct": 0,
+              "explanation": "f(0) = 1, f'(0) = e^0 = 1. L(0.02) = 1 + 1(0.02) = 1.02."
+            },
+            {
+              "q": "Use linearization of f(x) = ln(x) at a = 1 to estimate ln(1.1).",
+              "options": [
+                "0.1",
+                "0.01",
+                "1.1",
+                "0.041"
+              ],
+              "correct": 0,
+              "explanation": "f(1) = 0, f'(x) = 1/x, f'(1) = 1. L(1.1) = 0 + 1(0.1) = 0.1. (True value ~0.0953.)"
+            },
+            {
+              "q": "Using L'Hopital's Rule, what is lim_{x->0} sin(x)/x?",
+              "options": [
+                "1",
+                "0",
+                "infinity",
+                "does not exist"
+              ],
+              "correct": 0,
+              "explanation": "The form is 0/0. Differentiate top and bottom: lim_{x->0} cos(x)/1 = cos(0) = 1."
+            }
+          ]
+        }
+      ],
+      "note": "Auto-graded practice from the Contextual Applications of Differentiation question bank."
+    },
+    {
+      "id": "contextual-applications-test-2",
+      "title": "Practice Set B",
+      "level": "Challenge",
+      "time_limit_minutes": 30,
+      "total": 20,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Multiple Choice",
+          "questions": [
+            {
+              "q": "Using L'Hopital's Rule, what is lim_{x->0} (e^x - 1)/x?",
+              "options": [
+                "1",
+                "0",
+                "e",
+                "does not exist"
+              ],
+              "correct": 0,
+              "explanation": "The form is 0/0. Differentiate: lim_{x->0} e^x/1 = e^0 = 1."
+            },
+            {
+              "q": "Evaluate lim_{x->infinity} x / e^x using L'Hopital's Rule.",
+              "options": [
+                "0",
+                "1",
+                "infinity",
+                "e"
+              ],
+              "correct": 0,
+              "explanation": "The form is infinity/infinity. Differentiate: lim_{x->infinity} 1/e^x = 0."
+            },
+            {
+              "q": "Evaluate lim_{x->2} (x^2 - 4)/(x - 2) using L'Hopital's Rule.",
+              "options": [
+                "4",
+                "0",
+                "2",
+                "does not exist"
+              ],
+              "correct": 0,
+              "explanation": "Form 0/0: differentiate to get lim_{x->2} 2x/1 = 4. (Factoring gives the same result.)"
+            },
+            {
+              "q": "A tank's water depth is D(t) meters after t hours, with D'(4) = -0.5. This means at t = 4 hours the water is:",
+              "options": [
+                "dropping at 0.5 meters per hour",
+                "rising at 0.5 meters per hour",
+                "0.5 meters deep",
+                "constant"
+              ],
+              "correct": 0,
+              "explanation": "A negative rate means the depth is decreasing; D'(4) = -0.5 means it drops 0.5 m per hour at that instant."
+            },
+            {
+              "q": "A particle's velocity is v(t) = 3t^2 - 12. When is the particle at rest?",
+              "options": [
+                "t = 2",
+                "t = 4",
+                "t = 0",
+                "t = 12"
+              ],
+              "correct": 0,
+              "explanation": "At rest when v(t) = 3t^2 - 12 = 0, so t^2 = 4 and t = 2 (taking t >= 0)."
+            },
+            {
+              "q": "The demand for a product is D(p) = 500 - 4p units at price p dollars. dD/dp = -4 means:",
+              "options": [
+                "demand drops by 4 units for each $1 price increase",
+                "demand rises by 4 units per dollar",
+                "the price is $4",
+                "demand is 4 units"
+              ],
+              "correct": 0,
+              "explanation": "The derivative dD/dp = -4 gives the rate of change of demand with price: 4 fewer units sold per $1 increase."
+            },
+            {
+              "q": "If the perimeter of a square is P = 4s, what is dP/dt in terms of ds/dt?",
+              "options": [
+                "4 (ds/dt)",
+                "s (ds/dt)",
+                "4s (ds/dt)",
+                "16 (ds/dt)"
+              ],
+              "correct": 0,
+              "explanation": "Differentiating P = 4s with respect to t gives dP/dt = 4 (ds/dt)."
+            },
+            {
+              "q": "Using linearization of f(x) = x^(1/3) at a = 8, estimate (8.1)^(1/3).",
+              "options": [
+                "2.0083",
+                "2.1",
+                "2.05",
+                "2.0333"
+              ],
+              "correct": 0,
+              "explanation": "f(8) = 2, f'(x) = (1/3)x^(-2/3), f'(8) = (1/3)(1/4) = 1/12. L(8.1) = 2 + (1/12)(0.1) ≈ 2.0083."
+            },
+            {
+              "q": "A particle's position is s(t) = 2t^3 - 3t^2. What is its acceleration at t = 1?",
+              "options": [
+                "6",
+                "0",
+                "12",
+                "3"
+              ],
+              "correct": 0,
+              "explanation": "v(t) = 6t^2 - 6t, a(t) = 12t - 6. At t = 1, a(1) = 12 - 6 = 6."
+            },
+            {
+              "q": "Evaluate lim_{x->0} (sin(3x))/(x) using L'Hopital's Rule.",
+              "options": [
+                "3",
+                "1",
+                "0",
+                "1/3"
+              ],
+              "correct": 0,
+              "explanation": "Form 0/0: differentiate to get lim_{x->0} 3cos(3x)/1 = 3cos(0) = 3."
+            },
+            {
+              "q": "Let f(t) be the amount of a drug (mg) in the bloodstream after t hours. If f(2) = 40 and f'(2) = -8, estimate the amount at t = 2.5 hours.",
+              "options": [
+                "36 mg",
+                "44 mg",
+                "32 mg",
+                "40 mg"
+              ],
+              "correct": 0,
+              "explanation": "Local linear approximation: f(2.5) ≈ f(2) + f'(2)(0.5) = 40 + (-8)(0.5) = 40 - 4 = 36 mg."
+            },
+            {
+              "q": "Evaluate lim_{x->0} (cos(x) - 1)/x using L'Hopital's Rule.",
+              "options": [
+                "0",
+                "1",
+                "-1",
+                "infinity"
+              ],
+              "correct": 0,
+              "explanation": "Form 0/0: differentiate to get lim_{x->0} (-sin x)/1 = -sin(0) = 0."
+            },
+            {
+              "q": "A balloon's surface area A = 4 pi r^2 increases. When r = 3 and dr/dt = 2, how fast is the surface area increasing?",
+              "options": [
+                "48 pi",
+                "24 pi",
+                "12 pi",
+                "36 pi"
+              ],
+              "correct": 0,
+              "explanation": "dA/dt = 8 pi r (dr/dt) = 8 pi (3)(2) = 48 pi."
+            },
+            {
+              "q": "The differential dy for y = x^2 is:",
+              "options": [
+                "2x dx",
+                "x^2 dx",
+                "2x",
+                "2 dx"
+              ],
+              "correct": 0,
+              "explanation": "By definition dy = f'(x) dx. For y = x^2, dy = 2x dx."
+            },
+            {
+              "q": "A ball's height is h(t) = -4.9t^2 + 20t. What is its velocity at t = 1 second?",
+              "options": [
+                "10.2 m/s",
+                "20 m/s",
+                "15.1 m/s",
+                "-9.8 m/s"
+              ],
+              "correct": 0,
+              "explanation": "h'(t) = -9.8t + 20. At t = 1, h'(1) = -9.8 + 20 = 10.2 m/s."
+            },
+            {
+              "q": "If y = x^2 and x changes with time, then dy/dt equals:",
+              "options": [
+                "2x (dx/dt)",
+                "2x",
+                "x^2 (dx/dt)",
+                "2 (dx/dt)"
+              ],
+              "correct": 0,
+              "explanation": "By the Chain Rule with respect to t: dy/dt = 2x (dx/dt)."
+            },
+            {
+              "q": "A car's fuel efficiency E(v) (miles per gallon) depends on speed v (mph). E'(50) = -0.4 means:",
+              "options": [
+                "efficiency drops 0.4 mpg for each additional mph at 50 mph",
+                "efficiency is 0.4 mpg",
+                "the car goes 50 mph",
+                "efficiency rises with speed"
+              ],
+              "correct": 0,
+              "explanation": "E'(50) = -0.4 is the rate of change of efficiency with speed: a loss of 0.4 mpg per 1 mph increase at v = 50."
+            },
+            {
+              "q": "The linear approximation of f(x) = cos(x) at a = 0 is:",
+              "options": [
+                "L(x) = 1",
+                "L(x) = x",
+                "L(x) = 1 - x",
+                "L(x) = 1 + x"
+              ],
+              "correct": 0,
+              "explanation": "f(0) = 1, f'(x) = -sin(x), f'(0) = 0. So L(x) = 1 + 0*(x - 0) = 1."
+            },
+            {
+              "q": "Before applying L'Hopital's Rule, you must first check that the limit:",
+              "options": [
+                "has an indeterminate form (0/0 or infinity/infinity)",
+                "equals zero",
+                "is a polynomial",
+                "is continuous"
+              ],
+              "correct": 0,
+              "explanation": "L'Hopital's Rule requires confirming the quotient is indeterminate (0/0 or infinity/infinity) before differentiating numerator and denominator."
+            },
+            {
+              "q": "If W(t) is a baby's weight (kg) at age t months and W'(6) = 0.5, this means at 6 months the baby is:",
+              "options": [
+                "gaining 0.5 kg per month",
+                "0.5 kg",
+                "losing weight",
+                "6 months old only"
+              ],
+              "correct": 0,
+              "explanation": "W'(6) = 0.5 is the instantaneous growth rate: 0.5 kg gained per month at age 6 months."
+            }
+          ]
+        }
+      ],
+      "note": "A second auto-graded set covering Contextual Applications of Differentiation."
+    }
+  ]
+}

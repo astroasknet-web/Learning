@@ -1,0 +1,168 @@
+{
+  "exam": "neet",
+  "subject": "physics",
+  "chapter": 3,
+  "title": "Laws of Motion",
+  "slug": "laws-of-motion",
+  "subtitle": "Newton's laws, momentum, friction & circular motion",
+  "level": "NEET (UG)",
+  "color": "#2563eb",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "NEET Physics — Laws of Motion: Newton's three laws, momentum and impulse, conservation, friction and circular-motion dynamics with NEET-level solved examples and MCQs. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Newton's Laws and Momentum",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Newton's Three Laws of Motion",
+          "concept": "<p>Dynamics asks <em>why</em> motion changes, and the answer is force. <strong>Newton's first law</strong> states that a body continues at rest or in uniform straight-line motion unless acted on by a net external force. This property — the reluctance to change its state of motion — is <strong>inertia</strong>, and it is measured by mass: a loaded truck is harder to start or stop than a bicycle. The first law also tells us that no force is needed to <em>keep</em> a body moving at constant velocity; force is needed only to <em>change</em> velocity.</p><p><strong>Newton's second law</strong> makes this quantitative. The net force equals the rate of change of momentum, $\\vec{F} = \\dfrac{d\\vec{p}}{dt}$, which for constant mass reduces to the familiar $\\vec{F} = m\\vec{a}$. Force and acceleration are vectors pointing in the same direction, and the SI unit of force, the <strong>newton</strong>, is defined as the force that gives a $1\\ \\text{kg}$ mass an acceleration of $1\\ \\text{m/s}^{2}$. The second law contains the first as the special case $F = 0 \\Rightarrow a = 0$.</p><p><strong>Newton's third law</strong> says that to every action there is an equal and opposite reaction. The two forces are <em>equal in magnitude, opposite in direction, and act on different bodies</em> — this last point is crucial. Because action and reaction act on different objects, they never cancel each other; a book on a table pushes down on the table while the table pushes up on the book, and the book's weight is balanced by the table's push (the normal force), not by the reaction to its own weight.</p><p>For NEET, most problems reduce to drawing a <strong>free-body diagram</strong>: isolate one body, mark every force acting on it (weight, normal reaction, tension, friction, applied force), and apply $\\vec{F}_{\\text{net}} = m\\vec{a}$ along chosen axes. Connected systems — blocks joined by strings over pulleys, or stacked blocks — are handled by writing the second law for each body and using the shared acceleration and the equal-and-opposite tensions.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Law</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Statement / relation</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>First (inertia)</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>No net force ⇒ no change in motion</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Second</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\vec{F} = m\\vec{a} = \\dfrac{d\\vec{p}}{dt}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Third</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>Action = −Reaction (on different bodies)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A force of $20\\ \\text{N}$ acts on a $4\\ \\text{kg}$ block on a smooth floor. Find its acceleration.</p>",
+              "solution": "<p>By the second law, $a = \\dfrac{F}{m} = \\dfrac{20}{4} = 5\\ \\text{m/s}^{2}$, in the direction of the force.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A book of weight $10\\ \\text{N}$ rests on a table. What is the normal reaction from the table, and what is the reaction (third-law) to the book's weight?</p>",
+              "solution": "<p>The table's normal reaction balances the weight: $N = 10\\ \\text{N}$ upward. The third-law reaction to the book's <em>weight</em> (Earth pulling book) is the book pulling the <strong>Earth</strong> up with $10\\ \\text{N}$ — a different pair from the book–table forces. Mixing these up is a classic error.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Inertia of a body depends on its:</p>", "options": ["velocity", "mass", "shape", "position"], "correct": 1, "explanation": "Mass is the measure of inertia." },
+            { "q": "<p>The SI unit of force is the newton, equal to:</p>", "options": ["$\\text{kg}\\cdot\\text{m/s}$", "$\\text{kg}\\cdot\\text{m/s}^{2}$", "$\\text{kg}\\cdot\\text{m}^{2}/\\text{s}$", "$\\text{kg/s}^{2}$"], "correct": 1, "explanation": "$1\\ \\text{N} = 1\\ \\text{kg}\\cdot\\text{m/s}^2$ from $F = ma$." },
+            { "q": "<p>Action and reaction forces:</p>", "options": ["act on the same body", "act on different bodies", "always cancel out", "are unequal"], "correct": 1, "explanation": "They are equal and opposite but act on different bodies, so they don't cancel." },
+            { "q": "<p>A body moves with constant velocity. The net force on it is:</p>", "options": ["in the direction of motion", "opposite to motion", "zero", "increasing"], "correct": 2, "explanation": "Constant velocity ⇒ zero acceleration ⇒ zero net force (first law)." },
+            { "q": "<p>Newton's second law in its general form is:</p>", "options": ["$F = ma$ only", "$F = dp/dt$", "$F = mv$", "$F = p/t$ always"], "correct": 1, "explanation": "$F = dp/dt$ is general; $F = ma$ follows when mass is constant." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Always start with a free-body diagram of ONE body. Include only forces acting ON it — never the forces it exerts on others.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Momentum, Impulse and Conservation",
+          "concept": "<p><strong>Linear momentum</strong> $\\vec{p} = m\\vec{v}$ is the 'quantity of motion' of a body — a vector in the direction of velocity, with SI unit $\\text{kg}\\cdot\\text{m/s}$. A heavy slow truck and a light fast bullet can carry the same momentum. Newton's second law is most fundamentally a statement about momentum: force is the rate of change of momentum, so a force changes a body's momentum over time.</p><p><strong>Impulse</strong> measures the total effect of a force acting for a time interval: $\\vec{J} = \\vec{F}\\,\\Delta t = \\Delta \\vec{p}$, the impulse-momentum theorem. This explains everyday safety design — air bags, crumple zones and cushioned landings all <em>increase the time</em> of impact, which for the same change in momentum reduces the peak force. A cricketer drawing the hands back while catching does exactly the same thing.</p><p>The most powerful result is the <strong>law of conservation of momentum</strong>: if no net <em>external</em> force acts on a system, its total momentum stays constant. This follows directly from the third law — internal action-reaction forces are equal and opposite, so they cancel in pairs. The law holds even when energy is lost, which makes it ideal for collisions and explosions where forces are large and brief.</p><p>NEET applies this to three standard situations. In a <strong>recoil</strong> (a gun firing a bullet, or a person jumping off a boat), the total momentum stays zero, so the heavy body recoils slowly while the light body shoots off fast. In <strong>collisions</strong>, total momentum is always conserved; in a perfectly <em>elastic</em> collision kinetic energy is also conserved, while in a perfectly <em>inelastic</em> collision the bodies stick together and move with a common velocity. Writing 'total momentum before = total momentum after' solves the great majority of these problems.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Concept</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Relation</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Momentum</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$p = mv$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Impulse</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$J = F\\,\\Delta t = \\Delta p$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Conservation</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\sum p_{\\text{before}} = \\sum p_{\\text{after}}$ (no external force)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A $0.2\\ \\text{kg}$ ball moving at $10\\ \\text{m/s}$ is brought to rest in $0.1\\ \\text{s}$. Find the average force.</p>",
+              "solution": "<p>Change in momentum $\\Delta p = m(v-u) = 0.2(0-10) = -2\\ \\text{kg}\\cdot\\text{m/s}$. Force $= \\dfrac{\\Delta p}{\\Delta t} = \\dfrac{-2}{0.1} = -20\\ \\text{N}$ — a retarding force of magnitude $20\\ \\text{N}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A $4\\ \\text{kg}$ gun fires a $20\\ \\text{g}$ bullet at $200\\ \\text{m/s}$. Find the recoil velocity of the gun.</p>",
+              "solution": "<p>Initial momentum is zero. By conservation, $m_g v_g + m_b v_b = 0$, so $v_g = -\\dfrac{m_b v_b}{m_g} = -\\dfrac{0.02\\times200}{4} = -1\\ \\text{m/s}$ — i.e. $1\\ \\text{m/s}$ backward.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Impulse has the same units as:</p>", "options": ["force", "energy", "momentum", "power"], "correct": 2, "explanation": "Impulse = change in momentum, so its unit is $\\text{kg}\\cdot\\text{m/s}$." },
+            { "q": "<p>An air bag reduces injury by:</p>", "options": ["reducing momentum change", "increasing the impact time", "increasing the force", "removing inertia"], "correct": 1, "explanation": "Longer impact time means smaller peak force for the same $\\Delta p$." },
+            { "q": "<p>Momentum is conserved when:</p>", "options": ["energy is conserved", "no external force acts", "the collision is elastic", "velocity is constant"], "correct": 1, "explanation": "Conservation of momentum requires zero net external force." },
+            { "q": "<p>In a perfectly inelastic collision, the colliding bodies:</p>", "options": ["bounce back", "stick together", "conserve kinetic energy", "stop completely"], "correct": 1, "explanation": "They move with a common velocity after sticking together." },
+            { "q": "<p>A gun recoils because of conservation of:</p>", "options": ["energy", "mass", "momentum", "charge"], "correct": 2, "explanation": "Total momentum stays zero, so the gun moves opposite to the bullet." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> For collisions and explosions, write momentum conservation first. Use kinetic-energy conservation as a second equation ONLY for perfectly elastic collisions.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Friction and Circular Motion",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Friction",
+          "concept": "<p><strong>Friction</strong> is the force that opposes relative motion (or the tendency of relative motion) between surfaces in contact. It arises from microscopic roughness and adhesion between surfaces and always acts <em>along</em> the surface, opposing the direction in which the body tends to slide. Though often a nuisance, friction is essential — without it we could not walk, vehicles could not grip the road, and knots would not hold.</p><p>Friction comes in stages. <strong>Static friction</strong> acts when there is no sliding yet; it is self-adjusting, growing to match the applied force up to a maximum value $f_{s,\\max} = \\mu_s N$, where $N$ is the normal reaction and $\\mu_s$ is the coefficient of static friction. Once the applied force exceeds this limit the body starts to slide and <strong>kinetic (sliding) friction</strong> takes over, with magnitude $f_k = \\mu_k N$. Experiment shows $\\mu_k &lt; \\mu_s$, which is why it takes a bigger push to start a heavy box moving than to keep it moving.</p><p>A key NEET fact is what friction does <em>not</em> depend on. The friction force is independent of the apparent area of contact and (for kinetic friction) of the relative speed; it depends only on the nature of the surfaces (through $\\mu$) and the normal force $N$. On a horizontal surface $N = mg$, but on an incline or when an external force has a vertical component, $N$ changes — and so does the friction. Mishandling $N$ is the most common source of error here.</p><p>On an <strong>inclined plane</strong> at angle $\\theta$, the component of gravity along the slope is $mg\\sin\\theta$ and the normal reaction is $N = mg\\cos\\theta$. A block placed on a gradually steepened incline begins to slide at the <strong>angle of repose</strong> $\\theta$, where $\\tan\\theta = \\mu_s$ — at this angle the gravitational pull along the slope just overcomes the maximum static friction. This neat result connects the coefficient of friction to a directly measurable angle, and appears regularly in NEET.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Type</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Magnitude</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Static (max)</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$f_{s,\\max} = \\mu_s N$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Kinetic</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$f_k = \\mu_k N$ ($\\mu_k &lt; \\mu_s$)</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Angle of repose</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\tan\\theta = \\mu_s$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A $5\\ \\text{kg}$ block rests on a floor with $\\mu_s = 0.4$. Find the minimum horizontal force needed to start it moving. ($g = 10\\ \\text{m/s}^2$)</p>",
+              "solution": "<p>$N = mg = 50\\ \\text{N}$. Maximum static friction $= \\mu_s N = 0.4\\times50 = 20\\ \\text{N}$. The applied force must just exceed $20\\ \\text{N}$ to start motion.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A block just begins to slide down an incline at $30^{\\circ}$. Find the coefficient of static friction.</p>",
+              "solution": "<p>At the angle of repose, $\\tan\\theta = \\mu_s$. So $\\mu_s = \\tan 30^{\\circ} = \\dfrac{1}{\\sqrt{3}} \\approx 0.58$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The maximum static friction is:</p>", "options": ["$\\mu_k N$", "$\\mu_s N$", "$mg$", "independent of $N$"], "correct": 1, "explanation": "$f_{s,\\max} = \\mu_s N$." },
+            { "q": "<p>Friction force is independent of:</p>", "options": ["the normal reaction", "the surfaces in contact", "the apparent area of contact", "the coefficient of friction"], "correct": 2, "explanation": "Friction does not depend on the apparent area of contact." },
+            { "q": "<p>Generally, the coefficients satisfy:</p>", "options": ["$\\mu_s &lt; \\mu_k$", "$\\mu_s = \\mu_k$", "$\\mu_s &gt; \\mu_k$", "no relation"], "correct": 2, "explanation": "Static friction can exceed kinetic friction, so $\\mu_s &gt; \\mu_k$." },
+            { "q": "<p>On an incline of angle $\\theta$, the normal reaction on a block of mass $m$ is:</p>", "options": ["$mg$", "$mg\\sin\\theta$", "$mg\\cos\\theta$", "$mg\\tan\\theta$"], "correct": 2, "explanation": "$N = mg\\cos\\theta$ on an incline." },
+            { "q": "<p>The angle of repose $\\theta$ relates to friction by:</p>", "options": ["$\\sin\\theta = \\mu_s$", "$\\cos\\theta = \\mu_s$", "$\\tan\\theta = \\mu_s$", "$\\theta = \\mu_s$"], "correct": 2, "explanation": "$\\tan\\theta = \\mu_s$ at the angle of repose." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Compute the normal reaction $N$ for each situation separately — on a flat floor $N = mg$, on an incline $N = mg\\cos\\theta$, and it changes again if an applied force has a vertical component.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Dynamics of Circular Motion",
+          "concept": "<p>A body moving in a circle at constant speed is in <strong>uniform circular motion</strong>. Even though the speed is unchanged, the <em>direction</em> of velocity changes continuously, so the body is accelerating. This acceleration points toward the centre and is called <strong>centripetal acceleration</strong>, $a_c = \\dfrac{v^{2}}{r} = \\omega^{2} r$, where $v$ is the speed, $r$ the radius and $\\omega$ the angular velocity.</p><p>By Newton's second law, a centre-directed acceleration requires a centre-directed net force, the <strong>centripetal force</strong> $F_c = \\dfrac{mv^{2}}{r} = m\\omega^{2} r$. It is important to understand that centripetal force is not a new kind of force — it is the <em>name for whatever real force</em> provides the inward pull in a given situation: gravity for a satellite, tension for a stone whirled on a string, friction for a car on a flat road, and the normal force component for a banked road.</p><p>The so-called <strong>centrifugal force</strong> is not a real force at all; it is a pseudo-force that appears only in a rotating (non-inertial) frame, equal and opposite to the centripetal force. NEET often tests whether you can tell the genuine inward (centripetal) force from this apparent outward one. In an inertial frame, only the inward force exists.</p><p>Two applications dominate NEET. For a <strong>car on a level road</strong>, friction supplies the centripetal force, so the maximum safe speed is $v_{\\max} = \\sqrt{\\mu r g}$ — beyond this the car skids outward. For a <strong>banked road</strong> tilted at angle $\\theta$, even without friction the horizontal component of the normal force can supply the turning force, giving the design speed $v = \\sqrt{rg\\tan\\theta}$. The <strong>vertical circle</strong> (a bucket of water swung overhead, or a loop-the-loop) is another favourite: at the topmost point, gravity and tension both point down, and the minimum speed to maintain contact is $v_{\\text{top}} = \\sqrt{gr}$.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Formula</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Centripetal acceleration</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$a_c = v^{2}/r = \\omega^{2}r$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Centripetal force</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$F_c = mv^{2}/r$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Max speed (level road)</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$v_{\\max} = \\sqrt{\\mu r g}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A $2\\ \\text{kg}$ stone is whirled in a horizontal circle of radius $1\\ \\text{m}$ at $4\\ \\text{m/s}$. Find the tension in the string.</p>",
+              "solution": "<p>The tension provides the centripetal force: $T = \\dfrac{mv^{2}}{r} = \\dfrac{2\\times4^{2}}{1} = 32\\ \\text{N}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What is the maximum speed at which a car can take a flat circular turn of radius $50\\ \\text{m}$ with $\\mu = 0.5$? ($g = 10\\ \\text{m/s}^2$)</p>",
+              "solution": "<p>Friction supplies the centripetal force, so $v_{\\max} = \\sqrt{\\mu r g} = \\sqrt{0.5\\times50\\times10} = \\sqrt{250} \\approx 15.8\\ \\text{m/s}$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>In uniform circular motion, the centripetal acceleration points:</p>", "options": ["along the velocity", "away from the centre", "toward the centre", "tangentially"], "correct": 2, "explanation": "Centripetal acceleration is directed toward the centre." },
+            { "q": "<p>For a car turning on a flat road, the centripetal force is provided by:</p>", "options": ["gravity", "friction", "the engine", "air resistance"], "correct": 1, "explanation": "Friction between tyres and road supplies the inward force." },
+            { "q": "<p>Centrifugal force is:</p>", "options": ["a real inward force", "a pseudo-force in a rotating frame", "always larger than centripetal", "gravity"], "correct": 1, "explanation": "It is a pseudo-force appearing only in a non-inertial (rotating) frame." },
+            { "q": "<p>Centripetal acceleration equals:</p>", "options": ["$v/r$", "$v^{2}/r$", "$vr$", "$r/v^{2}$"], "correct": 1, "explanation": "$a_c = v^2/r = \\omega^2 r$." },
+            { "q": "<p>The maximum speed on a level circular road of radius $r$ is:</p>", "options": ["$\\sqrt{rg}$", "$\\sqrt{\\mu r g}$", "$\\mu r g$", "$\\sqrt{r/g}$"], "correct": 1, "explanation": "$v_{\\max} = \\sqrt{\\mu r g}$ when friction provides the turning force." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Centripetal force is never an extra force — identify which real force (tension, friction, gravity, normal) is pointing toward the centre and set it equal to $mv^2/r$.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-physics-ch3-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>A net force of $12\\ \\text{N}$ acts on a $3\\ \\text{kg}$ body. Its acceleration is:</p>", "options": ["$3\\ \\text{m/s}^{2}$", "$4\\ \\text{m/s}^{2}$", "$9\\ \\text{m/s}^{2}$", "$36\\ \\text{m/s}^{2}$"], "correct": 1, "explanation": "$a = F/m = 12/3 = 4\\ \\text{m/s}^2$." },
+            { "q": "<p>The impulse on a body equals its change in:</p>", "options": ["velocity", "momentum", "energy", "acceleration"], "correct": 1, "explanation": "Impulse = change in momentum." },
+            { "q": "<p>A $0.5\\ \\text{kg}$ ball hits a wall at $6\\ \\text{m/s}$ and rebounds at $6\\ \\text{m/s}$. The magnitude of change in momentum is:</p>", "options": ["$0$", "$3\\ \\text{kg}\\cdot\\text{m/s}$", "$6\\ \\text{kg}\\cdot\\text{m/s}$", "$12\\ \\text{kg}\\cdot\\text{m/s}$"], "correct": 2, "explanation": "$\\Delta p = m(v-(-v)) = 0.5\\times12 = 6\\ \\text{kg}\\cdot\\text{m/s}$." },
+            { "q": "<p>A block on a flat floor needs more force to start than to keep moving because:</p>", "options": ["$\\mu_k &gt; \\mu_s$", "$\\mu_s &gt; \\mu_k$", "weight changes", "area changes"], "correct": 1, "explanation": "Static friction (max) exceeds kinetic friction." },
+            { "q": "<p>The centripetal force on a $1\\ \\text{kg}$ body moving at $2\\ \\text{m/s}$ in a circle of radius $0.5\\ \\text{m}$ is:</p>", "options": ["$2\\ \\text{N}$", "$4\\ \\text{N}$", "$8\\ \\text{N}$", "$16\\ \\text{N}$"], "correct": 2, "explanation": "$F = mv^2/r = 1\\times4/0.5 = 8\\ \\text{N}$." },
+            { "q": "<p>A man jumps from a boat to the shore. The boat moves backward because of conservation of:</p>", "options": ["energy", "momentum", "mass", "charge"], "correct": 1, "explanation": "Total momentum stays zero, so the boat recoils." },
+            { "q": "<p>On a frictionless incline of $30^{\\circ}$, the acceleration of a sliding block is ($g = 10$):</p>", "options": ["$2.5\\ \\text{m/s}^{2}$", "$5\\ \\text{m/s}^{2}$", "$8.6\\ \\text{m/s}^{2}$", "$10\\ \\text{m/s}^{2}$"], "correct": 1, "explanation": "$a = g\\sin\\theta = 10\\times0.5 = 5\\ \\text{m/s}^2$." },
+            { "q": "<p>The minimum speed at the top of a vertical circle of radius $r$ is:</p>", "options": ["$\\sqrt{gr}$", "$\\sqrt{2gr}$", "$\\sqrt{5gr}$", "$gr$"], "correct": 0, "explanation": "At the top, gravity provides the centripetal force: $v_{top} = \\sqrt{gr}$." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> Action and reaction forces do not cancel each other.<br><strong>R:</strong> They act on two different bodies.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Because they act on different bodies, they cannot cancel — R explains A." },
+            { "q": "<p><strong>A:</strong> A cricketer pulls the hands back while catching a fast ball.<br><strong>R:</strong> Increasing the time of impact reduces the force for the same change in momentum.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The impulse–momentum theorem explains the technique — R explains A." },
+            { "q": "<p><strong>A:</strong> In an inertial frame, centrifugal force is a real force acting on a body in circular motion.<br><strong>R:</strong> In an inertial frame, the net force in uniform circular motion is the centripetal force directed toward the centre.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "Centrifugal force is a pseudo-force, not real in an inertial frame, so A is false. The real net force is the inward (centripetal) force, so R is true." },
+            { "q": "<p><strong>A:</strong> Friction is independent of the apparent area of contact.<br><strong>R:</strong> Friction depends only on the normal reaction and the nature of the surfaces.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Friction = μN, set by N and the surfaces, not the apparent area — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "chemistry",
+  "chapter": 2,
+  "title": "Structure of Atom",
+  "slug": "structure-of-atom",
+  "subtitle": "Subatomic particles, Bohr model, quantum numbers & electronic configuration",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "NEET Chemistry — Structure of Atom: discovery of subatomic particles, Thomson and Rutherford models, the Bohr model and hydrogen spectrum, dual nature and quantum numbers, orbitals and electronic configuration, with NEET-level examples and MCQs. Free on GrowQR.",
+    "focus_keyword": "structure of atom NEET",
+    "secondary_keywords": [
+      "quantum numbers NEET notes",
+      "Bohr model NCERT",
+      "electronic configuration NEET",
+      "hydrogen spectrum NEET",
+      "atomic structure NEET"
+    ],
+    "keywords": [
+      "structure of atom NEET",
+      "quantum numbers NEET",
+      "Bohr model NEET",
+      "electronic configuration NEET",
+      "hydrogen spectrum NEET"
+    ]
+  },
+  "summary": "<ul><li><strong>Particles:</strong> $Z$ = protons (defines element); neutrons $= A - Z$. Isotopes (same $Z$), isobars (same $A$).</li><li><strong>Rutherford:</strong> tiny dense nucleus; failed on stability and the line spectrum.</li><li><strong>Bohr (H only):</strong> $L = nh/2\\pi$, $E_n = -13.6/n^2\\ \\text{eV}$, $r_n \\propto n^2$. Series: Lyman (UV), Balmer (visible), Paschen (IR).</li><li><strong>Quantum numbers:</strong> $n$ (shell), $l$ (shape, $0$–$(n-1)$), $m_l$ (orientation, $2l+1$ orbitals), $m_s$ ($\\pm\\tfrac12$). Electrons per shell $= 2n^2$.</li><li><strong>Filling:</strong> Aufbau ($n+l$ rule, $4s$ before $3d$), Pauli (2/orbital), Hund (singly first). Anomalies: $\\text{Cr} = 3d^5 4s^1$, $\\text{Cu} = 3d^{10} 4s^1$.</li></ul>",
+  "faqs": [
+    { "q": "Why does the 4s orbital fill before the 3d orbital?", "a": "By the (n+l) rule, 4s has n+l = 4 while 3d has n+l = 5. The lower (n+l) value fills first, so 4s is occupied before 3d." },
+    { "q": "Why are the configurations of chromium and copper exceptions?", "a": "Exactly half-filled (3d5) and fully filled (3d10) subshells have extra stability, so one 4s electron shifts into 3d, giving Cr = 3d5 4s1 and Cu = 3d10 4s1." },
+    { "q": "What is the maximum number of electrons in a shell?", "a": "A shell with principal quantum number n can hold a maximum of 2n-squared electrons, for example 8 in n=2 and 18 in n=3." },
+    { "q": "Why could Bohr's model not explain multi-electron atoms?", "a": "Bohr ignored electron-electron repulsions and assigned fixed orbits, which works only for one-electron species like H, He+ and Li2+; it also conflicts with the Heisenberg uncertainty principle." },
+    { "q": "What does the azimuthal quantum number tell us?", "a": "The azimuthal quantum number l gives the subshell and the shape of the orbital: l = 0, 1, 2, 3 correspond to s, p, d and f orbitals respectively." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Subatomic Particles and Early Atomic Models",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Subatomic Particles and the Nuclear Atom",
+          "concept": "<p>Although Dalton imagined atoms as indivisible, a series of experiments revealed that atoms contain smaller <strong>subatomic particles</strong>. The <strong>electron</strong> was discovered through cathode-ray experiments (J.J. Thomson), who measured its charge-to-mass ratio; Millikan's oil-drop experiment then gave its charge, $-1.6\\times10^{-19}\\ \\text{C}$. The <strong>proton</strong> (positive) was found in anode rays, and the neutral <strong>neutron</strong> was discovered later by Chadwick.</p><p>These particles define an atom's identity. The <strong>atomic number</strong> $Z$ is the number of protons (equal to electrons in a neutral atom) and fixes which element it is. The <strong>mass number</strong> $A$ is the total number of protons and neutrons (nucleons), so the number of neutrons is $A - Z$. Atoms of the same element with different neutron numbers are <strong>isotopes</strong> (same $Z$, different $A$), while atoms of different elements with the same mass number are <strong>isobars</strong>.</p><p>Thomson's early <strong>plum-pudding model</strong> pictured electrons embedded in a sphere of positive charge. This was overturned by <strong>Rutherford's alpha-scattering experiment</strong>, in which most alpha particles passed through a gold foil but a few were deflected sharply. He concluded that the atom is mostly empty space with a tiny, dense, positively charged <strong>nucleus</strong> at the centre, around which electrons revolve.</p><p>Rutherford's nuclear model, however, could not explain atomic stability: classical physics predicts that a revolving (accelerating) electron should radiate energy and spiral into the nucleus. It also could not account for the discrete line spectrum of hydrogen. These two failures set the stage for Bohr's model, and recognising exactly why Rutherford's model failed is a recurring NEET conceptual question.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Quantity / particle</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Atomic number $Z$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>number of protons</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Mass number $A$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>protons + neutrons; neutrons $= A - Z$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Isotopes</td><td style='border:1px solid #dcfce7;padding:6px 10px'>same $Z$, different $A$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Isobars</td><td style='border:1px solid #dcfce7;padding:6px 10px'>same $A$, different $Z$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>An atom has atomic number $17$ and mass number $35$. How many protons, electrons and neutrons does it have (neutral atom)?</p>",
+              "solution": "<p>Protons $= Z = 17$; electrons $= 17$ (neutral); neutrons $= A - Z = 35 - 17 = 18$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why did Rutherford's model fail to explain atomic stability?</p>",
+              "solution": "<p>A revolving electron is accelerating and, by classical physics, should continuously radiate energy and spiral into the nucleus. This would make the atom unstable, which contradicts reality.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The atomic number of an element equals the number of:</p>", "options": ["neutrons", "protons", "nucleons", "electrons + neutrons"], "correct": 1, "explanation": "$Z$ = number of protons." },
+            { "q": "<p>Isotopes have the same:</p>", "options": ["mass number", "atomic number", "number of neutrons", "mass"], "correct": 1, "explanation": "Same $Z$, different number of neutrons." },
+            { "q": "<p>Rutherford's experiment used the scattering of:</p>", "options": ["electrons", "alpha particles", "protons", "neutrons"], "correct": 1, "explanation": "Alpha particles on a gold foil." },
+            { "q": "<p>The number of neutrons in an atom is:</p>", "options": ["$A$", "$Z$", "$A - Z$", "$A + Z$"], "correct": 2, "explanation": "Neutrons $= A - Z$." },
+            { "q": "<p>Atoms with the same mass number but different atomic numbers are:</p>", "options": ["isotopes", "isobars", "isotones", "ions"], "correct": 1, "explanation": "Isobars: same $A$, different $Z$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> $Z$ identifies the element; neutrons $= A - Z$. Isotopes (same $Z$) vs isobars (same $A$). Rutherford's model failed on stability and on the line spectrum — both fixed by Bohr.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Bohr Model and the Hydrogen Spectrum",
+          "concept": "<p><strong>Bohr's model</strong> rescued the nuclear atom for hydrogen with a set of postulates. Electrons revolve only in certain <strong>stationary orbits</strong> without radiating energy; the allowed orbits are those in which the angular momentum is quantised as $L = \\dfrac{nh}{2\\pi}$ (where $n = 1, 2, 3, \\dots$); and energy is emitted or absorbed only when an electron jumps between orbits, with $\\Delta E = h\\nu$.</p><p>For the hydrogen atom these postulates give quantised orbits and energies. The radius grows as $r_n \\propto n^{2}$, while the energy is negative and given by $E_n = -\\dfrac{13.6}{n^{2}}\\ \\text{eV}$. The negative sign means the electron is <em>bound</em>; the ground state ($n = 1$) is the most stable at $-13.6\\ \\text{eV}$, and the ionisation energy of hydrogen is therefore $13.6\\ \\text{eV}$.</p><p>The model explains the <strong>hydrogen line spectrum</strong>. When an electron falls from a higher level to a lower one, it emits a photon of a definite energy, giving sharp spectral lines grouped into series: the <strong>Lyman</strong> series (to $n = 1$, ultraviolet), <strong>Balmer</strong> (to $n = 2$, visible), and <strong>Paschen, Brackett, Pfund</strong> (to $n = 3, 4, 5$, infrared). The wavelengths follow the Rydberg relation, $\\dfrac{1}{\\lambda} = R\\left(\\dfrac{1}{n_1^{2}} - \\dfrac{1}{n_2^{2}}\\right)$.</p><p>Bohr's model works beautifully for hydrogen and other one-electron species (such as $\\text{He}^+$, $\\text{Li}^{2+}$) but fails for multi-electron atoms, cannot explain the splitting of spectral lines in magnetic fields (Zeeman effect), and violates the later Heisenberg uncertainty principle by assigning electrons definite orbits. These limitations led to the quantum-mechanical model, and knowing both the successes and the failures of Bohr's model is heavily examined in NEET.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Quantity (hydrogen)</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Relation</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Angular momentum</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$L = \\dfrac{nh}{2\\pi}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Energy level</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$E_n = -\\dfrac{13.6}{n^{2}}\\ \\text{eV}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Orbit radius</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$r_n \\propto n^{2}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Spectral lines</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\dfrac{1}{\\lambda} = R\\left(\\dfrac{1}{n_1^{2}} - \\dfrac{1}{n_2^{2}}\\right)$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the energy of the electron in the third orbit ($n = 3$) of hydrogen.</p>",
+              "solution": "<p>$E_3 = -\\dfrac{13.6}{3^{2}} = -\\dfrac{13.6}{9} \\approx -1.51\\ \\text{eV}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>To which spectral series does a transition ending at $n = 2$ in hydrogen belong, and in which region does it lie?</p>",
+              "solution": "<p>It belongs to the <strong>Balmer series</strong>, which lies in the <strong>visible</strong> region of the spectrum.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>In Bohr's model, angular momentum is quantised as:</p>", "options": ["$nh$", "$nh/2\\pi$", "$h/2\\pi n$", "$2\\pi n/h$"], "correct": 1, "explanation": "$L = nh/2\\pi$." },
+            { "q": "<p>The energy of the $n$-th level of hydrogen is:</p>", "options": ["$-13.6 n^{2}$ eV", "$-13.6/n^{2}$ eV", "$13.6 n$ eV", "$-13.6 n$ eV"], "correct": 1, "explanation": "$E_n = -13.6/n^2$ eV." },
+            { "q": "<p>The Balmer series of hydrogen lies in the:</p>", "options": ["UV", "visible", "IR", "X-ray"], "correct": 1, "explanation": "Balmer ($n=2$) is visible." },
+            { "q": "<p>Bohr's model works well for:</p>", "options": ["all atoms", "one-electron species", "noble gases only", "molecules"], "correct": 1, "explanation": "It works for H, $\\text{He}^+$, $\\text{Li}^{2+}$, etc." },
+            { "q": "<p>The ionisation energy of ground-state hydrogen is:</p>", "options": ["$3.4\\ \\text{eV}$", "$13.6\\ \\text{eV}$", "$1.5\\ \\text{eV}$", "$27.2\\ \\text{eV}$"], "correct": 1, "explanation": "$13.6\\ \\text{eV}$ to remove the electron." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Memorise $E_n = -13.6/n^2$ eV, $r_n \\propto n^2$, $L = nh/2\\pi$. Lyman (UV), Balmer (visible), Paschen (IR). Bohr works only for one-electron species.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Quantum Mechanical Model of the Atom",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Dual Nature, Uncertainty and Quantum Numbers",
+          "concept": "<p>The quantum-mechanical model began with two revolutionary ideas. <strong>de Broglie</strong> proposed that matter has a wave nature, with wavelength $\\lambda = \\dfrac{h}{mv} = \\dfrac{h}{p}$ — significant only for very light particles like electrons. <strong>Heisenberg's uncertainty principle</strong> states that the position and momentum of an electron cannot both be known precisely at the same time, $\\Delta x\\cdot\\Delta p \\geq \\dfrac{h}{4\\pi}$. Together these dismantled Bohr's fixed orbits, replacing them with regions of probability.</p><p>In the modern model, an electron is described by a wave function whose square gives the probability of finding it in a region of space — an <strong>orbital</strong>. An orbital is not a path but a three-dimensional region where the probability of finding an electron is high. Each orbital and each electron is specified by a set of four <strong>quantum numbers</strong>.</p><p>The <strong>principal quantum number</strong> $n$ ($1, 2, 3, \\dots$) gives the shell and the main energy and size. The <strong>azimuthal quantum number</strong> $l$ ($0$ to $n-1$) gives the subshell and orbital shape ($l = 0, 1, 2, 3$ are $s, p, d, f$). The <strong>magnetic quantum number</strong> $m_l$ ($-l$ to $+l$) gives the orbital's orientation, so there are $2l+1$ orbitals in a subshell. The <strong>spin quantum number</strong> $m_s$ ($+\\tfrac{1}{2}$ or $-\\tfrac{1}{2}$) gives the electron's spin direction.</p><p>The shapes follow from $l$: $s$-orbitals are spherical, $p$-orbitals are dumb-bell shaped (three of them, along $x$, $y$, $z$), and $d$-orbitals are more complex (five of them). A useful NEET fact is the number of <strong>nodes</strong>: an orbital has $(n-1)$ total nodes, of which $l$ are angular and $(n-l-1)$ are radial. Quantum numbers, their allowed values, and the count of orbitals/electrons per shell are dependable sources of NEET marks.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Quantum number</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Gives / range</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Principal $n$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>shell, size; $1, 2, 3, \\dots$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Azimuthal $l$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>shape; $0$ to $n-1$ ($s,p,d,f$)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Magnetic $m_l$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>orientation; $-l$ to $+l$ ($2l+1$)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Spin $m_s$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$+\\tfrac{1}{2}$ or $-\\tfrac{1}{2}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>How many orbitals are present in the $p$ subshell, and how many electrons can it hold?</p>",
+              "solution": "<p>For $p$, $l = 1$, so the number of orbitals is $2l+1 = 3$. Each orbital holds 2 electrons, so the $p$ subshell holds $3\\times2 = 6$ electrons.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What is the maximum number of electrons in a shell with principal quantum number $n$?</p>",
+              "solution": "<p>The maximum number of electrons in a shell is $2n^{2}$ — for example, $n = 3$ holds $2\\times9 = 18$ electrons.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The de Broglie wavelength is:</p>", "options": ["$h/mv$", "$mv/h$", "$h m v$", "$h/m$"], "correct": 0, "explanation": "$\\lambda = h/mv$." },
+            { "q": "<p>The azimuthal quantum number $l$ for a $d$ subshell is:</p>", "options": ["$0$", "$1$", "$2$", "$3$"], "correct": 2, "explanation": "$d$ corresponds to $l = 2$." },
+            { "q": "<p>The number of orbitals in a subshell is:</p>", "options": ["$n^{2}$", "$2l + 1$", "$2n^{2}$", "$l$"], "correct": 1, "explanation": "$2l + 1$ orbitals per subshell." },
+            { "q": "<p>The maximum number of electrons in a shell is:</p>", "options": ["$n$", "$2n$", "$n^{2}$", "$2n^{2}$"], "correct": 3, "explanation": "$2n^2$ electrons in shell $n$." },
+            { "q": "<p>The shape of an $s$-orbital is:</p>", "options": ["dumb-bell", "spherical", "double dumb-bell", "linear"], "correct": 1, "explanation": "$s$-orbitals are spherical." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Know the four quantum numbers and their ranges. Orbitals per subshell $= 2l+1$; electrons per shell $= 2n^2$; total nodes $= n-1$ (angular $= l$, radial $= n-l-1$).</p>"
+        },
+        {
+          "number": 4,
+          "title": "Electronic Configuration and Filling Rules",
+          "concept": "<p>The arrangement of electrons in an atom's orbitals — its <strong>electronic configuration</strong> — is governed by three rules. The <strong>Aufbau principle</strong> states that electrons fill orbitals in order of increasing energy, lowest first. The energy order follows the <strong>$(n+l)$ rule</strong>: orbitals fill in order of increasing $(n+l)$, and for equal $(n+l)$ the one with lower $n$ fills first. This gives the familiar sequence $1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, \\dots$, where $4s$ fills before $3d$.</p><p>The <strong>Pauli exclusion principle</strong> states that no two electrons in an atom can have all four quantum numbers identical; in practice, an orbital holds at most two electrons, and they must have opposite spins. <strong>Hund's rule of maximum multiplicity</strong> states that electrons fill degenerate (equal-energy) orbitals singly first, with parallel spins, before any pairing begins — minimising electron-electron repulsion.</p><p>These rules let you write the configuration of any atom, for example $\\text{O}\\ (Z=8): 1s^2\\,2s^2\\,2p^4$ and $\\text{Na}\\ (Z=11): 1s^2\\,2s^2\\,2p^6\\,3s^1$. Configurations are often abbreviated using the nearest preceding noble gas, e.g. $\\text{Na} = [\\text{Ne}]\\,3s^1$. This is a high-frequency NEET skill, and many periodic-table trends follow directly from it.</p><p>An important exception arises from the <strong>extra stability of half-filled and fully filled subshells</strong>. Chromium is $[\\text{Ar}]\\,3d^5\\,4s^1$ (not $3d^4\\,4s^2$) and copper is $[\\text{Ar}]\\,3d^{10}\\,4s^1$ (not $3d^9\\,4s^2$), because exactly half-filled ($d^5$) and fully filled ($d^{10}$) subshells are unusually stable due to symmetry and exchange energy. These two anomalies are perennial NEET favourites and should be memorised.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Rule</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Statement</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Aufbau ($n+l$ rule)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>fill lowest energy first ($4s$ before $3d$)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Pauli exclusion</td><td style='border:1px solid #dcfce7;padding:6px 10px'>max 2 electrons/orbital, opposite spins</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Hund's rule</td><td style='border:1px solid #dcfce7;padding:6px 10px'>singly fill degenerate orbitals first</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Stability</td><td style='border:1px solid #dcfce7;padding:6px 10px'>half-filled / fully filled subshells</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Write the electronic configuration of sodium ($Z = 11$).</p>",
+              "solution": "<p>$\\text{Na} = 1s^2\\,2s^2\\,2p^6\\,3s^1$, or in shorthand $[\\text{Ne}]\\,3s^1$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is the configuration of chromium ($Z = 24$) $[\\text{Ar}]\\,3d^5\\,4s^1$ rather than $[\\text{Ar}]\\,3d^4\\,4s^2$?</p>",
+              "solution": "<p>A half-filled $3d^5$ subshell has extra stability (from symmetry and exchange energy), so one $4s$ electron shifts to $3d$ to give the more stable $3d^5\\,4s^1$ arrangement.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>According to the Aufbau principle, the orbital filled first is:</p>", "options": ["$3d$", "$4s$", "$4p$", "$4d$"], "correct": 1, "explanation": "$4s$ ($n+l = 4$) fills before $3d$ ($n+l = 5$)." },
+            { "q": "<p>The Pauli exclusion principle limits an orbital to:</p>", "options": ["1 electron", "2 electrons of opposite spin", "3 electrons", "any number"], "correct": 1, "explanation": "At most two electrons with opposite spins." },
+            { "q": "<p>Hund's rule says degenerate orbitals are first filled:</p>", "options": ["in pairs", "singly with parallel spins", "randomly", "highest energy first"], "correct": 1, "explanation": "Singly, with parallel spins, before pairing." },
+            { "q": "<p>The configuration of copper ($Z = 29$) is:</p>", "options": ["$[\\text{Ar}]3d^9 4s^2$", "$[\\text{Ar}]3d^{10} 4s^1$", "$[\\text{Ar}]3d^8 4s^3$", "$[\\text{Ar}]4s^2 4p^9$"], "correct": 1, "explanation": "Fully filled $3d^{10}$ gives extra stability." },
+            { "q": "<p>Extra stability is associated with subshells that are:</p>", "options": ["one electron short of full", "half-filled or fully filled", "empty only", "singly occupied"], "correct": 1, "explanation": "Half-filled and fully filled subshells are extra stable." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Fill by the $(n+l)$ rule ($4s$ before $3d$), obey Pauli (2 per orbital) and Hund (singly first). Remember the Cr ($3d^5 4s^1$) and Cu ($3d^{10} 4s^1$) anomalies.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-chemistry-ch2-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>The charge on an electron is:</p>", "options": ["$+1.6\\times10^{-19}\\ \\text{C}$", "$-1.6\\times10^{-19}\\ \\text{C}$", "$-9.1\\times10^{-31}\\ \\text{C}$", "zero"], "correct": 1, "explanation": "Electron charge $= -1.6\\times10^{-19}\\ \\text{C}$." },
+            { "q": "<p>The number of neutrons in an atom with $A = 40$, $Z = 20$ is:</p>", "options": ["$20$", "$40$", "$60$", "$0$"], "correct": 0, "explanation": "Neutrons $= A - Z = 20$." },
+            { "q": "<p>Rutherford concluded that the atom has a tiny dense:</p>", "options": ["electron cloud", "nucleus", "neutron shell", "orbit"], "correct": 1, "explanation": "Most mass and positive charge sit in the nucleus." },
+            { "q": "<p>The energy of the ground state of hydrogen is:</p>", "options": ["$-3.4\\ \\text{eV}$", "$-13.6\\ \\text{eV}$", "$-1.5\\ \\text{eV}$", "$0\\ \\text{eV}$"], "correct": 1, "explanation": "$E_1 = -13.6\\ \\text{eV}$." },
+            { "q": "<p>The number of orbitals in the $d$ subshell is:</p>", "options": ["$3$", "$5$", "$7$", "$1$"], "correct": 1, "explanation": "$d$: $l = 2$, so $2l+1 = 5$ orbitals." },
+            { "q": "<p>The maximum number of electrons in the $n = 3$ shell is:</p>", "options": ["$8$", "$18$", "$32$", "$9$"], "correct": 1, "explanation": "$2n^2 = 2\\times9 = 18$." },
+            { "q": "<p>By the Aufbau principle, which fills first?</p>", "options": ["$3d$", "$4s$", "$4p$", "$5s$"], "correct": 1, "explanation": "$4s$ fills before $3d$." },
+            { "q": "<p>The electronic configuration of oxygen ($Z = 8$) is:</p>", "options": ["$1s^2 2s^2 2p^4$", "$1s^2 2s^2 2p^6$", "$1s^2 2s^4 2p^2$", "$1s^2 2p^6$"], "correct": 0, "explanation": "$\\text{O}: 1s^2 2s^2 2p^4$." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> Rutherford's atomic model could not explain the stability of the atom.<br><strong>R:</strong> A revolving electron should continuously radiate energy and spiral into the nucleus.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Radiating, in-spiralling electrons would make the atom unstable — R explains A." },
+            { "q": "<p><strong>A:</strong> Chromium has the configuration $[\\text{Ar}]3d^5 4s^1$.<br><strong>R:</strong> Half-filled subshells have extra stability due to symmetry and exchange energy.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The stability of $3d^5$ causes the anomalous configuration — R explains A." },
+            { "q": "<p><strong>A:</strong> Bohr's model successfully explains the spectra of all multi-electron atoms.<br><strong>R:</strong> The model quantises the angular momentum of the electron.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "Bohr's model works only for one-electron species, so A is false; it does quantise angular momentum, so R is true." },
+            { "q": "<p><strong>A:</strong> Degenerate orbitals are singly occupied before pairing of electrons begins.<br><strong>R:</strong> Single occupation with parallel spins minimises electron-electron repulsion (Hund's rule).</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Minimising repulsion is exactly the reason for Hund's rule — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

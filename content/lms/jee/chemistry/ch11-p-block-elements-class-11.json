@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": 11,
+  "title": "p-Block Elements (Class 11)",
+  "slug": "p-block-elements-class-11",
+  "subtitle": "p-Block Elements (Class 11) for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#3b82f6",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "Master p-Block Elements (Class 11) for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Group 13 (Boron Family)",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Trends, Anomalies of Boron",
+          "concept": "<p><strong>Group 13 (Boron family):</strong> B, Al, Ga, In, Tl. Outer config: $ns^2\\,np^1$.</p><ul><li><strong>B</strong> is metalloid</li><li><strong>Al, Ga, In, Tl</strong> are metals</li></ul><p><strong>Electronic Configurations:</strong></p><table class=\"md-table\"><thead><tr><th>Element</th><th>$Z$</th><th>Config</th></tr></thead><tbody><tr><td>B</td><td>5</td><td>$[He]\\,2s^2\\,2p^1$</td></tr><tr><td>Al</td><td>13</td><td>$[Ne]\\,3s^2\\,3p^1$</td></tr><tr><td>Ga</td><td>31</td><td>$[Ar]\\,3d^{10}\\,4s^2\\,4p^1$</td></tr><tr><td>In</td><td>49</td><td>$[Kr]\\,4d^{10}\\,5s^2\\,5p^1$</td></tr><tr><td>Tl</td><td>81</td><td>$[Xe]\\,4f^{14}\\,5d^{10}\\,6s^2\\,6p^1$</td></tr></tbody></table><p><strong>General Trends:</strong></p><table class=\"md-table\"><thead><tr><th>Property</th><th>Trend</th></tr></thead><tbody><tr><td>Atomic radius</td><td>B < Al > Ga (Ga anomaly: filled $3d$ poorly shields) ≈ In < Tl</td></tr><tr><td>IE</td><td>Generally decreases down group; Ga > Al (anomaly)</td></tr><tr><td>Metallic character</td><td>Increases ↓ (B is non-metal/metalloid)</td></tr><tr><td>Oxidation states</td><td>$+3$ common; $+1$ becomes important from Ga downward (inert pair effect)</td></tr></tbody></table><p><strong>Inert Pair Effect:</strong> Tendency of $ns^2$ electrons to remain inert (not participate in bonding) in heavier elements due to poor shielding by $d$ and $f$ electrons. Tl shows stable $+1$ rather than $+3$.</p><p><strong>Anomalous Properties of Boron:</strong></p><ul><li>Smallest size, highest IE in group</li><li>Non-metal (others metals)</li><li>Only covalent compounds (no $B^{3+}$ ion in compounds)</li><li>Maximum covalency = $4$ (no $d$-orbitals)</li><li>Highly stable boron-hydrogen compounds (boranes)</li></ul><p><strong>Differences B vs Al:</strong></p><table class=\"md-table\"><thead><tr><th>Property</th><th>Boron</th><th>Aluminium</th></tr></thead><tbody><tr><td>Nature</td><td>Non-metal</td><td>Metal</td></tr><tr><td>Reaction with acids</td><td>Very slow / passive</td><td>Reactive</td></tr><tr><td>Halides Lewis acidity</td><td>BX₃ are stronger Lewis acids (no back-bonding) than AlX₃</td><td>AlCl₃ dimeric</td></tr><tr><td>Hydroxide nature</td><td>$B(OH)_3$ weakly acidic</td><td>$Al(OH)_3$ amphoteric</td></tr><tr><td>Oxide</td><td>$B_2O_3$ acidic</td><td>$Al_2O_3$ amphoteric</td></tr></tbody></table><p><strong>Lewis Acid Strength of BX₃:</strong> Surprisingly, despite F being most EN: $BF_3 < BCl_3 < BBr_3 < BI_3$. This is because <strong>back-bonding</strong> ($p\\pi-p\\pi$) from halogen to B partially fills B's empty $p$ orbital — strongest with F (best size match), weakest with I.</p><p><strong>Aluminium:</strong></p><ul><li>Most abundant metal in Earth's crust ($\\sim 8.3\\%$)</li><li>Bauxite ($Al_2O_3 \\cdot 2H_2O$) is the main ore</li><li><strong>Hall-Héroult process:</strong> Electrolysis of molten $Al_2O_3$ in cryolite ($Na_3AlF_6$)</li><li>Amphoteric: dissolves in both acids and alkalis</li><li>Forms protective oxide layer (resistant to corrosion)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why is $BCl_3$ a stronger Lewis acid than $BF_3$?</p>",
+              "solution": "<p>B has empty $2p$ orbital → can accept e⁻ pair (Lewis acid). In $BF_3$: F has filled $2p$ that overlaps well with B's empty $2p$ → strong back-bonding makes B less electron deficient. In $BCl_3$: Cl has $3p$, size mismatch with B's $2p$ → weak back-bonding. B more electron-deficient → stronger Lewis acid. Order: $BF_3 < BCl_3 < BBr_3 < BI_3$.</p><p><strong>Final Answer:</strong> Weaker back-bonding in $BCl_3$ vs $BF_3$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Write balanced equation for Al with NaOH.</p>",
+              "solution": "<p>$2Al + 2NaOH + 2H_2O \\to 2NaAlO_2 + 3H_2$ (sodium meta-aluminate + H₂)</p><p>In hot concentrated NaOH: $2Al + 6NaOH \\to 2Na_3AlO_3 + 3H_2$.</p><p><strong>Final Answer:</strong> Aluminate + H₂.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Most metallic in Group 13:</p>",
+              "options": [
+                "B",
+                "Al",
+                "Ga",
+                "Tl"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Inert pair effect is most pronounced in:</p>",
+              "options": [
+                "B",
+                "Al",
+                "In",
+                "Tl"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$B(OH)_3$ in water is:</p>",
+              "options": [
+                "Strong base",
+                "Weak base",
+                "Weak acid (Lewis acid: $B(OH)_3 + 2H_2O \\to [B(OH)_4]^- + H_3O^+$)",
+                "Neutral"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Most stable oxidation state of Tl:</p>",
+              "options": [
+                "$+1$",
+                "$+2$",
+                "$+3$",
+                "$-1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Hall-Héroult process is used for:</p>",
+              "options": [
+                "Fe extraction",
+                "Cu refining",
+                "Al extraction",
+                "Zn purification"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Boron Compounds — Borax, Boric Acid, Diborane",
+          "concept": "<p><strong>Borax (Na₂B₄O₇·10H₂O):</strong></p><p>Structure (in solid): $[B_4O_5(OH)_4]^{2-}$ ion with $2$ Na⁺.</p><p>Two of the four B atoms are $sp^2$ hybridized (planar, trigonal); two are $sp^3$ (tetrahedral). Anion has formula $[B_4O_5(OH)_4]^{2-}$.</p><p><strong>Borax bead test:</strong> When heated, borax loses water → swells → forms transparent glassy bead of $Na_2B_4O_7 + 2NaBO_2 + B_2O_3$. With colored salts gives characteristic colors.</p><p>E.g., copper salt + borax bead → blue (Cu²⁺) → red (Cu in reducing flame).</p><p><strong>Preparation of Borax:</strong></p><ul><li>From colemanite ($Ca_2B_6O_{11}$): boil with Na₂CO₃; CaCO₃ precipitates, borax remains in solution.</li></ul><p><strong>Boric Acid (H₃BO₃ or B(OH)₃):</strong></p><p><strong>Preparation:</strong></p><ul><li>From borax: $Na_2B_4O_7 + 2HCl + 5H_2O \\to 4H_3BO_3 + 2NaCl$</li><li>Hydrolysis of $BX_3$ or boric oxide</li></ul><p><strong>Structure:</strong> Trigonal planar. H-bonded layered structure in solid (each B(OH)₃ unit H-bonded to 3 others).</p><p><strong>Properties:</strong></p><ul><li>White crystalline solid; sparingly soluble in cold water; more soluble in hot water</li><li><strong>Weak monoprotic Lewis acid:</strong> $B(OH)_3 + 2H_2O \\to [B(OH)_4]^- + H_3O^+$</li><li>It does NOT donate H⁺ directly; instead accepts OH⁻ from water — Lewis acid behavior</li><li>$K_a \\approx 6 \\times 10^{-10}$</li></ul><p><strong>Heating Behavior:</strong> $$H_3BO_3 \\xrightarrow{370 K} HBO_2 \\xrightarrow{red\\ heat} B_2O_3$$ (meta-boric acid → boric oxide)</p><p><strong>Uses:</strong> Mild antiseptic, eye washes, manufacture of borosilicate glass, enamels.</p><p><strong>Diborane (B₂H₆):</strong></p><p><strong>Preparation:</strong></p><ul><li>$2BF_3 + 6NaH \\xrightarrow{450K} B_2H_6 + 6NaF$</li><li>$2NaBH_4 + I_2 \\to B_2H_6 + 2NaI + H_2$</li></ul><p><strong>Structure:</strong> \"Banana bonds\" or 3-center-2-electron (3c-2e) bonds — two B-H-B bridges.</p><ul><li>2 H atoms are terminal (one per B), 4 are terminal end-on, 2 are bridging.</li><li>Actually: 4 terminal H + 2 bridging H.</li><li>Each B is $sp^3$ hybridized.</li><li>Both B share 2 bridging H atoms with delocalized 3c-2e bonds.</li><li>B-B distance ≈ $1.77$ Å; bridging B-H ≈ $1.33$ Å; terminal B-H ≈ $1.19$ Å.</li></ul><p><strong>Properties:</strong></p><ul><li>Colorless gas; toxic; spontaneously inflames in air</li><li>$B_2H_6 + 3O_2 \\to B_2O_3 + 3H_2O + \\text{heat}$</li><li>Hydrolysis: $B_2H_6 + 6H_2O \\to 2B(OH)_3 + 6H_2$</li><li>Hydroboration of alkenes (Brown's reaction; used in synthesis of alcohols)</li><li>Reacts with NH₃ → Borazine ($B_3N_3H_6$, \"inorganic benzene\")</li></ul><p><strong>Higher Boranes:</strong> $B_5H_9, B_{10}H_{14}$ etc. Show similar 3c-2e bonding patterns.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why is the structure of diborane unique?</p>",
+              "solution": "<p>$B_2H_6$ has only $12$ valence electrons but needs $14$ for normal Lewis structure (4 terminal + 2 bridge B-H + 1 B-B = 7 bonds × 2 = 14 e⁻). Solution: 2 bridging H atoms share their electrons with both B atoms simultaneously, forming <strong>3-center-2-electron (3c-2e) banana bonds</strong>. Two bridge bonds + four normal terminal B-H bonds = $4 + 2 \\times 2 = 8$ electron pairs, but only $6$ pairs of electrons are actually present (the bridge pairs are shared among 3 atoms).</p><p><strong>Final Answer:</strong> Electron-deficient; uses 3c-2e bonds.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is boric acid considered a Lewis acid?</p>",
+              "solution": "<p>$B(OH)_3$ has only $6$ valence e⁻ around B (octet incomplete). Accepts OH⁻ from water: $B(OH)_3 + H_2O \\rightleftharpoons [B(OH)_4]^- + H^+$ Acidity comes from accepting electron pair, not directly donating H⁺.</p><p><strong>Final Answer:</strong> Accepts OH⁻ from water → acts as Lewis acid; not a Bronsted acid.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Borax formula:</p>",
+              "options": [
+                "$Na_2B_4O_7 \\cdot 10H_2O$",
+                "$NaBO_2$",
+                "$Na_2B_2O_4$",
+                "$H_3BO_3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Boric acid is:</p>",
+              "options": [
+                "Strong acid",
+                "Weak monoprotic Lewis acid",
+                "Tribasic",
+                "Base"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of 3c-2e bonds in $B_2H_6$:</p>",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$4$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Hydrolysis of diborane gives:</p>",
+              "options": [
+                "Boric acid + H₂",
+                "BCl₃",
+                "B₂O₃",
+                "BO₂"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Borax bead test uses:</p>",
+              "options": [
+                "NaCl",
+                "Borax",
+                "HCl",
+                "BaSO₄"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Group 14 (Carbon Family)",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Trends, Allotropes of Carbon",
+          "concept": "<p><strong>Group 14:</strong> C, Si, Ge, Sn, Pb. Outer config: $ns^2\\,np^2$.</p><ul><li>C, Si: non-metals</li><li>Ge: metalloid</li><li>Sn, Pb: metals</li></ul><p><strong>Trends:</strong></p><table class=\"md-table\"><thead><tr><th>Property</th><th>Trend</th></tr></thead><tbody><tr><td>Atomic radius</td><td>Increases ↓</td></tr><tr><td>IE</td><td>Decreases ↓</td></tr><tr><td>Oxidation states</td><td>$+4$ predominant; $+2$ becomes important down (inert pair)</td></tr><tr><td>Metallic character</td><td>Increases ↓</td></tr><tr><td>Tendency for catenation</td><td>C > Si >> Ge > Sn ≈ Pb</td></tr><tr><td>Stability of $+4$</td><td>Decreases ↓</td></tr><tr><td>Stability of $+2$</td><td>Increases ↓ (Pb²⁺ > Pb⁴⁺ stability)</td></tr></tbody></table><p><strong>Catenation:</strong> Property of an element to form chains/rings with itself. Most pronounced in carbon due to:</p><ul><li>Small size (strong C-C bond, $\\sim 348$ kJ/mol)</li><li>$sp^3, sp^2, sp$ hybridization</li><li>Tetravalency</li></ul><p>Other elements show decreasing catenation; Si forms only short chains (silicates have Si-O-Si).</p><p><strong>Carbon-Halogen Bonds:</strong></p><ul><li>CCl₄ is stable in water (no hydrolysis); SiCl₄ readily hydrolyzes (Si has $d$-orbitals)</li><li>$SnCl_4, PbCl_4$ hydrolyze easily</li></ul><p><strong>Allotropes of Carbon:</strong></p><table class=\"md-table\"><thead><tr><th>Allotrope</th><th>Structure</th><th>Properties</th></tr></thead><tbody><tr><td><strong>Diamond</strong></td><td>$sp^3$ tetrahedral 3D network</td><td>Hardest natural substance; insulator; high refractive index</td></tr><tr><td><strong>Graphite</strong></td><td>$sp^2$ planar hexagonal layers</td><td>Conducts electricity along layers; soft (slippery); used as lubricant, electrode</td></tr><tr><td><strong>Fullerene (C₆₀)</strong></td><td>$sp^2$ hexagonal+pentagonal \"soccer-ball\" cage</td><td>Discrete molecule; \"buckminsterfullerene\"</td></tr><tr><td><strong>Carbon nanotubes</strong></td><td>Rolled-up graphite sheets</td><td>Extremely strong; conducting/semiconducting depending on geometry</td></tr><tr><td><strong>Amorphous (coal, charcoal, soot)</strong></td><td>Disordered $sp^2$/$sp^3$</td><td>Used for adsorption (activated charcoal)</td></tr></tbody></table><p><strong>Diamond Structure:</strong> Each C bonded to 4 others tetrahedrally. C-C bond length $1.54$ Å. Very high lattice energy.</p><p><strong>Graphite Structure:</strong> Layers of hexagonal rings; each C bonded to 3 others ($sp^2$); C-C in layer $1.42$ Å; layers $3.35$ Å apart (van der Waals); 4th electron delocalized → conduction.</p><p><strong>Fullerene:</strong> C₆₀ molecule shaped like soccer ball; $20$ hexagons + $12$ pentagons; $sp^2$ but slightly pyramidalized (curvature).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why does diamond have higher melting point than graphite (theoretically)? Actually graphite has slightly higher MP.</p>",
+              "solution": "<p>Both have very strong covalent bonds, but in graphite, each layer is held by C-C ($\\sim 1.42$ Å, very strong, slightly shorter than diamond's $1.54$ Å), and to break the structure, one must break covalent bonds. Diamond: $sp^3$ network, 3D. Graphite: $sp^2$ within layer; even higher bond strength due to partial $\\pi$-bonding character. At very high T (sublimation), graphite sublimes slightly above diamond's melting point.</p><p><strong>Final Answer:</strong> Both very high; graphite's MP > diamond due to stronger in-plane bonds.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why does SiCl₄ react with water but CCl₄ does not?</p>",
+              "solution": "<p>SiCl₄: Si has empty $3d$ orbitals → can accept lone pair from $H_2O$ → easy hydrolysis: $SiCl_4 + 4H_2O \\to Si(OH)_4 + 4HCl$. CCl₄: C has no $d$-orbitals; cannot expand octet; no path for hydrolysis.</p><p><strong>Final Answer:</strong> Availability of $d$-orbitals in Si enables hydrolysis.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Most stable oxidation state of Pb:</p>",
+              "options": [
+                "$+1$",
+                "$+2$",
+                "$+3$",
+                "$+4$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Hardest allotrope of carbon:</p>",
+              "options": [
+                "Graphite",
+                "Fullerene",
+                "Diamond",
+                "Amorphous"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Graphite conducts electricity due to:</p>",
+              "options": [
+                "Free protons",
+                "Delocalized $\\pi$-electrons in layers",
+                "Ionic bonds",
+                "Metallic bond"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Property of catenation is best shown by:</p>",
+              "options": [
+                "C",
+                "Si",
+                "Ge",
+                "Pb"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>CCl₄ in water:</p>",
+              "options": [
+                "Hydrolyzed",
+                "Insoluble, no reaction",
+                "Dissolves",
+                "Forms HCl"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Carbon Compounds, Silicates, Silicones",
+          "concept": "<p><strong>Oxides of Carbon:</strong></p><table class=\"md-table\"><thead><tr><th>Oxide</th><th>Properties</th><th>Notes</th></tr></thead><tbody><tr><td><strong>CO</strong></td><td>Colorless, odorless, very toxic</td><td>Forms strong complex with hemoglobin (200× O₂'s affinity)</td></tr><tr><td><strong>CO₂</strong></td><td>Colorless, slightly soluble</td><td>Greenhouse gas; in dry ice form is solid</td></tr><tr><td><strong>C₃O₂</strong></td><td>Carbon suboxide</td><td>Rare; OCCCO structure</td></tr></tbody></table><p><strong>Carbon Monoxide (CO):</strong></p><ul><li>Bonding: $:C\\equiv O:$ — triple bond with both lone pairs</li><li>Excellent ligand (forms metal carbonyls); $\\sigma$-donor from C, $\\pi$-acceptor</li><li>Strong reducing agent</li></ul><p><strong>Carbon Dioxide (CO₂):</strong></p><ul><li>$O=C=O$ linear, $sp$ hybridized C</li><li>Forms carbonic acid: $CO_2 + H_2O \\rightleftharpoons H_2CO_3$</li><li>Solid form (\"dry ice\") sublimes; used as refrigerant</li><li>Green house gas; rising levels causing global warming</li></ul><p><strong>Silicon Compounds:</strong></p><p><strong>Silica ($SiO_2$):</strong></p><ul><li>3D giant covalent network with $sp^3$ Si bonded to 4 O atoms (tetrahedrally)</li><li>Quartz, sand, glass forms</li><li>High MP ($\\sim 1710°$C); insoluble; chemically inert</li><li>Reacts with HF: $SiO_2 + 4HF \\to SiF_4 + 2H_2O$</li><li>Reacts with NaOH: $SiO_2 + 2NaOH \\to Na_2SiO_3 + H_2O$</li></ul><p><strong>Silicates:</strong> Compounds containing $SiO_4^{4-}$ tetrahedra. Building unit; can polymerize.</p><table class=\"md-table\"><thead><tr><th>Type</th><th>Structure</th><th>Example</th></tr></thead><tbody><tr><td>Orthosilicate</td><td>Isolated $SiO_4^{4-}$</td><td>$Mg_2SiO_4$ (olivine)</td></tr><tr><td>Pyrosilicate</td><td>$Si_2O_7^{6-}$ — 2 tetrahedra sharing 1 O</td><td>Thortveitite</td></tr><tr><td>Cyclic</td><td>Rings of tetrahedra</td><td>Beryl $Be_3Al_2Si_6O_{18}$</td></tr><tr><td>Chain</td><td>Single chain</td><td>Pyroxenes</td></tr><tr><td>Double chain</td><td>Two chains linked</td><td>Asbestos (amphiboles)</td></tr><tr><td>Sheet</td><td>2D layers</td><td>Talc, mica, clays</td></tr><tr><td>3D framework</td><td>All four O shared</td><td>Quartz, feldspars, zeolites</td></tr></tbody></table><p><strong>Silicones:</strong> Synthetic polymers with general formula $R_2SiO$, alternating Si-O-Si backbone with R = alkyl/aryl groups.</p><p><strong>Preparation:</strong> $R_2SiCl_2 + 2H_2O \\to R_2Si(OH)_2 + 2HCl$ Condensation: $nR_2Si(OH)_2 \\to (R_2SiO)_n + nH_2O$</p><p><strong>Properties:</strong></p><ul><li>Stable to heat and chemicals</li><li>Water-repellent</li><li>Excellent electrical insulators</li><li>Used in lubricants, water-repellent coatings, surgical implants, sealants</li></ul><p><strong>Important Silicon Compounds:</strong></p><ul><li><strong>SiC (Silicon Carbide / Carborundum):</strong> Very hard ($\\sim 9.5$ on Mohs); abrasive</li><li><strong>Si₃N₄:</strong> Refractory ceramic</li><li><strong>Silanes (SiH₄ etc.):</strong> Analogous to alkanes but reactive (less stable than alkanes)</li></ul><p><strong>Zeolites:</strong> Crystalline aluminosilicates with porous structure. Used as:</p><ul><li>Molecular sieves (separate molecules by size)</li><li>Catalysts in petroleum cracking</li><li>Water softeners (ion exchange)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why is CO poisonous?</p>",
+              "solution": "<p>CO binds to hemoglobin's iron with ~$200\\times$ greater affinity than O₂. This <strong>blocks O₂ transport</strong> in blood; cells suffocate (hypoxia). Severe poisoning leads to death.</p><p><strong>Final Answer:</strong> Forms stable carboxyhemoglobin; blocks O₂ uptake.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Write structures of: $SiO_4^{4-}$, $Si_2O_7^{6-}$.</p>",
+              "solution": "<p>$SiO_4^{4-}$: tetrahedral, Si bonded to 4 O atoms with charge $-4$. $Si_2O_7^{6-}$: two $SiO_4$ tetrahedra sharing one O corner; ${}_5O = ⏐$ structure with $1$ shared O between two Si.</p><p><strong>Final Answer:</strong> Orthosilicate (isolated tetrahedron); pyrosilicate (two tetrahedra sharing one O).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>CO is dangerous because it:</p>",
+              "options": [
+                "Burns lungs",
+                "Forms HCOOH",
+                "Binds Hb stronger than O₂",
+                "Causes vomiting"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Carborundum is:</p>",
+              "options": [
+                "SiO₂",
+                "SiC",
+                "Si",
+                "Silica gel"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Silicones are:</p>",
+              "options": [
+                "Inorganic compounds",
+                "Organosilicon polymers with Si-O backbone",
+                "Saline",
+                "Silicates"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Zeolites are used as:</p>",
+              "options": [
+                "Pesticide",
+                "Catalyst and molecular sieve",
+                "Fertilizer",
+                "Polymer"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Diamond structure has:</p>",
+              "options": [
+                "$sp^2$ C",
+                "$sp^3$ tetrahedral C",
+                "$sp$ C",
+                "Mixed hybridization"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-chem-p-block-elements-class-11-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>Element NOT in Group 13:</p>",
+              "options": [
+                "B",
+                "Al",
+                "C",
+                "Ga"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Inert pair effect is best exhibited by:</p>",
+              "options": [
+                "B",
+                "Al",
+                "In",
+                "Tl"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Diborane has:</p>",
+              "options": [
+                "Linear structure",
+                "Banana-like 3c-2e bonds",
+                "Tetrahedral",
+                "Planar"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The Lewis acid strength order:</p>",
+              "options": [
+                "BF₃ > BCl₃ > BBr₃",
+                "BI₃ > BBr₃ > BCl₃ > BF₃",
+                "Same",
+                "BF₃ < BBr₃ > BI₃"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Borax bead test identifies:</p>",
+              "options": [
+                "Halides",
+                "Cations (especially transition metals)",
+                "Carbohydrates",
+                "Alcohols"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The strongest reducing agent in Group 14:</p>",
+              "options": [
+                "C",
+                "Si",
+                "Sn",
+                "Pb"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Allotrope of C with C60 molecule:</p>",
+              "options": [
+                "Diamond",
+                "Graphite",
+                "Fullerene",
+                "Amorphous"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Silica reacts with:</p>",
+              "options": [
+                "HF",
+                "HCl",
+                "HNO₃",
+                "H₂SO₄"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Silicones contain repeating unit:</p>",
+              "options": [
+                "$Si-O-Si$",
+                "$Si-C-Si$",
+                "$Si-H-Si$",
+                "$Si-N-Si$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The most abundant metal in Earth's crust:</p>",
+              "options": [
+                "Fe",
+                "Al",
+                "Ca",
+                "Na"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Number of bridging H atoms in $B_2H_6$:</p>",
+              "answer": "2",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Coordination number of Si in $SiO_4^{4-}$:</p>",
+              "answer": "4",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Oxidation state of C in CO₂:</p>",
+              "answer": "4",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Tl shows +1 oxidation state more stable than +3. <strong>Reason (R):</strong> Inert pair effect makes 6s² electrons of Tl inert toward bonding.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> Boric acid is a Lewis acid. <strong>Reason (R):</strong> It accepts OH⁻ from water to form $[B(OH)_4]^-$, releasing H⁺.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

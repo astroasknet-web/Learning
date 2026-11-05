@@ -1,0 +1,168 @@
+{
+  "exam": "neet",
+  "subject": "physics",
+  "chapter": 4,
+  "title": "Work, Energy & Power",
+  "slug": "work-energy-and-power",
+  "subtitle": "Work-energy theorem, conservation of energy, power & collisions",
+  "level": "NEET (UG)",
+  "color": "#2563eb",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "NEET Physics — Work, Energy & Power: work-energy theorem, kinetic and potential energy, conservation of energy, power and collisions with NEET-level solved examples and MCQs. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Work and Energy",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Work and the Work-Energy Theorem",
+          "concept": "<p>In physics, <strong>work</strong> has a precise meaning very different from everyday speech. Work is done by a force only when its point of application moves, and only the component of force along the displacement counts: $W = F\\,s\\cos\\theta$, where $\\theta$ is the angle between force and displacement. Work is a <em>scalar</em>, measured in <strong>joules</strong> ($1\\ \\text{J} = 1\\ \\text{N}\\cdot\\text{m}$). Holding a heavy bag still may tire you, but since there is no displacement, the work done on the bag is zero.</p><p>The sign of work matters in NEET. Work is <strong>positive</strong> when the force has a component along the motion (a falling stone, gravity doing positive work), <strong>negative</strong> when it opposes the motion (friction, or gravity on a rising body), and <strong>zero</strong> when the force is perpendicular to the displacement. This last case explains why the centripetal force does no work in circular motion and why the normal reaction does no work on a body sliding along a surface — both are perpendicular to the motion.</p><p>When the force varies, work is the <strong>area under the force-displacement graph</strong>. For a spring obeying Hooke's law ($F = kx$), this area gives the work done in stretching or compressing it by $x$ as $W = \\tfrac{1}{2}kx^{2}$. Reading such areas is a quick, calculation-free way to compare work in NEET graph questions.</p><p>The central result is the <strong>work-energy theorem</strong>: the net work done on a body equals the change in its kinetic energy, $W_{\\text{net}} = \\Delta KE = \\tfrac{1}{2}mv^{2} - \\tfrac{1}{2}mu^{2}$. This single statement links force and motion to energy and often replaces the equations of motion entirely. If the net work is positive the body speeds up; if negative (as with braking friction) it slows down. Because it deals with the <em>net</em> work, the theorem holds whether forces are constant or variable, conservative or not.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Angle θ</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Work done</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>$0^{\\circ}$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>maximum, positive ($W = Fs$)</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>$90^{\\circ}$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>zero</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>$180^{\\circ}$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>negative ($W = -Fs$)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A force of $10\\ \\text{N}$ pulls a box $4\\ \\text{m}$ along the floor at $60^{\\circ}$ to the horizontal. Find the work done.</p>",
+              "solution": "<p>$W = Fs\\cos\\theta = 10\\times4\\times\\cos60^{\\circ} = 10\\times4\\times0.5 = 20\\ \\text{J}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A $2\\ \\text{kg}$ body speeds up from $3\\ \\text{m/s}$ to $5\\ \\text{m/s}$. Find the net work done on it.</p>",
+              "solution": "<p>By the work-energy theorem, $W = \\tfrac{1}{2}m(v^{2}-u^{2}) = \\tfrac{1}{2}(2)(25-9) = 16\\ \\text{J}$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Work done by a force perpendicular to displacement is:</p>", "options": ["maximum", "negative", "zero", "infinite"], "correct": 2, "explanation": "$\\cos 90^{\\circ} = 0$, so work is zero." },
+            { "q": "<p>The SI unit of work is the:</p>", "options": ["newton", "joule", "watt", "pascal"], "correct": 1, "explanation": "Work is measured in joules ($\\text{N}\\cdot\\text{m}$)." },
+            { "q": "<p>The work-energy theorem equates net work to the change in:</p>", "options": ["momentum", "kinetic energy", "potential energy", "power"], "correct": 1, "explanation": "$W_{net} = \\Delta KE$." },
+            { "q": "<p>Work done in stretching a spring by $x$ (constant $k$) is:</p>", "options": ["$kx$", "$\\tfrac{1}{2}kx^{2}$", "$kx^{2}$", "$\\tfrac{1}{2}kx$"], "correct": 1, "explanation": "$W = \\tfrac{1}{2}kx^2$ (area under $F = kx$)." },
+            { "q": "<p>Friction acting opposite to motion does work that is:</p>", "options": ["positive", "negative", "zero", "variable in sign"], "correct": 1, "explanation": "Force opposite to displacement ⇒ negative work." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Use the work-energy theorem whenever a speed change is involved but you don't need time — it is often faster than the kinematic equations.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Kinetic Energy, Potential Energy and Conservation",
+          "concept": "<p>Energy is the capacity to do work, and mechanics deals chiefly with two mechanical forms. <strong>Kinetic energy</strong> is energy of motion, $KE = \\tfrac{1}{2}mv^{2}$ — note it grows with the <em>square</em> of speed, so doubling speed quadruples kinetic energy, a fact that explains why braking distance rises sharply with speed. A useful link for NEET is $KE = \\dfrac{p^{2}}{2m}$, connecting kinetic energy to momentum $p$.</p><p><strong>Potential energy</strong> is stored energy of position or configuration. <strong>Gravitational PE</strong> near the Earth's surface is $PE = mgh$, taken relative to a chosen reference level. <strong>Elastic PE</strong> stored in a stretched or compressed spring is $\\tfrac{1}{2}kx^{2}$. Potential energy is defined only for <strong>conservative forces</strong> (gravity, spring force), for which the work done depends only on the endpoints, not the path taken.</p><p>This distinction matters. For a <strong>conservative force</strong>, the work in a round trip is zero and energy can be stored and recovered. For a <strong>non-conservative force</strong> like friction, the work depends on the path and energy is dissipated as heat — it cannot be recovered. NEET frequently asks you to classify a force as conservative or not.</p><p>The <strong>law of conservation of mechanical energy</strong> states that if only conservative forces act, the total $KE + PE$ stays constant. A freely falling body steadily converts potential into kinetic energy with their sum unchanged; a pendulum trades the two back and forth. The broader <strong>law of conservation of energy</strong> says energy is never created or destroyed, only transformed — so when friction is present, the 'lost' mechanical energy reappears as heat, and the total energy is still conserved. Setting (energy at A) = (energy at B), with a heat term when friction acts, solves most NEET energy problems in one line.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Form of energy</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Expression</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Kinetic energy</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\tfrac{1}{2}mv^{2} = p^{2}/2m$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Gravitational PE</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$mgh$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Elastic (spring) PE</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\tfrac{1}{2}kx^{2}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A body of mass $1\\ \\text{kg}$ is dropped from a height of $5\\ \\text{m}$. Find its speed just before hitting the ground. ($g = 10\\ \\text{m/s}^2$)</p>",
+              "solution": "<p>By conservation of energy, $mgh = \\tfrac{1}{2}mv^{2}$, so $v = \\sqrt{2gh} = \\sqrt{2\\times10\\times5} = 10\\ \\text{m/s}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>If the momentum of a body is doubled, by what factor does its kinetic energy change?</p>",
+              "solution": "<p>Since $KE = \\dfrac{p^{2}}{2m}$, doubling $p$ multiplies $KE$ by $2^{2} = 4$. The kinetic energy becomes four times larger.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>If speed is doubled, kinetic energy becomes:</p>", "options": ["double", "triple", "four times", "half"], "correct": 2, "explanation": "$KE \\propto v^2$, so it becomes $4\\times$." },
+            { "q": "<p>Potential energy can be defined only for:</p>", "options": ["friction", "conservative forces", "all forces", "moving bodies"], "correct": 1, "explanation": "PE is defined only for conservative forces." },
+            { "q": "<p>For a conservative force, the work done over a closed path is:</p>", "options": ["maximum", "zero", "negative", "infinite"], "correct": 1, "explanation": "Round-trip work is zero for conservative forces." },
+            { "q": "<p>A pendulum's energy at the lowest point is mostly:</p>", "options": ["potential", "kinetic", "elastic", "thermal"], "correct": 1, "explanation": "At the bottom, PE is minimum and KE is maximum." },
+            { "q": "<p>Mechanical energy is conserved when:</p>", "options": ["friction acts", "only conservative forces act", "the body is at rest", "speed is constant"], "correct": 1, "explanation": "KE + PE is constant when only conservative forces act." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> When friction is present, mechanical energy is NOT conserved — write (initial energy) = (final energy) + (heat produced = friction × distance).</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Power and Collisions",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Power",
+          "concept": "<p><strong>Power</strong> is the rate of doing work, or equivalently the rate of energy transfer: $P = \\dfrac{W}{t}$. Its SI unit is the <strong>watt</strong> ($1\\ \\text{W} = 1\\ \\text{J/s}$). Two machines may do the same total work, but the one that does it in less time is more powerful. A common practical unit is the kilowatt ($10^{3}$ W) and the horsepower ($1\\ \\text{hp} \\approx 746\\ \\text{W}$); the commercial unit of <em>energy</em>, the kilowatt-hour, is power × time and equals $3.6\\times10^{6}$ J.</p><p><strong>Average power</strong> is total work divided by total time, while <strong>instantaneous power</strong> is the rate at a particular moment, which can be written neatly as $P = \\vec{F}\\cdot\\vec{v} = Fv\\cos\\theta$. This form is very useful: it shows that for a vehicle moving at constant speed against a resistive force, the engine power equals force times speed.</p><p>The dot-product form explains everyday observations NEET likes to probe. A car climbing a hill at steady speed must deliver more power than on level ground because the engine force now also balances the component of gravity along the slope. When a vehicle of fixed engine power accelerates, its driving force $F = P/v$ <em>decreases</em> as speed rises — which is why acceleration tapers off and a maximum speed is eventually reached, where the driving force just balances resistance.</p><p>Dimensionally, power has the formula $[\\text{ML}^{2}\\text{T}^{-3}]$. A frequent NEET task is to compute the power of a pump or motor: lifting water of mass $m$ through height $h$ in time $t$ requires power $P = \\dfrac{mgh}{t}$, and if the water also leaves with speed $v$, an extra $\\dfrac{1}{2}mv^{2}/t$ of kinetic-energy power is needed. Keeping track of which energy is being supplied per second is the key skill.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Relation</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Average power</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$P = W/t$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Instantaneous power</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$P = \\vec{F}\\cdot\\vec{v} = Fv\\cos\\theta$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>1 kWh</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$3.6\\times10^{6}\\ \\text{J}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A pump lifts $600\\ \\text{kg}$ of water to a height of $10\\ \\text{m}$ in $20\\ \\text{s}$. Find its power. ($g = 10\\ \\text{m/s}^2$)</p>",
+              "solution": "<p>$P = \\dfrac{mgh}{t} = \\dfrac{600\\times10\\times10}{20} = \\dfrac{60000}{20} = 3000\\ \\text{W} = 3\\ \\text{kW}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A car of engine power $50\\ \\text{kW}$ moves at constant $25\\ \\text{m/s}$. Find the resistive force it overcomes.</p>",
+              "solution": "<p>At constant speed, $P = Fv$, so $F = \\dfrac{P}{v} = \\dfrac{50000}{25} = 2000\\ \\text{N}$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The SI unit of power is the:</p>", "options": ["joule", "watt", "newton", "pascal"], "correct": 1, "explanation": "Power is measured in watts ($\\text{J/s}$)." },
+            { "q": "<p>Instantaneous power can be written as:</p>", "options": ["$F/v$", "$\\vec{F}\\cdot\\vec{v}$", "$Fs$", "$mv$"], "correct": 1, "explanation": "$P = \\vec{F}\\cdot\\vec{v}$." },
+            { "q": "<p>1 kilowatt-hour equals:</p>", "options": ["$1000\\ \\text{J}$", "$3600\\ \\text{J}$", "$3.6\\times10^{6}\\ \\text{J}$", "$746\\ \\text{J}$"], "correct": 2, "explanation": "$1\\ \\text{kWh} = 1000\\ \\text{W}\\times3600\\ \\text{s} = 3.6\\times10^6\\ \\text{J}$." },
+            { "q": "<p>For a fixed-power engine, the driving force as speed increases:</p>", "options": ["increases", "decreases", "stays constant", "becomes zero"], "correct": 1, "explanation": "$F = P/v$ decreases as $v$ rises." },
+            { "q": "<p>The dimensional formula of power is:</p>", "options": ["$[\\text{ML}^{2}\\text{T}^{-2}]$", "$[\\text{ML}^{2}\\text{T}^{-3}]$", "$[\\text{MLT}^{-2}]$", "$[\\text{ML}^{-1}\\text{T}^{-2}]$"], "correct": 1, "explanation": "Power = energy/time = $[\\text{ML}^2\\text{T}^{-3}]$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> For constant-speed motion, engine power = resistive force × speed. For lifting, use $P = mgh/t$ and add any kinetic-energy rate if the load also gains speed.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Collisions",
+          "concept": "<p>A <strong>collision</strong> is a brief, strong interaction between bodies. In every collision, provided no external force acts, <strong>linear momentum is conserved</strong> — this is the master equation, true regardless of the collision type, because the forces during impact are internal. What distinguishes collisions is whether <em>kinetic energy</em> is also conserved.</p><p>In a <strong>perfectly elastic collision</strong>, both momentum and kinetic energy are conserved. Colliding gas molecules and ideal billiard balls approximate this. A striking special case is a one-dimensional elastic collision between <em>equal masses</em> where one is initially at rest: the moving body stops and the stationary one moves off with the full original velocity — a complete exchange of velocities, often tested in NEET. A very light body bouncing off a very heavy one reverses its velocity almost unchanged.</p><p>In a <strong>perfectly inelastic collision</strong>, the bodies stick together and move with a common velocity; momentum is conserved but kinetic energy is maximally lost (converted to heat, sound and deformation). A bullet embedding in a block is the classic example. Most real collisions are <strong>partially inelastic</strong> — somewhere between the two extremes — with some kinetic energy lost.</p><p>The degree of elasticity is measured by the <strong>coefficient of restitution</strong> $e = \\dfrac{\\text{relative speed of separation}}{\\text{relative speed of approach}}$. It ranges from $e = 1$ for a perfectly elastic collision to $e = 0$ for a perfectly inelastic one. A familiar application is a ball dropped from height $h$ that rebounds to $h' = e^{2}h$, so successive bounce heights fall geometrically. Using momentum conservation together with the value of $e$ resolves almost any NEET collision numerical.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Collision</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Momentum</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Kinetic energy</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>$e$</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Elastic</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>conserved</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>conserved</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>1</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Inelastic</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>conserved</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>not conserved</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$0 &lt; e &lt; 1$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Perfectly inelastic</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>conserved</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>maximally lost</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>0</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A $2\\ \\text{kg}$ ball at $6\\ \\text{m/s}$ collides head-on and sticks to a stationary $4\\ \\text{kg}$ ball. Find their common velocity.</p>",
+              "solution": "<p>Perfectly inelastic, so momentum is conserved: $2\\times6 + 4\\times0 = (2+4)v$, giving $v = \\dfrac{12}{6} = 2\\ \\text{m/s}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A ball dropped from $2\\ \\text{m}$ rebounds to $0.5\\ \\text{m}$. Find the coefficient of restitution.</p>",
+              "solution": "<p>$h' = e^{2}h$, so $e = \\sqrt{h'/h} = \\sqrt{0.5/2} = \\sqrt{0.25} = 0.5$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>In all collisions (no external force), the conserved quantity is:</p>", "options": ["kinetic energy", "momentum", "speed", "height"], "correct": 1, "explanation": "Momentum is conserved in every collision." },
+            { "q": "<p>In a perfectly elastic collision, what is also conserved?</p>", "options": ["only momentum", "kinetic energy", "potential energy", "nothing"], "correct": 1, "explanation": "Elastic collisions conserve kinetic energy too." },
+            { "q": "<p>For a perfectly inelastic collision, the coefficient of restitution is:</p>", "options": ["1", "0.5", "0", "greater than 1"], "correct": 2, "explanation": "$e = 0$ for perfectly inelastic collisions." },
+            { "q": "<p>In a 1-D elastic collision of equal masses (one at rest), after impact:</p>", "options": ["both move together", "velocities are exchanged", "both stop", "they reverse"], "correct": 1, "explanation": "Equal masses exchange velocities in an elastic collision." },
+            { "q": "<p>A ball rebounds to $e^2 h$ of its drop height. If $e = 0.8$ and $h = 100\\ \\text{cm}$, the rebound height is:</p>", "options": ["$64\\ \\text{cm}$", "$80\\ \\text{cm}$", "$36\\ \\text{cm}$", "$128\\ \\text{cm}$"], "correct": 0, "explanation": "$h' = e^2 h = 0.64\\times100 = 64\\ \\text{cm}$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Always write momentum conservation first. Add kinetic-energy conservation ONLY for elastic collisions, or use the coefficient of restitution $e$ for the in-between cases.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-physics-ch4-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>A $5\\ \\text{N}$ force moves a body $3\\ \\text{m}$ in its own direction. Work done is:</p>", "options": ["$1.7\\ \\text{J}$", "$8\\ \\text{J}$", "$15\\ \\text{J}$", "$0$"], "correct": 2, "explanation": "$W = Fs = 5\\times3 = 15\\ \\text{J}$." },
+            { "q": "<p>The kinetic energy of a $2\\ \\text{kg}$ body moving at $3\\ \\text{m/s}$ is:</p>", "options": ["$3\\ \\text{J}$", "$6\\ \\text{J}$", "$9\\ \\text{J}$", "$18\\ \\text{J}$"], "correct": 2, "explanation": "$KE = \\tfrac{1}{2}(2)(9) = 9\\ \\text{J}$." },
+            { "q": "<p>Work done by the centripetal force in uniform circular motion is:</p>", "options": ["positive", "negative", "zero", "maximum"], "correct": 2, "explanation": "It is perpendicular to velocity, so it does no work." },
+            { "q": "<p>A body falls freely from height $h$. At half the height, the ratio KE : PE is:</p>", "options": ["1 : 1", "1 : 2", "2 : 1", "3 : 1"], "correct": 0, "explanation": "At $h/2$, half the PE has become KE, so KE = PE." },
+            { "q": "<p>A $1000\\ \\text{W}$ motor running for $1\\ \\text{minute}$ does work:</p>", "options": ["$1000\\ \\text{J}$", "$6000\\ \\text{J}$", "$60000\\ \\text{J}$", "$3.6\\times10^{6}\\ \\text{J}$"], "correct": 2, "explanation": "$W = Pt = 1000\\times60 = 60000\\ \\text{J}$." },
+            { "q": "<p>If momentum is halved, kinetic energy becomes:</p>", "options": ["half", "one-fourth", "double", "four times"], "correct": 1, "explanation": "$KE \\propto p^2$, so halving $p$ gives $\\tfrac{1}{4}$." },
+            { "q": "<p>A bullet embeds in a wooden block. The collision is:</p>", "options": ["elastic", "perfectly inelastic", "super-elastic", "frictionless"], "correct": 1, "explanation": "Sticking together ⇒ perfectly inelastic." },
+            { "q": "<p>Energy lost to friction reappears mainly as:</p>", "options": ["light", "sound only", "heat", "potential energy"], "correct": 2, "explanation": "Friction converts mechanical energy chiefly into heat." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> The work done by a conservative force around a closed path is zero.<br><strong>R:</strong> For a conservative force, work depends only on the end positions, not the path.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Path-independence implies zero round-trip work — R explains A." },
+            { "q": "<p><strong>A:</strong> Kinetic energy can never be negative.<br><strong>R:</strong> It depends on the square of the speed.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "$KE = \\tfrac{1}{2}mv^2 \\ge 0$ because $v^2 \\ge 0$ — R explains A." },
+            { "q": "<p><strong>A:</strong> In a perfectly inelastic collision, kinetic energy is conserved.<br><strong>R:</strong> Momentum is conserved in all collisions.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "KE is NOT conserved in inelastic collisions (A false); momentum is conserved in all collisions (R true)." },
+            { "q": "<p><strong>A:</strong> A car needs more engine power to climb a hill than to move on level ground at the same speed.<br><strong>R:</strong> On a slope the engine force must also balance the component of gravity along the incline.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Extra force against gravity at the same speed means more power ($P = Fv$) — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

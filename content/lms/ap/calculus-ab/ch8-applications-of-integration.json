@@ -1,0 +1,727 @@
+{
+  "exam": "ap",
+  "subject": "calculus-ab",
+  "chapter": 8,
+  "title": "Applications of Integration",
+  "slug": "applications-of-integration",
+  "subtitle": "AP Calculus AB — Unit 8",
+  "level": "AP Calculus AB",
+  "color": "#14b8a6",
+  "icon": "math",
+  "seo": {
+    "title": "Applications of Integration — AP Calculus AB | GrowQR",
+    "meta_description": "Master Applications of Integration for AP Calculus AB: notes, formulas, worked examples, self-check MCQs and mock tests. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Foundations & Definitions",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Overview, Objectives & Key Definitions",
+          "concept": "<h2>Unit Overview</h2>\n<p>This capstone unit puts the definite integral to work. You will compute <strong>average value</strong>, use integrals for <strong>motion</strong> (displacement and total distance), find <strong>areas between curves</strong>, and calculate <strong>volumes</strong> of solids — both by <strong>cross sections</strong> and by <strong>rotation</strong> (disk/washer, with shells as an extension). These are the classic &quot;set up and evaluate an integral&quot; problems that dominate AP free-response.</p>\n<p>The skill is twofold: <strong>set up the correct integral</strong> (the hardest part) and <strong>evaluate it</strong> using Unit 6 techniques.</p>\n<p><strong>Big picture:</strong> Slice the region/solid into thin pieces, express each piece&#39;s measure as an integrand, and <strong>integrate</strong> to total it.</p>\n<hr>\n<h2>Learning Objectives</h2>\n<ul>\n<li>Compute the <strong>average value</strong> of a function and apply the Mean Value Theorem for Integrals.</li>\n<li>Use integrals for <strong>rectilinear motion</strong>: displacement <code>∫v</code> and total distance <code>∫|v|</code>; recover position from velocity and velocity from acceleration.</li>\n<li>Find <strong>area between curves</strong>, integrating with respect to x <strong>or</strong> y.</li>\n<li>Find <strong>volumes</strong> with known <strong>cross sections</strong> (squares, semicircles, triangles).</li>\n<li>Find <strong>volumes of revolution</strong> by the <strong>disk</strong> and <strong>washer</strong> methods (and <strong>shell</strong> method).</li>\n</ul>\n<hr>\n<h2>Prerequisite Concepts</h2>\n<ul>\n<li>Definite integrals and the FTC (Unit 6); u-substitution.</li>\n<li>Geometry: areas of circles/triangles, volume intuition.</li>\n<li>Finding intersection points of curves.</li>\n</ul>\n<hr>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "The average value of a function f on the interval [a, b] is given by:",
+              "options": [
+                "(1/(b - a)) * integral from a to b of f(x) dx",
+                "integral from a to b of f(x) dx",
+                "(f(a) + f(b))/2",
+                "f((a + b)/2)"
+              ],
+              "correct": 0,
+              "explanation": "The average value is the integral of f over [a, b] divided by the length of the interval: (1/(b - a)) integral from a to b of f dx."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Theorems & Formulas",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Important Theorems & Formulas",
+          "concept": "<h2>Key Definitions &amp; Formulas</h2>\n<p><strong>Average value</strong> of f on [a, b]: <code>f_avg = (1/(b − a)) ∫ₐᵇ f(x) dx</code>.</p>\n<p><strong>Motion:</strong></p>\n<ul>\n<li>Displacement on [a, b]: <code>∫ₐᵇ v(t) dt</code> (net; can be negative).</li>\n<li>Total distance on [a, b]: <code>∫ₐᵇ |v(t)| dt</code> (split at v = 0).</li>\n<li>Position: <code>s(b) = s(a) + ∫ₐᵇ v(t) dt</code>; velocity: <code>v(t) = v(a) + ∫ₐᵗ a(τ) dτ</code>.</li>\n</ul>\n<p><strong>Area between curves</strong> (top T, bottom B): <code>∫ₐᵇ [T(x) − B(x)] dx</code>; or with horizontal strips <code>∫_c^d [R(y) − L(y)] dy</code> (right − left).</p>\n<p><strong>Volume by cross sections</strong> with area A(x): <code>V = ∫ₐᵇ A(x) dx</code>. Common cross sections of &quot;size&quot; s:</p>\n<ul>\n<li>Square: <code>A = s²</code></li>\n<li>Semicircle (diameter s): <code>A = (π/8) s²</code></li>\n<li>Equilateral triangle (side s): <code>A = (√3/4) s²</code></li>\n</ul>\n<p><strong>Volume of revolution about the x-axis:</strong></p>\n<ul>\n<li><strong>Disk:</strong> <code>V = π ∫ₐᵇ [f(x)]² dx</code></li>\n<li><strong>Washer:</strong> <code>V = π ∫ₐᵇ ([R(x)]² − [r(x)]²) dx</code></li>\n</ul>\n<p><strong>Shell method</strong> (about the y-axis): <code>V = 2π ∫ₐᵇ x·f(x) dx</code>.</p>\n<hr>\n<h2>Important Theorem</h2>\n<p><strong>Mean Value Theorem for Integrals:</strong> If f is continuous on [a, b], there exists c in [a, b] with <code>f(c) = f_avg</code> — the function attains its average value at some point.</p>\n<hr>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Find the average value of f(x) = x^2 on [0, 3].",
+              "options": [
+                "3",
+                "9",
+                "6",
+                "1"
+              ],
+              "correct": 0,
+              "explanation": "Average = (1/3) integral from 0 to 3 of x^2 dx = (1/3)[x^3/3] from 0 to 3 = (1/3)(9) = 3."
+            },
+            {
+              "q": "Find the average value of f(x) = 2x on [1, 5].",
+              "options": [
+                "6",
+                "12",
+                "3",
+                "24"
+              ],
+              "correct": 0,
+              "explanation": "Average = (1/4) integral from 1 to 5 of 2x dx = (1/4)[x^2] from 1 to 5 = (1/4)(25 - 1) = 24/4 = 6."
+            },
+            {
+              "q": "A particle has velocity v(t). The displacement from t = a to t = b is:",
+              "options": [
+                "integral from a to b of v(t) dt",
+                "integral from a to b of |v(t)| dt",
+                "v(b) - v(a)",
+                "v'(b)"
+              ],
+              "correct": 0,
+              "explanation": "Displacement (net change in position) is the integral of velocity: integral from a to b of v(t) dt."
+            },
+            {
+              "q": "The total distance traveled by a particle from t = a to t = b is:",
+              "options": [
+                "integral from a to b of |v(t)| dt",
+                "integral from a to b of v(t) dt",
+                "v(b) - v(a)",
+                "integral of a(t) dt"
+              ],
+              "correct": 0,
+              "explanation": "Total distance uses the absolute value of velocity (to count motion in both directions): integral from a to b of |v(t)| dt."
+            },
+            {
+              "q": "A particle moves with v(t) = 3t^2. Its displacement from t = 0 to t = 2 is:",
+              "options": [
+                "8",
+                "12",
+                "4",
+                "6"
+              ],
+              "correct": 0,
+              "explanation": "Displacement = integral from 0 to 2 of 3t^2 dt = [t^3] from 0 to 2 = 8."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Concepts & Worked Examples",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Concept Explanations & Solved Examples",
+          "concept": "<h2>Concept Explanations</h2>\n<p><strong>Average value (8.1).</strong> The average value is the constant height of a rectangle on [a, b] with the same area as under f. It&#39;s an <em>integral</em> divided by <em>length</em> — not the average of the endpoints.</p>\n<p><strong>Motion via integrals (8.2).</strong> Integration reverses Unit 4&#39;s differentiation of motion. <strong>Displacement</strong> is the signed integral of velocity; <strong>total distance</strong> requires <code>|v|</code>, so find where v = 0 and integrate each piece with the correct sign. To recover position, add the accumulated displacement to the starting position.</p>\n<p><strong>Area between curves (8.3–8.4).</strong> Integrate <strong>(top − bottom)</strong> with respect to x, or <strong>(right − left)</strong> with respect to y. Choose the variable that avoids splitting the region: use <strong>dy</strong> (horizontal strips) when boundaries are naturally <code>x = (function of y)</code>, as with <code>y² = x</code>.</p>\n<p><strong>Cross-section volumes (8.5, 8.7).</strong> The base region gives the <em>size</em> of each slice; the cross-section shape gives its <em>area formula</em> A(x). Integrate A(x) along the axis. For squares, <code>A = side²</code>; for semicircles, <code>A = (π/8)(diameter)²</code>, etc.</p>\n<p><strong>Solids of revolution (8.6, 8.8).</strong> Rotating a region sweeps a solid. <strong>Disks</strong> (solid slice) use radius = distance to the axis; <strong>washers</strong> subtract an inner radius when there&#39;s a gap. The <strong>shell method</strong> integrates cylindrical shells <code>2π·(radius)(height)</code> — handy for rotation about the y-axis when the curve is y = f(x).</p>\n<hr>\n<h2>Worked Examples</h2>\n<p><strong>Example 1 (Average value).</strong> f(x) = x² on [0, 3]: <code>f_avg = (1/3)∫₀³ x² dx = (1/3)(9) = 3</code>.</p>\n<p><strong>Example 2 (Total distance).</strong> v(t) = t − 2 on [0, 3]: v = 0 at t = 2. Distance = <code>∫₀² (2 − t) dt + ∫₂³ (t − 2) dt = 2 + 0.5 = 2.5</code>.</p>\n<p><strong>Example 3 (Area between curves).</strong> Between y = x² and y = 4: intersect at x = ±2, <code>∫₋₂² (4 − x²) dx = 32/3</code>. <em>(from the GrowQR NCERT/JEE bank)</em></p>\n<p><strong>Example 4 (Area with dy).</strong> Bounded by <code>y² = x</code> and <code>y = x − 2</code>: intersect at y = −1, 2. <code>∫₋₁² [(y + 2) − y²] dy = 10/3</code>. <em>(from the GrowQR NCERT/JEE bank)</em></p>\n<p><strong>Example 5 (Disk).</strong> Rotate y = x³ on [0, 1] about the x-axis: <code>V = π∫₀¹ x⁶ dx = π/7</code>. <em>(from the GrowQR NCERT/JEE bank)</em></p>\n<p><strong>Example 6 (Sphere via disks).</strong> Rotate <code>y = √(a² − x²)</code> on [−a, a]: <code>V = π∫₋ₐᵃ (a² − x²) dx = (4/3)πa³</code>. <em>(from the GrowQR NCERT/JEE bank)</em></p>\n<p><strong>Example 7 (Washer).</strong> Between y = x (outer) and y = x² (inner) on [0, 1] about the x-axis: <code>V = π∫₀¹ (x² − x⁴) dx = 2π/15</code>.</p>\n<p><strong>Example 8 (Cross sections).</strong> Base under y = 4 − x², square cross sections of side (4 − x²): <code>V = ∫₋₂² (4 − x²)² dx</code>.</p>\n<hr>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "If a particle has acceleration a(t) = 6t and v(0) = 0, what is v(t)?",
+              "options": [
+                "3t^2",
+                "6t^2",
+                "3t",
+                "6"
+              ],
+              "correct": 0,
+              "explanation": "v(t) = integral of 6t dt = 3t^2 + C. Using v(0) = 0 gives C = 0, so v(t) = 3t^2."
+            },
+            {
+              "q": "The area between two curves y = f(x) (top) and y = g(x) (bottom) from x = a to x = b is:",
+              "options": [
+                "integral from a to b of [f(x) - g(x)] dx",
+                "integral from a to b of [g(x) - f(x)] dx",
+                "integral from a to b of f(x) g(x) dx",
+                "f(b) - g(a)"
+              ],
+              "correct": 0,
+              "explanation": "The area between curves is the integral of (top curve minus bottom curve): integral from a to b of [f(x) - g(x)] dx."
+            },
+            {
+              "q": "Find the area of the region enclosed between y = x^2 and the line y = 4.",
+              "options": [
+                "32/3",
+                "16/3",
+                "64/3",
+                "8/3"
+              ],
+              "correct": 0,
+              "explanation": "The curves meet at x = -2 and x = 2. Area = integral from -2 to 2 of (4 - x^2) dx = [4x - x^3/3] from -2 to 2 = (8 - 8/3) - (-8 + 8/3) = 32/3. (Adapted from the GrowQR NCERT/JEE bank.)"
+            },
+            {
+              "q": "Find the area between y = x and y = x^2 from x = 0 to x = 1.",
+              "options": [
+                "1/6",
+                "1/2",
+                "1/3",
+                "1/12"
+              ],
+              "correct": 0,
+              "explanation": "On [0, 1], x >= x^2. Area = integral from 0 to 1 of (x - x^2) dx = [x^2/2 - x^3/3] from 0 to 1 = 1/2 - 1/3 = 1/6."
+            },
+            {
+              "q": "When is it easier to integrate with respect to y (using horizontal strips) to find an area?",
+              "options": [
+                "when the curves are given as x in terms of y, or a single top/bottom is hard to identify",
+                "always",
+                "never",
+                "only for straight lines"
+              ],
+              "correct": 0,
+              "explanation": "Integrating with respect to y is convenient when boundaries are naturally expressed as x = (function of y), avoiding splitting the region."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Graphs, Pitfalls & AP Exam Tips",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Graphical Interpretation, Common Mistakes & Tips",
+          "concept": "<h2>Graphical Interpretation</h2>\n<ul>\n<li><strong>Area between curves</strong> is the region trapped between two graphs; a thin vertical strip has height (top − bottom).</li>\n<li>A <strong>disk/washer</strong> is what a vertical strip sweeps out when rotated — a circular slab of radius = distance to the axis.</li>\n<li>A <strong>shell</strong> is what a strip <em>parallel</em> to the axis sweeps — a thin cylinder of radius x and height f(x).</li>\n</ul>\n<hr>\n<h2>Common Mistakes</h2>\n<ul>\n<li><strong>Average of endpoints</strong> instead of the integral formula for average value.</li>\n<li><strong>Using v instead of |v|</strong> for total distance (missing the split at v = 0).</li>\n<li><strong>Top − bottom reversed</strong>, producing a negative area.</li>\n<li><strong>Forgetting to square</strong> the radius in disk/washer (<code>π∫R²</code>, not <code>π∫R</code>), or subtracting radii instead of their squares in the washer (<code>R² − r²</code>, not <code>(R − r)²</code>).</li>\n<li><strong>Wrong cross-section area formula</strong> (e.g., using r² instead of the semicircle&#39;s (π/8)s²).</li>\n<li><strong>Mismatching the variable of integration</strong> with the strip orientation.</li>\n</ul>\n<hr>\n<h2>AP Exam Tips</h2>\n<ul>\n<li>These are <strong>free-response staples</strong> — practice writing the <strong>integral set-up</strong> cleanly; a correct unevaluated integral earns significant credit.</li>\n<li>Always find <strong>intersection points</strong> first to get the limits of integration.</li>\n<li>For distance vs. displacement, <strong>state where v = 0</strong> and split accordingly.</li>\n<li>Label the <strong>radius/height</strong> clearly for volume problems; for washers, identify outer vs. inner radius.</li>\n<li>On calculator-active questions, set up the integral by hand, then <strong>evaluate numerically</strong>.</li>\n</ul>\n<hr>\n<h2>Unit Summary</h2>\n<ul>\n<li><strong>Average value:</strong> <code>(1/(b − a))∫ₐᵇ f</code>.</li>\n<li><strong>Motion:</strong> displacement <code>∫v</code>; total distance <code>∫|v|</code> (split at v = 0); position <code>= s(a) + ∫v</code>.</li>\n<li><strong>Area:</strong> <code>∫(top − bottom) dx</code> or <code>∫(right − left) dy</code>.</li>\n<li><strong>Volumes:</strong> cross sections <code>∫A(x) dx</code>; disk <code>π∫R²</code>; washer <code>π∫(R² − r²)</code>; shell <code>2π∫x·f(x)</code>.</li>\n<li>The universal method: <strong>slice → integrand → integrate</strong>.</li>\n</ul>\n<hr>\n<p><em>This completes AP Calculus AB. Together, Units 1–8 build from limits to derivatives to integrals and their applications — the full arc of single-variable calculus tested on the AP exam.</em></p>\n",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Find the average value of f(x) = sin(x) on [0, pi].",
+              "options": [
+                "2/pi",
+                "1/pi",
+                "0",
+                "pi/2"
+              ],
+              "correct": 0,
+              "explanation": "Average = (1/pi) integral from 0 to pi of sin(x) dx = (1/pi)[-cos(x)] from 0 to pi = (1/pi)(1 + 1) = 2/pi."
+            },
+            {
+              "q": "By the Mean Value Theorem for Integrals, if the average value of f on [a, b] is 5, then there is a c in [a, b] with:",
+              "options": [
+                "f(c) = 5",
+                "f'(c) = 5",
+                "f(c) = 0",
+                "integral of f = 5"
+              ],
+              "correct": 0,
+              "explanation": "The MVT for Integrals guarantees a point c where f(c) equals the average value of f on the interval."
+            },
+            {
+              "q": "A particle has velocity v(t) = t - 2 (m/s). What is the total distance traveled from t = 0 to t = 3?",
+              "options": [
+                "2.5 m",
+                "1.5 m",
+                "3 m",
+                "0.5 m"
+              ],
+              "correct": 0,
+              "explanation": "v = 0 at t = 2. Distance = integral from 0 to 2 of |t - 2| dt + integral from 2 to 3 of (t - 2) dt = 2 + 0.5 = 2.5 m. (Each piece is a triangle: area 2 and area 0.5.)"
+            },
+            {
+              "q": "A particle starts at position s(0) = 5 with velocity v(t) = 2t. Its position at t = 3 is:",
+              "options": [
+                "14",
+                "9",
+                "18",
+                "11"
+              ],
+              "correct": 0,
+              "explanation": "s(3) = s(0) + integral from 0 to 3 of 2t dt = 5 + [t^2] from 0 to 3 = 5 + 9 = 14."
+            },
+            {
+              "q": "Find the area of the region bounded by y = sin(x) and the x-axis from x = 0 to x = 2pi (total area).",
+              "options": [
+                "4",
+                "0",
+                "2",
+                "2pi"
+              ],
+              "correct": 0,
+              "explanation": "Sine is positive on [0, pi] (area 2) and negative on [pi, 2pi] (area 2). Total area = 2 + 2 = 4. (Adapted from the GrowQR NCERT/JEE bank.)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "applications-of-integration-test-1",
+      "title": "Practice Set A",
+      "level": "Standard",
+      "time_limit_minutes": 30,
+      "total": 20,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Multiple Choice",
+          "questions": [
+            {
+              "q": "The area bounded by x = y^2 and x = 4 (integrating with respect to y) is:",
+              "options": [
+                "32/3",
+                "16/3",
+                "64/3",
+                "8"
+              ],
+              "correct": 0,
+              "explanation": "The curves meet at y = -2 and y = 2. Area = integral from -2 to 2 of (4 - y^2) dy = [4y - y^3/3] from -2 to 2 = 32/3."
+            },
+            {
+              "q": "A solid has a base region and square cross sections perpendicular to the x-axis with side length s(x). Its volume is:",
+              "options": [
+                "integral of [s(x)]^2 dx",
+                "integral of s(x) dx",
+                "pi integral of [s(x)]^2 dx",
+                "integral of 4 s(x) dx"
+              ],
+              "correct": 0,
+              "explanation": "For square cross sections, the cross-sectional area is s(x)^2, so the volume is the integral of s(x)^2 over the base interval."
+            },
+            {
+              "q": "By the Disk Method, rotating the region under y = f(x) on [a, b] about the x-axis gives volume:",
+              "options": [
+                "pi integral from a to b of [f(x)]^2 dx",
+                "integral from a to b of [f(x)]^2 dx",
+                "2 pi integral from a to b of f(x) dx",
+                "pi integral from a to b of f(x) dx"
+              ],
+              "correct": 0,
+              "explanation": "Each disk has radius f(x) and area pi[f(x)]^2, so V = pi integral from a to b of [f(x)]^2 dx."
+            },
+            {
+              "q": "By the Washer Method, rotating the region between y = R(x) (outer) and y = r(x) (inner) about the x-axis gives:",
+              "options": [
+                "pi integral of ([R(x)]^2 - [r(x)]^2) dx",
+                "pi integral of (R(x) - r(x))^2 dx",
+                "pi integral of (R(x) - r(x)) dx",
+                "2 pi integral of R(x) dx"
+              ],
+              "correct": 0,
+              "explanation": "A washer's area is pi(R^2 - r^2), so the volume is pi integral of ([R(x)]^2 - [r(x)]^2) dx."
+            },
+            {
+              "q": "For a solid where the cross-sectional area is given by A(x), the volume over [a, b] is:",
+              "options": [
+                "integral from a to b of A(x) dx",
+                "pi integral from a to b of A(x) dx",
+                "integral from a to b of [A(x)]^2 dx",
+                "A(b) - A(a)"
+              ],
+              "correct": 0,
+              "explanation": "Volume by known cross sections is the integral of the cross-sectional area function: integral from a to b of A(x) dx."
+            },
+            {
+              "q": "A solid's cross-sectional area is A(x) = 4x. What is its volume from x = 0 to x = 3?",
+              "options": [
+                "18",
+                "12",
+                "36",
+                "9"
+              ],
+              "correct": 0,
+              "explanation": "V = integral from 0 to 3 of 4x dx = [2x^2] from 0 to 3 = 18."
+            },
+            {
+              "q": "By the Shell Method, rotating the region under y = f(x) on [a, b] about the y-axis gives volume:",
+              "options": [
+                "2 pi integral from a to b of x f(x) dx",
+                "pi integral from a to b of [f(x)]^2 dx",
+                "2 pi integral from a to b of f(x) dx",
+                "pi integral from a to b of x f(x) dx"
+              ],
+              "correct": 0,
+              "explanation": "A cylindrical shell has radius x, height f(x), and thickness dx, so its volume element is 2 pi x f(x) dx; V = 2 pi integral from a to b of x f(x) dx."
+            },
+            {
+              "q": "Find the average value of f(x) = 3x^2 on [0, 2].",
+              "options": [
+                "4",
+                "8",
+                "12",
+                "2"
+              ],
+              "correct": 0,
+              "explanation": "Average = (1/2) integral from 0 to 2 of 3x^2 dx = (1/2)[x^3] from 0 to 2 = (1/2)(8) = 4."
+            },
+            {
+              "q": "Find the area between y = x^2 and y = x from x = 0 to x = 1.",
+              "options": [
+                "1/6",
+                "1/2",
+                "1/3",
+                "5/6"
+              ],
+              "correct": 0,
+              "explanation": "On [0, 1], x >= x^2. Area = integral from 0 to 1 of (x - x^2) dx = 1/2 - 1/3 = 1/6."
+            },
+            {
+              "q": "Rotate the region under y = 2 (a constant) on [0, 3] about the x-axis. The volume (a cylinder) is:",
+              "options": [
+                "12pi",
+                "6pi",
+                "4pi",
+                "9pi"
+              ],
+              "correct": 0,
+              "explanation": "V = pi integral from 0 to 3 of (2)^2 dx = pi(4)(3) = 12pi (a cylinder of radius 2 and height 3)."
+            },
+            {
+              "q": "A car's velocity is v(t) = 60 (constant, mph) for 2 hours. The distance traveled is:",
+              "options": [
+                "120 miles",
+                "60 miles",
+                "30 miles",
+                "62 miles"
+              ],
+              "correct": 0,
+              "explanation": "Distance = integral from 0 to 2 of 60 dt = 60(2) = 120 miles."
+            },
+            {
+              "q": "The region bounded by x = y^2 and x = y + 2 is most naturally integrated:",
+              "options": [
+                "with respect to y",
+                "with respect to x only",
+                "using polar coordinates",
+                "it cannot be found"
+              ],
+              "correct": 0,
+              "explanation": "Since both boundaries are given as x in terms of y, integrating with respect to y (horizontal strips) is most direct."
+            },
+            {
+              "q": "Rotating the region under y = x from x = 0 to x = 3 about the x-axis produces a cone with volume:",
+              "options": [
+                "9pi",
+                "27pi",
+                "3pi",
+                "6pi"
+              ],
+              "correct": 0,
+              "explanation": "V = pi integral from 0 to 3 of x^2 dx = pi[x^3/3] from 0 to 3 = pi(9) = 9pi."
+            },
+            {
+              "q": "The average value of a constant function f(x) = 7 on any interval is:",
+              "options": [
+                "7",
+                "0",
+                "depends on the interval",
+                "7 times the length"
+              ],
+              "correct": 0,
+              "explanation": "The average value of a constant is the constant itself: 7."
+            },
+            {
+              "q": "A particle's acceleration is a(t) = 2, with v(0) = 1 and s(0) = 0. Its position at t = 2 is:",
+              "options": [
+                "6",
+                "4",
+                "5",
+                "2"
+              ],
+              "correct": 0,
+              "explanation": "v(t) = 2t + 1, s(t) = t^2 + t. At t = 2, s = 4 + 2 = 6."
+            },
+            {
+              "q": "Find the area between y = 4 - x^2 and the x-axis.",
+              "options": [
+                "32/3",
+                "16/3",
+                "8",
+                "64/3"
+              ],
+              "correct": 0,
+              "explanation": "The parabola meets the x-axis at x = -2 and x = 2. Area = integral from -2 to 2 of (4 - x^2) dx = [4x - x^3/3] from -2 to 2 = 32/3."
+            },
+            {
+              "q": "Rotating the region under y = f(x) about the x-axis, the radius of each disk equals:",
+              "options": [
+                "f(x)",
+                "x",
+                "[f(x)]^2",
+                "2 f(x)"
+              ],
+              "correct": 0,
+              "explanation": "For rotation about the x-axis, the disk's radius is the distance from the axis to the curve, which is f(x)."
+            },
+            {
+              "q": "The Shell Method is most convenient when rotating a region about the y-axis and the region is described by:",
+              "options": [
+                "y as a function of x",
+                "x as a function of y only",
+                "a circle",
+                "a constant"
+              ],
+              "correct": 0,
+              "explanation": "Shells (radius x, height f(x)) work naturally when the curve is y = f(x) and rotation is about the y-axis, avoiding solving for x."
+            },
+            {
+              "q": "For a solid with circular (disk) cross sections of radius r(x), the cross-sectional area is:",
+              "options": [
+                "pi [r(x)]^2",
+                "2 pi r(x)",
+                "[r(x)]^2",
+                "pi r(x)"
+              ],
+              "correct": 0,
+              "explanation": "A circle of radius r(x) has area pi[r(x)]^2."
+            },
+            {
+              "q": "The average value of f(x) = x on [0, 4] is:",
+              "options": [
+                "2",
+                "4",
+                "8",
+                "1"
+              ],
+              "correct": 0,
+              "explanation": "Average = (1/4) integral from 0 to 4 of x dx = (1/4)[x^2/2] from 0 to 4 = (1/4)(8) = 2."
+            }
+          ]
+        }
+      ],
+      "note": "Auto-graded practice from the Applications of Integration question bank."
+    },
+    {
+      "id": "applications-of-integration-test-2",
+      "title": "Practice Set B",
+      "level": "Challenge",
+      "time_limit_minutes": 30,
+      "total": 20,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Multiple Choice",
+          "questions": [
+            {
+              "q": "The area of a region bounded on the left by x = g(y) and on the right by x = f(y) from y = c to y = d is:",
+              "options": [
+                "integral from c to d of [f(y) - g(y)] dy",
+                "integral from c to d of [g(y) - f(y)] dy",
+                "integral from c to d of f(y) g(y) dy",
+                "f(d) - g(c)"
+              ],
+              "correct": 0,
+              "explanation": "Using horizontal strips, area = integral of (right curve minus left curve) with respect to y: integral from c to d of [f(y) - g(y)] dy."
+            },
+            {
+              "q": "If a solid's cross-sectional area is A(x) = x^2 on [0, 2], its volume is:",
+              "options": [
+                "8/3",
+                "4/3",
+                "16/3",
+                "4"
+              ],
+              "correct": 0,
+              "explanation": "V = integral from 0 to 2 of x^2 dx = [x^3/3] from 0 to 2 = 8/3."
+            },
+            {
+              "q": "Find the area under y = 1/x from x = 1 to x = e.",
+              "options": [
+                "1",
+                "e",
+                "e - 1",
+                "ln(e - 1)"
+              ],
+              "correct": 0,
+              "explanation": "Area = integral from 1 to e of (1/x) dx = [ln x] from 1 to e = ln(e) - ln(1) = 1."
+            },
+            {
+              "q": "A particle has v(t) = 4t - t^2. On [0, 4], the velocity is nonnegative, so the total distance equals:",
+              "options": [
+                "32/3",
+                "16/3",
+                "64/3",
+                "8"
+              ],
+              "correct": 0,
+              "explanation": "Since v >= 0 on [0, 4], distance = integral from 0 to 4 of (4t - t^2) dt = [2t^2 - t^3/3] from 0 to 4 = 32 - 64/3 = 32/3."
+            },
+            {
+              "q": "The volume of a solid with square cross sections is found by integrating:",
+              "options": [
+                "the area (side)^2 of each square along the axis",
+                "the perimeter of each square",
+                "pi times side",
+                "the side length only"
+              ],
+              "correct": 0,
+              "explanation": "Volume by cross sections integrates the cross-sectional area; for squares that area is side^2."
+            },
+            {
+              "q": "Find the area bounded by x = y^2 and x = 4 (with respect to y).",
+              "options": [
+                "32/3",
+                "16/3",
+                "8",
+                "64/3"
+              ],
+              "correct": 0,
+              "explanation": "Meets at y = -2 and y = 2. Area = integral from -2 to 2 of (4 - y^2) dy = [4y - y^3/3] from -2 to 2 = 32/3."
+            },
+            {
+              "q": "Rotating the region under y = x + 1 on [0, 2] about the x-axis, the disk radius at position x is:",
+              "options": [
+                "x + 1",
+                "x",
+                "1",
+                "2x"
+              ],
+              "correct": 0,
+              "explanation": "For rotation about the x-axis, the radius equals the function value, x + 1."
+            },
+            {
+              "q": "The average value of f(x) = 4 - x on [0, 4] is:",
+              "options": [
+                "2",
+                "4",
+                "1",
+                "8"
+              ],
+              "correct": 0,
+              "explanation": "Average = (1/4) integral from 0 to 4 of (4 - x) dx = (1/4)[4x - x^2/2] from 0 to 4 = (1/4)(16 - 8) = 2."
+            },
+            {
+              "q": "Find the area between the curves y = sin(x) and y = cos(x) from x = 0 to their first intersection at x = pi/4.",
+              "options": [
+                "sqrt(2) - 1",
+                "1",
+                "sqrt(2)",
+                "2 - sqrt(2)"
+              ],
+              "correct": 0,
+              "explanation": "On [0, pi/4], cos(x) >= sin(x). Area = integral from 0 to pi/4 of (cos x - sin x) dx = [sin x + cos x] from 0 to pi/4 = (sqrt(2)) - (1) = sqrt(2) - 1. (Adapted from the GrowQR NCERT/JEE bank.)"
+            },
+            {
+              "q": "Find the area of the region bounded by y = e^x, y = e^(-x), and the vertical line x = 1.",
+              "options": [
+                "e + e^(-1) - 2",
+                "e - e^(-1)",
+                "e + e^(-1)",
+                "2e"
+              ],
+              "correct": 0,
+              "explanation": "For x in [0, 1], e^x >= e^(-x). Area = integral from 0 to 1 of (e^x - e^(-x)) dx = [e^x + e^(-x)] from 0 to 1 = (e + e^(-1)) - (1 + 1) = e + e^(-1) - 2. (Adapted from the GrowQR NCERT/JEE bank.)"
+            },
+            {
+              "q": "Find the area of the region bounded by the parabola y^2 = x and the line y = x - 2 (integrating with respect to y).",
+              "options": [
+                "10/3",
+                "16/3",
+                "7/3",
+                "9/2"
+              ],
+              "correct": 0,
+              "explanation": "The curves meet at y = -1 and y = 2 (x = y^2 and x = y + 2). Area = integral from -1 to 2 of [(y + 2) - y^2] dy = [y^2/2 + 2y - y^3/3] from -1 to 2 = 10/3. (Adapted from the GrowQR NCERT/JEE bank.)"
+            },
+            {
+              "q": "Find the area bounded by y = ln(x), y = 0, and x = e (using the region under the curve).",
+              "options": [
+                "1",
+                "e",
+                "e - 1",
+                "1/e"
+              ],
+              "correct": 0,
+              "explanation": "Area = integral from 1 to e of ln(x) dx = [x ln x - x] from 1 to e = (e - e) - (0 - 1) = 1. (Adapted from the GrowQR NCERT/JEE bank.)"
+            },
+            {
+              "q": "A solid has a base bounded by y = x and y = x^2 on [0, 1], with square cross sections perpendicular to the x-axis. Which integral gives the volume?",
+              "options": [
+                "integral from 0 to 1 of (x - x^2)^2 dx",
+                "integral from 0 to 1 of (x - x^2) dx",
+                "pi integral from 0 to 1 of (x - x^2)^2 dx",
+                "integral from 0 to 1 of (x^2 - x)^2 dx * 2"
+              ],
+              "correct": 0,
+              "explanation": "The side of each square equals the vertical distance between the curves, (x - x^2). The area is (x - x^2)^2, so V = integral from 0 to 1 of (x - x^2)^2 dx."
+            },
+            {
+              "q": "A solid has semicircular cross sections (diameter = height of the region) perpendicular to the x-axis, with region height h(x). The cross-sectional area is:",
+              "options": [
+                "(pi/8) [h(x)]^2",
+                "(pi/2) [h(x)]^2",
+                "pi [h(x)]^2",
+                "[h(x)]^2"
+              ],
+              "correct": 0,
+              "explanation": "A semicircle with diameter h(x) has radius h(x)/2. Area = (1/2)pi r^2 = (1/2)pi(h/2)^2 = (pi/8) h^2."
+            },
+            {
+              "q": "Find the volume of the solid generated by rotating the region under y = x^3 on [0, 1] about the x-axis.",
+              "options": [
+                "pi/7",
+                "pi/4",
+                "pi/3",
+                "pi/6"
+              ],
+              "correct": 0,
+              "explanation": "V = pi integral from 0 to 1 of (x^3)^2 dx = pi integral from 0 to 1 of x^6 dx = pi[x^7/7] from 0 to 1 = pi/7. (Adapted from the GrowQR NCERT/JEE bank.)"
+            },
+            {
+              "q": "Find the volume when the region under y = sqrt(a^2 - x^2) from x = -a to x = a is rotated about the x-axis.",
+              "options": [
+                "(4/3) pi a^3",
+                "(2/3) pi a^3",
+                "pi a^3",
+                "2 pi a^3"
+              ],
+              "correct": 0,
+              "explanation": "V = pi integral from -a to a of (a^2 - x^2) dx = pi[a^2 x - x^3/3] from -a to a = (4/3)pi a^3 (the volume of a sphere of radius a). (Adapted from the GrowQR NCERT/JEE bank.)"
+            },
+            {
+              "q": "Find the volume when the region bounded by y = 2x - x^2 and the x-axis is rotated about the x-axis.",
+              "options": [
+                "16pi/15",
+                "32pi/15",
+                "8pi/15",
+                "4pi/5"
+              ],
+              "correct": 0,
+              "explanation": "The region spans x = 0 to x = 2. V = pi integral from 0 to 2 of (2x - x^2)^2 dx = pi integral of (4x^2 - 4x^3 + x^4) dx = pi[4x^3/3 - x^4 + x^5/5] from 0 to 2 = 16pi/15. (Adapted from the GrowQR NCERT/JEE bank.)"
+            },
+            {
+              "q": "Rotate the region between y = x and y = x^2 on [0, 1] about the x-axis. The volume is:",
+              "options": [
+                "2pi/15",
+                "pi/6",
+                "pi/3",
+                "8pi/15"
+              ],
+              "correct": 0,
+              "explanation": "Outer radius x, inner x^2. V = pi integral from 0 to 1 of (x^2 - x^4) dx = pi[x^3/3 - x^5/5] from 0 to 1 = pi(1/3 - 1/5) = pi(2/15) = 2pi/15."
+            },
+            {
+              "q": "A solid has a base that is the region under y = 4 - x^2 (x from -2 to 2, y >= 0) and equilateral-triangle cross sections perpendicular to the x-axis with side (4 - x^2). The area of each cross section is:",
+              "options": [
+                "(sqrt(3)/4)(4 - x^2)^2",
+                "(1/2)(4 - x^2)^2",
+                "(4 - x^2)^2",
+                "pi(4 - x^2)^2"
+              ],
+              "correct": 0,
+              "explanation": "An equilateral triangle of side s has area (sqrt(3)/4)s^2. With s = 4 - x^2, the area is (sqrt(3)/4)(4 - x^2)^2."
+            },
+            {
+              "q": "Using the Shell Method, find the volume when the region under y = x on [0, 2] is rotated about the y-axis.",
+              "options": [
+                "16pi/3",
+                "8pi/3",
+                "4pi/3",
+                "8pi"
+              ],
+              "correct": 0,
+              "explanation": "V = 2 pi integral from 0 to 2 of x(x) dx = 2 pi integral from 0 to 2 of x^2 dx = 2 pi[x^3/3] from 0 to 2 = 2 pi(8/3) = 16pi/3."
+            }
+          ]
+        }
+      ],
+      "note": "A second auto-graded set covering Applications of Integration."
+    }
+  ]
+}

@@ -1,0 +1,582 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": 13,
+  "title": "Differentiability",
+  "slug": "differentiability",
+  "subtitle": "Differentiability & Methods of Differentiation",
+  "level": "JEE Main & Advanced",
+  "color": "#22c55e",
+  "icon": "math",
+  "seo": {
+    "meta_description": "Master Differentiability for JEE Main & Advanced on GrowQR: in-depth notes, solved examples, self-check MCQs and full mock tests. Free, forever."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Foundations of Differentiability",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Definition and Geometric Interpretation",
+          "concept": "<p>A real-valued function $f(x)$ defined on an open interval $(a, b)$ is said to be differentiable at a point $c \\in (a, b)$ if the limit of the difference quotient exists finitely. Mathematically, the derivative $f'(c)$ is defined as:\n \\[ f'(c) = \\lim_{h \\to 0} \\frac{f(c+h) - f(c)}{h} \\]\n Geometrically, the difference quotient $\\frac{f(c+h)-f(c)}{h}$ represents the slope of the secant line passing through the points $P(c, f(c))$ and $Q(c+h, f(c+h))$ on the curve. As $h \\to 0$, the point $Q$ moves along the curve towards $P$. If the limit exists, the secant line approaches a limiting position, which is defined as the <strong>tangent line</strong> to the curve at $P$. Therefore, $f'(c)$ represents the exact slope of the tangent line to the curve at $x = c$.</p>For a function to be differentiable at $x=c$, the direction of approach from either side must yield matching slopes. We define:\n <ul>\n <li><strong>Left-Hand Derivative (LHD):</strong> $f'(c^-) = \\lim_{h \\to 0^+} \\frac{f(c-h) - f(c)}{-h}$\n <li><strong>Right-Hand Derivative (RHD):</strong> $f'(c^+) = \\lim_{h \\to 0^+} \\frac{f(c+h) - f(c)}{h}$\n </ul>\n A function is differentiable at $x = c$ if and only if both one-sided derivatives exist finitely and are identically equal ($\\text{LHD} = \\text{RHD}$).",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Examine the differentiability of the function $f(x) = x|x|$ at $x = 0$.</p>",
+              "solution": "First, we rewrite the function by definition of the absolute value structure:\n \\[ f(x) = \\begin{cases} x^2 & \\text{if } x \\ge 0 \\\\ -x^2 & \\text{if } x < 0 \\end{cases} \\]\n Let us calculate the one-sided derivatives at $x = 0$ using first principles.\n <ul>\n <li><strong>Step 1: Evaluate Right-Hand Derivative (RHD)</strong><br>\n Using $c = 0$, we have $f(0) = 0$:\n \\[ \\text{RHD} = \\lim_{h \\to 0^+} \\frac{f(0+h) - f(0)}{h} = \\lim_{h \\to 0^+} \\frac{h^2 - 0}{h} = \\lim_{h \\to 0^+} h = 0 \\]\n <li><strong>Step 2: Evaluate Left-Hand Derivative (LHD)</strong><br>\n Using the definition for the left side:\n \\[ \\text{LHD} = \\lim_{h \\to 0^+} \\frac{f(0-h) - f(0)}{-h} = \\lim_{h \\to 0^+} \\frac{-( -h )^2 - 0}{-h} = \\lim_{h \\to 0^+} \\frac{-h^2}{-h} = \\lim_{h \\to 0^+} h = 0 \\]\n </ul>\n Since $\\text{LHD} = \\text{RHD} = 0$, the limit of the difference quotient exists uniquely.\n <strong>Final Answer:</strong> The function is differentiable at $x = 0$ and $f'(0) = 0$."
+            }
+          ],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Continuity vs. Differentiability and Breakpoint Failures",
+          "concept": "<p>A fundamental theorem of calculus establishes that <strong>differentiability implies continuity</strong>. If a function $f(x)$ is differentiable at $x = c$, it is guaranteed to be continuous at $x = c$. \n \\[ \\text{Proof: } \\lim_{x \\to c} (f(x) - f(c)) = \\lim_{x \\to c} \\left[ \\frac{f(x) - f(c)}{x - c} \\cdot (x - c) \\right] = f'(c) \\cdot 0 = 0 \\implies \\lim_{x \\to c} f(x) = f(c) \\]\n However, the <strong>converse is strictly false</strong>. A function can be perfectly continuous at a point but fail to be differentiable. The classic counterexample is $f(x) = |x|$ at $x = 0$. It forms a continuous V-shape path, but $\\text{LHD} = -1 \\neq 1 = \\text{RHD}$.</p>Points of non-differentiability on a continuous path are structurally classified into:\n <ul>\n <li><strong>Corners:</strong> Sudden shifts in direction where both LHD and RHL exist but are unequal (e.g., $f(x) = |x|$ at $x=0$).\n <li><strong>Cusps:</strong> Sharp points where the one-sided derivatives approach opposite infinities ($\\infty$ and $-\\infty$), such as $f(x) = x^{2/3}$ at $x = 0$.\n <li><strong>Vertical Tangents:</strong> Points where both one-sided derivatives approach the same infinity ($\\pm\\infty$), making the tangent line perfectly vertical (e.g., $f(x) = x^{1/3}$ at $x = 0$).\n <li><strong>Discontinuities:</strong> Any break, hole, or jump automatically destroys differentiability.\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Examine the differentiability of $f(x) = \\max(x, x^2)$ across the real line and identify points of failure.</p>",
+              "solution": "Let us analyze where the boundaries intersect by solving $x = x^2 \\implies x(x-1) = 0$, yielding breakpoints at $x = 0$ and $x = 1$.\n \\[ f(x) = \\begin{cases} x & \\text{if } x < 0 \\text{ or } x > 1 \\\\ x^2 & \\text{if } 0 \\le x \\le 1 \\end{cases} \\]\n The function is continuous everywhere because it is built from polynomial components that link together precisely. Let us check the derivatives at the breakpoints:\n <ul>\n <li><strong>At $x = 0$:</strong><br>\n $\\text{LHD} = \\frac{d}{dx}(x) = 1$.<br>\n $\\text{RHD} = \\frac{d}{dx}(x^2)\\Big|_{x=0} = 2(0) = 0$.<br>\n Since $\\text{LHD} \\neq \\text{RHD}$ ($1 \\neq 0$), $x = 0$ is a corner point.\n <li><strong>At $x = 1$:</strong><br>\n $\\text{LHD} = \\frac{d}{dx}(x^2)\\Big|_{x=1} = 2(1) = 2$.<br>\n $\\text{RHD} = \\frac{d}{dx}(x) = 1$.<br>\n Since $\\text{LHD} \\neq \\text{RHD}$ ($2 \\neq 1$), $x = 1$ is a corner point.\n </ul>\n <strong>Final Answer:</strong> The function is non-differentiable at exactly two points: $x = 0$ and $x = 1$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If a function $f(x)$ is differentiable at $x = c$, then which of the following is strictly required?",
+              "options": [
+                "$f''(c)$ must exist",
+                "$f(x)$ must be continuous at $x = c$",
+                "$f'(c)$ must equal 0",
+                "$f(x)$ must be a polynomial function"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The function $f(x) = |x - 2| + |x - 5|$ is non-differentiable at:",
+              "options": [
+                "$x = 0$",
+                "$x = 2$ only",
+                "$x = 2$ and $x = 5$",
+                "Everywhere on $[2, 5]$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Analytical Differentiation & Core Rules",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Derivatives of Standard Functions and Operational Algebra",
+          "concept": "Standard functional derivatives form the basis of analytical calculus:\n \\[ \\frac{d}{dx}(x^n) = n x^{n-1}, \\quad \\frac{d}{dx}(e^x) = e^x, \\quad \\frac{d}{dx}(a^x) = a^x \\ln a, \\quad \\frac{d}{dx}(\\ln x) = \\frac{1}{x}, \\quad \\frac{d}{dx}(\\log_a x) = \\frac{1}{x \\ln a} \\]\n \\[ \\frac{d}{dx}(\\sin x) = \\cos x, \\quad \\frac{d}{dx}(\\cos x) = -\\sin x, \\quad \\frac{d}{dx}(\\tan x) = \\sec^2 x, \\quad \\frac{d}{dx}(\\cot x) = -\\csc^2 x \\]\n \\[ \\frac{d}{dx}(\\sec x) = \\sec x \\tan x, \\quad \\frac{d}{dx}(\\csc x) = -\\csc x \\cot x \\]\n Calculus operations distribute across linear combinations and functional products via defined structural rules:\n <ul>\n <li><strong>Product Rule (Leibnitz Rule):</strong> $\\frac{d}{dx}[u(x)v(x)] = u'(x)v(x) + u(x)v'(x)$\n <li><strong>Quotient Rule:</strong> $\\frac{d}{dx}\\left[\\frac{u(x)}{v(x)}\\right] = \\frac{u'(x)v(x) - u(x)v'(x)}{[v(x)]^2}$\n <li><strong>Chain Rule:</strong> For composite maps $y = f(g(x))$, let $u = g(x)$, then $\\frac{dy}{dx} = \\frac{dy}{du} \\cdot \\frac{du}{dx} = f'(g(x)) \\cdot g'(x)$. This generalizes across multiple nested layers.\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Differentiate $y = e^{\\sin(x^2)}$ with respect to $x$.</p>",
+              "solution": "The expression represents a multi-level composite function. We apply the chain rule systematically working from the outermost layer inward.\n <ul>\n <li><strong>Layer 1:</strong> Exponential function structure $\\frac{d}{du}(e^u) = e^u$, where $u = \\sin(x^2)$.\n \\[ \\frac{dy}{dx} = e^{\\sin(x^2)} \\cdot \\frac{d}{dx}(\\sin(x^2)) \\]\n <li><strong>Layer 2:</strong> Trigonometric wrapper $\\frac{d}{dv}(\\sin v) = \\cos v$, where $v = x^2$.\n \\[ \\frac{d}{dx}(\\sin(x^2)) = \\cos(x^2) \\cdot \\frac{d}{dx}(x^2) \\]\n <li><strong>Layer 3:</strong> Algebraic interior power $\\frac{d}{dx}(x^2) = 2x$.\n </ul>\n Combine all terms together:\n \\[ \\frac{dy}{dx} = e^{\\sin(x^2)} \\cdot \\cos(x^2) \\cdot 2x \\]\n <strong>Final Answer:</strong> $\\frac{dy}{dx} = 2x \\cos(x^2) e^{\\sin(x^2)}$."
+            }
+          ],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Advanced Operational Techniques",
+          "concept": "Complex functional models require specialized differentiation techniques to maintain algebraic clarity:\n <ul>\n <li><strong>Implicit Differentiation:</strong> When equations bind variables implicitly as $f(x, y) = 0$, we differentiate all terms with respect to $x$, treating $y$ as a function of $x$ (applying the chain rule to generate $\\frac{dy}{dx}$ terms), and then algebraically isolate $\\frac{dy}{dx}$.\n <li><strong>Logarithmic Differentiation:</strong> Essential for expressions of the form $y = [f(x)]^{g(x)}$ or massive products. Taking the natural log transforms exponents into products: $\\ln y = g(x) \\ln[f(x)]$. Differentiating yields $\\frac{1}{y}\\frac{dy}{dx} = g'(x)\\ln[f(x)] + g(x)\\frac{f'(x)}{f(x)}$.\n <li><strong>Parametric Differentiation:</strong> If $x = f(t)$ and $y = g(t)$, then the derivative is calculated as the ratio of their independent rates of change over the parameter:\n \\[ \\frac{dy}{dx} = \\frac{dy/dt}{dx/dt} = \\frac{g'(t)}{f'(t)} \\quad (\\text{provided } f'(t) \\neq 0) \\]\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find $\\frac{dy}{dx}$ if $x^y = e^{x-y}$.</p>",
+              "solution": "<p>Given variable expressions in both the base and exponent positions, we apply logarithmic transformation directly:\n \\[ \\ln(x^y) = \\ln(e^{x-y}) \\implies y \\ln x = x - y \\]\n Isolate $y$ explicitly to streamline calculation:\n \\[ y \\ln x + y = x \\implies y(\\ln x + 1) = x \\implies y = \\frac{x}{1 + \\ln x} \\]\n Now compute the derivative using the quotient rule:\n \\[ \\frac{dy}{dx} = \\frac{(1)(1 + \\ln x) - (x)\\left(\\frac{1}{x}\\right)}{(1 + \\ln x)^2} = \\frac{1 + \\ln x - 1}{(1 + \\ln x)^2} = \\frac{\\ln x}{(1 + \\ln x)^2} \\]\n <strong>Final Answer:</strong> $\\frac{dy}{dx} = \\frac{\\ln x}{(1 + \\ln x)^2}$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If $x = a \\cos \\theta$ and $y = a \\sin \\theta$, then $\\frac{dy}{dx}$ evaluates to:",
+              "options": [
+                "$\\tan \\theta$",
+                "$-\\cot \\theta$",
+                "$\\cot \\theta$",
+                "$-\\tan \\theta$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The derivative of $y = x^x$ with respect to $x$ is:",
+              "options": [
+                "$x \\cdot x^{x-1}$",
+                "$x^x \\ln x$",
+                "$x^x(1 + \\ln x)$",
+                "$1 + \\ln x$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Higher-Order Calculus & Special Systems",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Inverse Trigonometric Derivatives and Parametric Extensions",
+          "concept": "<p>Derivatives of inverse trigonometric mappings require strict adherence to standard domain restrictions:\n \\[ \\frac{d}{dx}(\\sin^{-1} x) = \\frac{1}{\\sqrt{1-x^2}}, \\quad \\frac{d}{dx}(\\cos^{-1} x) = -\\frac{1}{\\sqrt{1-x^2}} \\quad (\\text{for } |x| < 1) \\]\n \\[ \\frac{d}{dx}(\\tan^{-1} x) = \\frac{1}{1+x^2}, \\quad \\frac{d}{dx}(\\cot^{-1} x) = -\\frac{1}{1+x^2} \\quad (\\text{for } x \\in \\mathbb{R}) \\]</p><p>When extending parametric models to the <strong>second derivative</strong> $\\frac{d^2y}{dx^2}$, a common mistake is simply dividing $\\frac{d^2y}{dt^2}$ by $\\frac{d^2x}{dt^2}$. The correct approach requires applying the chain rule to the first derivative with respect to $x$:\n \\[ \\frac{d^2y}{dx^2} = \\frac{d}{dx}\\left(\\frac{dy}{dx}\\right) = \\frac{d}{dt}\\left(\\frac{dy}{dx}\\right) \\cdot \\frac{dt}{dx} = \\frac{\\frac{d}{dt}\\left(\\frac{dy}{dx}\\right)}{\\frac{dx}{dt}} \\]</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>If $x = a(\\theta - \\sin \\theta)$ and $y = a(1 - \\cos \\theta)$, determine $\\frac{d^2y}{dx^2}$ at $\\theta = \\pi/2$.</p>",
+              "solution": "<p>First, evaluate the individual rates of change over the parameter $\\theta$:\n \\[ \\frac{dx}{dt} = a(1 - \\cos \\theta), \\quad \\frac{dy}{dt} = a \\sin \\theta \\implies \\frac{dy}{dx} = \\frac{a \\sin \\theta}{a(1 - \\cos \\theta)} = \\frac{2 \\sin\\frac{\\theta}{2}\\cos\\frac{\\theta}{2}}{2 \\sin^2\\frac{\\theta}{2}} = \\cot\\frac{\\theta}{2} \\]\n Now differentiate $\\frac{dy}{dx}$ with respect to $\\theta$ and scale by $\\frac{dt}{dx}$:\n \\[ \\frac{d}{d\\theta}\\left(\\frac{dy}{dx}\\right) = \\frac{d}{d\\theta}\\left(\\cot\\frac{\\theta}{2}\\right) = -\\frac{1}{2}\\csc^2\\frac{\\theta}{2} \\]\n \\[ \\frac{d^2y}{dx^2} = \\frac{-\\frac{1}{2}\\csc^2\\frac{\\theta}{2}}{a(1 - \\cos \\theta)} = \\frac{-\\frac{1}{2}\\csc^2\\frac{\\theta}{2}}{2a \\sin^2\\frac{\\theta}{2}} = -\\frac{1}{4a}\\csc^4\\frac{\\theta}{2} \\]\n Evaluate this expression at the target point $\\theta = \\frac{\\pi}{2} \\implies \\frac{\\theta}{2} = \\frac{\\pi}{4}$:\n \\[ \\frac{d^2y}{dx^2}\\Big|_{\\theta=\\pi/2} = -\\frac{1}{4a} ( \\sqrt{2} )^4 = -\\frac{4}{4a} = -\\frac{1}{a} \\]\n <strong>Final Answer:</strong> $-\\frac{1}{a}$.</p>"
+            }
+          ],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Matrix Differentiation and Leibnitz Successive Extensions",
+          "concept": "Advanced systems utilize structured distribution theorems for complex expressions:\n <ul>\n <li><strong>Differentiation of Determinants:</strong> To differentiate a determinant, differentiate one row (or column) at a time, keeping the remaining rows (or columns) unaltered, and sum the resulting determinants:\n \\[ \\frac{d}{dx} \\begin{vmatrix} f_1(x) & g_1(x) \\\\ f_2(x) & g_2(x) \\end{vmatrix} = \\begin{vmatrix} f_1'(x) & g_1'(x) \\\\ f_2(x) & g_2(x) \\end{vmatrix} + \\begin{vmatrix} f_1(x) & g_1(x) \\\\ f_2'(x) & g_2'(x) \\end{vmatrix} \\]\n <li><strong>Leibnitz Theorem for $n$-th Derivatives:</strong> Generalizes the product rule to higher-order calculations using binomial coefficients:\n \\[ d^n(uv) = \\sum_{k=0}^n \\binom{n}{k} u^{(n-k)} v^{(k)} \\]\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Evaluate $F'(0)$ if $F(x) = \\begin{vmatrix} \\ln(1+x) & x \\\\ e^x & x^2 + 1 \\end{vmatrix}$.</p>",
+              "solution": "<p>Apply the determinant differentiation rule:\n \\[ F'(x) = \\begin{vmatrix} \\frac{1}{1+x} & 1 \\\\ e^x & x^2 + 1 \\end{vmatrix} + \\begin{vmatrix} \\ln(1+x) & x \\\\ e^x & 2x \\end{vmatrix} \\]\n Evaluate each component directly at $x = 0$:\n \\[ F'(0) = \\begin{vmatrix} 1 & 1 \\\\ 1 & 1 \\end{vmatrix} + \\begin{vmatrix} 0 & 0 \\\\ 1 & 0 \\end{vmatrix} = (1 - 1) + (0 - 0) = 0 \\]\n <strong>Final Answer:</strong> $0$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The derivative of $\\tan^{-1}\\left(\\frac{2x}{1-x^2}\\right)$ with respect to $\\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)$ inside the domain $x \\in (-1, 1)$ is:",
+              "options": [
+                "$\\frac{1}{2}$",
+                "$1$",
+                "$2$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Mean Value Theorems & Series Expansions",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Rolle's Theorem and Lagrange's Variations",
+          "concept": "Mean value theorems use local derivatives to characterize the global behavior of a function across an interval:\n <ul>\n <li><strong>Rolle's Theorem:</strong> Let $f:[a, b] \\to \\mathbb{R}$ be a function that satisfies:\n <ol>\n <li>Continuous on the closed interval $[a, b]$\n <li>Differentiable on the open interval $(a, b)$\n <li>$f(a) = f(b)$\n </ol>\n Then, there exists at least one real number $c \\in (a, b)$ such that $f'(c) = 0$. Geometrically, this means the curve has a tangent line parallel to the x-axis.\n <li><strong>Lagrange's Mean Value Theorem (LMVT):</strong> Drops the endpoint equality constraint. If conditions (i) and (ii) hold, there exists at least one $c \\in (a, b)$ such that:\n \\[ f'(c) = \\frac{f(b) - f(a)}{b - a} \\]\n Geometrically, the tangent line at $x=c$ is parallel to the secant line connecting the endpoints $(a, f(a))$ and $(b, f(b))$.\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Verify Rolle's Theorem for $f(x) = x(x-1)(x-2)$ on $[0, 2]$.</p>",
+              "solution": "Expanding the expression gives $f(x) = x^3 - 3x^2 + 2x$.\n <ul>\n <li>Since $f(x)$ is a polynomial, it is continuous on $[0, 2]$ and differentiable on $(0, 2)$.\n <li>Check endpoint matches: $f(0) = 0$, $f(2) = 2(1)(0) = 0$. Thus, $f(0) = f(2) = 0$.\n </ul>\n All three conditions are satisfied. Now find $c$ by setting the derivative to zero:\n \\[ f'(x) = 3x^2 - 6x + 2 = 0 \\implies c = \\frac{6 \\pm \\sqrt{36 - 24}}{6} = \\frac{6 \\pm \\sqrt{12}}{6} = 1 \\pm \\frac{\\sqrt{3}}{3} \\]\n Both roots $c_1 \\approx 0.423$ and $c_2 \\approx 1.577$ lie within the open interval $(0, 2)$.\n <strong>Final Answer:</strong> Verified for $c = 1 \\pm \\frac{1}{\\sqrt{3}}$."
+            }
+          ],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Cauchy Extensions and Taylor Series",
+          "concept": "Advanced theorems compare multiple functions or represent them as infinite polynomial series:\n <ul>\n <li><strong>Cauchy's Mean Value Theorem:</strong> If two functions $f(x)$ and $g(x)$ are continuous on $[a, b]$ and differentiable on $(a, b)$, with $g'(x) \\neq 0$ for all $x \\in (a, b)$, then there exists at least one $c \\in (a, b)$ such that:\n \\[ \\frac{f(b) - f(a)}{g(b) - g(a)} = \\frac{f'(c)}{g'(c)} \\]\n <li><strong>Taylor's and Maclaurin's Series:</strong> If a function has derivatives of all orders throughout a neighborhood of $x=a$, it can be represented as a power series. When expanded around $a=0$, it is called a Maclaurin series:\n \\[ f(x) = f(0) + f'(0)x + \\frac{f''(0)}{2!}x^2 + \\dots + \\frac{f^{(n)}(0)}{n!}x^n + \\dots \\]\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Expand $f(x) = \\ln(1+x)$ around $x=0$ up to the third degree using Maclaurin series definitions.</p>",
+              "solution": "Compute successive derivatives and evaluate their values at zero:\n <ul>\n <li>$f(x) = \\ln(1+x) \\implies f(0) = \\ln(1) = 0$\n <li>$f'(x) = \\frac{1}{1+x} \\implies f'(0) = 1$\n <li>$f''(x) = -\\frac{1}{(1+x)^2} \\implies f''(0) = -1$\n <li>$f'''(x) = \\frac{2}{(1+x)^3} \\implies f'''(0) = 2$\n </ul>\n Substitute these coefficients into the Maclaurin expansion formula:\n \\[ f(x) = 0 + (1)x + \\frac{-1}{2!}x^2 + \\frac{2}{3!}x^3 + \\dots = x - \\frac{x^2}{2} + \\frac{x^3}{3} - \\dots \\]\n <strong>Final Answer:</strong> $\\ln(1+x) \\approx x - \\frac{x^2}{2} + \\frac{x^3}{3}$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "For a function $f(x) = x^2$ on the interval $[1, 3]$, the value of $c$ that satisfies Lagrange's Mean Value Theorem is:",
+              "options": [
+                "$1.5$",
+                "$2.0$",
+                "$2.5$",
+                "$3.0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-math-differentiability-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "Let $f(x) = |\\log_e x|$. At $x = 1$, the function is:",
+              "options": [
+                "Discontinuous",
+                "Differentiable",
+                "Continuous but non-differentiable",
+                "Both discontinuous and non-differentiable"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If $f(x) = \\tan^{-1} x$, the value of $f''(0)$ is:",
+              "options": [
+                "$1$",
+                "$0$",
+                "$-1$",
+                "$2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The derivative of $\\sec^{-1} x$ with respect to $x$ for $|x| > 1$ is:",
+              "options": [
+                "$\\frac{1}{1+x^2}$",
+                "$\\frac{1}{|x|\\sqrt{x^2-1}}$",
+                "$-\\frac{1}{\\sqrt{1-x^2}}$",
+                "$\\frac{1}{\\sqrt{x^2-1}}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $y = \\ln(\\sec x + \\tan x)$, then $\\frac{dy}{dx}$ is:",
+              "options": [
+                "$\\sec x$",
+                "$\\tan x$",
+                "$\\sec x \\tan x$",
+                "$\\sec^2 x$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The function $f(x) = x^{1/3}$ has which point profile at $x = 0$?",
+              "options": [
+                "Corner",
+                "Cusp",
+                "Vertical Tangent",
+                "Jump boundary"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If $x^2 + 2xy + y^3 = 4$, then $\\frac{dy}{dx}$ at the point $(1, 1)$ equals:",
+              "options": [
+                "$-\\frac{4}{5}$",
+                "$-\\frac{3}{5}$",
+                "$1$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the derivative of $e^{x^3}$ with respect to $\\ln x$ at $x = 1$ is:",
+              "options": [
+                "$3e$",
+                "$e$",
+                "$0$",
+                "$1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If Rolle's Theorem holds for $f(x) = x^3 - ax^2 + bx$ on $[1, 2]$ with $c = \\frac{4}{3}$, then the values of the constants are:",
+              "options": [
+                "$a = 3, b = 2$",
+                "$a = 2, b = 3$",
+                "$a = 1, b = 1$",
+                "$a = 4, b = 3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $y = \\sin(m \\sin^{-1} x)$, then $(1-x^2)y_2 - xy_1$ equals:",
+              "options": [
+                "$m^2 y$",
+                "$-m^2 y$",
+                "$m y$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Which of the following functions does NOT satisfy Rolle's Theorem on $[-1, 1]$?",
+              "options": [
+                "$f(x) = x^2$",
+                "$f(x) = |x|$",
+                "$f(x) = \\cos(\\pi x)$",
+                "$f(x) = 1 - x^2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Find the number of points of non-differentiability for $f(x) = |x| + |x-1| + |x-2|$ across the real line.",
+              "answer": "3",
+              "explanation": ""
+            },
+            {
+              "q": "If $y = \\tan^{-1}\\left(\\frac{\\cos x + \\sin x}{\\cos x - \\sin x}\\right)$ where $x \\in (0, \\pi/4)$, find the value of $2\\frac{dy}{dx}$.",
+              "answer": "2",
+              "explanation": ""
+            },
+            {
+              "q": "Find the value of $c$ that satisfies LMVT for $f(x) = \\ln x$ on the interval $[1, e]$.",
+              "answer": "",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The function $f(x) = x |x|$ is differentiable at $x = 0$.<br>\n <strong>Reason (R):</strong> If a function is continuous at a point, it must be differentiable at that point.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 2,
+              "explanation": "A is true, but R is false (continuity does not guarantee differentiability)."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> If $f(x)$ is continuous on $[a, b]$ and differentiable on $(a, b)$, and $f(a) = f(b) = 0$, then the derivative vanishes at least once inside the interval.<br>\n <strong>Reason (R):</strong> Rolle's Theorem guarantees a flat tangent position where the slope is zero.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-math-differentiability-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "Let $f(x) = \\min(\\{x\\}, \\{-x\\})$, where $\\{\\cdot\\}$ denotes the fractional part function. The number of points of non-differentiability for $f(x)$ inside the open interval $(0, 2)$ is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$4$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If $y = (x^2)^{x}$, then $\\frac{dy}{dx}$ at $x = -1$ is equal to:",
+              "options": [
+                "$2$",
+                "$-2$",
+                "$0$",
+                "$-1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Let $f(x) = \\begin{vmatrix} x & x^2 & x^3 \\\\ 1 & 2x & 3x^2 \\\\ 0 & 2 & 6x \\end{vmatrix}$. The value of $f'''(x)$ is:",
+              "options": [
+                "$6$",
+                "$12$",
+                "$0$",
+                "Constant and equal to 6"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $x = \\sec \\psi - \\cos \\psi$ and $y = \\sec^n \\psi - \\cos^n \\psi$, then $(x^2 + 4)\\left(\\frac{dy}{dx}\\right)^2$ equals:",
+              "options": [
+                "$n^2 (y^2 + 4)$",
+                "$n^2 (y^2 - 4)$",
+                "$n^2 y^2$",
+                "$y^2 + 4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Let $f(x)$ be twice differentiable such that $f''(x) > 0$ for all $x \\in [a, b]$. If $c$ is the point satisfying LMVT, then:",
+              "options": [
+                "$c < \\frac{a+b}{2}$",
+                "$c = \\frac{a+b}{2}$",
+                "$c > \\frac{a+b}{2}$",
+                "The position depends on the function chosen"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The second derivative $\\frac{d^2x}{dy^2}$ expressed in terms of the derivatives of $y$ with respect to $x$ is:",
+              "options": [
+                "$\\left(\\frac{d^2y}{dx^2}\\right)^{-1}$",
+                "$-\\left(\\frac{d^2y}{dx^2}\\right)\\left(\\frac{dy}{dx}\\right)^{-3}$",
+                "$-\\left(\\frac{d^2y}{dx^2}\\right)\\left(\\frac{dy}{dx}\\right)^{-2}$",
+                "$\\left(\\frac{d^2y}{dx^2}\\right)\\left(\\frac{dy}{dx}\\right)^{-3}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Using Maclaurin series expansions, the coefficient of $x^5$ in the infinite series polynomial for $f(x) = \\sin x$ is:",
+              "options": [
+                "$\\frac{1}{5}$",
+                "$\\frac{1}{120}$",
+                "$-\\frac{1}{120}$",
+                "$\\frac{1}{24}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $f(x + y) = f(x) \\cdot f(y)$ for all real coordinates, and $f(0) = 1$ with $f'(0) = 2$, then $f(x)$ is equal to:",
+              "options": [
+                "$e^{2x}$",
+                "$2e^x$",
+                "$e^x$",
+                "$x^2 + 1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Let $f(x) = \\cos x \\cdot \\cos 2x \\cdot \\cos 4x \\cdot \\cos 8x$. The value of $f'\\left(\\frac{\\pi}{4}\\right)$ evaluates to:",
+              "options": [
+                "$1$",
+                "$0$",
+                "$-1$",
+                "$\\frac{1}{2}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The number of real roots of $f'(x) = 0$ for $f(x) = x(x+1)(x+2)(x+3)$ is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$0$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "If the $n$-th derivative of $y = x^{n}$ is given by $y^{(n)} = k!$, find the value of $k - n$.",
+              "answer": "0",
+              "explanation": ""
+            },
+            {
+              "q": "Let $f(x) = \\max(|x-1|, |x-2|, |x-3|)$. Find the total number of points across the real line where $f(x)$ fails to be differentiable.",
+              "answer": "2",
+              "explanation": ""
+            },
+            {
+              "q": "Let $f(x)$ be differentiable such that $f(1) = 2$ and $f(4) = 8$. Find the minimum value of $f'(c)$ guaranteed by LMVT inside the interval $(1, 4)$.",
+              "answer": "2",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> If a function is non-differentiable at $x = c$, then its graph must have a sharp corner at that point.<br>\n <strong>Reason (R):</strong> Non-differentiability can also occur due to vertical tangents, cusps, or discontinuity gaps.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 3,
+              "explanation": "A is false, but R is true."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> Cauchy's Mean Value Theorem simplifies to Lagrange's Mean Value Theorem when we choose $g(x) = x$.<br>\n <strong>Reason (R):</strong> The derivative of $g(x) = x$ is a constant equal to 1, which reduces the denominator ratio to $(b-a)$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

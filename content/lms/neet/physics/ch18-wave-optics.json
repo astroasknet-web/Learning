@@ -1,0 +1,168 @@
+{
+  "exam": "neet",
+  "subject": "physics",
+  "chapter": 18,
+  "title": "Wave Optics",
+  "slug": "wave-optics",
+  "subtitle": "Huygens' principle, Young's double slit, diffraction & polarisation",
+  "level": "NEET (UG)",
+  "color": "#2563eb",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "NEET Physics — Wave Optics: Huygens' principle, interference and Young's double-slit experiment, fringe width, diffraction at a single slit, resolving power and polarisation with Malus's law and Brewster's angle, with NEET-level examples and MCQs. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Huygens' Principle and Interference",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Huygens' Principle and the Wave Nature of Light",
+          "concept": "<p>Ray optics treats light as straight-line rays, but many phenomena — interference, diffraction, polarisation — can only be explained by treating light as a <strong>wave</strong>. The wave picture is built on <strong>Huygens' principle</strong>, which states that every point on a wavefront acts as a source of secondary spherical wavelets, and the new wavefront at a later instant is the surface that touches (is tangent to) all these wavelets.</p><p>A <strong>wavefront</strong> is a surface joining all points that vibrate in the same phase. A point source produces spherical wavefronts; a very distant source (or a source at the focus of a lens) produces plane wavefronts. The direction of propagation is always perpendicular to the wavefront, which connects the wave picture back to the familiar rays of geometric optics.</p><p>Huygens' construction neatly explains reflection and refraction. When a wavefront crosses into a denser medium, its speed drops, so the part that enters first slows down and the wavefront bends towards the normal — exactly Snell's law. A crucial NEET point follows: in a denser medium the <em>speed and wavelength decrease</em> while the <em>frequency stays unchanged</em>, since frequency is set by the source.</p><p>The central new idea of wave optics is the <strong>superposition principle</strong>: when two or more waves overlap, the resultant displacement at each point is the sum of the individual displacements. Where crests meet crests the waves reinforce (constructive); where crests meet troughs they cancel (destructive). This simple rule, applied to light waves, produces the rich interference and diffraction patterns explored in the rest of the chapter.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Idea</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Statement</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Wavefront</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>surface of constant phase</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Huygens' principle</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>each point to secondary wavelets</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Denser medium</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$v$ and $\\lambda$ fall, $f$ constant</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>When light passes from air into glass, which of its speed, frequency and wavelength change?</p>",
+              "solution": "<p>The speed decreases and the wavelength decreases (since $v = f\\lambda$ and $f$ is fixed by the source). The frequency stays the same.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What is the shape of the wavefront produced by a point source of light?</p>",
+              "solution": "<p>Spherical. As the wave spreads outward, the surfaces of constant phase are concentric spheres centred on the source (becoming nearly plane at large distances).</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>A wavefront is a surface joining points of equal:</p>", "options": ["amplitude", "phase", "frequency", "speed"], "correct": 1, "explanation": "A wavefront has constant phase." },
+            { "q": "<p>According to Huygens' principle, each point on a wavefront acts as a source of:</p>", "options": ["rays", "secondary wavelets", "photons", "electrons"], "correct": 1, "explanation": "Each point emits secondary spherical wavelets." },
+            { "q": "<p>When light enters a denser medium, its frequency:</p>", "options": ["increases", "decreases", "stays the same", "becomes zero"], "correct": 2, "explanation": "Frequency is fixed by the source and does not change." },
+            { "q": "<p>The wavefront from a very distant source is approximately:</p>", "options": ["spherical", "cylindrical", "plane", "circular"], "correct": 2, "explanation": "Distant sources give plane wavefronts." },
+            { "q": "<p>The direction of wave propagation is ___ to the wavefront.</p>", "options": ["parallel", "perpendicular", "at $45^{\\circ}$", "tangent"], "correct": 1, "explanation": "Rays are perpendicular to wavefronts." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> In a denser medium, speed and wavelength fall but frequency is unchanged. Rays are always perpendicular to wavefronts; superposition is the key new principle.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Interference and Young's Double-Slit Experiment",
+          "concept": "<p><strong>Interference</strong> is the superposition of light from two <strong>coherent</strong> sources — sources with a constant phase difference and the same frequency. Where the waves arrive in phase they add (constructive interference, bright); where they arrive out of phase they cancel (destructive interference, dark). Real interference needs coherence, which is why two separate bulbs never produce a stable pattern, but two slits lit by the same source do.</p><p><strong>Young's double-slit experiment</strong> is the classic demonstration. Light from a single source passes through two narrow, closely spaced slits and produces a pattern of alternating bright and dark <strong>fringes</strong> on a screen. The path difference to a point decides the outcome: bright fringes occur where the path difference is a whole number of wavelengths, $n\\lambda$, and dark fringes where it is an odd half-integer, $(n + \\tfrac{1}{2})\\lambda$.</p><p>The spacing between consecutive bright (or dark) fringes is the <strong>fringe width</strong> $\\beta = \\dfrac{\\lambda D}{d}$, where $D$ is the slit-to-screen distance and $d$ the slit separation. This single formula drives most NEET numericals: fringes widen with longer wavelength or larger $D$, and narrow as the slits are moved apart. All fringes in an ideal pattern have equal width and (for monochromatic light) equal brightness.</p><p>Two consequences are often tested. Using <em>white</em> light gives a central white fringe flanked by coloured fringes, because each colour has its own fringe width. And if the whole apparatus is immersed in a medium of refractive index $n$, the wavelength shrinks to $\\lambda/n$, so the fringe width shrinks by the same factor — a favourite twist. Interference conserves energy: it merely redistributes light from dark to bright regions.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Relation</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Bright fringe</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>path diff. $= n\\lambda$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Dark fringe</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>path diff. $= (n + \\tfrac{1}{2})\\lambda$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Fringe width</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\beta = \\dfrac{\\lambda D}{d}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>In a double-slit experiment, $\\lambda = 600\\ \\text{nm}$, $d = 0.2\\ \\text{mm}$ and $D = 1\\ \\text{m}$. Find the fringe width.</p>",
+              "solution": "<p>$\\beta = \\dfrac{\\lambda D}{d} = \\dfrac{(600\\times10^{-9})(1)}{0.2\\times10^{-3}} = 3\\times10^{-3}\\ \\text{m} = 3\\ \\text{mm}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>How does the fringe width change if the whole apparatus is immersed in water ($n = 4/3$)?</p>",
+              "solution": "<p>The wavelength becomes $\\lambda/n$, so $\\beta = \\dfrac{\\lambda D}{nd}$ shrinks by a factor $n = 4/3$ — the fringes become three-quarters as wide.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Interference requires two sources that are:</p>", "options": ["bright", "coherent", "white", "identical in size"], "correct": 1, "explanation": "Coherent sources have a constant phase difference." },
+            { "q": "<p>The fringe width in Young's experiment is:</p>", "options": ["$\\lambda d/D$", "$\\lambda D/d$", "$dD/\\lambda$", "$D/\\lambda d$"], "correct": 1, "explanation": "$\\beta = \\lambda D/d$." },
+            { "q": "<p>A bright fringe forms where the path difference is:</p>", "options": ["$(n + \\tfrac{1}{2})\\lambda$", "$n\\lambda$", "$\\lambda/2$", "zero only"], "correct": 1, "explanation": "Constructive interference at path difference $n\\lambda$." },
+            { "q": "<p>Increasing the slit separation $d$ makes the fringe width:</p>", "options": ["larger", "smaller", "unchanged", "zero"], "correct": 1, "explanation": "$\\beta \\propto 1/d$." },
+            { "q": "<p>Interference of light:</p>", "options": ["destroys energy", "creates energy", "redistributes energy", "stops light"], "correct": 2, "explanation": "Energy is conserved, merely redistributed between bright and dark fringes." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> $\\beta = \\lambda D/d$ governs the pattern. Bright at $n\\lambda$, dark at $(n+\\tfrac12)\\lambda$. In a medium, $\\lambda \\to \\lambda/n$ so fringes narrow; interference conserves energy.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Diffraction and Polarisation",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Diffraction of Light",
+          "concept": "<p><strong>Diffraction</strong> is the bending of light around obstacles and the spreading of light as it passes through narrow openings. It is most noticeable when the size of the obstacle or slit is comparable to the wavelength of light. Because light's wavelength is so small, everyday diffraction is subtle — which is why light usually seems to travel in straight lines — but with a fine slit it becomes clear.</p><p>In <strong>single-slit diffraction</strong>, light passing through a slit of width $a$ forms a pattern with a wide, bright <strong>central maximum</strong> flanked by dimmer secondary maxima. The dark <strong>minima</strong> occur where $a\\sin\\theta = n\\lambda$ (with $n = 1, 2, 3, \\dots$). The central maximum is twice as wide as the secondary fringes and far brighter, holding most of the light energy.</p><p>The angular width of the central maximum is $\\approx \\dfrac{2\\lambda}{a}$, so a <em>narrower</em> slit spreads the light <em>more</em> — a key contrast with interference. It is also important for NEET to distinguish the two phenomena: interference comes from two (or more) separate coherent sources and gives equally bright, equally spaced fringes, while diffraction comes from a single wavefront and gives a bright central band with rapidly fading side fringes.</p><p>Diffraction sets the ultimate limit on the sharpness of optical instruments through their <strong>resolving power</strong> — the ability to see two close objects as distinct. A larger aperture diffracts less and resolves finer detail, which is why telescopes and microscopes are built with large objectives. This connects diffraction directly to the instruments studied in ray optics and is a recurring NEET theme.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Feature</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Single-slit minima</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$a\\sin\\theta = n\\lambda$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Central max. width</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\approx 2\\lambda/a$ (angular)</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Narrower slit</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>more spreading</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Light of wavelength $500\\ \\text{nm}$ falls on a slit of width $0.1\\ \\text{mm}$. Find the angular position of the first minimum.</p>",
+              "solution": "<p>$a\\sin\\theta = n\\lambda$ with $n = 1$: $\\sin\\theta = \\dfrac{\\lambda}{a} = \\dfrac{500\\times10^{-9}}{0.1\\times10^{-3}} = 5\\times10^{-3}$, so $\\theta \\approx 5\\times10^{-3}\\ \\text{rad}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>How does the width of the central diffraction maximum change if the slit is made narrower?</p>",
+              "solution": "<p>The central maximum widens. Its angular width is $\\approx 2\\lambda/a$, so reducing $a$ increases the spreading of the light.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Diffraction is most pronounced when the slit width is:</p>", "options": ["much larger than $\\lambda$", "comparable to $\\lambda$", "zero", "infinite"], "correct": 1, "explanation": "Diffraction is strong when slit size $\\sim \\lambda$." },
+            { "q": "<p>The condition for minima in single-slit diffraction is:</p>", "options": ["$a\\sin\\theta = n\\lambda$", "$a\\sin\\theta = (n+\\tfrac12)\\lambda$", "$d\\sin\\theta = n\\lambda$", "$a\\cos\\theta = n\\lambda$"], "correct": 0, "explanation": "Minima at $a\\sin\\theta = n\\lambda$." },
+            { "q": "<p>The central maximum in single-slit diffraction is:</p>", "options": ["the dimmest", "the widest and brightest", "same as the others", "always dark"], "correct": 1, "explanation": "It is the widest and brightest band." },
+            { "q": "<p>A narrower slit causes the diffraction pattern to:</p>", "options": ["narrow", "spread out more", "disappear", "stay the same"], "correct": 1, "explanation": "Angular width $\\approx 2\\lambda/a$ increases as $a$ falls." },
+            { "q": "<p>The resolving power of a telescope improves with a:</p>", "options": ["smaller aperture", "larger aperture", "longer eyepiece", "dimmer source"], "correct": 1, "explanation": "Larger aperture diffracts less and resolves finer detail." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Single-slit minima at $a\\sin\\theta = n\\lambda$; central maximum widest/brightest and $\\approx 2\\lambda/a$ wide. Narrower slit to more spreading. Interference (many bright equal fringes) vs diffraction (one dominant central band).</p>"
+        },
+        {
+          "number": 4,
+          "title": "Polarisation of Light",
+          "concept": "<p><strong>Polarisation</strong> is the property that confirms light is a <em>transverse</em> wave. In ordinary (unpolarised) light the electric field oscillates in all directions perpendicular to the propagation. A <strong>polariser</strong> transmits only the component along one particular direction, producing <strong>plane-polarised</strong> light in which the field vibrates in a single plane. Sound, being longitudinal, cannot be polarised — a contrast NEET likes to draw.</p><p>When unpolarised light of intensity $I_0$ passes through a polariser, the transmitted intensity is halved to $I_0/2$. If this polarised light then meets a second polariser (an analyser) whose axis makes an angle $\\theta$ with the first, the transmitted intensity follows <strong>Malus's law</strong>: $I = I_0\\cos^{2}\\theta$. The light is fully transmitted when the axes are parallel ($\\theta = 0$) and completely blocked when they are crossed ($\\theta = 90^{\\circ}$).</p><p>Light can also be polarised by <strong>reflection</strong>. At a special angle of incidence, the reflected light is completely plane-polarised. This is <strong>Brewster's angle</strong> $\\theta_B$, given by $\\tan\\theta_B = n$, where $n$ is the refractive index of the reflecting medium. At this angle the reflected and refracted rays are perpendicular to each other — a neat geometric fact often tested.</p><p>Polarisation has many everyday applications NEET references. Polaroid sunglasses cut glare by blocking the horizontally polarised light reflected from roads and water; LCD screens use polarisers to control brightness; and photographers use polarising filters to darken skies and reduce reflections. Recognising Malus's law and Brewster's angle, and that only transverse waves can be polarised, covers the bulk of polarisation questions.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Law / quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Relation</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Through one polariser</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$I = I_0/2$ (from unpolarised)</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Malus's law</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$I = I_0\\cos^{2}\\theta$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Brewster's angle</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\tan\\theta_B = n$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Plane-polarised light of intensity $I_0$ passes through an analyser at $60^{\\circ}$ to its plane. Find the transmitted intensity.</p>",
+              "solution": "<p>Malus's law: $I = I_0\\cos^{2}60^{\\circ} = I_0\\left(\\dfrac{1}{2}\\right)^{2} = \\dfrac{I_0}{4}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find Brewster's angle for glass of refractive index $n = 1.5$.</p>",
+              "solution": "<p>$\\tan\\theta_B = n = 1.5$, so $\\theta_B = \\tan^{-1}(1.5) \\approx 56^{\\circ}$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Polarisation proves that light is a:</p>", "options": ["longitudinal wave", "transverse wave", "mechanical wave", "stationary wave"], "correct": 1, "explanation": "Only transverse waves can be polarised." },
+            { "q": "<p>Malus's law states that the transmitted intensity is:</p>", "options": ["$I_0\\cos\\theta$", "$I_0\\cos^{2}\\theta$", "$I_0\\sin^{2}\\theta$", "$I_0/\\cos\\theta$"], "correct": 1, "explanation": "$I = I_0\\cos^2\\theta$." },
+            { "q": "<p>Unpolarised light passing through one ideal polariser has its intensity:</p>", "options": ["unchanged", "halved", "doubled", "reduced to zero"], "correct": 1, "explanation": "Intensity becomes $I_0/2$." },
+            { "q": "<p>Brewster's angle satisfies:</p>", "options": ["$\\sin\\theta_B = n$", "$\\tan\\theta_B = n$", "$\\cos\\theta_B = n$", "$\\theta_B = n$"], "correct": 1, "explanation": "$\\tan\\theta_B = n$." },
+            { "q": "<p>When the analyser axis is perpendicular to the polariser, the transmitted intensity is:</p>", "options": ["maximum", "$I_0/2$", "zero", "$I_0$"], "correct": 2, "explanation": "$\\cos^2 90^{\\circ} = 0$ — fully blocked." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Only transverse waves polarise. One polariser halves unpolarised light; then Malus's law $I = I_0\\cos^2\\theta$. Brewster's angle $\\tan\\theta_B = n$, with reflected and refracted rays perpendicular.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-physics-ch18-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>A wavefront is a surface of constant:</p>", "options": ["amplitude", "phase", "intensity", "speed"], "correct": 1, "explanation": "Constant phase defines a wavefront." },
+            { "q": "<p>The fringe width in Young's double-slit experiment is:</p>", "options": ["$\\lambda d/D$", "$\\lambda D/d$", "$Dd/\\lambda$", "$\\lambda/Dd$"], "correct": 1, "explanation": "$\\beta = \\lambda D/d$." },
+            { "q": "<p>Two sources must be ___ to produce a stable interference pattern.</p>", "options": ["bright", "coherent", "white", "large"], "correct": 1, "explanation": "Coherence is essential." },
+            { "q": "<p>In single-slit diffraction, the minima occur at:</p>", "options": ["$a\\sin\\theta = n\\lambda$", "$a\\sin\\theta = (n+\\tfrac12)\\lambda$", "$d\\sin\\theta = n\\lambda$", "$a\\cos\\theta = n\\lambda$"], "correct": 0, "explanation": "$a\\sin\\theta = n\\lambda$." },
+            { "q": "<p>The central maximum of a single-slit pattern is:</p>", "options": ["the narrowest", "the widest and brightest", "completely dark", "the same as others"], "correct": 1, "explanation": "Widest and brightest band." },
+            { "q": "<p>Malus's law gives the transmitted intensity as:</p>", "options": ["$I_0\\cos\\theta$", "$I_0\\cos^{2}\\theta$", "$I_0\\sin\\theta$", "$I_0\\tan^{2}\\theta$"], "correct": 1, "explanation": "$I = I_0\\cos^2\\theta$." },
+            { "q": "<p>Brewster's angle is given by:</p>", "options": ["$\\sin\\theta_B = n$", "$\\tan\\theta_B = n$", "$\\cos\\theta_B = n$", "$\\theta_B = 45^{\\circ}$"], "correct": 1, "explanation": "$\\tan\\theta_B = n$." },
+            { "q": "<p>Polarisation is possible only for:</p>", "options": ["longitudinal waves", "transverse waves", "sound waves", "all waves"], "correct": 1, "explanation": "Only transverse waves can be polarised." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> Two independent light bulbs cannot produce a sustained interference pattern.<br><strong>R:</strong> Interference requires two coherent sources with a constant phase difference.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Independent bulbs lack coherence, so no stable pattern — R explains A." },
+            { "q": "<p><strong>A:</strong> When the double-slit apparatus is immersed in water, the fringe width decreases.<br><strong>R:</strong> The wavelength of light decreases in a denser medium.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Smaller $\\lambda$ in water gives smaller $\\beta = \\lambda D/d$ — R explains A." },
+            { "q": "<p><strong>A:</strong> Sound waves can be polarised just like light waves.<br><strong>R:</strong> Polarisation is a property exhibited only by transverse waves.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "Sound is longitudinal and cannot be polarised, so A is false; R correctly states only transverse waves polarise." },
+            { "q": "<p><strong>A:</strong> A telescope with a larger objective can resolve finer detail.<br><strong>R:</strong> A larger aperture reduces diffraction spreading, improving resolving power.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Less diffraction at a larger aperture means better resolution — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

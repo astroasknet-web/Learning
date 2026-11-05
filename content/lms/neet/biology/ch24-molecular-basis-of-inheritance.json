@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "biology",
+  "chapter": 24,
+  "title": "Molecular Basis of Inheritance",
+  "slug": "molecular-basis-of-inheritance",
+  "subtitle": "DNA structure and packaging, the search for the genetic material, DNA replication, transcription, the genetic code, translation, gene regulation and the Human Genome Project",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "leaf",
+  "seo": {
+    "meta_description": "NEET Biology — Molecular Basis of Inheritance: DNA double-helix structure and nucleosome packaging, the Griffith and Hershey–Chase experiments, semiconservative replication, transcription, the genetic code, translation, the lac operon, and the Human Genome Project & DNA fingerprinting, with NEET-level examples and MCQs. Free on GrowQR.",
+    "focus_keyword": "molecular basis of inheritance NEET",
+    "secondary_keywords": [
+      "DNA structure Watson Crick base pairing",
+      "semiconservative replication Meselson Stahl",
+      "transcription translation genetic code",
+      "lac operon gene regulation",
+      "Human Genome Project DNA fingerprinting"
+    ],
+    "keywords": [
+      "molecular basis of inheritance NEET",
+      "DNA double helix nucleosome",
+      "Hershey Chase Griffith experiment",
+      "genetic code features codon",
+      "lac operon HGP DNA fingerprinting"
+    ]
+  },
+  "summary": "<ul><li><strong>DNA:</strong> antiparallel double helix (Watson &amp; Crick); <strong>A=T (2 H-bonds), G≡C (3 H-bonds)</strong>; <strong>Chargaff</strong>: A=T, G=C; 10 bp/turn, pitch 3.4 nm.</li><li><strong>Packaging:</strong> negatively-charged DNA wraps positively-charged <strong>histones</strong> → <strong>nucleosome</strong> (~200 bp + histone octamer) → chromatin (euchromatin active, heterochromatin inactive).</li><li><strong>Genetic material:</strong> <strong>Griffith</strong> (transformation), <strong>Avery–MacLeod–McCarty</strong> (DNA), <strong>Hershey–Chase</strong> (phage → DNA). DNA is more stable than RNA.</li><li><strong>Replication</strong> is <strong>semiconservative</strong> (Meselson &amp; Stahl); DNA polymerase synthesises 5'→3'; leading + lagging (Okazaki) strands.</li><li><strong>Central dogma:</strong> DNA → (transcription) RNA → (translation) protein.</li><li><strong>Genetic code:</strong> triplet, 64 codons, degenerate, universal, unambiguous; start <strong>AUG</strong>, stop UAA/UAG/UGA; tRNA = adaptor.</li><li><strong>lac operon</strong> (Jacob &amp; Monod): lactose = inducer. <strong>HGP</strong>: ~3 billion bp; <strong>DNA fingerprinting</strong> uses VNTRs.</li></ul>",
+  "faqs": [
+    { "q": "What is the Watson–Crick model of DNA?", "a": "DNA is a double helix of two antiparallel polynucleotide strands (one 5'→3', the other 3'→5') wound around a common axis, with sugar-phosphate backbones outside and bases pairing inside. Base pairing is specific and complementary: adenine pairs with thymine (two hydrogen bonds) and guanine pairs with cytosine (three hydrogen bonds). The helix is right-handed, with about 10 base pairs per turn and a pitch of 3.4 nm." },
+    { "q": "How is the long DNA molecule packaged inside a cell?", "a": "The negatively charged DNA wraps around a core of positively charged proteins called histones. About 200 base pairs of DNA wound around a histone octamer form a nucleosome, the basic repeating unit, giving a 'beads-on-a-string' appearance. Nucleosomes coil further into chromatin fibres and ultimately into chromosomes. Loosely packed, transcriptionally active chromatin is euchromatin; densely packed, inactive chromatin is heterochromatin." },
+    { "q": "What did the Hershey–Chase experiment prove?", "a": "Hershey and Chase used bacteriophages whose DNA was labelled with radioactive phosphorus (32P) and whose protein coat was labelled with radioactive sulphur (35S). When the phages infected bacteria, only the 32P (DNA) entered the bacterial cells, not the 35S (protein). This proved that DNA, not protein, is the genetic material that is passed on to the next generation." },
+    { "q": "Why is DNA replication called semiconservative?", "a": "Because each new DNA molecule keeps one old (parental) strand and one newly made strand. The two parental strands separate, and each acts as a template for a new complementary strand, so every daughter molecule is half old and half new. This was proved by Meselson and Stahl using heavy (15N) and normal (14N) nitrogen isotopes in E. coli." },
+    { "q": "What are the main features of the genetic code?", "a": "The genetic code is read in triplets (codons) — three bases code for one amino acid, giving 64 codons. It is degenerate (some amino acids are coded by more than one codon), unambiguous (each codon codes for only one amino acid), nearly universal (the same in almost all organisms), non-overlapping and comma-less. AUG is the start codon (and codes for methionine), and UAA, UAG and UGA are stop codons." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "The Genetic Material, Its Structure and Replication",
+      "topics": [
+        {
+          "number": 1,
+          "title": "DNA Structure, Packaging and the Search for the Genetic Material",
+          "concept": "<p><strong>DNA (deoxyribonucleic acid)</strong> is the genetic material of most organisms. It is a long polymer of <strong>nucleotides</strong>, each made of a <strong>deoxyribose sugar</strong>, a <strong>phosphate</strong> and a <strong>nitrogenous base</strong> &mdash; the purines <strong>adenine (A)</strong> and <strong>guanine (G)</strong> and the pyrimidines <strong>cytosine (C)</strong> and <strong>thymine (T)</strong>. The <strong>Watson&ndash;Crick double-helix model (1953)</strong> describes DNA as two <strong>antiparallel</strong> strands (one running 5'&rarr;3', the other 3'&rarr;5') coiled into a right-handed helix, with the sugar-phosphate backbones outside and the bases paired inside.</p><p>Base pairing is <strong>specific and complementary</strong>: <strong>A pairs with T by two hydrogen bonds</strong> and <strong>G pairs with C by three hydrogen bonds</strong>. This matches <strong>Chargaff's rule</strong> that the amount of <strong>A = T</strong> and <strong>G = C</strong>. The helix has about <strong>10 base pairs per turn</strong>, a <strong>pitch (length of one turn) of 3.4 nm</strong> and a rise of 0.34 nm per base pair.</p><p>A human cell holds about <strong>2 metres of DNA</strong>, so it must be tightly <strong>packaged</strong>. The <strong>negatively charged DNA</strong> wraps around a core of <strong>positively charged proteins called histones</strong>. About <strong>200 base pairs</strong> of DNA wound around a <strong>histone octamer</strong> form a <strong>nucleosome</strong>, the basic repeating unit, giving a <strong>'beads-on-a-string'</strong> look; nucleosomes coil further into chromatin and chromosomes. Loosely-packed, <strong>transcriptionally active chromatin is euchromatin</strong>; densely-packed, <strong>inactive chromatin is heterochromatin</strong>.</p><p>How did we learn DNA is the genetic material? <strong>Griffith (1928)</strong> found a 'transforming principle' in <em>Streptococcus pneumoniae</em> (his <strong>transformation</strong> experiment with R and S strains). <strong>Avery, MacLeod and McCarty</strong> identified that transforming principle as <strong>DNA</strong>. Finally, <strong>Hershey and Chase (1952)</strong> used bacteriophages labelled with <strong>radioactive ³²P (DNA) and ³⁵S (protein)</strong> and showed that only the <strong>³²P (DNA) entered the bacteria</strong> &mdash; conclusively proving <strong>DNA is the genetic material</strong>. (RNA was likely the first genetic material in evolution, but DNA, being double-stranded and chemically more stable, took over.) For NEET, fix the helix details, base-pairing/H-bonds, Chargaff's rule, the nucleosome, and the three classic experiments.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Feature</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Base pairs</td><td style='border:1px solid #dcfce7;padding:6px 8px'>A=T (2 H-bonds), G≡C (3 H-bonds)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Helix</td><td style='border:1px solid #dcfce7;padding:6px 8px'>antiparallel; 10 bp/turn; pitch 3.4 nm</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Nucleosome</td><td style='border:1px solid #dcfce7;padding:6px 8px'>~200 bp + histone octamer</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Euchromatin / heterochromatin</td><td style='border:1px solid #dcfce7;padding:6px 8px'>loose, active / dense, inactive</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Hershey–Chase</td><td style='border:1px solid #dcfce7;padding:6px 8px'>³²P (DNA) enters bacteria → DNA is genetic material</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>If a DNA segment has 22% adenine, what percentage of guanine does it contain?</p>",
+              "solution": "<p>By <strong>Chargaff's rule</strong>, A = T, so T = 22%, and A + T = 44%. The rest is G + C = 56%, and G = C, so <strong>guanine = 28%</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>How did Hershey and Chase show that DNA, not protein, is the genetic material?</p>",
+              "solution": "<p>They labelled phage <strong>DNA with ³²P</strong> and phage <strong>protein with ³⁵S</strong>. After infection, only the <strong>³²P (DNA) was found inside the bacteria</strong>, while the ³⁵S (protein coat) stayed outside — proving <strong>DNA is the genetic material</strong>.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Adenine pairs with thymine by how many hydrogen bonds?</p>", "options": ["one", "two", "three", "four"], "correct": 1, "explanation": "A=T has two hydrogen bonds; G≡C has three." },
+            { "q": "<p>According to Chargaff's rule:</p>", "options": ["A=G, T=C", "A=T, G=C", "A=C, G=T", "A=T=G=C"], "correct": 1, "explanation": "Amounts of A=T and G=C." },
+            { "q": "<p>The basic packaging unit of DNA with histones is the:</p>", "options": ["chromatid", "nucleosome", "centromere", "codon"], "correct": 1, "explanation": "~200 bp DNA + histone octamer = nucleosome." },
+            { "q": "<p>The Hershey–Chase experiment used:</p>", "options": ["pea plants", "bacteriophages", "Drosophila", "Neurospora"], "correct": 1, "explanation": "Bacteriophages labelled with ³²P and ³⁵S." },
+            { "q": "<p>Transcriptionally active, loosely-packed chromatin is:</p>", "options": ["heterochromatin", "euchromatin", "centromere", "telomere"], "correct": 1, "explanation": "Euchromatin is loose and active; heterochromatin is dense and inactive." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> DNA: antiparallel helix, A=T (2 H-bonds), G≡C (3 H-bonds), Chargaff A=T &amp; G=C, 10 bp/turn, pitch 3.4 nm. Nucleosome = ~200 bp + histone octamer; euchromatin (active) vs heterochromatin (inactive). Genetic material: Griffith (transformation) → Avery et al. (DNA) → Hershey–Chase (³²P proves DNA).</p>"
+        },
+        {
+          "number": 2,
+          "title": "DNA Replication",
+          "concept": "<p>For genetic information to pass to daughter cells, DNA must be <strong>copied (replicated)</strong> before cell division. The Watson&ndash;Crick model itself suggested how: because the two strands are <strong>complementary</strong>, each can serve as a <strong>template</strong> to make the other. This gives <strong>semiconservative replication</strong> &mdash; each new DNA molecule keeps <strong>one old (parental) strand and one newly synthesised strand</strong>.</p><p>This was proved by the classic experiment of <strong>Meselson and Stahl (1958)</strong> on <em>Escherichia coli</em>. They grew bacteria in medium with <strong>heavy nitrogen (¹⁵N)</strong> so the DNA was heavy, then shifted them to <strong>normal nitrogen (¹⁴N)</strong>. After <strong>one generation</strong> the DNA was of <strong>intermediate (hybrid) density</strong> (one heavy + one light strand), and after <strong>two generations</strong> there were equal amounts of <strong>hybrid and light DNA</strong> &mdash; exactly the pattern predicted by semiconservative replication.</p><p>Mechanistically, replication begins at a specific site, the <strong>origin of replication (ori)</strong>. The enzyme <strong>helicase</strong> unwinds the helix to form a <strong>replication fork</strong>, and the main enzyme <strong>DNA polymerase</strong> adds nucleotides to build the new strands. A crucial constraint is that DNA polymerase can only synthesise in the <strong>5'&rarr;3' direction</strong>.</p><p>Because the two template strands are antiparallel, this directionality means one new strand &mdash; the <strong>leading strand</strong> &mdash; is made <strong>continuously</strong> toward the fork, while the other &mdash; the <strong>lagging strand</strong> &mdash; is made <strong>discontinuously</strong> in short pieces called <strong>Okazaki fragments</strong>, which are later joined by <strong>DNA ligase</strong>. Replication is highly accurate, with proofreading. For NEET, fix the meaning of semiconservative replication, the Meselson&ndash;Stahl result (hybrid after one generation), and the mechanism: origin, DNA polymerase building 5'&rarr;3', leading (continuous) vs lagging (Okazaki fragments + ligase) strands.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Item</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Mode</td><td style='border:1px solid #dcfce7;padding:6px 8px'>semiconservative (1 old + 1 new strand)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Proof</td><td style='border:1px solid #dcfce7;padding:6px 8px'>Meselson &amp; Stahl (¹⁵N/¹⁴N in E. coli)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Main enzyme</td><td style='border:1px solid #dcfce7;padding:6px 8px'>DNA polymerase (synthesises 5'→3')</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Leading strand</td><td style='border:1px solid #dcfce7;padding:6px 8px'>continuous toward the fork</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Lagging strand</td><td style='border:1px solid #dcfce7;padding:6px 8px'>discontinuous — Okazaki fragments + ligase</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>In the Meselson–Stahl experiment, what density of DNA is found after one generation in ¹⁴N, and why?</p>",
+              "solution": "<p>After one generation the DNA is of <strong>intermediate (hybrid) density</strong>. Each daughter molecule has <strong>one heavy (¹⁵N) parental strand and one light (¹⁴N) new strand</strong> — exactly what <strong>semiconservative replication</strong> predicts.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is one strand made continuously and the other in fragments during replication?</p>",
+              "solution": "<p>DNA polymerase works only in the <strong>5'&rarr;3' direction</strong>. On the strand oriented toward the fork the new strand can be made <strong>continuously (leading strand)</strong>; on the antiparallel strand it must be made in short <strong>Okazaki fragments (lagging strand)</strong>, later joined by <strong>DNA ligase</strong>.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>DNA replication is:</p>", "options": ["conservative", "semiconservative", "dispersive", "random"], "correct": 1, "explanation": "Each daughter molecule has one old and one new strand." },
+            { "q": "<p>Semiconservative replication was proved by:</p>", "options": ["Watson and Crick", "Meselson and Stahl", "Hershey and Chase", "Griffith"], "correct": 1, "explanation": "Meselson and Stahl used ¹⁵N/¹⁴N in E. coli." },
+            { "q": "<p>DNA polymerase synthesises DNA in the direction:</p>", "options": ["3'→5'", "5'→3'", "both ways", "random"], "correct": 1, "explanation": "Synthesis is strictly 5'→3'." },
+            { "q": "<p>Short fragments made on the lagging strand are:</p>", "options": ["exons", "Okazaki fragments", "primers", "codons"], "correct": 1, "explanation": "Okazaki fragments are joined later by ligase." },
+            { "q": "<p>The enzyme that joins Okazaki fragments is:</p>", "options": ["helicase", "DNA ligase", "primase", "topoisomerase"], "correct": 1, "explanation": "DNA ligase seals the fragments." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Replication = semiconservative (Meselson &amp; Stahl, ¹⁵N/¹⁴N → hybrid after 1 generation). DNA polymerase builds 5'→3'; leading strand continuous, lagging strand = Okazaki fragments joined by DNA ligase; starts at the origin (ori).</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The Central Dogma, Gene Regulation and Genomics",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Transcription, the Genetic Code and Translation",
+          "concept": "<p>The flow of genetic information is summarised by the <strong>central dogma</strong> (proposed by <strong>Crick</strong>): <strong>DNA &rarr; RNA &rarr; protein</strong>, i.e. DNA is transcribed into RNA, which is translated into protein. <strong>Transcription</strong> is the copying of one strand of DNA into <strong>RNA</strong> by the enzyme <strong>RNA polymerase</strong>. Only one strand, the <strong>template strand (read 3'&rarr;5')</strong>, is copied; the other is the coding strand. A transcription unit has a <strong>promoter</strong> (where RNA polymerase binds), the <strong>structural gene</strong> and a <strong>terminator</strong>.</p><p>In eukaryotes the first transcript, <strong>hnRNA</strong>, contains coding <strong>exons</strong> and non-coding <strong>introns</strong> (split genes). It is processed: the introns are removed and exons joined by <strong>splicing</strong>, a <strong>cap</strong> is added at the 5' end and a <strong>poly-A tail</strong> at the 3' end, producing mature <strong>mRNA</strong>.</p><p>The information in mRNA is read using the <strong>genetic code</strong>, whose features are heavily tested. The code is read in <strong>triplets called codons</strong> (three bases = one amino acid), giving <strong>64 codons</strong>. It is <strong>degenerate</strong> (most amino acids have more than one codon), <strong>unambiguous</strong> (each codon specifies only one amino acid), nearly <strong>universal</strong> (same in almost all organisms), <strong>non-overlapping</strong> and <strong>comma-less</strong>. <strong>AUG</strong> is the <strong>start (initiation) codon</strong> (and codes for methionine), while <strong>UAA, UAG and UGA</strong> are the three <strong>stop (termination) codons</strong>.</p><p>The codons are decoded during <strong>translation</strong>, which occurs on the <strong>ribosome</strong>. The key molecule is <strong>tRNA</strong> (transfer RNA), the <strong>'adaptor molecule'</strong>: it has an <strong>anticodon</strong> that base-pairs with the mRNA codon and carries the matching amino acid. Translation proceeds in three steps &mdash; <strong>initiation</strong> (ribosome assembles at AUG), <strong>elongation</strong> (amino acids are added one by one, joined by peptide bonds) and <strong>termination</strong> (at a stop codon, releasing the polypeptide). For NEET, fix the central dogma, the template strand and transcription unit, splitting/splicing in eukaryotes, the features of the genetic code (with start/stop codons) and the adaptor role of tRNA.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Item</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Central dogma</td><td style='border:1px solid #dcfce7;padding:6px 8px'>DNA → RNA → protein (Crick)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Transcription unit</td><td style='border:1px solid #dcfce7;padding:6px 8px'>promoter + structural gene + terminator</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Splicing</td><td style='border:1px solid #dcfce7;padding:6px 8px'>introns removed, exons joined (eukaryotes)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Genetic code</td><td style='border:1px solid #dcfce7;padding:6px 8px'>triplet, 64 codons, degenerate, universal</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Start / stop</td><td style='border:1px solid #dcfce7;padding:6px 8px'>AUG / UAA, UAG, UGA; tRNA = adaptor</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>What is meant by saying the genetic code is 'degenerate', and name the start and stop codons.</p>",
+              "solution": "<p><strong>Degenerate</strong> means <strong>most amino acids are coded by more than one codon</strong> (e.g. several codons for leucine). The <strong>start codon is AUG</strong> (codes for methionine); the <strong>stop codons are UAA, UAG and UGA</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is tRNA called the adaptor molecule?</p>",
+              "solution": "<p>tRNA links the language of nucleic acids to that of proteins: one end has an <strong>anticodon that base-pairs with the mRNA codon</strong>, and the other end carries the <strong>specific amino acid</strong> for that codon. So it 'adapts' the codon to the correct amino acid during translation.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The central dogma is:</p>", "options": ["protein → RNA → DNA", "DNA → RNA → protein", "RNA → DNA → protein", "DNA → protein → RNA"], "correct": 1, "explanation": "DNA → RNA → protein (Crick)." },
+            { "q": "<p>The start codon is:</p>", "options": ["UAA", "UGA", "AUG", "UAG"], "correct": 2, "explanation": "AUG is the start codon (methionine)." },
+            { "q": "<p>The number of codons in the genetic code is:</p>", "options": ["20", "61", "64", "4"], "correct": 2, "explanation": "There are 64 codons (4³)." },
+            { "q": "<p>Removal of introns and joining of exons is:</p>", "options": ["capping", "tailing", "splicing", "translation"], "correct": 2, "explanation": "Splicing removes introns and joins exons." },
+            { "q": "<p>The adaptor molecule in translation is:</p>", "options": ["mRNA", "tRNA", "rRNA", "hnRNA"], "correct": 1, "explanation": "tRNA carries an anticodon and an amino acid." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Central dogma: DNA→RNA→protein. Transcription: RNA polymerase on template strand (3'→5'); unit = promoter + gene + terminator; eukaryotic hnRNA spliced (introns out, exons joined) + cap + tail. Genetic code: triplet, 64 codons, degenerate, unambiguous, universal; AUG start, UAA/UAG/UGA stop. tRNA = adaptor (anticodon + amino acid).</p>"
+        },
+        {
+          "number": 4,
+          "title": "Regulation of Gene Expression and the Human Genome Project",
+          "concept": "<p>Cells do not make every protein all the time &mdash; <strong>gene expression is regulated</strong> so that genes are switched on only when their products are needed. The classic model is the <strong>lac operon</strong> of <em>E. coli</em>, described by <strong>Jacob and Monod</strong>. An <strong>operon</strong> is a unit of bacterial genes controlled together. The lac operon has a <strong>regulatory gene (i)</strong> that makes a <strong>repressor</strong>, a <strong>promoter (p)</strong>, an <strong>operator (o)</strong>, and three structural genes &mdash; <strong>z</strong> (β-galactosidase), <strong>y</strong> (permease) and <strong>a</strong> (transacetylase) &mdash; whose enzymes metabolise lactose.</p><p>When <strong>lactose is absent</strong>, the repressor binds the operator and <strong>blocks transcription</strong> &mdash; the genes are off. When <strong>lactose is present</strong>, it acts as an <strong>inducer</strong>: it binds the repressor, inactivating it, so the repressor leaves the operator and RNA polymerase can transcribe the genes, making the lactose-digesting enzymes. Because lactose switches the operon on by removing the repressor's block, this is an example of <strong>negative regulation by induction</strong>.</p><p>On a much larger scale, the entire genetic make-up of humans was decoded by the <strong>Human Genome Project (HGP)</strong>, a global effort that ran from <strong>1990 to 2003</strong>. It sequenced the roughly <strong>3 billion (3 &times; 10⁹) base pairs</strong> of the human genome and found that humans have only about <strong>20,000&ndash;25,000 genes</strong> &mdash; far fewer than expected. Among its findings: less than 2% of the genome codes for proteins, and there are huge stretches of repetitive sequences.</p><p>One powerful application of knowing the variable parts of the genome is <strong>DNA fingerprinting</strong>, developed by <strong>Alec Jeffreys</strong>. It compares highly variable repetitive sequences called <strong>VNTRs (variable number of tandem repeats)</strong>, which differ from person to person; since these patterns are unique to each individual (except identical twins), DNA fingerprinting is used in <strong>forensic identification, paternity testing and pedigree analysis</strong>. For NEET, fix the lac operon parts and its induction by lactose (negative regulation), the HGP key facts (1990&ndash;2003, ~3 billion bp, ~20,000&ndash;25,000 genes) and DNA fingerprinting using VNTRs.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Item</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>lac operon (Jacob &amp; Monod)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>i (repressor), p, o, genes z, y, a</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Inducer</td><td style='border:1px solid #dcfce7;padding:6px 8px'>lactose → inactivates repressor → genes ON</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>β-galactosidase</td><td style='border:1px solid #dcfce7;padding:6px 8px'>product of the z gene</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>HGP</td><td style='border:1px solid #dcfce7;padding:6px 8px'>1990–2003; ~3 billion bp; ~20,000–25,000 genes</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>DNA fingerprinting</td><td style='border:1px solid #dcfce7;padding:6px 8px'>VNTRs (Alec Jeffreys); forensics, paternity</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>What happens to the lac operon when lactose is added to the medium?</p>",
+              "solution": "<p>Lactose acts as an <strong>inducer</strong>: it binds the <strong>repressor</strong> and inactivates it, so the repressor leaves the <strong>operator</strong>. RNA polymerase can now transcribe the structural genes (z, y, a), producing the enzymes (β-galactosidase, etc.) to use lactose. So the operon is <strong>switched ON</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>State two key findings of the Human Genome Project and one use of DNA fingerprinting.</p>",
+              "solution": "<p>HGP findings (any two): the human genome has about <strong>3 billion base pairs</strong>; it contains only about <strong>20,000&ndash;25,000 genes</strong>; less than 2% codes for proteins. <strong>DNA fingerprinting</strong> (using VNTRs) is used in <strong>forensic identification / paternity testing</strong>.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The lac operon was explained by:</p>", "options": ["Watson and Crick", "Jacob and Monod", "Meselson and Stahl", "Hershey and Chase"], "correct": 1, "explanation": "Jacob and Monod proposed the lac operon model." },
+            { "q": "<p>In the lac operon, the inducer is:</p>", "options": ["glucose", "lactose", "galactose", "the repressor"], "correct": 1, "explanation": "Lactose induces the operon by inactivating the repressor." },
+            { "q": "<p>The z gene of the lac operon codes for:</p>", "options": ["permease", "transacetylase", "β-galactosidase", "repressor"], "correct": 2, "explanation": "The z gene encodes β-galactosidase." },
+            { "q": "<p>The human genome contains approximately how many base pairs?</p>", "options": ["3 million", "30 million", "3 billion", "30 billion"], "correct": 2, "explanation": "About 3 × 10⁹ (3 billion) base pairs." },
+            { "q": "<p>DNA fingerprinting is based on differences in:</p>", "options": ["exons", "VNTRs (repetitive sequences)", "codons", "promoters"], "correct": 1, "explanation": "It compares VNTRs that vary between individuals." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> lac operon (Jacob &amp; Monod): i→repressor, p, o, genes z (β-galactosidase), y (permease), a. Lactose = inducer → inactivates repressor → operon ON (negative regulation). HGP: 1990–2003, ~3 billion bp, ~20,000–25,000 genes. DNA fingerprinting = VNTRs (Alec Jeffreys) for forensics/paternity.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-biology-ch24-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>Guanine pairs with cytosine by:</p>", "options": ["one H-bond", "two H-bonds", "three H-bonds", "four H-bonds"], "correct": 2, "explanation": "G≡C is held by three hydrogen bonds." },
+            { "q": "<p>The pitch (one full turn) of the DNA helix is:</p>", "options": ["0.34 nm", "3.4 nm", "20 nm", "34 nm"], "correct": 1, "explanation": "Pitch = 3.4 nm with 10 bp per turn." },
+            { "q": "<p>The transforming principle of Griffith was shown to be DNA by:</p>", "options": ["Hershey and Chase", "Avery, MacLeod and McCarty", "Meselson and Stahl", "Watson and Crick"], "correct": 1, "explanation": "Avery, MacLeod and McCarty identified DNA as the transforming principle." },
+            { "q": "<p>DNA replication is best described as:</p>", "options": ["conservative", "dispersive", "semiconservative", "bidirectional only"], "correct": 2, "explanation": "Each daughter DNA has one old and one new strand." },
+            { "q": "<p>The stop codons are:</p>", "options": ["AUG, GUG, UUG", "UAA, UAG, UGA", "UUU, CCC, GGG", "AAA, TTT, GGG"], "correct": 1, "explanation": "UAA, UAG and UGA are stop codons." },
+            { "q": "<p>Splicing removes:</p>", "options": ["exons", "introns", "codons", "promoters"], "correct": 1, "explanation": "Introns are removed; exons are joined." },
+            { "q": "<p>In the lac operon, the repressor is coded by the:</p>", "options": ["z gene", "y gene", "i gene", "a gene"], "correct": 2, "explanation": "The regulatory i gene codes for the repressor." },
+            { "q": "<p>The Human Genome Project was completed in:</p>", "options": ["1990", "1995", "2003", "2010"], "correct": 2, "explanation": "HGP ran 1990–2003." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> The G≡C base pair is stronger than the A=T base pair.<br><strong>R:</strong> G pairs with C through three hydrogen bonds while A pairs with T through two.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "More hydrogen bonds make G≡C stronger — R explains A." },
+            { "q": "<p><strong>A:</strong> The lagging strand is synthesised discontinuously as Okazaki fragments.<br><strong>R:</strong> DNA polymerase can add nucleotides only in the 5'→3' direction.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The 5'→3' restriction forces discontinuous lagging-strand synthesis — R explains A." },
+            { "q": "<p><strong>A:</strong> In the lac operon, the genes are switched on when lactose is absent.<br><strong>R:</strong> Lactose acts as an inducer that inactivates the repressor.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "A is false — the genes are switched on when lactose is PRESENT; R is true (lactose is the inducer)." },
+            { "q": "<p><strong>A:</strong> DNA is generally preferred over RNA as the genetic material.<br><strong>R:</strong> Being double-stranded, DNA is chemically more stable than single-stranded RNA.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Greater stability of double-stranded DNA is why it is preferred — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

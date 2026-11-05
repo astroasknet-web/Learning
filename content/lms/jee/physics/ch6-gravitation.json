@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "physics",
+  "chapter": 6,
+  "title": "Gravitation",
+  "slug": "gravitation",
+  "subtitle": "Gravitation for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#8b5cf6",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "Master Gravitation for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Newton's Law of Gravitation and Gravitational Field",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Newton's Law, Gravitational Force and Acceleration due to Gravity",
+          "concept": "<p><strong>Newton's Law of Gravitation:</strong> Every particle attracts every other particle with a force: $$F = \\frac{Gm_1m_2}{r^2}$$ where $G = 6.674 \\times 10^{-11}$ N·m²/kg² is the <strong>universal gravitational constant</strong>. The force is always attractive, acts along the line joining the centres, and obeys the inverse-square law.</p><p><strong>Acceleration due to gravity</strong> at Earth's surface: $g = \\dfrac{GM_e}{R_e^2} \\approx 9.8$ m/s². Mass of Earth: $M_e = gR_e^2/G$.</p><p><strong>Variation of $g$:</strong></p><table class=\"md-table\"><thead><tr><th>Location</th><th>Formula</th><th>Effect</th></tr></thead><tbody><tr><td>Height $h$ above surface</td><td>$g_h = g\\left(\\dfrac{R}{R+h}\\right)^2 \\approx g\\left(1 - \\dfrac{2h}{R}\\right)$ for $h \\ll R$</td><td>Decreases</td></tr><tr><td>Depth $d$ below surface</td><td>$g_d = g\\left(1 - \\dfrac{d}{R}\\right)$</td><td>Decreases (zero at centre)</td></tr><tr><td>Latitude $\\lambda$</td><td>$g_\\lambda = g - R\\omega^2\\cos^2\\lambda$</td><td>Max at poles, min at equator</td></tr><tr><td>Rotation effect</td><td>$\\Delta g = R\\omega^2\\cos^2\\lambda$</td><td>Reduces $g$</td></tr></tbody></table><p><strong>Key Numbers:</strong> $R_e \\approx 6400$ km; $M_e \\approx 6 \\times 10^{24}$ kg; $g_{\\text{pole}} - g_{\\text{equator}} \\approx 0.034$ m/s².</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the height above Earth's surface where $g$ becomes $1/4$ of its surface value. ($R = 6400$ km)</p>",
+              "solution": "<p>$$\\frac{g_h}{g} = \\left(\\frac{R}{R+h}\\right)^2 = \\frac{1}{4}$$ $$\\frac{R}{R+h} = \\frac{1}{2} \\implies R+h = 2R \\implies h = R = 6400 \\text{ km}$$</p><p><strong>Final Answer:</strong> $h = 6400$ km.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>At what depth below Earth's surface does the value of $g$ become $50\\%$ of its surface value?</p>",
+              "solution": "<p>$$g_d = g\\left(1 - \\frac{d}{R}\\right) = \\frac{g}{2}$$ $$1 - \\frac{d}{R} = \\frac{1}{2} \\implies d = \\frac{R}{2} = 3200 \\text{ km}$$</p><p><strong>Final Answer:</strong> $d = 3200$ km.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The force of gravitation between two bodies of mass $1$ kg each separated by $1$ m is:</p>",
+              "options": [
+                "$9.8$ N",
+                "$6.67 \\times 10^{-11}$ N",
+                "$6.67 \\times 10^{11}$ N",
+                "$1$ N"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The value of $g$ at the centre of Earth is:</p>",
+              "options": [
+                "$9.8$ m/s²",
+                "Infinity",
+                "Zero",
+                "$4.9$ m/s²"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The weight of a body at the equator is less than at the poles because:</p>",
+              "options": [
+                "Earth is flattened at poles",
+                "Earth rotates",
+                "Both (a) and (b)",
+                "Mass varies"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>At a height equal to Earth's radius, the value of $g$ is:</p>",
+              "options": [
+                "$g/2$",
+                "$g/4$",
+                "$g/8$",
+                "$2g$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>If Earth's radius decreased by $2\\%$ keeping mass constant, $g$ would:</p>",
+              "options": [
+                "Increase by $2\\%$",
+                "Increase by $4\\%$",
+                "Decrease by $4\\%$",
+                "Remain same"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Gravitational Field and Potential",
+          "concept": "<p><strong>Gravitational Field Intensity</strong> ($\\vec{E}_g$) at a point: force per unit mass placed at that point. $$\\vec{E}_g = \\frac{\\vec{F}}{m} = -\\frac{GM}{r^2}\\hat{r}$$ SI unit: N/kg = m/s². It is a vector quantity directed toward the source mass.</p><p><strong>Gravitational Potential</strong> ($V$): work done per unit mass in bringing a test mass from infinity to that point. $$V = -\\frac{GM}{r}$$ SI unit: J/kg. Always <strong>negative</strong> (reference: $V = 0$ at infinity). Relationship: $\\vec{E}_g = -\\nabla V$, or in 1D: $E_g = -dV/dr$.</p><p><strong>Gravitational Potential Energy (PE):</strong> $U = -\\dfrac{Gm_1m_2}{r}$. Always negative. For two-particle system: $U = mV$.</p><p><strong>Field/Potential of Common Bodies:</strong></p><table class=\"md-table\"><thead><tr><th>Body</th><th>Field $E$ (outside)</th><th>Potential $V$ (outside)</th><th>At centre</th></tr></thead><tbody><tr><td>Point mass / spherical shell</td><td>$GM/r^2$</td><td>$-GM/r$</td><td>Shell: $E=0, V=-GM/R$</td></tr><tr><td>Solid sphere (inside, distance $r$)</td><td>$GMr/R^3$</td><td>$-\\dfrac{GM}{2R^3}(3R^2-r^2)$</td><td>$V = -3GM/(2R)$</td></tr><tr><td>Ring (axis, distance $x$)</td><td>$\\dfrac{GMx}{(R^2+x^2)^{3/2}}$</td><td>$-\\dfrac{GM}{\\sqrt{R^2+x^2}}$</td><td>$E = 0, V = -GM/R$</td></tr></tbody></table><p><strong>Self-energy of uniform solid sphere:</strong> $U_{\\text{self}} = -\\dfrac{3GM^2}{5R}$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the gravitational potential at the centre of a uniform thin spherical shell of mass $M$ and radius $R$.</p>",
+              "solution": "<p>Inside a thin spherical shell, the field is zero everywhere. The potential is constant equal to its value at the surface: $$V_{\\text{centre}} = V_{\\text{surface}} = -\\frac{GM}{R}$$</p><p><strong>Final Answer:</strong> $V = -GM/R$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Two particles of mass $m$ each are placed at $(0,0)$ and $(a,0)$. Find the work done in bringing a third particle of mass $m$ from infinity to the midpoint of the line joining them.</p>",
+              "solution": "<p>Distance from each particle to midpoint = $a/2$. Potential at midpoint due to both: $$V = -\\frac{Gm}{a/2} - \\frac{Gm}{a/2} = -\\frac{4Gm}{a}$$ Work done = $mV - 0 = -\\dfrac{4Gm^2}{a}$ (negative, as gravity attracts).</p><p><strong>Final Answer:</strong> $W = -4Gm^2/a$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Gravitational potential at infinity is:</p>",
+              "options": [
+                "Infinity",
+                "Zero",
+                "$-GM/R$",
+                "Variable"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The gravitational field inside a uniform spherical shell is:</p>",
+              "options": [
+                "$GM/R^2$",
+                "$GM/r^2$",
+                "Zero",
+                "$GM/(2R)$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The gravitational potential at the centre of a uniform solid sphere of mass $M$, radius $R$:</p>",
+              "options": [
+                "$-GM/R$",
+                "$-3GM/(2R)$",
+                "Zero",
+                "$-GM/(2R)$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The work done in bringing a body of mass $m$ from infinity to a point at distance $r$ from a mass $M$:</p>",
+              "options": [
+                "$GMm/r$",
+                "$-GMm/r$",
+                "$GMm/r^2$",
+                "Zero"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two masses $M$ each are separated by $r$. Field intensity at the midpoint:</p>",
+              "options": [
+                "$4GM/r^2$",
+                "$2GM/r^2$",
+                "Zero",
+                "$GM/r^2$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Planetary Motion and Satellites",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Kepler's Laws and Orbital Motion",
+          "concept": "<p><strong>Kepler's Laws:</strong></p><ol><li><strong>Law of Orbits:</strong> Each planet moves in an elliptical orbit with the Sun at one focus.</li><li><strong>Law of Areas:</strong> The line joining the planet to the Sun sweeps equal areas in equal times. This implies $L = m r^2 \\dot\\theta = \\text{constant}$ (conservation of angular momentum).</li><li><strong>Law of Periods:</strong> $T^2 \\propto a^3$, where $a$ is the semi-major axis. Specifically:</li></ol><p>$$T^2 = \\frac{4\\pi^2}{GM}a^3$$</p><p><strong>Orbital Velocity</strong> for circular orbit at height $h$: $$v_o = \\sqrt{\\frac{GM}{R+h}} = \\sqrt{\\frac{gR^2}{R+h}}$$ Near surface ($h \\approx 0$): $v_o \\approx \\sqrt{gR} \\approx 7.92$ km/s.</p><p><strong>Orbital Period:</strong> $$T = 2\\pi\\sqrt{\\frac{(R+h)^3}{GM}}$$</p><p><strong>Areal velocity:</strong> $\\dfrac{dA}{dt} = \\dfrac{L}{2m} = \\text{const}$.</p><p>For elliptical orbit with semi-major axis $a$, semi-minor axis $b$, eccentricity $e$:</p><ul><li>$r_{\\min} = a(1-e)$ (perihelion), $r_{\\max} = a(1+e)$ (aphelion)</li><li>$v_{\\max}$ at perihelion, $v_{\\min}$ at aphelion; $v_p r_p = v_a r_a$</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A satellite is orbiting Earth at a height equal to Earth's radius. Find its orbital velocity. ($g = 9.8$ m/s², $R = 6400$ km)</p>",
+              "solution": "<p>$$v_o = \\sqrt{\\frac{gR^2}{R+h}} = \\sqrt{\\frac{gR^2}{2R}} = \\sqrt{\\frac{gR}{2}}$$ $$= \\sqrt{\\frac{9.8 \\times 6.4 \\times 10^6}{2}} = \\sqrt{3.136 \\times 10^7} \\approx 5.6 \\times 10^3 \\text{ m/s} = 5.6 \\text{ km/s}$$</p><p><strong>Final Answer:</strong> $v_o \\approx 5.6$ km/s.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>The mean distance of Mars from the Sun is $1.524$ times that of Earth. Find its orbital period in years.</p>",
+              "solution": "<p>By Kepler's third law: $T^2 \\propto a^3$. $$\\frac{T_M}{T_E} = \\left(\\frac{a_M}{a_E}\\right)^{3/2} = (1.524)^{3/2}$$ $$= 1.524 \\times \\sqrt{1.524} = 1.524 \\times 1.234 \\approx 1.881$$ $T_M = 1.881 \\times 1 \\text{ year} \\approx 1.88$ years.</p><p><strong>Final Answer:</strong> $T_M \\approx 1.88$ years.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>According to Kepler's second law, the areal velocity of a planet:</p>",
+              "options": [
+                "Increases continuously",
+                "Decreases continuously",
+                "Remains constant",
+                "Varies sinusoidally"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>If the distance of a planet from the Sun is doubled, its period of revolution becomes:</p>",
+              "options": [
+                "$2$ times",
+                "$4$ times",
+                "$2\\sqrt{2}$ times",
+                "$8$ times"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Orbital velocity of a satellite is independent of:</p>",
+              "options": [
+                "Mass of Earth",
+                "Mass of satellite",
+                "Radius of orbit",
+                "Universal gravitational constant"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A planet's velocity at perihelion is $v_p$ and at aphelion is $v_a$. Then:</p>",
+              "options": [
+                "$v_p > v_a$",
+                "$v_p < v_a$",
+                "$v_p = v_a$",
+                "Cannot say"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The ratio of orbital velocities of two satellites at heights $R$ and $3R$ above Earth's surface ($R$ = Earth's radius):</p>",
+              "options": [
+                "$\\sqrt{2}:1$",
+                "$\\sqrt{2}:\\sqrt{3}$",
+                "$2:1$",
+                "$\\sqrt{3}:\\sqrt{2}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Escape Velocity, Satellite Energy and Geostationary Satellites",
+          "concept": "<p><strong>Escape Velocity:</strong> Minimum velocity needed to escape from a body's gravitational field to infinity. $$v_e = \\sqrt{\\frac{2GM}{R}} = \\sqrt{2gR}$$ For Earth: $v_e \\approx 11.2$ km/s. <strong>Relation:</strong> $v_e = \\sqrt{2}\\, v_o$ (escape velocity is $\\sqrt{2}$ times orbital velocity at surface).</p><p><strong>Satellite Energies</strong> (orbit radius $r = R+h$):</p><table class=\"md-table\"><thead><tr><th>Quantity</th><th>Formula</th></tr></thead><tbody><tr><td>Kinetic energy</td><td>$K = \\dfrac{1}{2}mv_o^2 = \\dfrac{GMm}{2r}$</td></tr><tr><td>Potential energy</td><td>$U = -\\dfrac{GMm}{r}$</td></tr><tr><td>Total energy</td><td>$E = K + U = -\\dfrac{GMm}{2r}$</td></tr><tr><td>Binding energy</td><td>$\\|E\\| = \\dfrac{GMm}{2r}$</td></tr></tbody></table><p>Total energy is <strong>negative</strong>, meaning the satellite is bound. To free it: supply binding energy.</p><p><strong>Geostationary Satellite:</strong> Appears stationary above a point on Earth (used for communication). Properties:</p><ul><li>Orbits in equatorial plane</li><li>Period $T = 24$ h (same as Earth's rotation)</li><li>Height $h \\approx 36000$ km above surface</li><li>Orbital radius $\\approx 42000$ km</li><li>Orbital velocity $\\approx 3.1$ km/s</li></ul><p><strong>Polar Satellite:</strong> Orbits in a plane passing over the poles; low altitude (~ 500-800 km); used for mapping, weather observation.</p><p><strong>Weightlessness in satellite:</strong> Astronaut and satellite both have the same gravitational acceleration → apparent weight = 0.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Calculate the escape velocity from the surface of the Moon. Mass = $7.4 \\times 10^{22}$ kg, radius = $1.74 \\times 10^6$ m.</p>",
+              "solution": "<p>$$v_e = \\sqrt{\\frac{2GM}{R}} = \\sqrt{\\frac{2 \\times 6.67 \\times 10^{-11} \\times 7.4 \\times 10^{22}}{1.74 \\times 10^6}}$$ $$= \\sqrt{\\frac{9.87 \\times 10^{12}}{1.74 \\times 10^6}} = \\sqrt{5.67 \\times 10^6} \\approx 2.38 \\times 10^3 \\text{ m/s} = 2.38 \\text{ km/s}$$</p><p><strong>Final Answer:</strong> $v_e \\approx 2.38$ km/s.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A satellite of mass $200$ kg is in a circular orbit at height $400$ km above Earth's surface. Find the energy needed to take it to infinity. ($g = 9.8$, $R = 6400$ km)</p>",
+              "solution": "<p>$$E_{\\text{required}} = \\text{Binding energy} = \\frac{GMm}{2(R+h)} = \\frac{gR^2 m}{2(R+h)}$$ $$= \\frac{9.8 \\times (6.4 \\times 10^6)^2 \\times 200}{2 \\times 6.8 \\times 10^6} = \\frac{9.8 \\times 4.096 \\times 10^{13} \\times 200}{1.36 \\times 10^7}$$ $$= \\frac{8.028 \\times 10^{16}}{1.36 \\times 10^7} \\approx 5.9 \\times 10^9 \\text{ J}$$</p><p><strong>Final Answer:</strong> $E \\approx 5.9 \\times 10^9$ J.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Escape velocity from Earth's surface is approximately:</p>",
+              "options": [
+                "$7.9$ km/s",
+                "$11.2$ km/s",
+                "$9.8$ km/s",
+                "$42$ km/s"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Ratio of escape velocity to orbital velocity at Earth's surface:</p>",
+              "options": [
+                "$1$",
+                "$\\sqrt{2}$",
+                "$2$",
+                "$1/\\sqrt{2}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The total energy of a satellite in orbit is:</p>",
+              "options": [
+                "Always positive",
+                "Zero",
+                "Negative",
+                "Variable"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Period of a geostationary satellite is:</p>",
+              "options": [
+                "$1$ hour",
+                "$12$ hours",
+                "$24$ hours",
+                "$48$ hours"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>If a satellite's orbital radius is doubled, its total energy:</p>",
+              "options": [
+                "Doubles",
+                "Halves",
+                "Becomes one-fourth (in magnitude)",
+                "Remains same"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-phys-gravitation-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>The acceleration due to gravity at a depth $d$ from Earth's surface is half the surface value. The value of $d$:</p>",
+              "options": [
+                "$R/4$",
+                "$R/2$",
+                "$R/3$",
+                "$3R/4$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The orbital velocity of an artificial satellite very close to Earth's surface is:</p>",
+              "options": [
+                "$\\sqrt{gR}$",
+                "$\\sqrt{2gR}$",
+                "$gR$",
+                "$g/R$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A particle of mass $m$ is taken from Earth's surface to a height equal to $R$. The work done:</p>",
+              "options": [
+                "$mgR$",
+                "$mgR/2$",
+                "$2mgR$",
+                "$mgR/4$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The escape velocity of a body from a planet depends on:</p>",
+              "options": [
+                "Mass of body",
+                "Mass and radius of planet",
+                "Direction of projection",
+                "Height of body above planet"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two planets have radii $r_1, r_2$ and densities $\\rho_1, \\rho_2$. The ratio of $g$ on their surfaces:</p>",
+              "options": [
+                "$r_1\\rho_1 : r_2\\rho_2$",
+                "$r_1^2\\rho_1 : r_2^2\\rho_2$",
+                "$\\rho_1 : \\rho_2$",
+                "$r_1 : r_2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The gravitational PE of a body at Earth's surface is $-mgR$. Its PE at height $h = R$ above surface:</p>",
+              "options": [
+                "$-mgR/2$",
+                "$-mgR$",
+                "$mgR/2$",
+                "$-2mgR$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A satellite of mass $m$ revolves around Earth at altitude $h$. Its angular momentum:</p>",
+              "options": [
+                "$m\\sqrt{GM_e(R+h)}$",
+                "$m\\sqrt{GM_e/(R+h)}$",
+                "$mGM_e/(R+h)$",
+                "$m(R+h)\\sqrt{GM_e}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>If $g$ on Earth is $9.8$ m/s² and Earth's radius is $6400$ km, then escape velocity:</p>",
+              "options": [
+                "$11.2$ km/s",
+                "$11200$ km/s",
+                "$9.8 \\times 6400$ km/s",
+                "Cannot be calculated"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The time period of a satellite in a circular orbit of radius $r$ around a planet of mass $M$:</p>",
+              "options": [
+                "$T \\propto r$",
+                "$T \\propto r^2$",
+                "$T \\propto r^{3/2}$",
+                "$T \\propto r^{1/2}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A satellite is moving in a circular orbit with kinetic energy $K$. Its potential energy is:</p>",
+              "options": [
+                "$-K$",
+                "$-2K$",
+                "$K$",
+                "$2K$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>The ratio of acceleration due to gravity at depth $h$ to height $h$ above Earth's surface (both small, $h \\ll R$) is $\\dfrac{x-h/R}{1-2h/R}$ where the value of $x$ is:</p>",
+              "answer": "1",
+              "explanation": ""
+            },
+            {
+              "q": "<p>A satellite is at height $3R$ above Earth's surface ($R$ = radius). The orbital velocity is $v_0/\\sqrt{n}$ where $v_0$ is the orbital velocity near Earth's surface. The value of $n$ is:</p>",
+              "answer": "4",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Escape velocity from a planet of radius $R$ is $v$. From a planet of same density but radius $2R$, escape velocity in terms of $v$ (as integer multiple) is:</p>",
+              "answer": "2",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> A satellite in orbit experiences no gravitational force. <strong>Reason (R):</strong> In orbit, gravity is balanced by centrifugal force in the satellite's frame.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> The total energy of a satellite in circular orbit is negative. <strong>Reason (R):</strong> The kinetic energy is half the magnitude of the potential energy.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

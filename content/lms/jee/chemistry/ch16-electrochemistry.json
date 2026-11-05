@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": 16,
+  "title": "Electrochemistry",
+  "slug": "electrochemistry",
+  "subtitle": "Electrochemistry for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#dc2626",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "Master Electrochemistry for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Conductance and Galvanic Cells",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Electrolytic Conductance, Kohlrausch's Law",
+          "concept": "<p><strong>Electrochemistry:</strong> Study of chemical changes producing/accompanying electrical energy and vice versa.</p><p><strong>Electrolytes:</strong> Conduct electricity in molten/aqueous state due to ions. Two types:</p><ul><li><strong>Strong:</strong> Completely dissociate (NaCl, HCl, NaOH, $H_2SO_4$)</li><li><strong>Weak:</strong> Partially dissociate ($CH_3COOH, NH_4OH$)</li></ul><p><strong>Non-electrolytes:</strong> Do not conduct (e.g., glucose, urea).</p><p><strong>Conductance:</strong> Reciprocal of resistance, $G = 1/R$. Unit: siemens (S) or $\\Omega^{-1}$.</p><p><strong>Specific Conductance (Conductivity, $\\kappa$ \"kappa\"):</strong> $$\\kappa = \\frac{1}{\\rho} = \\frac{l}{RA}$$</p><ul><li>$\\kappa$ unit: S/m or S·cm⁻¹</li><li>Conductance of 1 cm cube of solution</li></ul><p><strong>Cell Constant ($l/A$):</strong> Geometric factor of conductivity cell; constant for a given cell.</p><p><strong>Molar Conductivity ($\\Lambda_m$):</strong> Conductance of all ions from 1 mole of electrolyte: $$\\Lambda_m = \\frac{\\kappa \\times 1000}{c}$$ where $c$ = concentration in mol/L. Unit: S·cm²/mol.</p><p><strong>Equivalent Conductivity ($\\Lambda_{eq}$):</strong> Conductance for 1 equivalent. $\\Lambda_{eq} = \\kappa \\times 1000/N$.</p><p><strong>Variation with concentration:</strong></p><ul><li>$\\kappa$ decreases with dilution (fewer ions per cm³)</li><li>$\\Lambda_m$ increases with dilution (more dissociation in weak electrolytes; more freedom of ion movement in strong)</li></ul><p><strong>Strong vs Weak Electrolyte Behavior:</strong></p><p>For <strong>strong electrolytes</strong>, Debye-Hückel-Onsager: $\\Lambda_m = \\Lambda_m^\\ominus - A\\sqrt{c}$ (linear with $\\sqrt c$).</p><ul><li>Extrapolation to $c = 0$ gives $\\Lambda_m^\\ominus$ (limiting molar conductivity, at infinite dilution).</li></ul><p>For <strong>weak electrolytes</strong>: $\\Lambda_m$ increases sharply at low $c$ (more dissociation). Cannot find $\\Lambda_m^\\ominus$ by extrapolation; use Kohlrausch's law.</p><p><strong>Kohlrausch's Law of Independent Ion Migration:</strong> At infinite dilution, each ion contributes independently to $\\Lambda_m^\\ominus$: $$\\Lambda_m^\\ominus = \\nu_+ \\lambda_+^\\ominus + \\nu_- \\lambda_-^\\ominus$$</p><p>where $\\nu$ = number of cations/anions, $\\lambda^\\ominus$ = limiting ionic conductivity.</p><p><strong>Application:</strong> Find $\\Lambda_m^\\ominus$ for weak electrolytes: $\\Lambda_m^\\ominus(CH_3COOH) = \\Lambda_m^\\ominus(CH_3COONa) + \\Lambda_m^\\ominus(HCl) - \\Lambda_m^\\ominus(NaCl)$.</p><p><strong>Degree of Dissociation ($\\alpha$) of Weak Electrolyte:</strong> $$\\alpha = \\frac{\\Lambda_m}{\\Lambda_m^\\ominus}$$</p><p>For acid HA: $K_a = c\\alpha^2/(1-\\alpha)$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Resistance of $0.01$ M KCl in a cell is $1500\\,\\Omega$. Conductivity at this conc = $1.413 \\times 10^{-3}$ S/cm. Find cell constant.</p>",
+              "solution": "<p>$\\kappa = G/(l/A) = 1/(R \\cdot l/A) \\implies l/A = \\kappa \\cdot R$ $l/A = 1.413 \\times 10^{-3} \\times 1500 = 2.12$ cm⁻¹.</p><p><strong>Final Answer:</strong> Cell constant = $2.12$ cm⁻¹.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>$\\Lambda_m^\\ominus(NH_4Cl) = 130$, $\\Lambda_m^\\ominus(NaOH) = 248$, $\\Lambda_m^\\ominus(NaCl) = 126$. Find $\\Lambda_m^\\ominus(NH_4OH)$.</p>",
+              "solution": "<p>By Kohlrausch: $\\Lambda_m^\\ominus(NH_4OH) = \\Lambda_m^\\ominus(NH_4Cl) + \\Lambda_m^\\ominus(NaOH) - \\Lambda_m^\\ominus(NaCl)$ $= 130 + 248 - 126 = 252$ S·cm²/mol.</p><p><strong>Final Answer:</strong> $\\Lambda_m^\\ominus(NH_4OH) = 252$ S·cm²/mol.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Specific conductivity $\\kappa$ with dilution:</p>",
+              "options": [
+                "Increases",
+                "Decreases",
+                "Constant",
+                "Reverses"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Molar conductivity with dilution (strong electrolyte):</p>",
+              "options": [
+                "Decreases",
+                "Increases gradually",
+                "Constant",
+                "Random"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Kohlrausch's law applies at:</p>",
+              "options": [
+                "High concentration",
+                "Infinite dilution",
+                "Saturated solution",
+                "Room T only"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Unit of molar conductivity:</p>",
+              "options": [
+                "S/m",
+                "S·cm²/mol",
+                "$\\Omega$/m",
+                "mol/L"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Degree of dissociation $\\alpha$ from conductivity:</p>",
+              "options": [
+                "$\\Lambda_m^\\ominus/\\Lambda_m$",
+                "$\\Lambda_m/\\Lambda_m^\\ominus$",
+                "$1 - \\Lambda_m$",
+                "$\\kappa \\Lambda_m^\\ominus$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Electrochemical Cells, EMF, Standard Electrode Potential",
+          "concept": "<p><strong>Electrochemical Cells:</strong> Devices for interconversion of chemical and electrical energy.</p><p><strong>Two Types:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Process</th><th>Energy Conversion</th></tr></thead><tbody><tr><td><strong>Galvanic (Voltaic)</strong></td><td>Spontaneous redox</td><td>Chemical → Electrical</td></tr><tr><td><strong>Electrolytic</strong></td><td>Non-spontaneous (driven by external EMF)</td><td>Electrical → Chemical</td></tr></tbody></table><p><strong>Galvanic Cell Components:</strong></p><ul><li><strong>Anode:</strong> Oxidation (loss of e⁻); negative terminal in galvanic cell</li><li><strong>Cathode:</strong> Reduction (gain of e⁻); positive terminal in galvanic cell</li><li><strong>Salt bridge:</strong> Maintains electrical neutrality; contains KCl or KNO₃ in agar</li><li><strong>External circuit:</strong> Wire connecting electrodes</li></ul><p><strong>Daniell Cell:</strong></p><ul><li>Anode: Zn rod in ZnSO₄ solution; Zn → Zn²⁺ + 2e⁻</li><li>Cathode: Cu rod in CuSO₄ solution; Cu²⁺ + 2e⁻ → Cu</li><li>Overall: $\\text{Zn} + \\text{Cu}^{2+} \\to \\text{Zn}^{2+} + \\text{Cu}$</li><li>$E^\\ominus_{cell} = 1.10$ V</li></ul><p><strong>Cell Notation:</strong> Anode | Anode soln || Cathode soln | Cathode. Daniell: $\\text{Zn(s)} | \\text{Zn}^{2+}(1M) || \\text{Cu}^{2+}(1M) | \\text{Cu(s)}$</p><p><strong>EMF (Electromotive Force):</strong> Potential difference between electrodes when no current flows; max work obtainable. $$E_{cell} = E_{cathode} - E_{anode}$$</p><p>Always: $E_{cathode} > E_{anode}$ for spontaneous cell, so $E_{cell} > 0$.</p><p><strong>Standard Electrode Potential ($E^\\ominus$):</strong> Potential of electrode at $1$ M concentration, $1$ bar, $298$ K, relative to SHE.</p><p><strong>Standard Hydrogen Electrode (SHE):</strong> Reference; $E^\\ominus = 0$ V.</p><ul><li>Half-reaction: $2H^+ + 2e^- \\rightleftharpoons H_2$; $H_2$ gas at $1$ bar, $H^+$ at $1$ M</li></ul><p><strong>Electrochemical Series:</strong> Half-cells arranged by decreasing $E^\\ominus$:</p><table class=\"md-table\"><thead><tr><th>Half-Reaction</th><th>$E^\\ominus$ (V)</th></tr></thead><tbody><tr><td>$F_2 + 2e^- \\to 2F^-$</td><td>$+2.87$</td></tr><tr><td>$MnO_4^- + 8H^+ + 5e^- \\to Mn^{2+}$</td><td>$+1.51$</td></tr><tr><td>$Cl_2 + 2e^- \\to 2Cl^-$</td><td>$+1.36$</td></tr><tr><td>$Cr_2O_7^{2-} + 14H^+ + 6e^- \\to 2Cr^{3+}$</td><td>$+1.33$</td></tr><tr><td>$O_2 + 4H^+ + 4e^- \\to 2H_2O$</td><td>$+1.23$</td></tr><tr><td>$Br_2 + 2e^- \\to 2Br^-$</td><td>$+1.09$</td></tr><tr><td>$Ag^+ + e^- \\to Ag$</td><td>$+0.80$</td></tr><tr><td>$Cu^{2+} + 2e^- \\to Cu$</td><td>$+0.34$</td></tr><tr><td>$2H^+ + 2e^- \\to H_2$</td><td>$0.00$</td></tr><tr><td>$Pb^{2+} + 2e^- \\to Pb$</td><td>$-0.13$</td></tr><tr><td>$Sn^{2+} + 2e^- \\to Sn$</td><td>$-0.14$</td></tr><tr><td>$Fe^{2+} + 2e^- \\to Fe$</td><td>$-0.44$</td></tr><tr><td>$Zn^{2+} + 2e^- \\to Zn$</td><td>$-0.76$</td></tr><tr><td>$Al^{3+} + 3e^- \\to Al$</td><td>$-1.66$</td></tr><tr><td>$Mg^{2+} + 2e^- \\to Mg$</td><td>$-2.37$</td></tr><tr><td>$Na^+ + e^- \\to Na$</td><td>$-2.71$</td></tr><tr><td>$K^+ + e^- \\to K$</td><td>$-2.93$</td></tr><tr><td>$Li^+ + e^- \\to Li$</td><td>$-3.04$</td></tr></tbody></table><p><strong>Higher $E^\\ominus$:</strong> Better oxidizing agent (gets reduced). <strong>Lower $E^\\ominus$ (more negative):</strong> Better reducing agent (gets oxidized; better at giving electrons).</p><p><strong>Free Energy and EMF:</strong> $$\\Delta G^\\ominus = -nFE^\\ominus_{cell}$$</p><ul><li>$n$: moles of electrons transferred</li><li>$F$ = $96500$ C/mol (Faraday constant)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Calculate $E^\\ominus_{cell}$ for Daniell cell from $E^\\ominus(Cu^{2+}/Cu) = +0.34$ V, $E^\\ominus(Zn^{2+}/Zn) = -0.76$ V.</p>",
+              "solution": "<p>Cu²⁺ is reduced (higher $E^\\ominus$, cathode), Zn is oxidized (anode): $E^\\ominus_{cell} = E^\\ominus_{cathode} - E^\\ominus_{anode} = 0.34 - (-0.76) = 1.10$ V.</p><p><strong>Final Answer:</strong> $E^\\ominus_{cell} = 1.10$ V.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find $\\Delta G^\\ominus$ for Daniell cell.</p>",
+              "solution": "<p>$n = 2$ (Zn loses 2 e⁻). $\\Delta G^\\ominus = -nFE^\\ominus = -2 \\times 96500 \\times 1.10 = -212,300$ J/mol $= -212.3$ kJ/mol.</p><p><strong>Final Answer:</strong> $\\Delta G^\\ominus = -212.3$ kJ/mol (spontaneous).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>SHE has $E^\\ominus$:</p>",
+              "options": [
+                "$-1$ V",
+                "$+1$ V",
+                "$0$ V",
+                "Variable"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In Daniell cell, anode is:</p>",
+              "options": [
+                "Cu",
+                "Zn (oxidation)",
+                "Salt bridge",
+                "SHE"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Cell with positive $E^\\ominus_{cell}$:</p>",
+              "options": [
+                "Non-spontaneous",
+                "Spontaneous",
+                "Always electrolytic",
+                "Equilibrium"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Strongest oxidizing agent in electrochemical series:</p>",
+              "options": [
+                "Li⁺",
+                "F₂",
+                "H⁺",
+                "Zn²⁺"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$\\Delta G^\\ominus = -nFE^\\ominus$ relates:</p>",
+              "options": [
+                "Heat and cell EMF",
+                "Free energy and cell EMF",
+                "Entropy and EMF",
+                "Mass and volume"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Nernst Equation and Applications",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Nernst Equation, Cell EMF Calculations",
+          "concept": "<p><strong>Nernst Equation:</strong> Relates cell EMF to concentration (non-standard conditions).</p><p>For: $aA + bB \\to cC + dD$: $$E_{cell} = E^\\ominus_{cell} - \\frac{RT}{nF}\\ln\\frac{[C]^c[D]^d}{[A]^a[B]^b}$$</p><p>At $25°$C ($T = 298$ K), using base-10 log and $R = 8.314$: $$E_{cell} = E^\\ominus_{cell} - \\frac{0.0591}{n}\\log\\frac{[C]^c[D]^d}{[A]^a[B]^b}$$</p><p><strong>Note:</strong> Activities of pure solids and pure liquids = 1.</p><p>For a single electrode (e.g., $M^{n+} + ne^- \\to M$): $$E_{M^{n+}/M} = E^\\ominus_{M^{n+}/M} + \\frac{0.0591}{n}\\log[M^{n+}]$$</p><p>(Positive sign because we use reduction potential and concentration of the oxidized form increases potential.)</p><p><strong>Equilibrium Constant Relation:</strong> At equilibrium, $E_{cell} = 0$: $$E^\\ominus_{cell} = \\frac{0.0591}{n}\\log K_c$$</p><p>So $K_c = 10^{nE^\\ominus/0.0591}$.</p><p><strong>Effects of Concentration:</strong></p><ul><li>$E_{cell}$ varies if concentrations are not 1 M</li><li>Diluting cathode side decreases $E_{cell}$</li><li>Diluting anode side increases $E_{cell}$</li></ul><p><strong>Concentration Cells:</strong> Same electrode in two different concentrations. $E^\\ominus_{cell} = 0$. $$E_{cell} = \\frac{0.0591}{n}\\log\\frac{[M^{n+}]_{conc}}{[M^{n+}]_{dilute}}$$</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Daniell cell with $[Zn^{2+}] = 0.1$ M, $[Cu^{2+}] = 0.5$ M. Find $E_{cell}$.</p>",
+              "solution": "<p>$E^\\ominus = 1.10$ V, $n = 2$. $E_{cell} = 1.10 - (0.0591/2)\\log([Zn^{2+}]/[Cu^{2+}])$ $= 1.10 - 0.0296 \\log(0.1/0.5) = 1.10 - 0.0296 \\log(0.2)$ $= 1.10 - 0.0296 \\times (-0.699) = 1.10 + 0.0207 = 1.121$ V.</p><p><strong>Final Answer:</strong> $E_{cell} = 1.121$ V.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>$E^\\ominus_{cell} = 0.59$ V for $n = 2$. Find $K_c$.</p>",
+              "solution": "<p>$\\log K_c = nE^\\ominus/0.0591 = 2 \\times 0.59/0.0591 = 19.97$. $K_c \\approx 10^{20}$.</p><p><strong>Final Answer:</strong> $K_c \\approx 10^{20}$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Nernst equation at $25°$C:</p>",
+              "options": [
+                "$E = E^\\ominus - (0.0591/n)\\log Q$",
+                "$E = E^\\ominus + nFE$",
+                "$E = (0.0591/n)\\log Q$",
+                "$E = nFE^\\ominus$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>At equilibrium, $E_{cell}$ is:</p>",
+              "options": [
+                "Maximum",
+                "Zero",
+                "Negative",
+                "Equal to $E^\\ominus$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Concentration cell has:</p>",
+              "options": [
+                "$E^\\ominus \\neq 0$",
+                "$E^\\ominus = 0$, EMF only from conc difference",
+                "Same as galvanic",
+                "Always negative EMF"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Increasing $[Cu^{2+}]$ in cathode side of Daniell cell:</p>",
+              "options": [
+                "Decreases $E_{cell}$",
+                "Increases $E_{cell}$",
+                "No effect",
+                "Reverses cell"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Relation $\\log K = nE^\\ominus/0.0591$ uses:</p>",
+              "options": [
+                "Standard EMF",
+                "Free energy",
+                "Both",
+                "Cell constant"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Electrolysis, Faraday's Laws, Corrosion, Batteries",
+          "concept": "<p><strong>Electrolysis:</strong> Non-spontaneous chemical change driven by passage of electric current.</p><p><strong>Electrolytic Cell:</strong></p><ul><li>Anode (positive, connected to + terminal of battery): Oxidation</li><li>Cathode (negative): Reduction</li></ul><p><strong>Products of Electrolysis:</strong></p><p>For solution of NaCl (brine):</p><ul><li>Anode: $2Cl^- \\to Cl_2 + 2e^-$ (not $O_2$ because of overpotential)</li><li>Cathode: $2H_2O + 2e^- \\to H_2 + 2OH^-$ (Na⁺ has lower $E^\\ominus$ than H₂O)</li></ul><p>For molten NaCl:</p><ul><li>Anode: $2Cl^- \\to Cl_2 + 2e^-$</li><li>Cathode: $Na^+ + e^- \\to Na$</li></ul><p>For copper sulfate (with Cu electrodes — refining):</p><ul><li>Anode: $Cu \\to Cu^{2+} + 2e^-$</li><li>Cathode: $Cu^{2+} + 2e^- \\to Cu$</li></ul><p>(Used in electrorefining of copper.)</p><p><strong>Faraday's Laws of Electrolysis:</strong></p><p><strong>1st Law:</strong> Amount of substance liberated at electrode $\\propto$ quantity of charge: $$w = ZIt = ZQ$$ where $Z$ = electrochemical equivalent (g/C), $I$ = current (A), $t$ = time (s), $Q$ = charge.</p><p><strong>2nd Law:</strong> When same charge passes through different electrolytes, masses of substances deposited are in ratio of equivalent weights: $$\\frac{w_1}{w_2} = \\frac{E_1}{E_2}$$</p><p><strong>Faraday constant:</strong> $F = 96500$ C/mol $= eN_A$. Charge of 1 mole of electrons.</p><p>Mass deposited: $w = E \\cdot Q/F = E \\cdot I \\cdot t/F$ $w = (M/n) \\cdot I t/96500$, where $M$ = molar mass, $n$ = valence change.</p><p><strong>Corrosion:</strong> Oxidation of metals in environment.</p><p><strong>Rusting of Iron:</strong> Electrochemical process.</p><ul><li>Anode: $Fe \\to Fe^{2+} + 2e^-$</li><li>Cathode: $O_2 + 4H^+ + 4e^- \\to 2H_2O$ (or $O_2 + 2H_2O + 4e^- \\to 4OH^-$)</li><li>Further: $Fe^{2+}$ oxidized to $Fe^{3+}$; with $H_2O$ → $Fe_2O_3 \\cdot xH_2O$ (rust, hydrated $Fe(III)$ oxide)</li></ul><p><strong>Conditions:</strong> Moisture + air (especially with $CO_2$ or salts dissolved).</p><p><strong>Prevention:</strong></p><ul><li>Painting, galvanising (Zn coating), tin plating, electroplating</li><li><strong>Cathodic protection:</strong> Connect Fe to a more active metal (Zn, Mg) that corrodes preferentially (sacrificial anode)</li><li>Anodising (Al with $Al_2O_3$ layer)</li><li>Alloying (stainless steel: Fe + Cr + Ni)</li></ul><p><strong>Batteries (Commercial Galvanic Cells):</strong></p><p><strong>1. Primary cells (non-rechargeable):</strong></p><table class=\"md-table\"><thead><tr><th>Cell</th><th>Anode</th><th>Cathode</th><th>Electrolyte</th><th>Voltage</th></tr></thead><tbody><tr><td>Dry cell (Leclanché)</td><td>Zn (case)</td><td>C (graphite) rod in $MnO_2$ + C powder</td><td>$NH_4Cl$ + $ZnCl_2$ paste</td><td>$1.5$ V</td></tr><tr><td>Alkaline cell</td><td>Zn powder</td><td>$MnO_2$ + C</td><td>KOH</td><td>$1.5$ V</td></tr><tr><td>Mercury cell</td><td>Zn-Hg amalgam</td><td>HgO</td><td>KOH (paste)</td><td>$1.35$ V</td></tr></tbody></table><p>Reactions (dry cell):</p><ul><li>Anode: $Zn \\to Zn^{2+} + 2e^-$</li><li>Cathode: $2MnO_2 + 2NH_4^+ + 2e^- \\to Mn_2O_3 + 2NH_3 + H_2O$</li></ul><p><strong>2. Secondary cells (rechargeable):</strong></p><table class=\"md-table\"><thead><tr><th>Cell</th><th>Anode</th><th>Cathode</th><th>Electrolyte</th><th>Voltage</th></tr></thead><tbody><tr><td>Lead-acid</td><td>Pb</td><td>$PbO_2$</td><td>$38\\%\\,H_2SO_4$</td><td>$2$ V/cell</td></tr><tr><td>Ni-Cd</td><td>Cd</td><td>$NiO(OH)$</td><td>KOH</td><td>$1.4$ V</td></tr></tbody></table><p>Lead acid cell (car battery):</p><ul><li>Anode: $Pb + SO_4^{2-} \\to PbSO_4 + 2e^-$</li><li>Cathode: $PbO_2 + 4H^+ + SO_4^{2-} + 2e^- \\to PbSO_4 + 2H_2O$</li><li>Reverses on charging</li></ul><p><strong>Fuel Cells:</strong> Convert chemical energy from fuel directly to electricity. $H_2$-$O_2$ fuel cell:</p><ul><li>Anode: $H_2 + 2OH^- \\to 2H_2O + 2e^-$</li><li>Cathode: $O_2 + 2H_2O + 4e^- \\to 4OH^-$</li><li>Used in space programs (Apollo missions); produces drinkable water!</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A current of $5$ A is passed for $30$ min through CuSO₄ solution. Mass of Cu deposited? ($M_{Cu} = 63.5, n = 2$)</p>",
+              "solution": "<p>$Q = It = 5 \\times 30 \\times 60 = 9000$ C. $w = (M/n)(Q/F) = (63.5/2)(9000/96500) = 31.75 \\times 0.0933 = 2.96$ g.</p><p><strong>Final Answer:</strong> $w \\approx 2.96$ g.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Galvanising involves coating iron with which metal? Why is it effective?</p>",
+              "solution": "<p>Iron is coated with <strong>zinc</strong>. Zn is more active (more negative $E^\\ominus$: $-0.76$ V vs Fe $-0.44$ V), so it oxidizes preferentially (sacrificial anode), protecting iron. Even if coating scratched, Zn corrodes first.</p><p><strong>Final Answer:</strong> Zinc; acts as sacrificial anode by being more electropositive.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Faraday's first law: mass deposited proportional to:</p>",
+              "options": [
+                "Concentration",
+                "Charge passed",
+                "Time only",
+                "Voltage"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In electrolysis of brine, gas at cathode:</p>",
+              "options": [
+                "Cl₂",
+                "H₂",
+                "O₂",
+                "None"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Rusting of iron requires:</p>",
+              "options": [
+                "Moisture",
+                "Air",
+                "Both moisture and air",
+                "Only water"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Galvanising is coating iron with:</p>",
+              "options": [
+                "Cu",
+                "Zn",
+                "Sn",
+                "Ag"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Lead-acid battery generates voltage approximately:</p>",
+              "options": [
+                "$1.5$ V",
+                "$2$ V",
+                "$1.35$ V",
+                "$1.2$ V"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-chem-electrochemistry-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>$\\Lambda_m$ for strong electrolyte vs $\\sqrt c$ is:</p>",
+              "options": [
+                "Linear (Debye-Hückel-Onsager)",
+                "Quadratic",
+                "Exponential",
+                "Constant"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Faraday's constant value:</p>",
+              "options": [
+                "$96500$ C/mol",
+                "$9.65 \\times 10^{-5}$",
+                "$6.022 \\times 10^{23}$",
+                "$8.314$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>EMF of Daniell cell at standard conditions:</p>",
+              "options": [
+                "$0.46$ V",
+                "$1.10$ V",
+                "$1.50$ V",
+                "$2.20$ V"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Strongest reducing agent in series:</p>",
+              "options": [
+                "Li",
+                "Na",
+                "Zn",
+                "Cu"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Salt bridge contains:</p>",
+              "options": [
+                "Concentrated acid",
+                "Inert electrolyte (KCl, KNO₃ in agar)",
+                "Heavy metal",
+                "Distilled water"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In a concentration cell:</p>",
+              "options": [
+                "$E^\\ominus = 0$, but EMF from $[ion]$ difference",
+                "$E^\\ominus \\neq 0$",
+                "Identical conc",
+                "No EMF"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Electrolysis of molten NaCl gives:</p>",
+              "options": [
+                "Na at anode, Cl₂ at cathode",
+                "Na at cathode, Cl₂ at anode",
+                "NaOH and H₂",
+                "Cl₂ and H₂"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>To deposit $1$ mole of Ag from $AgNO_3$:</p>",
+              "options": [
+                "$1$ F",
+                "$2$ F",
+                "$96500$ C",
+                "Both a and c"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Cathodic protection involves:</p>",
+              "options": [
+                "Painting",
+                "More active metal as sacrificial anode",
+                "Heating",
+                "Acid wash"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Fuel cell uses:</p>",
+              "options": [
+                "Conventional fuel",
+                "$H_2$ + $O_2$ (mostly) — converts directly to electricity",
+                "Solar power",
+                "Nuclear fuel"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Moles of electrons needed to reduce $1$ mole of $Al^{3+}$:</p>",
+              "answer": "3",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Faraday in coulombs per mole (in units of 1000):</p>",
+              "answer": "96",
+              "explanation": ""
+            },
+            {
+              "q": "<p>$E^\\ominus$ of SHE in volts:</p>",
+              "answer": "0",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Galvanic cell converts chemical energy to electrical energy. <strong>Reason (R):</strong> Spontaneous redox reactions occur in galvanic cells with $E_{cell} > 0$.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> Aluminium is used in cathodic protection of iron pipes. <strong>Reason (R):</strong> Al is more electropositive than Fe; it acts as sacrificial anode.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+    "formats": {
+        "chrono": [
+            "Reverse Chronological",
+            "Most recent role first. The safe default for most jobs and the easiest for applicant-tracking systems to read.",
+            "safe"
+        ],
+        "hybrid": [
+            "Hybrid / Combination",
+            "A skills summary up top, then your history. Good for career changers and mixed backgrounds.",
+            "safe"
+        ],
+        "functional": [
+            "Functional / Skills-Based",
+            "Leads with skills and achievements. Useful for gaps or freelancers, but some recruiters distrust it, so keep a work history.",
+            "caution"
+        ],
+        "academic": [
+            "Academic CV",
+            "Education, publications and appointments first. For research, teaching and PhD applications.",
+            "safe"
+        ],
+        "creative": [
+            "Creative / Portfolio",
+            "Projects and links up front. For design, media and marketing roles. Visual, so it may not suit every ATS.",
+            "caution"
+        ],
+        "executive": [
+            "Executive / Leadership",
+            "Leadership summary and selected achievements before the history. For directors and senior managers.",
+            "safe"
+        ]
+    },
+    "regions": {
+        "us": [
+            "US / Canada Resume",
+            "Letter",
+            "my",
+            [],
+            "chrono",
+            "One page for early careers, two at most. No photo, age or marital status."
+        ],
+        "uk_eu": [
+            "UK / EU CV",
+            "A4",
+            "my",
+            [
+                "nationality"
+            ],
+            "chrono",
+            "Personal profile first, then experience and education. No photo is the norm in the UK."
+        ],
+        "de": [
+            "Germany (Lebenslauf)",
+            "A4",
+            "slash",
+            [
+                "dob",
+                "nationality",
+                "marital"
+            ],
+            "de",
+            "Tabular, with dates on the left. A photo and date of birth are customary but optional."
+        ],
+        "gulf": [
+            "Gulf / Middle East CV",
+            "A4",
+            "my",
+            [
+                "dob",
+                "nationality",
+                "marital",
+                "visa"
+            ],
+            "chrono",
+            "Nationality and visa status are usually stated. A photo is common but optional."
+        ],
+        "in": [
+            "India Resume",
+            "A4",
+            "my",
+            [
+                "dob",
+                "nationality"
+            ],
+            "chrono",
+            "Career objective and personal details are common. Keep to one or two pages."
+        ],
+        "au_nz": [
+            "Australia / NZ CV",
+            "A4",
+            "my",
+            [],
+            "chrono",
+            "Career summary, achievements, and referees. Two or three pages is normal."
+        ],
+        "jp": [
+            "Japan (Rirekisho style)",
+            "A4",
+            "jp",
+            [
+                "dob",
+                "nationality"
+            ],
+            "jp",
+            "A dated table of education and work history, in the spirit of the rirekisho. English labels."
+        ],
+        "us_fed": [
+            "US Federal Resume",
+            "Letter",
+            "my",
+            [],
+            "us_fed",
+            "Long and detailed: hours per week, salary and supervisor for each job, as federal applications require."
+        ]
+    },
+    "styles": {
+        "classic": [
+            "Classic",
+            "safe",
+            "Serif headings, ruled sections. Conservative and widely accepted."
+        ],
+        "modern": [
+            "Modern",
+            "safe",
+            "Clean sans-serif with an accent colour."
+        ],
+        "minimal": [
+            "Minimal",
+            "safe",
+            "Plain and spacious. The safest for ATS."
+        ],
+        "compact": [
+            "Compact",
+            "safe",
+            "Denser type to fit more on one page."
+        ],
+        "sidebar": [
+            "Sidebar",
+            "caution",
+            "Two columns with a side panel. Looks sharp, but some ATS misread columns."
+        ],
+        "bold": [
+            "Bold",
+            "caution",
+            "A strong colour header band. Eye-catching, not for strict ATS."
+        ]
+    },
+    "offer": {
+        "chrono": [
+            "classic",
+            "modern",
+            "minimal",
+            "compact",
+            "sidebar"
+        ],
+        "hybrid": [
+            "classic",
+            "modern",
+            "minimal",
+            "sidebar",
+            "bold"
+        ],
+        "functional": [
+            "classic",
+            "modern",
+            "minimal",
+            "compact"
+        ],
+        "academic": [
+            "classic",
+            "modern",
+            "minimal",
+            "compact"
+        ],
+        "creative": [
+            "modern",
+            "sidebar",
+            "bold",
+            "minimal"
+        ],
+        "executive": [
+            "classic",
+            "modern",
+            "minimal",
+            "bold",
+            "compact"
+        ],
+        "us": [
+            "classic",
+            "modern",
+            "minimal",
+            "compact"
+        ],
+        "uk_eu": [
+            "classic",
+            "modern"
+        ],
+        "de": [
+            "classic",
+            "modern",
+            "minimal"
+        ],
+        "gulf": [
+            "classic",
+            "modern"
+        ],
+        "in": [
+            "classic",
+            "modern",
+            "minimal"
+        ],
+        "au_nz": [
+            "classic",
+            "modern"
+        ],
+        "jp": [
+            "classic"
+        ],
+        "us_fed": [
+            "classic"
+        ]
+    },
+    "free": [
+        "chrono-classic",
+        "hybrid-classic",
+        "functional-classic",
+        "academic-classic",
+        "creative-modern",
+        "executive-classic",
+        "us-classic",
+        "in-classic"
+    ],
+    "default_popular": [
+        "chrono-classic",
+        "chrono-modern",
+        "hybrid-classic",
+        "us-modern",
+        "in-classic",
+        "executive-classic"
+    ],
+    "levels": {
+        "student": "Student / fresher",
+        "early": "Early career (0-3 years)",
+        "mid": "Mid-level (3-8 years)",
+        "senior": "Senior (8+ years)",
+        "executive": "Executive / director",
+        "academic": "Academic / researcher"
+    },
+    "industries": {
+        "tech": "Technology",
+        "finance": "Finance / consulting",
+        "health": "Healthcare / science",
+        "creative": "Design / media / marketing",
+        "education": "Education / research",
+        "government": "Government / public sector",
+        "engineering": "Engineering / manufacturing",
+        "other": "Other"
+    },
+    "goals": {
+        "job": "Get a new job",
+        "change": "Change careers",
+        "promotion": "Win a promotion",
+        "academic": "Apply for study / research"
+    }
+}

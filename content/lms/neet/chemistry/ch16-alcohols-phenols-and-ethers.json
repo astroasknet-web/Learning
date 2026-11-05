@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "chemistry",
+  "chapter": 16,
+  "title": "Alcohols, Phenols and Ethers",
+  "slug": "alcohols-phenols-and-ethers",
+  "subtitle": "The C–O–H and C–O–C families: preparation, acidity, oxidation and named reactions for NEET",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "NEET Chemistry — Alcohols, Phenols & Ethers: preparation (hydration, hydroboration, reduction), the Lucas test and oxidation of alcohols, why phenol is acidic, Kolbe & Reimer–Tiemann reactions, and Williamson ether synthesis with HX cleavage. NCERT notes, NEET traps & MCQs, free on GrowQR.",
+    "focus_keyword": "alcohols phenols and ethers NEET",
+    "secondary_keywords": [
+      "Lucas test NEET",
+      "phenol acidity NEET",
+      "Williamson ether synthesis NEET",
+      "Kolbe Reimer Tiemann reaction NEET",
+      "oxidation of alcohols NCERT"
+    ],
+    "keywords": [
+      "alcohols NEET",
+      "phenols NEET",
+      "ethers NEET",
+      "Lucas test NEET",
+      "Williamson synthesis NEET"
+    ]
+  },
+  "summary": "<ul><li><strong>Alcohols</strong> (R–OH) are $1^\\circ, 2^\\circ, 3^\\circ$. Made by acid hydration of alkenes (Markovnikov), hydroboration–oxidation (anti-Markovnikov), and reduction of carbonyls (aldehyde $\\rightarrow 1^\\circ$, ketone $\\rightarrow 2^\\circ$).</li><li><strong>Hydrogen bonding</strong> gives alcohols high boiling points and water-solubility (small ones are miscible).</li><li><strong>Lucas test</strong> (conc. HCl + $\\text{ZnCl}_2$) distinguishes them: $3^\\circ$ turbid at once, $2^\\circ$ in $\\sim 5$ min, $1^\\circ$ no reaction cold.</li><li><strong>Oxidation:</strong> $1^\\circ \\rightarrow$ aldehyde $\\rightarrow$ acid; $2^\\circ \\rightarrow$ ketone; $3^\\circ$ resists. Dehydration (conc. $\\text{H}_2\\text{SO}_4$) follows Saytzeff; ease $3^\\circ \\gt 2^\\circ \\gt 1^\\circ$.</li><li><strong>Phenol</strong> is <em>acidic</em> (more than alcohols, less than carboxylic acids) because the phenoxide ion is resonance-stabilised; $-\\text{NO}_2$ groups raise acidity (picric acid).</li><li>Phenol reacts with $\\text{NaOH}$ (alcohols don't), gives 2,4,6-tribromophenol with bromine water, and undergoes <strong>Kolbe</strong> ($\\rightarrow$ salicylic acid) and <strong>Reimer–Tiemann</strong> ($\\rightarrow$ salicylaldehyde) reactions.</li><li><strong>Ethers</strong> (R–O–R'): made by <em>Williamson synthesis</em> (alkoxide + $1^\\circ$ alkyl halide, SN2). Lower boiling than alcohols (no inter-molecular H-bonding); cleaved by hot HI/HBr.</li></ul>",
+  "faqs": [
+    { "q": "How does the Lucas test distinguish primary, secondary and tertiary alcohols?", "a": "The Lucas reagent is concentrated HCl with anhydrous ZnCl2. A tertiary alcohol reacts at once, turning the solution turbid (cloudy) immediately; a secondary alcohol turns turbid in about five minutes; a primary alcohol gives no turbidity at room temperature. The order matches carbocation stability (3° fastest)." },
+    { "q": "Why is phenol more acidic than ethanol?", "a": "When phenol loses its proton it forms a phenoxide ion in which the negative charge is delocalised over the ring by resonance, making the ion stable, so the proton comes off readily. Ethanol's alkoxide has no such resonance and the alkyl group even pushes electron density onto the oxygen, so ethanol is a much weaker acid." },
+    { "q": "What is the Williamson ether synthesis?", "a": "It is the most general way to make ethers: a sodium alkoxide (R–O⁻ Na⁺) reacts with an alkyl halide in an SN2 step to give R–O–R'. Because it is SN2, a primary alkyl halide must be used (a tertiary halide would undergo elimination instead), and it can make both symmetrical and mixed ethers." },
+    { "q": "Why do alcohols have higher boiling points than ethers of similar mass?", "a": "Alcohol molecules form hydrogen bonds with one another through their O–H groups, and breaking these bonds needs extra energy, so alcohols boil high. Ether molecules have no O–H, so they cannot hydrogen-bond to each other and boil at much lower temperatures, similar to comparable hydrocarbons." },
+    { "q": "What are the Kolbe and Reimer–Tiemann reactions?", "a": "Both introduce a group onto the ring of phenol. In Kolbe's reaction, sodium phenoxide is treated with CO2 under pressure to give salicylic acid (2-hydroxybenzoic acid, the precursor of aspirin). In the Reimer–Tiemann reaction, phenol is treated with chloroform and NaOH to introduce a –CHO group at the ortho position, giving salicylaldehyde." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Alcohols",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Alcohols: Classification, Preparation and Properties",
+          "concept": "<p>Alcohols contain the hydroxyl ($-\\text{OH}$) group attached to an $sp^3$ carbon, with the general formula $\\text{R–OH}$. They are <strong>classified</strong> by the carbon bearing the $-\\text{OH}$ as primary ($1^\\circ$), secondary ($2^\\circ$) or tertiary ($3^\\circ$) — a distinction that controls their oxidation and the Lucas test — and by the number of $-\\text{OH}$ groups as mono-, di- (e.g. ethylene glycol) or trihydric (e.g. glycerol). The C–O and O–H bonds are both polar, which is the source of all their characteristic chemistry.</p><p>Several <strong>preparations</strong> are essential. From <em>alkenes</em>, acid-catalysed hydration adds water across the double bond following <strong>Markovnikov's rule</strong> (the $-\\text{OH}$ goes to the more substituted carbon), while <em>hydroboration–oxidation</em> (with $\\text{B}_2\\text{H}_6$ then $\\text{H}_2\\text{O}_2$/$\\text{OH}^-$) gives the <strong>anti-Markovnikov</strong> alcohol — a frequently tested contrast. From <em>carbonyl compounds</em>, reduction gives alcohols: aldehydes give primary alcohols and ketones give secondary alcohols, using $\\text{NaBH}_4$, $\\text{LiAlH}_4$ or catalytic $\\text{H}_2$.</p><p>Two more routes complete the picture. <em>Grignard reagents</em> add to carbonyl compounds and then to water to give alcohols — methanal gives a $1^\\circ$ alcohol, other aldehydes give $2^\\circ$, and ketones give $3^\\circ$ alcohols, a neat way to control the class of product. Carboxylic acids and esters can also be reduced (with $\\text{LiAlH}_4$) to primary alcohols, and alkyl halides give alcohols on hydrolysis with aqueous alkali.</p><p>The <strong>physical properties</strong> of alcohols are dominated by <strong>hydrogen bonding</strong> through the O–H group. This makes their boiling points much higher than those of comparable hydrocarbons or ethers, and the lower alcohols (methanol, ethanol, propanol) are completely <em>miscible with water</em> because they hydrogen-bond to it; solubility falls as the carbon chain lengthens and the hydrocarbon part dominates. Boiling point rises with chain length and falls with branching — the same trends seen for alkanes, and a reliable NEET comparison.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Route to an alcohol</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Selectivity</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Alkene + $\\text{H}_2\\text{O}$/$\\text{H}^+$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>Markovnikov</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Hydroboration–oxidation</td><td style='border:1px solid #dcfce7;padding:6px 10px'>anti-Markovnikov</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Reduce an aldehyde</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$1^\\circ$ alcohol</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Reduce a ketone</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$2^\\circ$ alcohol</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>What alcohol forms when propene is hydrated with dilute $\\text{H}_2\\text{SO}_4$, and which rule applies?</p>",
+              "solution": "<p>By <strong>Markovnikov's rule</strong>, $-\\text{OH}$ adds to the more substituted (middle) carbon, giving <strong>propan-2-ol</strong> ($\\text{CH}_3\\text{-CHOH-CH}_3$), a secondary alcohol.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Reduction of acetone (propan-2-one) with $\\text{NaBH}_4$ gives which alcohol, and of what class?</p>",
+              "solution": "<p>It gives <strong>propan-2-ol</strong>, a <strong>secondary</strong> alcohol — ketones reduce to $2^\\circ$ alcohols.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>$(\\text{CH}_3)_3\\text{C–OH}$ is classified as:</p>", "options": ["primary", "secondary", "tertiary", "dihydric"], "correct": 2, "explanation": "The C–OH carbon bears three carbons: tertiary." },
+            { "q": "<p>Hydroboration–oxidation of an alkene gives the:</p>", "options": ["Markovnikov alcohol", "anti-Markovnikov alcohol", "ketone", "ether"], "correct": 1, "explanation": "$-\\text{OH}$ goes to the less substituted carbon (anti-Markovnikov)." },
+            { "q": "<p>Reduction of an aldehyde gives a:</p>", "options": ["tertiary alcohol", "secondary alcohol", "primary alcohol", "phenol"], "correct": 2, "explanation": "Aldehyde $\\rightarrow$ primary alcohol." },
+            { "q": "<p>Alcohols have higher boiling points than ethers mainly because of:</p>", "options": ["higher mass", "intermolecular hydrogen bonding", "branching", "ionic bonding"], "correct": 1, "explanation": "O–H groups hydrogen-bond to each other." },
+            { "q": "<p>The lower alcohols are miscible with water because they:</p>", "options": ["are non-polar", "form hydrogen bonds with water", "are ionic", "have low mass only"], "correct": 1, "explanation": "O–H hydrogen-bonds with water; solubility falls as chain grows." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> hydration = Markovnikov, hydroboration–oxidation = anti-Markovnikov. Aldehyde $\\rightarrow 1^\\circ$, ketone $\\rightarrow 2^\\circ$ on reduction. H-bonding $\\Rightarrow$ high bp + water-solubility.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Reactions of Alcohols and Their Identification",
+          "concept": "<p>Alcohols react in two broad ways — at the O–H bond and at the C–O bond. Because the O–H bond is polar, alcohols are <strong>weakly acidic</strong>: they react with reactive metals such as sodium to liberate hydrogen and form alkoxides ($\\text{R–ONa}$). The acidity order of alcohols is $1^\\circ \\gt 2^\\circ \\gt 3^\\circ$ (electron-donating alkyl groups destabilise the alkoxide), and alcohols are <em>weaker</em> acids than water — a contrast NEET likes to set against phenol in the next module.</p><p>Acting as nucleophiles or substrates, alcohols undergo <strong>esterification</strong> with carboxylic acids (warm, with concentrated $\\text{H}_2\\text{SO}_4$, giving a fragrant ester and water) and react with $\\text{HX}$, $\\text{PCl}_3$, $\\text{PCl}_5$ or $\\text{SOCl}_2$ to form haloalkanes (the link back to the previous chapter). The reaction with $\\text{HCl}$/$\\text{ZnCl}_2$ is the basis of the <strong>Lucas test</strong>, the classic way to tell the three classes apart: a <em>tertiary</em> alcohol gives an immediate cloudy turbidity, a <em>secondary</em> alcohol turns turbid in about five minutes, and a <em>primary</em> alcohol shows no change at room temperature.</p><p><strong>Dehydration</strong> removes water to give an alkene. Heating an alcohol with concentrated $\\text{H}_2\\text{SO}_4$ (around 443 K) eliminates water; when more than one alkene is possible the major product follows <strong>Saytzeff's rule</strong> (more substituted alkene), and the ease of dehydration is $3^\\circ \\gt 2^\\circ \\gt 1^\\circ$. This is intramolecular elimination, distinct from the intermolecular dehydration (at lower temperature) that forms ethers.</p><p><strong>Oxidation</strong> is the most diagnostic reaction. A <em>primary</em> alcohol is oxidised first to an aldehyde and then to a carboxylic acid (strong oxidants such as acidified $\\text{KMnO}_4$ or $\\text{K}_2\\text{Cr}_2\\text{O}_7$ go all the way; the milder reagent PCC stops at the aldehyde). A <em>secondary</em> alcohol is oxidised to a ketone. A <em>tertiary</em> alcohol has no H on the C–OH carbon, so it <strong>resists</strong> oxidation under normal conditions (it only breaks down under very harsh acidic oxidation). Knowing the oxidation product therefore identifies the class — a guaranteed NEET question.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Alcohol class</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Oxidation product</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Lucas test</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$1^\\circ$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>aldehyde $\\rightarrow$ acid</td><td style='border:1px solid #dcfce7;padding:6px 10px'>no change (cold)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$2^\\circ$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>ketone</td><td style='border:1px solid #dcfce7;padding:6px 10px'>turbid in $\\sim 5$ min</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$3^\\circ$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>resists oxidation</td><td style='border:1px solid #dcfce7;padding:6px 10px'>immediate turbidity</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Three bottles contain a $1^\\circ$, a $2^\\circ$ and a $3^\\circ$ alcohol. How does the Lucas test identify each?</p>",
+              "solution": "<p>Add Lucas reagent (conc. HCl + $\\text{ZnCl}_2$). The $3^\\circ$ alcohol gives <strong>immediate</strong> turbidity, the $2^\\circ$ becomes turbid in <strong>about 5 minutes</strong>, and the $1^\\circ$ shows <strong>no turbidity</strong> at room temperature.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Write the stepwise oxidation products of ethanol with excess acidified $\\text{KMnO}_4$.</p>",
+              "solution": "<p>Ethanol (a $1^\\circ$ alcohol) is oxidised first to <strong>ethanal</strong> (acetaldehyde, $\\text{CH}_3\\text{CHO}$) and then to <strong>ethanoic acid</strong> (acetic acid, $\\text{CH}_3\\text{COOH}$).</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The acidity order of alcohols is:</p>", "options": ["$3^\\circ \\gt 2^\\circ \\gt 1^\\circ$", "$1^\\circ \\gt 2^\\circ \\gt 3^\\circ$", "all equal", "$2^\\circ \\gt 1^\\circ \\gt 3^\\circ$"], "correct": 1, "explanation": "Alkyl groups destabilise the alkoxide: $1^\\circ$ most acidic." },
+            { "q": "<p>In the Lucas test, a tertiary alcohol gives turbidity:</p>", "options": ["after 1 hour", "in about 5 minutes", "immediately", "never"], "correct": 2, "explanation": "Stable $3^\\circ$ carbocation reacts at once." },
+            { "q": "<p>Oxidation of a secondary alcohol gives a:</p>", "options": ["carboxylic acid", "ketone", "aldehyde", "ether"], "correct": 1, "explanation": "$2^\\circ$ alcohol $\\rightarrow$ ketone." },
+            { "q": "<p>A tertiary alcohol resists oxidation because:</p>", "options": ["it is aromatic", "there is no H on the C–OH carbon", "it has no oxygen", "it is ionic"], "correct": 1, "explanation": "No alpha-H to remove, so no easy oxidation." },
+            { "q": "<p>Dehydration of an alcohol with conc. $\\text{H}_2\\text{SO}_4$ follows:</p>", "options": ["Markovnikov's rule", "Saytzeff's rule", "Hückel's rule", "no rule"], "correct": 1, "explanation": "More substituted (Saytzeff) alkene is the major product." }
+          ],
+          "note": "<p><strong>NEET trap:</strong> Lucas — $3^\\circ$ instant, $2^\\circ$ ~5 min, $1^\\circ$ none (cold). Oxidation: $1^\\circ \\rightarrow$ acid (PCC stops at aldehyde), $2^\\circ \\rightarrow$ ketone, $3^\\circ$ resists. Dehydration ease $3^\\circ \\gt 2^\\circ \\gt 1^\\circ$.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Phenols and Ethers",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Phenols: Acidity and Reactions",
+          "concept": "<p>Phenols have the $-\\text{OH}$ group attached directly to a benzene ring; the simplest is phenol itself, $\\text{C}_6\\text{H}_5\\text{OH}$. Although it shares the $-\\text{OH}$ group with alcohols, its proximity to the aromatic ring changes its behaviour dramatically — most importantly, it is distinctly <strong>acidic</strong>. Phenol is <em>prepared</em> industrially by the <strong>cumene process</strong> (oxidation of isopropylbenzene, which also yields acetone), and in the lab from chlorobenzene (the Dow process), from benzenesulphonic acid (fusion with NaOH), and from benzenediazonium salts (warming with water).</p><p>The <strong>acidity of phenol</strong> is the central NEET idea. When phenol loses its proton it forms the <strong>phenoxide ion</strong>, in which the negative charge is delocalised over the ortho and para positions of the ring by resonance. This stabilises the ion, so phenol gives up its proton far more readily than an alcohol does. Phenol is therefore more acidic than water and alcohols, but <em>less</em> acidic than carboxylic acids (whose carboxylate ion is even more stabilised). <strong>Electron-withdrawing groups</strong> like $-\\text{NO}_2$ increase acidity by further stabilising the phenoxide — 2,4,6-trinitrophenol (<em>picric acid</em>) is strongly acidic — while electron-donating groups decrease it.</p><p>A direct consequence is that phenol reacts with <strong>sodium hydroxide</strong> to give sodium phenoxide and water, whereas ordinary alcohols do not react with NaOH — a simple chemical test that separates the two. Phenol also gives a characteristic <strong>violet colour with neutral $\\text{FeCl}_3$</strong>, a standard identification test.</p><p>Because $-\\text{OH}$ is a strongly <strong>activating, ortho/para-directing</strong> group, the ring of phenol is very reactive towards electrophilic substitution. Phenol reacts with <em>bromine water</em> even without a catalyst to give a white precipitate of <strong>2,4,6-tribromophenol</strong>, and is readily nitrated and sulphonated. Two named reactions are NEET essentials: <strong>Kolbe's reaction</strong> (sodium phenoxide + $\\text{CO}_2$ under pressure $\\rightarrow$ salicylic acid, the basis of aspirin) and the <strong>Reimer–Tiemann reaction</strong> (phenol + $\\text{CHCl}_3$ + $\\text{NaOH}$ $\\rightarrow$ salicylaldehyde, introducing a $-\\text{CHO}$ group at the ortho position).</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Point</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Phenol</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Acidity order</td><td style='border:1px solid #dcfce7;padding:6px 10px'>carboxylic acid $\\gt$ phenol $\\gt$ water $\\gt$ alcohol</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Reason it is acidic</td><td style='border:1px solid #dcfce7;padding:6px 10px'>resonance-stabilised phenoxide ion</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>With bromine water</td><td style='border:1px solid #dcfce7;padding:6px 10px'>white 2,4,6-tribromophenol</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Named reactions</td><td style='border:1px solid #dcfce7;padding:6px 10px'>Kolbe (salicylic acid), Reimer–Tiemann (salicylaldehyde)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Explain why phenol is more acidic than ethanol.</p>",
+              "solution": "<p>The phenoxide ion formed from phenol is <strong>resonance-stabilised</strong> (the negative charge spreads onto the ring), so phenol loses its proton easily. Ethanol's ethoxide has no resonance and the alkyl group pushes electrons onto oxygen, so ethanol is far less acidic.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What product forms when phenol is treated with bromine water?</p>",
+              "solution": "<p>A white precipitate of <strong>2,4,6-tribromophenol</strong> — the strongly activating $-\\text{OH}$ group makes the ring substitute at all three o/p positions even without a catalyst.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Phenol is acidic because the phenoxide ion is:</p>", "options": ["aromatic only", "resonance-stabilised", "ionic", "non-polar"], "correct": 1, "explanation": "Charge delocalises over the ring." },
+            { "q": "<p>Correct acidity order:</p>", "options": ["alcohol $\\gt$ phenol $\\gt$ carboxylic acid", "carboxylic acid $\\gt$ phenol $\\gt$ alcohol", "phenol $\\gt$ carboxylic acid $\\gt$ water", "water $\\gt$ phenol $\\gt$ carboxylic acid"], "correct": 1, "explanation": "Carboxylic acid $\\gt$ phenol $\\gt$ water $\\gt$ alcohol." },
+            { "q": "<p>Which reacts with NaOH?</p>", "options": ["ethanol", "phenol", "diethyl ether", "propan-2-ol"], "correct": 1, "explanation": "Phenol forms sodium phenoxide; alcohols do not react." },
+            { "q": "<p>Kolbe's reaction converts sodium phenoxide + $\\text{CO}_2$ into:</p>", "options": ["picric acid", "salicylic acid", "salicylaldehyde", "anisole"], "correct": 1, "explanation": "Gives salicylic acid (aspirin precursor)." },
+            { "q": "<p>The Reimer–Tiemann reaction introduces which group onto phenol?</p>", "options": ["$-\\text{NO}_2$", "$-\\text{CHO}$", "$-\\text{COOH}$", "$-\\text{Cl}$"], "correct": 1, "explanation": "Phenol + $\\text{CHCl}_3$/NaOH gives salicylaldehyde ($-\\text{CHO}$)." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> phenol acidic (resonance-stabilised phenoxide); $-\\text{NO}_2$ raises acidity (picric acid). Phenol + NaOH reacts (alcohols don't); bromine water $\\rightarrow$ 2,4,6-tribromophenol; Kolbe $\\rightarrow$ salicylic acid; Reimer–Tiemann $\\rightarrow$ salicylaldehyde; FeCl$_3$ violet test.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Ethers: Preparation and Reactions",
+          "concept": "<p>Ethers have two alkyl or aryl groups joined to an oxygen, $\\text{R–O–R'}$; they are <em>symmetrical</em> when the two groups are identical (e.g. diethyl ether) and <em>unsymmetrical/mixed</em> when they differ (e.g. ethyl methyl ether). The C–O–C linkage is bent and the oxygen carries two lone pairs, but there is no O–H, which shapes both their physical properties and their relative inertness.</p><p>The most important preparation is the <strong>Williamson ether synthesis</strong>: a sodium alkoxide reacts with an alkyl halide ($\\text{R–ONa} + \\text{R'–X} \\rightarrow \\text{R–O–R'}$). Because the step is SN2, the alkyl halide should be <strong>primary</strong> — a secondary or tertiary halide would instead undergo elimination to an alkene. This method is versatile: it can make both symmetrical and mixed ethers, and to make a mixed ether you choose the combination that puts the bulkier group on the alkoxide and the simpler primary group on the halide. Symmetrical ethers can also be made by acid dehydration of a primary alcohol at a moderate temperature (about 413 K), but this works only for primary alcohols.</p><p>In their <strong>physical properties</strong>, ethers cannot hydrogen-bond to one another (no O–H), so their boiling points are much lower than those of isomeric alcohols and similar to comparable alkanes. However, the oxygen lone pairs can accept hydrogen bonds from water, so ethers are slightly soluble in water — about as soluble as an alcohol of the same size. Diethyl ether's volatility and low reactivity made it a famous early anaesthetic and a common laboratory solvent.</p><p>Ethers are <strong>fairly unreactive</strong> (they resist bases, oxidising agents and reducing agents), but they are <strong>cleaved by hot concentrated halogen acids</strong>, especially HI and HBr. One C–O bond breaks to give an alkyl halide and an alcohol; with excess acid the alcohol is converted to a second alkyl halide. With aromatic ethers such as <strong>anisole</strong> ($\\text{C}_6\\text{H}_5\\text{–O–CH}_3$), the aryl–oxygen bond is <em>not</em> broken (a phenyl cation would be too unstable), so cleavage with HI gives <strong>phenol and methyl iodide</strong>, not iodobenzene — a favourite NEET point. Aromatic ethers also undergo electrophilic substitution, with the $-\\text{OR}$ group acting as an activating, ortho/para director.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Aspect</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Ethers</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Best preparation</td><td style='border:1px solid #dcfce7;padding:6px 10px'>Williamson (alkoxide + $1^\\circ$ R–X, SN2)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Boiling point</td><td style='border:1px solid #dcfce7;padding:6px 10px'>low (no inter-molecular H-bonding)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Reactivity</td><td style='border:1px solid #dcfce7;padding:6px 10px'>inert; cleaved by hot HI/HBr</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Anisole + HI</td><td style='border:1px solid #dcfce7;padding:6px 10px'>phenol + $\\text{CH}_3\\text{I}$ (aryl–O not cleaved)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Suggest a Williamson synthesis of ethyl methyl ether ($\\text{CH}_3\\text{–O–C}_2\\text{H}_5$).</p>",
+              "solution": "<p>React <strong>sodium ethoxide</strong> ($\\text{C}_2\\text{H}_5\\text{ONa}$) with <strong>methyl iodide</strong> ($\\text{CH}_3\\text{I}$) — or sodium methoxide with iodoethane. Both halides are primary, so SN2 gives the mixed ether cleanly.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What are the products when anisole is heated with excess HI?</p>",
+              "solution": "<p><strong>Phenol and methyl iodide.</strong> The aryl–oxygen bond is not cleaved (a phenyl cation is too unstable), so HI breaks the $\\text{O–CH}_3$ bond, giving $\\text{CH}_3\\text{I}$ and phenol.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The Williamson synthesis works best with a halide that is:</p>", "options": ["primary", "secondary", "tertiary", "aromatic"], "correct": 0, "explanation": "SN2 needs a primary halide; $3^\\circ$ would eliminate." },
+            { "q": "<p>Ethers boil lower than isomeric alcohols because ethers cannot:</p>", "options": ["dissolve in water", "hydrogen-bond to each other", "be oxidised", "form ions"], "correct": 1, "explanation": "No O–H, so no inter-molecular hydrogen bonding." },
+            { "q": "<p>Ethers are cleaved by:</p>", "options": ["dilute NaOH", "hot concentrated HI", "cold water", "$\\text{H}_2$/Ni"], "correct": 1, "explanation": "Hot conc. HI/HBr breaks a C–O bond." },
+            { "q": "<p>Anisole on cleavage with HI gives:</p>", "options": ["iodobenzene + methanol", "phenol + methyl iodide", "benzene + $\\text{CH}_3\\text{OH}$", "toluene + HI"], "correct": 1, "explanation": "Aryl–O bond is not cleaved; gives phenol + $\\text{CH}_3\\text{I}$." },
+            { "q": "<p>In anisole, the $-\\text{OCH}_3$ group is:</p>", "options": ["meta-directing, deactivating", "ortho/para-directing, activating", "non-directing", "meta-directing, activating"], "correct": 1, "explanation": "$-\\text{OR}$ activates the ring and directs o/p." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Williamson = alkoxide + $1^\\circ$ R–X (SN2). Ethers: low bp (no H-bonding), inert but cleaved by hot HI/HBr. Anisole + HI $\\rightarrow$ phenol + $\\text{CH}_3\\text{I}$ (never iodobenzene).</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-chemistry-ch16-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct & Statement-based)",
+          "questions": [
+            { "q": "<p>Acid-catalysed hydration of propene gives mainly:</p>", "options": ["propan-1-ol", "propan-2-ol", "propanal", "propanoic acid"], "correct": 1, "explanation": "Markovnikov addition: propan-2-ol." },
+            { "q": "<p>The Lucas test gives immediate turbidity with a:</p>", "options": ["primary alcohol", "secondary alcohol", "tertiary alcohol", "phenol"], "correct": 2, "explanation": "$3^\\circ$ alcohol forms a stable carbocation at once." },
+            { "q": "<p>Oxidation of a primary alcohol with PCC stops at the:</p>", "options": ["carboxylic acid", "ketone", "aldehyde", "ester"], "correct": 2, "explanation": "PCC is mild: $1^\\circ$ alcohol $\\rightarrow$ aldehyde." },
+            { "q": "<p>Statements: (I) Phenol is more acidic than ethanol. (II) Phenol reacts with NaOH but ethanol does not. Which is/are correct?</p>", "options": ["only I", "only II", "both I and II", "neither"], "correct": 2, "explanation": "Both are correct and consistent." },
+            { "q": "<p>Phenol with bromine water gives:</p>", "options": ["bromobenzene", "2,4,6-tribromophenol", "o-bromophenol only", "no reaction"], "correct": 1, "explanation": "White 2,4,6-tribromophenol precipitate." },
+            { "q": "<p>The Williamson synthesis is a/an:</p>", "options": ["electrophilic addition", "SN2 reaction", "free-radical reaction", "elimination"], "correct": 1, "explanation": "Alkoxide attacks a primary halide by SN2." },
+            { "q": "<p>Anisole heated with HI gives:</p>", "options": ["iodobenzene + $\\text{CH}_3\\text{OH}$", "phenol + $\\text{CH}_3\\text{I}$", "benzene + $\\text{CH}_4$", "toluene"], "correct": 1, "explanation": "Aryl–O not cleaved: phenol + methyl iodide." },
+            { "q": "<p>Which is the strongest acid?</p>", "options": ["ethanol", "water", "phenol", "picric acid (2,4,6-trinitrophenol)"], "correct": 3, "explanation": "Three $-\\text{NO}_2$ groups make picric acid strongly acidic." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> Phenol is more acidic than ethanol.<br><strong>R:</strong> The phenoxide ion is stabilised by resonance over the benzene ring.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Resonance stabilisation of the phenoxide is exactly why phenol is more acidic — R explains A." },
+            { "q": "<p><strong>A:</strong> A tertiary alcohol is resistant to oxidation.<br><strong>R:</strong> The carbon bearing the $-\\text{OH}$ group in a tertiary alcohol has no hydrogen atom.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "No alpha-H means it cannot be oxidised easily — R explains A." },
+            { "q": "<p><strong>A:</strong> Diethyl ether has a lower boiling point than butan-1-ol.<br><strong>R:</strong> Ether molecules cannot form hydrogen bonds with one another.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Absence of inter-molecular H-bonding lowers the boiling point — R explains A." },
+            { "q": "<p><strong>A:</strong> In the Williamson synthesis, a tertiary alkyl halide gives a good yield of ether.<br><strong>R:</strong> The reaction proceeds by an SN2 mechanism.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "A is false — a $3^\\circ$ halide undergoes elimination, not substitution; R (SN2) is true and is the reason a primary halide is needed." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

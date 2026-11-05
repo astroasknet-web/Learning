@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "physics",
+  "chapter": 17,
+  "title": "Atoms and Nuclei",
+  "slug": "atoms-and-nuclei",
+  "subtitle": "Atoms and Nuclei for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#0891b2",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "Master Atoms and Nuclei for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Atomic Structure",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Atomic Models (Thomson, Rutherford, Bohr)",
+          "concept": "<p><strong>Thomson's Plum Pudding Model (1898):</strong> Atom = uniform positive sphere with electrons embedded like raisins in pudding. <strong>Failed</strong> to explain Rutherford's scattering and atomic spectra.</p><p><strong>Rutherford's Gold Foil Experiment (1911):</strong> Alpha particles scattered by thin gold foil; most pass through, few deflected by large angles (some bounce back). Conclusions:</p><ul><li>Atom mostly empty space</li><li>Tiny dense positive nucleus at center (radius $\\sim 10^{-15}$ m vs atomic radius $10^{-10}$ m)</li><li>Electrons orbit nucleus (planetary model)</li></ul><p><strong>Distance of Closest Approach:</strong> $r_0 = \\dfrac{1}{4\\pi\\epsilon_0}\\cdot\\dfrac{2Ze^2}{K}$ for $\\alpha$-particle of KE $K$ hitting nucleus head-on.</p><p><strong>Impact Parameter:</strong> $b = \\dfrac{Ze^2\\cot(\\theta/2)}{4\\pi\\epsilon_0 K}$ for scattering angle $\\theta$.</p><p><strong>Failures of Rutherford Model:</strong></p><ul><li>Classical EM theory: accelerating electron should radiate, spiral into nucleus → atom unstable</li><li>Cannot explain discrete atomic spectra</li></ul><p><strong>Bohr's Postulates (1913):</strong></p><ol><li>Electron revolves only in certain <strong>stationary orbits</strong> where it does not radiate energy</li><li><strong>Angular momentum quantized:</strong> $L = mvr = nh/(2\\pi) = n\\hbar$, $n = 1, 2, 3, \\ldots$</li><li>Energy emitted/absorbed when electron jumps between orbits: $h\\nu = E_i - E_f$</li></ol><p><strong>For Hydrogen-like Atom (charge $Ze$, one electron):</strong></p><table class=\"md-table\"><thead><tr><th>Quantity</th><th>Formula</th></tr></thead><tbody><tr><td><strong>Radius of nth orbit</strong></td><td>$r_n = \\dfrac{n^2 h^2 \\epsilon_0}{\\pi m Z e^2} = 0.529\\dfrac{n^2}{Z}$ Å</td></tr><tr><td><strong>Velocity in nth orbit</strong></td><td>$v_n = \\dfrac{Ze^2}{2\\epsilon_0 nh} = 2.18 \\times 10^6 \\cdot Z/n$ m/s</td></tr><tr><td><strong>Energy of nth orbit</strong></td><td>$E_n = -\\dfrac{13.6\\,Z^2}{n^2}$ eV</td></tr><tr><td><strong>Total energy</strong></td><td>$E_n = -K_n$ (PE = $-2K$)</td></tr></tbody></table><p>For hydrogen ($Z = 1$): $r_1 = 0.529$ Å (Bohr radius), $E_1 = -13.6$ eV, $v_1 = c/137$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find radius of 3rd Bohr orbit in hydrogen.</p>",
+              "solution": "<p>$$r_3 = 0.529 \\times 3^2 = 0.529 \\times 9 = 4.76 \\text{ Å}$$</p><p><strong>Final Answer:</strong> $r_3 = 4.76$ Å.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find ionization energy of He$^+$ ($Z = 2$).</p>",
+              "solution": "<p>Ionization energy = energy to remove electron from $n = 1$ to $\\infty$ = $|E_1|$: $$|E_1| = 13.6\\,Z^2 = 13.6 \\times 4 = 54.4 \\text{ eV}$$</p><p><strong>Final Answer:</strong> $54.4$ eV.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Rutherford's experiment proved that the atom:</p>",
+              "options": [
+                "Is solid",
+                "Has dense positive nucleus",
+                "Has uniform positive charge",
+                "Is neutral throughout"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>According to Bohr, angular momentum is:</p>",
+              "options": [
+                "$nh/2$",
+                "$nh/2\\pi$",
+                "$n\\hbar/2$",
+                "$nh\\pi$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The energy of $n = 2$ orbit of H atom:</p>",
+              "options": [
+                "$-13.6$ eV",
+                "$-3.4$ eV",
+                "$-1.51$ eV",
+                "$-0.85$ eV"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The radius of 1st Bohr orbit of H:</p>",
+              "options": [
+                "$0.529$ Å",
+                "$5.29$ Å",
+                "$0.529$ nm",
+                "$0.0529$ Å"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Bohr model is valid for:</p>",
+              "options": [
+                "Hydrogen only",
+                "Hydrogen-like (single electron) systems",
+                "Multi-electron atoms",
+                "Molecules"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Hydrogen Spectrum and Energy Levels",
+          "concept": "<p>When electron jumps from higher orbit $n_i$ to lower $n_f$, photon emitted with: $$h\\nu = E_{n_i} - E_{n_f}, \\quad \\frac{1}{\\lambda} = R_H Z^2\\left(\\frac{1}{n_f^2} - \\frac{1}{n_i^2}\\right)$$</p><p>$R_H = 1.097 \\times 10^7$ m⁻¹ is <strong>Rydberg constant</strong>.</p><p><strong>Spectral Series of Hydrogen:</strong></p><table class=\"md-table\"><thead><tr><th>Series</th><th>$n_f$</th><th>Region</th><th>First line $\\lambda$ (approx)</th></tr></thead><tbody><tr><td><strong>Lyman</strong></td><td>$1$</td><td>UV</td><td>$121.6$ nm</td></tr><tr><td><strong>Balmer</strong></td><td>$2$</td><td>Visible</td><td>$656.3$ nm ($H_\\alpha$)</td></tr><tr><td><strong>Paschen</strong></td><td>$3$</td><td>IR</td><td>$1875$ nm</td></tr><tr><td><strong>Brackett</strong></td><td>$4$</td><td>IR</td><td>$4051$ nm</td></tr><tr><td><strong>Pfund</strong></td><td>$5$</td><td>Far IR</td><td>$7458$ nm</td></tr></tbody></table><p><strong>Series limit</strong> = wavelength when $n_i \\to \\infty$: $\\lambda_{\\text{limit}} = n_f^2/(R_H Z^2)$.</p><p><strong>Number of Spectral Lines</strong> when electron transitions from $n$th level to ground: $$N = \\frac{n(n-1)}{2}$$</p><p><strong>Ionization Energy and Potential:</strong></p><ul><li>Ionization energy: $|E_1| = 13.6 Z^2$ eV</li><li>Ionization potential: $V_i = 13.6 Z^2$ V</li><li>Excitation energy from $n_1$ to $n_2$: $E_{n_2} - E_{n_1}$</li><li>Excitation potential: corresponding $V$</li></ul><p><strong>Limitations of Bohr Model:</strong></p><ul><li>Cannot explain fine structure (splitting due to spin-orbit coupling)</li><li>Cannot explain Zeeman/Stark effects (magnetic/electric field splitting)</li><li>Cannot account for relative intensities of spectral lines</li><li>Cannot extend to multi-electron atoms</li><li>Inconsistent with quantum mechanics' uncertainty principle</li></ul><p>These led to the modern <strong>quantum mechanical model</strong> (Schrödinger, Heisenberg).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find wavelength of $H_\\alpha$ line in hydrogen (Balmer series: $n_i = 3 \\to n_f = 2$).</p>",
+              "solution": "<p>$$\\frac{1}{\\lambda} = R_H\\left(\\frac{1}{4} - \\frac{1}{9}\\right) = R_H \\cdot \\frac{5}{36}$$ $$\\lambda = \\frac{36}{5R_H} = \\frac{36}{5 \\times 1.097 \\times 10^7} \\approx 6.563 \\times 10^{-7} \\text{ m} = 656.3 \\text{ nm}$$</p><p><strong>Final Answer:</strong> $\\lambda \\approx 656.3$ nm.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find total number of spectral lines emitted when electron drops from $n = 4$ to $n = 1$.</p>",
+              "solution": "<p>$$N = \\frac{n(n-1)}{2} = \\frac{4 \\times 3}{2} = 6 \\text{ lines}$$</p><p><strong>Final Answer:</strong> $6$ lines.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Balmer series of hydrogen lies in:</p>",
+              "options": [
+                "UV",
+                "Visible",
+                "IR",
+                "Microwave"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The Lyman series corresponds to transitions to:</p>",
+              "options": [
+                "$n = 1$",
+                "$n = 2$",
+                "$n = 3$",
+                "Infinity"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of spectral lines when an electron drops from $n = 5$ to ground:</p>",
+              "options": [
+                "$5$",
+                "$10$",
+                "$15$",
+                "$4$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Ionization energy of hydrogen atom:</p>",
+              "options": [
+                "$1.36$ eV",
+                "$13.6$ eV",
+                "$136$ eV",
+                "$0.136$ eV"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The wavelength of first Lyman line ($n: 2 \\to 1$) for hydrogen:</p>",
+              "options": [
+                "$656$ nm",
+                "$122$ nm",
+                "$97$ nm",
+                "$410$ nm"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Nuclear Physics",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Nuclear Composition, Binding Energy",
+          "concept": "<p><strong>Nucleus</strong> consists of <strong>protons</strong> ($p$, charge $+e$) and <strong>neutrons</strong> ($n$, neutral); collectively called <strong>nucleons</strong>.</p><p><strong>Notation:</strong> $^A_Z X$, where $A$ = mass number (total nucleons), $Z$ = atomic number (protons), $N = A - Z$ = neutrons.</p><p><strong>Isotopes:</strong> Same $Z$, different $A$ (e.g., $^1$H, $^2$H, $^3$H). <strong>Isobars:</strong> Same $A$, different $Z$ (e.g., $^{14}$C, $^{14}$N). <strong>Isotones:</strong> Same $N$, different $Z$ (e.g., $^{13}$C, $^{14}$N).</p><p><strong>Nuclear Size:</strong> $R = R_0 A^{1/3}$, where $R_0 \\approx 1.2 \\times 10^{-15}$ m = $1.2$ fm. <strong>Density:</strong> $\\rho \\approx 2.3 \\times 10^{17}$ kg/m³ (constant for all nuclei).</p><p><strong>Mass-Energy Equivalence:</strong> $E = mc^2$. <strong>Atomic mass unit:</strong> $1$ u = $1.66 \\times 10^{-27}$ kg = $931.5$ MeV/$c^2$.</p><p><strong>Mass Defect:</strong> $\\Delta m = Zm_p + (A-Z)m_n - M_{\\text{nucleus}}$ (always positive).</p><p><strong>Binding Energy (BE):</strong> Energy needed to dissociate nucleus into individual nucleons. $$\\text{BE} = \\Delta m \\cdot c^2 = \\Delta m \\cdot 931.5 \\text{ MeV (if } \\Delta m \\text{ in u)}$$</p><p><strong>Binding Energy per Nucleon (BE/A):</strong> Measure of nuclear stability.</p><p><strong>BE/A curve features:</strong></p><ul><li>Rises rapidly for light nuclei</li><li>Peaks at $\\sim 8.8$ MeV/nucleon near $^{56}$Fe</li><li>Slowly decreases for heavy nuclei</li><li>Explains why fission of heavy / fusion of light → energy release</li></ul><p><strong>Nuclear Forces:</strong></p><ul><li>Strong, short-range (~$1$ fm), attractive (charge independent)</li><li>Much stronger than EM force (factor $\\sim 100$)</li><li>Saturated (each nucleon interacts with few neighbors only)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find binding energy of $^4_2$He nucleus. Atomic mass: $4.0026$ u. ($m_p = 1.0073$, $m_n = 1.0087$ u)</p>",
+              "solution": "<p>$\\Delta m = 2(1.0073) + 2(1.0087) - 4.0026 = 2.0146 + 2.0174 - 4.0026 = 0.0294$ u. $$\\text{BE} = 0.0294 \\times 931.5 \\approx 27.4 \\text{ MeV}$$ BE/nucleon $= 27.4/4 = 6.85$ MeV.</p><p><strong>Final Answer:</strong> BE $\\approx 27.4$ MeV; BE/A $\\approx 6.85$ MeV.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find radius of $^{27}$Al nucleus.</p>",
+              "solution": "<p>$$R = R_0 A^{1/3} = 1.2 \\times (27)^{1/3} = 1.2 \\times 3 = 3.6 \\text{ fm}$$</p><p><strong>Final Answer:</strong> $R = 3.6$ fm.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The strong nuclear force is:</p>",
+              "options": [
+                "Long range",
+                "Short range, attractive",
+                "Repulsive",
+                "Same as gravitational"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$1$ u of mass is equivalent to:</p>",
+              "options": [
+                "$931$ eV",
+                "$931$ keV",
+                "$931.5$ MeV",
+                "$9.31$ eV"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Isotopes have same:</p>",
+              "options": [
+                "Number of neutrons",
+                "Atomic mass",
+                "Atomic number",
+                "Mass number"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Nuclear density is:</p>",
+              "options": [
+                "Same for all nuclei",
+                "Increases with $A$",
+                "Decreases with $A$",
+                "Variable"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Peak of BE/A curve occurs near:</p>",
+              "options": [
+                "Helium",
+                "Carbon",
+                "Iron",
+                "Uranium"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Radioactivity, Fission and Fusion",
+          "concept": "<p><strong>Radioactivity:</strong> Spontaneous emission of particles/radiation from unstable nuclei. Discovered by <strong>Becquerel</strong> (1896); systematically studied by <strong>Marie and Pierre Curie</strong>.</p><p><strong>Types of Radiation:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Identity</th><th>Charge</th><th>Penetration</th><th>Effect on $A, Z$</th></tr></thead><tbody><tr><td><strong>Alpha ($\\alpha$)</strong></td><td>$^4_2$He nucleus</td><td>$+2e$</td><td>Lowest (stopped by paper)</td><td>$A \\to A-4, Z \\to Z-2$</td></tr><tr><td><strong>Beta ($\\beta^-$)</strong></td><td>electron</td><td>$-e$</td><td>Medium (stopped by aluminium)</td><td>$Z \\to Z+1$, $A$ same</td></tr><tr><td><strong>Beta ($\\beta^+$)</strong></td><td>positron</td><td>$+e$</td><td>Medium</td><td>$Z \\to Z-1$, $A$ same</td></tr><tr><td><strong>Gamma ($\\gamma$)</strong></td><td>photon (high-energy EM)</td><td>$0$</td><td>High (needs lead)</td><td>No change</td></tr></tbody></table><p>In $\\beta^-$ decay: $n \\to p + e^- + \\bar\\nu$; in $\\beta^+$: $p \\to n + e^+ + \\nu$.</p><p><strong>Radioactive Decay Law:</strong> $$\\frac{dN}{dt} = -\\lambda N, \\quad N(t) = N_0 e^{-\\lambda t}$$ $\\lambda$ = decay constant. <strong>Activity:</strong> $A = \\lambda N$ (decays per second; unit: becquerel, Bq, or curie: $1$ Ci $= 3.7 \\times 10^{10}$ Bq).</p><p><strong>Half-life:</strong> $T_{1/2} = \\ln 2/\\lambda = 0.693/\\lambda$.</p><p><strong>Mean life:</strong> $\\tau = 1/\\lambda = T_{1/2}/\\ln 2 = T_{1/2}/0.693$.</p><p>After $n$ half-lives: $N = N_0/2^n$.</p><p><strong>Nuclear Fission:</strong> Heavy nucleus splits into lighter ones, releasing energy and neutrons.</p><p>Example: $^{235}\\text{U} + n \\to ^{141}\\text{Ba} + ^{92}\\text{Kr} + 3n + \\sim 200$ MeV.</p><p>Chain reaction: neutrons released cause further fission. <strong>Critical mass</strong> = minimum mass for sustained chain reaction. Used in nuclear reactors (controlled) and atomic bombs (uncontrolled).</p><p><strong>Reactor components:</strong> fuel ($^{235}$U, Pu), moderator (slows neutrons: water, graphite), coolant (water, sodium), control rods (Cd, B; absorb neutrons), shielding (concrete).</p><p><strong>Nuclear Fusion:</strong> Light nuclei combine to form heavier (e.g., H → He in stars). Requires very high temperature ($\\sim 10^7$ K) to overcome Coulomb repulsion.</p><p>Example: $^2\\text{H} + ^3\\text{H} \\to ^4\\text{He} + n + 17.6$ MeV.</p><p>Powers the <strong>Sun</strong> and stars. Hydrogen bomb uses fusion (uncontrolled). Controlled fusion is still under research (tokamaks, ITER project).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A radioactive sample has $T_{1/2} = 8$ days. Fraction remaining after $24$ days:</p>",
+              "solution": "<p>$n = t/T_{1/2} = 24/8 = 3$ half-lives. $$N/N_0 = 1/2^n = 1/8$$</p><p><strong>Final Answer:</strong> $1/8$ of original.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A radioactive nuclide has decay constant $\\lambda = 0.05$/year. Find half-life and mean life.</p>",
+              "solution": "<p>$T_{1/2} = 0.693/0.05 = 13.86$ years. $\\tau = 1/\\lambda = 1/0.05 = 20$ years.</p><p><strong>Final Answer:</strong> $T_{1/2} \\approx 13.86$ years; $\\tau = 20$ years.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>In $\\beta^-$ decay:</p>",
+              "options": [
+                "$Z$ increases by $1$, $A$ same",
+                "$Z$ decreases by $1$",
+                "$A$ decreases by $4$",
+                "Both change"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Half-life and mean life relation:</p>",
+              "options": [
+                "$\\tau = T_{1/2}$",
+                "$\\tau = T_{1/2}\\ln 2$",
+                "$\\tau = T_{1/2}/\\ln 2$",
+                "$\\tau = 2T_{1/2}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Highest penetration:</p>",
+              "options": [
+                "$\\alpha$",
+                "$\\beta$",
+                "$\\gamma$",
+                "X-ray"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Critical mass refers to:</p>",
+              "options": [
+                "Mass of nucleus",
+                "Minimum mass for chain reaction",
+                "Mass equivalent to energy",
+                "Reactor mass"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The fusion reaction primarily powers:</p>",
+              "options": [
+                "Reactors",
+                "Sun",
+                "Atomic bombs",
+                "Geothermal"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-phys-atoms-and-nuclei-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>The ratio of speeds of electron in 1st orbits of H and He$^+$:</p>",
+              "options": [
+                "$1:1$",
+                "$1:2$",
+                "$2:1$",
+                "$1:4$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The ratio of areas of 2nd and 3rd Bohr orbits:</p>",
+              "options": [
+                "$4:9$",
+                "$16:81$",
+                "$2:3$",
+                "$9:16$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The energy required to ionize He$^+$ from ground state:</p>",
+              "options": [
+                "$13.6$ eV",
+                "$54.4$ eV",
+                "$27.2$ eV",
+                "$6.8$ eV"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A radioactive sample has half-life $5$ days. After $20$ days, $1/N$ remains. $N$ =:</p>",
+              "options": [
+                "$4$",
+                "$8$",
+                "$16$",
+                "$20$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The number of $\\alpha$ and $\\beta^-$ particles released in $^{238}$U to $^{206}$Pb:</p>",
+              "options": [
+                "$8$ alpha, $6$ beta",
+                "$6$ alpha, $8$ beta",
+                "$4$ alpha, $4$ beta",
+                "$8$ alpha, $4$ beta"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The energy released in fusion of $4$ H to $^4$He is approximately:</p>",
+              "options": [
+                "$26.7$ MeV",
+                "$13.6$ eV",
+                "$2.7$ MeV",
+                "$200$ MeV"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The first line of Lyman series of hydrogen has wavelength:</p>",
+              "options": [
+                "$122$ nm",
+                "$656$ nm",
+                "$400$ nm",
+                "$1216$ nm"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The total spectral lines from $n = 6$ to ground in hydrogen:</p>",
+              "options": [
+                "$10$",
+                "$15$",
+                "$20$",
+                "$5$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The nuclear radius of $^{64}$Cu (in fm):</p>",
+              "options": [
+                "$1.2$",
+                "$2.4$",
+                "$4.8$",
+                "$7.7$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Binding energy per nucleon is maximum for:</p>",
+              "options": [
+                "$^2$H",
+                "$^4$He",
+                "$^{56}$Fe",
+                "$^{238}$U"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Number of spectral lines from electron going from $n = 5$ to ground:</p>",
+              "answer": "10",
+              "explanation": ""
+            },
+            {
+              "q": "<p>The ratio of radii of $^{27}$Al and $^{1}$H nuclei (use $27^{1/3} = 3$):</p>",
+              "answer": "3",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Activity reduces from $1000$ Bq to $125$ Bq in $9$ hours. Half life in hours:</p>",
+              "answer": "3",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Energy is released in both fission of heavy nuclei and fusion of light nuclei. <strong>Reason (R):</strong> Binding energy per nucleon peaks at intermediate $A$, so reactions toward this peak release energy.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> Density of nuclear matter is the same for all nuclei. <strong>Reason (R):</strong> Nuclear radius $R \\propto A^{1/3}$, so volume $\\propto A$.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

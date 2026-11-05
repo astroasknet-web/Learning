@@ -1,0 +1,704 @@
+{
+  "exam": "jee",
+  "subject": "physics",
+  "chapter": 5,
+  "title": "Rotational Motion",
+  "slug": "rotational-motion",
+  "subtitle": "Rotational Motion for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#ef4444",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "Master Rotational Motion for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Rigid Body Rotation Fundamentals",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Torque, Angular Momentum, Centre of Mass",
+          "concept": "<p>A <strong>rigid body</strong> is an idealized system in which the distances between all constituent particles remain fixed. Its motion can always be decomposed into a <strong>translation of the centre of mass (CM)</strong> plus a <strong>rotation about the CM</strong>.</p><p><strong>Centre of Mass</strong> of a system of particles: $$\\vec{r}_{cm} = \\frac{\\sum m_i \\vec{r}_i}{\\sum m_i}$$</p><p>For a continuous body: $$\\vec{r}_{cm} = \\frac{1}{M}\\int \\vec{r}\\,dm$$</p><p><strong>Properties of CM:</strong></p><ul><li>The CM moves as if all the mass were concentrated at that point and all external forces acted on it: $M\\vec{a}_{cm} = \\vec{F}_{\\text{ext}}$.</li><li>Internal forces never affect motion of the CM.</li><li>For symmetric homogeneous bodies, CM lies at the geometric centre.</li></ul><p><strong>Locations of CM for Common Bodies:</strong></p><table class=\"md-table\"><thead><tr><th>Body</th><th>Location of CM</th></tr></thead><tbody><tr><td>Uniform rod (length $L$)</td><td>At centre</td></tr><tr><td>Uniform triangular lamina</td><td>At centroid (intersection of medians, $1/3$ from base)</td></tr><tr><td>Uniform semicircular ring of radius $R$</td><td>At $2R/\\pi$ from centre, along diameter</td></tr><tr><td>Uniform semicircular disc</td><td>At $4R/(3\\pi)$ from centre</td></tr><tr><td>Uniform solid hemisphere</td><td>At $3R/8$ from centre</td></tr><tr><td>Uniform hollow hemisphere</td><td>At $R/2$ from centre</td></tr><tr><td>Solid cone (height $h$)</td><td>At $h/4$ from base on axis</td></tr><tr><td>Hollow cone</td><td>At $h/3$ from base on axis</td></tr></tbody></table><p><strong>Torque (Moment of Force):</strong> The rotational analogue of force: $$\\vec{\\tau} = \\vec{r} \\times \\vec{F}$$ where $\\vec{r}$ is the position vector of the point of application relative to the reference axis. Magnitude: $\\tau = rF\\sin\\theta = F \\cdot d$, where $d = r\\sin\\theta$ is the <strong>moment arm</strong> (perpendicular distance from axis to line of action of force). SI unit: N·m. Direction: by right-hand rule.</p><p><strong>Angular Momentum:</strong> The rotational analogue of linear momentum: $$\\vec{L} = \\vec{r} \\times \\vec{p} = m(\\vec{r} \\times \\vec{v})$$ For a rigid body rotating with angular velocity $\\vec{\\omega}$ about a fixed axis: $$L = I\\omega$$ where $I$ is the moment of inertia. SI unit of $L$: kg·m²/s.</p><p><strong>Newton's Second Law for Rotation:</strong> $$\\vec{\\tau}_{\\text{ext}} = \\frac{d\\vec{L}}{dt}$$</p><p>For a body rotating about a fixed axis with constant moment of inertia: $\\tau = I\\alpha$, where $\\alpha = d\\omega/dt$ is angular acceleration.</p><p><strong>Conservation of Angular Momentum:</strong> If $\\vec{\\tau}_{\\text{ext}} = 0$, then $\\vec{L}$ is conserved. A classic example: a spinning skater pulls in her arms, decreasing $I$, so $\\omega$ increases to keep $L = I\\omega$ constant.</p><p><strong>Couple:</strong> A pair of equal and opposite forces with non-collinear lines of action. Net force is zero; net torque is non-zero, equal to (force) × (perpendicular distance between lines).</p><p><strong>Equilibrium of a Rigid Body</strong> requires: $$\\sum \\vec{F}_{\\text{ext}} = 0 \\quad \\text{(translational equilibrium)}$$ $$\\sum \\vec{\\tau}_{\\text{ext}} = 0 \\quad \\text{(rotational equilibrium)}$$ Both must hold; either alone is insufficient.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the centre of mass of three particles of masses $1$ kg, $2$ kg, and $3$ kg placed at $(0,0)$, $(4,0)$, $(0,6)$ respectively.</p>",
+              "solution": "<p>$$x_{cm} = \\frac{1 \\times 0 + 2 \\times 4 + 3 \\times 0}{1+2+3} = \\frac{8}{6} = \\frac{4}{3}$$ $$y_{cm} = \\frac{1 \\times 0 + 2 \\times 0 + 3 \\times 6}{6} = \\frac{18}{6} = 3$$</p><p><strong>Final Answer:</strong> $\\vec{r}_{cm} = (4/3, 3)$ m.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A uniform rod of length $1$ m and mass $2$ kg is pivoted at one end. A force of $10$ N is applied perpendicular to the rod at the other end. Find the angular acceleration. (Moment of inertia of rod about end = $ML^2/3$.)</p>",
+              "solution": "<p>$I = ML^2/3 = 2 \\times 1^2/3 = 2/3 \\text{ kg·m}^2$. $\\tau = F \\cdot L = 10 \\times 1 = 10$ N·m. $$\\alpha = \\tau/I = 10/(2/3) = 15 \\text{ rad/s}^2$$</p><p><strong>Final Answer:</strong> $\\alpha = 15 \\text{ rad/s}^2$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>A particle of mass $0.5$ kg moves in a circle of radius $2$ m with constant speed $4$ m/s. Find its angular momentum about the centre.</p>",
+              "solution": "<p>$L = mvr = 0.5 \\times 4 \\times 2 = 4 \\text{ kg·m}^2/\\text{s}$</p><p><strong>Final Answer:</strong> $L = 4 \\text{ kg·m}^2/\\text{s}$, directed perpendicular to the plane of motion (right-hand rule).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The CM of a uniform semicircular disc of radius $R$ lies at:</p>",
+              "options": [
+                "$R/2$",
+                "$2R/\\pi$",
+                "$4R/(3\\pi)$",
+                "$R/\\pi$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The torque on a body is zero. Hence:</p>",
+              "options": [
+                "Net force is zero",
+                "Angular momentum is constant",
+                "Linear momentum is zero",
+                "Body is at rest"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A particle moving in a straight line with constant velocity has, about any point not on its line of motion:</p>",
+              "options": [
+                "Zero angular momentum",
+                "Constant angular momentum",
+                "Increasing angular momentum",
+                "Decreasing angular momentum"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>SI unit of torque is:</p>",
+              "options": [
+                "N",
+                "N·m",
+                "kg·m²",
+                "J/s"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A uniform rod of mass $m$, length $L$ is pivoted at one end and held horizontally. The initial angular acceleration upon release:</p>",
+              "options": [
+                "$g/L$",
+                "$3g/(2L)$",
+                "$g/(2L)$",
+                "$2g/(3L)$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Moment of Inertia, Parallel and Perpendicular Axis Theorems",
+          "concept": "<p><strong>Moment of Inertia (MI)</strong> is the rotational analogue of mass. For a system of particles about a given axis: $$I = \\sum m_i r_i^2$$ For a continuous rigid body: $$I = \\int r^2 \\,dm$$ where $r$ is the perpendicular distance from the axis. SI unit: kg·m². Dimensions: $[ML^2]$.</p><p><strong>Radius of Gyration ($k$):</strong> $$I = M k^2 \\implies k = \\sqrt{I/M}$$ The radius at which the entire mass, if concentrated, would have the same MI.</p><p><strong>Moments of Inertia of Common Bodies:</strong></p><table class=\"md-table\"><thead><tr><th>Body & Axis</th><th>MI</th></tr></thead><tbody><tr><td>Thin rod, length $L$, perpendicular axis through CM</td><td>$ML^2/12$</td></tr><tr><td>Thin rod, perpendicular axis through end</td><td>$ML^2/3$</td></tr><tr><td>Circular ring, radius $R$, axis through centre, perpendicular to plane</td><td>$MR^2$</td></tr><tr><td>Circular ring, diameter as axis</td><td>$MR^2/2$</td></tr><tr><td>Circular disc, radius $R$, axis through centre perpendicular to plane</td><td>$MR^2/2$</td></tr><tr><td>Circular disc, diameter as axis</td><td>$MR^2/4$</td></tr><tr><td>Solid sphere, radius $R$, axis through centre (any diameter)</td><td>$2MR^2/5$</td></tr><tr><td>Hollow sphere, axis through centre</td><td>$2MR^2/3$</td></tr><tr><td>Solid cylinder, radius $R$, axis along symmetry</td><td>$MR^2/2$</td></tr><tr><td>Hollow cylinder (thin), axis along symmetry</td><td>$MR^2$</td></tr><tr><td>Solid cylinder, length $L$, perpendicular to symmetry axis through CM</td><td>$M(R^2/4 + L^2/12)$</td></tr><tr><td>Rectangular plate, sides $a, b$, perpendicular axis through CM</td><td>$M(a^2 + b^2)/12$</td></tr></tbody></table><p><strong>Parallel Axis Theorem:</strong> If $I_{cm}$ is the MI about an axis through the CM and $I$ about a parallel axis at distance $d$ away: $$I = I_{cm} + M d^2$$</p><p>This applies to any axis parallel to one through the CM. Useful for finding $I$ about non-central axes.</p><p><strong>Perpendicular Axis Theorem</strong> (for plane laminar bodies only): If $I_x$ and $I_y$ are MIs about two perpendicular axes lying in the plane of the lamina, and $I_z$ is the MI about an axis perpendicular to the lamina through the same point: $$I_z = I_x + I_y$$</p><p><strong>Example application:</strong> For a disc, $I_z = MR^2/2$ (perpendicular to plane). By symmetry $I_x = I_y$, and so $I_x = I_y = MR^2/4$ (diameter).</p><p><strong>Kinetic Energy of Rotation:</strong> $$K_{\\text{rot}} = \\frac{1}{2}I\\omega^2$$ Analogous to $\\frac{1}{2}mv^2$. Total KE of a rigid body in general motion: $$K_{\\text{total}} = \\frac{1}{2}M v_{cm}^2 + \\frac{1}{2}I_{cm}\\omega^2$$</p><p>This is the <strong>König theorem</strong> for rigid bodies.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the MI of a uniform solid sphere of mass $M$, radius $R$ about an axis tangent to its surface.</p>",
+              "solution": "<p>MI about diameter (through CM): $I_{cm} = (2/5)MR^2$. Parallel axis theorem: tangent is parallel to a diameter, at distance $d = R$ from CM: $$I_{\\text{tangent}} = I_{cm} + MR^2 = \\frac{2}{5}MR^2 + MR^2 = \\frac{7}{5}MR^2$$</p><p><strong>Final Answer:</strong> $I = (7/5)MR^2$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the MI of a uniform disc of mass $M$, radius $R$ about an axis perpendicular to its plane, passing through a point on the rim.</p>",
+              "solution": "<p>$I_{cm} = MR^2/2$ (perpendicular to plane through centre). Point on rim is at distance $R$ from CM. By parallel axis: $$I = MR^2/2 + MR^2 = 3MR^2/2$$</p><p><strong>Final Answer:</strong> $I = 3MR^2/2$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>A uniform rod of length $L$ and mass $M$ is bent into the shape of a semicircle. Find its MI about an axis perpendicular to the plane of the semicircle, passing through its CM.</p>",
+              "solution": "<p>Total length of rod $= L = \\pi R$, so $R = L/\\pi$. The semicircular ring's MI about the centre (perpendicular to plane) equals $MR^2$ (same as full ring of same mass — every element is at distance $R$).</p><p>But the CM of the semicircle is at distance $2R/\\pi$ from the centre, not at the centre. So MI about CM uses parallel axis (reversed): $$I_{cm} = I_{\\text{centre}} - M(2R/\\pi)^2 = MR^2 - \\frac{4MR^2}{\\pi^2} = MR^2\\left(1 - \\frac{4}{\\pi^2}\\right)$$ $$= \\frac{ML^2}{\\pi^2}\\left(1 - \\frac{4}{\\pi^2}\\right)$$</p><p><strong>Final Answer:</strong> $I_{cm} = \\dfrac{ML^2}{\\pi^2}\\left(1 - \\dfrac{4}{\\pi^2}\\right)$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>MI of a solid sphere about its diameter is:</p>",
+              "options": [
+                "$MR^2$",
+                "$MR^2/2$",
+                "$(2/5)MR^2$",
+                "$(2/3)MR^2$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The perpendicular axis theorem applies to:</p>",
+              "options": [
+                "All bodies",
+                "Only plane laminar bodies",
+                "Only spheres",
+                "Only rings"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Radius of gyration of a uniform disc about its central perpendicular axis ($R$ = radius of disc):</p>",
+              "options": [
+                "$R$",
+                "$R/2$",
+                "$R/\\sqrt{2}$",
+                "$2R$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The MI of a hollow sphere about a diameter is:</p>",
+              "options": [
+                "$MR^2/2$",
+                "$2MR^2/5$",
+                "$2MR^2/3$",
+                "$MR^2$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two discs of same mass but different radii $R$ and $2R$ have MIs about perpendicular central axes. Their ratio:</p>",
+              "options": [
+                "$1:4$",
+                "$4:1$",
+                "$1:2$",
+                "$2:1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Dynamics of Rotation and Rolling",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Rotational Equations of Motion and Conservation Laws",
+          "concept": "<p><strong>Rotational Kinematics:</strong> For a rigid body rotating about a fixed axis with constant angular acceleration $\\alpha$, the equations parallel linear motion:</p><table class=\"md-table\"><thead><tr><th>Linear</th><th>Rotational</th></tr></thead><tbody><tr><td>$v = u + at$</td><td>$\\omega = \\omega_0 + \\alpha t$</td></tr><tr><td>$s = ut + \\frac{1}{2}at^2$</td><td>$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$</td></tr><tr><td>$v^2 = u^2 + 2as$</td><td>$\\omega^2 = \\omega_0^2 + 2\\alpha\\theta$</td></tr><tr><td>$a = dv/dt$</td><td>$\\alpha = d\\omega/dt$</td></tr></tbody></table><p>Relations between linear and angular quantities for a point at distance $r$ from axis: $v = \\omega r$, $a_t = \\alpha r$ (tangential), $a_c = \\omega^2 r$ (centripetal).</p><p><strong>Dynamics:</strong> $$\\tau = I\\alpha, \\quad K_{\\text{rot}} = \\frac{1}{2}I\\omega^2, \\quad L = I\\omega$$ Power delivered by torque: $P = \\tau\\omega$. Work by torque: $W = \\int \\tau\\,d\\theta$.</p><p><strong>Work-Energy Theorem for Rotation:</strong> $$W_{\\text{net}} = \\Delta K_{\\text{rot}} = \\frac{1}{2}I\\omega_f^2 - \\frac{1}{2}I\\omega_0^2$$</p><p><strong>Conservation of Angular Momentum:</strong> Holds when net external torque is zero. Important applications:</p><ul><li><strong>Ice skater pulling in arms:</strong> $I_1 \\omega_1 = I_2 \\omega_2$; smaller $I$ means larger $\\omega$.</li><li><strong>Diving and gymnastics:</strong> athletes tuck to spin faster.</li><li><strong>Neutron stars:</strong> collapse from large stars conserves $L$, leading to extremely high $\\omega$ (millisecond pulsars).</li><li><strong>Spinning top precession:</strong> gravitational torque on a tilted top causes the spin axis to trace a cone (gyroscopic precession).</li></ul><p><strong>Comparison of Translation vs Rotation:</strong></p><table class=\"md-table\"><thead><tr><th>Translation</th><th>Rotation</th></tr></thead><tbody><tr><td>Mass $m$</td><td>Moment of inertia $I$</td></tr><tr><td>Velocity $\\vec{v}$</td><td>Angular velocity $\\vec{\\omega}$</td></tr><tr><td>Acceleration $\\vec{a}$</td><td>Angular acceleration $\\vec{\\alpha}$</td></tr><tr><td>Force $\\vec{F}$</td><td>Torque $\\vec{\\tau}$</td></tr><tr><td>Linear momentum $\\vec{p}=m\\vec{v}$</td><td>Angular momentum $\\vec{L} = I\\vec{\\omega}$</td></tr><tr><td>$\\vec{F} = m\\vec{a}$</td><td>$\\vec{\\tau} = I\\vec{\\alpha}$</td></tr><tr><td>Kinetic energy $\\frac{1}{2}mv^2$</td><td>Kinetic energy $\\frac{1}{2}I\\omega^2$</td></tr><tr><td>Work $W = Fs$</td><td>Work $W = \\tau\\theta$</td></tr><tr><td>Power $P = Fv$</td><td>Power $P = \\tau\\omega$</td></tr></tbody></table>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A wheel of MI $0.5$ kg·m² is rotating at $20$ rad/s. A constant retarding torque of $1$ N·m brings it to rest. Find (a) angular deceleration, (b) time to stop, (c) angle turned.</p>",
+              "solution": "<p>(a) $\\alpha = -\\tau/I = -1/0.5 = -2 \\text{ rad/s}^2$. (b) $0 = 20 + (-2)t \\implies t = 10$ s. (c) $\\theta = \\omega_0^2/(2|\\alpha|) = 400/4 = 100$ rad.</p><p><strong>Final Answer:</strong> $\\alpha = -2 \\text{ rad/s}^2$; $t = 10$ s; $\\theta = 100$ rad.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A skater is spinning at $4$ rad/s with arms extended (MI $= 2$ kg·m²). She pulls in her arms to reduce MI to $0.5$ kg·m². Find her new angular velocity.</p>",
+              "solution": "<p>No external torque, so $L$ conserved: $I_1 \\omega_1 = I_2 \\omega_2$. $$\\omega_2 = \\frac{2 \\times 4}{0.5} = 16 \\text{ rad/s}$$</p><p><strong>Final Answer:</strong> $\\omega_2 = 16$ rad/s.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>A torque of $20$ N·m acts on a wheel of MI $5$ kg·m² for $4$ s, starting from rest. Find (a) the final angular velocity, (b) the kinetic energy gained.</p>",
+              "solution": "<p>(a) $\\alpha = \\tau/I = 20/5 = 4 \\text{ rad/s}^2$. $\\omega = \\alpha t = 4 \\times 4 = 16$ rad/s. (b) $K = \\frac{1}{2}I\\omega^2 = \\frac{1}{2}(5)(16)^2 = 640$ J.</p><p><strong>Final Answer:</strong> $\\omega = 16$ rad/s; $K = 640$ J.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>A wheel makes $30$ revolutions in $5$ s, starting from rest under constant angular acceleration. Angular acceleration:</p>",
+              "options": [
+                "$4\\pi \\text{ rad/s}^2$",
+                "$6\\pi \\text{ rad/s}^2$",
+                "$2.4\\pi \\text{ rad/s}^2$",
+                "$12\\pi \\text{ rad/s}^2$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Rotational analogue of force is:</p>",
+              "options": [
+                "Mass",
+                "Torque",
+                "Momentum",
+                "Velocity"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A disc and a ring (same mass, same radius) are released from rest on identical inclines. The one that reaches the bottom first:</p>",
+              "options": [
+                "Disc",
+                "Ring",
+                "Both same",
+                "Depends on incline angle"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A spinning skater pulls in her arms. Her KE:</p>",
+              "options": [
+                "Decreases",
+                "Increases",
+                "Remains same",
+                "First decreases, then increases"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The KE of a flywheel of MI $2$ kg·m² rotating at $4$ rad/s:</p>",
+              "options": [
+                "$8$ J",
+                "$16$ J",
+                "$32$ J",
+                "$4$ J"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Rolling Motion, Combined Translation and Rotation",
+          "concept": "<p><strong>Pure Rolling</strong> (rolling without slipping): The contact point of the rolling body is instantaneously at rest relative to the surface. The velocity of CM and angular velocity are related by: $$v_{cm} = \\omega R$$ Differentiating: $a_{cm} = \\alpha R$ (assuming $R$ constant).</p><p><strong>Kinetic Energy of a Rolling Body:</strong> $$K = K_{\\text{trans}} + K_{\\text{rot}} = \\frac{1}{2}M v_{cm}^2 + \\frac{1}{2}I_{cm}\\omega^2 = \\frac{1}{2}M v^2\\left(1 + \\frac{I_{cm}}{MR^2}\\right)$$</p><p>Define the <strong>MI parameter</strong> $\\beta = I_{cm}/(MR^2)$, which depends on the body's shape:</p><ul><li>Solid sphere: $\\beta = 2/5$</li><li>Hollow sphere: $\\beta = 2/3$</li><li>Solid cylinder/disc: $\\beta = 1/2$</li><li>Hollow cylinder/ring: $\\beta = 1$</li></ul><p>Then $K = \\frac{1}{2}Mv^2(1 + \\beta)$.</p><p><strong>Velocity Distribution in a Rolling Body:</strong> Combining translation $v_{cm}\\hat{i}$ and rotation $\\omega = v_{cm}/R$:</p><ul><li>Top point: $v_{\\text{top}} = v_{cm} + \\omega R = 2v_{cm}$</li><li>Bottom (contact): $v_{\\text{bottom}} = v_{cm} - \\omega R = 0$</li><li>Centre: $v_{cm}$</li></ul><p><strong>Rolling on an Inclined Plane (smooth rolling, no slipping):</strong></p><p>For a body of radius $R$, mass $M$, MI parameter $\\beta$, on incline angle $\\theta$: $$a = \\frac{g\\sin\\theta}{1 + \\beta}$$</p><p>By energy conservation (descending height $h$): $$\\frac{1}{2}Mv^2(1+\\beta) = Mgh \\implies v = \\sqrt{\\frac{2gh}{1+\\beta}}$$</p><p><strong>Hierarchy of Rolling Speeds on Incline:</strong> Same height, smaller $\\beta$ means greater final velocity:</p><ul><li>Solid sphere fastest (β = 2/5)</li><li>Solid disc</li><li>Hollow sphere</li><li>Ring slowest (β = 1)</li></ul><p><strong>Friction in Pure Rolling:</strong> For rolling without slipping on an incline, static friction acts at the contact point (no kinetic friction since contact point is at rest). The minimum coefficient of friction needed for pure rolling down an incline: $$\\mu_{\\min} = \\frac{\\beta \\tan\\theta}{1 + \\beta}$$</p><p>If $\\mu < \\mu_{\\min}$, the body slips while rolling (kinetic friction acts) and energy is dissipated.</p><p><strong>Slipping vs Rolling:</strong></p><ul><li>Slipping: $v_{cm} > \\omega R$ or $v_{cm} < \\omega R$. Slip velocity at contact point is non-zero. Kinetic friction acts opposing slip.</li><li>Pure rolling: $v_{cm} = \\omega R$. Static friction (may be zero or non-zero).</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A solid sphere rolls down an incline of angle $30^\\circ$ without slipping. Find its acceleration. ($g = 10 \\text{ m/s}^2$.)</p>",
+              "solution": "<p>$\\beta = 2/5$. So: $$a = \\frac{g\\sin\\theta}{1 + 2/5} = \\frac{10 \\times 0.5}{7/5} = \\frac{5 \\times 5}{7} = \\frac{25}{7} \\approx 3.57 \\text{ m/s}^2$$</p><p><strong>Final Answer:</strong> $a = 25/7 \\approx 3.57 \\text{ m/s}^2$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A solid disc of radius $0.5$ m is rolling on a horizontal surface with $v_{cm} = 4$ m/s. Find the velocity of the highest point.</p>",
+              "solution": "<p>$\\omega = v_{cm}/R = 4/0.5 = 8$ rad/s.</p><p>Velocity of top = $v_{cm} + \\omega R = 4 + 8 \\times 0.5 = 4 + 4 = 8$ m/s.</p><p><strong>Final Answer:</strong> $v_{\\text{top}} = 8$ m/s.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>A hollow sphere of mass $M$ rolls down from rest from a height $h$ on an incline. Find its velocity at the bottom.</p>",
+              "solution": "<p>$\\beta = 2/3$ for hollow sphere. $$v = \\sqrt{\\frac{2gh}{1+\\beta}} = \\sqrt{\\frac{2gh}{5/3}} = \\sqrt{\\frac{6gh}{5}}$$</p><p><strong>Final Answer:</strong> $v = \\sqrt{6gh/5}$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>A solid sphere rolls without slipping. The fraction of total KE that is rotational:</p>",
+              "options": [
+                "$1/7$",
+                "$2/7$",
+                "$5/7$",
+                "$1/2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A disc and a ring of same mass and radius are released from the top of identical inclines. They roll down without slipping. Which reaches first?</p>",
+              "options": [
+                "Ring",
+                "Disc",
+                "Both same",
+                "Depends on radius"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The velocity of the contact point of a wheel rolling without slipping is:</p>",
+              "options": [
+                "$v_{cm}$",
+                "$2v_{cm}$",
+                "Zero",
+                "$\\omega R$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A solid cylinder of MI = $MR^2/2$ rolls without slipping down a slope of $\\sin\\theta = 0.6$. Acceleration ($g = 10$):</p>",
+              "options": [
+                "$4 \\text{ m/s}^2$",
+                "$3 \\text{ m/s}^2$",
+                "$6 \\text{ m/s}^2$",
+                "$2 \\text{ m/s}^2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A ball is given initial velocity $v_0$ and zero angular velocity on a rough surface. After some time:</p>",
+              "options": [
+                "It will keep slipping forever",
+                "Pure rolling will begin",
+                "It will reverse direction",
+                "Friction will be zero throughout"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-phys-rotational-motion-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>The MI of a uniform rod of mass $M$ and length $L$ about an axis perpendicular through its centre is:</p>",
+              "options": [
+                "$ML^2/3$",
+                "$ML^2/12$",
+                "$ML^2/6$",
+                "$ML^2/4$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A solid cylinder rolls without slipping with KE $30$ J. Its translational KE is:</p>",
+              "options": [
+                "$10$ J",
+                "$15$ J",
+                "$20$ J",
+                "$25$ J"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The angular momentum of a particle moving along a straight line with constant velocity, about a point not on the line:</p>",
+              "options": [
+                "Increases",
+                "Decreases",
+                "Is zero",
+                "Remains constant"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The radius of gyration of a uniform rod about a perpendicular axis through its end is:</p>",
+              "options": [
+                "$L/2$",
+                "$L/\\sqrt{3}$",
+                "$L/\\sqrt{12}$",
+                "$L$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A wheel of MI $4$ kg·m² is subjected to a torque of $10$ N·m for $4$ s. The change in angular velocity:</p>",
+              "options": [
+                "$4$ rad/s",
+                "$10$ rad/s",
+                "$16$ rad/s",
+                "$40$ rad/s"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The angular momentum of a system is conserved when:</p>",
+              "options": [
+                "No external force acts",
+                "No external torque acts",
+                "The system has internal forces",
+                "Particles do not interact"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A solid sphere and a hollow sphere of same mass and radius roll without slipping. Ratio of their KE for same $v_{cm}$:</p>",
+              "options": [
+                "$7:5$",
+                "$5:7$",
+                "$7:9$",
+                "$9:7$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The MI of a thin ring about a diameter is:</p>",
+              "options": [
+                "$MR^2$",
+                "$MR^2/2$",
+                "$MR^2/4$",
+                "$2MR^2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two particles of equal masses $m$ are at $(0, 0)$ and $(a, 0)$. Position of CM:</p>",
+              "options": [
+                "$(a/2, 0)$",
+                "$(a, 0)$",
+                "$(0, 0)$",
+                "$(2a, 0)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A pulley of MI $2$ kg·m² and radius $0.1$ m has a string with a $1$ kg mass attached. Acceleration of the mass ($g = 10$):</p>",
+              "options": [
+                "$4.55 \\text{ m/s}^2$",
+                "$9 \\text{ m/s}^2$",
+                "$0.5 \\text{ m/s}^2$",
+                "$0.0495 \\text{ m/s}^2$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>A wheel rotating at $300$ rpm slows to $60$ rpm uniformly in $20$ s. Angular deceleration in rad/s² (rounded):</p>",
+              "answer": "1",
+              "explanation": ""
+            },
+            {
+              "q": "<p>A solid sphere rolls down an incline of $\\sin\\theta = 0.7$. Acceleration (m/s², $g = 10$, rounded):</p>",
+              "answer": "5",
+              "explanation": ""
+            },
+            {
+              "q": "<p>A disc of mass $1$ kg, radius $0.2$ m rotates at $10$ rad/s. Its angular momentum (in $10^{-2}$ kg·m²/s units):</p>",
+              "answer": "20",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> When a planet revolves around the sun, its angular momentum is conserved. <strong>Reason (R):</strong> The gravitational force on the planet acts along the radial direction; hence torque is zero.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> Rolling friction is less than sliding friction. <strong>Reason (R):</strong> A body rolling on a surface has its contact point instantaneously at rest.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": "-."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-phys-rotational-motion-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>A uniform rod of length $L$, mass $M$ is hinged at one end and free to swing in a vertical plane. The maximum angular velocity (when rod swings to vertical) starting from horizontal:</p>",
+              "options": [
+                "$\\sqrt{g/L}$",
+                "$\\sqrt{2g/L}$",
+                "$\\sqrt{3g/L}$",
+                "$\\sqrt{6g/L}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two discs of MI $I_1$ and $I_2$ rotating with $\\omega_1$ and $\\omega_2$ are brought into contact face to face along their axes. The common angular velocity:</p>",
+              "options": [
+                "$(\\omega_1 + \\omega_2)/2$",
+                "$(I_1\\omega_1 + I_2\\omega_2)/(I_1+I_2)$",
+                "$(I_1\\omega_1 - I_2\\omega_2)/(I_1+I_2)$",
+                "$\\omega_1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A circular disc rolls without slipping. The ratio of translational KE to rotational KE:</p>",
+              "options": [
+                "$1:1$",
+                "$2:1$",
+                "$1:2$",
+                "$3:1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A solid sphere of $M, R$ rolls without slipping on a horizontal surface, hits a step of height $R/4$. Minimum $v$ to climb step ($g$ = gravity):</p>",
+              "options": [
+                "$\\sqrt{0.5gR}$",
+                "$\\sqrt{0.7gR}$",
+                "$\\sqrt{gR}$",
+                "$\\sqrt{1.4gR}$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A solid sphere is initially at rest on a rough horizontal surface. A horizontal impulse is applied at height $h$ above the centre. For the sphere to undergo pure rolling without slipping, $h$ should be:</p>",
+              "options": [
+                "$R/5$",
+                "$2R/5$",
+                "$3R/5$",
+                "$2R/7$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A particle moves in a circle. Its angular momentum about the centre changes if:</p>",
+              "options": [
+                "Speed increases",
+                "Centripetal force changes",
+                "Radius changes",
+                "None of the above"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A wheel of moment of inertia $I$ and radius $r$ has been mounted on a horizontal axle. A string is wound on it and a mass $m$ hangs from it. The angular acceleration:</p>",
+              "options": [
+                "$g/r$",
+                "$mgr/I$",
+                "$mgr/(I + mr^2)$",
+                "$mr^2 g/(I + mr^2)$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A flywheel of mass $5$ kg, radius $0.2$ m rotates at $40$ rad/s. Power developed to keep it rotating against friction torque of $0.2$ N·m:</p>",
+              "options": [
+                "$4$ W",
+                "$8$ W",
+                "$16$ W",
+                "$40$ W"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The angular momentum about origin of a particle of mass $1$ kg at $(2, 3, 0)$ m moving with velocity $(4, 0, 0)$ m/s is:</p>",
+              "options": [
+                "$-12 \\hat{k}$",
+                "$12 \\hat{k}$",
+                "$-12 \\hat{j}$",
+                "$-8 \\hat{k}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The MI of a uniform rectangular plate of mass $M$, sides $a$ and $b$ about a perpendicular axis through its centre is:</p>",
+              "options": [
+                "$M(a^2 + b^2)/3$",
+                "$M(a^2 + b^2)/6$",
+                "$M(a^2 + b^2)/12$",
+                "$M(a^2 - b^2)/12$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>A solid sphere of mass $2$ kg, radius $0.1$ m rotates at $20$ rad/s. Its rotational KE (J):</p>",
+              "answer": "0",
+              "explanation": ""
+            },
+            {
+              "q": "<p>A wheel of $I = 0.5$ kg·m² accelerates from rest at $4$ rad/s². Number of revolutions in $5$ s (rounded):</p>",
+              "answer": "8",
+              "explanation": ""
+            },
+            {
+              "q": "<p>A ring of radius $0.5$ m, mass $2$ kg rolls without slipping at $2$ m/s. Total KE (J):</p>",
+              "answer": "8",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> A spinning skater rotates faster when she pulls in her arms. <strong>Reason (R):</strong> Her angular momentum increases.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> For a body rolling without slipping, kinetic friction does no work. <strong>Reason (R):</strong> The contact point of the rolling body is instantaneously at rest, so kinetic friction does no displacement.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

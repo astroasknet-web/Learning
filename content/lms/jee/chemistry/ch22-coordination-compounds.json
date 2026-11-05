@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": 22,
+  "title": "Coordination Compounds",
+  "slug": "coordination-compounds",
+  "subtitle": "Coordination Compounds for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#14b8a6",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "Master Coordination Compounds for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Nomenclature and Bonding",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Ligands, Coordination Number, IUPAC Nomenclature",
+          "concept": "<p><strong>Coordination Compound:</strong> Compound where a central metal atom/ion is bonded to surrounding species (ligands) via coordinate bonds.</p><p>Example: $K_4[Fe(CN)_6]$ (potassium ferrocyanide); $[Cu(NH_3)_4]SO_4$.</p><p><strong>Terminology:</strong></p><ul><li><strong>Coordination entity:</strong> $[Fe(CN)_6]^{4-}$ — the part in square brackets</li><li><strong>Central metal atom/ion:</strong> Fe in $[Fe(CN)_6]^{4-}$</li><li><strong>Ligands:</strong> Molecules/ions bonded to metal (donating electron pairs)</li><li><strong>Coordination sphere:</strong> Inside square brackets</li><li><strong>Counter ion:</strong> Outside square brackets (K⁺ in $K_4[Fe(CN)_6]$)</li><li><strong>Coordination number (CN):</strong> Number of donor atoms attached to metal</li></ul><p><strong>Types of Ligands:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Description</th><th>Examples</th></tr></thead><tbody><tr><td><strong>Monodentate</strong></td><td>One donor atom</td><td>$H_2O$ (aqua), $NH_3$ (ammine), $CN^-$ (cyano), $Cl^-$ (chloro), $CO$ (carbonyl)</td></tr><tr><td><strong>Bidentate</strong></td><td>Two donor atoms</td><td>Ethylenediamine (en, $NH_2CH_2CH_2NH_2$), oxalate ($C_2O_4^{2-}$)</td></tr><tr><td><strong>Polydentate</strong></td><td>Multiple donor atoms</td><td>EDTA (hexadentate), DMG (bidentate)</td></tr><tr><td><strong>Ambidentate</strong></td><td>Can bind through different atoms</td><td>$-NO_2$ (nitro, via N) vs $-ONO$ (nitrito, via O); $-SCN$ (thiocyanato-S) vs $-NCS$ (thiocyanato-N or isothiocyanato)</td></tr><tr><td><strong>Chelating</strong></td><td>Bidentate or polydentate forming ring</td><td>en, ox, EDTA</td></tr></tbody></table><p><strong>Coordination Numbers:</strong> Common: 2, 4, 6. Less common: 3, 5, 7, 8.</p><table class=\"md-table\"><thead><tr><th>CN</th><th>Geometry</th></tr></thead><tbody><tr><td>2</td><td>Linear</td></tr><tr><td>4</td><td>Tetrahedral OR Square planar</td></tr><tr><td>6</td><td>Octahedral</td></tr></tbody></table><p><strong>IUPAC Nomenclature Rules:</strong></p><ol><li><strong>Cation first, then anion</strong> in name.</li><li>Within complex ion: <strong>ligands alphabetically, then metal</strong>.</li><li>Greek prefixes for multiple identical ligands: di, tri, tetra (for simple); bis, tris, tetrakis (for complex ones like en).</li><li><strong>Anionic ligands</strong> end in <strong>-o</strong>: chloride → chloro, hydroxide → hydroxo, sulfate → sulfato, cyanide → cyano.</li><li><strong>Neutral ligands</strong> keep their name; exceptions: H₂O = aqua, NH₃ = ammine, CO = carbonyl, NO = nitrosyl.</li><li><strong>Cationic ligands</strong> end in -ium: NO⁺ = nitrosylium.</li><li>Oxidation state of metal in <strong>Roman numerals</strong> in parentheses, after metal name.</li><li>If complex is <strong>anionic</strong>, metal name ends in <strong>-ate</strong>: Fe → Ferrate, Cu → Cuprate, Au → Aurate, Ag → Argentate, Pb → Plumbate.</li></ol><p><strong>Examples:</strong></p><table class=\"md-table\"><thead><tr><th>Formula</th><th>IUPAC Name</th></tr></thead><tbody><tr><td>$[Co(NH_3)_6]Cl_3$</td><td>Hexaamminecobalt(III) chloride</td></tr><tr><td>$K_4[Fe(CN)_6]$</td><td>Potassium hexacyanoferrate(II)</td></tr><tr><td>$K_3[Fe(CN)_6]$</td><td>Potassium hexacyanoferrate(III)</td></tr><tr><td>$[Pt(NH_3)_2Cl_2]$</td><td>Diamminedichloroplatinum(II)</td></tr><tr><td>$[Cu(NH_3)_4]SO_4$</td><td>Tetraamminecopper(II) sulfate</td></tr><tr><td>$[Cr(H_2O)_6]Cl_3$</td><td>Hexaaquachromium(III) chloride</td></tr><tr><td>$Na_3[Fe(C_2O_4)_3]$</td><td>Sodium trioxalatoferrate(III)</td></tr><tr><td>$[Pt(en)_2Cl_2]$</td><td>Dichlorobis(ethylenediamine)platinum(IV) (if +4)</td></tr></tbody></table><p><strong>Oxidation State (OS) of Metal:</strong> Calculated from total charge of complex: $OS_M + \\sum OS_{ligands} = $ overall charge of complex.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Name: $[Co(NH_3)_4Cl_2]^+$.</p>",
+              "solution": "<p>Ligands: 4 NH₃ (tetraammine), 2 Cl (dichloro). Alphabetical: ammine before chloro. Total charge: $+1$. Charge on Co: $+1 = x + 4(0) + 2(-1) \\implies x = +3$.</p><p>Name: Tetraamminedichlorocobalt(III) ion.</p><p><strong>Final Answer:</strong> Tetraamminedichlorocobalt(III) ion.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Determine OS of Pt in $K_2[PtCl_6]$.</p>",
+              "solution": "<p>$K^+ \\times 2 = +2$. So $[PtCl_6]$ has charge $-2$. $x + 6(-1) = -2 \\implies x = +4$. Pt is in $+4$ oxidation state.</p><p><strong>Final Answer:</strong> $Pt^{+4}$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Ligand always:</p>",
+              "options": [
+                "Accepts electron pair",
+                "Donates electron pair",
+                "Is neutral",
+                "Is negative"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>EDTA is:</p>",
+              "options": [
+                "Monodentate",
+                "Bidentate",
+                "Hexadentate",
+                "Tetradentate"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Coordination number of Co in $[Co(NH_3)_6]^{3+}$:</p>",
+              "options": [
+                "$3$",
+                "$6$",
+                "$9$",
+                "$12$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Name of $K_3[Fe(CN)_6]$:</p>",
+              "options": [
+                "Potassium ferrocyanide",
+                "Potassium hexacyanoferrate(III)",
+                "Potassium ferrate",
+                "Iron cyanide"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Ambidentate ligand:</p>",
+              "options": [
+                "en",
+                "$H_2O$",
+                "$NO_2^-/ONO^-$",
+                "$NH_3$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Werner's Theory, VBT, Hybridization",
+          "concept": "<p><strong>Werner's Theory (1893):</strong> First explanation of coordination compounds.</p><p><strong>Postulates:</strong></p><ol><li>Metals have <strong>two types of valences</strong>:</li></ol><ul><li><strong>Primary valence (ionizable):</strong> Equivalent to oxidation state; satisfied by anions</li><li><strong>Secondary valence (non-ionizable):</strong> Equivalent to coordination number; satisfied by ligands; fixed for each metal in a given complex</li></ul><ol><li>Primary valences are non-directional; secondary are directional → geometry</li><li>Ligands occupy specific positions around metal at fixed geometry</li></ol><p>For $CoCl_3 \\cdot 6NH_3$:</p><ul><li>Primary valence: $3$ (from $Co^{3+}$)</li><li>Secondary valence: $6$ (from 6 NH₃)</li><li>Structure: $[Co(NH_3)_6]^{3+}\\,3Cl^-$</li><li>All 3 Cl⁻ are ionizable (give AgCl with AgNO₃)</li></ul><p>For $CoCl_3 \\cdot 5NH_3$:</p><ul><li>Structure: $[Co(NH_3)_5Cl]^{2+}\\,2Cl^-$</li><li>Only 2 Cl⁻ ionize (other is in coord. sphere)</li></ul><p>For $CoCl_3 \\cdot 4NH_3$:</p><ul><li>Structure: $[Co(NH_3)_4Cl_2]^+\\,Cl^-$</li><li>Only 1 Cl⁻ ionizes</li></ul><p><strong>Valence Bond Theory (VBT):</strong> Explains shape and magnetic properties.</p><p><strong>Steps:</strong></p><ol><li>Determine OS of metal and electronic configuration of ion</li><li>Identify hybridization of metal orbitals to accept ligand electron pairs</li><li>Predict geometry from hybridization</li></ol><p><strong>Strong vs Weak Field Ligands (for VBT):</strong></p><p><strong>Strong field ligands</strong> (cause pairing of d electrons): $CN^-, CO, en, NH_3, NO_2^-$ <strong>Weak field ligands</strong> (don't cause pairing): $F^-, Cl^-, Br^-, I^-, OH^-, H_2O$ (intermediate sometimes)</p><p><strong>Hybridization-Geometry:</strong></p><table class=\"md-table\"><thead><tr><th>CN</th><th>Hybridization</th><th>Geometry</th><th>Example</th></tr></thead><tbody><tr><td>2</td><td>$sp$</td><td>Linear</td><td>$[Ag(NH_3)_2]^+$, $[Cu(NH_3)_2]^+$</td></tr><tr><td>4</td><td>$sp^3$</td><td>Tetrahedral</td><td>$[NiCl_4]^{2-}, [Zn(NH_3)_4]^{2+}$</td></tr><tr><td>4</td><td>$dsp^2$</td><td>Square planar</td><td>$[Ni(CN)_4]^{2-}$, $[Pt(NH_3)_2Cl_2]$</td></tr><tr><td>5</td><td>$sp^3d$</td><td>TBP</td><td>$[Fe(CO)_5]$</td></tr><tr><td>6</td><td>$sp^3d^2$ (outer; weak field)</td><td>Octahedral</td><td>$[FeF_6]^{3-}, [Fe(H_2O)_6]^{2+}$</td></tr><tr><td>6</td><td>$d^2sp^3$ (inner; strong field)</td><td>Octahedral</td><td>$[Fe(CN)_6]^{4-}, [Co(NH_3)_6]^{3+}$</td></tr></tbody></table><p><strong>Inner vs Outer Orbital Complex:</strong></p><ul><li><strong>Inner orbital (low spin):</strong> Uses inner $d$ orbitals ($(n-1)d$); requires strong field; pairing of e⁻ occurs.</li><li><strong>Outer orbital (high spin):</strong> Uses outer $d$ orbitals ($nd$); weak field; no pairing.</li></ul><p><strong>Examples:</strong></p><ul><li>$[Fe(CN)_6]^{4-}$: Fe²⁺ ($d^6$). $CN^-$ strong field → pair up → low spin → $d^2sp^3$ → octahedral diamagnetic.</li><li>$[Fe(H_2O)_6]^{2+}$: Fe²⁺ ($d^6$). $H_2O$ weak (for Fe²⁺) → no pairing → high spin → $sp^3d^2$ → octahedral paramagnetic (4 unpaired).</li><li>$[Ni(CN)_4]^{2-}$: Ni²⁺ ($d^8$). $CN^-$ strong → pair to free up $d$ → $dsp^2$ → square planar diamagnetic.</li><li>$[NiCl_4]^{2-}$: Ni²⁺ ($d^8$). $Cl^-$ weak → no pairing → $sp^3$ → tetrahedral paramagnetic.</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Determine hybridization, geometry, magnetic nature of $[Co(NH_3)_6]^{3+}$.</p>",
+              "solution": "<p>Co³⁺ has $d^6$ config: $[Ar]\\,3d^6$. $NH_3$ is strong field → pairing → 0 unpaired e⁻. Inner orbital: 2 inner d + s + 3p = $d^2sp^3$ hybridization. Geometry: octahedral. Diamagnetic (all paired).</p><p><strong>Final Answer:</strong> $d^2sp^3$; octahedral; diamagnetic.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>$[NiCl_4]^{2-}$: predict everything.</p>",
+              "solution": "<p>Ni²⁺: $d^8$. $Cl^-$ weak field → no pairing → 2 unpaired e⁻. Hybridization: $sp^3$ (using outer 4s, 4p). Geometry: tetrahedral. Paramagnetic (2 unpaired).</p><p><strong>Final Answer:</strong> $sp^3$; tetrahedral; paramagnetic.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Werner's primary valence corresponds to:</p>",
+              "options": [
+                "Coordination number",
+                "Oxidation state",
+                "Ligand number",
+                "Charge of complex"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$[Ni(CN)_4]^{2-}$ is:</p>",
+              "options": [
+                "Tetrahedral, paramagnetic",
+                "Square planar, diamagnetic",
+                "Octahedral",
+                "Linear"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Strong field ligand:</p>",
+              "options": [
+                "$H_2O$",
+                "$F^-$",
+                "$CN^-$",
+                "$Cl^-$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Hybridization of $[Fe(CN)_6]^{4-}$:</p>",
+              "options": [
+                "$sp^3$",
+                "$sp^3d^2$",
+                "$d^2sp^3$",
+                "$dsp^2$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>CFT explains:</p>",
+              "options": [
+                "Color and magnetism",
+                "Only color",
+                "Bonding only",
+                "Reactivity"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Isomerism, CFT and Applications",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Isomerism in Coordination Compounds",
+          "concept": "<p><strong>Isomerism:</strong> Compounds with same molecular formula but different structure/properties.</p><p><strong>Structural Isomerism:</strong></p><p><strong>1. Ionization Isomerism:</strong> Same formula, different ions outside coordination sphere.</p><ul><li>$[Co(NH_3)_5SO_4]Br$ vs $[Co(NH_3)_5Br]SO_4$</li><li>First gives Br⁻ (test with AgNO₃ → AgBr), second gives SO₄²⁻ (test with BaCl₂ → BaSO₄).</li></ul><p><strong>2. Hydrate (Solvate) Isomerism:</strong> Water inside vs outside coordination sphere.</p><ul><li>$[Cr(H_2O)_6]Cl_3$ (violet) vs $[Cr(H_2O)_5Cl]Cl_2 \\cdot H_2O$ (blue-green) vs $[Cr(H_2O)_4Cl_2]Cl \\cdot 2H_2O$ (dark green)</li></ul><p><strong>3. Linkage Isomerism:</strong> Ambidentate ligands attached through different atoms.</p><ul><li>$[Co(NH_3)_5(NO_2)]^{2+}$ (nitro, via N) vs $[Co(NH_3)_5(ONO)]^{2+}$ (nitrito, via O)</li><li>$[Co(NH_3)_5(SCN)]^{2+}$ (S-attached) vs $[Co(NH_3)_5(NCS)]^{2+}$ (N-attached)</li></ul><p><strong>4. Coordination Isomerism:</strong> Different metals or distributions in cation and anion.</p><ul><li>$[Co(NH_3)_6][Cr(CN)_6]$ vs $[Cr(NH_3)_6][Co(CN)_6]$</li><li>Requires complex with both cationic and anionic parts.</li></ul><p><strong>Stereoisomerism:</strong></p><p><strong>1. Geometrical (cis-trans) Isomerism:</strong></p><table class=\"md-table\"><thead><tr><th>Geometry</th><th>Cis-trans?</th></tr></thead><tbody><tr><td>Linear (CN 2)</td><td>No</td></tr><tr><td>Tetrahedral</td><td>No (all positions equivalent)</td></tr><tr><td>Square planar</td><td>Yes</td></tr><tr><td>Octahedral</td><td>Yes</td></tr></tbody></table><p><strong>Square planar $[Ma_2b_2]$:</strong></p><ul><li>cis: same groups adjacent (90° apart)</li><li>trans: same groups opposite (180° apart)</li><li>Example: $[Pt(NH_3)_2Cl_2]$ — both cis and trans forms exist; cis is cisplatin (anti-cancer drug)</li></ul><p><strong>Octahedral:</strong></p><ul><li>$[Ma_4b_2]$: cis (b's adjacent) or trans (b's opposite)</li><li>$[Ma_3b_3]$: facial (fac, three a's on triangular face) or meridional (mer, three a's in plane)</li><li>$[M(en)_2Cl_2]$: cis and trans</li></ul><p><strong>2. Optical Isomerism:</strong></p><p>A complex shows optical isomerism if it's <strong>chiral</strong> (non-superimposable on its mirror image).</p><p><strong>Conditions:</strong></p><ul><li>No improper rotation axis (e.g., plane of symmetry, center of symmetry)</li><li>Common in octahedral with bidentate ligands: $[M(en)_3]^{n+}$ has $\\Delta$ (right-handed) and $\\Lambda$ (left-handed) forms.</li></ul><p>Examples:</p><ul><li>$[Co(en)_3]^{3+}$: only optical isomers (no cis-trans)</li><li>cis-$[Co(en)_2Cl_2]^+$: optical isomers exist (chiral)</li><li>trans-$[Co(en)_2Cl_2]^+$: not chiral (has plane of symmetry)</li></ul><p><strong>Tetrahedral with 4 different ligands</strong> can be chiral, but few examples.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>How many geometric isomers does $[Pt(NH_3)_2Cl_2]$ have?</p>",
+              "solution": "<p>Square planar (Pt²⁺ has $d^8$, typically square planar with strong field). $Ma_2b_2$ square planar: 2 isomers (cis with $NH_3$'s adjacent, and trans with them opposite).</p><ul><li><strong>cis-$[Pt(NH_3)_2Cl_2]$:</strong> cisplatin (anti-cancer drug, FDA approved)</li><li><strong>trans-$[Pt(NH_3)_2Cl_2]$:</strong> inactive</li></ul><p><strong>Final Answer:</strong> 2 isomers (cis and trans).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Distinguish ionization isomers $[Co(NH_3)_5SO_4]Br$ vs $[Co(NH_3)_5Br]SO_4$.</p>",
+              "solution": "<p><strong>Test for free Br⁻:</strong> Add AgNO₃ solution.</p><ul><li>$[Co(NH_3)_5SO_4]Br$: Br⁻ outside sphere → reacts → white-yellow AgBr ppt.</li><li>$[Co(NH_3)_5Br]SO_4$: Br⁻ inside sphere → no AgBr.</li></ul><p><strong>Test for free SO₄²⁻:</strong> Add BaCl₂ solution.</p><ul><li>First: no ppt.</li><li>Second: white BaSO₄ ppt.</li></ul><p><strong>Final Answer:</strong> Ionic Br⁻ vs ionic SO₄²⁻; distinguish with AgNO₃ and BaCl₂ tests.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>cisplatin is:</p>",
+              "options": [
+                "trans-$[Pt(NH_3)_2Cl_2]$",
+                "cis-$[Pt(NH_3)_2Cl_2]$",
+                "Octahedral",
+                "Tetrahedral"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Linkage isomerism is observed with:</p>",
+              "options": [
+                "Bidentate ligand",
+                "Ambidentate ligand",
+                "Hexadentate",
+                "None"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$[Cr(H_2O)_6]Cl_3$ and $[Cr(H_2O)_5Cl]Cl_2 \\cdot H_2O$ are:</p>",
+              "options": [
+                "Linkage",
+                "Ionization",
+                "Hydrate (solvate)",
+                "Coordination"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Optical isomers are observed in:</p>",
+              "options": [
+                "trans isomer of $[Co(en)_2Cl_2]^+$ (has plane of symmetry)",
+                "cis isomer of $[Co(en)_2Cl_2]^+$ (chiral)",
+                "$[Co(NH_3)_6]^{3+}$ (Oh, no chirality)",
+                "None"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>fac and mer isomers occur in:</p>",
+              "options": [
+                "$[Ma_2b_4]$",
+                "$[Ma_3b_3]$ octahedral",
+                "Square planar",
+                "Linear"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Crystal Field Theory, Color, Magnetism, Applications",
+          "concept": "<p><strong>Crystal Field Theory (CFT):</strong> Treats ligands as point charges (negative) producing electrostatic field around metal. The field splits $d$-orbitals.</p><p><strong>Octahedral Field:</strong></p><ul><li>5 $d$-orbitals split into:</li><li>$e_g$ set: $d_{x^2-y^2}, d_{z^2}$ (higher energy; lobes point at ligands)</li><li>$t_{2g}$ set: $d_{xy}, d_{yz}, d_{xz}$ (lower energy; lobes between ligands)</li></ul><p><strong>Crystal Field Splitting Energy (CFSE):</strong> $\\Delta_o$ = energy gap between $e_g$ and $t_{2g}$.</p><p>For octahedral:</p><ul><li>$e_g$ at $+0.6\\Delta_o$ above mean</li><li>$t_{2g}$ at $-0.4\\Delta_o$ below mean</li></ul><p>Total CFSE = (electrons in $t_{2g}$)($-0.4\\Delta_o$) + (electrons in $e_g$)($+0.6\\Delta_o$) + (number of pairs caused by strong field)(P), where P = pairing energy.</p><p><strong>Tetrahedral Field:</strong></p><ul><li>5 $d$-orbitals split into:</li><li>$e$ set ($d_{x^2-y^2}, d_{z^2}$): lower energy</li><li>$t_2$ set ($d_{xy}, d_{yz}, d_{xz}$): higher energy</li><li>$\\Delta_t \\approx (4/9)\\Delta_o$ (smaller splitting)</li><li>No low-spin tetrahedral complexes (splitting too small)</li></ul><p><strong>Square Planar:</strong> Similar to octahedral but $z$-axis ligands removed.</p><p><strong>Spectrochemical Series:</strong> Ligands arranged by increasing $\\Delta$: $$I^- < Br^- < S^{2-} < SCN^- < Cl^- < NO_3^- < F^- < OH^- < H_2O < NCS^- < NH_3 < en < NO_2^- < CN^- < CO$$</p><p>(weak field) ←————————————————→ (strong field)</p><p><strong>Spin State for $d^4$ to $d^7$ Octahedral:</strong></p><table class=\"md-table\"><thead><tr><th>$d^n$</th><th>Weak field (high spin)</th><th>Strong field (low spin)</th></tr></thead><tbody><tr><td>$d^4$</td><td>$t_{2g}^3\\,e_g^1$ (4 unpaired)</td><td>$t_{2g}^4$ (2 unpaired)</td></tr><tr><td>$d^5$</td><td>$t_{2g}^3\\,e_g^2$ (5 unpaired)</td><td>$t_{2g}^5$ (1 unpaired)</td></tr><tr><td>$d^6$</td><td>$t_{2g}^4\\,e_g^2$ (4 unpaired)</td><td>$t_{2g}^6$ (0 unpaired, diamagnetic)</td></tr><tr><td>$d^7$</td><td>$t_{2g}^5\\,e_g^2$ (3 unpaired)</td><td>$t_{2g}^6\\,e_g^1$ (1 unpaired)</td></tr></tbody></table><p><strong>Color of Coordination Compounds:</strong></p><ul><li>Complementary to absorbed light (d-d transition)</li><li>$\\Delta_o$ depends on metal, ligand, geometry</li><li>Larger $\\Delta_o$ → higher energy light absorbed → bluer/redder shift</li></ul><p>Examples:</p><ul><li>$[Ti(H_2O)_6]^{3+}$ ($d^1$): absorbs in yellow region → violet color</li><li>$[Cu(H_2O)_4]^{2+}$ ($d^9$): blue</li><li>$[Cu(NH_3)_4]^{2+}$ ($d^9$): deep blue (greater $\\Delta_o$, deeper blue)</li></ul><p><strong>Crystal Field Stabilization Energy (CFSE) Calculations:</strong></p><p>Example: $[Fe(CN)_6]^{4-}$, Fe²⁺ $d^6$ low spin: $t_{2g}^6 e_g^0$. CFSE = $6 \\times (-0.4) \\Delta_o + 0 \\times 0.6 \\Delta_o = -2.4 \\Delta_o$ (extra stability).</p><p><strong>Limitations of CFT:</strong></p><ul><li>Ignores covalent character (ligands treated as pure point charges)</li><li>Cannot explain $\\pi$-bonding (e.g., why CO is a strong field ligand)</li><li>More accurate: Ligand Field Theory (LFT) or MOT</li></ul><p><strong>Applications of Coordination Compounds:</strong></p><table class=\"md-table\"><thead><tr><th>Application</th><th>Compound</th></tr></thead><tbody><tr><td>Cisplatin (anti-cancer)</td><td>cis-$[Pt(NH_3)_2Cl_2]$</td></tr><tr><td>Carrier in biology</td><td>Hemoglobin ($Fe$ porphyrin), chlorophyll ($Mg$ porphyrin), vitamin B12 ($Co$ corrin)</td></tr><tr><td>Photography</td><td>$Na_3[Ag(S_2O_3)_2]$ in fixing</td></tr><tr><td>Water hardness removal</td><td>EDTA complexes Ca²⁺, Mg²⁺</td></tr><tr><td>Electroplating</td><td>$K[Au(CN)_2]$ gold plating; $K[Ag(CN)_2]$ silver</td></tr><tr><td>Catalysis</td><td>Wilkinson's catalyst $[RhCl(PPh_3)_3]$ in hydrogenation</td></tr><tr><td>Qualitative analysis</td><td>$[Fe(SCN)]^{2+}$ deep red (Fe³⁺ test); $[Cu(NH_3)_4]^{2+}$ deep blue (Cu²⁺)</td></tr><tr><td>Estimation of Ni</td><td>DMG + Ni²⁺ → rose-red complex</td></tr></tbody></table>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Calculate CFSE for $[Fe(CN)_6]^{4-}$.</p>",
+              "solution": "<p>Fe²⁺: $d^6$. $CN^-$ is strong field → low spin. Config: $t_{2g}^6\\,e_g^0$. CFSE = $6 \\times (-0.4\\Delta_o) + 0 \\times (+0.6\\Delta_o) = -2.4\\Delta_o$. Plus pairing energy: 2 extra pairs formed compared to free ion (which had 4 unpaired in $d^6$).</p><p><strong>Final Answer:</strong> CFSE = $-2.4\\Delta_o + 2P$ (where P = pairing energy).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is $[Co(NH_3)_6]^{3+}$ diamagnetic but $[CoF_6]^{3-}$ paramagnetic?</p>",
+              "solution": "<p>Both have Co³⁺ ($d^6$). $NH_3$ is strong field → low spin → $t_{2g}^6\\,e_g^0$ → all paired → diamagnetic. $F^-$ is weak field → high spin → $t_{2g}^4\\,e_g^2$ → 4 unpaired → paramagnetic.</p><p><strong>Final Answer:</strong> Different ligand field strength causes different electronic configurations.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>In octahedral field, d orbitals split into:</p>",
+              "options": [
+                "$t_{2g}$ (higher), $e_g$ (lower)",
+                "$e_g$ (higher), $t_{2g}$ (lower)",
+                "Single set",
+                "$d_{z^2}$ alone splits"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Strong field ligand causes:</p>",
+              "options": [
+                "Low spin (pairing)",
+                "High spin",
+                "No change",
+                "Tetrahedral always"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$\\Delta_t$ vs $\\Delta_o$:</p>",
+              "options": [
+                "$\\Delta_t > \\Delta_o$",
+                "$\\Delta_t \\approx (4/9)\\Delta_o$",
+                "Equal",
+                "$\\Delta_t = 0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Color of $[Cu(H_2O)_4]^{2+}$:</p>",
+              "options": [
+                "Colorless",
+                "Light blue",
+                "Deep blue",
+                "Red"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Hemoglobin contains:</p>",
+              "options": [
+                "Mg",
+                "Fe (porphyrin)",
+                "Cu",
+                "Co"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-chem-coordination-compounds-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>EDTA donates how many e⁻ pairs:</p>",
+              "options": [
+                "$2$",
+                "$4$",
+                "$6$",
+                "$8$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Oxidation state of Fe in $[Fe(CN)_6]^{4-}$:</p>",
+              "options": [
+                "$+2$",
+                "$+3$",
+                "$0$",
+                "$+6$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Geometry of $[Ni(CO)_4]$ (Ni in 0 state, $d^{10}$):</p>",
+              "options": [
+                "Square planar",
+                "Tetrahedral",
+                "Octahedral",
+                "Linear"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Werner's secondary valence equals:</p>",
+              "options": [
+                "Coordination number",
+                "Oxidation state",
+                "Atomic number",
+                "Charge of metal"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Hybridization of $[Fe(H_2O)_6]^{2+}$:</p>",
+              "options": [
+                "$sp^3$",
+                "$sp^3d^2$ (high spin, outer)",
+                "$d^2sp^3$",
+                "$dsp^2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Most stable complex (chelate effect):</p>",
+              "options": [
+                "$[Ni(NH_3)_6]^{2+}$",
+                "$[Ni(en)_3]^{2+}$",
+                "Equal",
+                "Variable"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Linkage isomerism:</p>",
+              "options": [
+                "Same formula, different position of group inside sphere",
+                "Ambidentate ligand attached via different donor atom",
+                "Two different ions in coord sphere",
+                "Water of crystallization"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Color of $[Co(NH_3)_6]^{3+}$:</p>",
+              "options": [
+                "Yellow-orange",
+                "Blue",
+                "Green",
+                "Colorless"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Coordination compound used in cancer treatment:</p>",
+              "options": [
+                "trans-$[Pt(NH_3)_2Cl_2]$",
+                "cis-$[Pt(NH_3)_2Cl_2]$ (cisplatin)",
+                "$[Co(NH_3)_6]^{3+}$",
+                "$K_3[Fe(CN)_6]$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>EDTA forms most stable complex with:</p>",
+              "options": [
+                "$Na^+$",
+                "$K^+$",
+                "$Ca^{2+}$",
+                "$Cs^+$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Coordination number in $[Cr(NH_3)_4Cl_2]^+$:</p>",
+              "answer": "6",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Charge on metal in $[Fe(CN)_6]^{3-}$ (Fe oxidation state):</p>",
+              "answer": "3",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of unpaired electrons in $[Mn(H_2O)_6]^{2+}$ (high spin $d^5$):</p>",
+              "answer": "5",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> $[Fe(CN)_6]^{4-}$ is diamagnetic while $[Fe(H_2O)_6]^{2+}$ is paramagnetic. <strong>Reason (R):</strong> $CN^-$ is a strong field ligand causing pairing of d-electrons; $H_2O$ is weak field.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> $[Ni(CN)_4]^{2-}$ is square planar but $[NiCl_4]^{2-}$ is tetrahedral. <strong>Reason (R):</strong> $CN^-$ is strong field forcing $d^8$ to pair, freeing one $d$-orbital for $dsp^2$; $Cl^-$ is weak field, keeping $d^8$ as is, using $sp^3$.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

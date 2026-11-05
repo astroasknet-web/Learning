@@ -1,0 +1,171 @@
+{
+  "exam": "neet",
+  "subject": "physics",
+  "chapter": 1,
+  "title": "Units, Dimensions & Measurement",
+  "slug": "units-dimensions-and-measurement",
+  "subtitle": "SI units, dimensional analysis, errors & significant figures",
+  "level": "NEET (UG)",
+  "color": "#2563eb",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "NEET Physics — Units, Dimensions & Measurement: SI units, dimensional analysis, errors and significant figures with NEET-level solved examples and self-check MCQs. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Measurement, SI Units & Dimensions",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Physical Quantities and the SI System",
+          "concept": "<p>A <strong>physical quantity</strong> is anything we can measure and express as a number together with a unit. Saying a tablet weighs \"500\" means nothing until we add <em>milligram</em> — the unit gives the number its meaning. For NEET, the habit to build early is simple: every numerical answer carries a unit, and a missing or wrong unit usually means a lost mark.</p><p>Quantities are of two kinds. <strong>Fundamental (base) quantities</strong> are chosen by convention and defined independently of one another — length, mass and time are the familiar three. <strong>Derived quantities</strong> are built from these by multiplication or division; speed is length divided by time, density is mass divided by volume. There is nothing absolute about which quantities are \"base\" — it is an agreed choice, and the modern agreement is the <strong>SI system</strong> (Système International).</p><p>SI fixes <strong>seven base units</strong>: the metre (m) for length, kilogram (kg) for mass, second (s) for time, ampere (A) for electric current, kelvin (K) for temperature, mole (mol) for amount of substance and candela (cd) for luminous intensity. Every other unit in physics — newton, joule, pascal, volt — is a combination of these seven. Two dimensionless <strong>supplementary units</strong>, the radian (plane angle) and steradian (solid angle), complete the set.</p><p>Because measured values span an enormous range — from the radius of a nucleus near $10^{-15}$ m to galactic distances near $10^{21}$ m — SI uses <strong>prefixes</strong> as shorthand: nano ($10^{-9}$), micro ($10^{-6}$), milli ($10^{-3}$), kilo ($10^{3}$), mega ($10^{6}$), giga ($10^{9}$). Writing $5\\ \\mu\\text{m}$ is cleaner than $0.000005$ m and far less error-prone. A common NEET trap is mishandling these prefixes during conversion, so always convert to base SI units before substituting into a formula.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Base quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>SI unit</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Symbol</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Length</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>metre</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>m</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Mass</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>kilogram</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>kg</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Time</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>second</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>s</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Electric current</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>ampere</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>A</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Temperature</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>kelvin</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>K</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Amount of substance</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>mole</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>mol</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Luminous intensity</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>candela</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>cd</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Which of the following is <strong>not</strong> an SI base quantity: force, length, temperature, electric current?</p>",
+              "solution": "<p><strong>Force</strong> is not a base quantity. Length, temperature (kelvin) and electric current (ampere) are three of the seven SI base quantities. Force is <em>derived</em>: $F = ma$, so its unit (newton) is built from kg, m and s as $\\text{kg}\\cdot\\text{m}\\cdot\\text{s}^{-2}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Express the diameter of a red blood cell, $7\\ \\mu\\text{m}$, in metres in scientific notation.</p>",
+              "solution": "<p>The prefix micro means $10^{-6}$, so $7\\ \\mu\\text{m} = 7 \\times 10^{-6}\\ \\text{m}$. Always replace a prefix with its power of ten before using a value in any equation.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>How many base units are there in the SI system?</p>", "options": ["5", "6", "7", "9"], "correct": 2, "explanation": "Metre, kilogram, second, ampere, kelvin, mole and candela — seven base units." },
+            { "q": "<p>The SI unit of amount of substance is the:</p>", "options": ["candela", "mole", "kelvin", "ampere"], "correct": 1, "explanation": "Amount of substance is measured in moles (mol)." },
+            { "q": "<p>Which is a derived quantity?</p>", "options": ["Time", "Density", "Mass", "Temperature"], "correct": 1, "explanation": "Density = mass / volume, so it is derived from base quantities." },
+            { "q": "<p>The prefix 'nano' stands for:</p>", "options": ["$10^{-6}$", "$10^{-9}$", "$10^{-12}$", "$10^{9}$"], "correct": 1, "explanation": "Nano = $10^{-9}$; micro = $10^{-6}$; pico = $10^{-12}$." },
+            { "q": "<p>$2.5\\ \\text{km}$ equals how many metres?</p>", "options": ["$25$", "$250$", "$2500$", "$25000$"], "correct": 2, "explanation": "Kilo = $10^{3}$, so $2.5\\ \\text{km} = 2.5 \\times 10^{3} = 2500\\ \\text{m}$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Before substituting into any formula, convert every quantity to base SI units (m, kg, s). Most silly errors in this chapter come from leaving cm, g or km in the working.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Dimensional Formulae and Dimensional Analysis",
+          "concept": "<p>The <strong>dimensions</strong> of a physical quantity tell us how it is built from the base quantities mass [M], length [L] and time [T] (and where needed current [A], temperature [K]). Writing speed as $[\\text{M}^{0}\\text{L}^{1}\\text{T}^{-1}]$ says: speed is independent of mass, varies as the first power of length and inversely with time. This compact statement is the <strong>dimensional formula</strong>, and the equation that links a quantity to its formula is the <strong>dimensional equation</strong>.</p><p>The single most useful rule is the <strong>principle of homogeneity</strong>: every term that is added or equated in a physical equation must have the same dimensions. You cannot add a length to a time any more than you can add rupees to litres. This gives a fast way to <em>check</em> an equation — if the two sides do not match dimensionally, the equation is certainly wrong. For example, in $v = u + at$, each term reduces to $[\\text{LT}^{-1}]$, so the equation is dimensionally consistent.</p><p>Dimensional analysis does three jobs in NEET problems. First, it <strong>checks the correctness</strong> of a formula. Second, it <strong>converts a quantity from one system of units to another</strong> by comparing the number of base units. Third, it lets you <strong>derive a relation</strong> between quantities when you already know which quantities are involved — for instance, guessing that the time period of a simple pendulum depends on length and $g$ leads to $T \\propto \\sqrt{L/g}$.</p><p>Be clear about its <strong>limits</strong>, because NEET likes to test them. Dimensional analysis cannot find pure numbers or dimensionless constants (the $2\\pi$ in the pendulum formula is invisible to it). It fails when a quantity depends on more than three others, and it cannot handle equations with trigonometric, exponential or logarithmic functions — whose arguments must themselves be dimensionless. So treat it as a powerful consistency tool, not a complete derivation method.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Dimensional formula</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>SI unit</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Velocity</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$[\\text{M}^{0}\\text{L}\\text{T}^{-1}]$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>m/s</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Force</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$[\\text{MLT}^{-2}]$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>N</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Work / Energy</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$[\\text{ML}^{2}\\text{T}^{-2}]$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>J</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Power</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$[\\text{ML}^{2}\\text{T}^{-3}]$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>W</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Pressure</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$[\\text{ML}^{-1}\\text{T}^{-2}]$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>Pa</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Check whether the equation $s = ut + \\tfrac{1}{2}at^{2}$ is dimensionally correct.</p>",
+              "solution": "<p>$[s] = [\\text{L}]$. The term $ut$: $[\\text{LT}^{-1}][\\text{T}] = [\\text{L}]$. The term $at^{2}$: $[\\text{LT}^{-2}][\\text{T}^{2}] = [\\text{L}]$. All three terms have dimension $[\\text{L}]$, so the equation is dimensionally consistent. (Note the $\\tfrac{1}{2}$ is dimensionless and invisible to this method.)</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>The dimensional formula of pressure is the same as that of which quantity?</p>",
+              "solution": "<p>Pressure $= $ force / area $= [\\text{MLT}^{-2}]/[\\text{L}^{2}] = [\\text{ML}^{-1}\\text{T}^{-2}]$. This is identical to the dimensions of <strong>energy density</strong> (energy per unit volume): $[\\text{ML}^{2}\\text{T}^{-2}]/[\\text{L}^{3}] = [\\text{ML}^{-1}\\text{T}^{-2}]$. Equal dimensions is a favourite NEET match-the-pair theme.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The dimensional formula of force is:</p>", "options": ["$[\\text{MLT}^{-1}]$", "$[\\text{MLT}^{-2}]$", "$[\\text{ML}^{2}\\text{T}^{-2}]$", "$[\\text{ML}^{-1}\\text{T}^{-2}]$"], "correct": 1, "explanation": "$F = ma = [\\text{M}][\\text{LT}^{-2}] = [\\text{MLT}^{-2}]$." },
+            { "q": "<p>Which pair has the same dimensions?</p>", "options": ["Work and power", "Work and torque", "Force and pressure", "Velocity and acceleration"], "correct": 1, "explanation": "Both work and torque have dimensions $[\\text{ML}^{2}\\text{T}^{-2}]$." },
+            { "q": "<p>The principle of homogeneity is based on the idea that:</p>", "options": ["all constants are dimensionless", "added terms must have the same dimensions", "every formula has a numerical factor", "SI units are fundamental"], "correct": 1, "explanation": "Only quantities with identical dimensions can be added or equated." },
+            { "q": "<p>Dimensional analysis cannot determine:</p>", "options": ["the unit of a quantity", "a dimensionless constant", "dimensional correctness", "conversion factors"], "correct": 1, "explanation": "Pure numbers / dimensionless constants (like $2\\pi$) cannot be found dimensionally." },
+            { "q": "<p>$[\\text{ML}^{2}\\text{T}^{-3}]$ is the dimensional formula of:</p>", "options": ["Energy", "Power", "Force", "Momentum"], "correct": 1, "explanation": "Power = energy / time $= [\\text{ML}^{2}\\text{T}^{-2}]/[\\text{T}] = [\\text{ML}^{2}\\text{T}^{-3}]$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Arguments of $\\sin$, $\\cos$, $e^{x}$ and $\\log$ are always dimensionless. If an exam option puts a quantity with units inside such a function, it is wrong by inspection.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Errors and Significant Figures",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Errors in Measurement",
+          "concept": "<p>No measurement is exact. The difference between a measured value and the true value is the <strong>error</strong>, and a good experimenter does not pretend errors away but estimates and reports them. NEET distinguishes <strong>accuracy</strong> (how close a reading is to the true value) from <strong>precision</strong> (how closely repeated readings agree with one another). A clock that is fast by exactly five minutes is precise but not accurate; scattered readings around the true value are accurate on average but not precise.</p><p>Errors come in three families. <strong>Systematic errors</strong> push readings consistently in one direction — a zero error in a screw gauge, an un-calibrated scale, or a thermometer reading high. They can in principle be found and corrected. <strong>Random errors</strong> arise from unpredictable fluctuations and scatter readings both ways; we reduce them by taking many readings and averaging. <strong>Gross errors</strong> are plain mistakes by the observer, such as misreading a scale, and are removed only by care and repetition.</p><p>To quantify error we use three measures. The <strong>absolute error</strong> of a reading is $|a_{\\text{mean}} - a_i|$, the size of its deviation from the mean. The <strong>mean absolute error</strong> is the average of these deviations and is reported with the result as $a = a_{\\text{mean}} \\pm \\Delta a$. The <strong>relative error</strong> is $\\Delta a / a_{\\text{mean}}$, and multiplying by 100 gives the <strong>percentage error</strong>, the form NEET asks for most often.</p><p>When a result is calculated from several measured quantities, the errors <strong>combine</strong>. For a sum or difference, <em>absolute</em> errors add. For a product or quotient, <em>relative</em> (fractional) errors add. When a quantity is raised to a power, its relative error is multiplied by that power — so in $T = 2\\pi\\sqrt{L/g}$, the relative error in $g$ is twice the relative error in $T$ plus the relative error in $L$. Recognising which rule applies is exactly the skill NEET error questions test.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Operation</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>How errors combine</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>$Z = A + B$ or $A - B$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\Delta Z = \\Delta A + \\Delta B$ (absolute errors add)</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>$Z = AB$ or $A/B$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\dfrac{\\Delta Z}{Z} = \\dfrac{\\Delta A}{A} + \\dfrac{\\Delta B}{B}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>$Z = A^{n}$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\dfrac{\\Delta Z}{Z} = n\\,\\dfrac{\\Delta A}{A}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>The length of a rod is measured as $25.0\\ \\text{cm}$ with an absolute error of $0.1\\ \\text{cm}$. Find the percentage error.</p>",
+              "solution": "<p>Percentage error $= \\dfrac{\\Delta L}{L} \\times 100 = \\dfrac{0.1}{25.0} \\times 100 = 0.4\\%$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>The density of a body is found from $\\rho = m/V$. If the percentage errors in $m$ and $V$ are $2\\%$ and $3\\%$, find the maximum percentage error in $\\rho$.</p>",
+              "solution": "<p>Density is a quotient, so relative errors add: $\\dfrac{\\Delta\\rho}{\\rho} = \\dfrac{\\Delta m}{m} + \\dfrac{\\Delta V}{V} = 2\\% + 3\\% = 5\\%$. The maximum percentage error in density is $5\\%$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>A reading that is consistently 5 units too high shows:</p>", "options": ["random error", "systematic error", "no error", "gross error"], "correct": 1, "explanation": "A consistent one-way shift is a systematic error (e.g., zero error)." },
+            { "q": "<p>Random errors can be reduced by:</p>", "options": ["using a better-calibrated instrument", "taking many readings and averaging", "correcting the zero error", "rounding the answer"], "correct": 1, "explanation": "Averaging many readings reduces random (two-way) scatter." },
+            { "q": "<p>For $Z = A \\times B$, the fractional errors:</p>", "options": ["subtract", "add", "multiply", "stay the same"], "correct": 1, "explanation": "For products and quotients, relative (fractional) errors add." },
+            { "q": "<p>If the percentage error in radius $r$ is $1\\%$, the percentage error in volume $V = \\tfrac{4}{3}\\pi r^{3}$ is:</p>", "options": ["$1\\%$", "$2\\%$", "$3\\%$", "$6\\%$"], "correct": 2, "explanation": "$V \\propto r^{3}$, so error is multiplied by 3: $3 \\times 1\\% = 3\\%$." },
+            { "q": "<p>Precision refers to:</p>", "options": ["closeness to the true value", "agreement among repeated readings", "absence of systematic error", "the number of base units"], "correct": 1, "explanation": "Precision is how closely repeated measurements agree; accuracy is closeness to the true value." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> For a formula like $X = \\dfrac{a^{2}b}{\\sqrt{c}}$, the maximum relative error is $2\\dfrac{\\Delta a}{a} + \\dfrac{\\Delta b}{b} + \\tfrac{1}{2}\\dfrac{\\Delta c}{c}$ — multiply each fractional error by the magnitude of its power and add.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Significant Figures and Rounding Off",
+          "concept": "<p><strong>Significant figures</strong> are the digits in a measurement that are known reliably, plus one last digit that is estimated. They communicate the <em>precision</em> of a reading: writing a length as $2.50$ m claims more precision than $2.5$ m, because the trailing zero is a measured digit, not decoration. NEET expects you to count significant figures correctly and to carry the right number through a calculation.</p><p>The counting rules are worth memorising. <strong>All non-zero digits are significant.</strong> <strong>Zeros between non-zero digits are significant</strong> ($1005$ has four). <strong>Leading zeros are never significant</strong> — they only fix the decimal point, so $0.0032$ has two significant figures. <strong>Trailing zeros after a decimal point are significant</strong> ($2.300$ has four), while trailing zeros in a whole number with no decimal point are ambiguous and best resolved using scientific notation. Indeed, <strong>scientific notation removes all ambiguity</strong>: $4.500 \\times 10^{3}$ unmistakably shows four significant figures.</p><p>When measurements are combined, the result cannot be more precise than the data. In <strong>multiplication and division</strong>, the result keeps as many significant figures as the quantity with the <em>fewest</em>. In <strong>addition and subtraction</strong>, the result keeps as many <em>decimal places</em> as the term with the fewest decimal places. Rounding follows the usual convention — digits below 5 are dropped, 5 or above rounds the previous digit up — and you round only the final answer, never the intermediate steps.</p><p>A closely related idea is the <strong>order of magnitude</strong>: the power of ten nearest to a quantity, found by writing it as $a \\times 10^{b}$ with $1 \\le a < 10$ and rounding $a$ to the nearest power of ten. The order of magnitude of the speed of light, $3 \\times 10^{8}$ m/s, is $10^{8}$. NEET uses order-of-magnitude estimates to test whether you can judge the plausibility of an answer at a glance.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Number</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Significant figures</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Reason</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>$1005$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>4</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>zeros between non-zeros count</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>$0.0032$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>2</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>leading zeros do not count</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>$2.300$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>4</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>trailing zeros after a decimal count</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>$4.5 \\times 10^{3}$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>2</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>scientific notation is unambiguous</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>How many significant figures are in $0.00408$?</p>",
+              "solution": "<p>Leading zeros are not significant; the digits $4$, $0$ and $8$ are. The zero between $4$ and $8$ counts. So there are <strong>three</strong> significant figures.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Add $12.5\\ \\text{cm}$ and $0.045\\ \\text{cm}$ and report to the correct number of decimal places.</p>",
+              "solution": "<p>Raw sum $= 12.545\\ \\text{cm}$. In addition the answer keeps as many decimal places as the least precise term ($12.5$ has one). Rounding to one decimal place gives $\\mathbf{12.5\\ \\text{cm}}$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The number of significant figures in $0.07020$ is:</p>", "options": ["3", "4", "5", "6"], "correct": 1, "explanation": "Leading zeros do not count; 7, 0, 2 and the trailing 0 do — four significant figures." },
+            { "q": "<p>In multiplication, the result has significant figures equal to:</p>", "options": ["the sum of all", "the largest count", "the smallest count", "always three"], "correct": 2, "explanation": "The result keeps the fewest significant figures among the factors." },
+            { "q": "<p>$3.0 \\times 10^{8}$ has how many significant figures?</p>", "options": ["1", "2", "3", "9"], "correct": 1, "explanation": "Only 3 and 0 are significant — two figures; the power of ten is not counted." },
+            { "q": "<p>Rounded to two significant figures, $6.674$ becomes:</p>", "options": ["6.6", "6.7", "6.67", "7.0"], "correct": 1, "explanation": "The third figure is 7 (≥5), so round up: $6.7$." },
+            { "q": "<p>The order of magnitude of $4.7 \\times 10^{6}$ is:</p>", "options": ["$10^{5}$", "$10^{6}$", "$10^{7}$", "$4 \\times 10^{6}$"], "correct": 1, "explanation": "Since $4.7 < 5$ rounds down to $1$, the order of magnitude is $10^{6}$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Round only once, at the very end. Rounding intermediate values and then combining them is a frequent cause of an answer that is one option off the key.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-physics-ch1-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 20,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>Which of the following is a dimensionless quantity?</p>", "options": ["Strain", "Force", "Pressure", "Momentum"], "correct": 0, "explanation": "Strain is a ratio of two lengths, so it has no dimensions." },
+            { "q": "<p>The dimensional formula of momentum is:</p>", "options": ["$[\\text{MLT}^{-1}]$", "$[\\text{MLT}^{-2}]$", "$[\\text{ML}^{2}\\text{T}^{-1}]$", "$[\\text{ML}^{-1}\\text{T}]$"], "correct": 0, "explanation": "Momentum $= mv = [\\text{M}][\\text{LT}^{-1}] = [\\text{MLT}^{-1}]$." },
+            { "q": "<p>$1\\ \\text{femtometre}$ equals:</p>", "options": ["$10^{-9}\\ \\text{m}$", "$10^{-12}\\ \\text{m}$", "$10^{-15}\\ \\text{m}$", "$10^{-6}\\ \\text{m}$"], "correct": 2, "explanation": "Femto = $10^{-15}$." },
+            { "q": "<p>Which quantity has the same dimensions as the Planck constant ($\\text{J}\\cdot\\text{s}$)?</p>", "options": ["Energy", "Angular momentum", "Power", "Force"], "correct": 1, "explanation": "Both Planck's constant and angular momentum have dimensions $[\\text{ML}^{2}\\text{T}^{-1}]$." },
+            { "q": "<p>The percentage error in a measurement of $40.0\\ \\text{cm}$ with absolute error $0.2\\ \\text{cm}$ is:</p>", "options": ["$0.2\\%$", "$0.5\\%$", "$2\\%$", "$5\\%$"], "correct": 1, "explanation": "$\\dfrac{0.2}{40.0}\\times100 = 0.5\\%$." },
+            { "q": "<p>The number of significant figures in $1.20 \\times 10^{-3}$ is:</p>", "options": ["1", "2", "3", "4"], "correct": 2, "explanation": "1, 2 and the trailing 0 are significant — three figures." },
+            { "q": "<p>If $X = a^{2}b^{3}$ and the percentage errors in $a$ and $b$ are $1\\%$ and $2\\%$, the maximum percentage error in $X$ is:</p>", "options": ["$3\\%$", "$5\\%$", "$8\\%$", "$12\\%$"], "correct": 2, "explanation": "$2(1\\%) + 3(2\\%) = 2\\% + 6\\% = 8\\%$." },
+            { "q": "<p>The order of magnitude of $89000$ is:</p>", "options": ["$10^{3}$", "$10^{4}$", "$10^{5}$", "$10^{6}$"], "correct": 2, "explanation": "$89000 = 8.9\\times10^{4}$; since $8.9 \\ge 5$, the order of magnitude is $10^{5}$." },
+            { "q": "<p>Which pair does <strong>not</strong> have the same dimensions?</p>", "options": ["Work and energy", "Impulse and momentum", "Stress and pressure", "Force and work"], "correct": 3, "explanation": "Force $[\\text{MLT}^{-2}]$ and work $[\\text{ML}^{2}\\text{T}^{-2}]$ differ; the other pairs match." },
+            { "q": "<p>Light year is a unit of:</p>", "options": ["time", "distance", "speed", "intensity"], "correct": 1, "explanation": "A light year is the distance light travels in one year — a unit of length." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>Assertion (A):</strong> A dimensionally correct equation may still be physically wrong.<br><strong>Reason (R):</strong> Dimensional analysis cannot detect dimensionless constants or numerical factors.</p>", "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"], "correct": 0, "explanation": "An equation can match dimensions yet have a wrong numerical factor — exactly because dimensional analysis ignores pure numbers." },
+            { "q": "<p><strong>Assertion (A):</strong> The number $0.030$ has two significant figures.<br><strong>Reason (R):</strong> Trailing zeros after a decimal point are significant.</p>", "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"], "correct": 0, "explanation": "$0.030$: the leading zeros don't count, 3 and the trailing 0 do — two figures, and R correctly explains why the trailing zero counts." },
+            { "q": "<p><strong>Assertion (A):</strong> Systematic errors can be minimised by repeating the measurement many times and averaging.<br><strong>Reason (R):</strong> Averaging cancels errors that are equally likely to be positive or negative.</p>", "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"], "correct": 3, "explanation": "Averaging reduces RANDOM (two-way) errors, not systematic (one-way) errors, so A is false; R correctly describes random errors, so R is true." },
+            { "q": "<p><strong>Assertion (A):</strong> The argument of $\\sin\\theta$ must be dimensionless.<br><strong>Reason (R):</strong> Trigonometric functions are defined only for pure numbers (angles in radians are dimensionless).</p>", "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"], "correct": 0, "explanation": "Arguments of trig functions must be dimensionless, precisely because such functions act on pure numbers." },
+            { "q": "<p><strong>Assertion (A):</strong> Accuracy and precision mean the same thing.<br><strong>Reason (R):</strong> Both describe the quality of a measurement.</p>", "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"], "correct": 3, "explanation": "Accuracy (closeness to true value) and precision (agreement of repeats) are different, so A is false; both do describe measurement quality, so R is true." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

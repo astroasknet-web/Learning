@@ -1,0 +1,168 @@
+{
+  "exam": "neet",
+  "subject": "physics",
+  "chapter": 14,
+  "title": "Electromagnetic Induction",
+  "slug": "electromagnetic-induction",
+  "subtitle": "Faraday's & Lenz's laws, motional EMF, eddy currents, inductance & energy",
+  "level": "NEET (UG)",
+  "color": "#2563eb",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "NEET Physics — Electromagnetic Induction: magnetic flux, Faraday's law and Lenz's law, motional EMF, eddy currents, self and mutual inductance, and energy stored in an inductor, with NEET-level examples and MCQs. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Faraday's Law and Induced EMF",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Magnetic Flux, Faraday's Law and Lenz's Law",
+          "concept": "<p>Electromagnetic induction is the production of an EMF by a <em>changing</em> magnetic field — the discovery that links electricity and magnetism and powers every generator and transformer. The starting quantity is the <strong>magnetic flux</strong> through a loop, $\\Phi = BA\\cos\\theta$, where $\\theta$ is the angle between the field and the normal to the area. Flux is measured in webers and can change by altering $B$, the area $A$, or the orientation $\\theta$.</p><p><strong>Faraday's law</strong> states that the induced EMF equals the rate of change of flux: $\\varepsilon = -\\dfrac{d\\Phi}{dt}$. For a coil of $N$ turns it becomes $\\varepsilon = -N\\dfrac{d\\Phi}{dt}$. The faster the flux changes, the larger the EMF — so a magnet thrust quickly into a coil induces a bigger EMF than one moved slowly, a standard NEET demonstration.</p><p>The minus sign is <strong>Lenz's law</strong>: the induced current always flows in the direction that <em>opposes</em> the change producing it. Push a north pole towards a coil and the near face becomes a north pole to repel it; pull it away and that face becomes a south pole to attract it. Lenz's law is simply conservation of energy in disguise — you must do work against this opposition, and that work becomes the electrical energy generated.</p><p>This opposition has real consequences NEET likes to probe. A magnet dropped through a copper pipe falls slowly because the induced currents oppose its motion, and a generator becomes harder to turn as more current is drawn. Recognising that the induced effect always fights the change is the single most useful habit for solving induction problems quickly and correctly.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity / law</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Expression</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Magnetic flux</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\Phi = BA\\cos\\theta$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Faraday's law</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\varepsilon = -N\\dfrac{d\\Phi}{dt}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Lenz's law</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>induced current opposes the change</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>The flux through a coil of $50$ turns changes from $0.02\\ \\text{Wb}$ to $0.06\\ \\text{Wb}$ in $0.1\\ \\text{s}$. Find the induced EMF.</p>",
+              "solution": "<p>$\\varepsilon = N\\dfrac{\\Delta\\Phi}{\\Delta t} = 50\\times\\dfrac{0.06 - 0.02}{0.1} = 50\\times0.4 = 20\\ \\text{V}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A magnet is dropped through a vertical copper pipe. Why does it fall more slowly than in free fall?</p>",
+              "solution": "<p>The changing flux induces eddy currents in the pipe that, by Lenz's law, oppose the magnet's motion. This retarding force slows the fall — energy goes into heating the pipe rather than into kinetic energy.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Magnetic flux is given by:</p>", "options": ["$BA\\sin\\theta$", "$BA\\cos\\theta$", "$B/A$", "$BA\\tan\\theta$"], "correct": 1, "explanation": "$\\Phi = BA\\cos\\theta$." },
+            { "q": "<p>Faraday's law relates EMF to the:</p>", "options": ["flux itself", "rate of change of flux", "area only", "field only"], "correct": 1, "explanation": "$\\varepsilon = -d\\Phi/dt$." },
+            { "q": "<p>Lenz's law is a consequence of conservation of:</p>", "options": ["charge", "energy", "momentum", "flux"], "correct": 1, "explanation": "The opposition ensures energy conservation." },
+            { "q": "<p>A faster change in flux produces an induced EMF that is:</p>", "options": ["smaller", "larger", "unchanged", "zero"], "correct": 1, "explanation": "EMF $\\propto$ rate of change of flux." },
+            { "q": "<p>The induced current always flows so as to:</p>", "options": ["aid the change", "oppose the change", "stop all current", "increase the flux"], "correct": 1, "explanation": "Lenz's law — it opposes the change." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Only a <em>changing</em> flux induces EMF. Use $\\varepsilon = -N\\,d\\Phi/dt$ and let Lenz's law (oppose the change) fix the direction — it is energy conservation in action.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Motional EMF and Eddy Currents",
+          "concept": "<p>An EMF can be induced not only by a changing field but also by <em>motion</em>. When a conducting rod of length $L$ moves with velocity $v$ perpendicular to a field $B$, the free charges in it feel a magnetic force and pile up at the ends, setting up a <strong>motional EMF</strong> $\\varepsilon = BLv$. This is the basic mechanism of a generator, where a coil rotates in a field to produce a continuously varying EMF.</p><p>The motional-EMF picture is fully consistent with Faraday's law: as the rod slides along rails, it sweeps out area and changes the flux through the circuit, and $d\\Phi/dt = BLv$ gives the same result. If the circuit is closed with resistance $R$, a current $I = \\dfrac{BLv}{R}$ flows, and a retarding force $F = BIL$ acts on the rod — again opposing its motion, in line with Lenz's law.</p><p>The power delivered shows energy conservation clearly: the mechanical power needed to keep the rod moving, $P = Fv = \\dfrac{B^{2}L^{2}v^{2}}{R}$, exactly equals the electrical power dissipated in the resistor. Whoever or whatever pushes the rod does the work that appears as electrical energy — there is no free lunch, a point NEET enjoys testing conceptually.</p><p>When changing flux passes through a <em>bulk</em> conductor rather than a thin wire, it drives swirling <strong>eddy currents</strong>. These cause heating (used in induction stoves and furnaces) and damping (used in galvanometers and electric brakes), but also waste energy in transformer cores. To reduce this loss, cores are <strong>laminated</strong> — built from thin insulated sheets that break up the eddy-current paths, a practical fact frequently asked in NEET.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Expression</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Motional EMF</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\varepsilon = BLv$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Induced current</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$I = \\dfrac{BLv}{R}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Power dissipated</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$P = \\dfrac{B^{2}L^{2}v^{2}}{R}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A rod of length $0.5\\ \\text{m}$ moves at $4\\ \\text{m/s}$ perpendicular to a field of $0.2\\ \\text{T}$. Find the motional EMF.</p>",
+              "solution": "<p>$\\varepsilon = BLv = 0.2\\times0.5\\times4 = 0.4\\ \\text{V}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why are the cores of transformers made of thin laminated sheets?</p>",
+              "solution": "<p>Lamination breaks up the paths available to eddy currents, increasing their resistance and reducing the eddy-current energy loss (and heating) in the core.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The motional EMF of a rod moving in a field is:</p>", "options": ["$BLv$", "$BL/v$", "$Bv/L$", "$B/Lv$"], "correct": 0, "explanation": "$\\varepsilon = BLv$." },
+            { "q": "<p>Eddy currents are reduced in a core by:</p>", "options": ["using a thicker core", "lamination", "increasing current", "adding turns"], "correct": 1, "explanation": "Laminated sheets break up eddy-current paths." },
+            { "q": "<p>The force on a rod carrying induced current opposes its motion. This follows from:</p>", "options": ["Ohm's law", "Lenz's law", "Coulomb's law", "Gauss's law"], "correct": 1, "explanation": "Lenz's law gives a retarding force." },
+            { "q": "<p>The power needed to move the rod equals:</p>", "options": ["zero", "the electrical power dissipated", "the kinetic energy", "$BLv$"], "correct": 1, "explanation": "Mechanical power in = electrical power out (energy conservation)." },
+            { "q": "<p>Eddy currents are usefully employed in:</p>", "options": ["induction heating and braking", "capacitors", "resistors", "fuses"], "correct": 0, "explanation": "Induction stoves and electromagnetic brakes use eddy currents." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> $\\varepsilon = BLv$ for a moving rod, with $I = BLv/R$ and a retarding force $BIL$. Mechanical power in equals electrical power out; lamination cuts eddy-current loss.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Inductance and Energy",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Self and Mutual Inductance",
+          "concept": "<p>A changing current in a coil produces a changing flux through the <em>same</em> coil, inducing an EMF that opposes the change — a phenomenon called <strong>self-induction</strong>. The coil's <strong>self-inductance</strong> $L$ links the back-EMF to the rate of change of current: $\\varepsilon = -L\\dfrac{dI}{dt}$. Inductance is measured in henries and depends only on the coil's geometry and core, just as capacitance depends only on a capacitor's geometry.</p><p>For a solenoid, the self-inductance is $L = \\mu_0 n^{2} A l$ (with $n$ turns per unit length, area $A$, length $l$), which can be written $L = \\dfrac{\\mu_0 N^{2} A}{l}$. The key NEET takeaway is that $L \\propto N^{2}$ — doubling the turns quadruples the inductance. Inserting an iron core multiplies $L$ by the relative permeability, dramatically increasing it.</p><p>An inductor opposes <em>changes</em> in current, so it behaves like electrical inertia: current through it cannot jump instantly. This is why a spark appears when an inductive circuit is switched off — the collapsing current induces a large momentary EMF. It also makes the inductor the time-delaying element in many circuits.</p><p>When two coils are placed close together, a changing current in one induces an EMF in the other through their shared flux — <strong>mutual induction</strong>. The <strong>mutual inductance</strong> $M$ gives $\\varepsilon_2 = -M\\dfrac{dI_1}{dt}$, and is the same whichever coil drives the other. Mutual induction is the operating principle of the transformer, tying this topic directly to the next chapter on alternating current.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Expression</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Self-induced EMF</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\varepsilon = -L\\dfrac{dI}{dt}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Solenoid inductance</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$L = \\dfrac{\\mu_0 N^{2} A}{l}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Mutual induction</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\varepsilon_2 = -M\\dfrac{dI_1}{dt}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>The current in a $0.5\\ \\text{H}$ inductor changes at $4\\ \\text{A/s}$. Find the induced EMF.</p>",
+              "solution": "<p>$|\\varepsilon| = L\\dfrac{dI}{dt} = 0.5\\times4 = 2\\ \\text{V}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>If the number of turns of a solenoid is doubled (other factors fixed), how does its self-inductance change?</p>",
+              "solution": "<p>$L \\propto N^{2}$, so doubling $N$ makes $L$ four times its original value.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Self-induced EMF is given by:</p>", "options": ["$L\\,dI/dt$", "$L/I$", "$LI$", "$I/L$"], "correct": 0, "explanation": "$\\varepsilon = -L\\,dI/dt$." },
+            { "q": "<p>The self-inductance of a solenoid varies with the number of turns as:</p>", "options": ["$N$", "$N^{2}$", "$1/N$", "$\\sqrt{N}$"], "correct": 1, "explanation": "$L \\propto N^2$." },
+            { "q": "<p>The SI unit of inductance is the:</p>", "options": ["farad", "henry", "weber", "tesla"], "correct": 1, "explanation": "Inductance is measured in henries." },
+            { "q": "<p>An inductor opposes changes in:</p>", "options": ["voltage", "current", "charge", "resistance"], "correct": 1, "explanation": "It opposes changes in current (electrical inertia)." },
+            { "q": "<p>The principle of mutual induction is used in a:</p>", "options": ["resistor", "transformer", "capacitor", "diode"], "correct": 1, "explanation": "Transformers work by mutual induction." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> $L \\propto N^{2}$ and an iron core multiplies it by $\\mu_r$. An inductor resists current changes (electrical inertia); mutual inductance is the basis of the transformer.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Energy Stored in an Inductor and the AC Generator",
+          "concept": "<p>Building up a current in an inductor requires work against the back-EMF, and this work is stored as energy in the magnetic field. The <strong>energy stored</strong> is $U = \\dfrac{1}{2}LI^{2}$, exactly analogous to the $\\tfrac{1}{2}CV^{2}$ of a capacitor but with $L$ in place of $C$ and current in place of voltage. This energy is returned to the circuit when the current decreases.</p><p>The energy can also be viewed as residing in the field itself, with an <strong>energy density</strong> $u = \\dfrac{B^{2}}{2\\mu_0}$ per unit volume. This mirrors the electric-field energy density $\\tfrac{1}{2}\\varepsilon_0 E^{2}$ and reinforces the idea that fields, not just charges and currents, carry energy — a unifying theme NEET sometimes draws out.</p><p>The most important application of induction is the <strong>AC generator</strong> (alternator). A coil of $N$ turns and area $A$ rotates with angular frequency $\\omega$ in a uniform field $B$, so the flux varies sinusoidally and the induced EMF is $\\varepsilon = NBA\\omega\\sin(\\omega t)$. The EMF is therefore alternating, with a peak value $\\varepsilon_0 = NBA\\omega$ reached when the coil's plane is parallel to the field (flux changing fastest).</p><p>This sinusoidal EMF is precisely the alternating voltage analysed in the next chapter. A generator converts mechanical energy (from turbines driven by steam, water or wind) into electrical energy, while a motor does the reverse — the two are essentially the same machine run in opposite directions, a neat symmetry worth remembering for NEET conceptual questions.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Expression</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Energy in inductor</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$U = \\dfrac{1}{2}LI^{2}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Magnetic energy density</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$u = \\dfrac{B^{2}}{2\\mu_0}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>AC generator EMF</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\varepsilon = NBA\\omega\\sin(\\omega t)$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the energy stored in a $2\\ \\text{H}$ inductor carrying $3\\ \\text{A}$.</p>",
+              "solution": "<p>$U = \\dfrac{1}{2}LI^{2} = \\dfrac{1}{2}\\times2\\times(3)^{2} = 9\\ \\text{J}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>At what coil orientation is the induced EMF of an AC generator maximum?</p>",
+              "solution": "<p>The EMF $\\varepsilon = NBA\\omega\\sin(\\omega t)$ is maximum when the coil's plane is parallel to the field (flux is changing fastest), and zero when the plane is perpendicular to the field.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The energy stored in an inductor is:</p>", "options": ["$LI$", "$\\tfrac{1}{2}LI^{2}$", "$\\tfrac{1}{2}L^{2}I$", "$LI^{2}$"], "correct": 1, "explanation": "$U = \\tfrac{1}{2}LI^2$." },
+            { "q": "<p>The magnetic energy density of a field $B$ is:</p>", "options": ["$B^{2}/2\\mu_0$", "$\\mu_0 B^{2}$", "$B/2\\mu_0$", "$2\\mu_0 B^{2}$"], "correct": 0, "explanation": "$u = B^2/2\\mu_0$." },
+            { "q": "<p>The EMF of an AC generator varies as:</p>", "options": ["constant", "$\\sin(\\omega t)$", "$1/t$", "$t^{2}$"], "correct": 1, "explanation": "$\\varepsilon = NBA\\omega\\sin(\\omega t)$." },
+            { "q": "<p>The peak EMF of an AC generator is:</p>", "options": ["$NBA$", "$NBA\\omega$", "$BA\\omega$", "$NB\\omega$"], "correct": 1, "explanation": "$\\varepsilon_0 = NBA\\omega$." },
+            { "q": "<p>A generator converts:</p>", "options": ["electrical to mechanical energy", "mechanical to electrical energy", "heat to light", "chemical to electrical energy"], "correct": 1, "explanation": "A generator turns mechanical energy into electrical energy." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> $U = \\tfrac{1}{2}LI^{2}$ parallels $\\tfrac{1}{2}CV^{2}$. The AC generator gives $\\varepsilon = NBA\\omega\\sin(\\omega t)$ — peak when the coil plane is parallel to the field.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-physics-ch14-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>Magnetic flux is maximum through a loop when its plane is:</p>", "options": ["parallel to the field", "perpendicular to the field", "at $45^{\\circ}$", "any orientation"], "correct": 1, "explanation": "Flux $= BA\\cos\\theta$ is maximum when the plane is perpendicular to $B$ ($\\theta = 0$ between $B$ and the normal)." },
+            { "q": "<p>The induced EMF depends on the:</p>", "options": ["flux", "rate of change of flux", "area only", "resistance"], "correct": 1, "explanation": "$\\varepsilon = -d\\Phi/dt$." },
+            { "q": "<p>The negative sign in Faraday's law expresses:</p>", "options": ["Ohm's law", "Lenz's law", "Coulomb's law", "Gauss's law"], "correct": 1, "explanation": "It encodes Lenz's law (opposition)." },
+            { "q": "<p>A rod of length $L$ moving at speed $v$ perpendicular to field $B$ develops EMF:</p>", "options": ["$BLv$", "$BL/v$", "$B/Lv$", "$Lv/B$"], "correct": 0, "explanation": "$\\varepsilon = BLv$." },
+            { "q": "<p>Self-inductance of a solenoid is proportional to:</p>", "options": ["$N$", "$N^{2}$", "$1/N$", "$N^{3}$"], "correct": 1, "explanation": "$L \\propto N^2$." },
+            { "q": "<p>The energy stored in an inductor of inductance $L$ carrying current $I$ is:</p>", "options": ["$LI^{2}$", "$\\tfrac{1}{2}LI^{2}$", "$\\tfrac{1}{2}LI$", "$L/I$"], "correct": 1, "explanation": "$U = \\tfrac{1}{2}LI^2$." },
+            { "q": "<p>Eddy current losses are reduced by:</p>", "options": ["thicker cores", "laminating the core", "more turns", "higher current"], "correct": 1, "explanation": "Lamination breaks up eddy-current paths." },
+            { "q": "<p>The peak EMF of an AC generator equals:</p>", "options": ["$NBA$", "$NBA\\omega$", "$BA$", "$N\\omega$"], "correct": 1, "explanation": "$\\varepsilon_0 = NBA\\omega$." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> When a magnet is pushed towards a coil, the coil opposes its approach.<br><strong>R:</strong> The induced current flows so as to oppose the change in flux (Lenz's law).</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Lenz's law makes the near face repel the approaching magnet — R explains A." },
+            { "q": "<p><strong>A:</strong> The cores of transformers are laminated.<br><strong>R:</strong> Lamination reduces the energy lost to eddy currents in the core.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Lamination is done precisely to cut eddy-current loss — R explains A." },
+            { "q": "<p><strong>A:</strong> The current through an inductor can change instantaneously.<br><strong>R:</strong> An inductor opposes any change in the current through it.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "Current through an inductor cannot jump instantly, so A is false; R correctly states it opposes current change." },
+            { "q": "<p><strong>A:</strong> An induced EMF can appear in a coil even when no battery is connected to it.<br><strong>R:</strong> A changing magnetic flux through the coil induces an EMF by Faraday's law.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "A changing flux alone induces an EMF — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

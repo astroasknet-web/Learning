@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": 2,
+  "title": "Structure of Atom",
+  "slug": "structure-of-atom",
+  "subtitle": "Structure of Atom for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#0ea5e9",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "Master Structure of Atom for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Atomic Models and Quantum Theory",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Discovery of Subatomic Particles and Atomic Models",
+          "concept": "<p><strong>Discovery of Subatomic Particles:</strong></p><table class=\"md-table\"><thead><tr><th>Particle</th><th>Discovered by</th><th>Year</th><th>Charge</th><th>Mass</th></tr></thead><tbody><tr><td><strong>Electron</strong></td><td>J.J. Thomson (cathode rays)</td><td>1897</td><td>$-1.6 \\times 10^{-19}$ C</td><td>$9.11 \\times 10^{-31}$ kg</td></tr><tr><td><strong>Proton</strong></td><td>Goldstein (anode/canal rays); Rutherford named</td><td>1886/1919</td><td>$+1.6 \\times 10^{-19}$ C</td><td>$1.67 \\times 10^{-27}$ kg</td></tr><tr><td><strong>Neutron</strong></td><td>James Chadwick</td><td>1932</td><td>$0$</td><td>$\\approx$ proton mass</td></tr></tbody></table><p><strong>Thomson's Plum Pudding Model (1898):</strong> Atom = uniform positive sphere with electrons embedded like raisins. <strong>Couldn't explain</strong> Rutherford's scattering.</p><p><strong>Rutherford's Nuclear Model (1911):</strong></p><ul><li>Fired α particles at thin gold foil</li><li>Observations: most α passed through; some deflected; few ($1/8000$) bounced back</li><li>Conclusions: atom mostly empty space; small dense positive nucleus at centre; electrons revolve around it (planetary)</li></ul><p><strong>Limitations of Rutherford's Model:</strong></p><ul><li>According to classical EM theory, an accelerating electron should radiate energy continuously and spiral into the nucleus — atom would be unstable</li><li>Cannot explain discrete (line) atomic spectra</li></ul><p><strong>Atomic Number and Mass Number:</strong></p><ul><li><strong>Atomic number</strong> ($Z$) = number of protons = number of electrons (neutral atom)</li><li><strong>Mass number</strong> ($A$) = protons + neutrons</li><li><strong>Notation:</strong> $^A_Z X$</li></ul><p><strong>Isotopes:</strong> Same $Z$, different $A$ (e.g., $^1$H, $^2$H, $^3$H). Same chemistry. <strong>Isobars:</strong> Same $A$, different $Z$ (e.g., $^{40}$Ar, $^{40}$Ca). <strong>Isotones:</strong> Same number of neutrons ($A-Z$). e.g., $^{14}$C and $^{16}$O. <strong>Isoelectronic species:</strong> Same number of electrons (e.g., Na⁺, Mg²⁺, F⁻, O²⁻, Ne — all $10\\,e^-$).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Calculate number of protons, neutrons, electrons in $^{40}_{20}$Ca²⁺.</p>",
+              "solution": "<ul><li>Protons = $Z = 20$</li><li>Neutrons = $A - Z = 40 - 20 = 20$</li><li>Electrons = $20 - 2 = 18$ (lost 2 from $+2$ charge)</li></ul><p><strong>Final Answer:</strong> $20 p, 20 n, 18 e$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Identify isoelectronic among: N³⁻, O²⁻, F⁻, Ne, Na⁺, Mg²⁺.</p>",
+              "solution": "<p>All have $10$ electrons → all isoelectronic. (N: $Z=7$, gains $3$ → $10$. O: $8 + 2 = 10$. F: $9+1 = 10$. Ne: $10$. Na: $11 - 1 = 10$. Mg: $12 - 2 = 10$.)</p><p><strong>Final Answer:</strong> All six are isoelectronic.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The electron was discovered by:</p>",
+              "options": [
+                "Goldstein",
+                "Thomson",
+                "Rutherford",
+                "Chadwick"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Neutrons were discovered in:</p>",
+              "options": [
+                "1897",
+                "1909",
+                "1932",
+                "1956"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Mass number = ?</p>",
+              "options": [
+                "Protons",
+                "Neutrons",
+                "Protons + neutrons",
+                "Electrons + protons"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Isobars have:</p>",
+              "options": [
+                "Same protons",
+                "Same mass number, different atomic number",
+                "Same neutrons",
+                "Same electrons"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Which is NOT a limitation of Rutherford's model?</p>",
+              "options": [
+                "Predicts atomic instability",
+                "Cannot explain line spectra",
+                "Doesn't predict size of atom",
+                "Locates nucleus correctly"
+              ],
+              "correct": 3,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Electromagnetic Radiation, Planck's Theory and Bohr Model",
+          "concept": "<p><strong>Electromagnetic Radiation:</strong> Travels at $c = 3 \\times 10^8$ m/s. Related: $c = \\nu\\lambda$. <strong>Wavenumber</strong> $\\bar\\nu = 1/\\lambda$.</p><p><strong>Planck's Quantum Theory (1900):</strong> Energy is emitted/absorbed in discrete packets (quanta): $$E = h\\nu = \\frac{hc}{\\lambda}$$ $h = 6.626 \\times 10^{-34}$ J·s.</p><p><strong>Photoelectric Effect (Einstein 1905):</strong> $$h\\nu = \\phi + KE_{\\max}$$ $\\phi = h\\nu_0$ = work function. $KE_{\\max} = eV_0$ (stopping potential).</p><p><strong>Atomic Spectra (Hydrogen):</strong> Discrete lines, given by: $$\\bar\\nu = \\frac{1}{\\lambda} = R_H\\left(\\frac{1}{n_1^2} - \\frac{1}{n_2^2}\\right), \\quad n_2 > n_1$$ $R_H = 1.097 \\times 10^7$ m⁻¹.</p><p><strong>Hydrogen Spectral Series:</strong></p><table class=\"md-table\"><thead><tr><th>Series</th><th>$n_1$</th><th>$n_2$</th><th>Region</th></tr></thead><tbody><tr><td>Lyman</td><td>$1$</td><td>$2, 3, \\ldots$</td><td>UV</td></tr><tr><td>Balmer</td><td>$2$</td><td>$3, 4, \\ldots$</td><td>Visible</td></tr><tr><td>Paschen</td><td>$3$</td><td>$4, 5, \\ldots$</td><td>IR</td></tr><tr><td>Brackett</td><td>$4$</td><td>$5, 6, \\ldots$</td><td>IR</td></tr><tr><td>Pfund</td><td>$5$</td><td>$6, 7, \\ldots$</td><td>Far IR</td></tr></tbody></table><p><strong>Bohr's Postulates:</strong></p><ol><li>Electron revolves only in certain stationary orbits without radiating</li><li>Angular momentum quantized: $mvr = nh/(2\\pi)$, $n = 1,2,3,\\ldots$</li><li>Energy emitted/absorbed only on transition: $h\\nu = E_i - E_f$</li></ol><p><strong>Bohr Atom Formulae (for H-like atom, $Z$ = nuclear charge):</strong></p><table class=\"md-table\"><thead><tr><th>Quantity</th><th>Formula</th><th>For H ($Z = 1$) at $n = 1$</th></tr></thead><tbody><tr><td>Radius</td><td>$r_n = 0.529 \\cdot n^2/Z$ Å</td><td>$0.529$ Å</td></tr><tr><td>Velocity</td><td>$v_n = (2.18 \\times 10^6) Z/n$ m/s</td><td>$2.18 \\times 10^6$ m/s</td></tr><tr><td>Energy</td><td>$E_n = -13.6\\,Z^2/n^2$ eV</td><td>$-13.6$ eV</td></tr></tbody></table><p>Number of spectral lines from $n_2 \\to n_1$ transition: $N = (n_2 - n_1)(n_2 - n_1 + 1)/2$. From $n$ to ground: $N = n(n-1)/2$.</p><p><strong>Limitations of Bohr's model:</strong></p><ul><li>Works only for one-electron atoms</li><li>Cannot explain fine structure (spin-orbit)</li><li>Cannot explain Zeeman/Stark effects</li><li>Violates Heisenberg's uncertainty principle (fixed orbit + momentum)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find wavelength of $H_\\alpha$ line ($n_2 = 3 \\to n_1 = 2$) in Balmer series.</p>",
+              "solution": "<p>$$\\bar\\nu = R_H(1/4 - 1/9) = R_H(5/36)$$ $$\\lambda = 36/(5R_H) = 36/(5 \\times 1.097 \\times 10^7) = 6.563 \\times 10^{-7} \\text{ m} = 656.3 \\text{ nm}$$</p><p><strong>Final Answer:</strong> $656.3$ nm.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find energy of electron in second orbit of $Li^{2+}$ ($Z = 3$).</p>",
+              "solution": "<p>$$E_2 = -13.6 \\times 9/4 = -30.6 \\text{ eV}$$</p><p><strong>Final Answer:</strong> $-30.6$ eV.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The energy of $n$th orbit in H atom:</p>",
+              "options": [
+                "$-13.6/n$",
+                "$-13.6/n^2$",
+                "$13.6 n^2$",
+                "$13.6/n^2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Balmer series of hydrogen lies in:</p>",
+              "options": [
+                "UV",
+                "Visible",
+                "IR",
+                "Microwave"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Bohr's angular momentum:</p>",
+              "options": [
+                "$nh/2\\pi$",
+                "$nh$",
+                "$nh/\\pi$",
+                "$\\hbar/n$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of spectral lines from $n = 4$ to $n = 1$:</p>",
+              "options": [
+                "$4$",
+                "$6$",
+                "$10$",
+                "$3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The Bohr radius of $H$ atom in ground state:</p>",
+              "options": [
+                "$0.529$ Å",
+                "$5.29$ Å",
+                "$0.529$ nm",
+                "$1.06$ Å"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Quantum Mechanical Model",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Dual Nature, Heisenberg, Quantum Numbers",
+          "concept": "<p><strong>de Broglie Hypothesis (1924):</strong> Matter has wave properties. $$\\lambda = \\frac{h}{p} = \\frac{h}{mv}$$</p><p>For accelerated charged particle through $V$ volts: $\\lambda = h/\\sqrt{2mqV}$. For electron: $\\lambda = 12.27/\\sqrt{V}$ Å.</p><p><strong>Heisenberg Uncertainty Principle (1927):</strong> Position and momentum cannot be measured simultaneously with arbitrary accuracy: $$\\Delta x \\cdot \\Delta p \\geq \\frac{h}{4\\pi}$$</p><p>This made Bohr's model untenable (electrons cannot have fixed orbits and momenta).</p><p><strong>Quantum Mechanical Model (Schrödinger, 1926):</strong> Electrons described by <strong>wave function</strong> $\\psi$. $|\\psi|^2$ gives probability density of finding electron. Solutions for H-atom yield four <strong>quantum numbers</strong>.</p><p><strong>Quantum Numbers:</strong></p><table class=\"md-table\"><thead><tr><th>Quantum number</th><th>Symbol</th><th>Allowed values</th><th>Significance</th></tr></thead><tbody><tr><td><strong>Principal</strong></td><td>$n$</td><td>$1, 2, 3, \\ldots$</td><td>Size and energy (shell): K, L, M, N</td></tr><tr><td><strong>Azimuthal (subsidiary)</strong></td><td>$l$</td><td>$0, 1, \\ldots, (n-1)$</td><td>Subshell and shape: s, p, d, f</td></tr><tr><td><strong>Magnetic</strong></td><td>$m_l$ (or $m$)</td><td>$-l, \\ldots, 0, \\ldots, +l$ ($2l+1$ values)</td><td>Orientation of orbital</td></tr><tr><td><strong>Spin</strong></td><td>$m_s$</td><td>$+1/2, -1/2$</td><td>Spin of electron</td></tr></tbody></table><p><strong>Subshell ↔ $l$:</strong> s → 0, p → 1, d → 2, f → 3.</p><p><strong>Number of orbitals:</strong></p><ul><li>in subshell of value $l$: $(2l+1)$</li><li>in shell $n$: $n^2$</li></ul><p><strong>Number of electrons:</strong></p><ul><li>in subshell: $2(2l+1)$</li><li>in shell $n$: $2n^2$</li></ul><p><strong>Subshell capacity:</strong> s = 2, p = 6, d = 10, f = 14.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find de Broglie wavelength of an electron moving with $10^6$ m/s. ($m_e = 9.1 \\times 10^{-31}$ kg)</p>",
+              "solution": "<p>$$\\lambda = h/(mv) = (6.626 \\times 10^{-34})/(9.1 \\times 10^{-31} \\times 10^6)$$ $$= 7.28 \\times 10^{-10} \\text{ m} = 7.28 \\text{ Å}$$</p><p><strong>Final Answer:</strong> $7.28$ Å.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Give all four quantum numbers for the last electron of nitrogen ($Z = 7$).</p>",
+              "solution": "<p>Electronic configuration: $1s^2\\,2s^2\\,2p^3$. Last electron in $2p$. Using Hund's rule, $2p^3$ has each $p$-orbital singly occupied with parallel spins. $n = 2$, $l = 1$, $m_l = +1$ (last orbital), $m_s = +1/2$.</p><p><strong>Final Answer:</strong> $(2, 1, +1, +1/2)$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The number of orbitals in $n = 3$ shell:</p>",
+              "options": [
+                "$3$",
+                "$6$",
+                "$9$",
+                "$18$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Allowed values of $l$ for $n = 3$:</p>",
+              "options": [
+                "$0, 1$",
+                "$0, 1, 2$",
+                "$1, 2, 3$",
+                "$0, 1, 2, 3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Magnetic quantum number for $p$-subshell:</p>",
+              "options": [
+                "$-1, 0, +1$",
+                "$0, +1$",
+                "$\\pm 1/2$",
+                "$-2, -1, 0, 1, 2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Maximum number of electrons in $n = 4$ shell:</p>",
+              "options": [
+                "$8$",
+                "$16$",
+                "$32$",
+                "$18$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Uncertainty principle implies:</p>",
+              "options": [
+                "Electrons have fixed orbits",
+                "Energy is continuous",
+                "Position and momentum cannot be precisely known together",
+                "All atoms are stable"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Orbitals and Electronic Configuration",
+          "concept": "<p><strong>Atomic Orbital:</strong> Region in space where probability of finding an electron is high (typically $> 90\\%$). Each orbital can hold maximum $2$ electrons (with opposite spin: Pauli).</p><p><strong>Shapes of Orbitals:</strong></p><table class=\"md-table\"><thead><tr><th>Orbital</th><th>Shape</th><th>Nodal planes (angular)</th></tr></thead><tbody><tr><td>s ($l = 0$)</td><td>Spherical</td><td>$0$</td></tr><tr><td>p ($l = 1$)</td><td>Dumbbell along axis</td><td>$1$</td></tr><tr><td>d ($l = 2$)</td><td>Cloverleaf (4 types: $d_{xy}, d_{yz}, d_{zx}, d_{x^2-y^2}, d_{z^2}$)</td><td>$2$</td></tr><tr><td>f ($l = 3$)</td><td>Complex</td><td>$3$</td></tr></tbody></table><p><strong>Nodes:</strong></p><ul><li><strong>Total nodes</strong> for orbital of $(n, l)$: $n - 1$</li><li><strong>Angular (nodal planes)</strong> = $l$</li><li><strong>Radial nodes</strong> = $n - l - 1$</li></ul><p><strong>Energy Order of Orbitals (Aufbau):</strong> Determined by $(n + l)$ rule:</p><ul><li>Lower $(n+l)$ filled first</li><li>For same $(n+l)$, lower $n$ filled first</li></ul><p><strong>Filling order:</strong> $1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p, 6s, 4f, 5d, 6p, 7s, 5f, 6d, 7p\\ldots$</p><p><strong>Three Rules for Filling Electrons:</strong></p><table class=\"md-table\"><thead><tr><th>Principle</th><th>Statement</th></tr></thead><tbody><tr><td><strong>Aufbau</strong></td><td>Electrons fill orbitals of lower energy first</td></tr><tr><td><strong>Pauli Exclusion</strong></td><td>No two electrons in an atom can have all four quantum numbers same</td></tr><tr><td><strong>Hund's rule</strong></td><td>In degenerate orbitals, electrons singly occupy with parallel spins before pairing</td></tr></tbody></table><p><strong>Stability of Half-filled and Fully filled subshells:</strong> Extra stability for configurations like $3d^5, 3d^{10}, 4s^1$ etc. due to:</p><ul><li>Symmetrical distribution</li><li>Higher exchange energy</li></ul><p><strong>Anomalous configurations:</strong></p><ul><li>Cr ($Z = 24$): $[Ar]\\,3d^5\\,4s^1$ (not $3d^4\\,4s^2$)</li><li>Cu ($Z = 29$): $[Ar]\\,3d^{10}\\,4s^1$ (not $3d^9\\,4s^2$)</li><li>Mo, Ag, Au follow similar patterns</li></ul><p><strong>Magnetic Moment:</strong> $\\mu = \\sqrt{n(n+2)}$ BM, where $n$ = number of unpaired electrons.</p><ul><li>Paramagnetic: has unpaired electrons (attracted to magnetic field)</li><li>Diamagnetic: all paired</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Write electronic configuration of $Fe$ ($Z = 26$) and $Fe^{3+}$.</p>",
+              "solution": "<p>Fe: $1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^6\\,3d^6\\,4s^2$ or $[Ar]\\,3d^6\\,4s^2$. Fe³⁺: Remove 3 e⁻ — first from $4s$ (higher n), then from $3d$. $[Ar]\\,3d^5$.</p><p><strong>Final Answer:</strong> Fe: $[Ar]\\,3d^6\\,4s^2$; Fe³⁺: $[Ar]\\,3d^5$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Calculate magnetic moment of Mn²⁺ ($Z(Mn) = 25$).</p>",
+              "solution": "<p>Mn: $[Ar]\\,3d^5\\,4s^2$. Mn²⁺: $[Ar]\\,3d^5$. Unpaired electrons = $5$. $$\\mu = \\sqrt{5(5+2)} = \\sqrt{35} \\approx 5.92 \\text{ BM}$$</p><p><strong>Final Answer:</strong> $\\mu \\approx 5.92$ BM.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Number of radial nodes in $3p$ orbital:</p>",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "$3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Anomalous configuration of Cu ($Z = 29$):</p>",
+              "options": [
+                "$[Ar]\\,3d^9\\,4s^2$",
+                "$[Ar]\\,3d^{10}\\,4s^1$",
+                "$[Ar]\\,3d^8\\,4s^2\\,4p^1$",
+                "$[Ar]\\,3d^{10}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Hund's rule applies to:</p>",
+              "options": [
+                "Filling of subshells",
+                "Degenerate orbitals (singly fill first)",
+                "Pairing of electrons",
+                "Spin orientation"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Magnetic moment of an atom with $4$ unpaired electrons:</p>",
+              "options": [
+                "$2.83$ BM",
+                "$4$ BM",
+                "$4.9$ BM",
+                "$5.92$ BM"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The shape of $d_{z^2}$ orbital:</p>",
+              "options": [
+                "Dumbbell",
+                "Spherical",
+                "Dumbbell with ring (donut) at equator",
+                "Cloverleaf"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-chem-structure-of-atom-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>The maximum number of electrons in the third shell:</p>",
+              "options": [
+                "$8$",
+                "$18$",
+                "$32$",
+                "$2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Energy required to remove the electron from $H$ atom in ground state:</p>",
+              "options": [
+                "$1.36$ eV",
+                "$13.6$ eV",
+                "$136$ eV",
+                "$3.4$ eV"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In hydrogen, Balmer series gives:</p>",
+              "options": [
+                "Lines in UV",
+                "Lines in visible region",
+                "Lines in IR",
+                "X-rays"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two electrons in the same orbital must have:</p>",
+              "options": [
+                "Same quantum numbers",
+                "Opposite spin",
+                "Different $n$",
+                "Same spin"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of unpaired electrons in $Cr$ ($Z = 24$):</p>",
+              "options": [
+                "$4$",
+                "$5$",
+                "$6$",
+                "$3$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Wavelength of an electron accelerated by $100$ V:</p>",
+              "options": [
+                "$1.227$ Å",
+                "$12.27$ Å",
+                "$0.1227$ Å",
+                "$122.7$ Å"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The orbital $4d$ has:</p>",
+              "options": [
+                "$n = 4, l = 1$",
+                "$n = 4, l = 2$",
+                "$n = 4, l = 3$",
+                "$n = 4, l = 0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The number of spectral lines from $n = 5$ to ground state:</p>",
+              "options": [
+                "$4$",
+                "$6$",
+                "$10$",
+                "$20$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The ratio of radius of 2nd Bohr orbit of He⁺ to 1st of H:</p>",
+              "options": [
+                "$1:1$",
+                "$2:1$",
+                "$4:1$",
+                "$2:3$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of orbitals associated with $n = 4$:</p>",
+              "options": [
+                "$9$",
+                "$16$",
+                "$25$",
+                "$32$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Maximum number of electrons that $5g$-subshell can hold (if it existed) given $l$ = 4. Then $2(2l+1) =$:</p>",
+              "answer": "18",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of unpaired electrons in $Mn^{2+}$ ($Z(Mn) = 25$):</p>",
+              "answer": "5",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Total number of nodes in $3d$ orbital:</p>",
+              "answer": "2",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Half-filled and fully-filled configurations are extra stable. <strong>Reason (R):</strong> They have greater exchange energy and symmetrical electron distribution.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> The fourth quantum number $m_s$ does not come from Schrödinger's equation. <strong>Reason (R):</strong> Electron spin is an intrinsic property added empirically.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

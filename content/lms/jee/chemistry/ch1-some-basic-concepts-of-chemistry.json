@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": 1,
+  "title": "Some Basic Concepts of Chemistry",
+  "slug": "some-basic-concepts-of-chemistry",
+  "subtitle": "Some Basic Concepts of Chemistry for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#16a34a",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "Master Some Basic Concepts of Chemistry for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Matter, Laws of Combination and the Mole",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Matter, Laws of Chemical Combination, Atomic & Molecular Masses",
+          "concept": "<p><strong>Matter</strong> is anything that occupies space and has mass. <strong>Physical classification:</strong> solid, liquid, gas. <strong>Chemical classification:</strong> pure substances (elements, compounds) and mixtures (homogeneous, heterogeneous).</p><p><strong>Laws of Chemical Combination:</strong></p><table class=\"md-table\"><thead><tr><th>Law</th><th>Statement</th><th>Example</th></tr></thead><tbody><tr><td><strong>Conservation of mass</strong> (Lavoisier)</td><td>Mass is neither created nor destroyed in a chemical reaction</td><td>$2H_2 + O_2 \\to 2H_2O$: total mass conserved</td></tr><tr><td><strong>Definite Proportions</strong> (Proust)</td><td>A pure compound always contains same elements in same proportion by mass</td><td>$H_2O$ is always $1:8$ (H:O) by mass</td></tr><tr><td><strong>Multiple Proportions</strong> (Dalton)</td><td>When two elements form more than one compound, the masses of one element which combine with a fixed mass of the other are in small whole-number ratios</td><td>$H_2O$ and $H_2O_2$: O mass ratio $1:2$</td></tr><tr><td><strong>Gay-Lussac (gaseous volumes)</strong></td><td>Gases react in simple whole-number volume ratios at same $T, P$</td><td>$H_2 + Cl_2 \\to 2HCl$ ($1:1:2$)</td></tr><tr><td><strong>Avogadro's law</strong></td><td>Equal volumes of gases at same $T,P$ contain equal numbers of molecules</td><td>$22.4$ L at STP $= 1$ mole</td></tr></tbody></table><p><strong>Atomic Mass:</strong> Mass of one atom relative to $1/12$ mass of $^{12}$C atom. Unit: <strong>u</strong> (or amu). $1$ u $= 1.66 \\times 10^{-24}$ g.</p><p><strong>Average atomic mass:</strong> weighted mean of isotopic masses. For Cl: $0.75(35) + 0.25(37) = 35.5$ u.</p><p><strong>Molecular Mass:</strong> Sum of atomic masses of atoms in the molecule. Example: $H_2O = 2(1) + 16 = 18$ u.</p><p><strong>Formula Mass:</strong> For ionic compounds (no discrete molecules), e.g., NaCl = $23 + 35.5 = 58.5$ u.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Carbon forms two oxides: CO ($43\\%$ C) and CO₂ ($27.3\\%$ C). Verify the law of multiple proportions.</p>",
+              "solution": "<p>In CO: $C:O = 43:57$, so per $1$ g C: $O = 57/43 = 1.33$ g. In CO₂: $C:O = 27.3:72.7$, so per $1$ g C: $O = 72.7/27.3 = 2.66$ g. Ratio of O masses per fixed C: $1.33:2.66 = 1:2$ (simple whole number) ✓</p><p><strong>Final Answer:</strong> Ratio $1:2$ — law verified.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Naturally occurring boron has two isotopes: $^{10}$B ($19.9\\%$) and $^{11}$B ($80.1\\%$). Calculate average atomic mass.</p>",
+              "solution": "<p>$$\\bar A = 0.199(10) + 0.801(11) = 1.99 + 8.811 = 10.80 \\text{ u}$$</p><p><strong>Final Answer:</strong> $10.80$ u.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Law of conservation of mass was given by:</p>",
+              "options": [
+                "Dalton",
+                "Lavoisier",
+                "Proust",
+                "Avogadro"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Avogadro's law applies to:</p>",
+              "options": [
+                "Solids",
+                "Liquids",
+                "Gases at same $T, P$",
+                "Any state"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The atomic mass scale uses standard:</p>",
+              "options": [
+                "$^{1}$H",
+                "$^{12}$C",
+                "$^{16}$O",
+                "$^{32}$S"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Molecular mass of glucose (C₆H₁₂O₆):</p>",
+              "options": [
+                "$180$ u",
+                "$90$ u",
+                "$342$ u",
+                "$60$ u"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Law of multiple proportions deals with:</p>",
+              "options": [
+                "Same compound",
+                "Different elements forming a compound",
+                "Two elements forming more than one compound",
+                "Gaseous reactions"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "The Mole Concept, Empirical and Molecular Formulae",
+          "concept": "<p><strong>Mole:</strong> The amount of substance containing as many entities as the number of atoms in exactly $12$ g of $^{12}$C.</p><p><strong>Avogadro Number:</strong> $N_A = 6.022 \\times 10^{23}$ /mol.</p><p><strong>Key Relations:</strong></p><table class=\"md-table\"><thead><tr><th>Quantity</th><th>Formula</th></tr></thead><tbody><tr><td>Number of moles</td><td>$n = \\dfrac{\\text{Mass}}{\\text{Molar mass}} = \\dfrac{\\text{Number of particles}}{N_A}$</td></tr><tr><td>Molar volume of gas at STP</td><td>$22.4$ L (at $0°$C, $1$ atm) or $22.7$ L at SATP</td></tr><tr><td>Mass of $1$ molecule</td><td>$M/N_A$</td></tr><tr><td>Number of atoms in $n$ moles</td><td>$n \\cdot N_A \\cdot (\\text{atoms per molecule})$</td></tr></tbody></table><p><strong>Note:</strong> STP (modern IUPAC) = $0°$C, $10^5$ Pa → molar volume $22.7$ L. NCERT uses old STP $= 22.4$ L. In JEE, both appear; check context.</p><p><strong>Molar Mass:</strong> Mass of $1$ mole, numerically equal to atomic/molecular mass in grams.</p><p><strong>Percentage Composition:</strong> $$\\%\\text{ of element} = \\frac{\\text{Mass of element in 1 mol}}{\\text{Molar mass}} \\times 100$$</p><p><strong>Empirical Formula:</strong> Simplest whole-number ratio of atoms. Steps:</p><ol><li>Convert % to grams (assume $100$ g)</li><li>Divide by atomic mass → moles</li><li>Divide by smallest → ratio</li><li>Multiply if needed to get whole numbers</li></ol><p><strong>Molecular Formula:</strong> $\\text{Molecular formula} = n \\times \\text{Empirical formula}$, where $n = \\dfrac{\\text{Molar mass}}{\\text{Empirical formula mass}}$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A compound contains $40\\%$ C, $6.67\\%$ H, $53.33\\%$ O. Molar mass $= 180$ g/mol. Find empirical and molecular formulae.</p>",
+              "solution": "<table class=\"md-table\"><thead><tr><th>Element</th><th>%</th><th>Moles</th><th>Ratio</th></tr></thead><tbody><tr><td>C</td><td>$40$</td><td>$40/12 = 3.33$</td><td>$1$</td></tr><tr><td>H</td><td>$6.67$</td><td>$6.67/1 = 6.67$</td><td>$2$</td></tr><tr><td>O</td><td>$53.33$</td><td>$53.33/16 = 3.33$</td><td>$1$</td></tr></tbody></table><p>Empirical formula = $CH_2O$. EF mass = $12 + 2 + 16 = 30$ g/mol. $n = 180/30 = 6$. Molecular formula = $C_6H_{12}O_6$ (glucose).</p><p><strong>Final Answer:</strong> EF = $CH_2O$; MF = $C_6H_{12}O_6$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>How many oxygen atoms are present in $7.2$ g of glucose ($C_6H_{12}O_6$, $M = 180$)?</p>",
+              "solution": "<p>Moles of glucose = $7.2/180 = 0.04$ mol. Each molecule has $6$ O atoms. Total O atoms $= 0.04 \\times 6 \\times 6.022 \\times 10^{23}$ $= 0.24 \\times 6.022 \\times 10^{23} \\approx 1.45 \\times 10^{23}$.</p><p><strong>Final Answer:</strong> $\\approx 1.45 \\times 10^{23}$ atoms.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Number of molecules in $9$ g of water:</p>",
+              "options": [
+                "$6.022 \\times 10^{22}$",
+                "$6.022 \\times 10^{23}$",
+                "$3.011 \\times 10^{23}$",
+                "$1.806 \\times 10^{24}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Volume of $0.5$ mol of any gas at STP (NCERT):</p>",
+              "options": [
+                "$11.2$ L",
+                "$22.4$ L",
+                "$5.6$ L",
+                "$44.8$ L"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Empirical formula of a compound with $42.1\\%$ C, $6.4\\%$ H, $51.5\\%$ O:</p>",
+              "options": [
+                "$CH_2O$",
+                "$CHO$",
+                "$C_2H_4O_2$",
+                "$C_2H_3O_2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$1$ amu equals:</p>",
+              "options": [
+                "$1$ g",
+                "$1.66 \\times 10^{-24}$ g",
+                "$6.022 \\times 10^{-23}$ g",
+                "$1.66 \\times 10^{-23}$ kg"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Mass of $1$ molecule of CO₂ ($M = 44$):</p>",
+              "options": [
+                "$44$ g",
+                "$44 \\times 6.022 \\times 10^{23}$ g",
+                "$7.31 \\times 10^{-23}$ g",
+                "$44/6.022 \\times 10^{23}$ kg"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Stoichiometry, Concentration and Redox Basics",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Stoichiometry, Limiting Reagent and Yield",
+          "concept": "<p><strong>Stoichiometry:</strong> Quantitative relationship between reactants and products. Based on <strong>balanced chemical equation</strong>; coefficients give <strong>mole ratios</strong>.</p><p><strong>Steps to solve stoichiometry problems:</strong></p><ol><li>Write balanced equation</li><li>Convert given quantities to moles</li><li>Use mole ratio to find moles of desired species</li><li>Convert to required unit (mass, volume, molecules)</li></ol><p><strong>Limiting Reagent:</strong> Reactant that is completely consumed first; determines maximum amount of product. Other reactant(s) are in <strong>excess</strong>.</p><p><strong>Identification:</strong> Compute moles of each reactant ÷ its stoichiometric coefficient. The smallest quotient is the limiting reagent.</p><p><strong>Percentage Yield:</strong> $$\\%\\text{ yield} = \\frac{\\text{Actual yield}}{\\text{Theoretical yield}} \\times 100$$</p><p><strong>Theoretical yield:</strong> Maximum product assuming complete conversion. <strong>Actual yield:</strong> What is obtained experimentally.</p><p><strong>Reactions in Solution:</strong> When dealing with solutions, use $n = MV$ (where $M$ = molarity, $V$ = volume in L).</p><p><strong>Reactions in Gas Phase:</strong> At constant $T, P$, mole ratio = volume ratio (Avogadro).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>$4$ g H₂ reacts with $32$ g O₂ to form water. Identify limiting reagent and mass of water formed.</p>",
+              "solution": "<p>Equation: $2H_2 + O_2 \\to 2H_2O$. Moles H₂ = $4/2 = 2$. Moles O₂ = $32/32 = 1$. Ratio needed = $2:1$ (H₂:O₂). Available ratio = $2:1$. <strong>Both fully consumed</strong> — neither in excess. Water formed = $2$ mol $= 2 \\times 18 = 36$ g.</p><p><strong>Final Answer:</strong> Both react completely; water $= 36$ g.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>$5$ g CaCO₃ on heating yields $2$ g CaO. Find % yield. (CaCO₃ → CaO + CO₂; $M$: CaCO₃ = $100$, CaO = $56$)</p>",
+              "solution": "<p>Moles CaCO₃ = $5/100 = 0.05$. Theoretical moles CaO = $0.05$. Theoretical mass = $0.05 \\times 56 = 2.8$ g. $$\\%\\text{ yield} = (2/2.8) \\times 100 = 71.4\\%$$</p><p><strong>Final Answer:</strong> $71.4\\%$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>In $2H_2 + O_2 \\to 2H_2O$, if $4$ mol H₂ and $1$ mol O₂ are mixed, limiting reagent:</p>",
+              "options": [
+                "H₂",
+                "O₂",
+                "Both",
+                "Neither"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The theoretical yield is:</p>",
+              "options": [
+                "Always less than actual yield",
+                "Maximum possible product calculated stoichiometrically",
+                "Same as percentage yield",
+                "The yield of side products"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$11.2$ L of N₂ at STP weighs:</p>",
+              "options": [
+                "$14$ g",
+                "$28$ g",
+                "$7$ g",
+                "$56$ g"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The mole ratio of H₂ and O₂ in water:</p>",
+              "options": [
+                "$1:1$",
+                "$2:1$",
+                "$1:2$",
+                "$2:8$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>If actual yield is $80$ g out of theoretical $100$ g, % yield:</p>",
+              "options": [
+                "$80\\%$",
+                "$20\\%$",
+                "$125\\%$",
+                "$8\\%$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Concentration Terms and Oxidation Number",
+          "concept": "<p><strong>Concentration Terms:</strong></p><table class=\"md-table\"><thead><tr><th>Term</th><th>Definition</th><th>Formula</th></tr></thead><tbody><tr><td><strong>Molarity</strong> (M)</td><td>Moles solute per litre solution</td><td>$M = n_{\\text{solute}}/V_{\\text{solution (L)}}$</td></tr><tr><td><strong>Molality</strong> (m)</td><td>Moles solute per kg solvent</td><td>$m = n_{\\text{solute}}/m_{\\text{solvent (kg)}}$</td></tr><tr><td><strong>Mole fraction</strong> ($x$)</td><td>Moles A / total moles</td><td>$x_A = n_A/(n_A + n_B)$</td></tr><tr><td><strong>Mass %</strong></td><td>Mass solute / total mass × 100</td><td>$\\dfrac{m_{\\text{solute}}}{m_{\\text{total}}} \\times 100$</td></tr><tr><td><strong>Volume %</strong></td><td>Volume solute / total volume × 100</td><td>$\\dfrac{V_{\\text{solute}}}{V_{\\text{total}}} \\times 100$</td></tr><tr><td><strong>Normality</strong> (N)</td><td>Equivalents per litre</td><td>$N = \\dfrac{w \\times 1000}{E \\times V \\text{ (mL)}}$</td></tr><tr><td><strong>ppm</strong></td><td>mass solute / total mass × $10^6$</td><td>For very dilute solutions</td></tr></tbody></table><p><strong>Molarity vs Temperature:</strong> Molarity depends on $T$ (volume changes); <strong>molality does not</strong> (mass-based).</p><p><strong>Relation:</strong> $M = \\dfrac{m \\times \\rho \\times 1000}{1000 + m \\times M_{\\text{solute}}}$, where $\\rho$ = density of solution.</p><p><strong>Normality and Equivalent Weight:</strong></p><ul><li>$E = M/n$, where $n$ = valency for acid/base, or change in oxidation number for redox.</li><li>$N = M \\times n$.</li></ul><p><strong>Examples:</strong></p><ul><li>H₂SO₄: $n = 2$, $E = 98/2 = 49$</li><li>NaOH: $n = 1$, $E = 40$</li><li>KMnO₄ in acidic medium: $n = 5$, $E = 158/5 = 31.6$</li></ul><p><strong>Dilution formula:</strong> $M_1V_1 = M_2V_2$ (when only diluted).</p><p><strong>Mixing different concentrations:</strong> $M_{\\text{final}} = \\dfrac{M_1V_1 + M_2V_2}{V_1+V_2}$.</p><p><strong>Oxidation Number (ON):</strong> Hypothetical charge on an atom if all bonds were ionic.</p><p><strong>Rules to find ON:</strong></p><ol><li>ON of free element = $0$</li><li>ON of monoatomic ion = its charge</li><li>ON of H = $+1$ (except $-1$ in metal hydrides)</li><li>ON of O = $-2$ (except: $-1$ in peroxides, $+2$ in OF₂, $-1/2$ in superoxides)</li><li>ON of F = $-1$ always</li><li>Sum of ON in neutral molecule = $0$; in ion = charge of ion</li></ol><p><strong>Oxidation:</strong> Increase in ON (loss of e⁻). <strong>Reduction:</strong> Decrease in ON (gain of e⁻). <strong>Oxidizing agent:</strong> Gets reduced (oxidizes others). <strong>Reducing agent:</strong> Gets oxidized.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Calculate molarity of solution prepared by dissolving $5.85$ g NaCl in $500$ mL water. ($M_{NaCl} = 58.5$)</p>",
+              "solution": "<p>$n = 5.85/58.5 = 0.1$ mol. $V = 500$ mL $= 0.5$ L. $M = 0.1/0.5 = 0.2$ M.</p><p><strong>Final Answer:</strong> $0.2$ M.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find ON of Mn in $KMnO_4$ and $K_2Cr_2O_7$.</p>",
+              "solution": "<p>In KMnO₄: K = $+1$, O = $-2$ × 4 = $-8$. Let Mn = $x$. Sum: $+1 + x - 8 = 0 \\implies x = +7$. In K₂Cr₂O₇: K (× 2) = $+2$, O (× 7) = $-14$. Let Cr = $y$. $+2 + 2y - 14 = 0 \\implies y = +6$.</p><p><strong>Final Answer:</strong> Mn = $+7$; Cr = $+6$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Molarity is independent of:</p>",
+              "options": [
+                "Volume",
+                "Temperature",
+                "Moles of solute",
+                "Mass of solute"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$9.8$ g H₂SO₄ in $1$ L of water has normality:</p>",
+              "options": [
+                "$0.1$ N",
+                "$0.2$ N",
+                "$0.5$ N",
+                "$1$ N"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Mole fraction of solute is $0.2$; mole fraction of solvent:</p>",
+              "options": [
+                "$0.2$",
+                "$0.8$",
+                "$0.5$",
+                "Cannot say"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Oxidation number of S in SO₂:</p>",
+              "options": [
+                "$+2$",
+                "$+4$",
+                "$+6$",
+                "$-2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$200$ mL of $0.5$ M HCl is diluted to $1$ L. New molarity:</p>",
+              "options": [
+                "$0.05$ M",
+                "$0.1$ M",
+                "$0.5$ M",
+                "$1$ M"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-chem-some-basic-concepts-of-chemistry-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>The number of moles in $11$ g of CO₂:</p>",
+              "options": [
+                "$0.25$",
+                "$0.5$",
+                "$1$",
+                "$2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The volume of $0.1$ mol of any gas at STP:</p>",
+              "options": [
+                "$1.12$ L",
+                "$2.24$ L",
+                "$11.2$ L",
+                "$22.4$ L"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$12$ g of magnesium reacts with HCl to give H₂ at STP. Volume of H₂:</p>",
+              "options": [
+                "$5.6$ L",
+                "$11.2$ L",
+                "$22.4$ L",
+                "$1.12$ L"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Mole fraction of ethanol ($C_2H_5OH$) in water if $46$ g of ethanol is in $54$ g of water:</p>",
+              "options": [
+                "$0.25$",
+                "$0.50$",
+                "$0.75$",
+                "$1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The empirical formula of a compound with $40\\%$ S and $60\\%$ O is:</p>",
+              "options": [
+                "$SO$",
+                "$SO_2$",
+                "$SO_3$",
+                "$S_2O_3$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Equivalent weight of KMnO₄ in acidic medium ($M = 158$):</p>",
+              "options": [
+                "$158$",
+                "$79$",
+                "$52.7$",
+                "$31.6$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Oxidation state of N in NH₄NO₃:</p>",
+              "options": [
+                "$+3$ (avg)",
+                "$-3$ and $+5$",
+                "$+5$ only",
+                "$-3$ only"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Molarity of pure water is approximately:</p>",
+              "options": [
+                "$1$ M",
+                "$18$ M",
+                "$55.5$ M",
+                "$100$ M"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of atoms of oxygen in $0.5$ mol of CaCO₃:</p>",
+              "options": [
+                "$0.5 \\times 6.022 \\times 10^{23}$",
+                "$1.5 \\times 6.022 \\times 10^{23}$",
+                "$3 \\times 6.022 \\times 10^{23}$",
+                "$6.022 \\times 10^{23}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The mass of $0.5$ mole of $H_2SO_4$:</p>",
+              "options": [
+                "$49$ g",
+                "$98$ g",
+                "$24.5$ g",
+                "$196$ g"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Number of moles in $44$ g of CO₂:</p>",
+              "answer": "1",
+              "explanation": ""
+            },
+            {
+              "q": "<p>ON of Cl in HClO₄:</p>",
+              "answer": "7",
+              "explanation": ""
+            },
+            {
+              "q": "<p>If $4$ mol HCl reacts with $3$ mol NaOH, the moles of unreacted reactant (integer):</p>",
+              "answer": "1",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Molality is preferred over molarity for studying physical properties dependent on temperature. <strong>Reason (R):</strong> Molality depends only on masses, so does not change with temperature.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> In a redox reaction, the oxidizing agent gets reduced. <strong>Reason (R):</strong> Oxidizing agent gains electrons, thereby reducing its own oxidation number.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "physics",
+  "chapter": 18,
+  "title": "Semiconductor Electronics",
+  "slug": "semiconductor-electronics",
+  "subtitle": "Semiconductor Electronics for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#7c3aed",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "Master Semiconductor Electronics for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Semiconductors and PN Junction Diode",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Intrinsic and Extrinsic Semiconductors",
+          "concept": "<p><strong>Classification of Solids by Conductivity:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Conductivity (S/m)</th><th>Band gap $E_g$</th><th>Examples</th></tr></thead><tbody><tr><td><strong>Conductor</strong></td><td>$10^7$</td><td>$0$ or overlap</td><td>Cu, Al, Ag</td></tr><tr><td><strong>Insulator</strong></td><td>$10^{-20}$ – $10^{-11}$</td><td>$> 3$ eV</td><td>Wood, glass</td></tr><tr><td><strong>Semiconductor</strong></td><td>$10^{-6}$ – $10^4$</td><td>$\\approx 1$ eV</td><td>Si ($E_g = 1.1$ eV), Ge ($E_g = 0.7$ eV)</td></tr></tbody></table><p><strong>Energy Band Theory:</strong> In solids, atomic orbitals form bands:</p><ul><li><strong>Valence band:</strong> highest occupied band at $T = 0$</li><li><strong>Conduction band:</strong> next higher band; electrons here carry current</li><li><strong>Forbidden gap (band gap):</strong> energy gap between them</li></ul><p><strong>Intrinsic Semiconductor:</strong> Pure semiconductor (Si, Ge). At $T = 0$: behaves as insulator. At $T > 0$: thermal energy excites electrons from valence to conduction band, leaving <strong>holes</strong> behind.</p><p>In intrinsic semiconductor: $n_e = n_h = n_i$ (electron and hole densities equal).</p><p><strong>Conductivity:</strong> $\\sigma = e(n_e\\mu_e + n_h\\mu_h)$, where $\\mu$ = mobility. For semiconductors, $\\mu_e > \\mu_h$.</p><p><strong>Extrinsic (Doped) Semiconductor:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Dopant</th><th>Group</th><th>Majority carriers</th><th>Minority carriers</th></tr></thead><tbody><tr><td><strong>N-type</strong></td><td>P, As, Sb</td><td>V (pentavalent)</td><td>Electrons</td><td>Holes</td></tr><tr><td><strong>P-type</strong></td><td>B, Al, Ga, In</td><td>III (trivalent)</td><td>Holes</td><td>Electrons</td></tr></tbody></table><p>In N-type: $n_e \\gg n_h$; donor level near conduction band. In P-type: $n_h \\gg n_e$; acceptor level near valence band.</p><p><strong>Mass Action Law:</strong> $n_e n_h = n_i^2$ (always).</p><p>Both types are <strong>electrically neutral</strong> overall.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>In a Si sample, $n_i = 1.5 \\times 10^{16}$ /m³ at $300$ K. If doped with P giving $n_e = 5 \\times 10^{22}$ /m³, find $n_h$.</p>",
+              "solution": "<p>$$n_h = n_i^2/n_e = (1.5 \\times 10^{16})^2/(5 \\times 10^{22}) = 2.25 \\times 10^{32}/(5 \\times 10^{22})$$ $$= 4.5 \\times 10^9 \\text{ /m}^3$$</p><p><strong>Final Answer:</strong> $n_h = 4.5 \\times 10^9$ /m³.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Identify the type of semiconductor obtained when Ge is doped with: (a) Boron, (b) Arsenic.</p>",
+              "solution": "<p>(a) Boron is trivalent (Group III) → creates holes → P-type. (b) Arsenic is pentavalent (Group V) → contributes electrons → N-type.</p><p><strong>Final Answer:</strong> (a) P-type; (b) N-type.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The band gap of intrinsic Si:</p>",
+              "options": [
+                "$0.7$ eV",
+                "$1.1$ eV",
+                "$3$ eV",
+                "$0$ eV"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In N-type semiconductor, majority carriers are:</p>",
+              "options": [
+                "Holes",
+                "Electrons",
+                "Protons",
+                "Both equal"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Doping Ge with In gives:</p>",
+              "options": [
+                "N-type",
+                "P-type",
+                "Intrinsic",
+                "Insulator"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Mass action law for semiconductors:</p>",
+              "options": [
+                "$n_e = n_h$",
+                "$n_e + n_h = n_i^2$",
+                "$n_e n_h = n_i^2$",
+                "$n_e/n_h = n_i$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The conductivity of semiconductors with temperature:</p>",
+              "options": [
+                "Decreases",
+                "Increases",
+                "Constant",
+                "First decreases then increases"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "PN Junction Diode, V-I Characteristics, Rectifiers",
+          "concept": "<p><strong>PN Junction:</strong> Formed when P-type and N-type semiconductors are joined.</p><p><strong>Formation Mechanism:</strong></p><ul><li>Diffusion of majority carriers across junction</li><li>Recombination near junction creates <strong>depletion region</strong> (no free charges)</li><li>Immobile ions (negative on P-side, positive on N-side) set up internal <strong>potential barrier</strong> $V_B$ that stops further diffusion</li></ul><p>Barrier voltage: $V_B \\approx 0.7$ V for Si, $0.3$ V for Ge.</p><p><strong>Biasing:</strong></p><table class=\"md-table\"><thead><tr><th>Bias</th><th>Connection</th><th>Depletion region</th><th>Current</th></tr></thead><tbody><tr><td><strong>Forward</strong></td><td>P to $+$, N to $-$</td><td>Decreases</td><td>Significant (after $V_B$ overcome)</td></tr><tr><td><strong>Reverse</strong></td><td>P to $-$, N to $+$</td><td>Increases</td><td>Very small (reverse saturation, $\\sim \\mu$A)</td></tr></tbody></table><p><strong>V-I Characteristics:</strong></p><table class=\"md-table\"><thead><tr><th>Region</th><th>Behavior</th></tr></thead><tbody><tr><td>Forward, $V < V_B$</td><td>Very small current (cut-in region)</td></tr><tr><td>Forward, $V > V_B$</td><td>Current increases sharply (exponentially: $I = I_0(e^{V/V_T} - 1)$)</td></tr><tr><td>Reverse, $V < V_{BR}$</td><td>Small reverse saturation current</td></tr><tr><td>Reverse, $V > V_{BR}$</td><td>Avalanche / Zener breakdown — large current</td></tr></tbody></table><p><strong>Dynamic Resistance:</strong> $r = \\Delta V/\\Delta I$ at operating point.</p><p><strong>Rectifiers:</strong> Convert AC to DC using diode's one-way conduction.</p><p><strong>Half-Wave Rectifier (HWR):</strong> One diode; conducts only during half cycle. Output frequency = input frequency.</p><ul><li>DC voltage: $V_{dc} = V_m/\\pi$</li><li>RMS: $V_{rms} = V_m/2$</li><li>Efficiency: $\\eta_{\\max} \\approx 40.6\\%$</li><li>Ripple factor: $\\gamma = 1.21$</li></ul><p><strong>Full-Wave Rectifier (FWR):</strong> Two diodes (center-tapped) or four (bridge). Both half cycles used. Output frequency = $2 \\times$ input.</p><ul><li>$V_{dc} = 2V_m/\\pi$</li><li>$V_{rms} = V_m/\\sqrt{2}$</li><li>Efficiency: $\\eta_{\\max} \\approx 81.2\\%$</li><li>Ripple factor: $\\gamma = 0.48$</li></ul><p><strong>Filters:</strong> Capacitor or inductor smooths pulsating DC into nearly steady DC.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A Si diode has barrier voltage $0.7$ V. When forward-biased with $5$ V through $1$ kΩ, find current.</p>",
+              "solution": "<p>$$I = \\frac{V - V_B}{R} = \\frac{5 - 0.7}{1000} = \\frac{4.3}{1000} = 4.3 \\text{ mA}$$</p><p><strong>Final Answer:</strong> $I = 4.3$ mA.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Peak input voltage to half-wave rectifier is $200$ V. Find DC output voltage.</p>",
+              "solution": "<p>$$V_{dc} = V_m/\\pi = 200/\\pi \\approx 63.66 \\text{ V}$$</p><p><strong>Final Answer:</strong> $V_{dc} \\approx 63.66$ V.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The depletion region in a PN junction:</p>",
+              "options": [
+                "Contains majority carriers",
+                "Has no free carriers",
+                "Is conductive",
+                "Vanishes at zero bias"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Barrier voltage of Si diode:</p>",
+              "options": [
+                "$0.3$ V",
+                "$0.7$ V",
+                "$1.1$ V",
+                "$5$ V"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Output frequency of half-wave rectifier with $50$ Hz input:</p>",
+              "options": [
+                "$25$ Hz",
+                "$50$ Hz",
+                "$100$ Hz",
+                "$200$ Hz"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Full-wave rectifier efficiency (max, theoretical):</p>",
+              "options": [
+                "$40.6\\%$",
+                "$50\\%$",
+                "$81.2\\%$",
+                "$100\\%$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In reverse bias:</p>",
+              "options": [
+                "Diode conducts heavily",
+                "Current is very small",
+                "Barrier decreases",
+                "Diode is forward conducting"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Transistors and Digital Electronics",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Special Diodes and Bipolar Junction Transistor",
+          "concept": "<p><strong>Special-Purpose Diodes:</strong></p><table class=\"md-table\"><thead><tr><th>Diode</th><th>Function</th><th>Use</th></tr></thead><tbody><tr><td><strong>Zener diode</strong></td><td>Operates in reverse breakdown at constant $V_Z$</td><td>Voltage regulator</td></tr><tr><td><strong>LED</strong></td><td>Emits light when forward biased</td><td>Indicator, displays</td></tr><tr><td><strong>Photodiode</strong></td><td>Generates current when exposed to light</td><td>Light sensor</td></tr><tr><td><strong>Solar cell</strong></td><td>LED operation in reverse (light → EMF)</td><td>Solar power</td></tr></tbody></table><p><strong>Zener Regulator:</strong> Used in parallel with load; maintains constant voltage across load even when input fluctuates.</p><p><strong>LED Wavelength:</strong> Determined by band gap of semiconductor: $\\lambda = hc/E_g$. Different materials → different colors.</p><p><strong>Bipolar Junction Transistor (BJT):</strong> Three-layer device with two PN junctions. Three terminals: <strong>Emitter (E)</strong>, <strong>Base (B)</strong>, <strong>Collector (C)</strong>.</p><table class=\"md-table\"><thead><tr><th>Type</th><th>Structure</th><th>Direction of conventional current</th></tr></thead><tbody><tr><td><strong>NPN</strong></td><td>n-p-n</td><td>$I_E$ flows into emitter</td></tr><tr><td><strong>PNP</strong></td><td>p-n-p</td><td>$I_E$ flows out of emitter</td></tr></tbody></table><p><strong>Three Configurations:</strong></p><ul><li>Common Base (CB)</li><li>Common Emitter (CE) ← most used</li><li>Common Collector (CC)</li></ul><p><strong>Transistor Action:</strong> Emitter is heavily doped, base is thin and lightly doped, collector is moderately doped. Junctions: emitter-base forward biased, collector-base reverse biased.</p><p><strong>Current Relations:</strong> $I_E = I_B + I_C$.</p><p><strong>Current Gain Parameters:</strong></p><table class=\"md-table\"><thead><tr><th>Configuration</th><th>Definition</th></tr></thead><tbody><tr><td>Common Base $\\alpha$</td><td>$\\alpha = I_C/I_E$ ($\\sim 0.95 - 0.99$)</td></tr><tr><td>Common Emitter $\\beta$</td><td>$\\beta = I_C/I_B$ ($\\sim 20 - 500$)</td></tr></tbody></table><p>Relations: $\\beta = \\alpha/(1-\\alpha)$, $\\alpha = \\beta/(1+\\beta)$.</p><p><strong>Voltage Gain in CE:</strong> $A_V = \\beta \\cdot R_L/R_i$.</p><p><strong>Transistor as Amplifier:</strong> Small input AC at base → large output AC at collector (CE). Phase reversal of $180°$ between input and output.</p><p><strong>Transistor as Switch:</strong> Operates between <strong>cut-off</strong> (both junctions reverse-biased; $I_C = 0$) and <strong>saturation</strong> (both forward-biased; $V_{CE}$ minimum). Basis for digital logic.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A transistor in CE has $\\beta = 50$. Find $\\alpha$ and $I_C$ when $I_B = 100\\,\\mu$A.</p>",
+              "solution": "<p>$$\\alpha = \\beta/(1+\\beta) = 50/51 \\approx 0.98$$ $$I_C = \\beta I_B = 50 \\times 100\\,\\mu\\text{A} = 5 \\text{ mA}$$</p><p><strong>Final Answer:</strong> $\\alpha \\approx 0.98$; $I_C = 5$ mA.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>An LED has band gap $E_g = 1.9$ eV. Find emitted wavelength.</p>",
+              "solution": "<p>$$\\lambda = hc/E_g = 1240/1.9 \\approx 653 \\text{ nm}$$</p><p>This is red light.</p><p><strong>Final Answer:</strong> $\\lambda \\approx 653$ nm (red).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Zener diode operates in:</p>",
+              "options": [
+                "Forward bias",
+                "Reverse breakdown",
+                "Both",
+                "Cut-off"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The emitter of a transistor is:</p>",
+              "options": [
+                "Heavily doped",
+                "Lightly doped",
+                "Undoped",
+                "Insulating"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In an NPN transistor in CE:</p>",
+              "options": [
+                "Base is reverse biased",
+                "Collector-base is reverse biased, emitter-base forward",
+                "Both forward",
+                "Both reverse"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Relation between $\\alpha$ and $\\beta$:</p>",
+              "options": [
+                "$\\alpha = \\beta + 1$",
+                "$\\beta = \\alpha/(1-\\alpha)$",
+                "$\\alpha = \\beta(1-\\beta)$",
+                "$\\alpha\\beta = 1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In common emitter amplifier, output is:</p>",
+              "options": [
+                "In phase with input",
+                "$180°$ out of phase",
+                "$90°$ out of phase",
+                "Same as input"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Logic Gates and Boolean Algebra",
+          "concept": "<p><strong>Logic Gates</strong> are digital circuits performing Boolean operations. Inputs/outputs are binary: $0$ (low/false) or $1$ (high/true).</p><p><strong>Basic Gates:</strong></p><table class=\"md-table\"><thead><tr><th>Gate</th><th>Symbol</th><th>Operation</th><th>Truth Table</th></tr></thead><tbody><tr><td><strong>NOT</strong></td><td>$\\bar A$</td><td>Inverter</td><td>$A: 0,1 \\to Y: 1,0$</td></tr><tr><td><strong>AND</strong></td><td>$A\\cdot B$</td><td>$Y = 1$ only if both inputs $= 1$</td><td>$00\\to 0$; $01\\to 0$; $10\\to 0$; $11\\to 1$</td></tr><tr><td><strong>OR</strong></td><td>$A+B$</td><td>$Y = 1$ if any input $= 1$</td><td>$00\\to 0$; $01\\to 1$; $10\\to 1$; $11\\to 1$</td></tr></tbody></table><p><strong>Combination Gates:</strong></p><table class=\"md-table\"><thead><tr><th>Gate</th><th>Operation</th><th>Truth Table</th></tr></thead><tbody><tr><td><strong>NAND</strong></td><td>$\\overline{A\\cdot B}$</td><td>$00\\to 1$; $01\\to 1$; $10\\to 1$; $11\\to 0$</td></tr><tr><td><strong>NOR</strong></td><td>$\\overline{A+B}$</td><td>$00\\to 1$; $01\\to 0$; $10\\to 0$; $11\\to 0$</td></tr><tr><td><strong>XOR</strong></td><td>$A\\oplus B$</td><td>$1$ if odd number of $1$s</td><td>$00\\to 0$; $01\\to 1$; $10\\to 1$; $11\\to 0$</td></tr><tr><td><strong>XNOR</strong></td><td>$\\overline{A\\oplus B}$</td><td>$1$ if even number of $1$s</td><td>$00\\to 1$; $01\\to 0$; $10\\to 0$; $11\\to 1$</td></tr></tbody></table><p><strong>Universal Gates:</strong> NAND and NOR can each produce any other gate combination.</p><p><strong>NOT from NAND:</strong> $\\bar A = \\overline{A\\cdot A}$ <strong>AND from NAND:</strong> $A\\cdot B = \\overline{\\overline{A\\cdot B}}$ (NAND followed by NOT) <strong>OR from NAND:</strong> $A + B = \\overline{\\bar A \\cdot \\bar B}$ (De Morgan)</p><p><strong>Boolean Laws:</strong></p><table class=\"md-table\"><thead><tr><th>Law</th><th>Statement</th></tr></thead><tbody><tr><td>Commutative</td><td>$A + B = B + A$; $AB = BA$</td></tr><tr><td>Associative</td><td>$(A+B)+C = A+(B+C)$</td></tr><tr><td>Distributive</td><td>$A(B+C) = AB + AC$</td></tr><tr><td>Identity</td><td>$A + 0 = A$; $A \\cdot 1 = A$</td></tr><tr><td>Null</td><td>$A + 1 = 1$; $A \\cdot 0 = 0$</td></tr><tr><td>Idempotent</td><td>$A + A = A$; $A\\cdot A = A$</td></tr><tr><td>Complement</td><td>$A + \\bar A = 1$; $A\\bar A = 0$</td></tr><tr><td>Double Negation</td><td>$\\bar{\\bar A} = A$</td></tr><tr><td><strong>De Morgan's</strong></td><td>$\\overline{A+B} = \\bar A\\bar B$; $\\overline{A\\cdot B} = \\bar A + \\bar B$</td></tr></tbody></table>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find output $Y$ of a circuit with two AND gates and inputs $A, B, C$ such that $Y = (A\\cdot B) + C$, with $A = 1, B = 0, C = 1$.</p>",
+              "solution": "<p>$A\\cdot B = 1\\cdot 0 = 0$. $Y = 0 + 1 = 1$.</p><p><strong>Final Answer:</strong> $Y = 1$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Use De Morgan's law: $\\overline{A + B\\bar C}$.</p>",
+              "solution": "<p>$$\\overline{A + B\\bar C} = \\bar A \\cdot \\overline{B\\bar C} = \\bar A \\cdot (\\bar B + C)$$</p><p><strong>Final Answer:</strong> $\\bar A(\\bar B + C)$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>NAND gate output is $1$ when:</p>",
+              "options": [
+                "Both inputs $1$",
+                "At least one input $0$",
+                "Both inputs $0$",
+                "Inputs different"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Universal gates:</p>",
+              "options": [
+                "AND, OR",
+                "NAND, NOR",
+                "NOT, AND",
+                "XOR, XNOR"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Output of XOR gate for $A = 1, B = 1$:</p>",
+              "options": [
+                "$0$",
+                "$1$",
+                "Indeterminate",
+                "High impedance"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>De Morgan's law states:</p>",
+              "options": [
+                "$\\overline{A+B} = \\bar A + \\bar B$",
+                "$\\overline{A\\cdot B} = \\bar A + \\bar B$",
+                "$\\overline{A\\cdot B} = \\bar A \\cdot \\bar B$",
+                "$A + B = AB$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>NOR gate is logically equivalent to:</p>",
+              "options": [
+                "OR followed by NOT",
+                "AND followed by NOT",
+                "NOT followed by AND",
+                "NOT followed by OR"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-phys-semiconductor-electronics-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>Forbidden gap of an insulator is typically:</p>",
+              "options": [
+                "$0$",
+                "$< 1$ eV",
+                "$> 3$ eV",
+                "$\\sim 0.7$ eV"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>P-type semiconductor is formed by doping Si with:</p>",
+              "options": [
+                "P",
+                "As",
+                "B",
+                "Sb"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Reverse saturation current of a Si diode is typically:</p>",
+              "options": [
+                "mA",
+                "μA or less",
+                "A",
+                "Zero"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Ripple factor of full-wave rectifier:</p>",
+              "options": [
+                "$1.21$",
+                "$0.48$",
+                "$0.81$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Maximum efficiency of half-wave rectifier:</p>",
+              "options": [
+                "$40.6\\%$",
+                "$81.2\\%$",
+                "$100\\%$",
+                "$50\\%$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In a CE configuration, $\\beta = 100$, $I_E = 10.1$ mA. $I_B$:</p>",
+              "options": [
+                "$0.1$ mA",
+                "$10$ mA",
+                "$1$ mA",
+                "$0.05$ mA"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The truth table of an OR gate:</p>",
+              "options": [
+                "Output $1$ only when all inputs $1$",
+                "Output $1$ when at least one input $1$",
+                "Output $0$ when all inputs $1$",
+                "Inverter"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>NPN transistor in CE: input current $I_B = 50\\,\\mu$A, $\\beta = 100$. Output current $I_C$:</p>",
+              "options": [
+                "$5$ mA",
+                "$0.5$ mA",
+                "$50$ mA",
+                "$0.05$ mA"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The barrier potential of a junction increases when:</p>",
+              "options": [
+                "Forward biased",
+                "Reverse biased",
+                "Temperature increased",
+                "Diode is broken"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The output of two-input NAND with both inputs $0$:</p>",
+              "options": [
+                "$0$",
+                "$1$",
+                "Undefined",
+                "$-1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>In NPN transistor, $\\beta = 99$. Value of $\\alpha$ to $2$ decimal places, multiplied by $100$:</p>",
+              "answer": "99",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of diodes in a bridge rectifier:</p>",
+              "answer": "4",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Output of: $Y = \\overline{A + B}$ where $A = 0, B = 0$:</p>",
+              "answer": "1",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> In an N-type semiconductor, the majority carriers are electrons. <strong>Reason (R):</strong> Pentavalent dopants donate one extra electron per atom to the lattice.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> A photodiode is operated in reverse bias. <strong>Reason (R):</strong> In reverse bias, change in current due to incident light is more prominent than in forward bias.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

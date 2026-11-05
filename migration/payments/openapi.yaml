@@ -1,0 +1,290 @@
+openapi: 3.0.3
+info:
+  title: GrowQR Payments API
+  version: 1.0.0
+  description: |
+    Order, checkout, refund and reporting endpoints of the GrowQR payment system.
+
+    * Success: `{ "data": ... }` (lists add `page`, `perPage`, `total`). Failure: `{ "error": { "code", "message", "details?" } }`.
+    * Money is always an integer in the currency's minor unit (paise, cents) next to an ISO 4217 code. Prices are chosen on the server; any amount sent by a client is ignored.
+    * Browser calls that change data must come from our own site (the `Origin` header is checked). Customers use the normal session cookie.
+      A guest order is read with the one-time `accessToken` (header `X-Order-Token`, or `?k=`).
+    * Staff endpoints need a signed-in account with a payment role (support, finance, admin) and, for staff, two-step login.
+servers:
+  - url: https://qrscore.mathstudy.in
+tags:
+  - { name: Customer }
+  - { name: Webhooks }
+  - { name: Admin }
+  - { name: Operations }
+components:
+  securitySchemes:
+    session: { type: apiKey, in: cookie, name: growqr_session, description: "Sign-in session cookie (name may differ by environment)." }
+    orderToken: { type: apiKey, in: header, name: X-Order-Token, description: "Guest order access token returned once when the order is created." }
+    cron: { type: http, scheme: bearer, description: "CRON_SECRET" }
+  parameters:
+    IdempotencyKey:
+      name: Idempotency-Key
+      in: header
+      required: true
+      schema: { type: string, minLength: 8, maxLength: 100, pattern: "^[A-Za-z0-9_.:-]+$" }
+      description: Repeating a call with the same key and body returns the first result. The same key with a different body returns 409.
+    OrderId: { name: id, in: path, required: true, schema: { type: string, example: ord_x4axkbytcdd37c85bx5n } }
+    Page: { name: page, in: query, schema: { type: integer, minimum: 1, default: 1 } }
+    PerPage: { name: perPage, in: query, schema: { type: integer, minimum: 1, maximum: 100, default: 25 } }
+  schemas:
+    Error:
+      type: object
+      required: [error]
+      properties:
+        error:
+          type: object
+          required: [code, message]
+          properties: { code: { type: string, example: forbidden }, message: { type: string }, details: {} }
+    Item: { type: object, required: [sku, qty], properties: { sku: { type: string }, qty: { type: integer, minimum: 1, maximum: 20 } } }
+    Billing:
+      type: object
+      required: [name, email]
+      properties:
+        name: { type: string }
+        email: { type: string, format: email }
+        taxId: { type: string }
+        address: { type: object, properties: { line1: { type: string }, city: { type: string }, state: { type: string }, postalCode: { type: string } } }
+    CreateOrder:
+      type: object
+      required: [items, country, billing]
+      properties:
+        items: { type: array, minItems: 1, maxItems: 10, items: { $ref: "#/components/schemas/Item" } }
+        country: { type: string, example: IN, description: ISO 3166-1 alpha-2 }
+        currency: { type: string, example: INR, description: "Optional. Must be a currency this basket has a price for; there is no conversion." }
+        coupon: { type: string }
+        provider: { type: string, enum: [razorpay, stripe] }
+        billing: { $ref: "#/components/schemas/Billing" }
+    OrderItem: { type: object, properties: { sku: { type: string }, title: { type: string }, qty: { type: integer }, unitMinor: { type: integer }, discountMinor: { type: integer }, taxMinor: { type: integer }, totalMinor: { type: integer } } }
+    Order:
+      type: object
+      properties:
+        id: { type: string }
+        status: { type: string, enum: [pending, paid, fulfilled, failed, cancelled, expired, partially_refunded, refunded, disputed] }
+        currency: { type: string }
+        subtotalMinor: { type: integer }
+        discountMinor: { type: integer }
+        taxMinor: { type: integer }
+        totalMinor: { type: integer }
+        refundedMinor: { type: integer }
+        taxInclusive: { type: boolean }
+        country: { type: string }
+        createdAt: { type: string, format: date-time }
+        expiresAt: { type: string, format: date-time }
+        paidAt: { type: string, format: date-time, nullable: true }
+        items: { type: array, items: { $ref: "#/components/schemas/OrderItem" } }
+    Checkout:
+      description: What the browser does next. Card and bank details are entered only on the provider's page or window.
+      oneOf:
+        - type: object
+          properties: { kind: { type: string, enum: [redirect] }, url: { type: string, format: uri } }
+        - type: object
+          properties: { kind: { type: string, enum: [razorpay] }, keyId: { type: string }, orderId: { type: string }, amountMinor: { type: integer }, currency: { type: string }, name: { type: string }, description: { type: string } }
+  responses:
+    Error: { description: Error, content: { application/json: { schema: { $ref: "#/components/schemas/Error" } } } }
+paths:
+  /api/v1/payments/config:
+    get:
+      tags: [Customer]
+      summary: Whether online payment is on, and which currencies a country can use
+      parameters: [{ name: country, in: query, schema: { type: string, default: IN } }]
+      responses: { "200": { description: "{ enabled, providers, currencies }" } }
+  /api/v1/payments/health:
+    get:
+      tags: [Operations]
+      summary: Readiness for uptime monitors (no secrets)
+      responses: { "200": { description: Ready }, "503": { description: Database down or no provider configured } }
+  /api/v1/orders/quote:
+    post:
+      tags: [Customer]
+      summary: Price preview. Creates nothing.
+      requestBody: { required: true, content: { application/json: { schema: { $ref: "#/components/schemas/CreateOrder" } } } }
+      responses: { "200": { description: Totals, tax, discount, usable currencies }, default: { $ref: "#/components/responses/Error" } }
+  /api/v1/orders:
+    post:
+      tags: [Customer]
+      summary: Create an order and start payment
+      parameters: [{ $ref: "#/components/parameters/IdempotencyKey" }]
+      security: [{ session: [] }, {}]
+      requestBody: { required: true, content: { application/json: { schema: { $ref: "#/components/schemas/CreateOrder" } } } }
+      responses:
+        "201":
+          description: "Order created. `accessToken` is present only for guests, only on the first (non-replayed) answer."
+          content: { application/json: { schema: { type: object, properties: { data: { type: object, properties: { order: { $ref: "#/components/schemas/Order" }, checkout: { $ref: "#/components/schemas/Checkout" }, paid: { type: boolean }, accessToken: { type: string } } } } } } }
+        "401": { description: This product needs an account }
+        "403": { description: Country not supported or request not from our site }
+        "409": { description: Idempotency key reused with a different body }
+        "422": { description: Invalid input }
+        "429": { description: Rate limited }
+    get:
+      tags: [Customer]
+      summary: The signed-in customer's orders
+      security: [{ session: [] }]
+      parameters: [{ $ref: "#/components/parameters/Page" }, { $ref: "#/components/parameters/PerPage" }]
+      responses: { "200": { description: Orders, newest first }, "401": { $ref: "#/components/responses/Error" } }
+  /api/v1/orders/{id}:
+    get:
+      tags: [Customer]
+      summary: One order (owner or guest token only; anything else is 404)
+      security: [{ session: [] }, { orderToken: [] }]
+      parameters: [{ $ref: "#/components/parameters/OrderId" }]
+      responses: { "200": { description: Order, latest payment state, documents, refunds }, "404": { $ref: "#/components/responses/Error" } }
+  /api/v1/orders/{id}/checkout:
+    post:
+      tags: [Customer]
+      summary: Start (or restart) payment for an unpaid order, optionally with another provider
+      security: [{ session: [] }, { orderToken: [] }]
+      parameters: [{ $ref: "#/components/parameters/OrderId" }]
+      responses: { "200": { description: Checkout descriptor }, "404": { $ref: "#/components/responses/Error" } }
+  /api/v1/orders/{id}/confirm:
+    post:
+      tags: [Customer]
+      summary: Ask the server to verify the payment with the provider now
+      description: Never marks an order paid on the caller's word. Amount, currency and order are checked against the provider's own record.
+      security: [{ session: [] }, { orderToken: [] }]
+      parameters: [{ $ref: "#/components/parameters/OrderId" }]
+      requestBody: { content: { application/json: { schema: { type: object, properties: { razorpay_payment_id: { type: string }, razorpay_signature: { type: string } } } } } }
+      responses: { "200": { description: Current order }, "404": { $ref: "#/components/responses/Error" }, "429": { $ref: "#/components/responses/Error" } }
+  /api/v1/orders/{id}/cancel:
+    post:
+      tags: [Customer]
+      summary: Cancel an unpaid order
+      security: [{ session: [] }, { orderToken: [] }]
+      parameters: [{ $ref: "#/components/parameters/OrderId" }]
+      responses: { "200": { description: Cancelled }, "409": { description: Already paid }, "404": { $ref: "#/components/responses/Error" } }
+  /api/v1/orders/{id}/receipt:
+    get:
+      tags: [Customer]
+      summary: Printable receipt (or credit note) for an order
+      security: [{ session: [] }, { orderToken: [] }]
+      parameters: [{ $ref: "#/components/parameters/OrderId" }, { name: doc, in: query, schema: { type: string } }]
+      responses: { "200": { description: HTML document, content: { text/html: {} } }, "404": { $ref: "#/components/responses/Error" } }
+  /api/v1/webhooks/{provider}:
+    post:
+      tags: [Webhooks]
+      summary: Provider to us. Trust comes only from the provider's signature over the exact raw body.
+      parameters: [{ name: provider, in: path, required: true, schema: { type: string, enum: [razorpay, stripe] } }]
+      responses: { "200": { description: Received (also for repeats and events we do not use) }, "400": { description: Bad or missing signature }, "500": { description: Temporary failure; the provider retries } }
+  /api/v1/admin/payments:
+    get:
+      tags: [Admin]
+      summary: Search orders and payments (permission view)
+      security: [{ session: [] }]
+      parameters:
+        - { name: q, in: query, schema: { type: string } }
+        - { name: status, in: query, schema: { type: string } }
+        - { name: provider, in: query, schema: { type: string } }
+        - { name: currency, in: query, schema: { type: string } }
+        - { name: from, in: query, schema: { type: string, format: date } }
+        - { name: to, in: query, schema: { type: string, format: date } }
+        - { $ref: "#/components/parameters/Page" }
+        - { $ref: "#/components/parameters/PerPage" }
+      responses: { "200": { description: Rows }, "401": { $ref: "#/components/responses/Error" }, "403": { $ref: "#/components/responses/Error" } }
+  /api/v1/admin/payments/{id}:
+    get:
+      tags: [Admin]
+      summary: Full order record with payments, refunds, disputes, webhooks and timeline (permission view)
+      security: [{ session: [] }]
+      parameters: [{ $ref: "#/components/parameters/OrderId" }]
+      responses: { "200": { description: Detail }, "404": { $ref: "#/components/responses/Error" } }
+  /api/v1/admin/refunds:
+    post:
+      tags: [Admin]
+      summary: Refund an order in full or in part (permission refund)
+      description: Recorded before the provider is called. The refund is `pending` until the provider confirms. Repeating the call with the same key returns the same refund.
+      security: [{ session: [] }]
+      parameters: [{ $ref: "#/components/parameters/IdempotencyKey" }]
+      requestBody:
+        required: true
+        content: { application/json: { schema: { type: object, required: [orderId, reason, confirm], properties: { orderId: { type: string }, paymentId: { type: integer }, amountMinor: { type: integer, description: Omit to refund everything left }, reason: { type: string }, confirm: { type: boolean, enum: [true] } } } } }
+      responses: { "202": { description: Refund pending }, "200": { description: Refund finished or failed }, "400": { $ref: "#/components/responses/Error" }, "403": { $ref: "#/components/responses/Error" }, "422": { $ref: "#/components/responses/Error" } }
+  /api/v1/admin/export:
+    get:
+      tags: [Admin]
+      summary: CSV of matching orders, formulas neutralised (permission export; logged)
+      security: [{ session: [] }]
+      responses: { "200": { description: CSV, content: { text/csv: {} } } }
+  /api/v1/admin/reports/summary:
+    get:
+      tags: [Admin]
+      summary: Revenue per currency (never summed across currencies) and order counts
+      security: [{ session: [] }]
+      parameters: [{ name: from, in: query, schema: { type: string, format: date } }, { name: to, in: query, schema: { type: string, format: date } }]
+      responses: { "200": { description: Summary } }
+  /api/v1/admin/webhooks:
+    get:
+      tags: [Admin]
+      summary: Webhook event log (permission view)
+      security: [{ session: [] }]
+      responses: { "200": { description: Events } }
+  /api/v1/admin/webhooks/{id}/retry:
+    post:
+      tags: [Admin]
+      summary: Re-process a stored webhook event (permission retry_webhook)
+      security: [{ session: [] }]
+      parameters: [{ name: id, in: path, required: true, schema: { type: integer } }]
+      responses: { "200": { description: Result } }
+  /api/v1/admin/reconciliation:
+    get:
+      tags: [Admin]
+      summary: Reconciliation runs and open items (permission view)
+      security: [{ session: [] }]
+      responses: { "200": { description: Runs } }
+    post:
+      tags: [Admin]
+      summary: Run reconciliation now (permission reconcile)
+      security: [{ session: [] }]
+      responses: { "200": { description: Report } }
+  /api/v1/admin/reconciliation/items/{id}/resolve:
+    post:
+      tags: [Admin]
+      summary: Mark a reconciliation difference as reviewed (permission reconcile)
+      security: [{ session: [] }]
+      parameters: [{ name: id, in: path, required: true, schema: { type: integer } }]
+      responses: { "200": { description: Done } }
+  /api/v1/admin/audit:
+    get:
+      tags: [Admin]
+      summary: Audit log; add verify=1 to check the hash chain (permission view_audit)
+      security: [{ session: [] }]
+      parameters: [{ name: entity, in: query, schema: { type: string } }, { name: entityId, in: query, schema: { type: string } }, { name: verify, in: query, schema: { type: string } }]
+      responses: { "200": { description: Events } }
+  /api/v1/admin/metrics:
+    get:
+      tags: [Admin]
+      summary: Counts, success rate, webhook backlog, alerts (permission view)
+      security: [{ session: [] }]
+      responses: { "200": { description: Metrics } }
+  /api/v1/admin/catalogue:
+    get:
+      tags: [Admin]
+      summary: Products, prices, currencies, tax rules, coupons (permission view)
+      security: [{ session: [] }]
+      responses: { "200": { description: Catalogue } }
+    post:
+      tags: [Admin]
+      summary: Change a price, currency, tax rule or coupon (permission manage_catalogue; audited)
+      security: [{ session: [] }]
+      responses: { "200": { description: Done } }
+  /api/v1/admin/staff:
+    get:
+      tags: [Admin]
+      summary: Payment staff (permission manage_staff)
+      security: [{ session: [] }]
+      responses: { "200": { description: Staff } }
+    post:
+      tags: [Admin]
+      summary: Grant or revoke a payment role. Nobody can change their own role.
+      security: [{ session: [] }]
+      responses: { "200": { description: Done }, "403": { $ref: "#/components/responses/Error" } }
+  /api/cron/payments:
+    get:
+      tags: [Operations]
+      summary: Background jobs. Expires unpaid orders, retries webhooks, finishes refunds, reconciles, alerts.
+      security: [{ cron: [] }]
+      responses: { "200": { description: Job report }, "401": { description: Missing or wrong secret } }

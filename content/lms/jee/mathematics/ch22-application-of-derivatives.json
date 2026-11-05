@@ -1,0 +1,960 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": 22,
+  "title": "Application of Derivatives",
+  "slug": "application-of-derivatives",
+  "subtitle": "Applications of Derivatives",
+  "level": "JEE Main & Advanced",
+  "color": "#16a34a",
+  "icon": "math",
+  "seo": {
+    "meta_description": "Master Application of Derivatives for JEE Main & Advanced on GrowQR: notes, solved examples, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Rate Measures & Geometric Slopes",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Rate of Change and Related Rates",
+          "concept": "<p>The derivative $\\frac{dy}{dx}$ represents the instantaneous rate of change of the dependent variable $y$ with respect to the independent variable $x$. When both variables depend implicitly on a third parameter—typically time $t$—we employ the chain rule to link their relative rates of change:\n \\[ \\frac{dy}{dt} = \\frac{dy}{dx} \\cdot \\frac{dx}{dt} \\]\n In related rates problems involving geometric structures (spheres, cones, cylinders), you must construct an equation relating the physical quantities, differentiate implicitly with respect to $t$, and isolate the required rate. A recurring trap in JEE Advanced involves tracking water levels in conic reservoirs, where both the liquid surface radius $r$ and height $h$ vary simultaneously, necessitating the use of similar triangles to eliminate a variable before differentiation.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A spherical balloon is inflated at a constant rate of $30\\text{ cm}^3/\\text{s}$. Find the rate at which its radius is increasing when the radius reaches $5\\text{ cm}$.</p>",
+              "solution": "Let $V$ represent the volume and $r$ denote the radius of the sphere. We are given the constant rate of volume expansion $\\frac{dV}{dt} = 30\\text{ cm}^3/\\text{s}$.\n <ul>\n <li><strong>Step 1: Set up the geometric volume formula</strong><br>\n The volume of a sphere is given by:\n \\[ V = \\frac{4}{3}\\pi r^3 \\]\n <li><strong>Step 2: Differentiate implicitly with respect to time $t$</strong><br>\n Applying the chain rule gives:\n \\[ \\frac{dV}{dt} = \\frac{4}{3}\\pi \\cdot \\left(3r^2 \\frac{dr}{dt}\\right) = 4\\pi r^2 \\frac{dr}{dt} \\]\n <li><strong>Step 3: Substitute known values and solve for $\\frac{dr}{dt}$</strong><br>\n Set $r = 5\\text{ cm}$ and $\\frac{dV}{dt} = 30$:\n \\[ 30 = 4\\pi (5)^2 \\frac{dr}{dt} \\implies 30 = 100\\pi \\frac{dr}{dt} \\implies \\frac{dr}{dt} = \\frac{30}{100\\pi} = \\frac{3}{10\\pi}\\text{ cm/s} \\]\n </ul>\n <strong>Final Answer:</strong> The radius is increasing at a rate of $\\frac{3}{10\\pi}\\text{ cm/s}$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "A stone is dropped into a quiet lake and waves move in circles at a speed of $4\\text{ cm/s}$. At the instant when the radius of the circular wave is $10\\text{ cm}$, how fast is the enclosed area increasing?",
+              "options": [
+                "$40\\pi\\text{ cm}^2/\\text{s}$",
+                "$80\\pi\\text{ cm}^2/\\text{s}$",
+                "$16\\pi\\text{ cm}^2/\\text{s}$",
+                "$100\\pi\\text{ cm}^2/\\text{s}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The volume of a cube is increasing at the rate of $8\\text{ cm}^3/\\text{s}$. How fast is the surface area increasing when the length of an edge is $12\\text{ cm}$?",
+              "options": [
+                "$\\frac{8}{3}\\text{ cm}^2/\\text{s}$",
+                "$4\\text{ cm}^2/\\text{s}$",
+                "$\\frac{4}{3}\\text{ cm}^2/\\text{s}$",
+                "$6\\text{ cm}^2/\\text{s}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Water is leaking out from a conical tank at a constant rate of $1\\text{ cm}^3/\\text{s}$ through a tiny hole at the vertex at the bottom. When the slanting height of the water level is $4\\text{ cm}$, find the rate of decrease of the slanting height if the semi-vertical angle of the cone is $30^\\circ$.",
+              "options": [
+                "$\\frac{1}{2\\pi}\\text{ cm/s}$",
+                "$\\frac{1}{3\\pi}\\text{ cm/s}$",
+                "$\\frac{2}{3\\pi}\\text{ cm/s}$",
+                "$\\frac{1}{4\\pi}\\text{ cm/s}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "A man $2\\text{ m}$ high walks at a uniform speed of $5\\text{ km/h}$ away from a lamp-post which is $6\\text{ m}$ high. The rate at which the length of his shadow increases is:",
+              "options": [
+                "$5\\text{ km/h}$",
+                "$2.5\\text{ km/h}$",
+                "$3.33\\text{ km/h}$",
+                "$1.25\\text{ km/h}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "For a parametric particle trace given by $x = t^3 - 3t$ and $y = t^2 + 4t$, the rate of change of $y$ with respect to $x$ at $t = 2$ is:",
+              "options": [
+                "$8/9$",
+                "$1$",
+                "$2/3$",
+                "$4/3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Tangents, Normals, and Curves Intersection",
+          "concept": "For any differentiable function $y = f(x)$, the value of the derivative at a specific point $P(x_0, y_0)$ dictates the geometric slopes of its associated linear lines:\n <ul>\n <li><strong>Tangent Line:</strong> Passes through $P$ with slope $m_1 = f'(x_0)$. The equation of the tangent line is:\n \\[ y - y_0 = f'(x_0)(x - x_0) \\]\n <li><strong>Normal Line:</strong> A line perpendicular to the tangent at the point of contact $P$. Its slope is $m_2 = -\\frac{1}{f'(x_0)}$, provided $f'(x_0) \\neq 0$. The equation of the normal line is:\n \\[ y - y_0 = -\\frac{1}{f'(x_0)}(x - x_0) \\]\n </ul>\n The <strong>angle of intersection $\\phi$</strong> between two intersecting curves $y = f(x)$ and $y = g(x)$ is defined as the acute angle between their respective tangents at the point of intersection. It is computed via the formula:\n \\[ \\tan\\phi = \\left|\\frac{m_1 - m_2}{1 + m_1 m_2}\\right| \\]\n If $1 + m_1 m_2 = 0 \\implies m_1 m_2 = -1$, the curves intersect at an angle of $90^\\circ$, meaning they are strictly <strong>orthogonal curves</strong>.",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the equations of the tangent and normal to the curve $y = x^3 - 2x + 1$ at the point where $x = 2$.</p>",
+              "solution": "First, determine the coordinate point $y_0$ by substituting $x_0 = 2$ into the curve equation:\n \\[ y_0 = (2)^3 - 2(2) + 1 = 8 - 4 + 1 = 5 \\implies P(2, 5) \\]\n Next, compute the general derivative to find the instantaneous slope:\n \\[ f'(x) = 3x^2 - 2 \\implies m_1 = f'(2) = 3(2)^2 - 2 = 12 - 2 = 10 \\]\n <ul>\n <li><strong>Equation of Tangent:</strong><br>\n \\[ y - 5 = 10(x - 2) \\implies y - 5 = 10x - 20 \\implies 10x - y - 15 = 0 \\]\n <li><strong>Equation of Normal:</strong><br>\n The normal slope is $m_2 = -\\frac{1}{10}$:\n \\[ y - 5 = -\\frac{1}{10}(x - 2) \\implies 10y - 50 = -x + 2 \\implies x + 10y - 52 = 0 \\]\n </ul>\n <strong>Final Answer:</strong> Tangent: $10x - y - 15 = 0$; Normal: $x + 10y - 52 = 0$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The angle of intersection between the curves $y = x^2$ and $6y = 7 - x^3$ at the point $(1, 1)$ is:",
+              "options": [
+                "$\\pi/4$",
+                "$\\pi/3$",
+                "$\\pi/2$",
+                "$\\pi/6$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If the line $y = x$ is tangent to the curve $y = x^2 + k$, then the value of the constant $k$ must be:",
+              "options": [
+                "$1/2$",
+                "$1/4$",
+                "$1$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The slope of the normal to the curve $y = 2x^2 + 3\\sin x$ at $x = 0$ is:",
+              "options": [
+                "$3$",
+                "$-3$",
+                "$1/3$",
+                "$-1/3$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "The point on the curve $y = x^2$ where the tangent is parallel to the secant line chord joining $(1, 1)$ and $(2, 4)$ is:",
+              "options": [
+                "$(3/2, 9/4)$",
+                "$(1, 1)$",
+                "$(5/4, 25/16)$",
+                "$(2, 4)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the curves $y = e^{ax}$ and $y = e^{bx}$ cut orthogonally, then the product relationship $ab$ must satisfy:",
+              "options": [
+                "$ab = 1$",
+                "$ab = -1$",
+                "$a+b = 0$",
+                "No real values of $a$ and $b$ exist"
+              ],
+              "correct": 3,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Monotonicity & Optimization Analysis",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Monotonicity and Critical Points",
+          "concept": "Derivatives serve as the primary tool to track whether a function is climbing or falling over an interval:\n <ul>\n <li><strong>Increasing Function:</strong> A function $f(x)$ is strictly increasing over an interval if $f'(x) > 0$ for all points in that interval.\n <li><strong>Decreasing Function:</strong> A function $f(x)$ is strictly decreasing over an interval if $f'(x) < 0$ for all points in that interval.\n </ul>\n A function is <strong>monotonic</strong> if it maintains a single directional trend (either entirely non-increasing or non-decreasing) across its domain. <strong>Critical Points</strong> are the fundamental domain positions where local behavior can shift. A point $x = c$ in the domain of $f(x)$ is a critical point if:\n \\[ f'(c) = 0 \\quad \\text{or} \\quad f'(c) \\text{ is completely undefined} \\]\n A common mistake in competitive exams is ignoring points where the derivative is undefined (such as $x=0$ for $f(x)=|x|$), which can be valid locations for local extrema.",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Determine the intervals of monotonicity for the function $f(x) = 2x^3 - 3x^2 - 12x + 5$.</p>",
+              "solution": "Differentiate the polynomial function with respect to $x$:\n \\[ f'(x) = 6x^2 - 6x - 12 \\]\n To find the critical numbers, set $f'(x) = 0$:\n \\[ 6(x^2 - x - 2) = 0 \\implies 6(x-2)(x+1) = 0 \\implies x = 2, \\quad x = -1 \\]\n These two points divide the real number line into three intervals: $(-\\infty, -1)$, $(-1, 2)$, and $(2, \\infty)$. We analyze the sign of $f'(x)$ in each sub-interval using the sign scheme method:\n <ul>\n <li><strong>Interval $(-\\infty, -1)$:</strong> Choose $x = -2 \\implies f'(-2) = 6(-2-2)(-2+1) = 6(-4)(-1) = 24 > 0 \\implies$ Strictly Increasing.\n <li><strong>Interval $(-1, 2)$:</strong> Choose $x = 0 \\implies f'(0) = 6(-2)(1) = -12 < 0 \\implies$ Strictly Decreasing.\n <li><strong>Interval $(2, \\infty)$:</strong> Choose $x = 3 \\implies f'(3) = 6(3-2)(3+1) = 6(1)(4) = 24 > 0 \\implies$ Strictly Increasing.\n </ul>\n <strong>Final Answer:</strong> Strictly increasing on $(-\\infty, -1] \\cup [2, \\infty)$ and strictly decreasing on $[-1, 2]$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The function $f(x) = x^3 - 3x$ is strictly decreasing in the interval:",
+              "options": [
+                "$(-\\infty, -1)$",
+                "$(-1, 1)$",
+                "$(1, \\infty)$",
+                "$(-\\infty, \\infty)$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The function $f(x) = \\frac{\\ln x}{x}$ is strictly increasing in the interval:",
+              "options": [
+                "$(1, \\infty)$",
+                "$(0, e)$",
+                "$(e, \\infty)$",
+                "$(0, 1)$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the total number of critical points for the transcendental function $f(x) = x - 2\\sin x$ on the open interval $(0, 2\\pi)$.",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Which of the following functions is strictly decreasing on the interval $(0, \\pi/2)$?",
+              "options": [
+                "$\\sin(2x)$",
+                "$\\tan x$",
+                "$\\cos x$",
+                "$x^2$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "For the function $f(x) = \\frac{x}{x^2+1}$, the interval of absolute increase is:",
+              "options": [
+                "$(-1, 1)$",
+                "$(-\\infty, -1) \\cup (1, \\infty)$",
+                "$(0, \\infty)$",
+                "$(-\\infty, 0)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Extrema and Geometric Optimization",
+          "concept": "Local extreme values occur exclusively at critical domain positions and are analyzed using two standard protocols:\n <ul>\n <li><strong>First Derivative Test:</strong> Observe the sign changes of $f'(x)$ when passing through a critical point $c$ from left to right. If $f'(x)$ changes from positive to negative, $c$ is a local maximum. If $f'(x)$ changes from negative to positive, $c$ is a local minimum.\n <li><strong>Second Derivative Test:</strong> If $f'(c) = 0$, evaluate the second derivative at that point:\n \\[ f''(c) > 0 \\implies \\text{Local Minimum at } c \\]\n \\[ f''(c) < 0 \\implies \\text{Local Maximum at } c \\]\n If $f''(c) = 0$, the test is completely inconclusive, requiring you to look for higher-order derivatives or revert to the First Derivative Test.\n </ul>\n To find the <strong>Global (Absolute) Extrema</strong> on a bounded closed interval $[a, b]$, you collect the functional values at all interior critical points alongside the endpoint values $f(a)$ and $f(b)$. The absolute maximum is the largest value in this set, and the absolute minimum is the smallest.",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>An open tank with a square base and vertical sides is to be constructed from a metal sheet of area $c^2$. Show that the maximum volume of the tank is $\\frac{c^3}{6\\sqrt{3}}$.</p>",
+              "solution": "Let x represent the length of the square base side and h denote the vertical height of the tank.\n <ul>\n <li><strong>Step 1: Write down the constraint equation</strong><br>\n The total surface area of an open box with a square base is:\n \\[ S = x^2 + 4xh = c^2 \\implies 4xh = c^2 - x^2 \\implies h = \\frac{c^2 - x^2}{4x} \\]\n <li><strong>Step 2: Formulate the objective volume function</strong><br>\n \\[ V = x^2 h = x^2 \\left( \\frac{c^2 - x^2}{4x} \\right) = \\frac{1}{4}(c^2 x - x^3) \\]\n <li><strong>Step 3: Optimize using derivatives</strong><br>\n Differentiate $V$ with respect to $x$ and set the result to 0:\n \\[ \\frac{dV}{dx} = \\frac{1}{4}(c^2 - 3x^2) = 0 \\implies 3x^2 = c^2 \\implies x = \\frac{c}{\\sqrt{3}} \\]\n Check the second derivative to verify it is a maximum:\n \\[ \\frac{d^2V}{dx^2} = \\frac{1}{4}(-6x) = -\\frac{3x}{2} < 0 \\quad (\\text{Valid Maximum}) \\]\n <li><strong>Step 4: Compute the maximum volume expression</strong><br>\n Substitute $x = \\frac{c}{\\sqrt{3}}$ back into the volume formula:\n \\[ V_{\\max} = \\frac{1}{4}\\left(c^2 \\left(\\frac{c}{\\sqrt{3}}\\right) - \\left(\\frac{c}{\\sqrt{3}}\\right)^3\\right) = \\frac{1}{4}\\left(\\frac{c^3}{\\sqrt{3}} - \\frac{c^3}{3\\sqrt{3}}\\right) = \\frac{1}{4}\\left(\\frac{2c^3}{3\\sqrt{3}}\\right) = \\frac{c^3}{6\\sqrt{3}} \\]\n </ul>\n <strong>Final Answer:</strong> Proved. Maximum volume is $\\frac{c^3}{6\\sqrt{3}}$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The minimum value of the objective function $f(x) = x^x$ for $x > 0$ occurs at:",
+              "options": [
+                "$x = e$",
+                "$x = 1/e$",
+                "$x = 1$",
+                "$x = \\sqrt{e}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The maximum value of $f(x) = \\frac{x+1}{\\sqrt{x^2+1}}$ across the entire real domain is:",
+              "options": [
+                "$1$",
+                "$\\sqrt{2}$",
+                "$2$",
+                "$1/2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Divide a positive real number $20$ into two components such that the product of the square of one number and the cube of the other is maximized. The parts are:",
+              "options": [
+                "$10, 10$",
+                "$8, 12$",
+                "$5, 15$",
+                "$4, 16$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The perimeter of a rectangle is bounded at $100\\text{ m}$. The maximum available area for this layout configuration is:",
+              "options": [
+                "$400\\text{ m}^2$",
+                "$625\\text{ m}^2$",
+                "$500\\text{ m}^2$",
+                "$1000\\text{ m}^2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the point of local minimum for the function $f(x) = 2x^3 - 21x^2 + 60x + 10$.",
+              "options": [
+                "$x = 2$",
+                "$x = 5$",
+                "$x = 3.5$",
+                "$x = 0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Higher Order Behavior & Curve Geometries",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Concavity and Inflection Points",
+          "concept": "While the first derivative tracks direction, the second derivative controls the curvature or shape of the graph:\n <ul>\n <li><strong>Concave Upwards:</strong> The graph curves up like a cup. This occurs when $f''(x) > 0$ over an interval, meaning the tangent lines lie entirely below the curve.\n <li><strong>Concave Downwards:</strong> The graph curves down like a cap. This occurs when $f''(x) < 0$ over an interval, meaning the tangent lines lie entirely above the curve.\n </ul>\n An <strong>Inflection Point</strong> is a transition point on the curve where the concavity changes from concave up to concave down, or vice versa. For a point $x = x_0$ to be an inflection point, $f''(x_0) = 0$ (or is undefined) and the sign of $f''(x)$ must change across $x_0$.",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the points of inflection for the polynomial function $f(x) = 3x^5 - 5x^4$.</p>",
+              "solution": "Compute the first and second derivatives sequentially:\n \\[ f'(x) = 15x^4 - 20x^3 \\]\n \\[ f''(x) = 60x^3 - 60x^2 = 60x^2(x - 1) \\]\n To find candidate inflection points, set $f''(x) = 0$:\n \\[ 60x^2(x - 1) = 0 \\implies x = 0 \\quad \\text{or} \\quad x = 1 \\]\n Now analyze the sign changes of $f''(x)$ across these candidate points:\n <ul>\n <li><strong>Across $x = 0$:</strong> For $x < 0$, $f''(x) = 60(+)(-) = -$. For $0 < x < 1$, $f''(x) = 60(+)(-) = -$. Since the sign does not change across $x=0$, it is not an inflection point.\n <li><strong>Across $x = 1$:</strong> For $0 < x < 1$, $f''(x) = -$. For $x > 1$, $f''(x) = 60(+)(+) = +$. Since the concavity flips from downwards to upwards, $x = 1$ is a valid inflection point.\n </ul>\n Find the corresponding y-coordinate: $f(1) = 3(1)^5 - 5(1)^4 = -2$.\n <strong>Final Answer:</strong> The inflection point is $(1, -2)$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The function $f(x) = x e^x$ is concave downwards in the domain interval:",
+              "options": [
+                "$(-\\infty, -2)$",
+                "$(-2, \\infty)$",
+                "$(-\\infty, -1)$",
+                "$(0, \\infty)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "How many inflection points exist for the curve equation $y = x^4 - 6x^2 + 5$?",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "$3$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The curve $y = x^3 - 3x^2 + 6x + 5$ is concave upwards everywhere inside which domain boundary?",
+              "options": [
+                "$x < 1$",
+                "$x > 1$",
+                "$x < 0$",
+                "Everywhere across the real line"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "At an inflection point $x = c$ for a thrice differentiable curve map $f(x)$, which condition is unconditionally met?",
+              "options": [
+                "$f'(c) = 0$",
+                "$f''(c) = 0$ and $f'''(c) \\neq 0$",
+                "$f(c) = 0$",
+                "$f''(c) > 0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "For the cubic path $y = 2x^3 - 3x^2 - 12x + 6$, the inflection node location is situated at:",
+              "options": [
+                "$x = 1/2$",
+                "$x = 1$",
+                "$x = 2$",
+                "$x = -1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Systematic Curve Sketching, Approximations, and Errors",
+          "concept": "To draw a reliable sketch of a function $y = f(x)$, combine several analytical criteria into a step-by-step process:\n <ol>\n <li><strong>Domain and Range:</strong> Determine the allowed inputs and corresponding outputs.\n <li><strong>Intercepts:</strong> Find the x-intercepts by setting $y = 0$, and the y-intercept by setting $x = 0$.\n <li><strong>Symmetry:</strong> Check if the function is even ($f(-x) = f(x)$), odd ($f(-x) = -f(x)$), or periodic.\n <li><strong>Asymptotes:</strong> Find vertical asymptotes where the function blows up, and horizontal asymptotes as $x \\to \\pm\\infty$.\n <li><strong>Monotonicity and Concavity:</strong> Map out increasing/decreasing intervals and concavity using $f'(x)$ and $f''(x)$ to position local extrema and inflection points accurately.\n </ol>\n Derivatives also enable linear approximations for tracking changes or errors over short distances. The value of a function at a nearby point can be estimated using its linear tangent approximation:\n \\[ f(a+h) \\approx f(a) + h \\cdot f'(a) \\]\n If $x$ changes by a small step $\\Delta x$, the resulting change in $y$ is modeled using differentials: $\\Delta y \\approx f'(x)\\Delta x$. We measure these changes using three metrics:\n \\[ \\text{Absolute Error} = \\Delta y, \\quad \\text{Relative Error} = \\frac{\\Delta y}{y}, \\quad \\text{Percentage Error} = \\left(\\frac{\\Delta y}{y}\\right) \\times 100 \\]",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Use differentials to approximate the value of $\\sqrt{25.3}$.</p>",
+              "solution": "<p>Define an appropriate functional framework: $f(x) = \\sqrt{x}$.\n Choose a convenient baseline value $a = 25$ where the output is an exact integer, and set the small step deviation to $h = 0.3$.\n The derivative of our function is:\n \\[ f'(x) = \\frac{1}{2\\sqrt{x}} \\]\n Evaluate the function and its derivative at the baseline value $a = 25$:\n \\[ f(25) = \\sqrt{25} = 5, \\quad f'(25) = \\frac{1}{2\\sqrt{25}} = \\frac{1}{10} = 0.1 \\]\n Apply the linear approximation formula:\n \\[ f(25 + 0.3) \\approx f(25) + (0.3) \\cdot f'(25) \\implies \\sqrt{25.3} \\approx 5 + (0.3) \\cdot (0.1) = 5 + 0.03 = 5.03 \\]\n <strong>Final Answer:</strong> $\\sqrt{25.3} \\approx 5.03$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If the error in measuring the radius of a sphere is $1\\%$, then the resulting percentage error in calculating its volume is:",
+              "options": [
+                "$1\\%$",
+                "$2\\%$",
+                "$3\\%$",
+                "$0.5\\%$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Using differential linear modeling, the approximate scalar estimation for $\\sqrt[3]{27.27}$ resolves to:",
+              "options": [
+                "$3.01$",
+                "$3.03$",
+                "$3.009$",
+                "$3.05$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "While measuring a side length $x$ of an equilateral triangle, a structural error of $2\\%$ is introduced. The corresponding deviation error in its computed surface area matches:",
+              "options": [
+                "$2\\%$",
+                "$1\\%$",
+                "$4\\%$",
+                "$6\\%$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The spatial path layout equation $y = \\frac{x^2-1}{x^2-4}$ exhibits vertical asymptotes situated at:",
+              "options": [
+                "$x = \\pm 1$",
+                "$x = \\pm 2$",
+                "$x = 0$",
+                "$x = \\pm 4$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Approximate the real metric functional change of $y = x^2 + 3x$ when $x$ transitions marginally from $2$ down to $1.98$:",
+              "options": [
+                "$-0.14$",
+                "$-0.07$",
+                "$-0.28$",
+                "$-0.02$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Indeterminate Limits & Mean Value Theorems",
+      "topics": [
+        {
+          "number": 1,
+          "title": "L'Hôpital's Rule and Indeterminate Forms",
+          "concept": "<p>L'Hôpital's Rule provides a reliable method for evaluating limits that result in indeterminate forms like $\\frac{0}{0}$ or $\\frac{\\infty}{\\infty}$. It states that if $\\lim_{x \\to a} f(x) = \\lim_{x \\to a} g(x) = 0$ (or $\\pm\\infty$), then:\n \\[ \\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\lim_{x \\to a} \\frac{f'(x)}{g'(x)} \\]\n provided the limit on the right exists and $g'(x) \\neq 0$ near $a$. Other indeterminate forms like $0 \\cdot \\infty$ or $\\infty - \\infty$ must be algebraically rearranged into standard fractions before applying the rule. For exponential indeterminate forms ($1^\\infty, 0^0, \\infty^0$), use natural logarithms to convert the expression into a product layout first.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Evaluate $\\lim_{x \\to 0} \\frac{x e^x - \\ln(1+x)}{x^2}$ using L'Hôpital's Rule.</p>",
+              "solution": "<p>Direct substitution of $x = 0$ yields $\\frac{0 - 0}{0} = \\frac{0}{0}$. Since both equations are differentiable near 0, differentiate the numerator and denominator independently:\n \\[ \\text{Numerator Derivative: } \\frac{d}{dx}(x e^x - \\ln(1+x)) = (1 \\cdot e^x + x e^x) - \\frac{1}{1+x} \\]\n \\[ \\text{Denominator Derivative: } \\frac{d}{dx}(x^2) = 2x \\]\n This gives the new limit expression:\n \\[ \\lim_{x \\to 0} \\frac{e^x + x e^x - \\frac{1}{1+x}}{2x} \\]\n Substitute $x = 0$: $\\frac{1 + 0 - 1}{0} = \\frac{0}{0}$. Since it remains indeterminate, apply L'Hôpital's Rule a second time:\n \\[ \\lim_{x \\to 0} \\frac{\\frac{d}{dx}(e^x + x e^x - (1+x)^{-1})}{\\frac{d}{dx}(2x)} = \\lim_{x \\to 0} \\frac{e^x + (e^x + x e^x) + \\frac{1}{(1+x)^2}}{2} \\]\n Now substitute $x = 0$ into this final expression:\n \\[ \\frac{e^0 + e^0 + 0 + \\frac{1}{(1+0)^2}}{2} = \\frac{1 + 1 + 1}{2} = \\frac{3}{2} \\]\n <strong>Final Answer:</strong> $\\frac{3}{2}$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Evaluate the trigonometric limit ratio $\\lim_{x \\to 0} \\frac{x - \\sin x}{x^3}$:",
+              "options": [
+                "$1/3$",
+                "$1/6$",
+                "$1/2$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate $\\lim_{x \\to 0} \\frac{e^x - e^{-x} - 2x}{x^3}$ using successive iterations of L'Hôpital's Rule:",
+              "options": [
+                "$1/3$",
+                "$2/3$",
+                "$1$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The limit value of the exponential indeterminate form $\\lim_{x \\to 0^+} x^x$ is:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$e$",
+                "$1/e$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the algebraic limit structural format $\\lim_{x \\to \\infty} \\frac{\\ln x}{x^2}$:",
+              "options": [
+                "$\\infty$",
+                "$1$",
+                "$0$",
+                "$1/2$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The limit expression $\\lim_{x \\to 0} \\frac{1 - \\cos(mx)}{1 - \\cos(nx)}$ resolves to:",
+              "options": [
+                "$m/n$",
+                "$m^2/n^2$",
+                "$n^2/m^2$",
+                "$1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Mean Value Theorem Applications and Root Analysis",
+          "concept": "<p>Rolle's Theorem and Lagrange's Mean Value Theorem (LMVT) are powerful tools for proving analytical inequalities and identifying the exact roots of transcendental equations.</p><p>By analyzing the derivative of a function, you can determine how many real roots it has. For instance, if Rolle's Theorem guarantees that between any two real roots of $f(x) = 0$ there must exist at least one root of $f'(x) = 0$, then by contrapositive logic, if $f'(x) = 0$ has zero real roots across an interval, $f(x) = 0$ can have at most one real root in that interval. This method is effective for proving that an equation has exactly one unique real root.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Prove that the equation $x^3 + 3x + d = 0$ has exactly one real root for any real constant value $d$.</p>",
+              "solution": "Define the polynomial function: $f(x) = x^3 + 3x + d$.\n Since $f(x)$ is a polynomial, it is continuous and differentiable everywhere across the real line.\n <ul>\n <li><strong>Step 1: Verify existence of at least one root using limits</strong><br>\n Analyze the behavior of the function at extreme limits:\n \\[ \\lim_{x \\to \\infty} f(x) = \\infty \\quad \\text{and} \\quad \\lim_{x \\to -\\infty} f(x) = -\\infty \\]\n Since the graph transitions from negative infinity to positive infinity, the Intermediate Value Theorem (IVT) guarantees that the continuous path must cross the x-axis at least once, confirming the existence of at least one real root.\n <li><strong>Step 2: Prove uniqueness using monotonicity</strong><br>\n Compute the first derivative of the function:\n \\[ f'(x) = 3x^2 + 3 = 3(x^2 + 1) \\]\n Since $x^2 \\ge 0$ for all real numbers, $3(x^2 + 1) \\ge 3 > 0$. Because the derivative is strictly positive everywhere ($f'(x) > 0$), the function is strictly increasing across its entire domain. A strictly increasing function can cross the x-axis at most once. Therefore, the equation cannot have multiple roots.\n </ul>\n <strong>Final Answer:</strong> Proved. The equation has exactly one unique real root."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The total number of real roots for the equation $x^5 + x^3 + x - 5 = 0$ is exactly:",
+              "options": [
+                "$5$",
+                "$3$",
+                "$1$",
+                "$0$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "For the function $f(x) = x^3 - 3x + k$, if Rolle's Theorem is satisfied in the interval $[0, \\sqrt{3}]$, then the value of the matching parameter $c$ is:",
+              "options": [
+                "$1$",
+                "$1.5$",
+                "$\\sqrt{2}$",
+                "$0.5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Using LMVT analysis over a differentiable path mapping, if $f'(x) \\le 5$ for all real numbers and $f(2) = 3$, what is the maximum attainable scalar boundary limit for $f(5)$?",
+              "options": [
+                "$15$",
+                "$18$",
+                "$12$",
+                "$20$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "How many distinct real solutions exist for the equation $x^3 - 3x^2 + 6x - 10 = 0$?",
+              "options": [
+                "$3$",
+                "$2$",
+                "$1$",
+                "$0$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Between any two real roots of the polynomial equation $e^x \\cos x = 1$, how many real roots of $e^x \\sin x - 1 = 0$ must exist?",
+              "options": [
+                "At least one",
+                "Exactly two",
+                "None",
+                "Infinitely many"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-math-application-of-derivatives-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "A point moves along the parabola $y^2 = 8x$. At what coordinate position are the rates of change of its abscissa and ordinate identically equal?",
+              "options": [
+                "$(2, 4)$",
+                "$(4, 4)$",
+                "$(1, 2)$",
+                "$(2, 2)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The equation of the normal to the curve $y = \\sin x$ at the origin $(0, 0)$ is:",
+              "options": [
+                "$x - y = 0$",
+                "$x + y = 0$",
+                "$x = 0$",
+                "$y = 0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The function $f(x) = \\frac{x}{\\ln x}$ is strictly decreasing over which domain interval?",
+              "options": [
+                "$(0, 1)$",
+                "$(1, e)$",
+                "$(0, 1) \\cup (1, e)$",
+                "$(e, \\infty)$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The maximum value of the function $f(x) = \\sin x + \\cos x$ on the interval $[0, \\pi]$ is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$\\sqrt{2}$",
+                "$\\frac{1}{\\sqrt{2}}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The coordinate point on the curve $y = x^2 - 4x + 5$ where the tangent line is perfectly horizontal is:",
+              "options": [
+                "$(2, 1)$",
+                "$(1, 2)$",
+                "$(0, 5)$",
+                "$(4, 5)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The function $f(x) = x^3 - 3x^2 + 3x + 7$ has how many inflection points?",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "$3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate $\\lim_{x \\to 0} \\frac{\\tan x - x}{x^3}$ using L'Hôpital's Rule:",
+              "options": [
+                "$1/3$",
+                "$1/2$",
+                "$0$",
+                "$1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The absolute minimum value of the function $f(x) = 2x^3 - 9x^2 + 12x + 1$ on the closed interval $[0, 2]$ is:",
+              "options": [
+                "$1$",
+                "$5$",
+                "$6$",
+                "$2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the path of a curve is given by $y = e^x$, the tangent line drawn at $x = 0$ crosses the x-axis at which position?",
+              "options": [
+                "$x = -1$",
+                "$x = 1$",
+                "$x = 0$",
+                "$x = -2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The curves $y = e^x$ and $y = e^{-x}$ intersect at what angle?",
+              "options": [
+                "$0^\\circ$",
+                "$90^\\circ$",
+                "$\\tan^{-1}(2)$",
+                "$\\tan^{-1}(4)$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "A ladder $5\\text{ m}$ long leans against a vertical wall. If the bottom of the ladder is pulled away along the ground at a rate of $2\\text{ m/s}$, find the speed (in $\\text{m/s}$) at which its top is sliding down the wall when the base is exactly $3\\text{ m}$ away from the wall.",
+              "answer": "",
+              "explanation": ""
+            },
+            {
+              "q": "Find the total number of critical points for the function $f(x) = |x^2 - 4|$ across the real line.",
+              "answer": "3",
+              "explanation": ""
+            },
+            {
+              "q": "Using differentials, if the side length of a cube increases by $2\\%$, find the percentage error that propagates into the calculated volume.",
+              "answer": "",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The function $f(x) = \\tan x - x$ is strictly increasing for all real numbers where it is defined.<br>\n <strong>Reason (R):</strong> The derivative $f'(x) = \\sec^2 x - 1 = \\tan^2 x \\ge 0$, meaning the slope is always non-negative.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> If $f''(c) = 0$, then the point $(c, f(c))$ must be an inflection point of the function.<br>\n <strong>Reason (R):</strong> An inflection point requires both $f''(c) = 0$ (or undefined) and a change in concavity across the point.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 3,
+              "explanation": "A is false (concavity must change sign, e.g., $f(x)=x^4$ has $f''(0)=0$ but is not an inflection point), but R is true."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-math-application-of-derivatives-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "If the subnormal to the curve $x y^n = a^{n+1}$ is of constant length, then the exponent parameter $n$ must equal:",
+              "options": [
+                "$-2$",
+                "$-3$",
+                "$2$",
+                "$3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Let $f(x) = \\int_0^x \\sqrt{t} \\cdot e^{-t} \\, dt$ for $x > 0$. The maximum value of $f(x)$ is achieved at:",
+              "options": [
+                "$x = 1/2$",
+                "$x = 1$",
+                "$x = 2$",
+                "$x = e$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The total number of real roots for the transcendental equation $e^x = x^2$ across the real line is exactly:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The shortest distance between the line $y - x = 1$ and the parabola $x = y^2$ is given by:",
+              "options": [
+                "$\\frac{3\\sqrt{2}}{8}$",
+                "$\\frac{2\\sqrt{3}}{5}$",
+                "$\\frac{1}{2}$",
+                "$\\frac{3}{4}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $f(x) = \\frac{x^2 - 1}{x^2 + 1}$ for all real numbers, then the absolute minimum value of the function is:",
+              "options": [
+                "$1$",
+                "$-1$",
+                "$0$",
+                "$-1/2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the limit $\\lim_{x \\to 0} \\left(\\frac{\\sin x}{x}\\right)^{\\frac{1}{x^2}}$ using log transformations and L'Hôpital's Rule:",
+              "options": [
+                "$e^{-1/6}$",
+                "$e^{-1/3}$",
+                "$e^{-1/2}$",
+                "$1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Let $f(x) = x^3 + b x^2 + c x + d$ with $b^2 < 3c$. The total number of critical points for this cubic polynomial is:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "Infinite"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "A right circular cylinder is inscribed inside a sphere of radius $R$. The maximum possible volume of the cylinder is:",
+              "options": [
+                "$\\frac{4\\pi R^3}{3\\sqrt{3}}$",
+                "$\\frac{4\\pi R^3}{3}$",
+                "$\\frac{2\\pi R^3}{3\\sqrt{3}}$",
+                "$\\frac{\\pi R^3}{\\sqrt{3}}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The function $f(x) = \\frac{\\ln x}{x}$ is concave downwards inside which interval?",
+              "options": [
+                "$(0, e^{3/2})$",
+                "$(e^{3/2}, \\infty)$",
+                "$(0, e)$",
+                "$(e, \\infty)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If Rolle's Theorem holds for a differentiable function $f(x)$ on $[0, 1]$ with $f(0) = f(1) = 0$, then the equation $f'(x) + 2 f(x) = 0$ must have:",
+              "options": [
+                "At least one real root in $(0, 1)$",
+                "No roots in $(0, 1)$",
+                "Exactly two roots in $(0, 1)$",
+                "No definitive conclusion can be drawn"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "If the curve $y = a x^3 + b x^2 + c x + 5$ has an inflection point at $P(1, 2)$ where the tangent line is horizontal, find the value of the coefficient constant $b$.",
+              "answer": "-3",
+              "explanation": ""
+            },
+            {
+              "q": "Find the total number of distinct real solutions to the equation $3x^5 + 15x^3 + 10x - 20 = 0$.",
+              "answer": "1",
+              "explanation": ""
+            },
+            {
+              "q": "Find the maximum vertical distance measured between the curves $y = \\sin x$ and $y = \\cos x$ within the first quadrant interval $x \\in [0, \\pi/2]$.",
+              "answer": "",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The curve $y = x^4$ has a critical point at $x = 0$, but this point does not qualify as an inflection point.<br>\n <strong>Reason (R):</strong> The second derivative is $f''(x) = 12x^2 \\ge 0$, which means it does not change sign across the origin.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> The shortest distance between two non-intersecting smooth curves always lies along their common normal line.<br>\n <strong>Reason (R):</strong> The normal line represents the path of steepest ascent and descent perpendicular to the local boundaries.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation (geometric property of shortest distance)."
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

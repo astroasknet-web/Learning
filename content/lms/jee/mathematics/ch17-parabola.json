@@ -1,0 +1,958 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": 17,
+  "title": "Parabola",
+  "slug": "parabola",
+  "subtitle": "Parabola for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#db2777",
+  "icon": "math",
+  "seo": {
+    "meta_description": "Master Parabola for JEE Main & Advanced on GrowQR: theory, formulas, solved examples and self-check MCQs. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Introduction and General Conic",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Focus-Directrix Definition and Eccentricity",
+          "concept": "<p>A conic section is defined locus-wise as the path tracked by a variable coordinate point $P$ whose distance from a fixed point $S$ (the focus) bears a constant ratio $e$ (the eccentricity) to its perpendicular distance from a fixed straight line $L = 0$ (the directrix).\n \\[\n\t\\frac{\\text{Distance from Focus } (SP)}{\\text{Distance from Directrix } (PM)} = e \\implies SP = e \\cdot PM.\n\t\\]</p><p>\\[\n\t\\begin{array}{ll}\n\t\t\n\t\t\\textbf{Eccentricity Value } (e) & \\textbf{Resulting Conic Profile} \\\\\n\t\t\n\t\te = 1 & \\text{Parabola} \\\\\n\t\t0 < e < 1 & \\text{Ellipse} \\\\\n\t\te > 1 & \\text{Hyperbola} \\\\\n\t\te = 0 & \\text{Circle} \\\\\n\t\t\n\t\\end{array}\n\t\\]</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "The general second-degree equation $9x^2 - 24xy + 16y^2 - 20x - 15y + 25 = 0$ represents which conic profile?",
+              "options": [
+                "Ellipse",
+                "Hyperbola",
+                "Parabola",
+                "Pair of straight lines"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of a parabola whose focus is located at the origin $(0,0)$ and whose directrix line matches $x + y + 2 = 0$:",
+              "options": [
+                "$x^2 + y^2 - 2xy - 4x - 4y - 4 = 0$",
+                "$x^2 + y^2 + 2xy - 4x - 4y - 4 = 0$",
+                "$x^2 + y^2 - 2xy + 4x + 4y + 4 = 0$",
+                "$x^2 - 2xy + y^2 - 4x - 4y - 4 = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a conic section has an eccentricity tracking metric $e$ satisfying the quadratic balance condition $2e^2 - 5e + 2 = 0$, what non-degenerate curves can it represent?",
+              "options": [
+                "Parabola only",
+                "Ellipse only",
+                "Hyperbola only",
+                "Ellipse or Hyperbola"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "For what value of the coefficient parameter $h$ does the equation $x^2 + 2hxy + 4y^2 + 6x + 12y + 9 = 0$ represent a parabola profile ($\\Delta \\neq 0$)?",
+              "options": [
+                "$\\pm 4$",
+                "$\\pm 2$",
+                "$\\pm 1$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "A point moves such that its distance from the point $(3, 0)$ is always identically equal to its perpendicular distance from the vertical line $x = -3$. The equation of its locus is:",
+              "options": [
+                "$y^2 = 12x$",
+                "$y^2 = 6x$",
+                "$x^2 = 12y$",
+                "$y^2 = -12x$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Standard Parabola: $y^2 = 4ax$",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Key Elements",
+          "concept": "<p>\\begin{formulabox}[Standard Form and Key Elements ($a > 0$)]\n \\[\n\t\ty^2 = 4ax\n\t\t\\]\n \n <table class=\"tex-table\"><tr><td><strong>Geometric Element</strong></td><td><strong>Value / Coordinate Form</strong></td></tr><tr><td>Vertex</td><td>$(0,0)$</td></tr><tr><td>Focus ($S$)</td><td>$(a,0)$</td></tr><tr><td>Directrix Line ($L$)</td><td>$x = -a \\implies x + a = 0$</td></tr><tr><td>Axis of Symmetry</td><td>$y = 0$ (the horizontal $x$-axis)</td></tr><tr><td>Latus Rectum Line Chord</td><td>$x = a$; Total Length $= 4a$</td></tr><tr><td>Ends of Latus Rectum ($L_1, L_2$)</td><td>$(a, 2a)$ and $(a, -2a)$</td></tr><tr><td>Focal Distance of any Point $P(x_1,y_1)$</td><td>$SP = x_1 + a$</td></tr></table>\n \n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Other Standard Orientations",
+          "concept": "<p><table class=\"tex-table\"><tr><td><strong>Equation</strong></td><td><strong>Opens</strong></td><td><strong>Vertex</strong></td><td><strong>Focus</strong></td><td><strong>Directrix</strong></td><td><strong>Axis Equation</strong></td></tr><tr><td>$y^2 = 4ax\\;(a>0)$</td><td>Right</td><td>$(0,0)$</td><td>$(a,0)$</td><td>$x=-a$</td><td>$y=0$</td></tr><tr><td>$y^2 = -4ax$</td><td>Left</td><td>$(0,0)$</td><td>$(-a,0)$</td><td>$x=a$</td><td>$y=0$</td></tr><tr><td>$x^2 = 4ay\\;(a>0)$</td><td>Upward</td><td>$(0,0)$</td><td>$(0,a)$</td><td>$y=-a$</td><td>$x=0$</td></tr><tr><td>$x^2 = -4ay$</td><td>Downward</td><td>$(0,0)$</td><td>$(0,-a)$</td><td>$y=a$</td><td>$x=0$</td></tr></table></p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 3,
+          "title": "Shifted (Translated) Parabola",
+          "concept": "<p>When the vertex of the parabola is translated away from the origin to a new coordinate point $(h, k)$, the standard equations shift linearly:\n \\[\n\t(y - k)^2 = 4a(x - h) \\quad \\text{or} \\quad (x-h)^2 = 4a(y-k).\n\t\\]</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Find the focal distance of a point $P$ lying on the parabola $y^2 = 16x$ whose abscissa coordinate is exactly $x_1 = 6$:",
+              "options": [
+                "$6$",
+                "$4$",
+                "$10$",
+                "$14$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Find the coordinates of the focus and the length of the latus rectum for the shifted parabola profile given by $y^2 - 4y - 8x + 12 = 0$:",
+              "options": [
+                "Focus = $(3,2)$, LR Length = $8$",
+                "Focus = $(1,2)$, LR Length = $8$",
+                "Focus = $(2,2)$, LR Length = $4$",
+                "Focus = $(3,2)$, LR Length = $4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "A downward-opening parabola has its vertex situated at the origin $(0,0)$ and passes through the point $(-4, -8)$. Its standard equation is:",
+              "options": [
+                "$x^2 = -2y$",
+                "$y^2 = -16x$",
+                "$x^2 = -4y$",
+                "$x^2 = -8y$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The endpoints of the latus rectum of a standard parabola are given by $(3, 6)$ and $(3, -6)$. Find its directrix line equation:",
+              "options": [
+                "$x = 3$",
+                "$x = -3$",
+                "$y = -3$",
+                "$x = 0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the vertex of the vertical parabola profile modeled by $x^2 - 6x - 12y - 3 = 0$:",
+              "options": [
+                "$(3, -1)$",
+                "$(-3, 1)$",
+                "$(3, 1)$",
+                "$(0, -1)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Parametric Form",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Parametric Properties and Chord Slopes",
+          "concept": "<ul>[leftmargin=*]\n <li><strong>Focal Distance of Parameter $t$:</strong> The distance from the focus $S(a,0)$ to the parameter point $P(t)$ simplifies to:\n \\[\n\t\t|SP| = at^2 + a = a(1+t^2).\n\t\t\\]\n <li><strong>Slope of a General Chord:</strong> The straight line connecting two distinct parameter points $P(t_1)$ and $Q(t_2)$ has its slope calculated as:\n \\[\n\t\tm = \\frac{2at_2 - 2at_1}{at_2^2 - at_1^2} = \\frac{2a(t_2 - t_1)}{a(t_2 - t_1)(t_2 + t_1)} = \\frac{2}{t_1 + t_2} \\quad (t_1 + t_2 \\neq 0).\n\t\t\\]\n </ul>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Find the slope of the chord connecting the two parameter points $t_1 = 3$ and $t_2 = 5$ on the parabola $y^2 = 4ax$:",
+              "options": [
+                "$1/4$",
+                "$1/2$",
+                "$2$",
+                "$4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "A parameter point $t$ on the parabola $y^2 = 8x$ stands at a focal distance of exactly $10$ units away from the focus. Find the value of $t^2$:",
+              "options": [
+                "$3$",
+                "$4$",
+                "$5$",
+                "$2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the parametric tracking equation layout for a vertical parabola orientation matching $x^2 = 4ay$:",
+              "options": [
+                "$x = 2at, y = at^2$",
+                "$x = at^2, y = 2at$",
+                "$x = at, y = 2at^2$",
+                "$x = 2at, y = -at^2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a chord joining $P(t_1)$ and $Q(t_2)$ on $y^2 = 4ax$ has a constant vertical slope mapping of $m = 1$, then the sum of their parameters $t_1 + t_2$ must be equal to:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$1/2$",
+                "$-2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The coordinates of a point on the curve $y^2 = 16x$ parameterized at $t = -2$ evaluate to:",
+              "options": [
+                "$(16, -16)$",
+                "$(4, -8)$",
+                "$(16, -8)$",
+                "$(16, 16)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Equations of Tangent",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Tangent at a Point $(x_1, y_1)$",
+          "concept": "<p>\\begin{formulabox}[Point Form]\n \\[\n\t\ty y_1 = 2a(x + x_1)\n\t\t\\]\n Derived using the standard $T = 0$ transform configuration matrix template: replace $y^2 \\to y y_1$, and linear components $x \\to \\frac{x+x_1}{2}$.\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Tangent in Parametric Form",
+          "concept": "<p>\\begin{formulabox}[Parametric Form — at point $t$]\n \\[\n\t\tty = x + at^2\n\t\t\\]\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 3,
+          "title": "Tangent in Slope Form",
+          "concept": "<p>\\begin{formulabox}[Slope Form — slope $m$]\n \\[\n\t\ty = mx + \\frac{a}{m} \\quad (m \\neq 0)\n\t\t\\]\n The matching precise point of tangency contact is given by: $\\left(\\dfrac{a}{m^2},\\, \\dfrac{2a}{m}\\right)$.\n \\end{formulabox}</p><p>\\begin{importantbox}[Condition of Tangency]\n The straight line $y = mx + c$ is a valid tangent line to the standard parabola $y^2 = 4ax$ if and only if:\n \\[\n\t\tc = \\frac{a}{m}.\n\t\t\\]\n \\end{importantbox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 4,
+          "title": "Key Properties of Tangents",
+          "concept": "<ol>\n <li>Tangents drawn at the endpoints of the latus rectum intersect at right angles on the directrix line.\n <li>The point of intersection of two tangents drawn at parameters $t_1$ and $t_2$ is given by: $\\bigl(at_1t_2,\\, a(t_1+t_2)\\bigr)$.\n <li>If the tangents at $t_1$ and $t_2$ intersect at right angles ($90^\\circ$), then $t_1 t_2 = -1$.\n </ol>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Find the equation of the tangent line to the parabola $y^2 = 12x$ that is parallel to the linear line $x - y + 5 = 0$:",
+              "options": [
+                "$x - y + 3 = 0$",
+                "$x - y + 9 = 0$",
+                "$x + y + 3 = 0$",
+                "$2x - y + 3 = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the coordinates of the point of intersection of the two tangents drawn at $t_1 = 2$ and $t_2 = 3$ on the parabola $y^2 = 4x$:",
+              "options": [
+                "$(6, 5)$",
+                "$(5, 6)$",
+                "$(6, 10)$",
+                "$(12, 5)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "For what value of the intercept constant $c$ is the line $y = 2x + c$ tangent to the curve $y^2 = 8x$?",
+              "options": [
+                "$1$",
+                "$2$",
+                "$1/2$",
+                "$4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The line $ty = x + at^2$ touches the parabola $y^2 = 4ax$ at which coordinate position?",
+              "options": [
+                "$(at^2, 2at)$",
+                "$(at, 2at^2)$",
+                "$(a/t^2, 2a/t)$",
+                "$(-at^2, 2at)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If two perpendicular tangents are drawn to the parabola $y^2 = 16x$ from an external point $P$, the locus of $P$ matches which line?",
+              "options": [
+                "$x = 4$",
+                "$x = -4$",
+                "$y = -4$",
+                "$x = 0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Equations of Normal",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Normal at a Point $(x_1, y_1)$",
+          "concept": "<p>\\begin{formulabox}[Point Form]\n \\[\n\t\ty - y_1 = -\\frac{y_1}{2a}(x - x_1)\n\t\t\\]\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Normal in Parametric Form",
+          "concept": "<p>\\begin{formulabox}[Parametric Form — at parameter $t$]\n \\[\n\t\ty + tx = 2at + at^3\n\t\t\\]\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 3,
+          "title": "Normal in Slope Form",
+          "concept": "<p>\\begin{formulabox}[Slope Form — slope $m$]\n \\[\n\t\ty = mx - 2am - am^3\n\t\t\\]\n The matching base foot of the normal vector evaluates coordinate-wise to: $\\bigl(am^2,\\, -2am\\bigr)$.\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 4,
+          "title": "Number of Normals from an External Point",
+          "concept": "<p>For a general external coordinate point $(h, k)$, the slope-form normal equation generates a cubic equation in terms of $m$:\n \\[\n\tam^3 + m(2a - h) + k = 0.\n\t\\]\n Because it is a cubic equation, a maximum of <strong>three real normals</strong> can be drawn from an external point to a parabola.</p><p>\\begin{importantbox}[Condition for Three Real Normals]\n Three distinct real normals can be drawn from an external point $(h, k)$ to the parabola $y^2 = 4ax$ if and only if:\n \\[\n\t\th > 2a \\quad \\text{and} \\quad k^2 < \\frac{4}{27}\\cdot\\frac{(h-2a)^3}{a}.\n\t\t\\]\n \\end{importantbox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 5,
+          "title": "Co-normal Points",
+          "concept": "<p>If the three normals drawn at parameters $t_1, t_2,$ and $t_3$ are concurrent at a single point $(h,k)$, these parameters are called <strong>co-normal points</strong>. They satisfy the following properties derived from Vieta's formulas:\n \\[\n\tt_1 + t_2 + t_3 = 0, \\quad t_1 t_2 + t_2 t_3 + t_3 t_1 = \\frac{2a-h}{a}, \\quad t_1 t_2 t_3 = -\\frac{k}{a}.\n\t\\]</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Find the equation of the normal line to the parabola $y^2 = 4x$ at the parameter point $t = 2$:",
+              "options": [
+                "$2x + y - 12 = 0$",
+                "$x + 2y - 12 = 0$",
+                "$2x - y - 4 = 0$",
+                "$2x + y - 8 = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the total number of distinct real normals that can be drawn to the parabola $y^2 = 4x$ from the external point $(1, 0)$:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the normals at co-normal points $t_1, t_2,$ and $t_3$ are concurrent, find the sum of their ordinates ($2at_1 + 2at_2 + 2at_3$):",
+              "options": [
+                "$0$",
+                "$2a$",
+                "$h$",
+                "$-k$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the slope of a normal to the parabola $y^2 = 8x$ whose foot coordinate is situated at $(2, -4)$:",
+              "options": [
+                "$1$",
+                "$-1$",
+                "$2$",
+                "$-2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The normal line $y = mx - 2am - am^3$ touches the parabola $y^2 = 4ax$ at which foot position?",
+              "options": [
+                "$(am^2, -2am)$",
+                "$(am^2, 2am)$",
+                "$(am, -2am^2)$",
+                "$(-am^2, -2am)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Chord of the Parabola",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Focal Chord",
+          "concept": "<p>A chord passing through the focus $(a, 0)$ is called a <strong>focal chord</strong>.</p>\\begin{formulabox}[Properties of Focal Chord]\n If $t_1$ and $t_2$ represent the parameter endpoints of a focal chord:\n \\[\n\t\tt_1 \\cdot t_2 = -1.\n\t\t\\]\n <ul>\n <li>The semi-latus rectum is the <em>harmonic mean</em> of the focal segments: $\\dfrac{1}{SP} + \\dfrac{1}{SQ} = \\dfrac{1}{a}$.\n <li>Total length of a focal chord $= a\\left(t - \\dfrac{1}{t}\\right)^2 = a\\left(t + \\dfrac{1}{t}\\right)^2$, where $t = t_1$.\n <li>The minimum length of a focal chord is $4a$ (the latus rectum).\n </ul>\n \\end{formulabox}",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Chord with a Given Midpoint",
+          "concept": "<p>If a chord is bisected exactly at an interior point $M(h, k)$, its equation can be found using the $T = S_1$ formula:\n \\begin{formulabox}[Equation of Chord with Midpoint $(h,k)$]\n \\[\n\t\tky - 2a(x + h) = k^2 - 4ah \\quad \\Longleftrightarrow \\quad T = S_1\n\t\t\\]\n where $T \\equiv yy_1 - 2a(x+x_1)$ and $S_1 \\equiv y_1^2 - 4ax_1$.\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 3,
+          "title": "Chord of Contact",
+          "concept": "<p>The straight line connecting the two points of tangency where tangents drawn from an external point $P(x_1, y_1)$ touch the curve is called the <strong>chord of contact</strong>.\n \\begin{formulabox}[Chord of Contact: $T = 0$]\n \\[\n\t\ty y_1 = 2a(x + x_1)\n\t\t\\]\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "One endpoint of a focal chord of the parabola $y^2 = 8x$ is parameterized at $t_1 = 2$. Find the parameter value $t_2$ of its other endpoint:",
+              "options": [
+                "$-2$",
+                "$-1/2$",
+                "$1/2$",
+                "$-1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the chord of the parabola $y^2 = 4x$ whose midpoint is located at $M(2, 3)$:",
+              "options": [
+                "$3y - 2x - 5 = 0$",
+                "$3y - 2x + 5 = 0$",
+                "$2y - 3x - 5 = 0$",
+                "$3y - x - 7 = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Calculate the total length of a focal chord of the parabola $y^2 = 16x$ if one of its endpoints is parameterized at $t = 2$:",
+              "options": [
+                "$25$",
+                "$20$",
+                "$16$",
+                "$30$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the chord of contact drawn from the external point $P(-2, 4)$ to the parabola $y^2 = 8x$:",
+              "options": [
+                "$y = x - 2$",
+                "$y = -x + 2$",
+                "$y = x + 2$",
+                "$2y = x - 4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the segments of a focal chord separated by the focus have lengths $SP = 4$ and $SQ = 12$, find the length of the latus rectum ($4a$) of the parabola:",
+              "options": [
+                "$6$",
+                "$12$",
+                "$8$",
+                "$16$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Pole and Polar",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Pole and Polar",
+          "concept": "<p>% ============================================================</p><p>\\begin{formulabox}[Polar of a Point $(x_1, y_1)$ w.r.t. $y^2 = 4ax$]\n \\[\n\t\ty y_1 = 2a(x + x_1) \\quad \\Longleftrightarrow \\quad T = 0\n\t\t\\]\n The point $(x_1, y_1)$ is called the <strong>pole</strong>, and the resulting line equation is its <strong>polar</strong>.\n \\end{formulabox}</p><p>\\begin{property}\n Conjugate Points Property: If the polar line of a point $A$ passes through another point $B$, then the polar line of $B$ is guaranteed to pass through $A$.\n \\end{property}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Find the polar line of the point $P(-1, 2)$ with respect to the parabola $y^2 = 4x$:",
+              "options": [
+                "$y = x - 1$",
+                "$2y = x - 1$",
+                "$y = 2x - 2$",
+                "$y = x + 1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the pole coordinates of the straight line line $x - y + 2 = 0$ with respect to the parabola $y^2 = 8x$:",
+              "options": [
+                "$(2, 4)$",
+                "$(2, -4)$",
+                "$(4, 2)$",
+                "$(1, 4)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The polar line of any point lying exactly on the directrix of a standard parabola always passes through which fixed point?",
+              "options": [
+                "Vertex",
+                "Focus",
+                "Upper end of latus rectum",
+                "Origin"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If the points $(1, 2)$ and $(h, 4)$ are conjugate points with respect to the parabola $y^2 = 8x$, find the value of $h$:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$0$",
+                "$4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a point $P$ lies on the polar of point $Q$, then the polar of $P$ must:",
+              "options": [
+                "Pass through $Q$",
+                "Be parallel to the polar of $Q$",
+                "Pass through the origin",
+                "Stand perpendicular to the axis"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Subtangent and Subnormal",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Subtangent and Subnormal",
+          "concept": "<p>% ============================================================</p><p>For the parabola $y^2 = 4ax$, geometric projections of the tangent and normal lines onto the axis of symmetry from any point $P(x_1, y_1)$ yield constant length properties:</p><p>\\begin{formulabox}[Subtangent and Subnormal Lengths]\n \\[\n\t\t\\text{Length of Subtangent} = 2x_1, \\qquad \\text{Length of Subnormal} = 2a\n\t\t\\]\n \\end{formulabox}</p><p>The length of the subnormal is constant and equal to the semi-latus rectum $2a$ for all points on the parabola.</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Calculate the length of the subnormal to the parabola $y^2 = 16x$ at any arbitrary point lying on its boundary curve:",
+              "options": [
+                "$4$",
+                "$8$",
+                "$16$",
+                "Variable depending on $x$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the length of the subtangent to the parabola $y^2 = 8x$ at the point $P(2, 4)$:",
+              "options": [
+                "$2$",
+                "$4$",
+                "$8$",
+                "$1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "At what coordinate point on the parabola $y^2 = 4ax$ are the lengths of the subtangent and subnormal identically equal to each other?",
+              "options": [
+                "$(a, 2a)$",
+                "$(2a, a)$",
+                "$(a/2, a)$",
+                "$(0, 0)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the length of the subtangent at a point on $y^2 = 12x$ is exactly $6$ units, find the x-coordinate (abscissa) of that point:",
+              "options": [
+                "$3$",
+                "$6$",
+                "$1.5$",
+                "$1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The ratio of the length of the subnormal to the length of the subtangent at the point $(at^2, 2at)$ on $y^2 = 4ax$ simplifies to:",
+              "options": [
+                "$t^2$",
+                "$1/t^2$",
+                "$t$",
+                "$1/t$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Reflection Property of Parabola",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Reflection Property of Parabola",
+          "concept": "<p>% ============================================================</p><p>\\begin{importantbox}[Reflection Property]\n An incoming ray travelling parallel to the axis of symmetry of a parabola passes through the <strong>focus</strong> after reflecting off the parabolic surface curve.</p>Equivalently: The tangent line drawn at any point $P$ makes equal angles with:\n <ol>\n <li>The focal radius line $SP$, and\n <li>The horizontal line through $P$ drawn parallel to the axis of symmetry.\n </ol>\n \\end{importantbox}",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "An incident light ray moves along the line $y = 4$ parallel to the axis of the parabola $y^2 = 8x$. Find the equation of the line along which the reflected ray travels after hitting the curve surface:",
+              "options": [
+                "$4x + 3y - 8 = 0$",
+                "$4x - 3y + 8 = 0$",
+                "$3x + 4y - 12 = 0$",
+                "$4x + 3y - 12 = 0$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "The reflection property ensures that a light source placed exactly at the focus of a parabolic mirror produces a reflected beam that is:",
+              "options": [
+                "Converging at a point",
+                "Perfectly parallel to the axis of symmetry",
+                "Perpendicular to the directrix",
+                "Diverging radially"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "A ray of light originates from the focus $S(3,0)$ of the parabola $y^2 = 12x$ and strikes the curve at a point where the ordinate is $y = 6$. Find the path equation of the reflected ray:",
+              "options": [
+                "$y = 6$",
+                "$y = 3$",
+                "$x = 3$",
+                "$y = x + 3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The angle between an incoming ray parallel to the axis of a parabola and the normal line at the point of incidence is $\\alpha$. Find the angle between the reflected ray and the normal line:",
+              "options": [
+                "$\\alpha$",
+                "$2\\alpha$",
+                "$90^\\circ - \\alpha$",
+                "$0^\\circ$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a tangent line drawn at $P$ on $y^2 = 4ax$ makes an angle of $30^\\circ$ with the axis of symmetry, find the angle $\\angle SPC$ formed with the focus $S$:",
+              "options": [
+                "$30^\\circ$",
+                "$60^\\circ$",
+                "$45^\\circ$",
+                "$90^\\circ$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Common Tangents to Parabolas",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Common Tangents to Parabolas",
+          "concept": "<p>% ============================================================</p><p>\\begin{examplebox}[Common Tangents: $y^2 = 4ax$ and $x^2 = 4by$]\n Let the required common tangent have a slope $m$. \n \\[\n\t\ty = mx + \\frac{a}{m} \\quad \\text{--- (Tangent equation template for } y^2=4ax \\text{)}\n\t\t\\]\n Now rearrange the standard vertical parabola tangent layout to match slope form:\n \\[\n\t\tx = \\frac{y}{m} - bm^2 \\implies y = mx + bm^3 \\quad \\text{--- (Tangent equation template for } x^2=4by \\text{)}\n\t\t\\]\n Equate the two expressions for the y-intercept constant to solve for $m$:\n \\[\n\t\t\\frac{a}{m} = bm^3 \\implies m^4 = \\frac{a}{b} \\implies m = \\left(\\frac{a}{b}\\right)^{1/4}.\n\t\t\\]\n \\end{examplebox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Find the slope of the common tangent line to the two parabolas $y^2 = 4x$ and $x^2 = 4y$:",
+              "options": [
+                "$1$",
+                "$-1$",
+                "$2$",
+                "$1/2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the common tangent line to the curves $y^2 = 8x$ and $x^2 = 8y$:",
+              "options": [
+                "$x + y + 2 = 0$",
+                "$x - y + 2 = 0$",
+                "$x + y - 2 = 0$",
+                "$x + y + 4 = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Calculate the slope of the common tangent to the two parabolas $y^2 = 32x$ and $x^2 = 4y$:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$4$",
+                "$1/2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the common tangent line to the curves $y^2 = 4x$ and $x^2 = -32y$:",
+              "options": [
+                "$x - 2y + 4 = 0$",
+                "$x + 2y + 4 = 0$",
+                "$2x - y + 4 = 0$",
+                "$x - 2y - 4 = 0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The number of real common tangents that can be drawn to the two parabolas $y^2 = 4ax$ and $x^2 = 4by$ is exactly:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$4$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Important Results and JEE Tricks",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Important Results and JEE Tricks",
+          "concept": "<p>% ============================================================</p>\\begin{warningbox}[JEE Important Results — Parabola]\n <ol>\n <li>The tangent drawn at a parameter point $t$ intersects the tangent at the vertex ($x=0$) at the coordinate point $(0, at)$.\n <li>The orthocenter of the triangle formed by three tangent lines drawn to a parabola always lies on the directrix line curve.\n <li>The circumcircle of the triangle formed by three tangents drawn to a parabola always passes through the focus $S(a,0)$.\n <li>If the normal line drawn at parameter $t$ intersects the parabola again at a new parameter point $t'$, their relationship is given by:\n \\[\n\t\t\tt' = -t - \\frac{2}{t}.\n\t\t\t\\]\n <li>Director Circle Property: A parabola has no director circle curve. The locus of the point of intersection of perpendicular tangents is the <strong>directrix line</strong> ($x = -a$).\n <li>The area of a triangle inscribed inside the parabola $y^2 = 4ax$ with vertices at parameter points $t_1, t_2,$ and $t_3$ is:\n \\[\n\t\t\t\\Delta = \\frac{a^2}{2} |t_1 - t_2||t_2 - t_3||t_3 - t_1|.\n\t\t\t\\]\n </ol>\n \\end{warningbox}",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "The normal line at $t = 1$ on the parabola $y^2 = 4x$ meets the curve again at parameter point $t'$. Find the value of $t'$:",
+              "options": [
+                "$-3$",
+                "$-2$",
+                "$2$",
+                "$-1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Calculate the area of the triangle inscribed inside the parabola $y^2 = 4x$ whose vertices are parameterized at $t_1 = 0$, $t_2 = 1$, and $t_3 = 2$:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$4$",
+                "$1/2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If three tangents drawn to the parabola $y^2 = 16x$ form a triangle, the circumcircle of this triangle must pass through which point?",
+              "options": [
+                "$(0, 0)$",
+                "$(4, 0)$",
+                "$(-4, 0)$",
+                "$(0, 4)$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The locus of the point of intersection of two tangents to $y^2 = 4ax$ that meet at a constant angle of $90^\\circ$ is:",
+              "options": [
+                "$x + a = 0$",
+                "$x - a = 0$",
+                "$y = 0$",
+                "$x^2 + y^2 = a^2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "A tangent line to $y^2 = 8x$ at parameter $t = 3$ intersects the vertical tangent line at the vertex at what coordinate position?",
+              "options": [
+                "$(0, 6)$",
+                "$(0, 3)$",
+                "$(2, 6)$",
+                "$(0, 12)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Practice Problems (JEE Level)",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Practice Problems (JEE Level)",
+          "concept": "<p>% ============================================================</p><ol>\n <li>Find the angle subtended by the double ordinate of length $8a$ at the vertex of the standard parabola $y^2 = 4ax$.<li>If $P$ and $Q$ represent the parameter endpoints of a focal chord of the parabola $y^2 = 4ax$ and $S$ is the focus, prove that $\\dfrac{1}{SP} + \\dfrac{1}{SQ} = \\dfrac{1}{a}$.<li>The normal line at a point $P$ on the parabola $y^2 = 4ax$ intersects the curve again at a point $Q$. Prove that the locus of the midpoint of the chord segment $PQ$ is given by the curve equation $y^2(y^2 + 2a^2) + 8a^4 = 0$. <strong>[JEE Advanced]</strong><li>Tangent lines are drawn from the external point $(-1, 2)$ to the parabola $y^2 = 4x$. Find the equation of the chord of contact and calculate its length.<li>Three distinct real normals can be drawn to the parabola $y^2 = 4x$ through the point $(c, 0)$ lying on its axis of symmetry. Show that the parameter constant must satisfy $c > 2$.\n </ol>\\subsubsection*{Practice Problems Solution Matrix (MCQ Wrappers)}\n <ol>\n <li>The angle subtended by the double ordinate of length $8a$ at the vertex of $y^2 = 4ax$ evaluates to:\n <ol>\n <li>$90^\\circ$\n <li>$\\tan^{-1}(2)$\n <li>$2\\tan^{-1}(2)$\n <li>$45^\\circ$\n </ol><li>If the chord of contact from $(-1, 2)$ to $y^2 = 4x$ has length $L$, the value of $L$ matches:\n <ol>\n <li>$4$\n <li>$2\\sqrt{2}$\n <li>$4\\sqrt{2}$\n <li>$8$\n </ol><li>Find the range of $c$ for which three distinct real normals can be drawn to $y^2 = 4x$ from $(c, 0)$:\n <ol>\n <li>$c > 2$\n <li>$c < 2$\n <li>$c > 4$\n <li>$c > 1$\n </ol><li>If a focal chord has segments $SP=4$ and $SQ$, and $a=2$, find the length of the segment $SQ$:\n <ol>\n <li>$4$\n <li>$2$\n <li>$1$\n <li>$8$\n </ol><li>The locus of the point of intersection of perpendicular tangents to $y^2 = 16x$ is:\n <ol>\n <li>$x + 4 = 0$\n <li>$x - 4 = 0$\n <li>$y = 4$\n <li>$x = 0$\n </ol>\n </ol>\n <strong>Answer Key:</strong> 1. (C) 2. (C) 3. (A) 4. (A) 5. (A)<p>% ============================================================</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Quick Reference Card",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Quick Reference Card",
+          "concept": "<p>% ============================================================</p><p>\\begin{formulabox}[All Parabola Formulas at a Glance]\n <strong>Standard Parabola Layout Format</strong>: $y^2 = 4ax$; $\\;a = $ distance from vertex to focus.</p><p>\\medskip\n <table class=\"tex-table\"><tr><td><strong>Geometric Operational Form</strong></td><td><strong>Algebraic Formula / Line Equation</strong></td></tr><tr><td>Tangent Line (Point Form):</td><td>$y y_1 = 2a(x + x_1)$</td></tr><tr><td>Tangent Line (Parametric Form):</td><td>$ty = x + at^2$</td></tr><tr><td>Tangent Line (Slope Form):</td><td>$y = mx + a/m$</td></tr><tr><td>Normal Line (Point Form):</td><td>$y - y_1 = -\\dfrac{y_1}{2a}(x-x_1)$</td></tr><tr><td>Normal Line (Parametric Form):</td><td>$y + tx = 2at + at^3$</td></tr><tr><td>Normal Line (Slope Form):</td><td>$y = mx - 2am - am^3$</td></tr><tr><td>Chord of Contact Line Equation:</td><td>$y y_1 = 2a(x+x_1)$</td></tr><tr><td>Chord Line with Midpoint $(h,k)$:</td><td>$ky - 2ax = k^2 - 2ah \\implies T = S_1$</td></tr><tr><td>Focal Chord Boundary Condition:</td><td>$t_1 \\cdot t_2 = -1$</td></tr><tr><td>Normal Re-intersection Condition:</td><td>$t' = -t - 2/t$</td></tr><tr><td>Co-normal Roots Sum Property:</td><td>$t_1 + t_2 + t_3 = 0$</td></tr></table>\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Solved Examples",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Worked Examples",
+          "concept": "",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p><strong>Example 1 — Tangents from an External Point</strong></p><p>Find the equations of the tangents drawn to the parabola $y^2 = 8x$ from the external point $(2, 3)$.</p>",
+              "solution": "<p>Here $4a = 8 \\implies a = 2$. Write down the slope-form tangent equation template: \n \\[\n\t\ty = mx + \\frac{2}{m}.\n\t\t\\]\n Since the tangent line passes through the external point $(2, 3)$, substitute these coordinates into the template to solve for $m$:\n \\[\n\t\t3 = 2m + \\frac{2}{m} \\implies 2m^2 - 3m + 2 = 0.\n\t\t\\]\n Evaluate the discriminant of this quadratic equation:\n \\[\n\t\tD = (-3)^2 - 4(2)(2) = 9 - 16 = -7 < 0.\n\t\t\\]\n Because the discriminant is strictly negative, the slopes are imaginary, meaning no real tangents can be drawn from this point.</p><p>\\smallskip\n <em>Key Check</em>: For real tangents to be drawn from a point $(h, k)$ to the parabola $y^2 = 4ax$, the point must lie strictly outside the curve surface ($k^2 > 4ah$). Here, checking the point gives $3^2 > 4(2)(2) \\implies 9 > 16$, which is false. This confirms that the point lies inside the parabola, where no real tangents can exist.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p><strong>Example 2 — Normal Meeting the Parabola Again</strong></p><p>If the normal line to the parabola $y^2 = 4x$ drawn at parameter $t = 2$ intersects the curve again at a new parameter point $t'$, find the value of $t'$ and the coordinates of the intersection point.</p>",
+              "solution": "<p>Here $a = 1$. Apply the normal re-intersection parameter relationship formula:\n \\[\n\t\tt' = -t - \\frac{2}{t} = -2 - \\frac{2}{2} = -2 - 1 = -3.\n\t\t\\]\n Now use the parametric equations to find the coordinates of this endpoint:\n \\[\n\t\tx' = a(t')^2 = 1(-3)^2 = 9, \\quad y' = 2a(t') = 2(1)(-3) = -6.\n\t\t\\]\n The normal line intersects the curve again at the coordinate position $(9, -6)$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p><strong>Example 3 — Length of a Focal Chord</strong></p><p>Find the total length of a focal chord of the parabola $y^2 = 12x$ if one of its endpoints is parameterized at $t = 2$.</p>",
+              "solution": "<p>Extract the parameter value: $4a = 12 \\implies a = 3$. Apply the focal chord length formula directly:\n \\[\n\t\t\\text{Length} = a\\left(t + \\dfrac{1}{t}\\right)^2 = 3\\left(2 + \\dfrac{1}{2}\\right)^2 = 3 \\cdot \\left(\\dfrac{5}{2}\\right)^2 = 3 \\cdot \\dfrac{25}{4} = \\dfrac{75}{4}\\text{ units}.\n\t\t\\]</p>"
+            }
+          ],
+          "quiz": [],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": []
+}

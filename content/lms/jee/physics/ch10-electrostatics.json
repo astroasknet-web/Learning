@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "physics",
+  "chapter": 10,
+  "title": "Electrostatics",
+  "slug": "electrostatics",
+  "subtitle": "Electrostatics for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#3b82f6",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "Master Electrostatics for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Electric Force, Field and Gauss's Law",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Coulomb's Law and Electric Field",
+          "concept": "<p><strong>Charge Properties:</strong> Quantized ($q = ne$, $e = 1.6 \\times 10^{-19}$ C), conserved, additive. <strong>Like charges repel; unlike attract.</strong></p><p><strong>Coulomb's Law:</strong> Force between two point charges $q_1, q_2$ separated by $r$: $$F = \\frac{1}{4\\pi\\epsilon_0}\\frac{q_1 q_2}{r^2} = k\\frac{q_1 q_2}{r^2}$$ $k = 9 \\times 10^9$ N·m²/C²; $\\epsilon_0 = 8.85 \\times 10^{-12}$ F/m.</p><p>In medium with relative permittivity $\\epsilon_r$: $F_{\\text{medium}} = F_{\\text{vacuum}}/\\epsilon_r$.</p><p><strong>Electric Field</strong> at a point: $\\vec{E} = \\vec{F}/q_0$ (force per unit positive test charge). Units: N/C = V/m.</p><p><strong>Field due to common charge configurations:</strong></p><table class=\"md-table\"><thead><tr><th>Source</th><th>Electric field magnitude</th></tr></thead><tbody><tr><td>Point charge $q$ at distance $r$</td><td>$E = kq/r^2$</td></tr><tr><td>Infinite line of charge ($\\lambda$)</td><td>$E = \\lambda/(2\\pi\\epsilon_0 r)$</td></tr><tr><td>Infinite plane ($\\sigma$)</td><td>$E = \\sigma/(2\\epsilon_0)$</td></tr><tr><td>Conducting plate ($\\sigma$)</td><td>$E = \\sigma/\\epsilon_0$</td></tr><tr><td>On axis of ring (radius $R$, distance $x$)</td><td>$E = kQx/(R^2+x^2)^{3/2}$</td></tr><tr><td>At centre of ring</td><td>$E = 0$</td></tr><tr><td>Uniformly charged sphere (outside)</td><td>$E = kQ/r^2$</td></tr><tr><td>Uniformly charged solid sphere (inside, distance $r < R$)</td><td>$E = kQr/R^3$</td></tr><tr><td>Spherical shell (inside)</td><td>$E = 0$</td></tr></tbody></table><p><strong>Electric Dipole:</strong> Two equal opposite charges $\\pm q$ separated by $2a$. <strong>Dipole moment</strong> $\\vec{p} = q \\cdot 2a$ (from $-$ to $+$).</p><table class=\"md-table\"><thead><tr><th>Field</th><th>Magnitude</th><th>Direction</th></tr></thead><tbody><tr><td>Axial ($r \\gg a$)</td><td>$E_a = 2kp/r^3$</td><td>Along $\\vec{p}$</td></tr><tr><td>Equatorial ($r \\gg a$)</td><td>$E_e = kp/r^3$</td><td>Opposite to $\\vec{p}$</td></tr><tr><td>At angle $\\theta$ from axis</td><td>$E = (kp/r^3)\\sqrt{1 + 3\\cos^2\\theta}$</td><td>—</td></tr></tbody></table><p><strong>Torque on dipole</strong> in uniform field: $\\vec{\\tau} = \\vec{p} \\times \\vec{E}$, $\\tau = pE\\sin\\theta$.</p><p><strong>Potential energy</strong> of dipole: $U = -\\vec{p}\\cdot\\vec{E} = -pE\\cos\\theta$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Two charges $+5\\,\\mu$C and $-3\\,\\mu$C are $30$ cm apart. Find force on each. ($k = 9 \\times 10^9$)</p>",
+              "solution": "<p>$$F = \\frac{kq_1q_2}{r^2} = \\frac{9 \\times 10^9 \\times 5 \\times 10^{-6} \\times 3 \\times 10^{-6}}{(0.3)^2}$$ $$= \\frac{9 \\times 10^9 \\times 15 \\times 10^{-12}}{0.09} = \\frac{0.135}{0.09} = 1.5 \\text{ N (attractive)}$$</p><p><strong>Final Answer:</strong> $F = 1.5$ N (attractive).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find electric field at centre of square of side $a$ at whose corners equal charges $+q$ are placed.</p>",
+              "solution": "<p>By symmetry, fields from opposite corners cancel pairwise. Net field at centre = $0$.</p><p><strong>Final Answer:</strong> $E = 0$ (by symmetry).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Two charges, each $+q$, are placed at distance $r$ apart. The force between them is $F$. If a third $-2q$ charge is placed between them at midpoint, the force on each $+q$:</p>",
+              "options": [
+                "$F$",
+                "$5F$",
+                "$9F$ (away from each other no, toward middle)",
+                "$7F$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The SI unit of electric field is:</p>",
+              "options": [
+                "N",
+                "C",
+                "N/C",
+                "V"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The electric field inside a uniformly charged hollow conducting shell is:</p>",
+              "options": [
+                "Zero",
+                "$kQ/R$",
+                "$kQ/R^2$",
+                "Variable"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Dipole moment is a:</p>",
+              "options": [
+                "Scalar",
+                "Vector",
+                "Constant",
+                "Tensor"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The work done in rotating a dipole from $0°$ to $90°$ in uniform field $E$:</p>",
+              "options": [
+                "$0$",
+                "$pE$",
+                "$-pE$",
+                "$2pE$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Gauss's Law and Applications",
+          "concept": "<p><strong>Electric Flux</strong> through a surface: $\\Phi_E = \\int \\vec{E}\\cdot d\\vec{A}$. For uniform field through flat surface: $\\Phi = EA\\cos\\theta$. SI unit: N·m²/C = V·m.</p><p><strong>Gauss's Law:</strong> Net electric flux through any closed surface equals $1/\\epsilon_0$ times enclosed charge: $$\\oint \\vec{E}\\cdot d\\vec{A} = \\frac{Q_{\\text{enc}}}{\\epsilon_0}$$</p><p>Valid only for <strong>closed</strong> (Gaussian) surfaces. The charge outside the surface does not contribute to net flux but affects field at points.</p><p><strong>Strategy for Applying Gauss's Law:</strong> Use symmetry to choose Gaussian surface where $\\vec{E}$ is either constant or perpendicular/parallel to surface elements.</p><p><strong>Applications:</strong></p><table class=\"md-table\"><thead><tr><th>Configuration</th><th>Gaussian surface</th><th>Result</th></tr></thead><tbody><tr><td>Point charge $q$</td><td>Sphere</td><td>$E = q/(4\\pi\\epsilon_0 r^2)$</td></tr><tr><td>Infinite line charge $\\lambda$</td><td>Cylinder</td><td>$E = \\lambda/(2\\pi\\epsilon_0 r)$</td></tr><tr><td>Infinite plane $\\sigma$</td><td>Cylinder</td><td>$E = \\sigma/(2\\epsilon_0)$ on each side</td></tr><tr><td>Spherical shell $Q$</td><td>Sphere outside</td><td>$E = kQ/r^2$; inside $E = 0$</td></tr><tr><td>Solid sphere $\\rho$ (inside, $r < R$)</td><td>Sphere</td><td>$E = \\rho r/(3\\epsilon_0)$</td></tr></tbody></table><p><strong>Conductor in electrostatic equilibrium:</strong></p><ul><li>Charges reside on surface</li><li>Electric field inside conductor = $0$</li><li>Field at surface = $\\sigma/\\epsilon_0$, perpendicular to surface</li><li>Potential same throughout conductor (equipotential)</li><li>Field is more intense near sharp points (basis of lightning rod)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Charge $+Q$ placed at centre of a cube of side $a$. Find flux through one face.</p>",
+              "solution": "<p>Total flux through closed cube $= Q/\\epsilon_0$. By symmetry, flux is same through each of $6$ faces: $$\\Phi_{\\text{face}} = \\frac{Q}{6\\epsilon_0}$$</p><p><strong>Final Answer:</strong> $\\Phi = Q/(6\\epsilon_0)$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A long wire has linear charge density $5 \\times 10^{-9}$ C/m. Find electric field at $20$ cm from it.</p>",
+              "solution": "<p>$$E = \\frac{\\lambda}{2\\pi\\epsilon_0 r} = \\frac{2k\\lambda}{r} = \\frac{2 \\times 9 \\times 10^9 \\times 5 \\times 10^{-9}}{0.2}$$ $$= \\frac{90}{0.2} = 450 \\text{ N/C}$$</p><p><strong>Final Answer:</strong> $E = 450$ N/C.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Gauss's law is true for:</p>",
+              "options": [
+                "Open surfaces",
+                "Closed surfaces",
+                "Plane surfaces only",
+                "Spherical surfaces only"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The net flux through a closed surface enclosing zero charge:</p>",
+              "options": [
+                "Maximum",
+                "Zero",
+                "$1/\\epsilon_0$",
+                "Variable"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The electric field just outside a conductor of surface charge density $\\sigma$:</p>",
+              "options": [
+                "$\\sigma/\\epsilon_0$",
+                "$\\sigma/(2\\epsilon_0)$",
+                "Zero",
+                "$\\sigma$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The flux through a closed surface depends on:</p>",
+              "options": [
+                "Only charge inside",
+                "Charge outside also",
+                "Both",
+                "Surface shape"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two charges $+Q$ and $-Q$ are placed in a closed surface. Total flux:</p>",
+              "options": [
+                "$2Q/\\epsilon_0$",
+                "Zero",
+                "$Q/\\epsilon_0$",
+                "$-Q/\\epsilon_0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Potential, Capacitance and Dielectrics",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Electric Potential and Potential Energy",
+          "concept": "<p><strong>Electric Potential</strong> $V$ at a point = work done per unit positive test charge to bring it from infinity to that point against electric forces. $$V = \\frac{W_{\\text{ext}}}{q_0} = -\\int_\\infty^P \\vec{E}\\cdot d\\vec{r}$$ SI unit: <strong>volt</strong> (V) = J/C. Scalar quantity.</p><p><strong>Potential due to point charge:</strong> $V = kq/r$ (taking $V = 0$ at infinity).</p><p><strong>Potential due to dipole:</strong> $V = (kp\\cos\\theta)/r^2$ at angle $\\theta$ from dipole axis.</p><p><strong>Potential due to common configurations:</strong></p><table class=\"md-table\"><thead><tr><th>Source</th><th>Potential</th></tr></thead><tbody><tr><td>Point charge $q$ at distance $r$</td><td>$V = kq/r$</td></tr><tr><td>Uniformly charged ring (axis)</td><td>$V = kQ/\\sqrt{R^2+x^2}$</td></tr><tr><td>Spherical shell (outside)</td><td>$V = kQ/r$</td></tr><tr><td>Spherical shell (inside / surface)</td><td>$V = kQ/R$</td></tr><tr><td>Solid sphere (inside)</td><td>$V = kQ(3R^2-r^2)/(2R^3)$</td></tr></tbody></table><p><strong>Relation between field and potential:</strong> $$E_x = -\\frac{\\partial V}{\\partial x}, \\quad \\vec{E} = -\\nabla V$$</p><p><strong>Equipotential Surfaces:</strong> Surfaces of constant $V$. Always perpendicular to electric field. No work done in moving charge along equipotential surface.</p><p><strong>Potential Energy of System of Charges:</strong> $$U = \\frac{1}{4\\pi\\epsilon_0}\\sum_{i<j} \\frac{q_i q_j}{r_{ij}}$$</p><p>For two charges: $U = kq_1q_2/r$. For three charges: sum of three pair potentials.</p><p><strong>Energy density</strong> in electric field: $u = \\dfrac{1}{2}\\epsilon_0 E^2$ (J/m³).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the potential at midpoint of two charges $+5\\,\\mu$C and $-3\\,\\mu$C placed $20$ cm apart.</p>",
+              "solution": "<p>Distance from each charge to midpoint = $10$ cm. $$V = \\frac{k q_1}{r} + \\frac{k q_2}{r} = \\frac{9 \\times 10^9}{0.1}(5 \\times 10^{-6} - 3 \\times 10^{-6})$$ $$= 9 \\times 10^{10} \\times 2 \\times 10^{-6} = 1.8 \\times 10^5 \\text{ V}$$</p><p><strong>Final Answer:</strong> $V = 1.8 \\times 10^5$ V.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Three charges of $+2\\,\\mu$C each are placed at corners of an equilateral triangle of side $0.1$ m. Find their potential energy.</p>",
+              "solution": "<p>There are $3$ pairs, each with energy $kq^2/r$: $$U = 3 \\times \\frac{kq^2}{r} = 3 \\times \\frac{9 \\times 10^9 \\times (2 \\times 10^{-6})^2}{0.1}$$ $$= 3 \\times \\frac{36 \\times 10^{-3}}{0.1} = 3 \\times 0.36 = 1.08 \\text{ J}$$</p><p><strong>Final Answer:</strong> $U = 1.08$ J.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The SI unit of potential is:</p>",
+              "options": [
+                "Volt",
+                "Volt/m",
+                "N/C",
+                "Joule"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Potential at infinity from a charge is:</p>",
+              "options": [
+                "Infinity",
+                "Zero",
+                "Maximum",
+                "Minimum"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Equipotential surfaces are:</p>",
+              "options": [
+                "Parallel to field",
+                "Perpendicular to field",
+                "At $45°$ to field",
+                "Independent of field"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two charges $+Q$ and $-Q$ are placed at distance $r$. The work done to bring them together:</p>",
+              "options": [
+                "$-kQ^2/r$",
+                "$kQ^2/r$",
+                "Zero",
+                "Infinity"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The relation $E = -dV/dr$ implies:</p>",
+              "options": [
+                "$E$ is positive",
+                "$E$ is negative gradient of $V$",
+                "$E$ is independent of $V$",
+                "$E$ is $V/r$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Capacitors, Combinations and Dielectrics",
+          "concept": "<p><strong>Capacitor:</strong> A device storing electrical energy. Capacitance $C = Q/V$ (SI: farad, F). Stores energy $U = \\dfrac{1}{2}CV^2 = \\dfrac{Q^2}{2C} = \\dfrac{1}{2}QV$.</p><p><strong>Capacitance of Standard Geometries:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Formula</th></tr></thead><tbody><tr><td>Parallel plate (vacuum)</td><td>$C = \\epsilon_0 A/d$</td></tr><tr><td>Parallel plate with dielectric $K$</td><td>$C = K\\epsilon_0 A/d$</td></tr><tr><td>Spherical conductor (single)</td><td>$C = 4\\pi\\epsilon_0 R$</td></tr><tr><td>Spherical capacitor (concentric, $a<b$)</td><td>$C = 4\\pi\\epsilon_0 \\dfrac{ab}{b-a}$</td></tr><tr><td>Cylindrical capacitor (length $L$)</td><td>$C = \\dfrac{2\\pi\\epsilon_0 L}{\\ln(b/a)}$</td></tr></tbody></table><p><strong>Combination of Capacitors:</strong></p><table class=\"md-table\"><thead><tr><th>Configuration</th><th>Equivalent capacitance</th></tr></thead><tbody><tr><td>Series</td><td>$\\dfrac{1}{C_{\\text{eq}}} = \\sum\\dfrac{1}{C_i}$</td></tr><tr><td>Parallel</td><td>$C_{\\text{eq}} = \\sum C_i$</td></tr></tbody></table><p>In <strong>series</strong>, all capacitors have the same charge $Q$; total voltage = sum of voltages. In <strong>parallel</strong>, all have same voltage; total charge = sum of charges.</p><p><strong>Dielectric:</strong> Insulator that reduces electric field inside ($K = \\epsilon_r > 1$). Effects:</p><ul><li>Capacitance multiplied by $K$</li><li>Field reduced by factor $K$</li><li>Voltage reduced by factor $K$ (if charge constant) OR</li><li>Charge increased by factor $K$ (if voltage constant)</li></ul><p><strong>Dielectric Slab in Capacitor:</strong> Slab of thickness $t < d$ inserted: $$C = \\frac{\\epsilon_0 A}{d - t + t/K}$$</p><p><strong>Energy density:</strong> $u = \\dfrac{1}{2}\\epsilon_0 E^2 = \\dfrac{1}{2}\\epsilon_0 K E^2$ in dielectric.</p><p><strong>Force between plates</strong> of parallel plate capacitor: $F = Q^2/(2\\epsilon_0 A) = (1/2)\\epsilon_0 E^2 A$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Three capacitors of $2\\,\\mu$F, $3\\,\\mu$F, $6\\,\\mu$F in series. Find equivalent.</p>",
+              "solution": "<p>$$\\frac{1}{C_{\\text{eq}}} = \\frac{1}{2}+\\frac{1}{3}+\\frac{1}{6} = \\frac{3+2+1}{6} = 1 \\implies C_{\\text{eq}} = 1\\,\\mu\\text{F}$$</p><p><strong>Final Answer:</strong> $C_{\\text{eq}} = 1\\,\\mu$F.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A parallel plate capacitor of $C = 4\\,\\mu$F charged to $200$ V. Dielectric ($K = 4$) is inserted while battery is disconnected. Find new V, charge, and energy.</p>",
+              "solution": "<p>Initial $Q = CV = 4 \\times 10^{-6} \\times 200 = 8 \\times 10^{-4}$ C. After dielectric: $C' = KC = 16\\,\\mu$F. Charge constant (battery disconnected): $Q' = Q$. New V: $V' = Q/C' = 8\\times 10^{-4}/(16 \\times 10^{-6}) = 50$ V. New energy: $U' = Q^2/(2C') = (8 \\times 10^{-4})^2/(2 \\times 16 \\times 10^{-6}) = 6.4 \\times 10^{-7}/(32 \\times 10^{-6}) = 0.02$ J.</p><p><strong>Final Answer:</strong> $V' = 50$ V; $Q = 8 \\times 10^{-4}$ C; $U' = 0.02$ J.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The SI unit of capacitance:</p>",
+              "options": [
+                "C",
+                "V",
+                "F",
+                "J"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Energy stored in a capacitor of $C$ at voltage $V$:</p>",
+              "options": [
+                "$CV$",
+                "$CV^2$",
+                "$(1/2)CV^2$",
+                "$C/V^2$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Three identical capacitors $C$ each are connected in parallel and then in series. Ratio of equivalent capacitances:</p>",
+              "options": [
+                "$1:1$",
+                "$9:1$",
+                "$1:9$",
+                "$3:1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A dielectric is inserted into a capacitor with the battery still connected. The capacitance:</p>",
+              "options": [
+                "Decreases",
+                "Increases",
+                "Stays same",
+                "Becomes zero"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The capacitance of an isolated spherical conductor of radius $R$:</p>",
+              "options": [
+                "$4\\pi\\epsilon_0 R$",
+                "$\\epsilon_0 R$",
+                "$1/(4\\pi\\epsilon_0 R)$",
+                "$4\\pi\\epsilon_0/R$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-phys-electrostatics-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>The force between two charges in vacuum is $F$. In a medium with $\\epsilon_r = 4$, force becomes:</p>",
+              "options": [
+                "$4F$",
+                "$F/4$",
+                "$F$",
+                "$16F$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The electric flux through a Gaussian cube of side $a$ containing charge $+Q$ at one corner:</p>",
+              "options": [
+                "$Q/\\epsilon_0$",
+                "$Q/(2\\epsilon_0)$",
+                "$Q/(8\\epsilon_0)$",
+                "Zero"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A dipole in uniform field experiences:</p>",
+              "options": [
+                "Force only",
+                "Torque only",
+                "Both",
+                "Neither"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two point charges $+4\\,\\mu$C and $+9\\,\\mu$C are $10$ cm apart. Position of null point from $+4\\,\\mu$C:</p>",
+              "options": [
+                "$4$ cm",
+                "$6$ cm",
+                "$5$ cm",
+                "$7$ cm"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Capacitors of $2$ and $3\\,\\mu$F in series; combination in parallel with $5\\,\\mu$F. Total:</p>",
+              "options": [
+                "$10\\,\\mu$F",
+                "$6.2\\,\\mu$F",
+                "$5.2\\,\\mu$F",
+                "$1.2\\,\\mu$F"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The potential energy of two charges $+q$ each at distance $r$ apart:</p>",
+              "options": [
+                "$kq^2/r$",
+                "$-kq^2/r$",
+                "$kq^2/r^2$",
+                "Zero"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The capacitance of a parallel plate capacitor doubles if:</p>",
+              "options": [
+                "Distance is doubled",
+                "Area is doubled",
+                "Charge is doubled",
+                "Voltage is doubled"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The work done to move a charge $q$ along a path from A to B where $V_A = 10$ V, $V_B = 4$ V:</p>",
+              "options": [
+                "$6q$",
+                "$-6q$",
+                "$14q$",
+                "Zero"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A solid conducting sphere of charge $Q$, radius $R$ has electric field inside:</p>",
+              "options": [
+                "$kQ/R^2$",
+                "Zero",
+                "$kQ/r$",
+                "Infinite"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The energy density of electric field $E$ in vacuum:</p>",
+              "options": [
+                "$\\epsilon_0 E^2$",
+                "$(1/2)\\epsilon_0 E^2$",
+                "$\\epsilon_0 E$",
+                "$E^2/\\epsilon_0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Two $1\\,\\mu$F capacitors in parallel, then series with $0.5\\,\\mu$F. Equivalent in $\\mu$F (rounded):</p>",
+              "answer": "0",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Three charges of $+1\\,\\mu$C each at corners of an equilateral triangle of side $1$ m. PE of system in $10^{-2}$ J (rounded):</p>",
+              "answer": "3",
+              "explanation": ""
+            },
+            {
+              "q": "<p>A parallel plate capacitor of $20$ pF charged to $100$ V. Charge stored in $10^{-9}$ C:</p>",
+              "answer": "2",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> The electric field inside a conductor is zero. <strong>Reason (R):</strong> Free charges redistribute on the surface until the inside field becomes zero.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> Capacitance of a capacitor with a dielectric is greater than without. <strong>Reason (R):</strong> Dielectric reduces the effective field, allowing more charge for the same voltage.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

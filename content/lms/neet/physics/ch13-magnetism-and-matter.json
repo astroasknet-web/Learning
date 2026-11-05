@@ -1,0 +1,168 @@
+{
+  "exam": "neet",
+  "subject": "physics",
+  "chapter": 13,
+  "title": "Magnetism & Matter",
+  "slug": "magnetism-and-matter",
+  "subtitle": "Bar magnet & dipole, Earth's magnetism, dia/para/ferromagnetism & hysteresis",
+  "level": "NEET (UG)",
+  "color": "#2563eb",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "NEET Physics — Magnetism & Matter: bar magnet as a dipole, magnetic field lines, Earth's magnetism and elements, magnetic intensity and susceptibility, diamagnetic, paramagnetic and ferromagnetic materials, and hysteresis, with NEET-level examples and MCQs. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Bar Magnet and Earth's Magnetism",
+      "topics": [
+        {
+          "number": 1,
+          "title": "The Bar Magnet as a Magnetic Dipole",
+          "concept": "<p>A bar magnet behaves as a <strong>magnetic dipole</strong> with a north and a south pole that always occur in pairs. The most important fact about magnetism is that <strong>isolated magnetic poles (monopoles) do not exist</strong> — break a magnet in two and each piece becomes a complete magnet with its own north and south poles. This is why magnetic field lines always form <em>closed loops</em>, in contrast to electric field lines which start and end on charges.</p><p>The strength of a magnet is its <strong>magnetic moment</strong> $m$, directed from south to north pole. There is a deep parallel with electrostatics: a magnetic dipole's field falls off as $1/r^{3}$, exactly like an electric dipole. Along its axis the field is $B_{axial} = \\dfrac{\\mu_0}{4\\pi}\\dfrac{2m}{r^{3}}$, and along the perpendicular bisector it is half that, $B_{equatorial} = \\dfrac{\\mu_0}{4\\pi}\\dfrac{m}{r^{3}}$.</p><p>Placed in a uniform field $B$, a magnet experiences no net force but a <strong>torque</strong> $\\tau = mB\\sin\\theta$ that aligns it with the field — the reason a compass needle settles along the local field. The potential energy is $U = -mB\\cos\\theta$, lowest when aligned ($\\theta = 0$) and highest when anti-aligned ($\\theta = 180^{\\circ}$). These mirror the electric-dipole formulas with $p \\to m$ and $E \\to B$, so the algebra carries straight over.</p><p>A freely suspended magnet performs <strong>simple harmonic oscillation</strong> about the field direction with period $T = 2\\pi\\sqrt{\\dfrac{I}{mB}}$, where $I$ is its moment of inertia. This vibration-magnetometer relation lets the field or the magnetic moment be measured, and is a favourite NEET application of SHM in a new context.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Expression</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Axial field</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$B = \\dfrac{\\mu_0}{4\\pi}\\dfrac{2m}{r^{3}}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Equatorial field</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$B = \\dfrac{\\mu_0}{4\\pi}\\dfrac{m}{r^{3}}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Torque</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\tau = mB\\sin\\theta$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Oscillation period</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$T = 2\\pi\\sqrt{I/mB}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A bar magnet of moment $m$ is held at $30^{\\circ}$ to a uniform field $B$. Find the torque on it.</p>",
+              "solution": "<p>$\\tau = mB\\sin\\theta = mB\\sin30^{\\circ} = \\dfrac{mB}{2}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What happens to the poles when a bar magnet is cut in half across the middle?</p>",
+              "solution": "<p>Each half becomes a complete magnet with both a north and a south pole. Isolated poles cannot be obtained, since magnetic monopoles do not exist.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The magnetic field of a bar magnet (dipole) varies as:</p>", "options": ["$1/r$", "$1/r^{2}$", "$1/r^{3}$", "$1/r^{4}$"], "correct": 2, "explanation": "Dipole field $\\propto 1/r^3$." },
+            { "q": "<p>Magnetic field lines are always:</p>", "options": ["open curves", "closed loops", "straight lines", "radial"], "correct": 1, "explanation": "No monopoles, so field lines form closed loops." },
+            { "q": "<p>If a bar magnet is cut in two, each piece:</p>", "options": ["has a single pole", "is a complete magnet", "loses magnetism", "has two north poles"], "correct": 1, "explanation": "Each piece is a full dipole; monopoles do not exist." },
+            { "q": "<p>The torque on a magnetic dipole in a uniform field is:</p>", "options": ["$mB\\cos\\theta$", "$mB\\sin\\theta$", "$mB$", "zero always"], "correct": 1, "explanation": "$\\tau = mB\\sin\\theta$." },
+            { "q": "<p>The axial field of a dipole compared with the equatorial field (same $r$) is:</p>", "options": ["half", "equal", "double", "four times"], "correct": 2, "explanation": "$B_{axial} = 2B_{equatorial}$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Magnetic-dipole formulas mirror the electric ones with $p \\to m$, $E \\to B$. No monopoles means field lines are always closed loops, and $B_{axial} = 2B_{equatorial}$.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Earth's Magnetism and Its Elements",
+          "concept": "<p>The Earth itself acts like a giant bar magnet, with its field thought to arise from circulating currents in the molten outer core (the dynamo effect). A crucial NEET fact is that the Earth's <strong>geographic and magnetic poles do not coincide</strong>, and the magnet's north pole points roughly towards the geographic south — which is why a compass needle's north-seeking end points to the geographic north.</p><p>The Earth's field at any place is described by three <strong>magnetic elements</strong>. The <strong>declination</strong> $D$ is the angle between geographic north and magnetic north (the horizontal directions). The <strong>dip</strong> or inclination $I$ is the angle the total field makes with the horizontal — it is $0^{\\circ}$ at the magnetic equator and $90^{\\circ}$ at the magnetic poles, where the needle stands vertical.</p><p>The third element is the <strong>horizontal component</strong> $B_H$ of the field. The total field $B$ splits into a horizontal part $B_H = B\\cos I$ and a vertical part $B_V = B\\sin I$, so that $\\tan I = \\dfrac{B_V}{B_H}$ and $B = \\sqrt{B_H^{2} + B_V^{2}}$. Together these three elements completely specify the Earth's field at a location, a standard NEET definition question.</p><p>The values are small — the Earth's field is typically a few tens of microtesla — and vary slowly with position and over time. Compasses, dip circles and the older magnetic surveys all rely on these elements, and NEET often combines them with simple trigonometry, for example asking for the total field from $B_H$ and the angle of dip.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Element</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Meaning / relation</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Declination $D$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>angle between geographic & magnetic north</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Dip $I$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\tan I = B_V/B_H$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Horizontal component</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$B_H = B\\cos I$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Total field</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$B = \\sqrt{B_H^{2} + B_V^{2}}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>At a place the angle of dip is $45^{\\circ}$ and $B_H = 0.3\\ \\text{G}$. Find the total field.</p>",
+              "solution": "<p>$B_H = B\\cos I$, so $B = \\dfrac{B_H}{\\cos45^{\\circ}} = \\dfrac{0.3}{1/\\sqrt{2}} = 0.3\\sqrt{2} \\approx 0.42\\ \\text{G}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What is the angle of dip at the magnetic equator?</p>",
+              "solution": "<p>At the magnetic equator the field is horizontal, so the vertical component is zero and the angle of dip is $0^{\\circ}$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The angle between geographic and magnetic north is the:</p>", "options": ["dip", "declination", "horizontal component", "latitude"], "correct": 1, "explanation": "Declination $D$." },
+            { "q": "<p>The angle of dip at the magnetic poles is:</p>", "options": ["$0^{\\circ}$", "$45^{\\circ}$", "$90^{\\circ}$", "$180^{\\circ}$"], "correct": 2, "explanation": "The needle is vertical at the poles, so dip is $90^{\\circ}$." },
+            { "q": "<p>The horizontal component of the Earth's field is:</p>", "options": ["$B\\sin I$", "$B\\cos I$", "$B\\tan I$", "$B$"], "correct": 1, "explanation": "$B_H = B\\cos I$." },
+            { "q": "<p>The angle of dip at the magnetic equator is:</p>", "options": ["$0^{\\circ}$", "$30^{\\circ}$", "$90^{\\circ}$", "$45^{\\circ}$"], "correct": 0, "explanation": "Field is horizontal there, so dip $= 0^{\\circ}$." },
+            { "q": "<p>The total Earth's field in terms of its components is:</p>", "options": ["$B_H + B_V$", "$\\sqrt{B_H^{2} + B_V^{2}}$", "$B_H B_V$", "$B_H - B_V$"], "correct": 1, "explanation": "$B = \\sqrt{B_H^2 + B_V^2}$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Three elements — declination, dip and $B_H$ — fix the Earth's field. Use $\\tan I = B_V/B_H$ and $B_H = B\\cos I$; dip is $0^{\\circ}$ at the equator, $90^{\\circ}$ at the poles.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Magnetic Materials",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Magnetic Intensity, Susceptibility and Permeability",
+          "concept": "<p>To describe magnetism inside materials we need a few related quantities. The <strong>magnetising field</strong> (magnetic intensity) $H$ is the field due to free currents alone. The material responds by developing a <strong>magnetisation</strong> $M$, the magnetic moment per unit volume. The net field inside is then $B = \\mu_0(H + M)$, which separates the applied field from the material's own contribution.</p><p>How strongly a material magnetises is measured by its <strong>magnetic susceptibility</strong> $\\chi_m$, defined by $M = \\chi_m H$. A material with positive $\\chi_m$ strengthens the field, while a negative $\\chi_m$ slightly weakens it. The susceptibility is a pure number and its sign and size are exactly what classify a material as diamagnetic, paramagnetic or ferromagnetic.</p><p>Closely linked is the <strong>relative permeability</strong> $\\mu_r = 1 + \\chi_m$, the factor by which the material multiplies the field compared with vacuum, so $\\mu = \\mu_r\\mu_0$. For a diamagnet $\\mu_r$ is just under $1$; for a paramagnet just over $1$; and for a ferromagnet it can be in the hundreds or thousands, which is why iron cores are used in electromagnets and transformers.</p><p>These definitions are the bridge to the next topic. They let NEET pose quick numerical and conceptual questions — for instance, deducing $\\mu_r$ from $\\chi_m$, or reasoning about whether a sample is pulled into or pushed out of a field — all from the signs and magnitudes of $\\chi_m$ and $\\mu_r$.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Relation</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Field inside material</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$B = \\mu_0(H + M)$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Magnetisation</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$M = \\chi_m H$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Relative permeability</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\mu_r = 1 + \\chi_m$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A material has magnetic susceptibility $\\chi_m = 499$. Find its relative permeability.</p>",
+              "solution": "<p>$\\mu_r = 1 + \\chi_m = 1 + 499 = 500$ — a large value, characteristic of a ferromagnetic material.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A paramagnetic sample has $\\chi_m = 2\\times10^{-4}$. Is its relative permeability greater or less than 1?</p>",
+              "solution": "<p>$\\mu_r = 1 + \\chi_m = 1.0002 > 1$. A small positive susceptibility gives $\\mu_r$ just above 1, typical of a paramagnet.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Magnetic susceptibility is defined by:</p>", "options": ["$H = \\chi_m M$", "$M = \\chi_m H$", "$B = \\chi_m H$", "$M = \\chi_m B$"], "correct": 1, "explanation": "$M = \\chi_m H$." },
+            { "q": "<p>Relative permeability is related to susceptibility by:</p>", "options": ["$\\mu_r = \\chi_m$", "$\\mu_r = 1 + \\chi_m$", "$\\mu_r = 1 - \\chi_m$", "$\\mu_r = \\chi_m - 1$"], "correct": 1, "explanation": "$\\mu_r = 1 + \\chi_m$." },
+            { "q": "<p>The net magnetic field inside a material is:</p>", "options": ["$\\mu_0 H$", "$\\mu_0(H + M)$", "$\\mu_0 M$", "$H + M$"], "correct": 1, "explanation": "$B = \\mu_0(H + M)$." },
+            { "q": "<p>Magnetisation $M$ is the magnetic moment per unit:</p>", "options": ["area", "length", "volume", "mass"], "correct": 2, "explanation": "$M$ = moment per unit volume." },
+            { "q": "<p>A material with $\\mu_r$ slightly greater than 1 is:</p>", "options": ["diamagnetic", "paramagnetic", "ferromagnetic", "non-magnetic"], "correct": 1, "explanation": "Paramagnets have $\\mu_r$ just above 1." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Remember the chain $M = \\chi_m H$, $B = \\mu_0(H + M)$, $\\mu_r = 1 + \\chi_m$. The sign and size of $\\chi_m$ alone classify the material.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Dia-, Para- and Ferromagnetism and Hysteresis",
+          "concept": "<p>Materials fall into three magnetic classes based on susceptibility. <strong>Diamagnetic</strong> materials (copper, water, bismuth) have a small <em>negative</em> susceptibility; they are weakly repelled by a field and move from stronger to weaker field regions. Their effect is feeble and, unusually, almost independent of temperature.</p><p><strong>Paramagnetic</strong> materials (aluminium, sodium) have a small <em>positive</em> susceptibility; they are weakly attracted and move towards stronger fields. Their magnetisation arises from atomic dipoles partly aligning with the field, and it follows <strong>Curie's law</strong> $\\chi_m \\propto \\dfrac{1}{T}$ — heating randomises the dipoles and weakens the effect.</p><p><strong>Ferromagnetic</strong> materials (iron, cobalt, nickel) have a very large positive susceptibility and are strongly attracted. Within them, atomic moments line up over whole regions called <strong>domains</strong>, producing intense magnetisation that can persist even after the field is removed. Above a critical <strong>Curie temperature</strong> the thermal agitation destroys the domain alignment and a ferromagnet becomes an ordinary paramagnet — a classic NEET fact.</p><p>When a ferromagnet is taken through a full cycle of magnetising field, the magnetisation lags behind, tracing a loop called the <strong>hysteresis curve</strong>. Two features are key: the <strong>retentivity</strong> (magnetisation remaining when $H = 0$) and the <strong>coercivity</strong> (reverse field needed to demagnetise it). A material with a wide loop, high retentivity and high coercivity makes a good permanent magnet, while a narrow loop with low energy loss suits transformer cores and electromagnets — a practical distinction NEET frequently tests.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Type</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Susceptibility $\\chi_m$</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Diamagnetic</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>small, negative; repelled</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Paramagnetic</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>small, positive; $\\chi_m \\propto 1/T$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Ferromagnetic</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>large, positive; domains, Curie temp.</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A paramagnetic material has susceptibility $\\chi$ at $300\\ \\text{K}$. What is it at $600\\ \\text{K}$ (Curie's law)?</p>",
+              "solution": "<p>By Curie's law $\\chi \\propto 1/T$, so doubling $T$ halves $\\chi$: the susceptibility becomes $\\chi/2$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Which property makes a material suitable for a permanent magnet?</p>",
+              "solution": "<p>High <strong>retentivity</strong> (so it stays magnetised) and high <strong>coercivity</strong> (so it resists demagnetisation) — a wide hysteresis loop.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Diamagnetic materials have susceptibility that is:</p>", "options": ["small and negative", "small and positive", "large and positive", "zero"], "correct": 0, "explanation": "$\\chi_m$ is small and negative for diamagnets." },
+            { "q": "<p>The susceptibility of a paramagnet varies with temperature as:</p>", "options": ["$\\chi \\propto T$", "$\\chi \\propto 1/T$", "$\\chi \\propto T^{2}$", "independent of $T$"], "correct": 1, "explanation": "Curie's law: $\\chi \\propto 1/T$." },
+            { "q": "<p>Above the Curie temperature, a ferromagnet becomes:</p>", "options": ["diamagnetic", "paramagnetic", "more ferromagnetic", "non-magnetic"], "correct": 1, "explanation": "It loses domain order and behaves paramagnetically." },
+            { "q": "<p>The magnetisation remaining when $H$ is reduced to zero is the:</p>", "options": ["coercivity", "retentivity", "permeability", "susceptibility"], "correct": 1, "explanation": "Retentivity is the residual magnetisation at $H = 0$." },
+            { "q": "<p>A material for transformer cores should have a hysteresis loop that is:</p>", "options": ["wide with high loss", "narrow with low loss", "rectangular", "open"], "correct": 1, "explanation": "Low-loss (narrow) loop minimises energy dissipated per cycle." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Sign of $\\chi_m$: dia (−), para (+ small), ferro (+ large). Curie's law $\\chi \\propto 1/T$ for paramagnets; permanent magnets need high retentivity and coercivity, core materials need a narrow loop.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-physics-ch13-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>Magnetic field lines of a bar magnet are:</p>", "options": ["open curves", "closed loops", "radial lines", "straight lines"], "correct": 1, "explanation": "No monopoles, so lines form closed loops." },
+            { "q": "<p>The field of a magnetic dipole on its axis varies as:</p>", "options": ["$1/r$", "$1/r^{2}$", "$1/r^{3}$", "$1/r^{4}$"], "correct": 2, "explanation": "Dipole field $\\propto 1/r^3$." },
+            { "q": "<p>The angle of dip at the magnetic poles is:</p>", "options": ["$0^{\\circ}$", "$45^{\\circ}$", "$90^{\\circ}$", "$60^{\\circ}$"], "correct": 2, "explanation": "Needle is vertical, dip $= 90^{\\circ}$." },
+            { "q": "<p>The horizontal component of Earth's field is $B_H = B\\cos I$, where $I$ is the:</p>", "options": ["declination", "dip", "latitude", "longitude"], "correct": 1, "explanation": "$I$ is the angle of dip." },
+            { "q": "<p>Relative permeability equals:</p>", "options": ["$\\chi_m$", "$1 + \\chi_m$", "$1 - \\chi_m$", "$\\chi_m - 1$"], "correct": 1, "explanation": "$\\mu_r = 1 + \\chi_m$." },
+            { "q": "<p>A material weakly repelled by a magnetic field is:</p>", "options": ["paramagnetic", "ferromagnetic", "diamagnetic", "non-magnetic"], "correct": 2, "explanation": "Diamagnets are weakly repelled (negative $\\chi_m$)." },
+            { "q": "<p>Curie's law for a paramagnet states $\\chi$ is proportional to:</p>", "options": ["$T$", "$1/T$", "$T^{2}$", "$\\sqrt{T}$"], "correct": 1, "explanation": "$\\chi \\propto 1/T$." },
+            { "q": "<p>The reverse field needed to demagnetise a material is its:</p>", "options": ["retentivity", "coercivity", "permeability", "saturation"], "correct": 1, "explanation": "Coercivity is the demagnetising reverse field." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> An isolated magnetic north pole cannot exist.<br><strong>R:</strong> Magnetic field lines always form continuous closed loops.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "No monopoles is exactly why field lines close on themselves — R explains A." },
+            { "q": "<p><strong>A:</strong> A ferromagnetic material loses its strong magnetism above the Curie temperature.<br><strong>R:</strong> Thermal agitation destroys the alignment of domains at high temperature.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Loss of domain alignment is the cause of losing ferromagnetism — R explains A." },
+            { "q": "<p><strong>A:</strong> The susceptibility of a paramagnetic material increases as temperature rises.<br><strong>R:</strong> By Curie's law, susceptibility is inversely proportional to absolute temperature.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "By Curie's law susceptibility falls as $T$ rises, so A is false; R correctly states $\\chi \\propto 1/T$." },
+            { "q": "<p><strong>A:</strong> Soft iron with a narrow hysteresis loop is preferred for transformer cores.<br><strong>R:</strong> A narrow loop means less energy is dissipated per magnetisation cycle.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Low hysteresis loss (narrow loop) is exactly why soft iron suits cores — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

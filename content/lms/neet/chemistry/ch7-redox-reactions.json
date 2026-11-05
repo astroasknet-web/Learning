@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "chemistry",
+  "chapter": 7,
+  "title": "Redox Reactions",
+  "slug": "redox-reactions",
+  "subtitle": "Oxidation–reduction, oxidation numbers, balancing and redox types for NEET",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "NEET Chemistry — Redox Reactions: oxidation & reduction by electron transfer, oxidation numbers, balancing redox equations (ion-electron method), types of redox reactions and redox titrations, with NEET traps, NCERT notes and MCQs. Free on GrowQR.",
+    "focus_keyword": "redox reactions NEET",
+    "secondary_keywords": [
+      "oxidation number rules NEET",
+      "balancing redox equations NEET",
+      "disproportionation reaction NEET",
+      "oxidising and reducing agents NCERT",
+      "redox titration NEET"
+    ],
+    "keywords": [
+      "redox reactions NEET",
+      "oxidation number NEET",
+      "balancing redox NEET",
+      "disproportionation NEET",
+      "redox titration NEET"
+    ]
+  },
+  "summary": "<ul><li><strong>Oxidation</strong> = loss of electrons / increase in oxidation number; <strong>reduction</strong> = gain of electrons / decrease in oxidation number (remember <em>OIL RIG</em>).</li><li>The <strong>oxidising agent</strong> is itself reduced; the <strong>reducing agent</strong> is itself oxidised.</li><li><strong>Oxidation number</strong> assigned by rules: free element $0$, O usually $-2$ (peroxide $-1$), H usually $+1$ (metal hydride $-1$); sum = charge.</li><li>Balance redox in steps by the <strong>ion-electron (half-reaction) method</strong> — balance atoms, then O with $\\text{H}_2\\text{O}$, H with $\\text{H}^+$, charge with electrons.</li><li>Four types: <strong>combination, decomposition, displacement, disproportionation</strong>.</li><li><strong>Disproportionation:</strong> the same element is simultaneously oxidised and reduced (e.g. $\\text{Cl}_2$ in cold alkali).</li><li>The <strong>activity / electrochemical series</strong> ranks elements by reducing power; a metal displaces ions of a less reactive metal.</li><li>Redox underlies <strong>titrations</strong> (KMnO₄, K₂Cr₂O₇), respiration, corrosion and batteries.</li></ul>",
+  "faqs": [
+    { "q": "What is the simplest way to remember oxidation and reduction?", "a": "Use OIL RIG: Oxidation Is Loss of electrons, Reduction Is Gain of electrons. In oxidation the oxidation number increases; in reduction it decreases." },
+    { "q": "How do you identify the oxidising and reducing agents?", "a": "The oxidising agent gains electrons and is itself reduced (its oxidation number falls), while the reducing agent loses electrons and is itself oxidised (its oxidation number rises)." },
+    { "q": "What is a disproportionation reaction?", "a": "It is a redox reaction in which the same element in a single species is simultaneously oxidised and reduced, going to both a higher and a lower oxidation state — for example chlorine reacting with cold dilute alkali to form chloride and hypochlorite." },
+    { "q": "Why is oxygen usually assigned an oxidation number of -2?", "a": "Oxygen is highly electronegative, so in most compounds it pulls shared electrons toward itself and is assigned -2. Exceptions are peroxides (-1), superoxides (-1/2) and compounds with fluorine where oxygen is positive." },
+    { "q": "Why are redox reactions important in biology?", "a": "Cellular respiration is a series of redox reactions that transfer electrons from glucose to oxygen, releasing the energy stored as ATP; photosynthesis is the reverse redox process, and many enzymes work as biological oxidising or reducing agents." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Concepts and Oxidation Numbers",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Oxidation, Reduction and Redox Agents",
+          "concept": "<p>Redox reactions are reactions in which electrons are transferred from one species to another. The word 'redox' combines <strong>reduction</strong> and <strong>oxidation</strong>, because the two always happen together — one substance cannot lose electrons unless another gains them. This electron-transfer view is the modern definition NEET expects, and it replaces the older oxygen/hydrogen-based descriptions.</p><p>The classical definitions are still useful starting points: <strong>oxidation</strong> was originally the addition of oxygen or removal of hydrogen, and <strong>reduction</strong> the addition of hydrogen or removal of oxygen. The electronic definition is broader and more powerful: <strong>oxidation is the loss of electrons</strong> and <strong>reduction is the gain of electrons</strong>. The classic mnemonic is <em>OIL RIG</em> — Oxidation Is Loss, Reduction Is Gain — which NEET students lean on to avoid mixing the two up.</p><p>Because oxidation and reduction are coupled, every redox reaction has an <strong>oxidising agent</strong> and a <strong>reducing agent</strong>. The oxidising agent is the species that accepts electrons; in doing so it is <em>itself reduced</em>. The reducing agent is the species that donates electrons and is <em>itself oxidised</em>. A frequent NEET trap is to confuse 'agent' with 'what happens to it' — the oxidising agent gets reduced, not oxidised. Strong oxidising agents include $\\text{KMnO}_4$ and $\\text{K}_2\\text{Cr}_2\\text{O}_7$; common reducing agents include $\\text{H}_2$, carbon and active metals.</p><p>Redox processes are everywhere in biology and daily life. Cellular respiration oxidises glucose, transferring electrons step by step to oxygen and capturing the energy as ATP; photosynthesis runs the reverse. Rusting of iron, bleaching, combustion, the working of batteries, and the action of antioxidants in the body are all redox phenomena — context NEET often uses to frame questions.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Process</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Electrons / agent</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Oxidation</td><td style='border:1px solid #dcfce7;padding:6px 10px'>loss of electrons (done by reducing agent)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Reduction</td><td style='border:1px solid #dcfce7;padding:6px 10px'>gain of electrons (done by oxidising agent)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Oxidising agent</td><td style='border:1px solid #dcfce7;padding:6px 10px'>accepts e⁻, is itself reduced</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Reducing agent</td><td style='border:1px solid #dcfce7;padding:6px 10px'>donates e⁻, is itself oxidised</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>In $\\text{Zn} + \\text{Cu}^{2+} \\rightarrow \\text{Zn}^{2+} + \\text{Cu}$, identify the oxidising and reducing agents.</p>",
+              "solution": "<p>Zn loses electrons (oxidised) so Zn is the <strong>reducing agent</strong>. $\\text{Cu}^{2+}$ gains electrons (reduced) so $\\text{Cu}^{2+}$ is the <strong>oxidising agent</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Using OIL RIG, state what happens to a species whose oxidation number increases.</p>",
+              "solution": "<p>An increase in oxidation number means loss of electrons, i.e. <strong>oxidation</strong> (Oxidation Is Loss). That species acts as the reducing agent.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Oxidation is the:</p>", "options": ["gain of electrons", "loss of electrons", "gain of protons", "loss of neutrons"], "correct": 1, "explanation": "Oxidation Is Loss of electrons." },
+            { "q": "<p>An oxidising agent is itself:</p>", "options": ["oxidised", "reduced", "unchanged", "evaporated"], "correct": 1, "explanation": "It accepts electrons, so it is reduced." },
+            { "q": "<p>The mnemonic OIL RIG stands for:</p>", "options": ["Oxidation Is Loss, Reduction Is Gain", "Oxygen In Liquid, Reduction In Gas", "Oxidation In Lab, Reaction Is Gradual", "none"], "correct": 0, "explanation": "Oxidation Is Loss, Reduction Is Gain." },
+            { "q": "<p>Which is a strong oxidising agent?</p>", "options": ["$\\text{H}_2$", "$\\text{KMnO}_4$", "Na", "C"], "correct": 1, "explanation": "$\\text{KMnO}_4$ is a powerful oxidiser." },
+            { "q": "<p>A reducing agent during a reaction:</p>", "options": ["gains electrons", "donates electrons", "stays neutral", "absorbs heat only"], "correct": 1, "explanation": "It donates electrons and is itself oxidised." }
+          ],
+          "note": "<p><strong>NEET trap:</strong> the oxidising agent is <em>reduced</em> and the reducing agent is <em>oxidised</em> — never the other way round. Increase in oxidation number = oxidation = reducing agent.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Oxidation Number and Balancing Redox Equations",
+          "concept": "<p>To track electron transfer in complex molecules we use the <strong>oxidation number</strong> (or oxidation state) — a hypothetical charge an atom would have if all bonds were fully ionic. A set of rules assigns it. The oxidation number of a free element is $0$; of a monatomic ion equals its charge; oxygen is usually $-2$ (but $-1$ in peroxides such as $\\text{H}_2\\text{O}_2$); hydrogen is usually $+1$ (but $-1$ in metal hydrides like $\\text{NaH}$); fluorine is always $-1$. For any neutral molecule the oxidation numbers sum to $0$, and for an ion they sum to the ionic charge. Applying these rules quickly is a guaranteed NEET skill.</p><p>Oxidation numbers let us spot redox at a glance: if an element's oxidation number <em>increases</em> during a reaction it has been oxidised, and if it <em>decreases</em> it has been reduced. Many transition metals show several oxidation states (e.g. Mn from $+2$ to $+7$), which is why they form so many oxidising and reducing agents.</p><p>Balancing redox equations is best done by the <strong>ion-electron (half-reaction) method</strong>. Split the reaction into an oxidation half and a reduction half. In each half: balance the main atoms, then balance oxygen by adding $\\text{H}_2\\text{O}$, balance hydrogen by adding $\\text{H}^+$ (in acidic medium), and balance charge by adding electrons. Multiply the halves so the electrons cancel, then add them. In basic medium, add $\\text{OH}^-$ to neutralise the $\\text{H}^+$ at the end.</p><p>The simpler <strong>oxidation-number method</strong> works too: find the total increase and total decrease in oxidation number, make them equal by suitable coefficients, then balance the rest by inspection. NEET problems usually only need you to balance one or two half-reactions or to find a coefficient, so being fluent with the half-reaction steps and the oxidation-number rules covers almost every question.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Species</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Oxidation number rule</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Free element</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$0$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Oxygen</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$-2$ (peroxide $-1$)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Hydrogen</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$+1$ (metal hydride $-1$)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Sum (molecule / ion)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$0$ / ionic charge</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the oxidation number of Mn in $\\text{KMnO}_4$.</p>",
+              "solution": "<p>K is $+1$, each O is $-2$ (four O = $-8$). Sum $= 0$: $(+1) + x + (-8) = 0 \\Rightarrow x = +7$. So Mn is $+7$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>In acidic medium, balance the oxygen in the half-reaction $\\text{MnO}_4^- \\rightarrow \\text{Mn}^{2+}$.</p>",
+              "solution": "<p>Add $4\\,\\text{H}_2\\text{O}$ to the right for the 4 oxygens, then $8\\,\\text{H}^+$ to the left for the hydrogens: $\\text{MnO}_4^- + 8\\text{H}^+ + 5e^- \\rightarrow \\text{Mn}^{2+} + 4\\text{H}_2\\text{O}$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The oxidation number of a free element is:</p>", "options": ["$+1$", "$-1$", "$0$", "equal to its group"], "correct": 2, "explanation": "Free elements have oxidation number 0." },
+            { "q": "<p>Oxygen in $\\text{H}_2\\text{O}_2$ has oxidation number:</p>", "options": ["$-2$", "$-1$", "$0$", "$+2$"], "correct": 1, "explanation": "In peroxides oxygen is $-1$." },
+            { "q": "<p>The oxidation number of S in $\\text{H}_2\\text{SO}_4$ is:</p>", "options": ["$+4$", "$+6$", "$+2$", "$-2$"], "correct": 1, "explanation": "$2(+1)+x+4(-2)=0 \\Rightarrow x=+6$." },
+            { "q": "<p>In the ion-electron method (acidic), oxygen is balanced by adding:</p>", "options": ["$\\text{O}_2$", "$\\text{H}_2\\text{O}$", "$\\text{OH}^-$", "$\\text{H}^+$"], "correct": 1, "explanation": "Add $\\text{H}_2\\text{O}$ for O, then $\\text{H}^+$ for H." },
+            { "q": "<p>If an element's oxidation number increases, it has been:</p>", "options": ["reduced", "oxidised", "unchanged", "neutralised"], "correct": 1, "explanation": "Increase in oxidation number = oxidation." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> learn the oxidation-number rules cold (O = $-2$ except peroxides; H = $+1$ except metal hydrides; sum = charge). In acidic half-reactions: balance O with $\\text{H}_2\\text{O}$, H with $\\text{H}^+$, charge with $e^-$.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Types and Applications of Redox",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Types of Redox Reactions",
+          "concept": "<p>Redox reactions fall into four standard categories, and NEET frequently asks you to classify a given reaction. The first is the <strong>combination reaction</strong>, where two elements or simple species combine, with at least one element changing oxidation state, e.g. $\\text{C} + \\text{O}_2 \\rightarrow \\text{CO}_2$ (carbon $0 \\rightarrow +4$). Many combustion and synthesis reactions belong here.</p><p>The second is the <strong>decomposition reaction</strong>, the reverse idea: a single compound breaks into two or more products with changes in oxidation state, e.g. $2\\text{H}_2\\text{O} \\rightarrow 2\\text{H}_2 + \\text{O}_2$. Not every decomposition is redox — only those where oxidation numbers actually change (the decomposition of $\\text{CaCO}_3$ into $\\text{CaO}$ and $\\text{CO}_2$ is <em>not</em> redox, a common trap).</p><p>The third is the <strong>displacement reaction</strong>, where one element displaces another from its compound. In a <em>metal displacement</em>, a more reactive metal pushes out a less reactive one (e.g. $\\text{Zn} + \\text{CuSO}_4 \\rightarrow \\text{ZnSO}_4 + \\text{Cu}$); in <em>non-metal displacement</em>, a more reactive halogen displaces a less reactive halide (e.g. chlorine displacing bromine). These follow the activity/electrochemical series.</p><p>The fourth and most distinctive is <strong>disproportionation</strong>, where the <em>same element</em> in a single species is simultaneously oxidised and reduced, ending up in both a higher and a lower oxidation state. A classic example is chlorine in cold dilute alkali: $\\text{Cl}_2 + 2\\text{OH}^- \\rightarrow \\text{Cl}^- + \\text{ClO}^- + \\text{H}_2\\text{O}$, where chlorine ($0$) goes to $-1$ and $+1$. Hydrogen peroxide and many oxoacids of intermediate oxidation state also disproportionate. Recognising disproportionation — one element, two fates — is a favourite NEET question.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Type</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Example</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Combination</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{C} + \\text{O}_2 \\rightarrow \\text{CO}_2$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Decomposition</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$2\\text{H}_2\\text{O} \\rightarrow 2\\text{H}_2 + \\text{O}_2$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Displacement</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{Zn} + \\text{CuSO}_4 \\rightarrow \\text{ZnSO}_4 + \\text{Cu}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Disproportionation</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{Cl}_2 + 2\\text{OH}^- \\rightarrow \\text{Cl}^- + \\text{ClO}^- + \\text{H}_2\\text{O}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Classify: $2\\text{H}_2\\text{O}_2 \\rightarrow 2\\text{H}_2\\text{O} + \\text{O}_2$.</p>",
+              "solution": "<p>Oxygen in $\\text{H}_2\\text{O}_2$ is $-1$; it becomes $-2$ in $\\text{H}_2\\text{O}$ (reduced) and $0$ in $\\text{O}_2$ (oxidised). The same element goes both ways, so this is <strong>disproportionation</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Is $\\text{CaCO}_3 \\rightarrow \\text{CaO} + \\text{CO}_2$ a redox reaction?</p>",
+              "solution": "<p>Check oxidation numbers: Ca stays $+2$, C stays $+4$, O stays $-2$ throughout. No change, so it is <strong>not</strong> a redox reaction (just thermal decomposition).</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>$\\text{Zn} + \\text{CuSO}_4 \\rightarrow \\text{ZnSO}_4 + \\text{Cu}$ is a:</p>", "options": ["combination", "decomposition", "displacement", "disproportionation"], "correct": 2, "explanation": "Zn displaces Cu — displacement." },
+            { "q": "<p>In disproportionation, the same element is:</p>", "options": ["only oxidised", "only reduced", "both oxidised and reduced", "unchanged"], "correct": 2, "explanation": "It goes to both higher and lower states." },
+            { "q": "<p>Which is NOT a redox reaction?</p>", "options": ["$\\text{C}+\\text{O}_2\\rightarrow\\text{CO}_2$", "$\\text{CaCO}_3\\rightarrow\\text{CaO}+\\text{CO}_2$", "$2\\text{H}_2\\text{O}\\rightarrow2\\text{H}_2+\\text{O}_2$", "$\\text{Zn}+\\text{Cu}^{2+}\\rightarrow\\text{Zn}^{2+}+\\text{Cu}$"], "correct": 1, "explanation": "No oxidation numbers change in $\\text{CaCO}_3$ decomposition." },
+            { "q": "<p>$\\text{Cl}_2$ reacting with cold dilute NaOH is an example of:</p>", "options": ["combination", "displacement", "disproportionation", "decomposition"], "correct": 2, "explanation": "Cl goes to $-1$ and $+1$ — disproportionation." },
+            { "q": "<p>Burning of carbon in oxygen is a:</p>", "options": ["combination redox", "decomposition", "displacement", "non-redox"], "correct": 0, "explanation": "C and O combine with oxidation-number change." }
+          ],
+          "note": "<p><strong>NEET trap:</strong> not every decomposition/combination is redox — check whether oxidation numbers actually change ($\\text{CaCO}_3 \\to \\text{CaO}+\\text{CO}_2$ is non-redox). Disproportionation = one element, two oxidation states.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Redox Couples, the Activity Series and Titrations",
+          "concept": "<p>Whether a redox reaction will actually happen depends on the relative tendencies of the species to lose or gain electrons. These tendencies are ranked in the <strong>activity series</strong> (for metals) and, more quantitatively, the <strong>electrochemical series</strong>, which orders elements by their standard electrode potentials. A metal higher in the series (more reactive, stronger reducing agent) can displace the ions of a metal lower down — which is exactly why zinc displaces copper but not the reverse.</p><p>Each redox reaction involves two <strong>redox couples</strong>, written as oxidised/reduced forms (e.g. $\\text{Zn}^{2+}/\\text{Zn}$ and $\\text{Cu}^{2+}/\\text{Cu}$). The couple with the greater tendency to be reduced acts as the oxidising half; the other supplies the electrons. This couple language connects redox chemistry to electrochemistry, where the same reactions are separated into half-cells to generate electricity — the basis of batteries, a topic NEET builds on later.</p><p>A major practical use of redox is <strong>redox titration</strong>, used to find the concentration of an oxidising or reducing agent. <strong>Permanganometry</strong> uses $\\text{KMnO}_4$, which is its own indicator: the end point is the first permanent pink tinge once all the reducing agent is consumed. <strong>Dichrometry</strong> uses $\\text{K}_2\\text{Cr}_2\\text{O}_7$ with a redox indicator. <strong>Iodometric/iodimetric</strong> titrations involve iodine and thiosulphate with starch as indicator.</p><p>Redox also explains everyday and biological processes: <strong>corrosion</strong> (the oxidation of metals, e.g. rusting of iron), the action of <strong>antioxidants</strong> that protect cells from oxidative damage, the bleaching action of chlorine and hydrogen peroxide, and the energy-yielding redox chain of <strong>respiration</strong>. Knowing the activity-series displacement rule, the role of $\\text{KMnO}_4$/$\\text{K}_2\\text{Cr}_2\\text{O}_7$ in titrations, and the meaning of a redox couple covers the application-based NEET questions in this chapter.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Idea</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Key point</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Activity series</td><td style='border:1px solid #dcfce7;padding:6px 10px'>more reactive metal displaces less reactive</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Redox couple</td><td style='border:1px solid #dcfce7;padding:6px 10px'>oxidised/reduced form, e.g. $\\text{Cu}^{2+}/\\text{Cu}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{KMnO}_4$ titration</td><td style='border:1px solid #dcfce7;padding:6px 10px'>self-indicating (pink end point)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Corrosion</td><td style='border:1px solid #dcfce7;padding:6px 10px'>oxidation of metal (rusting of iron)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Will silver displace copper from copper sulphate solution? (Activity: Cu more reactive than Ag.)</p>",
+              "solution": "<p>No. Silver is <em>less</em> reactive than copper, so it cannot displace copper ions. Displacement only works when the added metal is higher in the activity series.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why does $\\text{KMnO}_4$ not need a separate indicator in titration?</p>",
+              "solution": "<p>$\\text{KMnO}_4$ is intensely purple and is decolourised as it reacts. Once the reducing agent is used up, the next drop stays pink — that first permanent pink colour marks the end point, so it is self-indicating.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>A metal can displace another metal's ions if it is:</p>", "options": ["less reactive", "more reactive", "equally reactive", "a non-metal"], "correct": 1, "explanation": "More reactive (stronger reducing agent) displaces less reactive." },
+            { "q": "<p>A redox couple is written as:</p>", "options": ["reduced/oxidised only", "oxidised/reduced form", "acid/base", "metal/non-metal"], "correct": 1, "explanation": "e.g. $\\text{Cu}^{2+}/\\text{Cu}$." },
+            { "q": "<p>$\\text{KMnO}_4$ in titration acts as its own:</p>", "options": ["solvent", "indicator", "catalyst", "buffer"], "correct": 1, "explanation": "Self-indicating with a pink end point." },
+            { "q": "<p>Rusting of iron is an example of:</p>", "options": ["reduction", "corrosion (oxidation)", "neutralisation", "sublimation"], "correct": 1, "explanation": "Corrosion is oxidation of the metal." },
+            { "q": "<p>The electrochemical series ranks elements by:</p>", "options": ["atomic mass", "electrode potential", "density", "colour"], "correct": 1, "explanation": "By standard electrode potential (electron-losing/gaining tendency)." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> use the activity/electrochemical series to predict displacement (reactive displaces less reactive). $\\text{KMnO}_4$ is self-indicating; $\\text{K}_2\\text{Cr}_2\\text{O}_7$ needs an indicator. Rusting/corrosion = oxidation of metal.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-chemistry-ch7-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct & Statement-based)",
+          "questions": [
+            { "q": "<p>Reduction involves the:</p>", "options": ["loss of electrons", "gain of electrons", "loss of protons", "gain of neutrons"], "correct": 1, "explanation": "Reduction Is Gain of electrons." },
+            { "q": "<p>The oxidation number of Cr in $\\text{K}_2\\text{Cr}_2\\text{O}_7$ is:</p>", "options": ["$+3$", "$+6$", "$+7$", "$+2$"], "correct": 1, "explanation": "$2(+1)+2x+7(-2)=0 \\Rightarrow x=+6$." },
+            { "q": "<p>In $\\text{MnO}_4^- + 8\\text{H}^+ + 5e^- \\rightarrow \\text{Mn}^{2+} + 4\\text{H}_2\\text{O}$, Mn changes from:</p>", "options": ["$+7$ to $+2$", "$+2$ to $+7$", "$+4$ to $+2$", "$+6$ to $+3$"], "correct": 0, "explanation": "Mn is $+7$ in $\\text{MnO}_4^-$, $+2$ in $\\text{Mn}^{2+}$." },
+            { "q": "<p>Statements: (I) An oxidising agent is reduced. (II) A reducing agent is oxidised. Which are correct?</p>", "options": ["only I", "only II", "both I and II", "neither"], "correct": 2, "explanation": "Both are correct." },
+            { "q": "<p>Hydrogen has oxidation number $-1$ in:</p>", "options": ["$\\text{H}_2\\text{O}$", "$\\text{NaH}$", "$\\text{HCl}$", "$\\text{NH}_3$"], "correct": 1, "explanation": "In metal hydrides H is $-1$." },
+            { "q": "<p>Which reaction is disproportionation?</p>", "options": ["$\\text{C}+\\text{O}_2\\rightarrow\\text{CO}_2$", "$\\text{Cl}_2+2\\text{OH}^-\\rightarrow\\text{Cl}^-+\\text{ClO}^-+\\text{H}_2\\text{O}$", "$\\text{Zn}+\\text{Cu}^{2+}\\rightarrow\\text{Zn}^{2+}+\\text{Cu}$", "$\\text{H}_2+\\text{Cl}_2\\rightarrow2\\text{HCl}$"], "correct": 1, "explanation": "Cl goes to both $-1$ and $+1$." },
+            { "q": "<p>The most reactive metal among these (strongest reducing agent) is:</p>", "options": ["Cu", "Ag", "K", "Au"], "correct": 2, "explanation": "K is highest in the activity series." },
+            { "q": "<p>The end point in a $\\text{KMnO}_4$ titration is marked by:</p>", "options": ["a colour fading", "a permanent pink tinge", "a precipitate", "gas evolution"], "correct": 1, "explanation": "First permanent pink = end point (self-indicating)." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> In a redox reaction the oxidising agent is itself reduced.<br><strong>R:</strong> The oxidising agent accepts the electrons lost by the reducing agent.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Accepting electrons is exactly being reduced — R explains A." },
+            { "q": "<p><strong>A:</strong> The decomposition of $\\text{CaCO}_3$ to $\\text{CaO}$ and $\\text{CO}_2$ is not a redox reaction.<br><strong>R:</strong> No element changes its oxidation number during the decomposition.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Redox requires a change in oxidation number; none occurs, so R explains A." },
+            { "q": "<p><strong>A:</strong> Silver cannot displace copper from copper sulphate solution.<br><strong>R:</strong> Silver is less reactive than copper and so is a weaker reducing agent.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "A less reactive metal cannot displace a more reactive metal's ions, so silver fails to displace copper — R correctly explains A." },
+            { "q": "<p><strong>A:</strong> $\\text{KMnO}_4$ acts as its own indicator in titrations.<br><strong>R:</strong> $\\text{KMnO}_4$ is intensely coloured and the first excess drop gives a permanent pink colour.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Its intense colour and persistent pink end point make it self-indicating — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

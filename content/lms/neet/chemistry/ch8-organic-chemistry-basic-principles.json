@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "chemistry",
+  "chapter": 8,
+  "title": "Organic Chemistry – Some Basic Principles and Techniques",
+  "slug": "organic-chemistry-basic-principles",
+  "subtitle": "IUPAC naming, isomerism, electronic effects, reaction intermediates & purification for NEET",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "NEET Chemistry — Organic basics: tetravalency & hybridisation of carbon, IUPAC nomenclature, isomerism, inductive/resonance/hyperconjugation effects, carbocations & free radicals, and purification techniques, with NEET traps, NCERT notes and MCQs. Free on GrowQR.",
+    "focus_keyword": "organic chemistry basics NEET",
+    "secondary_keywords": [
+      "IUPAC nomenclature NEET",
+      "inductive and resonance effect NEET",
+      "carbocation stability NEET",
+      "isomerism organic chemistry NCERT",
+      "GOC NEET notes"
+    ],
+    "keywords": [
+      "organic chemistry basics NEET",
+      "IUPAC nomenclature NEET",
+      "inductive effect NEET",
+      "carbocation stability NEET",
+      "isomerism NEET"
+    ]
+  },
+  "summary": "<ul><li>Carbon is <strong>tetravalent</strong> and <strong>catenates</strong>; hybridisation $sp^3$ (single, tetrahedral), $sp^2$ (double, planar), $sp$ (triple, linear).</li><li><strong>IUPAC name</strong> = (substituent prefixes) + (longest-chain root) + (suffix for the principal functional group), with lowest locants.</li><li><strong>Isomerism:</strong> structural (chain, position, functional, metamerism, tautomerism) and stereoisomerism (geometrical, optical).</li><li><strong>Inductive effect (I):</strong> permanent, through sigma bonds; $-I$ groups withdraw, $+I$ groups donate.</li><li><strong>Resonance / mesomeric (M):</strong> delocalisation of pi/lone-pair electrons; gives extra stability.</li><li><strong>Hyperconjugation:</strong> stabilisation by adjacent C–H sigma bonds; more alpha-H = more stable.</li><li><strong>Intermediates:</strong> carbocations ($3^\\circ > 2^\\circ > 1^\\circ$), carbanions, free radicals, carbenes; bond fission is homolytic (radicals) or heterolytic (ions).</li><li><strong>Purification:</strong> crystallisation, distillation, sublimation, chromatography; detection & estimation of elements.</li></ul>",
+  "faqs": [
+    { "q": "How do you write the IUPAC name of an organic compound?", "a": "Find the longest carbon chain containing the principal functional group (root), number it to give the lowest locants to that group, add the suffix for the functional group, and list the substituents as prefixes in alphabetical order with their position numbers." },
+    { "q": "What is the difference between inductive and resonance effects?", "a": "The inductive effect is the permanent polarisation of sigma bonds by an electronegative atom and weakens with distance, while the resonance (mesomeric) effect is the delocalisation of pi or lone-pair electrons through conjugated systems and can act over longer distances." },
+    { "q": "Why is a tertiary carbocation more stable than a primary one?", "a": "A tertiary carbocation has more alkyl groups attached to the positive carbon, which donate electron density through the +I effect and through hyperconjugation (more alpha C–H bonds), spreading out the positive charge and stabilising it." },
+    { "q": "What is the difference between homolytic and heterolytic bond fission?", "a": "In homolytic fission a bond breaks evenly, each atom keeping one electron, giving free radicals; in heterolytic fission the bond breaks unevenly, one atom taking both electrons, giving a cation and an anion (such as a carbocation and an anion)." },
+    { "q": "Which technique is used to purify a solid that sublimes?", "a": "Sublimation is used: the solid is heated so it turns directly from solid to vapour and then re-condenses to a pure solid on a cold surface, leaving non-volatile impurities behind. Camphor, naphthalene and ammonium chloride are purified this way." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Structure, Nomenclature and Isomerism",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Tetravalency, Hybridisation and Bonding in Carbon",
+          "concept": "<p>Organic chemistry is the chemistry of carbon compounds, and almost everything in it flows from two properties of carbon: <strong>tetravalency</strong> (carbon forms four covalent bonds) and <strong>catenation</strong> (carbon atoms link to one another in chains and rings). Together these let carbon build the enormous variety of molecules that make up living things, fuels, medicines and plastics — context NEET uses to root the subject in biology.</p><p>The shapes of organic molecules are explained by <strong>hybridisation</strong>. When carbon forms four single bonds it is $sp^3$ hybridised, giving a tetrahedral geometry with bond angles of about $109.5^{\\circ}$ (as in methane). A carbon with one double bond is $sp^2$ hybridised, planar, with angles near $120^{\\circ}$ (as in ethene). A carbon with a triple bond (or two double bonds) is $sp$ hybridised and linear, with $180^{\\circ}$ angles (as in ethyne). NEET regularly asks you to read off hybridisation and shape from a structure.</p><p>A single bond is a <strong>sigma ($\\sigma$) bond</strong> formed by head-on overlap; a double bond is one sigma plus one <strong>pi ($\\pi$) bond</strong>, and a triple bond is one sigma plus two pi bonds. Sigma bonds allow free rotation, while pi bonds restrict rotation — the reason geometrical isomerism exists. As the bond order increases, bonds get shorter and stronger, so a $\\text{C}\\equiv\\text{C}$ triple bond is shorter and stronger than a $\\text{C=C}$ double bond, which is shorter than a $\\text{C–C}$ single bond.</p><p>Organic structures are drawn in several shorthand ways: complete structural formulae, condensed formulae (e.g. $\\text{CH}_3\\text{CH}_2\\text{OH}$), and bond-line (skeletal) formulae where carbons sit at the ends and bends of lines and hydrogens on carbon are implied. Being fluent in converting between these and counting hydrogens correctly is a basic NEET skill that underlies the whole chapter.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Hybridisation</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Geometry / angle / bond</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$sp^3$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>tetrahedral, $109.5^{\\circ}$, single bond</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$sp^2$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>planar, $120^{\\circ}$, one double bond</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$sp$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>linear, $180^{\\circ}$, triple bond</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Bond strength</td><td style='border:1px solid #dcfce7;padding:6px 10px'>triple $>$ double $>$ single</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>State the hybridisation and shape of carbon in ethene ($\\text{CH}_2\\text{=CH}_2$).</p>",
+              "solution": "<p>Each carbon has one double bond, so it is $sp^2$ hybridised. The molecule is planar with bond angles of about $120^{\\circ}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>How many sigma and pi bonds are present in ethyne ($\\text{HC}\\equiv\\text{CH}$)?</p>",
+              "solution": "<p>Two C–H sigma bonds plus one C–C sigma bond = 3 sigma bonds; the triple bond also has 2 pi bonds. So 3 sigma and 2 pi bonds.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>An $sp^3$ hybridised carbon has a geometry that is:</p>", "options": ["linear", "planar", "tetrahedral", "pyramidal"], "correct": 2, "explanation": "$sp^3$ is tetrahedral, $109.5^{\\circ}$." },
+            { "q": "<p>The bond angle in ethyne (sp carbon) is:</p>", "options": ["$109.5^{\\circ}$", "$120^{\\circ}$", "$180^{\\circ}$", "$90^{\\circ}$"], "correct": 2, "explanation": "sp carbon is linear, $180^{\\circ}$." },
+            { "q": "<p>A double bond consists of:</p>", "options": ["two sigma bonds", "two pi bonds", "one sigma and one pi", "one sigma only"], "correct": 2, "explanation": "Double bond = 1 sigma + 1 pi." },
+            { "q": "<p>Carbon's ability to form chains with itself is called:</p>", "options": ["catenation", "hybridisation", "resonance", "isomerism"], "correct": 0, "explanation": "Catenation = self-linking of carbon." },
+            { "q": "<p>Which bond is shortest and strongest?</p>", "options": ["C–C", "C=C", "$\\text{C}\\equiv\\text{C}$", "all equal"], "correct": 2, "explanation": "Triple bond is shortest and strongest." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> map hybridisation from bonds — single only = $sp^3$ (tetrahedral), one double = $sp^2$ (planar), triple/two doubles = $sp$ (linear). Free rotation about sigma, restricted about pi.</p>"
+        },
+        {
+          "number": 2,
+          "title": "IUPAC Nomenclature and Isomerism",
+          "concept": "<p>To name the millions of organic compounds unambiguously, chemists use the <strong>IUPAC system</strong>. An IUPAC name is built from three parts: a <em>root</em> (the longest continuous carbon chain — meth, eth, prop, but, pent...), a <em>suffix</em> for the principal functional group (-ane, -ene, -yne, -ol, -al, -one, -oic acid, etc.), and <em>prefixes</em> for substituents (methyl, chloro, etc.). The chain is numbered so that the principal functional group, then double/triple bonds, then substituents, get the <strong>lowest locants</strong>. Substituent prefixes are listed alphabetically. Mastering this stepwise procedure is one of the highest-yield NEET skills in the chapter.</p><p>There is a priority order for choosing the principal functional group when several are present (carboxylic acid > ester > amide > nitrile > aldehyde > ketone > alcohol > amine, and so on); the highest-priority group takes the suffix and the rest become prefixes. Getting this priority right is a frequent NEET trap, especially in compounds with two functional groups.</p><p><strong>Isomerism</strong> — different compounds with the same molecular formula — is the other pillar of this topic. <strong>Structural (constitutional) isomers</strong> differ in connectivity and include chain isomerism (different skeletons), position isomerism (same group at different positions), functional isomerism (different functional groups, e.g. an alcohol vs an ether), metamerism (different alkyl groups around a functional group), and tautomerism (a dynamic equilibrium, classically keto–enol).</p><p><strong>Stereoisomers</strong> have the same connectivity but differ in spatial arrangement. <em>Geometrical (cis–trans)</em> isomerism arises from restricted rotation about a C=C double bond or in rings. <em>Optical</em> isomerism arises when a molecule has a chiral centre (a carbon with four different groups) and is non-superimposable on its mirror image; such enantiomers rotate plane-polarised light in opposite directions. NEET often asks you to count the number of isomers or identify which type a given pair shows, so recognising each category quickly is essential.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Isomerism</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Difference</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Chain</td><td style='border:1px solid #dcfce7;padding:6px 10px'>different carbon skeleton</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Position</td><td style='border:1px solid #dcfce7;padding:6px 10px'>group at a different position</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Functional</td><td style='border:1px solid #dcfce7;padding:6px 10px'>different functional group</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Geometrical / Optical</td><td style='border:1px solid #dcfce7;padding:6px 10px'>spatial (cis–trans / chiral)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Give the IUPAC name of $\\text{CH}_3\\text{-CH}_2\\text{-CH}_2\\text{-OH}$.</p>",
+              "solution": "<p>Three carbons (root 'prop'), an –OH group (suffix '-ol') on C1. The name is <strong>propan-1-ol</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What type of isomerism do ethanol ($\\text{C}_2\\text{H}_5\\text{OH}$) and dimethyl ether ($\\text{CH}_3\\text{OCH}_3$) show?</p>",
+              "solution": "<p>Both have the formula $\\text{C}_2\\text{H}_6\\text{O}$ but different functional groups (alcohol vs ether), so they are <strong>functional isomers</strong>.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The suffix for an aldehyde in IUPAC naming is:</p>", "options": ["-ol", "-one", "-al", "-oic acid"], "correct": 2, "explanation": "Aldehyde = -al." },
+            { "q": "<p>Chain isomers differ in their:</p>", "options": ["functional group", "carbon skeleton", "spatial arrangement", "molecular formula"], "correct": 1, "explanation": "Chain isomers have different skeletons." },
+            { "q": "<p>Optical isomerism requires a carbon bonded to:</p>", "options": ["two same groups", "three different groups", "four different groups", "no hydrogen"], "correct": 2, "explanation": "A chiral centre has four different groups." },
+            { "q": "<p>Cis–trans isomerism arises due to:</p>", "options": ["free rotation", "restricted rotation about C=C", "chirality", "resonance"], "correct": 1, "explanation": "Restricted rotation about the double bond." },
+            { "q": "<p>Keto–enol is an example of:</p>", "options": ["chain isomerism", "tautomerism", "optical isomerism", "metamerism"], "correct": 1, "explanation": "Keto–enol is tautomerism." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> IUPAC = lowest locants to the highest-priority functional group; list substituents alphabetically. Functional isomers share a formula but differ in group (alcohol/ether, aldehyde/ketone).</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Electronic Effects, Intermediates and Purification",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Electronic Effects: Inductive, Resonance and Hyperconjugation",
+          "concept": "<p>How an organic molecule reacts is governed by the distribution of electrons within it, described by a set of <strong>electronic effects</strong>. The <strong>inductive effect (I)</strong> is the permanent polarisation of sigma bonds caused by a nearby electronegative or electropositive group. Electron-withdrawing groups (like $\\text{-NO}_2$, halogens) show a <strong>$-I$ effect</strong>; electron-donating groups (like alkyl groups) show a <strong>$+I$ effect</strong>. The inductive effect is permanent but weakens rapidly with distance along the chain — a point NEET tests when comparing acid strengths.</p><p>The <strong>resonance (mesomeric) effect (M or R)</strong> involves the delocalisation of pi electrons or lone pairs through a conjugated system. Groups that push electron density into the system show <strong>$+M$ (e.g. $\\text{-OH}, \\text{-NH}_2, \\text{-OR}$)</strong>; groups that pull it out show <strong>$-M$ (e.g. $\\text{-NO}_2, \\text{-C=O}$)</strong>. Resonance gives extra stability to molecules and ions: the real structure is a hybrid of the contributing resonance forms, and greater delocalisation means greater stability. This explains, for example, the special stability and reactivity of benzene and the acidity of carboxylic acids and phenols.</p><p>A third effect, <strong>hyperconjugation</strong>, is the stabilising delocalisation of the electrons of adjacent C–H sigma bonds into an empty or partially filled p-orbital (often called the 'no-bond resonance'). The more alpha (adjacent) C–H bonds available, the greater the hyperconjugative stabilisation. This is the main reason a tertiary carbocation is more stable than a secondary or primary one, and why more-substituted alkenes are more stable — a recurring NEET theme.</p><p>The <strong>electromeric effect</strong> is a temporary effect that appears only in the presence of an attacking reagent, when a pi bond shifts completely to one atom. Together, these electronic effects let you predict the stability of intermediates, the strength of acids and bases, the orientation of substitution on benzene, and the direction of addition reactions — making them the analytical toolkit for the rest of organic chemistry.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Effect</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Nature</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Inductive (I)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>permanent, through sigma bonds, fades with distance</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Resonance (M)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>delocalisation of pi / lone-pair electrons</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Hyperconjugation</td><td style='border:1px solid #dcfce7;padding:6px 10px'>adjacent C–H sigma into empty p-orbital</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Electromeric (E)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>temporary, only with attacking reagent</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why is trichloroacetic acid ($\\text{CCl}_3\\text{COOH}$) a stronger acid than acetic acid ($\\text{CH}_3\\text{COOH}$)?</p>",
+              "solution": "<p>The three chlorines exert a strong $-I$ (electron-withdrawing) effect, which stabilises the carboxylate anion formed after losing $\\text{H}^+$. A more stable anion means a stronger acid.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Which is more stable: the ethyl carbocation or the tert-butyl carbocation? Why?</p>",
+              "solution": "<p>The tert-butyl ($3^\\circ$) carbocation is more stable. It has more alkyl groups giving $+I$ donation and more alpha C–H bonds for hyperconjugation, spreading out the positive charge.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The inductive effect operates through:</p>", "options": ["pi bonds", "sigma bonds", "lone pairs only", "hydrogen bonds"], "correct": 1, "explanation": "Inductive effect is transmitted through sigma bonds." },
+            { "q": "<p>An alkyl group shows which inductive effect?</p>", "options": ["$-I$", "$+I$", "no effect", "$-M$"], "correct": 1, "explanation": "Alkyl groups are electron-donating: $+I$." },
+            { "q": "<p>The resonance effect involves delocalisation of:</p>", "options": ["sigma electrons", "pi / lone-pair electrons", "protons", "neutrons"], "correct": 1, "explanation": "Pi and lone-pair electrons delocalise." },
+            { "q": "<p>Hyperconjugation involves the electrons of:</p>", "options": ["C=C pi bonds", "adjacent C–H sigma bonds", "lone pairs", "C–C triple bonds"], "correct": 1, "explanation": "Adjacent (alpha) C–H sigma bonds." },
+            { "q": "<p>A $-I$ group near a –COOH makes the acid:</p>", "options": ["weaker", "stronger", "neutral", "unchanged"], "correct": 1, "explanation": "It stabilises the anion, increasing acid strength." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> $-I$/$-M$ groups (NO₂, halogens, C=O) withdraw and increase acidity; $+I$/$+M$ groups (alkyl, OH, NH₂) donate. More alpha C–H = more hyperconjugation = more stable carbocation/alkene.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Reaction Intermediates and Purification Techniques",
+          "concept": "<p>Organic reactions proceed through short-lived <strong>reaction intermediates</strong> formed when bonds break. A covalent bond can break in two ways. In <strong>homolytic fission</strong> the bond splits evenly, each atom keeping one electron, producing <strong>free radicals</strong> (species with an unpaired electron). In <strong>heterolytic fission</strong> the bond splits unevenly, one atom taking both electrons, producing ions — a <strong>carbocation</strong> (carbon with a positive charge, electron-deficient) and an anion, or a <strong>carbanion</strong> (carbon with a negative charge and a lone pair).</p><p>The stability order of these intermediates governs reaction pathways. <strong>Carbocations</strong> follow $3^\\circ > 2^\\circ > 1^\\circ > \\text{methyl}$, stabilised by $+I$ and hyperconjugation (and by resonance, e.g. allyl and benzyl cations). <strong>Carbanions</strong> show the reverse alkyl order and are stabilised by electron-withdrawing groups. <strong>Free radicals</strong> follow a stability order similar to carbocations. Reagents are classified as <strong>electrophiles</strong> (electron-loving, electron-deficient, e.g. $\\text{H}^+, \\text{NO}_2^+$) and <strong>nucleophiles</strong> (nucleus-loving, electron-rich, e.g. $\\text{OH}^-, \\text{NH}_3$); recognising these is essential for predicting mechanisms, a core NEET skill.</p><p>Because organic compounds are rarely pure when first made, a set of <strong>purification techniques</strong> is used. <strong>Crystallisation</strong> purifies solids using differential solubility. <strong>Simple distillation</strong> separates liquids with well-separated boiling points; <strong>fractional distillation</strong> separates liquids with close boiling points; <strong>steam distillation</strong> purifies steam-volatile, water-immiscible substances; and <strong>distillation under reduced pressure</strong> handles liquids that decompose near their boiling point. <strong>Sublimation</strong> purifies solids that vaporise directly (camphor, naphthalene), and <strong>chromatography</strong> separates mixtures by differential adsorption or partition.</p><p>Once pure, a compound's composition is found by <strong>qualitative analysis</strong> (detecting elements: nitrogen, sulphur and halogens by the sodium fusion / Lassaigne's test; carbon and hydrogen by combustion) and <strong>quantitative estimation</strong> (e.g. Dumas and Kjeldahl methods for nitrogen, Carius method for halogens). NEET commonly asks which technique suits a given separation or which test detects a particular element, so matching the method to the property is the practical takeaway.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Technique</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Used for</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Crystallisation</td><td style='border:1px solid #dcfce7;padding:6px 10px'>solids (differential solubility)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Fractional distillation</td><td style='border:1px solid #dcfce7;padding:6px 10px'>liquids with close boiling points</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Sublimation</td><td style='border:1px solid #dcfce7;padding:6px 10px'>solids that vaporise directly</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Chromatography</td><td style='border:1px solid #dcfce7;padding:6px 10px'>separation by adsorption / partition</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Name the intermediates formed by homolytic and heterolytic fission of a C–C bond.</p>",
+              "solution": "<p>Homolytic fission gives two <strong>free radicals</strong> (each carbon keeps one electron). Heterolytic fission gives a <strong>carbocation</strong> and a <strong>carbanion</strong> (one carbon takes both electrons).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Which technique would you use to separate two miscible liquids whose boiling points differ by only a few degrees?</p>",
+              "solution": "<p><strong>Fractional distillation</strong>, using a fractionating column, is used to separate liquids with close boiling points.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Homolytic fission of a bond produces:</p>", "options": ["a cation and anion", "two free radicals", "two carbocations", "a nucleophile only"], "correct": 1, "explanation": "Even splitting gives free radicals." },
+            { "q": "<p>The stability order of carbocations is:</p>", "options": ["$1^\\circ > 2^\\circ > 3^\\circ$", "$3^\\circ > 2^\\circ > 1^\\circ$", "all equal", "methyl most stable"], "correct": 1, "explanation": "$3^\\circ > 2^\\circ > 1^\\circ$ (more $+I$ + hyperconjugation)." },
+            { "q": "<p>An electrophile is a species that is:</p>", "options": ["electron-rich", "electron-deficient", "neutral always", "a radical"], "correct": 1, "explanation": "Electrophiles are electron-loving / deficient." },
+            { "q": "<p>Camphor (which sublimes) is best purified by:</p>", "options": ["crystallisation", "sublimation", "steam distillation", "chromatography"], "correct": 1, "explanation": "Sublimation suits solids that vaporise directly." },
+            { "q": "<p>Nitrogen, sulphur and halogens are detected by:</p>", "options": ["Lassaigne's (sodium fusion) test", "combustion only", "distillation", "crystallisation"], "correct": 0, "explanation": "Lassaigne's / sodium fusion test detects N, S, halogens." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> homolytic to radicals, heterolytic to carbocation + carbanion. Carbocation stability $3^\\circ>2^\\circ>1^\\circ$. Match purification to property: solubility to crystallisation, boiling point to distillation, volatility to sublimation, adsorption to chromatography.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-chemistry-ch8-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct & Statement-based)",
+          "questions": [
+            { "q": "<p>The hybridisation of carbon in methane ($\\text{CH}_4$) is:</p>", "options": ["$sp$", "$sp^2$", "$sp^3$", "$sp^3d$"], "correct": 2, "explanation": "Four single bonds = $sp^3$, tetrahedral." },
+            { "q": "<p>The IUPAC name of $\\text{CH}_3\\text{COCH}_3$ is:</p>", "options": ["propan-1-ol", "propanal", "propan-2-one", "propanoic acid"], "correct": 2, "explanation": "A ketone with 3 carbons = propan-2-one." },
+            { "q": "<p>Ethanol and dimethyl ether are:</p>", "options": ["chain isomers", "position isomers", "functional isomers", "optical isomers"], "correct": 2, "explanation": "Same formula, different functional group." },
+            { "q": "<p>Statements: (I) Alkyl groups show +I effect. (II) The inductive effect decreases with distance. Which are correct?</p>", "options": ["only I", "only II", "both I and II", "neither"], "correct": 2, "explanation": "Both statements are correct." },
+            { "q": "<p>The most stable carbocation is:</p>", "options": ["methyl", "primary", "secondary", "tertiary"], "correct": 3, "explanation": "Tertiary is most stable." },
+            { "q": "<p>A nucleophile is:</p>", "options": ["electron-deficient", "electron-rich", "always positive", "a free radical"], "correct": 1, "explanation": "Nucleophiles are electron-rich." },
+            { "q": "<p>A solid that vaporises directly is purified by:</p>", "options": ["distillation", "sublimation", "crystallisation", "filtration"], "correct": 1, "explanation": "Sublimation suits directly-vaporising solids." },
+            { "q": "<p>Restricted rotation about a C=C double bond gives rise to:</p>", "options": ["optical isomerism", "geometrical isomerism", "chain isomerism", "tautomerism"], "correct": 1, "explanation": "Cis–trans (geometrical) isomerism." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> A tertiary carbocation is more stable than a primary carbocation.<br><strong>R:</strong> A tertiary carbocation has more alkyl groups donating electron density by +I and hyperconjugation.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Electron donation by surrounding alkyl groups stabilises the cation — R explains A." },
+            { "q": "<p><strong>A:</strong> Ethanol and dimethyl ether are functional isomers.<br><strong>R:</strong> They have the same molecular formula but different functional groups.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Same formula, different functional group is exactly functional isomerism — R explains A." },
+            { "q": "<p><strong>A:</strong> Free rotation is possible about a carbon–carbon double bond.<br><strong>R:</strong> A double bond contains a pi bond that restricts rotation.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "Rotation about a double bond is restricted (A false); the pi bond is indeed why (R true)." },
+            { "q": "<p><strong>A:</strong> Fractional distillation is used to separate liquids with close boiling points.<br><strong>R:</strong> A fractionating column provides repeated vaporisation–condensation cycles that improve separation.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The column's repeated cycles are what make close-boiling liquids separable — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

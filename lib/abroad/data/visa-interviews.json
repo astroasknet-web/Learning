@@ -1,0 +1,201 @@
+{
+  "_note": "Practice material, not an official question list. Real interviews differ by officer, season and applicant; formats and rules change, so confirm with the embassy or Campus France. Keyword checks only measure whether common points are mentioned.",
+  "reviewed": "2026-10",
+  "countries": {
+    "usa": {
+      "visa": "F-1 student visa",
+      "format": "Usually a short conversation at the US consulate, often just a few minutes and a handful of questions. The officer decides quickly, so clear and brief answers matter most.",
+      "ideal_words": [12, 70],
+      "watch": [
+        "Do not read from papers or recite a memorised script; speak naturally.",
+        "Your numbers (fees, sponsor income, test scores) must match your documents exactly.",
+        "Officers look for strong reasons to return home. Mention real ties and a believable career plan.",
+        "Never say a consultant told you what to say."
+      ],
+      "links": [{"label": "EducationUSA", "url": "https://educationusa.state.gov"}, {"label": "US travel.state.gov student visas", "url": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html"}],
+      "questions": [
+        {"id": "us1", "cat": "Study plan", "q": "Why do you want to study in the United States?", "tip": "Give one or two concrete reasons tied to your field, not general praise of the country.",
+          "c": [["A reason specific to the US", ["research", "curriculum", "facilities", "lab", "industry", "technology", "opportunit", "faculty", "specializ", "specialis", "hands-on", "practical"]], ["Your field of study", ["computer", "engineering", "data", "business", "course", "program", "degree", "master", "mba", "science", "field"]]]},
+        {"id": "us2", "cat": "University", "q": "Why did you choose this university?", "tip": "Mention the program, a lab or professor, or a feature you actually researched. Avoid just naming the ranking.",
+          "c": [["Program or curriculum details", ["curriculum", "course", "program", "specializ", "specialis", "elective", "capstone", "thesis"]], ["Faculty, research or facilities", ["faculty", "professor", "research", "lab", "centre", "center", "facilities"]], ["Why it fits you", ["fit", "match", "my goal", "my interest", "aligns", "suits", "because"]]]},
+        {"id": "us3", "cat": "Background", "q": "How is this course related to your previous studies or work?", "tip": "Draw a clear line from your degree or job to this course.",
+          "c": [["Your previous study or work", ["bachelor", "degree", "b.tech", "btech", "b.e", "internship", "worked", "project", "experience", "graduat"]], ["A link to the new course", ["related", "continue", "build on", "next step", "advance", "deepen", "natural", "extend"]]]},
+        {"id": "us4", "cat": "Finances", "q": "Who is sponsoring your education and how much will it cost?", "tip": "Name the sponsor, state the total cost for the year and how it will be covered. Numbers must match your I-20.",
+          "c": [["Who pays", ["father", "mother", "parents", "uncle", "sponsor", "scholarship", "loan", "savings", "my own"]], ["The cost", ["tuition", "total", "cost", "dollars", "usd", "$", "lakh", "i-20", "per year", "annual"]], ["Proof the money exists", ["bank", "statement", "income", "salary", "business", "fixed deposit", "savings", "sanction", "tax", "itr"]]]},
+        {"id": "us5", "cat": "Finances", "q": "What does your sponsor do and what is their annual income?", "tip": "A plain occupation, an income figure, and where it comes from. Stay consistent with the documents.",
+          "c": [["Occupation", ["works", "engineer", "business", "doctor", "teacher", "company", "manager", "farm", "government", "owner", "self-employed", "employed"]], ["Income figure", ["lakh", "per year", "annual", "salary", "income", "rupees", "per month", "crore"]]]},
+        {"id": "us6", "cat": "University", "q": "Which other universities did you apply to and what were the results?", "tip": "Be honest and specific, then say why you chose this one.",
+          "c": [["Other applications and results", ["applied", "universities", "admit", "accepted", "admission", "rejected", "waitlist", "offers", "also"]], ["Why you chose this one", ["chose", "because", "best", "scholarship", "fit", "curriculum", "decided", "preferred"]]]},
+        {"id": "us7", "cat": "Plans", "q": "What do you plan to do after you finish your degree?", "tip": "Show a believable plan that leads back home, with a specific job type or company type.",
+          "c": [["Plan to return", ["return", "back to india", "back home", "come back", "go back", "my country", "home country"]], ["A specific career plan", ["career", "job", "work", "company", "industry", "role", "start", "firm", "manager", "engineer"]], ["Ties to home", ["family", "parents", "business", "property", "home", "responsib"]]]},
+        {"id": "us8", "cat": "Background", "q": "What are your test scores and your GPA or percentage?", "tip": "State your numbers directly and accurately.",
+          "c": [["Test score", ["gre", "ielts", "toefl", "pte", "score", "band", "out of", "points"]], ["Academic result", ["cgpa", "percent", "gpa", "marks", "%", "first class", "distinction"]]]},
+        {"id": "us9", "cat": "Background", "q": "Tell me about your final-year project or your work experience.", "tip": "Say what you built or did, your role, and one thing you learned.",
+          "c": [["What the project or job was", ["project", "built", "developed", "designed", "thesis", "internship", "worked", "system", "application", "app", "team"]], ["What you learned or achieved", ["learned", "learnt", "skill", "result", "outcome", "improved", "achieved", "tools", "python", "experience"]]]}
+      ]
+    },
+    "uk": {
+      "visa": "UK Student visa",
+      "format": "Some applicants face a credibility interview by the university or the Home Office, others do not. It checks that you understand the course, the costs and your plans, and that your answers match your application.",
+      "ideal_words": [25, 130],
+      "watch": [
+        "Know your course title, modules, fees, start date and accommodation plan precisely.",
+        "Your funds must have been held for the required period and match what you say.",
+        "Explain any study gap and show why this course is a logical next step.",
+        "Avoid answers that sound memorised or that blame an agent for details."
+      ],
+      "links": [{"label": "GOV.UK Student visa", "url": "https://www.gov.uk/student-visa"}, {"label": "UKCISA", "url": "https://www.ukcisa.org.uk"}],
+      "questions": [
+        {"id": "uk1", "cat": "Study plan", "q": "Why have you chosen the UK rather than studying in your home country or another destination?", "tip": "Compare honestly. Mention what the UK offers that others do not, such as a one-year master's or a specific department.",
+          "c": [["A UK-specific reason", ["one year", "12 months", "duration", "reputation", "research", "teaching", "heritage", "quality", "recogni", "industry links"]], ["A comparison with alternatives", ["compared", "considered", "instead", "other countries", "alternative", "rather than", "also looked"]]]},
+        {"id": "uk2", "cat": "University", "q": "Why this university and course, and which modules interest you most?", "tip": "Name two modules and say what they will teach you.",
+          "c": [["Named modules or content", ["module", "curriculum", "dissertation", "elective", "taught", "unit", "coursework", "specialis", "specializ"]], ["Why this university", ["university", "department", "faculty", "reputation", "location", "employability", "placement", "research"]]]},
+        {"id": "uk3", "cat": "Background", "q": "How does this course relate to your previous study or work?", "tip": "Explain the progression and what gap in your skills the course fills.",
+          "c": [["Previous study or work", ["bachelor", "degree", "worked", "experience", "internship", "graduat", "job", "project"]], ["The logical link", ["relat", "build", "progress", "next step", "gap", "advance", "deepen", "continue"]]]},
+        {"id": "uk4", "cat": "Finances", "q": "How much are your tuition fees and how will you pay them?", "tip": "Quote the exact fee, the deposit paid and who funds the rest.",
+          "c": [["The tuition amount", ["£", "pounds", "fee", "tuition", "gbp", "per year", "total"]], ["How it is paid", ["paid", "deposit", "loan", "savings", "parents", "scholarship", "sponsor", "balance"]]]},
+        {"id": "uk5", "cat": "Finances", "q": "How much money do you hold for living costs and for how long has it been in the account?", "tip": "Funds are normally required to be held for 28 days. Be exact.",
+          "c": [["Amount held", ["£", "pounds", "lakh", "balance", "amount", "maintenance"]], ["Where and how long", ["28 days", "bank", "account", "statement", "held", "days", "fixed deposit", "month"]]]},
+        {"id": "uk6", "cat": "Practical", "q": "Where will you live while you study and what will it cost?", "tip": "Show you have researched housing and its price.",
+          "c": [["Type and place of accommodation", ["halls", "residence", "private", "flat", "rent", "campus", "shared", "student accommodation", "booked"]], ["Cost", ["£", "per month", "per week", "pounds", "deposit", "cost"]]]},
+        {"id": "uk7", "cat": "Plans", "q": "What are your plans after the course?", "tip": "Give a believable plan. Mention how your qualification helps your career.",
+          "c": [["Career plan", ["career", "job", "work", "company", "industry", "role", "start", "manager", "engineer", "analyst"]], ["Where you will be", ["return", "back to india", "home", "my country", "family", "business"]]]},
+        {"id": "uk8", "cat": "Practical", "q": "How long is your course and when does it start?", "tip": "A basic check that you know your own course.",
+          "c": [["Duration", ["one year", "12 months", "two years", "2 years", "months", "year"]], ["Start date or intake", ["september", "january", "october", "intake", "start", "begins", "commence"]]]}
+      ]
+    },
+    "france": {
+      "visa": "Student visa (Campus France procedure)",
+      "format": "The Campus France interview is a common step for applicants from India. It checks that your project is coherent, that you know the programme and that you can finance and organise your stay. It is often held in English or French.",
+      "ideal_words": [30, 140],
+      "watch": [
+        "Show a coherent academic path: your previous studies, this programme and your career goal must connect.",
+        "Be ready to discuss your French level honestly, even for English-taught programmes.",
+        "Know the programme content and the city where you will live.",
+        "Explain any gap years clearly and with evidence."
+      ],
+      "links": [{"label": "Campus France", "url": "https://www.campusfrance.org"}, {"label": "France-Visas", "url": "https://france-visas.gouv.fr"}],
+      "questions": [
+        {"id": "fr1", "cat": "Background", "q": "Introduce yourself and describe your academic path.", "tip": "Keep it structured: studies, achievements, why you are here.",
+          "c": [["Your studies", ["bachelor", "degree", "college", "university", "graduat", "studied", "b.tech", "btech", "school"]], ["Achievements or experience", ["project", "internship", "award", "worked", "experience", "published", "rank", "achiev"]]]},
+        {"id": "fr2", "cat": "Study plan", "q": "Why France and why this programme?", "tip": "Go beyond cost. Mention the programme, the school and what France offers in your field.",
+          "c": [["Why France", ["culture", "language", "research", "public universit", "quality", "europe", "industry", "innovation", "affordable"]], ["The programme", ["programme", "program", "course", "curriculum", "module", "master", "specialis", "specializ"]]]},
+        {"id": "fr3", "cat": "Background", "q": "How is this programme related to your previous studies?", "tip": "Show a clear academic logic.",
+          "c": [["Previous studies", ["bachelor", "degree", "studied", "b.tech", "btech", "graduat", "worked"]], ["The link", ["relat", "continue", "build", "progress", "natural", "next step", "complement"]]]},
+        {"id": "fr4", "cat": "Language", "q": "Do you speak French? What is your level and how will you improve it?", "tip": "Be truthful. A plan to learn is better than a bluff.",
+          "c": [["Your level", ["a1", "a2", "b1", "b2", "delf", "tcf", "beginner", "basic", "learning", "alliance", "no french", "level"]], ["A learning plan", ["classes", "practice", "practise", "course", "app", "learn", "improve", "study", "daily"]]]},
+        {"id": "fr5", "cat": "Plans", "q": "What are your career plans after the degree?", "tip": "Link the programme to a specific job or sector.",
+          "c": [["Career goal", ["career", "job", "work", "company", "industry", "role", "sector", "engineer", "analyst"]], ["Where and how", ["return", "india", "france", "europe", "experience", "start", "then"]]]},
+        {"id": "fr6", "cat": "Finances", "q": "How will you finance your stay, and where will you live?", "tip": "Give the monthly figure, the source and the housing plan.",
+          "c": [["Funding", ["parents", "sponsor", "scholarship", "loan", "savings", "bank", "615", "euros", "€", "per month"]], ["Housing", ["housing", "crous", "residence", "dorm", "rent", "apartment", "accommodation", "student"]]]},
+        {"id": "fr7", "cat": "Background", "q": "Can you explain the gap in your studies?", "tip": "Say what you did during the gap and how it relates to your goals.",
+          "c": [["Reason for the gap", ["because", "reason", "prepar", "family", "health", "exam", "work", "job", "took"]], ["What you did meanwhile", ["course", "internship", "worked", "learned", "learnt", "skill", "certification", "freelance", "study"]]]},
+        {"id": "fr8", "cat": "University", "q": "What do you know about the city and the school where you will study?", "tip": "Show real research: location, strengths, student life.",
+          "c": [["The city", ["city", "located", "paris", "lyon", "toulouse", "grenoble", "lille", "nantes", "transport", "student life", "known for"]], ["The school", ["school", "campus", "university", "founded", "rank", "partner", "research", "known for", "alumni"]]]}
+      ]
+    },
+    "germany": {
+      "visa": "Student visa (blocked account route)",
+      "format": "The embassy may ask a few questions during your visa appointment. Officers check that your study plan is genuine, that your finances are secured and that your language and housing plans are realistic.",
+      "ideal_words": [20, 110],
+      "watch": [
+        "Know your blocked account amount and confirmation.",
+        "If the programme is in English, still be ready to talk about learning German.",
+        "Explain how the course fits your bachelor's degree.",
+        "State a clear plan for after graduation."
+      ],
+      "links": [{"label": "DAAD", "url": "https://www.daad.de/en/"}, {"label": "Make it in Germany", "url": "https://www.make-it-in-germany.com/en/"}],
+      "questions": [
+        {"id": "de1", "cat": "Study plan", "q": "Why do you want to study in Germany?", "tip": "Mention education quality, the course and practical orientation, not only low fees.",
+          "c": [["A reason about education", ["quality", "research", "engineering", "practical", "technical", "university", "curriculum", "industry", "reputation", "innovation"]], ["Your field", ["course", "program", "master", "bachelor", "field", "computer", "mechanical", "data", "degree"]]]},
+        {"id": "de2", "cat": "University", "q": "Why did you choose this university and programme?", "tip": "Name specific content or research strengths.",
+          "c": [["Programme content", ["curriculum", "module", "course", "specialis", "specializ", "semester", "thesis", "elective"]], ["University strengths", ["research", "professor", "lab", "reputation", "industry", "partner", "faculty", "ranking"]]]},
+        {"id": "de3", "cat": "Finances", "q": "How will you finance your studies in Germany?", "tip": "Name the blocked account, the amount and who funds it.",
+          "c": [["Blocked account or proof", ["blocked account", "sperrkonto", "fintiba", "expatrio", "deposit", "confirmation", "bank"]], ["Amount and source", ["11,904", "11904", "992", "euro", "€", "parents", "sponsor", "scholarship", "savings", "loan", "per month"]]]},
+        {"id": "de4", "cat": "Language", "q": "Is your programme taught in English? Do you speak German?", "tip": "Be honest about your level and say how you will learn.",
+          "c": [["Teaching language", ["english", "taught in", "german", "bilingual", "language of instruction"]], ["Your German and plan", ["a1", "a2", "b1", "b2", "learning", "classes", "goethe", "beginner", "practice", "course", "improve"]]]},
+        {"id": "de5", "cat": "Practical", "q": "Where will you live in Germany?", "tip": "Show you have looked into housing and costs.",
+          "c": [["Type of housing", ["dorm", "studentenwerk", "student residence", "wg", "shared", "apartment", "flat", "accommodation", "temporary"]], ["Arrangement or cost", ["applied", "booked", "reserved", "rent", "per month", "euro", "€", "deposit", "waiting list"]]]},
+        {"id": "de6", "cat": "Plans", "q": "What are your plans after graduation?", "tip": "Be realistic. Mention career goals and where you intend to be.",
+          "c": [["Career plan", ["career", "job", "work", "company", "industry", "engineer", "experience", "role"]], ["Location plan", ["return", "india", "germany", "job seeker", "18 months", "stay", "home", "family"]]]},
+        {"id": "de7", "cat": "Background", "q": "How does this course relate to your bachelor's degree?", "tip": "Draw a straight line from your degree to this master's or bachelor's.",
+          "c": [["Your degree", ["bachelor", "degree", "b.tech", "btech", "b.e", "graduat", "studied"]], ["The connection", ["relat", "continue", "build", "advance", "next step", "specialis", "deepen"]]]}
+      ]
+    },
+    "canada": {
+      "visa": "Study permit",
+      "format": "Most study-permit applications are decided on documents, and an interview is uncommon. Your study plan or letter of explanation carries most of the weight, so be able to explain every point in it in your own words.",
+      "ideal_words": [25, 130],
+      "watch": [
+        "Your explanation must match the study plan you submitted.",
+        "Show you are a genuine student with a clear reason for this program and school.",
+        "Be honest about future plans; you must be able to show you will leave Canada if your status ends.",
+        "Keep your funds and GIC details consistent with your documents."
+      ],
+      "links": [{"label": "IRCC study permits", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html"}, {"label": "EduCanada", "url": "https://www.educanada.ca"}],
+      "questions": [
+        {"id": "ca1", "cat": "Study plan", "q": "Why do you want to study in Canada?", "tip": "Give specific reasons tied to your program.",
+          "c": [["A Canada-specific reason", ["canada", "co-op", "research", "quality", "industry", "curriculum", "recogni", "multicultural", "safe", "technology"]], ["Your field", ["program", "course", "field", "degree", "diploma", "master", "computer", "business", "data", "engineering"]]]},
+        {"id": "ca2", "cat": "University", "q": "Why this program and this institution?", "tip": "Name the program features you researched.",
+          "c": [["Program details", ["curriculum", "course", "co-op", "module", "specializ", "specialis", "capstone", "project"]], ["The institution", ["college", "university", "faculty", "campus", "reputation", "location", "industry", "partner", "research"]]]},
+        {"id": "ca3", "cat": "Finances", "q": "How will you pay for tuition and living costs?", "tip": "State the tuition paid, the GIC and the source of funds.",
+          "c": [["Tuition and GIC", ["tuition", "gic", "paid", "cad", "$", "first year", "deposit", "guaranteed investment"]], ["Source of funds", ["parents", "sponsor", "savings", "loan", "scholarship", "bank", "income", "father", "mother"]]]},
+        {"id": "ca4", "cat": "Plans", "q": "What are your plans after your studies, and how do you show you will leave Canada if your status ends?", "tip": "Be honest. You may mention a work permit, but also show real ties and a plan if you must go home.",
+          "c": [["An honest plan", ["career", "work permit", "pgwp", "experience", "job", "return", "plan"]], ["Ties to home", ["family", "parents", "business", "property", "home", "india", "responsib", "return"]]]},
+        {"id": "ca5", "cat": "Background", "q": "How does this program fit with your previous studies and work?", "tip": "Show progression, not a random change.",
+          "c": [["Previous background", ["bachelor", "degree", "worked", "experience", "internship", "graduat", "job"]], ["Why this next step", ["relat", "build", "advance", "next step", "gap", "skills", "career", "progress"]]]},
+        {"id": "ca6", "cat": "Practical", "q": "Where will you live and how will you manage day to day?", "tip": "Show you have a practical plan.",
+          "c": [["Accommodation", ["residence", "rent", "shared", "apartment", "homestay", "accommodation", "campus", "basement"]], ["Daily costs", ["per month", "cost", "budget", "transport", "food", "cad", "$"]]]}
+      ]
+    },
+    "australia": {
+      "visa": "Student visa (subclass 500)",
+      "format": "Most applications are decided on documents and a Genuine Student statement. An interview is uncommon but possible. Be able to explain every claim in your statement.",
+      "ideal_words": [25, 130],
+      "watch": [
+        "Your answers must match your Genuine Student statement.",
+        "Show a clear link between the course, your past and your future career.",
+        "Explain why you are studying abroad rather than at home in your situation.",
+        "Funds must be genuinely available to you with a clear money trail."
+      ],
+      "links": [{"label": "Home Affairs: Student visa", "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"}, {"label": "Study Australia", "url": "https://www.studyaustralia.gov.au"}],
+      "questions": [
+        {"id": "au1", "cat": "Study plan", "q": "Why do you want to study in Australia?", "tip": "Give reasons connected to the course and the provider.",
+          "c": [["An Australia-specific reason", ["australia", "quality", "recogni", "industry", "research", "practical", "teaching", "reputation", "work rights", "environment"]], ["Your field", ["course", "program", "degree", "master", "field", "data", "business", "engineering", "computer"]]]},
+        {"id": "au2", "cat": "University", "q": "Why this course and provider, and why not study the same thing at home?", "tip": "Explain what Australia offers that you cannot get at home.",
+          "c": [["Course and provider", ["course", "curriculum", "university", "specializ", "specialis", "unit", "subject", "provider"]], ["Why not at home", ["home", "india", "not available", "better", "advanced", "limited", "exposure", "compared", "instead"]]]},
+        {"id": "au3", "cat": "Plans", "q": "How does this course fit your career plan and what will you do after?", "tip": "Show how the qualification helps your career back home.",
+          "c": [["Career plan", ["career", "job", "work", "company", "industry", "role", "manager", "engineer", "analyst"]], ["Return or outcome", ["return", "back to india", "home", "my country", "family", "business", "apply", "use"]]]},
+        {"id": "au4", "cat": "Finances", "q": "How will you fund your tuition and living costs?", "tip": "Give amounts and sources that match your documents.",
+          "c": [["Sources", ["parents", "sponsor", "savings", "loan", "scholarship", "father", "mother", "income"]], ["Amounts and evidence", ["aud", "$", "tuition", "29,710", "living", "bank", "statement", "lakh", "per year"]]]},
+        {"id": "au5", "cat": "Background", "q": "What are your circumstances at home: family, work and ties?", "tip": "Describe your real situation honestly.",
+          "c": [["Family and responsibilities", ["family", "parents", "sibling", "responsib", "live with", "home"]], ["Work or business", ["job", "work", "business", "employed", "company", "property", "income"]]]},
+        {"id": "au6", "cat": "Practical", "q": "What do you know about living in Australia and where you will stay?", "tip": "Show practical research.",
+          "c": [["Accommodation", ["accommodation", "rent", "shared", "student housing", "homestay", "apartment", "campus"]], ["Location and costs", ["city", "sydney", "melbourne", "brisbane", "perth", "adelaide", "cost", "per week", "transport", "aud"]]]}
+      ]
+    },
+    "uae": {
+      "visa": "Student residence visa",
+      "format": "The university usually sponsors the student visa, and a formal visa interview is uncommon. Admissions staff may still ask about your plans and funding, so prepare short, clear answers.",
+      "ideal_words": [20, 110],
+      "watch": [
+        "Know your university's sponsorship steps and what you must submit.",
+        "Be clear about who pays and how.",
+        "Have a realistic housing and cost plan."
+      ],
+      "links": [{"label": "UAE government: study in the UAE", "url": "https://u.ae/en/information-and-services/education/higher-education"}, {"label": "ICP UAE", "url": "https://icp.gov.ae"}],
+      "questions": [
+        {"id": "ae1", "cat": "Study plan", "q": "Why have you chosen to study in the UAE?", "tip": "Give reasons about quality, location and the program.",
+          "c": [["A UAE-specific reason", ["uae", "dubai", "abu dhabi", "sharjah", "location", "international", "hub", "industry", "safe", "close to india"]], ["Your program", ["program", "course", "degree", "field", "business", "engineering", "computer", "master", "bachelor"]]]},
+        {"id": "ae2", "cat": "University", "q": "Why this university and program?", "tip": "Mention accreditation, curriculum or industry links.",
+          "c": [["Program details", ["curriculum", "course", "module", "specializ", "specialis", "accredit", "internship"]], ["University strengths", ["university", "reputation", "faculty", "campus", "industry", "ranking", "partner", "recogni"]]]},
+        {"id": "ae3", "cat": "Finances", "q": "Who is sponsoring your studies and how will costs be covered?", "tip": "State the sponsor, the total cost and the proof.",
+          "c": [["Sponsor", ["parents", "father", "mother", "sponsor", "scholarship", "loan", "savings", "uncle"]], ["Cost and proof", ["tuition", "aed", "total", "per year", "bank", "statement", "paid", "lakh", "income"]]]},
+        {"id": "ae4", "cat": "Practical", "q": "Where will you live and how will you manage living costs?", "tip": "Show you know housing options and costs.",
+          "c": [["Housing", ["hostel", "campus", "residence", "apartment", "shared", "rent", "accommodation", "dorm"]], ["Monthly costs", ["per month", "aed", "budget", "food", "transport", "cost"]]]},
+        {"id": "ae5", "cat": "Plans", "q": "What are your plans after graduating?", "tip": "Link the degree to a specific career plan.",
+          "c": [["Career plan", ["career", "job", "work", "company", "industry", "role", "start", "manager", "engineer"]], ["Where and how", ["return", "india", "uae", "dubai", "home", "family", "experience"]]]}
+      ]
+    }
+  }
+}

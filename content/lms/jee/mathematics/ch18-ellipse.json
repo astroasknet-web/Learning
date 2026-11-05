@@ -1,0 +1,949 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": 18,
+  "title": "Ellipse",
+  "slug": "ellipse",
+  "subtitle": "Ellipse for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#c026d3",
+  "icon": "math",
+  "seo": {
+    "meta_description": "Master Ellipse for JEE Main & Advanced on GrowQR: theory, formulas, solved examples and self-check MCQs. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Definition and Standard Form",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Focal Radii",
+          "concept": "<p>If $P(x_1, y_1)$ is any point lying on the boundary of the standard ellipse, its focal distances satisfy:\n \\begin{formulabox}[Focal Distances]\n \\[\n\t\tSP  = a - ex_1 \\qquad (\\text{from focus } S = (ae,0))\n\t\t\\]\n \\[\n\t\tS'P = a + ex_1 \\qquad (\\text{from focus } S'= (-ae,0))\n\t\t\\]\n \\[\n\t\tSP + S'P = 2a \\quad (\\text{constant value equal to major axis length})\n\t\t\\]\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Vertical Ellipse: $b > a$",
+          "concept": "<p>When $b > a$ in $\\ds\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$, the major axis shifts to lie vertically along the $y$-axis. The corresponding eccentricity balance matches $a^2 = b^2(1-e^2)$, the foci are situated at $(0, \\pm be)$, and the horizontal directrices are $y = \\pm \\frac{b}{e}$.</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Find the eccentricity of the ellipse represented by the equation $9x^2 + 25y^2 = 225$:",
+              "options": [
+                "$4/5$",
+                "$3/5$",
+                "$16/25$",
+                "$2/5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "A variable point moves such that the sum of its distances from two fixed points $S(3,0)$ and $S'(-3,0)$ is constantly equal to $10$ units. The equation of its locus profile matches:",
+              "options": [
+                "$\\ds\\frac{x^2}{25} + \\frac{y^2}{16} = 1$",
+                "$\\ds\\frac{x^2}{16} + \\frac{y^2}{25} = 1$",
+                "$\\ds\\frac{x^2}{25} + \\frac{y^2}{9} = 1$",
+                "$\\ds\\frac{x^2}{100} + \\frac{y^2}{64} = 1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the total length of the latus rectum for the vertical ellipse configuration given by $16x^2 + 9y^2 = 144$:",
+              "options": [
+                "$9/2$",
+                "$9/4$",
+                "$27/4$",
+                "$9/8$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the distance separating the two parallel vertical directrices of the ellipse $\\ds\\frac{x^2}{36} + \\frac{y^2}{20} = 1$:",
+              "options": [
+                "$18$",
+                "$9$",
+                "$12$",
+                "$36$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a point $P$ lying on the ellipse $\\ds\\frac{x^2}{16} + \\frac{y^2}{7} = 1$ has its abscissa coordinate equal to $x_1 = 2$, calculate its focal distance $SP$ from the positive focus:",
+              "options": [
+                "$3$",
+                "$5$",
+                "$4$",
+                "$2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Auxiliary Circle and Eccentric Angle",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Eccentric Angle $\\theta$",
+          "concept": "<p>Let $P$ be any point on the ellipse. Draw a vertical line through $P$ perpendicular to the major axis meeting it at $N$. Extend this line upward to meet the auxiliary circle at $Q$. The angle $\\theta$ made by the radius vector $CQ$ with the positive direction of the x-axis is defined as the <strong>eccentric angle</strong> of $P$.</p><p>\\begin{formulabox}[Parametric Equations]\n \\[\n\t\tx = a\\cos\\theta, \\quad y = b\\sin\\theta, \\quad \\theta \\in [0, 2\\pi)\n\t\t\\]\n \\end{formulabox}</p><ul>[leftmargin=*]\n <li><strong>Ordinate Ratio Rule:</strong> The ratio of the vertical ordinate of the ellipse to that of the auxiliary circle at the same abscissa is constant: $\\ds\\frac{NP}{NQ} = \\frac{b}{a}$.\n <li>The eccentric angle $\\theta$ is a purely geometric mapping parameter and does not equal the actual polar angle subtended by $P$ at the center $C$.\n </ul>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Find the eccentric angle $\\theta$ of a point lying on the ellipse $\\ds\\frac{x^2}{4} + \\frac{y^2}{1} = 1$ whose coordinates are given by $\\left(1, \\frac{\\sqrt{3}}{2}\\right)$:",
+              "options": [
+                "$30^\\circ$",
+                "$65^\\circ$",
+                "$60^\\circ$",
+                "$45^\\circ$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If the vertical ordinate of a point $P$ on an ellipse is $y_P = 3$, and the corresponding ordinate of point $Q$ on its auxiliary circle is $y_Q = 5$, find the ratio of the semi-minor axis to the semi-major axis ($\\frac{b}{a}$):",
+              "options": [
+                "$3/5$",
+                "$5/3$",
+                "$9/25$",
+                "$4/5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the standard radius of the auxiliary circle associated with the shifted ellipse equation $\\ds\\frac{(x-2)^2}{16} + \\frac{(y+3)^2}{9} = 1$:",
+              "options": [
+                "$4$",
+                "$3$",
+                "$16$",
+                "$5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "A parameter point on $\\ds\\frac{x^2}{100} + \\frac{y^2}{64} = 1$ is designated at an eccentric angle $\\theta = \\frac{\\pi}{4}$. Its exact coordinate position matches:",
+              "options": [
+                "$(5\\sqrt{2}, 4\\sqrt{2})$",
+                "$(5, 4)$",
+                "$(4\\sqrt{2}, 5\\sqrt{2})$",
+                "$(5\\sqrt{2}, -4\\sqrt{2})$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the auxiliary circle for the vertical ellipse configuration $9x^2 + 4y^2 = 36$:",
+              "options": [
+                "$x^2 + y^2 = 4$",
+                "$x^2 + y^2 = 9$",
+                "$x^2 + y^2 = 13$",
+                "$x^2 + y^2 = 36$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Equation of Tangent",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Tangent at $(x_1, y_1)$ — Point Form",
+          "concept": "<p>\\begin{formulabox}[Point Form ($T = 0$)]\n \\[\n\t\t\\frac{x x_1}{a^2} + \\frac{y y_1}{b^2} = 1\n\t\t\\]\n Derived using the standard $T = 0$ transformation rule: replace $x^2 \\to x x_1$ and $y^2 \\to y y_1$.\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Tangent at Parameter $\\theta$ — Parametric Form",
+          "concept": "<p>\\begin{formulabox}[Parametric Form]\n \\[\n\t\t\\frac{x\\cos\\theta}{a} + \\frac{y\\sin\\theta}{b} = 1\n\t\t\\]\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 3,
+          "title": "Tangent in Slope Form",
+          "concept": "<p>\\begin{formulabox}[Slope Form — slope $m$]\n \\[\n\t\ty = mx \\pm \\sqrt{a^2 m^2 + b^2}\n\t\t\\]\n The precise coordinate point of tangency contact maps to: $\\left(\\mp\\dfrac{a^2 m}{\\sqrt{a^2m^2+b^2}},\\; \\pm\\dfrac{b^2}{\\sqrt{a^2m^2+b^2}}\\right)$.\n \\end{formulabox}</p><p>\\begin{importantbox}[Condition of Tangency]\n The straight line $y = mx + c$ is tangent to the standard ellipse $\\ds\\frac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1$ if and only if:\n \\[\n\t\tc^2 = a^2m^2 + b^2 \\implies c = \\pm \\sqrt{a^2m^2+b^2}.\n\t\t\\]\n \\end{importantbox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 4,
+          "title": "Properties of Tangents",
+          "concept": "<ol>\n <li>Product of Perpendiculars: The product of the perpendicular distances dropped from the two foci $S$ and $S'$ to any variable tangent line is constant and always equal to $b^2$.\n <li>The tangent line and the normal line at any point $P$ bisect the external and internal angles between the focal radii vectors $SP$ and $S'P$.\n </ol>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Find the equation of the tangent line to the ellipse $\\ds\\frac{x^2}{16} + \\frac{y^2}{9} = 1$ that has a slope of $m = 1$ and a positive y-intercept:",
+              "options": [
+                "$y = x + 5$",
+                "$y = x + 25$",
+                "$y = x + 7$",
+                "$y = x + \\sqrt{7}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the tangent to the ellipse $4x^2 + 9y^2 = 36$ at the parameter point whose eccentric angle is $\\theta = \\frac{\\pi}{4}$:",
+              "options": [
+                "$2x + 3y = 6\\sqrt{2}$",
+                "$3x + 2y = 6\\sqrt{2}$",
+                "$2x + 3y = 6$",
+                "$x + y = 5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "For what value of the constant intercept parameter $c$ is the straight line $y = 2x + c$ tangent to the ellipse $\\ds\\frac{x^2}{4} + \\frac{y^2}{1} = 1$?",
+              "options": [
+                "$\\pm 17$",
+                "$\\pm \\sqrt{17}$",
+                "$\\pm \\sqrt{5}$",
+                "$\\pm 3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the coordinate position where the tangent line $\\ds\\frac{x}{4} + \\frac{y}{3} = \\sqrt{2}$ touches the ellipse $\\ds\\frac{x^2}{16} + \\frac{y^2}{9} = 1$:",
+              "options": [
+                "$(2\\sqrt{2}, \\frac{3}{\\sqrt{2}})$",
+                "$(2, 3)$",
+                "$(2\\sqrt{2}, 3\\sqrt{2})$",
+                "$(2, \\frac{3}{2})$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Calculate the product of the perpendicular distances dropped from the foci of the ellipse $\\ds\\frac{x^2}{25} + \\frac{y^2}{16} = 1$ to the tangent line $y = x + \\sqrt{41}$:",
+              "options": [
+                "$16$",
+                "$25$",
+                "$41$",
+                "$9$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Equation of Normal",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Normal at $(x_1, y_1)$ — Point Form",
+          "concept": "<p>\\begin{formulabox}[Point Form]\n \\[\n\t\t\\frac{a^2 x}{x_1} - \\frac{b^2 y}{y_1} = a^2 - b^2\n\t\t\\]\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Normal at Parameter $\\theta$ — Parametric Form",
+          "concept": "<p>\\begin{formulabox}[Parametric Form]\n \\[\n\t\tax\\sec\\theta - by\\csc\\theta = a^2 - b^2\n\t\t\\]\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 3,
+          "title": "Normal in Slope Form",
+          "concept": "<p>\\begin{formulabox}[Slope Form — slope $m$]\n \\[\n\t\ty = mx \\mp \\frac{(a^2-b^2)m}{\\sqrt{a^2 + b^2m^2}}\n\t\t\\]\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 4,
+          "title": "Number of Normals from an External Point",
+          "concept": "<p>From a general external point $P(h, k)$ lying in the coordinate plane, a maximum of <strong>four real normals</strong> can be drawn to an ellipse. Converting the slope equation format into an algebraic polynomial in terms of $m$ yields a degree-4 equation.</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 5,
+          "title": "Co-normal Points",
+          "concept": "<p>If the four normals drawn at the parameter points $\\theta_1, \\theta_2, \\theta_3,$ and $\\theta_4$ are concurrent at a single point, these boundary locations are called <strong>co-normal points</strong>. They satisfy the following trigonometric properties:\n \\[\n\t\\sum \\tan\\theta_i = \\tan\\theta_1 + \\tan\\theta_2 + \\tan\\theta_3 + \\tan\\theta_4 = 0.\n\t\\]\n Furthermore, the sum of their eccentric angles satisfies: $\\theta_1 + \\theta_2 + \\theta_3 + \\theta_4 = (2n+1)\\pi, \\, n \\in \\mathbb{Z}$.</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Find the equation of the normal line to the ellipse $\\ds\\frac{x^2}{16} + \\frac{y^2}{9} = 1$ at the parameter point whose eccentric angle is $\\theta = \\frac{\\pi}{3}$:",
+              "options": [
+                "$8x - 2\\sqrt{3}y = 7$",
+                "$8x - 6y = 7$",
+                "$4x - 3\\sqrt{3}y = 7$",
+                "$8x + 2\\sqrt{3}y = 7$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the normal line to the ellipse $4x^2 + 9y^2 = 36$ at the specific point coordinate position $\\left(\\frac{3}{2}, \\sqrt{3}\\right)$:",
+              "options": [
+                "$6x - 3\\sqrt{3}y = 5$",
+                "$3x - 2\\sqrt{3}y = 5$",
+                "$6x - \\sqrt{3}y = 5$",
+                "$2x - \\sqrt{3}y = 5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The maximum number of real normal lines that can be drawn from an external point to an ellipse is:",
+              "options": [
+                "$2$",
+                "$3$",
+                "$4$",
+                "$1$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If the eccentric angles of four co-normal points on an ellipse are $\\theta_1, \\theta_2, \\theta_3,$ and $\\theta_4$, the value of $\\sum \\tan\\theta_i$ is identically:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$-1$",
+                "$\\infty$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the slope of the normal line to the ellipse $\\ds\\frac{x^2}{25} + \\frac{y^2}{16} = 1$ at the point $(0, 4)$:",
+              "options": [
+                "$0$",
+                "$\\infty$ (vertical line along the y-axis)",
+                "$1$",
+                "$-1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Chord of the Ellipse",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Chord Joining Parameters $\\theta_1$ and $\\theta_2$",
+          "concept": "<p>The equation of the straight line chord connecting two distinct parameter points $P(\\theta_1)$ and $Q(\\theta_2)$ on an ellipse is given by the trigonometric formula:\n \\[\n\t\\frac{x}{a}\\cos\\left(\\frac{\\theta_1+\\theta_2}{2}\\right) + \\frac{y}{b}\\sin\\left(\\frac{\\theta_1+\\theta_2}{2}\\right) = \\cos\\left(\\frac{\\theta_1-\\theta_2}{2}\\right).\n\t\\]\n If a chord passes through the focus $S(ae, 0)$, it is a <strong>focal chord</strong>. Applying the focus coordinates to the chord equation yields the parametric condition: $\\ds\\tan\\left(\\frac{\\theta_1}{2}\\right)\\tan\\left(\\frac{\\theta_2}{2}\\right) = \\frac{e-1}{e+1}$.</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Chord of Contact",
+          "concept": "<p>The straight line connecting the two points of tangency where tangent lines drawn from an external point $P(x_1, y_1)$ touch the ellipse is the <strong>chord of contact</strong>:\n \\begin{formulabox}[Chord of Contact: $T = 0$]\n \\[\n\t\t\\frac{x x_1}{a^2} + \\frac{y y_1}{b^2} = 1\n\t\t\\]\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        },
+        {
+          "number": 3,
+          "title": "Chord with a Given Midpoint",
+          "concept": "<p>If a chord line is bisected exactly at an interior point $M(h, k)$, its equation can be found using the $T = S_1$ formula:\n \\begin{formulabox}[Midpoint Form: $T = S_1$]\n \\[\n\t\t\\frac{hx}{a^2} + \\frac{ky}{b^2} = \\frac{h^2}{a^2} + \\frac{k^2}{b^2}\n\t\t\\]\n The corresponding slope of this bisected chord resolves to: $m = -\\ds\\frac{b^2 h}{a^2 k}$.\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Find the equation of the chord of the ellipse $\\ds\\frac{x^2}{25} + \\frac{y^2}{9} = 1$ whose midpoint is located at $M(2, 1)$:",
+              "options": [
+                "$18x + 25y = 61$",
+                "$9x + 25y = 43$",
+                "$18x - 25y = 11$",
+                "$2x + y = 5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the slope of a chord of the ellipse $\\ds\\frac{x^2}{16} + \\frac{y^2}{4} = 1$ that is bisected exactly at the point $(1, -1)$:",
+              "options": [
+                "$1/4$",
+                "$-1/4$",
+                "$4$",
+                "$-4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the chord of contact drawn from the external point $P(5, 4)$ to the ellipse $4x^2 + 9y^2 = 36$:",
+              "options": [
+                "$20x + 36y = 36 \\implies 5x + 9y = 9$",
+                "$20x + 36y = 1$",
+                "$5x + 9y = 36$",
+                "$4x + 9y = 1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the parameter endpoints of a focal chord passing through the positive focus of an ellipse are $\\theta_1$ and $\\theta_2$, the product $\\ds\\tan\\left(\\frac{\\theta_1}{2}\\right)\\tan\\left(\\frac{\\theta_2}{2}\\right)$ must equal:",
+              "options": [
+                "$\\ds\\frac{e-1}{e+1}$",
+                "$\\ds\\frac{e+1}{e-1}$",
+                "$\\ds\\frac{1-e}{1+e}$",
+                "$1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the chord connecting the two points on $\\ds\\frac{x^2}{4} + \\frac{y^2}{1} = 1$ whose eccentric angles are $\\theta_1 = \\frac{\\pi}{2}$ and $\\theta_2 = 0$:",
+              "options": [
+                "$x + 2y = 2$",
+                "$2x + y = 2$",
+                "$x + y = 2$",
+                "$x + 2y = 4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Pole and Polar",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Pole and Polar",
+          "concept": "<p>% ============================================================</p><p>\\begin{formulabox}[Polar of $(x_1,y_1)$ w.r.t. Ellipse]\n \\[\n\t\t\\frac{x x_1}{a^2} + \\frac{y y_1}{b^2} = 1 \\quad \\Longleftrightarrow \\quad T = 0\n\t\t\\]\n The point $(x_1, y_1)$ is defined as the <strong>pole</strong>, and the resulting line is its <strong>polar line</strong>.\n \\end{formulabox}</p><p>\\begin{property}\n Conjugate Properties of Focus and Directrix: The polar line of a focus point $S(ae, 0)$ is its corresponding vertical directrix line $x = \\frac{a}{e}$. Conversely, the pole of any directrix line is its matching focus.\n \\end{property}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Find the polar line of the point $P(2, 3)$ with respect to the ellipse $\\ds\\frac{x^2}{16} + \\frac{y^2}{9} = 1$:",
+              "options": [
+                "$\\ds\\frac{x}{8} + \\frac{y}{3} = 1$",
+                "$\\ds\\frac{x}{4} + \\frac{y}{3} = 1$",
+                "$\\ds\\frac{x}{16} + \\frac{y}{9} = 1$",
+                "$2x + 3y = 1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the pole coordinates of the straight line $x + y = 2$ with respect to the ellipse $\\ds\\frac{x^2}{8} + \\frac{y^2}{4} = 1$:",
+              "options": [
+                "$(4, 2)$",
+                "$(2, 4)$",
+                "$(8, 4)$",
+                "$(1, 1)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The polar line of the negative focus $S'(-ae, 0)$ with respect to a standard ellipse is:",
+              "options": [
+                "$x = -\\ds\\frac{a}{e}$",
+                "$x = \\ds\\frac{a}{e}$",
+                "$x = -a$",
+                "$y = -\\ds\\frac{b}{e}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the points $(2, 1)$ and $(4, k)$ are conjugate points with respect to the ellipse $\\ds\\frac{x^2}{16} + \\frac{y^2}{4} = 1$, find the value of $k$:",
+              "options": [
+                "$2$",
+                "$4$",
+                "$1$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The locus of the pole of a variable line that always stands at a constant perpendicular distance from the center of an ellipse forms a concentric:",
+              "options": [
+                "Ellipse",
+                "Circle",
+                "Parabola",
+                "Pair of straight lines"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Conjugate Diameters",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Conjugate Diameters",
+          "concept": "<p>% ============================================================</p><p>\\begin{formulabox}[Conjugate Diameters]\n Two diameters of an ellipse (straight lines passing through the center) are defined as conjugate diameters if each diameter bisects all chords drawn parallel to the other.</p><p>If the slopes of the two conjugate diameters are $m_1$ and $m_2$, they satisfy the constant relationship:\n \\[\n\t\tm_1 \\cdot m_2 = -\\frac{b^2}{a^2}\n\t\t\\]\n \\end{formulabox}</p><strong>Properties of Conjugate Diameters:</strong>\n <ol>\n <li>Tangent line boundary tracking: The tangent lines drawn at the endpoints of any diameter are parallel to its conjugate diameter.\n <li>The major axis and minor axis of an ellipse form a pair of self-conjugate diameters.\n <li><strong>Eccentric Angle Relationship:</strong> The eccentric angles of the endpoints of two conjugate semi-diameters differ by exactly $90^\\circ$: $\\theta_2 - \\theta_1 = \\pm \\frac{\\pi}{2}$.\n <li>The total area of the bounding parallelogram formed by drawing tangent lines at the endpoints of a pair of conjugate diameters is constant and always equal to $4ab$.\n <li><strong>Apollonius Theorem:</strong> The sum of the squares of the lengths of any two conjugate semi-diameters $CP$ and $CD$ is constant and equal to the sum of the squares of the semi-axes: $CP^2 + CD^2 = a^2 + b^2$.\n </ol>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "If one diameter of the ellipse $\\ds\\frac{x^2}{16} + \\frac{y^2}{9} = 1$ has a slope $m_1 = 3$, find the slope $m_2$ of its conjugate diameter:",
+              "options": [
+                "$-3/16$",
+                "$-3/4$",
+                "$-3/2$",
+                "$-1/3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The eccentric angles of the endpoints of two conjugate semi-diameters on an ellipse must differ by exactly:",
+              "options": [
+                "$90^\\circ$",
+                "$45^\\circ$",
+                "$60^\\circ$",
+                "$180^\\circ$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Calculate the area of the bounding parallelogram formed by drawing tangent lines at the endpoints of the conjugate diameters of the ellipse $9x^2 + 16y^2 = 144$:",
+              "options": [
+                "$48$",
+                "$24$",
+                "$12$",
+                "$96$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "For any pair of conjugate semi-diameters $CP$ and $CD$ on the ellipse $\\ds\\frac{x^2}{25} + \\frac{y^2}{16} = 1$, the sum of their squared lengths $CP^2 + CD^2$ evaluates to:",
+              "options": [
+                "$41$",
+                "$9$",
+                "$50$",
+                "$32$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the slopes $m_1$ and $m_2$ of two conjugate diameters of an ellipse are equal in magnitude but opposite in sign ($m_2 = -m_1$), the diameters are called equi-conjugate. Their common slope magnitude satisfies:",
+              "options": [
+                "$\\ds\\frac{b}{a}$",
+                "$\\ds\\frac{b^2}{a^2}$",
+                "$\\ds\\frac{a}{b}$",
+                "$1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Director Circle",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Director Circle",
+          "concept": "<p>% ============================================================</p><p>\\begin{formulabox}[Director Circle of Ellipse]\n The locus of the point of intersection of two tangents to an ellipse that meet at a constant angle of $90^\\circ$ is a concentric circle called the director circle. Its equation is:\n \\[\n\t\tx^2 + y^2 = a^2 + b^2\n\t\t\\]\n \\end{formulabox}</p><p>For the standard ellipse $\\ds\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$, the radius of the director circle is $\\sqrt{a^2+b^2}$.</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Find the equation of the director circle for the ellipse represented by $9x^2 + 16y^2 = 144$:",
+              "options": [
+                "$x^2 + y^2 = 25$",
+                "$x^2 + y^2 = 7$",
+                "$x^2 + y^2 = 144$",
+                "$x^2 + y^2 = 5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the radius of the director circle associated with the ellipse $\\ds\\frac{x^2}{36} + \\frac{y^2}{28} = 1$:",
+              "options": [
+                "$8$",
+                "$4$",
+                "$\\sqrt{8}$",
+                "$64$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Perpendicular tangents are drawn to the ellipse $\\ds\\frac{x^2}{10} + \\frac{y^2}{6} = 1$ from a point $P$. The distance from the origin to $P$ is constant and equal to:",
+              "options": [
+                "$4$",
+                "$16$",
+                "$\\sqrt{10}$",
+                "$\\sqrt{6}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the director circle for the shifted ellipse configuration given by $\\ds\\frac{(x-1)^2}{9} + \\frac{(y-2)^2}{4} = 1$:",
+              "options": [
+                "$(x-1)^2 + (y-2)^2 = 13$",
+                "$x^2 + y^2 = 13$",
+                "$(x-1)^2 + (y-2)^2 = 5$",
+                "$x^2 + y^2 = 5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the director circle of the ellipse $\\ds\\frac{x^2}{a^2} + \\frac{y^2}{9} = 1$ passes through the point $(4, 3)$, find the value of the semi-major axis $a$:",
+              "options": [
+                "$4$",
+                "$16$",
+                "$5$",
+                "$3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Subtangent and Subnormal",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Subtangent and Subnormal",
+          "concept": "<p>% ============================================================</p><p>Let the tangent line at any boundary point $P(x_1, y_1)$ on an ellipse intersect the major axis at $T$, and let the normal line at $P$ intersect the major axis at $G$. If $N(x_1, 0)$ is the foot of the perpendicular dropped from $P$ onto the major axis, the lengths of the projections are defined as:</p><p>\\begin{formulabox}[Subtangent and Subnormal Proportions]\n \\[\n\t\t\\text{Length of Subtangent } (NT) = \\left| \\frac{a^2}{x_1} - x_1 \\right| = \\frac{a^2 - x_1^2}{|x_1|}\n\t\t\\]\n \\[\n\t\t\\text{Length of Subnormal } (NG) = \\left| x_1 - \\frac{b^2 x_1}{a^2} \\right| = |x_1|\\left(1 - \\frac{b^2}{a^2}\\right) = |x_1|e^2\n\t\t\\]\n \\end{formulabox}</p><p>The length of the subnormal is directly proportional to the abscissa of the point and depends on the eccentricity of the ellipse.</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Find the length of the subnormal to the ellipse $\\ds\\frac{x^2}{25} + \\frac{y^2}{16} = 1$ at a boundary point whose abscissa is $x_1 = 5$:",
+              "options": [
+                "$9/5$",
+                "$9$",
+                "$16/5$",
+                "$4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the length of the subtangent to the ellipse $\\ds\\frac{x^2}{16} + \\frac{y^2}{9} = 1$ at a point where the x-coordinate is $x_1 = 2$:",
+              "options": [
+                "$6$",
+                "$8$",
+                "$4$",
+                "$12$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The length of the subnormal at the endpoint of the major axis $(a, 0)$ evaluates to:",
+              "options": [
+                "$ae^2$",
+                "$a$",
+                "$a(1-e^2)$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The ratio of the length of the subnormal $NG$ to the abscissa coordinate $x_1$ of any variable point on an ellipse is constant and equal to:",
+              "options": [
+                "$e^2$",
+                "$e$",
+                "$1-e^2$",
+                "$1/e^2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the length of the subtangent to the ellipse $x^2 + 4y^2 = 4$ at the parameter point parameterized at an eccentric angle $\\theta = \\frac{\\pi}{3}$:",
+              "options": [
+                "$3$",
+                "$1.5$",
+                "$4$",
+                "$2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Reflection Property of Ellipse",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Reflection Property of Ellipse",
+          "concept": "<p>% ============================================================</p><p>\\begin{importantbox}[Reflection Property]\n An incoming ray of light originating from one focus of an ellipse passes through the <strong>other focus</strong> after reflecting off the inner curve boundary surface.</p><p>This is because the normal line at any point $P$ on the ellipse acts as the angle bisector of the focal angle $\\angle SPS'$ formed by the focal radii vectors.\n \\end{importantbox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "A light ray originates from the negative focus $S'(-4, 0)$ of the ellipse $\\ds\\frac{x^2}{25} + \\frac{y^2}{9} = 1$ and strikes the boundary curve at a point $P$ with an abscissa $x_1 = 3$. After reflecting off the surface, the ray travels along a line passing through:",
+              "options": [
+                "$(4, 0)$",
+                "$(0, 0)$",
+                "$(3, 0)$",
+                "$(-4, 0)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The reflection property of the ellipse ensures that the normal line at any point $P$ on the curve always:",
+              "options": [
+                "Bisects the interior angle $\\angle SPS'$",
+                "Stands parallel to the vertical minor axis",
+                "Passes through the origin $(0,0)$",
+                "Bisects the major axis segment"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a sound wave originates from one focus of a whispering gallery modeled by an elliptical room, the wave reflects off the wall and converges at:",
+              "options": [
+                "The opposite focus point",
+                "The geometric center of the room",
+                "The midpoint of the semi-major axis",
+                "The vertices along the minor axis"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The tangent line drawn at any point $P$ on an ellipse forms equal angles with:",
+              "options": [
+                "The focal radii vectors $SP$ and $S'P$",
+                "The coordinate axes",
+                "The directrices",
+                "The latus rectum chord"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "A ray of light passing through the focus $S(3,0)$ of the ellipse $\\ds\\frac{x^2}{25} + \\frac{y^2}{16} = 1$ strikes the curve at the upper endpoint of the latus rectum. Find the length of the path traveled by the ray from $S$ to the curve and then to the other focus $S'$:",
+              "options": [
+                "$10$",
+                "$8$",
+                "$5$",
+                "$6$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Special Results and JEE Tricks",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Special Results and JEE Tricks",
+          "concept": "<p>% ============================================================</p>\\begin{warningbox}[JEE Important Results — Ellipse]\n <ol>\n <li><strong>Focal Product Property:</strong> For any point $P(x_1, y_1)$ lying on the ellipse, the product of its focal distances satisfies: $SP \\cdot S'P = a^2 - e^2 x_1^2$.\n <li>The locus of the foot of the perpendicular dropped from either focus to any variable tangent line is the <strong>auxiliary circle</strong> $x^2 + y^2 = a^2$.\n <li>The equation of the tangent lines drawn at the endpoints of the latus rectum can be simplified directly to the normal format: $\\pm ex \\pm \\ds\\frac{y}{a} = 1$.\n <li><strong>Symmetric Area Mapping:</strong> The area of any polygon inscribed inside an ellipse is related to the area of the corresponding polygon inscribed inside its auxiliary circle by the scaling ratio: $\\ds\\frac{\\text{Area}_{\\text{ellipse}}}{\\text{Area}_{\\text{circle}}} = \\frac{b}{a}$.\n </ol>\n \\end{warningbox}",
+          "visual": null,
+          "examples": [],
+          "quiz": [
+            {
+              "q": "Find the locus of the foot of the perpendicular dropped from the focus $S(3,0)$ of the ellipse $\\ds\\frac{x^2}{25} + \\frac{y^2}{16} = 1$ to any variable tangent line:",
+              "options": [
+                "$x^2 + y^2 = 25$",
+                "$x^2 + y^2 = 16$",
+                "$x^2 + y^2 = 41$",
+                "$x^2 + y^2 = 9$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "A triangle inscribed inside the auxiliary circle $x^2 + y^2 = 16$ has an area of $12$ square units. Find the area of the corresponding mapped triangle inscribed inside the ellipse $\\ds\\frac{x^2}{16} + \\frac{y^2}{9} = 1$:",
+              "options": [
+                "$9$",
+                "$12$",
+                "$16$",
+                "$36/7$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the value of the focal distance product $SP \\cdot S'P$ for a point lying on the ellipse $\\ds\\frac{x^2}{25} + \\frac{y^2}{16} = 1$ at the vertex position $(5, 0)$:",
+              "options": [
+                "$16$",
+                "$25$",
+                "$9$",
+                "$41$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the equation of the tangent line to the ellipse $\\ds\\frac{x^2}{16} + \\frac{y^2}{12} = 1$ at the upper endpoint of its latus rectum in the first quadrant (where $ae = 2$ and $\\frac{b^2}{a} = 3$):",
+              "options": [
+                "$2x + 4y = 16 \\implies x + 2y = 8$",
+                "$x + y = 5$",
+                "$2x + 3y = 12$",
+                "$x + 2y = 4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the tangent line at any point $P$ on an ellipse meets the vertical directrix at $T$, the line segment $ST$ joining the focus to that intersection point always subtends what angle at the focus?",
+              "options": [
+                "$90^\\circ$",
+                "$45^\\circ$",
+                "$60^\\circ$",
+                "$180^\\circ$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Practice Problems (JEE Level)",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Practice Problems (JEE Level)",
+          "concept": "<p>% ============================================================</p><ol>\n <li>If the tangent line drawn at the upper endpoint of the latus rectum of the ellipse $\\ds\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ intersects the major axis at a point $T$, show that the distance from the origin to $T$ satisfies $OT = \\frac{a}{e}$ (the location of the directrix line).<li>Prove that the product of the lengths of the perpendicular distances dropped from the two foci $S$ and $S'$ to any variable tangent line of an ellipse is constant and equal to $b^2$.<li>Find the equation of the chord of the ellipse $\\ds\\frac{x^2}{25} + \\frac{y^2}{9} = 1$ that is bisected exactly at the point $(2, 1)$.<li>Find the mathematical condition on the line parameters for which the straight line $lx + my = 1$ is a valid tangent line to the standard ellipse $\\ds\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$.<li>Show that the sum of the squares of the lengths of any two conjugate semi-diameters of an ellipse is constant and equal to $a^2 + b^2$.\n </ol>\\subsubsection*{Practice Problems Solution Matrix (MCQ Wrappers)}\n <ol>\n <li>If the line $lx + my = 1$ is tangent to the ellipse $\\ds\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$, the coefficients must satisfy which condition?\n <ol>\n <li>$a^2l^2 + b^2m^2 = 1$\n <li>$a^2l^2 - b^2m^2 = 1$\n <li>$a^2m^2 + b^2l^2 = 1$\n <li>$l^2 + m^2 = a^2 + b^2$\n </ol><li>Find the distance from the origin to the intersection point $T$ of the tangent at the latus rectum endpoint on $\\ds\\frac{x^2}{16} + \\frac{y^2}{12} = 1$ (where $e = 1/2$):\n <ol>\n <li>$8$\n <li>$4$\n <li>$16$\n <li>$2$\n </ol><li>Find the equation of the chord of $\\ds\\frac{x^2}{25} + \\frac{y^2}{9} = 1$ bisected exactly at $(2, 1)$:\n <ol>\n <li>$18x + 25y = 61$\n <li>$9x + 25y = 43$\n <li>$18x + 25y = 89$\n <li>$2x + y = 5$\n </ol><li>For the ellipse $\\ds\\frac{x^2}{9} + \\frac{y^2}{4} = 1$, the sum of the squared lengths of any two conjugate semi-diameters $CP^2 + CD^2$ evaluates to:\n <ol>\n <li>$13$\n <li>$5$\n <li>$25$\n <li>$9$\n </ol><li>A tangent to $\\ds\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ forms a right-angled triangle with the coordinate axes. The minimum possible area of this triangle is:\n <ol>\n <li>$ab$\n <li>$2ab$\n <li>$\\frac{1}{2}ab$\n <li>$a^2 + b^2$\n </ol>\n </ol>\n <strong>Answer Key:</strong> 1. (A) 2. (A) 3. (A) 4. (A) 5. (A)<p>% ============================================================</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Quick Reference Card",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Quick Reference Card",
+          "concept": "<p>% ============================================================</p><p>\\begin{formulabox}[All Ellipse Formulas at a Glance]\n <strong>Standard Equation Parameters</strong>: $\\ds\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$, $a>b>0$, $b^2=a^2(1-e^2)$.</p><p>\\medskip\n <table class=\"tex-table\"><tr><td><strong>Geometric Operational Element</strong></td><td><strong>Algebraic Formula / Line Equation Form</strong></td></tr><tr><td>Foci Coordinates ($S, S'$):</td><td>$(\\pm ae, 0)$</td></tr><tr><td>Directrices Equations ($L, L'$):</td><td>$x = \\pm a/e$</td></tr><tr><td>Parametric Boundary Coordinates:</td><td>$(a\\cos\\theta, b\\sin\\theta)$</td></tr><tr><td>Tangent Line Equation (Point Form):</td><td>$\\ds\\frac{xx_1}{a^2}+\\frac{yy_1}{b^2}=1$</td></tr><tr><td>Tangent Line Equation (Slope Form):</td><td>$y = mx \\pm \\sqrt{a^2m^2+b^2}$</td></tr><tr><td>Condition of Tangency:</td><td>$c^2 = a^2m^2+b^2$</td></tr><tr><td>Normal Line Equation (Point Form):</td><td>$\\ds\\frac{a^2x}{x_1}-\\frac{b^2y}{y_1}=a^2-b^2$</td></tr><tr><td>Chord of Contact Line Equation:</td><td>$\\ds\\frac{xx_1}{a^2}+\\frac{yy_1}{b^2}=1$</td></tr><tr><td>Chord line with Midpoint $(h,k)$:</td><td>$T = S_1 \\implies \\ds\\frac{hx}{a^2} + \\frac{ky}{b^2} = \\frac{h^2}{a^2} + \\frac{k^2}{b^2}$</td></tr><tr><td>Director Circle Equation:</td><td>$x^2+y^2=a^2+b^2$</td></tr><tr><td>String Property Focus Vector Sum:</td><td>$SP+S'P=2a$</td></tr><tr><td>Conjugate Diameters Slope Product:</td><td>$m_1 \\cdot m_2 = -b^2/a^2$</td></tr></table>\n \\end{formulabox}</p>",
+          "visual": null,
+          "examples": [],
+          "quiz": [],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Solved Examples",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Worked Examples",
+          "concept": "",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p><strong>Example 1 — Tangent and Normal Formulations</strong></p><p>Find the equations of the tangent line and the normal line to the ellipse $\\ds\\frac{x^2}{9} + \\frac{y^2}{4} = 1$ at the parameter point parameterized at an eccentric angle $\\theta = \\frac{\\pi}{3}$.</p>",
+              "solution": "Here $a = 3$ and $b = 2$. Evaluate the parameter coordinates:\n \\[\n\t\tx_1 = a\\cos\\left(\\frac{\\pi}{3}\\right) = 3\\left(\\frac{1}{2}\\right) = \\frac{3}{2}, \\quad y_1 = b\\sin\\left(\\frac{\\pi}{3}\\right) = 2\\left(\\frac{\\sqrt{3}}{2}\\right) = \\sqrt{3}.\n\t\t\\]\n <ul>\n <li><strong>Tangent Line Equation (Parametric Form):</strong><br>\n Substitute $\\theta = \\frac{\\pi}{3}$ into the standard parametric tangent formula:\n \\[\n\t\t\t\\frac{x\\cos(\\pi/3)}{3} + \\frac{y\\sin(\\pi/3)}{2} = 1 \\implies \\frac{x(1/2)}{3} + \\frac{y(\\sqrt{3}/2)}{2} = 1 \\implies \\frac{x}{6} + \\frac{\\sqrt{3}y}{4} = 1.\n\t\t\t\\]\n Multiply by the common denominator $12$ to simplify: $2x + 3\\sqrt{3}y - 12 = 0$.\n <li><strong>Normal Line Equation (Parametric Form):</strong><br>\n Substitute the parameters into the parametric normal formula:\n \\[\n\t\t\t3x\\sec\\left(\\frac{\\pi}{3}\\right) - 2y\\csc\\left(\\frac{\\pi}{3}\\right) = a^2 - b^2 \\implies 3x(2) - 2y\\left(\\frac{2}{\\sqrt{3}}\\right) = 9 - 4\n\t\t\t\\]\n \\[\n\t\t\t6x - \\frac{4}{\\sqrt{3}}y = 5 \\implies 6\\sqrt{3}x - 4y - 5\\sqrt{3} = 0.\n\t\t\t\\]\n </ul>\n <strong>Final Answer:</strong> Tangent: $2x + 3\\sqrt{3}y - 12 = 0$; Normal: $6\\sqrt{3}x - 4y - 5\\sqrt{3} = 0$."
+            },
+            {
+              "number": 2,
+              "problem": "<p><strong>Example 2 — Director Circle Locus Tracking</strong></p><p>Find the locus of the point of intersection of two mutually perpendicular tangent lines drawn to the ellipse $9x^2 + 16y^2 = 144$.</p>",
+              "solution": "<p>First, normalize the ellipse equation by dividing all terms by $144$:\n \\[\n\t\t\\frac{9x^2}{144} + \\frac{16y^2}{144} = 1 \\implies \\frac{x^2}{16} + \\frac{y^2}{9} = 1.\n\t\t\\]\n This matches the standard form where $a^2 = 16$ and $b^2 = 9$. The locus of the point of intersection of perpendicular tangents is defined as the director circle. Apply its standard formula:\n \\[\n\t\tx^2 + y^2 = a^2 + b^2 \\implies x^2 + y^2 = 16 + 9 \\implies x^2 + y^2 = 25.\n\t\t\\]\n <strong>Final Answer:</strong> The locus is the circle $x^2 + y^2 = 25$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p><strong>Example 3 — Chord calculations through Midpoint Form</strong></p><p>Find the equation of the chord of the ellipse $\\ds\\frac{x^2}{25} + \\frac{y^2}{16} = 1$ that is bisected exactly at the interior point $M(2, 1)$.</p>",
+              "solution": "<p>Identify the midpoint parameters: $h = 2$ and $k = 1$. Apply the $T = S_1$ midpoint formula:\n \\[\n\t\t\\frac{hx}{a^2} + \\frac{ky}{b^2} = \\frac{h^2}{a^2} + \\frac{k^2}{b^2} \\implies \\frac{2x}{25} + \\frac{1y}{16} = \\frac{2^2}{25} + \\frac{1^2}{16}\n\t\t\\]\n \\[\n\t\t\\frac{2x}{25} + \\frac{y}{16} = \\frac{4}{25} + \\frac{1}{16} \\implies \\frac{32x + 25y}{400} = \\frac{64 + 25}{400} \\implies 32x + 25y = 89.\n\t\t\\]\n <strong>Final Answer:</strong> The chord equation is $32x + 25y - 89 = 0$.</p>"
+            }
+          ],
+          "quiz": [],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": []
+}

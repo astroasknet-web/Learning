@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "biology",
+  "chapter": 32,
+  "title": "Biodiversity and Conservation",
+  "slug": "biodiversity-and-conservation",
+  "subtitle": "Levels and patterns of biodiversity, the importance and loss of biodiversity, and in-situ and ex-situ conservation",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "leaf",
+  "seo": {
+    "meta_description": "NEET Biology — Biodiversity and Conservation: genetic, species and ecological diversity, the latitudinal gradient and species–area relationship, the importance and loss of biodiversity (the Evil Quartet), and in-situ (hotspots, biosphere reserves) and ex-situ conservation, with NEET-level examples and MCQs. Free on GrowQR.",
+    "focus_keyword": "biodiversity and conservation NEET",
+    "secondary_keywords": [
+      "levels of biodiversity genetic species ecological",
+      "latitudinal gradient species area relationship",
+      "evil quartet biodiversity loss",
+      "biodiversity hotspots in situ conservation",
+      "ex situ conservation seed bank cryopreservation"
+    ],
+    "keywords": [
+      "biodiversity and conservation NEET",
+      "levels of biodiversity",
+      "causes of biodiversity loss",
+      "in situ ex situ conservation",
+      "biodiversity hotspots"
+    ]
+  },
+  "summary": "<ul><li><strong>Levels:</strong> <strong>genetic</strong> (within species), <strong>species</strong>, and <strong>ecological (ecosystem)</strong> diversity (term coined by <strong>Edward Wilson</strong>).</li><li><strong>Patterns:</strong> <strong>latitudinal gradient</strong> (diversity highest at the equator, falls toward the poles); <strong>species–area relationship</strong> S = cA^z (a rectangular hyperbola; straight line on log scale, slope z).</li><li><strong>Importance:</strong> 'rivet popper' hypothesis (Ehrlich); ecosystem services &amp; stability (Tilman).</li><li><strong>Loss — the 'Evil Quartet':</strong> (1) <strong>habitat loss &amp; fragmentation</strong> (biggest cause), (2) over-exploitation, (3) alien species invasions, (4) co-extinctions.</li><li><strong>In-situ conservation</strong> (on site): biosphere reserves, national parks, sanctuaries, <strong>hotspots</strong>, sacred groves.</li><li><strong>Ex-situ conservation</strong> (off site): zoos, botanical gardens, <strong>seed/gene banks, cryopreservation</strong>.</li><li><strong>Global:</strong> <strong>Rio Earth Summit (1992) → CBD</strong>; Johannesburg (2002).</li></ul>",
+  "faqs": [
+    { "q": "What are the three levels of biodiversity?", "a": "Genetic diversity — the variation in genes within a single species (e.g. the many genetically different varieties of rice, or the different chemical strains of the medicinal plant Rauwolfia). Species diversity — the variety of species in a region. Ecological (ecosystem) diversity — the variety of ecosystems or habitats in an area, such as deserts, rainforests, mangroves and coral reefs. The term biodiversity was popularised by Edward Wilson." },
+    { "q": "What is the latitudinal gradient in diversity?", "a": "Species diversity is not uniform over the Earth — it generally decreases as we move from the equator toward the poles. The tropics (low latitudes) are far richer in species than temperate or polar regions; for example, the Amazon rainforest has the greatest biodiversity on Earth. This is because the tropics have had a long, stable, warm and productive environment with constant solar energy." },
+    { "q": "What is the species–area relationship?", "a": "First described by Alexander von Humboldt, it states that within a region, species richness increases with the area explored — but only up to a limit. The relationship is a rectangular hyperbola, and on a logarithmic scale it becomes a straight line: log S = log C + Z log A, where S is species richness, A is area, C is the intercept and Z is the slope (regression coefficient). Z is about 0.1–0.2 for small areas and 0.6–1.2 for very large areas like continents." },
+    { "q": "What is the 'Evil Quartet' of biodiversity loss?", "a": "The four major causes of biodiversity loss are called the Evil Quartet: (1) habitat loss and fragmentation — the single most important cause (e.g. destruction of tropical rainforests); (2) over-exploitation — over-harvesting of species; (3) alien (invasive) species invasions — introduced species that out-compete natives (e.g. the Nile perch in Lake Victoria, water hyacinth, Lantana); and (4) co-extinctions — when one species goes extinct, the species dependent on it also disappear." },
+    { "q": "What is the difference between in-situ and ex-situ conservation?", "a": "In-situ ('on-site') conservation protects species in their natural habitats — through biosphere reserves, national parks, wildlife sanctuaries, sacred groves and biodiversity hotspots. Ex-situ ('off-site') conservation protects threatened species outside their natural homes — in zoological parks, botanical gardens, wildlife safari parks, and in seed banks, gene banks and by cryopreservation of gametes. In-situ conserves whole ecosystems; ex-situ is a backup for species that are critically endangered." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Biodiversity: Levels, Patterns and Loss",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Levels and Patterns of Biodiversity",
+          "concept": "<p><strong>Biodiversity</strong> (a term popularised by <strong>Edward Wilson</strong>) is the variety and variability among all living organisms and the ecosystems they form. It is studied at <strong>three levels</strong>. <strong>Genetic diversity</strong> is the variation in <strong>genes within a single species</strong> &mdash; for example, India has thousands of genetically different <strong>varieties of rice and mango</strong>, and the medicinal plant <strong><em>Rauwolfia</em></strong> shows different potencies (reserpine content) in different regions. <strong>Species diversity</strong> is the variety of <strong>species</strong> in an area. <strong>Ecological (ecosystem) diversity</strong> is the variety of <strong>ecosystems / habitats</strong> &mdash; India, with its deserts, rainforests, mangroves, coral reefs and wetlands, has great ecological diversity.</p><p>How many species exist? About <strong>1.5 million species have been described</strong>, but the true number is estimated to be much higher; <strong>Robert May's</strong> conservative global estimate is about <strong>7 million</strong>. Among described species, more than <strong>70% are animals</strong>, and among animals <strong>insects are the most species-rich</strong> group. <strong>India has about 45,000 plant and 90,000 animal species</strong> &mdash; roughly <strong>8.1% of the world's species, though India has only about 2.4% of the world's land area</strong>, making it one of the <strong>megadiverse countries</strong>.</p><p>Diversity is not evenly spread, and two <strong>patterns</strong> are heavily examined. The <strong>latitudinal gradient</strong>: species diversity <strong>decreases from the equator toward the poles</strong>, so the <strong>tropics are the richest</strong> (the <strong>Amazon rainforest</strong> has the greatest biodiversity on Earth). The tropics are richer because they have had a <strong>long, undisturbed, warm and productive</strong> environment.</p><p>The second pattern is the <strong>species&ndash;area relationship</strong> (first noted by <strong>Alexander von Humboldt</strong>): within a region, species richness <strong>increases with the area explored</strong>, up to a limit. The relationship is a <strong>rectangular hyperbola</strong>, which on a <strong>log scale becomes a straight line</strong>: <strong>log S = log C + Z log A</strong> (S = species richness, A = area, C = intercept, <strong>Z = slope/regression coefficient</strong>). The value of <strong>Z is about 0.1&ndash;0.2 for small areas</strong> and rises to about <strong>0.6&ndash;1.2 for very large areas (continents)</strong>. For NEET, fix the three levels (with examples), India's share, the latitudinal gradient (tropics richest), and the species&ndash;area equation with typical Z values.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Concept</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Genetic diversity</td><td style='border:1px solid #dcfce7;padding:6px 8px'>within a species (rice varieties, <em>Rauwolfia</em>)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Species / ecological diversity</td><td style='border:1px solid #dcfce7;padding:6px 8px'>variety of species / of ecosystems</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>India's share</td><td style='border:1px solid #dcfce7;padding:6px 8px'>~8.1% of species in ~2.4% land area (megadiverse)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Latitudinal gradient</td><td style='border:1px solid #dcfce7;padding:6px 8px'>diversity ↑ toward equator (Amazon richest)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Species–area</td><td style='border:1px solid #dcfce7;padding:6px 8px'>log S = log C + Z log A (Z ≈ 0.1–0.2; 0.6–1.2 large)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Give an example of genetic diversity and one of ecological diversity.</p>",
+              "solution": "<p><strong>Genetic diversity:</strong> the thousands of genetically different <strong>rice varieties</strong> in India (or <em>Rauwolfia</em> plants differing in reserpine content). <strong>Ecological diversity:</strong> India having varied ecosystems such as <strong>deserts, rainforests, mangroves and coral reefs</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Write the species–area relationship on a log scale and give the typical range of Z.</p>",
+              "solution": "<p>On a log scale: <strong>log S = log C + Z log A</strong>, a straight line, where Z is the <strong>slope (regression coefficient)</strong>. Z is about <strong>0.1&ndash;0.2 for small areas</strong> and about <strong>0.6&ndash;1.2 for very large areas</strong> (e.g. whole continents).</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Variation of genes within a species is:</p>", "options": ["species diversity", "genetic diversity", "ecological diversity", "alpha diversity"], "correct": 1, "explanation": "Genetic diversity is variation within a species." },
+            { "q": "<p>The term biodiversity was popularised by:</p>", "options": ["Robert May", "Edward Wilson", "Paul Ehrlich", "Tilman"], "correct": 1, "explanation": "Edward Wilson popularised 'biodiversity'." },
+            { "q": "<p>Species diversity is greatest:</p>", "options": ["at the poles", "in temperate regions", "in the tropics", "in deserts"], "correct": 2, "explanation": "The latitudinal gradient: tropics are richest." },
+            { "q": "<p>The greatest biodiversity on Earth is in the:</p>", "options": ["Sahara", "Amazon rainforest", "Arctic", "Himalayas"], "correct": 1, "explanation": "The Amazon rainforest has the highest biodiversity." },
+            { "q": "<p>In the species–area relation log S = log C + Z log A, Z is the:</p>", "options": ["intercept", "slope (regression coefficient)", "species number", "area"], "correct": 1, "explanation": "Z is the slope of the line." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Levels: genetic (rice varieties, <em>Rauwolfia</em>), species, ecological (ecosystems). India ~8.1% of species in ~2.4% land. Latitudinal gradient: tropics richest (Amazon). Species–area: rectangular hyperbola; log S = log C + Z log A; Z ≈ 0.1–0.2 (small), 0.6–1.2 (large).</p>"
+        },
+        {
+          "number": 2,
+          "title": "Importance and Loss of Biodiversity",
+          "concept": "<p>Why does biodiversity matter? The reasons are grouped as <strong>narrowly utilitarian</strong> (direct economic benefits &mdash; food, medicines, fibre, fuel), <strong>broadly utilitarian</strong> (the <strong>ecosystem services</strong> like oxygen, pollination and climate regulation), and <strong>ethical</strong> (every species has intrinsic value and we have a duty to pass on a rich biological heritage). A famous illustration is the <strong>'rivet popper hypothesis' (Paul Ehrlich)</strong>: an ecosystem is like an aeroplane held together by rivets (species); losing a few rivets (especially key ones) may be tolerated, but losing too many causes the whole system to collapse. Studies (e.g. by <strong>David Tilman</strong>) also show that <strong>communities richer in species are more stable and productive</strong>.</p><p>Despite this, biodiversity is being lost rapidly &mdash; we are living through the Earth's <strong>sixth mass extinction</strong>, driven by humans. Past natural extinctions and human-caused ones include the <strong>dodo</strong> (Mauritius), the <strong>passenger pigeon</strong> and many others.</p><p>The major causes of biodiversity loss are summarised as the <strong>'Evil Quartet'</strong> &mdash; a guaranteed NEET point. The <strong>first and most important is habitat loss and fragmentation</strong>: the destruction and breaking up of habitats, especially the <strong>tropical rainforests</strong> (the Amazon, often called the 'lungs of the planet', is being cleared rapidly). The <strong>second is over-exploitation</strong> &mdash; over-harvesting of species (many marine fish, the Steller's sea cow, passenger pigeon).</p><p>The <strong>third is alien (invasive) species invasions</strong>: introduced species that have no natural enemies and out-compete or prey on natives &mdash; for example the <strong>Nile perch introduced into Lake Victoria caused the extinction of over 200 native cichlid fish</strong>; invasive plants like <strong>water hyacinth (<em>Eichhornia</em>), Lantana and <em>Parthenium</em> (carrot grass)</strong> have also caused harm. The <strong>fourth is co-extinctions</strong>: when a species goes extinct, the plant/animal species obligately associated with it (e.g. its specific parasite or pollinator) also become extinct. For NEET, fix the reasons biodiversity matters (rivet-popper hypothesis; Tilman's stability) and the four causes of loss in order (habitat loss [biggest] → over-exploitation → alien species → co-extinction) with their examples.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Cause (Evil Quartet)</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Example</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>1. Habitat loss &amp; fragmentation</td><td style='border:1px solid #dcfce7;padding:6px 8px'>most important — tropical rainforest clearing (Amazon)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>2. Over-exploitation</td><td style='border:1px solid #dcfce7;padding:6px 8px'>over-harvesting (Steller's sea cow, passenger pigeon)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>3. Alien species invasions</td><td style='border:1px solid #dcfce7;padding:6px 8px'>Nile perch (Lake Victoria), water hyacinth, Lantana</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>4. Co-extinctions</td><td style='border:1px solid #dcfce7;padding:6px 8px'>host extinct → its parasites/pollinators extinct</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Why conserve</td><td style='border:1px solid #dcfce7;padding:6px 8px'>rivet-popper (Ehrlich); stability (Tilman); ethics</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Name the four components of the 'Evil Quartet' and identify the most important.</p>",
+              "solution": "<p>(1) <strong>Habitat loss and fragmentation</strong> &mdash; the <strong>most important</strong> cause; (2) <strong>over-exploitation</strong>; (3) <strong>alien (invasive) species invasions</strong>; (4) <strong>co-extinctions</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>How did the Nile perch affect biodiversity in Lake Victoria?</p>",
+              "solution": "<p>The <strong>Nile perch</strong>, an <strong>alien (invasive) predatory fish introduced into Lake Victoria</strong>, preyed on the native fish and caused the <strong>extinction of more than 200 species of native cichlid fish</strong> — a classic example of alien-species invasion.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The most important cause of biodiversity loss is:</p>", "options": ["over-exploitation", "habitat loss and fragmentation", "co-extinction", "alien species"], "correct": 1, "explanation": "Habitat loss/fragmentation is the biggest cause." },
+            { "q": "<p>The 'rivet popper hypothesis' was given by:</p>", "options": ["Tilman", "Paul Ehrlich", "Edward Wilson", "Humboldt"], "correct": 1, "explanation": "Paul Ehrlich proposed the rivet popper analogy." },
+            { "q": "<p>The Nile perch in Lake Victoria is an example of:</p>", "options": ["co-extinction", "habitat loss", "alien species invasion", "over-exploitation"], "correct": 2, "explanation": "It is an invasive alien species." },
+            { "q": "<p>Water hyacinth (Eichhornia) is a/an:</p>", "options": ["native plant", "invasive alien plant", "endangered species", "biofertiliser"], "correct": 1, "explanation": "It is an invasive alien plant." },
+            { "q": "<p>When a host species becomes extinct and its parasite also dies out, it is:</p>", "options": ["over-exploitation", "co-extinction", "habitat loss", "alien invasion"], "correct": 1, "explanation": "This is co-extinction." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Conserve for narrowly/broadly utilitarian + ethical reasons (rivet-popper, Ehrlich; stability, Tilman). Evil Quartet: 1) habitat loss &amp; fragmentation (biggest; rainforests), 2) over-exploitation, 3) alien invasions (Nile perch, water hyacinth, Lantana, Parthenium), 4) co-extinctions.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Conservation of Biodiversity",
+      "topics": [
+        {
+          "number": 3,
+          "title": "In-situ Conservation",
+          "concept": "<p>Conservation strategies are of two broad kinds, defined by <strong>where</strong> the protection happens. <strong>In-situ ('on-site') conservation</strong> protects species <strong>in their natural habitats</strong>, conserving the whole ecosystem so that all its species are protected together &mdash; this is the preferred approach for large numbers of species.</p><p>A key tool of in-situ conservation is the idea of <strong>biodiversity hotspots</strong> &mdash; regions with a <strong>very high level of species richness and a high degree of endemism (species found nowhere else), that are also under serious threat</strong>. Although the world's hotspots cover <strong>less than 2% of the Earth's land</strong>, they hold a huge fraction of its species, so protecting them is highly efficient. Originally <strong>25</strong> hotspots were identified (now <strong>34&ndash;36</strong>); <strong>India has three: the Western Ghats and Sri Lanka, the Himalaya, and Indo-Burma</strong>.</p><p>India also conserves biodiversity through a network of <strong>protected areas</strong>: <strong>biosphere reserves</strong> (large, multi-use protected regions &mdash; India has 18), <strong>national parks</strong> (strictly protected, no human activity &mdash; over 100) and <strong>wildlife sanctuaries</strong> (protected but allowing some regulated activity &mdash; over 500). These protect species in place.</p><p>A beautiful traditional form of in-situ conservation is the <strong>sacred grove</strong> &mdash; forest patches protected by local communities on religious grounds, where felling is forbidden. Famous examples are in the <strong>Khasi and Jaintia Hills of Meghalaya</strong>, the Western Ghats of Karnataka and Maharashtra, the Aravalli Hills of Rajasthan, and the Sarguja and Bastar areas. Sacred groves harbour many rare and endemic species. For NEET, fix the meaning of in-situ conservation, biodiversity hotspots (high endemism + threat; &lt;2% land; India's three: Western Ghats &amp; Sri Lanka, Himalaya, Indo-Burma), the protected-area types, and sacred groves (Meghalaya).</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>In-situ method</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Biodiversity hotspots</td><td style='border:1px solid #dcfce7;padding:6px 8px'>high endemism + threat; &lt;2% land</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>India's hotspots</td><td style='border:1px solid #dcfce7;padding:6px 8px'>Western Ghats &amp; Sri Lanka, Himalaya, Indo-Burma</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Biosphere reserves</td><td style='border:1px solid #dcfce7;padding:6px 8px'>large multi-use protected regions (India: 18)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>National parks / sanctuaries</td><td style='border:1px solid #dcfce7;padding:6px 8px'>strictly protected / some regulated activity</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Sacred groves</td><td style='border:1px solid #dcfce7;padding:6px 8px'>community-protected forests (Meghalaya, W. Ghats)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>What makes a region a 'biodiversity hotspot', and name the three found in India.</p>",
+              "solution": "<p>A biodiversity hotspot has <strong>very high species richness, high endemism (species found nowhere else), and is under serious threat</strong>. India's three hotspots are the <strong>Western Ghats and Sri Lanka, the Himalaya, and Indo-Burma</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What are sacred groves and where are famous ones found?</p>",
+              "solution": "<p><strong>Sacred groves</strong> are <strong>forest patches protected by local communities on religious grounds</strong> (felling is forbidden), conserving many rare/endemic species. Famous ones are in the <strong>Khasi and Jaintia Hills of Meghalaya</strong>, the Western Ghats, and the Aravalli Hills of Rajasthan.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Protecting species in their natural habitat is:</p>", "options": ["ex-situ conservation", "in-situ conservation", "cryopreservation", "tissue culture"], "correct": 1, "explanation": "In-situ = on-site, in the natural habitat." },
+            { "q": "<p>A biodiversity hotspot must have high species richness and high:</p>", "options": ["rainfall", "endemism", "altitude", "temperature"], "correct": 1, "explanation": "Hotspots have high endemism and are under threat." },
+            { "q": "<p>Which is a biodiversity hotspot in India?</p>", "options": ["Thar Desert", "Western Ghats", "Gangetic plain", "Deccan plateau"], "correct": 1, "explanation": "The Western Ghats (with Sri Lanka) is a hotspot." },
+            { "q": "<p>Sacred groves are best known from:</p>", "options": ["Meghalaya (Khasi/Jaintia Hills)", "Kashmir", "Gujarat coast", "Sundarbans"], "correct": 0, "explanation": "Khasi and Jaintia Hills of Meghalaya are famous for sacred groves." },
+            { "q": "<p>The strictest protected area with no human activity is a:</p>", "options": ["sanctuary", "national park", "biosphere reserve buffer", "sacred grove"], "correct": 1, "explanation": "National parks are strictly protected." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> In-situ = protect in natural habitat. Hotspots = high endemism + threat (&lt;2% land); India: Western Ghats &amp; Sri Lanka, Himalaya, Indo-Burma. Protected areas: biosphere reserves (18), national parks (>100), sanctuaries (>500). Sacred groves = community-protected (Meghalaya Khasi/Jaintia Hills).</p>"
+        },
+        {
+          "number": 4,
+          "title": "Ex-situ Conservation and Global Efforts",
+          "concept": "<p><strong>Ex-situ ('off-site') conservation</strong> protects threatened species <strong>outside their natural habitats</strong>, in specially managed conditions. It is used especially for species that are <strong>critically endangered</strong> or whose natural habitat is too degraded to protect them in place; it acts as a <strong>backup</strong> to in-situ conservation, and individuals can sometimes later be <strong>reintroduced</strong> into the wild.</p><p>The traditional ex-situ facilities are <strong>zoological parks (zoos), botanical gardens and wildlife safari parks</strong>, which keep and breed animals and plants under human care. Modern techniques have made ex-situ conservation far more powerful. <strong>Gametes (eggs and sperm)</strong> of threatened species can be preserved for long periods by <strong>cryopreservation</strong> &mdash; storage at very low temperature (in <strong>liquid nitrogen at &minus;196&nbsp;°C</strong>). <strong>Eggs can be fertilised in vitro</strong>, and plants can be propagated using <strong>tissue culture</strong>.</p><p>Importantly, <strong>seeds of many plants and viable cells can be kept for years in seed banks and gene banks</strong>, conserving genetic diversity in a very small space. These methods let us preserve the genetic material of countless species cheaply and safely.</p><p>Finally, biodiversity conservation is a <strong>global responsibility</strong>, addressed by international agreements. At the <strong>Earth Summit held in Rio de Janeiro in 1992</strong>, nations signed the <strong>Convention on Biological Diversity (CBD)</strong>, pledging to conserve biodiversity and share its benefits fairly. Ten years later, the <strong>World Summit on Sustainable Development in Johannesburg (2002)</strong> set further commitments to reduce the rate of biodiversity loss. Conservation thus combines in-situ protection of habitats, ex-situ safeguarding of species, and global cooperation. For NEET, fix the meaning of ex-situ conservation, its methods (zoos/botanical gardens, seed/gene banks, cryopreservation at &minus;196&nbsp;°C, in-vitro fertilisation, tissue culture) and the two global milestones (Rio 1992 &rarr; CBD; Johannesburg 2002).</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Ex-situ method / event</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Zoos / botanical gardens</td><td style='border:1px solid #dcfce7;padding:6px 8px'>keep &amp; breed species under care</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Seed banks / gene banks</td><td style='border:1px solid #dcfce7;padding:6px 8px'>store seeds/cells; preserve genetic diversity</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Cryopreservation</td><td style='border:1px solid #dcfce7;padding:6px 8px'>gametes stored in liquid N₂ (−196 °C)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>In-vitro / tissue culture</td><td style='border:1px solid #dcfce7;padding:6px 8px'>in-vitro fertilisation; plant propagation</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Global efforts</td><td style='border:1px solid #dcfce7;padding:6px 8px'>Rio 1992 → CBD; Johannesburg 2002</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Name two modern ex-situ conservation techniques and the temperature used in cryopreservation.</p>",
+              "solution": "<p>Modern ex-situ techniques include <strong>cryopreservation of gametes</strong>, <strong>in-vitro fertilisation</strong>, <strong>tissue culture</strong> and <strong>seed/gene banks</strong>. Cryopreservation stores gametes in <strong>liquid nitrogen at &minus;196&nbsp;°C</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Which convention came out of the 1992 Rio Earth Summit?</p>",
+              "solution": "<p>The <strong>Convention on Biological Diversity (CBD)</strong> was signed at the <strong>Earth Summit in Rio de Janeiro in 1992</strong>, committing nations to conserve biodiversity and share its benefits fairly.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Conserving species outside their natural habitat is:</p>", "options": ["in-situ conservation", "ex-situ conservation", "a sacred grove", "a hotspot"], "correct": 1, "explanation": "Ex-situ = off-site conservation." },
+            { "q": "<p>Cryopreservation stores gametes at about:</p>", "options": ["0 °C", "−20 °C", "−196 °C", "100 °C"], "correct": 2, "explanation": "Liquid nitrogen is at −196 °C." },
+            { "q": "<p>Which is an ex-situ conservation method?</p>", "options": ["national park", "wildlife sanctuary", "seed bank", "biosphere reserve"], "correct": 2, "explanation": "Seed/gene banks are ex-situ; the others are in-situ." },
+            { "q": "<p>The Convention on Biological Diversity was signed at the:</p>", "options": ["Rio Earth Summit 1992", "Kyoto 1997", "Stockholm 1972", "Paris 2015"], "correct": 0, "explanation": "The CBD came from the Rio Earth Summit, 1992." },
+            { "q": "<p>The World Summit on Sustainable Development (2002) was held at:</p>", "options": ["Rio", "Johannesburg", "Nagoya", "Geneva"], "correct": 1, "explanation": "It was held in Johannesburg in 2002." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Ex-situ = protect off-site (zoos, botanical gardens, safari parks; seed/gene banks; cryopreservation at −196 °C in liquid N₂; in-vitro fertilisation; tissue culture) — backup for critically endangered species. Global: Rio Earth Summit 1992 → CBD; Johannesburg 2002.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-biology-ch32-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>Different varieties of rice represent:</p>", "options": ["species diversity", "genetic diversity", "ecological diversity", "ecosystem diversity"], "correct": 1, "explanation": "Variation within a species = genetic diversity." },
+            { "q": "<p>Species diversity generally increases:</p>", "options": ["toward the poles", "toward the equator", "with altitude", "with latitude"], "correct": 1, "explanation": "Latitudinal gradient — richest near the equator." },
+            { "q": "<p>In log S = log C + Z log A, A is the:</p>", "options": ["species number", "area", "slope", "intercept"], "correct": 1, "explanation": "A is the area; S the species richness." },
+            { "q": "<p>The single largest cause of biodiversity loss is:</p>", "options": ["co-extinction", "habitat loss", "over-exploitation", "alien species"], "correct": 1, "explanation": "Habitat loss/fragmentation is the biggest cause." },
+            { "q": "<p>The Nile perch causing cichlid extinction is an example of:</p>", "options": ["habitat loss", "alien species invasion", "co-extinction", "over-exploitation"], "correct": 1, "explanation": "It is an invasive alien species." },
+            { "q": "<p>Which is an in-situ conservation method?</p>", "options": ["seed bank", "zoo", "national park", "cryopreservation"], "correct": 2, "explanation": "National parks conserve species in their habitat (in-situ)." },
+            { "q": "<p>A biodiversity hotspot in India is the:</p>", "options": ["Thar Desert", "Western Ghats", "Indo-Gangetic plain", "Deccan plateau"], "correct": 1, "explanation": "Western Ghats & Sri Lanka is a hotspot." },
+            { "q": "<p>The Convention on Biological Diversity was signed at:</p>", "options": ["Rio (1992)", "Johannesburg (2002)", "Kyoto (1997)", "Stockholm (1972)"], "correct": 0, "explanation": "CBD came from the 1992 Rio Earth Summit." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> The tropics have greater biodiversity than temperate regions.<br><strong>R:</strong> Tropical regions have had a long, relatively undisturbed and productive environment with constant solar energy.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The long stable productive tropical environment is exactly why diversity is higher — R explains A." },
+            { "q": "<p><strong>A:</strong> Protecting biodiversity hotspots is an efficient conservation strategy.<br><strong>R:</strong> Hotspots cover a very small area of land yet contain a very high proportion of species and endemics.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Small area but very many species is precisely why protecting them is efficient — R explains A." },
+            { "q": "<p><strong>A:</strong> A seed bank is an example of in-situ conservation.<br><strong>R:</strong> In-situ conservation protects species within their natural habitat.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "A is false — a seed bank is EX-situ; R is true (in-situ does protect species in their natural habitat)." },
+            { "q": "<p><strong>A:</strong> Cryopreservation can store gametes of threatened species for long periods.<br><strong>R:</strong> Storage at −196 °C in liquid nitrogen halts the biological processes that would otherwise degrade them.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Halting biological activity at −196 °C is why long-term storage works — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

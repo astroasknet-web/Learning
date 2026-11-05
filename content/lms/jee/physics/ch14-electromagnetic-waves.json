@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "physics",
+  "chapter": 14,
+  "title": "Electromagnetic Waves",
+  "slug": "electromagnetic-waves",
+  "subtitle": "Electromagnetic Waves for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#06b6d4",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "Master Electromagnetic Waves for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Maxwell's Equations and EM Wave Theory",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Displacement Current and Maxwell's Equations",
+          "concept": "<p><strong>Maxwell's Modification:</strong> Ampere's law $\\oint \\vec{B}\\cdot d\\vec{l} = \\mu_0 I$ is inconsistent during capacitor charging — no conduction current flows in the gap. Maxwell introduced <strong>displacement current</strong> to fix this.</p><p><strong>Displacement Current:</strong> Current associated with changing electric flux: $$I_d = \\epsilon_0\\frac{d\\Phi_E}{dt}$$ For parallel plate capacitor: $\\Phi_E = EA = (Q/\\epsilon_0 A)A = Q/\\epsilon_0$, so $I_d = dQ/dt$ = conduction current entering capacitor.</p><p><strong>Modified Ampere-Maxwell Law:</strong> $$\\oint \\vec{B}\\cdot d\\vec{l} = \\mu_0(I_c + I_d) = \\mu_0\\left(I_c + \\epsilon_0\\frac{d\\Phi_E}{dt}\\right)$$</p><p><strong>Maxwell's Four Equations (in integral form):</strong></p><table class=\"md-table\"><thead><tr><th>Equation</th><th>Statement</th></tr></thead><tbody><tr><td><strong>Gauss's law (electric)</strong></td><td>$\\oint \\vec{E}\\cdot d\\vec{A} = Q_{\\text{enc}}/\\epsilon_0$</td></tr><tr><td><strong>Gauss's law (magnetic)</strong></td><td>$\\oint \\vec{B}\\cdot d\\vec{A} = 0$ (no magnetic monopoles)</td></tr><tr><td><strong>Faraday's law</strong></td><td>$\\oint \\vec{E}\\cdot d\\vec{l} = -d\\Phi_B/dt$</td></tr><tr><td><strong>Ampere-Maxwell</strong></td><td>$\\oint \\vec{B}\\cdot d\\vec{l} = \\mu_0 I_c + \\mu_0\\epsilon_0\\,d\\Phi_E/dt$</td></tr></tbody></table><p>These predict the existence of EM waves (Maxwell 1864; verified by Hertz 1887).</p><p><strong>Speed of EM Waves in Vacuum:</strong> $$c = \\frac{1}{\\sqrt{\\mu_0\\epsilon_0}} = 3 \\times 10^8 \\text{ m/s}$$</p><p>In medium with permittivity $\\epsilon = \\epsilon_0\\epsilon_r$ and permeability $\\mu = \\mu_0\\mu_r$: $v = c/\\sqrt{\\epsilon_r\\mu_r} = c/n$ where $n$ = refractive index.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A parallel plate capacitor is being charged at rate $0.5$ A. Find displacement current between plates.</p>",
+              "solution": "<p>By continuity of current, displacement current equals conduction current: $$I_d = \\frac{dQ}{dt} = 0.5 \\text{ A}$$</p><p><strong>Final Answer:</strong> $I_d = 0.5$ A.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find speed of EM waves in a medium with $\\epsilon_r = 4$, $\\mu_r = 1$.</p>",
+              "solution": "<p>$$v = \\frac{c}{\\sqrt{\\epsilon_r\\mu_r}} = \\frac{3 \\times 10^8}{\\sqrt{4}} = 1.5 \\times 10^8 \\text{ m/s}$$</p><p><strong>Final Answer:</strong> $v = 1.5 \\times 10^8$ m/s.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Displacement current arises due to:</p>",
+              "options": [
+                "Changing magnetic flux",
+                "Changing electric flux",
+                "Conduction",
+                "Static charges"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Maxwell's equations predict the existence of:</p>",
+              "options": [
+                "Sound waves",
+                "Matter waves",
+                "EM waves",
+                "Gravity waves"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The speed of EM waves in vacuum equals:</p>",
+              "options": [
+                "$1/\\sqrt{\\mu_0\\epsilon_0}$",
+                "$\\sqrt{\\mu_0\\epsilon_0}$",
+                "$\\mu_0\\epsilon_0$",
+                "$1/(\\mu_0\\epsilon_0)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The Gauss law for magnetism implies:</p>",
+              "options": [
+                "Magnetic field is conservative",
+                "No isolated magnetic monopoles",
+                "$B$ is always zero",
+                "Magnetic flux is constant"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Speed of EM waves in a medium with $n = 1.5$:</p>",
+              "options": [
+                "$2 \\times 10^8$ m/s",
+                "$4.5 \\times 10^8$ m/s",
+                "$3 \\times 10^8$ m/s",
+                "$1.5 \\times 10^8$ m/s"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Properties and Propagation of EM Waves",
+          "concept": "<p><strong>Electromagnetic Wave:</strong> Transverse wave consisting of mutually perpendicular oscillating $\\vec{E}$ and $\\vec{B}$ fields, both perpendicular to direction of propagation. Carries energy and momentum.</p><p><strong>Wave equations (in vacuum):</strong> $$\\nabla^2 E = \\mu_0\\epsilon_0\\frac{\\partial^2 E}{\\partial t^2}, \\quad \\nabla^2 B = \\mu_0\\epsilon_0\\frac{\\partial^2 B}{\\partial t^2}$$</p><p><strong>Plane Wave Solution</strong> (propagating along $+x$): $$E_y = E_0\\sin(\\omega t - kx), \\quad B_z = B_0\\sin(\\omega t - kx)$$ $\\vec{E}, \\vec{B}, \\vec{c}$ form right-handed triad: $\\hat{c} = \\hat{E}\\times\\hat{B}$.</p><p><strong>Key Relations:</strong></p><table class=\"md-table\"><thead><tr><th>Quantity</th><th>Formula</th></tr></thead><tbody><tr><td>Wave speed</td><td>$c = \\omega/k = E_0/B_0$</td></tr><tr><td>$\\vec{E}, \\vec{B}$ ratio</td><td>$E_0/B_0 = c$ in vacuum</td></tr><tr><td>Wavelength</td><td>$\\lambda = c/f = 2\\pi/k$</td></tr></tbody></table><p><strong>Properties of EM Waves:</strong></p><ol><li><strong>Transverse</strong> (not longitudinal)</li><li>Travel through vacuum (don't need medium)</li><li>Speed in vacuum = $c$ (universal constant)</li><li>Energy is shared equally between $\\vec{E}$ and $\\vec{B}$</li><li>Carry momentum: $p = U/c$</li><li>Exert radiation pressure on absorbing/reflecting surface</li><li>Can be polarized (since transverse)</li><li>Obey reflection, refraction, interference, diffraction</li></ol><p><strong>Energy Density:</strong> $u = \\dfrac{1}{2}\\epsilon_0 E^2 + \\dfrac{B^2}{2\\mu_0} = \\epsilon_0 E^2$ (since electric and magnetic components contribute equally).</p><p><strong>Average energy density:</strong> $\\langle u\\rangle = \\dfrac{1}{2}\\epsilon_0 E_0^2$.</p><p><strong>Poynting Vector:</strong> $\\vec{S} = \\dfrac{1}{\\mu_0}(\\vec{E}\\times\\vec{B})$ gives instantaneous energy flux (W/m²). Average: $\\langle S\\rangle = \\dfrac{E_0^2}{2\\mu_0 c} = \\dfrac{1}{2}c\\epsilon_0 E_0^2$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>The electric field amplitude in an EM wave is $300$ V/m. Find magnetic field amplitude.</p>",
+              "solution": "<p>$$B_0 = E_0/c = 300/(3 \\times 10^8) = 10^{-6} \\text{ T} = 1\\,\\mu\\text{T}$$</p><p><strong>Final Answer:</strong> $B_0 = 1\\,\\mu$T.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>An EM wave has $E_0 = 60$ V/m. Find average energy density.</p>",
+              "solution": "<p>$$\\langle u\\rangle = \\frac{1}{2}\\epsilon_0 E_0^2 = \\frac{1}{2}(8.85 \\times 10^{-12})(60)^2$$ $$= \\frac{1}{2}(8.85 \\times 10^{-12})(3600) = 1.59 \\times 10^{-8} \\text{ J/m}^3$$</p><p><strong>Final Answer:</strong> $\\langle u\\rangle \\approx 1.59 \\times 10^{-8}$ J/m³.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>EM waves are:</p>",
+              "options": [
+                "Longitudinal",
+                "Transverse",
+                "Either",
+                "Stationary"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In an EM wave, $\\vec{E}, \\vec{B}, \\vec{c}$:</p>",
+              "options": [
+                "All parallel",
+                "$\\vec{E}\\perp\\vec{B}\\perp\\vec{c}$",
+                "$\\vec{E}\\parallel\\vec{c}$",
+                "$\\vec{B}\\parallel\\vec{c}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Ratio $E_0/B_0$ in EM wave in vacuum:</p>",
+              "options": [
+                "$c$",
+                "$c^2$",
+                "$1/c$",
+                "$\\mu_0\\epsilon_0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Poynting vector represents:</p>",
+              "options": [
+                "Energy density",
+                "Energy flux per unit area",
+                "Momentum",
+                "Wavelength"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>EM waves transport:</p>",
+              "options": [
+                "Only energy",
+                "Energy and momentum",
+                "Only momentum",
+                "Mass"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Electromagnetic Spectrum and Applications",
+      "topics": [
+        {
+          "number": 1,
+          "title": "EM Spectrum — Production, Detection, Use",
+          "concept": "<p><strong>EM Spectrum</strong> spans frequencies from $\\sim 10^0$ Hz to $> 10^{22}$ Hz. All regions travel at $c$ in vacuum.</p><p><strong>Major Regions</strong> (in order of increasing frequency / decreasing wavelength):</p><table class=\"md-table\"><thead><tr><th>Region</th><th>Wavelength</th><th>Production</th><th>Detection</th><th>Applications</th></tr></thead><tbody><tr><td><strong>Radio waves</strong></td><td>$> 0.1$ m</td><td>LC oscillators</td><td>Antennas</td><td>AM/FM radio, TV</td></tr><tr><td><strong>Microwaves</strong></td><td>$10^{-3}$–$0.1$ m</td><td>Klystron, magnetron</td><td>Crystal/point detectors</td><td>Radar, microwave oven</td></tr><tr><td><strong>Infrared (IR)</strong></td><td>$700$ nm – $10^{-3}$ m</td><td>Hot bodies, molecules</td><td>Thermopile, photodetector</td><td>Heating, remote control, night vision</td></tr><tr><td><strong>Visible</strong></td><td>$400$–$700$ nm</td><td>Atoms (electron transitions)</td><td>Eye, photographic plate</td><td>Vision, photography</td></tr><tr><td><strong>Ultraviolet (UV)</strong></td><td>$1$–$400$ nm</td><td>Gas discharges, Sun</td><td>Fluorescent screen</td><td>Sterilisation, vitamin D</td></tr><tr><td><strong>X-rays</strong></td><td>$0.01$–$1$ nm</td><td>Inner-shell electron transitions</td><td>Photographic film</td><td>Medical imaging, crystallography</td></tr><tr><td><strong>Gamma ($\\gamma$)</strong></td><td>$< 0.01$ nm</td><td>Nuclear decay</td><td>Geiger counter, scintillator</td><td>Cancer therapy, sterilisation</td></tr></tbody></table><p><strong>Visible Light Spectrum (VIBGYOR):</strong></p><ul><li>Violet: $380-450$ nm</li><li>Indigo: $450-485$ nm</li><li>Blue: $485-500$ nm</li><li>Green: $500-565$ nm</li><li>Yellow: $565-590$ nm</li><li>Orange: $590-625$ nm</li><li>Red: $625-700$ nm</li></ul><p><strong>Mnemonic:</strong> \"VIBGYOR\" (Violet → Red).</p><p><strong>Notable points:</strong></p><ul><li>Ozone layer absorbs harmful UV-B and UV-C</li><li>Microwave background radiation ($2.7$ K) — relic of Big Bang</li><li>IR radiation responsible for greenhouse effect</li><li>X-rays were discovered by Roentgen in 1895</li><li>Gamma rays have highest penetration</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A FM radio station broadcasts at $100$ MHz. Find wavelength.</p>",
+              "solution": "<p>$$\\lambda = c/f = \\frac{3 \\times 10^8}{100 \\times 10^6} = 3 \\text{ m}$$</p><p><strong>Final Answer:</strong> $\\lambda = 3$ m.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find frequency of red light of wavelength $700$ nm.</p>",
+              "solution": "<p>$$f = c/\\lambda = \\frac{3 \\times 10^8}{700 \\times 10^{-9}} = 4.286 \\times 10^{14} \\text{ Hz}$$</p><p><strong>Final Answer:</strong> $f \\approx 4.29 \\times 10^{14}$ Hz.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Wavelength of visible light lies approximately between:</p>",
+              "options": [
+                "$40-700$ Å",
+                "$400-700$ nm",
+                "$4-700$ μm",
+                "$400-700$ Å"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>X-rays are produced by:</p>",
+              "options": [
+                "Heating coil",
+                "Inner-shell electron transitions",
+                "Atomic nucleus",
+                "Outer-shell electron transitions"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Microwave ovens use frequency around:</p>",
+              "options": [
+                "$50$ Hz",
+                "$2.45$ GHz",
+                "$100$ kHz",
+                "$10^{14}$ Hz"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Which has the highest frequency?</p>",
+              "options": [
+                "Microwave",
+                "X-ray",
+                "Gamma ray",
+                "UV"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Infrared radiation has wavelength:</p>",
+              "options": [
+                "Less than red",
+                "Greater than red",
+                "Same as red",
+                "Same as UV"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Energy, Momentum, Intensity and Radiation Pressure",
+          "concept": "<p><strong>Intensity</strong> $I$ = power per unit area carried by EM wave (W/m²): $$I = \\langle S\\rangle = \\frac{1}{2}\\epsilon_0 c E_0^2 = \\frac{E_0^2}{2\\mu_0 c} = \\frac{cB_0^2}{2\\mu_0}$$</p><p><strong>Relation between $E_0, B_0$, and intensity:</strong> $$I = \\frac{E_{\\text{rms}}^2}{\\mu_0 c} = c\\epsilon_0 E_{\\text{rms}}^2$$</p><p><strong>Momentum carried by EM wave:</strong> $$p = U/c$$ where $U$ is the energy of the wave.</p><p><strong>Radiation Pressure:</strong></p><table class=\"md-table\"><thead><tr><th>Case</th><th>Pressure on surface</th></tr></thead><tbody><tr><td>Perfectly absorbing surface</td><td>$P_r = I/c$</td></tr><tr><td>Perfectly reflecting surface</td><td>$P_r = 2I/c$</td></tr><tr><td>Surface with reflectivity $R$</td><td>$P_r = (1+R)I/c$</td></tr></tbody></table><p><strong>Solar Constant</strong> (intensity of sunlight at Earth): $\\sim 1370$ W/m².</p><p>For point source of power $P$, intensity at distance $r$: $I = P/(4\\pi r^2)$ (inverse square law).</p><p><strong>Power radiated by accelerating charge:</strong> $P = q^2a^2/(6\\pi\\epsilon_0 c^3)$ (Larmor formula).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A laser beam delivers $500$ W on $1$ mm² area. Find intensity, $E_0$, and radiation pressure on perfectly absorbing surface.</p>",
+              "solution": "<p>$$I = P/A = 500/10^{-6} = 5 \\times 10^8 \\text{ W/m}^2$$ $E_0 = \\sqrt{2I/(\\epsilon_0 c)} = \\sqrt{(2 \\times 5 \\times 10^8)/(8.85 \\times 10^{-12} \\times 3 \\times 10^8)}$ $= \\sqrt{10^9/(2.655 \\times 10^{-3})} = \\sqrt{3.77 \\times 10^{11}} \\approx 6.14 \\times 10^5$ V/m. $P_r = I/c = 5 \\times 10^8/(3 \\times 10^8) \\approx 1.67$ Pa.</p><p><strong>Final Answer:</strong> $I = 5 \\times 10^8$ W/m²; $E_0 \\approx 6.14 \\times 10^5$ V/m; $P_r \\approx 1.67$ Pa.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Solar constant = $1370$ W/m². Find force exerted on a perfectly reflecting solar sail of $100$ m².</p>",
+              "solution": "<p>$$F = (2I/c) \\cdot A = \\frac{2 \\times 1370 \\times 100}{3 \\times 10^8}$$ $$= \\frac{274000}{3 \\times 10^8} \\approx 9.13 \\times 10^{-4} \\text{ N}$$</p><p><strong>Final Answer:</strong> $F \\approx 9.13 \\times 10^{-4}$ N $\\approx 0.91$ mN.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The momentum of EM wave of energy $U$ in vacuum:</p>",
+              "options": [
+                "$U \\cdot c$",
+                "$U/c$",
+                "$U/c^2$",
+                "$Uc^2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Radiation pressure on perfectly absorbing surface (intensity $I$):</p>",
+              "options": [
+                "$I/c$",
+                "$2I/c$",
+                "$cI$",
+                "$I$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Intensity of EM wave is proportional to:</p>",
+              "options": [
+                "$E_0$",
+                "$E_0^2$",
+                "$\\sqrt{E_0}$",
+                "$1/E_0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>EM wave from a point source intensity at distance $r$:</p>",
+              "options": [
+                "$\\propto r$",
+                "$\\propto 1/r$",
+                "$\\propto 1/r^2$",
+                "$\\propto 1/r^3$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The solar constant at Earth's surface is approximately:</p>",
+              "options": [
+                "$137$ W/m²",
+                "$1370$ W/m²",
+                "$13.7$ W/m²",
+                "$13700$ W/m²"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-phys-electromagnetic-waves-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>Displacement current was introduced by:</p>",
+              "options": [
+                "Faraday",
+                "Maxwell",
+                "Ampere",
+                "Hertz"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>EM waves were experimentally produced by:</p>",
+              "options": [
+                "Maxwell",
+                "Hertz",
+                "Marconi",
+                "Bose"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The relation between speeds of $\\vec{E}$ and $\\vec{B}$ in EM wave:</p>",
+              "options": [
+                "$v_E = v_B$",
+                "$v_E = c, v_B = c/2$",
+                "$v_E > v_B$",
+                "$v_E < v_B$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Sky waves consist of:</p>",
+              "options": [
+                "X-rays",
+                "Microwaves",
+                "Visible",
+                "Radio waves reflected by ionosphere"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Region of EM spectrum used for satellite communication:</p>",
+              "options": [
+                "IR",
+                "UV",
+                "Microwave",
+                "Radio"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The intensity of EM wave in vacuum is given by:</p>",
+              "options": [
+                "$E_0^2/c$",
+                "$\\epsilon_0 cE_0^2/2$",
+                "$\\mu_0 cE_0^2/2$",
+                "$cE_0/\\mu_0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Production of X-rays involves:</p>",
+              "options": [
+                "Heating coils",
+                "Accelerated electrons hitting metal target",
+                "Nuclear fission",
+                "Atomic transitions in outer shells"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The frequency of microwaves is approximately:</p>",
+              "options": [
+                "$10^4$ Hz",
+                "$10^9$ Hz",
+                "$10^{14}$ Hz",
+                "$10^{18}$ Hz"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>UV radiation has wavelength approximately:</p>",
+              "options": [
+                "$10$ nm – $400$ nm",
+                "$400$ nm – $700$ nm",
+                "$700$ nm – $1$ mm",
+                "$> 1$ mm"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The momentum of EM wave with energy $10^{-4}$ J:</p>",
+              "options": [
+                "$3.33 \\times 10^{-13}$ kg·m/s",
+                "$3 \\times 10^4$ kg·m/s",
+                "$10^{-4}/3 \\times 10^8$ kg·m/s (same as a)",
+                "Cannot be determined"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>EM wave with $E_0 = 24$ V/m has $B_0 = \\_ \\times 10^{-8}$ T (integer):</p>",
+              "answer": "8",
+              "explanation": ""
+            },
+            {
+              "q": "<p>The wavelength of $1$ GHz EM wave in vacuum (in cm, integer):</p>",
+              "answer": "30",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Radiation pressure on a perfectly reflecting surface due to EM wave of intensity $6 \\times 10^8$ W/m² (in Pa, integer):</p>",
+              "answer": "4",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Microwaves are preferred for radar. <strong>Reason (R):</strong> They travel in straight lines and can be focused into narrow beams.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> EM waves can travel through vacuum. <strong>Reason (R):</strong> EM waves consist of oscillating electric and magnetic fields, which do not require a medium.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

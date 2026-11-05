@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": 15,
+  "title": "Solutions",
+  "slug": "solutions",
+  "subtitle": "Solutions for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#a855f7",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "Master Solutions for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Concentration and Raoult's Law",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Types of Solutions, Concentration Terms, Solubility",
+          "concept": "<p><strong>Solution:</strong> Homogeneous mixture of two or more components. Two parts:</p><ul><li><strong>Solute:</strong> Smaller quantity, dissolved</li><li><strong>Solvent:</strong> Larger quantity, dissolves the solute</li></ul><p><strong>Types of Solutions</strong> (based on state):</p><table class=\"md-table\"><thead><tr><th>Solvent</th><th>Solute</th><th>Example</th></tr></thead><tbody><tr><td>Gas</td><td>Gas</td><td>Air</td></tr><tr><td>Gas</td><td>Liquid</td><td>Water vapor in air</td></tr><tr><td>Gas</td><td>Solid</td><td>Iodine vapor in air</td></tr><tr><td>Liquid</td><td>Gas</td><td>Soda water (CO₂ in water)</td></tr><tr><td>Liquid</td><td>Liquid</td><td>Alcohol in water</td></tr><tr><td>Liquid</td><td>Solid</td><td>Salt water</td></tr><tr><td>Solid</td><td>Gas</td><td>H₂ in Pd</td></tr><tr><td>Solid</td><td>Liquid</td><td>Hg in Na (amalgam)</td></tr><tr><td>Solid</td><td>Solid</td><td>Alloys (Cu-Zn = brass)</td></tr></tbody></table><p><strong>Concentration Terms (recap from Class 11 with additions):</strong></p><table class=\"md-table\"><thead><tr><th>Term</th><th>Symbol</th><th>Definition</th><th>Formula</th></tr></thead><tbody><tr><td><strong>Mass percent</strong></td><td>$\\%w/w$</td><td>g solute per 100 g solution</td><td>$(w_{solute}/w_{total}) \\times 100$</td></tr><tr><td><strong>Volume percent</strong></td><td>$\\%v/v$</td><td>mL solute per 100 mL solution</td><td>$(V_{solute}/V_{total}) \\times 100$</td></tr><tr><td><strong>ppm</strong></td><td>–</td><td>mass solute per 10⁶ mass total</td><td>$(w/W) \\times 10^6$</td></tr><tr><td><strong>Mole fraction</strong></td><td>$x$</td><td>moles A / total moles</td><td>$x_A = n_A/(n_A + n_B)$</td></tr><tr><td><strong>Molarity</strong></td><td>$M$</td><td>moles solute / L solution</td><td>$n/V_L$</td></tr><tr><td><strong>Molality</strong></td><td>$m$</td><td>moles solute / kg solvent</td><td>$n/w_{solvent (kg)}$</td></tr><tr><td><strong>Normality</strong></td><td>$N$</td><td>equivalents / L</td><td>$w/(E \\cdot V_L)$</td></tr></tbody></table><p><strong>Important:</strong> Molarity changes with $T$ (volume changes); molality does NOT (mass-based).</p><p><strong>Inter-conversions:</strong></p><ul><li>$M = (m \\times \\rho \\times 1000)/(1000 + m \\cdot M_{solute})$</li><li>$m = (M \\times 1000)/(\\rho \\times 1000 - M \\cdot M_{solute})$ (approximation if dilute)</li></ul><p><strong>Solubility:</strong> Maximum amount of solute that can dissolve in given amount of solvent at given $T$.</p><p><strong>Henry's Law (Gas in liquid):</strong> Solubility (mole fraction) of a gas in a solvent is proportional to its partial pressure above solution: $$p = K_H \\cdot x$$ where $p$ = partial pressure of gas, $K_H$ = Henry's constant.</p><p>Higher $K_H$ → lower solubility.</p><ul><li>$K_H$ increases with $T$ (gas less soluble at higher $T$)</li><li>Used to explain: rising bubbles in soft drinks, decompression sickness in divers (bends)</li></ul><p><strong>Effect of Temperature on Solubility:</strong></p><ul><li>Solids: usually $\\uparrow$ with T (KCl, NaCl, etc.); some decrease ($Ce_2(SO_4)_3$)</li><li>Gases: $\\downarrow$ with T (always)</li><li>$\\Delta_{sol}H$ governs: endothermic dissolution favored at higher T (Le Chatelier)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>$36$ g glucose ($C_6H_{12}O_6$, $M = 180$) in $500$ g water. Find molality and mole fraction.</p>",
+              "solution": "<p>$n_{glucose} = 36/180 = 0.2$ mol. $w_{water} = 500$ g $= 0.5$ kg. $m = 0.2/0.5 = 0.4$ molal.</p><p>For mole fraction: $n_{water} = 500/18 = 27.78$ mol. $x_{glucose} = 0.2/(0.2 + 27.78) = 0.2/27.98 = 0.00715$.</p><p><strong>Final Answer:</strong> $m = 0.4$ molal; $x_{glucose} = 0.00715$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Partial pressure of $O_2$ in air is $0.21$ atm. $K_H$ for $O_2$ in water at $298$ K is $3.30 \\times 10^7$ torr. Find solubility ($x_{O_2}$).</p>",
+              "solution": "<p>$K_H = 3.30 \\times 10^7$ torr $= 4.34 \\times 10^4$ atm. $x = p/K_H = 0.21/(4.34 \\times 10^4) = 4.84 \\times 10^{-6}$.</p><p><strong>Final Answer:</strong> $x_{O_2} = 4.84 \\times 10^{-6}$ (very low solubility).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Concentration term independent of temperature:</p>",
+              "options": [
+                "Molarity",
+                "Molality",
+                "Volume %",
+                "ppm"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Henry's law states:</p>",
+              "options": [
+                "$p \\propto x$",
+                "$p \\propto 1/x$",
+                "$p = x$",
+                "$p \\propto x^2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Solubility of gases with increasing T:</p>",
+              "options": [
+                "Increases",
+                "Decreases",
+                "Constant",
+                "Random"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Mole fraction of solvent if solute is $0.2$:</p>",
+              "options": [
+                "$0.2$",
+                "$0.5$",
+                "$0.8$",
+                "$1$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Soda water is example of:</p>",
+              "options": [
+                "Solid in liquid",
+                "Gas in liquid",
+                "Liquid in gas",
+                "Liquid in solid"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Vapour Pressure and Raoult's Law",
+          "concept": "<p><strong>Vapour Pressure (VP):</strong> Pressure exerted by vapor above liquid in equilibrium. Depends on:</p><ul><li>Nature of liquid</li><li>Temperature (increases with T)</li><li>Independent of amount</li></ul><p><strong>Raoult's Law:</strong> Partial vapor pressure of any volatile component in solution is equal to the product of its mole fraction and pure component vapor pressure: $$p_A = x_A \\cdot p_A^\\ominus, \\quad p_B = x_B \\cdot p_B^\\ominus$$ Total pressure (Dalton): $p_{total} = p_A + p_B = x_A p_A^\\ominus + x_B p_B^\\ominus$.</p><p><strong>For solution of non-volatile solute in solvent:</strong> Only solvent vaporizes: $$p_{total} = x_{solvent} \\cdot p_{solvent}^\\ominus$$ This gives the <strong>relative lowering of vapor pressure:</strong> $$\\frac{p^\\ominus - p}{p^\\ominus} = \\frac{n_{solute}}{n_{total}} \\approx \\frac{n_{solute}}{n_{solvent}} \\text{ (dilute)}$$</p><p><strong>Ideal Solutions:</strong> Obey Raoult's law over the entire composition range. Characteristics:</p><ul><li>$\\Delta_{mix}H = 0$</li><li>$\\Delta_{mix}V = 0$</li><li>Intermolecular forces A-A ≈ B-B ≈ A-B</li></ul><p>Examples: benzene + toluene; n-hexane + n-heptane; bromoethane + chloroethane.</p><p><strong>Non-Ideal Solutions:</strong> Deviate from Raoult's law.</p><p><strong>Positive Deviation:</strong> Actual pressure > predicted.</p><ul><li>A-B interactions < A-A or B-B</li><li>$\\Delta_{mix}H > 0$ (endothermic mixing)</li><li>$\\Delta_{mix}V > 0$</li><li>Examples: ethanol + cyclohexane, acetone + ethanol, $C_6H_6 + CCl_4$, $H_2O + C_2H_5OH$.</li></ul><p><strong>Negative Deviation:</strong> Actual pressure < predicted.</p><ul><li>A-B interactions > A-A or B-B (especially H-bonding)</li><li>$\\Delta_{mix}H < 0$</li><li>$\\Delta_{mix}V < 0$</li><li>Examples: acetone + chloroform, $HCl + H_2O$, $HNO_3 + H_2O$.</li></ul><p><strong>Azeotropes:</strong> Mixtures with constant BP; vapor and liquid have same composition. Cannot be separated by simple distillation.</p><p><strong>Two types:</strong></p><ul><li><strong>Minimum boiling azeotrope:</strong> From positive deviation (e.g., ethanol $95.6\\%$ + water $4.4\\%$, BP $78.1°$C)</li><li><strong>Maximum boiling azeotrope:</strong> From negative deviation (e.g., $HNO_3 + H_2O$: $68\\% HNO_3$, BP $120°$C; $HCl + H_2O$: $20.2\\% HCl$, BP $108.5°$C)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>$1$ mole benzene ($p^\\ominus = 75$ torr) mixed with $1$ mole toluene ($p^\\ominus = 22$ torr). Find total vapor pressure and composition of vapor.</p>",
+              "solution": "<p>$x_B = 0.5, x_T = 0.5$. $p_B = 0.5 \\times 75 = 37.5$ torr. $p_T = 0.5 \\times 22 = 11$ torr. $p_{total} = 48.5$ torr.</p><p>Vapor composition: $y_B = p_B/p_{total} = 37.5/48.5 = 0.773$ $y_T = 0.227$.</p><p><strong>Final Answer:</strong> $p_{total} = 48.5$ torr; vapor is benzene-rich ($77.3\\%$).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>$18$ g of glucose dissolved in $90$ g water. VP of pure water at $25°$C is $23.8$ mm. Find VP of solution.</p>",
+              "solution": "<p>$n_{glu} = 18/180 = 0.1$; $n_{water} = 90/18 = 5$. $x_{water} = 5/5.1 = 0.9804$. $p = x_w \\cdot p^\\ominus = 0.9804 \\times 23.8 = 23.33$ mm.</p><p><strong>Final Answer:</strong> $p_{sol} = 23.33$ mm.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Raoult's law:</p>",
+              "options": [
+                "$p = x$",
+                "$p_i = x_i \\cdot p_i^\\ominus$",
+                "$p \\propto 1/x$",
+                "$p \\propto e^x$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Acetone + chloroform shows:</p>",
+              "options": [
+                "Positive deviation",
+                "Negative deviation",
+                "Ideal",
+                "No deviation"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>For ideal solution:</p>",
+              "options": [
+                "$\\Delta H_{mix} = 0$",
+                "$\\Delta V_{mix} = 0$",
+                "Both",
+                "Neither"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Minimum boiling azeotrope arises from:</p>",
+              "options": [
+                "Positive deviation",
+                "Negative deviation",
+                "Ideal solution",
+                "Solid solution"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Relative lowering of vapor pressure for dilute solution of non-volatile solute:</p>",
+              "options": [
+                "$(p^\\ominus - p)/p^\\ominus = x_{solute}$",
+                "$(p^\\ominus - p)/p^\\ominus = x_{solvent}$",
+                "Depends on T only",
+                "Equals normality"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Colligative Properties",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Elevation in BP, Depression in FP, Osmosis",
+          "concept": "<p><strong>Colligative Properties:</strong> Properties of solutions that depend on the <strong>number</strong> of solute particles, not their nature. Four main:</p><ol><li><strong>Relative lowering of vapor pressure</strong></li><li><strong>Elevation in boiling point</strong></li><li><strong>Depression in freezing point</strong></li><li><strong>Osmotic pressure</strong></li></ol><p>All explained by lowering of vapor pressure of solvent due to solute.</p><p><strong>1. Relative Lowering of VP:</strong> $(p^\\ominus - p)/p^\\ominus = x_{solute}$.</p><p>For dilute solution: $x_{solute} \\approx n_{solute}/n_{solvent}$.</p><p><strong>2. Elevation in Boiling Point ($\\Delta T_b$):</strong> When non-volatile solute added, solution boils at higher T than pure solvent.</p><p>$$\\Delta T_b = T_b - T_b^\\ominus = K_b \\cdot m$$</p><ul><li>$K_b$ = molal elevation constant (or <strong>ebullioscopic constant</strong>), unit K·kg/mol</li><li>$m$ = molality of solute</li><li>For water: $K_b = 0.52$ K·kg/mol</li></ul><p><strong>3. Depression in Freezing Point ($\\Delta T_f$):</strong> Solution freezes at lower T than pure solvent.</p><p>$$\\Delta T_f = T_f^\\ominus - T_f = K_f \\cdot m$$</p><ul><li>$K_f$ = molal depression constant (or <strong>cryoscopic constant</strong>), unit K·kg/mol</li><li>For water: $K_f = 1.86$ K·kg/mol</li></ul><p>Applications:</p><ul><li>Antifreeze in radiators (ethylene glycol + water)</li><li>De-icing roads (NaCl, CaCl₂)</li><li>Determination of molar mass of unknown solute</li></ul><p><strong>Determining Molar Mass:</strong> From $\\Delta T_b = K_b \\cdot (w_2 \\times 1000)/(M_2 \\times w_1)$ where $w_2$ = mass of solute, $w_1$ = mass of solvent in g.</p><p><strong>4. Osmotic Pressure ($\\pi$):</strong> Pressure needed to prevent osmosis (flow of solvent from low to high concentration through semi-permeable membrane).</p><p>$$\\pi = CRT = \\frac{n}{V}RT$$</p><ul><li>$C$ = molar concentration</li><li>$R$ = $0.0821$ L·atm/mol·K</li><li>$T$ in K</li></ul><p><strong>Isotonic:</strong> Same $\\pi$. <strong>Hypertonic:</strong> Higher $\\pi$. <strong>Hypotonic:</strong> Lower $\\pi$.</p><p><strong>Reverse osmosis:</strong> Applying pressure greater than $\\pi$ forces solvent from high to low concentration; used in water purification.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>$1.8$ g glucose in $100$ g water; $K_b(\\text{water}) = 0.52$. Find $\\Delta T_b$ and BP of solution.</p>",
+              "solution": "<p>$n = 1.8/180 = 0.01$; $m = 0.01/0.1 = 0.1$ molal. $\\Delta T_b = 0.52 \\times 0.1 = 0.052$ K $= 0.052°$C. BP of solution = $100 + 0.052 = 100.052°$C.</p><p><strong>Final Answer:</strong> $\\Delta T_b = 0.052°$C; BP = $100.052°$C.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find osmotic pressure of $0.05$ M sucrose at $25°$C.</p>",
+              "solution": "<p>$\\pi = CRT = 0.05 \\times 0.0821 \\times 298 = 1.22$ atm.</p><p><strong>Final Answer:</strong> $\\pi = 1.22$ atm.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Colligative property depends on:</p>",
+              "options": [
+                "Nature of solute",
+                "Number of solute particles",
+                "Mass of solute",
+                "Charge of solute"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$K_f$ for water:</p>",
+              "options": [
+                "$1.86$ K·kg/mol",
+                "$0.52$",
+                "$5$",
+                "$0.18$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Osmotic pressure formula:</p>",
+              "options": [
+                "$\\pi = mRT$",
+                "$\\pi = CRT$",
+                "$\\pi = nRT$",
+                "$\\pi = T$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two solutions with same osmotic pressure are:</p>",
+              "options": [
+                "Isotonic",
+                "Hypertonic",
+                "Hypotonic",
+                "Dilute"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Reverse osmosis is used in:</p>",
+              "options": [
+                "Distillation",
+                "Water purification (desalination)",
+                "Fertilizer",
+                "Cooking"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Abnormal Molar Mass and Van't Hoff Factor",
+          "concept": "<p><strong>Abnormal Molar Mass:</strong> Sometimes molar mass calculated from colligative properties doesn't match the theoretical (chemical formula) value. Causes:</p><ul><li><strong>Dissociation:</strong> Strong electrolytes break into ions; more particles than expected</li><li><strong>Association:</strong> Molecules cluster (e.g., acetic acid in benzene dimerizes via H-bonds)</li></ul><p><strong>Van't Hoff Factor (i):</strong> $$i = \\frac{\\text{Observed colligative property}}{\\text{Calculated colligative property (assuming no dissociation/association)}}$$</p><p>Equivalent expressions: $$i = \\frac{\\text{Total moles of particles after dissociation/association}}{\\text{Total moles initially}}$$</p><p>$$i = \\frac{M_{normal}}{M_{observed}}$$</p><p><strong>For Dissociation:</strong> If $\\alpha$ = degree of dissociation; one molecule gives $n$ ions: $$i = 1 + (n - 1)\\alpha$$</p><p>If complete dissociation ($\\alpha = 1$): $i = n$.</p><table class=\"md-table\"><thead><tr><th>Compound</th><th>$n$</th><th>$i$ (if complete)</th></tr></thead><tbody><tr><td>NaCl</td><td>2</td><td>2</td></tr><tr><td>$CaCl_2$</td><td>3</td><td>3</td></tr><tr><td>$Al_2(SO_4)_3$</td><td>5</td><td>5</td></tr><tr><td>$K_4[Fe(CN)_6]$</td><td>5</td><td>5</td></tr></tbody></table><p><strong>For Association:</strong> If $\\alpha$ = degree of association; $n$ molecules combine to form one: $$i = 1 - \\alpha + \\alpha/n = 1 + \\alpha(1/n - 1)$$</p><p>If complete association: $i = 1/n < 1$.</p><p>Example: acetic acid in benzene dimerizes ($n = 2$); $i \\to 0.5$ if complete.</p><p><strong>Modified Colligative Property Equations (with $i$):</strong></p><table class=\"md-table\"><thead><tr><th>Property</th><th>Equation</th></tr></thead><tbody><tr><td>Relative lowering of VP</td><td>$(p^\\ominus - p)/p^\\ominus = i \\cdot x_{solute}$</td></tr><tr><td>Elevation in BP</td><td>$\\Delta T_b = i \\cdot K_b \\cdot m$</td></tr><tr><td>Depression in FP</td><td>$\\Delta T_f = i \\cdot K_f \\cdot m$</td></tr><tr><td>Osmotic pressure</td><td>$\\pi = i \\cdot CRT$</td></tr></tbody></table><p><strong>Calculation of Degree of Dissociation:</strong> $\\alpha = (i - 1)/(n - 1)$</p><p><strong>Calculation of Degree of Association:</strong> $\\alpha = (1 - i)/(1 - 1/n)$</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>$0.1$ M NaCl solution at $25°$C; observed $\\pi = 4.6$ atm. Find van't Hoff factor and degree of dissociation.</p>",
+              "solution": "<p>Theoretical $\\pi = CRT = 0.1 \\times 0.0821 \\times 298 = 2.45$ atm. $i = 4.6/2.45 = 1.88$. $\\alpha = (i-1)/(n-1) = 0.88/(2-1) = 0.88 = 88\\%$ dissociated.</p><p><strong>Final Answer:</strong> $i = 1.88$; $\\alpha = 88\\%$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Benzoic acid ($M = 122$) in benzene; observed $M = 244$. Find $i$ and degree of association.</p>",
+              "solution": "<p>$i = M_{normal}/M_{obs} = 122/244 = 0.5$.</p><p>For association: $i = 1 - \\alpha + \\alpha/n$, with $n = 2$ (dimer). $0.5 = 1 - \\alpha + \\alpha/2 = 1 - \\alpha/2$. $\\alpha/2 = 0.5 \\implies \\alpha = 1.0 = 100\\%$ associated.</p><p><strong>Final Answer:</strong> $i = 0.5$; $\\alpha = 100\\%$ (complete dimerization).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Van't Hoff factor for sucrose in water:</p>",
+              "options": [
+                "$1$",
+                "$2$",
+                "$0.5$",
+                "$3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Van't Hoff factor of $K_4[Fe(CN)_6]$ (complete dissociation):</p>",
+              "options": [
+                "$2$",
+                "$3$",
+                "$5$",
+                "$1$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Benzoic acid in benzene gives $i = 0.5$ due to:</p>",
+              "options": [
+                "Dissociation",
+                "Association (dimer)",
+                "Hydrolysis",
+                "No change"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$\\Delta T_f = i \\cdot K_f \\cdot m$ uses van't Hoff factor for:</p>",
+              "options": [
+                "Electrolytes",
+                "Non-electrolytes",
+                "Both, $i = 1$ for non-electrolytes",
+                "Only acids"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>NaCl gives $i = 1.9$ in water; degree of dissociation:</p>",
+              "options": [
+                "$90\\%$",
+                "$50\\%$",
+                "$10\\%$",
+                "$100\\%$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-chem-solutions-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>Solubility of gases at constant T:</p>",
+              "options": [
+                "$\\propto p$ (Henry's)",
+                "$\\propto 1/p$",
+                "$\\propto T$",
+                "Constant"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$0.1$ M NaCl solution has $\\pi$ relative to $0.1$ M sucrose ($i \\approx 2$ for NaCl):</p>",
+              "options": [
+                "Half",
+                "Twice",
+                "Same",
+                "Quadruple"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Acetone + ethanol shows:</p>",
+              "options": [
+                "Positive deviation from Raoult's law",
+                "Negative deviation",
+                "Ideal",
+                "No mixing"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Lowering of VP of solvent of dilute solution of non-volatile solute is:</p>",
+              "options": [
+                "Independent of solute",
+                "Proportional to mole fraction of solute",
+                "Inversely proportional to T",
+                "Negligible"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$K_b$ for water:</p>",
+              "options": [
+                "$0.52$",
+                "$1.86$",
+                "$0.0821$",
+                "$8.314$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Adding $1$ mol NaCl to $1$ kg water lowers freezing point by approximately:</p>",
+              "options": [
+                "$1.86°$C",
+                "$3.72°$C ($i = 2$)",
+                "$0.93°$C",
+                "$5.6°$C"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Antifreeze used in radiators:</p>",
+              "options": [
+                "Methanol",
+                "Ethylene glycol + water",
+                "Water only",
+                "Salt"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Reverse osmosis is applied for:</p>",
+              "options": [
+                "Sugar refining",
+                "Desalination of sea water",
+                "Fertilizers",
+                "Distillation"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two isotonic solutions have same:</p>",
+              "options": [
+                "Volume",
+                "Mass",
+                "Osmotic pressure",
+                "Color"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The colligative property used to determine molar mass of polymers:</p>",
+              "options": [
+                "Boiling point elevation",
+                "Osmotic pressure (most sensitive)",
+                "Freezing point",
+                "Vapor pressure"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Mole fraction sum: $x_A + x_B$ (for two-component solution) =</p>",
+              "answer": "1",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of ions from one molecule of $Al_2(SO_4)_3$:</p>",
+              "answer": "5",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Van't Hoff factor for $K_2SO_4$ in water (complete dissociation):</p>",
+              "answer": "3",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> The osmotic pressure of $0.1$ M NaCl is about twice that of $0.1$ M sucrose. <strong>Reason (R):</strong> NaCl dissociates into Na⁺ and Cl⁻ in water, doubling the number of particles; sucrose does not dissociate.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> Acetic acid in benzene shows $i < 1$. <strong>Reason (R):</strong> Acetic acid dimerizes in benzene through hydrogen bonding, reducing the effective number of particles.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

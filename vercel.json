@@ -1,0 +1,19 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "regions": ["bom1"],
+  "crons": [
+    {
+      "path": "/api/cron/crm-sync",
+      "schedule": "0 2 * * *"
+    },
+    {
+      "path": "/api/cron/portal",
+      "schedule": "*/10 * * * *"
+    },
+    {
+      "path": "/api/cron/expert-reminders",
+      "schedule": "30 2 * * *"
+    }
+  ]
+}

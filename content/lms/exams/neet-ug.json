@@ -1,0 +1,2710 @@
+{
+  "meta": {
+    "slug": "neet-ug",
+    "name": "NEET UG",
+    "fullName": "National Eligibility cum Entrance Test (UG)",
+    "emoji": "🧬",
+    "order": 2,
+    "category": "Medical Entrance",
+    "level": "After Class 12 (PCB)",
+    "authority": "National Testing Agency (NTA)",
+    "authorityUrl": "https://neet.nta.nic.in",
+    "accent": "#0f7a3d",
+    "accent2": "#16a34a",
+    "tagline": "The single gateway to MBBS, BDS, AYUSH and veterinary seats across India.",
+    "blurb": "India's largest medical entrance. A full-length, NCERT-aligned mock across Physics, Chemistry, Botany and Zoology with instant scoring, negative marking and worked solutions."
+  },
+  "pattern": {
+    "durationMin": 180,
+    "totalQuestions": 180,
+    "totalMarks": 720,
+    "attemptAll": true,
+    "marking": "+4 for each correct answer, −1 for each wrong answer. Unattempted: 0.",
+    "negative": true,
+    "perQuestionMarks": 4,
+    "perQuestionNeg": 1,
+    "sections": [
+      {
+        "name": "Physics",
+        "questions": 45,
+        "marks": 180,
+        "note": "45 MCQ, all compulsory"
+      },
+      {
+        "name": "Chemistry",
+        "questions": 45,
+        "marks": 180,
+        "note": "45 MCQ, all compulsory"
+      },
+      {
+        "name": "Botany",
+        "questions": 45,
+        "marks": 180,
+        "note": "45 MCQ, all compulsory"
+      },
+      {
+        "name": "Zoology",
+        "questions": 45,
+        "marks": 180,
+        "note": "45 MCQ, all compulsory"
+      }
+    ],
+    "facts": [
+      {
+        "k": "Mode",
+        "v": "Pen & paper (OMR), single shift"
+      },
+      {
+        "k": "Conducting body",
+        "v": "National Testing Agency (NTA)"
+      },
+      {
+        "k": "Frequency",
+        "v": "Once a year (May)"
+      },
+      {
+        "k": "Eligibility",
+        "v": "Class 12 with Physics, Chemistry, Biology/Biotechnology"
+      },
+      {
+        "k": "Syllabus",
+        "v": "NCERT Class 11 & 12 (PCB)"
+      },
+      {
+        "k": "Negative marking",
+        "v": "Yes — −1 per wrong answer"
+      }
+    ]
+  },
+  "briefing": "NEET UG is the single national gate to every MBBS, BDS, AYUSH and veterinary seat in the country, and with well over twenty lakh candidates each year it is fiercely competitive — a handful of marks can move your rank by thousands. The paper rewards mastery of the NCERT textbooks above all: roughly half the paper is Biology (Botany + Zoology), so accuracy there is what separates top rankers. Physics is the usual deciding factor — it is formula-driven and time-sensitive, while Chemistry blends quick NCERT recall (especially Inorganic and Organic) with short calculations. With −1 negative marking, blind guessing is punished, so this mock reproduces the real pressure of choosing what to attempt. Every question here is original and built strictly to the NCERT-based NTA syllabus, and each carries a full explanation so the test doubles as revision.",
+  "strategy": [
+    "Biology is 50% of the paper — bank it first; aim for near-perfect accuracy from NCERT lines.",
+    "Do Chemistry second: fast Inorganic/Organic recall, then short Physical-chemistry sums.",
+    "Leave Physics for a focused block; with −1 negatives, skip the 2–3 longest calculations if short on time.",
+    "Read assertion–reason and 'except/incorrect' stems twice — they are the commonest trap in NEET."
+  ],
+  "subjects": [
+    {
+      "name": "Physics",
+      "emoji": "⚛️",
+      "chapters": [
+        "Units & Measurements",
+        "Kinematics (Motion in a Straight Line & Plane)",
+        "Laws of Motion",
+        "Work, Energy & Power",
+        "System of Particles & Rotational Motion",
+        "Gravitation",
+        "Mechanical Properties of Solids & Fluids",
+        "Thermal Properties & Thermodynamics",
+        "Kinetic Theory of Gases",
+        "Oscillations & Waves",
+        "Electrostatics",
+        "Current Electricity",
+        "Moving Charges & Magnetism",
+        "Magnetism & Matter",
+        "Electromagnetic Induction & Alternating Current",
+        "Electromagnetic Waves",
+        "Ray & Wave Optics",
+        "Dual Nature of Radiation & Matter",
+        "Atoms & Nuclei",
+        "Semiconductor Electronics"
+      ]
+    },
+    {
+      "name": "Chemistry",
+      "emoji": "⚗️",
+      "chapters": [
+        "Some Basic Concepts of Chemistry",
+        "Structure of Atom",
+        "Classification of Elements & Periodicity",
+        "Chemical Bonding & Molecular Structure",
+        "Thermodynamics",
+        "Equilibrium",
+        "Redox Reactions",
+        "Solutions",
+        "Electrochemistry",
+        "Chemical Kinetics",
+        "p-Block Elements",
+        "d & f-Block Elements",
+        "Coordination Compounds",
+        "Haloalkanes & Haloarenes",
+        "Alcohols, Phenols & Ethers",
+        "Aldehydes, Ketones & Carboxylic Acids",
+        "Amines",
+        "Biomolecules",
+        "Some Basic Principles of Organic Chemistry",
+        "Hydrocarbons"
+      ]
+    },
+    {
+      "name": "Botany",
+      "emoji": "🌿",
+      "chapters": [
+        "The Living World",
+        "Biological Classification",
+        "Plant Kingdom",
+        "Morphology of Flowering Plants",
+        "Anatomy of Flowering Plants",
+        "Cell: The Unit of Life",
+        "Cell Cycle & Cell Division",
+        "Photosynthesis in Higher Plants",
+        "Respiration in Plants",
+        "Plant Growth & Development",
+        "Sexual Reproduction in Flowering Plants",
+        "Principles of Inheritance & Variation",
+        "Molecular Basis of Inheritance",
+        "Microbes in Human Welfare",
+        "Organisms & Populations",
+        "Ecosystem",
+        "Biodiversity & Conservation"
+      ]
+    },
+    {
+      "name": "Zoology",
+      "emoji": "🦴",
+      "chapters": [
+        "Animal Kingdom",
+        "Structural Organisation in Animals",
+        "Biomolecules",
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation",
+        "Excretory Products & their Elimination",
+        "Locomotion & Movement",
+        "Neural Control & Coordination",
+        "Chemical Coordination & Integration",
+        "Digestion & Absorption",
+        "Human Reproduction",
+        "Reproductive Health",
+        "Human Health & Disease",
+        "Evolution",
+        "Biotechnology: Principles & Processes",
+        "Biotechnology & its Applications"
+      ]
+    }
+  ],
+  "test": {
+    "title": "NEET UG — Full Mock Test",
+    "questions": [
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Units & Measurements",
+        "q": "The dimensional formula for pressure is the same as that of:",
+        "options": [
+          "Energy",
+          "Force per unit area",
+          "Energy per unit volume",
+          "Momentum"
+        ],
+        "correct": 2,
+        "explanation": "Pressure $=\\frac{F}{A}$ has dimensions $[ML^{-1}T^{-2}]$. Energy density $=\\frac{E}{V}=\\frac{ML^2T^{-2}}{L^3}=[ML^{-1}T^{-2}]$, which matches pressure."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Units & Measurements",
+        "q": "If the percentage errors in measuring $A$, $B$ and $C$ are $1\\%$, $2\\%$ and $3\\%$ respectively, the maximum percentage error in $X=\\frac{A^2B}{C}$ is:",
+        "options": [
+          "$6\\%$",
+          "$3\\%$",
+          "$1\\%$",
+          "$7\\%$"
+        ],
+        "correct": 3,
+        "explanation": "Maximum error $=2(1)+1(2)+1(3)=2+2+3=7\\%$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Kinematics",
+        "q": "A body is projected vertically upward with speed $20\\,\\text{m/s}$. Taking $g=10\\,\\text{m/s}^2$, the maximum height reached is:",
+        "options": [
+          "$20\\,\\text{m}$",
+          "$10\\,\\text{m}$",
+          "$40\\,\\text{m}$",
+          "$5\\,\\text{m}$"
+        ],
+        "correct": 0,
+        "explanation": "$H=\\frac{u^2}{2g}=\\frac{20^2}{2\\times10}=\\frac{400}{20}=20\\,\\text{m}$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Kinematics",
+        "q": "For a projectile launched at angle $\\theta$ with speed $u$, the horizontal range is maximum when $\\theta$ equals:",
+        "options": [
+          "$30^\\circ$",
+          "$45^\\circ$",
+          "$60^\\circ$",
+          "$90^\\circ$"
+        ],
+        "correct": 1,
+        "explanation": "$R=\\frac{u^2\\sin 2\\theta}{g}$ is maximum when $\\sin 2\\theta=1$, i.e. $2\\theta=90^\\circ$, so $\\theta=45^\\circ$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Laws of Motion",
+        "q": "A force of $20\\,\\text{N}$ acts on a body of mass $4\\,\\text{kg}$ resting on a frictionless surface. The acceleration produced is:",
+        "options": [
+          "$80\\,\\text{m/s}^2$",
+          "$0.2\\,\\text{m/s}^2$",
+          "$5\\,\\text{m/s}^2$",
+          "$24\\,\\text{m/s}^2$"
+        ],
+        "correct": 2,
+        "explanation": "$a=\\frac{F}{m}=\\frac{20}{4}=5\\,\\text{m/s}^2$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Laws of Motion",
+        "q": "A body of mass $2\\,\\text{kg}$ moving at $3\\,\\text{m/s}$ is brought to rest in $0.6\\,\\text{s}$. The average force applied is:",
+        "options": [
+          "$5\\,\\text{N}$",
+          "$15\\,\\text{N}$",
+          "$1\\,\\text{N}$",
+          "$10\\,\\text{N}$"
+        ],
+        "correct": 3,
+        "explanation": "$F=\\frac{\\Delta p}{\\Delta t}=\\frac{m\\Delta v}{\\Delta t}=\\frac{2\\times3}{0.6}=10\\,\\text{N}$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Work, Energy & Power",
+        "q": "A body of mass $5\\,\\text{kg}$ is raised through a height of $4\\,\\text{m}$. The work done against gravity is (take $g=10\\,\\text{m/s}^2$):",
+        "options": [
+          "$200\\,\\text{J}$",
+          "$20\\,\\text{J}$",
+          "$2\\,\\text{J}$",
+          "$50\\,\\text{J}$"
+        ],
+        "correct": 0,
+        "explanation": "$W=mgh=5\\times10\\times4=200\\,\\text{J}$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Work, Energy & Power",
+        "q": "If the speed of a body is doubled, its kinetic energy becomes:",
+        "options": [
+          "double",
+          "four times",
+          "half",
+          "unchanged"
+        ],
+        "correct": 1,
+        "explanation": "$KE=\\frac{1}{2}mv^2\\propto v^2$. Doubling $v$ makes KE $2^2=4$ times the original."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Rotational Motion",
+        "q": "The moment of inertia of a thin uniform ring of mass $M$ and radius $R$ about an axis through its centre and perpendicular to its plane is:",
+        "options": [
+          "$\\frac{1}{2}MR^2$",
+          "$\\frac{2}{5}MR^2$",
+          "$MR^2$",
+          "$\\frac{1}{4}MR^2$"
+        ],
+        "correct": 2,
+        "explanation": "All mass of a ring lies at distance $R$ from the axis, so $I=MR^2$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Rotational Motion",
+        "q": "A solid sphere and a hollow sphere of the same mass and radius roll down an incline. Which reaches the bottom first?",
+        "options": [
+          "Hollow sphere",
+          "Solid sphere",
+          "Both together",
+          "Cannot be determined"
+        ],
+        "correct": 1,
+        "explanation": "The solid sphere has smaller moment of inertia ($\\frac{2}{5}MR^2 < \\frac{2}{3}MR^2$), giving larger linear acceleration, so it reaches the bottom first."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Gravitation",
+        "q": "The acceleration due to gravity at a height equal to the radius of the Earth $R$ above its surface is (where $g$ is surface value):",
+        "options": [
+          "$\\frac{g}{2}$",
+          "$\\frac{g}{9}$",
+          "$g$",
+          "$\\frac{g}{4}$"
+        ],
+        "correct": 3,
+        "explanation": "$g_h=\\frac{g}{(1+h/R)^2}$. With $h=R$: $g_h=\\frac{g}{(2)^2}=\\frac{g}{4}$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Gravitation",
+        "q": "The escape velocity from the surface of a planet is independent of:",
+        "options": [
+          "mass of the escaping body",
+          "mass of the planet",
+          "radius of the planet",
+          "gravitational constant"
+        ],
+        "correct": 0,
+        "explanation": "$v_e=\\sqrt{\\frac{2GM}{R}}$ depends on the planet's mass and radius and $G$, but not on the mass of the escaping body."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Properties of Solids & Fluids",
+        "q": "Young's modulus has the same dimensions as:",
+        "options": [
+          "force",
+          "pressure",
+          "energy",
+          "strain"
+        ],
+        "correct": 1,
+        "explanation": "$Y=\\frac{\\text{stress}}{\\text{strain}}$; strain is dimensionless, so $Y$ has the dimensions of stress (pressure), $[ML^{-1}T^{-2}]$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Properties of Solids & Fluids",
+        "q": "According to Bernoulli's principle, when the speed of a flowing fluid increases, the pressure:",
+        "options": [
+          "increases",
+          "remains constant",
+          "decreases",
+          "becomes zero"
+        ],
+        "correct": 2,
+        "explanation": "Bernoulli's equation $P+\\frac{1}{2}\\rho v^2+\\rho gh=\\text{const}$ shows that where speed is higher, pressure is lower (at the same height)."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Properties of Solids & Fluids",
+        "q": "The rise of liquid in a capillary tube is inversely proportional to:",
+        "options": [
+          "surface tension",
+          "density of the liquid",
+          "angle of contact",
+          "radius of the tube"
+        ],
+        "correct": 3,
+        "explanation": "$h=\\frac{2T\\cos\\theta}{r\\rho g}$, so the capillary rise is inversely proportional to the tube radius $r$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Thermodynamics & Kinetic Theory",
+        "q": "In an isothermal process for an ideal gas:",
+        "options": [
+          "internal energy remains constant",
+          "internal energy changes",
+          "temperature changes",
+          "no heat is exchanged"
+        ],
+        "correct": 0,
+        "explanation": "Isothermal means constant temperature; for an ideal gas internal energy depends only on temperature, so $\\Delta U=0$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Thermodynamics & Kinetic Theory",
+        "q": "A Carnot engine works between $400\\,\\text{K}$ and $300\\,\\text{K}$. Its efficiency is:",
+        "options": [
+          "$33\\%$",
+          "$25\\%$",
+          "$75\\%$",
+          "$100\\%$"
+        ],
+        "correct": 1,
+        "explanation": "$\\eta=1-\\frac{T_C}{T_H}=1-\\frac{300}{400}=1-0.75=0.25=25\\%$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Thermodynamics & Kinetic Theory",
+        "q": "The root-mean-square speed of gas molecules is proportional to:",
+        "options": [
+          "$T$",
+          "$T^2$",
+          "$\\sqrt{T}$",
+          "$\\frac{1}{T}$"
+        ],
+        "correct": 2,
+        "explanation": "$v_{rms}=\\sqrt{\\frac{3RT}{M}}\\propto\\sqrt{T}$, so rms speed varies as the square root of absolute temperature."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Oscillations & Waves",
+        "q": "The time period of a simple pendulum of length $1\\,\\text{m}$ is (take $g=\\pi^2\\,\\text{m/s}^2$):",
+        "options": [
+          "$1\\,\\text{s}$",
+          "$\\pi\\,\\text{s}$",
+          "$0.5\\,\\text{s}$",
+          "$2\\,\\text{s}$"
+        ],
+        "correct": 3,
+        "explanation": "$T=2\\pi\\sqrt{\\frac{L}{g}}=2\\pi\\sqrt{\\frac{1}{\\pi^2}}=2\\pi\\cdot\\frac{1}{\\pi}=2\\,\\text{s}$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Oscillations & Waves",
+        "q": "In SHM, the acceleration of the particle is:",
+        "options": [
+          "directly proportional to displacement and directed towards the mean position",
+          "maximum at the mean position",
+          "zero at the extreme position",
+          "independent of displacement"
+        ],
+        "correct": 0,
+        "explanation": "In SHM, $a=-\\omega^2 x$; the magnitude is proportional to displacement and the acceleration is always directed towards the mean position."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Oscillations & Waves",
+        "q": "A wave has frequency $500\\,\\text{Hz}$ and wavelength $0.4\\,\\text{m}$. Its speed is:",
+        "options": [
+          "$125\\,\\text{m/s}$",
+          "$200\\,\\text{m/s}$",
+          "$2000\\,\\text{m/s}$",
+          "$1250\\,\\text{m/s}$"
+        ],
+        "correct": 1,
+        "explanation": "$v=f\\lambda=500\\times0.4=200\\,\\text{m/s}$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Electrostatics",
+        "q": "Two point charges of $+2\\,\\mu\\text{C}$ and $+3\\,\\mu\\text{C}$ are placed $30\\,\\text{cm}$ apart. The force between them (take $\\frac{1}{4\\pi\\varepsilon_0}=9\\times10^9$) is:",
+        "options": [
+          "$0.06\\,\\text{N}$",
+          "$6\\,\\text{N}$",
+          "$0.6\\,\\text{N}$",
+          "$0.18\\,\\text{N}$"
+        ],
+        "correct": 2,
+        "explanation": "$F=\\frac{kq_1q_2}{r^2}=\\frac{9\\times10^9\\times2\\times10^{-6}\\times3\\times10^{-6}}{(0.3)^2}=\\frac{54\\times10^{-3}}{0.09}=0.6\\,\\text{N}$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Electrostatics",
+        "q": "The electric field inside a charged hollow conductor in electrostatic equilibrium is:",
+        "options": [
+          "maximum at the centre",
+          "uniform and non-zero",
+          "equal to the surface field",
+          "zero everywhere inside"
+        ],
+        "correct": 3,
+        "explanation": "By Gauss's law, the net charge enclosed inside the cavity is zero, so the electric field is zero everywhere inside a charged hollow conductor."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Electrostatics",
+        "q": "The capacitance of a parallel plate capacitor increases when:",
+        "options": [
+          "a dielectric is inserted between the plates",
+          "plate separation increases",
+          "plate area decreases",
+          "the charge is removed"
+        ],
+        "correct": 0,
+        "explanation": "$C=\\frac{K\\varepsilon_0 A}{d}$. Inserting a dielectric ($K>1$) increases capacitance; larger $d$ or smaller $A$ would decrease it."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Current Electricity",
+        "q": "Three resistors of $2\\,\\Omega$, $3\\,\\Omega$ and $6\\,\\Omega$ are connected in parallel. The equivalent resistance is:",
+        "options": [
+          "$11\\,\\Omega$",
+          "$1\\,\\Omega$",
+          "$0.5\\,\\Omega$",
+          "$6\\,\\Omega$"
+        ],
+        "correct": 1,
+        "explanation": "$\\frac{1}{R}=\\frac{1}{2}+\\frac{1}{3}+\\frac{1}{6}=\\frac{3+2+1}{6}=\\frac{6}{6}=1$, so $R=1\\,\\Omega$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Current Electricity",
+        "q": "The drift velocity of free electrons in a conductor is directly proportional to:",
+        "options": [
+          "the cross-sectional area",
+          "the number density of electrons",
+          "the applied electric field",
+          "the length of the conductor"
+        ],
+        "correct": 2,
+        "explanation": "$v_d=\\frac{eE\\tau}{m}$, so drift velocity is directly proportional to the applied electric field $E$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Moving Charges & Magnetism",
+        "q": "A charged particle moving parallel to a uniform magnetic field experiences a force of magnitude:",
+        "options": [
+          "$qvB$",
+          "$\\frac{qvB}{2}$",
+          "$qB$",
+          "zero"
+        ],
+        "correct": 3,
+        "explanation": "$F=qvB\\sin\\theta$. When velocity is parallel to $\\vec{B}$, $\\theta=0$, so $\\sin\\theta=0$ and the force is zero."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Moving Charges & Magnetism",
+        "q": "The magnetic field at the centre of a circular coil of radius $r$ carrying current $I$ with $N$ turns is:",
+        "options": [
+          "$\\frac{\\mu_0 N I}{2r}$",
+          "$\\frac{\\mu_0 I}{2r}$",
+          "$\\frac{\\mu_0 N I}{2\\pi r}$",
+          "$\\frac{\\mu_0 I}{2\\pi r}$"
+        ],
+        "correct": 0,
+        "explanation": "For a circular coil of $N$ turns, $B=\\frac{\\mu_0 N I}{2r}$ at its centre."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Magnetism",
+        "q": "The magnetic susceptibility of a diamagnetic material is:",
+        "options": [
+          "large and positive",
+          "small and negative",
+          "small and positive",
+          "zero"
+        ],
+        "correct": 1,
+        "explanation": "Diamagnetic materials have small negative susceptibility ($\\chi<0$) and are weakly repelled by magnetic fields."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Magnetism",
+        "q": "A bar magnet of magnetic moment $M$ is cut into two equal halves perpendicular to its length. The magnetic moment of each half is:",
+        "options": [
+          "$M$",
+          "$2M$",
+          "$\\frac{M}{2}$",
+          "$\\frac{M}{4}$"
+        ],
+        "correct": 2,
+        "explanation": "Cutting perpendicular to the length halves the length (and pole strength stays the same), so each piece has moment $\\frac{M}{2}$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "EMI & AC",
+        "q": "According to Lenz's law, the direction of the induced current is such that it:",
+        "options": [
+          "aids the change in flux",
+          "is always clockwise",
+          "has no relation to the flux change",
+          "opposes the change in flux that produces it"
+        ],
+        "correct": 3,
+        "explanation": "Lenz's law states that the induced current opposes the change in magnetic flux causing it, a consequence of conservation of energy."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "EMI & AC",
+        "q": "The rms value of an alternating current with peak value $I_0$ is:",
+        "options": [
+          "$\\frac{I_0}{\\sqrt{2}}$",
+          "$I_0$",
+          "$\\frac{I_0}{2}$",
+          "$\\sqrt{2}I_0$"
+        ],
+        "correct": 0,
+        "explanation": "For a sinusoidal AC, $I_{rms}=\\frac{I_0}{\\sqrt{2}}\\approx0.707\\,I_0$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "EMI & AC",
+        "q": "In a purely inductive AC circuit, the current:",
+        "options": [
+          "leads the voltage by $90^\\circ$",
+          "lags the voltage by $90^\\circ$",
+          "is in phase with the voltage",
+          "leads the voltage by $45^\\circ$"
+        ],
+        "correct": 1,
+        "explanation": "In a pure inductor, the current lags the applied voltage by $\\frac{\\pi}{2}$ (i.e. $90^\\circ$)."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "EM Waves",
+        "q": "Electromagnetic waves are:",
+        "options": [
+          "longitudinal",
+          "mechanical",
+          "transverse",
+          "produced only by stationary charges"
+        ],
+        "correct": 2,
+        "explanation": "EM waves are transverse: the electric and magnetic fields oscillate perpendicular to each other and to the direction of propagation."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "EM Waves",
+        "q": "Which of the following has the shortest wavelength?",
+        "options": [
+          "radio waves",
+          "microwaves",
+          "infrared rays",
+          "gamma rays"
+        ],
+        "correct": 3,
+        "explanation": "In the EM spectrum, gamma rays have the highest frequency and therefore the shortest wavelength."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Ray & Wave Optics",
+        "q": "An object is placed at the focus of a concave mirror. The image formed is:",
+        "options": [
+          "at infinity",
+          "at the focus",
+          "at the centre of curvature",
+          "at the pole"
+        ],
+        "correct": 0,
+        "explanation": "When the object is at the focus of a concave mirror, the reflected rays become parallel, so the image is formed at infinity."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Ray & Wave Optics",
+        "q": "In Young's double-slit experiment, the fringe width is directly proportional to:",
+        "options": [
+          "the slit separation",
+          "the wavelength of light",
+          "the square of the distance",
+          "the frequency of light"
+        ],
+        "correct": 1,
+        "explanation": "$\\beta=\\frac{\\lambda D}{d}$, so the fringe width is directly proportional to the wavelength $\\lambda$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Ray & Wave Optics",
+        "q": "The power of a convex lens of focal length $25\\,\\text{cm}$ is:",
+        "options": [
+          "$-4\\,\\text{D}$",
+          "$+0.25\\,\\text{D}$",
+          "$+4\\,\\text{D}$",
+          "$+25\\,\\text{D}$"
+        ],
+        "correct": 2,
+        "explanation": "$P=\\frac{1}{f(\\text{in m})}=\\frac{1}{0.25}=+4\\,\\text{D}$ (positive for a converging lens)."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Dual Nature of Radiation",
+        "q": "In the photoelectric effect, increasing the intensity of incident light (above threshold frequency) increases:",
+        "options": [
+          "the maximum kinetic energy of photoelectrons",
+          "the stopping potential",
+          "the threshold frequency",
+          "the number of photoelectrons emitted per second"
+        ],
+        "correct": 3,
+        "explanation": "Intensity determines the number of photons per second, hence the photoelectron count. Maximum KE and stopping potential depend on frequency, not intensity."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Dual Nature of Radiation",
+        "q": "The de Broglie wavelength of a particle is inversely proportional to its:",
+        "options": [
+          "momentum",
+          "wavelength",
+          "energy",
+          "charge"
+        ],
+        "correct": 0,
+        "explanation": "$\\lambda=\\frac{h}{p}$, so the de Broglie wavelength is inversely proportional to momentum $p$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Atoms & Nuclei",
+        "q": "In the Bohr model of the hydrogen atom, the radius of the $n$th orbit is proportional to:",
+        "options": [
+          "$n$",
+          "$n^2$",
+          "$\\frac{1}{n}$",
+          "$\\frac{1}{n^2}$"
+        ],
+        "correct": 1,
+        "explanation": "In Bohr's model, $r_n=\\frac{n^2 h^2 \\varepsilon_0}{\\pi m e^2}\\propto n^2$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Atoms & Nuclei",
+        "q": "The half-life of a radioactive sample is $10$ years. After $30$ years, the fraction of the original sample remaining is:",
+        "options": [
+          "$\\frac{1}{2}$",
+          "$\\frac{1}{4}$",
+          "$\\frac{1}{8}$",
+          "$\\frac{1}{16}$"
+        ],
+        "correct": 2,
+        "explanation": "Number of half-lives $=\\frac{30}{10}=3$. Fraction remaining $=\\left(\\frac{1}{2}\\right)^3=\\frac{1}{8}$."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Atoms & Nuclei",
+        "q": "Assertion: Nuclear forces are charge-independent. Reason: Nuclear forces act equally between proton-proton, proton-neutron and neutron-neutron pairs. Choose the correct option.",
+        "options": [
+          "Both assertion and reason are true and reason correctly explains assertion",
+          "Both are true but reason does not explain assertion",
+          "Assertion is true, reason is false",
+          "Assertion is false, reason is true"
+        ],
+        "correct": 0,
+        "explanation": "Nuclear forces are charge-independent, meaning they are nearly equal for p-p, p-n and n-n pairs. The reason directly explains the assertion."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Semiconductor Electronics",
+        "q": "In an intrinsic semiconductor at absolute zero temperature, it behaves like:",
+        "options": [
+          "a perfect conductor",
+          "a superconductor",
+          "a metal",
+          "a perfect insulator"
+        ],
+        "correct": 3,
+        "explanation": "At $0\\,\\text{K}$ the valence band is full and the conduction band empty with no thermal excitation, so an intrinsic semiconductor behaves as a perfect insulator."
+      },
+      {
+        "section": "Physics",
+        "type": "mcq",
+        "topic": "Semiconductor Electronics",
+        "q": "Which dopant, when added to silicon, produces an n-type semiconductor?",
+        "options": [
+          "phosphorus",
+          "boron",
+          "aluminium",
+          "gallium"
+        ],
+        "correct": 0,
+        "explanation": "Phosphorus is a pentavalent (group 15) element; it donates a free electron, producing an n-type semiconductor. Boron, aluminium and gallium are trivalent (p-type) dopants."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Some Basic Concepts of Chemistry",
+        "q": "The number of moles of oxygen atoms present in $5.6$ litre of $O_2$ gas at STP (molar volume $= 22.4\\ \\text{L mol}^{-1}$) is:",
+        "options": [
+          "0.50",
+          "0.25",
+          "1.00",
+          "0.125"
+        ],
+        "correct": 0,
+        "explanation": "Moles of $O_2 = 5.6/22.4 = 0.25$ mol. Each $O_2$ molecule has 2 O atoms, so moles of O atoms $= 0.25 \\times 2 = 0.50$ mol."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Atomic Structure",
+        "q": "The number of radial nodes in a $3s$ orbital is:",
+        "options": [
+          "0",
+          "2",
+          "1",
+          "3"
+        ],
+        "correct": 1,
+        "explanation": "Radial nodes $= n - l - 1$. For $3s$: $n = 3$, $l = 0$, so radial nodes $= 3 - 0 - 1 = 2$."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Atomic Structure",
+        "q": "Which of the following sets of quantum numbers is NOT permissible?",
+        "options": [
+          "$n=3, l=2, m=-2, s=+1/2$",
+          "$n=2, l=1, m=0, s=-1/2$",
+          "$n=2, l=2, m=+1, s=+1/2$",
+          "$n=4, l=0, m=0, s=-1/2$"
+        ],
+        "correct": 2,
+        "explanation": "For $n=2$, $l$ can be 0 or 1 only ($l = 0$ to $n-1$). $l=2$ is not allowed for $n=2$, so this set is invalid."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Atomic Structure",
+        "q": "The energy of an electron in the first Bohr orbit of hydrogen is $-13.6\\ \\text{eV}$. The energy of the electron in the third orbit is:",
+        "options": [
+          "$-4.53\\ \\text{eV}$",
+          "$-3.4\\ \\text{eV}$",
+          "$-13.6\\ \\text{eV}$",
+          "$-1.51\\ \\text{eV}$"
+        ],
+        "correct": 3,
+        "explanation": "$E_n = -13.6/n^2$ eV. For $n=3$: $E_3 = -13.6/9 = -1.51$ eV."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Thermodynamics",
+        "q": "For a reaction at constant temperature and pressure, $\\Delta H = +30\\ \\text{kJ}$ and $\\Delta S = +100\\ \\text{J K}^{-1}$. The temperature above which the reaction becomes spontaneous is:",
+        "options": [
+          "300 K",
+          "150 K",
+          "30 K",
+          "3000 K"
+        ],
+        "correct": 0,
+        "explanation": "Spontaneous when $\\Delta G < 0$, i.e. $\\Delta H < T\\Delta S$. $T > \\Delta H/\\Delta S = 30000/100 = 300$ K."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Thermodynamics",
+        "q": "Which of the following is an intensive property?",
+        "options": [
+          "Volume",
+          "Temperature",
+          "Enthalpy",
+          "Internal energy"
+        ],
+        "correct": 1,
+        "explanation": "Temperature is intensive (independent of amount of substance). Volume, enthalpy, and internal energy are extensive properties."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Thermodynamics",
+        "q": "For an ideal gas undergoing an isothermal reversible expansion, which statement is correct?",
+        "options": [
+          "$\\Delta U > 0$",
+          "$q = 0$",
+          "$\\Delta U = 0$ and $q = -w$",
+          "$\\Delta H > 0$"
+        ],
+        "correct": 2,
+        "explanation": "For an ideal gas at constant temperature, $\\Delta U = 0$ (U depends only on T). By the first law $q = -w$; heat absorbed equals work done by the gas. $\\Delta H = 0$ as well."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Equilibrium",
+        "q": "For the reaction $N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)$, the relation between $K_p$ and $K_c$ is:",
+        "options": [
+          "$K_p = K_c(RT)^2$",
+          "$K_p = K_c$",
+          "$K_p = K_c(RT)$",
+          "$K_p = K_c(RT)^{-2}$"
+        ],
+        "correct": 3,
+        "explanation": "$K_p = K_c(RT)^{\\Delta n}$ where $\\Delta n = 2 - 4 = -2$. So $K_p = K_c(RT)^{-2}$."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Equilibrium",
+        "q": "The pH of a $0.001\\ \\text{M}$ HCl solution is:",
+        "options": [
+          "3",
+          "1",
+          "2",
+          "4"
+        ],
+        "correct": 0,
+        "explanation": "HCl is a strong acid, fully dissociated. $[H^+] = 10^{-3}$ M. $\\text{pH} = -\\log(10^{-3}) = 3$."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Equilibrium",
+        "q": "The solubility product of AgCl is $1.6 \\times 10^{-10}$. Its molar solubility in water is:",
+        "options": [
+          "$1.6 \\times 10^{-10}\\ \\text{M}$",
+          "$1.26 \\times 10^{-5}\\ \\text{M}$",
+          "$1.26 \\times 10^{-10}\\ \\text{M}$",
+          "$0.8 \\times 10^{-5}\\ \\text{M}$"
+        ],
+        "correct": 1,
+        "explanation": "For AgCl, $K_{sp} = s^2$. So $s = \\sqrt{1.6 \\times 10^{-10}} = 1.26 \\times 10^{-5}$ M."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Redox Reactions",
+        "q": "The oxidation number of chromium in the dichromate ion $Cr_2O_7^{2-}$ is:",
+        "options": [
+          "+3",
+          "+7",
+          "+6",
+          "+12"
+        ],
+        "correct": 2,
+        "explanation": "Let oxidation number of Cr be $x$. $2x + 7(-2) = -2$, so $2x = 12$, $x = +6$."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Solutions",
+        "q": "Which aqueous solution will have the lowest freezing point, assuming complete dissociation?",
+        "options": [
+          "0.1 m glucose",
+          "0.1 m NaCl",
+          "0.1 m urea",
+          "0.1 m $CaCl_2$"
+        ],
+        "correct": 3,
+        "explanation": "Depression in freezing point depends on the number of particles (van't Hoff factor i). $CaCl_2$ gives $i=3$ (highest particle count among these), so it shows the greatest depression and lowest freezing point."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Electrochemistry",
+        "q": "Given $E^\\circ_{Zn^{2+}/Zn} = -0.76\\ \\text{V}$ and $E^\\circ_{Cu^{2+}/Cu} = +0.34\\ \\text{V}$, the standard EMF of the Daniell cell is:",
+        "options": [
+          "$+1.10\\ \\text{V}$",
+          "$+0.42\\ \\text{V}$",
+          "$-1.10\\ \\text{V}$",
+          "$+0.76\\ \\text{V}$"
+        ],
+        "correct": 0,
+        "explanation": "$E^\\circ_{cell} = E^\\circ_{cathode} - E^\\circ_{anode} = 0.34 - (-0.76) = +1.10$ V."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Electrochemistry",
+        "q": "How much charge (in faradays) is required to deposit $0.5\\ \\text{mol}$ of aluminium from molten $Al_2O_3$?",
+        "options": [
+          "0.5 F",
+          "1.5 F",
+          "1.0 F",
+          "3.0 F"
+        ],
+        "correct": 1,
+        "explanation": "$Al^{3+} + 3e^- \\rightarrow Al$ requires 3 F per mole. For 0.5 mol: $0.5 \\times 3 = 1.5$ F."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Chemical Kinetics",
+        "q": "For a first-order reaction, the half-life is $20\\ \\text{minutes}$. The time required for the concentration to reduce to one-fourth of its initial value is:",
+        "options": [
+          "10 min",
+          "60 min",
+          "40 min",
+          "80 min"
+        ],
+        "correct": 2,
+        "explanation": "Reducing to one-fourth requires two half-lives ($1 \\rightarrow 1/2 \\rightarrow 1/4$). Time $= 2 \\times 20 = 40$ min."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Classification of Elements and Periodicity",
+        "q": "Which of the following has the largest atomic radius?",
+        "options": [
+          "Na",
+          "Mg",
+          "Al",
+          "K"
+        ],
+        "correct": 3,
+        "explanation": "K is in period 4, while Na, Mg, Al are in period 3. Atomic radius increases down a group and decreases across a period, so K has the largest atomic radius."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Classification of Elements and Periodicity",
+        "q": "The correct order of first ionization enthalpy is:",
+        "options": [
+          "$B < Be < C < N$",
+          "$Be < B < C < N$",
+          "$N < C < Be < B$",
+          "$C < N < B < Be$"
+        ],
+        "correct": 0,
+        "explanation": "Expected order is Be > B (Be has stable filled $2s^2$). Across period 2: $B < Be < C < N$. B has lower IE than Be due to easy removal of the $2p$ electron."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Classification of Elements and Periodicity",
+        "q": "Which of the following exhibits the most negative (most exothermic) electron gain enthalpy?",
+        "options": [
+          "F",
+          "Cl",
+          "Br",
+          "I"
+        ],
+        "correct": 1,
+        "explanation": "Chlorine has the most negative electron gain enthalpy. F is anomalously low due to its small size and high electron-electron repulsion in the compact 2p subshell."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Chemical Bonding and Molecular Structure",
+        "q": "The hybridization of the central atom and shape of $SF_4$ are respectively:",
+        "options": [
+          "$sp^3$, tetrahedral",
+          "$sp^3d^2$, octahedral",
+          "$sp^3d$, see-saw",
+          "$sp^3d$, trigonal bipyramidal"
+        ],
+        "correct": 2,
+        "explanation": "$SF_4$ has 4 bond pairs and 1 lone pair on S, giving $sp^3d$ hybridization and a see-saw shape."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Chemical Bonding and Molecular Structure",
+        "q": "According to molecular orbital theory, the bond order of the $O_2$ molecule is:",
+        "options": [
+          "1",
+          "1.5",
+          "2.5",
+          "2"
+        ],
+        "correct": 3,
+        "explanation": "$O_2$ has 16 electrons. Bond order $= (N_b - N_a)/2 = (10 - 6)/2 = 2$. $O_2$ is also paramagnetic due to two unpaired electrons in $\\pi^*$ orbitals."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Chemical Bonding and Molecular Structure",
+        "q": "Which of the following molecules has a non-zero dipole moment?",
+        "options": [
+          "$NH_3$",
+          "$CO_2$",
+          "$BF_3$",
+          "$CCl_4$"
+        ],
+        "correct": 0,
+        "explanation": "$NH_3$ is pyramidal with a lone pair, giving a net dipole moment. $CO_2$ (linear), $BF_3$ (trigonal planar), and $CCl_4$ (tetrahedral) are symmetrical and have zero dipole moment."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Chemical Bonding and Molecular Structure",
+        "q": "The number of sigma and pi bonds in a molecule of ethyne ($C_2H_2$) are respectively:",
+        "options": [
+          "2 sigma, 3 pi",
+          "3 sigma, 2 pi",
+          "5 sigma, 0 pi",
+          "4 sigma, 1 pi"
+        ],
+        "correct": 1,
+        "explanation": "$H-C\\equiv C-H$ has 2 C-H sigma bonds, 1 C-C sigma bond (total 3 sigma) and 2 pi bonds in the triple bond."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "The p-Block Elements",
+        "q": "Which of the following is the strongest reducing agent among the hydrides of group 15?",
+        "options": [
+          "$NH_3$",
+          "$PH_3$",
+          "$BiH_3$",
+          "$AsH_3$"
+        ],
+        "correct": 2,
+        "explanation": "Reducing character of group 15 hydrides increases down the group as the E-H bond weakens. $BiH_3$ is the strongest reducing agent."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "The p-Block Elements",
+        "q": "Which oxoacid of phosphorus is dibasic and a good reducing agent?",
+        "options": [
+          "$H_3PO_4$ (orthophosphoric acid)",
+          "$H_3PO_2$ (hypophosphorous acid)",
+          "$HPO_3$ (metaphosphoric acid)",
+          "$H_3PO_3$ (phosphorous acid)"
+        ],
+        "correct": 3,
+        "explanation": "$H_3PO_3$ has two P-OH bonds (dibasic) and one P-H bond, which makes it a reducing agent. $H_3PO_4$ is tribasic and not a reducing agent."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "The p-Block Elements",
+        "q": "The acidic strength order $HClO < HClO_2 < HClO_3 < HClO_4$ of chlorine oxoacids is mainly due to:",
+        "options": [
+          "Increasing number of oxygen atoms stabilising the conjugate base",
+          "Decreasing oxidation state of Cl",
+          "Increasing size of the halogen",
+          "Decreasing electronegativity"
+        ],
+        "correct": 0,
+        "explanation": "As the number of terminal oxygen atoms increases, the negative charge on the conjugate base is delocalised over more oxygen atoms, stabilising it and increasing acid strength."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "The d- and f-Block Elements",
+        "q": "Which of the following $3d$ transition metal ions is colourless in aqueous solution?",
+        "options": [
+          "$Cu^{2+}$",
+          "$Sc^{3+}$",
+          "$Ti^{3+}$",
+          "$Fe^{3+}$"
+        ],
+        "correct": 1,
+        "explanation": "$Sc^{3+}$ has a $3d^0$ configuration; with no d electrons, no d-d transitions are possible, so it is colourless. The others have partially filled d orbitals and are coloured."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "The d- and f-Block Elements",
+        "q": "The lanthanoid contraction is responsible for the fact that:",
+        "options": [
+          "Lanthanoids are radioactive",
+          "Lanthanoids show variable oxidation states",
+          "Zr and Hf have almost identical atomic radii",
+          "Actinoids are coloured"
+        ],
+        "correct": 2,
+        "explanation": "Due to lanthanoid contraction, the expected increase in radius from Zr to Hf is offset, so Zr and Hf have nearly the same atomic and ionic radii and very similar chemistry."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Coordination Compounds",
+        "q": "The IUPAC name of $[Co(NH_3)_6]Cl_3$ is:",
+        "options": [
+          "Hexaamminecobalt(II) chloride",
+          "Cobalt hexaammine trichloride",
+          "Hexaamminecobaltate(III) chloride",
+          "Hexaamminecobalt(III) chloride"
+        ],
+        "correct": 3,
+        "explanation": "Six $NH_3$ ligands (hexaammine), Co with oxidation state +3 balancing three $Cl^-$. The cationic complex uses the metal name: hexaamminecobalt(III) chloride."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Coordination Compounds",
+        "q": "The number of unpaired electrons in the complex ion $[Fe(CN)_6]^{4-}$ (CN is a strong field ligand) is:",
+        "options": [
+          "0",
+          "2",
+          "4",
+          "6"
+        ],
+        "correct": 0,
+        "explanation": "Fe is +2 ($d^6$). With the strong field ligand $CN^-$, electrons pair up in the lower $t_{2g}$ set ($t_{2g}^6 e_g^0$), giving zero unpaired electrons (diamagnetic, low spin)."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Coordination Compounds",
+        "q": "According to crystal field theory, which ligand causes the largest splitting of d-orbitals (strongest field ligand)?",
+        "options": [
+          "$F^-$",
+          "$CN^-$",
+          "$H_2O$",
+          "$NH_3$"
+        ],
+        "correct": 1,
+        "explanation": "In the spectrochemical series, $CN^-$ is among the strongest field ligands, causing the largest crystal field splitting. The order is $F^- < H_2O < NH_3 < CN^-$."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Organic Chemistry - Basic Principles",
+        "q": "Which of the following is the most stable carbocation?",
+        "options": [
+          "$CH_3^+$ (methyl)",
+          "$CH_3CH_2^+$ (primary)",
+          "$(CH_3)_3C^+$ (tertiary)",
+          "$(CH_3)_2CH^+$ (secondary)"
+        ],
+        "correct": 2,
+        "explanation": "Carbocation stability increases with the number of alkyl groups due to +I effect and hyperconjugation: tertiary > secondary > primary > methyl."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Hydrocarbons",
+        "q": "Markovnikov's rule is followed in the addition of HBr to propene in the absence of peroxide. The major product is:",
+        "options": [
+          "1-bromopropane",
+          "1,2-dibromopropane",
+          "propane",
+          "2-bromopropane"
+        ],
+        "correct": 3,
+        "explanation": "Per Markovnikov's rule, H adds to the carbon with more H atoms, and Br to the more substituted carbon, forming the more stable secondary carbocation. The major product is 2-bromopropane."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Hydrocarbons",
+        "q": "Which of the following compounds is aromatic according to Huckel's rule?",
+        "options": [
+          "Benzene",
+          "Cyclobutadiene",
+          "Cyclooctatetraene",
+          "Cyclohexane"
+        ],
+        "correct": 0,
+        "explanation": "Benzene has 6 delocalised pi electrons ($4n+2$ with $n=1$), is cyclic, planar, and fully conjugated, satisfying Huckel's rule. Cyclobutadiene ($4\\pi$) is antiaromatic; cyclohexane is non-aromatic."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Hydrocarbons",
+        "q": "The reagent used to convert benzene to acetophenone is:",
+        "options": [
+          "$CH_3Cl$ / anhydrous $AlCl_3$",
+          "$CH_3COCl$ / anhydrous $AlCl_3$",
+          "$CH_3CHO$ / dil. HCl",
+          "$CO + HCl$ / $AlCl_3$"
+        ],
+        "correct": 1,
+        "explanation": "Friedel-Crafts acylation of benzene with acetyl chloride ($CH_3COCl$) in the presence of anhydrous $AlCl_3$ gives acetophenone ($C_6H_5COCH_3$)."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Haloalkanes and Haloarenes",
+        "q": "Which alkyl halide undergoes $S_N1$ reaction most readily?",
+        "options": [
+          "$CH_3Cl$",
+          "$CH_3CH_2Cl$",
+          "$(CH_3)_3CCl$",
+          "$(CH_3)_2CHCl$"
+        ],
+        "correct": 2,
+        "explanation": "$S_N1$ rate depends on carbocation stability. Tert-butyl chloride forms the most stable tertiary carbocation, so it reacts fastest by the $S_N1$ mechanism."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Haloalkanes and Haloarenes",
+        "q": "Chlorobenzene is less reactive than chloroethane towards nucleophilic substitution mainly because:",
+        "options": [
+          "Chlorobenzene is non-polar",
+          "Benzene is saturated",
+          "Chlorine is more electronegative in chlorobenzene",
+          "The C-Cl bond in chlorobenzene has partial double-bond character due to resonance"
+        ],
+        "correct": 3,
+        "explanation": "In chlorobenzene, the lone pair on Cl delocalises into the ring, giving the C-Cl bond partial double-bond character. This shorter, stronger bond resists nucleophilic substitution."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Alcohols, Phenols and Ethers",
+        "q": "Phenol is more acidic than ethanol because:",
+        "options": [
+          "The phenoxide ion is stabilised by resonance",
+          "Phenol has a higher molar mass",
+          "Ethanol is insoluble in water",
+          "Phenol contains a benzene ring only"
+        ],
+        "correct": 0,
+        "explanation": "The phenoxide ion delocalises its negative charge over the aromatic ring through resonance, making it more stable than the ethoxide ion. Hence phenol is more acidic than ethanol."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Aldehydes, Ketones and Carboxylic Acids",
+        "q": "Which of the following compounds will NOT give a positive Tollens' test?",
+        "options": [
+          "Formaldehyde",
+          "Acetone",
+          "Acetaldehyde",
+          "Benzaldehyde"
+        ],
+        "correct": 1,
+        "explanation": "Tollens' reagent oxidises aldehydes (giving a silver mirror) but not ketones. Acetone is a ketone, so it gives a negative Tollens' test."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Aldehydes, Ketones and Carboxylic Acids",
+        "q": "Which carbonyl compound undergoes the Cannizzaro reaction?",
+        "options": [
+          "Acetaldehyde",
+          "Propanal",
+          "Benzaldehyde",
+          "Acetone"
+        ],
+        "correct": 2,
+        "explanation": "The Cannizzaro reaction is given by aldehydes lacking an alpha-hydrogen. Benzaldehyde has no alpha-H and undergoes self oxidation-reduction with concentrated NaOH."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Amines",
+        "q": "In aqueous solution, the correct order of basic strength of methylamine, dimethylamine and ammonia is:",
+        "options": [
+          "$NH_3 > CH_3NH_2 > (CH_3)_2NH$",
+          "$CH_3NH_2 > (CH_3)_2NH > NH_3$",
+          "$NH_3 > (CH_3)_2NH > CH_3NH_2$",
+          "$(CH_3)_2NH > CH_3NH_2 > NH_3$"
+        ],
+        "correct": 3,
+        "explanation": "In aqueous medium the order (balancing +I effect, solvation and steric factors) is $(CH_3)_2NH > CH_3NH_2 > NH_3$. Dimethylamine is the strongest base of these three in water."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Amines",
+        "q": "The carbylamine reaction (formation of foul-smelling isocyanide with $CHCl_3$ and alcoholic KOH) is a test for:",
+        "options": [
+          "Primary amines",
+          "Secondary amines",
+          "Tertiary amines",
+          "Quaternary ammonium salts"
+        ],
+        "correct": 0,
+        "explanation": "Only primary amines react with chloroform and alcoholic KOH to give foul-smelling isocyanides (carbylamines). It is a confirmatory test for primary amines."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Amines",
+        "q": "Aniline on diazotisation at $0-5^\\circ C$ with $NaNO_2/HCl$ gives:",
+        "options": [
+          "Nitrobenzene",
+          "Benzene diazonium chloride",
+          "Phenol",
+          "Chlorobenzene"
+        ],
+        "correct": 1,
+        "explanation": "Aniline reacts with nitrous acid (from $NaNO_2/HCl$) at low temperature ($0-5^\\circ C$) to form benzene diazonium chloride ($C_6H_5N_2^+Cl^-$)."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Biomolecules",
+        "q": "Which of the following is a reducing sugar?",
+        "options": [
+          "Sucrose",
+          "Starch",
+          "Glucose",
+          "Cellulose"
+        ],
+        "correct": 2,
+        "explanation": "Glucose has a free aldehyde (hemiacetal) group and reduces Tollens'/Fehling's reagent. Sucrose is non-reducing (anomeric carbons linked); starch and cellulose are polysaccharides."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Biomolecules",
+        "q": "The bond that links two amino acids in a protein is:",
+        "options": [
+          "Glycosidic bond",
+          "Phosphodiester bond",
+          "Hydrogen bond",
+          "Peptide bond"
+        ],
+        "correct": 3,
+        "explanation": "Amino acids are joined by peptide (amide) bonds formed between the carboxyl group of one amino acid and the amino group of another, with loss of water."
+      },
+      {
+        "section": "Chemistry",
+        "type": "mcq",
+        "topic": "Biomolecules",
+        "q": "Which vitamin is water-soluble and its deficiency causes scurvy?",
+        "options": [
+          "Vitamin C",
+          "Vitamin A",
+          "Vitamin D",
+          "Vitamin K"
+        ],
+        "correct": 0,
+        "explanation": "Vitamin C (ascorbic acid) is water-soluble; its deficiency causes scurvy. Vitamins A, D, and K are fat-soluble."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "The Living World",
+        "q": "In the binomial name Mangifera indica, the word 'indica' represents the:",
+        "options": [
+          "Specific epithet",
+          "Generic name",
+          "Family name",
+          "Order name"
+        ],
+        "correct": 0,
+        "explanation": "In a binomial name the first word denotes the genus (Mangifera) and the second word denotes the specific epithet (indica). NCERT calls the second component the specific epithet."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "The Living World",
+        "q": "Which taxonomic category is described as a group of related families possessing a few similar characters?",
+        "options": [
+          "Class",
+          "Order",
+          "Genus",
+          "Division"
+        ],
+        "correct": 1,
+        "explanation": "As per NCERT, Order is the assemblage of families which exhibit a few similar characters. The order Polymoniales includes families Convolvulaceae and Solanaceae."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Organisms and Populations",
+        "q": "Population growth under limited resources, regulated by the carrying capacity (K), is represented by a:",
+        "options": [
+          "J-shaped curve",
+          "Straight line",
+          "Sigmoid (S-shaped) curve",
+          "Inverted U-shaped curve"
+        ],
+        "correct": 2,
+        "explanation": "Logistic growth with limited resources gives a sigmoid (S-shaped) Verhulst-Pearl logistic curve. Exponential growth with unlimited resources gives a J-shaped curve."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Biological Classification",
+        "q": "In R.H. Whittaker's five kingdom classification, the main criteria used included all of the following EXCEPT:",
+        "options": [
+          "Cell structure",
+          "Mode of nutrition",
+          "Body organisation",
+          "Presence of a cell wall as the sole criterion"
+        ],
+        "correct": 3,
+        "explanation": "Whittaker (1969) used cell structure, body organisation, mode of nutrition, reproduction and phylogenetic relationships. Cell wall presence alone was not a criterion; it varies within kingdoms."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Biological Classification",
+        "q": "Which group is regarded as a connecting link between plants and animals, being photosynthetic in light but heterotrophic in darkness?",
+        "options": [
+          "Euglenoids",
+          "Slime moulds",
+          "Dinoflagellates",
+          "Chrysophytes"
+        ],
+        "correct": 0,
+        "explanation": "Euglenoids (e.g., Euglena) lack a cell wall (having a protein-rich pellicle), are photosynthetic in sunlight but heterotrophic in darkness — hence a bridge between plants and animals."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Biological Classification",
+        "q": "The smallest living cells known, which completely lack a cell wall and many of which are pathogenic, are the:",
+        "options": [
+          "Cyanobacteria",
+          "Mycoplasma",
+          "Actinomycetes",
+          "Archaebacteria"
+        ],
+        "correct": 1,
+        "explanation": "NCERT states Mycoplasma completely lack a cell wall, are the smallest living cells known, can survive without oxygen and many are pathogenic."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Plant Kingdom",
+        "q": "In which plant group is the dominant, free-living, photosynthetic phase the haploid gametophyte?",
+        "options": [
+          "Pteridophytes",
+          "Gymnosperms",
+          "Bryophytes",
+          "Angiosperms"
+        ],
+        "correct": 2,
+        "explanation": "In bryophytes the main plant body is the haploid gametophyte; the sporophyte is dependent on it. In pteridophytes, gymnosperms and angiosperms the diploid sporophyte is dominant."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Plant Kingdom",
+        "q": "Gymnosperms are said to bear 'naked seeds' because:",
+        "options": [
+          "Their seeds lack a testa",
+          "Seeds are formed without fertilisation",
+          "Seeds are enclosed within fruits",
+          "Ovules are not enclosed by an ovary wall and seeds remain exposed"
+        ],
+        "correct": 3,
+        "explanation": "In gymnosperms ovules are not enclosed within an ovary wall and remain exposed before and after fertilisation; the resulting seeds are 'naked', i.e., not covered by a fruit."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Plant Kingdom",
+        "q": "The red colour of members of Rhodophyceae is mainly due to the predominance of the pigment:",
+        "options": [
+          "r-phycoerythrin",
+          "Fucoxanthin",
+          "Chlorophyll b",
+          "Phycocyanin"
+        ],
+        "correct": 0,
+        "explanation": "NCERT attributes the red colour of red algae (Rhodophyceae) to the predominance of the red pigment r-phycoerythrin. Fucoxanthin is characteristic of brown algae."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Morphology of Flowering Plants",
+        "q": "Aestivation in which the margins of sepals or petals overlap one another but not in any particular direction is termed:",
+        "options": [
+          "Valvate",
+          "Imbricate",
+          "Twisted",
+          "Vexillary"
+        ],
+        "correct": 1,
+        "explanation": "In imbricate aestivation the margins overlap but not in any particular direction, as in Cassia and Gulmohur. Twisted aestivation has a regular overlapping direction."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Morphology of Flowering Plants",
+        "q": "The androecium of family Fabaceae is correctly described as:",
+        "options": [
+          "Monadelphous, with ten stamens",
+          "Polyadelphous, with many stamens",
+          "Diadelphous, with nine stamens fused and one free",
+          "Epipetalous, with five stamens"
+        ],
+        "correct": 2,
+        "explanation": "Fabaceae (papilionaceous) has a diadelphous androecium, stamens (9)+1 — nine stamens fused into one bundle and the tenth stamen remaining free."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Morphology of Flowering Plants",
+        "q": "The edible part of a coconut is the:",
+        "options": [
+          "Mesocarp",
+          "Endocarp",
+          "Epicarp",
+          "Endosperm"
+        ],
+        "correct": 3,
+        "explanation": "Coconut is a fibrous drupe; its edible white kernel and coconut water are the endosperm. The fibrous husk is the mesocarp and the hard shell is the endocarp."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Anatomy of Flowering Plants",
+        "q": "Casparian strips, band-like deposits of suberin, are characteristically present in the:",
+        "options": [
+          "Endodermis of the root",
+          "Epidermis of the leaf",
+          "Pericycle of the stem",
+          "Cortex of the root"
+        ],
+        "correct": 0,
+        "explanation": "Endodermal cells of the root bear Casparian strips — band-like thickenings of suberin on their radial and tangential walls — which regulate water entry into the vascular tissue."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Anatomy of Flowering Plants",
+        "q": "Which feature correctly distinguishes a dicot stem from a monocot stem?",
+        "options": [
+          "Vascular bundles are scattered",
+          "Vascular bundles are conjoint, collateral and open",
+          "Vascular bundles are closed and lack cambium",
+          "Ground tissue is undifferentiated"
+        ],
+        "correct": 1,
+        "explanation": "In dicot stems vascular bundles are conjoint, collateral and open (cambium present, allowing secondary growth), arranged in a ring. Monocot stems have scattered, closed bundles lacking cambium."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Anatomy of Flowering Plants",
+        "q": "The activity of the cork cambium (phellogen) produces phellem and phelloderm, which together with phellogen constitute the:",
+        "options": [
+          "Secondary xylem",
+          "Vascular cambium",
+          "Periderm",
+          "Pith"
+        ],
+        "correct": 2,
+        "explanation": "Phellogen cuts off phellem (cork) outwards and phelloderm (secondary cortex) inwards. Phellogen, phellem and phelloderm together constitute the periderm."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Cell: The Unit of Life",
+        "q": "The single-membrane-bound organelle rich in hydrolytic enzymes that are optimally active at acidic pH is the:",
+        "options": [
+          "Peroxisome",
+          "Glyoxysome",
+          "Sphaerosome",
+          "Lysosome"
+        ],
+        "correct": 3,
+        "explanation": "Lysosomes are membrane-bound vesicles formed by the Golgi apparatus, rich in hydrolytic enzymes (lipases, proteases, carbohydrases) that are optimally active at acidic pH."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Cell: The Unit of Life",
+        "q": "According to the fluid mosaic model of the plasma membrane (Singer and Nicolson, 1972), which statement is correct?",
+        "options": [
+          "The quasi-fluid nature of lipid allows lateral movement of proteins",
+          "The lipid bilayer is completely rigid",
+          "Membrane is made only of proteins",
+          "Proteins occur only on the outer surface"
+        ],
+        "correct": 0,
+        "explanation": "The fluid mosaic model holds that the quasi-fluid nature of the lipid bilayer enables lateral movement of proteins; membrane fluidity supports functions like endocytosis and cell growth."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Cell: The Unit of Life",
+        "q": "The 70S ribosomes found in prokaryotes, chloroplasts and mitochondria are composed of subunits of:",
+        "options": [
+          "60S and 40S",
+          "50S and 30S",
+          "40S and 30S",
+          "60S and 30S"
+        ],
+        "correct": 1,
+        "explanation": "A 70S ribosome consists of a larger 50S and a smaller 30S subunit. The eukaryotic 80S ribosome is made of 60S and 40S subunits."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Cell Cycle and Cell Division",
+        "q": "DNA replication (synthesis) during the cell cycle takes place in the:",
+        "options": [
+          "G1 phase",
+          "G2 phase",
+          "S phase",
+          "M phase"
+        ],
+        "correct": 2,
+        "explanation": "DNA replication occurs in the S (synthesis) phase of interphase; DNA content per cell doubles, while chromosome number stays the same."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Cell Cycle and Cell Division",
+        "q": "Synapsis (pairing of homologous chromosomes) occurs during which sub-stage of prophase I of meiosis?",
+        "options": [
+          "Leptotene",
+          "Pachytene",
+          "Diplotene",
+          "Zygotene"
+        ],
+        "correct": 3,
+        "explanation": "During zygotene the homologous chromosomes start pairing (synapsis) forming the synaptonemal complex. Crossing over occurs later, during pachytene."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Cell Cycle and Cell Division",
+        "q": "Centromeres split and sister chromatids separate to move towards opposite poles during:",
+        "options": [
+          "Anaphase of mitosis",
+          "Metaphase of mitosis",
+          "Anaphase I of meiosis",
+          "Telophase of mitosis"
+        ],
+        "correct": 0,
+        "explanation": "In mitotic anaphase the centromeres split and sister chromatids move to opposite poles. In anaphase I of meiosis, homologous chromosomes (not sister chromatids) separate."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Photosynthesis in Higher Plants",
+        "q": "The primary CO2 acceptor in the C4 (Hatch and Slack) pathway is:",
+        "options": [
+          "Ribulose-1,5-bisphosphate",
+          "Phosphoenolpyruvate",
+          "Oxaloacetate",
+          "3-phosphoglyceric acid"
+        ],
+        "correct": 1,
+        "explanation": "In C4 plants the primary CO2 acceptor in mesophyll cells is the 3-carbon molecule phosphoenolpyruvate (PEP), with PEP carboxylase as the enzyme. RuBP is the acceptor in the Calvin cycle."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Photosynthesis in Higher Plants",
+        "q": "Photolysis (splitting) of water during photosynthesis is associated with:",
+        "options": [
+          "Photosystem I on the stromal side",
+          "The stroma during the Calvin cycle",
+          "Photosystem II on the inner side of the thylakoid membrane",
+          "Photosystem I on the outer surface"
+        ],
+        "correct": 2,
+        "explanation": "Photolysis of water is linked to Photosystem II and occurs on the inner (lumen) side of the thylakoid membrane, releasing O2, protons and electrons."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Photosynthesis in Higher Plants",
+        "q": "The special leaf anatomy of C4 plants, in which bundle-sheath cells form wreath-like rings around the vascular bundles, is called:",
+        "options": [
+          "Reticulate anatomy",
+          "Dorsiventral anatomy",
+          "Isobilateral anatomy",
+          "Kranz anatomy"
+        ],
+        "correct": 3,
+        "explanation": "C4 plants show Kranz anatomy: large bundle-sheath cells form rings around vascular bundles, with many chloroplasts, thick walls and no intercellular spaces."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Respiration in Plants",
+        "q": "The net gain of ATP from the complete aerobic oxidation of one molecule of glucose, as given in NCERT, is:",
+        "options": [
+          "38",
+          "2",
+          "30",
+          "36"
+        ],
+        "correct": 0,
+        "explanation": "NCERT states a net gain of 38 ATP molecules from the complete aerobic oxidation of one glucose molecule under the assumptions specified in the text."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Respiration in Plants",
+        "q": "The Krebs cycle (citric acid cycle) takes place in the:",
+        "options": [
+          "Cytoplasm",
+          "Mitochondrial matrix",
+          "Inner mitochondrial membrane",
+          "Outer mitochondrial membrane"
+        ],
+        "correct": 1,
+        "explanation": "The Krebs cycle occurs in the mitochondrial matrix, whereas glycolysis occurs in the cytoplasm and the electron transport chain lies on the inner mitochondrial membrane."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Biodiversity and Conservation",
+        "q": "Which of the following is NOT one of the four major causes of biodiversity loss described in NCERT as the 'Evil Quartet'?",
+        "options": [
+          "Habitat loss and fragmentation",
+          "Over-exploitation",
+          "Genetic recombination",
+          "Co-extinctions"
+        ],
+        "correct": 2,
+        "explanation": "The 'Evil Quartet' — the four major causes of biodiversity loss — are habitat loss and fragmentation, over-exploitation, alien species invasions, and co-extinctions. Genetic recombination is not among them."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Plant Growth and Development",
+        "q": "Which plant hormone promotes senescence and abscission, induces seed dormancy, and is called the 'stress hormone' because it closes stomata under water stress?",
+        "options": [
+          "Gibberellin",
+          "Auxin",
+          "Cytokinin",
+          "Abscisic acid"
+        ],
+        "correct": 3,
+        "explanation": "Abscisic acid (ABA) promotes senescence and abscission, induces seed dormancy and is called the stress hormone because it closes stomata and increases stress tolerance."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Plant Growth and Development",
+        "q": "Spraying sugarcane crop with gibberellins increases yield mainly by:",
+        "options": [
+          "Increasing the length of the stem (internode elongation)",
+          "Causing rapid fruit ripening",
+          "Promoting adventitious rooting",
+          "Inducing bud dormancy"
+        ],
+        "correct": 0,
+        "explanation": "NCERT notes that gibberellins increase the length of the sugarcane stem, raising the yield by as much as 20 tonnes per acre."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Plant Growth and Development",
+        "q": "Which statement about the gaseous plant growth regulator ethylene is correct?",
+        "options": [
+          "It inhibits fruit ripening",
+          "It hastens fruit ripening and promotes senescence and abscission",
+          "It delays senescence of plant organs",
+          "It induces seed dormancy permanently"
+        ],
+        "correct": 1,
+        "explanation": "Ethylene is a gaseous PGR that hastens fruit ripening, promotes senescence and abscission, breaks seed and bud dormancy, and induces flowering in pineapple."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Sexual Reproduction in Flowering Plants",
+        "q": "The innermost wall layer of the anther, which nourishes the developing pollen grains, is the:",
+        "options": [
+          "Epidermis",
+          "Endothecium",
+          "Tapetum",
+          "Middle layer"
+        ],
+        "correct": 2,
+        "explanation": "The tapetum is the innermost anther wall layer; it nourishes developing pollen grains and its cells have dense cytoplasm, often with more than one nucleus."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Sexual Reproduction in Flowering Plants",
+        "q": "Double fertilisation in angiosperms results in the formation of the:",
+        "options": [
+          "Two diploid zygotes",
+          "Embryo and the seed coat",
+          "Two triploid endosperms",
+          "Zygote and the primary endosperm nucleus"
+        ],
+        "correct": 3,
+        "explanation": "In double fertilisation one male gamete fuses with the egg (syngamy) forming the diploid zygote, while the other fuses with the two polar nuclei (triple fusion) forming the triploid primary endosperm nucleus."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Sexual Reproduction in Flowering Plants",
+        "q": "A typical mature angiosperm embryo sac is:",
+        "options": [
+          "7-celled and 8-nucleate",
+          "8-celled and 8-nucleate",
+          "8-celled and 7-nucleate",
+          "7-celled and 7-nucleate"
+        ],
+        "correct": 0,
+        "explanation": "A mature embryo sac is 7-celled and 8-nucleate: three antipodals, two synergids, one egg cell and one central cell with two polar nuclei (8 nuclei but 7 cells)."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Principles of Inheritance and Variation",
+        "q": "The F2 phenotypic ratio obtained in a Mendelian dihybrid cross is:",
+        "options": [
+          "3:1",
+          "9:3:3:1",
+          "1:2:1",
+          "1:1:1:1"
+        ],
+        "correct": 1,
+        "explanation": "A dihybrid cross gives an F2 phenotypic ratio of 9:3:3:1, the basis of Mendel's Law of Independent Assortment."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Principles of Inheritance and Variation",
+        "q": "Incomplete dominance, where the F1 phenotype is intermediate between the two parents, is classically illustrated by flower colour in:",
+        "options": [
+          "Pisum sativum",
+          "Drosophila",
+          "Antirrhinum (snapdragon)",
+          "Lathyrus odoratus"
+        ],
+        "correct": 2,
+        "explanation": "In Antirrhinum (snapdragon), a cross of red (RR) and white (rr) gives pink (Rr) in F1 — incomplete dominance, with an intermediate F1 phenotype."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Principles of Inheritance and Variation",
+        "q": "A cross used to determine the genotype of an organism showing the dominant phenotype, by crossing it with the homozygous recessive parent, is called a:",
+        "options": [
+          "Reciprocal cross",
+          "Monohybrid cross",
+          "Back cross",
+          "Test cross"
+        ],
+        "correct": 3,
+        "explanation": "A test cross crosses an individual of unknown genotype showing the dominant phenotype with the homozygous recessive parent, revealing whether it is homozygous or heterozygous."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Molecular Basis of Inheritance",
+        "q": "Conclusive proof that DNA is the genetic material came from the bacteriophage experiments of:",
+        "options": [
+          "Hershey and Chase",
+          "Griffith",
+          "Watson and Crick",
+          "Meselson and Stahl"
+        ],
+        "correct": 0,
+        "explanation": "Hershey and Chase (1952) used radiolabelled bacteriophages (32P for DNA, 35S for protein) to show that DNA, not protein, enters the host bacterium and is the genetic material."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Molecular Basis of Inheritance",
+        "q": "In the Watson–Crick model of DNA, the number of hydrogen bonds between guanine and cytosine is:",
+        "options": [
+          "One",
+          "Three",
+          "Two",
+          "Four"
+        ],
+        "correct": 1,
+        "explanation": "Adenine pairs with thymine through two hydrogen bonds, while guanine pairs with cytosine through three hydrogen bonds, as described by the Watson–Crick double helix model."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Molecular Basis of Inheritance",
+        "q": "In the lac operon of E. coli, the repressor protein that binds to the operator is coded by the:",
+        "options": [
+          "Operator gene",
+          "z gene",
+          "i gene (regulatory gene)",
+          "Promoter"
+        ],
+        "correct": 2,
+        "explanation": "The i gene (regulatory gene) codes for the repressor protein, which binds the operator and switches off transcription of the structural genes z, y and a in the absence of lactose."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Microbes in Human Welfare",
+        "q": "The large holes in Swiss cheese are produced by a large amount of CO2 generated by the bacterium:",
+        "options": [
+          "Lactobacillus",
+          "Penicillium roqueforti",
+          "Acetobacter aceti",
+          "Propionibacterium sharmanii"
+        ],
+        "correct": 3,
+        "explanation": "NCERT states the large holes in Swiss cheese are due to a large amount of CO2 produced by a bacterium named Propionibacterium sharmanii."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Microbes in Human Welfare",
+        "q": "Rhizobium, an important biofertiliser, fixes atmospheric nitrogen while living in:",
+        "options": [
+          "Root nodules of leguminous plants",
+          "Roots of cereals",
+          "Leaves of all plants",
+          "Free soil only"
+        ],
+        "correct": 0,
+        "explanation": "Rhizobium is a symbiotic nitrogen-fixing bacterium that resides in the root nodules of leguminous plants and fixes atmospheric nitrogen into forms usable by the plant."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Microbes in Human Welfare",
+        "q": "Cyclosporin A, used as an immunosuppressive drug in organ-transplant patients, is produced by the fungus:",
+        "options": [
+          "Monascus purpureus",
+          "Trichoderma polysporum",
+          "Aspergillus niger",
+          "Penicillium notatum"
+        ],
+        "correct": 1,
+        "explanation": "Cyclosporin A, an immunosuppressant for organ-transplant patients, is produced by Trichoderma polysporum. Statins, which lower blood cholesterol, come from Monascus purpureus."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Organisms and Populations",
+        "q": "An interaction in which one species benefits while the other is neither harmed nor benefited is called:",
+        "options": [
+          "Mutualism",
+          "Parasitism",
+          "Commensalism",
+          "Competition"
+        ],
+        "correct": 2,
+        "explanation": "In commensalism one species benefits and the other is unaffected, e.g., an orchid growing as an epiphyte on a mango branch, or barnacles living on a whale."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Ecosystem",
+        "q": "A big tree supporting numerous insects and then fewer birds best exemplifies a(n):",
+        "options": [
+          "Upright pyramid of biomass",
+          "Upright pyramid of energy",
+          "Inverted pyramid of energy",
+          "Inverted pyramid of numbers"
+        ],
+        "correct": 3,
+        "explanation": "A single tree (producer) supporting a large number of insects (primary consumers) gives an inverted pyramid of numbers. The pyramid of energy is always upright."
+      },
+      {
+        "section": "Botany",
+        "type": "mcq",
+        "topic": "Biodiversity and Conservation",
+        "q": "Conservation of biodiversity by protecting whole ecosystems, as in biosphere reserves, national parks and sanctuaries, is termed:",
+        "options": [
+          "In situ conservation",
+          "Ex situ conservation",
+          "Cryopreservation",
+          "Tissue-culture conservation"
+        ],
+        "correct": 0,
+        "explanation": "In situ conservation protects species in their natural habitats by conserving whole ecosystems (biosphere reserves, national parks, sanctuaries, sacred groves). Ex situ uses botanical gardens, zoos and seed banks."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Animal Kingdom",
+        "q": "Which of the following animal groups is characterised by the presence of cnidoblasts or cnidocytes?",
+        "options": [
+          "Porifera",
+          "Coelenterata (Cnidaria)",
+          "Platyhelminthes",
+          "Ctenophora"
+        ],
+        "correct": 1,
+        "explanation": "NCERT states that Coelenterata (Cnidaria) are characterised by the presence of cnidoblasts/cnidocytes on the tentacles and body, used for anchorage, defence and capturing prey. Comb plates are the diagnostic feature of Ctenophora."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Animal Kingdom",
+        "q": "Bioluminescence (the property of a living organism to emit light) is well marked in which phylum?",
+        "options": [
+          "Coelenterata",
+          "Porifera",
+          "Aschelminthes",
+          "Ctenophora"
+        ],
+        "correct": 3,
+        "explanation": "NCERT specifically notes that bioluminescence is well marked in Ctenophora (sea walnuts / comb jellies). They are exclusively marine and use comb plates for locomotion."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Biotechnology and its Applications",
+        "q": "Gene therapy was first used in 1990 to treat a four-year-old girl suffering from a disorder caused by the deficiency of which enzyme?",
+        "options": [
+          "Adenosine deaminase (ADA)",
+          "DNA polymerase",
+          "Restriction endonuclease",
+          "Reverse transcriptase"
+        ],
+        "correct": 0,
+        "explanation": "NCERT states the first clinical gene therapy was given in 1990 to a girl with ADA (adenosine deaminase) deficiency, an enzyme crucial for the immune system; the deficiency causes Severe Combined Immunodeficiency (SCID)."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Structural Organisation in Animals",
+        "q": "The epithelium in which cells appear to be in multiple layers, but in reality all cells touch the basement membrane, is called:",
+        "options": [
+          "Stratified squamous epithelium",
+          "Pseudostratified epithelium",
+          "Compound epithelium",
+          "Transitional epithelium"
+        ],
+        "correct": 1,
+        "explanation": "NCERT describes pseudostratified epithelium where the nuclei lie at different levels giving a false (pseudo) impression of layering, yet every cell contacts the basement membrane. It lines the trachea and large bronchi."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Structural Organisation in Animals",
+        "q": "Which type of muscle tissue is striated, involuntary and uninucleate (mostly), with cells joined by intercalated discs?",
+        "options": [
+          "Skeletal muscle",
+          "Smooth muscle",
+          "Visceral muscle",
+          "Cardiac muscle"
+        ],
+        "correct": 3,
+        "explanation": "Cardiac muscle of the heart is striated and involuntary; its cells are joined end to end by intercalated discs. Skeletal muscle is striated but voluntary; smooth (visceral) muscle is unstriated and involuntary."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Structural Organisation in Animals",
+        "q": "In the cockroach, the blood vascular system is open type and the blood is colourless. The blood is called:",
+        "options": [
+          "Haemolymph",
+          "Lymph",
+          "Plasma",
+          "Serum"
+        ],
+        "correct": 0,
+        "explanation": "NCERT states the cockroach has an open circulatory system; the colourless blood (lacking respiratory pigment) is termed haemolymph and bathes the visceral organs directly in sinuses."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Biomolecules",
+        "q": "Which of the following is the most abundant protein in the animal world and the whole of the biosphere, respectively, according to NCERT?",
+        "options": [
+          "RuBisCO and collagen",
+          "Collagen and RuBisCO",
+          "Insulin and RuBisCO",
+          "Collagen and trypsin"
+        ],
+        "correct": 1,
+        "explanation": "NCERT states collagen is the most abundant protein in the animal world, whereas RuBisCO (Ribulose bisphosphate Carboxylase-Oxygenase) is the most abundant protein in the whole of the biosphere."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Biomolecules",
+        "q": "An enzyme lowers the rate of a reaction by lowering which of the following?",
+        "options": [
+          "Free energy of products",
+          "Equilibrium constant",
+          "Activation energy",
+          "Substrate concentration"
+        ],
+        "correct": 2,
+        "explanation": "NCERT explains that enzymes increase reaction rate by lowering the activation energy barrier (the energy difference between substrate and the transition state), without altering the equilibrium of the reaction."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Biomolecules",
+        "q": "The bond formed between two amino acids during protein synthesis is a:",
+        "options": [
+          "Glycosidic bond",
+          "Phosphodiester bond",
+          "Hydrogen bond",
+          "Peptide bond"
+        ],
+        "correct": 3,
+        "explanation": "NCERT states amino acids are linked by peptide bonds, formed between the carboxyl (–COOH) group of one amino acid and the amino (–NH2) group of the next. Glycosidic bonds link monosaccharides; phosphodiester bonds link nucleotides."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Digestion and Absorption",
+        "q": "Which enzyme in saliva begins the digestion of starch in the buccal cavity, and what is the approximate fraction of starch hydrolysed there?",
+        "options": [
+          "Salivary amylase; about 30%",
+          "Pepsin; about 30%",
+          "Trypsin; about 50%",
+          "Maltase; about 15%"
+        ],
+        "correct": 0,
+        "explanation": "NCERT states salivary amylase (ptyalin) hydrolyses about 30% of starch into maltose in the buccal cavity at pH 6.8. Pepsin acts on proteins in the stomach; trypsin in the small intestine."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Digestion and Absorption",
+        "q": "The proenzyme pepsinogen is converted into active pepsin by:",
+        "options": [
+          "Enterokinase",
+          "Hydrochloric acid",
+          "Bile salts",
+          "Trypsin"
+        ],
+        "correct": 1,
+        "explanation": "NCERT states HCl secreted by parietal (oxyntic) cells converts inactive pepsinogen into active pepsin and provides the acidic pH (1.8) optimal for pepsin. Enterokinase activates trypsinogen, not pepsinogen."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Digestion and Absorption",
+        "q": "Which of the following is the correct sequence of layers in the wall of the alimentary canal from outside to inside?",
+        "options": [
+          "Mucosa, submucosa, muscularis, serosa",
+          "Submucosa, serosa, mucosa, muscularis",
+          "Serosa, muscularis, submucosa, mucosa",
+          "Muscularis, serosa, mucosa, submucosa"
+        ],
+        "correct": 2,
+        "explanation": "NCERT describes four layers from outside (lumen-distal) to inside (lumen-proximal): serosa, muscularis, sub-mucosa and mucosa. The mucosa is the innermost layer lining the lumen."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Breathing and Exchange of Gases",
+        "q": "The volume of air that can be breathed in by a forced inspiration, which is the maximum amount that can be inspired, is termed:",
+        "options": [
+          "Inspiratory Reserve Volume",
+          "Vital Capacity",
+          "Total Lung Capacity",
+          "Inspiratory Capacity"
+        ],
+        "correct": 3,
+        "explanation": "Inspiratory Capacity (IC) = Tidal Volume + Inspiratory Reserve Volume, i.e., the total volume a person can inspire after a normal expiration. Vital Capacity includes expiratory reserve as well."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Breathing and Exchange of Gases",
+        "q": "What percentage of carbon dioxide is transported in the blood in the form of bicarbonate (HCO3-)?",
+        "options": [
+          "About 70%",
+          "About 7%",
+          "About 20-25%",
+          "About 97%"
+        ],
+        "correct": 0,
+        "explanation": "NCERT states about 70% of CO2 is transported as bicarbonate, around 20-25% bound to haemoglobin as carbamino-haemoglobin, and about 7% dissolved in plasma."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Breathing and Exchange of Gases",
+        "q": "The enzyme carbonic anhydrase, important in CO2 transport, is present in high concentration in:",
+        "options": [
+          "Plasma",
+          "Red blood cells",
+          "White blood cells",
+          "Platelets"
+        ],
+        "correct": 1,
+        "explanation": "NCERT states carbonic anhydrase is present in very high concentration in RBCs and in minute amounts in plasma; it catalyses the reversible reaction between CO2 and water to form carbonic acid (and then bicarbonate)."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Body Fluids and Circulation",
+        "q": "The pacemaker of the human heart, which generates the wave of contraction, is the:",
+        "options": [
+          "Atrioventricular node (AVN)",
+          "Bundle of His",
+          "Sino-atrial node (SAN)",
+          "Purkinje fibres"
+        ],
+        "correct": 2,
+        "explanation": "NCERT states the Sino-atrial node (SAN), located in the right upper corner of the right atrium, has the highest rate of action potential generation (70-75 per minute) and is therefore called the pacemaker."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Body Fluids and Circulation",
+        "q": "Universal recipients are individuals with blood group AB. This is because their blood:",
+        "options": [
+          "Has both antibodies anti-A and anti-B in plasma",
+          "Has neither antigen A nor antigen B on RBCs",
+          "Has both antigens A and B but no antibodies in plasma",
+          "Has antigen A and antibody anti-B"
+        ],
+        "correct": 2,
+        "explanation": "NCERT states group AB individuals have both antigens A and B on their RBCs but no anti-A or anti-B antibodies in plasma, so they can accept blood from all groups, making them universal recipients."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Body Fluids and Circulation",
+        "q": "Which of the following blood cells is involved in the coagulation (clotting) of blood?",
+        "options": [
+          "Erythrocytes",
+          "Lymphocytes",
+          "Eosinophils",
+          "Thrombocytes"
+        ],
+        "correct": 3,
+        "explanation": "NCERT states thrombocytes (platelets) are cell fragments produced from megakaryocytes; they release factors involved in the coagulation or clotting of blood. A reduced platelet count can lead to clotting disorders."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Excretory Products and their Elimination",
+        "q": "Humans are ureotelic, meaning the chief nitrogenous excretory product is:",
+        "options": [
+          "Urea",
+          "Ammonia",
+          "Uric acid",
+          "Amino acids"
+        ],
+        "correct": 0,
+        "explanation": "NCERT classifies humans as ureotelic; ammonia produced by metabolism is converted into less toxic urea in the liver via the ornithine cycle and excreted by the kidneys. Ammonotelic animals excrete ammonia; uricotelic animals excrete uric acid."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Excretory Products and their Elimination",
+        "q": "The process by which the proximal convoluted tubule (PCT) actively secretes H+, K+ and ammonia into the filtrate helps maintain:",
+        "options": [
+          "Glucose balance only",
+          "The ionic and acid-base balance of body fluids",
+          "Blood pressure only",
+          "Water balance only"
+        ],
+        "correct": 1,
+        "explanation": "NCERT states the PCT helps to maintain the ionic balance and acid-base balance of body fluids by selective secretion of H+, NH3 (ammonia) and K+ ions into the filtrate and by reabsorption of HCO3- from it."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Excretory Products and their Elimination",
+        "q": "The hormone that increases the reabsorption of water (facultative) from the distal parts of the tubule, thereby reducing diuresis, is:",
+        "options": [
+          "Aldosterone",
+          "Atrial Natriuretic Factor",
+          "Antidiuretic hormone (ADH)",
+          "Renin"
+        ],
+        "correct": 2,
+        "explanation": "NCERT states ADH (vasopressin) facilitates water reabsorption from the latter parts of the tubule, preventing diuresis. A fall in body fluid volume activates osmoreceptors that stimulate ADH release from the neurohypophysis."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Locomotion and Movement",
+        "q": "According to the sliding filament theory, muscle contraction occurs because:",
+        "options": [
+          "Actin filaments shorten",
+          "Myosin filaments shorten",
+          "Thin (actin) filaments slide over thick (myosin) filaments",
+          "Both filaments shorten equally"
+        ],
+        "correct": 2,
+        "explanation": "NCERT's sliding filament theory states that contraction occurs as the thin (actin) filaments slide over the thick (myosin) filaments; the length of the A-band remains constant while the I-band and H-zone shorten."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Locomotion and Movement",
+        "q": "Which protein covers the active (binding) sites on actin in a resting muscle, preventing cross-bridge formation?",
+        "options": [
+          "Myosin head",
+          "Meromyosin",
+          "Troponin only",
+          "Tropomyosin"
+        ],
+        "correct": 3,
+        "explanation": "NCERT states that in the resting state, a subunit of troponin masks the active binding sites for myosin on the actin filaments; tropomyosin runs along the actin and, with troponin, covers these sites until Ca2+ binds troponin."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Locomotion and Movement",
+        "q": "The number of bones in the human skull (cranial bones) and the total number of bones in the axial skeleton are, respectively:",
+        "options": [
+          "8 and 80",
+          "12 and 126",
+          "8 and 126",
+          "14 and 80"
+        ],
+        "correct": 0,
+        "explanation": "NCERT states the human skull is composed of 8 cranial bones (plus 14 facial bones) and the axial skeleton comprises 80 bones (skull, vertebral column, sternum and ribs)."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Neural Control and Coordination",
+        "q": "During the depolarisation phase of a nerve impulse, the membrane becomes more permeable to which ion, causing the inside to become positive?",
+        "options": [
+          "Potassium (K+)",
+          "Sodium (Na+)",
+          "Chloride (Cl-)",
+          "Calcium (Ca2+)"
+        ],
+        "correct": 1,
+        "explanation": "NCERT states that on stimulation, the membrane becomes freely permeable to Na+; the rapid influx of Na+ reverses the polarity (inside becomes positive, outside negative), producing depolarisation and the action potential."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Neural Control and Coordination",
+        "q": "Which part of the human brain is called the 'thermostat' of the body and controls hunger, thirst and body temperature?",
+        "options": [
+          "Cerebellum",
+          "Medulla oblongata",
+          "Hypothalamus",
+          "Corpus callosum"
+        ],
+        "correct": 2,
+        "explanation": "NCERT states the hypothalamus contains centres that control body temperature, urge for eating and drinking; it also secretes hormones (releasing/inhibiting). The medulla controls respiration and cardiovascular reflexes."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Neural Control and Coordination",
+        "q": "In the human eye, the photoreceptor cells that function in dim light (twilight vision) and contain the pigment rhodopsin are the:",
+        "options": [
+          "Cones",
+          "Bipolar cells",
+          "Ganglion cells",
+          "Rods"
+        ],
+        "correct": 3,
+        "explanation": "NCERT states rods contain the purplish-red pigment rhodopsin (visual purple), which contains a derivative of vitamin A, and are responsible for twilight (scotopic) vision. Cones are responsible for daylight and colour vision."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Chemical Coordination and Integration",
+        "q": "Which of the following hormones is secreted by the alpha-cells of the islets of Langerhans?",
+        "options": [
+          "Glucagon",
+          "Insulin",
+          "Somatostatin",
+          "Pancreatic polypeptide"
+        ],
+        "correct": 0,
+        "explanation": "NCERT states the islets of Langerhans contain alpha-cells secreting glucagon (a hyperglycaemic hormone) and beta-cells secreting insulin (a hypoglycaemic hormone). Glucagon stimulates glycogenolysis and gluconeogenesis."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Chemical Coordination and Integration",
+        "q": "The hormone thyroxine, secreted by the thyroid gland, requires which element for its synthesis?",
+        "options": [
+          "Iron",
+          "Iodine",
+          "Calcium",
+          "Zinc"
+        ],
+        "correct": 1,
+        "explanation": "NCERT states iodine is essential for the normal rate of synthesis of thyroid hormones (T3 and T4); its dietary deficiency leads to goitre, an enlargement of the thyroid gland."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Chemical Coordination and Integration",
+        "q": "Assertion (A): The adrenal medulla secretes adrenaline and noradrenaline, called emergency hormones. Reason (R): These catecholamines are rapidly secreted in response to stress and during emergencies. Choose the correct option.",
+        "options": [
+          "Both A and R are true and R is the correct explanation of A",
+          "Both A and R are true but R is not the correct explanation of A",
+          "A is true but R is false",
+          "A is false but R is true"
+        ],
+        "correct": 0,
+        "explanation": "NCERT states the adrenal medulla secretes adrenaline (epinephrine) and noradrenaline (norepinephrine), collectively called catecholamines. They are rapidly secreted in response to stress and are termed emergency hormones or hormones of Fight or Flight, so R correctly explains A."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Human Reproduction",
+        "q": "The process of release of an ovum from a mature Graafian follicle is called ovulation. It is induced by a surge of which hormone?",
+        "options": [
+          "Follicle Stimulating Hormone (FSH)",
+          "Progesterone",
+          "Luteinising Hormone (LH)",
+          "Oestrogen"
+        ],
+        "correct": 2,
+        "explanation": "NCERT states the rupture of the Graafian follicle and release of the ovum (ovulation) is induced by a rapid surge of LH (the LH surge) during the middle of the cycle (around the 14th day)."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Human Reproduction",
+        "q": "After ovulation, the remaining parts of the Graafian follicle transform into a structure that secretes large amounts of progesterone. This structure is the:",
+        "options": [
+          "Corpus albicans",
+          "Corpus callosum",
+          "Antrum",
+          "Corpus luteum"
+        ],
+        "correct": 3,
+        "explanation": "NCERT states the remaining parts of the Graafian follicle transform into the corpus luteum, which secretes large amounts of progesterone essential for maintenance of the endometrium needed for implantation."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Human Reproduction",
+        "q": "The fluid-filled cavity of the blastocyst is called the blastocoel, and the inner group of cells that gives rise to the embryo is the:",
+        "options": [
+          "Inner cell mass",
+          "Trophoblast",
+          "Morula",
+          "Zona pellucida"
+        ],
+        "correct": 0,
+        "explanation": "NCERT states the blastocyst has an outer trophoblast layer (which attaches to the endometrium) and an inner group of cells called the inner cell mass, which differentiates into the embryo proper."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Reproductive Health",
+        "q": "Which contraceptive method works by preventing/retarding the entry of sperms, ovulation and implantation, and also alters the quality of cervical mucus?",
+        "options": [
+          "Condoms",
+          "Oral contraceptive pills (combined)",
+          "Vasectomy",
+          "Copper-T (non-medicated IUD)"
+        ],
+        "correct": 1,
+        "explanation": "NCERT states oral pills containing progestogens (or progestogen-oestrogen combinations) inhibit ovulation and implantation, and alter the quality of cervical mucus to retard/prevent entry of sperms. Saheli is a once-a-week non-steroidal pill."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Reproductive Health",
+        "q": "The full form of the technique 'ZIFT', an assisted reproductive technology, is:",
+        "options": [
+          "Zona Intra Fallopian Transfer",
+          "Zinc Induced Fertilisation Technique",
+          "Zygote Intra Fallopian Transfer",
+          "Zygote Internal Fusion Transfer"
+        ],
+        "correct": 2,
+        "explanation": "NCERT defines ZIFT as Zygote Intra Fallopian Transfer, in which the zygote or early embryo (up to 8 blastomeres) is transferred into the fallopian tube. Transfer of an embryo with more than 8 blastomeres into the uterus is called IUT."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Reproductive Health",
+        "q": "Amniocentesis, a foetal sex-determination test based on chromosomal patterns in the amniotic fluid, is legally banned in India because it is misused for:",
+        "options": [
+          "Detecting genetic disorders",
+          "Determining blood group",
+          "Treating infertility",
+          "Female foeticide"
+        ],
+        "correct": 3,
+        "explanation": "NCERT states that although amniocentesis can detect genetic disorders, it is statutorily banned for sex determination because it is being misused to abort the normal female foetus (female foeticide)."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Human Health and Disease",
+        "q": "Malignant malaria, the most serious form, is caused by which species of Plasmodium?",
+        "options": [
+          "Plasmodium falciparum",
+          "Plasmodium vivax",
+          "Plasmodium malariae",
+          "Plasmodium ovale"
+        ],
+        "correct": 0,
+        "explanation": "NCERT states Plasmodium falciparum causes the most serious, malignant malaria, which can prove fatal. The malarial parasite is transmitted by the bite of the infected female Anopheles mosquito."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Biotechnology: Principles and Processes",
+        "q": "In recombinant DNA technology, the commonly used vector pBR322 is an example of a:",
+        "options": [
+          "Bacteriophage",
+          "Plasmid",
+          "Cosmid",
+          "Yeast artificial chromosome"
+        ],
+        "correct": 1,
+        "explanation": "NCERT describes pBR322 as a well-known plasmid cloning vector with an origin of replication (ori), selectable markers (ampicillin and tetracycline resistance genes) and recognition sites for restriction enzymes."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Human Health and Disease",
+        "q": "AIDS is caused by HIV, which primarily attacks and destroys which cells of the immune system?",
+        "options": [
+          "B-lymphocytes",
+          "Neutrophils",
+          "Helper T-lymphocytes (TH cells)",
+          "Platelets"
+        ],
+        "correct": 2,
+        "explanation": "NCERT states HIV (a retrovirus) enters macrophages and helper T-lymphocytes (TH), where it replicates; the progressive decrease in the number of helper T-cells weakens immunity, leading to AIDS."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Evolution",
+        "q": "The forelimbs of a whale, a bat, a cheetah and a human have a similar anatomical structure but perform different functions. Such organs are called:",
+        "options": [
+          "Analogous organs",
+          "Vestigial organs",
+          "Atavistic organs",
+          "Homologous organs"
+        ],
+        "correct": 3,
+        "explanation": "NCERT states that homologous organs have similar structure and origin but different functions (e.g., forelimbs of whale, bat, cheetah, human); they indicate divergent evolution. Analogous organs have different structure but similar function (convergent evolution)."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Biotechnology and its Applications",
+        "q": "Bt cotton is resistant to certain insect pests because it has been engineered to produce a toxin gene from the bacterium:",
+        "options": [
+          "Bacillus thuringiensis",
+          "Agrobacterium tumefaciens",
+          "Escherichia coli",
+          "Thermus aquaticus"
+        ],
+        "correct": 0,
+        "explanation": "NCERT states the Bt toxin gene (cry genes) has been cloned from the bacterium Bacillus thuringiensis and expressed in plants such as Bt cotton to provide resistance against insects. The protein crystals contain a toxic insecticidal protein."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Evolution",
+        "q": "The classic example of natural selection studied during industrialisation in England, involving the moth Biston betularia, is known as:",
+        "options": [
+          "Genetic drift",
+          "Industrial melanism",
+          "Adaptive radiation",
+          "Hardy-Weinberg equilibrium"
+        ],
+        "correct": 1,
+        "explanation": "NCERT describes industrial melanism: before industrialisation white-winged moths predominated; after industrialisation, dark-winged (melanic) moths were better camouflaged on soot-covered trees and were selected, illustrating natural selection."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Biotechnology: Principles and Processes",
+        "q": "Restriction endonucleases are sometimes called 'molecular scissors' because they:",
+        "options": [
+          "Join two DNA fragments",
+          "Synthesise DNA from RNA",
+          "Cut DNA at specific recognition sequences",
+          "Add nucleotides to the 3' end"
+        ],
+        "correct": 2,
+        "explanation": "NCERT states restriction endonucleases recognise a specific palindromic sequence in DNA and cut both strands a little away from the centre, producing sticky ends; this site-specific cutting earns them the name molecular scissors. DNA ligase joins fragments."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Biotechnology: Principles and Processes",
+        "q": "In Polymerase Chain Reaction (PCR), the enzyme used for the extension of primers because it can tolerate the high denaturation temperature is:",
+        "options": [
+          "DNA ligase",
+          "Restriction endonuclease",
+          "Reverse transcriptase",
+          "Taq polymerase"
+        ],
+        "correct": 3,
+        "explanation": "NCERT states PCR uses a thermostable DNA polymerase (Taq polymerase, isolated from the bacterium Thermus aquaticus) which remains active during the high temperature of denaturation, enabling repeated cycles of amplification."
+      },
+      {
+        "section": "Zoology",
+        "type": "mcq",
+        "topic": "Biotechnology and its Applications",
+        "q": "The first transgenic cow, named 'Rosie', produced human protein-enriched milk. The milk contained which human protein?",
+        "options": [
+          "Human alpha-lactalbumin",
+          "Human insulin",
+          "Human growth hormone",
+          "Human interferon"
+        ],
+        "correct": 0,
+        "explanation": "NCERT states the transgenic cow Rosie produced human protein-enriched milk (2.4 grams per litre) containing the human alpha-lactalbumin, which is nutritionally more balanced for human babies than natural cow milk."
+      }
+    ]
+  }
+}

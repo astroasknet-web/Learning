@@ -1,0 +1,960 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": 23,
+  "title": "Indefinite Integration",
+  "slug": "indefinite-integration",
+  "subtitle": "Integral Calculus: Indefinite Integration",
+  "level": "JEE Main & Advanced",
+  "color": "#ca8a04",
+  "icon": "math",
+  "seo": {
+    "meta_description": "Master Indefinite Integration for JEE Main & Advanced on GrowQR: notes, solved examples, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Foundations of Anti-Derivatives & Standard Forms",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Definition of Anti-Derivative and Algebraic Standard Integrals",
+          "concept": "<p>Indefinite integration is fundamentally defined as the inverse operation of differentiation. If $f(x)$ is a given real-valued function and there exists a function $F(x)$ such that its derivative identically satisfies $F'(x) = f(x)$ for all $x$ within a specified domain, then $F(x)$ is called an <strong>anti-derivative</strong> or a primitive of $f(x)$. Since the derivative of any real constant $C$ vanishes ($\\frac{d}{dx}[C] = 0$), the absolute generalized anti-derivative map is represented as an infinite family of curves:\n \\[ \\int f(x) \\, dx = F(x) + C \\]\n where $C \\in \\mathbb{R}$ is the arbitrary constant of integration.</p><p>A basic set of standard algebraic and transcendental integrals must be committed to memory. These form the baseline elements for complex multi-tier integral reductions:\n \\[ \\int x^n \\, dx = \\frac{x^{n+1}}{n+1} + C \\quad (n \\neq -1), \\quad \\int \\frac{1}{x} \\, dx = \\ln|x| + C \\]\n \\[ \\int e^x \\, dx = e^x + C, \\quad \\int a^x \\, dx = \\frac{a^x}{\\ln a} + C \\quad (a > 0, a \\neq 1) \\]\n \\[ \\int \\sin x \\, dx = -\\cos x + C, \\quad \\int \\cos x \\, dx = \\sin x + C \\]\n \\[ \\int \\sec^2 x \\, dx = \\tan x + C, \\quad \\int \\csc^2 x \\, dx = -\\cot x + C \\]\n \\[ \\int \\sec x \\tan x \\, dx = \\sec x + C, \\quad \\int \\csc x \\cot x \\, dx = -\\csc x + C \\]</p><p>Advanced derivatives of trigonometric parent metrics yield the log-transcendental standard extensions:\n \\[ \\int \\tan x \\, dx = \\ln|\\sec x| + C = -\\ln|\\cos x| + C \\]\n \\[ \\int \\cot x \\, dx = \\ln|\\sin x| + C \\]\n \\[ \\int \\sec x \\, dx = \\ln|\\sec x + \\tan x| + C = \\ln\\left|\\tan\\left(\\frac{x}{2} + \\frac{\\pi}{4}\\right)\\right| + C \\]\n \\[ \\int \\csc x \\, dx = \\ln|\\csc x - \\cot x| + C = \\ln\\left|\\tan\\left(\\frac{x}{2}\\right)\\right| + C \\]</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Evaluate the fundamental algebraic integral: $\\int \\left(3x^5 - \\frac{2}{x} + 4e^x - 5^x\\right) \\, dx$.</p>",
+              "solution": "<p>By applying the linearity property of integration, we distribute the integral across the independent operational terms:\n \\[ \\int \\left(3x^5 - \\frac{2}{x} + 4e^x - 5^x\\right) \\, dx = 3\\int x^5 \\, dx - 2\\int \\frac{1}{x} \\, dx + 4\\int e^x \\, dx - \\int 5^x \\, dx \\]\n Apply the standard power rule, exponential formulas, and logarithmic denominator results to each term:\n \\[ = 3\\left(\\frac{x^6}{6}\\right) - 2\\ln|x| + 4e^x - \\frac{5^x}{\\ln 5} + C \\]\n Simplify the leading algebraic fraction coefficient:\n \\[ = \\frac{1}{2}x^6 - 2\\ln|x| + 4e^x - \\frac{5^x}{\\ln 5} + C \\]\n <strong>Final Answer:</strong> $\\frac{1}{2}x^6 - 2\\ln|x| + 4e^x - \\frac{5^x}{\\ln 5} + C$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Evaluate the trigonometric standard integral expression $\\int \\frac{\\cos 2x}{\\cos^2 x \\sin^2 x} \\, dx$:",
+              "options": [
+                "$\\tan x + \\cot x + C$",
+                "$-\\cot x - \\tan x + C$",
+                "$\\sec x - \\csc x + C$",
+                "$-\\tan x + \\cot x + C$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The integral $\\int \\tan^2 x \\, dx$ evaluates directly to:",
+              "options": [
+                "$\\frac{1}{3}\\tan^3 x + C$",
+                "$\\tan x - x + C$",
+                "$\\tan x + x + C$",
+                "$-\\cot x - x + C$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the anti-derivative structural resolution for $\\int \\frac{x^4 + x^2 + 1}{x^2 - x + 1} \\, dx$:",
+              "options": [
+                "$\\frac{1}{3}x^3 + \\frac{1}{2}x^2 + x + C$",
+                "$\\frac{1}{3}x^3 - \\frac{1}{2}x^2 + x + C$",
+                "$\\frac{1}{3}x^3 + \\frac{1}{2}x^2 - x + C$",
+                "$x^3 + x^2 + x + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the exponential form integral $\\int \\frac{a^{x+1} - b^{x-1}}{a^x b^x} \\, dx$:",
+              "options": [
+                "$\\frac{a}{\\ln(1/b)} b^{-x} - \\frac{1}{b \\ln(a/b)} (a/b)^x + C$",
+                "$\\frac{a}{\\ln(a/b)} (a/b)^x + \\frac{1}{b \\ln(1/a)} (1/a)^x + C$",
+                "$-\\frac{a}{b^x \\ln b} - \\frac{b}{a^x \\ln a} + C$",
+                "$-\\frac{a}{\\ln b} b^{-x} - \\frac{1}{b \\ln(a)} a^{-x} + C$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "Find the general value of the functional profile $\\int (\\sin^4 x - \\cos^4 x) \\, dx$:",
+              "options": [
+                "$-\\frac{1}{2}\\sin 2x + C$",
+                "$\\frac{1}{2}\\cos 2x + C$",
+                "$\\frac{1}{2}\\sin 2x + C$",
+                "$-\\frac{1}{2}\\cos 2x + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Inverse Trigonometric and Hyperbolic Radical Standard Forms",
+          "concept": "<p>Standard algebraic expressions containing quadratic radical variables under denominators cannot be solved using simple polynomial integration. Instead, they require inverse trigonometric and log-radical primitive formulas. Memorizing these standard forms is essential for solving more advanced rational quadratics:\n \\[ \\int \\frac{1}{\\sqrt{a^2 - x^2}} \\, dx = \\sin^{-1}\\left(\\frac{x}{a}\\right) + C \\]\n \\[ \\int \\frac{1}{a^2 + x^2} \\, dx = \\frac{1}{a} \\tan^{-1}\\left(\\frac{x}{a}\\right) + C \\]\n \\[ \\int \\frac{1}{x^2 - a^2} \\, dx = \\frac{1}{2a} \\ln\\left|\\frac{x - a}{x + a}\\right| + C \\]\n \\[ \\int \\frac{1}{\\sqrt{x^2 + a^2}} \\, dx = \\ln\\left|x + \\sqrt{x^2 + a^2}\\right| + C = \\sinh^{-1}\\left(\\frac{x}{a}\\right) + C \\]\n \\[ \\int \\frac{1}{\\sqrt{x^2 - a^2}} \\, dx = \\ln\\left|x + \\sqrt{x^2 - a^2}\\right| + C = \\cosh^{-1}\\left(\\frac{x}{a}\\right) + C \\]</p><p>When evaluating these integrals in competitive exams, look out for the sign of the variable and constant terms. A mismatch can lead to a completely incorrect function type (e.g., mistaking an inverse sine form for a logarithmic radical form).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Evaluate the quadratic rational expression: $\\int \\frac{1}{4x^2 - 9} \\, dx$.</p>",
+              "solution": "<p>First, normalize the leading coefficient of the quadratic variable by factoring out 4 from the denominator to match the standard form exactly:\n \\[ \\int \\frac{1}{4x^2 - 9} \\, dx = \\frac{1}{4} \\int \\frac{1}{x^2 - \\frac{9}{4}} \\, dx = \\frac{1}{4} \\int \\frac{1}{x^2 - \\left(\\frac{3}{2}\\right)^2} \\, dx \\]\n This matches the standard form $\\int \\frac{1}{x^2 - a^2} \\, dx$ where $a = \\frac{3}{2}$. Apply the standard formula:\n \\[ = \\frac{1}{4} \\cdot \\left[ \\frac{1}{2\\left(\\frac{3}{2}\\right)} \\ln\\left|\\frac{x - \\frac{3}{2}}{x + \\frac{3}{2}}\\right| \\right] + C \\]\n Simplify the fraction constants and the algebraic argument inside the log term:\n \\[ = \\frac{1}{4} \\cdot \\left[ \\frac{1}{3} \\ln\\left|\\frac{2x - 3}{2x + 3}\\right| \\right] + C = \\frac{1}{12} \\ln\\left|\\frac{2x - 3}{2x + 3}\\right| + C \\]\n <strong>Final Answer:</strong> $\\frac{1}{12} \\ln\\left|\\frac{2x - 3}{2x + 3}\\right| + C$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Evaluate the structural radical expression $\\int \\frac{1}{\\sqrt{16 - 9x^2}} \\, dx$:",
+              "options": [
+                "$\\frac{1}{3}\\sin^{-1}\\left(\\frac{3x}{4}\\right) + C$",
+                "$\\frac{1}{4}\\sin^{-1}\\left(\\frac{3x}{4}\\right) + C$",
+                "$\\sin^{-1}\\left(\\frac{3x}{4}\\right) + C$",
+                "$\\frac{1}{3}\\ln\\left|3x + \\sqrt{16-9x^2}\\right| + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The integration result for $\\int \\frac{1}{x^2 + 5} \\, dx$ matches:",
+              "options": [
+                "$\\frac{1}{5}\\tan^{-1}\\left(\\frac{x}{5}\\right) + C$",
+                "$\\frac{1}{\\sqrt{5}}\\tan^{-1}\\left(\\frac{x}{\\sqrt{5}}\\right) + C$",
+                "$\\ln\\left|x + \\sqrt{x^2+5}\\right| + C$",
+                "$\\frac{1}{2\\sqrt{5}}\\ln\\left|\\frac{x-\\sqrt{5}}{x+\\sqrt{5}}\\right| + C$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the structural output value of the integral $\\int \\frac{1}{\\sqrt{4x^2 + 25}} \\, dx$:",
+              "options": [
+                "$\\frac{1}{2}\\ln\\left|2x + \\sqrt{4x^2 + 25}\\right| + C$",
+                "$\\ln\\left|2x + \\sqrt{4x^2 + 25}\\right| + C$",
+                "$\\frac{1}{5}\\tan^{-1}\\left(\\frac{2x}{5}\\right) + C$",
+                "$\\frac{1}{2}\\sin^{-1}\\left(\\frac{2x}{5}\\right) + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the standard radical subtraction form $\\int \\frac{1}{\\sqrt{5x^2 - 20}} \\, dx$:",
+              "options": [
+                "$\\frac{1}{\\sqrt{5}}\\sin^{-1}\\left(\\frac{x}{2}\\right) + C$",
+                "$\\frac{1}{\\sqrt{5}}\\ln\\left|x + \\sqrt{x^2 - 4}\\right| + C$",
+                "$\\ln\\left|x + \\sqrt{x^2 - 4}\\right| + C$",
+                "$\\frac{1}{2\\sqrt{5}}\\ln\\left|\\frac{x-2}{x+2}\\right| + C$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Solve the specific inverted metric form $\\int \\frac{1}{25 - x^2} \\, dx$:",
+              "options": [
+                "$\\frac{1}{10}\\ln\\left|\\frac{5-x}{5+x}\\right| + C$",
+                "$\\frac{1}{10}\\ln\\left|\\frac{5+x}{5-x}\\right| + C$",
+                "$\\frac{1}{5}\\tan^{-1}\\left(\\frac{x}{5}\\right) + C$",
+                "$\\sin^{-1}\\left(\\frac{x}{5}\\right) + C$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Substitution Theory & Advanced Geometric Mappings",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Method of Variable Substitution and Standard Target Differentials",
+          "concept": "<p>When an integrand cannot be integrated directly using standard forms, you can often transform it by changing the variable of integration. The <strong>Method of Substitution</strong> simplifies an integral by changing the variable $x$ to a new variable $u$ using a transformation function $x = g(u)$. By applying the chain rule to this transformation, the differential term becomes $dx = g'(u) \\, du$. This maps the entire expression into a simpler form:\n \\[ \\int f(g(x)) \\cdot g'(x) \\, dx = \\int f(u) \\, du \\]\n where $u = g(x)$ and $du = g'(x) \\, dx$.</p>To apply this technique successfully, look for a key functional component $g(x)$ inside the integrand whose corresponding derivative $g'(x)$ is also present as a multiplicative factor. Common substitution pairs include:\n <ul>\n <li>Substitute $u = \\ln x \\implies du = \\frac{1}{x} \\, dx$\n <li>Substitute $u = e^x \\implies du = e^x \\, dx$\n <li>Substitute $u = \\tan^{-1} x \\implies du = \\frac{1}{1+x^2} \\, dx$\n <li>Substitute $u = a x^2 + b x + c \\implies du = (2ax + b) \\, dx$\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Evaluate the following transcendental substitution integral: $\\int \\frac{\\sin(\\tan^{-1} x)}{1 + x^2} \\, dx$.</p>",
+              "solution": "Analyze the integrand to find a function and its derivative. The derivative of $\\tan^{-1} x$ is $\\frac{1}{1+x^2}$, which matches the denominator factor.\n <ul>\n <li>Set the substitution variable to: $u = \\tan^{-1} x$\n <li>Compute the differential term: $du = \\frac{1}{1+x^2} \\, dx$\n </ul>\n Substitute $u$ and $du$ back into the original integral expression:\n \\[ \\int \\sin(\\tan^{-1} x) \\cdot \\left(\\frac{1}{1+x^2} \\, dx\\right) = \\int \\sin u \\, du \\]\n Integrate this standard trigonometric form directly:\n \\[ = -\\cos u + C \\]\n Substitute the original variable expression back in place of $u$ to get the final answer:\n \\[ = -\\cos(\\tan^{-1} x) + C \\]\n <strong>Final Answer:</strong> $-\\cos(\\tan^{-1} x) + C$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Evaluate the log-fractional substitution integral $\\int \\frac{(\\ln x)^3}{x} \\, dx$:",
+              "options": [
+                "$\\frac{1}{4}(\\ln x)^4 + C$",
+                "$3(\\ln x)^2 + C$",
+                "$\\frac{1}{4x}(\\ln x)^4 + C$",
+                "$(\\ln x)^4 + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Solve the exponential substitution form $\\int x^2 e^{x^3} \\, dx$:",
+              "options": [
+                "$e^{x^3} + C$",
+                "$\\frac{1}{3} e^{x^3} + C$",
+                "$3e^{x^3} + C$",
+                "$\\frac{1}{2} x^3 e^{x^3} + C$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Find the integration value of $\\int \\frac{\\sec^2(\\ln x)}{x} \\, dx$:",
+              "options": [
+                "$\\tan(\\ln x) + C$",
+                "$\\sec(\\ln x) + C$",
+                "$-\\tan(\\ln x) + C$",
+                "$\\frac{\\tan(\\ln x)}{x} + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the nested radical substitution expression $\\int \\frac{1}{x \\sqrt{\\ln x}} \\, dx$:",
+              "options": [
+                "$\\sqrt{\\ln x} + C$",
+                "$2\\sqrt{\\ln x} + C$",
+                "$\\frac{1}{2}\\sqrt{\\ln x} + C$",
+                "$\\ln|\\ln x| + C$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Solve the fractional trigonometric substitution form $\\int \\frac{\\sin x}{1 + \\cos^2 x} \\, dx$:",
+              "options": [
+                "$\\tan^{-1}(\\cos x) + C$",
+                "$-\\tan^{-1}(\\cos x) + C$",
+                "$\\ln|1 + \\cos^2 x| + C$",
+                "$-\\ln|\\sec x + \\tan x| + C$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Trigonometric and Weierstrass Half-Angle Substitutions",
+          "concept": "When integrands contain quadratic radicals like $\\sqrt{a^2 \\pm x^2}$ or $\\sqrt{x^2 - a^2}$, you can remove the radical by using trigonometric substitutions. These substitutions use standard trigonometric identities to simplify the radical terms:\n <ul>\n <li>For $\\sqrt{a^2 - x^2}$, substitute $x = a\\sin\\theta \\implies dx = a\\cos\\theta \\, d\\theta$. This simplifies the radical using the identity $\\sqrt{a^2 - a^2\\sin^2\\theta} = a\\cos\\theta$.\n <li>For $\\sqrt{a^2 + x^2}$, substitute $x = a\\tan\\theta \\implies dx = a\\sec^2\\theta \\, d\\theta$. This simplifies the radical using the identity $\\sqrt{a^2 + a^2\\tan^2\\theta} = a\\sec\\theta$.\n <li>For $\\sqrt{x^2 - a^2}$, substitute $x = a\\sec\\theta \\implies dx = a\\sec\\theta\\tan\\theta \\, d\\theta$. This simplifies the radical using the identity $\\sqrt{a^2\\sec^2\\theta - a^2} = a\\tan\\theta$.\n </ul><p>For rational fractions containing sine and cosine terms in the denominator, like $\\int \\frac{1}{a + b\\cos x + c\\sin x} \\, dx$, use the <strong>Weierstrass substitution</strong>. This technique uses the half-angle tangent substitution $t = \\tan\\left(\\frac{x}{2}\\right)$ to transform trigonometric rational functions into standard algebraic fractions. The corresponding trigonometric terms change as follows:\n \\[ \\sin x = \\frac{2t}{1+t^2}, \\quad \\cos x = \\frac{1-t^2}{1+t^2}, \\quad dx = \\frac{2}{1+t^2} \\, dt \\]</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Evaluate the radical algebraic form $\\int \\frac{1}{(5 - x^2)^{3/2}} \\, dx$ using trigonometric substitution.</p>",
+              "solution": "The expression contains the structural radical form $\\sqrt{a^2 - x^2}$ where $a = \\sqrt{5}$. \n <ul>\n <li>Substitute the variable: $x = \\sqrt{5}\\sin\\theta$\n <li>Compute the differential: $dx = \\sqrt{5}\\cos\\theta \\, d\\theta$\n </ul>\n Substitute these expressions into the denominator term:\n \\[ (5 - x^2) = 5 - 5\\sin^2\\theta = 5(1 - \\sin^2\\theta) = 5\\cos^2\\theta \\]\n Now substitute these terms back into the integral expression:\n \\[ \\int \\frac{\\sqrt{5}\\cos\\theta}{(5\\cos^2\\theta)^{3/2}} \\, d\\theta = \\int \\frac{\\sqrt{5}\\cos\\theta}{5\\sqrt{5}\\cos^3\\theta} \\, d\\theta = \\int \\frac{1}{5\\cos^2\\theta} \\, d\\theta = \\frac{1}{5}\\int \\sec^2\\theta \\, d\\theta \\]\n Integrate this standard form directly:\n \\[ = \\frac{1}{5}\\tan\\theta + C \\]\n Convert the result back to the original variable $x$. Since $\\sin\\theta = \\frac{x}{\\sqrt{5}}$, construct a right triangle where the opposite side is $x$ and the hypotenuse is $\\sqrt{5}$. This gives an adjacent side length of $\\sqrt{5 - x^2}$. Therefore, $\\tan\\theta = \\frac{x}{\\sqrt{5 - x^2}}$.\n \\[ = \\frac{1}{5} \\cdot \\left(\\frac{x}{\\sqrt{5 - x^2}}\\right) + C \\]\n <strong>Final Answer:</strong> $\\frac{x}{5\\sqrt{5 - x^2}} + C$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Evaluate the radical functional integral $\\int \\frac{1}{x^2 \\sqrt{1 - x^2}} \\, dx$:",
+              "options": [
+                "$-\\frac{\\sqrt{1-x^2}}{x} + C$",
+                "$\\frac{\\sqrt{1-x^2}}{x} + C$",
+                "$-\\frac{x}{\\sqrt{1-x^2}} + C$",
+                "$-\\sin^{-1} x + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the specific rational form $\\int \\frac{1}{1 + \\cos x} \\, dx$ using half-angle substitution:",
+              "options": [
+                "$\\tan\\left(\\frac{x}{2}\\right) + C$",
+                "$\\frac{1}{2}\\tan\\left(\\frac{x}{2}\\right) + C$",
+                "$-\\cot\\left(\\frac{x}{2}\\right) + C$",
+                "$\\ln|1 + \\cos x| + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Solve the radical fraction integral $\\int \\frac{1}{(x^2 + 4)^2} \\, dx$:",
+              "options": [
+                "$\\frac{1}{16}\\tan^{-1}\\left(\\frac{x}{2}\\right) + \\frac{x}{8(x^2+4)} + C$",
+                "$\\frac{1}{8}\\tan^{-1}\\left(\\frac{x}{2}\\right) + \\frac{x}{4(x^2+4)} + C$",
+                "$\\frac{1}{16}\\tan^{-1}\\left(\\frac{x}{2}\\right) - \\frac{x}{8(x^2+4)} + C$",
+                "$\\frac{1}{4}\\tan^{-1}\\left(\\frac{x}{2}\\right) + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the Weierstrass target form integral $\\int \\frac{1}{3 + 5\\sin x} \\, dx$:",
+              "options": [
+                "$\\frac{1}{4}\\ln\\left|\\frac{3\\tan(x/2) + 1}{3\\tan(x/2) + 9}\\right| + C$",
+                "$\\frac{1}{4}\\ln\\left|\\frac{3\\tan(x/2) + 1}{\\tan(x/2) + 3}\\right| + C$",
+                "$\\frac{1}{2}\\tan^{-1}\\left(\\frac{\\tan(x/2)}{3}\\right) + C$",
+                "$\\frac{1}{4}\\ln\\left|\\frac{\\tan(x/2) + 3}{3\\tan(x/2) + 1}\\right| + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Solve the absolute algebraic metric form $\\int \\frac{1}{x \\sqrt{x^2 - 9}} \\, dx$:",
+              "options": [
+                "$\\frac{1}{3}\\sec^{-1}\\left(\\frac{x}{3}\\right) + C$",
+                "$\\sec^{-1}\\left(\\frac{x}{3}\\right) + C$",
+                "$\\frac{1}{3}\\sin^{-1}\\left(\\frac{3}{x}\\right) + C$",
+                "$\\ln\\left|x + \\sqrt{x^2-9}\\right| + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Integration by Parts & Transcendental Simplification",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Integration by Parts and the ILATE Priority Rule",
+          "concept": "<p><strong>Integration by Parts (IBP)</strong> is derived by reversing the product rule for differentiation. For two differentiable functions $u(x)$ and $v(x)$, the product rule states that $\\frac{d}{dx}[uv] = u \\frac{dv}{dx} + v \\frac{du}{dx}$. Integrating both sides of this equation yields the standard Integration by Parts formula:\n \\[ \\int u \\, dv = uv - \\int v \\, du \\]\n Alternatively, written in terms of functions $f(x)$ and $g(x)$:\n \\[ \\int f(x) g(x) \\, dx = f(x) \\int g(x) \\, dx - \\int \\left[ f'(x) \\int g(x) \\, dx \\right] \\, dx \\]</p>To choose which function serves as the first function $f(x)$ (which is differentiated) versus the second function $g(x)$ (which is integrated), apply the <strong>ILATE priority rule</strong>. Functions appearing earlier in this list are prioritized as the first function $f(x)$:\n <ul>\n <li><strong>I:</strong> Inverse Trigonometric functions (e.g., $\\sin^{-1} x, \\tan^{-1} x$)\n <li><strong>L:</strong> Logarithmic functions (e.g., $\\ln x, \\log_a x$)\n <li><strong>A:</strong> Algebraic functions (e.g., $x^2, 3x, x^n$)\n <li><strong>T:</strong> Trigonometric functions (e.g., $\\sin x, \\cos x$)\n <li><strong>E:</strong> Exponential functions (e.g., $e^x, 2^x$)\n </ul><p>A key shortcut form often tested in JEE Advanced involves the exponential product structure:\n \\[ \\int e^x [f(x) + f'(x)] \\, dx = e^x f(x) + C \\]\n This structure resolves instantly by distributing the integral and applying IBP to the $\\int e^x f(x) \\, dx$ component.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Evaluate the following transcendental product integral: $\\int x^2 \\ln x \\, dx$.</p>",
+              "solution": "Apply the ILATE priority rule to choose the functions. Since Logarithmic functions (L) outrank Algebraic functions (A) in the priority list, choose the functions as follows:\n <ul>\n <li>First Function: $f(x) = \\ln x \\implies f'(x) = \\frac{1}{x}$\n <li>Second Function: $g(x) = x^2 \\implies \\int g(x) \\, dx = \\frac{x^3}{3}$\n </ul>\n Apply the Integration by Parts formula:\n \\[ \\int x^2 \\ln x \\, dx = (\\ln x) \\cdot \\left(\\frac{x^3}{3}\\right) - \\int \\left(\\frac{1}{x} \\cdot \\frac{x^3}{3}\\right) \\, dx \\]\n Simplify the integrand in the remaining integral term:\n \\[ = \\frac{x^3}{3}\\ln x - \\frac{1}{3}\\int x^2 \\, dx \\]\n Integrate the remaining algebraic term to find the final answer:\n \\[ = \\frac{x^3}{3}\\ln x - \\frac{1}{3}\\left(\\frac{x^3}{3}\\right) + C = \\frac{x^3}{3}\\ln x - \\frac{x^3}{9} + C \\]\n <strong>Final Answer:</strong> $\\frac{x^3}{3}\\ln x - \\frac{x^3}{9} + C$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Evaluate the core standard logarithmic form integral $\\int \\ln x \\, dx$:",
+              "options": [
+                "$\\frac{1}{x} + C$",
+                "$x\\ln x - x + C$",
+                "$x\\ln x + x + C$",
+                "$\\frac{1}{2}(\\ln x)^2 + C$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the specific exponential shortcut form $\\int e^x \\left(\\frac{1}{x} - \\frac{1}{x^2}\\right) \\, dx$:",
+              "options": [
+                "$\\frac{e^x}{x^2} + C$",
+                "$\\frac{e^x}{x} + C$",
+                "$-e^x \\ln|x| + C$",
+                "$e^x \\ln|x| + C$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Solve the algebraic trigonometric product integral $\\int x \\cos x \\, dx$:",
+              "options": [
+                "$x\\sin x + \\cos x + C$",
+                "$x\\sin x - \\cos x + C$",
+                "$-x\\sin x + \\cos x + C$",
+                "$x\\cos x - \\sin x + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the inverse trigonometric form $\\int \\tan^{-1} x \\, dx$:",
+              "options": [
+                "$x\\tan^{-1} x - \\frac{1}{2}\\ln|1+x^2| + C$",
+                "$x\\tan^{-1} x + \\frac{1}{2}\\ln|1+x^2| + C$",
+                "$\\frac{1}{1+x^2} + C$",
+                "$x\\tan^{-1} x - \\ln|1+x^2| + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Solve the mixed exponential trigonometric integral $\\int e^x \\sin x \\, dx$:",
+              "options": [
+                "$\\frac{e^x}{2}(\\sin x - \\cos x) + C$",
+                "$\\frac{e^x}{2}(\\sin x + \\cos x) + C$",
+                "$e^x(\\cos x - \\sin x) + C$",
+                "$-e^x \\cos x + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Successive Reductions and Iterated Integration Formulae",
+          "concept": "<p>When integrands contain high integer powers of transcendental functions, like $\\int \\sin^n x \\, dx$ or $\\int \\tan^n x \\, dx$, evaluating them directly can be difficult. Instead, we use <strong>Reduction Formulae</strong> to express an integral containing a power $n$ in terms of a lower-power version of the same integral structure (such as $n-2$ or $n-1$). These formulas are derived by applying Integration by Parts or using standard trigonometric identities.</p><p>Let us analyze the derivation for $I_n = \\int \\sin^n x \\, dx$. Split the integrand into two factors:\n \\[ I_n = \\int \\sin^{n-1} x \\cdot \\sin x \\, dx \\]\n Apply Integration by Parts, choosing $u = \\sin^{n-1} x$ and $dv = \\sin x \\, dx$:\n \\[ I_n = -\\sin^{n-1} x \\cos x - \\int \\left( (n-1)\\sin^{n-2} x \\cos x \\cdot (-\\cos x) \\right) \\, dx \\]\n \\[ I_n = -\\sin^{n-1} x \\cos x + (n-1)\\int \\sin^{n-2} x \\cos^2 x \\, dx \\]\n Substitute the identity $\\cos^2 x = 1 - \\sin^2 x$ into the remaining integral term:\n \\[ I_n = -\\sin^{n-1} x \\cos x + (n-1)\\int \\sin^{n-2} x (1 - \\sin^2 x) \\, dx \\]\n \\[ I_n = -\\sin^{n-1} x \\cos x + (n-1)I_{n-2} - (n-1)I_n \\]\n Collect all $I_n$ terms on the left side of the equation and solve for $I_n$ to find the final reduction formula:\n \\[ I_n(1 + n - 1) = -\\sin^{n-1} x \\cos x + (n-1)I_{n-2} \\implies I_n = -\\frac{\\sin^{n-1} x \\cos x}{n} + \\frac{n-1}{n} I_{n-2} \\]</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Derive the reduction formula for $I_n = \\int \\tan^n x \\, dx$ and use it to evaluate $\\int \\tan^4 x \\, dx$.</p>",
+              "solution": "<p>To find the reduction formula for tangent powers, separate a $\\tan^2 x$ factor from the integrand rather than using IBP directly:\n \\[ I_n = \\int \\tan^{n-2} x \\cdot \\tan^2 x \\, dx \\]\n Substitute the trigonometric identity $\\tan^2 x = \\sec^2 x - 1$:\n \\[ I_n = \\int \\tan^{n-2} x (\\sec^2 x - 1) \\, dx = \\int \\tan^{n-2} x \\sec^2 x \\, dx - \\int \\tan^{n-2} x \\, dx \\]\n The first integral can be solved using the substitution $u = \\tan x \\implies du = \\sec^2 x \\, dx$. The second integral matches the definition of $I_{n-2}$.\n \\[ I_n = \\frac{\\tan^{n-1} x}{n-1} - I_{n-2} \\quad \\text{--- (General Reduction Formula)} \\]\n Now use this reduction formula to evaluate the specific case where $n = 4$:\n \\[ I_4 = \\frac{\\tan^3 x}{3} - I_2 \\]\n Apply the formula a second time to evaluate the remaining $I_2$ term:\n \\[ I_2 = \\frac{\\tan x}{1} - I_0 \\]\n where $I_0 = \\int \\tan^0 x \\, dx = \\int 1 \\, dx = x$. Substitute $I_2$ back into the equation for $I_4$:\n \\[ I_4 = \\frac{\\tan^3 x}{3} - \\left(\\tan x - x\\right) + C = \\frac{1}{3}\\tan^3 x - \\tan x + x + C \\]\n <strong>Final Answer:</strong> $\\frac{1}{3}\\tan^3 x - \\tan x + x + C$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "For the reduction form $I_n = \\int \\cos^n x \\, dx$, the corresponding operational relationship is:",
+              "options": [
+                "$I_n = \\frac{\\cos^{n-1} x \\sin x}{n} + \\frac{n-1}{n} I_{n-2}$",
+                "$I_n = -\\frac{\\cos^{n-1} x \\sin x}{n} + \\frac{n-1}{n} I_{n-2}$",
+                "$I_n = \\frac{\\cos^{n-1} x \\sin x}{n} + \\frac{n-1}{n} I_{n-1}$",
+                "$I_n = \\frac{\\sin^{n-1} x \\cos x}{n} + \\frac{n-1}{n} I_{n-2}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the definite power integral $\\int \\tan^3 x \\, dx$ using reduction logic:",
+              "options": [
+                "$\\frac{1}{2}\\tan^2 x - \\ln|\\sec x| + C$",
+                "$\\frac{1}{2}\\tan^2 x + \\ln|\\cos x| + C$",
+                "$\\frac{1}{3}\\tan^3 x - \\tan x + C$",
+                "$\\tan^2 x - \\ln|\\sec x| + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $I_n = \\int (\\ln x)^n \\, dx$, the corresponding reduction relationship matches:",
+              "options": [
+                "$I_n = x(\\ln x)^n - n I_{n-1}$",
+                "$I_n = x(\\ln x)^n + n I_{n-1}$",
+                "$I_n = (\\ln x)^n - n I_{n-1}$",
+                "$I_n = x(\\ln x)^n - I_{n-1}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the secant power reduction structural form for $I_n = \\int \\sec^n x \\, dx$:",
+              "options": [
+                "$I_n = \\frac{\\sec^{n-2} x \\tan x}{n-1} + \\frac{n-2}{n-1} I_{n-2}$",
+                "$I_n = \\frac{\\sec^{n-1} x \\tan x}{n} + \\frac{n-1}{n} I_{n-2}$",
+                "$I_n = \\frac{\\sec^{n-2} x \\tan x}{n-2} + \\frac{n-1}{n-2} I_{n-2}$",
+                "$I_n = \\frac{\\tan^{n-2} x \\sec x}{n-1} + I_{n-2}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the exact structural output value for $\\int \\sin^3 x \\, dx$:",
+              "options": [
+                "$-\\frac{1}{3}\\sin^2 x \\cos x - \\frac{2}{3}\\cos x + C$",
+                "$-\\frac{1}{3}\\sin^2 x \\cos x + \\frac{2}{3}\\cos x + C$",
+                "$-\\cos x + \\frac{1}{3}\\cos^3 x + C$",
+                "$\\frac{3}{4}\\cos x - \\frac{1}{12}\\cos 3x + C$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Rational Systems & Partial Fraction Decompositions",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Method of Partial Fractions for Rational Decompositions",
+          "concept": "<p>A rational function is defined as a ratio of two polynomials, $R(x) = \\frac{P(x)}{Q(x)}$. If the degree of the numerator polynomial $P(x)$ is strictly less than the degree of the denominator polynomial $Q(x)$, $R(x)$ is a <strong>proper rational function</strong>. If the degree of $P(x)$ is greater than or equal to the degree of $Q(x)$, it is an <strong>improper rational function</strong>. Improper rational functions must first be transformed using polynomial long division:\n \\[ \\frac{P(x)}{Q(x)} = S(x) + \\frac{T(x)}{Q(x)} \\]\n where $S(x)$ is the polynomial quotient and $\\frac{T(x)}{Q(x)}$ is a proper rational remainder fraction.</p>Proper rational functions can be broken down into sums of simpler fractions using <strong>Partial Fraction Decomposition</strong>. The setup for the decomposition depends on how the denominator polynomial $Q(x)$ factors over real coefficients:\n <ul>\n <li><strong>Distinct Linear Factors:</strong> If $Q(x) = (x-a)(x-b)$, set up the decomposition as:\n \\[ \\frac{T(x)}{(x-a)(x-b)} = \\frac{A}{x-a} + \\frac{B}{x-b} \\]\n <li><strong>Repeated Linear Factors:</strong> If $Q(x) = (x-a)^2(x-b)$, include a partial fraction term for every power of the repeated factor up to its multiplicity:\n \\[ \\frac{T(x)}{(x-a)^2(x-b)} = \\frac{A}{x-a} + \\frac{B}{(x-a)^2} + \\frac{C}{x-b} \\]\n <li><strong>Irreducible Quadratic Factors:</strong> If $Q(x) = (x-a)(x^2 + bx + c)$ where the quadratic term has no real roots ($b^2 - 4ac < 0$), use a linear numerator expression above the quadratic factor:\n \\[ \\frac{T(x)}{(x-a)(x^2 + bx + c)} = \\frac{A}{x-a} + \\frac{Bx + C}{x^2 + bx + c} \\]\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Evaluate the following rational polynomial integral: $\\int \\frac{x^2 + 2}{(x-1)(x-2)(x-3)} \\, dx$.</p>",
+              "solution": "The integrand is a proper rational function with three distinct linear factors in the denominator. Set up the partial fraction decomposition:\n \\[ \\frac{x^2 + 2}{(x-1)(x-2)(x-3)} = \\frac{A}{x-1} + \\frac{B}{x-2} + \\frac{C}{x-3} \\]\n Clear the fractions by multiplying both sides by the least common denominator $(x-1)(x-2)(x-3)$:\n \\[ x^2 + 2 = A(x-2)(x-3) + B(x-1)(x-3) + C(x-1)(x-2) \\]\n Solve for the constants $A, B,$ and $C$ by substituting the roots of the linear factors:\n <ul>\n <li>Substitute $x = 1 \\implies 1^2 + 2 = A(1-2)(1-3) \\implies 3 = A(-1)(-2) \\implies 2A = 3 \\implies A = \\frac{3}{2}$\n <li>Substitute $x = 2 \\implies 2^2 + 2 = B(2-1)(2-3) \\implies 6 = B(1)(-1) \\implies -B = 6 \\implies B = -6$\n <li>Substitute $x = 3 \\implies 3^2 + 2 = C(3-1)(3-2) \\implies 11 = C(2)(1) \\implies 2C = 11 \\implies C = \\frac{11}{2}$\n </ul>\n Substitute these constants back into the partial fractions and integrate each term:\n \\[ \\int \\left( \\frac{3/2}{x-1} - \\frac{6}{x-2} + \\frac{11/2}{x-3} \\right) \\, dx = \\frac{3}{2}\\ln|x-1| - 6\\ln|x-2| + \\frac{11}{2}\\ln|x-3| + C \\]\n <strong>Final Answer:</strong> $\\frac{3}{2}\\ln|x-1| - 6\\ln|x-2| + \\frac{11}{2}\\ln|x-3| + C$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Evaluate the distinct linear partial fraction integral $\\int \\frac{1}{x^2 - 3x + 2} \\, dx$:",
+              "options": [
+                "$\\ln\\left|\\frac{x-2}{x-1}\\right| + C$",
+                "$\\ln\\left|\\frac{x-1}{x-2}\\right| + C$",
+                "$\\frac{1}{2}\\ln\\left|\\frac{x-2}{x-1}\\right| + C$",
+                "$\\tan^{-1}(x-1) + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Solve the repeated linear fraction integral $\\int \\frac{1}{x(x-1)^2} \\, dx$:",
+              "options": [
+                "$\\ln\\left|\\frac{x}{x-1}\\right| - \\frac{1}{x-1} + C$",
+                "$\\ln\\left|\\frac{x-1}{x}\\right| - \\frac{1}{x-1} + C$",
+                "$\\ln\\left|\\frac{x}{x-1}\\right| + \\frac{1}{x-1} + C$",
+                "$\\frac{1}{x-1} + \\ln|x(x-1)| + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the integration result for the rational form $\\int \\frac{x}{(x-1)(x-2)} \\, dx$:",
+              "options": [
+                "$2\\ln|x-2| - \\ln|x-1| + C$",
+                "$\\ln|x-2| - 2\\ln|x-1| + C$",
+                "$2\\ln|x-1| - \\ln|x-2| + C$",
+                "$\\ln|(x-1)(x-2)| + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the improper fraction integral $\\int \\frac{x^3}{x^2 - 1} \\, dx$:",
+              "options": [
+                "$\\frac{1}{2}x^2 + \\frac{1}{2}\\ln|x^2 - 1| + C$",
+                "$\\frac{1}{2}x^2 - \\frac{1}{2}\\ln|x^2 - 1| + C$",
+                "$x^2 + \\ln|x^2 - 1| + C$",
+                "$\\frac{1}{2}x^2 + \\ln\\left|\\frac{x-1}{x+1}\\right| + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Solve the irreducible quadratic partial fraction integral $\\int \\frac{1}{x(x^2 + 1)} \\, dx$:",
+              "options": [
+                "$\\ln|x| - \\frac{1}{2}\\ln(x^2 + 1) + C$",
+                "$\\ln|x| - \\tan^{-1} x + C$",
+                "$\\frac{1}{2}\\ln\\left|\\frac{x^2}{x^2+1}\\right| + \\tan^{-1} x + C$",
+                "$\\ln|x| + \\frac{1}{2}\\ln(x^2 + 1) + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Standard Quadratic Rational Formats and Operational Reductions",
+          "concept": "<p>Two standard quadratic forms often appear in competitive exam problems:\n \\[ \\text{Type I: } \\int \\frac{px+q}{ax^2+bx+c} \\, dx \\quad \\text{and} \\quad \\text{Type II: } \\int \\frac{px+q}{\\sqrt{ax^2+bx+c}} \\, dx \\]\n To evaluate these forms, split the linear numerator expression into two parts: a scalar multiple of the derivative of the quadratic denominator, plus a remaining constant term:\n \\[ px + q = \\lambda \\cdot \\frac{d}{dx}(ax^2 + bx + c) + \\mu = \\lambda(2ax + b) + \\mu \\]\n Equate the linear coefficients to solve for the constants $\\lambda$ and $\\mu$:\n \\[ \\lambda = \\frac{p}{2a}, \\quad \\mu = q - \\frac{pb}{2a} \\]\n This splits the original integral into two separate, simpler integrals that can be evaluated independently using standard forms:\n \\[ \\int \\frac{px+q}{ax^2+bx+c} \\, dx = \\lambda \\int \\frac{2ax+b}{ax^2+bx+c} \\, dx + \\mu \\int \\frac{1}{ax^2+bx+c} \\, dx \\]\n The first integral can be solved directly using substitution, yielding a log term. The second integral can be resolved by completing the square in the denominator to match inverse trigonometric or log-radical standard forms.</p><p>Another core integration form involves rational trigonometric transformations:\n \\[ \\text{Type III: } \\int \\frac{a\\cos x + b\\sin x}{c\\cos x + d\\sin x} \\, dx \\]\n To solve this form, split the numerator expression into a linear combination of the denominator and the derivative of the denominator:\n \\[ \\text{Numerator} = \\lambda(\\text{Denominator}) + \\mu(\\text{Denominator}') \\]\n \\[ a\\cos x + b\\sin x = \\lambda(c\\cos x + d\\sin x) + \\mu(-c\\sin x + d\\cos x) \\]\n Equate the sine and cosine coefficients to solve for the constants $\\lambda$ and $\\mu$. This splits the integral into two components: a constant integral term and a substitution integral term that yields a natural log.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Evaluate the linear-quadratic rational integral: $\\int \\frac{2x + 5}{x^2 + 4x + 13} \\, dx$.</p>",
+              "solution": "Express the linear numerator in terms of the derivative of the quadratic denominator:\n \\[ \\frac{d}{dx}(x^2 + 4x + 13) = 2x + 4 \\]\n Rewrite the numerator to isolate this derivative expression:\n \\[ 2x + 5 = (2x + 4) + 1 \\]\n Split the original integral into two separate terms based on this expression:\n \\[ \\int \\frac{2x + 5}{x^2 + 4x + 13} \\, dx = \\int \\frac{2x + 4}{x^2 + 4x + 13} \\, dx + \\int \\frac{1}{x^2 + 4x + 13} \\, dx \\]\n <ul>\n <li>Evaluate the first integral using the substitution $u = x^2 + 4x + 13 \\implies du = (2x+4) \\, dx$:\n \\[ \\int \\frac{2x + 4}{x^2 + 4x + 13} \\, dx = \\ln|x^2 + 4x + 13| \\]\n <li>Evaluate the second integral by completing the square in the quadratic denominator:\n \\[ x^2 + 4x + 13 = (x^2 + 4x + 4) + 9 = (x + 2)^2 + 3^2 \\]\n This matches the standard inverse tangent integral form:\n \\[ \\int \\frac{1}{(x + 2)^2 + 3^2} \\, dx = \\frac{1}{3}\\tan^{-1}\\left(\\frac{x + 2}{3}\\right) \\]\n </ul>\n Combine the two parts together to find the final answer:\n \\[ = \\ln|x^2 + 4x + 13| + \\frac{1}{3}\\tan^{-1}\\left(\\frac{x + 2}{3}\\right) + C \\]\n <strong>Final Answer:</strong> $\\ln|x^2 + 4x + 13| + \\frac{1}{3}\\tan^{-1}\\left(\\frac{x + 2}{3}\\right) + C$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Evaluate the standard linear quadratic rational form $\\int \\frac{x}{x^2 + 2x + 5} \\, dx$:",
+              "options": [
+                "$\\frac{1}{2}\\ln|x^2+2x+5| - \\frac{1}{2}\\tan^{-1}\\left(\\frac{x+1}{2}\\right) + C$",
+                "$\\frac{1}{2}\\ln|x^2+2x+5| - \\tan^{-1}\\left(\\frac{x+1}{2}\\right) + C$",
+                "$\\ln|x^2+2x+5| - \\frac{1}{2}\\tan^{-1}\\left(\\frac{x+1}{2}\\right) + C$",
+                "$\\frac{1}{2}\\ln|x^2+2x+5| + \\frac{1}{2}\\tan^{-1}\\left(\\frac{x+1}{2}\\right) + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Solve the linear quadratic radical integral form $\\int \\frac{x+3}{\\sqrt{x^2 + 4x + 5}} \\, dx$:",
+              "options": [
+                "$\\sqrt{x^2+4x+5} + \\ln\\left|(x+2) + \\sqrt{x^2+4x+5}\\right| + C$",
+                "$2\\sqrt{x^2+4x+5} + \\ln\\left|(x+2) + \\sqrt{x^2+4x+5}\\right| + C$",
+                "$\\sqrt{x^2+4x+5} - \\ln\\left|(x+2) + \\sqrt{x^2+4x+5}\\right| + C$",
+                "$\\frac{1}{2}\\sqrt{x^2+4x+5} + \\ln\\left|(x+2) + \\sqrt{x^2+4x+5}\\right| + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the specific rational trigonometric fraction $\\int \\frac{\\sin x}{\\sin x + \\cos x} \\, dx$:",
+              "options": [
+                "$\\frac{1}{2}x - \\frac{1}{2}\\ln|\\sin x + \\cos x| + C$",
+                "$\\frac{1}{2}x + \\frac{1}{2}\\ln|\\sin x + \\cos x| + C$",
+                "$-\\frac{1}{2}x - \\frac{1}{2}\\ln|\\sin x + \\cos x| + C$",
+                "$\\frac{1}{2}x - \\ln|\\sin x + \\cos x| + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Solve the denominator quadratic expression form $\\int \\frac{1}{2x^2 + 8x + 20} \\, dx$:",
+              "options": [
+                "$\\frac{1}{2\\sqrt{6}}\\tan^{-1}\\left(\\frac{x+2}{\\sqrt{6}}\\right) + C$",
+                "$\\frac{1}{2}\\tan^{-1}\\left(\\frac{x+2}{2}\\right) + C$",
+                "$\\frac{1}{4}\\tan^{-1}\\left(\\frac{x+2}{2}\\right) + C$",
+                "$\\frac{1}{4}\\tan^{-1}\\left(\\frac{x+2}{\\sqrt{6}}\\right) + C$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Find the exact structural value of the radical integral $\\int \\frac{1}{\\sqrt{5 - 4x - x^2}} \\, dx$:",
+              "options": [
+                "$\\sin^{-1}\\left(\\frac{x+2}{3}\\right) + C$",
+                "$\\sin^{-1}\\left(\\frac{x+2}{9}\\right) + C$",
+                "$\\ln\\left|(x+2) + \\sqrt{5-4x-x^2}\\right| + C$",
+                "$\\frac{1}{3}\\sin^{-1}\\left(\\frac{x+2}{3}\\right) + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-math-indefinite-integration-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "Evaluate the following trigonometric integral expression: $\\int \\frac{\\sin^3 x + \\cos^3 x}{\\sin^2 x \\cos^2 x} \\, dx$.",
+              "options": [
+                "$\\sec x - \\csc x + C$",
+                "$\\sec x + \\csc x + C$",
+                "$-\\sec x - \\csc x + C$",
+                "$\\tan x - \\cot x + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Solve the substitution integral $\\int \\frac{e^x(1+x)}{\\cos^2(x e^x)} \\, dx$:",
+              "options": [
+                "$\\tan(x e^x) + C$",
+                "$\\cot(x e^x) + C$",
+                "$\\sec(x e^x) + C$",
+                "$-\\tan(x e^x) + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the value of the algebraic radical standard integral: $\\int \\frac{1}{\\sqrt{x^2 + 4x + 1}} \\, dx$.",
+              "options": [
+                "$\\ln\\left|(x+2) + \\sqrt{x^2+4x+1}\\right| + C$",
+                "$\\ln\\left|(x+2) + \\sqrt{x^2+4x+4}\\right| + C$",
+                "$\\sin^{-1}\\left(\\frac{x+2}{\\sqrt{3}}\\right) + C$",
+                "$\\frac{1}{2}\\ln\\left|(x+2) + \\sqrt{x^2+4x+1}\\right| + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the exponential product form using Integration by Parts: $\\int x^2 e^{2x} \\, dx$.",
+              "options": [
+                "$\\frac{1}{2}x^2 e^{2x} - \\frac{1}{2}x e^{2x} + \\frac{1}{4}e^{2x} + C$",
+                "$\\frac{1}{2}x^2 e^{2x} + \\frac{1}{2}x e^{2x} - \\frac{1}{4}e^{2x} + C$",
+                "$x^2 e^{2x} - 2x e^{2x} + 2e^{2x} + C$",
+                "$\\frac{1}{2}x^2 e^{2x} - \\frac{1}{4}x e^{2x} + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the integral $\\int \\frac{1}{x(x^5 + 1)} \\, dx$ evaluated via substitution is:",
+              "options": [
+                "$\\frac{1}{5}\\ln\\left|\\frac{x^5}{x^5+1}\\right| + C$",
+                "$\\frac{1}{5}\\ln\\left|\\frac{x^5+1}{x^5}\\right| + C$",
+                "$\\ln\\left|\\frac{x^5}{x^5+1}\\right| + C$",
+                "$\\frac{1}{5}\\tan^{-1}(x^5) + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Solve the exponential structural shortcut form: $\\int e^x \\left( \\ln x + \\frac{1}{x} \\right) \\, dx$.",
+              "options": [
+                "$e^x \\ln x + C$",
+                "$\\frac{e^x}{x} + C$",
+                "$-e^x \\ln x + C$",
+                "$e^x \\left(\\ln x - \\frac{1}{x}\\right) + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the definite radical form $\\int \\sqrt{a^2 - x^2} \\, dx$ using trigonometric substitution:",
+              "options": [
+                "$\\frac{x}{2}\\sqrt{a^2-x^2} + \\frac{a^2}{2}\\sin^{-1}\\left(\\frac{x}{a}\\right) + C$",
+                "$x\\sqrt{a^2-x^2} + a^2\\sin^{-1}\\left(\\frac{x}{a}\\right) + C$",
+                "$\\frac{x}{2}\\sqrt{a^2-x^2} - \\frac{a^2}{2}\\sin^{-1}\\left(\\frac{x}{a}\\right) + C$",
+                "$\\frac{1}{2}\\sin^{-1}\\left(\\frac{x}{a}\\right) + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The integration of the rational function $\\int \\frac{3x+1}{(x-1)(x-2)} \\, dx$ using partial fractions yields:",
+              "options": [
+                "$7\\ln|x-2| - 4\\ln|x-1| + C$",
+                "$7\\ln|x-1| - 4\\ln|x-2| + C$",
+                "$4\\ln|x-2| - 7\\ln|x-1| + C$",
+                "$\\ln|(x-1)(x-2)| + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the value of the algebraic product integral: $\\int x \\ln(x+1) \\, dx$.",
+              "options": [
+                "$\\frac{1}{2}(x^2-1)\\ln(x+1) - \\frac{1}{4}x^2 + \\frac{1}{2}x + C$",
+                "$\\frac{1}{2}x^2\\ln(x+1) - \\frac{1}{4}x^2 + C$",
+                "$\\frac{1}{2}(x^2-1)\\ln(x+1) + \\frac{1}{4}x^2 - \\frac{1}{2}x + C$",
+                "$\\frac{1}{2}x^2\\ln(x+1) - \\frac{1}{2}x + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the inverse trigonometric form $\\int \\sin^{-1} x \\, dx$ using IBP:",
+              "options": [
+                "$x\\sin^{-1} x + \\sqrt{1-x^2} + C$",
+                "$x\\sin^{-1} x - \\sqrt{1-x^2} + C$",
+                "$\\frac{1}{\\sqrt{1-x^2}} + C$",
+                "$x\\sin^{-1} x + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "If $\\int \\frac{1}{x^2 + 6x + 25} \\, dx = \\frac{1}{k}\\tan^{-1}\\left(\\frac{x+3}{k}\\right) + C$, find the value of the integer parameter $k$.",
+              "answer": "4",
+              "explanation": ""
+            },
+            {
+              "q": "Find the value of the leading constant coefficient $A$ if the partial fraction decomposition satisfies $\\frac{1}{x(x+1)} = \\frac{A}{x} + \\frac{B}{x+1}$.",
+              "answer": "1",
+              "explanation": ""
+            },
+            {
+              "q": "If the tangent reduction formula satisfies $\\int \\tan^5 x \\, dx = \\frac{1}{k}\\tan^4 x - \\int \\tan^3 x \\, dx$, find the value of the integer denominator $k$.",
+              "answer": "4",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The family of anti-derivatives for the function $f(x) = \\frac{1}{x}$ is uniquely given by $F(x) = \\ln x + C$ across its complete real definition layout.<br>\n <strong>Reason (R):</strong> The natural logarithmic absolute map derivative satisfies $\\frac{d}{dx}(\\ln|x|) = \\frac{1}{x}$ for all non-zero real inputs.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 3,
+              "explanation": "A is false (because the domain includes negative numbers, requiring the absolute value $."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> The exponential identity form $\\int e^x [f(x) + f'(x)] \\, dx$ resolves directly to $e^x f(x) + C$.<br>\n <strong>Reason (R):</strong> This structural shortcut is derived by separating the terms and applying Integration by Parts to the $\\int e^x f(x) \\, dx$ component.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-math-indefinite-integration-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "Evaluate the following algebraic rational fraction integral: $\\int \\frac{x^2 - 1}{x^4 + x^2 + 1} \\, dx$.",
+              "options": [
+                "$\\frac{1}{2}\\ln\\left|\\frac{x^2-x+1}{x^2+x+1}\\right| + C$",
+                "$\\frac{1}{2}\\ln\\left|\\frac{x^2+x+1}{x^2-x+1}\\right| + C$",
+                "$\\tan^{-1}\\left(\\frac{x^2-1}{x}\\right) + C$",
+                "$\\frac{1}{2\\sqrt{3}}\\ln\\left|\\frac{x^2-\\sqrt{3}x+1}{x^2+\\sqrt{3}x+1}\\right| + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Solve the rational trigonometric fraction integral $\\int \\frac{1}{1 + 3\\sin^2 x} \\, dx$:",
+              "options": [
+                "$\\frac{1}{2}\\tan^{-1}(2\\tan x) + C$",
+                "$\\tan^{-1}(2\\tan x) + C$",
+                "$\\frac{1}{2}\\tan^{-1}(\\tan x) + C$",
+                "$\\frac{1}{4}\\ln\\left|\\frac{\\tan x - 2}{\\tan x + 2}\\right| + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the following algebraic integration form: $\\int \\frac{x^2}{(x\\sin x + \\cos x)^2} \\, dx$.",
+              "options": [
+                "$\\frac{\\sin x - x\\cos x}{x\\sin x + \\cos x} + C$",
+                "$\\frac{-\\rm{sec} \\, x}{x\\sin x + \\cos x} + C$",
+                "$\\frac{\\sin x + x\\cos x}{x\\sin x + \\cos x} + C$",
+                "$\\frac{x\\sin x - \\cos x}{x\\sin x + \\cos x} + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The integral value for the Euler-algebraic substitution form $\\int \\frac{1}{x \\sqrt{1 - x^5}} \\, dx$ matches:",
+              "options": [
+                "$\\frac{1}{5}\\ln\\left|\\frac{\\sqrt{1-x^5}-1}{\\sqrt{1-x^5}+1}\\right| + C$",
+                "$-\\frac{2}{5}\\ln\\left|1 + \\sqrt{1-x^5}\\right| + C$",
+                "$\\frac{2}{5}\\tanh^{-1}\\left(\\sqrt{1-x^5}\\right) + C$",
+                "$-\\frac{1}{5}\\ln\\left|\\frac{1 + \\sqrt{1-x^5}}{x^{5/2}}\\right| + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Solve the rational fraction containing a linear radical term: $\\int \\frac{1}{(x-1)\\sqrt{x+2}} \\, dx$.",
+              "options": [
+                "$\\frac{1}{\\sqrt{3}}\\ln\\left|\\frac{\\sqrt{x+2}-\\sqrt{3}}{\\sqrt{x+2}+\\sqrt{3}}\\right| + C$",
+                "$\\frac{1}{2\\sqrt{3}}\\ln\\left|\\frac{\\sqrt{x+2}-\\sqrt{3}}{\\sqrt{x+2}+\\sqrt{3}}\\right| + C$",
+                "$\\frac{2}{\\sqrt{3}}\\tan^{-1}\\left(\\sqrt{\\frac{x+2}{3}}\\right) + C$",
+                "$\\ln\\left|\\frac{\\sqrt{x+2}-1}{\\sqrt{x+2}+1}\\right| + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the specific algebraic substitution integral form $\\int \\frac{x^7}{(1-x^4)^2} \\, dx$:",
+              "options": [
+                "$\\frac{1}{4}\\left[ \\ln|1-x^4| + \\frac{1}{1-x^4} \\right] + C$",
+                "$\\frac{1}{4}\\left[ \\ln|1-x^4| - \\frac{1}{1-x^4} \\right] + C$",
+                "$\\frac{1}{4(1-x^4)} + C$",
+                "$\\ln|1-x^4| + \\frac{x^4}{4(1-x^4)} + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Find the value of the structural trigonometric product integral: $\\int \\frac{\\cos 4x - 1}{\\cot x - \\tan x} \\, dx$.",
+              "options": [
+                "$-\\frac{1}{4}\\cos 4x + C$",
+                "$\\frac{1}{8}\\cos 4x + C$",
+                "$-\\frac{1}{8}\\cos 4x + C$",
+                "$\\frac{1}{4}\\sin 4x + C$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the symmetric algebraic transformation form $\\int \\frac{1}{x^4 + 1} \\, dx$:",
+              "options": [
+                "$\\frac{1}{2\\sqrt{2}}\\tan^{-1}\\left(\\frac{x^2-1}{\\sqrt{2}x}\\right) + \\frac{1}{4\\sqrt{2}}\\ln\\left|\\frac{x^2+\\sqrt{2}x+1}{x^2-\\sqrt{2}x+1}\\right| + C$",
+                "$\\frac{1}{2\\sqrt{2}}\\tan^{-1}\\left(\\frac{x^2-1}{\\sqrt{2}x}\\right) - \\frac{1}{4\\sqrt{2}}\\ln\\left|\\frac{x^2+\\sqrt{2}x+1}{x^2-\\sqrt{2}x+1}\\right| + C$",
+                "$\\frac{1}{\\sqrt{2}}\\tan^{-1}\\left(\\frac{x^2-1}{\\sqrt{2}x}\\right) + C$",
+                "$\\frac{1}{4\\sqrt{2}}\\ln\\left|\\frac{x^2+\\sqrt{2}x+1}{x^2-\\sqrt{2}x+1}\\right| + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Solve the following inverse trigonometric substitution integral: $\\int \\frac{\\sin^{-1}\\sqrt{x} - \\cos^{-1}\\sqrt{x}}{\\sin^{-1}\\sqrt{x} + \\cos^{-1}\\sqrt{x}} \\, dx$.",
+              "options": [
+                "$\\frac{2}{\\pi}\\left[ (2x-1)\\sin^{-1}\\sqrt{x} + \\sqrt{x-x^2} \\right] - x + C$",
+                "$\\frac{2}{\\pi}\\left[ x\\sin^{-1}\\sqrt{x} + \\sqrt{x-x^2} \\right] + C$",
+                "$\\frac{4}{\\pi}\\sqrt{x-x^2} - x + C$",
+                "$(2x-1)\\sin^{-1}\\sqrt{x} + C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\int \\frac{1}{x^3 + x^5} \\, dx = \\frac{A}{x^2} + B\\ln|x| + C\\ln|1+x^2| + V$, then the values of the constant coefficients are:",
+              "options": [
+                "$A = -1/2, B = 1, C = -1/2$",
+                "$A = -1/2, B = -1, C = 1/2$",
+                "$A = 1/2, B = 1, C = -1/2$",
+                "$A = -1/2, B = 1, C = 1/2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "If the substitution integral satisfies $\\int \\frac{x^3}{\\sqrt{1+x^2}} \\, dx = \\frac{1}{k}(1+x^2)^{3/2} - \\sqrt{1+x^2} + C$, find the value of the integer denominator $k$.",
+              "answer": "3",
+              "explanation": ""
+            },
+            {
+              "q": "Find the total number of distinct linear factors that appear in the denominator of the partial fraction decomposition for $R(x) = \\frac{1}{x^4 - 5x^2 + 4}$.",
+              "answer": "4",
+              "explanation": ""
+            },
+            {
+              "q": "If $\\int e^x \\left[ \\frac{x-1}{x^2} \\right] \\, dx = \\frac{e^x}{k \\cdot x} + C$, find the value of the integer scalar parameter $k$.",
+              "answer": "1",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The algebraic substitution integral $\\int \\frac{1}{x^2 - a^2} \\, dx$ can be evaluated by using the algebraic substitution $x = a\\sin\\theta$.<br>\n <strong>Reason (R):</strong> Trigonometric substitutions use standard identities to simplify quadratic radical fields like $\\sqrt{a^2 - x^2}$ into single terms.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 3,
+              "explanation": "A is false (because $x = a."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> To evaluate rational functions of the type $\\int \\frac{1}{a + b\\cos x} \\, dx$, using the Weierstrass half-angle transformation $t = \\tan(x/2)$ is an effective method.<br>\n <strong>Reason (R):</strong> This substitution transforms trigonometric rational functions into standard algebraic fractions that can be solved using standard quadratic forms.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

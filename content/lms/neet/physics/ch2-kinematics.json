@@ -1,0 +1,168 @@
+{
+  "exam": "neet",
+  "subject": "physics",
+  "chapter": 2,
+  "title": "Kinematics",
+  "slug": "kinematics",
+  "subtitle": "Motion in a straight line and in a plane",
+  "level": "NEET (UG)",
+  "color": "#2563eb",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "NEET Physics — Kinematics: displacement, velocity, acceleration, equations of motion, relative velocity and projectile motion with NEET-level solved examples and MCQs. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Motion in a Straight Line",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Distance, Displacement, Speed and Velocity",
+          "concept": "<p>Kinematics describes <em>how</em> objects move without asking <em>why</em>. The first step is to fix a <strong>frame of reference</strong> — an origin and axes — because position, and therefore motion, is always measured relative to something. A passenger is at rest with respect to the train but moving with respect to the platform; both descriptions are correct.</p><p>Two pairs of terms must never be confused in NEET. <strong>Distance</strong> is the total path length actually covered; it is a scalar and can only increase. <strong>Displacement</strong> is the straight-line vector from initial to final position; it has direction and can be zero even after a long journey — a runner who completes one full lap has covered a distance equal to the track length but a displacement of zero. The magnitude of displacement is always less than or equal to the distance.</p><p>From these come the rate terms. <strong>Speed</strong> is distance per unit time (a scalar); <strong>velocity</strong> is displacement per unit time (a vector). <strong>Average velocity</strong> over an interval is total displacement divided by total time, while <strong>instantaneous velocity</strong> is the limit of this ratio as the interval shrinks to zero — geometrically, the slope of the tangent to the position-time graph. Because displacement can be small while distance is large, <strong>average speed is generally greater than the magnitude of average velocity</strong>, and they are equal only for motion in a single straight line without reversal.</p><p>Graphs are a NEET favourite. On a <strong>position-time graph</strong> the slope gives velocity: a straight slanting line means uniform velocity, a curve means changing velocity. On a <strong>velocity-time graph</strong> the slope gives acceleration and the <em>area</em> under the curve gives displacement. Reading these slopes and areas correctly answers a large share of kinematics questions without any algebra.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Type</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Definition</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Distance</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>Scalar</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>total path length</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Displacement</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>Vector</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>change in position</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Speed</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>Scalar</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>distance / time</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Velocity</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>Vector</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>displacement / time</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A cyclist rides $300\\ \\text{m}$ east, then $400\\ \\text{m}$ north in $100\\ \\text{s}$. Find the distance, displacement and average speed.</p>",
+              "solution": "<p>Distance $= 300 + 400 = 700\\ \\text{m}$. Displacement is the straight-line gap: $\\sqrt{300^{2}+400^{2}} = 500\\ \\text{m}$ (north-east). Average speed $= 700/100 = 7\\ \\text{m/s}$, while the magnitude of average velocity $= 500/100 = 5\\ \\text{m/s}$ — note speed &gt; velocity magnitude.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A body returns to its starting point after moving along any path. What is its displacement and average velocity?</p>",
+              "solution": "<p>Since the final and initial positions coincide, the <strong>displacement is zero</strong>, and therefore the <strong>average velocity is zero</strong> — regardless of how much distance was covered or how fast.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Which quantity can be zero even when distance covered is large?</p>", "options": ["Speed", "Distance", "Displacement", "Time"], "correct": 2, "explanation": "Displacement is zero if the body returns to its start." },
+            { "q": "<p>On a position-time graph, the slope represents:</p>", "options": ["acceleration", "velocity", "distance", "force"], "correct": 1, "explanation": "Slope of x–t graph = velocity." },
+            { "q": "<p>Average speed is ____ the magnitude of average velocity.</p>", "options": ["always less than", "always greater than or equal to", "always equal to", "unrelated to"], "correct": 1, "explanation": "Since distance ≥ |displacement|, average speed ≥ |average velocity|." },
+            { "q": "<p>The area under a velocity-time graph gives:</p>", "options": ["acceleration", "displacement", "speed", "jerk"], "correct": 1, "explanation": "Area under v–t graph = displacement." },
+            { "q": "<p>Velocity is a:</p>", "options": ["scalar", "vector", "dimensionless number", "unit"], "correct": 1, "explanation": "Velocity has both magnitude and direction — a vector." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> When a body reverses direction, split the motion into segments. Distance adds up over all segments, but displacement is just the net change in position.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Acceleration and Equations of Motion",
+          "concept": "<p><strong>Acceleration</strong> is the rate of change of velocity, $a = \\dfrac{\\Delta v}{\\Delta t}$, a vector with SI unit $\\text{m/s}^{2}$. Because velocity is a vector, acceleration appears whenever <em>speed changes, direction changes, or both</em> — a car rounding a bend at constant speed is still accelerating. When acceleration acts opposite to velocity the body slows down (retardation); a negative sign for acceleration does not by itself mean slowing — it depends on the direction of velocity.</p><p>For the common case of <strong>uniformly accelerated motion in a straight line</strong> (constant $a$), three equations connect the initial velocity $u$, final velocity $v$, acceleration $a$, time $t$ and displacement $s$:</p><p>$v = u + at$,&nbsp;&nbsp; $s = ut + \\tfrac{1}{2}at^{2}$,&nbsp;&nbsp; $v^{2} = u^{2} + 2as$.</p><p>These are the workhorses of NEET numericals. Choosing the right one is simply a matter of seeing which quantity is missing: if time is not given, use $v^{2} = u^{2}+2as$; if final velocity is not needed, use $s = ut + \\tfrac{1}{2}at^{2}$. A useful fourth relation gives the displacement in the $n$-th second: $s_{n} = u + \\tfrac{a}{2}(2n-1)$.</p><p>The most-tested special case is <strong>free fall under gravity</strong>, where $a = g \\approx 9.8\\ \\text{m/s}^{2}$ directed downward. For a body thrown straight up, take a sign convention (say up positive) and apply the same equations with $a = -g$. At the highest point the velocity is momentarily zero but the acceleration is still $g$ downward — a classic NEET trap. The time to rise equals the time to fall back to the same level, and the speed on returning equals the speed of projection.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Equation</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Missing quantity</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>$v = u + at$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$s$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>$s = ut + \\tfrac{1}{2}at^{2}$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$v$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>$v^{2} = u^{2} + 2as$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$t$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A car starts from rest and accelerates uniformly at $2\\ \\text{m/s}^{2}$. Find its velocity and displacement after $5\\ \\text{s}$.</p>",
+              "solution": "<p>Here $u = 0$, $a = 2$, $t = 5$. Velocity: $v = u + at = 0 + 2\\times5 = 10\\ \\text{m/s}$. Displacement: $s = ut + \\tfrac{1}{2}at^{2} = 0 + \\tfrac{1}{2}(2)(25) = 25\\ \\text{m}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A ball is thrown vertically up with $19.6\\ \\text{m/s}$. Find the maximum height reached. ($g = 9.8\\ \\text{m/s}^{2}$)</p>",
+              "solution": "<p>At the top $v = 0$. Using $v^{2} = u^{2} - 2gh$: $0 = (19.6)^{2} - 2(9.8)h$, so $h = \\dfrac{384.16}{19.6} = 19.6\\ \\text{m}$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>A body moving with constant speed in a circle has:</p>", "options": ["zero acceleration", "constant velocity", "non-zero acceleration", "zero net force"], "correct": 2, "explanation": "Direction of velocity changes, so acceleration is non-zero (centripetal)." },
+            { "q": "<p>Which equation is used when time is not given?</p>", "options": ["$v = u + at$", "$s = ut + \\tfrac{1}{2}at^{2}$", "$v^{2} = u^{2} + 2as$", "$s = vt$"], "correct": 2, "explanation": "$v^{2} = u^{2} + 2as$ has no $t$." },
+            { "q": "<p>At the highest point of vertical projection, the acceleration is:</p>", "options": ["zero", "$g$ upward", "$g$ downward", "maximum"], "correct": 2, "explanation": "Velocity is zero there, but acceleration is always $g$ downward." },
+            { "q": "<p>A car starting from rest covers $s$ in time $t$ with uniform acceleration. In time $2t$ it covers:</p>", "options": ["$2s$", "$3s$", "$4s$", "$s/2$"], "correct": 2, "explanation": "$s \\propto t^{2}$ from rest, so doubling $t$ gives $4s$." },
+            { "q": "<p>The SI unit of acceleration is:</p>", "options": ["m/s", "m/s²", "m²/s", "s/m"], "correct": 1, "explanation": "Acceleration = velocity / time = $\\text{m/s}^{2}$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Fix a sign convention first (e.g. up = +). Apply it consistently to $u$, $v$, $a$ and $s$ — most free-fall errors are sign errors, not formula errors.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Motion in a Plane",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Vectors and Relative Velocity",
+          "concept": "<p>Motion in a plane needs <strong>vectors</strong> — quantities with both magnitude and direction, such as displacement, velocity, acceleration and force. They are added not arithmetically but by the <strong>triangle</strong> or <strong>parallelogram law</strong>: placing them head-to-tail, the resultant runs from the first tail to the last head. For two vectors $A$ and $B$ at angle $\\theta$, the resultant magnitude is $R = \\sqrt{A^{2} + B^{2} + 2AB\\cos\\theta}$, which is largest ($A+B$) when they are parallel and smallest ($|A-B|$) when antiparallel.</p><p>The practical tool for NEET is <strong>resolution</strong>: any vector can be split into perpendicular components $A_x = A\\cos\\theta$ and $A_y = A\\sin\\theta$. Working with components turns vector addition into ordinary addition along each axis, which is far less error-prone than geometry. Two perpendicular motions are independent of each other — a key idea that underlies projectile motion.</p><p><strong>Relative velocity</strong> is how fast one body appears to move as seen from another. The velocity of A relative to B is $\\vec{v}_{AB} = \\vec{v}_A - \\vec{v}_B$ (vector subtraction). For motion along a line this is just subtraction with signs: two trains moving the same way at $60$ and $40\\ \\text{km/h}$ have a relative speed of $20\\ \\text{km/h}$, but moving toward each other the relative speed is $100\\ \\text{km/h}$.</p><p>Two relative-motion situations recur in NEET. A <strong>swimmer crossing a river</strong> must aim partly upstream so that the resultant of swimming velocity and current carries them straight across; the time to cross depends only on the component of velocity perpendicular to the bank. <strong>Rain-and-man</strong> problems ask for the apparent direction of rain for a walking observer, found by subtracting the man's velocity from the rain's. In both, drawing the vector triangle is half the solution.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Situation</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Relative velocity of A w.r.t. B</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Same direction</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$v_A - v_B$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Opposite direction</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$v_A + v_B$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>General (angle $\\theta$)</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\sqrt{v_A^{2}+v_B^{2}-2v_Av_B\\cos\\theta}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Two forces of $3\\ \\text{N}$ and $4\\ \\text{N}$ act at right angles. Find the magnitude of the resultant.</p>",
+              "solution": "<p>With $\\theta = 90^{\\circ}$, $\\cos\\theta = 0$, so $R = \\sqrt{3^{2} + 4^{2}} = \\sqrt{25} = 5\\ \\text{N}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A train moves east at $50\\ \\text{km/h}$; a car moves east at $30\\ \\text{km/h}$ on a parallel road. What is the velocity of the car relative to the train?</p>",
+              "solution": "<p>$\\vec{v}_{\\text{car,train}} = 30 - 50 = -20\\ \\text{km/h}$ — i.e. $20\\ \\text{km/h}$ toward the west (the car appears to move backward as seen from the faster train).</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The resultant of two equal vectors is maximum when the angle between them is:</p>", "options": ["$0^{\\circ}$", "$90^{\\circ}$", "$180^{\\circ}$", "$45^{\\circ}$"], "correct": 0, "explanation": "Resultant is maximum ($A+B$) when vectors are parallel ($0^{\\circ}$)." },
+            { "q": "<p>The horizontal component of a vector $A$ at angle $\\theta$ is:</p>", "options": ["$A\\sin\\theta$", "$A\\cos\\theta$", "$A\\tan\\theta$", "$A$"], "correct": 1, "explanation": "Horizontal component $= A\\cos\\theta$." },
+            { "q": "<p>Two cars move toward each other at $40$ and $60\\ \\text{km/h}$. Relative speed is:</p>", "options": ["$20$", "$50$", "$100$", "$120$"], "correct": 2, "explanation": "Opposite directions add: $40 + 60 = 100\\ \\text{km/h}$." },
+            { "q": "<p>Which cannot be added to a velocity vector?</p>", "options": ["another velocity", "a displacement per time", "a speed in a direction", "a mass"], "correct": 3, "explanation": "Only same-type vectors add; mass is a scalar of a different kind." },
+            { "q": "<p>The minimum resultant of forces $5\\ \\text{N}$ and $3\\ \\text{N}$ is:</p>", "options": ["$8\\ \\text{N}$", "$2\\ \\text{N}$", "$15\\ \\text{N}$", "$0$"], "correct": 1, "explanation": "Minimum $= |5-3| = 2\\ \\text{N}$ (antiparallel)." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Resolve every vector into x and y components before adding. Component addition avoids the common mistake of adding magnitudes directly.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Projectile Motion",
+          "concept": "<p>A <strong>projectile</strong> is any body thrown into the air that then moves only under gravity (air resistance neglected). The single most powerful idea is that <strong>horizontal and vertical motions are independent</strong>: the horizontal velocity stays constant (no horizontal force), while the vertical motion is uniformly accelerated free fall with $a = g$ downward. Treating the two directions separately, then combining, solves every projectile problem.</p><p>For a projectile launched with speed $u$ at angle $\\theta$ to the horizontal, the components are $u_x = u\\cos\\theta$ (constant) and $u_y = u\\sin\\theta$ (changing under gravity). The path traced is a <strong>parabola</strong>. At the highest point the vertical velocity is zero but the horizontal velocity $u\\cos\\theta$ remains, so the speed there is not zero — a frequent NEET misconception.</p><p>Three results are worth memorising. The <strong>time of flight</strong> is $T = \\dfrac{2u\\sin\\theta}{g}$; the <strong>maximum height</strong> is $H = \\dfrac{u^{2}\\sin^{2}\\theta}{2g}$; and the <strong>horizontal range</strong> is $R = \\dfrac{u^{2}\\sin 2\\theta}{g}$. From the range formula, the range is <em>maximum at $\\theta = 45^{\\circ}$</em>, and two complementary angles (such as $30^{\\circ}$ and $60^{\\circ}$) give the <em>same range</em> — a result NEET tests almost every year.</p><p>A simpler special case is <strong>horizontal projection</strong> from a height $h$ (for example, a ball rolling off a table). Here $u_y = 0$ initially, so the time to fall is $t = \\sqrt{2h/g}$, set only by the height, and the horizontal range is $u\\cdot t$. The vertical and horizontal parts again do not influence each other: a ball dropped and a ball thrown horizontally from the same height hit the ground at the same instant.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Formula</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Time of flight</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$T = \\dfrac{2u\\sin\\theta}{g}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Maximum height</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$H = \\dfrac{u^{2}\\sin^{2}\\theta}{2g}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Range</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$R = \\dfrac{u^{2}\\sin 2\\theta}{g}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A projectile is fired at $20\\ \\text{m/s}$ at $30^{\\circ}$. Find its time of flight. ($g = 10\\ \\text{m/s}^{2}$)</p>",
+              "solution": "<p>$T = \\dfrac{2u\\sin\\theta}{g} = \\dfrac{2\\times20\\times\\sin30^{\\circ}}{10} = \\dfrac{2\\times20\\times0.5}{10} = 2\\ \\text{s}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>For a fixed speed, at which two angles is the range the same, and at which is it maximum?</p>",
+              "solution": "<p>Range is the same for any pair of <strong>complementary angles</strong> (e.g. $30^{\\circ}$ and $60^{\\circ}$), because $\\sin 2\\theta = \\sin(180^{\\circ}-2\\theta)$. Range is <strong>maximum at $45^{\\circ}$</strong>, where $\\sin 2\\theta = 1$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The path of a projectile (no air resistance) is a:</p>", "options": ["straight line", "circle", "parabola", "ellipse"], "correct": 2, "explanation": "Constant horizontal velocity with vertical acceleration gives a parabola." },
+            { "q": "<p>Range is maximum when the angle of projection is:</p>", "options": ["$30^{\\circ}$", "$45^{\\circ}$", "$60^{\\circ}$", "$90^{\\circ}$"], "correct": 1, "explanation": "$R \\propto \\sin 2\\theta$, maximum at $\\theta = 45^{\\circ}$." },
+            { "q": "<p>At the highest point of a projectile's path, its speed is:</p>", "options": ["zero", "$u\\cos\\theta$", "$u\\sin\\theta$", "$u$"], "correct": 1, "explanation": "Vertical velocity is zero but horizontal velocity $u\\cos\\theta$ remains." },
+            { "q": "<p>A ball dropped and a ball thrown horizontally from the same height reach the ground:</p>", "options": ["the dropped one first", "the thrown one first", "at the same time", "cannot say"], "correct": 2, "explanation": "Vertical motion is identical for both, so they land together." },
+            { "q": "<p>Two complementary angles of projection give the same:</p>", "options": ["maximum height", "time of flight", "range", "speed at the top"], "correct": 2, "explanation": "Complementary angles give equal range (same $\\sin 2\\theta$)." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Always split a projectile into horizontal ($a = 0$) and vertical ($a = g$) parts. The two share only the same time $t$ — solve each direction with the straight-line equations.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-physics-ch2-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>A particle covers half its total path in the last second of its free fall from rest. Approximately how long does it fall? (treat conceptually)</p>", "options": ["It falls for about $3.4\\ \\text{s}$", "It falls for $1\\ \\text{s}$", "It falls for $2\\ \\text{s}$", "It cannot fall under gravity"], "correct": 0, "explanation": "Setting the last-second distance equal to half the total leads to $t \\approx 3.4\\ \\text{s}$; the key idea is distance in free fall grows as $t^2$." },
+            { "q": "<p>A car accelerates uniformly from $10\\ \\text{m/s}$ to $30\\ \\text{m/s}$ in $4\\ \\text{s}$. Its acceleration is:</p>", "options": ["$2.5\\ \\text{m/s}^{2}$", "$5\\ \\text{m/s}^{2}$", "$10\\ \\text{m/s}^{2}$", "$20\\ \\text{m/s}^{2}$"], "correct": 1, "explanation": "$a = (30-10)/4 = 5\\ \\text{m/s}^2$." },
+            { "q": "<p>The displacement of a body is zero. The distance covered:</p>", "options": ["must be zero", "may or may not be zero", "must be negative", "equals velocity"], "correct": 1, "explanation": "A body may return to start (distance &gt; 0) or never move (distance = 0)." },
+            { "q": "<p>A stone is thrown up at $g = 10\\ \\text{m/s}^2$ with $20\\ \\text{m/s}$. Time to reach the top:</p>", "options": ["$1\\ \\text{s}$", "$2\\ \\text{s}$", "$4\\ \\text{s}$", "$20\\ \\text{s}$"], "correct": 1, "explanation": "$t = u/g = 20/10 = 2\\ \\text{s}$." },
+            { "q": "<p>The resultant of two perpendicular vectors $6$ and $8$ is:</p>", "options": ["$2$", "$10$", "$14$", "$48$"], "correct": 1, "explanation": "$\\sqrt{6^2+8^2} = 10$." },
+            { "q": "<p>For a projectile, doubling the speed of projection (same angle) changes the range by a factor of:</p>", "options": ["$2$", "$3$", "$4$", "$\\tfrac{1}{2}$"], "correct": 2, "explanation": "$R \\propto u^2$, so doubling $u$ gives $4\\times$ range." },
+            { "q": "<p>A swimmer wants to cross a river straight across. He should aim:</p>", "options": ["straight across", "downstream", "partly upstream", "along the current"], "correct": 2, "explanation": "Aiming partly upstream cancels the current's drift." },
+            { "q": "<p>The area under a velocity-time graph between $t_1$ and $t_2$ gives the:</p>", "options": ["acceleration", "average speed", "displacement", "force"], "correct": 2, "explanation": "Area under v–t = displacement." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> A body can have zero velocity and non-zero acceleration at an instant.<br><strong>R:</strong> At the highest point of vertical projection, velocity is zero but acceleration equals $g$.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The top-of-throw case is exactly the situation that makes A true." },
+            { "q": "<p><strong>A:</strong> Two complementary angles of projection give the same maximum height.<br><strong>R:</strong> Maximum height depends on $\\sin^2\\theta$.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "Complementary angles give the same RANGE, not the same height; height depends on $\\sin^2\\theta$ which differs — so A is false, R is true." },
+            { "q": "<p><strong>A:</strong> Horizontal and vertical motions of a projectile are independent.<br><strong>R:</strong> Gravity has no horizontal component.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "With no horizontal force, the horizontal motion is unaffected by the vertical — R explains A." },
+            { "q": "<p><strong>A:</strong> Average speed is always greater than or equal to the magnitude of average velocity.<br><strong>R:</strong> Distance is always greater than or equal to the magnitude of displacement.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Dividing distance ≥ |displacement| by the same time gives the speed relation — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

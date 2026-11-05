@@ -1,0 +1,3639 @@
+{
+  "meta": {
+    "slug": "ssc-cgl",
+    "name": "SSC CGL",
+    "fullName": "SSC Combined Graduate Level Examination",
+    "emoji": "📋",
+    "order": 4,
+    "category": "Government Jobs",
+    "level": "Graduate",
+    "authority": "Staff Selection Commission (SSC)",
+    "authorityUrl": "https://ssc.gov.in",
+    "accent": "#0e7490",
+    "accent2": "#0891b2",
+    "tagline": "The most sought-after graduate-level recruitment for posts across central government ministries and departments.",
+    "blurb": "Two computer-based stages — Tier 1 (screening) and Tier 2 (mains). Attempt both as full-length, exam-pattern mocks with instant scoring, negative marking and explanations."
+  },
+  "pattern": {
+    "durationMin": 210,
+    "totalQuestions": 230,
+    "totalMarks": 590,
+    "negative": true,
+    "marking": "Tier 1: +2 / −0.50 · Tier 2 (Paper-1): +3 / −1.",
+    "sections": [],
+    "facts": [
+      {
+        "k": "Mode",
+        "v": "Computer-Based Test (CBT)"
+      },
+      {
+        "k": "Conducting body",
+        "v": "Staff Selection Commission (SSC)"
+      },
+      {
+        "k": "Frequency",
+        "v": "Once a year"
+      },
+      {
+        "k": "Eligibility",
+        "v": "Bachelor's degree in any discipline (age 18–32, post-wise)"
+      },
+      {
+        "k": "Stages",
+        "v": "Tier 1 (screening) → Tier 2 (mains) → DV/Skill test"
+      },
+      {
+        "k": "Negative marking",
+        "v": "Yes — Tier 1 −0.50, Tier 2 −1.00 per wrong answer"
+      }
+    ]
+  },
+  "papers": [
+    {
+      "key": "t1",
+      "name": "Tier 1",
+      "role": "Screening stage",
+      "durationMin": 60,
+      "totalQuestions": 100,
+      "totalMarks": 200,
+      "perQuestionMarks": 2,
+      "perQuestionNeg": 0.5,
+      "marking": "+2 for correct, −0.50 for wrong.",
+      "sections": [
+        {
+          "name": "General Intelligence & Reasoning",
+          "questions": 25
+        },
+        {
+          "name": "General Awareness",
+          "questions": 25
+        },
+        {
+          "name": "Quantitative Aptitude",
+          "questions": 25
+        },
+        {
+          "name": "English Comprehension",
+          "questions": 25
+        }
+      ]
+    },
+    {
+      "key": "t2",
+      "name": "Tier 2 · Paper-1",
+      "role": "Mains stage",
+      "durationMin": 150,
+      "totalQuestions": 130,
+      "totalMarks": 390,
+      "perQuestionMarks": 3,
+      "perQuestionNeg": 1,
+      "marking": "+3 for correct, −1 for wrong.",
+      "sections": [
+        {
+          "name": "Mathematical Abilities",
+          "questions": 30
+        },
+        {
+          "name": "Reasoning & General Intelligence",
+          "questions": 30
+        },
+        {
+          "name": "English Language & Comprehension",
+          "questions": 45
+        },
+        {
+          "name": "General Awareness",
+          "questions": 25
+        }
+      ]
+    }
+  ],
+  "briefing": "SSC CGL is the gateway to thousands of Group B and Group C posts across central government ministries — Income Tax Inspector, Assistant Section Officer, Auditor, and many more — and it draws lakhs of graduate applicants every cycle. Selection runs through two computer-based stages. Tier 1 is a 60-minute screening test of four equally-weighted sections — Reasoning, General Awareness, Quantitative Aptitude and English — where speed and accuracy under the clock matter as much as knowledge. Tier 2 (Paper-1) is the decisive mains stage with longer, slightly tougher sections and stiffer negative marking. Quant rewards fast arithmetic, algebra, geometry and data interpretation; General Awareness leans heavily on static GK and science; English tests grammar, vocabulary and comprehension. With negative marking at both stages, disciplined attempting beats guesswork. These mocks reproduce both tiers to the real pattern, each question with a full explanation.",
+  "strategy": [
+    "Tier 1 is a speed game — 100 questions in 60 minutes means ~36 seconds each; build sectional time discipline.",
+    "Quantitative Aptitude and Reasoning are the highest-scoring, most learnable sections — master shortcuts.",
+    "General Awareness is static-GK heavy (history, polity, geography, science) — quick recall, no calculation.",
+    "With −0.50 (Tier 1) and −1 (Tier 2) negatives, skip a question unless you can eliminate at least two options."
+  ],
+  "subjects": [
+    {
+      "name": "Quantitative Aptitude",
+      "emoji": "🧮",
+      "chapters": [
+        "Number System & Simplification",
+        "Percentage, Profit & Loss",
+        "Ratio, Proportion & Partnership",
+        "Average, Mixture & Alligation",
+        "Time, Speed & Distance",
+        "Time & Work",
+        "Simple & Compound Interest",
+        "Algebra & Identities",
+        "Geometry & Mensuration",
+        "Trigonometry & Heights/Distances",
+        "Data Interpretation"
+      ]
+    },
+    {
+      "name": "General Intelligence & Reasoning",
+      "emoji": "🧩",
+      "chapters": [
+        "Analogy & Classification",
+        "Series (number, letter, figure)",
+        "Coding–Decoding",
+        "Blood Relations",
+        "Direction Sense",
+        "Syllogism",
+        "Ranking & Arrangement",
+        "Venn Diagrams",
+        "Mathematical Operations",
+        "Statement & Conclusions",
+        "Non-verbal (mirror, paper folding, embedded figures)"
+      ]
+    },
+    {
+      "name": "General Awareness",
+      "emoji": "🌐",
+      "chapters": [
+        "History (Ancient, Medieval, Modern)",
+        "Geography (India & World)",
+        "Indian Polity & Constitution",
+        "Economy & Finance basics",
+        "General Science (Physics, Chemistry, Biology)",
+        "Static GK (awards, sports, books, days)",
+        "Current Affairs & Schemes",
+        "Art, Culture & Important Institutions"
+      ]
+    },
+    {
+      "name": "English",
+      "emoji": "🔤",
+      "chapters": [
+        "Reading Comprehension",
+        "Synonyms & Antonyms",
+        "Spelling & One-word Substitution",
+        "Idioms & Phrases",
+        "Sentence Improvement",
+        "Error Spotting",
+        "Cloze Test",
+        "Fill in the Blanks",
+        "Active/Passive & Narration",
+        "Para Jumbles"
+      ]
+    }
+  ],
+  "test": {
+    "title": "SSC CGL — Full Mock",
+    "questions": [
+      {
+        "paper": "t1",
+        "section": "General Intelligence & Reasoning",
+        "type": "mcq",
+        "topic": "Analogy (number)",
+        "q": "Select the option that is related to the third number in the same way as the second number is related to the first.\n6 : 42 :: 9 : ?",
+        "options": [
+          "90",
+          "72",
+          "81",
+          "99"
+        ],
+        "correct": 0,
+        "explanation": "The relation is n^2 + n: for 6, 6^2 + 6 = 36 + 6 = 42. Applying the same rule to 9: 9^2 + 9 = 81 + 9 = 90. Hence the answer is 90."
+      },
+      {
+        "paper": "t1",
+        "section": "General Intelligence & Reasoning",
+        "type": "mcq",
+        "topic": "Analogy (number)",
+        "q": "Select the number related to the given pair on the same basis.\n5 : 30 :: 8 : ?",
+        "options": [
+          "64",
+          "72",
+          "56",
+          "80"
+        ],
+        "correct": 1,
+        "explanation": "The relation is n^2 + n: for 5, 25 + 5 = 30. For 8, 64 + 8 = 72. Hence the answer is 72."
+      },
+      {
+        "paper": "t1",
+        "section": "General Intelligence & Reasoning",
+        "type": "mcq",
+        "topic": "Analogy (number)",
+        "q": "Choose the number that completes the second pair on the same logic as the first pair.\n7 : 49 :: 11 : ?",
+        "options": [
+          "111",
+          "131",
+          "121",
+          "144"
+        ],
+        "correct": 2,
+        "explanation": "The relation is n^2: 7^2 = 49, so 11^2 = 121. Hence the answer is 121."
+      },
+      {
+        "paper": "t1",
+        "section": "General Intelligence & Reasoning",
+        "type": "mcq",
+        "topic": "Analogy (letter)",
+        "q": "Select the option that is related to the third term in the same way as the second term is related to the first.\nBD : FH :: JL : ?",
+        "options": [
+          "MN",
+          "OP",
+          "PR",
+          "NP"
+        ],
+        "correct": 3,
+        "explanation": "B(2)D(4) becomes F(6)H(8): each letter increases by 4. J(10)L(12) increased by 4 gives N(14)P(16) = NP. Hence the answer is NP."
+      },
+      {
+        "paper": "t1",
+        "section": "General Intelligence & Reasoning",
+        "type": "mcq",
+        "topic": "Analogy (letter)",
+        "q": "Find the term that bears the same relationship to the third term as the second does to the first.\nACE : BDF :: PRT : ?",
+        "options": [
+          "QSU",
+          "QSV",
+          "SUW",
+          "OQS"
+        ],
+        "correct": 0,
+        "explanation": "Each letter of ACE is increased by 1 to get BDF. Doing the same with P, R, T gives Q, S, U = QSU. Hence the answer is QSU."
+      },
+      {
+        "paper": "t1",
+        "section": "General Intelligence & Reasoning",
+        "type": "mcq",
+        "topic": "Analogy (word)",
+        "q": "Select the option that shares the same relationship with the third word as the second word has with the first.\nPen : Write :: Knife : ?",
+        "options": [
+          "Sharp",
+          "Cut",
+          "Metal",
+          "Kitchen"
+        ],
+        "correct": 1,
+        "explanation": "A pen is a tool used to write; similarly a knife is a tool used to cut. The relationship is object-to-its-primary-function, so the answer is Cut."
+      },
+      {
+        "paper": "t1",
+        "section": "General Intelligence & Reasoning",
+        "type": "mcq",
+        "topic": "Analogy (word)",
+        "q": "Choose the word that completes the analogy.\nDoctor : Hospital :: Teacher : ?",
+        "options": [
+          "Student",
+          "Book",
+          "School",
+          "Lesson"
+        ],
+        "correct": 2,
+        "explanation": "A doctor works in a hospital; similarly a teacher works in a school. The relationship is profession-to-workplace, so the answer is School."
+      },
+      {
+        "paper": "t1",
+        "section": "General Intelligence & Reasoning",
+        "type": "mcq",
+        "topic": "Analogy (word)",
+        "q": "Identify the word that relates to the third in the same way the second relates to the first.\nThirst : Water :: Hunger : ?",
+        "options": [
+          "Stomach",
+          "Eat",
+          "Cook",
+          "Food"
+        ],
+        "correct": 3,
+        "explanation": "Thirst is satisfied by water; similarly hunger is satisfied by food. The relationship is need-to-its-remedy, so the answer is Food."
+      },
+      {
+        "paper": "t1",
+        "section": "General Intelligence & Reasoning",
+        "type": "mcq",
+        "topic": "Classification (odd-one-out)",
+        "q": "Three of the following four numbers are alike in a certain way and one is different. Pick the odd one out.",
+        "options": [
+          "150",
+          "121",
+          "144",
+          "169"
+        ],
+        "correct": 0,
+        "explanation": "121 = 11^2, 144 = 12^2 and 169 = 13^2 are all perfect squares. 150 is not a perfect square, so it is the odd one out."
+      },
+      {
+        "paper": "t1",
+        "section": "General Intelligence & Reasoning",
+        "type": "mcq",
+        "topic": "Classification (odd-one-out)",
+        "q": "From the words given below, three are similar in a certain manner while one is different. Select the different one.",
+        "options": [
+          "Rose",
+          "Mango",
+          "Lotus",
+          "Marigold"
+        ],
+        "correct": 1,
+        "explanation": "Rose, Lotus and Marigold are all flowers, whereas Mango is a fruit. Hence Mango is the odd one out."
+      },
+      {
+        "paper": "t1",
+        "section": "General Intelligence & Reasoning",
+        "type": "mcq",
+        "topic": "Classification (odd-one-out)",
+        "q": "Identify the letter group that does not belong with the other three.",
+        "options": [
+          "BCD",
+          "FGH",
+          "PRT",
+          "KLM"
+        ],
+        "correct": 2,
+        "explanation": "BCD, FGH and KLM are each three consecutive letters. PRT has gaps (P, R, T differ by 2 each), so it does not belong. Hence PRT is the odd one."
+      },
+      {
+        "paper": "t1",
+        "section": "General Intelligence & Reasoning",
+        "type": "mcq",
+        "topic": "Classification (odd-one-out)",
+        "q": "Three of these belong to one group. Find the one that does not fit.",
+        "options": [
+          "Triangle",
+          "Square",
+          "Pentagon",
+          "Circle"
+        ],
+        "correct": 3,
+        "explanation": "Triangle, Square and Pentagon are polygons made of straight line segments. A Circle has no straight sides, so it is the odd one out."
+      },
+      {
+        "paper": "t1",
+        "section": "General Intelligence & Reasoning",
+        "type": "mcq",
+        "topic": "Series (number)",
+        "q": "Select the number that will come next in the following series.\n2, 6, 12, 20, 30, ?",
+        "options": [
+          "42",
+          "36",
+          "40",
+          "48"
+        ],
+        "correct": 0,
+        "explanation": "The series is n(n+1): 1x2=2, 2x3=6, 3x4=12, 4x5=20, 5x6=30, so next is 6x7=42. Hence the answer is 42."
+      },
+      {
+        "paper": "t1",
+        "section": "General Intelligence & Reasoning",
+        "type": "mcq",
+        "topic": "Series (number)",
+        "q": "What number should replace the question mark in this sequence?\n3, 7, 15, 31, 63, ?",
+        "options": [
+          "95",
+          "127",
+          "121",
+          "129"
+        ],
+        "correct": 1,
+        "explanation": "Each term follows next = (previous x 2) + 1: 3x2+1=7, 7x2+1=15, 15x2+1=31, 31x2+1=63, 63x2+1=127. Hence the answer is 127."
+      },
+      {
+        "paper": "t1",
+        "section": "General Intelligence & Reasoning",
+        "type": "mcq",
+        "topic": "Series (number)",
+        "q": "Find the missing term in the series.\n5, 11, 23, 47, ?",
+        "options": [
+          "83",
+          "91",
+          "95",
+          "94"
+        ],
+        "correct": 2,
+        "explanation": "Each term follows next = (previous x 2) + 1: 5x2+1=11, 11x2+1=23, 23x2+1=47, 47x2+1=95. Hence the answer is 95."
+      },
+      {
+        "paper": "t1",
+        "section": "General Intelligence & Reasoning",
+        "type": "mcq",
+        "topic": "Series (number)",
+        "q": "Determine the next number in the sequence.\n1, 4, 9, 16, 25, ?",
+        "options": [
+          "30",
+          "34",
+          "49",
+          "36"
+        ],
+        "correct": 3,
+        "explanation": "These are perfect squares: 1^2, 2^2, 3^2, 4^2, 5^2. The next term is 6^2 = 36. Hence the answer is 36."
+      },
+      {
+        "paper": "t1",
+        "section": "General Intelligence & Reasoning",
+        "type": "mcq",
+        "topic": "Series (number)",
+        "q": "Which number continues the pattern below?\n7, 14, 28, 56, ?",
+        "options": [
+          "112",
+          "84",
+          "98",
+          "120"
+        ],
+        "correct": 0,
+        "explanation": "Each term is double the previous one: 7, 14, 28, 56, then 56 x 2 = 112. Hence the answer is 112."
+      },
+      {
+        "paper": "t1",
+        "section": "General Intelligence & Reasoning",
+        "type": "mcq",
+        "topic": "Series (letter)",
+        "q": "Select the group of letters that completes the series.\nAZ, BY, CX, DW, ?",
+        "options": [
+          "EU",
+          "EV",
+          "FV",
+          "EW"
+        ],
+        "correct": 1,
+        "explanation": "The first letters go forward A, B, C, D, then E. The second letters go backward Z, Y, X, W, then V. So the next group is EV. Hence the answer is EV."
+      },
+      {
+        "paper": "t1",
+        "section": "General Intelligence & Reasoning",
+        "type": "mcq",
+        "topic": "Series (letter)",
+        "q": "Which letter comes next in this series?\nB, D, G, K, ?",
+        "options": [
+          "N",
+          "O",
+          "P",
+          "Q"
+        ],
+        "correct": 2,
+        "explanation": "Positions are B(2), D(4), G(7), K(11): differences are +2, +3, +4, so the next gap is +5 giving position 16 = P. Hence the answer is P."
+      },
+      {
+        "paper": "t1",
+        "section": "General Intelligence & Reasoning",
+        "type": "mcq",
+        "topic": "Series (letter)",
+        "q": "Find the missing letters in the series.\nAB, DE, GH, JK, ?",
+        "options": [
+          "LM",
+          "MO",
+          "NO",
+          "MN"
+        ],
+        "correct": 3,
+        "explanation": "Each pair skips one letter from the previous pair's end: AB, (skip C) DE, (skip F) GH, (skip I) JK, (skip L) MN. Hence the answer is MN."
+      },
+      {
+        "paper": "t1",
+        "section": "General Intelligence & Reasoning",
+        "type": "mcq",
+        "topic": "Series (alphanumeric)",
+        "q": "Choose the term that completes the alphanumeric series.\nA1, C3, E5, G7, ?",
+        "options": [
+          "I9",
+          "H8",
+          "I8",
+          "H9"
+        ],
+        "correct": 0,
+        "explanation": "Letters move forward by 2: A, C, E, G, then I. Numbers increase by 2: 1, 3, 5, 7, then 9. So the next term is I9. Hence the answer is I9."
+      },
+      {
+        "paper": "t1",
+        "section": "General Intelligence & Reasoning",
+        "type": "mcq",
+        "topic": "Series (alphanumeric)",
+        "q": "Identify the next entry in the series.\nB2, D4, F6, H8, ?",
+        "options": [
+          "J9",
+          "J10",
+          "I10",
+          "K10"
+        ],
+        "correct": 1,
+        "explanation": "Letters advance by 2: B, D, F, H, then J. Numbers go 2, 4, 6, 8, then 10. So the next term is J10. Hence the answer is J10."
+      },
+      {
+        "paper": "t1",
+        "section": "General Intelligence & Reasoning",
+        "type": "mcq",
+        "topic": "Coding-Decoding",
+        "q": "In a certain code, CAT is written as DBU. How will DOG be written in the same code?",
+        "options": [
+          "EPG",
+          "FPH",
+          "EPH",
+          "EPI"
+        ],
+        "correct": 2,
+        "explanation": "Each letter is shifted forward by one: C->D, A->B, T->U. Applying the same shift to DOG: D->E, O->P, G->H, giving EPH. Hence the answer is EPH."
+      },
+      {
+        "paper": "t1",
+        "section": "General Intelligence & Reasoning",
+        "type": "mcq",
+        "topic": "Coding-Decoding",
+        "q": "In a code language, MANGO is written as NBOHP. What will APPLE be written as?",
+        "options": [
+          "BQRMF",
+          "BPQMF",
+          "CQQMF",
+          "BQQMF"
+        ],
+        "correct": 3,
+        "explanation": "Each letter is shifted forward by one: M->N, A->B, N->O, G->H, O->P. For APPLE: A->B, P->Q, P->Q, L->M, E->F, giving BQQMF. Hence the answer is BQQMF."
+      },
+      {
+        "paper": "t1",
+        "section": "General Intelligence & Reasoning",
+        "type": "mcq",
+        "topic": "Coding-Decoding",
+        "q": "In a particular code the letters of a word are written in reverse order. How is WORLD written in that code?",
+        "options": [
+          "DLROW",
+          "DLRWO",
+          "DROLW",
+          "DLOWR"
+        ],
+        "correct": 0,
+        "explanation": "The code simply reverses the order of the letters. WORLD read backwards is D-L-R-O-W = DLROW. Hence the answer is DLROW."
+      },
+      {
+        "paper": "t1",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Ancient History",
+        "q": "The famous 'Iron Pillar' located near the Qutub Minar in Delhi was originally erected during the reign of which dynasty?",
+        "options": [
+          "Maurya",
+          "Gupta",
+          "Chola",
+          "Pala"
+        ],
+        "correct": 1,
+        "explanation": "The Iron Pillar bears an inscription of King Chandra, generally identified with Chandragupta II of the Gupta dynasty."
+      },
+      {
+        "paper": "t1",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Ancient History",
+        "q": "Who was the founder of the Maurya Empire?",
+        "options": [
+          "Bindusara",
+          "Ashoka",
+          "Chandragupta Maurya",
+          "Ajatashatru"
+        ],
+        "correct": 2,
+        "explanation": "Chandragupta Maurya founded the Maurya Empire around 321 BCE with the help of Chanakya."
+      },
+      {
+        "paper": "t1",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Ancient History",
+        "q": "The Gayatri Mantra is found in which of the following Vedas?",
+        "options": [
+          "Yajurveda",
+          "Samaveda",
+          "Atharvaveda",
+          "Rigveda"
+        ],
+        "correct": 3,
+        "explanation": "The Gayatri Mantra appears in the Rigveda (Mandala 3), composed by sage Vishwamitra."
+      },
+      {
+        "paper": "t1",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Medieval History",
+        "q": "Who built the Qutub Minar's first storey in Delhi?",
+        "options": [
+          "Qutb-ud-din Aibak",
+          "Iltutmish",
+          "Alauddin Khilji",
+          "Balban"
+        ],
+        "correct": 0,
+        "explanation": "Qutb-ud-din Aibak began the Qutub Minar; Iltutmish later completed additional storeys."
+      },
+      {
+        "paper": "t1",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Medieval History",
+        "q": "The Battle of Plassey (1757) was fought between the British East India Company and the Nawab of Bengal. Who was the Nawab?",
+        "options": [
+          "Mir Jafar",
+          "Siraj-ud-Daulah",
+          "Mir Qasim",
+          "Shuja-ud-Daulah"
+        ],
+        "correct": 1,
+        "explanation": "Robert Clive defeated Siraj-ud-Daulah at Plassey, aided by the betrayal of Mir Jafar."
+      },
+      {
+        "paper": "t1",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Modern History",
+        "q": "The Jallianwala Bagh massacre took place in which year?",
+        "options": [
+          "1909",
+          "1929",
+          "1919",
+          "1942"
+        ],
+        "correct": 2,
+        "explanation": "On 13 April 1919, General Dyer ordered firing on an unarmed gathering at Jallianwala Bagh, Amritsar."
+      },
+      {
+        "paper": "t1",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Freedom Struggle",
+        "q": "Who gave the famous slogan 'Do or Die' during the Quit India Movement?",
+        "options": [
+          "Subhas Chandra Bose",
+          "Jawaharlal Nehru",
+          "Bhagat Singh",
+          "Mahatma Gandhi"
+        ],
+        "correct": 3,
+        "explanation": "Mahatma Gandhi gave the 'Do or Die' call at the launch of the Quit India Movement in 1942."
+      },
+      {
+        "paper": "t1",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Freedom Struggle",
+        "q": "The Indian National Congress was founded in 1885 by which person?",
+        "options": [
+          "A.O. Hume",
+          "W.C. Bonnerjee",
+          "Dadabhai Naoroji",
+          "Surendranath Banerjee"
+        ],
+        "correct": 0,
+        "explanation": "Allan Octavian Hume, a retired British civil servant, founded the Indian National Congress in 1885."
+      },
+      {
+        "paper": "t1",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Freedom Struggle",
+        "q": "Which session of the Indian National Congress passed the 'Purna Swaraj' resolution?",
+        "options": [
+          "Calcutta 1928",
+          "Lahore 1929",
+          "Karachi 1931",
+          "Lucknow 1916"
+        ],
+        "correct": 1,
+        "explanation": "The Lahore session of 1929, presided over by Jawaharlal Nehru, adopted the Purna Swaraj (complete independence) resolution."
+      },
+      {
+        "paper": "t1",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Indian Geography",
+        "q": "Which is the longest river flowing entirely within India?",
+        "options": [
+          "Krishna",
+          "Narmada",
+          "Godavari",
+          "Mahanadi"
+        ],
+        "correct": 2,
+        "explanation": "The Godavari is the longest river that flows wholly within India, often called the 'Dakshin Ganga'."
+      },
+      {
+        "paper": "t1",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Indian Geography",
+        "q": "The Tropic of Cancer does NOT pass through which of these Indian states?",
+        "options": [
+          "Gujarat",
+          "Madhya Pradesh",
+          "Tripura",
+          "Odisha"
+        ],
+        "correct": 3,
+        "explanation": "The Tropic of Cancer passes through 8 states but not Odisha; it crosses Gujarat, MP, Tripura among others."
+      },
+      {
+        "paper": "t1",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Indian Geography",
+        "q": "Which is the highest mountain peak entirely within India?",
+        "options": [
+          "Nanda Devi",
+          "Mount Everest",
+          "Kangchenjunga",
+          "Kamet"
+        ],
+        "correct": 0,
+        "explanation": "Nanda Devi (7,816 m) in Uttarakhand is the highest peak located entirely within India."
+      },
+      {
+        "paper": "t1",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Indian Geography",
+        "q": "The Sundarbans delta is formed by which of the following river systems?",
+        "options": [
+          "Godavari-Krishna",
+          "Ganga-Brahmaputra",
+          "Narmada-Tapti",
+          "Mahanadi-Brahmani"
+        ],
+        "correct": 1,
+        "explanation": "The Sundarbans, the world's largest mangrove delta, is formed by the Ganga-Brahmaputra-Meghna rivers."
+      },
+      {
+        "paper": "t1",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "World Geography",
+        "q": "Which is the longest river in the world?",
+        "options": [
+          "Amazon",
+          "Yangtze",
+          "Nile",
+          "Mississippi"
+        ],
+        "correct": 2,
+        "explanation": "The Nile in Africa, at about 6,650 km, is generally regarded as the longest river in the world."
+      },
+      {
+        "paper": "t1",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "World Geography",
+        "q": "The Strait of Gibraltar connects the Mediterranean Sea with which water body?",
+        "options": [
+          "Red Sea",
+          "Black Sea",
+          "Caspian Sea",
+          "Atlantic Ocean"
+        ],
+        "correct": 3,
+        "explanation": "The Strait of Gibraltar connects the Mediterranean Sea with the Atlantic Ocean."
+      },
+      {
+        "paper": "t1",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "World Geography",
+        "q": "Which country is known as the 'Land of the Rising Sun'?",
+        "options": [
+          "Japan",
+          "China",
+          "South Korea",
+          "Thailand"
+        ],
+        "correct": 0,
+        "explanation": "Japan is called the 'Land of the Rising Sun', reflected in its name Nippon/Nihon."
+      },
+      {
+        "paper": "t1",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Indian Polity",
+        "q": "Which Article of the Indian Constitution deals with the abolition of untouchability?",
+        "options": [
+          "Article 14",
+          "Article 17",
+          "Article 19",
+          "Article 21"
+        ],
+        "correct": 1,
+        "explanation": "Article 17 of the Constitution abolishes untouchability and forbids its practice in any form."
+      },
+      {
+        "paper": "t1",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Indian Polity",
+        "q": "How many fundamental duties are currently listed in the Indian Constitution?",
+        "options": [
+          "10",
+          "9",
+          "11",
+          "12"
+        ],
+        "correct": 2,
+        "explanation": "There are 11 Fundamental Duties under Article 51A; the 11th was added by the 86th Amendment in 2002."
+      },
+      {
+        "paper": "t1",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Indian Polity",
+        "q": "The concept of the 'Directive Principles of State Policy' in the Indian Constitution was borrowed from which country?",
+        "options": [
+          "USA",
+          "Britain",
+          "Canada",
+          "Ireland"
+        ],
+        "correct": 3,
+        "explanation": "The Directive Principles of State Policy were adopted from the Constitution of Ireland."
+      },
+      {
+        "paper": "t1",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Indian Polity",
+        "q": "Who is the constitutional head of the Indian Union?",
+        "options": [
+          "President",
+          "Prime Minister",
+          "Chief Justice of India",
+          "Speaker of Lok Sabha"
+        ],
+        "correct": 0,
+        "explanation": "The President of India is the constitutional (nominal) head of the Union under Article 52."
+      },
+      {
+        "paper": "t1",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Indian Polity",
+        "q": "The Right to Education was made a fundamental right by inserting which Article through the 86th Amendment?",
+        "options": [
+          "Article 19A",
+          "Article 21A",
+          "Article 15A",
+          "Article 29A"
+        ],
+        "correct": 1,
+        "explanation": "Article 21A, inserted by the 86th Amendment (2002), provides free and compulsory education to children aged 6-14."
+      },
+      {
+        "paper": "t1",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Indian Polity",
+        "q": "How many schedules are there in the Constitution of India at present?",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "8"
+        ],
+        "correct": 2,
+        "explanation": "The Indian Constitution currently has 12 Schedules (the 12th was added by the 74th Amendment)."
+      },
+      {
+        "paper": "t1",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Indian Polity",
+        "q": "Who appoints the Chief Election Commissioner of India?",
+        "options": [
+          "Prime Minister",
+          "Chief Justice of India",
+          "Parliament",
+          "President"
+        ],
+        "correct": 3,
+        "explanation": "The Chief Election Commissioner is appointed by the President of India."
+      },
+      {
+        "paper": "t1",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Economy",
+        "q": "The 'repo rate' in India is decided by which institution?",
+        "options": [
+          "Reserve Bank of India",
+          "SEBI",
+          "Finance Ministry",
+          "NITI Aayog"
+        ],
+        "correct": 0,
+        "explanation": "The repo rate, at which the RBI lends to commercial banks, is decided by the Reserve Bank of India."
+      },
+      {
+        "paper": "t1",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Economy",
+        "q": "In economics, 'fiscal deficit' refers to the difference between the government's total expenditure and its:",
+        "options": [
+          "Total tax revenue only",
+          "Total revenue excluding borrowings",
+          "Interest payments",
+          "Subsidy outgo"
+        ],
+        "correct": 1,
+        "explanation": "Fiscal deficit is total expenditure minus total receipts excluding borrowings."
+      },
+      {
+        "paper": "t1",
+        "section": "Quantitative Aptitude",
+        "type": "mcq",
+        "topic": "Probability",
+        "q": "12 defective pens are accidentally mixed with 132 good ones. One pen is taken out at random. What is the probability it is a good pen?",
+        "options": [
+          "1/12",
+          "1/11",
+          "11/12",
+          "12/13"
+        ],
+        "correct": 2,
+        "explanation": "Total pens = 12 + 132 = 144. Good pens = 132. Probability = 132/144 = 11/12."
+      },
+      {
+        "paper": "t1",
+        "section": "Quantitative Aptitude",
+        "type": "mcq",
+        "topic": "Real Numbers",
+        "q": "96 storybooks and 240 textbooks are stacked so every stack has the same number of books of one kind and is as tall as possible. Each stack has:",
+        "options": [
+          "12 books",
+          "16 books",
+          "24 books",
+          "48 books"
+        ],
+        "correct": 3,
+        "explanation": "The greatest equal stack is HCF(96, 240) = 48 books."
+      },
+      {
+        "paper": "t1",
+        "section": "Quantitative Aptitude",
+        "type": "mcq",
+        "topic": "Statistics",
+        "q": "A 'less than' ogive is always:",
+        "options": [
+          "non-decreasing",
+          "non-increasing",
+          "constant",
+          "V-shaped"
+        ],
+        "correct": 0,
+        "explanation": "Cumulative frequencies only build up, so the curve never falls."
+      },
+      {
+        "paper": "t1",
+        "section": "Quantitative Aptitude",
+        "type": "mcq",
+        "topic": "Triangles",
+        "q": "A 1.5 m tall person casts a 3 m shadow while a nearby tree casts a 12 m shadow. The tree's height is:",
+        "options": [
+          "8 m",
+          "6 m",
+          "5 m",
+          "9 m"
+        ],
+        "correct": 1,
+        "explanation": "By similar triangles, height/12 = 1.5/3, so height = 6 m."
+      },
+      {
+        "paper": "t1",
+        "section": "Quantitative Aptitude",
+        "type": "mcq",
+        "topic": "Surface Areas and Volumes",
+        "q": "A 20 m deep well with diameter 7 m is dug and the earth from digging is evenly spread out to form a platform 22 m by 14 m. Find the height of the platform.",
+        "options": [
+          "3.5 m",
+          "1.5 m",
+          "2.5 m",
+          "2 m"
+        ],
+        "correct": 2,
+        "explanation": "Volume of earth dug out = Volume of cylindrical well = πr²h = (22/7) × (3.5)² × 20 = (22/7) × 12.25 × 20 = 770 m³. Volume of platform = l × b × h = 22 × 14 × h = 308h. 308h = 770 → h = 770 / 308 = 2.5 m."
+      },
+      {
+        "paper": "t1",
+        "section": "Quantitative Aptitude",
+        "type": "mcq",
+        "topic": "Polynomials",
+        "q": "A ball thrown up has height h = −5t² + 20t metres after t seconds. It returns to the ground at:",
+        "options": [
+          "t = 2 s",
+          "t = 5 s",
+          "t = 10 s",
+          "t = 4 s"
+        ],
+        "correct": 3,
+        "explanation": "h = 0 gives −5t(t − 4) = 0, so t = 0 (start) or t = 4 s (landing)."
+      },
+      {
+        "paper": "t1",
+        "section": "Quantitative Aptitude",
+        "type": "mcq",
+        "topic": "Areas Related to Circles",
+        "q": "A bicycle wheel of radius 35 cm makes 5 revolutions. The distance moved (π = 22/7) is:",
+        "options": [
+          "1100 cm",
+          "220 cm",
+          "550 cm",
+          "880 cm"
+        ],
+        "correct": 0,
+        "explanation": "Distance = 5 × 2 × 22/7 × 35 = 5 × 220 = 1100 cm."
+      },
+      {
+        "paper": "t1",
+        "section": "Quantitative Aptitude",
+        "type": "mcq",
+        "topic": "Pair of Linear Equations in Two Variables",
+        "q": "A boat goes 12 km downstream and 8 km upstream in the same time pattern; if its speed in still water is 10 km/h, the stream speed (downstream 12, upstream 8) is:",
+        "options": [
+          "1 km/h",
+          "2 km/h",
+          "3 km/h",
+          "4 km/h"
+        ],
+        "correct": 1,
+        "explanation": "Downstream 10 + s = 12 and upstream 10 − s = 8 both give s = 2 km/h."
+      },
+      {
+        "paper": "t1",
+        "section": "Quantitative Aptitude",
+        "type": "mcq",
+        "topic": "Arithmetic Progressions",
+        "q": "A child builds a triangle of coins: 1 in the top row, 2 in the next, and so on. To build 10 rows she needs:",
+        "options": [
+          "45 coins",
+          "50 coins",
+          "55 coins",
+          "60 coins"
+        ],
+        "correct": 2,
+        "explanation": "1 + 2 + … + 10 = 10 × 11 ÷ 2 = 55 coins."
+      },
+      {
+        "paper": "t1",
+        "section": "Quantitative Aptitude",
+        "type": "mcq",
+        "topic": "Circles",
+        "q": "A chord of length 16 cm is drawn in a circle of radius 10 cm. Find the distance of the chord from the centre of the circle.",
+        "options": [
+          "8 cm",
+          "10 cm",
+          "12 cm",
+          "6 cm"
+        ],
+        "correct": 3,
+        "explanation": "Half of the chord = 8 cm. Using Pythagoras theorem in the right triangle formed by the radius, distance to chord, and half-chord: distance = √(10² − 8²) = √(100 − 64) = √36 = 6 cm."
+      },
+      {
+        "paper": "t1",
+        "section": "Quantitative Aptitude",
+        "type": "mcq",
+        "topic": "Circles (Tangents)",
+        "q": "A circle of radius 6 cm has two parallel tangents. The distance between them is:",
+        "options": [
+          "12 cm",
+          "6 cm",
+          "3 cm",
+          "24 cm"
+        ],
+        "correct": 0,
+        "explanation": "Parallel tangents touch the ends of a diameter, so they are a diameter (12 cm) apart."
+      },
+      {
+        "paper": "t1",
+        "section": "Quantitative Aptitude",
+        "type": "mcq",
+        "topic": "Number Systems",
+        "q": "A circular garden has radius √7 m. If the radius is increased to 3√7 m, how many times does the area increase?",
+        "options": [
+          "3 times",
+          "9 times",
+          "6 times",
+          "27 times"
+        ],
+        "correct": 1,
+        "explanation": "Area is proportional to radius². The radius becomes 3 times, so the area becomes 3² = 9 times."
+      },
+      {
+        "paper": "t1",
+        "section": "Quantitative Aptitude",
+        "type": "mcq",
+        "topic": "Coordinate Geometry",
+        "q": "A delivery van goes from (2, 1) to (2, 9) then to (8, 9). The total path length is:",
+        "options": [
+          "10 units",
+          "12 units",
+          "14 units",
+          "16 units"
+        ],
+        "correct": 2,
+        "explanation": "Vertical leg 8 plus horizontal leg 6 gives 8 + 6 = 14 units."
+      },
+      {
+        "paper": "t1",
+        "section": "Quantitative Aptitude",
+        "type": "mcq",
+        "topic": "Areas of Parallelograms and Triangles",
+        "q": "A farmer has a triangular field with sides 50 m, 65 m, and 65 m. He leaves a 10 m wide straight path along the base (50 m) to the opposite vertex. Is it possible to find the exact area lost to the path without knowing the shape of the path?",
+        "options": [
+          "Yes, the area is 500 m²",
+          "Yes, the area is 250 m²",
+          "Yes, the area depends on the height of the triangle",
+          "No, the path's shape must be known"
+        ],
+        "correct": 3,
+        "explanation": "The problem states 'straight path along the base to the opposite vertex' which is ambiguous in width configuration. However, assuming it's a constant width strip, area logic implies we need its geometric definition to calculate the intersection."
+      },
+      {
+        "paper": "t1",
+        "section": "Quantitative Aptitude",
+        "type": "mcq",
+        "topic": "Heron's Formula",
+        "q": "A floral design is made from 16 identical triangular tiles and has a total area of 576√6 cm². If polishing costs 50 paise per cm², what is the total polishing cost?",
+        "options": [
+          "₹288√6",
+          "₹576√6",
+          "₹144√6",
+          "₹1152√6"
+        ],
+        "correct": 0,
+        "explanation": "Total area = 576√6 cm². Cost in Rupees = 576√6 × 0.50 = ₹288√6."
+      },
+      {
+        "paper": "t1",
+        "section": "Quantitative Aptitude",
+        "type": "mcq",
+        "topic": "Quadrilaterals",
+        "q": "A line segment joins the mid-points of any two sides of a triangle. If the length of this segment is represented by x − 2 and the third side is 3x − 10, find the value of x.",
+        "options": [
+          "8",
+          "6",
+          "4",
+          "10"
+        ],
+        "correct": 1,
+        "explanation": "By the mid-point theorem, the line segment joining the mid-points is half of the third side. So, x − 2 = (3x − 10) / 2 → 2(x − 2) = 3x − 10 → 2x − 4 = 3x − 10 → x = 6."
+      },
+      {
+        "paper": "t1",
+        "section": "Quantitative Aptitude",
+        "type": "mcq",
+        "topic": "Linear Equations in Two Variables",
+        "q": "A manufacturing unit produces items where the total cost y consists of a fixed setup expense of ₹5000 plus a raw material expense of ₹45 per item produced (x). Find the number of items produced if total cost is ₹9500.",
+        "options": [
+          "200",
+          "150",
+          "100",
+          "120"
+        ],
+        "correct": 2,
+        "explanation": "The linear equation is y = 45x + 5000. Given total cost y = 9500, substitute to get 9500 = 45x + 5000 → 4500 = 45x → x = 100."
+      },
+      {
+        "paper": "t1",
+        "section": "Quantitative Aptitude",
+        "type": "mcq",
+        "topic": "Euclid's Geometry",
+        "q": "A mathematical statement whose truth has been logically established using axioms, definitions, and previously proven statements is called a:",
+        "options": [
+          "Postulate",
+          "Axiom",
+          "Conjecture",
+          "Theorem"
+        ],
+        "correct": 3,
+        "explanation": "A theorem is a mathematical statement that has been proven true using logical arguments based on axioms, definitions, and other established theorems."
+      },
+      {
+        "paper": "t1",
+        "section": "Quantitative Aptitude",
+        "type": "mcq",
+        "topic": "Quadratic Equations",
+        "q": "A number is 56 less than its square. The positive value of the number is:",
+        "options": [
+          "8",
+          "7",
+          "9",
+          "6"
+        ],
+        "correct": 0,
+        "explanation": "x² − x = 56 gives x² − x − 56 = (x − 8)(x + 7) = 0, so the positive value is 8."
+      },
+      {
+        "paper": "t1",
+        "section": "Quantitative Aptitude",
+        "type": "mcq",
+        "topic": "Introduction to Trigonometry",
+        "q": "A slide makes a 30° angle with the ground and its top is 3 m high. The length of the slide is:",
+        "options": [
+          "3√3 m",
+          "6 m",
+          "9 m",
+          "1.5 m"
+        ],
+        "correct": 1,
+        "explanation": "sin 30° = 3/L, so L = 3 ÷ 0.5 = 6 m."
+      },
+      {
+        "paper": "t1",
+        "section": "Quantitative Aptitude",
+        "type": "mcq",
+        "topic": "Lines & Angles",
+        "q": "A steel roof truss is constructed using triangular frameworks. If one of the triangles has interior angles in the ratio 3:4:5, find the measure of the smallest angle.",
+        "options": [
+          "60°",
+          "75°",
+          "45°",
+          "30°"
+        ],
+        "correct": 2,
+        "explanation": "Let the angles be 3x, 4x, and 5x. 3x + 4x + 5x = 180° → 12x = 180° → x = 15°. The smallest angle is 3 × 15° = 45°."
+      },
+      {
+        "paper": "t1",
+        "section": "Quantitative Aptitude",
+        "type": "mcq",
+        "topic": "Areas Related To Circles",
+        "q": "A circle is inscribed in a square of side 14 cm. The area of the circle (π = 22/7) is:",
+        "options": [
+          "196 cm²",
+          "308 cm²",
+          "616 cm²",
+          "154 cm²"
+        ],
+        "correct": 3,
+        "explanation": "The circle's diameter equals the side 14, so r = 7 and area = 154 cm²."
+      },
+      {
+        "paper": "t1",
+        "section": "Quantitative Aptitude",
+        "type": "mcq",
+        "topic": "Surface Areas Volumes",
+        "q": "A cone and a hemisphere have equal bases and equal volumes. Find the ratio of their heights.",
+        "options": [
+          "2:1",
+          "1:2",
+          "3:1",
+          "1:3"
+        ],
+        "correct": 0,
+        "explanation": "Let base radius be r. Height of hemisphere is r. Volume of cone = (1/3)πr²h. Volume of hemisphere = (2/3)πr³. Given equal volumes: (1/3)πr²h = (2/3)πr³ → h = 2r. Ratio of their heights = h : r = 2r : r = 2:1."
+      },
+      {
+        "paper": "t1",
+        "section": "Quantitative Aptitude",
+        "type": "mcq",
+        "topic": "Pair Linear Equations",
+        "q": "A consistent pair of equations with infinitely many solutions is called:",
+        "options": [
+          "independent",
+          "dependent",
+          "inconsistent",
+          "unique"
+        ],
+        "correct": 1,
+        "explanation": "Coincident lines give a dependent (and consistent) system."
+      },
+      {
+        "paper": "t1",
+        "section": "Quantitative Aptitude",
+        "type": "mcq",
+        "topic": "Areas Parallelograms Triangles",
+        "q": "A field in the form of a parallelogram has an area of 288 m². If its altitude is twice the corresponding base, find the base.",
+        "options": [
+          "24 m",
+          "16 m",
+          "12 m",
+          "14 m"
+        ],
+        "correct": 2,
+        "explanation": "Let the base be x m, so the altitude is 2x m. Area = base × height = x × 2x = 2x² = 288, giving x² = 144 and x = 12 m."
+      },
+      {
+        "paper": "t1",
+        "section": "English Comprehension",
+        "type": "mcq",
+        "topic": "Reading Comprehension",
+        "q": "Read the passage and answer the question.\n\nThe Indian honeybee, Apis cerana, builds nests in cavities such as hollow tree trunks or wall crevices, unlike the giant rock bee that hangs a single open comb from a cliff. Because the Indian honeybee can be housed in artificial boxes, it has long been the species of choice for small farmers who keep a few hives for honey and for pollinating their orchards. Its colonies are smaller and gentler, making them easier to manage without protective gear.\n\nWhy is Apis cerana preferred by small farmers?",
+        "options": [
+          "It produces more honey than any other bee",
+          "It builds a single open comb on cliffs",
+          "It does not sting under any circumstances",
+          "It can be housed in artificial boxes and is easier to manage"
+        ],
+        "correct": 3,
+        "explanation": "The passage states it can be housed in artificial boxes and that smaller, gentler colonies make it easier to manage."
+      },
+      {
+        "paper": "t1",
+        "section": "English Comprehension",
+        "type": "mcq",
+        "topic": "Reading Comprehension",
+        "q": "Read the passage and answer the question.\n\nLibraries in many small towns are quietly reinventing themselves. No longer just rooms full of books, they now lend tools, host coding clubs for teenagers, and provide free internet to people who cannot afford it at home. A librarian in one district told me she spends more time helping job-seekers fill out online forms than shelving novels. The building has become, in effect, a community centre that happens to own books.\n\nWhat is the main idea of the passage?",
+        "options": [
+          "Small-town libraries are expanding their role beyond lending books",
+          "Libraries are closing because of the internet",
+          "Teenagers no longer read novels",
+          "Librarians dislike shelving books"
+        ],
+        "correct": 0,
+        "explanation": "The passage describes libraries taking on new community roles, so the main idea is their expanding function beyond books."
+      },
+      {
+        "paper": "t1",
+        "section": "English Comprehension",
+        "type": "mcq",
+        "topic": "Reading Comprehension",
+        "q": "Read the passage and answer the question.\n\nMonsoon rains arrive in Kerala first, usually around the first week of June, before sweeping north across the subcontinent over the following weeks. Farmers in the Gangetic plains time their sowing to the expected arrival, and a delay of even ten days can throw an entire planting season into disarray. Meteorologists therefore watch the Kerala onset closely; it is treated as the official start of the season for the whole country.\n\nWhy do meteorologists watch the Kerala onset closely?",
+        "options": [
+          "Because Kerala grows the most rice",
+          "Because it is treated as the official start of the monsoon for the country",
+          "Because the rains stop after reaching Kerala",
+          "Because farmers in Kerala never sow on time"
+        ],
+        "correct": 1,
+        "explanation": "The passage says the Kerala onset is treated as the official start of the season for the whole country."
+      },
+      {
+        "paper": "t1",
+        "section": "English Comprehension",
+        "type": "mcq",
+        "topic": "Reading Comprehension",
+        "q": "Read the passage and answer the question.\n\nWhen Ravi lost his job at the textile mill, he did not sit idle. He had spent years repairing the mill's old machines, so he opened a small workshop fixing sewing machines for neighbourhood tailors. Word spread, and within a year he was training two apprentices. He often says that the skill the mill gave him turned out to be worth more than the wage it paid.\n\nWhat does Ravi mean by his closing remark?",
+        "options": [
+          "The mill paid him very well",
+          "He regrets having worked at the mill",
+          "The skill he learned proved more valuable than his salary",
+          "Tailors do not need sewing machines"
+        ],
+        "correct": 2,
+        "explanation": "He values the skill above the wage, meaning the skill proved more valuable than the salary."
+      },
+      {
+        "paper": "t1",
+        "section": "English Comprehension",
+        "type": "mcq",
+        "topic": "Reading Comprehension",
+        "q": "Read the passage and answer the question.\n\nElephants communicate over long distances using sounds too low for humans to hear. These infrasonic rumbles travel through both the air and the ground, and other elephants can detect the vibrations through their feet. Researchers studying a herd in Karnataka found that a warning rumble could prompt distant family groups to change direction long before any danger was visible, suggesting the messages carry surprisingly specific information.\n\nWhat does the passage suggest about elephant rumbles?",
+        "options": [
+          "They are audible to humans nearby",
+          "They can only be heard above water",
+          "They are produced only when feeding",
+          "They carry specific information across distances"
+        ],
+        "correct": 3,
+        "explanation": "The example of distant groups changing direction shows the rumbles carry specific information over distance."
+      },
+      {
+        "paper": "t1",
+        "section": "English Comprehension",
+        "type": "mcq",
+        "topic": "Reading Comprehension",
+        "q": "Read the passage and answer the question.\n\nThe old clock tower in the market square had stopped working decades ago, its hands frozen at twenty past four. Most people had forgotten it could ever tell time. Then a retired watchmaker, newly moved to the town, asked the municipal council if he might repair it at his own cost. When the bells finally rang again, shopkeepers said the square felt alive in a way it had not for years.\n\nWho restored the clock tower?",
+        "options": [
+          "A retired watchmaker",
+          "The municipal council",
+          "The shopkeepers",
+          "A visiting tourist"
+        ],
+        "correct": 0,
+        "explanation": "The passage states a retired watchmaker offered to repair it at his own cost."
+      },
+      {
+        "paper": "t1",
+        "section": "English Comprehension",
+        "type": "mcq",
+        "topic": "Reading Comprehension",
+        "q": "Read the passage and answer the question.\n\nReading aloud to young children does more than entertain them. Studies tracking children over several years find that those read to daily before the age of five tend to have larger vocabularies and stronger reasoning skills when they start school. The benefit seems to come not only from the words themselves but from the back-and-forth conversation a shared book invites between adult and child.\n\nAccording to the passage, what contributes to the benefit besides the words?",
+        "options": [
+          "The illustrations in the book",
+          "The conversation between adult and child",
+          "The length of the book",
+          "The price of the book"
+        ],
+        "correct": 1,
+        "explanation": "The passage attributes part of the benefit to the back-and-forth conversation a shared book invites."
+      },
+      {
+        "paper": "t1",
+        "section": "English Comprehension",
+        "type": "mcq",
+        "topic": "Reading Comprehension",
+        "q": "Read the passage and answer the question.\n\nA common myth holds that camels store water in their humps. In fact, the humps are mostly fat, which the animal can break down for energy when food is scarce. Camels survive long dry stretches through other means: they tolerate large swings in body temperature, lose very little water in urine, and can rehydrate astonishingly fast, drinking over a hundred litres in minutes when they reach a well.\n\nWhat does a camel's hump actually store?",
+        "options": [
+          "Water",
+          "Salt",
+          "Fat",
+          "Air"
+        ],
+        "correct": 2,
+        "explanation": "The passage explicitly says the humps are mostly fat, correcting the water myth."
+      },
+      {
+        "paper": "t1",
+        "section": "English Comprehension",
+        "type": "mcq",
+        "topic": "Reading Comprehension",
+        "q": "Read the passage and answer the question.\n\nThe new bypass road was meant to ease traffic in the town centre, and at first it did. But cheaper land along the bypass soon attracted shops, petrol pumps and a market, and within five years the bypass itself was as congested as the road it had replaced. Town planners now admit that building roads to relieve traffic often, paradoxically, generates more of it.\n\nWhat paradox do the planners admit?",
+        "options": [
+          "Wider roads always reduce traffic",
+          "Bypasses should never be built",
+          "Shops avoid bypass roads",
+          "Building roads to ease traffic can create more traffic"
+        ],
+        "correct": 3,
+        "explanation": "The planners admit road-building meant to relieve traffic often generates more of it, the stated paradox."
+      },
+      {
+        "paper": "t1",
+        "section": "English Comprehension",
+        "type": "mcq",
+        "topic": "Reading Comprehension",
+        "q": "Read the passage and answer the question.\n\nHandloom weaving in many villages is sustained less by large orders than by a steady trickle of loyal customers who value the irregular texture only a human weaver produces. Machine cloth is cheaper and more uniform, yet some buyers say uniformity is exactly the problem; they want the small flaws that prove a person sat at the loom. For these weavers, imperfection has become a selling point.\n\nWhy do some buyers prefer handloom cloth?",
+        "options": [
+          "Its small imperfections show human craft",
+          "It is cheaper than machine cloth",
+          "It is more uniform",
+          "It is always machine-finished"
+        ],
+        "correct": 0,
+        "explanation": "The passage says buyers want the small flaws that prove a person sat at the loom, valuing imperfection."
+      },
+      {
+        "paper": "t1",
+        "section": "English Comprehension",
+        "type": "mcq",
+        "topic": "Cloze / Fill in the Blank",
+        "q": "Fill in the blank with the most appropriate word.\n\nDespite the heavy rain, the cricket match was not called off; the players continued to ______ the difficult conditions with great determination.",
+        "options": [
+          "enjoy",
+          "endure",
+          "ignore",
+          "escape"
+        ],
+        "correct": 1,
+        "explanation": "'Endure' (to bear patiently) fits the difficult conditions and the players' determination."
+      },
+      {
+        "paper": "t1",
+        "section": "English Comprehension",
+        "type": "mcq",
+        "topic": "Cloze / Fill in the Blank",
+        "q": "Choose the word that best completes the sentence.\n\nThe minister's vague reply did little to ______ the fears of the protesting farmers.",
+        "options": [
+          "arouse",
+          "aggravate",
+          "allay",
+          "announce"
+        ],
+        "correct": 2,
+        "explanation": "'Allay' means to calm or reduce; a reply meant to address fears would aim to allay them."
+      },
+      {
+        "paper": "t1",
+        "section": "English Comprehension",
+        "type": "mcq",
+        "topic": "Cloze / Fill in the Blank",
+        "q": "Select the most suitable word for the blank.\n\nHaving studied the contract carefully, the lawyer pointed out a ______ that could later be exploited by the other party.",
+        "options": [
+          "landmark",
+          "landslide",
+          "lullaby",
+          "loophole"
+        ],
+        "correct": 3,
+        "explanation": "A 'loophole' is an ambiguity in a contract that can be exploited; it fits the legal context."
+      },
+      {
+        "paper": "t1",
+        "section": "English Comprehension",
+        "type": "mcq",
+        "topic": "Cloze / Fill in the Blank",
+        "q": "Pick the word that fits best.\n\nThe children listened in ______ silence as their grandmother described the great famine she had survived as a girl.",
+        "options": [
+          "rapt",
+          "raptured",
+          "wrapped",
+          "rabid"
+        ],
+        "correct": 0,
+        "explanation": "'Rapt' silence means deeply absorbed and attentive, the correct collocation here."
+      },
+      {
+        "paper": "t1",
+        "section": "English Comprehension",
+        "type": "mcq",
+        "topic": "Cloze / Fill in the Blank",
+        "q": "Complete the sentence with the best choice.\n\nBecause the witness kept changing his story, the jury found his testimony entirely ______.",
+        "options": [
+          "credible",
+          "unconvincing",
+          "reliable",
+          "persuasive"
+        ],
+        "correct": 1,
+        "explanation": "A witness who keeps changing his story gives 'unconvincing' testimony; the other options mean the opposite."
+      },
+      {
+        "paper": "t1",
+        "section": "English Comprehension",
+        "type": "mcq",
+        "topic": "Cloze / Fill in the Blank",
+        "q": "Choose the correct word to fill the blank.\n\nThe new manager's ______ approach won over staff who had expected him to be harsh and distant.",
+        "options": [
+          "aloof",
+          "arrogant",
+          "affable",
+          "abrasive"
+        ],
+        "correct": 2,
+        "explanation": "'Affable' (friendly, approachable) contrasts with the expected harsh manner, fitting 'won over staff'."
+      },
+      {
+        "paper": "t1",
+        "section": "English Comprehension",
+        "type": "mcq",
+        "topic": "Cloze / Fill in the Blank",
+        "q": "Fill in the blank suitably.\n\nThe flood ______ the entire village within hours, leaving residents with no time to gather their belongings.",
+        "options": [
+          "sustained",
+          "subscribed",
+          "subsided",
+          "submerged"
+        ],
+        "correct": 3,
+        "explanation": "'Submerged' (covered with water) suits a flood overwhelming a village quickly."
+      },
+      {
+        "paper": "t1",
+        "section": "English Comprehension",
+        "type": "mcq",
+        "topic": "Synonym",
+        "q": "Select the word most nearly SIMILAR in meaning to the capitalised word.\n\nBENEVOLENT",
+        "options": [
+          "kind",
+          "cruel",
+          "careless",
+          "jealous"
+        ],
+        "correct": 0,
+        "explanation": "'Benevolent' means well-meaning and kindly; 'kind' is the closest synonym."
+      },
+      {
+        "paper": "t1",
+        "section": "English Comprehension",
+        "type": "mcq",
+        "topic": "Synonym",
+        "q": "Find the word that is a SYNONYM of the given word.\n\nTRANQUIL",
+        "options": [
+          "noisy",
+          "peaceful",
+          "angry",
+          "busy"
+        ],
+        "correct": 1,
+        "explanation": "'Tranquil' means calm and peaceful."
+      },
+      {
+        "paper": "t1",
+        "section": "English Comprehension",
+        "type": "mcq",
+        "topic": "Synonym",
+        "q": "Pick the closest synonym for the word given.\n\nFRUGAL",
+        "options": [
+          "wasteful",
+          "generous",
+          "thrifty",
+          "reckless"
+        ],
+        "correct": 2,
+        "explanation": "'Frugal' means economical or sparing; 'thrifty' is the synonym."
+      },
+      {
+        "paper": "t1",
+        "section": "English Comprehension",
+        "type": "mcq",
+        "topic": "Antonym",
+        "q": "Select the word OPPOSITE in meaning to the capitalised word.\n\nCANDID",
+        "options": [
+          "frank",
+          "honest",
+          "open",
+          "secretive"
+        ],
+        "correct": 3,
+        "explanation": "'Candid' means frank and open; its antonym is 'secretive'."
+      },
+      {
+        "paper": "t1",
+        "section": "English Comprehension",
+        "type": "mcq",
+        "topic": "Antonym",
+        "q": "Find the word that means the OPPOSITE of the given word.\n\nHUMBLE",
+        "options": [
+          "arrogant",
+          "modest",
+          "meek",
+          "shy"
+        ],
+        "correct": 0,
+        "explanation": "'Humble' means modest; its antonym is 'arrogant'."
+      },
+      {
+        "paper": "t1",
+        "section": "English Comprehension",
+        "type": "mcq",
+        "topic": "Antonym",
+        "q": "Which word is opposite in meaning to the capitalised word?\n\nCONDEMN",
+        "options": [
+          "blame",
+          "praise",
+          "punish",
+          "accuse"
+        ],
+        "correct": 1,
+        "explanation": "To 'condemn' is to express strong disapproval; the opposite is 'praise'."
+      },
+      {
+        "paper": "t1",
+        "section": "English Comprehension",
+        "type": "mcq",
+        "topic": "Antonym",
+        "q": "Identify the antonym of the word below.\n\nTRANSPARENT",
+        "options": [
+          "clear",
+          "obvious",
+          "opaque",
+          "plain"
+        ],
+        "correct": 2,
+        "explanation": "'Transparent' means see-through or clear; 'opaque' is the opposite."
+      },
+      {
+        "paper": "t1",
+        "section": "English Comprehension",
+        "type": "mcq",
+        "topic": "One-Word Substitution",
+        "q": "Choose the single word for the expression given.\n\nA person who speaks many languages",
+        "options": [
+          "polygamist",
+          "philologist",
+          "pedagogue",
+          "polyglot"
+        ],
+        "correct": 3,
+        "explanation": "A 'polyglot' is a person who knows and uses several languages."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Herons Formula",
+        "q": "A municipal park in Delhi is triangular with side lengths 40 m, 24 m, and 32 m. The cost of planting grass at ₹5 per m² is:",
+        "options": [
+          "₹384",
+          "₹960",
+          "₹3840",
+          "₹1920"
+        ],
+        "correct": 3,
+        "explanation": "The sides form a right triangle (24² + 32² = 40²). Area = ½ × 24 × 32 = 384 m². Cost = 384 × 5 = ₹1920."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Linear Equations",
+        "q": "A rectangle is formed by the x-axis, y-axis, and the lines x = 6 and y = 5. What are the coordinates of the vertex diagonally opposite to the origin?",
+        "options": [
+          "(0, 0)",
+          "(6, 0)",
+          "(0, 5)",
+          "(6, 5)"
+        ],
+        "correct": 3,
+        "explanation": "The four vertices of the rectangle are the origin (0,0), the point on the x-axis (6,0), the point on the y-axis (0,5), and the intersection point of x = 6 and y = 5, which is (6, 5). The corner diagonally opposite to (0,0) is (6, 5)."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Number Systems 2",
+        "q": "A rectangular rug has length 4√3 m and width 2√3 m. Its area is:",
+        "options": [
+          "8 square meters",
+          "24 square meters",
+          "12 square meters",
+          "16 square meters"
+        ],
+        "correct": 1,
+        "explanation": "Area = 4√3 × 2√3 = 8 × 3 = 24 square metres."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Number Systems 1",
+        "q": "A shop sells Kaju Katli at ₹400 × (256)^(1/4) per kg. What is the price of 1 kg?",
+        "options": [
+          "₹2000",
+          "₹2400",
+          "₹1600",
+          "₹3200"
+        ],
+        "correct": 2,
+        "explanation": "(256)^(1/4) = (4⁴)^(1/4) = 4, so price = 400 × 4 = ₹1600."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Euclids Geometry",
+        "q": "A system of axioms is said to be consistent if:",
+        "options": [
+          "It can prove every true statement in geometry.",
+          "It contains exactly five distinct axioms.",
+          "It deals only with lines and circles.",
+          "It is impossible to deduce a contradiction from these axioms."
+        ],
+        "correct": 3,
+        "explanation": "A system of axioms is consistent if no two axioms or deduced theorems contradict each other."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Lines And Angles",
+        "q": "An angle is 30° less than twice its supplement. What is the angle?",
+        "options": [
+          "70°",
+          "110°",
+          "80°",
+          "100°"
+        ],
+        "correct": 1,
+        "explanation": "Let the angle be x. Its supplement is 180° − x. x = 2(180° − x) − 30° → x = 360° − 2x − 30° → 3x = 330° → x = 110°."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Trigonometry",
+        "q": "If sec θ = cosec θ for an acute angle, then θ is:",
+        "options": [
+          "30°",
+          "60°",
+          "45°",
+          "90°"
+        ],
+        "correct": 2,
+        "explanation": "sec θ = cosec θ means cos θ = sin θ, which happens at 45°."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Probability",
+        "q": "200 light bulbs include 6 defective ones. The probability that a randomly chosen bulb is defective is:",
+        "options": [
+          "6/100",
+          "1/200",
+          "3/50",
+          "3/100"
+        ],
+        "correct": 3,
+        "explanation": "6/200 = 3/100."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Polynomials",
+        "q": "A cargo container has dimensions (x + 1), (x + 2) and (x + 3) metres. Its volume is:",
+        "options": [
+          "x³ + 6x² + 11x + 6",
+          "x³ + 5x² + 6x",
+          "x³ + 6",
+          "x³ + 11x² + 6x + 6"
+        ],
+        "correct": 0,
+        "explanation": "(x + 1)(x + 2)(x + 3) = (x² + 3x + 2)(x + 3) = x³ + 6x² + 11x + 6."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Areas Related to Circles",
+        "q": "A circular flower bed of radius 14 m is to be turfed at ₹5 per m² (π = 22/7). The cost is:",
+        "options": [
+          "₹616",
+          "₹3080",
+          "₹1540",
+          "₹880"
+        ],
+        "correct": 1,
+        "explanation": "Area = 616 m²; cost = 616 × 5 = ₹3080."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Circles (Tangents)",
+        "q": "A circular fountain is surrounded by a square whose sides each touch the fountain. Each side of the square is a tangent, so the side length equals:",
+        "options": [
+          "the radius",
+          "half the radius",
+          "the diameter of the fountain",
+          "the circumference"
+        ],
+        "correct": 2,
+        "explanation": "A square circumscribing a circle has side equal to the diameter (the circle touches each side once)."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Circles",
+        "q": "A circular wire of radius 7 cm is cut and bent into the shape of a rectangle whose sides are in the ratio 4:7. The smaller side of the rectangle is:",
+        "options": [
+          "4 cm",
+          "14 cm",
+          "22 cm",
+          "8 cm"
+        ],
+        "correct": 3,
+        "explanation": "Length of wire = Circumference = 2 × 22/7 × 7 = 44 cm. Perimeter of rectangle = 2(4x + 7x) = 22x. So, 22x = 44, which means x = 2. Smaller side = 4x = 4 × 2 = 8 cm."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Arithmetic Progressions",
+        "q": "A clock strikes 1 at one o'clock, 2 at two o'clock, and so on up to 12. In twelve hours it strikes a total of:",
+        "options": [
+          "78",
+          "144",
+          "66",
+          "90"
+        ],
+        "correct": 0,
+        "explanation": "1 + 2 + … + 12 = 12 × 13 ÷ 2 = 78 times."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Surface Areas and Volumes",
+        "q": "A cone of height 24 cm and radius of base 6 cm is made up of modeling clay. A child reshapes it in the form of a sphere. The radius of the sphere is:",
+        "options": [
+          "4 cm",
+          "6 cm",
+          "8 cm",
+          "12 cm"
+        ],
+        "correct": 1,
+        "explanation": "Volume of cone = Volume of sphere. (1/3)πr²h = (4/3)πR³. (1/3)π(6²)(24) = (4/3)πR³. 36 × 24 = 4R³. 4R³ = 864 → R³ = 216 → R = 6 cm."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Statistics",
+        "q": "A cricketer wants an average of 50 over 5 innings. After scoring 40, 55, 48 and 62, he needs in the 5th innings:",
+        "options": [
+          "50",
+          "55",
+          "45",
+          "40"
+        ],
+        "correct": 2,
+        "explanation": "Total required = 250; he has 205, so he needs 45."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Coordinate Geometry",
+        "q": "A food court is at (−3, 4) and a security booth is its mirror image across the x-axis. The booth's coordinates are:",
+        "options": [
+          "(3, 4)",
+          "(3, −4)",
+          "(−3, 4)",
+          "(−3, −4)"
+        ],
+        "correct": 3,
+        "explanation": "Reflection in the x-axis: (−3, 4) → (−3, −4)."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Real Numbers",
+        "q": "A grocer wants to pack 24 ladoos, 36 barfis and 48 pedas so that each box has only one kind and the same, greatest number of sweets. Each box holds:",
+        "options": [
+          "12",
+          "4",
+          "6",
+          "24"
+        ],
+        "correct": 0,
+        "explanation": "HCF(24, 36, 48) = 12 sweets per box."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Triangles",
+        "q": "A guy wire is tied from the top of a 24 m pole to a point 7 m from its base. The wire's length is:",
+        "options": [
+          "26 m",
+          "25 m",
+          "23 m",
+          "31 m"
+        ],
+        "correct": 1,
+        "explanation": "√(24² + 7²) = √625 = 25 m."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Areas of Parallelograms and Triangles",
+        "q": "A kite is made of two triangular pieces of paper. The top triangle has base 30 cm and height 20 cm, and the bottom triangle has base 30 cm and height 10 cm. The total paper used is:",
+        "options": [
+          "300 cm²",
+          "150 cm²",
+          "450 cm²",
+          "600 cm²"
+        ],
+        "correct": 2,
+        "explanation": "Top area = ½ × 30 × 20 = 300 cm². Bottom area = ½ × 30 × 10 = 150 cm². Total = 450 cm²."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Quadrilaterals",
+        "q": "A logic rule states: 'All squares are rectangles, and all rectangles are parallelograms.' Based on this rule, which statement is logically FALSE?",
+        "options": [
+          "All squares are parallelograms.",
+          "All squares are rhombuses.",
+          "All rectangles are parallelograms.",
+          "All rhombuses are squares."
+        ],
+        "correct": 3,
+        "explanation": "A rhombus does not necessarily have 90° angles, so not all rhombuses are squares. Hence, this statement is false."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Pair of Linear Equations in Two Variables",
+        "q": "A pair of linear equations has a unique solution when:",
+        "options": [
+          "a₁/a₂ ≠ b₁/b₂",
+          "a₁/a₂ = b₁/b₂",
+          "a₁/a₂ = b₁/b₂ = c₁/c₂",
+          "a₁/a₂ = b₁/b₂ ≠ c₁/c₂"
+        ],
+        "correct": 0,
+        "explanation": "The lines intersect at one point exactly when a₁/a₂ ≠ b₁/b₂."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Quadratic Equations",
+        "q": "A rectangle's length is 5 m more than its width and its area is 84 m². The width is:",
+        "options": [
+          "12 m",
+          "7 m",
+          "6 m",
+          "9 m"
+        ],
+        "correct": 1,
+        "explanation": "w(w + 5) = 84 gives w² + 5w − 84 = (w + 12)(w − 7) = 0, so w = 7 m."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Linear Equations in Two Variables",
+        "q": "A small firm sells handmade items. The profit (y) earned is given by y = 25x − 800, where x is the number of items sold. How many items must be sold to reach a break-even point (zero profit)?",
+        "options": [
+          "25",
+          "40",
+          "32",
+          "50"
+        ],
+        "correct": 2,
+        "explanation": "Break-even means profit y = 0. Set 0 = 25x − 800 → 25x = 800 → x = 800/25 = 32 items."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Heron's Formula",
+        "q": "A square has a side of 10 cm and a diagonal of 10√2 cm. The area calculated by summing the two triangles via Heron's formula is:",
+        "options": [
+          "50 cm²",
+          "200 cm²",
+          "25 cm²",
+          "100 cm²"
+        ],
+        "correct": 3,
+        "explanation": "Each triangle has sides 10, 10, 10√2. Area of one = ½ × base × height = 50. Total = 100 cm² (validating standard area 10² = 100)."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Euclid's Geometry",
+        "q": "A tailor has a template cardboard triangle for cutting pockets. He places the template directly over a piece of cloth and finds that it covers the cloth triangle perfectly with no edges sticking out. He concludes that the cloth triangle is exactly equal in size to the template. Which axiom supports this?",
+        "options": [
+          "Fourth Axiom",
+          "First Axiom",
+          "Third Axiom",
+          "Fifth Axiom"
+        ],
+        "correct": 0,
+        "explanation": "Euclid's Fourth Axiom states: 'Things which coincide with one another are equal to one another.' Superimposing and covering perfectly means they coincide."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Lines & Angles",
+        "q": "An angle is equal to one-third of its supplement. Find the measure of its supplement.",
+        "options": [
+          "45°",
+          "135°",
+          "60°",
+          "120°"
+        ],
+        "correct": 1,
+        "explanation": "Let the supplement angle be x. The angle itself is x/3. Since they are supplementary, x + x/3 = 180° → 4x/3 = 180° → 4x = 540° → x = 135°."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Number Systems",
+        "q": "An irrational number lying between 2 and 2.5 is:",
+        "options": [
+          "√11",
+          "√3",
+          "√5",
+          "2.15"
+        ],
+        "correct": 2,
+        "explanation": "Since 2² = 4 and 2.5² = 6.25, a non-perfect-square root between them works: √5 (because 4 < 5 < 6.25)."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Introduction to Trigonometry",
+        "q": "If sin θ = 3/5, then cos θ equals:",
+        "options": [
+          "5/4",
+          "3/4",
+          "5/3",
+          "4/5"
+        ],
+        "correct": 3,
+        "explanation": "cos θ = √(1 − 9/25) = √(16/25) = 4/5."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Areas Related To Circles",
+        "q": "A circular garden of radius 21 m has a 90° sector reserved for roses. The rose area (π = 22/7) is:",
+        "options": [
+          "346.5 m²",
+          "693 m²",
+          "231 m²",
+          "154 m²"
+        ],
+        "correct": 0,
+        "explanation": "(90/360)(22/7)(441) = (1/4)(1386) = 346.5 m²."
+      },
+      {
+        "paper": "t2",
+        "section": "Mathematical Abilities",
+        "type": "mcq",
+        "topic": "Surface Areas Volumes",
+        "q": "A conical heap of sand has base radius 12 m and height 5 m (π = 22/7). Its slant height is:",
+        "options": [
+          "17 m",
+          "13 m",
+          "15 m",
+          "12 m"
+        ],
+        "correct": 1,
+        "explanation": "l = √(12² + 5²) = √169 = 13 m."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Coding-Decoding",
+        "q": "If in a code BIRD is written as 2-9-18-4 using letter positions, what is the code for FISH?",
+        "options": [
+          "6-8-19-9",
+          "5-9-19-8",
+          "6-9-19-8",
+          "6-9-18-8"
+        ],
+        "correct": 2,
+        "explanation": "Each letter is replaced by its alphabet position: F=6, I=9, S=19, H=8, giving 6-9-19-8. Hence the answer is 6-9-19-8."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Blood Relations",
+        "q": "Pointing to a man, Reena said, 'He is the son of my grandfather's only child.' How is the man related to Reena?",
+        "options": [
+          "Father",
+          "Uncle",
+          "Cousin",
+          "Brother"
+        ],
+        "correct": 3,
+        "explanation": "Reena's grandfather's only child is Reena's parent. The son of Reena's parent is Reena's brother. Hence the man is Reena's brother."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Blood Relations",
+        "q": "A is the brother of B. B is the brother of C. C is the father of D. How is A related to D?",
+        "options": [
+          "Uncle",
+          "Father",
+          "Brother",
+          "Grandfather"
+        ],
+        "correct": 0,
+        "explanation": "A and B are brothers of C, so A is C's brother. C is D's father, so A (C's brother) is D's uncle. Hence A is D's uncle."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Blood Relations",
+        "q": "Introducing a woman, Sunil said, 'She is the mother of the only daughter of my son.' How is the woman related to Sunil?",
+        "options": [
+          "Wife",
+          "Daughter-in-law",
+          "Daughter",
+          "Sister"
+        ],
+        "correct": 1,
+        "explanation": "The only daughter of Sunil's son is Sunil's granddaughter. The granddaughter's mother is the wife of Sunil's son, i.e., Sunil's daughter-in-law. Hence she is his daughter-in-law."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Blood Relations",
+        "q": "P is the wife of Q. R is the son of P. S is the brother of Q. How is S related to R?",
+        "options": [
+          "Father",
+          "Brother",
+          "Uncle",
+          "Cousin"
+        ],
+        "correct": 2,
+        "explanation": "Q is R's father (Q is P's husband and R is P's son). S is Q's brother, so S is R's paternal uncle. Hence S is R's uncle."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Direction & Distance",
+        "q": "A man walks 5 km north, then turns right and walks 3 km, then turns right again and walks 5 km. How far and in which direction is he from the starting point?",
+        "options": [
+          "3 km West",
+          "5 km East",
+          "8 km South",
+          "3 km East"
+        ],
+        "correct": 3,
+        "explanation": "He goes 5 km north, 3 km east (right from north), then 5 km south (right from east). The north and south legs cancel, leaving him 3 km east of the start. Hence he is 3 km East."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Direction & Distance",
+        "q": "A car travels 6 km east, then 8 km north. What is the shortest distance between the starting and ending points?",
+        "options": [
+          "10 km",
+          "12 km",
+          "14 km",
+          "9 km"
+        ],
+        "correct": 0,
+        "explanation": "The two legs are perpendicular, so the shortest distance is the hypotenuse: sqrt(6^2 + 8^2) = sqrt(36 + 64) = sqrt(100) = 10 km. Hence 10 km."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Direction & Distance",
+        "q": "Rohan faces north. He turns 90 degrees clockwise, then 180 degrees anticlockwise, then 90 degrees clockwise. Which direction is he facing now?",
+        "options": [
+          "South",
+          "North",
+          "East",
+          "West"
+        ],
+        "correct": 1,
+        "explanation": "Start north. 90 clockwise gives east. 180 anticlockwise gives west. 90 clockwise gives north. Hence he faces North."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Syllogism",
+        "q": "Statements: All pens are pencils. All pencils are erasers.\nConclusions: I. All pens are erasers. II. All erasers are pens.\nWhich conclusion follows?",
+        "options": [
+          "Only I follows",
+          "Only II follows",
+          "Both follow",
+          "Neither follows"
+        ],
+        "correct": 0,
+        "explanation": "From 'all pens are pencils' and 'all pencils are erasers', it follows that all pens are erasers (I follows). Conclusion II reverses the relation and is not valid. Hence only I follows."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Syllogism",
+        "q": "Statements: Some cats are dogs. All dogs are animals.\nConclusions: I. Some cats are animals. II. All cats are animals.\nWhich conclusion follows?",
+        "options": [
+          "Only I follows",
+          "Only II follows",
+          "Both follow",
+          "Neither follows"
+        ],
+        "correct": 0,
+        "explanation": "Some cats are dogs and all dogs are animals, so those cats which are dogs are animals; thus 'some cats are animals' follows. 'All cats are animals' is not guaranteed. Hence only I follows."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Syllogism",
+        "q": "Statements: No book is a table. All tables are chairs.\nConclusions: I. No book is a chair. II. Some chairs are not books.\nWhich conclusion follows?",
+        "options": [
+          "Only I follows",
+          "Only II follows",
+          "Both follow",
+          "Neither follows"
+        ],
+        "correct": 1,
+        "explanation": "All tables are chairs and no book is a table, so those chairs which are tables are not books, giving 'some chairs are not books' (II follows). 'No book is a chair' cannot be concluded because a book could still be a chair. Hence only II follows."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Order & Ranking",
+        "q": "In a row of 40 students, Ravi is 12th from the left end. What is his position from the right end?",
+        "options": [
+          "28th",
+          "30th",
+          "29th",
+          "27th"
+        ],
+        "correct": 2,
+        "explanation": "Position from right = Total - position from left + 1 = 40 - 12 + 1 = 29. Hence Ravi is 29th from the right end."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Order & Ranking",
+        "q": "In a class, Anil ranks 7th from the top and 18th from the bottom. How many students are there in the class?",
+        "options": [
+          "23",
+          "25",
+          "26",
+          "24"
+        ],
+        "correct": 3,
+        "explanation": "Total students = (rank from top) + (rank from bottom) - 1 = 7 + 18 - 1 = 24. Hence there are 24 students."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Order & Ranking",
+        "q": "Five friends sit on a bench. P is to the left of Q but to the right of R. S is to the right of Q but to the left of T. Who sits in the middle?",
+        "options": [
+          "Q",
+          "P",
+          "R",
+          "S"
+        ],
+        "correct": 0,
+        "explanation": "From the clues the left-to-right order is R, P, Q, S, T. The person in the middle (3rd position) is Q. Hence Q sits in the middle."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Seating arrangement",
+        "q": "Six people A, B, C, D, E, F sit in a row facing north. C is at the left end. B is immediately to the right of C. A is third to the right of B. F is immediately to the left of A, and D is to the right of A. Who sits at the right end?",
+        "options": [
+          "E",
+          "D",
+          "A",
+          "F"
+        ],
+        "correct": 1,
+        "explanation": "C is at position 1, B at 2. A is third to the right of B, so A is at position 5. F is immediately left of A, so F is at 4. Position 3 is left for E, and D is to the right of A, so D is at position 6, the right end. The order is C, B, E, F, A, D. Hence D is at the right end."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Seating arrangement",
+        "q": "Five children sit in a line. M is exactly between N and O. P is at the left end and N is immediately next to P. The fifth child Q takes the only remaining seat. Who is at the right end?",
+        "options": [
+          "M",
+          "N",
+          "Q",
+          "O"
+        ],
+        "correct": 2,
+        "explanation": "P is at the left end and N is next to P, so the order starts P, N. M is between N and O, giving P, N, M, O. The fifth child Q takes the remaining right-end seat: P, N, M, O, Q. Hence Q is at the right end."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Venn diagram",
+        "q": "Which option best represents the relationship among: Animals, Dogs, Cats?",
+        "options": [
+          "Three separate circles",
+          "Dogs and Cats as separate circles, both lying inside the Animals circle",
+          "Three overlapping circles",
+          "Dogs inside Cats inside Animals"
+        ],
+        "correct": 1,
+        "explanation": "Dogs and cats are distinct kinds of animals with no overlap between them, but both are entirely contained within the larger category Animals. Hence the correct diagram has two non-overlapping circles inside a bigger Animals circle."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Venn diagram",
+        "q": "Choose the diagram that shows the relationship among: Doctors, Women, Mothers.",
+        "options": [
+          "Mothers inside Women, with Doctors as a separate circle overlapping both",
+          "Three separate circles",
+          "Doctors inside Women inside Mothers",
+          "Three identical fully overlapping circles"
+        ],
+        "correct": 0,
+        "explanation": "All mothers are women, so Mothers is a circle wholly inside Women. Some doctors are women (and some are mothers), so the Doctors circle overlaps both. Hence option A is correct."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Mathematical operations",
+        "q": "If + means x, x means -, - means /, and / means +, find the value of: 6 + 4 x 2 / 8.",
+        "options": [
+          "28",
+          "32",
+          "34",
+          "30"
+        ],
+        "correct": 3,
+        "explanation": "Replace symbols: + becomes x, x becomes -, / becomes +. So 6 + 4 x 2 / 8 becomes 6 x 4 - 2 + 8 = 24 - 2 + 8 = 30. Hence the answer is 30."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Mathematical operations",
+        "q": "If A means +, B means -, C means x, and D means /, what is the value of 12 C 3 A 6 B 4?",
+        "options": [
+          "38",
+          "36",
+          "40",
+          "34"
+        ],
+        "correct": 0,
+        "explanation": "Replace: C is x, A is +, B is -. So 12 x 3 + 6 - 4 = 36 + 6 - 4 = 38. Hence the answer is 38."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Statement & Conclusions",
+        "q": "Statement: The government has banned the use of plastic bags in the city.\nConclusions: I. People will look for alternatives to plastic bags. II. The ban will help reduce plastic pollution in the city.\nWhich conclusion follows?",
+        "options": [
+          "Only I follows",
+          "Only II follows",
+          "Both I and II follow",
+          "Neither follows"
+        ],
+        "correct": 2,
+        "explanation": "With plastic bags banned, people will need alternatives (I is a reasonable consequence), and reducing plastic use logically helps reduce plastic pollution (II). Hence both conclusions follow."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Statement & Assumptions",
+        "q": "Statement: A notice in an office reads, 'Please switch off the lights when you leave the room.'\nAssumptions: I. Leaving lights on wastes electricity. II. People sometimes forget to switch off lights.\nWhich assumption is implicit?",
+        "options": [
+          "Only I is implicit",
+          "Only II is implicit",
+          "Both are implicit",
+          "Neither is implicit"
+        ],
+        "correct": 2,
+        "explanation": "The notice exists because leaving lights on is considered wasteful (I) and because people may forget to turn them off, otherwise the reminder would be pointless (II). Hence both assumptions are implicit."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Statement & Conclusions",
+        "q": "Statement: All the trains were running late due to heavy fog.\nConclusions: I. Fog can affect train schedules. II. No train ever runs on time.\nWhich conclusion follows?",
+        "options": [
+          "Only I follows",
+          "Only II follows",
+          "Both follow",
+          "Neither follows"
+        ],
+        "correct": 0,
+        "explanation": "The statement shows fog caused delays, so 'fog can affect train schedules' follows (I). 'No train ever runs on time' is an overgeneralisation not supported by one fog incident, so II does not follow. Hence only I follows."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Missing number (matrix)",
+        "q": "In a 2x2 grid the entries are squares of consecutive integers. The top row reads 4 and 9, and the bottom row reads 16 and ?. What number replaces the question mark?",
+        "options": [
+          "20",
+          "25",
+          "24",
+          "36"
+        ],
+        "correct": 1,
+        "explanation": "The numbers are squares of 2, 3, 4, 5: 4=2^2, 9=3^2, 16=4^2, so the missing number is 5^2 = 25. Hence the answer is 25."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Missing number (matrix)",
+        "q": "A grid has three rows. Row 1: (3, 5, 15). Row 2: (4, 6, 24). Row 3: (7, 8, ?). In each row the third number is the product of the first two. Find the missing number.",
+        "options": [
+          "48",
+          "54",
+          "56",
+          "63"
+        ],
+        "correct": 2,
+        "explanation": "In each row the third entry equals the product of the first two: 3x5=15, 4x6=24, so 7x8=56. Hence the answer is 56."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Missing number (matrix)",
+        "q": "Three columns each have a top, middle and bottom number, where bottom = top divided by middle. The columns are (8, 4, 2), (18, 9, 2) and (24, ?, 2). Find the missing middle number.",
+        "options": [
+          "6",
+          "8",
+          "10",
+          "12"
+        ],
+        "correct": 3,
+        "explanation": "Since bottom = top / middle, the middle = top / bottom = 24 / 2 = 12 (check: 8/4=2, 18/9=2). Hence the missing number is 12."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Word formation",
+        "q": "How many meaningful English words can be formed using all the letters of the word 'OWN', each letter used exactly once?",
+        "options": [
+          "Two",
+          "One",
+          "Three",
+          "None"
+        ],
+        "correct": 0,
+        "explanation": "Using O, W, N exactly once we can form 'OWN' and 'WON', which are both meaningful English words. That is two words. Hence the answer is Two."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Word formation",
+        "q": "Which of the following words can be formed using only the letters of the word 'TRIANGLE'?",
+        "options": [
+          "GARLAND",
+          "INTEGRAL",
+          "TRACTOR",
+          "STRANGER"
+        ],
+        "correct": 1,
+        "explanation": "TRIANGLE contains T, R, I, A, N, G, L, E. 'INTEGRAL' uses I, N, T, E, G, R, A, L, each available once. The others need repeated or absent letters (e.g., GARLAND needs two A's and a D). Hence the answer is INTEGRAL."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Counting figures",
+        "q": "A rectangle is divided by one horizontal and one vertical interior line into four smaller rectangles. How many rectangles are there in the figure altogether?",
+        "options": [
+          "4",
+          "6",
+          "9",
+          "8"
+        ],
+        "correct": 2,
+        "explanation": "Including the borders there are 3 horizontal and 3 vertical lines. Number of rectangles = 3C2 x 3C2 = 3 x 3 = 9. Hence there are 9 rectangles."
+      },
+      {
+        "paper": "t2",
+        "section": "Reasoning & General Intelligence",
+        "type": "mcq",
+        "topic": "Counting figures",
+        "q": "In a triangle, all three medians are drawn from the vertices to the midpoints of the opposite sides, meeting at the centroid. Into how many small triangles is the original triangle divided?",
+        "options": [
+          "8",
+          "16",
+          "12",
+          "6"
+        ],
+        "correct": 3,
+        "explanation": "The three medians divide the triangle into 6 smaller triangles of equal area. Hence the answer is 6."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "One-Word Substitution",
+        "q": "Select the one word for the phrase below.\n\nA government run by a small group of people",
+        "options": [
+          "oligarchy",
+          "monarchy",
+          "democracy",
+          "anarchy"
+        ],
+        "correct": 0,
+        "explanation": "'Oligarchy' is rule by a small group of people."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "One-Word Substitution",
+        "q": "Find the single word that means the following.\n\nOne who cannot read or write",
+        "options": [
+          "illegible",
+          "illiterate",
+          "ineligible",
+          "illegal"
+        ],
+        "correct": 1,
+        "explanation": "'Illiterate' describes a person unable to read or write."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "One-Word Substitution",
+        "q": "Pick the word that best replaces the description.\n\nA medicine that relieves pain",
+        "options": [
+          "antibiotic",
+          "antiseptic",
+          "analgesic",
+          "anaesthetic"
+        ],
+        "correct": 2,
+        "explanation": "An 'analgesic' is a medicine that relieves pain."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "One-Word Substitution",
+        "q": "Which one word means the following expression?\n\nSomething that cannot be corrected or put right",
+        "options": [
+          "irreversible",
+          "irrational",
+          "irrelevant",
+          "irreparable"
+        ],
+        "correct": 3,
+        "explanation": "'Irreparable' means impossible to repair or correct."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "One-Word Substitution",
+        "q": "Give the single word for the phrase below.\n\nList of books available in a library",
+        "options": [
+          "catalogue",
+          "inventory",
+          "manuscript",
+          "manifesto"
+        ],
+        "correct": 0,
+        "explanation": "A 'catalogue' is a systematic list, such as of books in a library."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "One-Word Substitution",
+        "q": "Choose the precise word for the definition.\n\nA person who studies the stars and planets scientifically",
+        "options": [
+          "astrologer",
+          "astronomer",
+          "astronaut",
+          "geologist"
+        ],
+        "correct": 1,
+        "explanation": "An 'astronomer' studies celestial bodies scientifically; an astrologer deals with horoscopes."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "One-Word Substitution",
+        "q": "Select the word that fits the meaning given.\n\nThe study of the origin and history of words",
+        "options": [
+          "entomology",
+          "ecology",
+          "etymology",
+          "ethnology"
+        ],
+        "correct": 2,
+        "explanation": "'Etymology' is the study of the origin and history of words."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Idioms & Phrases",
+        "q": "Choose the meaning of the idiom in the sentence.\n\nWhen the auditors arrived unannounced, the manager realised the game was up.",
+        "options": [
+          "a new game had started",
+          "everyone wanted to play",
+          "the meeting was cancelled",
+          "the secret wrongdoing had been exposed"
+        ],
+        "correct": 3,
+        "explanation": "'The game is up' means a deception or wrongdoing has been discovered."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Idioms & Phrases",
+        "q": "Select the correct meaning of the underlined idiom.\n\nHe passed the difficult exam with flying colours.",
+        "options": [
+          "with outstanding success",
+          "with great difficulty",
+          "by cheating",
+          "at the last moment"
+        ],
+        "correct": 0,
+        "explanation": "'With flying colours' means with great success or distinction."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Idioms & Phrases",
+        "q": "What does the idiom in this sentence mean?\n\nDon't worry about his angry words; he is just a paper tiger.",
+        "options": [
+          "a fierce fighter",
+          "someone who appears powerful but is harmless",
+          "a clever writer",
+          "a generous person"
+        ],
+        "correct": 1,
+        "explanation": "A 'paper tiger' seems threatening but is actually powerless or harmless."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Idioms & Phrases",
+        "q": "Pick the meaning of the idiom used below.\n\nThe two brothers finally decided to bury the hatchet after years of quarrelling.",
+        "options": [
+          "hide a weapon",
+          "start a fight",
+          "make peace",
+          "leave the house"
+        ],
+        "correct": 2,
+        "explanation": "'Bury the hatchet' means to end a conflict and become friendly again."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Idioms & Phrases",
+        "q": "Identify the meaning of the highlighted phrase.\n\nThe new policy was a blessing in disguise for small traders.",
+        "options": [
+          "an obvious gift",
+          "a religious ceremony",
+          "a hidden punishment",
+          "something good that first seemed bad"
+        ],
+        "correct": 3,
+        "explanation": "A 'blessing in disguise' is something that seems bad at first but turns out beneficial."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Idioms & Phrases",
+        "q": "What is the meaning of the idiom in this sentence?\n\nAfter the long illness, she is finally on the mend.",
+        "options": [
+          "recovering in health",
+          "being repaired",
+          "moving house",
+          "losing weight"
+        ],
+        "correct": 0,
+        "explanation": "'On the mend' means recovering or getting better in health."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Idioms & Phrases",
+        "q": "Select the meaning of the underlined expression.\n\nThe project failed because the team kept beating about the bush instead of acting.",
+        "options": [
+          "working in a garden",
+          "avoiding the main point",
+          "hitting the target",
+          "wasting money"
+        ],
+        "correct": 1,
+        "explanation": "'Beat about the bush' means to avoid coming to the point."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Error Spotting",
+        "q": "Identify the part of the sentence that contains an error.\n\n(A) One of my friends / (B) have gone / (C) to Delhi / (D) for a job interview.",
+        "options": [
+          "A",
+          "C",
+          "B",
+          "D"
+        ],
+        "correct": 2,
+        "explanation": "'One of my friends' is singular, so the verb must be 'has gone', not 'have gone'."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Error Spotting",
+        "q": "Find the part with a grammatical error.\n\n(A) The teacher asked the students / (B) to not make noise / (C) while the principal / (D) was speaking.",
+        "options": [
+          "A",
+          "C",
+          "D",
+          "B"
+        ],
+        "correct": 3,
+        "explanation": "The correct form is 'not to make noise'; the negative 'not' should precede 'to' in the infinitive here."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Error Spotting",
+        "q": "Which part of the sentence is grammatically incorrect?\n\n(A) Neither the manager / (B) nor the employees / (C) was willing / (D) to accept the new rule.",
+        "options": [
+          "C",
+          "A",
+          "B",
+          "D"
+        ],
+        "correct": 0,
+        "explanation": "With 'neither...nor', the verb agrees with the nearer subject 'employees' (plural), so it should be 'were willing'."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Error Spotting",
+        "q": "Spot the error in the following sentence.\n\n(A) He is senior / (B) than me / (C) by two years / (D) in this office.",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": 1,
+        "explanation": "'Senior' takes 'to', not 'than'; it should be 'senior to me'."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Error Spotting",
+        "q": "Identify the erroneous part of the sentence.\n\n(A) Each of the boys / (B) were given / (C) a separate room / (D) in the hostel.",
+        "options": [
+          "A",
+          "C",
+          "B",
+          "D"
+        ],
+        "correct": 2,
+        "explanation": "'Each' is singular, so the verb should be 'was given', not 'were given'."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Error Spotting",
+        "q": "Locate the part containing a mistake.\n\n(A) The scenery of Kashmir / (B) are so beautiful / (C) that tourists / (D) visit it every year.",
+        "options": [
+          "A",
+          "C",
+          "D",
+          "B"
+        ],
+        "correct": 3,
+        "explanation": "'Scenery' is an uncountable singular noun, so the verb should be 'is so beautiful'."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Error Spotting",
+        "q": "Find the segment with the grammatical error.\n\n(A) If I would have known / (B) about the meeting, / (C) I would have / (D) attended it.",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": 0,
+        "explanation": "In a third conditional, the if-clause uses past perfect: 'If I had known', not 'If I would have known'."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Error Spotting",
+        "q": "Which labelled part has an error?\n\n(A) The number of accidents / (B) on this highway / (C) have increased / (D) over the past year.",
+        "options": [
+          "A",
+          "C",
+          "B",
+          "D"
+        ],
+        "correct": 1,
+        "explanation": "'The number of' takes a singular verb, so it should be 'has increased'."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Error Spotting",
+        "q": "Pick the part where the error lies.\n\n(A) Hardly had I reached / (B) the station / (C) than the train / (D) left the platform.",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": 2,
+        "explanation": "'Hardly...when' is the correct correlative; it should be 'when the train', not 'than the train'."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Sentence Improvement",
+        "q": "Choose the option that best improves the underlined part. If no improvement is needed, choose 'No improvement'.\n\nThe committee have decided to postpone the meeting.",
+        "options": [
+          "have been deciding",
+          "are deciding",
+          "No improvement",
+          "has decided"
+        ],
+        "correct": 3,
+        "explanation": "'Committee' acting as a single body takes a singular verb, so 'has decided' is correct."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Sentence Improvement",
+        "q": "Select the best replacement for the highlighted portion.\n\nShe is more cleverer than her sister.",
+        "options": [
+          "cleverer",
+          "more clever",
+          "most clever",
+          "No improvement"
+        ],
+        "correct": 0,
+        "explanation": "'Cleverer' is already comparative; using 'more' with it is a double comparative error."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Sentence Improvement",
+        "q": "Pick the option that corrects the sentence.\n\nI look forward to meet you next week.",
+        "options": [
+          "to met you",
+          "to meeting you",
+          "for meeting you",
+          "No improvement"
+        ],
+        "correct": 1,
+        "explanation": "'Look forward to' is followed by a gerund: 'to meeting you'."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Sentence Improvement",
+        "q": "Choose the improved version of the underlined words.\n\nNo sooner did he sit down when the phone rang.",
+        "options": [
+          "then the phone rang",
+          "that the phone rang",
+          "than the phone rang",
+          "No improvement"
+        ],
+        "correct": 2,
+        "explanation": "'No sooner' is correlated with 'than', not 'when'."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Sentence Improvement",
+        "q": "Which option best improves the marked phrase?\n\nHe was accused for stealing the documents.",
+        "options": [
+          "accused with stealing",
+          "accused to steal",
+          "No improvement",
+          "accused of stealing"
+        ],
+        "correct": 3,
+        "explanation": "The correct preposition with 'accused' is 'of': 'accused of stealing'."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Sentence Improvement",
+        "q": "Select the most appropriate improvement.\n\nThe room was so dark that I could hardly see nothing.",
+        "options": [
+          "see anything",
+          "not see nothing",
+          "hardly see anything",
+          "No improvement"
+        ],
+        "correct": 0,
+        "explanation": "'Hardly' is already negative; pairing it with 'nothing' is a double negative, so use 'see anything'."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Sentence Improvement",
+        "q": "Choose the best correction for the underlined part.\n\nUnless you do not work hard, you will fail the exam.",
+        "options": [
+          "If you do not work hard",
+          "Unless you work hard",
+          "Until you work hard",
+          "No improvement"
+        ],
+        "correct": 1,
+        "explanation": "'Unless' already carries a negative sense, so the additional 'do not' is redundant."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Active / Passive Voice",
+        "q": "Choose the correct passive form of the sentence.\n\nThe gardener waters the plants every morning.",
+        "options": [
+          "The plants were watered by the gardener every morning.",
+          "The plants have been watered by the gardener every morning.",
+          "The plants are watered by the gardener every morning.",
+          "The plants are being watered by the gardener every morning."
+        ],
+        "correct": 2,
+        "explanation": "Simple present active becomes simple present passive: 'are watered by'."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Active / Passive Voice",
+        "q": "Select the sentence that correctly changes the voice.\n\nSomeone has stolen my bicycle.",
+        "options": [
+          "My bicycle was stolen by someone.",
+          "My bicycle is stolen.",
+          "My bicycle had been stolen.",
+          "My bicycle has been stolen."
+        ],
+        "correct": 3,
+        "explanation": "Present perfect active becomes 'has been stolen'; the indefinite agent 'someone' is dropped."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Active / Passive Voice",
+        "q": "Change the following into the passive voice and choose the correct option.\n\nThe teacher is explaining the lesson.",
+        "options": [
+          "The lesson is being explained by the teacher.",
+          "The lesson is explained by the teacher.",
+          "The lesson was being explained by the teacher.",
+          "The lesson has been explained by the teacher."
+        ],
+        "correct": 0,
+        "explanation": "Present continuous active becomes 'is being explained' in the passive."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Active / Passive Voice",
+        "q": "Choose the correct passive transformation.\n\nDo the students respect their teachers?",
+        "options": [
+          "Were the teachers respected by the students?",
+          "Are the teachers respected by the students?",
+          "Are the teachers being respected by the students?",
+          "Have the teachers been respected by the students?"
+        ],
+        "correct": 1,
+        "explanation": "A simple-present interrogative in active becomes 'Are the teachers respected by the students?'."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Active / Passive Voice",
+        "q": "Select the correct passive form.\n\nThey will complete the project by Friday.",
+        "options": [
+          "The project will completed by Friday.",
+          "The project is completed by Friday.",
+          "The project will be completed by Friday.",
+          "The project would be completed by Friday."
+        ],
+        "correct": 2,
+        "explanation": "Simple future active becomes 'will be completed' in the passive."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Narration / Direct-Indirect",
+        "q": "Choose the correct indirect speech.\n\nHe said, \"I am feeling tired today.\"",
+        "options": [
+          "He said that he is feeling tired today.",
+          "He said that he was feeling tired today.",
+          "He says that he was feeling tired that day.",
+          "He said that he was feeling tired that day."
+        ],
+        "correct": 3,
+        "explanation": "Reporting in the past shifts 'am' to 'was' and 'today' to 'that day'."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Narration / Direct-Indirect",
+        "q": "Select the correctly reported version.\n\nShe asked me, \"Where do you live?\"",
+        "options": [
+          "She asked me where I lived.",
+          "She asked me where do I live.",
+          "She asked me where I live.",
+          "She asked me where did I live."
+        ],
+        "correct": 0,
+        "explanation": "A 'wh-' question becomes a statement order with backshift: 'where I lived'."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Para-Jumble",
+        "q": "Rearrange the parts P, Q, R, S to form a meaningful sentence and choose the correct order.\n\nP: a small notebook\nQ: in which she recorded\nR: the old scientist always carried\nS: every odd idea that struck her",
+        "options": [
+          "P Q R S",
+          "R P Q S",
+          "R Q P S",
+          "S R P Q"
+        ],
+        "correct": 1,
+        "explanation": "R-P-Q-S reads: 'the old scientist always carried a small notebook in which she recorded every odd idea that struck her.'"
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Para-Jumble",
+        "q": "Arrange the segments P, Q, R, S into a coherent sentence.\n\nP: the villagers built\nQ: a sturdy bamboo bridge\nR: to cross the swollen river\nS: within just three days",
+        "options": [
+          "P Q R S",
+          "Q P R S",
+          "P Q S R",
+          "R P Q S"
+        ],
+        "correct": 2,
+        "explanation": "P-Q-S-R reads: 'the villagers built a sturdy bamboo bridge within just three days to cross the swollen river.'"
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Synonym",
+        "q": "Choose the word nearest in meaning to the capitalised word.\n\nABUNDANT",
+        "options": [
+          "scarce",
+          "empty",
+          "weak",
+          "plentiful"
+        ],
+        "correct": 3,
+        "explanation": "'Abundant' means existing in large quantities; 'plentiful' is the synonym."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Antonym",
+        "q": "Select the word opposite in meaning.\n\nGENEROUS",
+        "options": [
+          "stingy",
+          "kind",
+          "liberal",
+          "helpful"
+        ],
+        "correct": 0,
+        "explanation": "'Generous' means giving freely; its antonym is 'stingy'."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Error Spotting",
+        "q": "Identify the part that has an error.\n\n(A) Although he was tired, / (B) but he continued / (C) to work on the report / (D) until midnight.",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": 1,
+        "explanation": "'Although' and 'but' should not be used together in the same sentence; 'but' is redundant."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Idioms & Phrases",
+        "q": "What does the idiom mean in the sentence below?\n\nThe new recruit was thrown in at the deep end on his very first day.",
+        "options": [
+          "sent for swimming lessons",
+          "placed near the water cooler",
+          "given a difficult task with no preparation",
+          "promoted immediately"
+        ],
+        "correct": 2,
+        "explanation": "'Thrown in at the deep end' means given a hard task without preparation or support."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Sentence Improvement",
+        "q": "Choose the option that best improves the sentence.\n\nHe is one of the best player in the team.",
+        "options": [
+          "one of the better player",
+          "one of best players",
+          "No improvement",
+          "one of the best players"
+        ],
+        "correct": 3,
+        "explanation": "'One of the' is followed by a plural noun: 'one of the best players'."
+      },
+      {
+        "paper": "t2",
+        "section": "English Language & Comprehension",
+        "type": "mcq",
+        "topic": "Active / Passive Voice",
+        "q": "Select the correct passive form of the imperative.\n\nClose the door at once.",
+        "options": [
+          "Let the door be closed at once.",
+          "The door is closed at once.",
+          "The door was closed at once.",
+          "Let the door close at once."
+        ],
+        "correct": 0,
+        "explanation": "An imperative is made passive with 'Let + object + be + past participle': 'Let the door be closed at once.'"
+      },
+      {
+        "paper": "t2",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Economy",
+        "q": "Which organisation publishes the 'Human Development Index' (HDI)?",
+        "options": [
+          "World Bank",
+          "UNDP",
+          "IMF",
+          "WTO"
+        ],
+        "correct": 1,
+        "explanation": "The Human Development Index is published annually by the United Nations Development Programme (UNDP)."
+      },
+      {
+        "paper": "t2",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Economy",
+        "q": "The headquarters of the International Monetary Fund (IMF) is located in:",
+        "options": [
+          "Geneva",
+          "New York",
+          "Washington D.C.",
+          "Paris"
+        ],
+        "correct": 2,
+        "explanation": "Both the IMF and the World Bank have their headquarters in Washington, D.C., USA."
+      },
+      {
+        "paper": "t2",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Economy",
+        "q": "Which body regulates the securities and stock market in India?",
+        "options": [
+          "RBI",
+          "IRDAI",
+          "NABARD",
+          "SEBI"
+        ],
+        "correct": 3,
+        "explanation": "The Securities and Exchange Board of India (SEBI) regulates the securities and stock markets."
+      },
+      {
+        "paper": "t2",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Physics",
+        "q": "The SI unit of electric current is:",
+        "options": [
+          "Ampere",
+          "Volt",
+          "Ohm",
+          "Watt"
+        ],
+        "correct": 0,
+        "explanation": "The ampere (A) is the SI base unit of electric current."
+      },
+      {
+        "paper": "t2",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Physics",
+        "q": "Which law states that 'the current through a conductor is directly proportional to the voltage across it'?",
+        "options": [
+          "Newton's Law",
+          "Ohm's Law",
+          "Faraday's Law",
+          "Coulomb's Law"
+        ],
+        "correct": 1,
+        "explanation": "Ohm's Law states V = IR, where current is directly proportional to voltage at constant temperature."
+      },
+      {
+        "paper": "t2",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Physics",
+        "q": "The phenomenon of splitting of white light into its constituent colours is called:",
+        "options": [
+          "Reflection",
+          "Refraction",
+          "Dispersion",
+          "Diffraction"
+        ],
+        "correct": 2,
+        "explanation": "Dispersion is the splitting of white light into its seven constituent colours, as seen in a prism or rainbow."
+      },
+      {
+        "paper": "t2",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Physics",
+        "q": "What is the SI unit of force?",
+        "options": [
+          "Joule",
+          "Pascal",
+          "Watt",
+          "Newton"
+        ],
+        "correct": 3,
+        "explanation": "Force is measured in newton (N), where 1 N = 1 kg·m/s²."
+      },
+      {
+        "paper": "t2",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Physics",
+        "q": "The speed of light in vacuum is approximately:",
+        "options": [
+          "3 x 10^8 m/s",
+          "3 x 10^5 km/s",
+          "3 x 10^6 m/s",
+          "3 x 10^10 m/s"
+        ],
+        "correct": 0,
+        "explanation": "Light travels at approximately 3 x 10^8 metres per second in vacuum."
+      },
+      {
+        "paper": "t2",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Chemistry",
+        "q": "Which gas is most abundant in the Earth's atmosphere?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Argon"
+        ],
+        "correct": 1,
+        "explanation": "Nitrogen makes up about 78% of the Earth's atmosphere by volume."
+      },
+      {
+        "paper": "t2",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Chemistry",
+        "q": "The chemical symbol for the element Sodium is:",
+        "options": [
+          "So",
+          "Sd",
+          "Na",
+          "Sn"
+        ],
+        "correct": 2,
+        "explanation": "Sodium's symbol is Na, derived from its Latin name 'Natrium'."
+      },
+      {
+        "paper": "t2",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Chemistry",
+        "q": "Which of the following is the lightest element in the periodic table?",
+        "options": [
+          "Helium",
+          "Lithium",
+          "Oxygen",
+          "Hydrogen"
+        ],
+        "correct": 3,
+        "explanation": "Hydrogen, with atomic number 1, is the lightest and most abundant element in the universe."
+      },
+      {
+        "paper": "t2",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Chemistry",
+        "q": "Common salt (table salt) is chemically known as:",
+        "options": [
+          "Sodium chloride",
+          "Sodium bicarbonate",
+          "Calcium carbonate",
+          "Potassium chloride"
+        ],
+        "correct": 0,
+        "explanation": "Common table salt is sodium chloride (NaCl)."
+      },
+      {
+        "paper": "t2",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Chemistry",
+        "q": "The pH value of a neutral solution at 25°C is:",
+        "options": [
+          "0",
+          "7",
+          "14",
+          "1"
+        ],
+        "correct": 1,
+        "explanation": "A neutral solution such as pure water has a pH of 7 at 25°C."
+      },
+      {
+        "paper": "t2",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Biology",
+        "q": "Which vitamin is produced in the human body on exposure to sunlight?",
+        "options": [
+          "Vitamin A",
+          "Vitamin C",
+          "Vitamin D",
+          "Vitamin K"
+        ],
+        "correct": 2,
+        "explanation": "Vitamin D is synthesised in the skin when exposed to ultraviolet rays from sunlight."
+      },
+      {
+        "paper": "t2",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Biology",
+        "q": "The deficiency of which vitamin causes the disease 'scurvy'?",
+        "options": [
+          "Vitamin A",
+          "Vitamin B12",
+          "Vitamin D",
+          "Vitamin C"
+        ],
+        "correct": 3,
+        "explanation": "Scurvy is caused by a deficiency of Vitamin C (ascorbic acid)."
+      },
+      {
+        "paper": "t2",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Biology",
+        "q": "Which is the largest gland in the human body?",
+        "options": [
+          "Liver",
+          "Pancreas",
+          "Thyroid",
+          "Salivary gland"
+        ],
+        "correct": 0,
+        "explanation": "The liver is the largest gland as well as the largest internal organ in the human body."
+      },
+      {
+        "paper": "t2",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Biology",
+        "q": "The functional unit of the kidney is called the:",
+        "options": [
+          "Neuron",
+          "Nephron",
+          "Alveolus",
+          "Axon"
+        ],
+        "correct": 1,
+        "explanation": "The nephron is the basic structural and functional unit of the kidney."
+      },
+      {
+        "paper": "t2",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Biology",
+        "q": "Insulin, which regulates blood sugar, is secreted by which organ?",
+        "options": [
+          "Liver",
+          "Kidney",
+          "Pancreas",
+          "Spleen"
+        ],
+        "correct": 2,
+        "explanation": "Insulin is produced by the beta cells of the islets of Langerhans in the pancreas."
+      },
+      {
+        "paper": "t2",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Biology",
+        "q": "How many bones are there in the adult human body?",
+        "options": [
+          "201",
+          "212",
+          "198",
+          "206"
+        ],
+        "correct": 3,
+        "explanation": "An adult human body has 206 bones (a newborn has around 300, many of which fuse with age)."
+      },
+      {
+        "paper": "t2",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Static GK - National Symbols",
+        "q": "Which animal is the national aquatic animal of India?",
+        "options": [
+          "Ganges river dolphin",
+          "Blue whale",
+          "Olive Ridley turtle",
+          "Saltwater crocodile"
+        ],
+        "correct": 0,
+        "explanation": "The Ganges river dolphin was declared the national aquatic animal of India in 2009."
+      },
+      {
+        "paper": "t2",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Static GK - Awards",
+        "q": "What is the highest civilian award of India?",
+        "options": [
+          "Padma Vibhushan",
+          "Bharat Ratna",
+          "Padma Bhushan",
+          "Param Vir Chakra"
+        ],
+        "correct": 1,
+        "explanation": "The Bharat Ratna is the highest civilian award of India; Param Vir Chakra is the highest military gallantry award."
+      },
+      {
+        "paper": "t2",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Static GK - Sports",
+        "q": "The 'Thomas Cup' is associated with which sport?",
+        "options": [
+          "Tennis",
+          "Table Tennis",
+          "Badminton",
+          "Squash"
+        ],
+        "correct": 2,
+        "explanation": "The Thomas Cup is the premier international team competition in men's badminton."
+      },
+      {
+        "paper": "t2",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Static GK - Books & Authors",
+        "q": "The book 'Discovery of India' was written by:",
+        "options": [
+          "Mahatma Gandhi",
+          "Sardar Patel",
+          "Rabindranath Tagore",
+          "Jawaharlal Nehru"
+        ],
+        "correct": 3,
+        "explanation": "'The Discovery of India' was written by Jawaharlal Nehru during his imprisonment at Ahmednagar Fort."
+      },
+      {
+        "paper": "t2",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Static GK - Important Days",
+        "q": "World Environment Day is observed every year on:",
+        "options": [
+          "5 June",
+          "22 April",
+          "21 March",
+          "16 September"
+        ],
+        "correct": 0,
+        "explanation": "World Environment Day is observed globally on 5 June each year."
+      },
+      {
+        "paper": "t2",
+        "section": "General Awareness",
+        "type": "mcq",
+        "topic": "Static GK - First in India",
+        "q": "Who was the first woman Prime Minister of India?",
+        "options": [
+          "Sarojini Naidu",
+          "Indira Gandhi",
+          "Pratibha Patil",
+          "Sucheta Kripalani"
+        ],
+        "correct": 1,
+        "explanation": "Indira Gandhi was the first (and so far only) woman Prime Minister of India."
+      }
+    ]
+  }
+}

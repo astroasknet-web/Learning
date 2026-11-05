@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "chemistry",
+  "chapter": 13,
+  "title": "The d- and f-Block Elements",
+  "slug": "d-and-f-block-elements",
+  "subtitle": "Transition metals, their characteristic properties, lanthanoids and actinoids for NEET",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "NEET Chemistry — The d- and f-Block Elements: electronic configuration and general trends of transition metals, variable oxidation states, colour, magnetic and catalytic behaviour, important compounds (KMnO4, K2Cr2O7), and lanthanoids/actinoids with the lanthanoid contraction, with NEET traps, NCERT notes and MCQs. Free on GrowQR.",
+    "focus_keyword": "d and f block elements NEET",
+    "secondary_keywords": [
+      "transition elements properties NEET",
+      "lanthanoid contraction NEET",
+      "variable oxidation states NEET",
+      "KMnO4 K2Cr2O7 NCERT",
+      "magnetic moment transition metals NEET"
+    ],
+    "keywords": [
+      "d and f block elements NEET",
+      "transition elements NEET",
+      "lanthanoid contraction NEET",
+      "actinoids NEET",
+      "magnetic moment NEET"
+    ]
+  },
+  "summary": "<ul><li><strong>Transition (d-block) elements:</strong> partly filled $d$ orbitals; general configuration $(n-1)d^{1-10}\\,ns^{1-2}$.</li><li><strong>Anomalies:</strong> Cr is $3d^5 4s^1$ and Cu is $3d^{10} 4s^1$ (extra stability of half/fully-filled $d$).</li><li><strong>Variable oxidation states</strong> arise from similar energies of $(n-1)d$ and $ns$ electrons (Mn shows $+2$ to $+7$).</li><li><strong>Coloured ions:</strong> due to $d$–$d$ electronic transitions (need partly filled $d$; $\\text{Sc}^{3+}$, $\\text{Zn}^{2+}$ are colourless).</li><li><strong>Magnetic moment:</strong> $\\mu = \\sqrt{n(n+2)}\\ \\text{BM}$ ($n$ = unpaired electrons) — paramagnetism rises with unpaired electrons.</li><li><strong>Other traits:</strong> good catalysts, form alloys, interstitial compounds, and complex ions; high melting points & densities.</li><li><strong>Important compounds:</strong> $\\text{KMnO}_4$ and $\\text{K}_2\\text{Cr}_2\\text{O}_7$ (strong oxidisers).</li><li><strong>f-block:</strong> lanthanoids show the <strong>lanthanoid contraction</strong> (steady size decrease) explaining similarity of 4d/5d elements; actinoids are radioactive with more variable oxidation states.</li></ul>",
+  "faqs": [
+    { "q": "Why do transition elements show variable oxidation states?", "a": "Because the energies of the (n-1)d and ns orbitals are very close, electrons from both can take part in bonding. So transition metals can lose different numbers of electrons and exhibit several oxidation states, such as manganese from +2 to +7." },
+    { "q": "Why are most transition metal ions coloured?", "a": "Their partly filled d orbitals allow d-d electronic transitions: an electron absorbs a particular wavelength of visible light and the complementary colour is seen. Ions with empty or completely filled d orbitals, like Sc3+ and Zn2+, are colourless." },
+    { "q": "What is the lanthanoid contraction and why is it important?", "a": "The lanthanoid contraction is the steady decrease in atomic and ionic size across the lanthanoid series, caused by the poor shielding of the nuclear charge by the diffuse 4f electrons. It makes the second and third transition series elements (like Zr and Hf) almost identical in size, so they are hard to separate." },
+    { "q": "Why do transition metals act as good catalysts?", "a": "Their variable oxidation states let them form intermediate compounds with reactants and provide alternative low-energy pathways, while their ability to adsorb reactants on their surface (in heterogeneous catalysis) also speeds reactions. Iron in the Haber process and vanadium pentoxide in the Contact process are examples." },
+    { "q": "Why is the magnetic moment of a transition metal ion calculated from unpaired electrons only?", "a": "For most transition metal ions the magnetism is mainly due to the spin of unpaired electrons (the spin-only contribution), so the magnetic moment is calculated as the square root of n(n+2) Bohr magnetons, where n is the number of unpaired electrons. More unpaired electrons means a larger moment." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Transition (d-Block) Elements",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Electronic Configuration and General Trends",
+          "concept": "<p>The <strong>d-block elements</strong>, or <strong>transition elements</strong>, occupy the middle of the periodic table (groups 3–12) and are defined as elements whose atoms or stable ions have <em>partly filled d orbitals</em>. Their general electronic configuration is $(n-1)d^{1-10}\\,ns^{1-2}$, where the penultimate $d$ shell fills up across each series. By this strict definition zinc, cadmium and mercury ($d^{10}$) are not true transition elements, although they are studied with the block — a classic NEET point.</p><p>Two configurations break the expected order because half-filled and fully-filled $d$ sub-shells are extra stable: <strong>chromium is $3d^5\\,4s^1$</strong> (not $3d^4\\,4s^2$) and <strong>copper is $3d^{10}\\,4s^1$</strong> (not $3d^9\\,4s^2$). These anomalies are frequently tested, so commit them to memory.</p><p>The transition metals share characteristic physical trends. They have <strong>high melting and boiling points and high densities</strong>, owing to strong metallic bonding involving both $d$ and $s$ electrons. Their <strong>atomic radii</strong> decrease at first across a series, then stay almost constant, and rise slightly at the end — a much smaller variation than in the main groups, because added $d$ electrons shield the increasing nuclear charge fairly well.</p><p>Most transition metals also form <strong>alloys</strong> readily (their similar atomic sizes let one metal replace another in the lattice), display a range of oxidation states, and behave as good catalysts — properties explored in the next topic. The first transition series (Sc to Zn, filling $3d$) is the most important for NEET, and being fluent with writing the configuration of any first-series atom or ion (remembering to remove $4s$ electrons before $3d$ when forming cations) underpins the whole chapter.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Feature</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Transition elements</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>General config</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$(n-1)d^{1-10}\\,ns^{1-2}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Cr / Cu anomaly</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$3d^5 4s^1$ / $3d^{10} 4s^1$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Melting point / density</td><td style='border:1px solid #dcfce7;padding:6px 10px'>high (strong metallic bonding)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Ion formation</td><td style='border:1px solid #dcfce7;padding:6px 10px'>remove $ns$ electrons before $(n-1)d$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Write the electronic configuration of $\\text{Fe}$ (Z = 26) and the ion $\\text{Fe}^{3+}$.</p>",
+              "solution": "<p>$\\text{Fe}: [\\text{Ar}]\\,3d^6\\,4s^2$. To form $\\text{Fe}^{3+}$, remove the two $4s$ electrons first, then one $3d$: $\\text{Fe}^{3+}: [\\text{Ar}]\\,3d^5$ (a stable half-filled set).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is the configuration of chromium $3d^5\\,4s^1$ rather than $3d^4\\,4s^2$?</p>",
+              "solution": "<p>A half-filled $3d^5$ set together with a half-filled $4s^1$ gives extra exchange-energy stability, so one $4s$ electron shifts into $3d$. Copper is similar: $3d^{10}\\,4s^1$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The general configuration of transition elements is:</p>", "options": ["$ns^2 np^6$", "$(n-1)d^{1-10}\\,ns^{1-2}$", "$ns^1$", "$(n-2)f^{1-14}$"], "correct": 1, "explanation": "Partly filled $(n-1)d$ with $ns$ electrons." },
+            { "q": "<p>The electronic configuration of chromium is:</p>", "options": ["$3d^4 4s^2$", "$3d^5 4s^1$", "$3d^6$", "$3d^3 4s^2$"], "correct": 1, "explanation": "Half-filled stability gives $3d^5 4s^1$." },
+            { "q": "<p>When a transition metal forms a cation, electrons are removed first from:</p>", "options": ["$(n-1)d$", "$ns$", "$np$", "$(n-2)f$"], "correct": 1, "explanation": "$ns$ electrons are lost before $(n-1)d$." },
+            { "q": "<p>Which is NOT regarded as a true transition element?</p>", "options": ["Fe", "Cu", "Zn", "Cr"], "correct": 2, "explanation": "Zn is $d^{10}$ in all states — not partly filled." },
+            { "q": "<p>Transition metals generally have:</p>", "options": ["low melting points", "high melting points & densities", "no metallic bonding", "very large radii"], "correct": 1, "explanation": "Strong metallic bonding gives high m.p. and density." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> memorise Cr ($3d^5 4s^1$) and Cu ($3d^{10} 4s^1$). For ions, remove $4s$ before $3d$. Zn/Cd/Hg ($d^{10}$) are not true transition elements.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Oxidation States, Colour, Magnetism, Catalysis and Key Compounds",
+          "concept": "<p>The most distinctive chemistry of the transition metals follows from their $d$ electrons. Because the $(n-1)d$ and $ns$ orbitals are close in energy, electrons from both can be used in bonding, giving <strong>variable oxidation states</strong>. Manganese is the classic example, showing every state from $+2$ to $+7$; the highest states appear in oxides and oxoanions (e.g. $\\text{MnO}_4^-$). The maximum oxidation state usually rises to the middle of a series and then falls. This variability is a guaranteed NEET topic.</p><p>Transition metal ions are typically <strong>coloured</strong>, because a partly filled $d$ sub-shell allows <strong>d–d electronic transitions</strong>: the ion absorbs one wavelength of visible light to promote a $d$ electron and transmits the complementary colour. Ions with empty ($\\text{Sc}^{3+}$, $d^0$) or completely filled ($\\text{Zn}^{2+}$, $d^{10}$) $d$ orbitals have no such transition and are <strong>colourless</strong> — a popular NEET discriminator.</p><p>Their unpaired $d$ electrons make most transition metal ions <strong>paramagnetic</strong>. The (spin-only) magnetic moment is $\\mu = \\sqrt{n(n+2)}\\ \\text{BM}$, where $n$ is the number of unpaired electrons; more unpaired electrons give a larger moment. NEET often asks you to count unpaired electrons in an ion and compute $\\mu$.</p><p>Transition metals and their compounds are excellent <strong>catalysts</strong> (using variable oxidation states to form intermediates, e.g. Fe in the Haber process, $\\text{V}_2\\text{O}_5$ in the Contact process), form <strong>interstitial compounds</strong> (small atoms like H, C, N occupy lattice holes, making the metal harder), and readily form <strong>complex (coordination) compounds</strong>. Two compounds are studied in detail: <strong>potassium permanganate ($\\text{KMnO}_4$)</strong> and <strong>potassium dichromate ($\\text{K}_2\\text{Cr}_2\\text{O}_7$)</strong>, both powerful oxidising agents whose preparation, structure and reactions are regular NEET fare.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Property</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Reason / point</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Variable oxidation states</td><td style='border:1px solid #dcfce7;padding:6px 10px'>close $(n-1)d$ & $ns$ energies (Mn $+2$ to $+7$)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Colour</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$d$–$d$ transitions ($d^0$, $d^{10}$ colourless)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Magnetic moment</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\mu = \\sqrt{n(n+2)}\\ \\text{BM}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Key compounds</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{KMnO}_4$, $\\text{K}_2\\text{Cr}_2\\text{O}_7$ (oxidisers)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Calculate the spin-only magnetic moment of $\\text{Fe}^{2+}$ ($3d^6$).</p>",
+              "solution": "<p>$3d^6$ has 4 unpaired electrons. $\\mu = \\sqrt{n(n+2)} = \\sqrt{4(6)} = \\sqrt{24} \\approx 4.9\\ \\text{BM}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is $\\text{Sc}^{3+}$ colourless while $\\text{Cu}^{2+}$ is blue?</p>",
+              "solution": "<p>$\\text{Sc}^{3+}$ is $3d^0$ — it has no $d$ electrons, so no $d$–$d$ transition is possible and it is colourless. $\\text{Cu}^{2+}$ is $3d^9$ with a partly filled $d$ sub-shell, allowing a $d$–$d$ transition that gives its blue colour.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Variable oxidation states in transition metals arise because:</p>", "options": ["$d$ and $s$ orbitals have similar energies", "they are radioactive", "they are non-metals", "they have full $d$ shells"], "correct": 0, "explanation": "Close $(n-1)d$ and $ns$ energies allow both to bond." },
+            { "q": "<p>The colour of transition metal ions is due to:</p>", "options": ["$s$–$p$ transitions", "$d$–$d$ transitions", "nuclear changes", "hydrogen bonding"], "correct": 1, "explanation": "Partly filled $d$ allows $d$–$d$ transitions." },
+            { "q": "<p>Which ion is colourless?</p>", "options": ["$\\text{Cu}^{2+}$", "$\\text{Fe}^{2+}$", "$\\text{Zn}^{2+}$", "$\\text{Ni}^{2+}$"], "correct": 2, "explanation": "$\\text{Zn}^{2+}$ is $d^{10}$ — no $d$–$d$ transition." },
+            { "q": "<p>The spin-only magnetic moment is given by:</p>", "options": ["$\\sqrt{n(n+1)}$", "$\\sqrt{n(n+2)}$", "$n(n+2)$", "$n^2$"], "correct": 1, "explanation": "$\\mu = \\sqrt{n(n+2)}\\ \\text{BM}$." },
+            { "q": "<p>Iron acts as a catalyst in the:</p>", "options": ["Contact process", "Haber process", "Ostwald process", "Solvay process"], "correct": 1, "explanation": "Fe catalyses ammonia synthesis (Haber process)." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> colour & paramagnetism need partly filled $d$ ($d^0$/$d^{10}$ = colourless, diamagnetic). $\\mu=\\sqrt{n(n+2)}$ BM. Highest oxidation states show in oxoanions ($\\text{MnO}_4^-$, $\\text{Cr}_2\\text{O}_7^{2-}$).</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The f-Block: Lanthanoids and Actinoids",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Lanthanoids and the Lanthanoid Contraction",
+          "concept": "<p>The <strong>f-block elements</strong>, or <strong>inner transition elements</strong>, are placed separately at the bottom of the periodic table and are characterised by the filling of $f$ orbitals. The first series, the <strong>lanthanoids</strong> (cerium to lutetium, often taken with lanthanum), involves the progressive filling of the $4f$ subshell; their general configuration is $[\\text{Xe}]\\,4f^{1-14}\\,5d^{0-1}\\,6s^2$.</p><p>The lanthanoids are remarkably similar to one another in chemistry. Their most common and stable oxidation state is <strong>$+3$</strong>, although a few show $+2$ or $+4$ when these give a stable $f^0$, $f^7$ or $f^{14}$ configuration (e.g. $\\text{Ce}^{4+}$ from $f^0$, $\\text{Eu}^{2+}$ from $f^7$). Most lanthanoid ions are coloured and paramagnetic owing to unpaired $4f$ electrons, and the metals are reactive, silvery, and used in alloys such as misch metal (in lighter flints) and as magnets.</p><p>The defining feature of the series is the <strong>lanthanoid contraction</strong>: a steady, small decrease in atomic and ionic radius from one lanthanoid to the next across the series. It occurs because the $4f$ electrons being added shield the increasing nuclear charge very poorly (the $4f$ orbitals are diffuse and inner), so the effective nuclear charge felt by the outer electrons rises and pulls them in. NEET regularly tests both the cause and the consequences.</p><p>The consequences of the lanthanoid contraction are far-reaching: the elements of the <strong>second and third transition series become almost identical in size</strong> (for example zirconium and hafnium, or niobium and tantalum), which makes these pairs very hard to separate; it also accounts for the similar properties of the lanthanoids themselves and influences the basicity of their hydroxides (which decreases as size decreases). Understanding this single contraction, its cause and its size-related consequences is the highest-yield idea from the f-block for NEET.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Feature</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Lanthanoids</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Configuration</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$[\\text{Xe}]\\,4f^{1-14}\\,5d^{0-1}\\,6s^2$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Common oxidation state</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$+3$ (some $+2$/$+4$)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Lanthanoid contraction</td><td style='border:1px solid #dcfce7;padding:6px 10px'>poor $4f$ shielding to steady size decrease</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Consequence</td><td style='border:1px solid #dcfce7;padding:6px 10px'>Zr ≈ Hf in size (hard to separate)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>What causes the lanthanoid contraction?</p>",
+              "solution": "<p>The $4f$ electrons added across the series shield the nuclear charge poorly (they are diffuse, inner orbitals). So effective nuclear charge increases steadily, pulling the electron cloud inward and causing a gradual decrease in atomic and ionic size.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why are zirconium and hafnium difficult to separate?</p>",
+              "solution": "<p>Because of the lanthanoid contraction, the size of Hf (a 5d element following the lanthanoids) is almost the same as that of Zr (the 4d element above it). Their nearly identical sizes give them very similar chemical properties, making separation difficult.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The lanthanoids are characterised by filling of the:</p>", "options": ["$3d$ orbital", "$4f$ orbital", "$5f$ orbital", "$6p$ orbital"], "correct": 1, "explanation": "Lanthanoids fill the $4f$ subshell." },
+            { "q": "<p>The most common oxidation state of lanthanoids is:</p>", "options": ["$+1$", "$+2$", "$+3$", "$+4$"], "correct": 2, "explanation": "$+3$ is the most stable state." },
+            { "q": "<p>The lanthanoid contraction is due to poor shielding by:</p>", "options": ["$3d$ electrons", "$4f$ electrons", "$5d$ electrons", "$6s$ electrons"], "correct": 1, "explanation": "Diffuse $4f$ electrons shield poorly." },
+            { "q": "<p>A consequence of the lanthanoid contraction is:</p>", "options": ["Zr and Hf have very different sizes", "Zr and Hf have nearly identical sizes", "all lanthanoids are gases", "actinoids disappear"], "correct": 1, "explanation": "4d/5d pairs become nearly the same size." },
+            { "q": "<p>Across the lanthanoid series, atomic size:</p>", "options": ["increases sharply", "decreases steadily", "stays constant", "doubles"], "correct": 1, "explanation": "Steady decrease — the contraction." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> lanthanoid contraction = poor $4f$ shielding to steady size decrease to 4d/5d pairs (Zr/Hf, Nb/Ta) nearly identical and hard to separate. Common state $+3$.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Actinoids and Comparison with Lanthanoids",
+          "concept": "<p>The second f-block series, the <strong>actinoids</strong> (thorium to lawrencium, taken with actinium), involves the filling of the $5f$ subshell, with the general configuration $[\\text{Rn}]\\,5f^{1-14}\\,6d^{0-1}\\,7s^2$. Unlike the lanthanoids, <strong>all actinoids are radioactive</strong>, and the elements beyond uranium (the <em>transuranium</em> elements) are synthetic, made artificially in nuclear reactions.</p><p>A major difference from the lanthanoids is that the actinoids show a <strong>much greater range of oxidation states</strong>. While $+3$ is common, states up to $+6$ and $+7$ are seen in the early actinoids (for example uranium commonly shows $+6$ in $\\text{UO}_2^{2+}$). This wider variability arises because the $5f$, $6d$ and $7s$ orbitals are close in energy and the $5f$ electrons are less tightly held and more available for bonding than the $4f$ electrons of the lanthanoids.</p><p>There is an analogous <strong>actinoid contraction</strong> — a steady decrease in size across the series — which, like the lanthanoid contraction, is due to the poor shielding of the nuclear charge, here by $5f$ electrons. The actinoid contraction is slightly greater from element to element than the lanthanoid contraction because $5f$ electrons shield even more poorly.</p><p>For NEET, the key comparison points to remember are: both series show a $+3$ state and a contraction caused by poor f-orbital shielding; but actinoids are <em>all radioactive</em>, show <em>more and higher oxidation states</em>, and have $5f$ electrons that are more chemically available than the lanthanoids' $4f$ electrons. Actinoids also have important applications — uranium and plutonium as nuclear fuels, americium in smoke detectors — which NEET sometimes references. Holding these similarities and differences clearly, together with the lanthanoid contraction from the previous topic, covers the f-block questions you are likely to face.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Feature</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Actinoids vs Lanthanoids</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Orbital filled</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$5f$ (vs $4f$)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Radioactivity</td><td style='border:1px solid #dcfce7;padding:6px 10px'>all radioactive (lanthanoids mostly not)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Oxidation states</td><td style='border:1px solid #dcfce7;padding:6px 10px'>wider range, up to $+6$/$+7$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Contraction</td><td style='border:1px solid #dcfce7;padding:6px 10px'>actinoid contraction (slightly greater)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Give two ways in which actinoids differ from lanthanoids.</p>",
+              "solution": "<p>(1) All actinoids are radioactive, whereas most lanthanoids are not. (2) Actinoids show a wider range of (and higher) oxidation states (up to $+6$/$+7$) because their $5f$ electrons are more available for bonding than the lanthanoids' $4f$ electrons.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What is the actinoid contraction?</p>",
+              "solution": "<p>It is the steady decrease in atomic and ionic size across the actinoid series, caused by the poor shielding of the nuclear charge by the $5f$ electrons — analogous to, but slightly greater than, the lanthanoid contraction.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The actinoids involve the filling of the:</p>", "options": ["$4f$ orbital", "$5f$ orbital", "$3d$ orbital", "$6d$ orbital only"], "correct": 1, "explanation": "Actinoids fill the $5f$ subshell." },
+            { "q": "<p>Compared with lanthanoids, actinoids show:</p>", "options": ["fewer oxidation states", "a wider range of oxidation states", "no oxidation states", "only $+1$"], "correct": 1, "explanation": "$5f$ electrons are more available, giving more states." },
+            { "q": "<p>All actinoids are:</p>", "options": ["non-radioactive", "radioactive", "gases", "noble"], "correct": 1, "explanation": "Every actinoid is radioactive." },
+            { "q": "<p>Elements beyond uranium are called:</p>", "options": ["lanthanoids", "transuranium elements", "noble gases", "metalloids"], "correct": 1, "explanation": "Synthetic transuranium elements." },
+            { "q": "<p>The common oxidation state shared by both series is:</p>", "options": ["$+1$", "$+2$", "$+3$", "$+5$"], "correct": 2, "explanation": "$+3$ is common to both lanthanoids and actinoids." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> actinoids = $5f$, all radioactive, more/higher oxidation states (up to $+6$/$+7$); lanthanoids = $4f$, mostly $+3$. Both share a $+3$ state and an f-shielding contraction.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-chemistry-ch13-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct & Statement-based)",
+          "questions": [
+            { "q": "<p>The electronic configuration of $\\text{Cu}$ (Z = 29) is:</p>", "options": ["$3d^9 4s^2$", "$3d^{10} 4s^1$", "$3d^8 4s^2$", "$3d^{10} 4s^2$"], "correct": 1, "explanation": "Fully-filled $d$ stability: $3d^{10} 4s^1$." },
+            { "q": "<p>Which ion has the highest spin-only magnetic moment?</p>", "options": ["$\\text{Ti}^{3+}$ ($d^1$)", "$\\text{Mn}^{2+}$ ($d^5$)", "$\\text{Ni}^{2+}$ ($d^8$)", "$\\text{Zn}^{2+}$ ($d^{10}$)"], "correct": 1, "explanation": "$d^5$ has 5 unpaired electrons — the maximum." },
+            { "q": "<p>The colour of transition metal ions is due to:</p>", "options": ["nuclear transitions", "$d$–$d$ transitions", "$s$–$s$ transitions", "isotopes"], "correct": 1, "explanation": "Partly filled $d$ enables $d$–$d$ transitions." },
+            { "q": "<p>Statements: (I) Mn shows oxidation states from $+2$ to $+7$. (II) $\\text{Sc}^{3+}$ is coloured. Which is/are correct?</p>", "options": ["only I", "only II", "both I and II", "neither"], "correct": 0, "explanation": "I is correct; $\\text{Sc}^{3+}$ ($d^0$) is colourless, so II is wrong." },
+            { "q": "<p>The lanthanoid contraction is caused by poor shielding by:</p>", "options": ["$3d$ electrons", "$4f$ electrons", "$5f$ electrons", "$6s$ electrons"], "correct": 1, "explanation": "Diffuse $4f$ electrons shield poorly." },
+            { "q": "<p>Which pair has almost identical atomic sizes due to lanthanoid contraction?</p>", "options": ["Na and K", "Zr and Hf", "Li and Na", "C and Si"], "correct": 1, "explanation": "Zr and Hf are nearly the same size." },
+            { "q": "<p>Actinoids differ from lanthanoids in being:</p>", "options": ["non-radioactive", "all radioactive", "all gases", "main-group elements"], "correct": 1, "explanation": "All actinoids are radioactive." },
+            { "q": "<p>$\\text{KMnO}_4$ and $\\text{K}_2\\text{Cr}_2\\text{O}_7$ are important as:</p>", "options": ["reducing agents", "oxidising agents", "catalysts only", "fuels"], "correct": 1, "explanation": "Both are strong oxidising agents." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> Transition metals show variable oxidation states.<br><strong>R:</strong> The energies of the $(n-1)d$ and $ns$ orbitals are close, so electrons from both can participate in bonding.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Similar orbital energies allow several oxidation states — R explains A." },
+            { "q": "<p><strong>A:</strong> $\\text{Zn}^{2+}$ salts are colourless.<br><strong>R:</strong> $\\text{Zn}^{2+}$ has a completely filled $3d^{10}$ configuration, so no $d$–$d$ transition is possible.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "No $d$–$d$ transition means no colour — R explains A." },
+            { "q": "<p><strong>A:</strong> Lanthanoids and actinoids have exactly the same number of oxidation states.<br><strong>R:</strong> The $5f$ electrons of actinoids are more available for bonding than the $4f$ electrons of lanthanoids.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "Actinoids show a wider range of states, so A is false; R correctly states why $5f$ are more available." },
+            { "q": "<p><strong>A:</strong> Zirconium and hafnium are difficult to separate.<br><strong>R:</strong> The lanthanoid contraction makes their atomic sizes almost identical.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Nearly identical sizes give very similar properties — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

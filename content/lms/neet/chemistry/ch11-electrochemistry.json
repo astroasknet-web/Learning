@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "chemistry",
+  "chapter": 11,
+  "title": "Electrochemistry",
+  "slug": "electrochemistry",
+  "subtitle": "Galvanic cells, electrode potential, Nernst equation, conductance & electrolysis for NEET",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "NEET Chemistry — Electrochemistry: galvanic cells & electrode potential, the electrochemical series, EMF and the Nernst equation, the link to Gibbs energy and K, conductance & Kohlrausch's law, and Faraday's laws of electrolysis, with NEET traps, NCERT notes and MCQs. Free on GrowQR.",
+    "focus_keyword": "electrochemistry NEET",
+    "secondary_keywords": [
+      "Nernst equation NEET",
+      "galvanic cell electrode potential NEET",
+      "Kohlrausch law NEET",
+      "Faraday laws of electrolysis NEET",
+      "EMF of cell NCERT"
+    ],
+    "keywords": [
+      "electrochemistry NEET",
+      "Nernst equation NEET",
+      "electrode potential NEET",
+      "Kohlrausch law NEET",
+      "electrolysis NEET"
+    ]
+  },
+  "summary": "<ul><li><strong>Galvanic (voltaic) cell</strong>: spontaneous redox to electricity. <em>Oxidation at anode (−)</em>, <em>reduction at cathode (+)</em>.</li><li><strong>Standard electrode potential</strong> measured against SHE ($E^\\circ_{H^+/H_2}=0$). Electrochemical series ranks reducing/oxidising power.</li><li><strong>Cell EMF:</strong> $E^\\circ_{cell} = E^\\circ_{cathode} - E^\\circ_{anode}$; positive $E^\\circ_{cell}$ to spontaneous.</li><li><strong>Nernst equation:</strong> $E = E^\\circ - \\dfrac{0.059}{n}\\log Q$ at $298\\ \\text{K}$.</li><li><strong>Thermodynamic links:</strong> $\\Delta G^\\circ = -nFE^\\circ_{cell}$ and $\\Delta G^\\circ = -RT\\ln K$.</li><li><strong>Conductance:</strong> molar conductivity $\\Lambda_m$ rises on dilution; <strong>Kohlrausch's law</strong> gives $\\Lambda_m^\\circ$ from ionic contributions.</li><li><strong>Electrolysis</strong> drives a non-spontaneous reaction; <strong>Faraday's laws</strong>: $m \\propto Q$, with $1\\ F = 96500\\ \\text{C}$.</li><li>Batteries (dry cell, lead storage, fuel cells) and corrosion are applications.</li></ul>",
+  "faqs": [
+    { "q": "What happens at the anode and cathode of a galvanic cell?", "a": "Oxidation always occurs at the anode and reduction always occurs at the cathode. In a galvanic (voltaic) cell the anode is the negative electrode and the cathode is the positive electrode, and electrons flow from anode to cathode through the external wire." },
+    { "q": "What is the standard hydrogen electrode used for?", "a": "The standard hydrogen electrode (SHE) is the reference electrode assigned a potential of exactly zero volts. All other standard electrode potentials are measured relative to it, which lets us build the electrochemical series and compare oxidising and reducing strengths." },
+    { "q": "What does the Nernst equation tell you?", "a": "The Nernst equation gives the electrode or cell potential under non-standard conditions, showing how potential changes with the concentrations of the reacting species: E = E° − (0.059/n) log Q at 298 K. It reduces to E° when all concentrations are unity." },
+    { "q": "How is cell EMF related to Gibbs free energy?", "a": "The standard Gibbs free energy change equals −nFE°cell, where n is the number of electrons transferred and F is the Faraday constant. A positive E°cell gives a negative ΔG°, meaning the cell reaction is spontaneous." },
+    { "q": "What do Faraday's laws of electrolysis state?", "a": "Faraday's first law says the mass of substance deposited or liberated at an electrode is proportional to the quantity of electric charge passed. The second law says that for the same charge, the masses of different substances are proportional to their equivalent weights." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Galvanic Cells and Cell Potential",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Galvanic Cells, Electrode Potential and the Electrochemical Series",
+          "concept": "<p>Electrochemistry studies the relationship between chemical reactions and electrical energy. A <strong>galvanic (voltaic) cell</strong> converts the energy of a <em>spontaneous</em> redox reaction directly into electricity — the principle behind every battery. The classic example is the Daniell cell, in which zinc is oxidised and copper ions are reduced, with the two half-reactions separated into half-cells connected by a salt bridge.</p><p>In any electrochemical cell, <strong>oxidation occurs at the anode</strong> and <strong>reduction at the cathode</strong>. A vital NEET point is the sign convention: in a <em>galvanic</em> cell the anode is <strong>negative</strong> and the cathode is <strong>positive</strong>, and electrons flow through the external wire from anode to cathode while ions move through the salt bridge to maintain electrical neutrality. (In electrolysis the signs are reversed.)</p><p>The tendency of an electrode to gain or lose electrons is measured by its <strong>electrode potential</strong>. Since a single electrode potential cannot be measured in isolation, all values are quoted relative to the <strong>standard hydrogen electrode (SHE)</strong>, whose potential is defined as exactly $0\\ \\text{V}$. The <em>standard</em> electrode potential $E^{\\circ}$ is measured at $298\\ \\text{K}$, $1\\ \\text{M}$ concentration and $1\\ \\text{bar}$ pressure.</p><p>Arranging electrodes in order of their standard <em>reduction</em> potentials gives the <strong>electrochemical series</strong>. An electrode with a more negative $E^{\\circ}$ has a greater tendency to be oxidised (it is a stronger reducing agent), while one with a more positive $E^{\\circ}$ is more easily reduced (a stronger oxidising agent). The series lets you predict which metal displaces another, whether a reaction is feasible, and which electrode acts as anode or cathode — all recurring NEET applications.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Term</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Galvanic cell</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Anode</td><td style='border:1px solid #dcfce7;padding:6px 10px'>oxidation, negative (−)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Cathode</td><td style='border:1px solid #dcfce7;padding:6px 10px'>reduction, positive (+)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Reference</td><td style='border:1px solid #dcfce7;padding:6px 10px'>SHE, $E^{\\circ}=0\\ \\text{V}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>More negative $E^{\\circ}$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>stronger reducing agent</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>In a Daniell cell, identify the anode and cathode. ($E^{\\circ}_{Zn^{2+}/Zn} = -0.76\\ \\text{V}$, $E^{\\circ}_{Cu^{2+}/Cu} = +0.34\\ \\text{V}$.)</p>",
+              "solution": "<p>Zinc has the more negative potential, so it is oxidised — Zn is the <strong>anode</strong> (negative). Copper ions are reduced — Cu is the <strong>cathode</strong> (positive).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is the standard hydrogen electrode needed?</p>",
+              "solution": "<p>A single electrode's absolute potential cannot be measured. The SHE is assigned $0\\ \\text{V}$ as a reference, so every other electrode potential can be measured relative to it and tabulated in the electrochemical series.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>In a galvanic cell, oxidation occurs at the:</p>", "options": ["cathode", "anode", "salt bridge", "voltmeter"], "correct": 1, "explanation": "Oxidation is always at the anode." },
+            { "q": "<p>In a galvanic cell, the anode is:</p>", "options": ["positive", "negative", "neutral", "the cathode"], "correct": 1, "explanation": "Galvanic anode is negative." },
+            { "q": "<p>The standard hydrogen electrode is assigned a potential of:</p>", "options": ["$+1\\ \\text{V}$", "$-1\\ \\text{V}$", "$0\\ \\text{V}$", "$0.76\\ \\text{V}$"], "correct": 2, "explanation": "SHE = $0\\ \\text{V}$ by definition." },
+            { "q": "<p>A more negative standard electrode potential means the species is a:</p>", "options": ["stronger oxidising agent", "stronger reducing agent", "weaker reducing agent", "neutral species"], "correct": 1, "explanation": "More negative $E^{\\circ}$ = stronger reducing agent." },
+            { "q": "<p>The salt bridge in a cell serves to:</p>", "options": ["carry electrons", "maintain electrical neutrality", "speed the reaction", "store charge"], "correct": 1, "explanation": "It completes the circuit and balances charge." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> An-Ox / Cat-Red. In a galvanic cell anode = −, cathode = +; electrons flow anode to cathode externally. More negative $E^{\\circ}$ = stronger reducing agent.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Cell EMF, the Nernst Equation and Thermodynamics",
+          "concept": "<p>The driving force of a galvanic cell is its <strong>electromotive force (EMF)</strong> or cell potential. Under standard conditions, $E^{\\circ}_{cell} = E^{\\circ}_{cathode} - E^{\\circ}_{anode}$, using standard <em>reduction</em> potentials for both. A <strong>positive</strong> $E^{\\circ}_{cell}$ means the cell reaction is spontaneous as written — a check NEET asks for constantly.</p><p>Real cells rarely operate at standard concentrations, so the <strong>Nernst equation</strong> gives the potential under any conditions: $E = E^{\\circ} - \\dfrac{RT}{nF}\\ln Q$, which at $298\\ \\text{K}$ simplifies to $E = E^{\\circ} - \\dfrac{0.059}{n}\\log Q$, where $n$ is the number of electrons transferred and $Q$ the reaction quotient. The equation shows how potential rises when reactant concentration increases and falls as products build up; for a single electrode it relates the potential to ion concentration. Nernst-equation numericals are a NEET staple.</p><p>Electrochemistry connects directly to thermodynamics. The maximum electrical work a cell can do equals the decrease in Gibbs free energy, giving $\\Delta G^{\\circ} = -nFE^{\\circ}_{cell}$, where $F = 96500\\ \\text{C mol}^{-1}$ is the Faraday constant. So a positive $E^{\\circ}_{cell}$ corresponds to a negative $\\Delta G^{\\circ}$ (spontaneous) — the same conclusion reached in thermodynamics, now from a different angle.</p><p>Combining $\\Delta G^{\\circ} = -nFE^{\\circ}_{cell}$ with $\\Delta G^{\\circ} = -RT\\ln K$ links cell potential to the <strong>equilibrium constant</strong>: $E^{\\circ}_{cell} = \\dfrac{RT}{nF}\\ln K$, or at $298\\ \\text{K}$, $E^{\\circ}_{cell} = \\dfrac{0.059}{n}\\log K$. A large positive $E^{\\circ}_{cell}$ therefore implies a large $K$ (reaction goes nearly to completion). When the cell reaches equilibrium, $Q = K$, the EMF falls to zero, and the battery is 'dead'. Holding these three relations — Nernst, $\\Delta G^{\\circ} = -nFE^{\\circ}$, and $E^{\\circ}$–$K$ — together covers nearly every quantitative NEET question in this chapter.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Relation</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Formula</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Cell EMF</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$E^{\\circ}_{cell} = E^{\\circ}_{cathode} - E^{\\circ}_{anode}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Nernst (298 K)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$E = E^{\\circ} - \\dfrac{0.059}{n}\\log Q$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Gibbs energy</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\Delta G^{\\circ} = -nFE^{\\circ}_{cell}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>EMF and K</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$E^{\\circ}_{cell} = \\dfrac{0.059}{n}\\log K$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find $E^{\\circ}_{cell}$ for the Daniell cell. ($E^{\\circ}_{Cu^{2+}/Cu} = +0.34\\ \\text{V}$, $E^{\\circ}_{Zn^{2+}/Zn} = -0.76\\ \\text{V}$.)</p>",
+              "solution": "<p>$E^{\\circ}_{cell} = E^{\\circ}_{cathode} - E^{\\circ}_{anode} = 0.34 - (-0.76) = +1.10\\ \\text{V}$. Positive, so the cell reaction is spontaneous.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>For a cell, $E^{\\circ}_{cell} = +1.10\\ \\text{V}$ and $n = 2$. Find $\\Delta G^{\\circ}$. ($F = 96500\\ \\text{C mol}^{-1}$)</p>",
+              "solution": "<p>$\\Delta G^{\\circ} = -nFE^{\\circ}_{cell} = -(2)(96500)(1.10) = -212\\,300\\ \\text{J} \\approx -212.3\\ \\text{kJ}$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The standard EMF of a cell is:</p>", "options": ["$E^{\\circ}_{anode} - E^{\\circ}_{cathode}$", "$E^{\\circ}_{cathode} - E^{\\circ}_{anode}$", "$E^{\\circ}_{cathode} + E^{\\circ}_{anode}$", "$E^{\\circ}_{cathode}$ only"], "correct": 1, "explanation": "$E^{\\circ}_{cell} = E^{\\circ}_{cathode} - E^{\\circ}_{anode}$." },
+            { "q": "<p>The Nernst equation at 298 K uses the factor:</p>", "options": ["$0.059/n$", "$n/0.059$", "$0.059 n$", "$RT$"], "correct": 0, "explanation": "$E = E^{\\circ} - (0.059/n)\\log Q$." },
+            { "q": "<p>$\\Delta G^{\\circ}$ is related to EMF by:</p>", "options": ["$\\Delta G^{\\circ} = nFE^{\\circ}$", "$\\Delta G^{\\circ} = -nFE^{\\circ}$", "$\\Delta G^{\\circ} = -F/E^{\\circ}$", "$\\Delta G^{\\circ} = E^{\\circ}/nF$"], "correct": 1, "explanation": "$\\Delta G^{\\circ} = -nFE^{\\circ}_{cell}$." },
+            { "q": "<p>A positive $E^{\\circ}_{cell}$ means the reaction is:</p>", "options": ["non-spontaneous", "spontaneous", "at equilibrium", "impossible"], "correct": 1, "explanation": "Positive EMF to negative $\\Delta G$ to spontaneous." },
+            { "q": "<p>When a cell reaches equilibrium, its EMF is:</p>", "options": ["maximum", "zero", "negative", "unchanged"], "correct": 1, "explanation": "At equilibrium $Q=K$ and EMF = 0 (dead cell)." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> $E^{\\circ}_{cell}=E^{\\circ}_{cath}-E^{\\circ}_{an}$ (both reduction). Nernst: $E=E^{\\circ}-\\frac{0.059}{n}\\log Q$. Links: $\\Delta G^{\\circ}=-nFE^{\\circ}$, $E^{\\circ}=\\frac{0.059}{n}\\log K$. Dead cell to EMF $=0$, $Q=K$.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Conductance and Electrolysis",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Conductance and Kohlrausch's Law",
+          "concept": "<p>Solutions of electrolytes conduct electricity by the movement of ions. The conducting ability is described by several related quantities. <strong>Conductance</strong> is the reciprocal of resistance; <strong>conductivity (specific conductance) $\\kappa$</strong> is the conductance of a unit cube of solution. More useful is the <strong>molar conductivity $\\Lambda_m$</strong>, the conductivity of a solution containing one mole of electrolyte between electrodes a unit distance apart: $\\Lambda_m = \\dfrac{\\kappa \\times 1000}{C}$, where $C$ is molarity. Knowing how each quantity changes with dilution is a NEET favourite.</p><p>On <strong>dilution</strong>, conductivity $\\kappa$ <em>decreases</em> (fewer ions per unit volume), but <strong>molar conductivity $\\Lambda_m$ increases</strong> (the same moles of ions move more freely and dissociate more fully). The behaviour differs between electrolyte types: for <strong>strong electrolytes</strong>, $\\Lambda_m$ rises only slightly and linearly with dilution, extrapolating cleanly to a limiting value $\\Lambda_m^{\\circ}$ at infinite dilution. For <strong>weak electrolytes</strong>, $\\Lambda_m$ is low at higher concentration and rises steeply on dilution as more molecules ionise, so $\\Lambda_m^{\\circ}$ cannot be found by direct extrapolation.</p><p>This is where <strong>Kohlrausch's law of independent migration of ions</strong> comes in: at infinite dilution, each ion contributes a fixed, independent amount to the molar conductivity, so $\\Lambda_m^{\\circ} = \\nu_+ \\lambda_+^{\\circ} + \\nu_- \\lambda_-^{\\circ}$ — the limiting molar conductivity is the sum of the limiting conductivities of the constituent ions. This lets us calculate $\\Lambda_m^{\\circ}$ for a weak electrolyte indirectly from the values of strong electrolytes, a classic NEET calculation.</p><p>Kohlrausch's law has practical uses: it allows the calculation of the <strong>degree of dissociation</strong> ($\\alpha = \\Lambda_m / \\Lambda_m^{\\circ}$) and the <strong>dissociation constant</strong> of a weak electrolyte, and underlies conductometric titrations. Understanding the dilution trends and applying Kohlrausch's law to find $\\Lambda_m^{\\circ}$ and $\\alpha$ are the high-yield skills from this topic.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Quantity / law</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Key point</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Molar conductivity</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\Lambda_m = \\dfrac{\\kappa \\times 1000}{C}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>On dilution</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\kappa$ falls, $\\Lambda_m$ rises</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Kohlrausch's law</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\Lambda_m^{\\circ} = \\nu_+\\lambda_+^{\\circ} + \\nu_-\\lambda_-^{\\circ}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Degree of dissociation</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\alpha = \\Lambda_m / \\Lambda_m^{\\circ}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A solution has $\\kappa = 0.025\\ \\text{S cm}^{-1}$ and concentration $0.5\\ \\text{mol L}^{-1}$. Find its molar conductivity.</p>",
+              "solution": "<p>$\\Lambda_m = \\dfrac{\\kappa \\times 1000}{C} = \\dfrac{0.025 \\times 1000}{0.5} = 50\\ \\text{S cm}^2\\,\\text{mol}^{-1}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why can't the limiting molar conductivity of a weak electrolyte be found by direct extrapolation?</p>",
+              "solution": "<p>A weak electrolyte ionises only partly, and its $\\Lambda_m$ rises very steeply near infinite dilution without reaching a clear intercept. Kohlrausch's law is used instead — adding the limiting ionic conductivities obtained from strong electrolytes.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>On dilution, the molar conductivity of a solution:</p>", "options": ["decreases", "increases", "stays constant", "becomes zero"], "correct": 1, "explanation": "$\\Lambda_m$ increases on dilution." },
+            { "q": "<p>On dilution, the conductivity $\\kappa$:</p>", "options": ["increases", "decreases", "is unchanged", "doubles"], "correct": 1, "explanation": "Fewer ions per unit volume, so $\\kappa$ falls." },
+            { "q": "<p>Kohlrausch's law gives $\\Lambda_m^{\\circ}$ as the:</p>", "options": ["product of ionic conductivities", "sum of ionic limiting conductivities", "ratio of conductivities", "difference of conductivities"], "correct": 1, "explanation": "Sum of independent ion contributions." },
+            { "q": "<p>The degree of dissociation is:</p>", "options": ["$\\Lambda_m \\times \\Lambda_m^{\\circ}$", "$\\Lambda_m / \\Lambda_m^{\\circ}$", "$\\Lambda_m^{\\circ} / \\Lambda_m$", "$\\Lambda_m + \\Lambda_m^{\\circ}$"], "correct": 1, "explanation": "$\\alpha = \\Lambda_m / \\Lambda_m^{\\circ}$." },
+            { "q": "<p>Molar conductivity is calculated as:</p>", "options": ["$\\kappa C / 1000$", "$\\kappa \\times 1000 / C$", "$C / \\kappa$", "$\\kappa / C$"], "correct": 1, "explanation": "$\\Lambda_m = \\kappa \\times 1000 / C$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> on dilution $\\kappa$ ↓ but $\\Lambda_m$ ↑. For weak electrolytes use Kohlrausch's law to get $\\Lambda_m^{\\circ}$, then $\\alpha = \\Lambda_m/\\Lambda_m^{\\circ}$. Strong electrolyte $\\Lambda_m$ extrapolates linearly.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Electrolysis, Faraday's Laws and Batteries",
+          "concept": "<p><strong>Electrolysis</strong> is the opposite of a galvanic cell: an external source of electricity drives a <em>non-spontaneous</em> redox reaction. In an electrolytic cell the anode is connected to the positive terminal and the cathode to the negative terminal (the reverse of a galvanic cell), but oxidation still occurs at the anode and reduction at the cathode. Electrolysis is used industrially to extract reactive metals, refine copper, and produce chlorine, sodium hydroxide and aluminium.</p><p>The amount of product formed is governed by <strong>Faraday's laws of electrolysis</strong>. The <em>first law</em> states that the mass $m$ of a substance deposited or liberated at an electrode is proportional to the quantity of charge $Q$ passed: $m = Z\\,Q = Z\\,I\\,t$, where $Z$ is the electrochemical equivalent, $I$ the current and $t$ the time. The <em>second law</em> states that for the same quantity of charge, the masses of different substances liberated are proportional to their <strong>equivalent weights</strong>. NEET numericals usually apply these directly.</p><p>One <strong>Faraday ($1\\ F = 96500\\ \\text{C}$)</strong> is the charge on one mole of electrons. Depositing one mole of a substance requires $n$ Faradays, where $n$ is the number of electrons in its electrode half-reaction — so depositing one mole of $\\text{Cu}$ from $\\text{Cu}^{2+}$ needs $2\\ F$, while one mole of $\\text{Ag}$ from $\\text{Ag}^+$ needs $1\\ F$. Recognising the value of $n$ for each ion is a frequent NEET trap.</p><p>The chapter's applications include <strong>batteries</strong> and <strong>fuel cells</strong>: <em>primary</em> cells (the dry Leclanché cell, mercury cell) are used once; <em>secondary</em> cells (the lead storage battery, nickel–cadmium cell) are rechargeable; and <em>fuel cells</em> (such as the hydrogen–oxygen fuel cell) convert the energy of fuel combustion directly into electricity with high efficiency and little pollution. Finally, <strong>corrosion</strong> — especially the rusting of iron — is an unwanted electrochemical (galvanic) process, prevented by barrier coatings, galvanising and cathodic (sacrificial) protection. These applications are favourite NEET assertion-reason topics.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Idea</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Key point</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Electrolysis</td><td style='border:1px solid #dcfce7;padding:6px 10px'>external current drives non-spontaneous redox</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Faraday's 1st law</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$m = Z\\,I\\,t$ (mass $\\propto$ charge)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>One Faraday</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$96500\\ \\text{C}$ = 1 mole of electrons</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Secondary cell</td><td style='border:1px solid #dcfce7;padding:6px 10px'>rechargeable (lead storage, Ni–Cd)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>How many Faradays are needed to deposit one mole of copper from $\\text{Cu}^{2+}$?</p>",
+              "solution": "<p>$\\text{Cu}^{2+} + 2e^- \\rightarrow \\text{Cu}$ requires $2$ moles of electrons, so $2\\ F$ ($= 2 \\times 96500 = 193000\\ \\text{C}$).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A current of $5\\ \\text{A}$ flows for $965\\ \\text{s}$. How many moles of electrons pass?</p>",
+              "solution": "<p>$Q = It = 5 \\times 965 = 4825\\ \\text{C}$. Moles of electrons $= Q/F = 4825/96500 = 0.05\\ \\text{mol}$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Electrolysis drives a reaction that is:</p>", "options": ["spontaneous", "non-spontaneous", "at equilibrium", "exothermic only"], "correct": 1, "explanation": "External current drives a non-spontaneous reaction." },
+            { "q": "<p>Faraday's first law states mass deposited is proportional to:</p>", "options": ["voltage", "charge passed", "temperature", "resistance"], "correct": 1, "explanation": "$m \\propto Q$ (= $It$)." },
+            { "q": "<p>One Faraday equals:</p>", "options": ["$9650\\ \\text{C}$", "$96500\\ \\text{C}$", "$965\\ \\text{C}$", "$96.5\\ \\text{C}$"], "correct": 1, "explanation": "$1\\ F = 96500\\ \\text{C}$ = 1 mole of e⁻." },
+            { "q": "<p>The lead storage battery is an example of a:</p>", "options": ["primary cell", "secondary (rechargeable) cell", "fuel cell", "dry cell"], "correct": 1, "explanation": "Lead storage battery is rechargeable (secondary)." },
+            { "q": "<p>Rusting of iron is best described as:</p>", "options": ["a galvanic (electrochemical) process", "electrolysis", "sublimation", "neutralisation"], "correct": 0, "explanation": "Corrosion is an unwanted galvanic process." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> $m = ZIt$; moles of e⁻ $= It/96500$. Depositing 1 mol needs $n$ Faradays ($\\text{Cu}^{2+}$ to $2F$, $\\text{Ag}^+$ to $1F$). Secondary cells recharge; corrosion = galvanic, stopped by cathodic protection.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-chemistry-ch11-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct & Statement-based)",
+          "questions": [
+            { "q": "<p>In a galvanic cell, reduction occurs at the:</p>", "options": ["anode", "cathode", "salt bridge", "wire"], "correct": 1, "explanation": "Reduction is at the cathode." },
+            { "q": "<p>$E^{\\circ}_{cell}$ is calculated as:</p>", "options": ["$E^{\\circ}_{an} - E^{\\circ}_{cath}$", "$E^{\\circ}_{cath} - E^{\\circ}_{an}$", "$E^{\\circ}_{cath} + E^{\\circ}_{an}$", "$2E^{\\circ}_{cath}$"], "correct": 1, "explanation": "$E^{\\circ}_{cell} = E^{\\circ}_{cathode} - E^{\\circ}_{anode}$." },
+            { "q": "<p>The Nernst factor at 298 K is:</p>", "options": ["$0.059/n$", "$0.059 n$", "$59/n$", "$n/0.059$"], "correct": 0, "explanation": "$(0.059/n)\\log Q$." },
+            { "q": "<p>Statements: (I) $\\Delta G^{\\circ} = -nFE^{\\circ}_{cell}$. (II) A positive $E^{\\circ}_{cell}$ gives a spontaneous reaction. Which are correct?</p>", "options": ["only I", "only II", "both I and II", "neither"], "correct": 2, "explanation": "Both statements are correct." },
+            { "q": "<p>On dilution, molar conductivity of an electrolyte:</p>", "options": ["increases", "decreases", "is unchanged", "becomes zero"], "correct": 0, "explanation": "$\\Lambda_m$ increases on dilution." },
+            { "q": "<p>To deposit 1 mole of $\\text{Al}$ from $\\text{Al}^{3+}$, the charge needed is:</p>", "options": ["$1\\ F$", "$2\\ F$", "$3\\ F$", "$0.5\\ F$"], "correct": 2, "explanation": "$\\text{Al}^{3+} + 3e^- \\rightarrow \\text{Al}$ needs $3\\ F$." },
+            { "q": "<p>A hydrogen–oxygen fuel cell converts:</p>", "options": ["heat to work", "chemical energy of fuel directly to electricity", "light to electricity", "sound to electricity"], "correct": 1, "explanation": "Fuel cells convert fuel energy directly to electricity." },
+            { "q": "<p>When a cell reaches equilibrium ($Q=K$), the EMF is:</p>", "options": ["maximum", "zero", "negative", "infinite"], "correct": 1, "explanation": "EMF = 0 at equilibrium (dead cell)." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> A cell with a positive standard EMF drives a spontaneous reaction.<br><strong>R:</strong> $\\Delta G^{\\circ} = -nFE^{\\circ}_{cell}$, so a positive $E^{\\circ}_{cell}$ gives a negative $\\Delta G^{\\circ}$.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "A negative $\\Delta G^{\\circ}$ is the condition for spontaneity — R explains A." },
+            { "q": "<p><strong>A:</strong> The molar conductivity of a solution increases on dilution.<br><strong>R:</strong> On dilution, the degree of dissociation and the freedom of ion movement increase.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Greater dissociation and ion mobility raise molar conductivity — R explains A." },
+            { "q": "<p><strong>A:</strong> In a galvanic cell the anode is the positive electrode.<br><strong>R:</strong> Oxidation occurs at the anode.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "In a galvanic cell the anode is negative (so A is false); oxidation does occur at the anode (R true)." },
+            { "q": "<p><strong>A:</strong> Depositing one mole of copper from $\\text{Cu}^{2+}$ requires two Faradays of charge.<br><strong>R:</strong> The reduction of $\\text{Cu}^{2+}$ to $\\text{Cu}$ involves the gain of two electrons.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Two electrons per copper ion means $2\\ F$ per mole — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

@@ -1,0 +1,704 @@
+{
+  "exam": "jee",
+  "subject": "physics",
+  "chapter": 1,
+  "title": "Units, Dimensions and Measurements",
+  "slug": "units-dimensions-and-measurements",
+  "subtitle": "Units, Dimensions and Measurements for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#0ea5e9",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "Master Units, Dimensions and Measurements for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "SI Units and Dimensional Analysis",
+      "topics": [
+        {
+          "number": 1,
+          "title": "SI Units, Fundamental and Derived Quantities",
+          "concept": "<p>A <strong>physical quantity</strong> is any property of matter or phenomenon that can be measured. Each measurement is expressed as the product of a <strong>numerical value</strong> and a <strong>unit</strong>: $Q = n \\cdot u$. If $n_1 u_1 = n_2 u_2$ for the same physical quantity expressed in two unit systems, then $n_2 = n_1 \\cdot (u_1 / u_2)$. This proportionality is the basis of all unit conversion.</p><p>The <strong>International System of Units (SI)</strong> adopted in 1960 is built on <strong>seven fundamental (base) quantities</strong> along with their base units:</p><table class=\"md-table\"><thead><tr><th>Quantity</th><th>Unit</th><th>Symbol</th></tr></thead><tbody><tr><td>Length</td><td>metre</td><td>m</td></tr><tr><td>Mass</td><td>kilogram</td><td>kg</td></tr><tr><td>Time</td><td>second</td><td>s</td></tr><tr><td>Electric current</td><td>ampere</td><td>A</td></tr><tr><td>Thermodynamic temperature</td><td>kelvin</td><td>K</td></tr><tr><td>Amount of substance</td><td>mole</td><td>mol</td></tr><tr><td>Luminous intensity</td><td>candela</td><td>cd</td></tr></tbody></table><p>Two <strong>supplementary units</strong> are also defined: the <strong>radian</strong> (rad) for plane angle and the <strong>steradian</strong> (sr) for solid angle. A radian is the angle subtended at the centre by an arc of length equal to the radius ($1 \\text{ rad} \\approx 57.2958^\\circ$). A steradian is the solid angle subtended at the centre of a sphere by a surface area equal to the square of its radius; the total solid angle around a point is $4\\pi$ sr.</p><p>All other quantities are <strong>derived quantities</strong>, obtained from the fundamental ones via mathematical operations. For example:</p><ul><li>Velocity: $v = \\dfrac{\\text{displacement}}{\\text{time}}$, SI unit: $\\text{m/s}$.</li><li>Force: $F = ma$, SI unit: $\\text{kg·m/s}^2 = $ <strong>newton (N)</strong>.</li><li>Energy: $E = Fd$, SI unit: $\\text{kg·m}^2/\\text{s}^2 = $ <strong>joule (J)</strong>.</li><li>Pressure: $P = F/A$, SI unit: $\\text{N/m}^2 = $ <strong>pascal (Pa)</strong>.</li><li>Power: $P = E/t$, SI unit: $\\text{J/s} = $ <strong>watt (W)</strong>.</li></ul><p><strong>Coherent and non-coherent units:</strong> A unit is coherent within a system if it is derived using a product/quotient of base units with no extra numerical factor. The SI is a coherent system. Non-SI units (litre, electron-volt, atomic mass unit, light-year) are tolerated for convenience:</p><ul><li>$1 \\text{ eV} = 1.602 \\times 10^{-19} \\text{ J}$</li><li>$1 \\text{ u} = 1.661 \\times 10^{-27} \\text{ kg}$</li><li>$1 \\text{ ly} = 9.461 \\times 10^{15} \\text{ m}$</li><li>$1 \\text{ parsec} = 3.086 \\times 10^{16} \\text{ m}$</li><li>$1 \\text{ atm} = 1.013 \\times 10^{5} \\text{ Pa}$</li></ul><p><strong>SI Prefixes</strong> scale units by powers of 10:</p><table class=\"md-table\"><thead><tr><th>Prefix</th><th>Symbol</th><th>Factor</th><th></th><th>Prefix</th><th>Symbol</th><th>Factor</th></tr></thead><tbody><tr><td>tera</td><td>T</td><td>$10^{12}$</td><td></td><td>milli</td><td>m</td><td>$10^{-3}$</td></tr><tr><td>giga</td><td>G</td><td>$10^{9}$</td><td></td><td>micro</td><td>μ</td><td>$10^{-6}$</td></tr><tr><td>mega</td><td>M</td><td>$10^{6}$</td><td></td><td>nano</td><td>n</td><td>$10^{-9}$</td></tr><tr><td>kilo</td><td>k</td><td>$10^{3}$</td><td></td><td>pico</td><td>p</td><td>$10^{-12}$</td></tr><tr><td>centi</td><td>c</td><td>$10^{-2}$</td><td></td><td>femto</td><td>f</td><td>$10^{-15}$</td></tr></tbody></table>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A new unit of length is chosen such that the speed of light in vacuum is unity. Express the distance from Sun to Earth (approximately $1.5 \\times 10^{11}$ m) in this new unit, given $c = 3 \\times 10^{8}$ m/s.</p>",
+              "solution": "<p>Let the new unit of length be $L_{\\text{new}}$. By definition, the speed of light $c = 1 \\text{ (new unit)/s}$ requires: $$1 \\cdot L_{\\text{new}} / 1 \\text{ s} = 3 \\times 10^{8} \\text{ m/s} \\implies L_{\\text{new}} = 3 \\times 10^{8} \\text{ m}$$</p><p>Convert the Sun–Earth distance: $$d = \\frac{1.5 \\times 10^{11} \\text{ m}}{3 \\times 10^{8} \\text{ m per new unit}} = 500 \\text{ new units}$$</p><p>This is the time light takes to travel from Sun to Earth in seconds (≈ 8 minutes 20 s). The new unit is in fact the \"light-second.\"</p><p><strong>Final Answer:</strong> $500$ new units (light-seconds).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Convert the value of $g = 9.8 \\text{ m/s}^2$ into the CGS system (cm and s).</p>",
+              "solution": "<p>$$g = 9.8 \\frac{\\text{m}}{\\text{s}^2} = 9.8 \\cdot \\frac{100 \\text{ cm}}{\\text{s}^2} = 980 \\text{ cm/s}^2$$</p><p><strong>Final Answer:</strong> $g = 980 \\text{ cm/s}^2$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>The density of a substance is $8.0 \\text{ g/cm}^3$. Express it in SI units (kg/m³).</p>",
+              "solution": "<p>$$8.0 \\frac{\\text{g}}{\\text{cm}^3} = 8.0 \\cdot \\frac{10^{-3} \\text{ kg}}{(10^{-2} \\text{ m})^3} = 8.0 \\cdot \\frac{10^{-3}}{10^{-6}} \\text{ kg/m}^3 = 8.0 \\times 10^{3} \\text{ kg/m}^3$$</p><p><strong>Final Answer:</strong> $8000 \\text{ kg/m}^3$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Which of the following is <strong>not</strong> an SI base quantity?</p>",
+              "options": [
+                "Mass",
+                "Force",
+                "Time",
+                "Luminous intensity"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>One light-year is approximately equal to:</p>",
+              "options": [
+                "$9.46 \\times 10^{12}$ km",
+                "$9.46 \\times 10^{15}$ m",
+                "$9.46 \\times 10^{15}$ km",
+                "$3 \\times 10^{8}$ m"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The value of $1 \\text{ N}$ in dynes (CGS) is:</p>",
+              "options": [
+                "$10^{3}$",
+                "$10^{4}$",
+                "$10^{5}$",
+                "$10^{6}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>If the unit of force is taken as 100 N, the unit of mass as 10 kg, and the unit of length as 100 m, then the unit of time is:</p>",
+              "options": [
+                "$\\sqrt{10}$ s",
+                "$10$ s",
+                "$1/\\sqrt{10}$ s",
+                "$0.1$ s"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The number of significant figures in $0.06900$ is:</p>",
+              "options": [
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Dimensional Formulae and Their Applications",
+          "concept": "<p>The <strong>dimension</strong> of a physical quantity expresses how it depends on the seven base quantities. We write dimensions using bracketed base symbols: $$[M], [L], [T], [A], [K], [\\text{mol}], [\\text{cd}]$$</p><p>The <strong>dimensional formula</strong> of a derived quantity is the algebraic combination raised to appropriate exponents. For example:</p><ul><li>Area: $[L^2]$</li><li>Volume: $[L^3]$</li><li>Velocity: $[LT^{-1}]$</li><li>Acceleration: $[LT^{-2}]$</li><li>Force: $[MLT^{-2}]$</li><li>Work/Energy: $[ML^2T^{-2}]$</li><li>Power: $[ML^2T^{-3}]$</li><li>Pressure: $[ML^{-1}T^{-2}]$</li><li>Momentum: $[MLT^{-1}]$</li><li>Angular momentum: $[ML^2T^{-1}]$</li><li>Frequency: $[T^{-1}]$</li><li>Charge: $[AT]$</li><li>Electric field: $[MLT^{-3}A^{-1}]$</li><li>Potential: $[ML^2T^{-3}A^{-1}]$</li><li>Resistance: $[ML^2T^{-3}A^{-2}]$</li><li>Magnetic field: $[MT^{-2}A^{-1}]$</li><li>Planck's constant: $[ML^2T^{-1}]$</li><li>Gravitational constant $G$: $[M^{-1}L^3T^{-2}]$</li></ul><p><strong>Principle of Dimensional Homogeneity:</strong> In any physically meaningful equation, every additive term must have the same dimensions. If $A = B + C$, then $[A] = [B] = [C]$. Arguments of transcendental functions ($\\sin, \\cos, e^x, \\ln x$) must be <strong>dimensionless</strong>.</p><p><strong>Three Main Uses of Dimensional Analysis:</strong></p><ol><li><strong>Checking correctness of equations</strong> — every term must have identical dimensions.</li><li><strong>Conversion of units</strong> between systems using $n_2 = n_1 \\cdot (u_1/u_2)$.</li><li><strong>Deriving relationships</strong> between quantities (up to a dimensionless constant).</li></ol><p><strong>Limitations:</strong></p><ul><li>Cannot determine dimensionless multiplicative constants (e.g., the $\\frac{1}{2}$ in $\\frac{1}{2}mv^2$).</li><li>Fails when a quantity depends on more than three other quantities (insufficient equations).</li><li>Cannot decide between $\\sin\\theta$ and $\\cos\\theta$ since both are dimensionless.</li><li>Cannot handle equations involving addition of quantities of the same dimension (e.g., $s = ut + \\frac{1}{2}at^2$ has two terms of the same dimension — coefficients can't be found).</li></ul><p><strong>Buckingham π-theorem (advanced):</strong> If a physical quantity depends on $n$ variables with $k$ fundamental dimensions, then there are $n - k$ independent dimensionless groups that govern the relationship.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>The time period $T$ of a simple pendulum is suspected to depend on its length $\\ell$, mass $m$, and gravitational acceleration $g$. Use dimensional analysis to derive the formula.</p>",
+              "solution": "<p>Assume $T = k \\cdot \\ell^a \\cdot m^b \\cdot g^c$ where $k$ is dimensionless. Writing dimensions: $$[T] = [L]^a [M]^b [LT^{-2}]^c = [M^b L^{a+c} T^{-2c}]$$</p><p>Matching exponents of $M$, $L$, $T$ on both sides:</p><ul><li>$M$: $b = 0$</li><li>$L$: $a + c = 0$</li><li>$T$: $-2c = 1 \\implies c = -1/2$, so $a = 1/2$</li></ul><p>Therefore $T = k \\sqrt{\\ell/g}$. (Experimentally, $k = 2\\pi$.)</p><p><strong>Final Answer:</strong> $T \\propto \\sqrt{\\ell/g}$, independent of mass.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Check whether the equation $v^2 = u^2 + 2as$ is dimensionally consistent (where $v, u$ are velocities, $a$ is acceleration, $s$ is displacement).</p>",
+              "solution": "<ul><li>$[v^2] = [LT^{-1}]^2 = [L^2 T^{-2}]$</li><li>$[u^2] = [L^2 T^{-2}]$</li><li>$[2as] = [\\text{dimensionless}] \\cdot [LT^{-2}] \\cdot [L] = [L^2 T^{-2}]$</li></ul><p>All three terms have dimensions $[L^2 T^{-2}]$.</p><p><strong>Final Answer:</strong> The equation is dimensionally consistent.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Stoke's law gives the viscous force on a sphere of radius $r$ moving with velocity $v$ through a fluid of viscosity coefficient $\\eta$ as $F \\propto \\eta^a r^b v^c$. Find $a, b, c$.</p>",
+              "solution": "<p>Given $[F] = [MLT^{-2}]$, $[\\eta] = [ML^{-1}T^{-1}]$, $[r] = [L]$, $[v] = [LT^{-1}]$: $$[MLT^{-2}] = [ML^{-1}T^{-1}]^a [L]^b [LT^{-1}]^c = [M^a L^{-a+b+c} T^{-a-c}]$$</p><p>Matching:</p><ul><li>$M$: $a = 1$</li><li>$L$: $-a + b + c = 1 \\implies b + c = 2$</li><li>$T$: $-a - c = -2 \\implies c = 1$, so $b = 1$</li></ul><p><strong>Final Answer:</strong> $F = k \\eta r v$ with $k = 6\\pi$ (Stokes' law: $F = 6\\pi \\eta r v$).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The dimensional formula for the universal gravitational constant $G$ is:</p>",
+              "options": [
+                "$[M^{-1}L^3T^{-2}]$",
+                "$[MLT^{-2}]$",
+                "$[ML^2T^{-2}]$",
+                "$[M^{-1}L^2T^{-1}]$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Which pair has the <strong>same</strong> dimensions?</p>",
+              "options": [
+                "Work and power",
+                "Stress and pressure",
+                "Force and momentum",
+                "Impulse and force"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The dimensions of Planck's constant $h$ are the same as those of:</p>",
+              "options": [
+                "Energy",
+                "Power",
+                "Angular momentum",
+                "Linear momentum"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>If force $F$, length $L$, and time $T$ are taken as fundamental quantities, the dimensions of mass are:</p>",
+              "options": [
+                "$[FLT^{-2}]$",
+                "$[FL^{-1}T^2]$",
+                "$[FLT^{2}]$",
+                "$[FL^{-1}T^{-2}]$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The dimensional formula for electrical permittivity $\\varepsilon_0$ is:</p>",
+              "options": [
+                "$[M^{-1}L^{-3}T^{4}A^{2}]$",
+                "$[MLT^{-2}A^{-1}]$",
+                "$[M^{-1}L^{-3}T^{4}A^{-2}]$",
+                "$[ML^{-3}T^{4}A^{2}]$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Errors and Measurement Instruments",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Significant Figures, Error Analysis and Propagation",
+          "concept": "<p><strong>Significant Figures (SF)</strong> in a measurement are the digits known with certainty plus the first uncertain digit. They reflect the precision of the measuring instrument.</p><p><strong>Rules for counting SF:</strong></p><ol><li>All non-zero digits are significant. (`23.45` has 4 SF)</li><li>Zeros between non-zero digits are significant. (`2003` has 4 SF)</li><li>Leading zeros are <strong>not</strong> significant. (`0.0023` has 2 SF)</li><li>Trailing zeros in a number with a decimal point are significant. (`2.300` has 4 SF)</li><li>Trailing zeros in a whole number without a decimal point are ambiguous; scientific notation removes the ambiguity. (`300` → `3 × 10²` is 1 SF; `3.00 × 10²` is 3 SF)</li></ol><p><strong>Rules for arithmetic operations:</strong></p><ul><li><strong>Addition/subtraction:</strong> result has the same number of <strong>decimal places</strong> as the term with the fewest decimal places. ($2.34 + 1.2 = 3.5$)</li><li><strong>Multiplication/division:</strong> result has the same number of <strong>significant figures</strong> as the term with the fewest SF. ($2.0 \\times 3.14 = 6.3$)</li></ul><p><strong>Rounding off:</strong> If the digit to be dropped is < 5, round down; if > 5, round up; if exactly 5, round to make the last retained digit <strong>even</strong> (banker's rounding).</p><p><strong>Types of errors:</strong></p><ul><li><strong>Systematic errors</strong> — consistent biases (zero error, calibration error, environmental factors). Can be eliminated by correction.</li><li><strong>Random errors</strong> — unpredictable fluctuations. Reduced by repeated measurements and averaging.</li><li><strong>Gross errors</strong> — careless mistakes (misreading, calculation error). Avoidable.</li></ul><p><strong>Quantitative error definitions:</strong> For $n$ measurements $a_1, a_2, \\ldots, a_n$ of a quantity:</p><ul><li><strong>Mean (best estimate):</strong> $\\bar{a} = \\dfrac{1}{n}\\sum_{i=1}^{n} a_i$</li><li><strong>Absolute error</strong> in the $i$-th measurement: $\\Delta a_i = |a_i - \\bar{a}|$</li><li><strong>Mean absolute error:</strong> $\\overline{\\Delta a} = \\dfrac{1}{n}\\sum |\\Delta a_i|$</li><li><strong>Relative error:</strong> $\\dfrac{\\overline{\\Delta a}}{\\bar{a}}$</li><li><strong>Percentage error:</strong> $\\dfrac{\\overline{\\Delta a}}{\\bar{a}} \\times 100\\%$</li></ul><p><strong>Propagation of errors</strong> (for small errors $\\Delta x \\ll x$):</p><table class=\"md-table\"><thead><tr><th>Operation</th><th>Result</th><th>Error</th></tr></thead><tbody><tr><td>$Z = A + B$ or $Z = A - B$</td><td>sum or difference</td><td>$\\Delta Z = \\Delta A + \\Delta B$ (max absolute)</td></tr><tr><td>$Z = AB$ or $Z = A/B$</td><td>product or quotient</td><td>$\\dfrac{\\Delta Z}{Z} = \\dfrac{\\Delta A}{A} + \\dfrac{\\Delta B}{B}$</td></tr><tr><td>$Z = A^n B^m / C^p$</td><td>power law</td><td>$\\dfrac{\\Delta Z}{Z} = \\|n\\|\\dfrac{\\Delta A}{A} + \\|m\\|\\dfrac{\\Delta B}{B} + \\|p\\|\\dfrac{\\Delta C}{C}$</td></tr><tr><td>$Z = \\ln A$</td><td>logarithm</td><td>$\\Delta Z = \\dfrac{\\Delta A}{A}$</td></tr><tr><td>$Z = e^A$</td><td>exponential</td><td>$\\dfrac{\\Delta Z}{Z} = \\Delta A$</td></tr></tbody></table><p>The <strong>absolute errors add in subtraction</strong>, which is why subtracting nearly equal numbers amplifies relative error — a key practical concern.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>The length and breadth of a rectangle are $(5.7 \\pm 0.1)$ cm and $(3.4 \\pm 0.2)$ cm respectively. Find the area and its percentage error.</p>",
+              "solution": "<p>Area $A = \\ell \\times b = 5.7 \\times 3.4 = 19.38 \\text{ cm}^2$.</p><p>Relative errors: $$\\frac{\\Delta \\ell}{\\ell} = \\frac{0.1}{5.7} \\approx 0.0175, \\quad \\frac{\\Delta b}{b} = \\frac{0.2}{3.4} \\approx 0.0588$$</p><p>For a product: $\\dfrac{\\Delta A}{A} = \\dfrac{\\Delta \\ell}{\\ell} + \\dfrac{\\Delta b}{b} = 0.0175 + 0.0588 = 0.0763 \\approx 7.6\\%$.</p><p>Absolute error: $\\Delta A = 0.0763 \\times 19.38 \\approx 1.48 \\text{ cm}^2$.</p><p>Reported to correct SF: $A = (19 \\pm 1) \\text{ cm}^2$ or $A = (19.4 \\pm 1.5) \\text{ cm}^2$.</p><p><strong>Final Answer:</strong> Percentage error ≈ <strong>7.6%</strong>; $A \\approx (19.4 \\pm 1.5) \\text{ cm}^2$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>The period $T$ of a simple pendulum is measured from $T = 2\\pi\\sqrt{L/g}$, where $L = (20.0 \\pm 0.1)$ cm and $T = (0.90 \\pm 0.01)$ s. Find the percentage error in the value of $g$.</p>",
+              "solution": "<p>Squaring: $T^2 = 4\\pi^2 L/g \\implies g = 4\\pi^2 L / T^2$.</p><p>For $g \\propto L \\cdot T^{-2}$: $$\\frac{\\Delta g}{g} = \\frac{\\Delta L}{L} + 2\\frac{\\Delta T}{T}$$</p><p>Substituting: $$\\frac{\\Delta L}{L} = \\frac{0.1}{20.0} = 0.005 = 0.5\\%, \\quad \\frac{\\Delta T}{T} = \\frac{0.01}{0.90} \\approx 0.0111 = 1.11\\%$$</p><p>$$\\frac{\\Delta g}{g} = 0.5\\% + 2 \\times 1.11\\% = 0.5\\% + 2.22\\% = 2.72\\%$$</p><p><strong>Final Answer:</strong> Percentage error in $g$ ≈ <strong>2.7%</strong>.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>A physical quantity $P$ is given by $P = \\dfrac{a^3 b^2}{\\sqrt{c} \\cdot d}$. Percentage errors in $a, b, c, d$ are $1\\%, 3\\%, 4\\%, 2\\%$ respectively. Find the maximum percentage error in $P$.</p>",
+              "solution": "<p>$$\\frac{\\Delta P}{P} \\times 100\\% = 3 \\cdot \\frac{\\Delta a}{a} + 2 \\cdot \\frac{\\Delta b}{b} + \\frac{1}{2} \\cdot \\frac{\\Delta c}{c} + \\frac{\\Delta d}{d}$$</p><p>$$= 3(1\\%) + 2(3\\%) + \\frac{1}{2}(4\\%) + 1(2\\%) = 3\\% + 6\\% + 2\\% + 2\\% = 13\\%$$</p><p><strong>Final Answer:</strong> Maximum percentage error = <strong>13%</strong>.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The number of significant figures in $230.040$ is:</p>",
+              "options": [
+                "4",
+                "5",
+                "6",
+                "3"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>If $X = A \\times B$ and percentage errors in $A$ and $B$ are $a\\%$ and $b\\%$, the maximum percentage error in $X$ is:</p>",
+              "options": [
+                "$a - b$",
+                "$a + b$",
+                "$a \\cdot b$",
+                "$a/b$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A force of $(2500 \\pm 5)$ N is applied over an area of $(0.32 \\pm 0.02)$ m². The percentage error in pressure is approximately:</p>",
+              "options": [
+                "6.5%",
+                "0.2%",
+                "6.4%",
+                "8.5%"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The relative error in $Z$, if $Z = A^2$, equals:</p>",
+              "options": [
+                "$\\Delta A / A$",
+                "$2 \\Delta A / A$",
+                "$\\Delta A / (2A)$",
+                "$(\\Delta A)^2 / A^2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In the addition $9.327 + 12.42 + 0.073$, the result with correct significant figures is:</p>",
+              "options": [
+                "$21.820$",
+                "$21.82$",
+                "$21.8$",
+                "$22$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Vernier Calipers, Screw Gauge and Practical Measurements",
+          "concept": "<p><strong>Vernier Calipers</strong> measure lengths up to a precision of typically $0.1$ mm or $0.05$ mm using a secondary (vernier) scale that slides along a primary (main) scale.</p><p><strong>Vernier Constant (Least Count):</strong> $$\\text{LC} = \\text{(value of 1 MSD)} - \\text{(value of 1 VSD)}$$ where MSD = main scale division and VSD = vernier scale division. If $n$ VSD coincide with $(n-1)$ MSD, then: $$\\text{LC} = \\frac{1 \\text{ MSD}}{n}$$</p><p>For a typical vernier with $10$ VSD = $9$ MSD and $1$ MSD = $1$ mm: $\\text{LC} = 0.1$ mm.</p><p><strong>Reading:</strong> Total reading = (Main scale reading) + (vernier division coinciding) × (LC) ± (zero error).</p><p><strong>Zero error</strong> occurs when the vernier shows a non-zero reading with the jaws fully closed:</p><ul><li><strong>Positive zero error:</strong> zero of vernier is to the right of main scale zero → subtract from observed reading.</li><li><strong>Negative zero error:</strong> zero of vernier is to the left of main scale zero → add to observed reading.</li></ul><p><strong>Screw Gauge (Micrometer)</strong> measures very small lengths (typically up to $0.001$ cm = $0.01$ mm precision) using the principle that the rotation of a screw produces a linear translation equal to the pitch per revolution.</p><p><strong>Pitch:</strong> linear distance moved by the spindle in one complete rotation = (distance moved) / (number of rotations).</p><p><strong>Least Count:</strong> $$\\text{LC} = \\frac{\\text{Pitch}}{\\text{Number of divisions on circular scale}}$$</p><p>For a typical screw gauge with pitch = $1$ mm and $100$ circular divisions: $\\text{LC} = 0.01$ mm.</p><p><strong>Reading:</strong> Total = (Linear/pitch scale reading) + (circular scale reading) × (LC) ± (zero error).</p><p><strong>Backlash error:</strong> Caused by play between screw and nut; minimized by always rotating the screw in the same direction during measurement.</p><p><strong>Travelling Microscope</strong> is used for measuring small distances with vernier-style precision in two dimensions; useful for measuring focal lengths, refractive indices, and small displacements.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>In a vernier caliper, $10$ vernier divisions coincide with $9$ main scale divisions. If $1$ MSD = $1$ mm, find the least count.</p>",
+              "solution": "<p>$$10 \\text{ VSD} = 9 \\text{ MSD} \\implies 1 \\text{ VSD} = 0.9 \\text{ MSD} = 0.9 \\text{ mm}$$ $$\\text{LC} = 1 \\text{ MSD} - 1 \\text{ VSD} = 1 - 0.9 = 0.1 \\text{ mm}$$</p><p><strong>Final Answer:</strong> Least count = $0.1$ mm = $0.01$ cm.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A screw gauge has pitch $1$ mm and $50$ divisions on the circular scale. While measuring the diameter of a wire, the main scale reads $3$ mm and the $27$-th division of the circular scale coincides with the reference line. Find the diameter.</p>",
+              "solution": "<p>$$\\text{LC} = \\frac{1 \\text{ mm}}{50} = 0.02 \\text{ mm}$$</p><p>Reading = MSR + CSR × LC = $3 + 27 \\times 0.02 = 3 + 0.54 = 3.54$ mm.</p><p><strong>Final Answer:</strong> Diameter of wire = $3.54$ mm.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>A screw gauge has a positive zero error of $5$ divisions. With LC = $0.01$ mm, while measuring the thickness of a sheet, the MSR is $2$ mm and the $40$-th circular division coincides. Find the correct thickness.</p>",
+              "solution": "<p>Observed reading = $2 + 40 \\times 0.01 = 2.40$ mm.</p><p>Positive zero error means observed > true. Correction = $5 \\times 0.01 = 0.05$ mm to be subtracted.</p><p>Correct thickness = $2.40 - 0.05 = 2.35$ mm.</p><p><strong>Final Answer:</strong> Thickness = $2.35$ mm.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The least count of a vernier caliper with $20$ VSD = $19$ MSD (each MSD = $1$ mm) is:</p>",
+              "options": [
+                "$0.05$ mm",
+                "$0.01$ mm",
+                "$0.1$ mm",
+                "$1$ mm"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The pitch of a screw gauge is $0.5$ mm and the head scale has $100$ divisions. Its LC is:</p>",
+              "options": [
+                "$0.05$ mm",
+                "$0.005$ mm",
+                "$0.001$ mm",
+                "$0.01$ mm"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In a vernier caliper, if the zero of the vernier scale lies to the left of the main scale zero by $4$ divisions, with LC = $0.01$ cm, the zero error is:</p>",
+              "options": [
+                "$+0.04$ cm",
+                "$-0.04$ cm",
+                "$+0.4$ cm",
+                "$-0.4$ cm"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>To reduce backlash error in a screw gauge, the screw should always be rotated:</p>",
+              "options": [
+                "Clockwise",
+                "Counter-clockwise",
+                "In the same direction during a measurement",
+                "Quickly"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The diameter of a small ball measured by a screw gauge (LC = $0.001$ cm) is recorded as $0.245$ cm in five trials, identical each time. The percentage error in volume is:</p>",
+              "options": [
+                "1.2%",
+                "0.4%",
+                "0.12%",
+                "1.5%"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-phys-units-dimensions-and-measurements-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>The dimensional formula for coefficient of viscosity is:</p>",
+              "options": [
+                "$[ML^{-1}T^{-1}]$",
+                "$[MLT^{-1}]$",
+                "$[ML^{-1}T^{-2}]$",
+                "$[ML^{2}T^{-1}]$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>If velocity, time, and force are taken as fundamental quantities, the dimensions of mass are:</p>",
+              "options": [
+                "$[FTV^{-1}]$",
+                "$[FT^{-1}V]$",
+                "$[FTV]$",
+                "$[FT^2V^{-2}]$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A physical quantity is given by $X = M^a L^b T^c$. Percentage errors in $M, L, T$ are $\\alpha\\%, \\beta\\%, \\gamma\\%$ respectively. The maximum percentage error in $X$ is:</p>",
+              "options": [
+                "$a\\alpha + b\\beta + c\\gamma$",
+                "$a\\alpha + b\\beta - c\\gamma$",
+                "$\\|a\\|\\alpha + \\|b\\|\\beta + \\|c\\|\\gamma$",
+                "$a\\alpha \\cdot b\\beta \\cdot c\\gamma$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The value of $1$ joule expressed in a system where unit of mass = $\\alpha$ kg, length = $\\beta$ m, time = $\\gamma$ s equals:</p>",
+              "options": [
+                "$\\alpha\\beta^2\\gamma^{-2}$",
+                "$\\alpha^{-1}\\beta^{-2}\\gamma^{2}$",
+                "$\\alpha\\beta\\gamma^{-1}$",
+                "$\\alpha\\beta\\gamma^{-2}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The dimensions of $\\frac{1}{\\sqrt{\\mu_0 \\varepsilon_0}}$ are:</p>",
+              "options": [
+                "$[LT^{-1}]$",
+                "$[L^{-1}T]$",
+                "$[LT^{-2}]$",
+                "$[L^2T^{-2}]$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The percentage errors in measurement of mass and speed are $2\\%$ and $3\\%$ respectively. The maximum percentage error in kinetic energy is:</p>",
+              "options": [
+                "$8\\%$",
+                "$2\\%$",
+                "$12\\%$",
+                "$10\\%$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>If $E, M, J,$ and $G$ denote energy, mass, angular momentum, and gravitational constant respectively, the dimensions of $\\dfrac{EJ^2}{M^5 G^2}$ are:</p>",
+              "options": [
+                "Angle",
+                "Length",
+                "Mass",
+                "Dimensionless"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The least count of a screw gauge of pitch $0.5$ mm with $50$ circular divisions is:</p>",
+              "options": [
+                "$0.001$ cm",
+                "$0.01$ mm",
+                "$0.001$ mm",
+                "$0.05$ mm"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The radius of a sphere is measured to be $(2.1 \\pm 0.1)$ cm. The percentage error in volume is:</p>",
+              "options": [
+                "$14.3\\%$",
+                "$4.8\\%$",
+                "$9.5\\%$",
+                "$7.1\\%$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The number of significant figures in $0.003050$ is:</p>",
+              "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>A quantity $X = \\dfrac{a^2 b^3}{c^4}$. If errors are $1\\%$ in $a$, $2\\%$ in $b$, and $1\\%$ in $c$, find the maximum percentage error in $X$ (as an integer).</p>",
+              "answer": "12",
+              "explanation": ""
+            },
+            {
+              "q": "<p>The pitch of a screw gauge is $1$ mm and there are $100$ divisions on its circular scale. While measuring the diameter of a wire, MSR is $0$, and CSR is $52$. The diameter of the wire in $\\mu$m is:</p>",
+              "answer": "520",
+              "explanation": ""
+            },
+            {
+              "q": "<p>The percentage error in the period of a pendulum is $1\\%$ and in length is $2\\%$. The percentage error in $g$ (rounded to an integer) is:</p>",
+              "answer": "4",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> The equation $s = ut + \\frac{1}{2}at^2$ is dimensionally correct. <strong>Reason (R):</strong> A dimensionally correct equation must be physically correct.</p>",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, R is false.",
+                "A is false, R is true."
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> A screw gauge having pitch $1$ mm with $100$ divisions on the circular scale is more accurate than a vernier caliper with $10$ VSD = $9$ MSD (1 MSD = 1 mm). <strong>Reason (R):</strong> A smaller least count implies higher precision.</p>",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, R is false.",
+                "A is false, R is true."
+              ],
+              "correct": 0,
+              "explanation": "-."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-phys-units-dimensions-and-measurements-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>A force $F$ is given by $F = at + bt^2$ where $t$ is time. The dimensions of $a$ and $b$ are:</p>",
+              "options": [
+                "$[MLT^{-3}]$ and $[MLT^{-4}]$",
+                "$[MLT^{-1}]$ and $[MLT^{0}]$",
+                "$[MLT^{-4}]$ and $[MLT^{1}]$",
+                "$[MLT^{-3}]$ and $[MLT^{-1}]$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>If the dimensions of length are written as $E^{\\alpha} v^{\\beta} F^{\\gamma}$ where $E, v, F$ are energy, velocity, and force respectively, then:</p>",
+              "options": [
+                "$\\alpha = 1, \\beta = -2, \\gamma = -1$",
+                "$\\alpha = 1, \\beta = -2, \\gamma = 1$",
+                "$\\alpha = -1, \\beta = -2, \\gamma = 1$",
+                "$\\alpha = 1, \\beta = 2, \\gamma = -1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In the equation $\\left(P + \\dfrac{a}{V^2}\\right)(V - b) = RT$ (van der Waals equation), the dimensions of $a/b$ are:</p>",
+              "options": [
+                "Same as pressure",
+                "Same as volume",
+                "Same as energy",
+                "Same as force"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The dimensions of $\\dfrac{e^2}{4\\pi\\varepsilon_0 hc}$ (the fine-structure constant) are:</p>",
+              "options": [
+                "$[ML^2T^{-2}]$",
+                "$[M^0L^0T^0]$ (dimensionless)",
+                "$[L^{-1}]$",
+                "$[MLT^{-1}]$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The mean time period of a simple pendulum from $4$ trials is $2.51, 2.49, 2.50, 2.52$ s. The percentage error in the mean is approximately:</p>",
+              "options": [
+                "$0.3\\%$",
+                "$0.5\\%$",
+                "$1\\%$",
+                "$0.4\\%$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The wavelength $\\lambda$ of matter wave depends on momentum $p$ and Planck's constant $h$ as $\\lambda \\propto h^x p^y$. The values are:</p>",
+              "options": [
+                "$x = 1, y = -1$",
+                "$x = -1, y = 1$",
+                "$x = 1, y = 1$",
+                "$x = 2, y = -1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The frequency of vibration $\\nu$ of a string under tension depends on length $L$, tension $T$, and mass per unit length $\\mu$. From dimensional analysis:</p>",
+              "options": [
+                "$\\nu = \\frac{1}{L}\\sqrt{T/\\mu}$ (up to a constant)",
+                "$\\nu = L\\sqrt{T/\\mu}$",
+                "$\\nu = L\\sqrt{\\mu/T}$",
+                "$\\nu = \\frac{1}{L^2}\\sqrt{T/\\mu}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A student measures $g$ using a simple pendulum and obtains a percentage error of $3\\%$ for $L$ and $2\\%$ for $T$. The maximum percentage error in $g$ is:</p>",
+              "options": [
+                "$5\\%$",
+                "$7\\%$",
+                "$1\\%$",
+                "$9\\%$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A wire has resistance $R = V/I$ where $V = (50 \\pm 1)$ V and $I = (10 \\pm 0.2)$ A. The percentage error in $R$ is:</p>",
+              "options": [
+                "$1\\%$",
+                "$2\\%$",
+                "$4\\%$",
+                "$5\\%$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The Reynolds number $Re = \\dfrac{\\rho v d}{\\eta}$ where $\\rho$ = density, $v$ = velocity, $d$ = length, $\\eta$ = viscosity. Its dimensions are:</p>",
+              "options": [
+                "$[MLT^{-1}]$",
+                "$[M^0L^0T^0]$",
+                "$[ML^{-1}T^{-1}]$",
+                "$[ML^{-3}]$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>A physical quantity $Q$ is related to length $L$ as $Q = AL + B/L$. If the dimensions of $Q$ are $[ML^2T^{-2}]$, and the dimensions of $A$ are $[M^aL^bT^c]$, find $a + b + c$.</p>",
+              "answer": "",
+              "explanation": ""
+            },
+            {
+              "q": "<p>A quantity $X = \\dfrac{1}{2}LI^2$ has dimensions of energy. If $L$ is inductance and $I$ is current, find the dimensions of inductance $L$ in the form $[ML^xT^yA^z]$. Give $x + y + z$.</p>",
+              "answer": "",
+              "explanation": ""
+            },
+            {
+              "q": "<p>In an experiment, a steel ball of diameter $0.50$ cm is dropped. The screw gauge has LC = $0.001$ cm and a positive zero error of $0.005$ cm. The student records the diameter as $0.495$ cm. The corrected diameter in mm (×100) is the integer:</p>",
+              "answer": "490",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Dimensional analysis can be used to derive the formula $E = mc^2$. <strong>Reason (R):</strong> All dimensionally correct equations can be derived using dimensional analysis alone.</p>",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, R is false.",
+                "A is false, R is true."
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> In the formula $y = a \\sin(\\omega t + \\phi)$, both $\\omega t$ and $\\phi$ must be dimensionless. <strong>Reason (R):</strong> Arguments of trigonometric functions must always be dimensionless angles.</p>",
+              "options": [
+                "Both A and R are true, and R is the correct explanation of A.",
+                "Both A and R are true, but R is not the correct explanation of A.",
+                "A is true, R is false.",
+                "A is false, R is true."
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

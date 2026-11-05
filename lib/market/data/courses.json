@@ -1,0 +1,3673 @@
+{
+  "categories": {
+    "foundational": {
+      "name": "Digital & Office Productivity",
+      "c1": "#E98A1E",
+      "c2": "#F4B45F"
+    },
+    "data": {
+      "name": "Data, Analytics & BI",
+      "c1": "#2563EB",
+      "c2": "#60A5FA"
+    },
+    "ai": {
+      "name": "AI & Machine Learning",
+      "c1": "#7C3AED",
+      "c2": "#A78BFA"
+    },
+    "dev": {
+      "name": "Software Development",
+      "c1": "#0891B2",
+      "c2": "#22D3EE"
+    },
+    "cloud": {
+      "name": "Cloud, DevOps & Infrastructure",
+      "c1": "#0EA5E9",
+      "c2": "#38BDF8"
+    },
+    "cyber": {
+      "name": "Cybersecurity",
+      "c1": "#DC2626",
+      "c2": "#F87171"
+    },
+    "design": {
+      "name": "Design & Creative",
+      "c1": "#DB2777",
+      "c2": "#F472B6"
+    },
+    "marketing": {
+      "name": "Digital Marketing & Growth",
+      "c1": "#EA580C",
+      "c2": "#FB923C"
+    },
+    "content": {
+      "name": "Content & Personal Branding",
+      "c1": "#D97706",
+      "c2": "#FBBF24"
+    },
+    "business": {
+      "name": "Business, Management & Product",
+      "c1": "#059669",
+      "c2": "#34D399"
+    },
+    "finance": {
+      "name": "Finance, Accounting & Investing",
+      "c1": "#16A34A",
+      "c2": "#4ADE80"
+    },
+    "entrepreneurship": {
+      "name": "Entrepreneurship & Freelancing",
+      "c1": "#CA8A04",
+      "c2": "#FACC15"
+    },
+    "communication": {
+      "name": "Communication & Career Skills",
+      "c1": "#4F46E5",
+      "c2": "#818CF8"
+    },
+    "languages": {
+      "name": "Foreign Languages",
+      "c1": "#9333EA",
+      "c2": "#C084FC"
+    },
+    "academics": {
+      "name": "Test Prep & Study Skills",
+      "c1": "#0D9488",
+      "c2": "#2DD4BF"
+    },
+    "wellness": {
+      "name": "Health & Wellness",
+      "c1": "#65A30D",
+      "c2": "#A3E635"
+    },
+    "lifeskills": {
+      "name": "Digital Safety & Life Skills",
+      "c1": "#475569",
+      "c2": "#94A3B8"
+    },
+    "blockchain": {
+      "name": "Blockchain & Web3",
+      "c1": "#3730A3",
+      "c2": "#6366F1"
+    },
+    "university": {
+      "name": "University Programmes (BBA, BCA, MCA, MBA)",
+      "c1": "#1E3A8A",
+      "c2": "#93C5FD"
+    }
+  },
+  "courses": [
+    {
+      "slug": "basic-computer-internet-literacy",
+      "title": "Basic Computer & Internet Literacy",
+      "cat": "foundational",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "All"
+      ],
+      "hours": "~12 hrs",
+      "modules": 6,
+      "weeks": "~3 weeks",
+      "pace": "4 hrs/wk",
+      "badge": "Digital Basics",
+      "prereq": "None — designed for absolute first-time users.",
+      "bestFor": "Seniors, homemakers, and Tier-2/3 learners entering the digital economy.",
+      "brief": "Computers, files, the web, email and staying safe online, with a practice lab in every module.",
+      "learn": [
+        "The parts of a computer, software and how storage is measured",
+        "Files, folders, naming and the shortcuts that save time",
+        "How the internet works, using a browser and searching well",
+        "Writing clear emails and sharing files safely",
+        "Strong passwords, 2-step verification, scams, updates and backups",
+        "Safe online services, fixing common problems and learning new tools"
+      ],
+      "handsOn": "Write a one-page digital safety card for your family with rules, warning signs and steps to take.",
+      "outcome": "Use a computer and the internet with confidence, and keep yourself and your money safe.",
+      "icon": "monitor"
+    },
+    {
+      "slug": "basic-microsoft-excel",
+      "title": "Basic Microsoft Excel",
+      "cat": "foundational",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "All"
+      ],
+      "hours": "~7 hrs",
+      "modules": 6,
+      "weeks": "~2 weeks",
+      "pace": "3 to 4 hrs/wk",
+      "badge": "Excel Foundations",
+      "prereq": "Basic computer familiarity.",
+      "bestFor": "Anyone entering an office/data role — the most-requested office skill in India.",
+      "brief": "Cells, formulas, IF, sorting, filtering and charts, with a working spreadsheet lab in every module.",
+      "learn": [
+        "Workbooks, cells, ranges and clean formatting",
+        "Formulas, cell references and the dollar sign",
+        "SUM, AVERAGE, MIN, MAX, COUNT and ROUND",
+        "IF, AND, OR, COUNTIF and SUMIF for decisions",
+        "Sorting and filtering without breaking rows",
+        "Choosing, building and checking charts"
+      ],
+      "handsOn": "Build a monthly shop report with totals, a target check, category summaries and a chart.",
+      "outcome": "Handle everyday spreadsheets at work or in study with confidence.",
+      "icon": "table"
+    },
+    {
+      "slug": "advanced-excel",
+      "title": "Advanced Excel",
+      "cat": "foundational",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "All"
+      ],
+      "hours": "~14 hrs",
+      "modules": 6,
+      "weeks": "~4 weeks",
+      "pace": "3 to 4 hrs/wk",
+      "badge": "Excel Advanced",
+      "prereq": "Basic Excel (or equivalent).",
+      "bestFor": "Analysts, accountants, and managers who work in spreadsheets daily.",
+      "brief": "Lookups, SUMIFS, INDEX and MATCH, data cleaning, dates, pivot-style summaries, forecasts and finance, with a checked spreadsheet lab in every module.",
+      "learn": [
+        "Mixed references, IFS, SWITCH and error handling",
+        "VLOOKUP, approximate matches, INDEX with MATCH and XLOOKUP",
+        "SUMIFS, COUNTIFS, AVERAGEIFS, rankings and SUMPRODUCT",
+        "Cleaning text, splitting codes and calculating with dates",
+        "Pivot-style summaries, charts that answer questions, trends and forecasts",
+        "Loans, NPV, IRR, break-even and a workbook you can share with confidence"
+      ],
+      "handsOn": "Build a regional performance dashboard with SUMIFS, percent of target, a status, a rank, the best region and a chart.",
+      "outcome": "Analyse and report on real business data with the formulas professionals use every day.",
+      "icon": "table"
+    },
+    {
+      "slug": "excel-macros-vba",
+      "title": "Excel Automation with Macros & VBA",
+      "cat": "foundational",
+      "level": "A",
+      "levelLabel": "Advanced",
+      "tags": [
+        "All"
+      ],
+      "hours": "~14 hrs",
+      "modules": 6,
+      "weeks": "~4 weeks",
+      "pace": "3 to 4 hrs/wk",
+      "badge": "Excel Automation",
+      "prereq": "Advanced Excel; some comfort with formulas.",
+      "bestFor": "Finance/operations staff who repeat the same reports every week.",
+      "brief": "Record, read, write and debug VBA macros, with code to run in your own Excel and labs that train your thinking.",
+      "learn": [
+        "What to automate, recording macros and macro security",
+        "VBA building blocks: variables, types, MsgBox and InputBox",
+        "Workbooks, worksheets, ranges and finding the last row",
+        "If, Select Case, loops and arrays",
+        "Subs, Functions, error handling, debugging and events",
+        "Fast, safe, documented automation you can hand over"
+      ],
+      "handsOn": "Write the design document for a safe, maintainable macro: inputs and outputs, procedure and safety.",
+      "outcome": "Plan, write and hand over macros that save real time.",
+      "icon": "cog"
+    },
+    {
+      "slug": "google-workspace",
+      "title": "Google Workspace (Docs, Sheets, Slides, Forms)",
+      "cat": "foundational",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "All"
+      ],
+      "hours": "~11.5 hrs",
+      "modules": 6,
+      "weeks": "~3 weeks",
+      "pace": "3 to 4 hrs/wk",
+      "badge": "Workspace Ready",
+      "prereq": "Basic computer familiarity.",
+      "bestFor": "Students, startups, and remote teams that collaborate online.",
+      "brief": "Drive, Docs, Sheets, Slides, Forms and safe teamwork, with a practice lab in every module.",
+      "learn": [
+        "Organising and sharing files in Drive with the right access",
+        "Writing structured Docs with styles, lists, tables and comments",
+        "Tracking data in Sheets with formulas, drop-downs and charts",
+        "Planning and presenting with Slides",
+        "Designing Forms and reading the results",
+        "A team way of working, Calendar, Meet and account safety"
+      ],
+      "handsOn": "Write a one-page team project plan with a task table, a sharing plan and next steps.",
+      "outcome": "Run a small team project from one shared folder, confidently and safely.",
+      "icon": "grid"
+    },
+    {
+      "slug": "microsoft-word",
+      "title": "Microsoft Word — Professional Documents",
+      "cat": "foundational",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "All"
+      ],
+      "hours": "~6.5 hrs",
+      "modules": 6,
+      "weeks": "~2 weeks",
+      "pace": "3 to 4 hrs/wk",
+      "badge": "Document Professional",
+      "prereq": "Basic computer familiarity.",
+      "bestFor": "Anyone creating resumes, reports, and business documents.",
+      "brief": "Formatting, structure, tables, letters, résumés and reports, with a document lab in every module.",
+      "learn": [
+        "Editing quickly: selecting, shortcuts, find and replace",
+        "Fonts, spacing, alignment and lists",
+        "Heading styles, page setup, headers and page numbers",
+        "Tables, pictures, captions and breaks",
+        "Letters, résumés, reports and meeting minutes",
+        "Proofreading, track changes, accessibility and PDF export"
+      ],
+      "handsOn": "Write a one-page report with headings, a table, a list and a recommendation.",
+      "outcome": "Produce clear, professional documents for school or work.",
+      "icon": "doc"
+    },
+    {
+      "slug": "powerpoint-presentation-design",
+      "title": "PowerPoint & Presentation Design",
+      "cat": "foundational",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "All"
+      ],
+      "hours": "~6.5 hrs",
+      "modules": 6,
+      "weeks": "~2 weeks",
+      "pace": "3 to 4 hrs/wk",
+      "badge": "Presentation Designer",
+      "prereq": "Basic computer familiarity.",
+      "bestFor": "Students and professionals who pitch, report, or teach.",
+      "brief": "Plan the message, design clean slides, use visuals honestly and deliver with confidence.",
+      "learn": [
+        "Audience, purpose, core message and storyboarding",
+        "Layouts, themes and consistency",
+        "Headlines, readable text and speaker notes",
+        "Diagrams, shapes and honest charts",
+        "Openings, signposts, rehearsal and questions",
+        "Review checklists, accessibility and online delivery"
+      ],
+      "handsOn": "Build and rehearse a seven-to-nine-slide talk with a diagram and a clear request.",
+      "outcome": "Present with clarity and confidence at school, college or work.",
+      "icon": "presentation"
+    },
+    {
+      "slug": "data-analytics-python-sql",
+      "title": "Data Analytics with Python & SQL",
+      "cat": "data",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "College",
+        "Fresher"
+      ],
+      "hours": "~24 hrs",
+      "modules": 6,
+      "weeks": "~6 weeks",
+      "pace": "4 hrs/wk",
+      "badge": "Data Analyst",
+      "prereq": "Basic Excel and comfort with computers; no coding needed to start.",
+      "bestFor": "Career-starters targeting analyst roles in IT, BFSI, e-commerce, consulting.",
+      "brief": "The analyst's workflow with SQL and pandas thinking: funnels, cohorts, segments, EDA, statistics and a finding-first memo, with live SQL labs in the browser.",
+      "learn": [
+        "The analysis workflow from question to decision",
+        "Python essentials and pandas: select, filter, create, clean",
+        "groupby, merge, pivot and window ideas, each paired with SQL",
+        "Funnels, cohort retention, RFM segmentation and deduplication in SQL",
+        "EDA, honest charts, confidence intervals, bias and Simpson's paradox",
+        "Parameterised queries, reproducible notebooks, privacy and communicating results"
+      ],
+      "handsOn": "Build a signup-month growth report for an online shop in SQL and write the memo that explains it.",
+      "outcome": "Take a business question through a complete analysis and present a result people will act on.",
+      "icon": "chartBar"
+    },
+    {
+      "slug": "sql-for-data-business",
+      "title": "SQL for Data & Business",
+      "cat": "data",
+      "level": "B→I",
+      "levelLabel": "Beginner to Intermediate",
+      "tags": [
+        "Fresher",
+        "Mid"
+      ],
+      "hours": "~20 hrs",
+      "modules": 6,
+      "weeks": "~5 weeks",
+      "pace": "4 hrs/wk",
+      "badge": "SQL Analyst",
+      "prereq": "None.",
+      "bestFor": "Analysts, PMs, marketers — anyone who needs to pull their own data.",
+      "brief": "Learn SQL in your browser: SELECT, joins, grouping, CTEs and window functions on a retail database, with a live query window in every lesson.",
+      "learn": [
+        "Tables, keys and how NULL really behaves",
+        "Expressions, CASE, dates and cleaning data in a query",
+        "COUNT, SUM, AVG, GROUP BY, HAVING and conditional rates",
+        "INNER and LEFT joins, anti-joins and avoiding a fan-out",
+        "Subqueries, CTEs, UNION, INTERSECT and EXCEPT",
+        "Window functions: ranking, running totals, growth and share of total"
+      ],
+      "handsOn": "Build a channel scorecard for a retailer with joins, a CTE and window functions, then write the memo that explains it.",
+      "outcome": "Answer business questions from a relational database with confidence and explain the numbers clearly.",
+      "icon": "database"
+    },
+    {
+      "slug": "business-analytics-power-bi",
+      "title": "Business Analytics with Power BI",
+      "cat": "data",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "Fresher",
+        "Mid"
+      ],
+      "hours": "~26 hrs",
+      "modules": 6,
+      "weeks": "~6 weeks",
+      "pace": "4-5 hrs/wk",
+      "badge": "Power BI Analyst",
+      "prereq": "Excel basics; SQL helpful but not required.",
+      "bestFor": "Professionals in product, operations, finance, and consulting.",
+      "brief": "Master the Power BI model and DAX with a live DAX window: star schemas, filter context, CALCULATE and time intelligence, plus report design and sharing.",
+      "learn": [
+        "The BI workflow, storage modes and what Power Query does",
+        "Star-schema modelling, relationships and a proper date table",
+        "DAX measures, filter context, SUMX, RELATED and variables",
+        "CALCULATE, ALL, ALLEXCEPT, percent of total and share in a group",
+        "Year to date, same period last year and growth",
+        "Report design, workspaces, apps, refresh and row-level security"
+      ],
+      "handsOn": "Write a scorecard measure that combines growth and margin, then write the design brief for the report.",
+      "outcome": "Design models that give right answers, write the DAX a report needs, and plan reports people can read and trust.",
+      "icon": "chartBar"
+    },
+    {
+      "slug": "data-visualization-tableau",
+      "title": "Data Visualization with Tableau",
+      "cat": "data",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "Fresher",
+        "Mid"
+      ],
+      "hours": "~24 hrs",
+      "modules": 6,
+      "weeks": "~6 weeks",
+      "pace": "4 hrs/wk",
+      "badge": "Tableau Visualizer",
+      "prereq": "None; basic data familiarity helps.",
+      "bestFor": "Analysts and anyone presenting data to decision-makers.",
+      "brief": "Build charts the Tableau way in a live viz builder: shelves, marks, calculated fields, table calculations and LOD expressions, plus design, data preparation and publishing.",
+      "learn": [
+        "Dimensions, measures, shelves and the Marks card",
+        "Bars, lines, stacks, scatters and heat maps with filters, sorts and Top N",
+        "Calculated fields, quick table calculations and FIXED, INCLUDE and EXCLUDE",
+        "Visual encoding, honest charts, dashboards, actions and stories",
+        "Live versus extract, joins, unions, relationships and performance",
+        "Publishing, permissions, row-level security and governance"
+      ],
+      "handsOn": "Build the profit scatter that shows which sub-categories sell a lot but lose money, then write the dashboard brief.",
+      "outcome": "Build, calculate, design and brief a dashboard that answers a real business question.",
+      "icon": "chartPie"
+    },
+    {
+      "slug": "advanced-excel-data-analysis",
+      "title": "Advanced Excel for Data Analysis",
+      "cat": "data",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "All"
+      ],
+      "hours": "~22 hrs",
+      "modules": 6,
+      "weeks": "~5 weeks",
+      "pace": "4-5 hrs/wk",
+      "badge": "Excel Data Analyst",
+      "prereq": "Advanced Excel.",
+      "bestFor": "Analysts who prefer to stay in Excel before moving to BI tools.",
+      "brief": "Clean, describe, summarise, model and present data in Excel, with in-browser labs that check your formulas.",
+      "learn": [
+        "Clean and prepare data with formulas and tidy-data habits",
+        "Describe data with mean, median, spread, quartiles, outliers and z-scores",
+        "Summarise like a pivot table with SUMIFS cross-tabs and Pareto analysis",
+        "Measure relationships, fit a line and forecast with seasonality",
+        "Build break-even models, scenarios and an A/B significance test",
+        "Design KPI dashboards and write findings people act on"
+      ],
+      "handsOn": "Analyse a small sales dataset end to end and write the one-page memo that explains it.",
+      "outcome": "Take messy data to a clear, honest recommendation, and explain every number.",
+      "icon": "table"
+    },
+    {
+      "slug": "statistics-for-analysts",
+      "title": "Statistics for Analysts & Data Science",
+      "cat": "data",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "College",
+        "Fresher"
+      ],
+      "hours": "~7.5 hrs",
+      "modules": 6,
+      "weeks": "~3 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Applied Statistics",
+      "prereq": "School-level maths.",
+      "bestFor": "Aspiring data analysts/scientists who want trustworthy results.",
+      "brief": "Describe data, measure spread, read distributions, work with probability, estimate with confidence intervals and test relationships.",
+      "learn": [
+        "Data types and the right average for the situation",
+        "Variance, standard deviation and z-scores",
+        "Frequency tables, histograms and the normal curve",
+        "Probability rules, conditional probability and expected value",
+        "Sampling, bias, standard error and confidence intervals",
+        "Correlation, regression and the logic of significance tests"
+      ],
+      "handsOn": "Analyse a small survey end to end in a spreadsheet and report the findings honestly.",
+      "outcome": "Summarise data, quantify uncertainty and judge claims about relationships with care.",
+      "icon": "chartLine"
+    },
+    {
+      "slug": "data-engineering-fundamentals",
+      "title": "Data Engineering Fundamentals",
+      "cat": "data",
+      "level": "A",
+      "levelLabel": "Advanced",
+      "tags": [
+        "Mid"
+      ],
+      "hours": "~26 hrs",
+      "modules": 6,
+      "weeks": "~6 weeks",
+      "pace": "4-5 hrs/wk",
+      "badge": "Data Engineer",
+      "prereq": "Python and SQL.",
+      "bestFor": "Analysts/developers moving into high-paying data-engineering roles.",
+      "brief": "Model, transform, test and run data pipelines: star schemas, slowly changing dimensions, deduplication, incremental loads, quality tests, orchestration and governance, with live SQL labs.",
+      "learn": [
+        "Roles, OLTP and OLAP, warehouses, lakes, file formats, batch and streaming",
+        "Star schemas, grain and slowly changing dimensions (type 2 with SQL)",
+        "Raw, staging and mart layers, deduplication and the latest record",
+        "Incremental, idempotent loads and SQL data-quality tests",
+        "DAGs, retries, backfills, monitoring, testing and deployment",
+        "Partitions, streaming ideas, privacy, cost and a pipeline design document"
+      ],
+      "handsOn": "Prototype a delivered-revenue-by-city pipeline on raw shop data, then write its design document.",
+      "outcome": "Design, build and document a reliable pipeline from raw data to a trusted, business-ready table.",
+      "icon": "server"
+    },
+    {
+      "slug": "google-analytics-4",
+      "title": "Google Analytics 4 & Web Analytics",
+      "cat": "data",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "Fresher",
+        "Founder"
+      ],
+      "hours": "~22 hrs",
+      "modules": 6,
+      "weeks": "~5 weeks",
+      "pace": "4-5 hrs/wk",
+      "badge": "GA4 Analyst",
+      "prereq": "Basic web familiarity.",
+      "bestFor": "Marketers, founders, and product folks measuring digital growth.",
+      "brief": "Understand GA4's event model, plan collection, read acquisition, engagement and conversion, build funnels with SQL and use data responsibly, with live report and SQL labs.",
+      "learn": [
+        "Events, parameters, users, sessions, dimensions and metrics",
+        "The tag, Google Tag Manager, event types, UTM tagging and channel groups",
+        "Engagement rate, conversion rate and rates built from totals",
+        "Ecommerce events, funnels and attribution models",
+        "Explorations, audiences and event data in SQL",
+        "Consent, thresholds, sampling, privacy and a measurement plan"
+      ],
+      "handsOn": "Build the channel conversion view for a learning site and write the measurement plan and recommendation.",
+      "outcome": "Plan measurement, read GA4 reports with care and recommend where to spend the budget.",
+      "icon": "trendingUp"
+    },
+    {
+      "slug": "ai-literacy-productivity",
+      "title": "AI Literacy & Everyday Productivity",
+      "cat": "ai",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "All"
+      ],
+      "hours": "~12 hrs",
+      "modules": 6,
+      "weeks": "~3 weeks",
+      "pace": "4 hrs/wk",
+      "badge": "AI Literate",
+      "prereq": "None.",
+      "bestFor": "Everyone — the new baseline skill for study and work.",
+      "brief": "Using ChatGPT, Claude, Gemini, and Copilot responsibly.",
+      "learn": [
+        "What LLMs are, what they can and cannot do, and why they hallucinate",
+        "Writing clear prompts for drafting, summarising, and brainstorming",
+        "Using AI for study, email, research, and everyday planning",
+        "Fact-checking, verifying sources, and avoiding over-reliance",
+        "Privacy, data safety, and what not to paste into AI tools",
+        "A tour of popular tools and choosing the right one for a task"
+      ],
+      "handsOn": "Automate three real personal/work tasks with AI and document the prompts.",
+      "outcome": "Save hours weekly with AI; next step Prompt Engineering.",
+      "icon": "sparkles"
+    },
+    {
+      "slug": "prompt-engineering",
+      "title": "Prompt Engineering",
+      "cat": "ai",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "All"
+      ],
+      "hours": "~9 hrs",
+      "modules": 6,
+      "weeks": "~3 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Prompt Engineer",
+      "prereq": "AI Literacy (or comfort using AI tools).",
+      "bestFor": "Professionals in any field wanting reliable, professional AI output.",
+      "brief": "How assistants work, prompt structure, techniques, testing, safe use and a personal prompt library.",
+      "learn": [
+        "How language models work, and where they fail",
+        "A prompt template: role, task, context, constraints, format",
+        "Few-shot examples, step-by-step reasoning and output formats",
+        "Testing prompts with rubrics and estimating cost",
+        "Privacy, honesty, bias and responsible use",
+        "Using AI for writing, study and work"
+      ],
+      "handsOn": "Build a library of three reusable prompts with placeholders and a note on how to check each output.",
+      "outcome": "Write clear prompts, test and improve them and use AI assistants responsibly.",
+      "icon": "message"
+    },
+    {
+      "slug": "machine-learning-python",
+      "title": "Machine Learning with Python",
+      "cat": "ai",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "College",
+        "Fresher"
+      ],
+      "hours": "~50 hrs",
+      "modules": 6,
+      "weeks": "~10 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "ML Practitioner",
+      "prereq": "Python basics and school-level statistics.",
+      "bestFor": "Students/engineers entering data-science and ML roles.",
+      "brief": "Supervised/unsupervised learning and model evaluation from scratch.",
+      "learn": [
+        "The ML workflow and problem framing",
+        "Data prep — cleaning, encoding, scaling, train/test split",
+        "Supervised learning — linear/logistic regression, decision trees, KNN",
+        "Unsupervised learning — clustering (K-means) and dimensionality reduction",
+        "Model evaluation — accuracy, precision/recall, ROC, cross-validation",
+        "scikit-learn pipelines and avoiding overfitting"
+      ],
+      "handsOn": "Train, tune, and evaluate a predictive model on a real dataset.",
+      "outcome": "Build ML models; next step Deep Learning or NLP.",
+      "icon": "brain"
+    },
+    {
+      "slug": "deep-learning-neural-networks",
+      "title": "Deep Learning & Neural Networks",
+      "cat": "ai",
+      "level": "A",
+      "levelLabel": "Advanced",
+      "tags": [
+        "Mid"
+      ],
+      "hours": "~60 hrs",
+      "modules": 6,
+      "weeks": "~12 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Deep Learning",
+      "prereq": "Machine Learning with Python.",
+      "bestFor": "ML practitioners moving into vision, NLP, and advanced AI.",
+      "brief": "CNNs, RNNs, and transformers with PyTorch/TensorFlow.",
+      "learn": [
+        "Neurons, layers, activation functions, and backpropagation",
+        "Training mechanics — loss, optimizers, learning rate, epochs",
+        "CNNs for images; RNNs/LSTMs for sequences",
+        "Transformers and the attention mechanism",
+        "Regularisation, dropout, and transfer learning",
+        "Building and training models in PyTorch or TensorFlow/Keras"
+      ],
+      "handsOn": "Build an image classifier and a text model using transfer learning.",
+      "outcome": "Build modern neural networks; feeds Computer Vision and GenAI.",
+      "icon": "network"
+    },
+    {
+      "slug": "natural-language-processing",
+      "title": "Natural Language Processing (NLP)",
+      "cat": "ai",
+      "level": "A",
+      "levelLabel": "Advanced",
+      "tags": [
+        "Mid"
+      ],
+      "hours": "~50 hrs",
+      "modules": 6,
+      "weeks": "~10 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "NLP Engineer",
+      "prereq": "Machine Learning with Python.",
+      "bestFor": "Engineers building chatbots, search, and text-analytics systems.",
+      "brief": "Text classification, embeddings, and working with LLMs.",
+      "learn": [
+        "Text preprocessing — tokenisation, stemming, lemmatisation",
+        "Bag-of-words, TF-IDF, and word embeddings (Word2Vec, GloVe)",
+        "Text classification and sentiment analysis",
+        "Named-entity recognition and topic modelling",
+        "Transformers, BERT, and using Hugging Face models",
+        "Evaluation and handling multilingual/Indian-language text"
+      ],
+      "handsOn": "Build a sentiment or intent classifier and deploy it as an API.",
+      "outcome": "Build language AI; complements Generative AI.",
+      "icon": "message"
+    },
+    {
+      "slug": "generative-ai-llm-development",
+      "title": "Generative AI & LLM Application Development",
+      "cat": "ai",
+      "level": "A",
+      "levelLabel": "Advanced",
+      "tags": [
+        "Fresher",
+        "Mid"
+      ],
+      "hours": "~45 hrs",
+      "modules": 6,
+      "weeks": "~9 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "GenAI Developer",
+      "prereq": "Python and API basics.",
+      "bestFor": "Developers shipping AI features into real products.",
+      "brief": "RAG, vector databases, fine-tuning, and shipping AI features.",
+      "learn": [
+        "LLM fundamentals — tokens, context windows, temperature",
+        "Calling model APIs and structuring app logic",
+        "Retrieval-Augmented Generation (RAG) with vector databases",
+        "Embeddings, chunking, and semantic search",
+        "Fine-tuning vs prompting — when to use each",
+        "Evaluation, guardrails, cost control, and deployment"
+      ],
+      "handsOn": "Build a RAG chatbot over your own documents.",
+      "outcome": "Build production AI apps; next step Agentic AI.",
+      "icon": "sparkles"
+    },
+    {
+      "slug": "agentic-ai-multi-agent",
+      "title": "Agentic AI & Multi-Agent Systems",
+      "cat": "ai",
+      "level": "A",
+      "levelLabel": "Advanced",
+      "tags": [
+        "Mid"
+      ],
+      "hours": "~45 hrs",
+      "modules": 6,
+      "weeks": "~9 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Agentic AI",
+      "prereq": "Python and Generative AI basics.",
+      "bestFor": "Engineers riding 2026's biggest hiring surge.",
+      "brief": "LangChain, tool-use, and orchestration.",
+      "learn": [
+        "What agents are — reasoning + tools + memory loops",
+        "Tool/function calling and connecting external APIs",
+        "Frameworks — LangChain / LangGraph orchestration",
+        "Multi-agent design — planner, worker, and critic roles",
+        "Memory, state, and long-running task management",
+        "Evaluation, safety, and preventing runaway/looping agents"
+      ],
+      "handsOn": "Build a multi-step research or workflow agent that uses tools.",
+      "outcome": "Build autonomous AI systems — one of the most in-demand skills.",
+      "icon": "bot"
+    },
+    {
+      "slug": "mlops-model-deployment",
+      "title": "MLOps & Model Deployment",
+      "cat": "ai",
+      "level": "A",
+      "levelLabel": "Advanced",
+      "tags": [
+        "Mid"
+      ],
+      "hours": "~45 hrs",
+      "modules": 6,
+      "weeks": "~9 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "MLOps Engineer",
+      "prereq": "Machine Learning; Docker helpful.",
+      "bestFor": "ML engineers taking models from notebook to production.",
+      "brief": "Packaging, serving, monitoring, and scaling ML models.",
+      "learn": [
+        "Reproducible environments, experiment tracking (MLflow)",
+        "Model packaging and serving via REST APIs (FastAPI)",
+        "Containerising models with Docker",
+        "CI/CD for ML and model versioning/registries",
+        "Monitoring — drift, performance, and alerting",
+        "Scaling and cost management in the cloud"
+      ],
+      "handsOn": "Deploy a model as a monitored, containerised API with a CI pipeline.",
+      "outcome": "Ship and maintain ML in production reliably.",
+      "icon": "cog"
+    },
+    {
+      "slug": "computer-vision-essentials",
+      "title": "Computer Vision Essentials",
+      "cat": "ai",
+      "level": "A",
+      "levelLabel": "Advanced",
+      "tags": [
+        "Mid"
+      ],
+      "hours": "~50 hrs",
+      "modules": 6,
+      "weeks": "~10 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Computer Vision",
+      "prereq": "Machine Learning; Deep Learning helpful.",
+      "bestFor": "Engineers in healthtech, retail, manufacturing, and automation.",
+      "brief": "Image classification, detection, and OCR.",
+      "learn": [
+        "Image basics — pixels, channels, and preprocessing with OpenCV",
+        "Image classification with CNNs and transfer learning",
+        "Object detection (YOLO family) and segmentation concepts",
+        "Optical Character Recognition (OCR) pipelines",
+        "Data annotation, augmentation, and dataset building",
+        "Deploying a vision model to an app or edge device"
+      ],
+      "handsOn": "Build a detector or OCR tool for a real use case (e.g. document/inventory scan).",
+      "outcome": "Build vision systems for industry use cases.",
+      "icon": "eye"
+    },
+    {
+      "slug": "ai-for-business-leaders",
+      "title": "AI for Business Leaders / Generative AI Strategy",
+      "cat": "ai",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "Senior",
+        "Founder"
+      ],
+      "hours": "~20 hrs",
+      "modules": 6,
+      "weeks": "~4 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "AI Strategy",
+      "prereq": "None — no coding required.",
+      "bestFor": "Managers, founders, and decision-makers.",
+      "brief": "Adoption roadmaps, ROI, governance, and team upskilling.",
+      "learn": [
+        "The AI landscape — capabilities, limits, and realistic use cases",
+        "Identifying and prioritising high-ROI AI opportunities",
+        "Build vs buy, vendor evaluation, and cost models",
+        "Data readiness, security, and IP considerations",
+        "Governance, risk, and responsible-AI policy",
+        "Change management and upskilling teams"
+      ],
+      "handsOn": "Produce an AI adoption roadmap and ROI business case for your organisation.",
+      "outcome": "Lead AI adoption confidently; pairs with Responsible AI.",
+      "icon": "target"
+    },
+    {
+      "slug": "responsible-ethical-ai",
+      "title": "Responsible & Ethical AI",
+      "cat": "ai",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "Senior"
+      ],
+      "hours": "~18 hrs",
+      "modules": 6,
+      "weeks": "~4 weeks",
+      "pace": "4–5 hrs/wk",
+      "badge": "Responsible AI",
+      "prereq": "AI Literacy.",
+      "bestFor": "Leaders, PMs, and compliance owners deploying AI.",
+      "brief": "Bias, privacy, safety, and India's DPDP-era compliance.",
+      "learn": [
+        "Sources of bias and fairness across the ML lifecycle",
+        "Transparency, explainability, and model documentation",
+        "Privacy-by-design and India's DPDP Act / GDPR essentials",
+        "Safety, misuse, and content-moderation considerations",
+        "Governance frameworks and audit practices",
+        "Building an internal responsible-AI policy"
+      ],
+      "handsOn": "Draft a responsible-AI policy and a bias-and-risk checklist for a project.",
+      "outcome": "Deploy AI ethically and compliantly.",
+      "icon": "shield"
+    },
+    {
+      "slug": "python-foundations",
+      "title": "Programming Foundations with Python",
+      "cat": "dev",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "School",
+        "College"
+      ],
+      "hours": "~30 hrs",
+      "modules": 6,
+      "weeks": "~6 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Python Foundations",
+      "prereq": "None.",
+      "bestFor": "First-time coders and students starting a tech journey.",
+      "brief": "The friendliest first language — variables, logic, and small projects.",
+      "learn": [
+        "Variables, data types, input/output",
+        "Operators, conditionals, and loops",
+        "Functions, scope, and code organisation",
+        "Lists, dictionaries, tuples, and sets",
+        "File handling and error handling",
+        "Modules, libraries, and a first mini-project"
+      ],
+      "handsOn": "Build a small program such as a quiz game or expense calculator.",
+      "outcome": "Ready for Data Analytics, Machine Learning, or DSA.",
+      "icon": "code"
+    },
+    {
+      "slug": "front-end-development",
+      "title": "Front-End Development (HTML, CSS, JavaScript)",
+      "cat": "dev",
+      "level": "B→I",
+      "levelLabel": "Beginner to Intermediate",
+      "tags": [
+        "College",
+        "Fresher"
+      ],
+      "hours": "~50 hrs",
+      "modules": 8,
+      "weeks": "~10 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Front-End Developer",
+      "prereq": "None.",
+      "bestFor": "Aspiring web developers building a portfolio for jobs.",
+      "brief": "Responsive, accessible websites and web fundamentals.",
+      "learn": [
+        "HTML structure, semantic tags, forms, and accessibility",
+        "CSS — box model, flexbox, grid, and responsive design",
+        "JavaScript — variables, functions, DOM manipulation, and events",
+        "Fetch/AJAX and working with APIs",
+        "Version basics, dev tools, and debugging",
+        "Deploying a static site"
+      ],
+      "handsOn": "Build and deploy a responsive multi-page personal portfolio.",
+      "outcome": "Target junior front-end roles; next step a framework/backend.",
+      "icon": "code"
+    },
+    {
+      "slug": "java-spring-boot",
+      "title": "Java Programming & Spring Boot",
+      "cat": "dev",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "College",
+        "Fresher"
+      ],
+      "hours": "~60 hrs",
+      "modules": 6,
+      "weeks": "~12 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Java Developer",
+      "prereq": "Basic programming logic helpful.",
+      "bestFor": "Students targeting service-company and enterprise hiring in India.",
+      "brief": "OOP, collections, and enterprise APIs.",
+      "learn": [
+        "Java syntax, data types, and control flow",
+        "Object-oriented programming — classes, inheritance, interfaces, polymorphism",
+        "Collections framework and generics",
+        "Exception handling and file/stream I/O",
+        "Spring Boot — REST controllers, dependency injection, JPA",
+        "Connecting to a database and building CRUD APIs"
+      ],
+      "handsOn": "Build a REST API (e.g. task manager) with Spring Boot and a database.",
+      "outcome": "Target Java developer roles; pairs with DSA for Interviews.",
+      "icon": "code"
+    },
+    {
+      "slug": "flutter-mobile-development",
+      "title": "Mobile App Development with Flutter",
+      "cat": "dev",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "Fresher",
+        "Founder"
+      ],
+      "hours": "~45 hrs",
+      "modules": 6,
+      "weeks": "~9 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Flutter Developer",
+      "prereq": "Basic programming logic.",
+      "bestFor": "Freshers and founders who want one codebase for Android + iOS.",
+      "brief": "Cross-platform apps from a single codebase.",
+      "learn": [
+        "Dart language basics and the Flutter widget tree",
+        "Layouts, styling, and responsive UI",
+        "State management (setState, Provider/Riverpod)",
+        "Navigation, forms, and user input",
+        "Calling REST APIs and local storage",
+        "Building, testing, and publishing to the Play Store"
+      ],
+      "handsOn": "Build and publish a working multi-screen app with API data.",
+      "outcome": "Ship your own app or target mobile-developer roles.",
+      "icon": "smartphone"
+    },
+    {
+      "slug": "git-github",
+      "title": "Git & GitHub for Developers",
+      "cat": "dev",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "All"
+      ],
+      "hours": "~12 hrs",
+      "modules": 6,
+      "weeks": "~3 weeks",
+      "pace": "4 hrs/wk",
+      "badge": "Git & GitHub",
+      "prereq": "Some coding experience.",
+      "bestFor": "Every developer and data professional.",
+      "brief": "Version control and collaboration — a must for every coder.",
+      "learn": [
+        "Why version control; installing and configuring Git",
+        "Core workflow — add, commit, log, and .gitignore",
+        "Branching, merging, and resolving conflicts",
+        "Remotes — push, pull, fetch, and clone",
+        "GitHub — pull requests, issues, and code review",
+        "Collaboration workflows and undoing mistakes safely"
+      ],
+      "handsOn": "Contribute to a shared repo via a branch and pull request.",
+      "outcome": "Collaborate on any codebase professionally.",
+      "icon": "gitBranch"
+    },
+    {
+      "slug": "dsa-for-interviews",
+      "title": "Data Structures & Algorithms for Interviews",
+      "cat": "dev",
+      "level": "I→A",
+      "levelLabel": "Intermediate to Advanced",
+      "tags": [
+        "College",
+        "Fresher"
+      ],
+      "hours": "~60 hrs",
+      "modules": 8,
+      "weeks": "~12 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "DSA Interview-Ready",
+      "prereq": "Comfort with one programming language.",
+      "bestFor": "Students targeting product-company coding rounds.",
+      "brief": "Problem-solving patterns to clear coding interviews.",
+      "learn": [
+        "Big-O time/space complexity analysis",
+        "Arrays, strings, hashing, and two-pointer/sliding-window patterns",
+        "Stacks, queues, linked lists",
+        "Trees, graphs, and traversal (BFS/DFS)",
+        "Sorting, searching, and recursion",
+        "Dynamic programming and greedy patterns"
+      ],
+      "handsOn": "Solve a structured set of interview problems and mock a coding round.",
+      "outcome": "Crack technical interviews at top companies.",
+      "icon": "braces"
+    },
+    {
+      "slug": "api-development",
+      "title": "API Development & Integration",
+      "cat": "dev",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "Fresher",
+        "Mid"
+      ],
+      "hours": "~30 hrs",
+      "modules": 6,
+      "weeks": "~6 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "API Developer",
+      "prereq": "One backend language (Python/Node/Java).",
+      "bestFor": "Backend and integration developers.",
+      "brief": "Designing, securing, and consuming REST and GraphQL APIs.",
+      "learn": [
+        "HTTP fundamentals — methods, status codes, headers",
+        "Designing RESTful endpoints and resource modelling",
+        "Authentication — API keys, JWT, OAuth basics",
+        "GraphQL concepts vs REST",
+        "Documentation (OpenAPI/Swagger) and testing with Postman",
+        "Rate limiting, versioning, and error handling"
+      ],
+      "handsOn": "Build and document a secured REST API and consume it from a client.",
+      "outcome": "Build the APIs that power modern apps.",
+      "icon": "braces"
+    },
+    {
+      "slug": "cloud-computing-fundamentals",
+      "title": "Cloud Computing Fundamentals (AWS/Azure/GCP)",
+      "cat": "cloud",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "College",
+        "Fresher"
+      ],
+      "hours": "~25 hrs",
+      "modules": 6,
+      "weeks": "~5 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Cloud Foundations",
+      "prereq": "Basic IT familiarity.",
+      "bestFor": "Anyone entering cloud careers or prepping entry certifications.",
+      "brief": "Core cloud concepts and prep for AWS Cloud Practitioner / Azure Fundamentals.",
+      "learn": [
+        "What cloud is — IaaS, PaaS, SaaS, and deployment models",
+        "Core services — compute, storage, networking, databases",
+        "Shared-responsibility model and cloud security basics",
+        "Pricing, billing, and cost management",
+        "High availability, scalability, and regions/zones",
+        "Certification-exam preparation and hands-on console tour"
+      ],
+      "handsOn": "Deploy a simple web app or storage bucket on a free-tier cloud account.",
+      "outcome": "Pass an entry cloud cert; next step a provider-specific path.",
+      "icon": "cloud"
+    },
+    {
+      "slug": "aws-solutions-architect",
+      "title": "AWS Solutions Architect Path",
+      "cat": "cloud",
+      "level": "A",
+      "levelLabel": "Advanced",
+      "tags": [
+        "Mid"
+      ],
+      "hours": "~50 hrs",
+      "modules": 6,
+      "weeks": "~10 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "AWS Architect",
+      "prereq": "Cloud Fundamentals.",
+      "bestFor": "Engineers targeting the AWS Solutions Architect certification.",
+      "brief": "Architecting resilient workloads for certification and real deployments.",
+      "learn": [
+        "Compute (EC2, Lambda) and storage (S3, EBS) deep-dive",
+        "Networking — VPC, subnets, security groups, load balancers",
+        "Identity and access management (IAM) and security",
+        "Databases (RDS, DynamoDB) and caching",
+        "High availability, auto-scaling, and disaster recovery",
+        "Well-Architected Framework and cost optimisation"
+      ],
+      "handsOn": "Design and deploy a scalable, multi-tier architecture.",
+      "outcome": "Sit the AWS SA-Associate exam; target cloud-architect roles.",
+      "icon": "cloud"
+    },
+    {
+      "slug": "azure-administration",
+      "title": "Microsoft Azure Administration",
+      "cat": "cloud",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "Mid"
+      ],
+      "hours": "~40 hrs",
+      "modules": 6,
+      "weeks": "~8 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Azure Administrator",
+      "prereq": "Cloud Fundamentals.",
+      "bestFor": "IT admins in enterprises running on Azure.",
+      "brief": "Identity, networking, and resource management on Azure.",
+      "learn": [
+        "Azure portal, subscriptions, and resource groups",
+        "Entra ID (Azure AD) — users, groups, roles",
+        "Virtual networks, storage accounts, and VMs",
+        "Governance — policies, tags, and cost management",
+        "Monitoring, backup, and recovery",
+        "Automation with ARM/Bicep basics"
+      ],
+      "handsOn": "Provision and secure a small Azure environment end-to-end.",
+      "outcome": "Target Azure admin roles and the AZ-104 exam.",
+      "icon": "cloud"
+    },
+    {
+      "slug": "google-cloud-essentials",
+      "title": "Google Cloud Essentials",
+      "cat": "cloud",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "Fresher",
+        "Mid"
+      ],
+      "hours": "~30 hrs",
+      "modules": 6,
+      "weeks": "~6 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Google Cloud",
+      "prereq": "Cloud Fundamentals helpful.",
+      "bestFor": "Developers and analysts using GCP and BigQuery.",
+      "brief": "Compute, storage, BigQuery, and cloud-native fundamentals.",
+      "learn": [
+        "GCP projects, IAM, and the console/CLI",
+        "Compute Engine, App Engine, and Cloud Run",
+        "Cloud Storage and networking basics",
+        "BigQuery for analytics",
+        "Managed databases and Pub/Sub concepts",
+        "Billing, quotas, and cost control"
+      ],
+      "handsOn": "Deploy a containerised app on Cloud Run and query data in BigQuery.",
+      "outcome": "Build and analyse on GCP.",
+      "icon": "cloud"
+    },
+    {
+      "slug": "devops-cicd",
+      "title": "DevOps & CI/CD Pipeline Engineering",
+      "cat": "cloud",
+      "level": "A",
+      "levelLabel": "Advanced",
+      "tags": [
+        "Mid"
+      ],
+      "hours": "~50 hrs",
+      "modules": 6,
+      "weeks": "~10 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "DevOps Engineer",
+      "prereq": "Linux basics and some cloud knowledge.",
+      "bestFor": "Developers/ops moving into high-paying DevOps roles.",
+      "brief": "Docker, Kubernetes, Jenkins, and Git-based delivery.",
+      "learn": [
+        "DevOps culture, workflows, and the delivery lifecycle",
+        "Git-based workflows and branching strategies",
+        "Building CI/CD pipelines (Jenkins/GitHub Actions)",
+        "Containerisation with Docker",
+        "Orchestration with Kubernetes basics",
+        "Infrastructure as Code (Terraform) and monitoring"
+      ],
+      "handsOn": "Build a pipeline that tests, containerises, and deploys an app automatically.",
+      "outcome": "Target DevOps roles with a strong salary premium.",
+      "icon": "infinity"
+    },
+    {
+      "slug": "docker-kubernetes",
+      "title": "Docker & Kubernetes",
+      "cat": "cloud",
+      "level": "I→A",
+      "levelLabel": "Intermediate to Advanced",
+      "tags": [
+        "Mid"
+      ],
+      "hours": "~40 hrs",
+      "modules": 6,
+      "weeks": "~8 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Containers & K8s",
+      "prereq": "Linux basics.",
+      "bestFor": "Engineers deploying and scaling modern applications.",
+      "brief": "Containerisation and orchestration for reliable, scalable deployments.",
+      "learn": [
+        "Containers vs VMs; Docker images, containers, and volumes",
+        "Writing Dockerfiles and using Docker Compose",
+        "Registries and multi-stage builds",
+        "Kubernetes architecture — pods, deployments, services",
+        "ConfigMaps, secrets, scaling, and rolling updates",
+        "Ingress, health checks, and troubleshooting"
+      ],
+      "handsOn": "Containerise a multi-service app and deploy it to a Kubernetes cluster.",
+      "outcome": "Deploy production-grade containerised systems.",
+      "icon": "box"
+    },
+    {
+      "slug": "linux-shell-scripting",
+      "title": "Linux & Shell Scripting",
+      "cat": "cloud",
+      "level": "B→I",
+      "levelLabel": "Beginner to Intermediate",
+      "tags": [
+        "Fresher"
+      ],
+      "hours": "~30 hrs",
+      "modules": 6,
+      "weeks": "~6 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Linux & Bash",
+      "prereq": "None.",
+      "bestFor": "Anyone in DevOps, cloud, cybersecurity, or backend.",
+      "brief": "The backbone of server work — command line and automation.",
+      "learn": [
+        "The Linux filesystem and navigation",
+        "File operations, permissions, and ownership",
+        "Users, processes, and package management",
+        "Text tools — grep, sed, awk, pipes, and redirection",
+        "Bash scripting — variables, loops, conditionals, functions",
+        "Cron jobs and basic server administration"
+      ],
+      "handsOn": "Write a shell script that automates a backup or log-processing task.",
+      "outcome": "Work confidently on servers; foundation for cloud/DevOps.",
+      "icon": "terminal"
+    },
+    {
+      "slug": "site-reliability-monitoring",
+      "title": "Site Reliability & Cloud Monitoring",
+      "cat": "cloud",
+      "level": "A",
+      "levelLabel": "Advanced",
+      "tags": [
+        "Mid",
+        "Senior"
+      ],
+      "hours": "~40 hrs",
+      "modules": 6,
+      "weeks": "~8 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "SRE",
+      "prereq": "DevOps/cloud experience.",
+      "bestFor": "Engineers keeping production systems reliable at scale.",
+      "brief": "Observability, incident response, and uptime engineering.",
+      "learn": [
+        "SRE principles — SLIs, SLOs, SLAs, and error budgets",
+        "Metrics, logs, and traces (the three pillars of observability)",
+        "Tooling — Prometheus, Grafana, and alerting",
+        "Incident response and postmortems (blameless)",
+        "Capacity planning and reliability patterns",
+        "Reducing toil through automation"
+      ],
+      "handsOn": "Instrument a service with dashboards and alerts, then run a mock incident.",
+      "outcome": "Target SRE/reliability roles.",
+      "icon": "activity"
+    },
+    {
+      "slug": "cybersecurity-essentials",
+      "title": "Cybersecurity Essentials",
+      "cat": "cyber",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "All"
+      ],
+      "hours": "~8.5 hrs",
+      "modules": 6,
+      "weeks": "~3 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Cyber Safe",
+      "prereq": "None.",
+      "bestFor": "Every professional and organisation staff member.",
+      "brief": "Security principles, passwords and two-step verification, phishing, device and network safety, backups, privacy and incident response.",
+      "learn": [
+        "Confidentiality, integrity, availability and defence in depth",
+        "Password strength, managers and two-step verification",
+        "Recognising phishing and social engineering",
+        "Securing devices, wifi and backups with 3-2-1",
+        "Risk scoring and personal data privacy",
+        "Responding to hacked accounts, lost devices and scams"
+      ],
+      "handsOn": "Write a one-page personal security plan covering accounts, devices, data, scams and incident response.",
+      "outcome": "Protect your accounts, devices and data and respond calmly when something goes wrong.",
+      "icon": "shield"
+    },
+    {
+      "slug": "ethical-hacking-pentesting",
+      "title": "Ethical Hacking & Penetration Testing",
+      "cat": "cyber",
+      "level": "I→A",
+      "levelLabel": "Intermediate to Advanced",
+      "tags": [
+        "College",
+        "Fresher"
+      ],
+      "hours": "~55 hrs",
+      "modules": 6,
+      "weeks": "~11 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Ethical Hacker",
+      "prereq": "Networking basics; Linux helpful. Authorised, lab-only testing.",
+      "bestFor": "Aspiring pen-testers and security analysts (CEH/Security+ prep).",
+      "brief": "Network security and pen-testing in a safe lab.",
+      "learn": [
+        "Ethics, scope, and legal authorisation",
+        "Reconnaissance and footprinting",
+        "Scanning and enumeration (Nmap)",
+        "Vulnerability assessment and exploitation in a safe lab",
+        "Web app testing (OWASP Top 10)",
+        "Reporting findings and remediation advice"
+      ],
+      "handsOn": "Run a full assessment on an intentionally vulnerable lab and write a pen-test report.",
+      "outcome": "Target ethical-hacking and VAPT roles.",
+      "icon": "terminal"
+    },
+    {
+      "slug": "network-security-firewalls",
+      "title": "Network Security & Firewalls",
+      "cat": "cyber",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "Fresher",
+        "Mid"
+      ],
+      "hours": "~35 hrs",
+      "modules": 6,
+      "weeks": "~7 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Network Security",
+      "prereq": "Networking basics.",
+      "bestFor": "IT/network staff securing infrastructure.",
+      "brief": "Securing networks, VPNs, and intrusion detection.",
+      "learn": [
+        "Networking refresher — TCP/IP, ports, protocols",
+        "Firewalls, ACLs, and network segmentation",
+        "VPNs and secure remote access",
+        "IDS/IPS and traffic monitoring",
+        "Wireless security and common attacks",
+        "Defence-in-depth and zero-trust basics"
+      ],
+      "handsOn": "Configure firewall rules and detect a simulated intrusion.",
+      "outcome": "Secure enterprise networks.",
+      "icon": "wifi"
+    },
+    {
+      "slug": "cloud-security",
+      "title": "Cloud Security",
+      "cat": "cyber",
+      "level": "A",
+      "levelLabel": "Advanced",
+      "tags": [
+        "Mid"
+      ],
+      "hours": "~40 hrs",
+      "modules": 6,
+      "weeks": "~8 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Cloud Security",
+      "prereq": "Cloud fundamentals and cybersecurity basics.",
+      "bestFor": "Security engineers protecting cloud workloads.",
+      "brief": "Securing AWS/Azure/GCP workloads, IAM, and compliance.",
+      "learn": [
+        "Cloud shared-responsibility and threat models",
+        "Identity and access management best practice",
+        "Network security groups, encryption, and key management",
+        "Securing storage, secrets, and workloads",
+        "Logging, monitoring, and compliance (CIS benchmarks)",
+        "Incident response in the cloud"
+      ],
+      "handsOn": "Harden a cloud account against a security checklist and fix misconfigurations.",
+      "outcome": "Target cloud-security roles.",
+      "icon": "lock"
+    },
+    {
+      "slug": "soc-analyst",
+      "title": "Security Operations (SOC Analyst)",
+      "cat": "cyber",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "Fresher"
+      ],
+      "hours": "~40 hrs",
+      "modules": 6,
+      "weeks": "~8 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "SOC Analyst",
+      "prereq": "Cybersecurity Essentials.",
+      "bestFor": "Freshers wanting a fast entry into cyber careers.",
+      "brief": "SIEM tools, threat monitoring, and incident triage.",
+      "learn": [
+        "The SOC role, tiers, and workflows",
+        "Log sources and SIEM fundamentals (Splunk/ELK concepts)",
+        "Detecting and triaging alerts",
+        "Threat intelligence and the MITRE ATT&CK framework",
+        "Incident handling and escalation",
+        "Writing clear incident reports"
+      ],
+      "handsOn": "Investigate simulated alerts in a SIEM and document the incident.",
+      "outcome": "Target SOC Analyst (Tier 1) roles.",
+      "icon": "activity"
+    },
+    {
+      "slug": "data-privacy-compliance",
+      "title": "Data Privacy & Compliance (DPDP/GDPR)",
+      "cat": "cyber",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "Mid",
+        "Senior"
+      ],
+      "hours": "~20 hrs",
+      "modules": 6,
+      "weeks": "~4 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Data Privacy",
+      "prereq": "None.",
+      "bestFor": "Managers, legal/compliance, and product owners.",
+      "brief": "India's DPDP Act, GDPR, and building privacy-first processes.",
+      "learn": [
+        "Key principles of data protection law",
+        "India's DPDP Act — consent, rights, and obligations",
+        "GDPR essentials and cross-border data",
+        "Data mapping, retention, and minimisation",
+        "Breach notification and DPIA basics",
+        "Building privacy into products and processes"
+      ],
+      "handsOn": "Produce a data-map and a compliance gap-analysis for a sample organisation.",
+      "outcome": "Lead privacy compliance in your organisation.",
+      "icon": "lock"
+    },
+    {
+      "slug": "ui-ux-design-figma",
+      "title": "UI/UX Design with Figma",
+      "cat": "design",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "College",
+        "Fresher"
+      ],
+      "hours": "~40 hrs",
+      "modules": 6,
+      "weeks": "~8 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "UI/UX Designer",
+      "prereq": "None; an eye for design helps.",
+      "bestFor": "Aspiring designers building a job-ready portfolio.",
+      "brief": "Wireframes, prototypes, and portfolio projects that land design jobs.",
+      "learn": [
+        "UX fundamentals — user research, personas, journeys",
+        "Information architecture and wireframing",
+        "Figma — frames, components, auto-layout, and styles",
+        "Interactive prototyping and micro-interactions",
+        "Design systems, accessibility, and handoff to developers",
+        "Usability testing and iteration"
+      ],
+      "handsOn": "Design a full app flow from research to clickable prototype.",
+      "outcome": "Target UI/UX designer roles with a portfolio.",
+      "icon": "pen"
+    },
+    {
+      "slug": "graphic-design-canva",
+      "title": "Graphic Design with Canva",
+      "cat": "design",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "All"
+      ],
+      "hours": "~15 hrs",
+      "modules": 6,
+      "weeks": "~3 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Canva Designer",
+      "prereq": "None.",
+      "bestFor": "Small-business owners, marketers, and creators — no prior skill needed.",
+      "brief": "Typography, colour, and layout for social posts, ads, and branding.",
+      "learn": [
+        "Design principles — balance, contrast, alignment, hierarchy",
+        "Colour theory and font pairing",
+        "Canva interface, templates, and brand kits",
+        "Social media graphics, posters, and presentations",
+        "Basic photo editing and background removal",
+        "Exporting for print and web"
+      ],
+      "handsOn": "Create a complete brand kit and a week of social posts.",
+      "outcome": "Design your own marketing assets; next step Photoshop & Illustrator.",
+      "icon": "palette"
+    },
+    {
+      "slug": "photoshop-illustrator",
+      "title": "Graphic Design with Photoshop & Illustrator",
+      "cat": "design",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "Fresher",
+        "Founder"
+      ],
+      "hours": "~40 hrs",
+      "modules": 6,
+      "weeks": "~8 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Graphic Design Pro",
+      "prereq": "None; Canva course helpful.",
+      "bestFor": "Aspiring professional designers and freelancers.",
+      "brief": "Professional image editing, vector art, and brand assets.",
+      "learn": [
+        "Photoshop — layers, masks, selections, retouching",
+        "Colour correction and photo compositing",
+        "Illustrator — vectors, the pen tool, and shapes",
+        "Logo and icon design",
+        "Typography and layout for print/digital",
+        "Exporting assets for multiple platforms"
+      ],
+      "handsOn": "Design a logo and a complete brand asset set.",
+      "outcome": "Take on professional/freelance design work.",
+      "icon": "image"
+    },
+    {
+      "slug": "video-editing-premiere-pro",
+      "title": "Video Editing with Premiere Pro",
+      "cat": "design",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "All"
+      ],
+      "hours": "~30 hrs",
+      "modules": 6,
+      "weeks": "~6 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Video Editor",
+      "prereq": "None.",
+      "bestFor": "Creators, freelancers, and marketing teams.",
+      "brief": "Cutting, transitions, colour, and audio for YouTube, reels, and client work.",
+      "learn": [
+        "Project setup, importing, and the timeline",
+        "Cutting, trimming, and sequencing footage",
+        "Transitions, titles, and text animation",
+        "Colour correction and grading",
+        "Audio editing, music, and mixing",
+        "Exporting for YouTube, Instagram, and clients"
+      ],
+      "handsOn": "Edit a polished 2–3 minute video from raw footage.",
+      "outcome": "Edit professionally; pairs with Short-Form Video.",
+      "icon": "film"
+    },
+    {
+      "slug": "short-form-video",
+      "title": "Reels & Short-Form Video Production",
+      "cat": "design",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "All"
+      ],
+      "hours": "~15 hrs",
+      "modules": 6,
+      "weeks": "~3 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Short-Form Creator",
+      "prereq": "A smartphone.",
+      "bestFor": "Creators and small businesses growing on social media.",
+      "brief": "Shooting, editing, and hooks for Instagram, Shorts, and marketing.",
+      "learn": [
+        "Short-form storytelling and hook-writing",
+        "Filming with a phone — framing, lighting, audio",
+        "Editing in CapCut/InShot — cuts, captions, effects",
+        "Trends, audio, and platform algorithms",
+        "Posting cadence, hashtags, and analytics",
+        "Repurposing long content into shorts"
+      ],
+      "handsOn": "Produce a batch of 5 reels with hooks and captions.",
+      "outcome": "Grow a social presence or offer reels as a service.",
+      "icon": "video"
+    },
+    {
+      "slug": "3d-blender-basics",
+      "title": "3D & Blender Basics",
+      "cat": "design",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "College"
+      ],
+      "hours": "~40 hrs",
+      "modules": 6,
+      "weeks": "~8 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "3D & Blender",
+      "prereq": "None; patience with software helps.",
+      "bestFor": "Students eyeing games, product visualisation, and animation.",
+      "brief": "Modeling, texturing, and rendering.",
+      "learn": [
+        "Blender interface and navigation",
+        "Modelling — meshes, modifiers, and topology basics",
+        "Materials, textures, and UV unwrapping",
+        "Lighting and cameras",
+        "Rendering with Eevee/Cycles",
+        "Basic animation and keyframes"
+      ],
+      "handsOn": "Model, texture, and render a finished 3D product scene.",
+      "outcome": "Build a 3D portfolio for games/design work.",
+      "icon": "box"
+    },
+    {
+      "slug": "digital-marketing-foundations",
+      "title": "Digital Marketing Foundations",
+      "cat": "marketing",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "All"
+      ],
+      "hours": "~7.5 hrs",
+      "modules": 6,
+      "weeks": "~3 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Marketing Foundations",
+      "prereq": "None.",
+      "bestFor": "Freelancers, entrepreneurs, and job seekers (Google/Meta cert prep).",
+      "brief": "Customers, the funnel, copywriting, search, social and email, measurement and a campaign plan.",
+      "learn": [
+        "The marketing mix, segments, personas and value propositions",
+        "The funnel and owned, earned and paid media",
+        "Headlines, benefits and calls to action",
+        "Search, social media and email marketing with consent",
+        "CTR, CPC, conversion rate, CPA, ROAS and A/B testing",
+        "SMART goals, the campaign brief and honest marketing"
+      ],
+      "handsOn": "Analyse a four-week campaign: totals, cost per sale, return on ad spend, and a profit verdict.",
+      "outcome": "Plan, write, measure and responsibly run a small digital campaign.",
+      "icon": "megaphone"
+    },
+    {
+      "slug": "seo",
+      "title": "Search Engine Optimization (SEO)",
+      "cat": "marketing",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "Fresher",
+        "Founder"
+      ],
+      "hours": "~8 hrs",
+      "modules": 6,
+      "weeks": "~3 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "SEO Foundations",
+      "prereq": "Basic web familiarity.",
+      "bestFor": "Marketers, founders, and content creators growing organic traffic.",
+      "brief": "How search works, keywords and helpful content, on-page and technical SEO, links and local SEO, reports and a plan.",
+      "learn": [
+        "Crawling, indexing, ranking and search intent",
+        "Keyword research, scoring and helpful content",
+        "Titles, descriptions, headings, alt text and internal links",
+        "Speed, mobile friendliness and crawlability",
+        "Links, local SEO and trust without shortcuts",
+        "Reading reports, quick wins and a three-month plan"
+      ],
+      "handsOn": "Estimate extra visits and value from improving five pages, choose where to start and chart the opportunity.",
+      "outcome": "Audit a small website, plan content and report results honestly.",
+      "icon": "search"
+    },
+    {
+      "slug": "performance-marketing-ads",
+      "title": "Performance Marketing & Paid Ads",
+      "cat": "marketing",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "Fresher",
+        "Mid"
+      ],
+      "hours": "~30 hrs",
+      "modules": 6,
+      "weeks": "~6 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Performance Marketer",
+      "prereq": "Digital Marketing Foundations helpful.",
+      "bestFor": "Marketers running Meta/Google Ads for Indian e-commerce.",
+      "brief": "Campaigns, budgets, and ROI tracking.",
+      "learn": [
+        "Paid-media strategy and funnel mapping",
+        "Google Ads — search, display, and shopping campaigns",
+        "Meta Ads — objectives, audiences, and creatives",
+        "Budgeting, bidding, and A/B testing",
+        "Tracking, pixels, and conversion measurement",
+        "ROAS optimisation and scaling campaigns"
+      ],
+      "handsOn": "Plan, launch (or simulate), and optimise a small paid campaign.",
+      "outcome": "Run profitable ad campaigns for clients or your own business.",
+      "icon": "target"
+    },
+    {
+      "slug": "social-media-marketing",
+      "title": "Social Media Marketing & Management",
+      "cat": "marketing",
+      "level": "B→I",
+      "levelLabel": "Beginner to Intermediate",
+      "tags": [
+        "All"
+      ],
+      "hours": "~25 hrs",
+      "modules": 6,
+      "weeks": "~5 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Social Media Manager",
+      "prereq": "None.",
+      "bestFor": "Aspiring social media managers and small-business owners.",
+      "brief": "Content calendars, community, and analytics across platforms.",
+      "learn": [
+        "Platform strategy — Instagram, LinkedIn, YouTube, X, Facebook",
+        "Content pillars and a content calendar",
+        "Copywriting and creative for social",
+        "Community management and engagement",
+        "Scheduling tools and workflows",
+        "Analytics, reporting, and growth tactics"
+      ],
+      "handsOn": "Build a 30-day content calendar and analytics report.",
+      "outcome": "Manage social accounts professionally or freelance.",
+      "icon": "share"
+    },
+    {
+      "slug": "growth-marketing-funnels",
+      "title": "Growth Marketing & Funnels",
+      "cat": "marketing",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "Fresher",
+        "Founder"
+      ],
+      "hours": "~30 hrs",
+      "modules": 6,
+      "weeks": "~6 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Growth Marketer",
+      "prereq": "Digital Marketing Foundations helpful.",
+      "bestFor": "Startup marketers and founders driving user growth.",
+      "brief": "Acquisition, activation, retention, and experimentation.",
+      "learn": [
+        "The AARRR pirate-metrics framework",
+        "Acquisition channels and CAC/LTV",
+        "Activation, onboarding, and aha-moments",
+        "Retention, engagement loops, and referrals",
+        "Experimentation and A/B testing",
+        "Building and analysing conversion funnels"
+      ],
+      "handsOn": "Design a growth experiment plan and funnel for a product.",
+      "outcome": "Drive measurable growth in a startup.",
+      "icon": "trendingUp"
+    },
+    {
+      "slug": "email-marketing-automation",
+      "title": "Email Marketing & Automation",
+      "cat": "marketing",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "Fresher",
+        "Founder"
+      ],
+      "hours": "~20 hrs",
+      "modules": 6,
+      "weeks": "~4 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Email Marketing",
+      "prereq": "None.",
+      "bestFor": "Marketers and founders building owned audiences.",
+      "brief": "Sequences, segmentation, and lifecycle campaigns that convert.",
+      "learn": [
+        "Building and segmenting a permission-based list",
+        "Email copywriting and subject lines",
+        "Automation flows — welcome, cart, and re-engagement",
+        "Deliverability, spam, and compliance",
+        "A/B testing and metrics (open, click, conversion)",
+        "Tools (Mailchimp/Brevo) and integrations"
+      ],
+      "handsOn": "Build an automated welcome-and-nurture sequence.",
+      "outcome": "Run email programs that drive revenue.",
+      "icon": "mail"
+    },
+    {
+      "slug": "content-marketing-copywriting",
+      "title": "Content Marketing & Copywriting",
+      "cat": "marketing",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "All"
+      ],
+      "hours": "~25 hrs",
+      "modules": 6,
+      "weeks": "~5 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Content & Copy",
+      "prereq": "Comfortable writing in English.",
+      "bestFor": "Writers, marketers, and founders who need words that sell.",
+      "brief": "Persuasive writing, blogs, and landing pages.",
+      "learn": [
+        "Audience research and content strategy",
+        "Copywriting frameworks (AIDA, PAS) and headlines",
+        "Blog writing and SEO copy",
+        "Landing-page and sales copy",
+        "Storytelling and brand voice",
+        "Editing, CTAs, and measuring content ROI"
+      ],
+      "handsOn": "Write a blog post, a landing page, and an email that convert.",
+      "outcome": "Offer copywriting/content as a service or in-house skill.",
+      "icon": "pen"
+    },
+    {
+      "slug": "ecommerce-marketplace-selling",
+      "title": "E-commerce & Marketplace Selling",
+      "cat": "marketing",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "Founder",
+        "All"
+      ],
+      "hours": "~30 hrs",
+      "modules": 6,
+      "weeks": "~6 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "E-commerce Seller",
+      "prereq": "None.",
+      "bestFor": "Aspiring online sellers and small-business owners.",
+      "brief": "Listings, ads, and fulfillment to launch an online store.",
+      "learn": [
+        "Choosing products and marketplaces",
+        "Setting up a Shopify store or marketplace seller account",
+        "Listing optimisation — titles, images, and keywords",
+        "Pricing, inventory, and fulfilment (incl. FBA)",
+        "Marketplace ads and promotions",
+        "Reviews, returns, and scaling operations"
+      ],
+      "handsOn": "Launch a mock store with optimised listings and an ad plan.",
+      "outcome": "Start and run an online-selling business.",
+      "icon": "cart"
+    },
+    {
+      "slug": "youtube-creator",
+      "title": "YouTube Creator Masterclass",
+      "cat": "content",
+      "level": "B→I",
+      "levelLabel": "Beginner to Intermediate",
+      "tags": [
+        "All"
+      ],
+      "hours": "~25 hrs",
+      "modules": 6,
+      "weeks": "~5 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "YouTube Creator",
+      "prereq": "A phone/camera and an idea.",
+      "bestFor": "Aspiring creators of any age.",
+      "brief": "Niche, scripting, thumbnails, SEO, and monetization.",
+      "learn": [
+        "Choosing a niche and channel positioning",
+        "Idea research, scripting, and retention hooks",
+        "Filming and editing essentials",
+        "Thumbnails, titles, and YouTube SEO",
+        "The algorithm, analytics, and consistency",
+        "Monetization — ads, sponsorships, and products"
+      ],
+      "handsOn": "Launch a channel and publish 3 optimised videos.",
+      "outcome": "Grow a channel toward monetization.",
+      "icon": "play"
+    },
+    {
+      "slug": "linkedin-personal-branding",
+      "title": "Personal Branding on LinkedIn",
+      "cat": "content",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "All"
+      ],
+      "hours": "~15 hrs",
+      "modules": 6,
+      "weeks": "~3 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Personal Brand",
+      "prereq": "A LinkedIn account.",
+      "bestFor": "Job seekers, freelancers, and professionals building authority.",
+      "brief": "Profile, content, and networking to attract opportunities.",
+      "learn": [
+        "Positioning and a compelling headline/about section",
+        "Optimising every profile section for search",
+        "Content strategy — posts, formats, and cadence",
+        "Writing hooks and engaging professionally",
+        "Networking, outreach, and DMs that work",
+        "Using LinkedIn for jobs, leads, and authority"
+      ],
+      "handsOn": "Rebuild your profile and publish a 2-week content plan.",
+      "outcome": "Attract jobs, clients, and opportunities on LinkedIn.",
+      "icon": "user"
+    },
+    {
+      "slug": "ai-assisted-content-creation",
+      "title": "AI-Assisted Content Creation",
+      "cat": "content",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "All"
+      ],
+      "hours": "~20 hrs",
+      "modules": 6,
+      "weeks": "~4 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "AI Content Creator",
+      "prereq": "AI Literacy helpful.",
+      "bestFor": "Creators and marketers who want to produce faster.",
+      "brief": "Using AI to write, design, and produce without losing authenticity.",
+      "learn": [
+        "AI tools across writing, image, audio, and video",
+        "Prompting for on-brand, original content",
+        "AI-assisted research, outlines, and repurposing",
+        "Image/thumbnail generation and editing",
+        "Keeping a human voice and avoiding AI-detection pitfalls",
+        "Ethics, disclosure, and fact-checking"
+      ],
+      "handsOn": "Produce a week of multi-format content using an AI-assisted workflow.",
+      "outcome": "Create more, faster, while staying authentic.",
+      "icon": "sparkles"
+    },
+    {
+      "slug": "product-management-fundamentals",
+      "title": "Product Management Fundamentals",
+      "cat": "business",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "Fresher",
+        "Mid"
+      ],
+      "hours": "~9.5 hrs",
+      "modules": 6,
+      "weeks": "~4 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Product Foundations",
+      "prereq": "None.",
+      "bestFor": "Aspiring PMs — a high-paying role in startups and MNCs.",
+      "brief": "The PM role, discovery, metrics and experiments, strategy and roadmaps, briefs and launches, and ethical practice.",
+      "learn": [
+        "The product manager's role and outcome thinking",
+        "User interviews, jobs to be done and synthesis",
+        "North Star metrics, funnels, retention and experiments",
+        "Vision, strategy, RICE prioritisation and roadmaps",
+        "Writing briefs and launching responsibly",
+        "Stakeholders, privacy and ethical product decisions"
+      ],
+      "handsOn": "Write a one-page product strategy with users, vision, North Star metric, priorities and a Now-Next-Later roadmap.",
+      "outcome": "Frame problems, prioritise ideas, define metrics and write a clear product brief.",
+      "icon": "layers"
+    },
+    {
+      "slug": "advanced-product-management",
+      "title": "Advanced Product Management for Tech",
+      "cat": "business",
+      "level": "A",
+      "levelLabel": "Advanced",
+      "tags": [
+        "Mid",
+        "Senior"
+      ],
+      "hours": "~35 hrs",
+      "modules": 6,
+      "weeks": "~7 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Senior PM",
+      "prereq": "PM Fundamentals and some experience.",
+      "bestFor": "PMs stepping up to strategy and leadership.",
+      "brief": "Lifecycle strategy, stakeholder alignment, and data-driven decisions.",
+      "learn": [
+        "Product strategy and vision-setting",
+        "Advanced discovery and opportunity-solution trees",
+        "Stakeholder management and influence without authority",
+        "Data-informed decisions and North-Star metrics",
+        "Pricing, GTM, and platform/API products",
+        "Leading teams and product ops"
+      ],
+      "handsOn": "Build a product strategy deck and quarterly OKRs.",
+      "outcome": "Move toward Senior/Lead PM roles.",
+      "icon": "layers"
+    },
+    {
+      "slug": "project-management-pmp",
+      "title": "Project Management (PMP / CAPM / Agile)",
+      "cat": "business",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "Mid"
+      ],
+      "hours": "~9 hrs",
+      "modules": 6,
+      "weeks": "~3 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Project Planner",
+      "prereq": "Some work experience helpful.",
+      "bestFor": "Professionals moving into delivery/leadership across industries.",
+      "brief": "Charters, scope, WBS, estimating, scheduling, risk, communication, earned value and an introduction to agile.",
+      "learn": [
+        "Projects, the life cycle and the charter",
+        "Scope, work breakdown and estimating",
+        "Dependencies, the critical path and RACI",
+        "Risk registers, responses and quality",
+        "Status reports and stakeholder management",
+        "Earned value, closing and agile ideas"
+      ],
+      "handsOn": "Write a one-page plan for a college tech fest with milestones, budget, risks and communication.",
+      "outcome": "Plan, schedule and control a small project with confidence and clear reporting.",
+      "icon": "clipboard"
+    },
+    {
+      "slug": "agile-scrum-jira",
+      "title": "Agile & Scrum with Jira",
+      "cat": "business",
+      "level": "B→I",
+      "levelLabel": "Beginner to Intermediate",
+      "tags": [
+        "Fresher",
+        "Mid"
+      ],
+      "hours": "~9.5 hrs",
+      "modules": 6,
+      "weeks": "~4 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Agile Practitioner",
+      "prereq": "None.",
+      "bestFor": "Anyone joining a modern software/product team.",
+      "brief": "Agile values, Scrum roles and events, user stories and backlogs, estimating, boards, metrics and retrospectives.",
+      "learn": [
+        "Agile values, principles and mindset",
+        "Scrum roles, events and artifacts",
+        "User stories, acceptance criteria and backlog prioritising",
+        "Story points, velocity and forecasting",
+        "Boards, WIP limits, burndown and tracker concepts",
+        "Retrospectives, team health and anti-patterns"
+      ],
+      "handsOn": "Plan a full two-week sprint: goal, selected stories, capacity, Definition of Done and risks.",
+      "outcome": "Join an agile team, plan a sprint and read the metrics that matter.",
+      "icon": "repeat"
+    },
+    {
+      "slug": "business-strategy-consulting",
+      "title": "Business Strategy & Consulting Skills",
+      "cat": "business",
+      "level": "A",
+      "levelLabel": "Advanced",
+      "tags": [
+        "Mid",
+        "Senior"
+      ],
+      "hours": "~35 hrs",
+      "modules": 6,
+      "weeks": "~7 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Strategy & Consulting",
+      "prereq": "Some professional experience.",
+      "bestFor": "Managers, founders, and aspiring consultants.",
+      "brief": "Frameworks, problem-solving, and structured thinking.",
+      "learn": [
+        "Strategy frameworks — SWOT, Porter's Five Forces, BCG",
+        "Structured problem-solving and MECE thinking",
+        "Market sizing and hypothesis-driven analysis",
+        "Financial and competitive analysis",
+        "Building recommendations and executive decks",
+        "Case-interview and stakeholder communication"
+      ],
+      "handsOn": "Solve a business case and present a recommendation deck.",
+      "outcome": "Think strategically; prep for consulting interviews.",
+      "icon": "target"
+    },
+    {
+      "slug": "operations-supply-chain",
+      "title": "Operations & Supply Chain Management",
+      "cat": "business",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "Mid",
+        "Senior"
+      ],
+      "hours": "~9.5 hrs",
+      "modules": 6,
+      "weeks": "~4 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Operations Foundations",
+      "prereq": "None.",
+      "bestFor": "Operations, logistics, and manufacturing professionals.",
+      "brief": "Processes and bottlenecks, inventory and forecasting, quality, sourcing and logistics, improvement proposals and KPIs.",
+      "learn": [
+        "Process mapping, waste and bottlenecks",
+        "ABC analysis, EOQ, forecasts and reorder points",
+        "Defect rates, Pareto charts, control limits and PDCA",
+        "Total-cost supplier comparison and logistics",
+        "Improvement proposals, safety and sustainability",
+        "KPIs and spreadsheet habits for operations"
+      ],
+      "handsOn": "Write an operations review of a bakery with findings, recommendations, expected results and measures.",
+      "outcome": "Analyse a process, manage stock and suppliers and propose improvements backed by numbers.",
+      "icon": "truck"
+    },
+    {
+      "slug": "hr-people-analytics",
+      "title": "Human Resources & People Analytics",
+      "cat": "business",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "Fresher",
+        "Mid"
+      ],
+      "hours": "~30 hrs",
+      "modules": 6,
+      "weeks": "~6 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "HR & People Analytics",
+      "prereq": "None.",
+      "bestFor": "Aspiring and current HR professionals.",
+      "brief": "Hiring, performance, and HR metrics for people-first organisations.",
+      "learn": [
+        "The HR function and employee lifecycle",
+        "Talent acquisition and structured interviewing",
+        "Onboarding, performance management, and feedback",
+        "Compensation, benefits, and engagement",
+        "Labour-law and compliance basics (India context)",
+        "People analytics — attrition, hiring, and HR dashboards"
+      ],
+      "handsOn": "Build a hiring scorecard and an HR analytics dashboard.",
+      "outcome": "Target HR generalist/analytics roles.",
+      "icon": "users"
+    },
+    {
+      "slug": "sales-business-development",
+      "title": "Sales & Business Development",
+      "cat": "business",
+      "level": "B→I",
+      "levelLabel": "Beginner to Intermediate",
+      "tags": [
+        "All"
+      ],
+      "hours": "~25 hrs",
+      "modules": 6,
+      "weeks": "~5 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Sales Professional",
+      "prereq": "None.",
+      "bestFor": "Sales/BD staff, founders, and freelancers who sell.",
+      "brief": "Prospecting, pitching, negotiation, and closing.",
+      "learn": [
+        "The sales process and pipeline stages",
+        "Prospecting, lead qualification (BANT), and outreach",
+        "Discovery calls and needs analysis",
+        "Pitching, objection handling, and negotiation",
+        "Closing techniques and follow-up",
+        "CRM usage and sales metrics"
+      ],
+      "handsOn": "Build a pipeline and run a mock end-to-end sales cycle.",
+      "outcome": "Sell with confidence; target sales/BD roles.",
+      "icon": "trendingUp"
+    },
+    {
+      "slug": "customer-success-support",
+      "title": "Customer Success & Support Excellence",
+      "cat": "business",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "Fresher"
+      ],
+      "hours": "~9.5 hrs",
+      "modules": 6,
+      "weeks": "~4 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Customer Success Foundations",
+      "prereq": "None.",
+      "bestFor": "Freshers entering CS/support in SaaS and services.",
+      "brief": "The customer journey, support communication, tickets and SLAs, churn and health, feedback and ethics.",
+      "learn": [
+        "Retention, lifetime value and the customer journey",
+        "Empathy, clear writing and de-escalation",
+        "Tickets, priorities and SLA percentages",
+        "Churn, retention, health scores and onboarding",
+        "NPS, CSAT, feedback themes and closing the loop",
+        "Privacy, escalation and teamwork"
+      ],
+      "handsOn": "Write a one-page customer success plan with goals, onboarding, support standards, health monitoring, feedback and measures.",
+      "outcome": "Handle support well, measure service and plan how to keep customers.",
+      "icon": "heart"
+    },
+    {
+      "slug": "digital-transformation-leaders",
+      "title": "Digital Transformation & AI Strategy for Leaders",
+      "cat": "business",
+      "level": "A",
+      "levelLabel": "Advanced",
+      "tags": [
+        "Senior"
+      ],
+      "hours": "~25 hrs",
+      "modules": 6,
+      "weeks": "~5 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Digital Transformation",
+      "prereq": "Leadership/management experience.",
+      "bestFor": "Senior leaders driving enterprise change.",
+      "brief": "Enterprise AI adoption, technology ROI, and navigating regulation.",
+      "learn": [
+        "Digital transformation drivers and maturity models",
+        "Aligning technology with business strategy",
+        "AI/automation opportunity assessment at scale",
+        "Data strategy, platforms, and governance",
+        "Change management and workforce transformation",
+        "Measuring ROI and managing risk/compliance"
+      ],
+      "handsOn": "Create a transformation roadmap with business case and governance plan.",
+      "outcome": "Lead transformation initiatives at the top.",
+      "icon": "zap"
+    },
+    {
+      "slug": "financial-literacy-investing",
+      "title": "Financial Literacy & Personal Investing",
+      "cat": "finance",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "All"
+      ],
+      "hours": "~7.5 hrs",
+      "modules": 6,
+      "weeks": "~3 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Money Skills",
+      "prereq": "None.",
+      "bestFor": "Every age group — students to retirees.",
+      "brief": "Budget, save and compound, borrow wisely, understand inflation, learn investing basics and build a simple plan.",
+      "learn": [
+        "Budgets, needs and wants, and banking basics",
+        "Emergency funds, compound interest and the rule of 72",
+        "Loans, EMIs, credit scores and debt traps",
+        "Inflation and real returns",
+        "Risk, return, diversification and regular investing",
+        "Insurance, tax basics, scam spotting and a financial plan"
+      ],
+      "handsOn": "Build a first financial plan in a spreadsheet: budget, goal, loan test and a five-year projection.",
+      "outcome": "Manage everyday money confidently and make informed, cautious decisions.",
+      "icon": "rupee"
+    },
+    {
+      "slug": "basic-accounting-bookkeeping",
+      "title": "Basic Accounting & Bookkeeping",
+      "cat": "finance",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "All"
+      ],
+      "hours": "~8 hrs",
+      "modules": 6,
+      "weeks": "~3 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Bookkeeping Foundations",
+      "prereq": "None.",
+      "bestFor": "Small-business owners, freelancers, and commerce students.",
+      "brief": "The accounting equation, double entry, ledger, trial balance, cash and bank, adjustments and final accounts.",
+      "learn": [
+        "Assets, liabilities, capital, income and expenses",
+        "Debits, credits and journal entries",
+        "Ledger accounts and the trial balance",
+        "Cash book, petty cash and bank reconciliation",
+        "Accruals, prepayments and depreciation",
+        "Income statement and balance sheet"
+      ],
+      "handsOn": "Prepare an income statement and a balanced balance sheet from a business's year-end figures.",
+      "outcome": "Keep a small business's books and understand its accounts.",
+      "icon": "book"
+    },
+    {
+      "slug": "tally-gst-compliance",
+      "title": "Tally & GST Compliance",
+      "cat": "finance",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "Fresher",
+        "Founder"
+      ],
+      "hours": "~35 hrs",
+      "modules": 6,
+      "weeks": "~7 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Tally & GST",
+      "prereq": "Basic accounting helpful.",
+      "bestFor": "Commerce students and small-business owners — a strong job skill.",
+      "brief": "Practical Tally, invoicing, and GST filing.",
+      "learn": [
+        "Tally setup — company, ledgers, and groups",
+        "Recording vouchers — sales, purchase, payment, receipt",
+        "Inventory and stock management",
+        "GST — concepts, rates, and configuration in Tally",
+        "GST invoices, input credit, and returns (GSTR)",
+        "Reports — P&L, balance sheet, and GST summaries"
+      ],
+      "handsOn": "Maintain accounts and generate a GST return in Tally.",
+      "outcome": "Target accounts-executive roles or manage your own compliance.",
+      "icon": "calculator"
+    },
+    {
+      "slug": "executive-financial-management",
+      "title": "Executive Financial Management",
+      "cat": "finance",
+      "level": "A",
+      "levelLabel": "Advanced",
+      "tags": [
+        "Senior"
+      ],
+      "hours": "~30 hrs",
+      "modules": 6,
+      "weeks": "~6 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Executive Finance",
+      "prereq": "Finance basics.",
+      "bestFor": "Senior managers and founders owning P&L decisions.",
+      "brief": "Resource allocation, P&L optimization, risk, and funding.",
+      "learn": [
+        "Reading and analysing financial statements",
+        "Budgeting, forecasting, and P&L ownership",
+        "Unit economics, margins, and cost control",
+        "Capital allocation and investment appraisal (NPV/IRR)",
+        "Risk management and cash-flow strategy",
+        "Funding — equity, debt, and startup ecosystems"
+      ],
+      "handsOn": "Build a budget, forecast, and capital-allocation recommendation.",
+      "outcome": "Make confident financial decisions as a leader. Educational only — not financial advice.",
+      "icon": "chartLine"
+    },
+    {
+      "slug": "crypto-blockchain-basics",
+      "title": "Cryptocurrency & Blockchain Basics",
+      "cat": "finance",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "All"
+      ],
+      "hours": "~15 hrs",
+      "modules": 6,
+      "weeks": "~3 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Blockchain Basics",
+      "prereq": "None.",
+      "bestFor": "Curious learners wanting a safe, neutral introduction.",
+      "brief": "Wallets, exchanges, and how blockchain works.",
+      "learn": [
+        "What blockchain is and how it works",
+        "Bitcoin, Ethereum, and how transactions/mining work",
+        "Wallets, keys, and exchanges",
+        "Security, scams, and safe practices",
+        "Use cases beyond currency (smart contracts, NFTs, DeFi)",
+        "Regulation and risks (India context)"
+      ],
+      "handsOn": "Set up a test wallet and trace a transaction on a block explorer.",
+      "outcome": "Understand crypto safely — without hype or advice.",
+      "icon": "link"
+    },
+    {
+      "slug": "entrepreneurship-startup",
+      "title": "Entrepreneurship & Startup Building",
+      "cat": "entrepreneurship",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "College",
+        "Founder"
+      ],
+      "hours": "~9.5 hrs",
+      "modules": 6,
+      "weeks": "~4 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Founder Foundations",
+      "prereq": "None — just an idea or the ambition to build one.",
+      "bestFor": "Student entrepreneurs and first-time founders.",
+      "brief": "Problems, customer validation, business models, unit economics and cash, marketing and sales, funding and pitching.",
+      "learn": [
+        "Finding and describing real problems",
+        "Customer interviews, assumptions and cheap tests",
+        "Lean canvas, revenue models and pricing",
+        "Break-even, contribution and cash flow",
+        "CAC, LTV and winning the first customers",
+        "Funding options, legal checks and the pitch"
+      ],
+      "handsOn": "Write a one-page business plan with a break-even calculation and a 90-day action plan.",
+      "outcome": "Validate an idea, model its numbers and pitch it clearly.",
+      "icon": "rocket"
+    },
+    {
+      "slug": "freelancing-gig-economy",
+      "title": "Freelancing & Gig Economy Mastery",
+      "cat": "entrepreneurship",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "All"
+      ],
+      "hours": "~20 hrs",
+      "modules": 6,
+      "weeks": "~4 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Freelancer",
+      "prereq": "A marketable skill (design, writing, coding, etc.).",
+      "bestFor": "Anyone wanting independent income.",
+      "brief": "Personal brand, client acquisition, pricing, and platforms.",
+      "learn": [
+        "Choosing a service and niche",
+        "Building a portfolio and profiles that win clients",
+        "Finding clients on Upwork, Fiverr, and LinkedIn",
+        "Proposals, pricing, and contracts",
+        "Client communication and delivery",
+        "Invoicing, payments, and managing finances"
+      ],
+      "handsOn": "Set up profiles and send winning proposals for real gigs.",
+      "outcome": "Start earning as a freelancer.",
+      "icon": "briefcase"
+    },
+    {
+      "slug": "no-code-app-development",
+      "title": "No-Code / Low-Code App Development",
+      "cat": "entrepreneurship",
+      "level": "B→I",
+      "levelLabel": "Beginner to Intermediate",
+      "tags": [
+        "Founder",
+        "All"
+      ],
+      "hours": "~30 hrs",
+      "modules": 6,
+      "weeks": "~6 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "No-Code Builder",
+      "prereq": "None — no coding required.",
+      "bestFor": "Non-technical founders and creators.",
+      "brief": "Build websites and apps with Bubble, Webflow, and Glide.",
+      "learn": [
+        "The no-code landscape and choosing tools",
+        "Building websites in Webflow",
+        "Building web apps in Bubble (data, workflows, logic)",
+        "Building mobile apps in Glide from a spreadsheet",
+        "Databases, automations (Zapier/Make), and integrations",
+        "Publishing, domains, and going live"
+      ],
+      "handsOn": "Build and publish a working no-code app or site.",
+      "outcome": "Launch products without hiring engineers.",
+      "icon": "blocks"
+    },
+    {
+      "slug": "public-speaking-leadership",
+      "title": "Public Speaking & Leadership Communication",
+      "cat": "entrepreneurship",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "All"
+      ],
+      "hours": "~20 hrs",
+      "modules": 6,
+      "weeks": "~4 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Public Speaking",
+      "prereq": "None.",
+      "bestFor": "Managers, team leads, entrepreneurs, and students.",
+      "brief": "Storytelling, negotiation, and executive presence.",
+      "learn": [
+        "Overcoming stage fear and building confidence",
+        "Structuring a talk and storytelling",
+        "Voice, body language, and delivery",
+        "Persuasion and influence techniques",
+        "Handling Q&A, panels, and difficult questions",
+        "Executive presence and leadership communication"
+      ],
+      "handsOn": "Deliver and record a persuasive talk with structured feedback.",
+      "outcome": "Speak and lead with impact.",
+      "icon": "mic"
+    },
+    {
+      "slug": "spoken-english",
+      "title": "Spoken English & Accent Neutralization",
+      "cat": "communication",
+      "level": "B→I",
+      "levelLabel": "Beginner to Intermediate",
+      "tags": [
+        "All"
+      ],
+      "hours": "~40 hrs",
+      "modules": 8,
+      "weeks": "~10 weeks",
+      "pace": "4 hrs/wk",
+      "badge": "Spoken English",
+      "prereq": "Basic English reading.",
+      "bestFor": "Customer-facing, BPO, teaching, and global-communication roles.",
+      "brief": "Fluency and clarity for the workplace.",
+      "learn": [
+        "Everyday and workplace vocabulary",
+        "Grammar for speaking (without over-thinking rules)",
+        "Pronunciation, stress, and intonation",
+        "Neutralising MTI (mother-tongue influence)",
+        "Conversation, small talk, and phone/video calls",
+        "Fluency practice and confidence building"
+      ],
+      "handsOn": "Record before/after speaking samples and role-play work scenarios.",
+      "outcome": "Speak English confidently at work.",
+      "icon": "message"
+    },
+    {
+      "slug": "business-communication",
+      "title": "Business Communication & Email Etiquette",
+      "cat": "communication",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "College",
+        "Fresher"
+      ],
+      "hours": "~8 hrs",
+      "modules": 6,
+      "weeks": "~3 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Business Communicator",
+      "prereq": "Basic English.",
+      "bestFor": "Students and freshers entering corporate roles.",
+      "brief": "Channels, emails, memos, meetings, feedback and working across cultures and distance.",
+      "learn": [
+        "The communication loop and audience analysis",
+        "Clear emails: subject, structure, plain language and tone",
+        "Memos, executive summaries and data in writing",
+        "Agendas, minutes and costing a meeting",
+        "Assertiveness, SBI feedback and active listening",
+        "International English and remote team agreements"
+      ],
+      "handsOn": "Write a project update: summary, options, recommendation and actions.",
+      "outcome": "Communicate clearly in writing, in meetings and in difficult conversations.",
+      "icon": "mail"
+    },
+    {
+      "slug": "corporate-readiness-interview",
+      "title": "Corporate Readiness & Interview Preparation",
+      "cat": "communication",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "College",
+        "Fresher"
+      ],
+      "hours": "~9 hrs",
+      "modules": 6,
+      "weeks": "~3 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Career Ready",
+      "prereq": "None.",
+      "bestFor": "Final-year students and freshers job-hunting.",
+      "brief": "Career clarity, CV and profile, cover letters and networking, interviews, offers and your first 90 days.",
+      "learn": [
+        "Skills, strengths and evidence",
+        "An achievement-based one-page CV",
+        "Cover letters and honest networking",
+        "STAR answers and common interview questions",
+        "Assessments, comparing offers and negotiating",
+        "A 30-60-90 day plan and professional conduct"
+      ],
+      "handsOn": "Build a one-page interview pack with a pitch, three stories and smart questions.",
+      "outcome": "Apply, interview and start a job with confidence and professionalism.",
+      "icon": "briefcase"
+    },
+    {
+      "slug": "time-management-productivity",
+      "title": "Time Management & Productivity",
+      "cat": "communication",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "All"
+      ],
+      "hours": "~8.5 hrs",
+      "modules": 6,
+      "weeks": "~3 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Productivity Planner",
+      "prereq": "None.",
+      "bestFor": "Students and professionals who feel overwhelmed.",
+      "brief": "Time audits, priorities, weekly planning, focus, habits, goals and sustainable productivity.",
+      "learn": [
+        "Auditing and understanding your time",
+        "Urgent versus important and time traps",
+        "Weekly planning, blocking and saying no",
+        "Focus, attention and habit building",
+        "SMART goals and reviews",
+        "Avoiding burnout and designing your own system"
+      ],
+      "handsOn": "Design a one-page personal productivity system with capture, plan, focus, review and rest.",
+      "outcome": "Plan your time, protect your focus and review your progress with a simple system.",
+      "icon": "clock"
+    },
+    {
+      "slug": "critical-thinking-problem-solving",
+      "title": "Critical Thinking & Problem Solving",
+      "cat": "communication",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "All"
+      ],
+      "hours": "~8.5 hrs",
+      "modules": 6,
+      "weeks": "~3 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Critical Thinker",
+      "prereq": "None.",
+      "bestFor": "Students and professionals in any field.",
+      "brief": "Facts and assumptions, arguments and evidence, fallacies and biases, decisions, root causes and creative problem solving.",
+      "learn": [
+        "Fact, opinion and assumption",
+        "Arguments, evidence and common fallacies",
+        "Weighted decision matrices and cognitive biases",
+        "Problem statements, five whys and Pareto analysis",
+        "Creative techniques and systems thinking",
+        "Evaluating news and writing reasoned recommendations"
+      ],
+      "handsOn": "Analyse a case: define the problem, find causes, weigh options and recommend a tested solution.",
+      "outcome": "Evaluate claims, decide with structure and solve problems systematically.",
+      "icon": "bulb"
+    },
+    {
+      "slug": "german-a1-b2",
+      "title": "German (A1–B2)",
+      "cat": "languages",
+      "level": "B→I",
+      "levelLabel": "Beginner to Intermediate",
+      "tags": [
+        "School",
+        "College"
+      ],
+      "hours": "~200 hrs (4 levels)",
+      "modules": 24,
+      "weeks": "~40 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "German A1/A2/B1/B2",
+      "prereq": "None; each level unlocks the next.",
+      "bestFor": "Grade 11–12 students aiming for German public universities (pairs with TestAS); automotive/IT-services careers.",
+      "brief": "Conversational to exam-ready German across four CEFR levels.",
+      "learn": [
+        "A1 — alphabet, greetings, numbers, present tense, everyday phrases",
+        "A2 — past tense, daily routines, travel, and shopping",
+        "B1 — opinions, work topics, and connected speech",
+        "B2 — complex grammar, academic/professional vocabulary",
+        "Listening, speaking, reading, and writing practice",
+        "Goethe/TestDaF exam strategy and cultural context"
+      ],
+      "handsOn": "Hold a graded conversation and pass level checkpoints (A1 to B2).",
+      "outcome": "Study or work in German-speaking environments. Earn a badge per CEFR level.",
+      "icon": "globe"
+    },
+    {
+      "slug": "french-spanish-global",
+      "title": "French / Spanish for Global Careers",
+      "cat": "languages",
+      "level": "B→I",
+      "levelLabel": "Beginner to Intermediate",
+      "tags": [
+        "All"
+      ],
+      "hours": "~60 hrs (to A2)",
+      "modules": 6,
+      "weeks": "~12 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Language (per level)",
+      "prereq": "None.",
+      "bestFor": "Anyone opening tourism, hospitality, and MNC opportunities.",
+      "brief": "Everyday and workplace fluency.",
+      "learn": [
+        "Pronunciation, greetings, and essential phrases",
+        "Core grammar and present/past tenses",
+        "Everyday vocabulary — travel, food, work",
+        "Conversation and listening practice",
+        "Workplace and hospitality communication",
+        "Culture and exam readiness (DELF/DELE basics)"
+      ],
+      "handsOn": "Complete a graded conversation at A2 level.",
+      "outcome": "Communicate for travel and global work.",
+      "icon": "globe"
+    },
+    {
+      "slug": "vedic-mathematics",
+      "title": "Vedic Mathematics & Speed Calculation",
+      "cat": "academics",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "School",
+        "All"
+      ],
+      "hours": "~20 hrs",
+      "modules": 6,
+      "weeks": "~4 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "Speed Math",
+      "prereq": "Basic arithmetic.",
+      "bestFor": "School students, competitive-exam aspirants, and professionals.",
+      "brief": "Mental-math shortcuts that sharpen speed for exams and daily life.",
+      "learn": [
+        "The 16 Vedic sutras and their logic",
+        "Fast multiplication and division techniques",
+        "Squares, cubes, and square roots mentally",
+        "Fast addition/subtraction and digit sums",
+        "Fractions, percentages, and shortcuts",
+        "Applying tricks to competitive-exam problems"
+      ],
+      "handsOn": "Complete timed speed-math challenges with rising accuracy.",
+      "outcome": "Calculate faster in exams and daily life.",
+      "icon": "calculator"
+    },
+    {
+      "slug": "ielts-toefl-prep",
+      "title": "IELTS / TOEFL Preparation",
+      "cat": "academics",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "School",
+        "College"
+      ],
+      "hours": "~40 hrs",
+      "modules": 6,
+      "weeks": "~8 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "IELTS/TOEFL Ready",
+      "prereq": "Intermediate English.",
+      "bestFor": "Students preparing to study abroad.",
+      "brief": "Reading, writing, listening, and speaking strategies.",
+      "learn": [
+        "Test format, scoring, and band descriptors",
+        "Listening strategies and question types",
+        "Reading — skimming, scanning, and time management",
+        "Writing — Task 1 and Task 2 structures and templates",
+        "Speaking — fluency, coherence, and common topics",
+        "Full-length mock tests and score analysis"
+      ],
+      "handsOn": "Complete graded mock tests with band feedback.",
+      "outcome": "Target your required IELTS/TOEFL band.",
+      "icon": "book"
+    },
+    {
+      "slug": "sat-preparation",
+      "title": "SAT Preparation",
+      "cat": "academics",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "School"
+      ],
+      "hours": "~50 hrs",
+      "modules": 6,
+      "weeks": "~10 weeks",
+      "pace": "5 hrs/wk",
+      "badge": "SAT Ready",
+      "prereq": "Grade 10 maths and intermediate English.",
+      "bestFor": "Students applying to US and international universities.",
+      "brief": "Maths and evidence-based reading/writing for the Digital SAT.",
+      "learn": [
+        "Digital SAT format, timing, and scoring",
+        "Reading & Writing — evidence, grammar, and rhetoric",
+        "Maths — algebra, problem-solving, advanced math",
+        "Calculator strategy and pacing",
+        "Test-taking techniques and error analysis",
+        "Full-length adaptive mock tests"
+      ],
+      "handsOn": "Complete practice sections and full mocks with score tracking.",
+      "outcome": "Sit the SAT with a target score.",
+      "icon": "cap"
+    },
+    {
+      "slug": "coding-for-kids",
+      "title": "Coding for Kids & Teens",
+      "cat": "academics",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "School"
+      ],
+      "hours": "~25 hrs",
+      "modules": 6,
+      "weeks": "~8 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Young Coder",
+      "prereq": "None; suitable ages ~8–15.",
+      "bestFor": "School students starting their STEM journey.",
+      "brief": "Block-based to Python, logic, and small games.",
+      "learn": [
+        "Computational thinking and problem-solving",
+        "Block coding with Scratch — sequences, loops, events",
+        "Building simple games and animations",
+        "Introduction to Python — variables and logic",
+        "Debugging and creativity projects",
+        "Internet safety and digital citizenship"
+      ],
+      "handsOn": "Build a playable game and share it.",
+      "outcome": "Ready for Programming Foundations with Python.",
+      "icon": "code"
+    },
+    {
+      "slug": "yoga-nutrition-health",
+      "title": "Yoga, Nutrition & Preventive Health",
+      "cat": "wellness",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "All"
+      ],
+      "hours": "~15 hrs + 21-day practice",
+      "modules": 6,
+      "weeks": "~4 weeks",
+      "pace": "4 hrs/wk",
+      "badge": "Wellness",
+      "prereq": "None; no equipment needed.",
+      "bestFor": "Whole families and anyone building healthier habits.",
+      "brief": "Diet planning, lifestyle-disease prevention, and daily practice.",
+      "learn": [
+        "Foundational yoga asanas and breathing (pranayama)",
+        "Building a safe daily practice",
+        "Nutrition basics and balanced Indian diets",
+        "Lifestyle-disease prevention (diabetes, BP, obesity)",
+        "Sleep, stress, and daily routines",
+        "Meal planning and healthy habits"
+      ],
+      "handsOn": "Follow a 21-day guided routine and build a personal wellness plan.",
+      "outcome": "Sustain a healthier daily lifestyle.",
+      "icon": "leaf"
+    },
+    {
+      "slug": "mental-health-mindfulness",
+      "title": "Mental Health & Mindfulness",
+      "cat": "wellness",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "All"
+      ],
+      "hours": "~12 hrs + guided practice",
+      "modules": 6,
+      "weeks": "~4 weeks",
+      "pace": "4 hrs/wk",
+      "badge": "Mindfulness",
+      "prereq": "None. Educational and supportive — not a substitute for professional care.",
+      "bestFor": "Anyone managing stress, sleep, or emotional balance.",
+      "brief": "Stress, sleep, and resilience with practical, non-clinical techniques.",
+      "learn": [
+        "Understanding stress, anxiety, and emotions",
+        "Mindfulness and meditation basics",
+        "Breathing and grounding techniques",
+        "Building resilience and healthy habits",
+        "Sleep hygiene and screen balance",
+        "When and how to seek professional help"
+      ],
+      "handsOn": "Keep a mindfulness journal and complete a guided practice streak.",
+      "outcome": "Manage stress with practical daily tools.",
+      "icon": "heart"
+    },
+    {
+      "slug": "cyber-hygiene-families",
+      "title": "Cyber Hygiene & Digital Safety for Families",
+      "cat": "lifeskills",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "All"
+      ],
+      "hours": "~10 hrs",
+      "modules": 6,
+      "weeks": "~2–3 weeks",
+      "pace": "4 hrs/wk",
+      "badge": "Digital Safety",
+      "prereq": "None.",
+      "bestFor": "Students, parents, and seniors.",
+      "brief": "Password management, scam awareness, UPI-fraud prevention, and parental controls.",
+      "learn": [
+        "Strong passwords and password managers",
+        "Recognising phishing, scams, and fake messages",
+        "UPI and online-banking fraud prevention",
+        "Safe social media and privacy settings",
+        "Parental controls and kids' online safety",
+        "Responding to a hack or fraud"
+      ],
+      "handsOn": "Complete a family digital-safety checklist and set up protections.",
+      "outcome": "Keep your family safe online.",
+      "icon": "shield"
+    },
+    {
+      "slug": "everyday-financial-digital-life",
+      "title": "Everyday Financial & Digital Life Skills",
+      "cat": "lifeskills",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "All"
+      ],
+      "hours": "~12 hrs",
+      "modules": 6,
+      "weeks": "~3 weeks",
+      "pace": "4 hrs/wk",
+      "badge": "Life Skills",
+      "prereq": "None.",
+      "bestFor": "Young adults, homemakers, and seniors.",
+      "brief": "Online banking safety, bill payments, insurance basics, and smart consumer habits.",
+      "learn": [
+        "Online and mobile banking safely",
+        "Paying bills and managing subscriptions",
+        "Insurance basics — health, life, and vehicle",
+        "Smart shopping and avoiding online scams",
+        "Reading contracts, EMIs, and interest",
+        "Government services and digital documents"
+      ],
+      "handsOn": "Set up safe digital-banking habits and a simple household finance system.",
+      "outcome": "Handle everyday money and digital life confidently.",
+      "icon": "wallet"
+    },
+    {
+      "slug": "intro-blockchain-web3",
+      "title": "Introduction to Blockchain & Web3",
+      "cat": "blockchain",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "All"
+      ],
+      "hours": "~8 hrs",
+      "modules": 6,
+      "weeks": "~3 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Blockchain Foundations",
+      "prereq": "None — designed for complete beginners.",
+      "bestFor": "Anyone new to blockchain — students, professionals, and curious beginners.",
+      "brief": "Why blockchains exist, hashing and consensus, Bitcoin and Ethereum, Web3 in practice, use cases and limits, and staying safe.",
+      "learn": [
+        "The trust problem, ledgers and double spending",
+        "Hashing, keys, signatures and consensus",
+        "Bitcoin, Ethereum, smart contracts and layers",
+        "Wallets, tokens, NFTs and transaction fees",
+        "Judging use cases, limits and red flags",
+        "Wallet safety, rules and next steps"
+      ],
+      "handsOn": "Write a one-page blockchain use-case brief that tests whether a blockchain is justified and names the risks.",
+      "outcome": "Explain how blockchains work, judge whether a project needs one and protect yourself from common scams.",
+      "icon": "blocks"
+    },
+    {
+      "slug": "blockchain-blocks-hashing-consensus",
+      "title": "Blockchain Fundamentals: Blocks, Hashing & Consensus",
+      "cat": "blockchain",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "College",
+        "Fresher"
+      ],
+      "hours": "~9 hrs",
+      "modules": 6,
+      "weeks": "~3 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Blockchain Core",
+      "prereq": "Introduction to Blockchain & Web3 (or basic blockchain awareness).",
+      "bestFor": "Beginners who want the technical foundations behind blockchain.",
+      "brief": "Blocks and transactions, hashing and Merkle trees, proof of work, proof of stake and BFT, forks and finality, and designing trust.",
+      "learn": [
+        "Block headers, UTXOs, accounts and the transaction life cycle",
+        "Hash properties and Merkle proofs",
+        "Proof of work: difficulty, mining maths and 51% attacks",
+        "Proof of stake, slashing and BFT voting",
+        "Forks, reorganisations and how long to wait",
+        "Choosing and writing consensus rules"
+      ],
+      "handsOn": "Write a consensus rulebook for a five-hospital consortium chain with quorum, finality, fault and upgrade rules.",
+      "outcome": "Explain, compare and critique how blockchains agree on one shared history.",
+      "icon": "box"
+    },
+    {
+      "slug": "cryptocurrency-digital-assets-fundamentals",
+      "title": "Cryptocurrency & Digital Assets Fundamentals",
+      "cat": "blockchain",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "All"
+      ],
+      "hours": "~8 hrs",
+      "modules": 6,
+      "weeks": "~3 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Crypto Literate",
+      "prereq": "None; basic blockchain awareness helps.",
+      "bestFor": "Beginners wanting a safe, practical grounding in crypto and digital assets.",
+      "brief": "Money and crypto, types of digital assets, wallets and exchanges, markets and risk, tokenomics and due diligence, and rules, tax and safety.",
+      "learn": [
+        "What money is for, and where crypto fits",
+        "Coins, tokens, stablecoins, CBDCs and NFTs",
+        "Custody, exchanges, orders and real trading costs",
+        "Returns, volatility, DCA and behavioural traps",
+        "Supply, vesting, market cap, FDV and red flags",
+        "Regulation, tax records and a personal plan"
+      ],
+      "handsOn": "Write a due-diligence report on a fictional stablecoin covering its peg, reserves, fees, risks and rules.",
+      "outcome": "Judge a crypto asset's risks and costs and keep your own limits and records.",
+      "icon": "wallet"
+    },
+    {
+      "slug": "blockchain-architecture-networks",
+      "title": "Blockchain Architecture & Networks",
+      "cat": "blockchain",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "Fresher",
+        "Mid"
+      ],
+      "hours": "~11 hrs",
+      "modules": 6,
+      "weeks": "~4 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Blockchain Architect",
+      "prereq": "Blockchain Fundamentals (blocks, hashing, consensus).",
+      "bestFor": "Developers and architects going deeper into how networks run.",
+      "brief": "Peer-to-peer networks, state and storage, scaling, bridges and oracles, dApp layers and design decisions.",
+      "learn": [
+        "Node types, gossip and client diversity",
+        "State, storage growth and what belongs on-chain",
+        "Throughput, rollups, channels and sharding",
+        "Bridges, oracles and their trust assumptions",
+        "The layers and failure modes of a dApp",
+        "Choosing networks and platforms and writing ADRs"
+      ],
+      "handsOn": "Write an architecture proposal for a national degree-certificate network covering network type, data placement, scaling, security and operations.",
+      "outcome": "Design and critique blockchain-based systems and explain every trade-off.",
+      "icon": "network"
+    },
+    {
+      "slug": "ethereum-smart-contracts",
+      "title": "Ethereum & Smart Contracts",
+      "cat": "blockchain",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "College",
+        "Fresher"
+      ],
+      "hours": "~11 hrs",
+      "modules": 6,
+      "weeks": "~4 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Ethereum Practitioner",
+      "prereq": "Blockchain fundamentals; basic programming helpful.",
+      "bestFor": "Aspiring Web3 developers starting with Ethereum.",
+      "brief": "The Ethereum account model, the EVM and gas, reading and writing small Solidity contracts, calls and transactions, patterns and pitfalls, testing and deployment.",
+      "learn": [
+        "Accounts, transactions, blocks and units",
+        "The EVM, gas and the EIP-1559 fee market",
+        "Reading and writing small Solidity contracts",
+        "Calls, transactions, the ABI and payable functions",
+        "Access control, reentrancy and the limits of contracts",
+        "Testing, test networks, verification and a launch checklist"
+      ],
+      "handsOn": "Write a specification and test plan for an improved TipJar contract, including access control, events, tests and risks.",
+      "outcome": "Read small smart contracts, explain what they cost and what can go wrong, and plan a safe deployment.",
+      "icon": "code"
+    },
+    {
+      "slug": "solidity-programming-beginners",
+      "title": "Solidity Programming for Beginners",
+      "cat": "blockchain",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "College",
+        "Fresher"
+      ],
+      "hours": "~14 hrs",
+      "modules": 6,
+      "weeks": "~5 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Solidity Beginner",
+      "prereq": "Ethereum & Smart Contracts; basic programming logic.",
+      "bestFor": "Developers learning to write smart contracts.",
+      "brief": "Types and structure, functions and modifiers, mappings and structs, handling ETH, inheritance and OpenZeppelin, and a complete crowdfunding project.",
+      "learn": [
+        "Contract structure, types and global variables",
+        "Control flow, functions, modifiers and errors",
+        "Mappings, arrays, structs, enums and data locations",
+        "Receiving and sending ETH safely, events and custom errors",
+        "Inheritance, interfaces and audited libraries",
+        "A complete Crowdfund contract with tests and a code review"
+      ],
+      "handsOn": "Design an Escrow contract on paper: state, functions, events, security review and a test plan.",
+      "outcome": "Read and write small Solidity contracts with safe patterns and review code for common bugs.",
+      "icon": "braces"
+    },
+    {
+      "slug": "build-first-blockchain-dapp",
+      "title": "Build Your First Blockchain DApp",
+      "cat": "blockchain",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "Fresher"
+      ],
+      "hours": "~15 hrs",
+      "modules": 6,
+      "weeks": "~5 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "DApp Builder",
+      "prereq": "Solidity Programming for Beginners.",
+      "bestFor": "Developers ready to ship their first full dApp.",
+      "brief": "Plan, write, test, deploy and ship an on-chain guestbook with Hardhat, ethers and a plain JavaScript front end.",
+      "learn": [
+        "Scoping a small dApp and choosing tools",
+        "Writing and testing a bounded Solidity contract",
+        "Deploying with Hardhat, managing secrets and verifying source",
+        "Connecting a wallet and reading and writing with ethers",
+        "Transaction states, live events and accessibility",
+        "Hosting, XSS, phishing risks and a launch plan"
+      ],
+      "handsOn": "Plan your own small dApp as a complete README with architecture, contract functions, tests, deployment and limits.",
+      "outcome": "Plan, build and ship a small dApp on a test network and explain every layer.",
+      "icon": "blocks"
+    },
+    {
+      "slug": "advanced-solidity-development",
+      "title": "Advanced Solidity & Smart Contract Development",
+      "cat": "blockchain",
+      "level": "A",
+      "levelLabel": "Advanced",
+      "tags": [
+        "Mid"
+      ],
+      "hours": "~16 hrs",
+      "modules": 6,
+      "weeks": "~6 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Advanced Solidity",
+      "prereq": "Solidity Programming; some dApp experience.",
+      "bestFor": "Developers building complex, production-grade contracts.",
+      "brief": "Storage and gas, design patterns, delegatecall and proxies, signatures and EIP-712, advanced testing and production practice.",
+      "learn": [
+        "Storage layout, packing and measured gas optimisation",
+        "State machines, pull payments, clones and role-based access",
+        "delegatecall, storage collisions and UUPS upgrade safety",
+        "ECDSA, EIP-712 typed data and replay protection",
+        "Unit, fuzz, invariant and fork testing",
+        "NatSpec, threat modelling, audit preparation and release discipline"
+      ],
+      "handsOn": "Write a full design document for an upgradeable, role-controlled vault with signed withdrawals, tests and a threat model.",
+      "outcome": "Design, review and plan the release of non-trivial smart contract systems.",
+      "icon": "braces"
+    },
+    {
+      "slug": "smart-contract-security-auditing",
+      "title": "Smart Contract Security & Auditing",
+      "cat": "blockchain",
+      "level": "A",
+      "levelLabel": "Advanced",
+      "tags": [
+        "Mid"
+      ],
+      "hours": "~15 hrs",
+      "modules": 6,
+      "weeks": "~6 weeks",
+      "pace": "4 hrs/wk",
+      "badge": "Smart Contract Security",
+      "prereq": "Solidity and contract-development experience.",
+      "bestFor": "Developers and auditors securing on-chain code.",
+      "brief": "Bug classes, reentrancy, rounding, oracles and flash loans, tools and methodology, audit reports and incident response.",
+      "learn": [
+        "Access control, reentrancy and checks-effects-interactions",
+        "Rounding, tx.origin, weak randomness and denial of service",
+        "Oracle manipulation, flash loans, signatures and upgrade risks",
+        "Static analysis, fuzzing, invariants and manual review",
+        "Writing findings and ranking severity",
+        "Bug bounties and incident response"
+      ],
+      "handsOn": "Review a vault design and write a professional report with ranked findings and fixes.",
+      "outcome": "Review small contracts for common vulnerabilities and report findings clearly.",
+      "icon": "shield"
+    },
+    {
+      "slug": "token-development-erc-standards",
+      "title": "Token Development: ERC-20, ERC-721 & ERC-1155",
+      "cat": "blockchain",
+      "level": "A",
+      "levelLabel": "Advanced",
+      "tags": [
+        "Fresher",
+        "Mid"
+      ],
+      "hours": "~14 hrs",
+      "modules": 6,
+      "weeks": "~5 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Token Standards",
+      "prereq": "Solidity Programming.",
+      "bestFor": "Developers building fungible and non-fungible tokens.",
+      "brief": "ERC-20, ERC-721, ERC-1155 and ERC-4626 with tokenomics, vesting, airdrops and responsible launch practice.",
+      "learn": [
+        "How a token contract works and how decimals behave",
+        "Building capped, burnable tokens with OpenZeppelin",
+        "Permit, voting power, vesting and owner-power risks",
+        "ERC-721, ERC-1155 and ERC-4626 basics",
+        "Allocation design, Merkle airdrops and warning signs",
+        "Disclosure, scam awareness and a launch checklist"
+      ],
+      "handsOn": "Write a full token design document for a real community, with supply, vesting, controls, risks and disclosures.",
+      "outcome": "Design and build tokens responsibly and judge other people's tokens critically.",
+      "icon": "link"
+    },
+    {
+      "slug": "nfts-decentralized-applications",
+      "title": "NFTs & Decentralized Applications",
+      "cat": "blockchain",
+      "level": "A",
+      "levelLabel": "Advanced",
+      "tags": [
+        "Fresher"
+      ],
+      "hours": "~10 hrs",
+      "modules": 6,
+      "weeks": "~4 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "NFTs and dApps",
+      "prereq": "Solidity basics; token standards helpful.",
+      "bestFor": "Developers building NFT-based products and marketplaces.",
+      "brief": "ERC-721 collections, metadata and storage, marketplaces, front ends, mint economics and responsible practice.",
+      "learn": [
+        "What an NFT really contains and what ownership means",
+        "Collection contracts with supply, price, limits and royalties",
+        "IPFS, pinning and fully on-chain art",
+        "A marketplace contract and a minting front end",
+        "Mint budgets and honest business design",
+        "Scams, licences, privacy and ethics"
+      ],
+      "handsOn": "Plan an NFT project and its dApp, with contract features, storage, user journey, economics and safety.",
+      "outcome": "Plan and build small NFT projects and judge other projects critically.",
+      "icon": "image"
+    },
+    {
+      "slug": "web3-development-javascript-nodejs",
+      "title": "Web3 Development with JavaScript/Node.js",
+      "cat": "blockchain",
+      "level": "A",
+      "levelLabel": "Advanced",
+      "tags": [
+        "Fresher",
+        "Mid"
+      ],
+      "hours": "~14 hrs",
+      "modules": 6,
+      "weeks": "~5 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Web3 JavaScript",
+      "prereq": "JavaScript/Node.js basics; Solidity helpful.",
+      "bestFor": "Web developers connecting apps to the blockchain.",
+      "brief": "BigInt and units, ethers, transactions, wallets and signed logins, Node.js indexers and Hardhat testing.",
+      "learn": [
+        "Safe amounts with BigInt and units",
+        "Reading balances, calls and events with ethers",
+        "Sending transactions with simulation, gas and error handling",
+        "Wallet connection and signed-message login",
+        "A repeat-safe Node.js indexer and API design",
+        "Hardhat tests, forks and release discipline"
+      ],
+      "handsOn": "Design a Web3 notes application end to end: contract, login, writing, indexing, testing and operations.",
+      "outcome": "Build and test the JavaScript side of a Web3 application safely.",
+      "icon": "code"
+    },
+    {
+      "slug": "blockchain-php-nodejs",
+      "title": "Blockchain Development with PHP & Node.js",
+      "cat": "blockchain",
+      "level": "P",
+      "levelLabel": "Professional",
+      "tags": [
+        "Mid"
+      ],
+      "hours": "~14 hrs",
+      "modules": 6,
+      "weeks": "~5 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "PHP and Node.js Chain Integration",
+      "prereq": "Web development in PHP or Node.js.",
+      "bestFor": "Web developers integrating blockchain into existing applications.",
+      "brief": "Architecture for PHP shops, JSON-RPC, exact money, a Node.js chain service, signed webhooks, order data models and operations.",
+      "learn": [
+        "Why and how to split PHP and Node.js",
+        "A careful PHP JSON-RPC client and exact money handling",
+        "A protected Node.js service, a payment contract and a watcher",
+        "Signed webhooks with timestamps and idempotent storage",
+        "Handling underpaid, late and duplicate payments",
+        "Hosting, monitoring, reconciliation and honest limits"
+      ],
+      "handsOn": "Design a complete crypto checkout for a PHP shop on a test network, with flow, data model, security rules and operations.",
+      "outcome": "Design a careful blockchain integration for an existing PHP application.",
+      "icon": "server"
+    },
+    {
+      "slug": "production-ready-web3-apps",
+      "title": "Building Production-Ready Web3 Applications",
+      "cat": "blockchain",
+      "level": "P",
+      "levelLabel": "Professional",
+      "tags": [
+        "Mid"
+      ],
+      "hours": "~16 hrs",
+      "modules": 6,
+      "weeks": "~6 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Professional Web3 Developer",
+      "prereq": "Solidity and Web3 JavaScript experience.",
+      "bestFor": "Developers shipping complete, secure Web3 products.",
+      "brief": "Architecture, bounded control with time-locks, CI/CD, wallet UX, monitoring and staged launch and operations.",
+      "learn": [
+        "Full-stack architecture and environments",
+        "Bounded admin powers, time-locks and safe brakes",
+        "CI/CD with test-network deployment and human-held mainnet",
+        "Transaction state machines and calm wallet messages",
+        "Health checks, alert triage, error budgets and scaling reads",
+        "Staged launches, incident response and ongoing operations"
+      ],
+      "handsOn": "Write a production readiness review for a vault product and decide whether to launch, delay or stop.",
+      "outcome": "Plan, review and operate Web3 products with professional discipline.",
+      "icon": "rocket"
+    },
+    {
+      "slug": "blockchain-5-real-world-projects",
+      "title": "Blockchain Projects: Build 5 Real-World Applications",
+      "cat": "blockchain",
+      "level": "P",
+      "levelLabel": "Professional",
+      "tags": [
+        "Fresher",
+        "Mid"
+      ],
+      "hours": "~16 hrs",
+      "modules": 6,
+      "weeks": "~6 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Blockchain Projects Portfolio",
+      "prereq": "Solidity and dApp development.",
+      "bestFor": "Developers building a strong Web3 portfolio.",
+      "brief": "Five honest, finishable blockchain projects: tokens with vesting, certificate verification, voting, NFT ticketing and a records registry.",
+      "learn": [
+        "Scoping, repositories and honest READMEs",
+        "A token system with a funded vesting vault",
+        "Certificate verification that keeps personal data off the chain",
+        "Transparent and commit-and-reveal ballots and their limits",
+        "NFT tickets with check-in and frozen used tickets",
+        "A registrar-controlled registry and packaging a portfolio"
+      ],
+      "handsOn": "Write a professional portfolio case study for one of the five projects, with decisions, tests, privacy and honest limits.",
+      "outcome": "Present five finished, honestly described blockchain projects.",
+      "icon": "layers"
+    },
+    {
+      "slug": "blockchain-enterprise-architecture",
+      "title": "Blockchain Architecture & Enterprise Solutions",
+      "cat": "blockchain",
+      "level": "E",
+      "levelLabel": "Expert",
+      "tags": [
+        "Senior"
+      ],
+      "hours": "~16 hrs",
+      "modules": 6,
+      "weeks": "~6 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Enterprise Blockchain Architect",
+      "prereq": "Solid blockchain development and architecture experience.",
+      "bestFor": "Architects and leads designing enterprise blockchain systems.",
+      "brief": "When blockchain fits, permissioned networks, scalability, interoperability, privacy and governance, and architecture decisions.",
+      "learn": [
+        "A decision test and alternatives for enterprise use cases",
+        "Permissioned and consortium networks, endorsement and approvals",
+        "Rollups, channels, sidechains and anchoring with throughput arithmetic",
+        "Atomic swaps, bridges and integration patterns",
+        "Data minimisation, consent, key management and governance",
+        "ADRs, requirements, risk registers and staged delivery"
+      ],
+      "handsOn": "Write an enterprise architecture and decision document for a real use case, including an honest recommendation.",
+      "outcome": "Design and decide on blockchain solutions at enterprise scale with honesty.",
+      "icon": "network"
+    },
+    {
+      "slug": "blockchain-defi",
+      "title": "Blockchain & Decentralized Finance (DeFi)",
+      "cat": "blockchain",
+      "level": "E",
+      "levelLabel": "Expert",
+      "tags": [
+        "Mid"
+      ],
+      "hours": "~14 hrs",
+      "modules": 6,
+      "weeks": "~5 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "DeFi Fundamentals",
+      "prereq": "Solidity and smart-contract experience.",
+      "bestFor": "Developers and analysts building or evaluating DeFi.",
+      "brief": "DeFi building blocks, automated market makers, liquidity and impermanent loss, lending, oracles, stablecoins, yield and risk.",
+      "learn": [
+        "DeFi building blocks, composability and stablecoin designs",
+        "The constant-product AMM, swaps and slippage with a full contract",
+        "Liquidity provision and impermanent loss with real numbers",
+        "Lending, health factors, interest curves and liquidations",
+        "Oracles, TWAPs, stablecoin failure modes and yield sources",
+        "Exploit patterns, due diligence and responsible communication"
+      ],
+      "handsOn": "Write a design and risk review of a simple DeFi component for a test network, with numbers, safeguards and honest limits.",
+      "outcome": "Understand and build DeFi components responsibly. Educational only, not financial advice.",
+      "icon": "rupee"
+    },
+    {
+      "slug": "blockchain-capstone-project",
+      "title": "Blockchain Capstone Project",
+      "cat": "blockchain",
+      "level": "E",
+      "levelLabel": "Expert",
+      "tags": [
+        "Mid",
+        "Senior"
+      ],
+      "hours": "~16 hrs",
+      "modules": 6,
+      "weeks": "~6 weeks",
+      "pace": "3 hrs/wk",
+      "badge": "Blockchain Capstone",
+      "prereq": "Completion of the core blockchain track (Solidity, dApps, Web3).",
+      "bestFor": "Learners proving end-to-end mastery for a professional certification.",
+      "brief": "Plan, design, build, secure, deploy, document and defend one complete blockchain project with a reference design to follow.",
+      "learn": [
+        "Scoping a real problem with testable user stories and an MVP",
+        "Architecture and a complete reference contract with roles and safe pausing",
+        "Test-first building, property tests and repeatable deployment",
+        "A threat model, self-review and honest severity ratings",
+        "Test-network deployment, verified source and documentation",
+        "A five-minute demo, a confident defence and career material"
+      ],
+      "handsOn": "Write the capstone report for a complete, tested, deployed and documented blockchain project.",
+      "outcome": "Finish one complete blockchain project and present it with integrity.",
+      "icon": "rocket"
+    },
+    {
+      "slug": "digital-literacy-master",
+      "title": "Digital Literacy Master Course",
+      "modules": 8,
+      "hours": "~80 hrs",
+      "badge": "Digital Literacy",
+      "cat": "foundational",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "College",
+        "Fresher"
+      ],
+      "weeks": "~14 weeks",
+      "pace": "6 hrs/wk",
+      "prereq": "None. Starts from the very first click.",
+      "bestFor": "Anyone new to computers, the internet or office tools.",
+      "brief": "From Zero to Confident — Your Complete Digital Foundation",
+      "learn": [
+        "Computer Basics & Getting Started",
+        "Microsoft Word: Creating Documents",
+        "Microsoft Excel: Working with Spreadsheets",
+        "Microsoft PowerPoint: Building Presentations",
+        "Internet & Email: Browsing the Web",
+        "Digital Safety & Responsible Use",
+        "Cloud Tools & Digital Productivity",
+        "Introduction to Artificial Intelligence (AI)"
+      ],
+      "handsOn": "Final Capstone Project & Assessment",
+      "outcome": "Work confidently with files, the web, email, Office tools and online safety.",
+      "icon": "monitor"
+    },
+    {
+      "slug": "data-science-python",
+      "title": "Data Science using Python",
+      "modules": 11,
+      "hours": "~160 hrs",
+      "badge": "Data Scientist",
+      "cat": "data",
+      "level": "I",
+      "levelLabel": "Intermediate",
+      "tags": [
+        "College",
+        "Fresher"
+      ],
+      "weeks": "~14 weeks",
+      "pace": "6 hrs/wk",
+      "prereq": "Basic Python and school-level statistics.",
+      "bestFor": "Learners aiming at data science and machine learning roles.",
+      "brief": "From scientific Python to deployed, responsible machine learning — the complete data scientist's journey.",
+      "learn": [
+        "Scientific Python & Mathematical Foundations",
+        "Data Acquisition & Wrangling with pandas",
+        "Exploratory Data Analysis & Visualisation",
+        "Statistics & Probability for Data Science",
+        "Machine Learning Foundations",
+        "Advanced & Unsupervised Learning",
+        "Deep Learning",
+        "Natural Language Processing"
+      ],
+      "handsOn": "Capstone Project & Professional Assessment",
+      "outcome": "Run an end-to-end ML project and present it as a portfolio piece.",
+      "icon": "chartLine"
+    },
+    {
+      "slug": "data-analytics-python",
+      "title": "Data Analytics using Python",
+      "modules": 10,
+      "hours": "~120 hrs",
+      "badge": "Data Analyst",
+      "cat": "data",
+      "level": "B→I",
+      "levelLabel": "Beginner to Intermediate",
+      "tags": [
+        "College",
+        "Fresher"
+      ],
+      "weeks": "~12 weeks",
+      "pace": "6 hrs/wk",
+      "prereq": "Comfort with computers; no coding needed to start.",
+      "bestFor": "Career-starters targeting analyst roles.",
+      "brief": "From raw data to boardroom-ready insight — the complete analyst's workflow.",
+      "learn": [
+        "Python Foundations for Analytics",
+        "Data Collection & Ingestion",
+        "Data Wrangling with Pandas",
+        "Exploratory Data Analysis (EDA)",
+        "Data Visualisation",
+        "Statistics for Data Analytics",
+        "SQL for Analysts",
+        "Business Intelligence & Reporting"
+      ],
+      "handsOn": "Capstone Project & Professional Assessment",
+      "outcome": "Clean, analyse and present data with Python and build a capstone report.",
+      "icon": "chartBar"
+    },
+    {
+      "slug": "html-css-academy",
+      "title": "HTML & CSS Academy",
+      "modules": 32,
+      "hours": "~90 hrs",
+      "badge": "Web Designer",
+      "cat": "dev",
+      "level": "B→I",
+      "levelLabel": "Beginner to Professional",
+      "tags": [
+        "College",
+        "Fresher"
+      ],
+      "weeks": "~16 weeks",
+      "pace": "6 hrs/wk",
+      "prereq": "None.",
+      "bestFor": "Beginners who want to build real, responsive websites.",
+      "brief": "From your first tag to a real, responsive website",
+      "learn": [
+        "How the Web Works",
+        "Introduction to HTML",
+        "Elements & Tags",
+        "Attributes",
+        "Headings & Paragraphs",
+        "Lists",
+        "Links",
+        "Images"
+      ],
+      "handsOn": "Build & ship: a responsive personal site",
+      "outcome": "Build and ship a responsive multi-section website.",
+      "icon": "code"
+    },
+    {
+      "slug": "bba-financial-accounting",
+      "title": "Financial Accounting for BBA",
+      "modules": 6,
+      "hours": "~70 hrs",
+      "badge": "BBA Financial Accounting",
+      "cat": "university",
+      "level": "B",
+      "levelLabel": "Beginner",
+      "tags": [
+        "College",
+        "Fresher"
+      ],
+      "weeks": "~12 weeks",
+      "pace": "6 hrs/wk",
+      "prereq": "Class 10 arithmetic: percentages, simple interest, ratios",
+      "bestFor": "BBA, BBM, BMS and B.Com students in Year 1 who need to pass the university paper with confidence",
+      "brief": "From the first journal entry to reading a balance sheet, for BBA students in India",
+      "learn": [
+        "Accounting Fundamentals and the Framework",
+        "Recording Transactions, Trial Balance and Verification",
+        "Depreciation, Inventory and Year-End Adjustments",
+        "Final Accounts of a Sole Proprietor and of a Non-Profit Organisation",
+        "Special Accounting Areas: Bills of Exchange, Consignment and Joint Venture",
+        "Financial Statement Analysis, Corporate Reporting and Computerised Accounting"
+      ],
+      "handsOn": "Software lab, practice numericals and a 48-question final assessment",
+      "outcome": "Explain the purpose of accounting, its users, the main concepts and conventions, and the Indian accounting-standards framework (AS and Ind AS).",
+      "icon": "calculator"
+    }
+  ]
+}

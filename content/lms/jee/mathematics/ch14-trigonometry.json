@@ -1,0 +1,889 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": 14,
+  "title": "Trigonometry",
+  "slug": "trigonometry",
+  "subtitle": "Trigonometry for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#e11d48",
+  "icon": "math",
+  "seo": {
+    "meta_description": "Master Trigonometry for JEE Main & Advanced on GrowQR: notes, solved examples, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Trigonometric Functions, Ratios & Fundamental Identities",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Angle Measurement, Unit Circle and Standard Values",
+          "concept": "An <strong>angle</strong> is the measure of rotation of a ray about its initial point. The angle is positive if the rotation is counterclockwise and negative if clockwise. Two systems are used to measure angles:\n <ul>\n <li><strong>Degree Measure:</strong> One complete revolution equals $360°$.\n <li><strong>Radian Measure:</strong> One radian is the angle subtended at the center of a circle by an arc equal in length to its radius. One complete revolution equals $2\\pi$ radians.\n </ul><p><strong>Conversion Formulas:</strong>\n \\[ \\text{Radians} = \\frac{\\pi}{180°} \\times \\text{Degrees}, \\qquad \\text{Degrees} = \\frac{180°}{\\pi} \\times \\text{Radians} \\]</p><p><strong>Arc Length and Sector Area:</strong> For an arc of radius $r$ subtending an angle $\\theta$ (in radians) at the center:\n \\[ s = r\\theta, \\qquad A_{\\text{sector}} = \\frac{1}{2}r^2\\theta = \\frac{1}{2}rs \\]</p><p><strong>Trigonometric Functions via Unit Circle:</strong> For any angle $\\theta$, define a point $P(\\cos\\theta, \\sin\\theta)$ on the unit circle ($x^2 + y^2 = 1$) reached by rotating the positive $x$-axis by $\\theta$. Then:\n \\[ \\sin\\theta = y, \\quad \\cos\\theta = x, \\quad \\tan\\theta = \\frac{y}{x}\\ (x \\neq 0) \\]\n \\[ \\csc\\theta = \\frac{1}{y}\\ (y\\neq 0), \\quad \\sec\\theta = \\frac{1}{x}\\ (x \\neq 0), \\quad \\cot\\theta = \\frac{x}{y}\\ (y \\neq 0) \\]</p><p><strong>Sign in Four Quadrants (ASTC rule):</strong> \"All Students Take Calculus\" — in Q1, All positive; in Q2, Sine positive; in Q3, Tangent positive; in Q4, Cosine positive.</p><p><strong>Values at Standard Angles:</strong>\n \n <table class=\"tex-table\"><tr><td>$\\theta$</td><td>$0$</td><td>$\\pi/6$</td><td>$\\pi/4$</td><td>$\\pi/3$</td><td>$\\pi/2$</td></tr><tr><td>$\\sin\\theta$</td><td>$0$</td><td>$1/2$</td><td>$1/\\sqrt{2}$</td><td>$\\sqrt{3}/2$</td><td>$1$</td></tr><tr><td>$\\cos\\theta$</td><td>$1$</td><td>$\\sqrt{3}/2$</td><td>$1/\\sqrt{2}$</td><td>$1/2$</td><td>$0$</td></tr><tr><td>$\\tan\\theta$</td><td>$0$</td><td>$1/\\sqrt{3}$</td><td>$1$</td><td>$\\sqrt{3}$</td><td>undefined</td></tr></table></p><p><strong>Fundamental Pythagorean Identities:</strong>\n \\[ \\sin^2\\theta + \\cos^2\\theta = 1, \\quad 1 + \\tan^2\\theta = \\sec^2\\theta, \\quad 1 + \\cot^2\\theta = \\csc^2\\theta \\]</p><p><strong>Periodicity:</strong> $\\sin(\\theta + 2\\pi) = \\sin\\theta$, $\\cos(\\theta + 2\\pi) = \\cos\\theta$, $\\tan(\\theta + \\pi) = \\tan\\theta$.</p><strong>Domain and Range of Standard Trig Functions:</strong>\n <ul>\n <li>$\\sin\\theta: \\mathbb{R} \\to [-1, 1]$\n <li>$\\cos\\theta: \\mathbb{R} \\to [-1, 1]$\n <li>$\\tan\\theta: \\mathbb{R} \\setminus \\{(2n+1)\\pi/2\\} \\to \\mathbb{R}$\n <li>$\\sec\\theta, \\csc\\theta: \\text{domain restricted}, \\text{range} = (-\\infty, -1] \\cup [1, \\infty)$\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A pendulum swings through an angle of $30°$. If the length of the pendulum is $75$ cm, find the length of the arc traced by its tip and the area swept.</p>",
+              "solution": "<p>Convert $30°$ to radians: $\\theta = 30° \\times \\dfrac{\\pi}{180°} = \\dfrac{\\pi}{6}$ radian.</p><p>The length of the arc:\n \\[ s = r\\theta = 75 \\times \\frac{\\pi}{6} = \\frac{75\\pi}{6} = \\frac{25\\pi}{2} \\approx 39.27 \\text{ cm} \\]\n The area swept (sector area):\n \\[ A = \\frac{1}{2}r^2\\theta = \\frac{1}{2}(75)^2 \\cdot \\frac{\\pi}{6} = \\frac{5625\\pi}{12} \\approx 1472.62 \\text{ cm}^2 \\]\n <strong>Final Answer:</strong> Arc length $= \\dfrac{25\\pi}{2}$ cm, Area swept $= \\dfrac{1875\\pi}{4}$ cm$^2$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The value of $\\sin\\left(\\dfrac{17\\pi}{4}\\right)$ is:",
+              "options": [
+                "$\\dfrac{1}{\\sqrt{2}}$",
+                "$-\\dfrac{1}{\\sqrt{2}}$",
+                "$\\dfrac{\\sqrt{3}}{2}$",
+                "$-\\dfrac{\\sqrt{3}}{2}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\sin\\theta + \\cos\\theta = 1$, then the value of $\\sin 2\\theta$ is:",
+              "options": [
+                "$1$",
+                "$\\dfrac{1}{2}$",
+                "$0$",
+                "$-1$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\theta$ lies in the second quadrant and $\\sin\\theta = \\dfrac{3}{5}$, then the value of $\\tan\\theta$ is:",
+              "options": [
+                "$\\dfrac{3}{4}$",
+                "$-\\dfrac{3}{4}$",
+                "$\\dfrac{4}{3}$",
+                "$-\\dfrac{4}{3}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The value of $\\sec^2\\theta - \\tan^2\\theta + \\csc^2\\theta - \\cot^2\\theta$ is:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "$-1$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "In a circle of radius $5$ cm, an arc subtends an angle of $60°$ at the center. The length of the arc is:",
+              "options": [
+                "$\\dfrac{5\\pi}{6}$ cm",
+                "$\\dfrac{5\\pi}{3}$ cm",
+                "$\\dfrac{10\\pi}{3}$ cm",
+                "$5\\pi$ cm"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Compound, Multiple, Sub-Multiple and Sum-Product Identities",
+          "concept": "<p><strong>Compound Angle Formulas:</strong>\n \\[ \\sin(A \\pm B) = \\sin A \\cos B \\pm \\cos A \\sin B \\]\n \\[ \\cos(A \\pm B) = \\cos A \\cos B \\mp \\sin A \\sin B \\]\n \\[ \\tan(A \\pm B) = \\frac{\\tan A \\pm \\tan B}{1 \\mp \\tan A \\tan B}, \\qquad \\cot(A \\pm B) = \\frac{\\cot A \\cot B \\mp 1}{\\cot B \\pm \\cot A} \\]</p><p><strong>Double Angle Formulas:</strong>\n \\[ \\sin 2A = 2\\sin A \\cos A = \\frac{2\\tan A}{1 + \\tan^2 A} \\]\n \\[ \\cos 2A = \\cos^2 A - \\sin^2 A = 1 - 2\\sin^2 A = 2\\cos^2 A - 1 = \\frac{1 - \\tan^2 A}{1 + \\tan^2 A} \\]\n \\[ \\tan 2A = \\frac{2\\tan A}{1 - \\tan^2 A} \\]</p><p><strong>Triple Angle Formulas:</strong>\n \\[ \\sin 3A = 3\\sin A - 4\\sin^3 A, \\qquad \\cos 3A = 4\\cos^3 A - 3\\cos A, \\qquad \\tan 3A = \\frac{3\\tan A - \\tan^3 A}{1 - 3\\tan^2 A} \\]</p><p><strong>Half-Angle Formulas (in terms of $\\cos A$):</strong>\n \\[ \\sin\\frac{A}{2} = \\pm\\sqrt{\\frac{1 - \\cos A}{2}}, \\qquad \\cos\\frac{A}{2} = \\pm\\sqrt{\\frac{1 + \\cos A}{2}}, \\qquad \\tan\\frac{A}{2} = \\pm\\sqrt{\\frac{1 - \\cos A}{1 + \\cos A}} \\]</p><p><strong>Product-to-Sum Formulas:</strong>\n \\[ 2\\sin A \\cos B = \\sin(A + B) + \\sin(A - B) \\]\n \\[ 2\\cos A \\sin B = \\sin(A + B) - \\sin(A - B) \\]\n \\[ 2\\cos A \\cos B = \\cos(A - B) + \\cos(A + B) \\]\n \\[ 2\\sin A \\sin B = \\cos(A - B) - \\cos(A + B) \\]</p><p><strong>Sum-to-Product Formulas:</strong>\n \\[ \\sin C + \\sin D = 2\\sin\\frac{C+D}{2}\\cos\\frac{C-D}{2}, \\qquad \\sin C - \\sin D = 2\\cos\\frac{C+D}{2}\\sin\\frac{C-D}{2} \\]\n \\[ \\cos C + \\cos D = 2\\cos\\frac{C+D}{2}\\cos\\frac{C-D}{2}, \\qquad \\cos C - \\cos D = -2\\sin\\frac{C+D}{2}\\sin\\frac{C-D}{2} \\]</p><p><strong>Conditional Identities (when $A + B + C = \\pi$):</strong>\n \\[ \\sin 2A + \\sin 2B + \\sin 2C = 4\\sin A \\sin B \\sin C \\]\n \\[ \\cos 2A + \\cos 2B + \\cos 2C = -1 - 4\\cos A \\cos B \\cos C \\]\n \\[ \\tan A + \\tan B + \\tan C = \\tan A \\tan B \\tan C \\]</p><p><strong>Maximum and Minimum of $a\\sin\\theta + b\\cos\\theta$:</strong>\n \\[ a\\sin\\theta + b\\cos\\theta = \\sqrt{a^2 + b^2}\\sin(\\theta + \\alpha), \\quad \\alpha = \\tan^{-1}(b/a) \\]\n Thus, the range is $[-\\sqrt{a^2+b^2}, \\sqrt{a^2+b^2}]$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>If $\\tan A + \\tan B = p$ and $\\cot A + \\cot B = q$, find $\\tan(A+B)$.</p>",
+              "solution": "<p>Note that $\\cot A + \\cot B = \\dfrac{1}{\\tan A} + \\dfrac{1}{\\tan B} = \\dfrac{\\tan A + \\tan B}{\\tan A \\tan B}$.</p><p>Thus:\n \\[ q = \\frac{p}{\\tan A \\tan B} \\implies \\tan A \\tan B = \\frac{p}{q} \\]\n Then:\n \\[ \\tan(A+B) = \\frac{\\tan A + \\tan B}{1 - \\tan A \\tan B} = \\frac{p}{1 - \\frac{p}{q}} = \\frac{pq}{q - p} \\]\n <strong>Final Answer:</strong> $\\tan(A+B) = \\dfrac{pq}{q - p}$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The maximum value of $3\\sin\\theta + 4\\cos\\theta$ is:",
+              "options": [
+                "$5$",
+                "$7$",
+                "$\\sqrt{7}$",
+                "$25$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "$\\cos 36° \\cos 72°$ equals:",
+              "options": [
+                "$\\dfrac{1}{2}$",
+                "$\\dfrac{1}{4}$",
+                "$\\dfrac{1}{8}$",
+                "$\\dfrac{1}{16}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\sin A = \\dfrac{3}{5}$ and $\\cos B = -\\dfrac{12}{13}$, where $A$ is in Q1 and $B$ in Q2, then $\\sin(A+B)$ equals:",
+              "options": [
+                "$\\dfrac{56}{65}$",
+                "$\\dfrac{63}{65}$",
+                "$-\\dfrac{33}{65}$",
+                "$\\dfrac{33}{65}$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "If $A + B + C = \\pi$, then $\\sin 2A + \\sin 2B - \\sin 2C$ equals:",
+              "options": [
+                "$4\\sin A \\sin B \\cos C$",
+                "$-4\\sin A \\sin B \\cos C$",
+                "$4\\cos A \\cos B \\sin C$",
+                "$4\\sin A \\sin B \\sin C$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The value of $\\cos 20° \\cdot \\cos 40° \\cdot \\cos 80°$ is:",
+              "options": [
+                "$\\dfrac{1}{2}$",
+                "$\\dfrac{1}{4}$",
+                "$\\dfrac{1}{8}$",
+                "$\\dfrac{1}{16}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Trigonometric Equations and General Solutions",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Principal and General Solutions of Standard Equations",
+          "concept": "<p>A <strong>trigonometric equation</strong> is an equation involving trigonometric functions of one or more unknown angles. The solutions in $[0, 2\\pi)$ are called <strong>principal solutions</strong>, while the full family of solutions (containing infinitely many values differing by appropriate periods) is the <strong>general solution</strong>.</p><strong>General Solutions of Basic Equations:</strong>\n <ul>\n <li>$\\sin\\theta = 0 \\implies \\theta = n\\pi$, $n \\in \\mathbb{Z}$\n <li>$\\cos\\theta = 0 \\implies \\theta = (2n+1)\\dfrac{\\pi}{2}$, $n \\in \\mathbb{Z}$\n <li>$\\tan\\theta = 0 \\implies \\theta = n\\pi$, $n \\in \\mathbb{Z}$\n <li>$\\sin\\theta = \\sin\\alpha \\implies \\theta = n\\pi + (-1)^n \\alpha$, $n \\in \\mathbb{Z}$\n <li>$\\cos\\theta = \\cos\\alpha \\implies \\theta = 2n\\pi \\pm \\alpha$, $n \\in \\mathbb{Z}$\n <li>$\\tan\\theta = \\tan\\alpha \\implies \\theta = n\\pi + \\alpha$, $n \\in \\mathbb{Z}$\n <li>$\\sin^2\\theta = \\sin^2\\alpha \\implies \\theta = n\\pi \\pm \\alpha$, $n \\in \\mathbb{Z}$ (same for $\\cos^2$ and $\\tan^2$)\n </ul><strong>Solution Strategies:</strong>\n <ul>\n <li>Convert all terms into one trig function (e.g., all $\\sin$, or use Pythagorean substitution).\n <li>Use identities such as $\\sin 2\\theta = 2\\sin\\theta\\cos\\theta$ to factor.\n <li>For $a\\cos\\theta + b\\sin\\theta = c$, divide by $\\sqrt{a^2+b^2}$ and reduce to $\\cos(\\theta - \\alpha) = c/\\sqrt{a^2+b^2}$. Solutions exist iff $|c| \\leq \\sqrt{a^2+b^2}$.\n <li>Watch for <strong>extraneous roots</strong> introduced by squaring or multiplying — always verify candidate solutions.\n </ul><p><strong>Reduction to Quadratic:</strong> Equations of the form $a\\sin^2\\theta + b\\sin\\theta + c = 0$ are solved by treating $\\sin\\theta$ as the variable. The same applies for any single trig function via Pythagorean identities.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Solve the equation $\\sqrt{3}\\cos\\theta + \\sin\\theta = 1$ for general $\\theta$.</p>",
+              "solution": "<p>The equation is of the form $a\\cos\\theta + b\\sin\\theta = c$ with $a = \\sqrt{3}$, $b = 1$, $c = 1$. Divide throughout by $\\sqrt{a^2 + b^2} = \\sqrt{3 + 1} = 2$:\n \\[ \\frac{\\sqrt{3}}{2}\\cos\\theta + \\frac{1}{2}\\sin\\theta = \\frac{1}{2} \\]\n Recognize $\\cos\\dfrac{\\pi}{6} = \\dfrac{\\sqrt{3}}{2}$ and $\\sin\\dfrac{\\pi}{6} = \\dfrac{1}{2}$:\n \\[ \\cos\\frac{\\pi}{6}\\cos\\theta + \\sin\\frac{\\pi}{6}\\sin\\theta = \\frac{1}{2} \\implies \\cos\\left(\\theta - \\frac{\\pi}{6}\\right) = \\frac{1}{2} \\]\n Using $\\cos\\theta = \\cos\\alpha \\implies \\theta = 2n\\pi \\pm \\alpha$:\n \\[ \\theta - \\frac{\\pi}{6} = 2n\\pi \\pm \\frac{\\pi}{3} \\]\n \\[ \\theta = 2n\\pi + \\frac{\\pi}{6} \\pm \\frac{\\pi}{3} \\]\n <strong>Final Answer:</strong> $\\theta = 2n\\pi + \\dfrac{\\pi}{2}$ or $\\theta = 2n\\pi - \\dfrac{\\pi}{6}$, $n \\in \\mathbb{Z}$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The general solution of $\\sin\\theta = \\dfrac{1}{2}$ is:",
+              "options": [
+                "$\\theta = n\\pi + (-1)^n \\dfrac{\\pi}{6}$",
+                "$\\theta = 2n\\pi \\pm \\dfrac{\\pi}{6}$",
+                "$\\theta = n\\pi + \\dfrac{\\pi}{6}$",
+                "$\\theta = 2n\\pi + \\dfrac{\\pi}{6}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The number of solutions of $2\\cos^2\\theta - 3\\cos\\theta + 1 = 0$ in $[0, 2\\pi]$ is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$4$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\sin\\theta + \\sin 5\\theta = \\sin 3\\theta$, then $\\theta$ equals:",
+              "options": [
+                "$\\dfrac{n\\pi}{3}$",
+                "$n\\pi$ or $n\\pi \\pm \\dfrac{\\pi}{3}$",
+                "$\\dfrac{n\\pi}{2}$",
+                "$\\dfrac{(2n+1)\\pi}{6}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The equation $\\sin\\theta = \\cos\\theta$ has $\\theta$ in $[0, 2\\pi)$ as:",
+              "options": [
+                "$\\dfrac{\\pi}{4}, \\dfrac{5\\pi}{4}$",
+                "$\\dfrac{\\pi}{4}, \\dfrac{3\\pi}{4}$",
+                "$\\dfrac{\\pi}{4}$ only",
+                "$\\dfrac{3\\pi}{4}, \\dfrac{7\\pi}{4}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The number of values of $\\theta \\in (0, 2\\pi)$ for which $\\tan\\theta + \\cot\\theta = 2$ is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$4$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Inverse Trigonometric Functions",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Definitions, Principal Branches and Fundamental Identities",
+          "concept": "<p>The standard trigonometric functions are not bijections on their full domains, so inverse functions are defined only on restricted \"principal value branches\":\n \n <table class=\"tex-table\"><tr><td>Function</td><td>Domain</td><td>Range (Principal Branch)</td></tr><tr><td>$\\sin^{-1} x$</td><td>$[-1, 1]$</td><td>$\\left[-\\dfrac{\\pi}{2}, \\dfrac{\\pi}{2}\\right]$</td></tr><tr><td>$\\cos^{-1} x$</td><td>$[-1, 1]$</td><td>$[0, \\pi]$</td></tr><tr><td>$\\tan^{-1} x$</td><td>$\\mathbb{R}$</td><td>$\\left(-\\dfrac{\\pi}{2}, \\dfrac{\\pi}{2}\\right)$</td></tr><tr><td>$\\cot^{-1} x$</td><td>$\\mathbb{R}$</td><td>$(0, \\pi)$</td></tr><tr><td>$\\sec^{-1} x$</td><td>$|x| \\geq 1$</td><td>$[0, \\pi] \\setminus \\{\\pi/2\\}$</td></tr><tr><td>$\\csc^{-1} x$</td><td>$|x| \\geq 1$</td><td>$\\left[-\\dfrac{\\pi}{2}, \\dfrac{\\pi}{2}\\right] \\setminus \\{0\\}$</td></tr></table></p><p><strong>Fundamental Identities:</strong>\n \\[ \\sin^{-1}(-x) = -\\sin^{-1}x, \\quad \\tan^{-1}(-x) = -\\tan^{-1}x, \\quad \\csc^{-1}(-x) = -\\csc^{-1}x \\]\n \\[ \\cos^{-1}(-x) = \\pi - \\cos^{-1}x, \\quad \\cot^{-1}(-x) = \\pi - \\cot^{-1}x, \\quad \\sec^{-1}(-x) = \\pi - \\sec^{-1}x \\]</p><p><strong>Complementary Relations (valid in their domains):</strong>\n \\[ \\sin^{-1}x + \\cos^{-1}x = \\frac{\\pi}{2} \\ (x \\in [-1, 1]) \\]\n \\[ \\tan^{-1}x + \\cot^{-1}x = \\frac{\\pi}{2} \\ (x \\in \\mathbb{R}) \\]\n \\[ \\sec^{-1}x + \\csc^{-1}x = \\frac{\\pi}{2} \\ (|x| \\geq 1) \\]</p><p><strong>Reciprocal Identity:</strong> $\\tan^{-1}(1/x) = \\cot^{-1}x$ for $x > 0$, and $\\tan^{-1}(1/x) = \\cot^{-1}x - \\pi$ for $x < 0$.</p><p><strong>Conversion Formulas (for $x \\in [0, 1]$):</strong>\n \\[ \\sin^{-1}x = \\cos^{-1}\\sqrt{1 - x^2} = \\tan^{-1}\\frac{x}{\\sqrt{1-x^2}} \\]</p><p><strong>Sum Formulas (constrained):</strong>\n \\[ \\tan^{-1}x + \\tan^{-1}y = \\begin{cases} \\tan^{-1}\\dfrac{x+y}{1-xy}, & \\text{if } xy < 1 \\\\ \\pi + \\tan^{-1}\\dfrac{x+y}{1-xy}, & \\text{if } x > 0, y > 0, xy > 1 \\\\ -\\pi + \\tan^{-1}\\dfrac{x+y}{1-xy}, & \\text{if } x < 0, y < 0, xy > 1 \\end{cases} \\]</p><p>\\[ \\tan^{-1}x - \\tan^{-1}y = \\tan^{-1}\\frac{x - y}{1 + xy} \\ \\text{(if } xy > -1\\text{)} \\]</p><p><strong>Multiple-Angle Formulas:</strong>\n \\[ 2\\tan^{-1}x = \\begin{cases} \\tan^{-1}\\dfrac{2x}{1-x^2}, & |x| < 1 \\\\ \\sin^{-1}\\dfrac{2x}{1+x^2}, & |x| \\leq 1 \\\\ \\cos^{-1}\\dfrac{1-x^2}{1+x^2}, & x \\geq 0 \\end{cases} \\]</p><p>\\[ 3\\tan^{-1}x = \\tan^{-1}\\frac{3x - x^3}{1 - 3x^2} \\quad \\text{(within appropriate range)} \\]</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Evaluate $\\tan^{-1}\\dfrac{1}{2} + \\tan^{-1}\\dfrac{1}{3}$.</p>",
+              "solution": "<p>Here $x = \\dfrac{1}{2}, y = \\dfrac{1}{3}$, so $xy = \\dfrac{1}{6} < 1$. Use the direct formula:\n \\[ \\tan^{-1}\\frac{1}{2} + \\tan^{-1}\\frac{1}{3} = \\tan^{-1}\\frac{\\frac{1}{2} + \\frac{1}{3}}{1 - \\frac{1}{2} \\cdot \\frac{1}{3}} = \\tan^{-1}\\frac{\\frac{5}{6}}{\\frac{5}{6}} = \\tan^{-1}(1) = \\frac{\\pi}{4} \\]\n <strong>Final Answer:</strong> $\\dfrac{\\pi}{4}$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The principal value of $\\cos^{-1}\\left(-\\dfrac{1}{2}\\right)$ is:",
+              "options": [
+                "$\\dfrac{\\pi}{3}$",
+                "$\\dfrac{2\\pi}{3}$",
+                "$-\\dfrac{\\pi}{3}$",
+                "$\\dfrac{4\\pi}{3}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The value of $\\sin^{-1}\\left(\\sin\\dfrac{2\\pi}{3}\\right)$ is:",
+              "options": [
+                "$\\dfrac{2\\pi}{3}$",
+                "$\\dfrac{\\pi}{3}$",
+                "$-\\dfrac{\\pi}{3}$",
+                "$-\\dfrac{2\\pi}{3}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\sin^{-1}x + \\sin^{-1}y = \\dfrac{\\pi}{2}$, then $x^2 + y^2$ equals:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$\\dfrac{1}{2}$",
+                "$2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The value of $\\tan^{-1}(1) + \\tan^{-1}(2) + \\tan^{-1}(3)$ is:",
+              "options": [
+                "$\\dfrac{\\pi}{4}$",
+                "$\\dfrac{\\pi}{2}$",
+                "$\\pi$",
+                "$\\dfrac{3\\pi}{4}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The value of $\\cos\\left[\\tan^{-1}\\dfrac{3}{4}\\right]$ is:",
+              "options": [
+                "$\\dfrac{3}{5}$",
+                "$\\dfrac{4}{5}$",
+                "$\\dfrac{5}{3}$",
+                "$\\dfrac{5}{4}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Solving Equations and Simplifying Expressions",
+          "concept": "When solving equations involving inverse trigonometric functions, follow these strategies:\n <ol>\n <li>Express the equation in a form where you can apply sum/difference formulas.\n <li>Take sine, cosine, or tangent of both sides to simplify.\n <li>Always verify candidate solutions because inverse functions have restricted ranges.\n <li>Watch for the domain restrictions and the conditions under which formulas apply (e.g., $xy < 1$ for $\\tan^{-1}x + \\tan^{-1}y = \\tan^{-1}\\dfrac{x+y}{1-xy}$).\n </ol><p><strong>Common Simplifications:</strong>\n \\[ \\sin(\\sin^{-1}x) = x \\text{ for } x \\in [-1, 1] \\]\n \\[ \\sin^{-1}(\\sin x) = x \\text{ only if } x \\in \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]; \\text{ otherwise adjust using periodicity and symmetry} \\]</p><strong>Important Substitutions:</strong>\n <ul>\n <li>For expressions with $\\sqrt{1 - x^2}$, substitute $x = \\sin\\theta$ (or $\\cos\\theta$).\n <li>For expressions with $\\sqrt{1 + x^2}$, substitute $x = \\tan\\theta$.\n <li>For expressions with $\\sqrt{x^2 - 1}$, substitute $x = \\sec\\theta$.\n </ul><p><strong>Useful Identities (Standard JEE Tools):</strong>\n \\[ \\tan^{-1}\\frac{x}{1 + xy} = \\tan^{-1}x - \\tan^{-1}y \\cdot \\frac{1}{1 + xy} \\quad \\text{(telescoping)} \\]</p><p><strong>Telescoping Series:</strong> For a sum like $\\sum_{k=1}^n \\tan^{-1}\\dfrac{1}{1 + k + k^2}$, write each term as a telescoping difference:\n \\[ \\tan^{-1}\\frac{1}{1 + k + k^2} = \\tan^{-1}(k+1) - \\tan^{-1}k \\]</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Show that $\\tan^{-1}\\dfrac{1}{3} + \\tan^{-1}\\dfrac{1}{5} + \\tan^{-1}\\dfrac{1}{7} + \\tan^{-1}\\dfrac{1}{8} = \\dfrac{\\pi}{4}$.</p>",
+              "solution": "<p>Group and combine using the sum formula. Combine the first two:\n \\[ \\tan^{-1}\\frac{1}{3} + \\tan^{-1}\\frac{1}{5} = \\tan^{-1}\\frac{\\frac{1}{3} + \\frac{1}{5}}{1 - \\frac{1}{15}} = \\tan^{-1}\\frac{\\frac{8}{15}}{\\frac{14}{15}} = \\tan^{-1}\\frac{4}{7} \\]\n Combine the last two:\n \\[ \\tan^{-1}\\frac{1}{7} + \\tan^{-1}\\frac{1}{8} = \\tan^{-1}\\frac{\\frac{1}{7} + \\frac{1}{8}}{1 - \\frac{1}{56}} = \\tan^{-1}\\frac{\\frac{15}{56}}{\\frac{55}{56}} = \\tan^{-1}\\frac{15}{55} = \\tan^{-1}\\frac{3}{11} \\]\n Now combine the two results:\n \\[ \\tan^{-1}\\frac{4}{7} + \\tan^{-1}\\frac{3}{11} = \\tan^{-1}\\frac{\\frac{4}{7} + \\frac{3}{11}}{1 - \\frac{4}{7} \\cdot \\frac{3}{11}} = \\tan^{-1}\\frac{\\frac{44 + 21}{77}}{\\frac{77 - 12}{77}} = \\tan^{-1}\\frac{65}{65} = \\tan^{-1}(1) = \\frac{\\pi}{4} \\]\n <strong>Final Answer:</strong> The identity is verified.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If $\\tan^{-1}x + \\tan^{-1}y + \\tan^{-1}z = \\dfrac{\\pi}{2}$, then $xy + yz + zx$ equals:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$-1$",
+                "$xyz$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The value of $\\tan^{-1}\\left(\\dfrac{1+x}{1-x}\\right) - \\tan^{-1}x$ (for $x \\in (0, 1)$) is:",
+              "options": [
+                "$\\dfrac{\\pi}{4}$",
+                "$\\dfrac{\\pi}{2}$",
+                "$0$",
+                "$\\tan^{-1}(1+x)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The number of solutions of $\\sin^{-1}x + \\sin^{-1}(1-x) = \\cos^{-1}x$ is:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "infinitely many"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The sum $\\displaystyle\\sum_{n=1}^{\\infty}\\tan^{-1}\\left(\\dfrac{1}{n^2 + n + 1}\\right)$ equals:",
+              "options": [
+                "$\\dfrac{\\pi}{4}$",
+                "$\\dfrac{\\pi}{2}$",
+                "$\\dfrac{\\pi}{6}$",
+                "$\\pi$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\sin^{-1}x = \\dfrac{\\pi}{5}$ for some $x \\in (-1, 1)$, then $\\cos^{-1}x$ equals:",
+              "options": [
+                "$\\dfrac{\\pi}{5}$",
+                "$\\dfrac{2\\pi}{5}$",
+                "$\\dfrac{3\\pi}{10}$",
+                "$\\dfrac{4\\pi}{5}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Properties of Triangles, Heights & Distances",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Sine, Cosine and Projection Rules with Area Formulas",
+          "concept": "<p>For a triangle $ABC$ with sides $a = BC$, $b = CA$, $c = AB$ opposite to vertices $A$, $B$, $C$:</p><p><strong>Sine Rule:</strong>\n \\[ \\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = 2R \\]\n where $R$ is the circumradius. The sine rule relates side lengths to opposite angles.</p><p><strong>Cosine Rule:</strong>\n \\[ \\cos A = \\frac{b^2 + c^2 - a^2}{2bc}, \\quad \\cos B = \\frac{c^2 + a^2 - b^2}{2ca}, \\quad \\cos C = \\frac{a^2 + b^2 - c^2}{2ab} \\]</p><p><strong>Projection Formulas:</strong>\n \\[ a = b\\cos C + c\\cos B, \\quad b = c\\cos A + a\\cos C, \\quad c = a\\cos B + b\\cos A \\]</p><p><strong>Tangent Rule (Napier's Analogy):</strong>\n \\[ \\tan\\frac{B - C}{2} = \\frac{b - c}{b + c}\\cot\\frac{A}{2} \\]</p><p><strong>Half-Angle Formulas:</strong> Let $s = \\dfrac{a+b+c}{2}$ be the semi-perimeter. Then:\n \\[ \\sin\\frac{A}{2} = \\sqrt{\\frac{(s-b)(s-c)}{bc}}, \\quad \\cos\\frac{A}{2} = \\sqrt{\\frac{s(s-a)}{bc}}, \\quad \\tan\\frac{A}{2} = \\sqrt{\\frac{(s-b)(s-c)}{s(s-a)}} \\]</p><p><strong>Area Formulas:</strong>\n \\[ \\Delta = \\frac{1}{2}ab\\sin C = \\frac{1}{2}bc\\sin A = \\frac{1}{2}ca\\sin B \\]\n \\[ \\Delta = \\sqrt{s(s-a)(s-b)(s-c)} \\quad \\text{(Heron's formula)} \\]\n \\[ \\Delta = \\frac{abc}{4R} = rs \\]</p><p><strong>Inradius, Circumradius, Exradii:</strong>\n \\[ R = \\frac{abc}{4\\Delta}, \\qquad r = \\frac{\\Delta}{s} = (s-a)\\tan\\frac{A}{2} \\]\n \\[ r_1 = \\frac{\\Delta}{s-a} = s\\tan\\frac{A}{2}, \\quad r_2 = \\frac{\\Delta}{s-b}, \\quad r_3 = \\frac{\\Delta}{s-c} \\]</p><p><strong>Important Relations:</strong>\n \\[ r_1 + r_2 + r_3 - r = 4R \\]\n \\[ \\frac{1}{r} = \\frac{1}{r_1} + \\frac{1}{r_2} + \\frac{1}{r_3} \\]\n \\[ r_1 r_2 + r_2 r_3 + r_3 r_1 = s^2 \\]</p><p><strong>Length of Median:</strong> The median from vertex $A$ to midpoint of side $a$ has length:\n \\[ m_a = \\frac{1}{2}\\sqrt{2b^2 + 2c^2 - a^2} \\]</p><p><strong>Length of Angle Bisector from $A$:</strong>\n \\[ t_a = \\frac{2bc\\cos(A/2)}{b + c} \\]</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>In a triangle $ABC$, $a = 13$, $b = 14$, $c = 15$. Find the area, circumradius $R$, and inradius $r$.</p>",
+              "solution": "<p>Semi-perimeter: $s = \\dfrac{13 + 14 + 15}{2} = 21$.</p><p>By Heron's formula:\n \\[ \\Delta = \\sqrt{s(s-a)(s-b)(s-c)} = \\sqrt{21 \\cdot 8 \\cdot 7 \\cdot 6} = \\sqrt{7056} = 84 \\]\n Circumradius:\n \\[ R = \\frac{abc}{4\\Delta} = \\frac{13 \\cdot 14 \\cdot 15}{4 \\cdot 84} = \\frac{2730}{336} = \\frac{65}{8} \\]\n Inradius:\n \\[ r = \\frac{\\Delta}{s} = \\frac{84}{21} = 4 \\]\n <strong>Final Answer:</strong> Area $= 84$ sq units, $R = \\dfrac{65}{8}$, $r = 4$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "In a triangle, if the sides are $a = 7$, $b = 8$, $c = 9$, then $\\cos A$ equals:",
+              "options": [
+                "$\\dfrac{2}{3}$",
+                "$\\dfrac{11}{16}$",
+                "$\\dfrac{5}{12}$",
+                "$\\dfrac{3}{7}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "In any triangle $ABC$, if $a^2 + b^2 = c^2$, then the angle $C$ equals:",
+              "options": [
+                "$30°$",
+                "$60°$",
+                "$90°$",
+                "$120°$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "In a triangle, $a\\cos A + b\\cos B + c\\cos C$ equals:",
+              "options": [
+                "$2R(\\sin 2A + \\sin 2B + \\sin 2C)/2$, simplifying to $\\dfrac{\\Delta}{R} \\cdot 2$",
+                "$4R \\sin A \\sin B \\sin C$",
+                "$a + b + c$",
+                "$2(a + b + c)$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "In a triangle, $r$ is the inradius. The relation $r = 4R\\sin\\dfrac{A}{2}\\sin\\dfrac{B}{2}\\sin\\dfrac{C}{2}$ holds:",
+              "options": [
+                "Always",
+                "Only in equilateral triangles",
+                "Only in right triangles",
+                "Never"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "In a triangle, if $a = 2$, $b = 3$, $C = 60°$, then $c^2$ equals:",
+              "options": [
+                "$7$",
+                "$19$",
+                "$5$",
+                "$13$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Heights and Distances Including 3D Bearings",
+          "concept": "<p>The applications of trigonometry to heights and distances involve the careful use of angles of elevation and depression.</p><p><strong>Angle of Elevation:</strong> The angle between the horizontal and the line of sight to an object that is above the observer's eye level.</p><p><strong>Angle of Depression:</strong> The angle between the horizontal and the line of sight to an object that is below the observer's eye level.</p><strong>Solution Strategy for Heights &amp; Distances:</strong>\n <ol>\n <li>Draw a clear diagram identifying all observation points, target points, and key angles.\n <li>Identify right triangles or general triangles relevant to the problem.\n <li>Use $\\tan\\theta$ for ratios of vertical to horizontal distances.\n <li>For multi-observation problems, set up equations from each observation point and eliminate the unknown.\n </ol><p><strong>Bearing Problems (3D):</strong> In navigation and aviation, the <strong>bearing</strong> of point $B$ from point $A$ is the angle measured clockwise from due North (in the horizontal plane) to the line $AB$. In 3D bearing problems, one must combine horizontal angles (bearings) with vertical angles (elevations) using vector geometry or solid trigonometry.</p><strong>Useful Formulas:</strong>\n <ul>\n <li>For an observer at the bottom and a tower of height $h$, with horizontal distance $d$: $\\tan(\\text{elevation}) = h/d$.\n <li>If two observers are at horizontal distance $d$ apart and observe the top of a tower at angles of elevation $\\alpha$ and $\\beta$:\n \\[ h = \\frac{d \\sin\\alpha \\sin\\beta}{\\sin(\\alpha - \\beta)} \\quad \\text{(observer between tower and other point)} \\]\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>From the top of a hill, the angles of depression of two consecutive kilometre-stones due east are $30°$ and $45°$. Find the height of the hill.</p>",
+              "solution": "<p>Let the height of the hill be $h$ km. Let the foot of the hill be $F$, and the two milestones be $A$ (closer, depression $45°$) and $B$ (farther, depression $30°$).</p>From the top $T$:\n <ul>\n <li>$\\angle$ Depression of $A = 45° \\implies \\tan 45° = \\dfrac{h}{FA} \\implies FA = h$\n <li>$\\angle$ Depression of $B = 30° \\implies \\tan 30° = \\dfrac{h}{FB} \\implies FB = h\\sqrt{3}$\n </ul>\n Since the stones are $1$ km apart: $FB - FA = 1$\n \\[ h\\sqrt{3} - h = 1 \\implies h(\\sqrt{3} - 1) = 1 \\implies h = \\frac{1}{\\sqrt{3} - 1} = \\frac{\\sqrt{3} + 1}{2} \\]\n <strong>Final Answer:</strong> Height of the hill $= \\dfrac{\\sqrt{3} + 1}{2}$ km $\\approx 1.366$ km."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "A tower stands vertically on the ground. From a point on the ground, $20$ m away from the foot of the tower, the angle of elevation of its top is $60°$. The height of the tower is:",
+              "options": [
+                "$20$ m",
+                "$20\\sqrt{3}$ m",
+                "$\\dfrac{20}{\\sqrt{3}}$ m",
+                "$10\\sqrt{3}$ m"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The angle of elevation of the top of a tower from a point on the ground is $30°$. On walking $40$ m towards the tower, the angle becomes $60°$. The height of the tower is:",
+              "options": [
+                "$20$ m",
+                "$20\\sqrt{3}$ m",
+                "$40\\sqrt{3}$ m",
+                "$40/\\sqrt{3}$ m"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The angles of elevation of the top of a tower from two points at distances $a$ and $b$ from the base in the same line are complementary. The height of the tower is:",
+              "options": [
+                "$\\sqrt{ab}$",
+                "$a + b$",
+                "$\\dfrac{a + b}{2}$",
+                "$\\sqrt{a^2 + b^2}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "A ladder leans against a wall, making an angle of $60°$ with the ground. If the foot of the ladder is $5$ m from the wall, the length of the ladder is:",
+              "options": [
+                "$10$ m",
+                "$5\\sqrt{3}$ m",
+                "$\\dfrac{10}{\\sqrt{3}}$ m",
+                "$5$ m"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "From a lighthouse $50$ m high, the angles of depression of two ships on opposite sides are $30°$ and $45°$. The distance between the ships is:",
+              "options": [
+                "$50(\\sqrt{3} - 1)$ m",
+                "$50(\\sqrt{3} + 1)$ m",
+                "$100$ m",
+                "$50\\sqrt{3}$ m"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-math-trigonometry-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "If $\\sin\\theta = \\dfrac{12}{13}$ and $\\theta$ is acute, then $\\cos\\theta + \\tan\\theta$ equals:",
+              "options": [
+                "$\\dfrac{25}{65}$",
+                "$\\dfrac{181}{65}$",
+                "$\\dfrac{169}{65}$",
+                "$\\dfrac{157}{65}$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "The value of $\\tan 9° - \\tan 27° - \\tan 63° + \\tan 81°$ is:",
+              "options": [
+                "$0$",
+                "$2$",
+                "$4$",
+                "$-4$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The general solution of $\\cos 2\\theta = -\\dfrac{1}{2}$ is:",
+              "options": [
+                "$\\theta = n\\pi \\pm \\dfrac{\\pi}{3}$",
+                "$\\theta = \\dfrac{n\\pi}{2} \\pm \\dfrac{\\pi}{3}$",
+                "$\\theta = n\\pi \\pm \\dfrac{2\\pi}{3}$",
+                "$\\theta = n\\pi \\pm \\dfrac{\\pi}{6}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The value of $\\sin^{-1}\\dfrac{4}{5} + \\sin^{-1}\\dfrac{3}{5}$ is:",
+              "options": [
+                "$\\dfrac{\\pi}{2}$",
+                "$\\dfrac{\\pi}{4}$",
+                "$\\sin^{-1}\\dfrac{7}{5}$",
+                "$\\dfrac{\\pi}{3}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "In a triangle, if $a = 5$, $b = 12$, $c = 13$, then the radius of the circumscribed circle is:",
+              "options": [
+                "$6.5$",
+                "$13$",
+                "$\\dfrac{13}{2}$",
+                "$5$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\tan A + \\tan B + \\tan C = \\tan A \\tan B \\tan C$ in a triangle, then $A + B + C$ equals:",
+              "options": [
+                "$\\pi$",
+                "$\\dfrac{\\pi}{2}$",
+                "$2\\pi$",
+                "Any value"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The number of solutions of $2\\sin^2\\theta - 5\\sin\\theta + 2 = 0$ in $[0, 2\\pi]$ is:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "$4$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\cos x = \\dfrac{1}{3}$, $0 < x < \\pi$, then $\\tan(x/2)$ equals:",
+              "options": [
+                "$\\sqrt{2}$",
+                "$\\dfrac{1}{\\sqrt{2}}$",
+                "$\\sqrt{3}$",
+                "$\\sqrt{6}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The angle of elevation of a cloud above a lake from a point $20$ m above the surface is $30°$. The angle of depression of its reflection in the lake from the same point is $60°$. The height of the cloud above the lake is:",
+              "options": [
+                "$20$ m",
+                "$40$ m",
+                "$60$ m",
+                "$80$ m"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $A + B + C = \\pi$ in a triangle, then $\\cos A + \\cos B + \\cos C$ equals:",
+              "options": [
+                "$1 - 4\\sin\\dfrac{A}{2}\\sin\\dfrac{B}{2}\\sin\\dfrac{C}{2}$",
+                "$1 + 4\\sin\\dfrac{A}{2}\\sin\\dfrac{B}{2}\\sin\\dfrac{C}{2}$",
+                "$4\\cos\\dfrac{A}{2}\\cos\\dfrac{B}{2}\\cos\\dfrac{C}{2}$",
+                "$4\\sin A\\sin B\\sin C$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "If $\\sin\\theta + \\sin^2\\theta = 1$, then the value of $\\cos^2\\theta + \\cos^4\\theta$ equals which integer?",
+              "answer": "",
+              "explanation": ""
+            },
+            {
+              "q": "In a triangle with sides $a, b, c$ and area $\\Delta$, if $a = 6$, $b = 8$, $c = 10$, find $\\Delta$.",
+              "answer": "",
+              "explanation": ""
+            },
+            {
+              "q": "The number of solutions of $\\sin x \\cdot \\sin 2x \\cdot \\sin 3x = 0$ in $[0, \\pi]$ is.",
+              "answer": "",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> $\\sin^{-1}(\\sin 3) = 3$.<br>\n <strong>Reason (R):</strong> For all $x \\in \\mathbb{R}$, $\\sin^{-1}(\\sin x) = x$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 3,
+              "explanation": "A is false ($."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> In any triangle, $\\dfrac{a}{\\sin A} = \\dfrac{b}{\\sin B} = \\dfrac{c}{\\sin C}$.<br>\n <strong>Reason (R):</strong> The sine rule is derived using the fact that the diameter of the circumscribed circle equals $\\dfrac{a}{\\sin A}$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-math-trigonometry-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "The value of $\\tan\\dfrac{\\pi}{16} \\cdot \\tan\\dfrac{3\\pi}{16} \\cdot \\tan\\dfrac{5\\pi}{16} \\cdot \\tan\\dfrac{7\\pi}{16}$ is:",
+              "options": [
+                "$1$",
+                "$\\sqrt{2}$",
+                "$0$",
+                "$-1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\alpha$, $\\beta$, $\\gamma$ are roots of $\\sin\\theta = k$ in $[0, 2\\pi]$, then $\\sin\\alpha + \\sin\\beta + \\sin\\gamma$:",
+              "options": [
+                "$= 3k$",
+                "$= 2k$ (when 2 roots only)",
+                "$= 0$",
+                "Depends on $k$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "The number of values of $\\theta \\in (0, \\pi)$ satisfying $\\sin 5\\theta = 5\\sin\\theta$ is:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "infinitely many"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\tan^{-1}(\\cot\\theta) + \\cot^{-1}(\\tan\\theta) = \\dfrac{\\pi}{6}$, then $\\theta$ equals:",
+              "options": [
+                "$\\dfrac{\\pi}{6}$",
+                "$\\dfrac{\\pi}{3}$",
+                "$\\dfrac{5\\pi}{12}$",
+                "$\\dfrac{2\\pi}{3}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "In a triangle, if $\\cos A + 2\\cos B + \\cos C = 2$, then the sides are in:",
+              "options": [
+                "Arithmetic Progression",
+                "Geometric Progression",
+                "Harmonic Progression",
+                "No general relation"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the circumradius of a triangle with sides $a, b, c$ is $R$, then $a\\cot A + b\\cot B + c\\cot C$ equals:",
+              "options": [
+                "$\\dfrac{abc}{2R^2}$",
+                "$2(R + r)$",
+                "$a + b + c$",
+                "$\\dfrac{a + b + c}{2R} \\cdot 2R$, i.e., $a+b+c$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the expression $\\sin^4\\dfrac{\\pi}{8} + \\sin^4\\dfrac{3\\pi}{8} + \\sin^4\\dfrac{5\\pi}{8} + \\sin^4\\dfrac{7\\pi}{8}$ is:",
+              "options": [
+                "$1$",
+                "$\\dfrac{3}{2}$",
+                "$\\dfrac{1}{2}$",
+                "$2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $A + B + C = \\pi$ and $\\tan A \\tan B = 2$, then $\\dfrac{\\cos(A-B)}{\\cos(A+B)}$ equals:",
+              "options": [
+                "$3$",
+                "$-3$",
+                "$1$",
+                "$-1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\sin^{-1}x + \\sin^{-1}y + \\sin^{-1}z = \\dfrac{3\\pi}{2}$, then $x^{100} + y^{100} + z^{100} - \\dfrac{9}{x^{101} + y^{101} + z^{101}}$ equals:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "$3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "In a right-angled triangle with hypotenuse $\\sqrt{2}$ and one acute angle $\\theta$, the area is maximum when $\\theta$ equals:",
+              "options": [
+                "$\\dfrac{\\pi}{4}$",
+                "$\\dfrac{\\pi}{3}$",
+                "$\\dfrac{\\pi}{6}$",
+                "$\\dfrac{\\pi}{8}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Let $\\alpha, \\beta$ be the roots of $\\sin x = \\dfrac{1}{2}$ in $[0, 2\\pi]$. Find $\\alpha + \\beta$ in units of $\\pi$, i.e., if $\\alpha + \\beta = k\\pi$, find $k$.",
+              "answer": "",
+              "explanation": ""
+            },
+            {
+              "q": "The value of $\\dfrac{\\sin 47° + \\sin 61° - \\sin 11° - \\sin 25°}{\\cos 7°}$ is.",
+              "answer": "",
+              "explanation": ""
+            },
+            {
+              "q": "In triangle $ABC$, $a = 13$, $b = 14$, $c = 15$. Find $r_1$ (the radius of the escribed circle opposite to $A$).",
+              "answer": "",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> For any triangle, $r_1 + r_2 + r_3 = 4R + r$.<br>\n <strong>Reason (R):</strong> This follows from the relations between $r_1, r_2, r_3, r, R$ via half-angle formulas of $A, B, C$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> $\\cos^{-1}(\\cos(2\\pi/3)) = 2\\pi/3$.<br>\n <strong>Reason (R):</strong> $\\cos^{-1}(\\cos x) = x$ when $x \\in [0, \\pi]$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

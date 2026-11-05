@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "biology",
+  "chapter": 25,
+  "title": "Evolution",
+  "slug": "evolution",
+  "subtitle": "Origin of life, theories of evolution, evidences for evolution, the mechanism (Hardy–Weinberg, natural selection), adaptive radiation and human evolution",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "leaf",
+  "seo": {
+    "meta_description": "NEET Biology — Evolution: origin of life (Oparin–Haldane, Miller–Urey), Lamarck vs Darwin, evidences for evolution (fossils, homologous & analogous organs, molecular), the Hardy–Weinberg principle and natural selection, adaptive radiation and human evolution, with NEET-level examples and MCQs. Free on GrowQR.",
+    "focus_keyword": "evolution NEET",
+    "secondary_keywords": [
+      "origin of life Oparin Haldane Miller Urey",
+      "homologous analogous organs divergent convergent",
+      "Hardy Weinberg principle natural selection",
+      "Darwin Lamarck theory of evolution",
+      "human evolution Homo habilis erectus sapiens"
+    ],
+    "keywords": [
+      "evolution NEET",
+      "origin of life chemical evolution",
+      "evidences of evolution fossils",
+      "Hardy Weinberg equilibrium",
+      "human evolution stages"
+    ]
+  },
+  "summary": "<ul><li><strong>Origin of life:</strong> chemical evolution (<strong>Oparin &amp; Haldane</strong>) in a reducing atmosphere; <strong>Miller–Urey</strong> made amino acids from CH₄, NH₃, H₂ &amp; water + sparks. Spontaneous generation disproved by <strong>Pasteur</strong>.</li><li><strong>Theories:</strong> <strong>Lamarck</strong> (inheritance of acquired characters), <strong>Darwin</strong> (natural selection, survival of the fittest), <strong>De Vries</strong> (mutation).</li><li><strong>Evidences:</strong> fossils (palaeontology); <strong>homologous</strong> organs = divergent (same structure), <strong>analogous</strong> = convergent (same function); vestigial organs; molecular.</li><li><strong>Mechanism:</strong> variation + natural selection; <strong>Hardy–Weinberg</strong> (p²+2pq+q²=1) disturbed by gene flow, drift, mutation, selection. Selection types: stabilising, directional, disruptive.</li><li><strong>Industrial melanism</strong> (peppered moth) = natural selection in action.</li><li><strong>Human evolution:</strong> <em>Australopithecus</em> → <em>Homo habilis</em> → <em>H. erectus</em> → <em>H. neanderthalensis</em> → <em>H. sapiens</em>.</li></ul>",
+  "faqs": [
+    { "q": "What did the Miller–Urey experiment demonstrate?", "a": "Stanley Miller and Harold Urey recreated the conditions thought to exist on early Earth — a mixture of methane (CH4), ammonia (NH3), hydrogen (H2) and water vapour — and passed electric sparks (simulating lightning) through it. After a week, simple organic molecules including amino acids had formed. This supported the Oparin–Haldane idea that the building blocks of life could arise from non-living matter by chemical evolution." },
+    { "q": "How do homologous and analogous organs differ?", "a": "Homologous organs have the same basic structure and origin but may perform different functions — e.g. the forelimbs of humans, whales, bats and cheetahs. They indicate common ancestry and divergent evolution. Analogous organs have different structures but perform the same function — e.g. the wings of insects and birds. They indicate convergent evolution (similar adaptation to similar needs, without common ancestry)." },
+    { "q": "What is the Hardy–Weinberg principle?", "a": "It states that in a large, randomly mating population the allele and genotype frequencies remain constant from generation to generation — the population is in genetic equilibrium and is not evolving. It is expressed as p² + 2pq + q² = 1 (where p and q are allele frequencies). This equilibrium is disturbed by factors such as gene migration (flow), genetic drift, mutation, recombination and natural selection — and any such disturbance means evolution is occurring." },
+    { "q": "What is industrial melanism and why is it important?", "a": "Industrial melanism is the observation that, in industrial areas of England, dark (melanic) peppered moths became more common than light ones after the Industrial Revolution. Soot darkened tree trunks, so light moths were easily seen and eaten by birds while dark moths were camouflaged and survived. It is a classic real-world example of natural selection acting on a population." },
+    { "q": "What is the sequence of human evolution?", "a": "The widely accepted sequence runs from ape-like ancestors (Dryopithecus and Ramapithecus) through Australopithecus, then the genus Homo: Homo habilis (the first tool-maker), Homo erectus (used fire), Homo neanderthalensis, and finally modern humans, Homo sapiens. Across this sequence, brain size and the ability to make and use tools increased." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Origin of Life and Evidences for Evolution",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Origin of Life and Theories of Evolution",
+          "concept": "<p>How life began is the starting point of evolution. The universe and Earth are explained by the <strong>Big Bang theory</strong>. Early ideas of <strong>spontaneous generation</strong> (life arising from non-living matter like mud) were <strong>disproved by Louis Pasteur</strong> with his famous <strong>swan-neck flask</strong> experiment, which showed life comes only from pre-existing life. <strong>Panspermia</strong> proposed that life (spores) came from outer space.</p><p>The widely accepted scientific idea is <strong>chemical evolution</strong>, proposed independently by <strong>Oparin and Haldane</strong>. They suggested that the first forms of life arose from <strong>non-living organic molecules</strong> in the conditions of the <strong>early reducing atmosphere</strong> (rich in <strong>CH₄, NH₃, H₂ and water vapour</strong>, but no free oxygen). This was tested by the classic <strong>Miller–Urey experiment (1953)</strong>: they passed <strong>electric sparks</strong> (mimicking lightning) through a flask of <strong>CH₄, NH₃, H₂ and water vapour</strong>, and after about a week <strong>amino acids and other organic molecules had formed</strong> &mdash; strong support for chemical evolution. The first organisms are thought to have been <strong>chemoheterotrophs</strong> in water.</p><p>Once life existed, how did the diversity of organisms arise? <strong>Lamarck</strong> proposed the <strong>inheritance of acquired characters</strong> (use and disuse): organs used more become better developed and this is passed on &mdash; his classic example was the <strong>long neck of the giraffe</strong> from stretching. This idea is now rejected because acquired (non-genetic) traits are not inherited.</p><p><strong>Charles Darwin</strong> gave the cornerstone theory of <strong>natural selection</strong> in his book <em>On the Origin of Species</em>. Its core ideas are: organisms produce <strong>more offspring than can survive</strong>; individuals show <strong>heritable variation</strong>; those with favourable variations <strong>survive and reproduce more</strong> (<strong>'survival of the fittest'</strong>), so favourable traits accumulate over generations. (Wallace reached similar conclusions independently.) Later, <strong>Hugo de Vries</strong> proposed the <strong>mutation theory</strong>, that evolution proceeds by sudden large changes (<strong>saltation</strong>), based on his work on the evening primrose (<em>Oenothera</em>). For NEET, fix Pasteur (disproved spontaneous generation), Oparin–Haldane + Miller–Urey (chemical evolution), and the three evolution theories with their key proponents and ideas.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Idea</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Proponent / detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Spontaneous generation disproved</td><td style='border:1px solid #dcfce7;padding:6px 8px'>Louis Pasteur (swan-neck flask)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Chemical evolution</td><td style='border:1px solid #dcfce7;padding:6px 8px'>Oparin &amp; Haldane (reducing atmosphere)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Miller–Urey</td><td style='border:1px solid #dcfce7;padding:6px 8px'>CH₄, NH₃, H₂, water + sparks → amino acids</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Lamarck</td><td style='border:1px solid #dcfce7;padding:6px 8px'>inheritance of acquired characters (use/disuse)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Darwin / De Vries</td><td style='border:1px solid #dcfce7;padding:6px 8px'>natural selection / mutation theory (saltation)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>What gases were used in the Miller–Urey experiment, and what did it produce?</p>",
+              "solution": "<p>They used <strong>methane (CH₄), ammonia (NH₃), hydrogen (H₂) and water vapour</strong>, with electric sparks. After about a week it produced <strong>amino acids and other simple organic molecules</strong>, supporting chemical evolution.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is Lamarck's theory of inheritance of acquired characters rejected?</p>",
+              "solution": "<p>Because <strong>acquired characters</strong> (developed during an individual's lifetime through use/disuse) are <strong>not encoded in the genes (germ cells)</strong>, so they are <strong>not inherited</strong> by the offspring. Only heritable (genetic) variation can drive evolution.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Spontaneous generation was finally disproved by:</p>", "options": ["Darwin", "Lamarck", "Louis Pasteur", "Oparin"], "correct": 2, "explanation": "Pasteur's swan-neck flask experiment disproved it." },
+            { "q": "<p>The early atmosphere in the Oparin–Haldane view was:</p>", "options": ["oxidising", "reducing (no free O₂)", "pure oxygen", "inert"], "correct": 1, "explanation": "It was a reducing atmosphere (CH₄, NH₃, H₂, water vapour)." },
+            { "q": "<p>The Miller–Urey experiment produced:</p>", "options": ["proteins", "amino acids", "DNA", "living cells"], "correct": 1, "explanation": "It produced amino acids and simple organic molecules." },
+            { "q": "<p>'Inheritance of acquired characters' was proposed by:</p>", "options": ["Darwin", "Lamarck", "De Vries", "Wallace"], "correct": 1, "explanation": "Lamarck proposed use and disuse / acquired characters." },
+            { "q": "<p>The mutation theory of evolution was given by:</p>", "options": ["Darwin", "Hugo de Vries", "Mendel", "Haldane"], "correct": 1, "explanation": "Hugo de Vries proposed mutation theory (saltation)." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Pasteur disproved spontaneous generation. Oparin–Haldane = chemical evolution (reducing atmosphere); Miller–Urey: CH₄+NH₃+H₂+water+sparks → amino acids. Lamarck = acquired characters (rejected); Darwin = natural selection / survival of the fittest; De Vries = mutation theory.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Evidences for Evolution",
+          "concept": "<p>Several independent lines of <strong>evidence</strong> support evolution. The most direct is <strong>palaeontological evidence (fossils)</strong>. Fossils are the remains or impressions of past organisms, usually found in sedimentary rock layers; the deeper the layer, the older the fossil. They show that life forms have <strong>changed over time</strong> and reveal extinct intermediate forms. A classic example is the <strong>evolution of the horse</strong> (from the small <em>Eohippus</em> to the modern <em>Equus</em>), and <em>Archaeopteryx</em> (a fossil connecting reptiles and birds).</p><p><strong>Comparative anatomy</strong> gives two key kinds of evidence. <strong>Homologous organs</strong> have the <strong>same basic structure and origin</strong> but may do <strong>different jobs</strong> &mdash; for example, the <strong>forelimbs of a human, whale, bat and cheetah</strong> have the same bone plan but are used for grasping, swimming, flying and running. Homology indicates a <strong>common ancestor</strong> and is the result of <strong>divergent evolution</strong>.</p><p><strong>Analogous organs</strong>, by contrast, have <strong>different structures but the same function</strong> &mdash; for example, the <strong>wings of an insect and a bird</strong>, or the eye of an octopus and a mammal. Analogy does <strong>not</strong> indicate common ancestry; it results from <strong>convergent evolution</strong>, where unrelated organisms independently evolve similar features for similar needs. Closely related to homology are <strong>vestigial organs</strong> &mdash; reduced, functionless remnants of organs that were useful in ancestors, such as the <strong>vermiform appendix</strong> and <strong>wisdom teeth</strong> in humans.</p><p>Further support comes from <strong>embryological evidence</strong> (early embryos of different vertebrates look strikingly similar) and powerful modern <strong>molecular evidence</strong> &mdash; the similarities in <strong>DNA and proteins</strong> across organisms, where more closely related species share more similar sequences. There is also <strong>direct evidence in real time</strong>, such as the development of <strong>antibiotic and pesticide resistance</strong> in bacteria and insects. For NEET, the must-knows are the homologous (divergent, common ancestry) vs analogous (convergent, similar function) distinction with their examples, plus fossils as direct evidence and the idea of molecular/embryological support.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Evidence</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Key point / example</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Fossils (palaeontology)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>direct evidence; horse evolution, Archaeopteryx</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Homologous organs</td><td style='border:1px solid #dcfce7;padding:6px 8px'>same structure, different function → divergent (forelimbs)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Analogous organs</td><td style='border:1px solid #dcfce7;padding:6px 8px'>different structure, same function → convergent (wings: insect/bird)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Vestigial organs</td><td style='border:1px solid #dcfce7;padding:6px 8px'>appendix, wisdom teeth</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Molecular evidence</td><td style='border:1px solid #dcfce7;padding:6px 8px'>similar DNA/proteins in related species</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>The wings of a butterfly and a bird perform the same function but are built differently. What kind of organs are these and what do they indicate?</p>",
+              "solution": "<p>They are <strong>analogous organs</strong> (different structure, same function). They indicate <strong>convergent evolution</strong> — unrelated organisms independently evolving a similar feature — <strong>not</strong> a common ancestor.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why are the forelimbs of a whale, bat and human considered homologous?</p>",
+              "solution": "<p>Because they share the <strong>same basic skeletal structure and embryonic origin</strong> (the same bone plan) even though they perform <strong>different functions</strong> (swimming, flying, grasping). This common plan indicates a <strong>common ancestor</strong> — divergent evolution.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Fossils are mainly evidence from:</p>", "options": ["molecular biology", "palaeontology", "embryology", "biochemistry"], "correct": 1, "explanation": "Fossils are palaeontological (direct) evidence." },
+            { "q": "<p>Forelimbs of man, whale and bat are:</p>", "options": ["analogous", "homologous", "vestigial", "unrelated"], "correct": 1, "explanation": "Same structure, different function = homologous." },
+            { "q": "<p>Homologous organs indicate:</p>", "options": ["convergent evolution", "divergent evolution", "no evolution", "mutation"], "correct": 1, "explanation": "Homology indicates divergent evolution / common ancestry." },
+            { "q": "<p>Wings of an insect and a bird are:</p>", "options": ["homologous", "analogous", "vestigial", "identical"], "correct": 1, "explanation": "Different structure, same function = analogous (convergent)." },
+            { "q": "<p>The vermiform appendix in humans is a/an:</p>", "options": ["homologous organ", "analogous organ", "vestigial organ", "fossil"], "correct": 2, "explanation": "The appendix is a vestigial organ." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Fossils = direct evidence (horse, Archaeopteryx). Homologous = same structure/diff function → divergent, common ancestry (forelimbs). Analogous = diff structure/same function → convergent (insect vs bird wings). Vestigial = appendix, wisdom teeth. Plus embryological + molecular (DNA/protein) evidence.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Mechanism of Evolution and Human Evolution",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Mechanism of Evolution: Variation, Selection and Hardy–Weinberg",
+          "concept": "<p>The modern understanding combines Darwin's natural selection with genetics. Evolution acts on <strong>heritable variation</strong> in a population. Variation arises mainly from <strong>mutation</strong> and from <strong>recombination</strong> during sexual reproduction. <strong>Natural selection</strong> then acts on this variation, favouring individuals better suited to the environment, so that <strong>allele frequencies in the population change over generations</strong> &mdash; that change is evolution.</p><p>To describe when a population is <strong>not</strong> evolving, the <strong>Hardy–Weinberg principle</strong> states that in a <strong>large, randomly mating population</strong> the <strong>allele and genotype frequencies stay constant</strong> across generations &mdash; the population is in <strong>genetic equilibrium</strong>. It is written as <strong>p² + 2pq + q² = 1</strong> (with p + q = 1), where p and q are the frequencies of two alleles, p² and q² the homozygotes and 2pq the heterozygotes.</p><p>This equilibrium holds only under ideal conditions; in reality, <strong>five factors disturb it</strong> and therefore cause evolution: <strong>gene migration (gene flow)</strong>, <strong>genetic drift</strong> (random change in allele frequency, important in small populations &mdash; including the <strong>founder effect</strong> and <strong>bottleneck effect</strong>), <strong>mutation</strong>, <strong>genetic recombination</strong> and <strong>natural selection</strong>. If allele frequencies are changing, the Hardy–Weinberg equilibrium is broken and evolution is happening.</p><p><strong>Natural selection</strong> can act in three ways, depending on which individuals it favours. <strong>Stabilising selection</strong> favours the <strong>average/intermediate</strong> phenotype and removes extremes (reducing variation). <strong>Directional selection</strong> favours <strong>one extreme</strong>, shifting the population toward it. <strong>Disruptive selection</strong> favours <strong>both extremes</strong> over the average (and can split a population). A famous real example is <strong>industrial melanism</strong> in the <strong>peppered moth (<em>Biston betularia</em>)</strong> of England: after the Industrial Revolution darkened tree trunks with soot, the <strong>dark moths were better camouflaged and survived</strong> while light ones were eaten &mdash; a textbook case of natural selection observed in nature. For NEET, fix sources of variation, the Hardy–Weinberg statement and equation, the five disturbing factors (including drift/founder/bottleneck), the three types of selection, and industrial melanism.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Concept</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Hardy–Weinberg</td><td style='border:1px solid #dcfce7;padding:6px 8px'>p² + 2pq + q² = 1 (equilibrium = no evolution)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Disturbing factors</td><td style='border:1px solid #dcfce7;padding:6px 8px'>gene flow, drift, mutation, recombination, selection</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Stabilising selection</td><td style='border:1px solid #dcfce7;padding:6px 8px'>favours the average; removes extremes</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Directional / disruptive</td><td style='border:1px solid #dcfce7;padding:6px 8px'>favours one extreme / both extremes</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Industrial melanism</td><td style='border:1px solid #dcfce7;padding:6px 8px'>peppered moth — natural selection in action</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Name the five factors that can disturb Hardy–Weinberg equilibrium and thus cause evolution.</p>",
+              "solution": "<p><strong>Gene migration (gene flow), genetic drift, mutation, genetic recombination and natural selection.</strong> Any of these changes allele frequencies, breaking the equilibrium — meaning the population is evolving.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>How does the peppered moth illustrate natural selection?</p>",
+              "solution": "<p>After industrial soot darkened tree trunks, <strong>dark (melanic) moths were camouflaged and survived</strong> predation while <strong>light moths were eaten</strong> by birds. So the <strong>frequency of the dark form rose</strong> — natural selection favouring the better-adapted variant.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The Hardy–Weinberg equation is:</p>", "options": ["p + q = 2", "p² + 2pq + q² = 1", "p² + q² = 1", "p + 2q = 1"], "correct": 1, "explanation": "p² + 2pq + q² = 1 (with p + q = 1)." },
+            { "q": "<p>Hardy–Weinberg equilibrium means the population is:</p>", "options": ["evolving rapidly", "not evolving", "going extinct", "mutating"], "correct": 1, "explanation": "At equilibrium allele frequencies are constant — no evolution." },
+            { "q": "<p>Random change in allele frequency in a small population is:</p>", "options": ["gene flow", "genetic drift", "mutation", "selection"], "correct": 1, "explanation": "Genetic drift is random; strong in small populations." },
+            { "q": "<p>Selection favouring the intermediate phenotype is:</p>", "options": ["directional", "disruptive", "stabilising", "artificial"], "correct": 2, "explanation": "Stabilising selection favours the average, removing extremes." },
+            { "q": "<p>Industrial melanism in the peppered moth is an example of:</p>", "options": ["genetic drift", "natural selection", "mutation only", "gene flow"], "correct": 1, "explanation": "It is natural selection acting in a changed environment." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Variation from mutation + recombination → natural selection → allele frequency change = evolution. Hardy–Weinberg: p²+2pq+q²=1 (equilibrium = no evolution). Disturbed by: gene flow, drift (founder/bottleneck), mutation, recombination, selection. Selection types: stabilising (average), directional (one extreme), disruptive (both extremes). Peppered moth = natural selection.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Adaptive Radiation and Human Evolution",
+          "concept": "<p>When a single ancestral species spreads to different habitats and diversifies into many forms suited to those habitats, the process is called <strong>adaptive radiation</strong>. The classic examples are <strong>Darwin's finches</strong> of the Galapagos Islands &mdash; from one ancestral finch, many species evolved with <strong>different beak shapes</strong> suited to different diets &mdash; and the <strong>Australian marsupials</strong>, which radiated into many forms filling roles taken by placental mammals elsewhere. When two unrelated groups undergo adaptive radiation and come to resemble each other, it shows <strong>convergent evolution</strong>.</p><p>The story of our own species, <strong>human evolution</strong>, is a frequently asked sequence. Humans and apes share common ape-like ancestors. <strong>Dryopithecus and Ramapithecus</strong> were ape-like primates (Ramapithecus was more man-like). The line leading to humans then passed through <strong>Australopithecus</strong> &mdash; early hominids that lived in East Africa, walked upright and probably ate fruit.</p><p>The genus <strong>Homo</strong> follows. <strong>Homo habilis</strong> (\"handy man\", about 2 million years ago) was the <strong>first to make and use stone tools</strong> and had a larger brain. <strong>Homo erectus</strong> (about 1.5 million years ago) had a still larger brain and is associated with the <strong>use of fire</strong> and better tools. <strong>Homo neanderthalensis</strong> (Neanderthals) lived in Europe and Asia, made tools and buried their dead.</p><p>Finally, modern humans, <strong>Homo sapiens</strong>, arose in Africa and spread across the world, developing language, art and agriculture. The broad trend across this sequence is <strong>increasing brain size and tool-making ability</strong>, and increasingly upright posture. So the simplified line is: <strong>Australopithecus → Homo habilis → Homo erectus → Homo neanderthalensis → Homo sapiens.</strong> For NEET, fix the definition of adaptive radiation with Darwin's finches/Australian marsupials, and the human-evolution sequence with each species' landmark (habilis = first tools; erectus = fire; sapiens = modern human).</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Item</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Adaptive radiation</td><td style='border:1px solid #dcfce7;padding:6px 8px'>one ancestor → many forms (Darwin's finches)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Australopithecus</td><td style='border:1px solid #dcfce7;padding:6px 8px'>early upright hominid (East Africa)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Homo habilis</td><td style='border:1px solid #dcfce7;padding:6px 8px'>first tool-maker (~2 mya)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Homo erectus</td><td style='border:1px solid #dcfce7;padding:6px 8px'>used fire (~1.5 mya)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Homo sapiens</td><td style='border:1px solid #dcfce7;padding:6px 8px'>modern humans (Africa → worldwide)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>What is adaptive radiation? Give one example.</p>",
+              "solution": "<p><strong>Adaptive radiation</strong> is the evolution of <strong>many different species from a single ancestor</strong>, each adapted to a different habitat/niche. Example: <strong>Darwin's finches</strong> of the Galapagos, which evolved many beak forms for different diets (also the Australian marsupials).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Which human ancestor first made tools, and which is associated with the use of fire?</p>",
+              "solution": "<p><strong>Homo habilis</strong> was the <strong>first to make and use stone tools</strong>. <strong>Homo erectus</strong> is associated with the <strong>use of fire</strong>.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Darwin's finches are an example of:</p>", "options": ["convergent evolution only", "adaptive radiation", "genetic drift", "vestigial organs"], "correct": 1, "explanation": "Many finch species from one ancestor = adaptive radiation." },
+            { "q": "<p>The first tool-making human ancestor was:</p>", "options": ["Australopithecus", "Homo habilis", "Homo erectus", "Homo sapiens"], "correct": 1, "explanation": "Homo habilis ('handy man') first made stone tools." },
+            { "q": "<p>The use of fire is associated with:</p>", "options": ["Homo habilis", "Homo erectus", "Ramapithecus", "Dryopithecus"], "correct": 1, "explanation": "Homo erectus is linked with the use of fire." },
+            { "q": "<p>Modern humans belong to the species:</p>", "options": ["Homo erectus", "Homo habilis", "Homo sapiens", "Homo neanderthalensis"], "correct": 2, "explanation": "Modern humans are Homo sapiens." },
+            { "q": "<p>Australian marsupials radiating into many forms illustrate:</p>", "options": ["genetic drift", "adaptive radiation", "vestigial organs", "Hardy–Weinberg equilibrium"], "correct": 1, "explanation": "They are a classic example of adaptive radiation." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Adaptive radiation = one ancestor → many forms (Darwin's finches; Australian marsupials). Human evolution: Dryopithecus/Ramapithecus → Australopithecus → Homo habilis (first tools) → Homo erectus (fire) → Homo neanderthalensis → Homo sapiens; trend = bigger brain + better tools.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-biology-ch25-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>The chemical evolution theory was proposed by:</p>", "options": ["Darwin and Wallace", "Oparin and Haldane", "Miller and Urey", "Watson and Crick"], "correct": 1, "explanation": "Oparin and Haldane proposed chemical evolution." },
+            { "q": "<p>Miller and Urey's experiment simulated lightning using:</p>", "options": ["heat", "electric sparks", "UV only", "pressure"], "correct": 1, "explanation": "Electric sparks mimicked lightning in the early atmosphere." },
+            { "q": "<p>Survival of the fittest is central to the theory of:</p>", "options": ["Lamarck", "Darwin", "De Vries", "Mendel"], "correct": 1, "explanation": "Darwin's natural selection — survival of the fittest." },
+            { "q": "<p>Analogous organs are a result of:</p>", "options": ["divergent evolution", "convergent evolution", "genetic drift", "mutation"], "correct": 1, "explanation": "Analogy results from convergent evolution." },
+            { "q": "<p>The functional unit example of vestigial organs in humans is the:</p>", "options": ["heart", "appendix", "liver", "kidney"], "correct": 1, "explanation": "The vermiform appendix is vestigial." },
+            { "q": "<p>At Hardy–Weinberg equilibrium, allele frequencies:</p>", "options": ["increase", "decrease", "remain constant", "become zero"], "correct": 2, "explanation": "They remain constant — no evolution." },
+            { "q": "<p>The peppered moth example demonstrates:</p>", "options": ["genetic drift", "natural selection", "mutation theory", "gene flow"], "correct": 1, "explanation": "Industrial melanism = natural selection." },
+            { "q": "<p>Darwin's finches are an example of:</p>", "options": ["adaptive radiation", "convergent evolution only", "vestigiality", "spontaneous generation"], "correct": 0, "explanation": "They show adaptive radiation from a common ancestor." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> The forelimbs of a whale and a bat are homologous organs.<br><strong>R:</strong> They share the same basic skeletal plan inherited from a common ancestor, though used for different functions.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Same plan from a common ancestor is the definition of homology — R explains A." },
+            { "q": "<p><strong>A:</strong> Genetic drift has a greater effect in small populations.<br><strong>R:</strong> Random changes in allele frequency have a larger relative impact when the number of individuals is small.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Random sampling matters more in small populations — R explains A." },
+            { "q": "<p><strong>A:</strong> Lamarck's theory of inheritance of acquired characters is not accepted today.<br><strong>R:</strong> Characters acquired during an individual's lifetime are not passed into the germ cells, so they are not inherited.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Acquired traits not entering the germ line is exactly why Lamarckism is rejected — R explains A." },
+            { "q": "<p><strong>A:</strong> The Miller–Urey experiment supported the idea of chemical evolution.<br><strong>R:</strong> It showed that organic molecules like amino acids can form from inorganic gases under early-Earth conditions.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Forming organic molecules from inorganic gases is exactly the support for chemical evolution — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

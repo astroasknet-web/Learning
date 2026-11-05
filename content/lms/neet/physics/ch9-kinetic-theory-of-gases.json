@@ -1,0 +1,168 @@
+{
+  "exam": "neet",
+  "subject": "physics",
+  "chapter": 9,
+  "title": "Kinetic Theory of Gases",
+  "slug": "kinetic-theory-of-gases",
+  "subtitle": "Ideal gas equation, pressure of a gas, kinetic interpretation of temperature & equipartition",
+  "level": "NEET (UG)",
+  "color": "#2563eb",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "NEET Physics — Kinetic Theory of Gases: ideal gas equation, kinetic theory of pressure, rms speed, kinetic interpretation of temperature, degrees of freedom, equipartition of energy and mean free path, with NEET-level examples and MCQs. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Ideal Gas and the Kinetic Model",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Gas Laws and the Ideal Gas Equation",
+          "concept": "<p>An <strong>ideal gas</strong> is a simplified model in which molecules are treated as tiny, perfectly elastic point particles with no forces between them except during collisions. Real gases behave almost ideally at low pressure and high temperature, which is exactly the regime most NEET problems live in. The behaviour of such a gas is summarised by three experimental laws that combine into a single equation of state.</p><p><strong>Boyle's law</strong> says that at constant temperature pressure and volume are inversely related, $PV = \\text{constant}$. <strong>Charles's law</strong> says that at constant pressure volume is directly proportional to absolute temperature, $V \\propto T$. <strong>Gay-Lussac's law</strong> says that at constant volume pressure is proportional to absolute temperature, $P \\propto T$. Each requires temperature in <em>kelvin</em>, the most common slip in NEET calculations.</p><p>Combining the three gives the <strong>ideal gas equation</strong> $PV = nRT$, where $n$ is the number of moles and $R = 8.31\\ \\text{J mol}^{-1}\\text{K}^{-1}$ is the universal gas constant. Writing it per molecule gives $PV = NkT$, where $N$ is the number of molecules and $k = R/N_A = 1.38\\times10^{-23}\\ \\text{J K}^{-1}$ is <strong>Boltzmann's constant</strong>. These two forms are interchangeable and choosing the right one quickly is a useful exam habit.</p><p>The equation also captures <strong>Avogadro's law</strong> — equal volumes of gases at the same temperature and pressure contain equal numbers of molecules — and <strong>Dalton's law of partial pressures</strong>, which states that the total pressure of a non-reacting mixture is the sum of the pressures each gas would exert alone. Both appear regularly in NEET as one-line conceptual questions.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Law</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Relation (constant)</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Boyle's law</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$PV = $ const ($T$ fixed)</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Charles's law</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$V \\propto T$ ($P$ fixed)</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Gay-Lussac's law</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$P \\propto T$ ($V$ fixed)</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Ideal gas equation</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$PV = nRT = NkT$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A gas at $300\\ \\text{K}$ has volume $2\\ \\text{L}$ at constant pressure. What is its volume at $600\\ \\text{K}$?</p>",
+              "solution": "<p>Charles's law: $V \\propto T$, so $V_2 = V_1\\dfrac{T_2}{T_1} = 2\\times\\dfrac{600}{300} = 4\\ \\text{L}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>At constant temperature, a gas at pressure $P$ and volume $V$ is compressed to $V/4$. Find the new pressure.</p>",
+              "solution": "<p>Boyle's law: $P_1 V_1 = P_2 V_2$, so $P_2 = P\\dfrac{V}{V/4} = 4P$. Quartering the volume quadruples the pressure.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The ideal gas equation is:</p>", "options": ["$PV = nRT$", "$PV = nR/T$", "$P/V = nRT$", "$PVT = nR$"], "correct": 0, "explanation": "$PV = nRT$." },
+            { "q": "<p>Boyle's law holds at constant:</p>", "options": ["pressure", "volume", "temperature", "moles only"], "correct": 2, "explanation": "$PV = $ const at fixed $T$." },
+            { "q": "<p>Boltzmann's constant $k$ equals:</p>", "options": ["$R N_A$", "$R/N_A$", "$N_A/R$", "$R + N_A$"], "correct": 1, "explanation": "$k = R/N_A$." },
+            { "q": "<p>Equal volumes of gases at the same $T$ and $P$ contain equal numbers of molecules. This is:</p>", "options": ["Boyle's law", "Charles's law", "Avogadro's law", "Dalton's law"], "correct": 2, "explanation": "Avogadro's law." },
+            { "q": "<p>The total pressure of a non-reacting gas mixture equals the sum of partial pressures. This is:</p>", "options": ["Boyle's law", "Dalton's law", "Charles's law", "Gay-Lussac's law"], "correct": 1, "explanation": "Dalton's law of partial pressures." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Always use absolute (kelvin) temperature in the gas laws. Pick $PV = nRT$ for moles and $PV = NkT$ when the number of molecules is given.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Kinetic Theory of Pressure and rms Speed",
+          "concept": "<p>The triumph of the kinetic model is that it <em>derives</em> the gas laws from mechanics. Picture molecules in random motion, bouncing elastically off the container walls. Each collision transfers momentum to the wall, and the average rate of momentum transfer is the force, hence the pressure. Working this out gives the central result $P = \\dfrac{1}{3}\\dfrac{mN}{V}\\overline{v^{2}} = \\dfrac{1}{3}\\rho\\,\\overline{v^{2}}$, where $\\overline{v^{2}}$ is the mean square speed and $\\rho$ the density.</p><p>The square root of the mean square speed is the <strong>root-mean-square (rms) speed</strong>, the single most-used quantity here. Combining the pressure result with $PV = nRT$ gives $v_{rms} = \\sqrt{\\dfrac{3RT}{M}} = \\sqrt{\\dfrac{3kT}{m}}$, where $M$ is the molar mass and $m$ the mass of one molecule. Two consequences are tested constantly: rms speed rises with the square root of temperature, and at a given temperature lighter molecules move faster — which is why hydrogen and helium escape Earth's atmosphere while heavier gases stay.</p><p>It helps to distinguish three speeds that NEET likes to compare. The <strong>most probable speed</strong> $v_p = \\sqrt{2RT/M}$ is the speed at the peak of the distribution; the <strong>average speed</strong> $v_{avg} = \\sqrt{8RT/\\pi M}$; and the rms speed $v_{rms} = \\sqrt{3RT/M}$. Their fixed ordering $v_p < v_{avg} < v_{rms}$ is a frequently asked one-mark fact, and all three scale the same way with $\\sqrt{T/M}$.</p><p>A subtle but examinable point: pressure depends on the <em>mean square</em> speed, not on the square of the mean speed. Because faster molecules contribute disproportionately, the rms speed always slightly exceeds the simple average speed. The kinetic picture also explains diffusion, effusion (Graham's law, where rate $\\propto 1/\\sqrt{M}$), and why a gas exerts the same pressure in all directions.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Quantity</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Expression</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Pressure (kinetic)</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$P = \\dfrac{1}{3}\\rho\\,\\overline{v^{2}}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>rms speed</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$v_{rms} = \\sqrt{3RT/M}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Most probable speed</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$v_p = \\sqrt{2RT/M}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Average speed</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$v_{avg} = \\sqrt{8RT/\\pi M}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>By what factor does the rms speed of a gas change when its absolute temperature is increased four-fold?</p>",
+              "solution": "<p>$v_{rms} \\propto \\sqrt{T}$, so a four-fold rise in $T$ multiplies the rms speed by $\\sqrt{4} = 2$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>At the same temperature, compare the rms speeds of oxygen ($M = 32$) and hydrogen ($M = 2$).</p>",
+              "solution": "<p>$v_{rms} \\propto 1/\\sqrt{M}$, so $\\dfrac{v_{H_2}}{v_{O_2}} = \\sqrt{\\dfrac{32}{2}} = \\sqrt{16} = 4$. Hydrogen moves four times faster.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The pressure of an ideal gas is given by:</p>", "options": ["$P = \\rho\\,\\overline{v^{2}}$", "$P = \\tfrac{1}{3}\\rho\\,\\overline{v^{2}}$", "$P = \\tfrac{1}{2}\\rho\\,\\overline{v^{2}}$", "$P = 3\\rho\\,\\overline{v^{2}}$"], "correct": 1, "explanation": "$P = \\tfrac{1}{3}\\rho\\,\\overline{v^2}$." },
+            { "q": "<p>The rms speed of gas molecules is proportional to:</p>", "options": ["$T$", "$\\sqrt{T}$", "$T^{2}$", "$1/T$"], "correct": 1, "explanation": "$v_{rms} = \\sqrt{3RT/M} \\propto \\sqrt{T}$." },
+            { "q": "<p>At the same temperature, a lighter gas has an rms speed that is:</p>", "options": ["lower", "higher", "the same", "zero"], "correct": 1, "explanation": "$v_{rms} \\propto 1/\\sqrt{M}$ — lighter means faster." },
+            { "q": "<p>The correct ordering of molecular speeds is:</p>", "options": ["$v_{rms} < v_{avg} < v_p$", "$v_p < v_{avg} < v_{rms}$", "$v_{avg} < v_p < v_{rms}$", "all equal"], "correct": 1, "explanation": "$v_p < v_{avg} < v_{rms}$." },
+            { "q": "<p>Graham's law of effusion states the rate is proportional to:</p>", "options": ["$M$", "$\\sqrt{M}$", "$1/\\sqrt{M}$", "$1/M$"], "correct": 2, "explanation": "Rate $\\propto 1/\\sqrt{M}$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Memorise $v_{rms} = \\sqrt{3RT/M}$ and the ordering $v_p < v_{avg} < v_{rms}$. All three speeds scale as $\\sqrt{T/M}$.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Energy, Degrees of Freedom and Mean Free Path",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Kinetic Interpretation of Temperature and Equipartition",
+          "concept": "<p>Kinetic theory gives temperature a beautifully simple meaning. Comparing $P = \\tfrac{1}{3}\\rho\\,\\overline{v^{2}}$ with $PV = NkT$ shows that the average translational kinetic energy of a single molecule is $\\overline{E} = \\dfrac{3}{2}kT$. So <strong>absolute temperature is a direct measure of the average kinetic energy of molecules</strong> — at the same temperature, molecules of <em>every</em> gas have the same average translational kinetic energy, regardless of their mass. This is one of the most powerful one-line results in the chapter.</p><p>A consequence is that translational kinetic energy, and hence molecular motion, would cease at absolute zero ($0\\ \\text{K}$). Heavier molecules simply move more slowly to carry the same energy, which is the deeper reason behind the $1/\\sqrt{M}$ dependence of rms speed.</p><p>Molecules can store energy in more than just straight-line motion. A <strong>degree of freedom</strong> is an independent way a molecule can hold energy. A monatomic gas has $3$ translational degrees of freedom; a diatomic gas adds $2$ rotational ones (giving $5$ at ordinary temperatures), and more at high temperature when vibration switches on. The <strong>law of equipartition of energy</strong> states that each degree of freedom carries, on average, an energy $\\tfrac{1}{2}kT$ per molecule.</p><p>Equipartition fixes the specific heats. The internal energy per mole is $U = \\dfrac{f}{2}RT$ for $f$ degrees of freedom, giving $C_V = \\dfrac{f}{2}R$, $C_P = C_V + R$, and the ratio $\\gamma = \\dfrac{C_P}{C_V} = 1 + \\dfrac{2}{f}$. Hence $\\gamma = 5/3$ for a monatomic gas and $\\gamma = 7/5$ for a diatomic gas — values that appear directly in NEET adiabatic and specific-heat questions.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Gas type</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>$f$, $C_V$, $\\gamma$</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Monatomic</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$f = 3,\\ C_V = \\tfrac{3}{2}R,\\ \\gamma = \\tfrac{5}{3}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Diatomic</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$f = 5,\\ C_V = \\tfrac{5}{2}R,\\ \\gamma = \\tfrac{7}{5}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Energy per d.o.f.</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\tfrac{1}{2}kT$ per molecule</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the average translational kinetic energy of a molecule of any ideal gas at $300\\ \\text{K}$. ($k = 1.38\\times10^{-23}\\ \\text{J K}^{-1}$)</p>",
+              "solution": "<p>$\\overline{E} = \\dfrac{3}{2}kT = \\dfrac{3}{2}\\times(1.38\\times10^{-23})\\times300 \\approx 6.2\\times10^{-21}\\ \\text{J}$ — the same for every gas at this temperature.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What is the ratio $\\gamma = C_P/C_V$ for a diatomic gas (translational + rotational)?</p>",
+              "solution": "<p>With $f = 5$, $\\gamma = 1 + \\dfrac{2}{f} = 1 + \\dfrac{2}{5} = \\dfrac{7}{5} = 1.4$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The average translational KE of a molecule is:</p>", "options": ["$\\tfrac{1}{2}kT$", "$kT$", "$\\tfrac{3}{2}kT$", "$3kT$"], "correct": 2, "explanation": "$\\overline{E} = \\tfrac{3}{2}kT$." },
+            { "q": "<p>At the same temperature, the average KE of $\\text{H}_2$ and $\\text{O}_2$ molecules is:</p>", "options": ["greater for $\\text{H}_2$", "greater for $\\text{O}_2$", "equal", "zero"], "correct": 2, "explanation": "Average KE depends only on $T$, not on mass." },
+            { "q": "<p>Each degree of freedom contributes energy:</p>", "options": ["$kT$", "$\\tfrac{1}{2}kT$", "$\\tfrac{3}{2}kT$", "$2kT$"], "correct": 1, "explanation": "Equipartition: $\\tfrac{1}{2}kT$ per degree of freedom." },
+            { "q": "<p>A monatomic ideal gas has $\\gamma$ equal to:</p>", "options": ["$7/5$", "$5/3$", "$4/3$", "$3/2$"], "correct": 1, "explanation": "$f = 3 \\Rightarrow \\gamma = 1 + 2/3 = 5/3$." },
+            { "q": "<p>For a diatomic gas at ordinary temperature, the number of degrees of freedom is:</p>", "options": ["3", "5", "6", "7"], "correct": 1, "explanation": "3 translational + 2 rotational = 5." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Average KE $= \\tfrac{3}{2}kT$ is the same for all gases at a given $T$. Use $\\gamma = 1 + 2/f$: monatomic $5/3$, diatomic $7/5$.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Mean Free Path and Real Gases",
+          "concept": "<p>Although molecules travel fast — hundreds of metres per second at room temperature — a gas mixes slowly, because each molecule constantly collides with others and zig-zags rather than moving straight. The average distance a molecule travels between successive collisions is the <strong>mean free path</strong> $\\lambda = \\dfrac{1}{\\sqrt{2}\\,\\pi d^{2} n}$, where $d$ is the molecular diameter and $n$ the number of molecules per unit volume. The key NEET reading is the proportionality, not the constant in front.</p><p>The formula tells a clear physical story. The mean free path is <em>shorter</em> when the gas is denser (larger $n$) or the molecules are bigger (larger $d$), and <em>longer</em> at low density. Since $n = P/kT$, the mean free path increases with temperature at fixed pressure and decreases with pressure at fixed temperature — so in a good vacuum a molecule can travel a long way before hitting anything, which matters for vacuum technology and for how sound and heat move in thin gases.</p><p>This collision picture also explains transport phenomena: diffusion (transport of molecules), viscosity (transport of momentum) and thermal conduction in gases (transport of energy) all depend on the mean free path. A larger mean free path generally means faster transport, linking this topic back to the heat-transfer ideas of the previous chapter.</p><p>Finally, the ideal gas is only a model. <strong>Real gases</strong> deviate from $PV = nRT$ at high pressure and low temperature, where molecules are close enough for their finite size and mutual attraction to matter. The <strong>van der Waals equation</strong> corrects for both effects, and gases liquefy below a characteristic critical temperature — phenomena NEET treats qualitatively but which are worth recognising as the limits of the ideal model.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Factor</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Effect on mean free path $\\lambda$</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Number density $n$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\lambda \\propto 1/n$ (denser to shorter)</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Molecular diameter $d$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\lambda \\propto 1/d^{2}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Temperature (fixed $P$)</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\lambda \\propto T$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Pressure (fixed $T$)</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\lambda \\propto 1/P$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>How does the mean free path of a gas change if its pressure is doubled at constant temperature?</p>",
+              "solution": "<p>$\\lambda \\propto 1/n \\propto 1/P$ at constant $T$. Doubling the pressure halves the mean free path.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Under what conditions does a real gas behave most like an ideal gas?</p>",
+              "solution": "<p>At <strong>low pressure and high temperature</strong>, where molecules are far apart and intermolecular forces and finite size are negligible.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The mean free path of a gas molecule is:</p>", "options": ["the molecular diameter", "the average distance between collisions", "the container length", "the rms speed"], "correct": 1, "explanation": "Average distance travelled between successive collisions." },
+            { "q": "<p>The mean free path varies with number density $n$ as:</p>", "options": ["$\\lambda \\propto n$", "$\\lambda \\propto 1/n$", "$\\lambda \\propto n^{2}$", "independent of $n$"], "correct": 1, "explanation": "$\\lambda = 1/(\\sqrt{2}\\,\\pi d^2 n)$." },
+            { "q": "<p>At constant temperature, increasing pressure makes the mean free path:</p>", "options": ["longer", "shorter", "unchanged", "zero"], "correct": 1, "explanation": "$\\lambda \\propto 1/P$ at constant $T$." },
+            { "q": "<p>Real gases behave most ideally at:</p>", "options": ["high P, low T", "low P, high T", "high P, high T", "low P, low T"], "correct": 1, "explanation": "Low pressure and high temperature." },
+            { "q": "<p>The van der Waals equation corrects the ideal gas law for:</p>", "options": ["molecular speed", "finite molecular size and attraction", "temperature scale", "gravity"], "correct": 1, "explanation": "It accounts for molecular volume and intermolecular forces." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Read $\\lambda$ through its proportionalities: $\\lambda \\propto 1/n \\propto T/P$. Ideal behaviour is best at low pressure and high temperature.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-physics-ch9-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>The ideal gas equation per molecule is:</p>", "options": ["$PV = nRT$", "$PV = NkT$", "$PV = RT$", "$PV = kT$"], "correct": 1, "explanation": "$PV = NkT$ with $k = R/N_A$." },
+            { "q": "<p>At constant temperature, $P \\propto 1/V$ is:</p>", "options": ["Charles's law", "Boyle's law", "Gay-Lussac's law", "Avogadro's law"], "correct": 1, "explanation": "Boyle's law." },
+            { "q": "<p>The kinetic-theory expression for pressure is:</p>", "options": ["$P = \\tfrac{1}{3}\\rho\\,\\overline{v^{2}}$", "$P = \\rho\\,\\overline{v^{2}}$", "$P = \\tfrac{2}{3}\\rho\\,\\overline{v^{2}}$", "$P = \\tfrac{1}{2}\\rho\\,\\overline{v^{2}}$"], "correct": 0, "explanation": "$P = \\tfrac{1}{3}\\rho\\,\\overline{v^2}$." },
+            { "q": "<p>The rms speed of a gas at temperature $T$ is $v$. At $4T$ it becomes:</p>", "options": ["$2v$", "$4v$", "$v/2$", "$16v$"], "correct": 0, "explanation": "$v_{rms} \\propto \\sqrt{T}$; $\\sqrt{4} = 2$." },
+            { "q": "<p>The average translational KE per molecule depends only on:</p>", "options": ["mass", "pressure", "temperature", "volume"], "correct": 2, "explanation": "$\\overline{E} = \\tfrac{3}{2}kT$." },
+            { "q": "<p>For a monatomic gas, $C_V$ equals:</p>", "options": ["$\\tfrac{1}{2}R$", "$\\tfrac{3}{2}R$", "$\\tfrac{5}{2}R$", "$R$"], "correct": 1, "explanation": "$C_V = \\tfrac{f}{2}R = \\tfrac{3}{2}R$ for $f = 3$." },
+            { "q": "<p>The ratio $\\gamma$ for a diatomic gas is:</p>", "options": ["$5/3$", "$7/5$", "$4/3$", "$3/2$"], "correct": 1, "explanation": "$\\gamma = 1 + 2/5 = 7/5$." },
+            { "q": "<p>The mean free path is inversely proportional to:</p>", "options": ["temperature", "number density", "molecular speed", "volume"], "correct": 1, "explanation": "$\\lambda \\propto 1/n$." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> At the same temperature, hydrogen molecules move faster than oxygen molecules.<br><strong>R:</strong> At a given temperature, all gas molecules have the same average translational kinetic energy.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Equal average KE means lighter hydrogen must move faster ($v \\propto 1/\\sqrt{M}$) — R explains A." },
+            { "q": "<p><strong>A:</strong> The pressure of an ideal gas is proportional to the mean square speed of its molecules.<br><strong>R:</strong> Gas pressure arises from momentum transferred by molecules colliding with the walls.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "$P = \\tfrac{1}{3}\\rho\\,\\overline{v^2}$ follows from wall collisions transferring momentum — R explains A." },
+            { "q": "<p><strong>A:</strong> The internal energy of an ideal gas depends only on its temperature.<br><strong>R:</strong> An ideal gas has no intermolecular potential energy, so its energy is purely kinetic.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "With no intermolecular forces, energy is kinetic and set by $T$ alone — R explains A." },
+            { "q": "<p><strong>A:</strong> The mean free path of a gas increases when its pressure is raised at constant temperature.<br><strong>R:</strong> The mean free path is inversely proportional to the number density of molecules.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "Raising pressure raises $n$, so $\\lambda$ decreases — A is false; R is a true statement." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

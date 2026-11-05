@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": 26,
+  "title": "Amines",
+  "slug": "amines",
+  "subtitle": "Amines for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#22c55e",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "Master Amines for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Structure, Preparation, and Basicity",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Classification, Nomenclature, and Preparation",
+          "concept": "<p><strong>Amines:</strong> Organic derivatives of $NH_3$ where one or more H is replaced by alkyl/aryl groups.</p><p><strong>Classification (based on number of R groups on N):</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Structure</th><th>Example</th></tr></thead><tbody><tr><td><strong>Primary (1°)</strong></td><td>$R-NH_2$ (1 H replaced)</td><td>Methylamine ($CH_3NH_2$), aniline ($C_6H_5NH_2$)</td></tr><tr><td><strong>Secondary (2°)</strong></td><td>$R_2NH$ (2 H replaced)</td><td>Dimethylamine ($(CH_3)_2NH$), N-methylaniline</td></tr><tr><td><strong>Tertiary (3°)</strong></td><td>$R_3N$ (3 H replaced)</td><td>Trimethylamine ($(CH_3)_3N$), N,N-dimethylaniline</td></tr><tr><td><strong>Quaternary ammonium</strong></td><td>$R_4N^+X^-$</td><td>$(CH_3)_4N^+Cl^-$</td></tr></tbody></table><p>Also:</p><ul><li><strong>Aliphatic</strong> ($R$ = alkyl): methylamine, ethylamine</li><li><strong>Aromatic</strong> ($R$ = aryl): aniline ($C_6H_5NH_2$)</li><li><strong>Mixed:</strong> N-methylaniline ($C_6H_5NHCH_3$)</li></ul><p><strong>Structure:</strong> N is $sp^3$ hybridized; pyramidal (like $NH_3$); lone pair on N.</p><ul><li>Bond angle ~$107°$ (slightly less than tetrahedral due to lp-bp repulsion)</li></ul><p><strong>Nomenclature:</strong></p><table class=\"md-table\"><thead><tr><th>Compound</th><th>Common</th><th>IUPAC</th></tr></thead><tbody><tr><td>$CH_3NH_2$</td><td>Methylamine</td><td>Methanamine</td></tr><tr><td>$(CH_3)_2NH$</td><td>Dimethylamine</td><td>N-methylmethanamine</td></tr><tr><td>$(CH_3)_3N$</td><td>Trimethylamine</td><td>N,N-dimethylmethanamine</td></tr><tr><td>$C_6H_5NH_2$</td><td>Aniline</td><td>Benzenamine (or aniline accepted)</td></tr><tr><td>$C_6H_5NHCH_3$</td><td>N-methylaniline</td><td>N-methylbenzenamine</td></tr></tbody></table><p>Suffix: replace last 'e' of alkane with -amine. Substituents on N: prefix N-.</p><p><strong>Preparation:</strong></p><p><strong>1. Reduction of Nitro Compounds:</strong> $RNO_2 + 6[H] \\xrightarrow{Sn/HCl \\text{ or } Fe/HCl \\text{ or } H_2/Pt} RNH_2 + 2H_2O$</p><ul><li>For aniline: $C_6H_5NO_2 + 6[H] \\to C_6H_5NH_2 + 2H_2O$</li><li>Common reagents: $Sn + HCl$, $Fe + HCl$, $H_2/Ni$, $Zn/HCl$</li></ul><p><strong>2. Reduction of Nitriles ($RCN$):</strong> $RCN + 4[H] \\xrightarrow{Na/C_2H_5OH \\text{ or } LiAlH_4 \\text{ or } H_2/Ni} RCH_2NH_2$</p><ul><li>Adds one C; 1° amine</li><li>$CH_3CN \\to CH_3CH_2NH_2$ (ethylamine, from methyl cyanide)</li></ul><p><strong>3. Reduction of Amides:</strong> $RCONH_2 + 4[H] \\xrightarrow{LiAlH_4} RCH_2NH_2 + H_2O$</p><ul><li>Note: same number of C; 1° amine</li></ul><p><strong>4. Ammonolysis of Alkyl Halides (Hofmann's Method):</strong> $RX + NH_3 \\to RNH_2 + HX$ (further alkylation possible)</p><ul><li>Gives mix of $1°, 2°, 3°$ amines and quaternary salt</li><li>Order of reactivity: $RI > RBr > RCl$</li><li>Industrial way for simple amines</li></ul><p>Problems: over-alkylation. Solution: excess NH₃ for $1°$ amine; excess RX for higher amines.</p><p><strong>5. Hofmann Bromamide Degradation:</strong> $RCONH_2 + Br_2 + 4NaOH \\to RNH_2 + Na_2CO_3 + 2NaBr + 2H_2O$</p><ul><li>Amide → $1°$ amine with <strong>one fewer C</strong></li><li>Specific for $1°$ amine; no other isomers</li><li>e.g., $CH_3CH_2CONH_2 \\to CH_3CH_2NH_2$</li></ul><p><strong>6. Gabriel Phthalimide Synthesis:</strong> For pure $1°$ amines only.</p><ol><li>Potassium phthalimide + RX → N-alkyl phthalimide</li><li>Hydrolyze (or hydrazine — Ing-Manske) → $RNH_2$ + phthalic acid</li></ol><p>$\\text{Phthalimide}-K + RX \\to \\text{Phthalimide}-R \\xrightarrow{NaOH \\text{ or } NH_2NH_2} RNH_2 + \\text{phthalate}$</p><p>Limitations: Doesn't work with aryl halides (aryl C-X bond is unreactive in $S_N2$); doesn't give aryl amines.</p><p><strong>Physical Properties:</strong></p><ul><li>Lower amines: gases or liquids; pungent (fishy) smell</li><li>BP: $RNH_2$ > $R_2NH$ > $R_3N$ (more H-bonding with more N-H bonds)</li><li>BP order: $RNH_2 \\approx ROH > R_3N \\approx RH$ (alkanes)</li><li>Solubility: lower amines very soluble in water (H-bond with water); decreases with chain length</li><li>Aniline: oily liquid; turns brown on air exposure (auto-oxidation)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Predict products and identify if pure $1°$ amine: (a) $CH_3Br + NH_3$ (excess NH₃) (b) Gabriel phthalimide synthesis with $CH_3CH_2Br$.</p>",
+              "solution": "<p>(a) With excess NH₃: $CH_3Br + NH_3 \\to CH_3NH_2 + HBr$ (mostly $1°$, but some $2°, 3°$ also possible). (b) Gabriel: $CH_3CH_2Br$ + K-phthalimide → N-ethylphthalimide → hydrolyze → pure ethylamine ($CH_3CH_2NH_2$).</p><p><strong>Final Answer:</strong> Gabriel gives pure $1°$ amine; ammonolysis gives mix.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why doesn't Gabriel synthesis work for aniline?</p>",
+              "solution": "<p>Gabriel synthesis requires reaction of phthalimide-K with alkyl halide via $S_N2$. Aryl halides ($C_6H_5X$) don't undergo $S_N2$ due to:</p><ul><li>Partial double-bond character in C-Cl (resonance)</li><li>$sp^2$ C resistant to nucleophilic attack</li><li>Steric hindrance from ring planar arrangement</li></ul><p>Hence Gabriel can't make aryl amines.</p><p><strong>Final Answer:</strong> Aryl halides don't undergo $S_N2$ — Gabriel only makes aliphatic primary amines.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>$(CH_3)_3N$ is:</p>",
+              "options": [
+                "$1°$ amine",
+                "$2°$ amine",
+                "$3°$ amine",
+                "Quaternary"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Reduction of nitrobenzene gives:</p>",
+              "options": [
+                "Phenol",
+                "Aniline",
+                "Benzaldehyde",
+                "Toluene"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Gabriel synthesis cannot make:</p>",
+              "options": [
+                "Methylamine",
+                "Ethylamine",
+                "Aniline (aryl amine)",
+                "Propylamine"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Hofmann bromamide degradation gives:</p>",
+              "options": [
+                "Same C amine",
+                "Amine with $1$ fewer C",
+                "Acid",
+                "Alkene"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Reduction of $CH_3CN$ gives:</p>",
+              "options": [
+                "$CH_4$",
+                "Methylamine",
+                "Ethylamine ($CH_3CH_2NH_2$)",
+                "Acetonitrile salt"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Basicity of Amines (Gas vs Aqueous Phase)",
+          "concept": "<p><strong>Basicity:</strong> Ability to donate lone pair to H⁺. Lone pair on N is key.</p><p><strong>Comparison of Basicity:</strong></p><ul><li>Amines are weaker bases than NaOH, KOH</li><li>Amines are stronger bases than NH₃ (in general)</li><li>$pK_b$ (or $pK_a$ of conjugate acid) measures basicity</li></ul><p><strong>Factors Affecting Basicity:</strong></p><p><strong>1. Inductive Effect (+I from alkyl):</strong> Alkyl groups donate electrons through sigma bonds → increases electron density on N → makes N more basic. Predicted order: $3° > 2° > 1° > NH_3$.</p><p><strong>2. Resonance Effect:</strong> In aromatic amines, lone pair on N can delocalize into ring; reduces availability → less basic.</p><ul><li>Aniline < methylamine in basicity.</li></ul><p><strong>3. Steric Effect:</strong> Bulky groups around N prevent approach of H⁺ → decreases basicity. $(CH_3)_3N$ less basic than $(CH_3)_2NH$ in some scenarios.</p><p><strong>4. Solvation Effect (Aqueous):</strong> $1°$ amine cation ($RNH_3^+$) has more H's available for H-bonding with water → better solvated → more stable → more basic effective. $3°$ amine cation ($R_3NH^+$) has only one N-H; less solvated → less stable → less basic in water.</p><p><strong>Order of Basicity:</strong></p><p><strong>In Gas Phase (no solvation; only +I effect):</strong> $3° > 2° > 1° > NH_3$ $(CH_3)_3N > (CH_3)_2NH > CH_3NH_2 > NH_3$</p><p><strong>In Aqueous Solution (combines +I and solvation):</strong> Generally: $2° > 1° > 3° > NH_3$ $(CH_3)_2NH > CH_3NH_2 > (CH_3)_3N > NH_3$</p><p>(Sometimes $1° > 2° > 3°$ if bulky groups cause more steric and less solvation.)</p><p><strong>$pK_b$ values (aqueous, 25°C):</strong></p><table class=\"md-table\"><thead><tr><th>Amine</th><th>$pK_b$</th></tr></thead><tbody><tr><td>$NH_3$</td><td>$4.75$</td></tr><tr><td>$CH_3NH_2$</td><td>$3.36$</td></tr><tr><td>$(CH_3)_2NH$</td><td>$3.27$ (most basic)</td></tr><tr><td>$(CH_3)_3N$</td><td>$4.20$</td></tr><tr><td>Aniline</td><td>$9.42$ (very weak)</td></tr><tr><td>Pyridine</td><td>$8.85$</td></tr><tr><td>Picoline</td><td>$\\sim 8.0$</td></tr></tbody></table><p><strong>Basicity of Aromatic Amines:</strong></p><p>Aniline < methylamine because:</p><ol><li>Lone pair on N delocalized into benzene ring via <strong>resonance</strong> (mesomeric effect)</li><li>Lone pair less available for protonation</li><li>Conjugate acid (anilinium ion) loses this resonance stabilization → less stable → less basic</li></ol><p><strong>Substituent Effects on Aniline:</strong></p><table class=\"md-table\"><thead><tr><th>Substituent (at p-position)</th><th>Effect on Aniline Basicity</th></tr></thead><tbody><tr><td>$-NO_2$ (p)</td><td>Strongly decreases (EW)</td></tr><tr><td>$-CN$ (p)</td><td>Decreases</td></tr><tr><td>$-Cl$, $-Br$ (p)</td><td>Decreases slightly (EW dominates over +R)</td></tr><tr><td>$-CH_3$ (p)</td><td>Increases (ED)</td></tr><tr><td>$-OCH_3$ (p)</td><td>Increases (ED, +R)</td></tr><tr><td>$-NH_2$ (p)</td><td>Increases (ED, +R)</td></tr><tr><td>$-OH$ (p)</td><td>Increases</td></tr></tbody></table><p><strong>Effects in different positions:</strong></p><ul><li>p-toluidine ($p$-$CH_3$): more basic than aniline (+I)</li><li>p-nitroaniline: much less basic than aniline (-R, -I)</li><li>o-nitroaniline: weakest of three nitroanilines (ortho effect, H-bonding internal)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Arrange in increasing basicity (aqueous): $NH_3$, $CH_3NH_2$, $(CH_3)_2NH$, $(CH_3)_3N$.</p>",
+              "solution": "<p>In aqueous solution, considering both +I and solvation:</p><ul><li>$NH_3$: only H, full solvation of $NH_4^+$, but no +I (least basic by +I)</li><li>$CH_3NH_2$: $1°$ amine, +I from CH₃, good solvation of $CH_3NH_3^+$</li><li>$(CH_3)_2NH$: more +I, still 2 H's for solvation</li><li>$(CH_3)_3N$: most +I but only 1 N-H for solvation; poor stabilization of cation</li></ul><p>In aqueous: $NH_3 < (CH_3)_3N < CH_3NH_2 < (CH_3)_2NH$.</p><p><strong>Final Answer:</strong> $NH_3 < (CH_3)_3N < CH_3NH_2 < (CH_3)_2NH$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Arrange in increasing basicity: aniline, p-nitroaniline, p-toluidine, p-methoxyaniline.</p>",
+              "solution": "<p>EW groups decrease basicity; ED groups increase.</p><ul><li>p-nitroaniline: $-NO_2$ strongly EW → very weak base</li><li>aniline: standard</li><li>p-toluidine: $-CH_3$ mild ED → slightly more basic</li><li>p-methoxyaniline: $-OCH_3$ strong ED (+R) → most basic</li></ul><p>Order: p-nitroaniline < aniline < p-toluidine < p-methoxyaniline.</p><p><strong>Final Answer:</strong> p-nitroaniline < aniline < p-toluidine < p-methoxyaniline.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Most basic in gas phase:</p>",
+              "options": [
+                "$NH_3$",
+                "$CH_3NH_2$",
+                "$(CH_3)_2NH$",
+                "$(CH_3)_3N$ (gas phase, only +I)"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Most basic in aqueous solution:</p>",
+              "options": [
+                "$NH_3$",
+                "$CH_3NH_2$",
+                "$(CH_3)_2NH$ (typically)",
+                "$(CH_3)_3N$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Aniline is less basic than methylamine because:</p>",
+              "options": [
+                "Aryl bigger",
+                "Lone pair delocalized in ring (resonance)",
+                "Color",
+                "Solubility"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Most basic among:</p>",
+              "options": [
+                "Aniline",
+                "p-nitroaniline",
+                "p-toluidine",
+                "Methylamine (aliphatic, no resonance lock-up)"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Decrease in basicity from gas to aqueous of $(CH_3)_3N$ is due to:</p>",
+              "options": [
+                "Less solvation of $(CH_3)_3NH^+$",
+                "More H-bonding",
+                "Higher mass",
+                "Equilibrium"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Reactions of Amines",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Reactions of Aliphatic Amines and Tests",
+          "concept": "<p><strong>Reactions of Amines:</strong></p><p><strong>1. With Mineral Acids (Salt formation):</strong> $RNH_2 + HCl \\to RNH_3^+Cl^-$ (alkyl ammonium chloride)</p><ul><li>Salts soluble in water; amines extracted by acidic workup</li></ul><p><strong>2. Alkylation (Hofmann's Method):</strong> $RNH_2 + R'X \\to RR'NH + HX$ (→ further alkylation → $R_3N$ → $R_4N^+X^-$ quaternary salt)</p><ul><li>Gives mixture; isolated by fractional distillation/separation</li></ul><p><strong>3. Acylation (with acid chlorides or anhydrides):</strong> $RNH_2 + R'COCl \\to R'CONHR + HCl$ (amide; \"protected\" amine) $RNH_2 + (R'CO)_2O \\to R'CONHR + R'COOH$</p><ul><li>$3°$ amines don't acylate (no N-H)</li><li>Acetylation of aniline → acetanilide ($C_6H_5NHCOCH_3$) — used in some old drugs</li></ul><p><strong>4. Carbylamine Reaction (Isocyanide Test) — for $1°$ amines:</strong> $RNH_2 + CHCl_3 + 3KOH \\xrightarrow{\\Delta} RNC + 3KCl + 3H_2O$</p><ul><li>Gives <strong>isocyanide</strong> with very offensive smell</li><li>Specific test for $1°$ amines (both aliphatic and aromatic)</li><li>$2°$ and $3°$ amines don't give this</li></ul><p><strong>5. Hinsberg Test (with Benzenesulfonyl Chloride):</strong></p><ul><li>Distinguishes $1°, 2°, 3°$ amines.</li></ul><table class=\"md-table\"><thead><tr><th>Amine</th><th>With $C_6H_5SO_2Cl$ (Benzenesulfonyl chloride)</th><th>+ KOH (test)</th></tr></thead><tbody><tr><td>$1°$ ($RNH_2$)</td><td>$C_6H_5SO_2NHR$ (sulfonamide; one N-H still)</td><td>Soluble in KOH (acidic NH due to strong EW $SO_2$)</td></tr><tr><td>$2°$ ($R_2NH$)</td><td>$C_6H_5SO_2NR_2$ (no N-H)</td><td>Insoluble in KOH (precipitate)</td></tr><tr><td>$3°$ ($R_3N$)</td><td>Doesn't react (no N-H to displace)</td><td>Amine recovered</td></tr></tbody></table><p><strong>6. Reaction with Nitrous Acid (Diazotization):</strong></p><p><strong>(a) $1°$ Aliphatic amines</strong> + HNO₂ (cold) → unstable diazonium → loses $N_2$ → alcohol/alkene mix: $RNH_2 + HNO_2 \\xrightarrow{0-5°C} ROH + N_2 + H_2O$ (Diazonium too unstable at any T)</p><p><strong>(b) $1°$ Aromatic amines</strong> + HNO₂ at 0-5°C → stable arenediazonium salt: $ArNH_2 + HNO_2 + HCl \\xrightarrow{0-5°C} ArN_2^+Cl^- + 2H_2O$</p><ul><li>Stable below $5°C$ (called <strong>diazotization</strong>)</li></ul><p><strong>(c) $2°$ amines</strong> + HNO₂ → N-nitrosoamines (yellow oily; carcinogenic): $R_2NH + HNO_2 \\to R_2N-NO + H_2O$</p><p><strong>(d) $3°$ amines</strong> + HNO₂: only protonates (no reaction at N-H since none).</p><p><strong>7. Oxidation:</strong></p><ul><li>Aniline + chromic acid → mostly degradation products; benzoquinone with some oxidants</li><li>Aliphatic amines can give various products; not commonly used</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Distinguish among $CH_3CH_2NH_2$ (1°), $(CH_3)_2NH$ ($2°$), $(CH_3)_3N$ ($3°$).</p>",
+              "solution": "<p><strong>Test 1: Carbylamine reaction</strong> (with $CHCl_3$ + alc. KOH):</p><ul><li>Only $1°$ amine gives offensive isocyanide smell → $CH_3CH_2NH_2$ positive.</li><li>$(CH_3)_2NH$ and $(CH_3)_3N$ negative.</li></ul><p><strong>Test 2: Hinsberg test</strong> ($C_6H_5SO_2Cl$, then KOH):</p><ul><li>$(CH_3)_2NH$ gives a sulfonamide ($C_6H_5SO_2N(CH_3)_2$) insoluble in KOH.</li><li>$(CH_3)_3N$ doesn't react; can be recovered as amine.</li></ul><p><strong>Final Answer:</strong> Carbylamine + Hinsberg identifies all three.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Predict products: (a) $C_6H_5NH_2 + (CH_3CO)_2O$ (b) $C_6H_5NH_2 + Br_2/H_2O$</p>",
+              "solution": "<p>(a) Acylation: $C_6H_5NH_2 + (CH_3CO)_2O \\to C_6H_5NHCOCH_3$ (acetanilide) $+ CH_3COOH$.</p><p>(b) Aniline is highly activated for EAS by $-NH_2$ (+R, strong activator). $Br_2$/water gives tribrominated product: $C_6H_5NH_2 + 3Br_2 \\to 2,4,6$-tribromoaniline $+ 3HBr$ (white ppt).</p><p><strong>Final Answer:</strong> (a) Acetanilide; (b) 2,4,6-tribromoaniline.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Hinsberg reagent:</p>",
+              "options": [
+                "PCl₅",
+                "$C_6H_5SO_2Cl$",
+                "SOCl₂",
+                "AlCl₃"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Carbylamine test confirms:</p>",
+              "options": [
+                "Quaternary ammonium",
+                "$1°$ amine (alkyl or aryl)",
+                "$2°$ amine",
+                "$3°$ amine"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>With Hinsberg + KOH:</p>",
+              "options": [
+                "$1°$ amine sulfonamide soluble in KOH",
+                "$2°$ sulfonamide insoluble",
+                "$3°$ unreacted",
+                "All above"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Aniline + cold HNO₂/HCl:</p>",
+              "options": [
+                "Phenol",
+                "Diazonium salt ($C_6H_5N_2^+Cl^-$)",
+                "Nitrobenzene",
+                "No reaction"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$RNH_2 + (CH_3CO)_2O$ gives:</p>",
+              "options": [
+                "Amide",
+                "Ester",
+                "Alcohol",
+                "Aldehyde"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Diazonium Salts and Aromatic Amines",
+          "concept": "<p><strong>Aromatic Diazonium Salts ($ArN_2^+ X^-$):</strong> Extremely useful synthetic intermediates.</p><p><strong>Preparation (Diazotization):</strong> $ArNH_2 + HNO_2 + HCl \\xrightarrow{0-5°C} ArN_2^+Cl^- + 2H_2O$ (or $HNO_2$ generated in situ from $NaNO_2 + HCl$)</p><p>Conditions: low T (0-5°C); diazonium salt decomposes above 10°C.</p><p><strong>Reactions of Diazonium Salts</strong> (extremely versatile):</p><p><strong>A. Replacement of $N_2^+$ by Other Groups:</strong></p><p><strong>1. Sandmeyer Reaction:</strong> $ArN_2^+Cl^- + CuCl \\to ArCl + N_2 + CuCl$ $ArN_2^+Br^- + CuBr \\to ArBr + N_2 + CuBr$ $ArN_2^+Cl^- + CuCN \\to ArCN + N_2$</p><ul><li>Replaces $N_2^+$ with Cl, Br, or CN</li></ul><p><strong>2. Gattermann Reaction:</strong> Variant with Cu/HCl or Cu/HBr (cheaper than Sandmeyer's Cu(I) salts): $ArN_2^+Cl^- + Cu/HCl \\to ArCl + N_2 + CuCl$</p><p><strong>3. Replacement by -I:</strong> With KI: $ArN_2^+Cl^- + KI \\to ArI + N_2 + KCl$ (no catalyst needed; smooth)</p><p><strong>4. Replacement by -F (Schiemann):</strong> $ArN_2^+BF_4^- \\xrightarrow{\\Delta} ArF + N_2 + BF_3$</p><p><strong>5. Replacement by -OH (Hydrolysis):</strong> $ArN_2^+ + H_2O \\xrightarrow{warm} ArOH + N_2 + H^+$ (gives phenol; warm dilute acid solution)</p><p><strong>6. Replacement by -H (Deamination):</strong> $ArN_2^+ + H_3PO_2 \\to ArH + N_2 + H_3PO_3$ (or hypophosphorous acid; useful for removing $-NH_2$ from ring)</p><p><strong>7. Replacement by -NO₂:</strong> With Cu/NaNO₂.</p><p><strong>B. Azo Coupling Reactions (Retention of $N_2$):</strong></p><p>Diazonium ions are weak electrophiles; couple with strongly activated aromatics (phenols, anilines):</p><p>$ArN_2^+ + Ar'H \\to Ar-N=N-Ar' + H^+$</p><p><strong>Conditions:</strong></p><ul><li>With phenols: alkaline solution (pH 9-10): the phenoxide $Ar'O^-$ is highly activated; couples at para position.</li><li>With aromatic amines: acidic to neutral (pH 5-7): amine itself activated.</li></ul><p>Examples:</p><ul><li>Aniline + diazonium → orange dye (methyl orange in industry made from diazotized sulfanilic acid + N,N-dimethylaniline)</li><li>Phenol + diazonium → orange-red dye (p-hydroxyazobenzene)</li></ul><p><strong>Reactivity:</strong> Used in <strong>azo dyes</strong> industry (clothes, paper, food coloring).</p><p><strong>Importance of $ArN_2^+$:</strong> Convert $-NH_2$ to many functional groups (-OH, -X, -CN, -NO₂, -H, -Ar) — making it a versatile route in aromatic synthesis.</p><p><strong>Aromatic Amines Reactions Summary:</strong></p><p><strong>Aniline ($C_6H_5NH_2$) Properties:</strong></p><ol><li><strong>Lone pair on N donates to ring</strong> → strong activator, o/p director (for EAS).</li><li><strong>Less basic</strong> than aliphatic amines (resonance lock-up of lp).</li><li><strong>Cannot undergo Friedel-Crafts</strong> directly (Lewis acid forms complex with lone pair on N, deactivating ring).</li></ol><ul><li>Solution: protect $-NH_2$ as $-NHCOCH_3$ (acetanilide) first.</li></ul><p><strong>EAS on Aniline:</strong></p><ul><li>Bromination ($Br_2$/water): 2,4,6-tribromoaniline (uncontrolled; aniline very activated).</li><li>Mono-bromination requires acetanilide protection, then deprotection.</li><li>Nitration:</li><li>Direct $HNO_3 + H_2SO_4$: aniline gets protonated ($-NH_3^+$, m-director) → m-nitroaniline major (~50%) + o, p</li><li>To get p-nitroaniline: protect as acetanilide → nitrate → mostly para → hydrolyze.</li></ul><p><strong>Coupling reactions:</strong></p><ul><li>Aniline + nitrous acid → diazonium salt (then various reactions above)</li><li>Diazonium coupling with phenol/amine → azo dye</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Convert aniline to: (a) chlorobenzene (b) phenol (c) iodobenzene (d) fluorobenzene</p>",
+              "solution": "<p>All via diazonium salt intermediate: $C_6H_5NH_2 \\xrightarrow{HNO_2/HCl, 0-5°C} C_6H_5N_2^+Cl^-$ (a) Sandmeyer: + CuCl → $C_6H_5Cl + N_2$ (b) Hydrolyze: + $H_2O$/warm → $C_6H_5OH + N_2 + H^+$ (c) Direct: + KI → $C_6H_5I + N_2 + KCl$ (d) Schiemann: + $HBF_4$ → $C_6H_5N_2^+BF_4^-$ → $\\Delta$ → $C_6H_5F + N_2 + BF_3$.</p><p><strong>Final Answer:</strong> All via diazotization, then specific reagent.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why does coupling of $C_6H_5N_2^+$ work with phenol but only at right pH?</p>",
+              "solution": "<p>Coupling is EAS where $ArN_2^+$ is electrophile. Phenol's reactivity depends on pH:</p><ul><li><strong>In alkaline (pH 9-10):</strong> Phenol becomes $C_6H_5O^-$ (phenoxide). Strongly activated for EAS by $-O^-$ (strong +R donor). Couples at para position to give $p$-hydroxy azobenzene (orange dye).</li><li><strong>In strongly acidic (low pH):</strong> Phenol is mostly $C_6H_5OH$; not as activated. $ArN_2^+$ also less reactive.</li><li><strong>In strongly alkaline:</strong> $ArN_2^+$ converts to $ArN=N-OH$ (covalent diazohydroxide, not electrophilic).</li></ul><p>Optimal: slightly alkaline (pH 9-10).</p><p><strong>Final Answer:</strong> Need pH where phenoxide forms (good Nu) but diazonium remains ionic (still electrophile).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Sandmeyer reaction:</p>",
+              "options": [
+                "$ArN_2^+Cl^- + CuCl \\to ArCl + N_2$",
+                "$ArOH + Br_2$",
+                "$ArNH_2 + Cl_2$",
+                "$ArCl + KCN$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Schiemann reaction gives:</p>",
+              "options": [
+                "Aryl chloride",
+                "Aryl fluoride (via $HBF_4$)",
+                "Aryl iodide",
+                "Aryl alcohol"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Coupling of $ArN_2^+$ with phenol gives:</p>",
+              "options": [
+                "Azo dye (Ar-N=N-Ar')",
+                "Two ArOH",
+                "Diazo amino",
+                "No reaction"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Aniline + Friedel-Crafts:</p>",
+              "options": [
+                "Works fine",
+                "Fails (Lewis acid complexes with N lone pair)",
+                "Only with strong heating",
+                "Gives only para product"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Convert $C_6H_5NH_2$ to $C_6H_5OH$:</p>",
+              "options": [
+                "Direct heating",
+                "Diazotize then hydrolyze",
+                "NaOH treatment",
+                "Friedel-Crafts"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-chem-amines-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>$C_6H_5NHCH_3$ is:</p>",
+              "options": [
+                "$1°$ amine",
+                "$2°$ amine (1 H on N still)",
+                "$3°$ amine",
+                "Quaternary"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Strongest base in aqueous medium:</p>",
+              "options": [
+                "$NH_3$",
+                "Methylamine",
+                "Dimethylamine",
+                "Trimethylamine"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Gabriel phthalimide synthesis gives:</p>",
+              "options": [
+                "$3°$ amine",
+                "Pure $1°$ amine",
+                "$2°$ amine",
+                "Aromatic amine"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Carbylamine test reagent:</p>",
+              "options": [
+                "$CHCl_3 + KOH$ (alc)",
+                "NaOH",
+                "HCl",
+                "Cu/HCl"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Diazotization is done at:</p>",
+              "options": [
+                "Room T",
+                "$0-5°C$ (cold)",
+                "$100°C$",
+                "Reflux"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Aniline is less basic than methylamine because:</p>",
+              "options": [
+                "Larger size",
+                "Lone pair delocalized in ring (-R into benzene)",
+                "Steric",
+                "Mass"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Hinsberg test for $2°$ amine:</p>",
+              "options": [
+                "Soluble in KOH",
+                "Insoluble in KOH (no N-H in sulfonamide)",
+                "No reaction",
+                "Color test"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Anilinium sulfate is:</p>",
+              "options": [
+                "Strong acid",
+                "Salt of weak base (aniline) and strong acid",
+                "Salt of strong base",
+                "Neutral"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>p-Nitroaniline basicity vs aniline:</p>",
+              "options": [
+                "Weaker (EW group)",
+                "Stronger",
+                "Same",
+                "Cannot say"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Coupling of $ArN_2^+$ with $C_6H_5OH$ gives:</p>",
+              "options": [
+                "Yellow/orange azo dye",
+                "Brown solid",
+                "Black ppt",
+                "No reaction"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Number of H's on N in primary amine:</p>",
+              "answer": "2",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of H's on N in $(CH_3)_3N$:</p>",
+              "answer": "0",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of $1°$ amines from Gabriel synthesis (with one alkyl halide):</p>",
+              "answer": "1",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Aniline gives carbylamine reaction. <strong>Reason (R):</strong> Aniline is a primary amine; with CHCl₃/KOH it forms phenyl isocyanide.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> Diazonium salts are useful synthetic intermediates. <strong>Reason (R):</strong> They can be converted to a wide range of aromatic compounds (ArCl, ArBr, ArI, ArOH, ArCN, ArF, ArH, ArNO₂, ArAr) by various reactions.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

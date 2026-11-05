@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "physics",
+  "chapter": 8,
+  "title": "Thermodynamics",
+  "slug": "thermodynamics",
+  "subtitle": "Thermodynamics for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#14b8a6",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "Master Thermodynamics for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Laws of Thermodynamics",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Zeroth, First Law and Thermodynamic Processes",
+          "concept": "<p><strong>Zeroth Law:</strong> If two systems are each in thermal equilibrium with a third, they are in thermal equilibrium with each other (defines temperature).</p><p><strong>First Law of Thermodynamics:</strong> Energy conservation including heat. $$\\Delta Q = \\Delta U + \\Delta W$$ where $\\Delta Q$ = heat added to system, $\\Delta U$ = change in internal energy, $\\Delta W$ = work done <strong>by</strong> the system. <strong>Sign convention:</strong> $Q > 0$ if heat added; $W > 0$ if system does work on surroundings.</p><p>For an ideal gas: $\\Delta U = nC_V\\Delta T$ (depends only on temperature).</p><p>Work done in expansion: $W = \\int P\\,dV$ (area under P-V curve).</p><p><strong>Thermodynamic Processes (Quasi-static):</strong></p><table class=\"md-table\"><thead><tr><th>Process</th><th>Condition</th><th>$W$</th><th>$\\Delta U$</th><th>$Q$</th></tr></thead><tbody><tr><td><strong>Isothermal</strong></td><td>$T$ constant</td><td>$nRT \\ln(V_2/V_1)$</td><td>$0$</td><td>$W$</td></tr><tr><td><strong>Isobaric</strong></td><td>$P$ constant</td><td>$P\\Delta V = nR\\Delta T$</td><td>$nC_V\\Delta T$</td><td>$nC_P\\Delta T$</td></tr><tr><td><strong>Isochoric</strong></td><td>$V$ constant</td><td>$0$</td><td>$nC_V\\Delta T$</td><td>$\\Delta U$</td></tr><tr><td><strong>Adiabatic</strong></td><td>$Q = 0$</td><td>$-\\Delta U = \\dfrac{P_1V_1 - P_2V_2}{\\gamma-1}$</td><td>$nC_V\\Delta T$</td><td>$0$</td></tr><tr><td><strong>Cyclic</strong></td><td>Returns to initial state</td><td>$\\oint P\\,dV$ = area</td><td>$0$</td><td>$W$</td></tr></tbody></table><p><strong>Adiabatic relation:</strong> $PV^\\gamma = \\text{const}$; also $TV^{\\gamma-1} = \\text{const}$ and $TP^{(1-\\gamma)/\\gamma} = \\text{const}$, where $\\gamma = C_P/C_V$.</p><p><strong>Polytropic process:</strong> $PV^n = \\text{const}$, generalizing all of the above.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A gas absorbs $200$ J of heat and does $80$ J of work. Find the change in internal energy.</p>",
+              "solution": "<p>$$\\Delta U = Q - W = 200 - 80 = 120 \\text{ J}$$</p><p><strong>Final Answer:</strong> $\\Delta U = 120$ J.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>$1$ mole of an ideal monatomic gas expands isothermally at $T = 300$ K from volume $V$ to $2V$. Find work done. ($R = 8.314$ J/mol·K)</p>",
+              "solution": "<p>$$W = nRT \\ln(V_2/V_1) = 1 \\times 8.314 \\times 300 \\times \\ln 2$$ $$= 2494.2 \\times 0.693 \\approx 1729 \\text{ J}$$</p><p><strong>Final Answer:</strong> $W \\approx 1729$ J.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The first law of thermodynamics is statement of:</p>",
+              "options": [
+                "Newton's second law",
+                "Conservation of energy",
+                "Conservation of momentum",
+                "Equilibrium"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In an isothermal process, $\\Delta U$ is:</p>",
+              "options": [
+                "Maximum",
+                "Zero",
+                "Negative",
+                "Equal to $W$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In an adiabatic process, the relation between $P$ and $V$ is:</p>",
+              "options": [
+                "$PV = \\text{const}$",
+                "$P/V = \\text{const}$",
+                "$PV^\\gamma = \\text{const}$",
+                "$P^\\gamma V = \\text{const}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Work done by gas in cyclic process equals:</p>",
+              "options": [
+                "Internal energy change",
+                "Area enclosed by P-V loop",
+                "Always zero",
+                "Heat absorbed only"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>For ideal gas, internal energy is function of:</p>",
+              "options": [
+                "$P$",
+                "$V$",
+                "$T$",
+                "$PV$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Second Law, Entropy and Heat Engines",
+          "concept": "<p><strong>Second Law of Thermodynamics:</strong></p><ul><li><strong>Kelvin-Planck statement:</strong> No process can have its sole effect that of converting heat from a reservoir into work.</li><li><strong>Clausius statement:</strong> Heat cannot flow spontaneously from a colder to a hotter body.</li></ul><p><strong>Heat Engine:</strong> Converts heat into work cyclically. Absorbs $Q_1$ from hot reservoir at $T_1$, rejects $Q_2$ to cold reservoir at $T_2$, does work $W = Q_1 - Q_2$.</p><p><strong>Efficiency:</strong> $\\eta = \\dfrac{W}{Q_1} = 1 - \\dfrac{Q_2}{Q_1}$.</p><p><strong>Carnot Engine:</strong> Reversible engine operating between two reservoirs. Maximum efficiency: $$\\eta_{\\text{Carnot}} = 1 - \\frac{T_2}{T_1}$$ ($T$ in Kelvin). Carnot cycle: isothermal expansion → adiabatic expansion → isothermal compression → adiabatic compression.</p><p><strong>Refrigerator (heat pump in reverse):</strong> Extracts $Q_2$ from cold reservoir, supplies $W$, rejects $Q_1$ to hot reservoir.</p><p><strong>Coefficient of Performance (COP):</strong> $$\\text{COP}_{\\text{refrigerator}} = \\frac{Q_2}{W} = \\frac{Q_2}{Q_1-Q_2} = \\frac{T_2}{T_1-T_2}$$</p><p><strong>Entropy</strong> $S$: state function whose change is $\\Delta S = \\int dQ_{\\text{rev}}/T$. For reversible process: $\\Delta S_{\\text{universe}} = 0$. For irreversible: $\\Delta S_{\\text{universe}} > 0$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A Carnot engine operates between $T_1 = 500$ K and $T_2 = 300$ K. Find efficiency and work done when $1000$ J of heat is absorbed.</p>",
+              "solution": "<p>$$\\eta = 1 - \\frac{300}{500} = 0.4 = 40\\%$$ $$W = \\eta Q_1 = 0.4 \\times 1000 = 400 \\text{ J}$$</p><p><strong>Final Answer:</strong> $\\eta = 40\\%$, $W = 400$ J.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A refrigerator works between $-3°$C and $27°$C. Find the COP.</p>",
+              "solution": "<p>$T_2 = 270$ K, $T_1 = 300$ K. $$\\text{COP} = \\frac{T_2}{T_1 - T_2} = \\frac{270}{30} = 9$$</p><p><strong>Final Answer:</strong> COP = $9$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Maximum efficiency of any heat engine between $T_1$ and $T_2$:</p>",
+              "options": [
+                "$T_2/T_1$",
+                "$1 - T_2/T_1$",
+                "$T_1/T_2$",
+                "$T_1 - T_2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A Carnot engine has efficiency $25\\%$. To double the efficiency, the sink temperature should be (source at $T_1 = 400$ K):</p>",
+              "options": [
+                "Same",
+                "Halved",
+                "$200$ K",
+                "$100$ K"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Second law of thermodynamics implies:</p>",
+              "options": [
+                "Heat flows from cold to hot spontaneously",
+                "Some heat is always rejected to a cold reservoir",
+                "All heat can be converted to work",
+                "Entropy decreases in isolated system"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Coefficient of performance of refrigerator is greatest when:</p>",
+              "options": [
+                "Both reservoirs at high T",
+                "Both reservoirs close in T",
+                "Cold reservoir very cold",
+                "Hot reservoir very hot"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Entropy of isolated system in irreversible process:</p>",
+              "options": [
+                "Decreases",
+                "Remains constant",
+                "Increases",
+                "May increase or decrease"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kinetic Theory of Gases",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Ideal Gas, Pressure and Temperature",
+          "concept": "<p><strong>Ideal Gas Equation:</strong> $PV = nRT = NkT$, where $n$ = moles, $N$ = molecules, $k = R/N_A = 1.38 \\times 10^{-23}$ J/K (Boltzmann constant), $N_A = 6.022 \\times 10^{23}$.</p><p><strong>Pressure of Ideal Gas</strong> (kinetic interpretation): $$P = \\frac{1}{3}\\rho \\overline{v^2} = \\frac{1}{3}\\frac{N}{V}m\\overline{v^2} = \\frac{2}{3}\\frac{N}{V} \\cdot \\frac{1}{2}m\\overline{v^2}$$</p><p>This gives mean translational KE per molecule: $$\\overline{KE}_{\\text{trans}} = \\frac{3}{2}kT$$</p><p><strong>Mean Speeds</strong> of gas molecules at temperature $T$:</p><table class=\"md-table\"><thead><tr><th>Speed type</th><th>Formula</th><th>Value at $300$ K (N₂)</th></tr></thead><tbody><tr><td><strong>RMS speed</strong> $v_{\\text{rms}}$</td><td>$\\sqrt{3RT/M} = \\sqrt{3kT/m}$</td><td>$517$ m/s</td></tr><tr><td><strong>Mean speed</strong> $\\bar v$</td><td>$\\sqrt{8RT/(\\pi M)}$</td><td>$476$ m/s</td></tr><tr><td><strong>Most probable</strong> $v_p$</td><td>$\\sqrt{2RT/M}$</td><td>$422$ m/s</td></tr></tbody></table><p>Ratio: $v_p : \\bar v : v_{\\text{rms}} = \\sqrt{2} : \\sqrt{8/\\pi} : \\sqrt{3} \\approx 1 : 1.128 : 1.225$.</p><p><strong>Maxwell-Boltzmann Distribution:</strong> Speeds of molecules follow: $$f(v) = 4\\pi n\\left(\\frac{m}{2\\pi kT}\\right)^{3/2} v^2 e^{-mv^2/(2kT)}$$</p><p><strong>Gas Laws</strong> (special cases of ideal gas equation):</p><ul><li>Boyle's law (T const): $PV = \\text{const}$</li><li>Charles's law (P const): $V/T = \\text{const}$</li><li>Gay-Lussac's law (V const): $P/T = \\text{const}$</li><li>Avogadro's law: equal volumes contain equal molecules at same $P, T$</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the RMS speed of nitrogen molecules at $27°$C. ($M_{N_2} = 28$ g/mol, $R = 8.314$ J/mol·K)</p>",
+              "solution": "<p>$T = 300$ K, $M = 28 \\times 10^{-3}$ kg/mol. $$v_{\\text{rms}} = \\sqrt{\\frac{3RT}{M}} = \\sqrt{\\frac{3 \\times 8.314 \\times 300}{0.028}}$$ $$= \\sqrt{\\frac{7482.6}{0.028}} = \\sqrt{267235} \\approx 517 \\text{ m/s}$$</p><p><strong>Final Answer:</strong> $v_{\\text{rms}} \\approx 517$ m/s.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>At what temperature will the RMS speed of hydrogen molecules be the same as nitrogen at $27°$C? ($M_{H_2} = 2$, $M_{N_2} = 28$)</p>",
+              "solution": "<p>$v_{\\text{rms}} = \\sqrt{3RT/M}$. Equal speeds: $$\\sqrt{T_H/M_H} = \\sqrt{T_N/M_N}$$ $$T_H = T_N \\cdot \\frac{M_H}{M_N} = 300 \\times \\frac{2}{28} = \\frac{600}{28} \\approx 21.4 \\text{ K}$$</p><p><strong>Final Answer:</strong> $T_H \\approx 21.4$ K ($\\approx -252°$C).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The kinetic energy per mole of a gas at temperature $T$ is:</p>",
+              "options": [
+                "$RT$",
+                "$\\dfrac{3}{2}RT$",
+                "$\\dfrac{1}{2}kT$",
+                "$\\dfrac{3}{2}kT$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>RMS speed of a gas molecule is proportional to:</p>",
+              "options": [
+                "$T$",
+                "$\\sqrt{T}$",
+                "$T^2$",
+                "$1/T$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>At constant temperature, doubling the pressure on a gas:</p>",
+              "options": [
+                "Doubles its volume",
+                "Halves its volume",
+                "Quadruples its volume",
+                "No change"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The Boltzmann constant has units of:</p>",
+              "options": [
+                "J",
+                "J/K",
+                "J·K",
+                "J/mol·K"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The ratio of most probable to RMS speeds is:</p>",
+              "options": [
+                "$1:1$",
+                "$\\sqrt{2}:\\sqrt{3}$",
+                "$\\sqrt{3}:\\sqrt{2}$",
+                "$1:2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Specific Heats, Degrees of Freedom and Mean Free Path",
+          "concept": "<p><strong>Degrees of Freedom</strong> $f$: independent ways a molecule can store energy.</p><ul><li>Monatomic (e.g., He, Ar): $f = 3$ (translational only)</li><li>Diatomic (e.g., $O_2, N_2$) at moderate T: $f = 5$ (3 trans + 2 rot)</li><li>Diatomic at high T: $f = 7$ (+ 2 vibrational)</li><li>Polyatomic (non-linear): $f = 6$</li></ul><p><strong>Equipartition theorem:</strong> Each quadratic degree of freedom contributes $\\dfrac{1}{2}kT$ to mean energy per molecule.</p><p><strong>Internal energy:</strong> $U = \\dfrac{f}{2}nRT$.</p><p><strong>Molar Specific Heats:</strong></p><table class=\"md-table\"><thead><tr><th>Gas type</th><th>$C_V = \\dfrac{f}{2}R$</th><th>$C_P = C_V + R = \\dfrac{f+2}{2}R$</th><th>$\\gamma = C_P/C_V$</th></tr></thead><tbody><tr><td>Monatomic</td><td>$\\dfrac{3}{2}R$</td><td>$\\dfrac{5}{2}R$</td><td>$\\dfrac{5}{3} \\approx 1.67$</td></tr><tr><td>Diatomic (rigid)</td><td>$\\dfrac{5}{2}R$</td><td>$\\dfrac{7}{2}R$</td><td>$\\dfrac{7}{5} = 1.4$</td></tr><tr><td>Polyatomic</td><td>$3R$</td><td>$4R$</td><td>$\\dfrac{4}{3} \\approx 1.33$</td></tr></tbody></table><p><strong>Mayer's Relation:</strong> $C_P - C_V = R$.</p><p><strong>Mean Free Path:</strong> Average distance a molecule travels between collisions. $$\\lambda = \\frac{1}{\\sqrt{2}\\pi d^2 n}$$ where $d$ = molecular diameter, $n$ = molecules per unit volume. $\\lambda \\propto 1/P$ at constant $T$.</p><p><strong>Mixture of gases:</strong> Effective $C_V$ for mixture of $n_1$ moles ($C_{V_1}$) and $n_2$ moles ($C_{V_2}$): $$C_V^{\\text{mix}} = \\frac{n_1 C_{V_1} + n_2 C_{V_2}}{n_1 + n_2}$$</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find $C_P, C_V, \\gamma$ for diatomic gas ($f = 5$) in terms of $R$.</p>",
+              "solution": "<ul><li>$C_V = \\dfrac{5}{2}R$</li><li>$C_P = C_V + R = \\dfrac{7}{2}R$</li><li>$\\gamma = C_P/C_V = 7/5 = 1.4$</li></ul><p><strong>Final Answer:</strong> $C_V = 5R/2$, $C_P = 7R/2$, $\\gamma = 1.4$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A mixture contains $2$ moles He ($\\gamma = 5/3$) and $3$ moles N₂ ($\\gamma = 7/5$). Find $\\gamma$ of mixture.</p>",
+              "solution": "<p>$C_{V,He} = 3R/2$, $C_{V,N_2} = 5R/2$. $$C_V^{\\text{mix}} = \\frac{2(3R/2) + 3(5R/2)}{5} = \\frac{3R + 7.5R}{5} = \\frac{10.5R}{5} = 2.1R$$ $C_P^{\\text{mix}} = C_V + R = 3.1R$. So $\\gamma = 3.1/2.1 \\approx 1.476$.</p><p><strong>Final Answer:</strong> $\\gamma_{\\text{mix}} \\approx 1.48$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>For a monatomic gas, $\\gamma$ is:</p>",
+              "options": [
+                "$1.0$",
+                "$1.4$",
+                "$1.67$",
+                "$2.0$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The value of $C_P - C_V$ for an ideal gas is:</p>",
+              "options": [
+                "$R$",
+                "$R/2$",
+                "$2R$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Degrees of freedom of a diatomic molecule at low temperature (rigid rotator):</p>",
+              "options": [
+                "$3$",
+                "$5$",
+                "$6$",
+                "$7$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Mean free path depends on:</p>",
+              "options": [
+                "Pressure only",
+                "Temperature only",
+                "Both",
+                "Mass only"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>According to equipartition theorem, each degree of freedom has average energy:</p>",
+              "options": [
+                "$kT$",
+                "$kT/2$",
+                "$3kT/2$",
+                "$RT/2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-phys-thermodynamics-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>An ideal gas undergoes a cyclic process $A \\to B \\to A$. Total $\\Delta U$:</p>",
+              "options": [
+                "Equal to $Q$",
+                "Equal to $-W$",
+                "Zero",
+                "Equal to $Q-W$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The work done in compressing a gas adiabatically from $V_1, P_1$ to $V_2, P_2$:</p>",
+              "options": [
+                "$(P_2V_2 - P_1V_1)/(\\gamma-1)$",
+                "$(P_1V_1 - P_2V_2)/(\\gamma-1)$",
+                "$nRT \\ln(V_1/V_2)$",
+                "$P(V_2 - V_1)$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Carnot's theorem implies:</p>",
+              "options": [
+                "No engine is more efficient than Carnot",
+                "All engines are equal",
+                "Some engines exceed Carnot",
+                "Carnot is irreversible"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The change in internal energy when $1$ mole of monatomic ideal gas is heated from $300$ K to $400$ K:</p>",
+              "options": [
+                "$300R$",
+                "$150R$",
+                "$500R$",
+                "$100R$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The kinetic energy of $1$ mole of nitrogen at $T$ K:</p>",
+              "options": [
+                "$(3/2)RT$",
+                "$(5/2)RT$",
+                "$(7/2)RT$",
+                "$RT$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The pressure of $2$ moles of an ideal gas at $300$ K in a container of $24.93$ L is:</p>",
+              "options": [
+                "$10^5$ Pa",
+                "$2 \\times 10^5$ Pa",
+                "$0.5 \\times 10^5$ Pa",
+                "$4 \\times 10^5$ Pa"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The RMS speeds of O₂ and H₂ at same temperature are in ratio:</p>",
+              "options": [
+                "$1:1$",
+                "$1:4$",
+                "$1:16$",
+                "$1:\\sqrt{16} = 1:4$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>For an adiabatic process, the slope of $P-V$ curve compared to isothermal:</p>",
+              "options": [
+                "Same",
+                "Steeper (more negative)",
+                "Flatter",
+                "Positive"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A heat engine receives $Q_1$ at $400$ K, rejects $Q_2$ at $300$ K. For Carnot, $Q_2/Q_1$:</p>",
+              "options": [
+                "$3/4$",
+                "$4/3$",
+                "$1/2$",
+                "$2/3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The molar heat capacity at constant pressure ($C_P$) for a diatomic gas:</p>",
+              "options": [
+                "$3R/2$",
+                "$5R/2$",
+                "$7R/2$",
+                "$4R$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>A Carnot engine operates between $T_1 = 600$ K and $T_2 = 300$ K. Its efficiency (in %):</p>",
+              "answer": "50",
+              "explanation": ""
+            },
+            {
+              "q": "<p>The ratio of $\\gamma$ for monatomic to that for diatomic gas, multiplied by $10$, is the integer:</p>",
+              "answer": "12",
+              "explanation": ""
+            },
+            {
+              "q": "<p>The translational KE per molecule of an ideal gas at $300$ K, in units of $10^{-21}$ J (rounded):</p>",
+              "answer": "6",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> The internal energy of an ideal gas depends only on its temperature. <strong>Reason (R):</strong> There are no intermolecular forces in an ideal gas.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> A Carnot engine cannot have $100\\%$ efficiency unless the cold reservoir is at $0$ K. <strong>Reason (R):</strong> Efficiency of Carnot engine is $1 - T_2/T_1$.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

@@ -1,0 +1,872 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": 2,
+  "title": "Sets",
+  "slug": "sets",
+  "subtitle": "Sets and Set Theory",
+  "level": "JEE Main & Advanced",
+  "color": "#0ea5e9",
+  "icon": "math",
+  "seo": {
+    "meta_description": "Master Sets for JEE Main & Advanced on GrowQR: in-depth notes, solved examples, self-check MCQs and full mock tests. Free, forever."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Foundations of Set Theory",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Definition and Representations of Sets",
+          "concept": "<p>A set is a well-defined collection of distinct objects, meaning that a clear mathematical rule determines whether any given element belongs to the set. Sets are conventionally represented in two forms: <strong>Roster (Tabular) Form</strong>, where all elements are explicitly listed inside curly brackets separated by commas, and <strong>Set-Builder Form</strong>, where elements are described by their defining mathematical property, written as $A = \\{x : P(x)\\}$. A common conceptual pitfall in JEE is overlooking the structural constraints placed on variables within set-builder notation (such as domain restrictions like $x \\in \\mathbb{Z}$ versus $x \\in \\mathbb{R}$), which dramatically changes the cardinality of the set.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Express the set $A = \\{x \\in \\mathbb{Z} : |2x - 3| \\le 5\\}$ in roster form and find its cardinality.</p>",
+              "solution": "<p>To determine the elements of set $A$, we must solve the absolute value inequality within the domain of integers ($\\mathbb{Z}$):\n \\[ |2x - 3| \\le 5 \\implies -5 \\le 2x - 3 \\le 5 \\]\n Add $3$ across all parts of the compound inequality:\n \\[ -2 \\le 2x \\le 8 \\]\n Divide the inequality by $2$:\n \\[ -1 \\le x \\le 4 \\]\n Since $x \\in \\mathbb{Z}$, extract all integers that lie within this closed interval:\n \\[ x \\in \\{-1, 0, 1, 2, 3, 4\\} \\]\n Listing these elements inside curly braces gives the roster form of the set:\n \\[ A = \\{-1, 0, 1, 2, 3, 4\\} \\]\n Counting the distinct elements, we find the cardinality $|A| = 6$.\n <strong>Final Answer:</strong> $A = \\{-1, 0, 1, 2, 3, 4\\}$ with cardinality $6$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Write the set $B = \\left\\{\\frac{1}{2}, \\frac{2}{5}, \\frac{3}{10}, \\frac{4}{17}, \\frac{5}{26}\\right\\}$ in standard set-builder notation.</p>",
+              "solution": "Let us analyze the relationship between the numerators and denominators of the given fractions:\n <ul>\n <li>Term 1: $\\frac{1}{2} = \\frac{1}{1^2 + 1}$\n <li>Term 2: $\\frac{2}{5} = \\frac{2}{2^2 + 1}$\n <li>Term 3: $\\frac{3}{10} = \\frac{3}{3^2 + 1}$\n <li>Term 4: $\\frac{4}{17} = \\frac{4}{4^2 + 1}$\n <li>Term 5: $\\frac{5}{26} = \\frac{5}{5^2 + 1}$\n </ul>\n We can observe a clear structural pattern where each term is of the algebraic form $\\frac{n}{n^2 + 1}$. The parameter $n$ takes consecutive integer values from $1$ up to $5$. We restrict $n$ to the set of natural numbers ($\\mathbb{N}$).\n Thus, writing this rule in standard set-builder format:\n \\[ B = \\left\\{x : x = \\frac{n}{n^2 + 1}, \\ n \\in \\mathbb{N} \\text{ and } 1 \\le n \\le 5\\right\\} \\]\n <strong>Final Answer:</strong> $\\left\\{x : x = \\frac{n}{n^2 + 1}, n \\in \\mathbb{N} \\text{ and } 1 \\le n \\le 5\\right\\}$."
+            },
+            {
+              "number": 3,
+              "problem": "<p>Let $X = \\{x \\in \\mathbb{R} : x^2 - 5x + 6 = 0\\}$ and $Y = \\{x \\in \\mathbb{Z} : x^2 - 5x + 6 = 0\\}$. Determine whether these sets are identical or different under their respective domain rules.</p>",
+              "solution": "First, let us solve the underlying quadratic equation which defines the elements for both sets:\n \\[ x^2 - 5x + 6 = 0 \\implies (x-2)(x-3) = 0 \\implies x = 2 \\text{ or } x = 3 \\]\n Now, evaluate these solutions against the specific domain constraints of each set:\n <ul>\n <li>For Set $X$: The constraint is $x \\in \\mathbb{R}$ (Real Numbers). Since both $2$ and $3$ are real numbers, $X = \\{2, 3\\}$.\n <li>For Set $Y$: The constraint is $x \\in \\mathbb{Z}$ (Integers). Since both $2$ and $3$ are integers, $Y = \\{2, 3\\}$.\n </ul>\n Comparing the two collections, all elements are identical, so $X = Y$. (Note: If the solution contained a fraction like $x = \\frac{1}{2}$, it would belong to $X$ but be excluded from $Y$).\n <strong>Final Answer:</strong> The sets are completely identical ($X = Y = \\{2, 3\\}$)."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The roster representation of the set $S = \\{x \\in \\mathbb{R} : x^2 + 1 = 0\\}$ is:",
+              "options": [
+                "$\\{i, -i\\}$",
+                "$\\{1, -1\\}$",
+                "$\\emptyset$",
+                "$\\{0\\}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Let $A = \\{x \\in \\mathbb{Z} : x^2 < 10\\}$. The total number of elements inside set $A$ is:",
+              "options": [
+                "$3$",
+                "$4$",
+                "$6$",
+                "$7$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "Which of the following collections cannot be defined as a mathematically valid set?",
+              "options": [
+                "All prime numbers less than $100$",
+                "All the roots of the equation $x^3 - x = 0$",
+                "The collection of all difficult questions in a mathematics textbook",
+                "All real numbers satisfying $\\sin x = 0$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If a set is defined in set-builder form as $M = \\{x \\in \\mathbb{R} : 0 < x < 1\\}$, its roster representation:",
+              "options": [
+                "Is written as $\\{0.1, 0.2, 0.3, \\dots\\}$",
+                "Is written as $\\{0, 1\\}$",
+                "Cannot be listed explicitly in roster form because the set contains infinitely many uncountably dense elements",
+                "Is an empty bracket $\\emptyset$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The set-builder format $\\{x : x \\text{ is a letter in the word `U DGAM'}\\}$ matches a roster set of cardinality:",
+              "options": [
+                "$5$",
+                "$6$",
+                "$4$",
+                "$1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Types of Sets, Subsets and Cardinality",
+          "concept": "<p>Sets are structurally categorized based on their element counts. The <strong>Empty Set</strong> ($\\emptyset$ or $\\{\\}$) contains $0$ elements. A <strong>Singleton Set</strong> contains exactly $1$ element. <strong>Finite Sets</strong> have a countable cardinality $n \\in \\mathbb{N}_0$, while <strong>Infinite Sets</strong> cannot be fully counted. Set $A$ is a <strong>Subset</strong> of $B$ ($A \\subseteq B$) if every element in $A$ also belongs to $B$. If $A \\subseteq B$ and $A \\neq B$, then $A$ is a <strong>Proper Subset</strong> ($A \\subset B$). A common mistake in advanced questions is confusing element membership ($\\in$) with subset containment ($\\subseteq$), especially when sets contain other sets as elements (e.g., if $A = \\{1, \\{2\\}\\}$, then $\\{2\\} \\in A$ but $\\{2\\} \\not\\subseteq A$).</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Let $A = \\{1, 2, \\{3, 4\\}, 5\\}$. Determine whether the following structural statements are true or false: (a) $\\{3, 4\\} \\subseteq A$, (b) $\\{3, 4\\} \\in A$, and (c) $\\{\\{3, 4\\}\\} \\subseteq A$.</p>",
+              "solution": "Let us analyze the elements belonging to set $A$. The distinct elements inside $A$ are: the integer $1$, the integer $2$, the compound set item $\\{3, 4\\}$, and the integer $5$.\n <ul>\n <li>Statement (a): $\\{3, 4\\} \\subseteq A$. For this to be true, the components $3$ and $4$ must be individual elements of $A$. Looking at our list, neither $3$ nor $4$ is an independent element of $A$. Therefore, this statement is <strong>False</strong>.\n <li>Statement (b): $\\{3, 4\\} \\in A$. This statement asserts that the set object $\\{3, 4\\}$ is an explicit element of $A$. This matches our list perfectly. Therefore, this statement is <strong>True</strong>.\n <li>Statement (c): $\\{\\{3, 4\\}\\} \\subseteq A$. This subset statement is true if the element inside the outer braces, which is the object $\\{3, 4\\}$, belongs to $A$. Since $\\{3, 4\\} \\in A$ is true from part (b), this containment statement is <strong>True</strong>.\n </ul>\n <strong>Final Answer:</strong> (a) False, (b) True, (c) True."
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the total number of subsets and proper subsets of the set $X = \\{x \\in \\mathbb{Z} : x^2 - x - 2 = 0\\}$.</p>",
+              "solution": "First, find the elements of set $X$ by solving the quadratic equation within the domain of integers:\n \\[ x^2 - x - 2 = 0 \\implies (x-2)(x+1) = 0 \\implies x = 2 \\text{ or } x = -1 \\]\n Since both solutions are valid integers, write $X$ in roster form:\n \\[ X = \\{-1, 2\\} \\]\n The cardinality of set $X$ is $n = |X| = 2$.\n Now apply the combinations and cardinality formulas:\n <ul>\n <li>Total number of subsets $= 2^n = 2^2 = 4$. (The subsets are $\\emptyset$, $\\{-1\\}$, $\\{2\\}$, and $\\{-1, 2\\}$).\n <li>Total number of proper subsets $= 2^n - 1 = 4 - 1 = 3$. (We exclude the set $X$ itself).\n </ul>\n <strong>Final Answer:</strong> Subsets $= 4$, Proper Subsets $= 3$."
+            },
+            {
+              "number": 3,
+              "problem": "<p>Identify the type of set represented by $S = \\{x \\in \\mathbb{R} : x^2 - 4x + 5 = 0\\}$.</p>",
+              "solution": "<p>Let us solve the defining quadratic condition over the real numbers domain:\n \\[ x^2 - 4x + 5 = 0 \\]\n Check the discriminant to determine the nature of the roots:\n \\[ D = b^2 - 4ac = (-4)^2 - 4(1)(5) = 16 - 20 = -4 < 0 \\]\n Since the discriminant is negative, this equation has no real roots. It only produces complex conjugate solutions.\n Because the set-builder notation explicitly restricts the domain to real numbers ($x \\in \\mathbb{R}$), no values satisfy the condition. Therefore, the set contains zero elements.\n \\[ S = \\emptyset \\]\n This is an <strong>Empty (Null) Set</strong>.\n <strong>Final Answer:</strong> Empty Set ($\\emptyset$).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "Let $A = \\{1, \\{2, 3\\}\\}$. Which of the following statements is mathematically correct?",
+              "options": [
+                "$\\{2, 3\\} \\subseteq A$",
+                "$2 \\in A$",
+                "$\\{\\{2, 3\\}\\} \\subseteq A$",
+                "$\\emptyset \\in A$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The total number of proper subsets of a finite set containing exactly 5 elements is:",
+              "options": [
+                "$32$",
+                "$31$",
+                "$10$",
+                "$25$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Two sets are defined as $A = \\{x \\in \\mathbb{R} : x^2 - 3x + 2 = 0\\}$ and $B = \\{1, 2\\}$. These sets can be classified as:",
+              "options": [
+                "Equivalent but not equal",
+                "Equal sets",
+                "Completely disjoint sets",
+                "Infinite sets"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Which of the following represents a singleton set?",
+              "options": [
+                "$\\{x \\in \\mathbb{Z} : x \\text{ is even and prime}\\}$",
+                "$\\{x \\in \\mathbb{N} : x^2 < 1\\}$",
+                "$\\{x \\in \\mathbb{R} : x^2 - 1 = 0\\}$",
+                "$\\emptyset$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a set contains exactly $0$ elements, its total number of subsets is equal to:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "Infinite"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 3,
+          "title": "The Power Set and Its Cardinality",
+          "concept": "<p>The <strong>Power Set</strong> of a set $A$, denoted as $\\mathcal{P}(A)$ or $2^A$, is the collection of all possible subsets of $A$. Mathematically, $\\mathcal{P}(A) = \\{X : X \\subseteq A\\}$. Crucially, both the empty set $\\emptyset$ and the set $A$ itself are always elements of $\\mathcal{P}(A)$. If the cardinality of a finite set $A$ is $|A| = n$, then the cardinality of its power set is given by the formula $|\\mathcal{P}(A)| = 2^n$. A common mistake in multi-tier power set problems (e.g., finding $|\\mathcal{P}(\\mathcal{P}(\\mathcal{P}(\\emptyset)))|$) is miscounting how the layers scale exponentially.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Given the finite set $A = \\{a, b\\}$, write out the full power set $\\mathcal{P}(A)$ explicitly in roster form.</p>",
+              "solution": "To construct the power set $\\mathcal{P}(A)$, we must list every possible subset of $A$:\n <ol>\n <li>The subset containing zero elements (null set): $\\emptyset$\n <li>Subsets containing exactly one element (singletons): $\\{a\\}$ and $\\{b\\}$\n <li>The subset containing both elements (the set itself): $\\{a, b\\}$\n </ol>\n Combine these four subsets as elements inside a larger set bracket:\n \\[ \\mathcal{P}(A) = \\{\\emptyset, \\{a\\}, \\{b\\}, \\{a, b\\}\\} \\]\n Let us verify the cardinality: $|A| = 2 \\implies |\\mathcal{P}(A)| = 2^2 = 4$. This matches our explicit list.\n <strong>Final Answer:</strong> $\\mathcal{P}(A) = \\{\\emptyset, \\{a\\}, \\{b\\}, \\{a, b\\}\\}$."
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the total number of elements inside the multi-tier nested power set expression $|\\mathcal{P}(\\mathcal{P}(\\mathcal{P}(\\emptyset)))|$.</p>",
+              "solution": "Let us evaluate the cardinality layer-by-layer, starting from the innermost core set:\n <ul>\n <li>Step 1: Let the base set be $A_0 = \\emptyset$. The cardinality of the empty set is $|A_0| = 0$.\n <li>Step 2: Find the cardinality of the first power set layer, $A_1 = \\mathcal{P}(A_0)$:\n \\[ |A_1| = 2^{|A_0|} = 2^0 = 1 \\]\n (The set is $A_1 = \\{\\emptyset\\}$).\n <li>Step 3: Find the cardinality of the second power set layer, $A_2 = \\mathcal{P}(A_1)$:\n \\[ |A_2| = 2^{|A_1|} = 2^1 = 2 \\]\n (The set is $A_2 = \\{\\emptyset, \\{\\emptyset\\}\\}$).\n <li>Step 4: Find the cardinality of the final outermost power set layer, $A_3 = \\mathcal{P}(A_2)$:\n \\[ |A_3| = 2^{|A_2|} = 2^2 = 4 \\]\n </ul>\n <strong>Final Answer:</strong> $4$."
+            },
+            {
+              "number": 3,
+              "problem": "<p>If $X$ is a set such that $\\mathcal{P}(X)$ has exactly $64$ elements, find the number of elements inside set $X$.</p>",
+              "solution": "<p>Let the cardinality of set $X$ be $|X| = n$.\n According to the power set cardinality theorem, the total number of elements inside $\\mathcal{P}(X)$ is given by $2^n$. Set up the equation using the given value:\n \\[ 2^n = 64 \\]\n Express $64$ as a base-2 exponential power:\n \\[ 64 = 2^6 \\implies 2^n = 2^6 \\]\n Equating the exponents yields:\n \\[ n = 6 \\]\n Thus, set $X$ contains exactly $6$ elements.\n <strong>Final Answer:</strong> $6$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If a set is empty ($A = \\emptyset$), then its power set $\\mathcal{P}(A)$ is written as:",
+              "options": [
+                "$\\emptyset$",
+                "$\\{\\emptyset\\}$",
+                "$\\{\\}$",
+                "$\\{0\\}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "For any finite set $A$, if $|\\mathcal{P}(A)| = 128$, then the number of elements inside $A$ is:",
+              "options": [
+                "$5$",
+                "$6$",
+                "$7$",
+                "$8$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Let $X = \\{1, 2, 3\\}$. Which of the following objects is NOT a valid element of the power set $\\mathcal{P}(X)$?",
+              "options": [
+                "$1$",
+                "$\\{1\\}$",
+                "$\\emptyset$",
+                "$\\{1, 2, 3\\}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The total number of elements inside the nested expression $|\\mathcal{P}(\\mathcal{P}(\\emptyset))|$ is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$4$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If a set $A$ has $n$ elements, the total number of non-empty subsets it can form is:",
+              "options": [
+                "$2^n$",
+                "$2^n - 1$",
+                "$2^{n-1}$",
+                "$2^n - 2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Set Operations & Algebraic Laws",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Primary Set Operations & Venn Diagrams",
+          "concept": "<p>Set operations allow us to combine or modify collections of objects. The <strong>Union</strong> ($A \\cup B$) combines all elements belonging to $A$, $B$, or both. The <strong>Intersection</strong> ($A \\cap B$) extracts only the shared elements that belong to both sets simultaneously. The <strong>Difference</strong> ($A - B$) removes all elements of $B$ from $A$. The <strong>Symmetric Difference</strong> ($A \\triangle B = (A-B) \\cup (B-A)$) captures elements that belong to exactly one of the sets, but not both. The <strong>Complement</strong> ($A'$) contains all elements in the Universal Set ($U$) that do not belong to $A$. Venn diagrams provide an excellent way to visualize these properties geometrically.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Given the universal set $U = \\{1, 2, 3, \\dots, 10\\}$ and two subsets $A = \\{1, 3, 5, 7, 9\\}$, $B = \\{2, 3, 5, 7\\}$, evaluate the symmetric difference set $A \\triangle B$.</p>",
+              "solution": "To evaluate the symmetric difference $A \\triangle B = (A - B) \\cup (B - A)$, calculate the individual set differences first:\n <ul>\n <li>Find $A - B$: Remove all elements of $B$ from $A$. The elements $3, 5, 7$ are shared, so removing them leaves:\n \\[ A - B = \\{1, 9\\} \\]\n <li>Find $B - A$: Remove all elements of $A$ from $B$:\n \\[ B - A = \\{2\\} \\]\n </ul>\n Now combine these two resulting differences using a set union operation:\n \\[ A \\triangle B = \\{1, 9\\} \\cup \\{2\\} = \\{1, 2, 9\\} \\]\n <strong>Final Answer:</strong> $A \\triangle B = \\{1, 2, 9\\}$."
+            },
+            {
+              "number": 2,
+              "problem": "<p>If $X$ and $Y$ are two sets such that $X \\cap Y = X$, prove that $X \\subseteq Y$ using element containment definitions.</p>",
+              "solution": "<p>Let us use deductive element analysis to prove this property:\n To prove that $X$ is a subset of $Y$ ($X \\subseteq Y$), we must show that any arbitrary element $x$ that belongs to $X$ must also belong to $Y$.\n \\[ \\text{Let } x \\in X \\]\n The problem provides the identity equation $X = X \\cap Y$. Substitute this into our statement:\n \\[ \\text{Since } X = X \\cap Y, \\text{ then } x \\in (X \\cap Y) \\]\n By the definition of a set intersection, an element belongs to $X \\cap Y$ if and only if it belongs to both sets simultaneously:\n \\[ x \\in X \\quad \\text{and} \\quad x \\in Y \\]\n This directly implies that $x \\in Y$.\n Since choosing any arbitrary element $x \\in X$ logically proves that $x \\in Y$, then $X \\subseteq Y$.\n <strong>Final Answer:</strong> Proved.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Let the universal set be the set of real numbers $\\mathbb{R}$. If $A = (2, 5]$ and $B = [4, 7)$ are intervals, find the set difference $A - B$.</p>",
+              "solution": "<p>Intervals are continuous sets of real numbers. Let us look at the overlapping sections of the two intervals:\n \\[ A = \\{x \\in \\mathbb{R} : 2 < x \\le 5\\} \\]\n \\[ B = \\{x \\in \\mathbb{R} : 4 \\le x < 7\\} \\]\n The operation $A - B$ removes all real numbers that belong to $B$ from the interval $A$. \n The values shared between the two sets lie in the interval $[4, 5]$. Removing these numbers from $A$ leaves the remaining section of the interval:\n The values start immediately after $2$ and stop just before $4$. Since $4 \\in B$, it is removed from $A$, so the upper bound at $4$ becomes an open boundary.\n \\[ A - B = (2, 4) \\]\n <strong>Final Answer:</strong> $A - B = (2, 4)$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If $A = \\{1, 2, 3\\}$ and $B = \\{3, 4, 5\\}$, then the intersection set $A \\cap B$ is:",
+              "options": [
+                "$\\{1, 2, 3, 4, 5\\}$",
+                "$\\{3\\}$",
+                "$\\{1, 2, 4, 5\\}$",
+                "$\\emptyset$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "For any set $A$ defined inside a universal set $U$, the intersection of $A$ with its complement $A'$ ($A \\cap A'$) always yields:",
+              "options": [
+                "$U$",
+                "$A$",
+                "$\\emptyset$",
+                "$A'$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The shaded region in a Venn diagram representing the operation $U - (A \\cup B)$ corresponds to:",
+              "options": [
+                "$A \\cap B$",
+                "$(A \\cup B)'$",
+                "$A' \\cup B'$",
+                "$A - B$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $A \\cup B = A \\cap B$ for two sets $A$ and $B$, then which condition must be met?",
+              "options": [
+                "$A = \\emptyset$",
+                "$B = \\emptyset$",
+                "$A = B$",
+                "$A$ and $B$ are disjoint"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Given $A = \\{2, 4, 6\\}$ and $B = \\{1, 3, 5\\}$, the set difference $A - B$ is equal to:",
+              "options": [
+                "$\\emptyset$",
+                "$A$",
+                "$B$",
+                "$U$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Laws of Algebra of Sets & De Morgan's Duals",
+          "concept": "<p>Set operations follow algebraic laws that are structurally identical to propositional logic rules. These include <strong>Idempotent Laws</strong> ($A \\cup A = A$), <strong>Identity Laws</strong> ($A \\cap U = A$), and <strong>Distributive Laws</strong>, which allow an operation to distribute over another:\n \\[ A \\cap (B \\cup C) = (A \\cap B) \\cup (A \\cap C) \\]\n <strong>De Morgan's Laws</strong> describe how a complement distributes over a union or intersection, flipping the operation in the process:\n \\[ (A \\cup B)' = A' \\cap B' \\quad \\text{and} \\quad (A \\cap B)' = A' \\cup B' \\]\n In the JEE Advanced exam, a common pitfall is dropping parenthetical brackets when applying distributive or complement laws, which leads to algebraic errors.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Simplify the complex set expression: $E = (A \\cap B) \\cup (A \\cap B')$.</p>",
+              "solution": "<p>We can simplify this expression efficiently by applying the Distributive Law in reverse. Notice that the term $A \\cap$ is shared by both parts of the union:\n \\[ (A \\cap B) \\cup (A \\cap B') = A \\cap (B \\cup B') \\]\n Now analyze the term inside the parentheses using the Complementation Law. The union of any set with its own complement always forms the complete Universal Set ($U$):\n \\[ B \\cup B' = U \\]\n Substitute this back into our expression:\n \\[ E = A \\cap U \\]\n Finally, apply the Identity Law. The intersection of any set with the universal set returns the original set unchanged:\n \\[ A \\cap U = A \\]\n <strong>Final Answer:</strong> $A$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Prove De Morgan's Law $(A \\cup B)' = A' \\cap B'$ using element-wise logical steps.</p>",
+              "solution": "<p>To prove that these two expressions are identical, we must show that an arbitrary element $x$ belonging to the left-hand side logically implies it belongs to the right-hand side:\n \\[ \\text{Let } x \\in (A \\cup B)' \\]\n By the definition of a set complement, if an element belongs to the complement of a set, it does not belong to the set itself:\n \\[ x \\notin (A \\cup B) \\]\n Using the logical definition of a set union, an element belongs to $A \\cup B$ if it belongs to $A$ OR it belongs to $B$. For an element to *not* belong to the union, it must not belong to $A$ <strong>AND</strong> it must not belong to $B$:\n \\[ x \\notin A \\quad \\text{and} \\quad x \\notin B \\]\n Convert these individual non-membership statements into membership statements using complements:\n \\[ x \\in A' \\quad \\text{and} \\quad x \\in B' \\]\n By the definition of a set intersection, an element that belongs to both $A'$ and $B'$ at the same time belongs to their intersection:\n \\[ x \\in (A' \\cap B') \\]\n Since $x \\in (A \\cup B)' \\implies x \\in (A' \\cap B')$, the identity is proven.\n <strong>Final Answer:</strong> Proved.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Simplify the expression $X = [A \\cup (A \\cap B)] \\cap C$.</p>",
+              "solution": "<p>Let us first look at the expression inside the square brackets: $A \\cup (A \\cap B)$.\n According to the <strong>Absorption Law</strong> in set algebra, a set unioned with its intersection with another set simply absorbs the intersection, returning the original set:\n \\[ A \\cup (A \\cap B) = A \\]\n Let us verify this visually: $A \\cap B$ is a subset of $A$. Therefore, unioning it with $A$ adds no new elements, leaving the set $A$ unchanged.<br>\n Substitute this simplified result back into the main expression:\n \\[ X = A \\cap C \\]\n <strong>Final Answer:</strong> $A \\cap C$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The algebraic expression $A \\cap (B \\cup C)$ is perfectly identical to:",
+              "options": [
+                "$(A \\cup B) \\cap (A \\cup C)$",
+                "$(A \\cap B) \\cup (A \\cap C)$",
+                "$(A \\cap B) \\cup C$",
+                "$A \\cup (B \\cap C)$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "According to De Morgan's Laws, the complement expression $(A \\cap B)'$ expands to:",
+              "options": [
+                "$A' \\cap B'$",
+                "$A' \\cup B'$",
+                "$A \\cup B$",
+                "$(A \\cup B)'$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The absorption identity expression $A \\cap (A \\cup B)$ simplifies directly to:",
+              "options": [
+                "$B$",
+                "$A \\cap B$",
+                "$A$",
+                "$U$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The expression $(A')'$ represents the double complement of set $A$, which simplifies to:",
+              "options": [
+                "$\\emptyset$",
+                "$U$",
+                "$A'$",
+                "$A$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "Simplify the expression $(A \\cap U) \\cup (B \\cap \\emptyset)$:",
+              "options": [
+                "$A$",
+                "$B$",
+                "$A \\cup B$",
+                "$\\emptyset$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Cardinality & Inclusion-Exclusion",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Cardinality Formulas & Inclusion-Exclusion Principle",
+          "concept": "<p>Cardinality formulas allow us to count the number of elements in unions and intersections of sets. For two sets, the formula is $|A \\cup B| = |A| + |B| - |A \\cap B|$, where we subtract the intersection to avoid double-counting the shared elements. For three sets, we use the <strong>Principle of Inclusion-Exclusion (PIE)</strong>:\n \\[ |A \\cup B \\cup C| = |A| + |B| + |C| - |A \\cap B| - |B \\cap C| - |A \\cap C| + |A \\cap B \\cap C| \\]\n This principle scales to any finite number of sets by alternating between adding single sets, subtracting pairs, adding triples, and so on.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>In a class of $60$ students, $35$ survey inputs state they like Mathematics, $20$ state they like Physics, and $12$ state they like both subjects. Find the number of students who like neither Mathematics nor Physics.</p>",
+              "solution": "<p>Let $M$ represent the set of students who like Mathematics, and $P$ represent the set of students who like Physics. Identify the given values from the problem statement:\n The total number of students is the universal set size: $|U| = 60$.<br>\n The individual category counts are: $|M| = 35$ and $|P| = 20$.<br>\n The number of students who like both subjects is the intersection size: $|M \\cap P| = 12$.<br>\n Step 1: Calculate the number of students who like at least one of the two subjects ($|M \\cup P|$) using the two-set cardinality formula:\n \\[ |M \\cup P| = |M| + |B| - |M \\cap P| \\]\n Substitute the given values into the equation:\n \\[ |M \\cup P| = 35 + 20 - 12 = 55 - 12 = 43 \\]\n Step 2: Find the number of students who like neither subject. This matches the complement of the union, $(M \\cup P)'$, which can be found by subtracting the union size from the total universal set size:\n \\[ \\text{Neither} = |U| - |M \\cup P| = 60 - 43 = 17 \\]\n <strong>Final Answer:</strong> 17 students.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Develop an explicit formula to find the number of elements that belong to <strong>exactly one</strong> of the two sets $A$ or $B$.</p>",
+              "solution": "<p>The region corresponding to elements that belong to exactly one of the two sets is the symmetric difference, $A \\triangle B = (A - B) \\cup (B - A)$. Let us find its cardinality formula using standard unions and intersections.<br>\n From a Venn diagram, the total union $A \\cup B$ is made of three disjoint regions: elements in $A$ only ($A-B$), elements in $B$ only ($B-A$), and elements in both ($A \\cap B$).\n \\[ |A \\cup B| = |A - B| + |B - A| + |A \\cap B| \\]\n The symmetric difference excludes the shared intersection region:\n \\[ |A \\triangle B| = |A - B| + |B - A| \\]\n Isolate this sum by substituting it into the first equation:\n \\[ |A \\cup B| = |A \\triangle B| + |A \\cap B| \\implies |A \\triangle B| = |A \\cup B| - |A \\cap B| \\]\n Now expand the union term $|A \\cup B|$ using the standard two-set formula $|A| + |B| - |A \\cap B|$:\n \\[ |A \\triangle B| = (|A| + |B| - |A \\cap B|) - |A \\cap B| = |A| + |B| - 2|A \\cap B| \\]\n This is the required formula.\n <strong>Final Answer:</strong> $|A| + |B| - 2|A \\cap B|$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>A survey of $100$ students tracks language preferences: $50$ study Hindi ($H$), $40$ study English ($E$), and $30$ study Sanskrit ($S$). The intersections are logged as: $|H \\cap E| = 15$, $|E \\cap S| = 12$, and $|H \\cap S| = 10$. If $5$ students study all three languages, find how many students study at least one language.</p>",
+              "solution": "<p>To find the number of students who study at least one language, we must calculate the cardinality of the full union $|H \\cup E \\cup S|$.\n Apply the three-set Principle of Inclusion-Exclusion (PIE):\n \\[ |H \\cup E \\cup S| = |H| + |E| + |S| - |H \\cap E| - |E \\cap S| - |H \\cap S| + |H \\cap E \\cap S| \\]\n Substitute the given values directly into the formula:\n \\[ |H \\cup E \\cup S| = 50 + 40 + 30 - 15 - 12 - 10 + 5 \\]\n Calculate the intermediate sums and differences systematically from left to right:\n \\[ \\text{Sum of singles} = 50 + 40 + 30 = 120 \\]\n \\[ \\text{Subtract pairs} = 120 - 15 - 12 - 10 = 83 \\]\n \\[ \\text{Add triple} = 83 + 5 = 88 \\]\n Thus, exactly $88$ students study at least one language.\n <strong>Final Answer:</strong> 88 students.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If $|A| = 20$, $|B| = 25$, and $|A \\cup B| = 40$, then the intersection cardinality $|A \\cap B|$ is:",
+              "options": [
+                "$5$",
+                "$10$",
+                "$15$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The number of elements belonging to <strong>exactly fields</strong> inside a three-set PIE diagram can be found by evaluating:",
+              "options": [
+                "$|A| + |B| + |C|$",
+                "$|A \\cap B \\cap C|$",
+                "Regions that do not overlap at all, which are calculated using refined subset tracking subtraction formulas",
+                "The entire union directly"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "In a survey of 100 people, 70 like coffee and 60 like tea. The minimum possible number of people who like both options is:",
+              "options": [
+                "$10$",
+                "$30$",
+                "$60$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If three sets are completely mutually disjoint (meaning they share zero elements, so all intersections are empty), the expression $|A \\cup B \\cup C|$ simplifies to:",
+              "options": [
+                "$0$",
+                "$|A| \\cdot |B| \\cdot |C|$",
+                "$|A| + |B| + |C| - 3$",
+                "$|A| + |B| + |C|$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "If $|A - B| = 18$, $|B - A| = 22$, and $|A \\cap B| = 10$, then the total union cardinality $|A \\cup B|$ is:",
+              "options": [
+                "$40$",
+                "$50$",
+                "$30$",
+                "$60$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-math-sets-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "Let $A = \\{x \\in \\mathbb{R} : x^2 - 3x + 2 = 0\\}$ and $B = \\{x \\in \\mathbb{R} : x^2 - x = 0\\}$. The intersection set $A \\cap B$ is:",
+              "options": [
+                "$\\{1\\}$",
+                "$\\{0, 1, 2\\}$",
+                "$\\{1, 2\\}$",
+                "$\\emptyset$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If a finite set $S$ has exactly $n$ elements, the total number of subsets it can form is $2^n$. If a power set has $256$ elements, the cardinality of the original set is:",
+              "options": [
+                "$6$",
+                "$7$",
+                "$8$",
+                "$9$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The simplified form of the complex set expression $(A \\cup B) \\cap (A \\cup B')$ is:",
+              "options": [
+                "$A$",
+                "$B$",
+                "$A \\cap B$",
+                "$U$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "According to De Morgan's dual identities, the complement expression $(A \\cup B)'$ is completely identical to:",
+              "options": [
+                "$A' \\cup B'$",
+                "$A' \\cap B'$",
+                "$A \\cap B$",
+                "$U - (A \\cap B)$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "In a survey of $100$ students, $65$ watch football matches and $45$ watch cricket. If every student watches at least one sport, the number of students who watch both sports is:",
+              "options": [
+                "$10$",
+                "$20$",
+                "$15$",
+                "$5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Let $A = \\{1, 2, \\{3, 4\\}\\}$. Which of the following statements is mathematically true?",
+              "options": [
+                "$\\{3, 4\\} \\subseteq A$",
+                "$\\{3, 4\\} \\in A$",
+                "$3 \\in A$",
+                "$\\{\\{3, 4\\}\\} \\in A$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The interval difference set expression $(1, 4] - [3, 6)$ is equal to:",
+              "options": [
+                "$(1, 3)$",
+                "$(1, 3]$",
+                "$(3, 4]$",
+                "$[1, 3)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $A$ and $B$ are two finite sets such that $A \\subseteq B$, then the union operation $A \\cup B$ always simplifies to:",
+              "options": [
+                "$A$",
+                "$B$",
+                "$\\emptyset$",
+                "$U$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The number of real solutions of the equation $x^2 + 4 = 0$ bounds the elements of a set. This set is classified as an:",
+              "options": [
+                "Infinite set",
+                "Singleton set",
+                "Empty set",
+                "Equal set"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The symmetric difference expression $A \\triangle B$ can be rewritten as:",
+              "options": [
+                "$(A \\cup B) - (A \\cap B)$",
+                "$(A - B) \\cap (B - A)$",
+                "$A \\cup B$",
+                "$A' \\cap B'$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "If the cardinality of set $A$ is $3$ and the cardinality of set $B$ is $4$, and the sets are completely disjoint ($A \\cap B = \\emptyset$), find the total number of elements inside the power set $|\\mathcal{P}(A \\cup B)|$.",
+              "answer": "128",
+              "explanation": ""
+            },
+            {
+              "q": "In a competitive exam coaching cell, $40$ students registered for physics modules, $30$ for chemistry modules, and $15$ for both modules. Find the total number of students registered in the cell if every student takes at least one module.",
+              "answer": "55",
+              "explanation": ""
+            },
+            {
+              "q": "Find the number of integer elements inside the set $X = \\{x \\in \\mathbb{Z} : x^2 - 4 \\le 0\\}$.",
+              "answer": "5",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The power set of an empty set ($\\mathcal{P}(\\emptyset)$) is not empty; it contains exactly $1$ element.<br>\n <strong>Reason (R):</strong> The empty set $\\emptyset$ is always a valid subset of any set, including itself, so it becomes an element inside the power set collection.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> For any two finite sets $A$ and $B$, the value of $|A - B|$ is given by $|A| - |B|$.<br>\n <strong>Reason (R):</strong> The set difference $A - B$ removes only the shared intersection elements from $A$, meaning the correct cardinality formula is $|A| - |A \\cap B|$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 3,
+              "explanation": "A is false but R is true."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-math-sets-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "Let $A = \\{x \\in \\mathbb{R} : \\sin x = 0\\}$ and $B = \\{x \\in \\mathbb{R} : \\cos x = 0\\}$. The intersection set $A \\cap B$ is equal to:",
+              "options": [
+                "$\\{0\\}$",
+                "$\\emptyset$",
+                "$\\mathbb{Z}$\n \\times \\pi",
+                "$\\mathbb{R}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $P$ is the power set of a null set $\\emptyset$, then the total number of elements inside the second-tier nested power set $\\mathcal{P}(\\mathcal{P}(\\emptyset))$ is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$4$",
+                "$0$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The simplified form of the set expression $[A \\cap (A \\cup B')] \\cup (A \\cap B)$ is exactly:",
+              "options": [
+                "$A$",
+                "$B$",
+                "$A \\cup B$",
+                "$A \\cap B$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Let three finite sets have cardinalities $|A| = 10$, $|B| = 12$, and $|C| = 15$. If all pairs are mutually disjoint, the cardinality of the combined union $|A \\cup B \\cup C|$ is:",
+              "options": [
+                "$37$",
+                "$0$",
+                "$27$",
+                "$15$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $A = \\{x \\in \\mathbb{R} : x^2 - 5x + 6 \\le 0\\}$ and $B = \\{x \\in \\mathbb{R} : x^2 - 7x + 12 \\le 0\\}$, then the intersection interval $A \\cap B$ is:",
+              "options": [
+                "$[2, 4]$",
+                "$[3, 3]$",
+                "$[3, 4]$",
+                "$[2, 3]$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The total number of subsets of a finite set $A$ is $56$ more than the total number of subsets of a finite set $B$. Find the number of elements inside set $A$.",
+              "options": [
+                "$6$",
+                "$5$",
+                "$7$",
+                "$4$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Given the algebraic operation equation $(A - B) \\cup (B - A) = A \\cup B$, we can logically deduce that:",
+              "options": [
+                "$A = B$",
+                "$A \\cap B = \\emptyset$",
+                "$A \\subseteq B$",
+                "$B \\subseteq A$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The complement expansion expression $[(A \\cap B) \\cup (A \\cap B')]'$ simplifies directly to:",
+              "options": [
+                "$A$",
+                "$A'$",
+                "$B'$",
+                "$U$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If a universal set has cardinality $|U| = 50$, and two subsets satisfy $|A| = 25$, $|B| = 20$, and $|(A \\cup B)'| = 10$, then the intersection cardinality $|A \\cap B|$ is:",
+              "options": [
+                "$5$",
+                "$10$",
+                "$15$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The set expression $A - (B \\cup C)$ can be distributed and rewritten as:",
+              "options": [
+                "$(A - B) \\cup (A - C)$",
+                "$(A - B) \\cap (A - C)$",
+                "$A - B - C$",
+                "None of these"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "A three-set survey tracks reader metrics across three local newspapers ($A, B, C$): $40\\%$ read $A$, $50\\%$ read $B$, and $30\\%$ read $C$. The pairs overlap by $15\\%$ for $A \\cap B$, $10\\%$ for $B \\cap C$, and $12\\%$ for $A \\cap C$. If $5\\%$ of the readers read all three newspapers, find the integer percentage of the population that reads at least one newspaper.",
+              "answer": "88",
+              "explanation": ""
+            },
+            {
+              "q": "Find the number of distinct elements inside the power set collection $\\mathcal{P}(A)$ if set $A = \\{1, 1, 2, 2, 3\\}$.",
+              "answer": "8",
+              "explanation": ""
+            },
+            {
+              "q": "Two sets are defined as $A = \\{2, 4, 6\\}$ and $B = \\{x \\in \\mathbb{Z} : |x - 4| \\le 2\\}$. Find the cardinality of their intersection set $|A \\cap B|$.",
+              "answer": "3",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The Distributive Law states that the intersection operation distributes over a union: $A \\cap (B \\cup C) = (A \\cap B) \\cup (A \\cap C)$.<br>\n <strong>Reason (R):</strong> Set algebra is fundamentally governed by the same axiomatic laws as boolean propositional logic, meaning dual distribution identities are preserved.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> If $A \\triangle B = \\emptyset$, then the two sets $A$ and $B$ must be completely identical ($A = B$).<br>\n <strong>Reason (R):</strong> The symmetric difference captures elements that belong to exactly one of the sets, so a result of $\\emptyset$ means no elements belong to one set without also belonging to the other.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

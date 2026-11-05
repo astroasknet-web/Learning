@@ -1,0 +1,884 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": 12,
+  "title": "Limits and Continuity",
+  "slug": "limits-and-continuity",
+  "subtitle": "Limits and Continuity for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#06b6d4",
+  "icon": "math",
+  "seo": {
+    "meta_description": "Master Limits and Continuity for JEE Main & Advanced on GrowQR: in-depth notes, solved examples, self-check MCQs and full mock tests. Free, forever."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Foundations of Limits & Existence",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Definitions and Existence Conditions",
+          "concept": "<p>The mathematical statement $\\lim_{x \\to a} f(x) = L$ signifies that as the independent variable $x$ approaches the target value $a$ from either direction (without ever equaling $a$), the functional output $f(x)$ can be made arbitrarily close to the real value $L$. Rigorously, the <strong>$\\varepsilon$-$\\delta$ definition</strong> states that for every $\\varepsilon > 0$, there exists a corresponding $\\delta > 0$ such that:\n \\[ 0 < |x - a| < \\delta \\implies |f(x) - L| < \\varepsilon \\]\n For a limit to exist at a point $x = a$, the behavior of the function when approaching from the left must perfectly synchronize with its behavior when approaching from the right. We define the <strong>Left-Hand Limit (LHL)</strong> as $L^- = \\lim_{h \\to 0^+} f(a - h)$ and the <strong>Right-Hand Limit (RHL)</strong> as $L^+ = \\lim_{h \\to 0^+} f(a + h)$. The limit exists if and only if both one-sided limits are real, finite, and identically equal: $L^- = L^+ = L$. A common pitfall in competitive exams is evaluating a limit blindly where the function's domain does not exist on one side of $a$ (such as $f(x) = \\sqrt{x}$ at $x = 0$), making the two-sided limit undefined.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Determine the existence and value of the limit $\\lim_{x \\to 0} \\frac{x}{|x|}$.</p>",
+              "solution": "The function contains an absolute value structure, which requires us to split the domain and evaluate the left-hand and right-hand limits separately.\n <ul>\n <li><strong>Step 1: Evaluate Left-Hand Limit (LHL)</strong><br>\n Let $x = 0 - h$, where $h \\to 0^+$. Since $x < 0$, we have $|x| = -x$.\n \\[ \\text{LHL} = \\lim_{h \\to 0^+} \\frac{-h}{|-h|} = \\lim_{h \\to 0^+} \\frac{-h}{h} = -1 \\]\n <li><strong>Step 2: Evaluate Right-Hand Limit (RHL)</strong><br>\n Let $x = 0 + h$, where $h \\to 0^+$. Since $x > 0$, we have $|x| = x$.\n \\[ \\text{RHL} = \\lim_{h \\to 0^+} \\frac{h}{|h|} = \\lim_{h \\to 0^+} \\frac{h}{h} = 1 \\]\n </ul>\n Comparing the results: $\\text{LHL} = -1$ and $\\text{RHL} = 1$. Since $\\text{LHL} \\neq \\text{RHL}$, the one-sided limits do not match.\n <strong>Final Answer:</strong> The limit does not exist."
+            },
+            {
+              "number": 2,
+              "problem": "<p>Evaluate $\\lim_{x \\to 1} [x]$, where $[\\cdot]$ denotes the greatest integer function (floor function).</p>",
+              "solution": "The greatest integer function jumps at integer values, so evaluating the limit at $x = 1$ requires checking both one-sided limits.\n <ul>\n <li><strong>Step 1: Evaluate LHL</strong><br>\n Let $x = 1 - h$, where $h$ is an vanishingly small positive number. This places $x$ in the interval $0 \\le x < 1$. By definition, the floor value of any number in this interval is 0:\n \\[ \\text{LHL} = \\lim_{h \\to 0^+} [1 - h] = 0 \\]\n <li><strong>Step 2: Evaluate RHL</strong><br>\n Let $x = 1 + h$, where $h \\to 0^+$. This places $x$ in the interval $1 \\le x < 2$. By definition, the floor value of any number in this interval is 1:\n \\[ \\text{RHL} = \\lim_{h \\to 0^+} [1 + h] = 1 \\]\n </ul>\n Since $\\text{LHL} = 0 \\neq 1 = \\text{RHL}$, the values do not match across the integer boundary.\n <strong>Final Answer:</strong> The limit does not exist."
+            },
+            {
+              "number": 3,
+              "problem": "<p>Find the values of the constants $a$ and $b$ such that the function defined by $f(x) = \\begin{cases} a x + b & \\text{if } x < 1 \\\\ 4 & \\text{if } x = 1 \\\\ 2a x^2 - b & \\text{if } x > 1 \\end{cases}$ has a valid limit as $x \\to 1$, and $\\lim_{x \\to 1} f(x) = f(1)$.</p>",
+              "solution": "For $\\lim_{x \\to 1} f(x)$ to exist and equal $f(1) = 4$, both one-sided limits must equal 4 simultaneously.\n <ul>\n <li><strong>Step 1: Set up the LHL equation</strong><br>\n \\[ \\text{LHL} = \\lim_{x \\to 1^-} (ax + b) = a(1) + b = a + b \\]\n Since the limit must equal $f(1)$, set: $a + b = 4 \\quad \\text{--- (Equation 1)}$\n <li><strong>Step 2: Set up the RHL equation</strong><br>\n \\[ \\text{RHL} = \\lim_{x \\to 1^+} (2ax^2 - b) = 2a(1)^2 - b = 2a - b \\]\n Set this equal to $f(1)$: $2a - b = 4 \\quad \\text{--- (Equation 2)}$\n </ul>\n Step 3: Solve the simultaneous system of linear equations. Add Equation 1 and Equation 2 together to eliminate $b$:\n \\[ (a + b) + (2a - b) = 4 + 4 \\implies 3a = 8 \\implies a = \\frac{8}{3} \\]\n Substitute $a = \\frac{8}{3}$ back into Equation 1 to solve for $b$:\n \\[ \\frac{8}{3} + b = 4 \\implies b = 4 - \\frac{8}{3} = \\frac{4}{3} \\]\n <strong>Final Answer:</strong> $a = \\frac{8}{3}, b = \\frac{4}{3}$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The value of the limit $\\lim_{x \\to 0} \\frac{\\{x\\}}{x}$, where $\\{\\cdot\\}$ denotes the fractional part function, is:",
+              "options": [
+                "$1$",
+                "$0$",
+                "$-1$",
+                "Does not exist"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "In the formal $\\varepsilon$-$\\delta$ verification of $\\lim_{x \\to 3} (2x + 1) = 7$, for a given threshold $\\varepsilon > 0$, the maximum valid choice for the delta parameter $\\delta$ is:",
+              "options": [
+                "$\\varepsilon$",
+                "$\\frac{\\varepsilon}{2}$",
+                "$2\\varepsilon$",
+                "$\\varepsilon + 3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $f(x) = \\frac{1}{1 + e^{-1/x}}$, then the value of the limit $\\lim_{x \\to 0} f(x)$:",
+              "options": [
+                "Is equal to 1",
+                "Is equal to 0",
+                "Does not exist because $\\text{LHL} = 0$ and $\\text{RHL} = 1$",
+                "Is equal to $\\frac{1}{2}$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The value of $\\lim_{x \\to 2^-} (x - [x])$ is:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "$-1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\lim_{x \\to a} [f(x) \\cdot g(x)]$ exists, then which of the following statements is unconditionally true?",
+              "options": [
+                "Both $\\lim_{x \\to a} f(x)$ and $\\lim_{x \\to a} g(x)$ must exist independently.",
+                "At least one of the individual limits must exist.",
+                "Neither limit needs to exist independently.",
+                "The individual limits must be infinite."
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Algebra of Limits & Indeterminate Forms",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Standard Limits and Indeterminate Forms",
+          "concept": "<p>The fundamental algebra of limits states that if $\\lim_{x \\to a} f(x)$ and $\\lim_{x \\to a} g(x)$ are finite and exist independently, then the limit distributes linearly over addition, subtraction, multiplication, and division, provided the limit of the denominator does not vanish. When directly substituting $x = a$ transforms an expression into an unresolvable arithmetic ratio, it creates an <strong>Indeterminate Form</strong>. There are exactly seven core indeterminate forms recognized in calculus:\n \\[ \\frac{0}{0}, \\quad \\frac{\\infty}{\\infty}, \\quad 0 \\cdot \\infty, \\quad \\infty - \\infty, \\quad 1^\\infty, \\quad 0^0, \\quad \\infty^0 \\]\n To resolve these forms, we evaluate expressions using standard limit theorems derived for analytic functions near zero:\n \\[ \\lim_{x \\to 0} \\frac{\\sin x}{x} = 1, \\quad \\lim_{x \\to 0} \\frac{\\tan x}{x} = 1, \\quad \\lim_{x \\to 0} \\frac{e^x - 1}{x} = 1, \\quad \\lim_{x \\to 0} \\frac{\\ln(1+x)}{x} = 1 \\]\n \\[ \\lim_{x \\to 0} (1+x)^{\\frac{1}{x}} = e, \\quad \\lim_{x \\to \\infty} \\left(1 + \\frac{1}{x}\\right)^x = e, \\quad \\lim_{x \\to a} \\frac{x^n - a^n}{x - a} = n a^{n-1} \\]\n A critical trap in JEE Advanced is applying the $1^\\infty$ exponential simplification formula ($\\lim f(g) = e^{\\lim (f-1)g}$) when the base does not strictly converge to 1, leading to incorrect calculations.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Evaluate $\\lim_{x \\to 0} \\frac{\\ln(1 + 3x)}{\\sin(5x)}$.</p>",
+              "solution": "<p>Direct substitution of $x = 0$ yields $\\frac{\\ln(1)}{0} = \\frac{0}{0}$, which is an indeterminate form. We can resolve this by using algebraic manipulation to introduce standard limit structures:\n \\[ \\lim_{x \\to 0} \\frac{\\ln(1 + 3x)}{\\sin(5x)} = \\lim_{x \\to 0} \\left[ \\frac{\\ln(1 + 3x)}{3x} \\cdot \\frac{5x}{\\sin(5x)} \\cdot \\frac{3x}{5x} \\right] \\]\n By applying the limit distribution properties, we can evaluate each fraction independently:\n \\[ \\lim_{x \\to 0} \\frac{\\ln(1 + 3x)}{3x} = 1 \\quad (\\text{since } 3x \\to 0) \\]\n \\[ \\lim_{x \\to 0} \\frac{5x}{\\sin(5x)} = \\frac{1}{\\lim_{5x \\to 0} \\frac{\\sin(5x)}{5x}} = \\frac{1}{1} = 1 \\]\n Multiply the simplified terms by the remaining constant scaling factor:\n \\[ \\lim_{x \\to 0} \\left[ 1 \\cdot 1 \\cdot \\frac{3}{5} \\right] = \\frac{3}{5} \\]\n <strong>Final Answer:</strong> $\\frac{3}{5}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Evaluate $\\lim_{x \\to 0} \\left(\\frac{\\sin x}{x}\\right)^{\\frac{1}{x^2}}$ using standard exponential transformations.</p>",
+              "solution": "<p>As $x \\to 0$, the base $\\frac{\\sin x}{x} \\to 1$ and the exponent $\\frac{1}{x^2} \\to \\infty$. This matches the standard $1^\\infty$ indeterminate form.\n Apply the shortcut transformation theorem: $\\lim_{x \\to a} [f(x)]^{g(x)} = e^{\\lim_{x \\to a} (f(x) - 1)g(x)}$.\n \\[ L = e^{\\lim_{x \\to 0} \\left( \\frac{\\sin x}{x} - 1 \\right) \\cdot \\frac{1}{x^2}} = e^{\\lim_{x \\to 0} \\left( \\frac{\\sin x - x}{x^3} \\right)} \\]\n To evaluate the limit in the exponent, substitute the Taylor series expansion for the sine function ($\\sin x = x - \\frac{x^3}{6} + \\frac{x^5}{120} - \\dots$):\n \\[ \\lim_{x \\to 0} \\frac{\\left(x - \\frac{x^3}{6} + \\mathcal{O}(x^5)\\right) - x}{x^3} = \\lim_{x \\to 0} \\frac{-\\frac{x^3}{6} + \\mathcal{O}(x^5)}{x^3} = -\\frac{1}{6} \\]\n Substitute this calculated value back into the exponent:\n \\[ L = e^{-1/6} = \\frac{1}{\\sqrt[6]{e}} \\]\n <strong>Final Answer:</strong> $e^{-1/6}$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Evaluate $\\lim_{x \\to a} \\frac{x^{2/3} - a^{2/3}}{x^{3/4} - a^{3/4}}$.</p>",
+              "solution": "Direct substitution yields the $\\frac{0}{0}$ form. We can solve this by dividing both the numerator and the denominator by the common linear factor $(x - a)$ to match standard algebraic limit definitions:\n \\[ \\lim_{x \\to a} \\frac{\\frac{x^{2/3} - a^{2/3}}{x - a}}{\\frac{x^{3/4} - a^{3/4}}{x - a}} = \\frac{\\lim_{x \\to a} \\frac{x^{2/3} - a^{2/3}}{x - a}}{\\lim_{x \\to a} \\frac{x^{3/4} - a^{3/4}}{x - a}} \\]\n Apply the standard formula $\\lim_{x \\to a} \\frac{x^n - a^n}{x - a} = n a^{n-1}$ to the numerator and denominator independently:\n <ul>\n <li>Numerator: $n = \\frac{2}{3} \\implies \\frac{2}{3} a^{2/3 - 1} = \\frac{2}{3} a^{-1/3}$\n <li>Denominator: $n = \\frac{3}{4} \\implies \\frac{3}{4} a^{3/4 - 1} = \\frac{3}{4} a^{-1/4}$\n </ul>\n Combine the results and simplify the fractional coefficients:\n \\[ L = \\frac{\\frac{2}{3} a^{-1/3}}{\\frac{3}{4} a^{-1/4}} = \\left( \\frac{2}{3} \\times \\frac{4}{3} \\right) \\cdot a^{-1/3 - (-1/4)} = \\frac{8}{9} a^{-1/3 + 1/4} = \\frac{8}{9} a^{-1/12} \\]\n <strong>Final Answer:</strong> $\\frac{8}{9} a^{-1/12}$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The value of the limit $\\lim_{x \\to 0} \\frac{e^{\\sin x} - 1}{x}$ is:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$e$",
+                "$e-1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate $\\lim_{x \\to \\infty} \\left(1 + \\frac{a}{x}\\right)^x$. The series converges to:",
+              "options": [
+                "$e$",
+                "$e^a$",
+                "$a^e$",
+                "$1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Which of the following expressions is NOT an indeterminate form?",
+              "options": [
+                "$0 \\cdot \\infty$",
+                "$\\infty - \\infty$",
+                "$\\frac{\\infty}{0}$",
+                "$1^\\infty$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The value of $\\lim_{x \\to 0} \\frac{\\cos x - 1}{x^2}$ is:",
+              "options": [
+                "$0$",
+                "$\\frac{1}{2}$",
+                "$-\\frac{1}{2}$",
+                "$-1$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate $\\lim_{x \\to 1} \\frac{x^{15} - 1}{x^{10} - 1}$. The simplified ratio is:",
+              "options": [
+                "$\\frac{3}{2}$",
+                "$\\frac{2}{3}$",
+                "$15$",
+                "$1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Factorization, Rationalization, and L'Hôpital's Rule",
+          "concept": "When evaluating indeterminate limits of the form $\\frac{0}{0}$ or $\\frac{\\infty}{\\infty}$, three core algebraic strategies can be used depending on the structural layout of the expression:\n <ul>\n <li><strong>Factorization:</strong> Used for rational algebraic fractions where $x = a$ is a root of both the numerator and denominator polynomials. By factoring out and canceling the common linear term $(x - a)$, we remove the singularity.\n <li><strong>Rationalization:</strong> Used when the expression contains radical surds. Multiplying by the algebraic conjugate changes the structure to reveal cancelable factors.\n <li><strong>L'Hôpital's Rule:</strong> States that if $\\lim_{x \\to a} \\frac{f(x)}{g(x)}$ yields a $\\frac{0}{0}$ or $\\frac{\\infty}{\\infty}$ form, and the functions are differentiable near $a$, then $\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\lim_{x \\to a} \\frac{f'(x)}{g'(x)}$. If the resulting derivative ratio is still indeterminate, the rule can be applied repeatedly, provided the derivatives exist.\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Evaluate $\\lim_{x \\to 2} \\frac{x^3 - 3x^2 + 4}{x^4 - 4x^3 + 16x - 16}$.</p>",
+              "solution": "Direct substitution of $x = 2$ gives $\\frac{8 - 12 + 4}{16 - 32 + 32 - 16} = \\frac{0}{0}$. Let us use the factorization method by applying synthetic division to isolate and cancel the common root factor $(x-2)$.\n <ul>\n <li><strong>Numerator Polynomial:</strong> $x^3 - 3x^2 + 4 = (x-2)(x^2 - x - 2) = (x-2)(x-2)(x+1) = (x-2)^2(x+1)$\n <li><strong>Denominator Polynomial:</strong> $x^4 - 4x^3 + 16x - 16$. Notice that we can group terms:\n \\[ (x^4 - 16) - 4x(x^2 - 4) = (x^2 - 4)(x^2 + 4) - 4x(x^2 - 4) = (x^2 - 4)(x^2 - 4x + 4) \\]\n Substitute the factored parts:\n \\[ (x-2)(x+2)(x-2)^2 = (x-2)^3(x+2) \\]\n </ul>\n Substitute these factored forms back into the limit expression:\n \\[ \\lim_{x \\to 2} \\frac{(x-2)^2(x+1)}{(x-2)^3(x+2)} = \\lim_{x \\to 2} \\frac{x+1}{(x-2)(x+2)} \\]\n Substitute $x = 2$ into the simplified expression: the numerator approaches $2+1 = 3$, while the denominator approaches $(0)(4) = 0$. Since the denominator is zero and the numerator is non-zero, the expression approaches infinity.\n <strong>Final Answer:</strong> Does not exist ($\\infty$)."
+            },
+            {
+              "number": 2,
+              "problem": "<p>Evaluate $\\lim_{x \\to 0} \\frac{\\sqrt{1 + x + x^2} - 1}{x}$ using the rationalization method.</p>",
+              "solution": "<p>Direct substitution yields $\\frac{0}{0}$. Multiply both the numerator and the denominator by the radical conjugate expression $\\sqrt{1 + x + x^2} + 1$:\n \\[ \\lim_{x \\to 0} \\frac{\\left(\\sqrt{1 + x + x^2} - 1\\right)\\left(\\sqrt{1 + x + x^2} + 1\\right)}{x \\left(\\sqrt{1 + x + x^2} + 1\\right)} \\]\n Simplify the numerator using the difference of squares identity ($(a-b)(a+b) = a^2 - b^2$):\n \\[ \\lim_{x \\to 0} \\frac{(1 + x + x^2) - 1}{x \\left(\\sqrt{1 + x + x^2} + 1\\right)} = \\lim_{x \\to 0} \\frac{x + x^2}{x \\left(\\sqrt{1 + x + x^2} + 1\\right)} \\]\n Factor out $x$ from the numerator to cancel it with the $x$ in the denominator:\n \\[ \\lim_{x \\to 0} \\frac{x(1 + x)}{x \\left(\\sqrt{1 + x + x^2} + 1\\right)} = \\lim_{x \\to 0} \\frac{1 + x}{\\sqrt{1 + x + x^2} + 1} \\]\n Now evaluate the limit by direct substitution:\n \\[ \\frac{1 + 0}{\\sqrt{1 + 0 + 0} + 1} = \\frac{1}{1 + 1} = \\frac{1}{2} \\]\n <strong>Final Answer:</strong> $\\frac{1}{2}$.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>Evaluate $\\lim_{x \\to 0} \\frac{e^x - e^{-x} - 2x}{x - \\sin x}$ using L'Hôpital's Rule.</p>",
+              "solution": "<p>Direct substitution yields $\\frac{1 - 1 - 0}{0 - 0} = \\frac{0}{0}$. Since both the numerator and denominator are differentiable near 0, we can apply L'Hôpital's Rule by differentiating the top and bottom independently:\n \\[ \\text{Numerator derivative: } \\frac{d}{dx}(e^x - e^{-x} - 2x) = e^x + e^{-x} - 2 \\]\n \\[ \\text{Denominator derivative: } \\frac{d}{dx}(x - \\sin x) = 1 - \\cos x \\]\n This gives the new limit expression:\n \\[ \\lim_{x \\to 0} \\frac{e^x + e^{-x} - 2}{1 - \\cos x} \\]\n Substitute $x = 0$: $\\frac{1 + 1 - 2}{1 - 1} = \\frac{0}{0}$. Since the expression is still indeterminate, apply L'Hôpital's Rule a second time:\n \\[ \\lim_{x \\to 0} \\frac{\\frac{d}{dx}(e^x + e^{-x} - 2)}{\\frac{d}{dx}(1 - \\cos x)} = \\lim_{x \\to 0} \\frac{e^x - e^{-x}}{\\sin x} \\]\n Substitute $x = 0$: $\\frac{0}{0}$. Apply L'Hôpital's Rule a third time:\n \\[ \\lim_{x \\to 0} \\frac{\\frac{d}{dx}(e^x - e^{-x})}{\\frac{d}{dx}(\\sin x)} = \\lim_{x \\to 0} \\frac{e^x + e^{-x}}{\\cos x} \\]\n Substitute $x = 0$ into this final expression:\n \\[ \\frac{e^0 + e^0}{\\cos 0} = \\frac{1 + 1}{1} = 2 \\]\n <strong>Final Answer:</strong> $2$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The value of the limit $\\lim_{x \\to 1} \\frac{x^2 - 3x + 2}{x^2 - 1}$ evaluated using factorization is:",
+              "options": [
+                "$-\\frac{1}{2}$",
+                "$\\frac{1}{2}$",
+                "$0$",
+                "Does not exist"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate $\\lim_{x \\to 7} \\frac{\\sqrt{x - 3} - 2}{x - 7}$. Rationalization yields:",
+              "options": [
+                "$\\frac{1}{4}$",
+                "$\\frac{1}{2}$",
+                "$4$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If L'Hôpital's Rule is applied to $\\lim_{x \\to 0} \\frac{\\sin(ax)}{\\sin(bx)}$ (where $b \\neq 0$), the first derivative ratio gives:",
+              "options": [
+                "$\\frac{a}{b}$",
+                "$\\frac{a^2}{b^2}$",
+                "$1$",
+                "$\\frac{b}{a}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The value of $\\lim_{x \\to 0} \\frac{x \\cot x - 1}{x^2}$ is:",
+              "options": [
+                "$-\\frac{1}{3}$",
+                "$\\frac{1}{3}$",
+                "$-\\frac{1}{2}$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "A student attempts to use L'Hôpital's Rule on $\\lim_{x \\to 0} \\frac{x^2 + 5x + 4}{x + 2}$. This application is invalid because:",
+              "options": [
+                "The functions are not differentiable.",
+                "The limit is not an indeterminate form ($\\frac{0}{0}$ or $\\frac{\\infty}{\\infty}$).",
+                "The denominator derivative is a constant.",
+                "The numerator degree is higher than the denominator."
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Advanced Limit Evaluation Techniques",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Sandwich Theorem and Taylor Series Expansions",
+          "concept": "Advanced calculus problems often feature non-algebraic structures that defy standard factorization or rules like L'Hôpital's. Two powerful methods are used to solve these:\n <ul>\n <li><strong>Sandwich (Squeeze) Theorem:</strong> States that if three functions satisfy the inequality $g(x) \\le f(x) \\le h(x)$ inside an open interval containing $x = a$, and the outer bounding functions converge to the exact same limit ($\\lim_{x \\to a} g(x) = \\lim_{x \\to a} h(x) = L$), then the central function is squeezed into the same value: $\\lim_{x \\to a} f(x) = L$. This theorem is effective for limits involving bounded oscillating functions (like $\\sin(\\frac{1}{x})$) or floor integer structures evaluated over sum series.\n <li><strong>Taylor / Maclaurin Expansion Series:</strong> Rewriting transcendental functions as infinite polynomials near zero simplifies complex limits. Memorize the standard expansions:\n \\[ e^x = 1 + x + \\frac{x^2}{2!} + \\frac{x^3}{3!} + \\dots, \\quad \\ln(1+x) = x - \\frac{x^2}{2} + \\frac{x^3}{3} - \\dots \\]\n \\[ \\sin x = x - \\frac{x^3}{3!} + \\frac{x^5}{5!} - \\dots, \\quad \\cos x = 1 - \\frac{x^2}{2!} + \\frac{x^4}{4!} - \\dots \\]\n </ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Evaluate $\\lim_{x \\to \\infty} \\frac{x^2 \\sin(x) + 2x}{x^3 + 1}$ using the Sandwich Theorem.</p>",
+              "solution": "<p>The sine function is bounded between $-1$ and $1$ for all real inputs ($-\\times \\le \\sin(x) \\le 1$). Let us use this inequality to build upper and lower bounding functions for the complete expression.\n Multiply the inequality by the positive value $x^2$:\n \\[ -x^2 \\le x^2 \\sin(x) \\le x^2 \\]\n Add $2x$ across all parts of the inequality:\n \\[ -x^2 + 2x \\le x^2 \\sin(x) + 2x \\le x^2 + 2x \\]\n Divide all parts by the positive denominator $x^3 + 1$:\n \\[ \\frac{-x^2 + 2x}{x^3 + 1} \\le \\frac{x^2 \\sin(x) + 2x}{x^3 + 1} \\le \\frac{x^2 + 2x}{x^3 + 1} \\]\n Now evaluate the limit as $x \\to \\infty$ for the lower and upper bounding functions using dominant term analysis:\n \\[ \\lim_{x \\to \\infty} \\frac{-x^2 + 2x}{x^3 + 1} = \\lim_{x \\to \\infty} \\frac{-1/x + 2/x^2}{1 + 1/x^3} = \\frac{0}{1} = 0 \\]\n \\[ \\lim_{x \\to \\infty} \\frac{x^2 + 2x}{x^3 + 1} = \\lim_{x \\to \\infty} \\frac{1/x + 2/x^2}{1 + 1/x^3} = \\frac{0}{1} = 0 \\]\n Since both the upper and lower bounding functions converge to 0, the Sandwich Theorem guarantees that the central function must converge to the same value.\n <strong>Final Answer:</strong> $0$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Evaluate $\\lim_{x \\to 0} \\frac{x \\cos x - \\sin x}{x^2 \\ln(1+x)}$ using Taylor series expansions.</p>",
+              "solution": "Direct substitution yields $\\frac{0}{0}$. Let us substitute the Maclaurin series expansions for $\\cos x, \\sin x,$ and $\\ln(1+x)$ up to the lowest non-vanishing power of $x$:\n <ul>\n <li>$x \\cos x = x \\left( 1 - \\frac{x^2}{2} + \\mathcal{O}(x^4) \\right) = x - \\frac{x^3}{2} + \\mathcal{O}(x^5)$\n <li>$\\sin x = x - \\frac{x^3}{6} + \\mathcal{O}(x^5)$\n <li>$x^2 \\ln(1+x) = x^2 \\left( x - \\frac{x^2}{2} + \\mathcal{O}(x^3) \\right) = x^3 - \\frac{x^4}{2} + \\mathcal{O}(x^5)$\n </ul>\n Substitute these polynomial expansions into the numerator and denominator:\n \\[ \\text{Numerator: } \\left(x - \\frac{x^3}{2}\\right) - \\left(x - \\frac{x^3}{6}\\right) + \\mathcal{O}(x^5) = -\\frac{x^3}{2} + \\frac{x^3}{6} = -\\frac{3x^3 - x^3}{6} = -\\frac{2x^3}{6} = -\\frac{x^3}{3} \\]\n The limit expression simplifies to:\n \\[ \\lim_{x \\to 0} \\frac{-\\frac{x^3}{3} + \\mathcal{O}(x^5)}{x^3 + \\mathcal{O}(x^4)} \\]\n Divide both the top and bottom by $x^3$:\n \\[ \\lim_{x \\to 0} \\frac{-\\frac{1}{3} + \\mathcal{O}(x^2)}{1 + \\mathcal{O}(x)} = -\\frac{1}{3} \\]\n This is significantly faster than applying L'Hôpital's Rule three times consecutively.\n <strong>Final Answer:</strong> $-\\frac{1}{3}$."
+            },
+            {
+              "number": 3,
+              "problem": "<p>Evaluate the infinite sum series limit: $\\lim_{n \\to \\infty} \\left( \\frac{[1x] + [2x] + [3x] + \\dots + [nx]}{n^2} \\right)$.</p>",
+              "solution": "<p>We can frame the floor function using the standard bounding inequality: $z - 1 < [z] \\le z$. Apply this inequality to each term in the numerator:\n \\[ (1x - 1) < [1x] \\le 1x \\]\n \\[ (2x - 1) < [2x] \\le 2x \\]\n \\[ \\dots \\]\n \\[ (nx - 1) < [nx] \\le nx \\]\n Sum all $n$ inequalities together:\n \\[ \\sum_{k=1}^n (kx - 1) < \\sum_{k=1}^n [kx] \\le \\sum_{k=1}^n kx \\]\n Factor out the constants to evaluate the arithmetic sums:\n \\[ x \\cdot \\frac{n(n+1)}{2} - n < \\sum_{k=1}^n [kx] \\le x \\cdot \\frac{n(n+1)}{2} \\]\n Divide the entire inequality by $n^2$:\n \\[ \\frac{x n(n+1)}{2n^2} - \\frac{n}{n^2} < \\frac{\\sum_{k=1}^n [kx]}{n^2} \\le \\frac{x n(n+1)}{2n^2} \\]\n Evaluate the limit as $n \\to \\infty$ for the lower and upper bounding functions independently:\n \\[ \\text{Upper Limit: } \\lim_{n \\to \\infty} \\frac{x(n^2 + n)}{2n^2} = \\frac{x}{2} \\]\n \\[ \\text{Lower Limit: } \\lim_{n \\to \\infty} \\left( \\frac{x(n^2+n)}{2n^2} - \\frac{1}{n} \\right) = \\frac{x}{2} - 0 = \\frac{x}{2} \\]\n Since the upper and lower bounding functions converge to the exact same value, the Sandwich Theorem guarantees that the central series limit must converge to $\\frac{x}{2}$.\n <strong>Final Answer:</strong> $\\frac{x}{2}$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "The value of the limit $\\lim_{x \\to 0} x^2 \\cos\\left(\\frac{1}{x}\\right)$ evaluated via the Sandwich Theorem is:",
+              "options": [
+                "$1$",
+                "$0$",
+                "$\\infty$",
+                "Does not exist due to oscillation"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Using the Taylor expansion for $e^x$, the lowest non-vanishing term of $e^x - 1 - x$ near zero is:",
+              "options": [
+                "$x^2$",
+                "$\\frac{x^2}{2}$",
+                "$\\frac{x^3}{6}$",
+                "$x$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate $\\lim_{x \\to 0} \\frac{\\sin x - x + \\frac{x^3}{6}}{x^5}$. The series expansion coefficients yield:",
+              "options": [
+                "$\\frac{1}{120}$",
+                "$-\\frac{1}{120}$",
+                "$\\frac{1}{24}$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If $g(x) \\le f(x) \\le h(x)$, and $\\lim_{x \\to a} g(x) = 4$ and $\\lim_{x \\to a} h(x) = 5$, what can we conclude about $\\lim_{x \\to a} f(x)$?",
+              "options": [
+                "It is equal to $4.5$.",
+                "It must exist and lie between 4 and 5.",
+                "The Sandwich Theorem cannot be applied because the outer limits are not equal.",
+                "It does not exist."
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The value of $\\lim_{n \\to \\infty} \\frac{\\sin(n)}{n}$ is:",
+              "options": [
+                "$1$",
+                "$0$",
+                "Does not exist due to infinite oscillation",
+                "$\\infty$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Continuity & Functional Equations",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Core Continuity Definitions and Piecewise Point Matching",
+          "concept": "A real-valued function $f(x)$ is continuous at a specific point $x = a$ if and only if its graph passes through that point smoothly without any breaks, holes, or jumps. This requirement is formalized by checking three conditions simultaneously:\n <ol>\n <li>The function must be well-defined at the point, meaning $f(a)$ is a real number.\n <li>The two-sided limit must exist at the point: $\\lim_{x \\to a} f(x) = L$.\n <li>The value of the limit must equal the value of the function at that point: $L = f(a)$.\n </ol>\n This three-step check can be written as a single equation connecting the one-sided limits and the functional value: $\\text{LHL} = \\text{RHL} = f(a)$.<p>To evaluate a function for continuity across an entire interval, we check its continuity at every individual point within that interval. For <strong>piecewise functions</strong>, continuity must be checked at the internal breakpoints where the algebraic rules change. This is done by calculating and matching the one-sided limits at each breakpoint.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the value of the constant $k$ that makes the function continuous at $x = 0$:\n \\[ f(x) = \\begin{cases} \\frac{1 - \\cos(4x)}{8x^2} & \\text{if } x \\neq 0 \\\\ k & \\text{if } x = 0 \\end{cases} \\]</p>",
+              "solution": "<p>For $f(x)$ to be continuous at $x = 0$, the limit as $x \\to 0$ must equal the functional assignment value: $\\lim_{x \\to 0} f(x) = f(0) = k$. Let us evaluate the limit:\n \\[ \\lim_{x \\to 0} \\frac{1 - \\cos(4x)}{8x^2} \\]\n Substitute the double-angle identity $1 - \\cos(2\\theta) = 2\\sin^2\\theta$, where $2\\theta = 4x \\implies \\theta = 2x$:\n \\[ 1 - \\cos(4x) = 2\\sin^2(2x) \\]\n Substitute this back into the limit expression:\n \\[ \\lim_{x \\to 0} \\frac{2\\sin^2(2x)}{8x^2} = \\lim_{x \\to 0} \\frac{\\sin^2(2x)}{4x^2} \\]\n Group the square powers together to form a standard trigonometric limit structure:\n \\[ \\lim_{x \\to 0} \\left( \\frac{\\sin(2x)}{2x} \\right)^2 \\]\n Since $x \\to 0 \\implies 2x \\to 0$, apply the standard limit identity $\\lim_{\\theta \\to 0} \\frac{\\sin\\theta}{\\theta} = 1$:\n \\[ \\lim_{x \\to 0} \\left( \\frac{\\sin(2x)}{2x} \\right)^2 = (1)^2 = 1 \\]\n Therefore, for the function to be continuous, set $k = 1$.\n <strong>Final Answer:</strong> $k = 1$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Analyze the continuity of the function $f(x) = \\begin{cases} |x - 3| & \\text{if } x \\ge 1 \\\\ \\frac{x^2}{4} - \\frac{3x}{2} + \\frac{13}{4} & \\text{if } x < 1 \\end{cases}$ at the breakpoint $x = 1$.</p>",
+              "solution": "To check for continuity at the breakpoint $x = 1$, evaluate and compare the LHL, RHL, and $f(1)$ independently.\n <ul>\n <li><strong>Step 1: Calculate $f(1)$ and RHL</strong><br>\n The equality rule for $x = 1$ belongs to the upper branch: $f(1) = |1 - 3| = |-2| = 2$.\n The right-hand limit approaches from values greater than 1, so it uses the same branch:\n \\[ \\text{RHL} = \\lim_{x \\to 1^+} |x - 3| = |1 - 3| = 2 \\]\n <li><strong>Step 2: Calculate LHL</strong><br>\n The left-hand limit approaches from values less than 1, so it uses the lower branch:\n \\[ \\text{LHL} = \\lim_{x \\to 1^-} \\left( \\frac{x^2}{4} - \\frac{3x}{2} + \\frac{13}{4} \\right) = \\frac{1^2}{4} - \\frac{3(1)}{2} + \\frac{13}{4} \\]\n Combine the fractions using a common denominator:\n \\[ \\text{LHL} = \\frac{1}{4} - \\frac{6}{4} + \\frac{13}{4} = \\frac{1 - 6 + 13}{4} = \\frac{8}{4} = 2 \\]\n </ul>\n Step 3: Compare the calculated values. Since $\\text{LHL} = 2$, $\\text{RHL} = 2$, and $f(1) = 2$, all three values are identical.\n Therefore, the function is continuous at $x = 1$.\n <strong>Final Answer:</strong> Continuous at $x = 1$."
+            },
+            {
+              "number": 3,
+              "problem": "<p>Let $f(x) = [x] + \\{-x\\}$, where $[\\cdot]$ is the greatest integer function and $\\{\\cdot\\}$ is the fractional part function. Determine if $f(x)$ is continuous at $x = 2$.</p>",
+              "solution": "Let us write the functions in terms of a single data type to simplify the analysis. Use the identity $\\{z\\} = z - [z]$ to rewrite the fractional part component: $\\{-x\\} = -x - [-x]$.\n \\[ f(x) = [x] - x - [-x] \\]\n Now evaluate the one-sided limits and the value of the function at the target integer point $x = 2$.\n <ul>\n <li><strong>Step 1: Calculate $f(2)$</strong><br>\n Substitute $x = 2$ directly, noting that for integers, $[2] = 2$ and $[-2] = -2$:\n \\[ f(2) = 2 - 2 - (-2) = 0 + 2 = 2 \\]\n <li><strong>Step 2: Calculate LHL</strong><br>\n Let $x = 2 - h$, where $h \\to 0^+$. This places $x$ in the interval $1 < x < 2 \\implies [x] = 1$.\n The negative term becomes $-x = -2 + h$, which places it in the interval $-2 < -x < -1 \\implies [-x] = -2$.\n \\[ \\text{LHL} = \\lim_{h \\to 0^+} \\left( [2-h] - (2-h) - [-(2-h)] \\right) = 1 - 2 - (-2) = -1 + 2 = 1 \\]\n </ul>\n Since $\\text{LHL} = 1 \\neq 2 = f(2)$, the left-hand limit does not match the functional value at the point. Therefore, the function is discontinuous at $x = 2$.\n <strong>Final Answer:</strong> Discontinuous at $x = 2$."
+            }
+          ],
+          "quiz": [
+            {
+              "q": "A function $f(x)$ is continuous at $x = a$ if and only if:",
+              "options": [
+                "$\\text{LHL} = \\text{RHL}$",
+                "$f(a)$ is defined",
+                "$\\lim_{x \\to a} f(x) = f(a)$",
+                "$f'(a) > 0$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If $f(x) = \\begin{cases} \\frac{\\sin x}{x} & \\text{if } x \\neq 0 \\\\ c & \\text{if } x = 0 \\end{cases}$ is continuous at $x = 0$, then the value of the constant $c$ is:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$-1$",
+                "Undefined"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The number of points of discontinuity for the function $f(x) = \\frac{1}{x^2 - 5x + 6}$ across the entire real line is:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "Infinite"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "If $f(x)$ is continuous on the closed interval $[a, b]$, then it must satisfy which property?",
+              "options": [
+                "It is differentiable everywhere on the interval.",
+                "It achieves its maximum and minimum values on the interval.",
+                "It is a linear function.",
+                "It cannot cross the x-axis."
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $f(x) = |x|$, then at $x = 0$, the function is:",
+              "options": [
+                "Discontinuous",
+                "Continuous but not differentiable",
+                "Differentiable",
+                "Infinite"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Classification of Discontinuities & Global Theorems",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Types of Discontinuities & Boundary Value Theorems",
+          "concept": "When a function fails the three-step continuity check at $x = a$, it creates a discontinuity. Discontinuities are classified into types based on how they behave at the limit boundary:\n <ol>\n <li><strong>Removable Discontinuity:</strong> The two-sided limit exists and is finite ($\\lim_{x \\to a} f(x) = L$), but it does not equal the value of the function at that point ($L \\neq f(a)$), either because $f(a)$ is defined differently or is completely undefined. This creates a single ``hole'' in the graph that can be patched by redefining $f(a) = L$.\n <li><strong>Jump Discontinuity:</strong> Both one-sided limits exist and are finite, but they do not equal each other ($\\text{LHL} \\neq \\text{RHL}$). This creates a vertical gap or step in the graph. The size of the gap is called the jump height, calculated as $|\\text{RHL} - \\text{LHL}|$.\n <li><strong>Infinite Discontinuity:</strong> One or both of the one-sided limits approach $\\pm\\infty$, creating a vertical asymptote.\n <li><strong>Oscillatory Discontinuity:</strong> The function values oscillate infinitely fast as they approach $a$ (such as $f(x) = \\sin(\\frac{1}{x})$ at $x = 0$), preventing the limit from settling on any single value.\n </ol><p>Continuous functions obey two global boundary properties over closed intervals: the <strong>Extreme Value Theorem</strong>, which guarantees the function achieves an absolute maximum and minimum value, and the <strong>Intermediate Value Theorem (IVT)</strong>, which states that if $f(x)$ is continuous on $[a, b]$, it must take every value between $f(a)$ and $f(b)$ at least once.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Classify the type of discontinuity for the function $f(x) = \\frac{x^2 - 9}{x - 3}$ at the point $x = 3$.</p>",
+              "solution": "<p>Let us check the function against the continuity criteria at $x = 3$. First, evaluate the function at the point: $f(3) = \\frac{3^2 - 9}{3 - 3} = \\frac{0}{0}$, which is undefined.\n Now evaluate the two-sided limit as $x \\to 3$ by factoring the numerator polynomial:\n \\[ \\lim_{x Caps 3} \\frac{x^2 - 9}{x - 3} = \\lim_{x \\to 3} \\frac{(x-3)(x+3)}{x - 3} \\]\n Since $x \\to 3 \\implies x \\neq 3$, we can cancel the common factor $(x-3)$:\n \\[ \\lim_{x \\to 3} (x + 3) = 3 + 3 = 6 \\]\n The two-sided limit exists and is a finite real number ($L = 6$), but the function itself is undefined at $x = 3$. This fits the definition of a removable discontinuity. We can remove it and make the function continuous by defining $f(3) = 6$.\n <strong>Final Answer:</strong> Removable Discontinuity.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Classify the discontinuity and calculate the jump height at $x = 0$ for the function $f(x) = \\frac{e^{1/x} - 1}{e^{1/x} + 1}$ (assume $f(0) = 0$).</p>",
+              "solution": "Evaluate the left-hand and right-hand limits at $x = 0$ independently by tracking the behavior of the exponential term $e^{1/x}$.\n <ul>\n <li><strong>Step 1: Calculate Left-Hand Limit (LHL)</strong><br>\n Let $x \\to 0^- \\implies \\frac{1}{x} \\to -\\infty$. Therefore, $e^{1/x} \\to e^{-\\infty} = 0$.\n Substitute this limiting value into the expression:\n \\[ \\text{LHL} = \\frac{0 - 1}{0 + 1} = -1 \\]\n <li><strong>Step 2: Calculate Right-Hand Limit (RHL)</strong><br>\n Let $x \\to 0^+ \\implies \\frac{1}{x} \\to \\infty$. Therefore, $e^{1/x} \\to \\infty$. To evaluate this $\\frac{\\infty}{\\infty}$ indeterminate form, divide both the numerator and denominator by $e^{1/x}$:\n \\[ \\text{RHL} = \\lim_{x \\to 0^+} \\frac{1 - e^{-1/x}}{1 + e^{-1/x}} \\]\n As $x \\to 0^+ \\implies -1/x \\to -\\infty \\implies e^{-1/x} \\to 0$.\n \\[ \\text{RHL} = \\frac{1 - 0}{1 + 0} = 1 \\]\n </ul>\n Step 3: Classify the discontinuity. Since both one-sided limits are finite numbers but do not equal each other ($\\text{LHL} = -1 \\neq 1 = \\text{RHL}$), the function has a jump discontinuity.<br>\n Step 4: Calculate the jump height using the absolute difference formula:\n \\[ \\text{Jump Height} = |\\text{RHL} - \\text{LHL}| = |1 - (-1)| = |2| = 2 \\]\n <strong>Final Answer:</strong> Jump Discontinuity with a jump height of 2."
+            },
+            {
+              "number": 3,
+              "problem": "<p>Prove that the polynomial equation $x^5 - 3x - 1 = 0$ has at least one real root lying inside the open interval $(1, 2)$ using the Intermediate Value Theorem.</p>",
+              "solution": "<p>Let us define the polynomial function $f(x) = x^5 - 3x - 1$. Since $f(x)$ is a polynomial, it is continuous everywhere, including on the closed interval $[1, 2]$.\n Now evaluate the value of the function at the interval endpoints $x = 1$ and $x = 2$:\n \\[ f(1) = 1^5 - 3(1) - 1 = 1 - 3 - 1 = -3 \\quad (\\text{which is } < 0) \\]\n \\[ f(2) = 2^5 - 3(2) - 1 = 32 - 6 - 1 = 25 \\quad (\\text{which is } > 0) \\]\n Calculate the product of the endpoint values:\n \\[ f(1) \\cdot f(2) = (-3) \\times 25 = -75 < 0 \\]\n The function values at the endpoints have opposite signs ($f(1) < 0$ and $f(2) > 0$). Since the function is continuous, the Intermediate Value Theorem (IVT) guarantees that the graph must cross the x-axis at least once between $x = 1$ and $x = 2$. Therefore, there exists at least one real number $c \\in (1, 2)$ such that $f(c) = 0$. This confirms the existence of a real root.\n <strong>Final Answer:</strong> Proved.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "If the left-hand and right-hand limits of a function exist and are finite, but do not equal each other, the discontinuity is classified as:",
+              "options": [
+                "Removable Discontinuity",
+                "Jump Discontinuity",
+                "Infinite Discontinuity",
+                "Oscillatory Discontinuity"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The function $f(x) = \\sin\\left(\\frac{1}{x}\\right)$ at the point $x = 0$ features which specific type of discontinuity?",
+              "options": [
+                "Removable",
+                "Jump",
+                "Infinite",
+                "Oscillatory"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "If a function $f(x)$ has a removable discontinuity at $x = a$ where $\\lim_{x \\to a} f(x) = 5$, we can make the function continuous by defining:",
+              "options": [
+                "$f(a) = 0$",
+                "$f(a) = 5$",
+                "$f(a) = \\infty$",
+                "The discontinuity cannot be removed."
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "According to the Intermediate Value Theorem, if a continuous function satisfies $f(a) = -2$ and $f(b) = 6$, then the equation $f(x) = 0$ is guaranteed to have:",
+              "options": [
+                "Exactly one real root on the interval",
+                "At least one real root on the interval",
+                "Zero real roots on the interval",
+                "Infinitely many roots"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The jump height of the function $f(x) = \\frac{|x-2|}{x-2}$ at its breakpoint $x = 2$ is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$0$",
+                "$-1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-math-limits-and-continuity-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "The value of the limit $\\lim_{x \\to 0} \\frac{\\tan(3x)}{\\ln(1+2x)}$ is equal to:",
+              "options": [
+                "$\\frac{2}{3}$",
+                "$\\frac{3}{2}$",
+                "$1$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $f(x) = \\begin{cases} \\frac{x^2 - 1}{x - 1} & \\text{if } x \\neq 1 \\\\ c & \\text{if } x = 1 \\end{cases}$ is continuous at $x = 1$, then the constant $c$ is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$0$",
+                "$-1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the value of the algebraic limit $\\lim_{x \\to 2} \\frac{x^5 - 32}{x - 2}$. The calculation yields:",
+              "options": [
+                "$5$",
+                "$16$",
+                "$80$",
+                "$32$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the limit $\\lim_{x \\to 0} \\frac{1 - \\cos x}{x \\sin x}$ is:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$\\frac{1}{2}$",
+                "$-1$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "The function $f(x) = \\frac{x}{|x|}$ features which specific type of discontinuity at $x = 0$?",
+              "options": [
+                "Removable Discontinuity",
+                "Jump Discontinuity",
+                "Infinite Discontinuity",
+                "Oscillatory Discontinuity"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the limit $\\lim_{x \\to \\infty} \\frac{3x^3 - 4x^2 + 5}{2x^3 + 7x - 1}$ is:",
+              "options": [
+                "$\\frac{3}{2}$",
+                "$0$",
+                "$\\infty$",
+                "$\\frac{5}{2}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate $\\lim_{x \\to 0} (1 + 2x)^{\\frac{1}{x}}$. The series converges to:",
+              "options": [
+                "$e$",
+                "$e^2$",
+                "$\\sqrt{e}$",
+                "$1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The number of points of discontinuity for the function $f(x) = \\frac{1}{\\sin x}$ on the open interval $(0, 2\\pi)$ is:",
+              "options": [
+                "$0$",
+                "$1$",
+                "$2$",
+                "Infinite"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the limit $\\lim_{x \\to 0} x \\sin\\left(\\frac{1}{x}\\right)$ evaluated using the Sandwich Theorem is:",
+              "options": [
+                "$1$",
+                "$0$",
+                "$\\infty$",
+                "Does not exist"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If a continuous function satisfies $f(1) = -5$ and $f(4) = 5$, then the Intermediate Value Theorem guarantees that the curve crosses the x-axis inside the interval $(1, 4)$ at least:",
+              "options": [
+                "Once",
+                "Twice",
+                "Three times",
+                "Zero times"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Find the value of the constant $a$ that makes the function $f(x) = \\begin{cases} a x + 3 & \\text{if } x \\le 2 \\\\ x^2 - 1 & \\text{if } x > 2 \\end{cases}$ continuous at the breakpoint $x = 2$.",
+              "answer": "0",
+              "explanation": ""
+            },
+            {
+              "q": "Calculate the jump height of the piecewise function $f(x) = \\begin{cases} 2x + 1 & \\text{if } x < 1 \\\\ 5x - 1 & \\text{if } x \\ge 1 \\end{cases}$ at $x = 1$.",
+              "answer": "1",
+              "explanation": ""
+            },
+            {
+              "q": "Find the value of the limit exponent parameter $k$ if $\\lim_{x \\to 0} \\frac{e^{5x} - 1}{x} = k$.",
+              "answer": "5",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> For a function $f(x)$, if the left-hand limit equals 2 and the right-hand limit equals 2, the two-sided limit is guaranteed to exist and equal 2.<br>\n <strong>Reason (R):</strong> A two-sided limit exists at a point if and only if both one-sided limits exist, are finite, and are identically equal.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> The function $f(x) = \\frac{1}{x}$ is continuous on the open interval $(0, 1)$, but features an infinite discontinuity at the boundary point $x = 0$.<br>\n <strong>Reason (R):</strong> As $x \\to 0^+$, the function values approach positive infinity ($\\lim_{x \\to 0^+} \\frac{1}{x} = \\infty$), creating a vertical asymptote at the boundary.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-math-limits-and-continuity-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging Level",
+      "time_limit_minutes": 45,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "The value of the limit $\\lim_{x \\to 0} \\frac{1 - \\cos(2x) \\cdot \\cos(3x)}{x^2}$ is equal to:",
+              "options": [
+                "$\\frac{5}{2}$",
+                "$\\frac{13}{2}$",
+                "$\\frac{7}{2}$",
+                "$1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $f(x) = \\lim_{n \\to \\infty} \\frac{x^{2n} - 1}{x^{2n} + 1}$, then the number of points of discontinuity for $f(x)$ across the entire real line is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$0$",
+                "Infinite"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Evaluate the limit $\\lim_{x \\to 0} \\frac{\\sin x - x \\cos x}{x^2 \\ln(1+x)}$ using Taylor series expansions. The calculation yields:",
+              "options": [
+                "$\\frac{1}{3}$",
+                "$-\\frac{1}{3}$",
+                "$\\frac{1}{2}$",
+                "$0$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the limit $\\lim_{x \\to 0} \\left( \\frac{\\sin x}{x} \\right)^{\\frac{1}{1 - \\cos x}}$ is:",
+              "options": [
+                "$e^{-1/3}$",
+                "$e^{-2/3}$",
+                "$e^{-1/2}$",
+                "$1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "If the function $f(x) = \\begin{cases} \\frac{\\sin(a+1)x + \\sin x}{x} & \\text{if } x < 0 \\\\ c & \\text{if } x = 0 \\\\ \\frac{\\sqrt{x + bx^2} - \\sqrt{x}}{b x^{3/2}} & \\text{if } x > 0 \\end{cases}$ is continuous at $x = 0$, then the values of the constants are:",
+              "options": [
+                "$a = -\\frac{3}{2}, c = \\frac{1}{2}, b \\in \\mathbb{R} \\setminus \\{0\\}$",
+                "$a = \\frac{1}{2}, c = \\frac{3}{2}, b = 1$",
+                "$a = -\\frac{1}{2}, c = \\frac{1}{2}, b > 0$",
+                "No such values exist"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the limit $\\lim_{x \\to \\infty} \\left( \\frac{x^2 + 5x + 3}{x^2 + 1x + 2} \\right)^x$ is:",
+              "options": [
+                "$e^4$",
+                "$e^2$",
+                "$e^5$",
+                "$1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the limit $\\lim_{x \\to 0} \\frac{\\cos(\\sin x) - 1}{x^2}$ is:",
+              "options": [
+                "$\\frac{1}{2}$",
+                "$-\\frac{1}{2}$",
+                "$0$",
+                "$-1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "Let $f(x) = [x^2 - 1]$, where $[\\cdot]$ denotes the greatest integer function. The number of points of discontinuity for $f(x)$ on the open interval $(1, 2)$ is:",
+              "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "If $\\lim_{x \\to 0} \\frac{a e^x - b \\cos x + c e^{-x}}{x \\sin x} = 2$, then the values of the constants $a, b, c$ are:",
+              "options": [
+                "$a = 1, b = 2, c = 1$",
+                "$a = 1, b = 2, c = -1$",
+                "$a = 2, b = 1, c = 2$",
+                "$a = 1, b = -2, c = 1$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "The value of the limit $\\lim_{n \\to \\infty} \\frac{[x] + [2x] + [3x] + \\dots + [nx]}{n^2}$, where $[\\cdot]$ is the floor function, is:",
+              "options": [
+                "$x$",
+                "$\\frac{x}{2}$",
+                "$0$",
+                "Does not exist"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "Find the value of the positive constant $a$ if the limit expression satisfies $\\lim_{x \\to 0} \\frac{\\ln(1 + ax)}{e^{2x} - 1} = 3$.",
+              "answer": "6",
+              "explanation": ""
+            },
+            {
+              "q": "Calculate the total number of points of discontinuity across the entire real line for the composite piecewise function $f(x) = \\frac{1}{x - [x]}$.",
+              "answer": "",
+              "explanation": ""
+            },
+            {
+              "q": "If the jump height of the function $f(x) = \\begin{cases} x^2 + c & \\text{if } x < 2 \\\\ 2x + 5 & \\text{if } x \\ge 2 \\end{cases}$ at $x = 2$ is exactly 0, find the value of the constant $c$.",
+              "answer": "5",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<strong>Assertion (A):</strong> The function $f(x) = \\sin\\left(\\frac{1}{x}\\right)$ features an oscillatory discontinuity at $x = 0$, meaning the limit cannot be resolved to a single value as $x \\to 0$.<br>\n <strong>Reason (R):</strong> As $x$ approaches 0, the argument $\\frac{1}{x}$ approaches infinity, causing the sine outputs to oscillate infinitely fast between $-1$ and $1$.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 0,
+              "explanation": "Both A and R are true, and R is the correct explanation."
+            },
+            {
+              "q": "<strong>Assertion (A):</strong> If $f(x)$ and $g(x)$ are two discontinuous functions at $x = a$, then their product function $h(x) = f(x) \\cdot g(x)$ must also be discontinuous at $x = a$.<br>\n <strong>Reason (R):</strong> The product of two non-zero limits is indeterminate if one of the individual components does not exist.",
+              "options": [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is NOT the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true"
+              ],
+              "correct": 3,
+              "explanation": "A is false (the product of two discontinuous functions can be continuous, e.g., $f(x) =."
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "chemistry",
+  "chapter": 9,
+  "title": "Hydrocarbons",
+  "slug": "hydrocarbons",
+  "subtitle": "Alkanes, alkenes, alkynes and aromatic hydrocarbons for NEET",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "NEET Chemistry — Hydrocarbons: alkanes (preparation, halogenation), alkenes & alkynes (addition reactions, Markovnikov's rule), and aromatic hydrocarbons (benzene, electrophilic substitution, directing effects), with NEET traps, NCERT notes and MCQs. Free on GrowQR.",
+    "focus_keyword": "hydrocarbons NEET",
+    "secondary_keywords": [
+      "alkanes alkenes alkynes NEET",
+      "Markovnikov rule NEET",
+      "electrophilic substitution benzene NEET",
+      "aromatic hydrocarbons NCERT",
+      "addition reactions alkenes NEET"
+    ],
+    "keywords": [
+      "hydrocarbons NEET",
+      "Markovnikov rule NEET",
+      "alkenes addition NEET",
+      "benzene NEET",
+      "aromaticity NEET"
+    ]
+  },
+  "summary": "<ul><li><strong>Alkanes</strong> ($\\text{C}_n\\text{H}_{2n+2}$): saturated, $sp^3$, undergo <em>free-radical substitution</em> (halogenation); fairly unreactive ('paraffins').</li><li><strong>Alkenes</strong> ($\\text{C}_n\\text{H}_{2n}$): one C=C, $sp^2$; undergo <em>electrophilic addition</em> (of HX, $\\text{H}_2\\text{O}$, $\\text{X}_2$).</li><li><strong>Markovnikov's rule:</strong> in HX addition, H adds to the carbon with more H's; the more stable carbocation forms. Peroxide (anti-Markovnikov) effect with HBr only.</li><li><strong>Alkynes</strong> ($\\text{C}_n\\text{H}_{2n-2}$): one $\\text{C}\\equiv\\text{C}$, $sp$; addition + acidic terminal H.</li><li><strong>Aromatic</strong> hydrocarbons: benzene, planar, $6$ delocalised pi electrons (Hückel $4n+2$), extra stability.</li><li>Benzene undergoes <strong>electrophilic substitution</strong> (nitration, halogenation, sulphonation, Friedel–Crafts).</li><li><strong>Directing groups:</strong> $-OH, -NH_2, -\\text{alkyl}$ are o/p-directing & activating; $-NO_2, -COOH$ are m-directing & deactivating.</li><li>Polynuclear aromatics (benzpyrene) in tobacco smoke are <strong>carcinogenic</strong>.</li></ul>",
+  "faqs": [
+    { "q": "What is Markovnikov's rule?", "a": "When an unsymmetrical reagent like HX adds to an unsymmetrical alkene, the hydrogen attaches to the carbon already carrying more hydrogen atoms, so the halogen goes to the more substituted carbon — because this route forms the more stable carbocation intermediate." },
+    { "q": "What is the peroxide (Kharasch) effect?", "a": "In the presence of organic peroxides, HBr (only HBr) adds to an alkene against Markovnikov's rule, putting bromine on the carbon with more hydrogens. It proceeds by a free-radical mechanism, and works for HBr but not HCl or HI." },
+    { "q": "Why is benzene more stable than expected for a triene?", "a": "Benzene has six pi electrons delocalised over all six carbons in a planar ring, satisfying Hückel's 4n+2 rule. This delocalisation gives extra 'resonance' stability, so benzene resists addition and instead undergoes substitution." },
+    { "q": "Why do alkanes mainly undergo substitution rather than addition?", "a": "Alkanes are saturated — every carbon already has four single bonds and no pi bond to add across — so they react by substituting a hydrogen, typically through a free-radical halogenation in the presence of light." },
+    { "q": "Why are some polynuclear aromatic hydrocarbons dangerous to health?", "a": "Polynuclear aromatic hydrocarbons such as benzo(a)pyrene, formed when tobacco or fuels burn incompletely, are carcinogenic — they can react with DNA and trigger cancer, which is one reason tobacco smoke is harmful." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Alkanes, Alkenes and Alkynes",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Alkanes: Saturated Hydrocarbons",
+          "concept": "<p>Hydrocarbons are compounds made of only carbon and hydrogen, and they are the framework of organic chemistry — the source of fuels, plastics and the carbon skeletons of biomolecules. They are classified as <strong>saturated</strong> (only single bonds, the alkanes), <strong>unsaturated</strong> (containing C=C or $\\text{C}\\equiv\\text{C}$, the alkenes and alkynes), or <strong>aromatic</strong> (containing a benzene-type ring).</p><p><strong>Alkanes</strong> have the general formula $\\text{C}_n\\text{H}_{2n+2}$, with every carbon $sp^3$ hybridised and tetrahedral. Because they have only strong, non-polar C–C and C–H single bonds, alkanes are relatively unreactive — their old name 'paraffins' means 'little affinity'. They are prepared by hydrogenation of alkenes/alkynes (with Ni/Pt catalyst), by reduction of alkyl halides, by Wurtz reaction (two alkyl halides + Na to give a symmetrical alkane), and by decarboxylation of carboxylic acid salts. NEET often asks you to predict the product of these named preparations.</p><p>The most important reaction of alkanes is <strong>free-radical substitution</strong>, especially halogenation. In sunlight or UV light, chlorine or bromine replaces hydrogen atoms one at a time through a chain mechanism with three stages: <em>initiation</em> (the halogen molecule splits homolytically into radicals), <em>propagation</em> (radicals abstract H and regenerate new radicals), and <em>termination</em> (two radicals combine). The reaction is not selective for chlorine and gives a mixture of mono- and polysubstituted products — a frequently tested point.</p><p>Alkanes also undergo <strong>combustion</strong> (the basis of their use as fuels, producing $\\text{CO}_2$ and water with a large release of energy), <strong>controlled oxidation</strong>, <strong>isomerisation</strong>, and <strong>aromatisation</strong> (conversion of hexane and higher alkanes into benzene rings over a catalyst). Their physical properties follow clear trends: boiling point rises with chain length, and branching lowers the boiling point because branched molecules have less surface contact — a comparison NEET likes to test.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Feature</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Alkanes</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Formula</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{C}_n\\text{H}_{2n+2}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Hybridisation</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$sp^3$, tetrahedral</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Key reaction</td><td style='border:1px solid #dcfce7;padding:6px 10px'>free-radical substitution (halogenation)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Boiling point</td><td style='border:1px solid #dcfce7;padding:6px 10px'>rises with chain length, falls with branching</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Name the three steps in the free-radical chlorination of methane.</p>",
+              "solution": "<p><strong>Initiation</strong> ($\\text{Cl}_2 \\rightarrow 2\\text{Cl}\\cdot$ in UV light), <strong>propagation</strong> (Cl radical abstracts H, then the methyl radical reacts with $\\text{Cl}_2$), and <strong>termination</strong> (two radicals combine).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Which has the higher boiling point: n-pentane or neopentane (2,2-dimethylpropane)?</p>",
+              "solution": "<p>n-Pentane. It is unbranched, so its molecules have more surface contact and stronger van der Waals forces; the highly branched neopentane is more compact and boils lower.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The general formula of an alkane is:</p>", "options": ["$\\text{C}_n\\text{H}_{2n}$", "$\\text{C}_n\\text{H}_{2n+2}$", "$\\text{C}_n\\text{H}_{2n-2}$", "$\\text{C}_n\\text{H}_n$"], "correct": 1, "explanation": "Saturated: $\\text{C}_n\\text{H}_{2n+2}$." },
+            { "q": "<p>Alkanes mainly undergo:</p>", "options": ["electrophilic addition", "free-radical substitution", "nucleophilic addition", "elimination"], "correct": 1, "explanation": "Saturated, so they substitute (halogenation)." },
+            { "q": "<p>The Wurtz reaction is used to prepare:</p>", "options": ["alkenes", "alkynes", "alkanes", "alcohols"], "correct": 2, "explanation": "Alkyl halide + Na gives a higher symmetrical alkane." },
+            { "q": "<p>Branching in an alkane causes its boiling point to:</p>", "options": ["increase", "decrease", "stay the same", "become zero"], "correct": 1, "explanation": "Less surface contact lowers boiling point." },
+            { "q": "<p>The first step of free-radical halogenation is:</p>", "options": ["termination", "propagation", "initiation", "substitution"], "correct": 2, "explanation": "Initiation: homolysis of the halogen." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> alkanes = substitution (free-radical, needs light, gives mixtures). Remember Wurtz (symmetrical alkane), decarboxylation, hydrogenation. Boiling point: longer chain higher, more branching lower.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Alkenes and Alkynes: Addition Reactions",
+          "concept": "<p><strong>Alkenes</strong> ($\\text{C}_n\\text{H}_{2n}$) contain one carbon–carbon double bond, with the doubly-bonded carbons $sp^2$ hybridised and planar. The pi electrons of the double bond are exposed and electron-rich, so alkenes are reactive towards <strong>electrophilic addition</strong> — the defining reaction of this topic. They are prepared by dehydrohalogenation of alkyl halides, dehydration of alcohols, and partial hydrogenation of alkynes.</p><p>Alkenes add many reagents across the double bond: hydrogen (catalytic hydrogenation to alkanes), halogens ($\\text{Br}_2$ in $\\text{CCl}_4$, whose decolourisation is the classic <em>test for unsaturation</em>), hydrogen halides (HX), and water (acid-catalysed hydration to alcohols). When an unsymmetrical reagent like HX adds to an unsymmetrical alkene, the product follows <strong>Markovnikov's rule</strong>: the hydrogen adds to the carbon already bearing more hydrogens, because this gives the more stable (more substituted) carbocation intermediate. Markovnikov problems are a NEET staple.</p><p>An important exception is the <strong>peroxide (Kharasch / anti-Markovnikov) effect</strong>: in the presence of organic peroxides, <em>HBr</em> (and only HBr) adds against Markovnikov's rule via a free-radical mechanism, placing bromine on the carbon with more hydrogens. This does not happen with HCl or HI — a detail NEET likes to test. Alkenes also undergo ozonolysis (cleaving the double bond to carbonyls, useful for locating the double bond) and oxidation with cold dilute $\\text{KMnO}_4$ (Baeyer's reagent) to give diols.</p><p><strong>Alkynes</strong> ($\\text{C}_n\\text{H}_{2n-2}$) contain a carbon–carbon triple bond with $sp$ hybridised, linear carbons. They undergo similar electrophilic additions (often twice, since there are two pi bonds), and add water in the presence of $\\text{H}_2\\text{SO}_4$/$\\text{HgSO}_4$ to give carbonyl compounds. A distinctive feature is that <strong>terminal alkynes are weakly acidic</strong>: the hydrogen on the triply-bonded carbon can be removed by strong bases or by ammoniacal $\\text{AgNO}_3$/$\\text{Cu}_2\\text{Cl}_2$, forming metal acetylides — a useful test to distinguish terminal from internal alkynes, and another common NEET question.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Feature</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Alkenes / Alkynes</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Alkene formula</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{C}_n\\text{H}_{2n}$ ($sp^2$)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Alkyne formula</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{C}_n\\text{H}_{2n-2}$ ($sp$)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Key reaction</td><td style='border:1px solid #dcfce7;padding:6px 10px'>electrophilic addition</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Unsaturation test</td><td style='border:1px solid #dcfce7;padding:6px 10px'>decolourises bromine water / Baeyer's reagent</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Predict the major product when HBr adds to propene ($\\text{CH}_3\\text{-CH=CH}_2$) in the absence of peroxide.</p>",
+              "solution": "<p>By Markovnikov's rule, H goes to the terminal $\\text{CH}_2$ (more H's) and Br to the middle carbon, giving <strong>2-bromopropane</strong> ($\\text{CH}_3\\text{-CHBr-CH}_3$) via the more stable secondary carbocation.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>How can you chemically distinguish 1-butyne (terminal) from 2-butyne (internal)?</p>",
+              "solution": "<p>1-Butyne has an acidic terminal hydrogen, so it gives a white precipitate of silver acetylide with ammoniacal $\\text{AgNO}_3$. 2-Butyne has no terminal H and gives no precipitate.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Alkenes characteristically undergo:</p>", "options": ["free-radical substitution", "electrophilic addition", "nucleophilic substitution", "no reaction"], "correct": 1, "explanation": "The electron-rich C=C undergoes electrophilic addition." },
+            { "q": "<p>Markovnikov's rule predicts H adds to the carbon with:</p>", "options": ["fewer hydrogens", "more hydrogens", "the halogen", "no hydrogens"], "correct": 1, "explanation": "H to the more-hydrogenated carbon (more stable carbocation)." },
+            { "q": "<p>The peroxide effect (anti-Markovnikov) is shown only by:</p>", "options": ["HCl", "HBr", "HI", "HF"], "correct": 1, "explanation": "Only HBr shows the peroxide effect." },
+            { "q": "<p>The general formula of an alkyne is:</p>", "options": ["$\\text{C}_n\\text{H}_{2n+2}$", "$\\text{C}_n\\text{H}_{2n}$", "$\\text{C}_n\\text{H}_{2n-2}$", "$\\text{C}_n\\text{H}_n$"], "correct": 2, "explanation": "One triple bond: $\\text{C}_n\\text{H}_{2n-2}$." },
+            { "q": "<p>A terminal alkyne gives a precipitate with:</p>", "options": ["bromine water", "ammoniacal $\\text{AgNO}_3$", "$\\text{NaOH}$", "$\\text{H}_2$"], "correct": 1, "explanation": "Acidic terminal H forms silver acetylide." }
+          ],
+          "note": "<p><strong>NEET trap:</strong> Markovnikov gives the <em>more substituted</em> carbocation; only <em>HBr + peroxide</em> reverses it. Bromine-water decolourisation = unsaturation test. Terminal alkynes are acidic (acetylide test).</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Aromatic Hydrocarbons",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Benzene, Aromaticity and Resonance",
+          "concept": "<p><strong>Aromatic hydrocarbons</strong> (arenes) are built around the benzene ring. Benzene, $\\text{C}_6\\text{H}_6$, is a flat, regular hexagon of six $sp^2$ carbons, each carrying one hydrogen. All six C–C bonds are identical, intermediate in length between single and double bonds — a fact that puzzled early chemists and is explained by <strong>resonance</strong>: the three 'double bonds' are not fixed but delocalised as a ring of six pi electrons above and below the plane.</p><p>This delocalisation gives benzene unusual <strong>stability</strong> (its resonance/delocalisation energy is large), which is why benzene resists the addition reactions typical of alkenes and instead undergoes substitution, preserving the aromatic ring. The criteria for a compound to be <strong>aromatic</strong> are summarised by <strong>Hückel's rule</strong>: the molecule must be cyclic, planar, fully conjugated, and contain $(4n+2)$ pi electrons (where $n = 0, 1, 2, ...$). Benzene has $6$ pi electrons ($n=1$), so it is aromatic — a classification NEET often asks you to apply to other rings.</p><p>Benzene and its homologues are prepared by methods such as cyclic polymerisation of ethyne (three molecules of acetylene over hot tube give benzene), decarboxylation of aromatic acids, and reduction of phenol. The naming of substituted benzenes uses the <em>ortho</em> (1,2-), <em>meta</em> (1,3-) and <em>para</em> (1,4-) prefixes for disubstituted rings.</p><p>Aromatic compounds matter beyond the exam: many drugs, dyes and polymers contain benzene rings, and <strong>polynuclear (polycyclic) aromatic hydrocarbons</strong> such as benzo(a)pyrene — produced by incomplete combustion of tobacco, coal and fuels — are <strong>carcinogenic</strong>, a health link NEET sometimes references. Knowing the structure and stability of benzene, and being able to test aromaticity with Hückel's rule, sets up the substitution chemistry in the next topic.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Property</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Benzene</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Formula / shape</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$\\text{C}_6\\text{H}_6$, planar hexagon</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Hybridisation</td><td style='border:1px solid #dcfce7;padding:6px 10px'>all $sp^2$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Aromaticity (Hückel)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>cyclic, planar, conjugated, $(4n+2)$ pi e⁻</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>pi electrons</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$6$ ($n=1$) — aromatic</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>State Hückel's rule and use it to confirm benzene is aromatic.</p>",
+              "solution": "<p>Hückel's rule: an aromatic ring is cyclic, planar, fully conjugated and has $(4n+2)$ pi electrons. Benzene is planar and conjugated with $6$ pi electrons, so $4n+2 = 6 \\Rightarrow n = 1$ — it is aromatic.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why does benzene undergo substitution rather than addition reactions?</p>",
+              "solution": "<p>Addition would destroy the delocalised six-pi-electron system and its large stabilisation energy. Substitution replaces a hydrogen while keeping the aromatic ring intact, so it is energetically favoured.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The number of pi electrons in benzene is:</p>", "options": ["2", "4", "6", "8"], "correct": 2, "explanation": "Six delocalised pi electrons." },
+            { "q": "<p>Hückel's rule for aromaticity requires:</p>", "options": ["$4n$ pi electrons", "$(4n+2)$ pi electrons", "$2n$ pi electrons", "$n$ pi electrons"], "correct": 1, "explanation": "$(4n+2)$ pi electrons in a planar conjugated ring." },
+            { "q": "<p>All carbon atoms in benzene are:</p>", "options": ["$sp$", "$sp^2$", "$sp^3$", "mixed"], "correct": 1, "explanation": "All $sp^2$ in a planar ring." },
+            { "q": "<p>Benzene's special stability is due to:</p>", "options": ["hydrogen bonding", "resonance/delocalisation", "branching", "high mass"], "correct": 1, "explanation": "Delocalisation of pi electrons." },
+            { "q": "<p>The 1,4-disubstituted benzene is named:</p>", "options": ["ortho", "meta", "para", "ipso"], "correct": 2, "explanation": "1,4 = para." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> apply Hückel's $(4n+2)$ rule to test aromaticity — cyclic + planar + conjugated + $(4n+2)$ pi e⁻. Benzene resists addition (would break aromaticity), prefers substitution.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Electrophilic Substitution and Directing Effects",
+          "concept": "<p>The characteristic reaction of benzene is <strong>electrophilic aromatic substitution (EAS)</strong>, in which an electrophile replaces a ring hydrogen while the aromatic system is preserved. The general mechanism has two steps: the electrophile attacks the pi system to form a resonance-stabilised <em>arenium ion</em> (carbocation), then a proton is lost to restore aromaticity. Five named EAS reactions are essential for NEET.</p><p>These are: <strong>halogenation</strong> (with $\\text{Cl}_2$ or $\\text{Br}_2$ and a Lewis acid catalyst such as $\\text{FeCl}_3$); <strong>nitration</strong> (with a mixture of concentrated $\\text{HNO}_3$ and $\\text{H}_2\\text{SO}_4$, generating the electrophile $\\text{NO}_2^+$); <strong>sulphonation</strong> (with fuming $\\text{H}_2\\text{SO}_4$, reversible); and the two <strong>Friedel–Crafts reactions</strong> — alkylation (with an alkyl halide and anhydrous $\\text{AlCl}_3$) and acylation (with an acyl halide and $\\text{AlCl}_3$, introducing a $\\text{-COR}$ group). Knowing the reagent and the electrophile for each is a guaranteed NEET question.</p><p>When benzene already carries a substituent, that group controls <em>where</em> the next electrophile attacks — the <strong>directing effect</strong>. <strong>Ortho/para-directing groups</strong> are usually <em>activating</em> (they make the ring more reactive) and include $-\\text{OH}, -\\text{NH}_2, -\\text{OR}, -\\text{NHCOR}$, and alkyl groups; the halogens are an important exception — they are o/p-directing but <em>deactivating</em>. <strong>Meta-directing groups</strong> are <em>deactivating</em> and include $-\\text{NO}_2, -\\text{COOH}, -\\text{CHO}, -\\text{SO}_3\\text{H}$, and $-\\text{CN}$. Predicting the position of substitution from the existing group is one of the most frequently examined NEET skills.</p><p>The reason behind directing effects ties back to electronic effects from the previous chapter: activating o/p-directors donate electron density (by $+\\text{M}$ or $+\\text{I}$), stabilising the arenium ion when attack is at the ortho/para positions, while deactivating m-directors withdraw electron density, leaving the meta position relatively favoured. So the chemistry of substituted benzenes is a direct application of resonance and inductive reasoning — making this topic a high-yield, logic-based section rather than pure memorisation.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Group type</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Direction & activity</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$-\\text{OH}, -\\text{NH}_2$, alkyl</td><td style='border:1px solid #dcfce7;padding:6px 10px'>ortho/para, activating</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Halogens ($-\\text{Cl}, -\\text{Br}$)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>ortho/para, deactivating</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>$-\\text{NO}_2, -\\text{COOH}, -\\text{CHO}$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>meta, deactivating</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Friedel–Crafts</td><td style='border:1px solid #dcfce7;padding:6px 10px'>alkylation / acylation with $\\text{AlCl}_3$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Where will nitration occur on phenol, and why?</p>",
+              "solution": "<p>The $-\\text{OH}$ group is an activating, ortho/para director (it donates electron density by resonance). So nitration occurs mainly at the <strong>ortho and para</strong> positions, giving o- and p-nitrophenol.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Name the electrophile generated in the nitration of benzene.</p>",
+              "solution": "<p>The mixture of concentrated $\\text{HNO}_3$ and $\\text{H}_2\\text{SO}_4$ generates the nitronium ion $\\text{NO}_2^+$, which is the attacking electrophile.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Benzene reacts mainly by:</p>", "options": ["electrophilic addition", "electrophilic substitution", "nucleophilic substitution", "free-radical substitution"], "correct": 1, "explanation": "Aromatic ring favours electrophilic substitution." },
+            { "q": "<p>The electrophile in nitration of benzene is:</p>", "options": ["$\\text{NO}_2^-$", "$\\text{NO}_2^+$", "$\\text{NO}$", "$\\text{HNO}_3$"], "correct": 1, "explanation": "Nitronium ion $\\text{NO}_2^+$." },
+            { "q": "<p>Which is a meta-directing, deactivating group?</p>", "options": ["$-\\text{OH}$", "$-\\text{CH}_3$", "$-\\text{NO}_2$", "$-\\text{NH}_2$"], "correct": 2, "explanation": "$-\\text{NO}_2$ withdraws electrons: meta-directing, deactivating." },
+            { "q": "<p>Friedel–Crafts alkylation uses the catalyst:</p>", "options": ["$\\text{NaOH}$", "anhydrous $\\text{AlCl}_3$", "$\\text{H}_2\\text{O}$", "Ni"], "correct": 1, "explanation": "Anhydrous $\\text{AlCl}_3$ (Lewis acid)." },
+            { "q": "<p>The $-\\text{OH}$ group on benzene is:</p>", "options": ["meta-directing, deactivating", "ortho/para-directing, activating", "meta-directing, activating", "non-directing"], "correct": 1, "explanation": "$-\\text{OH}$ is o/p-directing and activating." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> learn the five EAS reactions + their electrophiles. o/p-directors are activating ($-\\text{OH}, -\\text{NH}_2$, alkyl) EXCEPT halogens (o/p but deactivating); m-directors ($-\\text{NO}_2, -\\text{COOH}$) are deactivating.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-chemistry-ch9-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct & Statement-based)",
+          "questions": [
+            { "q": "<p>The general formula of an alkene is:</p>", "options": ["$\\text{C}_n\\text{H}_{2n+2}$", "$\\text{C}_n\\text{H}_{2n}$", "$\\text{C}_n\\text{H}_{2n-2}$", "$\\text{C}_n\\text{H}_n$"], "correct": 1, "explanation": "One double bond: $\\text{C}_n\\text{H}_{2n}$." },
+            { "q": "<p>Addition of HBr to propene without peroxide gives mainly:</p>", "options": ["1-bromopropane", "2-bromopropane", "propane", "1,2-dibromopropane"], "correct": 1, "explanation": "Markovnikov: 2-bromopropane." },
+            { "q": "<p>The peroxide effect occurs with:</p>", "options": ["HCl only", "HBr only", "HI only", "all HX"], "correct": 1, "explanation": "Only HBr shows anti-Markovnikov peroxide effect." },
+            { "q": "<p>Statements: (I) Benzene has 6 delocalised pi electrons. (II) Benzene undergoes addition more readily than substitution. Which is/are correct?</p>", "options": ["only I", "only II", "both I and II", "neither"], "correct": 0, "explanation": "I correct; II wrong — benzene prefers substitution." },
+            { "q": "<p>Decolourisation of bromine water by a compound indicates:</p>", "options": ["it is saturated", "it is unsaturated", "it is aromatic", "it is an alkane"], "correct": 1, "explanation": "Test for unsaturation (C=C or C≡C)." },
+            { "q": "<p>The electrophile in Friedel–Crafts acylation is:</p>", "options": ["$\\text{NO}_2^+$", "an acylium ion $\\text{RCO}^+$", "$\\text{Cl}^-$", "$\\text{H}^+$"], "correct": 1, "explanation": "Acylium ion $\\text{RCO}^+$ with $\\text{AlCl}_3$." },
+            { "q": "<p>A terminal alkyne can be identified using:</p>", "options": ["bromine water", "ammoniacal cuprous chloride", "NaOH", "$\\text{H}_2$/Ni"], "correct": 1, "explanation": "Forms a coloured acetylide precipitate." },
+            { "q": "<p>Which group is ortho/para-directing but deactivating?</p>", "options": ["$-\\text{OH}$", "$-\\text{Cl}$", "$-\\text{NO}_2$", "$-\\text{NH}_2$"], "correct": 1, "explanation": "Halogens are o/p-directing yet deactivating." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> Addition of HBr to propene gives 2-bromopropane as the major product.<br><strong>R:</strong> The reaction proceeds through the more stable secondary carbocation (Markovnikov's rule).</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The more stable carbocation route gives 2-bromopropane — R explains A." },
+            { "q": "<p><strong>A:</strong> Benzene undergoes substitution rather than addition reactions.<br><strong>R:</strong> Substitution preserves the stable aromatic six-pi-electron system.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Keeping the aromatic system intact is exactly why substitution is favoured — R explains A." },
+            { "q": "<p><strong>A:</strong> The nitro group directs an incoming electrophile to the ortho and para positions of benzene.<br><strong>R:</strong> The nitro group is an electron-withdrawing group.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "The nitro group is meta-directing (so A is false), and it is indeed electron-withdrawing (R true)." },
+            { "q": "<p><strong>A:</strong> Only HBr shows the peroxide (anti-Markovnikov) effect.<br><strong>R:</strong> The peroxide effect proceeds by a free-radical chain mechanism that is energetically favourable only for HBr.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Only HBr's bond energies make the radical chain feasible — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

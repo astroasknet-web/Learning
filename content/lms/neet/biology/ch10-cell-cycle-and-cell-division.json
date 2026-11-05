@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "biology",
+  "chapter": 10,
+  "title": "Cell Cycle and Cell Division",
+  "slug": "cell-cycle-and-cell-division",
+  "subtitle": "The cell cycle and its phases, mitosis (equational division) and meiosis (reductional division) with their significance",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "leaf",
+  "seo": {
+    "meta_description": "NEET Biology — Cell Cycle and Cell Division: interphase (G1, S, G2) and M phase, the stages of mitosis, meiosis I and II with crossing over, and the significance of each, with NEET-level examples and MCQs. Free on GrowQR.",
+    "focus_keyword": "cell cycle and cell division NEET",
+    "secondary_keywords": [
+      "cell cycle phases NEET",
+      "mitosis stages NCERT",
+      "meiosis prophase I substages",
+      "crossing over pachytene",
+      "anaphase centromere split"
+    ],
+    "keywords": [
+      "cell cycle and cell division NEET",
+      "mitosis meiosis NEET",
+      "interphase G1 S G2",
+      "meiosis I reductional",
+      "cell division significance"
+    ]
+  },
+  "summary": "<ul><li><strong>Cell cycle</strong> = <strong>interphase</strong> (G1 &rarr; <strong>S</strong> = DNA replication &rarr; G2) + <strong>M phase</strong>. Human cycle ~24 h (interphase ~23 h, M ~1 h); G0 = quiescent (e.g. neurons).</li><li><strong>Mitosis</strong> (equational): one division, daughter cells have the SAME chromosome number. Prophase &rarr; Metaphase (align at plate) &rarr; <strong>Anaphase (centromeres split, sister chromatids separate)</strong> &rarr; Telophase; cytokinesis by furrow (animal) or cell plate (plant).</li><li><strong>Meiosis</strong> (reductional): one DNA replication + two divisions &rarr; four haploid cells.</li><li><strong>Prophase I substages:</strong> Leptotene, Zygotene (synapsis), <strong>Pachytene (crossing over)</strong>, Diplotene, Diakinesis.</li><li><strong>Anaphase I:</strong> homologous chromosomes separate (number halved). <strong>Anaphase II:</strong> sister chromatids separate.</li><li><strong>Significance:</strong> mitosis = growth/repair; meiosis = halves chromosome number &amp; creates variation (crossing over + independent assortment).</li></ul>",
+  "faqs": [
+    { "q": "What happens in the S phase of the cell cycle?", "a": "In the S (synthesis) phase, DNA replication occurs: the amount of DNA per cell doubles (from 2C to 4C), although the chromosome number stays the same because the two copies remain joined as sister chromatids. In animal cells the centriole also duplicates during S phase." },
+    { "q": "How is anaphase of mitosis different from metaphase?", "a": "In metaphase the chromosomes line up at the equator (metaphase plate) and are most condensed. In anaphase the centromeres split so the sister chromatids separate and move as daughter chromosomes to opposite poles of the cell." },
+    { "q": "In which substage of meiosis does crossing over occur?", "a": "Crossing over — the exchange of segments between non-sister chromatids of homologous chromosomes — occurs during the pachytene substage of prophase I, at sites called recombination nodules, and is later seen as chiasmata." },
+    { "q": "What is the key difference between anaphase I and anaphase II of meiosis?", "a": "In anaphase I the homologous chromosomes (each still made of two chromatids) separate to opposite poles, which halves the chromosome number (reductional). In anaphase II the centromeres split and the sister chromatids separate, like in mitosis (equational)." },
+    { "q": "Why is meiosis important?", "a": "Meiosis halves the chromosome number to produce haploid gametes, so the diploid number is restored at fertilisation. It also generates genetic variation through crossing over and the independent assortment of chromosomes, which is the basis of inheritance and evolution." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "The Cell Cycle and Mitosis",
+      "topics": [
+        {
+          "number": 1,
+          "title": "The Cell Cycle and Its Phases",
+          "concept": "<p>A cell does not divide at random; it passes through an orderly, repeating sequence of events called the <strong>cell cycle</strong>, in which it grows, copies its DNA and then divides into two daughter cells. In a typical human cell the whole cycle takes about <strong>24 hours</strong>. The cycle has two broad phases — a long preparatory <strong>interphase</strong> and a short dividing <strong>M phase (mitosis)</strong> — and a common NEET fact is that interphase occupies most of the time (about 23 of the 24 hours), with the M phase lasting only about an hour.</p><p><strong>Interphase</strong>, the so-called resting phase, is actually very active and is divided into three sub-phases. <strong>G₁ (Gap 1)</strong> follows the previous division: the cell is metabolically active and grows, but does <em>not</em> replicate its DNA. <strong>S (Synthesis)</strong> phase is when <strong>DNA replication</strong> takes place — the DNA content doubles (from 2C to 4C), although the chromosome <em>number</em> does not change because the two copies stay joined as sister chromatids; in animal cells the <strong>centriole also duplicates</strong> in S phase.</p><p><strong>G₂ (Gap 2)</strong> is the second growth phase, during which the cell synthesises proteins and organelles and prepares for division. Some cells leave the cycle altogether and enter an inactive <strong>G₀ (quiescent) stage</strong>; they remain metabolically active but stop dividing — mature <strong>neurons</strong> and heart muscle cells are classic examples. Recognising what does (and does not) happen in each sub-phase — especially that DNA is made only in S phase — is essential.</p><p>Different cells run the cycle at very different speeds: yeast can complete a cycle in about 90 minutes, while some human cells divide only once in a year or so. The cell cycle is tightly controlled at checkpoints so that, for instance, a cell does not enter mitosis before its DNA has been completely and correctly copied. This regulation prevents errors; its failure can lead to uncontrolled division, the basis of cancer. For NEET, fix the order G₁ &rarr; S &rarr; G₂ &rarr; M, the fact that S phase = DNA replication, and the meaning of G₀.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Phase</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Main event</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>G₁ (Gap 1)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>growth; no DNA synthesis</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>S (Synthesis)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>DNA replication (2C &rarr; 4C); centriole duplicates</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>G₂ (Gap 2)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>protein synthesis; prepares for mitosis</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>M phase</td><td style='border:1px solid #dcfce7;padding:6px 8px'>mitosis + cytokinesis (~1 h)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>G₀</td><td style='border:1px solid #dcfce7;padding:6px 8px'>quiescent (e.g. neurons)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>During which phase of the cell cycle does the DNA content of a cell double, and does the chromosome number change?</p>",
+              "solution": "<p>DNA doubles during the <strong>S (synthesis) phase</strong> (2C &rarr; 4C). The chromosome <strong>number does not change</strong>, because the two copies remain attached as sister chromatids of the same chromosome.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Mature neurons do not divide. In which stage of the cell cycle are they said to be?</p>",
+              "solution": "<p>They are in the <strong>G₀ (quiescent) stage</strong> — they have exited the cell cycle and remain metabolically active but no longer divide.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>DNA replication occurs in the ___ phase:</p>", "options": ["G1", "S", "G2", "M"], "correct": 1, "explanation": "DNA is synthesised (replicated) in S phase." },
+            { "q": "<p>In a typical human cell the interphase lasts about:</p>", "options": ["1 hour", "12 hours", "23 hours", "the whole year"], "correct": 2, "explanation": "Interphase ~23 h of a ~24 h cycle (M phase ~1 h)." },
+            { "q": "<p>Cells that have exited the cycle and stopped dividing are in:</p>", "options": ["G1", "S", "G0", "M"], "correct": 2, "explanation": "G0 is the quiescent stage (e.g. neurons)." },
+            { "q": "<p>The centriole duplicates during:</p>", "options": ["G1", "S phase", "G2", "telophase"], "correct": 1, "explanation": "In animal cells the centriole duplicates in S phase." },
+            { "q": "<p>The correct order of interphase sub-phases is:</p>", "options": ["S, G1, G2", "G1, S, G2", "G2, S, G1", "G1, G2, S"], "correct": 1, "explanation": "Interphase runs G1 → S → G2." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Only S phase makes DNA (2C→4C, number unchanged). Order G1→S→G2→M; G0 = quiescent (neurons). Interphase ~23 h, M ~1 h in human cells.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Mitosis",
+          "concept": "<p><strong>Mitosis</strong> is the division of the M phase that produces two daughter cells with <strong>the same chromosome number</strong> as the parent — for this reason it is called the <strong>equational division</strong>. It occurs in the somatic (body) cells and underlies growth, repair and the replacement of worn-out cells. Mitosis is divided into nuclear division (<strong>karyokinesis</strong>) in four stages, followed by division of the cytoplasm (<strong>cytokinesis</strong>).</p><p>In <strong>prophase</strong>, the threadlike chromatin condenses into compact <strong>chromosomes</strong>, each already consisting of <strong>two sister chromatids</strong> joined at the centromere (the DNA having been copied in the preceding S phase). The mitotic <strong>spindle</strong> begins to form, the centrioles move toward opposite poles, and by the end of prophase the <strong>nuclear envelope and nucleolus disappear</strong>. In <strong>metaphase</strong>, the chromosomes become most condensed and line up at the <strong>equator</strong> of the cell (the metaphase plate); spindle fibres attach to the <strong>kinetochores</strong> at the centromeres.</p><p><strong>Anaphase</strong> is the decisive step: the <strong>centromeres split</strong>, the two sister chromatids of each chromosome separate, and these daughter chromosomes are pulled to <strong>opposite poles</strong> of the cell. ('Anaphase = centromere splits, chromatids separate' is one of the most frequently asked single facts.) In <strong>telophase</strong>, the chromosomes reach the poles, decondense back into chromatin, and the <strong>nuclear envelope and nucleolus reappear</strong>, giving two nuclei.</p><p>Finally, <strong>cytokinesis</strong> splits the cytoplasm into two cells. In animal cells this happens by a <strong>cleavage furrow</strong> that pinches the cell inward, whereas in plant cells a <strong>cell plate</strong> forms from the centre outward (because the rigid wall cannot pinch). The <strong>significance of mitosis</strong> is that it produces genetically identical cells for growth, repair and the replacement of cells, and in plants it forms new tissues during vegetative growth — all while faithfully maintaining the chromosome number.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Stage</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Key event</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Prophase</td><td style='border:1px solid #dcfce7;padding:6px 8px'>chromosomes condense; spindle forms; envelope vanishes</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Metaphase</td><td style='border:1px solid #dcfce7;padding:6px 8px'>chromosomes align at the equator (plate)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Anaphase</td><td style='border:1px solid #dcfce7;padding:6px 8px'>centromeres split; chromatids move to poles</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Telophase</td><td style='border:1px solid #dcfce7;padding:6px 8px'>chromosomes decondense; nuclei reform</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Cytokinesis</td><td style='border:1px solid #dcfce7;padding:6px 8px'>furrow (animal) / cell plate (plant)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>At which stage of mitosis do sister chromatids separate, and what event triggers it?</p>",
+              "solution": "<p>They separate in <strong>anaphase</strong>, triggered by the <strong>splitting of the centromeres</strong>; the resulting daughter chromosomes then move to opposite poles.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>How does cytokinesis differ between a plant cell and an animal cell?</p>",
+              "solution": "<p>In an <strong>animal</strong> cell a <strong>cleavage furrow</strong> pinches the cell membrane inward. In a <strong>plant</strong> cell a <strong>cell plate</strong> forms from the centre outward, because the rigid cell wall cannot constrict.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Mitosis is called the ___ division:</p>", "options": ["reductional", "equational", "meiotic", "binary"], "correct": 1, "explanation": "Mitosis keeps chromosome number the same — equational." },
+            { "q": "<p>Chromosomes line up at the equator during:</p>", "options": ["prophase", "metaphase", "anaphase", "telophase"], "correct": 1, "explanation": "Alignment at the metaphase plate occurs in metaphase." },
+            { "q": "<p>Centromeres split and chromatids separate in:</p>", "options": ["prophase", "metaphase", "anaphase", "telophase"], "correct": 2, "explanation": "Anaphase: centromeres split, chromatids move to poles." },
+            { "q": "<p>The nuclear envelope reappears during:</p>", "options": ["prophase", "metaphase", "anaphase", "telophase"], "correct": 3, "explanation": "Telophase: nuclei reform, envelope and nucleolus reappear." },
+            { "q": "<p>Cytokinesis in plant cells occurs by formation of a:</p>", "options": ["cleavage furrow", "cell plate", "spindle", "kinetochore"], "correct": 1, "explanation": "Plant cells form a cell plate from the centre outward." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Memorise one event per stage — Prophase (condense + spindle), Metaphase (align at plate), Anaphase (centromere splits, chromatids separate), Telophase (nuclei reform). Cytokinesis: furrow (animal) vs cell plate (plant).</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Meiosis",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Meiosis I — The Reductional Division",
+          "concept": "<p><strong>Meiosis</strong> is the special division by which diploid reproductive (germ) cells give rise to <strong>haploid</strong> gametes. Its defining feature, and a constant NEET point, is that a <strong>single round of DNA replication</strong> is followed by <strong>two consecutive divisions</strong> — <strong>meiosis I</strong> and <strong>meiosis II</strong> — producing <strong>four haploid cells</strong> from one diploid cell. Meiosis I is the <strong>reductional division</strong> because it is here that the chromosome number is halved.</p><p>The most elaborate stage is <strong>prophase I</strong>, which is divided into five substages that you must know in order: <strong>Leptotene</strong> (chromosomes begin to condense and become visible), <strong>Zygotene</strong> (homologous chromosomes pair up precisely, a process called <strong>synapsis</strong>, forming bivalents held by the synaptonemal complex), <strong>Pachytene</strong> (the crucial substage in which <strong>crossing over</strong> — exchange of segments between non-sister chromatids — occurs at recombination nodules), <strong>Diplotene</strong> (the homologues begin to separate but stay joined at X-shaped <strong>chiasmata</strong>, the sites of crossing over) and <strong>Diakinesis</strong> (chiasmata terminalise and the nuclear envelope breaks down). A handy mnemonic is 'Leptotene Zygotene Pachytene Diplotene Diakinesis'.</p><p>The remaining stages of meiosis I follow the familiar pattern but with a key twist. In <strong>metaphase I</strong> the <strong>bivalents</strong> (pairs of homologous chromosomes) line up at the equator. In <strong>anaphase I</strong> the <strong>homologous chromosomes separate</strong> and move to opposite poles, but — unlike mitosis — the <strong>sister chromatids remain joined at their centromeres</strong>. This separation of whole homologues is exactly what halves the chromosome number.</p><p>In <strong>telophase I</strong> the two nuclei reform (often briefly) and cytokinesis usually follows, giving two haploid cells, each chromosome still consisting of two chromatids. Two events of meiosis I are the engines of genetic variation: <strong>crossing over</strong> in pachytene and the <strong>independent assortment</strong> of maternal and paternal homologues at anaphase I. For NEET, the must-knows are the five prophase-I substages (with pachytene = crossing over) and that anaphase I separates homologues (reductional), not chromatids.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Prophase I substage</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Event</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Leptotene</td><td style='border:1px solid #dcfce7;padding:6px 8px'>chromosomes condense, become visible</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Zygotene</td><td style='border:1px solid #dcfce7;padding:6px 8px'>synapsis (homologues pair) &rarr; bivalents</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Pachytene</td><td style='border:1px solid #dcfce7;padding:6px 8px'><strong>crossing over</strong> (recombination)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Diplotene</td><td style='border:1px solid #dcfce7;padding:6px 8px'>chiasmata become visible</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Diakinesis</td><td style='border:1px solid #dcfce7;padding:6px 8px'>terminalisation; envelope breaks down</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Name the substage of prophase I in which crossing over occurs and the structure where exchanged chromatids stay joined.</p>",
+              "solution": "<p>Crossing over occurs in <strong>pachytene</strong>. The X-shaped points where non-sister chromatids remain joined after exchange are the <strong>chiasmata</strong> (visible from diplotene onward).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>How does anaphase I differ from the anaphase of mitosis?</p>",
+              "solution": "<p>In <strong>anaphase I</strong> whole <strong>homologous chromosomes separate</strong> (centromeres do NOT split, so sister chromatids stay together), halving the chromosome number. In mitotic anaphase the centromeres split and <strong>sister chromatids</strong> separate.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Meiosis produces ___ cells from one diploid cell:</p>", "options": ["two diploid", "two haploid", "four haploid", "four diploid"], "correct": 2, "explanation": "One diploid cell → four haploid cells." },
+            { "q": "<p>Synapsis (pairing of homologues) occurs in:</p>", "options": ["leptotene", "zygotene", "pachytene", "diplotene"], "correct": 1, "explanation": "Synapsis forming bivalents occurs in zygotene." },
+            { "q": "<p>Crossing over takes place during:</p>", "options": ["zygotene", "pachytene", "diplotene", "diakinesis"], "correct": 1, "explanation": "Crossing over occurs in pachytene." },
+            { "q": "<p>In anaphase I, the structures that move to opposite poles are:</p>", "options": ["sister chromatids", "homologous chromosomes", "centromeres only", "spindle fibres"], "correct": 1, "explanation": "Homologous chromosomes separate in anaphase I." },
+            { "q": "<p>Meiosis I is described as the ___ division:</p>", "options": ["equational", "reductional", "binary", "amitotic"], "correct": 1, "explanation": "Meiosis I halves the chromosome number — reductional." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Prophase I substages: Leptotene→Zygotene(synapsis)→Pachytene(crossing over)→Diplotene(chiasmata)→Diakinesis. Anaphase I separates HOMOLOGUES (reductional), not chromatids.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Meiosis II and the Significance of Cell Division",
+          "concept": "<p>After meiosis I, the two haploid cells enter <strong>meiosis II</strong> <em>without</em> any further DNA replication (there is no S phase between the two divisions). Meiosis II is essentially a mitosis-like <strong>equational division</strong> that separates the sister chromatids that were still joined after meiosis I, so it converts the two cells into four. Its four stages mirror mitosis: <strong>prophase II</strong> (chromosomes recondense, nuclear envelope breaks down again), <strong>metaphase II</strong> (chromosomes line up at the equator), <strong>anaphase II</strong> (the <strong>centromeres finally split and the sister chromatids separate</strong> to opposite poles) and <strong>telophase II</strong> (four haploid nuclei form, followed by cytokinesis).</p><p>The pivotal contrast — and a guaranteed NEET question — is between the two anaphases. In <strong>anaphase I</strong>, homologous chromosomes separate while sister chromatids stay together (this is what reduces the number). In <strong>anaphase II</strong>, the centromeres split and the sister chromatids separate, exactly as in mitosis. So meiosis I is reductional and meiosis II is equational, and only at anaphase II do the chromatids finally part company.</p><p>The <strong>significance of meiosis</strong> is twofold and central to biology. First, by halving the chromosome number it keeps the <strong>chromosome number constant across generations</strong> in sexually reproducing organisms — the haploid gametes restore the diploid number at fertilisation, preventing a doubling every generation. Second, meiosis is the great <strong>generator of genetic variation</strong>, through <strong>crossing over</strong> (pachytene of prophase I) and the <strong>independent assortment</strong> of paternal and maternal chromosomes at metaphase/anaphase I. This variation is the raw material for natural selection and evolution and the cellular basis of Mendel's laws.</p><p>By comparison, the <strong>significance of mitosis</strong> is to provide genetically identical cells for the <strong>growth</strong> of the body, the <strong>repair</strong> of tissues and the <strong>replacement</strong> of worn-out cells, while strictly maintaining the chromosome number. A clean way to revise the whole chapter is the contrast: mitosis = one division, two identical diploid cells, growth/repair; meiosis = two divisions, four varied haploid cells, gamete formation and variation. Keeping these two outcomes straight resolves most cell-division questions.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Feature</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Mitosis</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Meiosis</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Divisions</td><td style='border:1px solid #dcfce7;padding:6px 8px'>one</td><td style='border:1px solid #dcfce7;padding:6px 8px'>two (I &amp; II)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Daughter cells</td><td style='border:1px solid #dcfce7;padding:6px 8px'>2, diploid, identical</td><td style='border:1px solid #dcfce7;padding:6px 8px'>4, haploid, varied</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Crossing over</td><td style='border:1px solid #dcfce7;padding:6px 8px'>absent</td><td style='border:1px solid #dcfce7;padding:6px 8px'>present (pachytene)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Role</td><td style='border:1px solid #dcfce7;padding:6px 8px'>growth, repair</td><td style='border:1px solid #dcfce7;padding:6px 8px'>gametes, variation</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Is there a round of DNA replication between meiosis I and meiosis II? What is separated in anaphase II?</p>",
+              "solution": "<p><strong>No</strong> — there is no DNA replication (no S phase) between the two meiotic divisions. In <strong>anaphase II</strong> the centromeres split and the <strong>sister chromatids</strong> separate to opposite poles.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>State two ways in which meiosis generates genetic variation.</p>",
+              "solution": "<p>(1) <strong>Crossing over</strong> between non-sister chromatids during pachytene of prophase I, and (2) the <strong>independent assortment</strong> of maternal and paternal homologous chromosomes at metaphase/anaphase I.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Between meiosis I and meiosis II there is:</p>", "options": ["another S phase", "no DNA replication", "a G1 phase only", "two S phases"], "correct": 1, "explanation": "No DNA replication occurs between the two meiotic divisions." },
+            { "q": "<p>Sister chromatids finally separate in:</p>", "options": ["anaphase I", "anaphase II", "metaphase I", "telophase I"], "correct": 1, "explanation": "Anaphase II splits centromeres and separates sister chromatids." },
+            { "q": "<p>Meiosis II is best described as:</p>", "options": ["reductional", "equational", "amitotic", "binary fission"], "correct": 1, "explanation": "Meiosis II is an equational (mitosis-like) division." },
+            { "q": "<p>The constancy of chromosome number across generations is maintained by:</p>", "options": ["mitosis only", "meiosis halving + fertilisation restoring", "binary fission", "G0 phase"], "correct": 1, "explanation": "Meiosis halves the number; fertilisation restores it." },
+            { "q": "<p>The main role of mitosis is:</p>", "options": ["gamete formation", "growth and repair", "creating variation", "halving chromosomes"], "correct": 1, "explanation": "Mitosis provides identical cells for growth, repair and replacement." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> No S phase between meiosis I and II. Anaphase I = homologues separate (reductional); Anaphase II = chromatids separate (equational). Meiosis = gametes + variation; mitosis = growth/repair, identical cells.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-biology-ch10-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>DNA replication takes place during the:</p>", "options": ["G1 phase", "S phase", "G2 phase", "M phase"], "correct": 1, "explanation": "DNA is replicated in S phase." },
+            { "q": "<p>The quiescent stage in which cells stop dividing is:</p>", "options": ["G1", "G2", "G0", "S"], "correct": 2, "explanation": "G0 is the quiescent stage." },
+            { "q": "<p>Mitosis maintains the chromosome number and is therefore:</p>", "options": ["reductional", "equational", "meiotic", "amitotic"], "correct": 1, "explanation": "Mitosis is equational." },
+            { "q": "<p>Chromosomes are most condensed and aligned at the equator during:</p>", "options": ["prophase", "metaphase", "anaphase", "telophase"], "correct": 1, "explanation": "Metaphase: chromosomes align at the plate, most condensed." },
+            { "q": "<p>Crossing over occurs in which substage of prophase I?</p>", "options": ["leptotene", "zygotene", "pachytene", "diakinesis"], "correct": 2, "explanation": "Crossing over occurs in pachytene." },
+            { "q": "<p>Homologous chromosomes separate during:</p>", "options": ["anaphase of mitosis", "anaphase I", "anaphase II", "metaphase II"], "correct": 1, "explanation": "Homologues separate in anaphase I (reductional)." },
+            { "q": "<p>The number of haploid cells produced at the end of meiosis is:</p>", "options": ["one", "two", "three", "four"], "correct": 3, "explanation": "Meiosis yields four haploid cells." },
+            { "q": "<p>In an animal cell, cytokinesis occurs by a:</p>", "options": ["cell plate", "cleavage furrow", "spindle", "phragmoplast"], "correct": 1, "explanation": "Animal cells use a cleavage furrow." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> Although DNA content doubles in S phase, the chromosome number does not change.<br><strong>R:</strong> The two DNA copies remain joined as sister chromatids of the same chromosome.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Joined sister chromatids count as one chromosome, so number is unchanged — R explains A." },
+            { "q": "<p><strong>A:</strong> Meiosis halves the chromosome number.<br><strong>R:</strong> A single round of DNA replication is followed by two successive divisions.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Two divisions after one replication is what halves the number — R explains A." },
+            { "q": "<p><strong>A:</strong> Sister chromatids separate during anaphase I of meiosis.<br><strong>R:</strong> Meiosis I is a reductional division.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "A is false — in anaphase I the HOMOLOGUES separate, not the chromatids; R (reductional) is true." },
+            { "q": "<p><strong>A:</strong> Meiosis is a source of genetic variation.<br><strong>R:</strong> Crossing over and independent assortment occur during meiosis.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Crossing over and independent assortment generate the variation — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

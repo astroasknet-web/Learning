@@ -1,0 +1,168 @@
+{
+  "exam": "neet",
+  "subject": "physics",
+  "chapter": 16,
+  "title": "Electromagnetic Waves",
+  "slug": "electromagnetic-waves",
+  "subtitle": "Displacement current, nature of EM waves & the electromagnetic spectrum",
+  "level": "NEET (UG)",
+  "color": "#2563eb",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "NEET Physics — Electromagnetic Waves: displacement current and Maxwell's correction, the transverse nature and speed of EM waves, energy and momentum, and the full electromagnetic spectrum from radio waves to gamma rays, with NEET-level examples and MCQs. Free on GrowQR."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Nature of Electromagnetic Waves",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Displacement Current and Maxwell's Equations",
+          "concept": "<p>Ampere's law in its original form related the magnetic field around a loop to the conduction current threading it. Maxwell spotted a gap: during the charging of a capacitor, current flows in the wires but stops at the plates, yet a magnetic field still exists between them. To fix this inconsistency he introduced the <strong>displacement current</strong>, a current-like term produced by a <em>changing electric field</em>.</p><p>The displacement current is $I_d = \\varepsilon_0\\dfrac{d\\Phi_E}{dt}$, where $\\Phi_E$ is the electric flux. Between capacitor plates, as charge builds up, the changing electric flux produces exactly the displacement current needed to keep the magnetic field continuous. The key NEET idea is that <strong>a changing electric field produces a magnetic field</strong>, just as a changing magnetic field produces an electric field (Faraday's law).</p><p>With this addition, the four <strong>Maxwell's equations</strong> unify all of electricity and magnetism. In words: electric field lines begin and end on charges (Gauss's law); magnetic field lines form closed loops with no monopoles; a changing magnetic flux induces an electric field (Faraday's law); and a current <em>or</em> a changing electric flux produces a magnetic field (the modified Ampere–Maxwell law).</p><p>The profound consequence is that a changing electric field makes a changing magnetic field, which in turn makes a changing electric field, and so on — a self-sustaining disturbance that travels through space as an <strong>electromagnetic wave</strong>. Maxwell's theory predicted these waves and even their speed, before they were ever observed, a landmark NEET likes to highlight.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Idea</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Statement</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Displacement current</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$I_d = \\varepsilon_0\\dfrac{d\\Phi_E}{dt}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Changing $E$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>produces a magnetic field</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Changing $B$</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>produces an electric field</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>What is the source of the displacement current between the plates of a charging capacitor?</p>",
+              "solution": "<p>The changing electric field (and hence changing electric flux) between the plates: $I_d = \\varepsilon_0\\,d\\Phi_E/dt$. No charge actually crosses the gap, yet this term produces a magnetic field there.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Which of Maxwell's equations was modified by adding the displacement current?</p>",
+              "solution": "<p>Ampere's circuital law. The modified Ampere–Maxwell law includes both the conduction current and the displacement current $\\varepsilon_0\\,d\\Phi_E/dt$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The displacement current arises from a changing:</p>", "options": ["magnetic field", "electric field", "charge only", "resistance"], "correct": 1, "explanation": "$I_d = \\varepsilon_0\\,d\\Phi_E/dt$ comes from a changing electric field." },
+            { "q": "<p>Maxwell modified which law by adding displacement current?</p>", "options": ["Gauss's law", "Faraday's law", "Ampere's law", "Coulomb's law"], "correct": 2, "explanation": "Ampere's law became the Ampere–Maxwell law." },
+            { "q": "<p>A changing electric field produces a:</p>", "options": ["static charge", "magnetic field", "gravitational field", "sound wave"], "correct": 1, "explanation": "Changing $E$ produces $B$ (Maxwell's key insight)." },
+            { "q": "<p>Magnetic field lines, according to Maxwell's equations:</p>", "options": ["start on charges", "form closed loops", "end at infinity", "do not exist"], "correct": 1, "explanation": "No monopoles, so $B$ lines are closed loops." },
+            { "q": "<p>Maxwell's equations predicted the existence of:</p>", "options": ["electrons", "electromagnetic waves", "protons", "neutrons"], "correct": 1, "explanation": "They predicted self-propagating EM waves." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Displacement current $I_d = \\varepsilon_0\\,d\\Phi_E/dt$ comes from a changing electric field and completes Ampere's law. Remember the symmetry: changing $E$ makes $B$, changing $B$ makes $E$.</p>"
+        },
+        {
+          "number": 2,
+          "title": "Properties of Electromagnetic Waves",
+          "concept": "<p>In an electromagnetic wave, the electric field $E$ and magnetic field $B$ oscillate <em>perpendicular to each other and to the direction of propagation</em> — so EM waves are <strong>transverse</strong>. The two fields are in phase, reaching their maxima and zeros together, and the wave travels in the direction given by $E \\times B$. This transverse, mutually perpendicular geometry is the single most-tested fact about EM waves.</p><p>EM waves need <strong>no medium</strong> and travel through vacuum, which is how sunlight crosses empty space. Their speed in vacuum is fixed by two fundamental constants: $c = \\dfrac{1}{\\sqrt{\\mu_0\\varepsilon_0}} \\approx 3\\times10^{8}\\ \\text{m/s}$. The fact that this matched the known speed of light convinced Maxwell that light itself is an electromagnetic wave.</p><p>The magnitudes of the two fields are linked by $c = \\dfrac{E_0}{B_0}$, so the electric field is numerically much larger than the magnetic field. In a material medium the speed drops to $v = \\dfrac{1}{\\sqrt{\\mu\\varepsilon}}$, always less than $c$, with the refractive index $n = c/v$. The frequency stays fixed while the wavelength shortens in a denser medium.</p><p>EM waves carry both <strong>energy</strong> and <strong>momentum</strong>, shared equally between the electric and magnetic fields. Because they carry momentum, they exert a small <strong>radiation pressure</strong> on surfaces they strike — the principle behind solar sails. The average energy density and the intensity both depend on the square of the field amplitude, and these waves are produced by accelerating charges, such as electrons oscillating in an antenna.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Property</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Nature</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>transverse; $E \\perp B \\perp$ propagation</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Speed in vacuum</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$c = \\dfrac{1}{\\sqrt{\\mu_0\\varepsilon_0}}$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Field ratio</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$c = E_0/B_0$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Carry</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>energy & momentum (radiation pressure)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>The electric field amplitude of an EM wave is $E_0 = 6\\ \\text{V/m}$. Find the magnetic field amplitude.</p>",
+              "solution": "<p>$B_0 = \\dfrac{E_0}{c} = \\dfrac{6}{3\\times10^{8}} = 2\\times10^{-8}\\ \\text{T}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>In which directions do $E$, $B$ and the propagation of an EM wave point relative to one another?</p>",
+              "solution": "<p>All three are mutually perpendicular. $E$ and $B$ oscillate at right angles to each other, and both are perpendicular to the direction of propagation (the direction of $E \\times B$).</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Electromagnetic waves are:</p>", "options": ["longitudinal", "transverse", "mechanical", "stationary"], "correct": 1, "explanation": "$E$ and $B$ oscillate perpendicular to propagation — transverse." },
+            { "q": "<p>The speed of EM waves in vacuum is:</p>", "options": ["$\\sqrt{\\mu_0\\varepsilon_0}$", "$1/\\sqrt{\\mu_0\\varepsilon_0}$", "$\\mu_0\\varepsilon_0$", "$1/\\mu_0\\varepsilon_0$"], "correct": 1, "explanation": "$c = 1/\\sqrt{\\mu_0\\varepsilon_0}$." },
+            { "q": "<p>In an EM wave, $E$ and $B$ are:</p>", "options": ["in phase, perpendicular", "out of phase, parallel", "in phase, parallel", "out of phase, perpendicular"], "correct": 0, "explanation": "They are in phase and mutually perpendicular." },
+            { "q": "<p>The ratio $E_0/B_0$ for an EM wave in vacuum equals:</p>", "options": ["$1$", "$c$", "$1/c$", "$c^{2}$"], "correct": 1, "explanation": "$E_0/B_0 = c$." },
+            { "q": "<p>EM waves exert radiation pressure because they carry:</p>", "options": ["mass", "charge", "momentum", "temperature"], "correct": 2, "explanation": "Momentum transfer causes radiation pressure." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> EM waves are transverse, need no medium, travel at $c = 1/\\sqrt{\\mu_0\\varepsilon_0}$ with $E_0/B_0 = c$, and carry energy and momentum (radiation pressure). $E$, $B$ and propagation are mutually perpendicular.</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The Electromagnetic Spectrum",
+      "topics": [
+        {
+          "number": 3,
+          "title": "The Electromagnetic Spectrum and Its Order",
+          "concept": "<p>All electromagnetic waves are the same kind of disturbance, differing only in frequency and wavelength. Arranged from longest wavelength (lowest frequency) to shortest wavelength (highest frequency), the <strong>electromagnetic spectrum</strong> runs: radio waves, microwaves, infrared, visible light, ultraviolet, X-rays and gamma rays. Remembering this order is essential, because NEET frequently asks you to rank waves by wavelength, frequency or energy.</p><p>Since all EM waves travel at $c$ in vacuum, frequency and wavelength are tied by $c = f\\lambda$. As you move up the spectrum the wavelength <em>decreases</em>, the frequency <em>increases</em>, and the photon energy $E = hf$ <em>increases</em>. So gamma rays have the shortest wavelength, highest frequency and highest energy, while radio waves are at the opposite extreme — a chain of three inverse/direct relations worth fixing firmly.</p><p><strong>Visible light</strong> occupies only a tiny band, roughly $400$ to $700\\ \\text{nm}$, between ultraviolet and infrared. Within it, violet has the shortest wavelength and red the longest — the order VIBGYOR runs from short to long wavelength. The narrowness of the visible band, sandwiched in the middle of a vast spectrum, is itself a point NEET likes to make.</p><p>Each band is produced differently and used differently. The higher-energy waves (UV, X-rays, gamma) can ionise atoms and damage tissue, while lower-energy waves are generally safer. Understanding that wavelength, frequency and energy march together — and knowing roughly where each band sits — lets you answer most spectrum questions without memorising exact numbers.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Spectrum (long to short $\\lambda$)</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Trend</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Radio to gamma</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\lambda$ decreases</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Radio to gamma</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$f$ and energy increase</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Wave relation</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$c = f\\lambda$, $E = hf$</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Visible light</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>$\\sim 400$–$700\\ \\text{nm}$ (VIBGYOR)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Arrange in increasing order of frequency: X-rays, radio waves, visible light.</p>",
+              "solution": "<p>Frequency increases as wavelength decreases: radio waves $<$ visible light $<$ X-rays.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Find the frequency of light of wavelength $600\\ \\text{nm}$.</p>",
+              "solution": "<p>$f = \\dfrac{c}{\\lambda} = \\dfrac{3\\times10^{8}}{600\\times10^{-9}} = 5\\times10^{14}\\ \\text{Hz}$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Which has the longest wavelength?</p>", "options": ["gamma rays", "X-rays", "radio waves", "ultraviolet"], "correct": 2, "explanation": "Radio waves have the longest wavelength." },
+            { "q": "<p>Which has the highest photon energy?</p>", "options": ["radio waves", "infrared", "visible light", "gamma rays"], "correct": 3, "explanation": "$E = hf$; gamma rays have the highest frequency and energy." },
+            { "q": "<p>Visible light lies between:</p>", "options": ["radio and microwave", "infrared and ultraviolet", "X-ray and gamma", "microwave and infrared"], "correct": 1, "explanation": "Visible light sits between IR and UV." },
+            { "q": "<p>As frequency increases across the spectrum, wavelength:</p>", "options": ["increases", "decreases", "stays constant", "doubles"], "correct": 1, "explanation": "$c = f\\lambda$, so higher $f$ means smaller $\\lambda$." },
+            { "q": "<p>In the visible band, the longest wavelength colour is:</p>", "options": ["violet", "green", "red", "blue"], "correct": 2, "explanation": "Red has the longest wavelength (VIBGYOR runs short to long)." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Memorise the order radio → micro → IR → visible → UV → X-ray → gamma. Across it, $\\lambda$ falls while $f$ and energy ($E = hf$) rise. Use $c = f\\lambda$ for numericals.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Sources and Uses of Each Band",
+          "concept": "<p>Each region of the spectrum is produced by a characteristic process and put to characteristic uses, and NEET very often tests these source–use pairings directly. <strong>Radio waves</strong> are produced by oscillating currents in antennas and are used in radio, television and mobile communication. <strong>Microwaves</strong> come from special vacuum tubes (klystrons, magnetrons) and are used in microwave ovens, radar and satellite communication — their absorption by water molecules is what heats food.</p><p><strong>Infrared (IR)</strong> radiation is emitted by hot bodies and molecules; it is felt as heat and used in night-vision devices, remote controls and thermal imaging, and it is also responsible for the greenhouse effect that warms the Earth. <strong>Visible light</strong>, emitted by atoms and hot objects like the Sun and lamps, is the only band our eyes detect and the basis of photography and illumination.</p><p><strong>Ultraviolet (UV)</strong> is produced by very hot bodies (such as the Sun) and special lamps; it causes sunburn and is used for sterilisation and detecting forgeries, but is largely absorbed by the ozone layer, which protects life on Earth. <strong>X-rays</strong> are produced when fast electrons strike a metal target and are used in medical imaging and security scanning because they penetrate soft tissue but not bone.</p><p><strong>Gamma rays</strong>, the most energetic band, come from radioactive nuclei and nuclear reactions; they are used in cancer radiotherapy and to sterilise medical equipment. The general trend NEET expects you to grasp is that the higher-energy bands (UV, X-ray, gamma) are penetrating and potentially harmful, used where their energy is an asset, while the lower-energy bands dominate everyday communication and heating.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#eff6ff'><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Band</th><th style='border:1px solid #cbd5e1;padding:6px 10px;text-align:left'>Typical use</th></tr></thead><tbody><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Radio waves</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>radio, TV, mobile communication</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Microwaves</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>radar, ovens, satellite links</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Infrared</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>remote controls, thermal imaging</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Ultraviolet</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>sterilisation, detecting forgery</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>X-rays</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>medical imaging, security</td></tr><tr><td style='border:1px solid #e2e8f0;padding:6px 10px'>Gamma rays</td><td style='border:1px solid #e2e8f0;padding:6px 10px'>cancer therapy, sterilisation</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Which electromagnetic waves are used in a microwave oven, and why do they heat food?</p>",
+              "solution": "<p>Microwaves. They are strongly absorbed by water molecules in the food, setting them into vigorous motion (rotation), which raises the food's temperature.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Which band is used in medical imaging of bones, and which in cancer radiotherapy?</p>",
+              "solution": "<p>X-rays are used for imaging bones (they penetrate soft tissue but not bone). Gamma rays, being highly energetic, are used to destroy cancerous tissue in radiotherapy.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Microwaves are commonly used in:</p>", "options": ["X-ray imaging", "radar and ovens", "sterilisation", "night vision"], "correct": 1, "explanation": "Radar, ovens and satellite links use microwaves." },
+            { "q": "<p>Infrared radiation is used in:</p>", "options": ["mobile calls", "remote controls and thermal imaging", "cancer therapy", "forgery detection"], "correct": 1, "explanation": "IR is used in remote controls and thermal imaging." },
+            { "q": "<p>X-rays are produced when:</p>", "options": ["water absorbs microwaves", "fast electrons strike a metal target", "nuclei decay", "antennas oscillate"], "correct": 1, "explanation": "X-rays come from fast electrons hitting a metal target." },
+            { "q": "<p>Gamma rays are emitted by:</p>", "options": ["antennas", "hot bodies", "radioactive nuclei", "magnetrons"], "correct": 2, "explanation": "Gamma rays come from radioactive nuclei." },
+            { "q": "<p>The ozone layer protects life mainly by absorbing:</p>", "options": ["radio waves", "infrared", "ultraviolet", "microwaves"], "correct": 2, "explanation": "Ozone absorbs harmful ultraviolet radiation." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Learn one source and one use per band. High-energy bands (UV, X-ray, gamma) are penetrating/harmful; lower-energy bands handle communication and heating. These source–use pairings are direct one-mark questions.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-physics-ch16-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>The displacement current is given by:</p>", "options": ["$\\mu_0\\,dI/dt$", "$\\varepsilon_0\\,d\\Phi_E/dt$", "$d\\Phi_B/dt$", "$\\varepsilon_0 E$"], "correct": 1, "explanation": "$I_d = \\varepsilon_0\\,d\\Phi_E/dt$." },
+            { "q": "<p>Electromagnetic waves are:</p>", "options": ["longitudinal", "transverse", "mechanical", "stationary"], "correct": 1, "explanation": "EM waves are transverse." },
+            { "q": "<p>The speed of light in vacuum is:</p>", "options": ["$\\sqrt{\\mu_0\\varepsilon_0}$", "$1/\\sqrt{\\mu_0\\varepsilon_0}$", "$\\mu_0\\varepsilon_0$", "$\\mu_0/\\varepsilon_0$"], "correct": 1, "explanation": "$c = 1/\\sqrt{\\mu_0\\varepsilon_0}$." },
+            { "q": "<p>In an EM wave, the ratio $E_0/B_0$ equals:</p>", "options": ["$1$", "$c$", "$1/c$", "$c^{2}$"], "correct": 1, "explanation": "$E_0/B_0 = c$." },
+            { "q": "<p>Which has the shortest wavelength?</p>", "options": ["radio waves", "infrared", "visible light", "gamma rays"], "correct": 3, "explanation": "Gamma rays have the shortest wavelength." },
+            { "q": "<p>Visible light wavelength range is roughly:</p>", "options": ["$40$–$70\\ \\text{nm}$", "$400$–$700\\ \\text{nm}$", "$4$–$7\\ \\mu\\text{m}$", "$4$–$7\\ \\text{mm}$"], "correct": 1, "explanation": "About $400$–$700\\ \\text{nm}$." },
+            { "q": "<p>Radar and satellite communication use:</p>", "options": ["X-rays", "microwaves", "gamma rays", "ultraviolet"], "correct": 1, "explanation": "Microwaves are used in radar and satellite links." },
+            { "q": "<p>The photon energy of an EM wave is:</p>", "options": ["$h/f$", "$hf$", "$hc$", "$f/h$"], "correct": 1, "explanation": "$E = hf$." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> A magnetic field exists between the plates of a charging capacitor even though no charge crosses the gap.<br><strong>R:</strong> The changing electric field there constitutes a displacement current that produces a magnetic field.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Displacement current from the changing $E$ field produces the magnetic field — R explains A." },
+            { "q": "<p><strong>A:</strong> Electromagnetic waves can travel through vacuum.<br><strong>R:</strong> EM waves are produced by oscillating electric and magnetic fields that sustain each other and need no material medium.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Self-sustaining fields need no medium, so they cross vacuum — R explains A." },
+            { "q": "<p><strong>A:</strong> Gamma rays have a longer wavelength than radio waves.<br><strong>R:</strong> Wavelength decreases as frequency increases for electromagnetic waves.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "Gamma rays have a much shorter wavelength than radio waves, so A is false; R correctly states $\\lambda$ falls as $f$ rises." },
+            { "q": "<p><strong>A:</strong> Electromagnetic waves can exert pressure on a surface.<br><strong>R:</strong> EM waves carry momentum as well as energy.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Carrying momentum is exactly why they exert radiation pressure — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

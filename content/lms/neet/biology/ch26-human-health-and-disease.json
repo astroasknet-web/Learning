@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "biology",
+  "chapter": 26,
+  "title": "Human Health and Disease",
+  "slug": "human-health-and-disease",
+  "subtitle": "Common diseases and their pathogens, the immune system, AIDS and cancer, and drug and alcohol abuse",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "leaf",
+  "seo": {
+    "meta_description": "NEET Biology — Human Health and Disease: common diseases and their pathogens (malaria, typhoid, amoebiasis, filariasis), innate and acquired immunity, antibodies, active vs passive immunity, AIDS and cancer, and drug and alcohol abuse, with NEET-level examples and MCQs. Free on GrowQR.",
+    "focus_keyword": "human health and disease NEET",
+    "secondary_keywords": [
+      "common diseases pathogens NEET",
+      "innate acquired immunity antibody",
+      "active vs passive immunity",
+      "AIDS HIV cancer NEET",
+      "drugs and alcohol abuse"
+    ],
+    "keywords": [
+      "human health and disease NEET",
+      "pathogens malaria typhoid filariasis",
+      "immune system antibodies immunity",
+      "AIDS HIV cancer biology",
+      "drug alcohol abuse"
+    ]
+  },
+  "summary": "<ul><li><strong>Pathogens &amp; diseases:</strong> <strong>Malaria</strong> (<em>Plasmodium</em>, female <em>Anopheles</em>), <strong>typhoid</strong> (<em>Salmonella typhi</em>, Widal test), <strong>amoebiasis</strong> (<em>Entamoeba</em>), <strong>pneumonia</strong> (<em>Streptococcus</em>), <strong>filariasis</strong> (<em>Wuchereria</em>), <strong>ringworm</strong> (fungi), <strong>ascariasis</strong> (<em>Ascaris</em>).</li><li><strong>Immunity:</strong> <strong>innate</strong> (non-specific: skin, phagocytes, interferons) &amp; <strong>acquired</strong> (specific: B-cells = humoral/AMI, T-cells = cell-mediated/CMI; memory).</li><li><strong>Antibody</strong> = Y-shaped, 4 chains (2 heavy + 2 light), H₂L₂; classes IgG, IgA, IgM, IgE, IgD.</li><li><strong>Active immunity</strong> (own antibodies, slow — vaccination) vs <strong>passive immunity</strong> (ready-made antibodies, fast — colostrum, antiserum).</li><li><strong>AIDS:</strong> HIV (retrovirus) attacks <strong>helper T-cells</strong>; diagnosis by <strong>ELISA</strong>.</li><li><strong>Cancer:</strong> uncontrolled division, loss of contact inhibition, <strong>metastasis</strong> (malignant).</li><li><strong>Drugs:</strong> opioids (heroin), cannabinoids (marijuana), cocaine (stimulant).</li></ul>",
+  "faqs": [
+    { "q": "Which pathogen causes malaria and how is it transmitted?", "a": "Malaria is caused by the protozoan parasite Plasmodium (species include P. vivax, P. falciparum and P. malariae; P. falciparum is the most dangerous). It is transmitted by the bite of an infected female Anopheles mosquito, which is the vector. The release of the toxin haemozoin from infected red blood cells causes the characteristic recurring chills and high fever." },
+    { "q": "What is the difference between innate and acquired immunity?", "a": "Innate immunity is non-specific and present from birth — it acts the same way against any pathogen and includes physical barriers (skin), physiological barriers (stomach acid, saliva), phagocytic cells and interferons. Acquired (adaptive) immunity is pathogen-specific and develops after exposure; it has memory, so the second response to the same pathogen is faster and stronger, and it is carried out by B-lymphocytes (antibody/humoral immunity) and T-lymphocytes (cell-mediated immunity)." },
+    { "q": "What is the difference between active and passive immunity?", "a": "In active immunity the body is exposed to an antigen (through infection or vaccination) and makes its own antibodies; it develops slowly but is long-lasting. In passive immunity, ready-made antibodies are given directly to the body; protection is immediate but short-lived. Examples of passive immunity are the antibodies a baby gets from colostrum and the anti-tetanus serum given after injury." },
+    { "q": "How does HIV cause AIDS?", "a": "HIV (Human Immunodeficiency Virus, a retrovirus) infects and gradually destroys the helper T-lymphocytes of the immune system. As their numbers fall, the body's immunity collapses and the person becomes vulnerable to infections that a healthy person would resist. This advanced stage is AIDS. HIV spreads through unprotected sex, infected blood/needles and from an infected mother to her child; it is commonly diagnosed by the ELISA test." },
+    { "q": "What distinguishes a malignant tumour from a benign one?", "a": "A benign tumour stays confined to its original site and does not spread. A malignant tumour (cancer) grows uncontrollably, invades surrounding tissue, and its cells can break away and travel through the blood or lymph to start new tumours elsewhere — a process called metastasis. Cancer cells also lose contact inhibition, so they keep dividing even when crowded." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Common Diseases and the Immune System",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Common Human Diseases and Their Pathogens",
+          "concept": "<p>Good <strong>health</strong> is a state of complete physical, mental and social well-being, not merely the absence of disease. Many human diseases are <strong>infectious</strong>, caused by <strong>pathogens</strong> &mdash; disease-causing organisms &mdash; and knowing each pathogen, its disease and how it spreads is core NEET recall.</p><p>Several important diseases are <strong>bacterial</strong>. <strong>Typhoid</strong> is caused by <strong>Salmonella typhi</strong>; it spreads through contaminated food and water, causes sustained high fever, and is confirmed by the <strong>Widal test</strong> (the historic carrier 'Typhoid Mary' is a famous case). <strong>Pneumonia</strong> is caused by <strong>Streptococcus pneumoniae</strong> (and <em>Haemophilus influenzae</em>), affecting the alveoli of the lungs. <strong>Common cold</strong> is a <strong>viral</strong> disease caused by <strong>rhino viruses</strong>, affecting the nose and respiratory passage.</p><p><strong>Protozoan</strong> diseases are very important. <strong>Malaria</strong> is caused by <strong>Plasmodium</strong> (species <em>vivax</em>, <em>falciparum</em>, <em>malariae</em>; <strong>P. falciparum is the most serious</strong>) and is transmitted by the bite of an <strong>infected female Anopheles mosquito</strong> (the vector). The parasite multiplies in liver and red blood cells, and the release of the toxin <strong>haemozoin</strong> causes the typical recurring <strong>chills and high fever</strong>. <strong>Amoebiasis (amoebic dysentery)</strong> is caused by <strong>Entamoeba histolytica</strong>, spread by <strong>houseflies</strong> and contaminated food/water.</p><p>Other groups complete the list. <strong>Ringworm</strong> is a <strong>fungal</strong> disease (genera <em>Microsporum, Trichophyton, Epidermophyton</em>) causing scaly skin lesions. Among <strong>helminths (worms)</strong>, <strong>Ascariasis</strong> is caused by the roundworm <strong>Ascaris</strong>, and <strong>Filariasis (elephantiasis)</strong> is caused by <strong>Wuchereria</strong> (filarial worms), transmitted by mosquitoes, causing gross swelling of limbs. Prevention generally relies on <strong>hygiene, clean food and water, vector control</strong> (e.g. eliminating mosquito breeding) and <strong>vaccination</strong> where available. For NEET, memorise the pathogen, type and vector/mode of spread for each disease &mdash; especially malaria (Plasmodium, female Anopheles, haemozoin), typhoid (Salmonella, Widal test) and filariasis (Wuchereria).</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Disease</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Pathogen / spread</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Malaria</td><td style='border:1px solid #dcfce7;padding:6px 8px'><em>Plasmodium</em>; female <em>Anopheles</em> mosquito</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Typhoid</td><td style='border:1px solid #dcfce7;padding:6px 8px'><em>Salmonella typhi</em>; food/water (Widal test)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Amoebiasis</td><td style='border:1px solid #dcfce7;padding:6px 8px'><em>Entamoeba histolytica</em>; houseflies</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Pneumonia</td><td style='border:1px solid #dcfce7;padding:6px 8px'><em>Streptococcus pneumoniae</em> (lungs)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Filariasis / Ringworm</td><td style='border:1px solid #dcfce7;padding:6px 8px'><em>Wuchereria</em> (mosquito) / fungi</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Name the pathogen and the vector of malaria, and the toxin responsible for its fever.</p>",
+              "solution": "<p>Pathogen: <strong>Plasmodium</strong> (a protozoan); vector: the <strong>infected female Anopheles mosquito</strong>. The recurring chills and high fever are caused by the release of the toxin <strong>haemozoin</strong> from infected red blood cells.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Match the pathogen type: (a) typhoid, (b) ringworm, (c) filariasis.</p>",
+              "solution": "<p>(a) Typhoid = <strong>bacterial</strong> (<em>Salmonella typhi</em>); (b) ringworm = <strong>fungal</strong> (<em>Microsporum/Trichophyton/Epidermophyton</em>); (c) filariasis = <strong>helminth/worm</strong> (<em>Wuchereria</em>).</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Malaria is caused by:</p>", "options": ["a bacterium", "Plasmodium (protozoan)", "a fungus", "a virus"], "correct": 1, "explanation": "Plasmodium, a protozoan, causes malaria." },
+            { "q": "<p>The vector of malaria is the:</p>", "options": ["male Anopheles", "female Anopheles", "female Culex", "housefly"], "correct": 1, "explanation": "The infected female Anopheles mosquito transmits malaria." },
+            { "q": "<p>Typhoid is confirmed by the:</p>", "options": ["ELISA test", "Widal test", "biopsy", "blood smear only"], "correct": 1, "explanation": "The Widal test confirms typhoid (Salmonella typhi)." },
+            { "q": "<p>Ringworm is a/an:</p>", "options": ["bacterial disease", "viral disease", "fungal disease", "protozoan disease"], "correct": 2, "explanation": "Ringworm is caused by fungi." },
+            { "q": "<p>Elephantiasis (filariasis) is caused by:</p>", "options": ["Entamoeba", "Wuchereria", "Ascaris", "Plasmodium"], "correct": 1, "explanation": "Wuchereria (filarial worm) causes filariasis." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Malaria = Plasmodium (female Anopheles; haemozoin → fever). Typhoid = Salmonella typhi (Widal test). Amoebiasis = Entamoeba (houseflies). Pneumonia = Streptococcus. Ringworm = fungi. Ascariasis = Ascaris; Filariasis = Wuchereria (mosquito).</p>"
+        },
+        {
+          "number": 2,
+          "title": "The Immune System and Immunity",
+          "concept": "<p>The body defends itself against pathogens through <strong>immunity</strong>, of two broad types. <strong>Innate immunity</strong> is <strong>non-specific</strong> and present from birth &mdash; it responds the same way to any pathogen. It has four kinds of barriers: <strong>physical</strong> (skin, mucus lining), <strong>physiological</strong> (acid in the stomach, saliva, tears), <strong>cellular</strong> (phagocytes such as neutrophils and macrophages, and natural killer cells) and <strong>cytokine</strong> barriers (interferons released by virus-infected cells).</p><p><strong>Acquired (adaptive) immunity</strong> is <strong>pathogen-specific</strong> and develops after exposure. Its hallmark is <strong>memory</strong>: the <strong>first (primary) response</strong> to a new pathogen is slow and weak, but the <strong>second (secondary) response</strong> to the same pathogen is <strong>faster and stronger</strong> because memory cells 'remember' it. Acquired immunity is carried out by two kinds of lymphocytes: <strong>B-lymphocytes</strong> produce <strong>antibodies</strong> that circulate in body fluids &mdash; this is <strong>humoral or antibody-mediated immunity (AMI)</strong> &mdash; while <strong>T-lymphocytes</strong> carry out <strong>cell-mediated immunity (CMI)</strong> and also help the B-cells.</p><p>An <strong>antibody (immunoglobulin)</strong> is a <strong>Y-shaped protein</strong> made of <strong>four polypeptide chains &mdash; two longer heavy chains and two shorter light chains</strong> (so it is written <strong>H₂L₂</strong>). There are five classes: <strong>IgG, IgA, IgM, IgE and IgD</strong> (for example, <strong>IgE</strong> is involved in allergies, and <strong>IgA</strong> is found in colostrum).</p><p>Acquired immunity is also classified by how it is gained. <strong>Active immunity</strong> is when the <strong>body makes its own antibodies</strong> after exposure to an antigen (by infection or by <strong>vaccination</strong>); it is <strong>slow to develop but long-lasting</strong>. <strong>Passive immunity</strong> is when <strong>ready-made antibodies are given</strong> directly to the body; it acts <strong>immediately but is short-lived</strong> &mdash; examples are the antibodies a baby receives in <strong>colostrum</strong> and the <strong>anti-tetanus serum</strong> given after an injury. <strong>Vaccination</strong> works on the principle of memory. Related concepts include <strong>allergies</strong> (over-reaction to harmless antigens, mediated by IgE and histamine) and <strong>autoimmunity</strong> (the immune system attacking the body's own cells, e.g. rheumatoid arthritis). For NEET, fix the innate vs acquired distinction, B-cell (humoral/AMI) vs T-cell (CMI), antibody structure (H₂L₂, Y-shaped), and active vs passive immunity with examples.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Concept</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Innate immunity</td><td style='border:1px solid #dcfce7;padding:6px 8px'>non-specific: skin, acid, phagocytes, interferons</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Acquired immunity</td><td style='border:1px solid #dcfce7;padding:6px 8px'>specific + memory: B-cells (AMI), T-cells (CMI)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Antibody</td><td style='border:1px solid #dcfce7;padding:6px 8px'>Y-shaped, H₂L₂; IgG, IgA, IgM, IgE, IgD</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Active immunity</td><td style='border:1px solid #dcfce7;padding:6px 8px'>own antibodies; slow, lasting (vaccination)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Passive immunity</td><td style='border:1px solid #dcfce7;padding:6px 8px'>ready-made antibodies; fast, short (colostrum, antiserum)</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Describe the structure of an antibody molecule.</p>",
+              "solution": "<p>An antibody is a <strong>Y-shaped protein</strong> made of <strong>four polypeptide chains</strong> — <strong>two heavy (long) and two light (short)</strong> chains, written as <strong>H₂L₂</strong>. The tips of the 'Y' bind specifically to the antigen.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Anti-tetanus serum gives immediate protection after an injury. What type of immunity is this, and why is it short-lived?</p>",
+              "solution": "<p>It is <strong>passive immunity</strong> — the serum provides <strong>ready-made antibodies</strong>, so protection is <strong>immediate</strong>. It is <strong>short-lived</strong> because the body did not make these antibodies itself and has <strong>no memory cells</strong>, so the antibodies are used up and not replaced.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Innate immunity is:</p>", "options": ["pathogen-specific", "non-specific and present from birth", "acquired after infection", "only in adults"], "correct": 1, "explanation": "Innate immunity is non-specific and inborn." },
+            { "q": "<p>Antibody-mediated (humoral) immunity is carried out by:</p>", "options": ["T-lymphocytes", "B-lymphocytes", "neutrophils", "platelets"], "correct": 1, "explanation": "B-lymphocytes produce antibodies (humoral immunity)." },
+            { "q": "<p>An antibody is made of how many polypeptide chains?</p>", "options": ["two", "three", "four", "six"], "correct": 2, "explanation": "Four chains: 2 heavy + 2 light (H₂L₂)." },
+            { "q": "<p>Vaccination produces:</p>", "options": ["passive immunity", "active immunity", "innate immunity", "no immunity"], "correct": 1, "explanation": "Vaccination makes the body produce its own antibodies — active immunity." },
+            { "q": "<p>Antibodies received through colostrum give:</p>", "options": ["active immunity", "passive immunity", "innate immunity", "autoimmunity"], "correct": 1, "explanation": "Ready-made antibodies = passive immunity." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Innate = non-specific (skin, acid, phagocytes, interferons). Acquired = specific + memory; B-cells = humoral (AMI), T-cells = cell-mediated (CMI). Antibody = Y-shaped, H₂L₂ (IgG/A/M/E/D). Active = own antibodies, slow/lasting (vaccination); Passive = ready-made, fast/short (colostrum, antiserum).</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "AIDS, Cancer and Drug & Alcohol Abuse",
+      "topics": [
+        {
+          "number": 3,
+          "title": "AIDS and Cancer",
+          "concept": "<p><strong>AIDS (Acquired Immuno Deficiency Syndrome)</strong> is caused by the <strong>Human Immunodeficiency Virus (HIV)</strong>, a <strong>retrovirus</strong> (its genetic material is RNA, copied into DNA inside the host). HIV infects and progressively <strong>destroys the helper T-lymphocytes (T<sub>H</sub> cells)</strong> of the immune system. As these cells are depleted, the body's immunity <strong>collapses</strong>, so the person falls prey to infections (and some cancers) that a healthy immune system would resist.</p><p>HIV spreads through <strong>(i) unprotected sexual contact with an infected person, (ii) transfusion of infected blood or sharing infected needles, and (iii) from an infected mother to her child</strong> (across the placenta or through milk). It does <strong>not</strong> spread by casual contact like hugging or sharing food. AIDS is commonly diagnosed by the <strong>ELISA test</strong>. There is <strong>no complete cure</strong>; <strong>anti-retroviral (ART) drugs</strong> control the virus and prolong life, and prevention (safe sex, screened blood, clean needles, awareness) is the key control measure.</p><p><strong>Cancer</strong> is a disease of <strong>uncontrolled cell division</strong>. Normal cells show <strong>contact inhibition</strong> &mdash; they stop dividing when they touch neighbours &mdash; but <strong>cancer cells lose contact inhibition</strong> and keep dividing, forming a mass called a <strong>tumour</strong>. A <strong>benign tumour</strong> stays confined to its site, but a <strong>malignant tumour (cancer)</strong> grows rapidly, invades surrounding tissue, and its cells can break off and spread through blood or lymph to start new tumours elsewhere &mdash; this spread is <strong>metastasis</strong>, the most dangerous property of cancer.</p><p>Cancers are triggered by <strong>carcinogens</strong> &mdash; physical (ionising radiation, UV), chemical (tobacco smoke) and biological (oncogenic viruses) agents &mdash; which activate <strong>oncogenes</strong> (cancer-causing genes derived from normal cellular proto-oncogenes). Cancer is detected by <strong>biopsy</strong>, blood tests and imaging (<strong>CT, MRI</strong>), and treated by <strong>surgery, radiotherapy, chemotherapy and immunotherapy</strong> (e.g. using interferons). For NEET, fix that HIV is a retrovirus attacking helper T-cells, its three modes of spread, ELISA diagnosis, and the cancer essentials &mdash; loss of contact inhibition, benign vs malignant, metastasis, carcinogens/oncogenes and treatments.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Item</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Detail</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>HIV</td><td style='border:1px solid #dcfce7;padding:6px 8px'>retrovirus; attacks helper T-cells</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>HIV spread</td><td style='border:1px solid #dcfce7;padding:6px 8px'>sex, infected blood/needles, mother→child</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>AIDS diagnosis</td><td style='border:1px solid #dcfce7;padding:6px 8px'>ELISA test (no complete cure; ART drugs)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Cancer cells</td><td style='border:1px solid #dcfce7;padding:6px 8px'>lose contact inhibition; uncontrolled division</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Metastasis</td><td style='border:1px solid #dcfce7;padding:6px 8px'>spread of malignant cells to new sites</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Which cells does HIV attack, and how does this lead to AIDS?</p>",
+              "solution": "<p>HIV attacks and destroys the <strong>helper T-lymphocytes (T<sub>H</sub> cells)</strong>. As their numbers fall, the <strong>immune system weakens</strong>, so the person can no longer fight off infections — the advanced stage is <strong>AIDS</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What is metastasis, and why does it make cancer dangerous?</p>",
+              "solution": "<p><strong>Metastasis</strong> is the <strong>spread of cancer cells</strong> from a malignant tumour, through the <strong>blood or lymph</strong>, to start new tumours in other parts of the body. It makes cancer dangerous because the disease is no longer confined to one place and becomes much harder to treat.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>HIV mainly attacks:</p>", "options": ["red blood cells", "helper T-lymphocytes", "platelets", "neurons"], "correct": 1, "explanation": "HIV destroys helper T-cells, crippling immunity." },
+            { "q": "<p>AIDS is commonly diagnosed by the:</p>", "options": ["Widal test", "ELISA test", "biopsy", "blood smear"], "correct": 1, "explanation": "ELISA is used to diagnose HIV/AIDS." },
+            { "q": "<p>HIV does NOT spread through:</p>", "options": ["infected blood", "unprotected sex", "casual hugging", "shared needles"], "correct": 2, "explanation": "It does not spread by casual contact like hugging." },
+            { "q": "<p>Cancer cells differ from normal cells in that they:</p>", "options": ["show contact inhibition", "lose contact inhibition", "stop dividing", "lack a nucleus"], "correct": 1, "explanation": "Cancer cells lose contact inhibition and divide uncontrollably." },
+            { "q": "<p>The spread of malignant tumour cells to distant sites is:</p>", "options": ["biopsy", "metastasis", "mutation", "remission"], "correct": 1, "explanation": "Metastasis is the spread of malignant cells." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> AIDS = HIV (retrovirus) → destroys helper T-cells. Spread: sex, infected blood/needles, mother→child (not casual contact). Diagnosis = ELISA; no cure, ART drugs. Cancer = uncontrolled division + loss of contact inhibition; malignant tumours metastasise; carcinogens activate oncogenes; treat by surgery/radio/chemo/immunotherapy.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Drugs and Alcohol Abuse",
+          "concept": "<p>The misuse of drugs and alcohol is a serious health and social problem, especially among the young. The drugs most commonly abused fall into three groups, each from a particular source. <strong>Opioids</strong> (such as <strong>heroin / 'smack', and morphine</strong>) are obtained from the <strong>poppy plant <em>Papaver somniferum</em></strong>; they are <strong>depressants</strong> that slow down body functions. Heroin (diacetylmorphine) is usually taken by injection and is highly addictive.</p><p><strong>Cannabinoids</strong> (such as <strong>marijuana, hashish, charas and ganja</strong>) come from the <strong>hemp plant <em>Cannabis sativa</em></strong>; they interact with receptors in the brain and affect the cardiovascular system. <strong>Cocaine ('coke' or 'crack')</strong> is obtained from the <strong>coca plant <em>Erythroxylum coca</em></strong>; it is a powerful <strong>stimulant</strong> of the central nervous system, producing a sense of euphoria followed by dangerous after-effects. Some plants like <em>Atropa belladonna</em> and <em>Datura</em> have hallucinogenic properties.</p><p>Repeated use leads to <strong>addiction</strong> and <strong>dependence</strong>. <strong>Dependence</strong> is the tendency of the body to need the drug regularly; stopping it produces unpleasant <strong>withdrawal symptoms</strong> (anxiety, shakiness, nausea, sweating). With continued use the body also develops <strong>tolerance</strong>, needing higher doses for the same effect. Besides illegal drugs, <strong>tobacco</strong> (which contains the stimulant <strong>nicotine</strong>) and <strong>alcohol</strong> are widely abused and cause major long-term harm &mdash; tobacco is linked to cancers and heart disease, and alcohol damages the liver (cirrhosis) and nervous system.</p><p>The harmful effects are wide-ranging: damage to the nervous system and organs, risky behaviour, financial and family breakdown, and, with shared needles, the spread of <strong>HIV and hepatitis-B</strong>. <strong>Prevention</strong> focuses on avoiding undue peer pressure, education and counselling, channelling energy into studies/sports, and seeking professional and family help early. For NEET, fix the three drug categories with their <strong>source plant and effect</strong> (opioids–poppy–depressant; cannabinoids–<em>Cannabis</em>; cocaine–coca–stimulant), the meaning of dependence/withdrawal/tolerance, and tobacco's nicotine.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.9rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Drug</th><th style='border:1px solid #bbf7d0;padding:6px 8px;text-align:left'>Source / effect</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Opioids (heroin, morphine)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>poppy (<em>Papaver somniferum</em>); depressant</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Cannabinoids (marijuana, ganja)</td><td style='border:1px solid #dcfce7;padding:6px 8px'><em>Cannabis sativa</em>; affect brain &amp; heart</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Cocaine (coke/crack)</td><td style='border:1px solid #dcfce7;padding:6px 8px'>coca (<em>Erythroxylum coca</em>); CNS stimulant</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Tobacco</td><td style='border:1px solid #dcfce7;padding:6px 8px'>nicotine; cancers, heart disease</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 8px'>Dependence / withdrawal</td><td style='border:1px solid #dcfce7;padding:6px 8px'>need for the drug; symptoms on stopping</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Name the source plant and the general effect of (i) heroin and (ii) cocaine.</p>",
+              "solution": "<p>(i) <strong>Heroin (smack)</strong> is from the <strong>poppy plant (<em>Papaver somniferum</em>)</strong> and is a <strong>depressant</strong>. (ii) <strong>Cocaine</strong> is from the <strong>coca plant (<em>Erythroxylum coca</em>)</strong> and is a <strong>CNS stimulant</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>What are withdrawal symptoms, and why do they occur?</p>",
+              "solution": "<p><strong>Withdrawal symptoms</strong> (anxiety, shakiness, nausea, sweating) are the unpleasant effects felt when a <strong>dependent person stops</strong> taking the drug. They occur because the body has become <strong>dependent</strong> on the drug and reacts when it is suddenly removed.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Heroin (smack) is obtained from the:</p>", "options": ["coca plant", "poppy plant", "hemp plant", "tobacco plant"], "correct": 1, "explanation": "Heroin comes from the poppy (Papaver somniferum)." },
+            { "q": "<p>Cocaine is a:</p>", "options": ["depressant", "CNS stimulant", "antibiotic", "vitamin"], "correct": 1, "explanation": "Cocaine is a central nervous system stimulant." },
+            { "q": "<p>Marijuana and ganja are obtained from:</p>", "options": ["Papaver somniferum", "Cannabis sativa", "Erythroxylum coca", "Atropa belladonna"], "correct": 1, "explanation": "Cannabinoids come from Cannabis sativa." },
+            { "q": "<p>The addictive stimulant in tobacco is:</p>", "options": ["caffeine", "nicotine", "morphine", "cocaine"], "correct": 1, "explanation": "Tobacco contains the stimulant nicotine." },
+            { "q": "<p>Unpleasant symptoms on stopping a drug are called:</p>", "options": ["tolerance", "withdrawal symptoms", "addiction", "immunity"], "correct": 1, "explanation": "These are withdrawal symptoms of dependence." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Opioids (heroin/morphine) = poppy <em>Papaver somniferum</em>, depressant. Cannabinoids (marijuana/ganja) = <em>Cannabis sativa</em>. Cocaine = coca <em>Erythroxylum coca</em>, CNS stimulant. Tobacco = nicotine. Dependence → withdrawal symptoms; tolerance = needing higher doses.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-biology-ch26-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>The most serious form of malaria is caused by:</p>", "options": ["Plasmodium vivax", "Plasmodium falciparum", "Plasmodium malariae", "Plasmodium ovale"], "correct": 1, "explanation": "P. falciparum causes the most serious (malignant) malaria." },
+            { "q": "<p>Amoebiasis is caused by:</p>", "options": ["Entamoeba histolytica", "Salmonella typhi", "Wuchereria", "Ascaris"], "correct": 0, "explanation": "Entamoeba histolytica causes amoebiasis." },
+            { "q": "<p>Interferons are part of:</p>", "options": ["acquired immunity", "innate immunity", "passive immunity", "autoimmunity"], "correct": 1, "explanation": "Interferons are a cytokine barrier of innate immunity." },
+            { "q": "<p>Cell-mediated immunity is carried out by:</p>", "options": ["B-lymphocytes", "T-lymphocytes", "platelets", "RBCs"], "correct": 1, "explanation": "T-lymphocytes mediate cell-mediated immunity (CMI)." },
+            { "q": "<p>An antibody molecule has:</p>", "options": ["2 heavy + 2 light chains", "4 heavy chains", "2 light chains only", "1 heavy + 1 light chain"], "correct": 0, "explanation": "H₂L₂ — two heavy and two light chains." },
+            { "q": "<p>The immunity from a vaccine is:</p>", "options": ["passive", "active", "innate", "none"], "correct": 1, "explanation": "Vaccines stimulate the body's own antibodies — active immunity." },
+            { "q": "<p>HIV is a:</p>", "options": ["bacterium", "retrovirus", "protozoan", "fungus"], "correct": 1, "explanation": "HIV is a retrovirus (RNA genome)." },
+            { "q": "<p>Loss of contact inhibition is a feature of:</p>", "options": ["normal cells", "cancer cells", "RBCs", "neurons"], "correct": 1, "explanation": "Cancer cells lose contact inhibition." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> The secondary immune response is faster and stronger than the primary response.<br><strong>R:</strong> Memory cells formed during the first exposure recognise the pathogen quickly on re-exposure.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Memory cells are precisely why the secondary response is faster — R explains A." },
+            { "q": "<p><strong>A:</strong> Antibodies received through colostrum provide passive immunity.<br><strong>R:</strong> Colostrum supplies ready-made antibodies that the baby's body did not produce.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Ready-made (not self-made) antibodies define passive immunity — R explains A." },
+            { "q": "<p><strong>A:</strong> HIV strengthens the immune system over time.<br><strong>R:</strong> HIV destroys the helper T-lymphocytes of the body.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "A is false — HIV weakens (not strengthens) immunity; R is true (it destroys helper T-cells)." },
+            { "q": "<p><strong>A:</strong> A malignant tumour is more dangerous than a benign one.<br><strong>R:</strong> Malignant cells can metastasise — spread to and grow in other parts of the body.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Metastasis is exactly why malignant tumours are more dangerous — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

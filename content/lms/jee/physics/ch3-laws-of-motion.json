@@ -1,0 +1,704 @@
+{
+  "exam": "jee",
+  "subject": "physics",
+  "chapter": 3,
+  "title": "Laws of Motion",
+  "slug": "laws-of-motion",
+  "subtitle": "Laws of Motion for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#10b981",
+  "icon": "physics",
+  "seo": {
+    "meta_description": "Master Laws of Motion for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Newton's Laws and Applications",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Newton's Three Laws, Momentum and Impulse",
+          "concept": "<p><strong>Newton's First Law (Law of Inertia):</strong> Every body remains at rest or in uniform motion in a straight line unless acted upon by a net external force. This law defines the concept of an <strong>inertial frame</strong> — a frame in which the law holds. <strong>Inertia</strong> is the inherent property of a body to resist changes in its state of motion, and is quantitatively measured by its <strong>mass</strong>.</p><p><strong>Newton's Second Law:</strong> The rate of change of linear momentum of a body equals the net external force acting on it: $$\\vec{F}_{\\text{net}} = \\frac{d\\vec{p}}{dt}$$ where $\\vec{p} = m\\vec{v}$ is linear momentum. For constant mass: $\\vec{F} = m\\vec{a}$. The second law is a <strong>vector equation</strong>, and applies independently along each axis: $F_x = ma_x$, $F_y = ma_y$, $F_z = ma_z$.</p><p><strong>Newton's Third Law (Action-Reaction):</strong> For every action there is an equal and opposite reaction. If body A exerts force $\\vec{F}_{AB}$ on body B, then B exerts $\\vec{F}_{BA} = -\\vec{F}_{AB}$ on A. Crucially, <strong>action and reaction act on different bodies</strong> and therefore never cancel.</p><p><strong>Linear Momentum</strong> is a vector $\\vec{p} = m\\vec{v}$ with dimensions $[MLT^{-1}]$. For a system of particles, $\\vec{P}_{\\text{total}} = \\sum m_i \\vec{v}_i = M_{\\text{total}} \\vec{v}_{cm}$.</p><p><strong>Conservation of Linear Momentum:</strong> If the net external force on a system is zero, total momentum is conserved: $$\\sum m_i \\vec{v}_i \\bigg|_{\\text{before}} = \\sum m_i \\vec{v}_i \\bigg|_{\\text{after}}$$</p><p>This is a direct consequence of Newton's second + third laws applied to internal forces (which cancel pairwise). It holds independently along each axis.</p><p><strong>Impulse</strong> is the integral of force over time: $$\\vec{J} = \\int_{t_1}^{t_2} \\vec{F}\\,dt = \\Delta \\vec{p}$$ This <strong>impulse-momentum theorem</strong> is especially useful for short-duration forces (collisions, kicks) where the precise force profile is unknown but the change in momentum is measurable.</p><p><strong>Variable-mass systems</strong> (rockets, conveyor belts): Newton's second law in the form $\\vec{F} = d\\vec{p}/dt$ remains valid. For a rocket with exhaust velocity $u$ relative to itself, and instantaneous mass $m$: $$m\\frac{dv}{dt} = -u\\frac{dm}{dt} - mg \\text{ (with gravity)}$$ leading to the <strong>Tsiolkovsky rocket equation</strong>: $\\Delta v = u \\ln(m_0/m_f) - gt$.</p><p><strong>Spring Forces:</strong> A spring of stiffness $k$ stretched/compressed by $x$ exerts a restoring force $F = -kx$ (Hooke's law). Springs in series: $1/k_{\\text{eq}} = 1/k_1 + 1/k_2$. Springs in parallel: $k_{\\text{eq}} = k_1 + k_2$.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A bullet of mass $50$ g moving at $200$ m/s strikes a wooden block of mass $950$ g at rest on a smooth surface and embeds in it. Find the velocity of the combined system.</p>",
+              "solution": "<p>This is a perfectly inelastic collision. Conservation of momentum: $$m_1 v_1 + m_2 v_2 = (m_1 + m_2) v$$ $$0.05 \\times 200 + 0.95 \\times 0 = 1.0 \\times v$$ $$v = 10 \\text{ m/s}$$</p><p><strong>Final Answer:</strong> $v = 10$ m/s.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A force varies with time as $F = 5t^2 - 3t + 4$ N. Find the impulse delivered between $t = 0$ and $t = 2$ s.</p>",
+              "solution": "<p>$$J = \\int_0^2 (5t^2 - 3t + 4)\\,dt = \\left[\\frac{5t^3}{3} - \\frac{3t^2}{2} + 4t\\right]_0^2$$ $$= \\frac{40}{3} - 6 + 8 = \\frac{40}{3} + 2 = \\frac{40 + 6}{3} = \\frac{46}{3} \\approx 15.33 \\text{ N·s}$$</p><p><strong>Final Answer:</strong> $J = 46/3$ N·s.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>A ball of mass $0.1$ kg strikes a wall at $20$ m/s at $60^\\circ$ to the normal and rebounds elastically at the same angle. Find the impulse delivered by the wall.</p>",
+              "solution": "<p>Decompose into perpendicular and parallel components to the wall. Only the perpendicular component (along normal) reverses; the parallel component is unchanged.</p><p>Initial perpendicular momentum (into wall) = $mv\\cos 60^\\circ = 0.1 \\times 20 \\times 0.5 = 1$ kg·m/s. Final perpendicular momentum (out of wall) = $-1$ kg·m/s.</p><p>$|\\Delta p| = 1 - (-1) = 2$ kg·m/s (directed away from wall).</p><p><strong>Final Answer:</strong> Impulse = $2$ N·s, perpendicular to wall.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>A body of mass $m$ collides elastically with a wall at velocity $v$ normally. The change in momentum is:</p>",
+              "options": [
+                "$0$",
+                "$mv$",
+                "$2mv$",
+                "$mv/2$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>If a body is in equilibrium, the net force on it is:</p>",
+              "options": [
+                "Maximum",
+                "Constant non-zero",
+                "Zero",
+                "Always gravitational"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A constant force $F$ acts on a body of mass $m$ for time $t$. The change in momentum is:</p>",
+              "options": [
+                "$Ft$",
+                "$Ft/m$",
+                "$Ft^2$",
+                "$F^2 t / m$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The slope of momentum vs. time graph gives:</p>",
+              "options": [
+                "Velocity",
+                "Acceleration",
+                "Force",
+                "Energy"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A man of mass $60$ kg stands on a weighing machine in a lift accelerating upward at $2 \\text{ m/s}^2$. Reading on the machine ($g = 10 \\text{ m/s}^2$):</p>",
+              "options": [
+                "$600$ N",
+                "$720$ N",
+                "$480$ N",
+                "$660$ N"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Free-Body Diagrams, Tensions, Pulleys and Constraints",
+          "concept": "<p>A <strong>free-body diagram (FBD)</strong> isolates a single body and shows all external forces acting on it. The systematic approach to mechanics problems:</p><ol><li>Identify each body and draw its FBD separately.</li><li>List all forces (gravity, normal, tension, friction, applied) with correct directions.</li><li>Choose convenient axes (often along surfaces or applied forces).</li><li>Write $F = ma$ along each axis.</li><li>Apply constraint equations relating positions/velocities/accelerations of bodies.</li><li>Solve the system algebraically.</li></ol><p><strong>Tension in an Ideal (Massless, Inextensible) String:</strong> The tension is the same throughout the string. If the string passes over a frictionless pulley, the magnitude of tension is preserved across it. For a string with mass per unit length $\\lambda$ hanging under gravity, tension varies linearly with height.</p><p><strong>Ideal Pulley</strong> is massless and frictionless: it redirects tension without changing magnitude. A movable pulley introduces a $2:1$ velocity ratio: if the support of a single movable pulley moves down by $x$, the load goes up by $x/2$ (and vice versa).</p><p><strong>Constraint Equations:</strong> For inextensible strings connecting bodies, the total length is constant. Differentiating gives:</p><ul><li>Velocity constraint: $\\sum (\\text{velocities along string}) = 0$</li><li>Acceleration constraint: $\\sum (\\text{accelerations along string}) = 0$</li></ul><p><strong>Examples of Constraints:</strong></p><p>(1) <strong>Atwood machine</strong> (two masses $m_1$, $m_2$ over a fixed pulley):</p><ul><li>$a_1 = -a_2$ (one goes up while the other goes down)</li><li>$a = \\dfrac{(m_1 - m_2)g}{m_1 + m_2}$</li><li>$T = \\dfrac{2 m_1 m_2 g}{m_1 + m_2}$</li></ul><p>(2) <strong>Two blocks connected on a smooth table, pulled by force $F$:</strong></p><ul><li>Equal acceleration $a = F/(m_1 + m_2)$</li><li>Tension in connecting string: $T = m_2 a = m_2 F/(m_1 + m_2)$</li></ul><p>(3) <strong>Block on a smooth wedge:</strong> The block slides along the inclined surface. Its acceleration along the incline equals $g \\sin\\theta$ (smooth case), with normal $N = mg\\cos\\theta$.</p><p>(4) <strong>Movable pulley with two strings:</strong> Constraint $a_1 + a_2 = 2 a_p$ where $a_p$ is pulley's acceleration.</p><p><strong>Pseudo-Forces in Non-Inertial Frames:</strong> In a frame accelerating with $\\vec{a}_0$, an apparent force $\\vec{F}_{\\text{pseudo}} = -m\\vec{a}_0$ must be added to each body to apply $F = ma$ correctly. Pseudo-forces have no Newtonian third-law pair.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Two blocks $m_1 = 3$ kg and $m_2 = 5$ kg are connected by a string over a frictionless pulley (Atwood machine). Find acceleration and tension. Take $g = 10 \\text{ m/s}^2$.</p>",
+              "solution": "<p>The heavier mass descends: $$a = \\frac{(m_2 - m_1)g}{m_1 + m_2} = \\frac{(5 - 3) \\times 10}{8} = 2.5 \\text{ m/s}^2$$</p><p>$$T = \\frac{2 m_1 m_2 g}{m_1 + m_2} = \\frac{2 \\times 3 \\times 5 \\times 10}{8} = \\frac{300}{8} = 37.5 \\text{ N}$$</p><p><strong>Final Answer:</strong> $a = 2.5 \\text{ m/s}^2$; $T = 37.5$ N.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A block of mass $5$ kg is placed on a smooth wedge of inclination $30^\\circ$. The wedge is at rest. Find the acceleration of the block down the incline. ($g = 10 \\text{ m/s}^2$).</p>",
+              "solution": "<p>Component of gravity along the incline: $g \\sin 30^\\circ = 10 \\times 0.5 = 5 \\text{ m/s}^2$.</p><p>No friction implies $a = g \\sin\\theta = 5 \\text{ m/s}^2$ down the incline.</p><p>Normal reaction: $N = mg \\cos 30^\\circ = 5 \\times 10 \\times \\frac{\\sqrt{3}}{2} = 25\\sqrt{3}$ N ≈ $43.3$ N.</p><p><strong>Final Answer:</strong> $a = 5 \\text{ m/s}^2$ down the incline; $N = 25\\sqrt{3}$ N.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>A movable pulley system has one end of the string fixed and the other end attached to a $10$ kg block being pulled down by force $F$. A load $L$ is hung from the movable pulley. Find $F$ required to keep $L = 60$ kg in equilibrium. (Frictionless, massless string and pulleys; $g = 10 \\text{ m/s}^2$.)</p>",
+              "solution": "<p>In a single movable pulley system with $L$ supported by two string segments (one fixed, one going up to the fixed pulley and down through the applied force): $$2T = Lg \\implies T = Lg/2 = 60 \\times 10 / 2 = 300 \\text{ N}$$</p><p>For the block being pulled down with force $F$, $F = T = 300$ N.</p><p><strong>Final Answer:</strong> $F = 300$ N.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>In Atwood machine with $m_1 = 2$ kg and $m_2 = 6$ kg, the tension in the string is ($g = 10 \\text{ m/s}^2$):</p>",
+              "options": [
+                "$30$ N",
+                "$40$ N",
+                "$60$ N",
+                "$80$ N"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A block of mass $2$ kg is pulled along a smooth horizontal surface by a force of $10$ N at $60^\\circ$ above horizontal. Acceleration of the block:</p>",
+              "options": [
+                "$2.5 \\text{ m/s}^2$",
+                "$5 \\text{ m/s}^2$",
+                "$4.3 \\text{ m/s}^2$",
+                "$7.5 \\text{ m/s}^2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A man in a lift feels weightless. The lift is:</p>",
+              "options": [
+                "Moving up with constant velocity",
+                "Moving down with constant velocity",
+                "Falling freely under gravity",
+                "Moving up with constant acceleration"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two blocks $m_1 = 4$ kg and $m_2 = 2$ kg on a smooth table connected by a string. Force $F = 12$ N pulls $m_1$. Tension in string:</p>",
+              "options": [
+                "$2$ N",
+                "$4$ N",
+                "$6$ N",
+                "$8$ N"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A block of $10$ kg is suspended by two strings making angles $30^\\circ$ and $60^\\circ$ with the vertical from a horizontal ceiling. The tensions are ($g = 10 \\text{ m/s}^2$):</p>",
+              "options": [
+                "$50, 50\\sqrt{3}$ N",
+                "$100, 50$ N",
+                "$100\\sqrt{3}, 100$ N",
+                "$50\\sqrt{3}, 50$ N"
+              ],
+              "correct": 3,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Friction and Circular Motion Dynamics",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Static, Kinetic Friction and Inclined Planes",
+          "concept": "<p><strong>Friction</strong> is a contact force that opposes relative motion (or tendency of motion) between two surfaces. It originates from microscopic interlocking and adhesion of surface asperities.</p><p><strong>Static Friction ($f_s$):</strong> Acts when surfaces are in contact but not sliding. It is a <strong>self-adjusting</strong> force that takes whatever value is needed (up to its limit) to prevent sliding: $$0 \\leq f_s \\leq \\mu_s N$$ where $\\mu_s$ is the <strong>coefficient of static friction</strong> and $N$ is the normal force. The maximum is the <strong>limiting friction</strong>: $f_{s,\\max} = \\mu_s N$.</p><p><strong>Kinetic Friction ($f_k$):</strong> Acts when there is relative sliding. It is approximately constant in magnitude: $$f_k = \\mu_k N$$ with $\\mu_k$ the <strong>coefficient of kinetic friction</strong>. Generally, $\\mu_k < \\mu_s$ for the same pair of surfaces.</p><p>Both coefficients depend on the <strong>nature of the two surfaces</strong> (not on area of contact or normal force, to good approximation), and friction always acts <strong>parallel to the surface, opposing relative sliding</strong>.</p><p><strong>Angle of Friction ($\\alpha$):</strong> The angle between the resultant of friction and normal forces and the normal: $$\\tan \\alpha = \\mu_s$$</p><p><strong>Angle of Repose ($\\theta_r$):</strong> The maximum inclination angle of a surface at which a body remains in equilibrium without sliding: $$\\tan \\theta_r = \\mu_s$$ So the angle of repose equals the angle of friction.</p><p><strong>Block on a Rough Inclined Plane:</strong></p><ul><li>If $\\theta \\leq \\theta_r$: block remains in equilibrium, friction adjusts to balance $mg \\sin\\theta$.</li><li>If $\\theta > \\theta_r$ and block slides down: $a = g(\\sin\\theta - \\mu_k \\cos\\theta)$.</li><li>If block is pushed up at $\\theta$ along the slope and released, deceleration = $g(\\sin\\theta + \\mu_k \\cos\\theta)$.</li></ul><p><strong>Pulling vs. Pushing:</strong> For a block being dragged on a horizontal surface by a force $F$ at angle $\\theta$ above horizontal:</p><ul><li><strong>Pulling</strong> (force at angle $\\theta$ upward): $N = mg - F\\sin\\theta$, so friction $= \\mu(mg - F\\sin\\theta)$.</li><li><strong>Pushing</strong> (force at angle $\\theta$ downward into surface): $N = mg + F\\sin\\theta$, so friction is larger.</li></ul><p>Therefore <strong>pulling requires less force than pushing</strong> at the same angle — a useful practical insight.</p><p><strong>Rolling Friction:</strong> Acts on a body that rolls without slipping. Much smaller than kinetic friction (coefficient $\\mu_r$ typically $10^{-2}$ to $10^{-4}$). It originates from deformation of surfaces.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A block of mass $5$ kg rests on a horizontal surface with $\\mu_s = 0.4$. The minimum horizontal force needed to make it slide is ($g = 10 \\text{ m/s}^2$):</p>",
+              "solution": "<p>$$F_{\\min} = \\mu_s N = \\mu_s m g = 0.4 \\times 5 \\times 10 = 20 \\text{ N}$$</p><p><strong>Final Answer:</strong> $20$ N.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A block of mass $2$ kg is placed on an incline of $30^\\circ$. $\\mu_s = 0.3$. Will the block slide? If yes, find the acceleration. ($g = 10$, $\\mu_k = 0.2$.)</p>",
+              "solution": "<p>Force trying to slide block down: $mg\\sin\\theta = 2 \\times 10 \\times 0.5 = 10$ N. Max static friction (uphill): $\\mu_s N = \\mu_s mg\\cos\\theta = 0.3 \\times 2 \\times 10 \\times (\\sqrt{3}/2) = 3\\sqrt{3} \\approx 5.2$ N.</p><p>Since $10 > 5.2$, block slides down.</p><p>Acceleration: $a = g(\\sin\\theta - \\mu_k\\cos\\theta) = 10(0.5 - 0.2 \\times \\sqrt{3}/2) = 10(0.5 - 0.173) = 3.27 \\text{ m/s}^2$.</p><p><strong>Final Answer:</strong> Yes, block slides; $a \\approx 3.27 \\text{ m/s}^2$ down the incline.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>A block of mass $10$ kg is being pulled by a force $F$ at $30^\\circ$ above horizontal on a rough surface with $\\mu = 0.2$. Find $F$ for the block to just slide. ($g = 10 \\text{ m/s}^2$.)</p>",
+              "solution": "<p>Just about to slide: $F\\cos\\theta = \\mu N$ where $N = mg - F\\sin\\theta$. $$F\\cos 30^\\circ = \\mu(mg - F\\sin 30^\\circ)$$ $$F \\cdot \\frac{\\sqrt{3}}{2} = 0.2(100 - F \\cdot 0.5) = 20 - 0.1F$$ $$0.866 F + 0.1F = 20 \\implies 0.966 F = 20 \\implies F \\approx 20.7 \\text{ N}$$</p><p><strong>Final Answer:</strong> $F \\approx 20.7$ N.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>The relation between angle of friction $\\alpha$ and coefficient of friction $\\mu$ is:</p>",
+              "options": [
+                "$\\tan\\alpha = \\mu$",
+                "$\\sin\\alpha = \\mu$",
+                "$\\cos\\alpha = \\mu$",
+                "$\\cot\\alpha = \\mu$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A body just slides down an incline of $\\tan^{-1}(0.5)$. The coefficient of friction is:</p>",
+              "options": [
+                "$0.25$",
+                "$0.5$",
+                "$1$",
+                "$\\sqrt{0.5}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A block of $2$ kg is pulled along a horizontal surface ($\\mu = 0.4$) by horizontal force $10$ N. Acceleration:</p>",
+              "options": [
+                "$1 \\text{ m/s}^2$",
+                "$2 \\text{ m/s}^2$",
+                "$3 \\text{ m/s}^2$",
+                "$5 \\text{ m/s}^2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The coefficient of kinetic friction $\\mu_k$ is generally:</p>",
+              "options": [
+                "Greater than $\\mu_s$",
+                "Equal to $\\mu_s$",
+                "Less than $\\mu_s$",
+                "Zero"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A block kept on a horizontal surface requires a horizontal force of $20$ N to just slide. If we add a vertical downward force of $30$ N on the block, the minimum horizontal force required is (block of mass $5$ kg, $g = 10 \\text{ m/s}^2$):</p>",
+              "options": [
+                "$20$ N",
+                "$26$ N",
+                "$32$ N",
+                "$40$ N"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Centripetal Force, Banking, and Non-Inertial Frames",
+          "concept": "<p>A body moving in a circle of radius $r$ with speed $v$ has centripetal acceleration $a_c = v^2/r$ directed toward the centre. The corresponding force (the <strong>centripetal force</strong>) is provided by physical agencies like tension, gravity, friction, normal reaction, or their combinations. The centripetal force is <strong>not a new fundamental force</strong> but a label for the radial component of the net force: $$F_c = \\frac{mv^2}{r} = m\\omega^2 r$$</p><p><strong>Vertical Circular Motion:</strong> A bob of mass $m$ on a string of length $\\ell$ swung in a vertical circle has variable speed due to gravity. At the <strong>topmost point</strong>, gravity and tension both act downward, providing centripetal force: $$T_{\\text{top}} + mg = \\frac{mv_{\\text{top}}^2}{\\ell} \\implies T_{\\text{top}} = \\frac{mv_{\\text{top}}^2}{\\ell} - mg$$</p><p>For the string to remain taut, $T_{\\text{top}} \\geq 0$, requiring $v_{\\text{top}} \\geq \\sqrt{g\\ell}$. By energy conservation between top and bottom: $$\\frac{1}{2}mv_{\\text{bot}}^2 = \\frac{1}{2}mv_{\\text{top}}^2 + 2mg\\ell$$</p><p>So <strong>minimum speed at bottom</strong> for complete circle: $v_{\\text{bot}} = \\sqrt{5g\\ell}$.</p><p>At the bottom: $T_{\\text{bot}} - mg = mv_{\\text{bot}}^2/\\ell \\implies T_{\\text{bot}} = mv_{\\text{bot}}^2/\\ell + mg$. For minimum case: $T_{\\text{bot}} = 6mg$.</p><p><strong>Conical Pendulum:</strong> A bob revolves in a horizontal circle while suspended by a string at angle $\\theta$ to vertical. Tension provides both vertical (against gravity) and horizontal (centripetal) components: $$T\\cos\\theta = mg, \\quad T\\sin\\theta = \\frac{mv^2}{r}, \\quad r = \\ell\\sin\\theta$$ Period: $T_{\\text{period}} = 2\\pi\\sqrt{\\ell\\cos\\theta/g}$.</p><p><strong>Banking of Roads:</strong> On a banked turn of angle $\\theta$, the normal force has a horizontal component providing centripetal force. For a <strong>frictionless</strong> banked road: $$\\tan\\theta = \\frac{v^2}{rg} \\implies v_{\\text{optimal}} = \\sqrt{rg\\tan\\theta}$$</p><p>With friction $\\mu$, the safe speed range is: $$\\sqrt{rg \\cdot \\frac{\\sin\\theta - \\mu\\cos\\theta}{\\cos\\theta + \\mu\\sin\\theta}} \\leq v \\leq \\sqrt{rg \\cdot \\frac{\\sin\\theta + \\mu\\cos\\theta}{\\cos\\theta - \\mu\\sin\\theta}}$$</p><p>For an <strong>unbanked</strong> circular road ($\\theta = 0$), friction alone provides centripetal force: $v_{\\max} = \\sqrt{\\mu r g}$.</p><p><strong>Pseudo (Inertial) Forces</strong> in accelerated frames: In a frame accelerating with $\\vec{A}$ relative to an inertial frame, every body of mass $m$ experiences a pseudo-force $\\vec{F}_{\\text{pseudo}} = -m\\vec{A}$ (opposite to frame's acceleration). Newton's laws then formally hold in this rotating/accelerated frame.</p><p>In a uniformly <strong>rotating frame</strong> with angular velocity $\\vec{\\omega}$:</p><ul><li><strong>Centrifugal force:</strong> $\\vec{F}_{\\text{cf}} = m\\omega^2 \\vec{r}$ (outward, radial)</li><li><strong>Coriolis force:</strong> $\\vec{F}_{\\text{Cor}} = -2m(\\vec{\\omega} \\times \\vec{v}_{\\text{rel}})$ (perpendicular to velocity in rotating frame)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A car of mass $1000$ kg moves on a horizontal circular track of radius $50$ m. The coefficient of friction is $0.5$. Find the maximum safe speed. ($g = 10 \\text{ m/s}^2$.)</p>",
+              "solution": "<p>On an unbanked road, friction provides centripetal force: $$\\mu m g \\geq \\frac{mv^2}{r} \\implies v_{\\max} = \\sqrt{\\mu r g} = \\sqrt{0.5 \\times 50 \\times 10} = \\sqrt{250} = 5\\sqrt{10} \\approx 15.8 \\text{ m/s}$$</p><p><strong>Final Answer:</strong> $v_{\\max} \\approx 15.8$ m/s (or $\\sqrt{250}$ m/s).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>A stone of mass $0.5$ kg attached to a string of length $1$ m is swung in a vertical circle. Find the minimum velocity at the lowest point for the stone to complete the circle. ($g = 10 \\text{ m/s}^2$.)</p>",
+              "solution": "<p>$$v_{\\text{bot,min}} = \\sqrt{5g\\ell} = \\sqrt{5 \\times 10 \\times 1} = \\sqrt{50} = 5\\sqrt{2} \\approx 7.07 \\text{ m/s}$$</p><p><strong>Final Answer:</strong> $v_{\\text{bot,min}} = 5\\sqrt{2}$ m/s.</p>"
+            },
+            {
+              "number": 3,
+              "problem": "<p>A road is banked at $30^\\circ$ for a curve of radius $200$ m. The maximum speed for safe driving with $\\mu = 0.5$ ($g = 10 \\text{ m/s}^2$):</p>",
+              "solution": "<p>$$v_{\\max} = \\sqrt{rg \\cdot \\frac{\\sin\\theta + \\mu\\cos\\theta}{\\cos\\theta - \\mu\\sin\\theta}}$$ $$= \\sqrt{200 \\times 10 \\cdot \\frac{0.5 + 0.5 \\times (\\sqrt{3}/2)}{(\\sqrt{3}/2) - 0.5 \\times 0.5}}$$ $$= \\sqrt{2000 \\cdot \\frac{0.5 + 0.433}{0.866 - 0.25}} = \\sqrt{2000 \\cdot \\frac{0.933}{0.616}}$$ $$= \\sqrt{2000 \\times 1.514} = \\sqrt{3028} \\approx 55 \\text{ m/s}$$</p><p><strong>Final Answer:</strong> $v_{\\max} \\approx 55$ m/s.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>A car can take a turn safely on an unbanked road of radius $r$ with $\\mu = 0.4$ at maximum speed:</p>",
+              "options": [
+                "$\\sqrt{rg}$",
+                "$\\sqrt{0.4 rg}$",
+                "$0.4\\sqrt{rg}$",
+                "$\\sqrt{rg}/0.4$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A stone of mass $m$ is whirled in a horizontal circle by a string of length $L$ at angular velocity $\\omega$. The tension in the string is:</p>",
+              "options": [
+                "$mL\\omega$",
+                "$mL\\omega^2$",
+                "$mL^2\\omega$",
+                "$mg$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In vertical circular motion, the speed at the highest point is minimum equal to:</p>",
+              "options": [
+                "$\\sqrt{gr}$",
+                "$\\sqrt{2gr}$",
+                "$\\sqrt{5gr}$",
+                "Zero"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The banking angle for a curved road of radius $50$ m to allow a vehicle to negotiate it at $10$ m/s ($g = 10$):</p>",
+              "options": [
+                "$\\tan^{-1}(0.2)$",
+                "$\\tan^{-1}(2)$",
+                "$\\tan^{-1}(0.5)$",
+                "$\\tan^{-1}(0.1)$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A conical pendulum of length $1$ m makes an angle $60^\\circ$ with the vertical. Its period ($g = 10$):</p>",
+              "options": [
+                "$2\\pi/\\sqrt{20}$ s",
+                "$2\\pi/\\sqrt{10}$ s",
+                "$\\pi$ s",
+                "$2\\pi$ s"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-phys-laws-of-motion-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>A force of $10$ N acts on a $2$ kg body for $3$ s. The impulse is:</p>",
+              "options": [
+                "$20$ N·s",
+                "$30$ N·s",
+                "$60$ N·s",
+                "$15$ N·s"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A man weighs $60$ kg. In a lift moving down at constant velocity, his apparent weight is:</p>",
+              "options": [
+                "$60$ kg",
+                "$0$",
+                "$30$ kg",
+                "$120$ kg"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The coefficient of friction between a block and a horizontal surface is $0.5$. The minimum force at $45^\\circ$ above horizontal to drag the block (mass $10$ kg, $g = 10$):</p>",
+              "options": [
+                "$33.3$ N",
+                "$50$ N",
+                "$70.7$ N",
+                "$47.1$ N"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two blocks of $4$ kg and $6$ kg are kept in contact on a smooth surface. A horizontal force of $20$ N is applied to the $4$ kg block. The contact force between them is:</p>",
+              "options": [
+                "$8$ N",
+                "$12$ N",
+                "$4$ N",
+                "$20$ N"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A bullet of mass $20$ g hits a wooden block at $400$ m/s and penetrates $20$ cm. The retarding force is:</p>",
+              "options": [
+                "$4000$ N",
+                "$8000$ N",
+                "$1600$ N",
+                "$400$ N"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A particle in vertical circular motion has a minimum speed of $\\sqrt{gr}$ at the top. The string tension at the top is:</p>",
+              "options": [
+                "Zero",
+                "$mg$",
+                "$2mg$",
+                "$6mg$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>An object of mass $m$ slides down a smooth incline of angle $\\theta$ from rest. Time to descend a length $L$:</p>",
+              "options": [
+                "$\\sqrt{2L/(g\\sin\\theta)}$",
+                "$L/(g\\sin\\theta)$",
+                "$\\sqrt{2L/g}$",
+                "$2L/g$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Three blocks A, B, C of masses $3$ kg, $5$ kg, $2$ kg respectively are connected by strings and lie on a smooth horizontal surface. A force $20$ N pulls A. Tension between B and C is:</p>",
+              "options": [
+                "$4$ N",
+                "$5$ N",
+                "$6$ N",
+                "$2$ N"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A wedge of mass $M$ with an angle $\\theta$ is free to move on a smooth horizontal surface. A block of mass $m$ placed on its smooth incline slides down. Acceleration of wedge:</p>",
+              "options": [
+                "$\\dfrac{mg\\sin\\theta\\cos\\theta}{M + m\\sin^2\\theta}$",
+                "$\\dfrac{mg\\cos\\theta}{M + m}$",
+                "$\\dfrac{mg\\sin\\theta}{M + m}$",
+                "$g\\sin\\theta$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A block of mass $5$ kg is suspended by two strings making $30^\\circ$ and $60^\\circ$ with the horizontal. The tensions ($g = 10$):</p>",
+              "options": [
+                "$25, 25\\sqrt{3}$ N",
+                "$50, 50\\sqrt{3}$ N",
+                "$50\\sqrt{3}, 50$ N",
+                "$43.3, 25$ N"
+              ],
+              "correct": 3,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>A force $F = 2t^3$ N acts on a $1$ kg block. Velocity (m/s) at $t = 2$ s starting from rest:</p>",
+              "answer": "8",
+              "explanation": ""
+            },
+            {
+              "q": "<p>A man pulls a bag of $5$ kg up a $30^\\circ$ rough incline ($\\mu = 0.2$) with constant velocity. Force he exerts parallel to incline ($g = 10$, in N):</p>",
+              "answer": "33",
+              "explanation": ""
+            },
+            {
+              "q": "<p>A block of mass $2$ kg on a horizontal surface with $\\mu_s = 0.6$, $\\mu_k = 0.4$. A horizontal force of $14$ N is applied. The friction force on the block (in N) is:</p>",
+              "answer": "8",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Friction can act on a body even when there is no relative motion between surfaces. <strong>Reason (R):</strong> Static friction is self-adjusting to oppose the tendency of relative motion.</p>",
+              "options": [
+                "Both A and R true; R correct explanation",
+                "Both A and R true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> Centripetal force is a real force acting on a body in circular motion. <strong>Reason (R):</strong> A real physical agency (tension, friction, gravity, normal) provides the centripetal force.</p>",
+              "options": [
+                "Both A and R true; R correct explanation",
+                "Both A and R true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": "-."
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "jee-phys-laws-of-motion-test-2",
+      "title": "Mock Test 2",
+      "level": "JEE Advanced Challenging",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>A block of mass $m$ is placed on a wedge of angle $\\theta$, mass $M$, on a smooth floor. A horizontal force $F$ on the wedge keeps the block stationary on the wedge. The required $F$:</p>",
+              "options": [
+                "$(M+m)g\\tan\\theta$",
+                "$mg\\tan\\theta$",
+                "$Mg\\tan\\theta$",
+                "$(M+m)g\\sin\\theta$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two blocks $m_1 = 1$ kg and $m_2 = 2$ kg are connected over a pulley. $m_1$ is on a smooth horizontal table; $m_2$ hangs. Acceleration ($g = 10$):</p>",
+              "options": [
+                "$20/3 \\text{ m/s}^2$",
+                "$5 \\text{ m/s}^2$",
+                "$10/3 \\text{ m/s}^2$",
+                "$4 \\text{ m/s}^2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A bead of mass $m$ slides on a smooth wire bent into a circle of radius $R$ in a vertical plane. At the bottom, it has velocity $\\sqrt{6gR}$. Normal force from wire at the top:</p>",
+              "options": [
+                "Zero",
+                "$mg$",
+                "$-mg$",
+                "$5mg$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A man of mass $80$ kg stands in a lift accelerating upward at $5 \\text{ m/s}^2$. If the man jumps with a velocity of $2$ m/s relative to the lift, his velocity relative to ground is ($g = 10$):</p>",
+              "options": [
+                "$2$ m/s",
+                "$4$ m/s",
+                "$5$ m/s",
+                "$7$ m/s"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A block of mass $m$ is on a rough horizontal surface ($\\mu$). The minimum force at angle $\\theta$ above horizontal needed to just move it:</p>",
+              "options": [
+                "$\\mu mg / (\\cos\\theta + \\mu\\sin\\theta)$",
+                "$\\mu mg / (\\cos\\theta - \\mu\\sin\\theta)$",
+                "$\\mu mg \\cos\\theta$",
+                "$\\mu mg \\sin\\theta$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In a vertical circle of radius $R$, a particle at horizontal level of the centre has minimum speed (no break) of:</p>",
+              "options": [
+                "$\\sqrt{3gR}$",
+                "$\\sqrt{gR}$",
+                "$\\sqrt{5gR}$",
+                "$\\sqrt{2gR}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A box of mass $5$ kg is placed on a truck's floor. $\\mu_s = 0.3$. The truck accelerates uniformly. Maximum acceleration of truck so that the box doesn't slip ($g = 10$):</p>",
+              "options": [
+                "$1.5 \\text{ m/s}^2$",
+                "$3 \\text{ m/s}^2$",
+                "$5 \\text{ m/s}^2$",
+                "$10 \\text{ m/s}^2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A bullet of $50$ g penetrates $5$ cm into a wooden block. To penetrate $20$ cm, its velocity should be:</p>",
+              "options": [
+                "twice",
+                "thrice",
+                "twice $\\sqrt{2}$",
+                "twice $\\sqrt{4}$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Two blocks connected by spring on smooth surface. $m_1 = 1$, $m_2 = 2$. A force $9$ N is applied on $m_1$. Acceleration of $m_2$ when spring extends at maximum:</p>",
+              "options": [
+                "$3 \\text{ m/s}^2$",
+                "$0$",
+                "Same as $m_1$",
+                "Cannot be determined"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>A car negotiates a banked road of $30^\\circ$, radius $20$ m. The car's speed for no friction needed ($g = 10$):</p>",
+              "options": [
+                "$10$ m/s",
+                "$\\sqrt{200/\\sqrt{3}}$ m/s ≈ $10.7$ m/s",
+                "$\\sqrt{200/3}$ m/s",
+                "$20$ m/s"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>A bullet of mass $10$ g moving at $400$ m/s strikes a wood block ($1.99$ kg) at rest and embeds. Common velocity after collision (m/s):</p>",
+              "answer": "2",
+              "explanation": ""
+            },
+            {
+              "q": "<p>A car of mass $1000$ kg travels around a horizontal circular track of $50$ m at $20$ m/s. Centripetal force (N) acting on it:</p>",
+              "answer": "8000",
+              "explanation": ""
+            },
+            {
+              "q": "<p>A block of $2$ kg on a rough horizontal surface ($\\mu = 0.5$). A horizontal force $20$ N is applied, then removed when velocity is $10$ m/s. The distance the block slides after force is removed (m, $g = 10$):</p>",
+              "answer": "10",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> In a rotating frame, a pseudo-force called the centrifugal force exists. <strong>Reason (R):</strong> In any non-inertial frame, pseudo-forces must be added to apply Newton's second law.</p>",
+              "options": [
+                "Both A and R true; R correct explanation",
+                "Both A and R true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> Conservation of linear momentum holds when net external force is zero. <strong>Reason (R):</strong> Internal forces between parts of a system cancel pairwise by Newton's third law.</p>",
+              "options": [
+                "Both A and R true; R correct explanation",
+                "Both A and R true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

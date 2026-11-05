@@ -1,0 +1,191 @@
+{
+  "exam": "neet",
+  "subject": "chemistry",
+  "chapter": 1,
+  "title": "Some Basic Concepts of Chemistry",
+  "slug": "some-basic-concepts-of-chemistry",
+  "subtitle": "Laws of chemical combination, mole concept, stoichiometry & concentration terms",
+  "level": "NEET (UG)",
+  "color": "#16a34a",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "NEET Chemistry — Some Basic Concepts of Chemistry: laws of chemical combination, the mole concept and Avogadro's number, empirical and molecular formulae, stoichiometry, limiting reagent and concentration terms, with NEET-level examples and MCQs. Free on GrowQR.",
+    "focus_keyword": "mole concept NEET",
+    "secondary_keywords": [
+      "some basic concepts of chemistry NEET notes",
+      "stoichiometry NEET",
+      "limiting reagent NEET",
+      "concentration terms NCERT",
+      "laws of chemical combination"
+    ],
+    "keywords": [
+      "mole concept NEET",
+      "stoichiometry NEET",
+      "NCERT basic concepts chemistry",
+      "limiting reagent NEET",
+      "molarity molality NEET"
+    ]
+  },
+  "summary": "<ul><li><strong>Laws:</strong> conservation of mass; definite proportions (fixed mass ratio); multiple proportions (whole-number ratios, e.g. $\\text{CO}$, $\\text{CO}_2$); Avogadro (equal volumes to equal molecules).</li><li><strong>Mole:</strong> $N_A = 6.022\\times10^{23}$ entities. $n = \\dfrac{\\text{mass}}{\\text{molar mass}}$; $N = n\\times N_A$; $1\\ \\text{mol}$ gas $= 22.4\\ \\text{L}$ at STP.</li><li><strong>Formulae:</strong> empirical = simplest ratio (percent to moles to ratio); molecular $= n\\times$ empirical.</li><li><strong>Limiting reagent</strong> is consumed first and fixes the product amount — always check it.</li><li><strong>Molarity</strong> (mol/L solution, temperature-dependent) vs <strong>molality</strong> (mol/kg solvent, temperature-independent); dilution $M_1V_1 = M_2V_2$.</li></ul>",
+  "faqs": [
+    { "q": "What is the difference between molarity and molality?", "a": "Molarity is moles of solute per litre of solution and changes with temperature (volume changes); molality is moles of solute per kilogram of solvent and is independent of temperature because mass does not change." },
+    { "q": "How do I find the empirical formula from percentage composition?", "a": "Divide each element's percentage by its atomic mass to get moles, then divide all values by the smallest to get the simplest whole-number ratio of atoms." },
+    { "q": "Why is the limiting reagent important?", "a": "The limiting reagent is completely used up first, so it determines the maximum amount of product that can form; the other reactant is left over in excess." },
+    { "q": "What is the molar volume of a gas at STP?", "a": "One mole of any ideal gas occupies 22.4 litres at standard temperature and pressure (STP)." },
+    { "q": "Why are atomic masses usually not whole numbers?", "a": "Atomic masses are weighted averages of the masses of all naturally occurring isotopes of an element, so they rarely come out as exact whole numbers." }
+  ],
+  "modules": [
+    {
+      "number": 1,
+      "title": "Laws of Chemical Combination and the Mole Concept",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Matter and the Laws of Chemical Combination",
+          "concept": "<p>Chemistry studies <strong>matter</strong> — anything that has mass and occupies space — and the changes it undergoes. Matter is classified physically into solids, liquids and gases, and chemically into <strong>pure substances</strong> (elements and compounds, with fixed composition) and <strong>mixtures</strong> (variable composition, separable by physical means). A compound, unlike a mixture, has its constituents combined in a fixed ratio with entirely new properties, an idea NEET often tests through examples.</p><p>The quantitative foundation of chemistry rests on the <strong>laws of chemical combination</strong>. The <strong>law of conservation of mass</strong> states that mass is neither created nor destroyed in a chemical reaction, so the total mass of reactants equals the total mass of products. The <strong>law of definite proportions</strong> states that a given compound always contains the same elements in the same fixed proportion by mass — pure water is always $11.1\\%$ hydrogen and $88.9\\%$ oxygen, whatever its source.</p><p>The <strong>law of multiple proportions</strong> states that when two elements form more than one compound, the masses of one element combining with a fixed mass of the other are in a simple whole-number ratio — as in $\\text{CO}$ and $\\text{CO}_2$, where the oxygen masses per fixed carbon are in the ratio $1:2$. <strong>Gay-Lussac's law of gaseous volumes</strong> adds that gases react in simple whole-number volume ratios, and <strong>Avogadro's law</strong> states that equal volumes of gases at the same temperature and pressure contain equal numbers of molecules.</p><p>These laws were unified by <strong>Dalton's atomic theory</strong>, which proposed that matter is made of indivisible atoms, that atoms of an element are identical in mass, and that compounds form when atoms combine in fixed whole-number ratios. Although later refined (atoms are divisible, isotopes exist), Dalton's theory remains the conceptual basis for stoichiometry and is a frequent NEET starting point.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Law</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Statement</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Conservation of mass</td><td style='border:1px solid #dcfce7;padding:6px 10px'>mass of reactants = mass of products</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Definite proportions</td><td style='border:1px solid #dcfce7;padding:6px 10px'>fixed mass ratio in a compound</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Multiple proportions</td><td style='border:1px solid #dcfce7;padding:6px 10px'>simple whole-number mass ratios</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Avogadro's law</td><td style='border:1px solid #dcfce7;padding:6px 10px'>equal volumes to equal molecules</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Carbon forms two oxides: $\\text{CO}$ (with $1.33\\ \\text{g}$ oxygen per g carbon) and $\\text{CO}_2$ (with $2.66\\ \\text{g}$ oxygen per g carbon). Which law does this illustrate?</p>",
+              "solution": "<p>The masses of oxygen per fixed mass of carbon are in the ratio $1.33 : 2.66 = 1 : 2$, a simple whole-number ratio — this is the <strong>law of multiple proportions</strong>.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>When $4\\ \\text{g}$ of hydrogen reacts completely with $32\\ \\text{g}$ of oxygen, what mass of water is formed?</p>",
+              "solution": "<p>By the law of conservation of mass, mass of products = mass of reactants $= 4 + 32 = 36\\ \\text{g}$ of water.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The law of conservation of mass states that in a reaction, mass is:</p>", "options": ["created", "destroyed", "conserved", "doubled"], "correct": 2, "explanation": "Total mass of reactants equals total mass of products." },
+            { "q": "<p>$\\text{CO}$ and $\\text{CO}_2$ illustrate the law of:</p>", "options": ["definite proportions", "multiple proportions", "conservation of mass", "Avogadro"], "correct": 1, "explanation": "Oxygen masses per fixed carbon are in a $1:2$ ratio." },
+            { "q": "<p>Equal volumes of gases at the same T and P contain equal numbers of molecules. This is:</p>", "options": ["Dalton's law", "Avogadro's law", "Gay-Lussac's law", "Boyle's law"], "correct": 1, "explanation": "Avogadro's law." },
+            { "q": "<p>A pure compound always has its elements in a:</p>", "options": ["variable ratio", "fixed mass ratio", "1:1 ratio always", "random ratio"], "correct": 1, "explanation": "Law of definite proportions." },
+            { "q": "<p>Which statement of Dalton's theory was later found incorrect?</p>", "options": ["atoms combine in whole numbers", "atoms are indivisible", "compounds have fixed composition", "matter is made of atoms"], "correct": 1, "explanation": "Atoms are divisible into subatomic particles." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Distinguish the laws by their key phrase — conservation (mass equal), definite (fixed ratio), multiple (whole-number ratios), Avogadro (equal volumes to equal molecules). These underpin all stoichiometry.</p>"
+        },
+        {
+          "number": 2,
+          "title": "The Mole Concept and Molar Mass",
+          "concept": "<p>Atoms and molecules are far too small to count individually, so chemists group them into a convenient unit called the <strong>mole</strong>. One mole is the amount of substance containing exactly <strong>Avogadro's number</strong>, $N_A = 6.022\\times10^{23}$, of elementary entities — atoms, molecules, ions or electrons. The mole is to chemistry what a dozen is to eggs, just on an enormous scale, and it is the single most important quantity in this chapter.</p><p>The mass of one mole of a substance is its <strong>molar mass</strong>, numerically equal to its atomic or molecular mass but expressed in grams per mole. So one mole of carbon atoms has a mass of $12\\ \\text{g}$, and one mole of water has a mass of $18\\ \\text{g}$. The number of moles is found from $n = \\dfrac{\\text{given mass}}{\\text{molar mass}}$, the workhorse relation of mole calculations.</p><p>Three quantities are linked through the mole: mass, number of particles, and (for gases) volume. The number of particles is $N = n\\times N_A$, and at standard temperature and pressure (STP) one mole of any ideal gas occupies the <strong>molar volume</strong> of $22.4\\ \\text{L}$. Being able to convert quickly between grams, moles, molecules and litres is exactly what NEET numericals demand.</p><p>A subtle but examinable point is the difference between <strong>atomic mass</strong>, <strong>molecular mass</strong> and <strong>formula mass</strong>. Atomic mass is for a single atom; molecular mass is the sum for a molecule (e.g. $\\text{H}_2\\text{O} = 18\\ \\text{u}$); and formula mass is used for ionic compounds like $\\text{NaCl}$, which do not exist as discrete molecules. Atomic masses themselves are averages weighted by isotopic abundance, which is why many are not whole numbers.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Relation</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Expression</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Moles from mass</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$n = \\dfrac{\\text{mass}}{\\text{molar mass}}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Number of particles</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$N = n\\times N_A$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Avogadro's number</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$N_A = 6.022\\times10^{23}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Molar volume (STP)</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$22.4\\ \\text{L/mol}$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>How many moles are present in $36\\ \\text{g}$ of water ($\\text{H}_2\\text{O}$, molar mass $18\\ \\text{g/mol}$)?</p>",
+              "solution": "<p>$n = \\dfrac{\\text{mass}}{\\text{molar mass}} = \\dfrac{36}{18} = 2\\ \\text{mol}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>How many molecules are there in $0.5\\ \\text{mol}$ of $\\text{CO}_2$?</p>",
+              "solution": "<p>$N = n\\times N_A = 0.5\\times(6.022\\times10^{23}) = 3.011\\times10^{23}$ molecules.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Avogadro's number is:</p>", "options": ["$6.022\\times10^{22}$", "$6.022\\times10^{23}$", "$6.022\\times10^{24}$", "$3.011\\times10^{23}$"], "correct": 1, "explanation": "$N_A = 6.022\\times10^{23}$ per mole." },
+            { "q": "<p>The number of moles equals:</p>", "options": ["mass $\\times$ molar mass", "mass / molar mass", "molar mass / mass", "mass $\\times N_A$"], "correct": 1, "explanation": "$n = \\text{mass}/\\text{molar mass}$." },
+            { "q": "<p>The molar volume of an ideal gas at STP is:</p>", "options": ["$11.2\\ \\text{L}$", "$22.4\\ \\text{L}$", "$24.4\\ \\text{L}$", "$1\\ \\text{L}$"], "correct": 1, "explanation": "$22.4\\ \\text{L/mol}$ at STP." },
+            { "q": "<p>One mole of carbon-12 atoms has a mass of:</p>", "options": ["$1\\ \\text{g}$", "$6\\ \\text{g}$", "$12\\ \\text{g}$", "$24\\ \\text{g}$"], "correct": 2, "explanation": "Molar mass of carbon is $12\\ \\text{g/mol}$." },
+            { "q": "<p>Formula mass (rather than molecular mass) is used for:</p>", "options": ["water", "carbon dioxide", "$\\text{NaCl}$", "methane"], "correct": 2, "explanation": "Ionic $\\text{NaCl}$ has no discrete molecules." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Master the conversions: mass $\\leftrightarrow$ moles ($n = $ mass/molar mass), moles $\\leftrightarrow$ particles ($\\times N_A$), and moles $\\leftrightarrow$ volume ($\\times 22.4\\ \\text{L}$ at STP).</p>"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Stoichiometry and Concentration",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Empirical Formula, Molecular Formula and Stoichiometry",
+          "concept": "<p>The composition of a compound is described by its formulae. The <strong>empirical formula</strong> gives the simplest whole-number ratio of atoms, while the <strong>molecular formula</strong> gives the actual number of atoms in a molecule. The two are related by a whole number $n$: molecular formula $= n\\times$ empirical formula, where $n = \\dfrac{\\text{molecular mass}}{\\text{empirical formula mass}}$. For example, the empirical formula of glucose is $\\text{CH}_2\\text{O}$ and its molecular formula $\\text{C}_6\\text{H}_{12}\\text{O}_6$ ($n = 6$).</p><p>To find an empirical formula from <strong>percentage composition</strong>, divide each element's percentage by its atomic mass to get a mole ratio, then divide through by the smallest value to obtain the simplest whole-number ratio. This standard procedure — percent to moles to ratio — is a guaranteed NEET calculation type, so the method should be automatic.</p><p><strong>Stoichiometry</strong> is the quantitative study of reactants and products in a balanced equation. The balanced equation gives the mole ratios in which substances react; these ratios are then used with $n = \\text{mass}/\\text{molar mass}$ to relate masses or volumes. The golden rule is to always work in <em>moles</em>, never directly in grams, when applying the coefficients.</p><p>In real reactions the reactants are rarely present in exact stoichiometric amounts, so one runs out first — the <strong>limiting reagent</strong> — and it decides how much product forms. The other reactant, present in excess, is left over. Identifying the limiting reagent (by comparing available moles against the required ratio) before calculating product is the most common stoichiometry pitfall NEET sets up, so always check it.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Step</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Action</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Empirical formula</td><td style='border:1px solid #dcfce7;padding:6px 10px'>% to moles to simplest ratio</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Molecular formula</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$n\\times$ empirical; $n = \\dfrac{M}{\\text{EFM}}$</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Stoichiometry</td><td style='border:1px solid #dcfce7;padding:6px 10px'>work in moles via the balanced equation</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Limiting reagent</td><td style='border:1px solid #dcfce7;padding:6px 10px'>runs out first, decides product</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>A compound contains $40\\%$ carbon, $6.7\\%$ hydrogen and $53.3\\%$ oxygen by mass. Find its empirical formula.</p>",
+              "solution": "<p>Moles: $\\text{C} = 40/12 = 3.33$, $\\text{H} = 6.7/1 = 6.7$, $\\text{O} = 53.3/16 = 3.33$. Dividing by the smallest ($3.33$): $\\text{C}:\\text{H}:\\text{O} = 1:2:1$, so the empirical formula is $\\text{CH}_2\\text{O}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>In $2\\text{H}_2 + \\text{O}_2 \\rightarrow 2\\text{H}_2\\text{O}$, if $4\\ \\text{mol}$ of $\\text{H}_2$ react with $1\\ \\text{mol}$ of $\\text{O}_2$, which is the limiting reagent?</p>",
+              "solution": "<p>The ratio needed is $2:1$. For $1\\ \\text{mol}\\ \\text{O}_2$ only $2\\ \\text{mol}\\ \\text{H}_2$ are required, but $4\\ \\text{mol}$ are available. So $\\text{O}_2$ runs out first — $\\text{O}_2$ is the <strong>limiting reagent</strong>.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>The simplest whole-number ratio of atoms in a compound is the:</p>", "options": ["molecular formula", "empirical formula", "structural formula", "formula mass"], "correct": 1, "explanation": "Empirical formula gives the simplest ratio." },
+            { "q": "<p>The empirical formula of glucose ($\\text{C}_6\\text{H}_{12}\\text{O}_6$) is:</p>", "options": ["$\\text{CHO}$", "$\\text{CH}_2\\text{O}$", "$\\text{C}_2\\text{H}_4\\text{O}_2$", "$\\text{CH}_4\\text{O}$"], "correct": 1, "explanation": "Dividing by 6 gives $\\text{CH}_2\\text{O}$." },
+            { "q": "<p>In stoichiometric calculations one should work in:</p>", "options": ["grams", "moles", "litres", "percentages"], "correct": 1, "explanation": "Always convert to moles before using coefficients." },
+            { "q": "<p>The reactant that is completely consumed first is the:</p>", "options": ["excess reagent", "limiting reagent", "catalyst", "product"], "correct": 1, "explanation": "The limiting reagent decides product amount." },
+            { "q": "<p>Molecular formula equals empirical formula multiplied by:</p>", "options": ["$N_A$", "a whole number $n$", "molar mass", "$22.4$"], "correct": 1, "explanation": "$n = \\text{molecular mass}/\\text{empirical formula mass}$." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> For empirical formula: percent to moles to ratio. Always identify the limiting reagent (compare available moles with the equation's ratio) before computing product mass.</p>"
+        },
+        {
+          "number": 4,
+          "title": "Concentration Terms and Significant Figures",
+          "concept": "<p>The composition of a solution is expressed through several <strong>concentration terms</strong>, and NEET expects you to know each definition and when it is temperature-independent. <strong>Molarity</strong> ($M$) is moles of solute per litre of solution, $M = \\dfrac{\\text{moles of solute}}{\\text{volume of solution in L}}$. It is the most common term but depends on temperature, because volume changes with temperature.</p><p><strong>Molality</strong> ($m$) is moles of solute per kilogram of solvent, $m = \\dfrac{\\text{moles of solute}}{\\text{mass of solvent in kg}}$. Because it is based on mass, molality is <em>independent of temperature</em> — a frequently tested distinction from molarity. <strong>Mole fraction</strong> ($x$) is the ratio of the moles of one component to the total moles, and the mole fractions of all components add up to one.</p><p>Two more terms appear for dilute or trace solutions. <strong>Mass percentage</strong> is the mass of solute per $100\\ \\text{g}$ of solution, and <strong>parts per million (ppm)</strong> expresses very low concentrations as parts of solute per million parts of solution — used for pollutants and trace impurities. A useful skill is the dilution relation $M_1V_1 = M_2V_2$, which keeps the moles of solute constant when a solution is diluted.</p><p>Finally, measurement precision is conveyed by <strong>significant figures</strong>. All non-zero digits are significant; leading zeros are not; trailing zeros after a decimal point are. In multiplication and division the answer carries as many significant figures as the least precise value, while in addition and subtraction it is fixed by the least number of decimal places. Reporting answers to the correct number of significant figures, and using consistent units via <strong>dimensional analysis</strong>, is part of scoring full marks in NEET numericals.</p>",
+          "visual": "<table style='border-collapse:collapse;width:100%;font-size:.92rem'><thead><tr style='background:#f0fdf4'><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Term</th><th style='border:1px solid #bbf7d0;padding:6px 10px;text-align:left'>Definition</th></tr></thead><tbody><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Molarity $M$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>moles solute / L solution (T-dependent)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Molality $m$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>moles solute / kg solvent (T-independent)</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Mole fraction $x$</td><td style='border:1px solid #dcfce7;padding:6px 10px'>moles of one / total moles</td></tr><tr><td style='border:1px solid #dcfce7;padding:6px 10px'>Dilution</td><td style='border:1px solid #dcfce7;padding:6px 10px'>$M_1V_1 = M_2V_2$</td></tr></tbody></table>",
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find the molarity of a solution containing $0.5\\ \\text{mol}$ of $\\text{NaCl}$ in $250\\ \\text{mL}$ of solution.</p>",
+              "solution": "<p>$M = \\dfrac{\\text{moles}}{\\text{volume in L}} = \\dfrac{0.5}{0.25} = 2\\ \\text{M}$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>To what volume must $100\\ \\text{mL}$ of $2\\ \\text{M}$ HCl be diluted to make it $0.5\\ \\text{M}$?</p>",
+              "solution": "<p>$M_1V_1 = M_2V_2$, so $V_2 = \\dfrac{M_1V_1}{M_2} = \\dfrac{2\\times100}{0.5} = 400\\ \\text{mL}$.</p>"
+            }
+          ],
+          "quiz": [
+            { "q": "<p>Molarity is defined as moles of solute per:</p>", "options": ["kg of solvent", "litre of solution", "litre of solvent", "100 g of solution"], "correct": 1, "explanation": "$M = $ moles / L of solution." },
+            { "q": "<p>Which concentration term is independent of temperature?</p>", "options": ["molarity", "molality", "normality", "all"], "correct": 1, "explanation": "Molality is mass-based, so it does not change with temperature." },
+            { "q": "<p>The sum of the mole fractions of all components in a solution is:</p>", "options": ["zero", "one", "depends on solute", "100"], "correct": 1, "explanation": "Mole fractions add to 1." },
+            { "q": "<p>On dilution of a solution, the quantity that stays constant is the:</p>", "options": ["volume", "molarity", "moles of solute", "concentration"], "correct": 2, "explanation": "$M_1V_1 = M_2V_2$ conserves moles of solute." },
+            { "q": "<p>In multiplication, the result is reported to the significant figures of the:</p>", "options": ["most precise value", "least precise value", "first value", "average"], "correct": 1, "explanation": "Least number of significant figures governs the answer." }
+          ],
+          "note": "<p><strong>NEET tip:</strong> Molarity is per litre of solution (T-dependent); molality is per kg of solvent (T-independent). Use $M_1V_1 = M_2V_2$ for dilution and report answers to the correct significant figures.</p>"
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "neet-chemistry-ch1-practice-1",
+      "title": "Practice Test 1",
+      "level": "NEET (UG)",
+      "time_limit_minutes": 18,
+      "total": 12,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            { "q": "<p>The law of definite proportions states that a compound has a fixed:</p>", "options": ["volume", "mass ratio of elements", "density", "colour"], "correct": 1, "explanation": "Elements combine in a fixed mass ratio." },
+            { "q": "<p>One mole of any substance contains:</p>", "options": ["$6.022\\times10^{22}$ particles", "$6.022\\times10^{23}$ particles", "$12$ particles", "$22.4$ particles"], "correct": 1, "explanation": "Avogadro's number $= 6.022\\times10^{23}$." },
+            { "q": "<p>The number of moles in $44\\ \\text{g}$ of $\\text{CO}_2$ (molar mass $44$) is:</p>", "options": ["$0.5$", "$1$", "$2$", "$44$"], "correct": 1, "explanation": "$n = 44/44 = 1\\ \\text{mol}$." },
+            { "q": "<p>The volume of $1\\ \\text{mol}$ of an ideal gas at STP is:</p>", "options": ["$11.2\\ \\text{L}$", "$22.4\\ \\text{L}$", "$44.8\\ \\text{L}$", "$1\\ \\text{L}$"], "correct": 1, "explanation": "$22.4\\ \\text{L/mol}$ at STP." },
+            { "q": "<p>The empirical formula of a compound with $\\text{C}:\\text{H} = 1:2$ mole ratio is:</p>", "options": ["$\\text{CH}$", "$\\text{CH}_2$", "$\\text{C}_2\\text{H}$", "$\\text{CH}_4$"], "correct": 1, "explanation": "Simplest ratio $1:2$ gives $\\text{CH}_2$." },
+            { "q": "<p>The reactant consumed completely first is the:</p>", "options": ["excess reagent", "limiting reagent", "product", "catalyst"], "correct": 1, "explanation": "Limiting reagent decides the product amount." },
+            { "q": "<p>Molality is moles of solute per:</p>", "options": ["L of solution", "kg of solvent", "L of solvent", "100 g solution"], "correct": 1, "explanation": "$m = $ moles / kg of solvent." },
+            { "q": "<p>The molarity of $1\\ \\text{mol}$ solute in $2\\ \\text{L}$ of solution is:</p>", "options": ["$0.5\\ \\text{M}$", "$1\\ \\text{M}$", "$2\\ \\text{M}$", "$4\\ \\text{M}$"], "correct": 0, "explanation": "$M = 1/2 = 0.5\\ \\text{M}$." }
+          ]
+        },
+        {
+          "type": "assertion-reason",
+          "title": "Section B — Assertion & Reason",
+          "questions": [
+            { "q": "<p><strong>A:</strong> The molality of a solution does not change with temperature.<br><strong>R:</strong> Molality is defined in terms of the mass of solvent, which is independent of temperature.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "Mass does not vary with temperature, so molality is constant — R explains A." },
+            { "q": "<p><strong>A:</strong> $\\text{CO}$ and $\\text{CO}_2$ obey the law of multiple proportions.<br><strong>R:</strong> The masses of oxygen combining with a fixed mass of carbon are in a simple whole-number ratio.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "The $1:2$ oxygen ratio is exactly the law of multiple proportions — R explains A." },
+            { "q": "<p><strong>A:</strong> The molarity of a solution increases when its temperature is raised.<br><strong>R:</strong> The volume of a solution increases with temperature.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 3, "explanation": "As volume increases with temperature, molarity (moles/volume) decreases, so A is false; R correctly states volume rises." },
+            { "q": "<p><strong>A:</strong> The empirical and molecular formulae of a compound can be identical.<br><strong>R:</strong> The molecular formula is always a whole-number multiple of the empirical formula.</p>", "options": ["Both A and R true, R explains A", "Both true, R does not explain A", "A true, R false", "A false, R true"], "correct": 0, "explanation": "When the multiple is 1 (e.g. water), the two are identical — R explains A." }
+          ]
+        }
+      ],
+      "note": { "scheme": "NEET style: +4 for each correct answer, −1 for each incorrect answer." }
+    }
+  ]
+}

@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": 23,
+  "title": "Haloalkanes and Haloarenes",
+  "slug": "haloalkanes-and-haloarenes",
+  "subtitle": "Haloalkanes and Haloarenes for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#ec4899",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "Master Haloalkanes and Haloarenes for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Haloalkanes",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Nomenclature, Preparation, and Properties",
+          "concept": "<p><strong>Haloalkanes (Alkyl halides):</strong> Hydrocarbons in which one or more H atoms replaced by halogens (X = F, Cl, Br, I).</p><p><strong>Classification:</strong></p><table class=\"md-table\"><thead><tr><th>Type</th><th>Description</th><th>Example</th></tr></thead><tbody><tr><td><strong>Primary (1°)</strong></td><td>-X on C bonded to one other C</td><td>$CH_3CH_2Cl$ (ethyl chloride)</td></tr><tr><td><strong>Secondary (2°)</strong></td><td>-X on C bonded to two other C's</td><td>$(CH_3)_2CHCl$ (isopropyl chloride)</td></tr><tr><td><strong>Tertiary (3°)</strong></td><td>-X on C bonded to three other C's</td><td>$(CH_3)_3CCl$ (tert-butyl chloride)</td></tr><tr><td><strong>Allyl/benzyl</strong></td><td>-X adjacent to C=C or aromatic ring</td><td>$CH_2=CHCH_2Cl$ (allyl chloride); $C_6H_5CH_2Cl$ (benzyl chloride)</td></tr><tr><td><strong>Vinyl</strong></td><td>-X on $sp^2$ C of C=C</td><td>$CH_2=CHCl$ (vinyl chloride)</td></tr><tr><td><strong>Aryl</strong></td><td>-X on aromatic ring</td><td>$C_6H_5Cl$ (chlorobenzene)</td></tr></tbody></table><p><strong>Nomenclature (IUPAC):</strong> halo-X-...alkane.</p><ul><li>$CH_3CH_2Br$: bromoethane</li><li>$(CH_3)_2CHCl$: 2-chloropropane</li><li>$CH_3CHBrCH_2CH_3$: 2-bromobutane</li></ul><p><strong>Preparation:</strong></p><p><strong>1. From Alcohols:</strong></p><ul><li>$R-OH + HX \\to RX + H_2O$ (HX = HCl with $ZnCl_2$ as catalyst; HBr; HI)</li><li>$3R-OH + PX_3 \\to 3RX + H_3PO_3$</li><li>$R-OH + PCl_5 \\to RCl + POCl_3 + HCl$</li><li>$R-OH + SOCl_2 \\to RCl + SO_2 + HCl$ (Darzen's method — clean reaction, gases released easily)</li></ul><p><strong>Reactivity of HX:</strong> $HI > HBr > HCl$. <strong>Reactivity of ROH:</strong> $3° > 2° > 1°$ (carbocation stability).</p><p><strong>Lucas Test:</strong> $ZnCl_2$ + conc. HCl distinguishes alcohols:</p><ul><li>$3°$ alcohol: cloudy immediately</li><li>$2°$: cloudy in $\\sim 5$ min</li><li>$1°$: no cloudiness at room T (needs heating)</li></ul><p><strong>2. From Alkanes (Free Radical Halogenation):</strong> $CH_4 + Cl_2 \\xrightarrow{h\\nu} CH_3Cl + HCl$ (and further products). Mix of products; not selective in industry.</p><p><strong>3. From Alkenes:</strong></p><ul><li>HX addition (Markovnikov): $CH_2=CH_2 + HBr \\to CH_3CH_2Br$</li><li>Halogenation: $CH_2=CH_2 + Br_2 \\to BrCH_2CH_2Br$ (1,2-dibromoethane)</li></ul><p><strong>4. Halogen Exchange:</strong></p><ul><li><strong>Finkelstein Reaction:</strong> $RCl + NaI \\xrightarrow{\\text{acetone}} RI + NaCl$ (NaCl insoluble in acetone, drives equilibrium)</li><li><strong>Swarts Reaction:</strong> $RCl + AgF \\to RF + AgCl$ (or $Hg_2F_2, CoF_2$)</li></ul><p><strong>Physical Properties:</strong></p><ul><li>C-X bond polar (X is more EN); molecules polar; have higher BP than corresponding alkanes</li><li>BP order: $RF < RCl < RBr < RI$ (larger size → more London forces; polarizability ↑)</li><li>BP among same X: $primary > secondary > tertiary$ (more compact = less surface area)</li><li>Insoluble in water; soluble in organic solvents</li><li>Density: $RF, RCl < $ water; $RBr, RI > $ water (denser due to heavy halogen)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Predict product of Lucas test on: (a) ethanol, (b) tert-butanol, (c) cyclohexanol.</p>",
+              "solution": "<p><strong>Lucas reagent</strong> = conc. HCl + ZnCl₂. Reaction proceeds via $S_N1$, so faster with more stable carbocation.</p><ul><li>(a) Ethanol ($1°$): no cloud at RT; heating needed.</li><li>(b) tert-butanol ($3°$): cloudy immediately ($3°$ carbocation very stable).</li><li>(c) Cyclohexanol ($2°$): cloud in $\\sim$5-10 min.</li></ul><p><strong>Final Answer:</strong> Tertiary (b) reacts immediately; secondary takes time; primary very slow.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Predict products of $CH_3CH_2OH + SOCl_2 \\to$.</p>",
+              "solution": "<p>Darzen's method (preferred for clean reactions): $CH_3CH_2OH + SOCl_2 \\to CH_3CH_2Cl + SO_2 \\uparrow + HCl \\uparrow$ Both byproducts are gases; easy purification.</p><p><strong>Final Answer:</strong> Ethyl chloride + $SO_2$ + HCl (gases escape).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>$(CH_3)_3CCl$ is:</p>",
+              "options": [
+                "Primary halide",
+                "Secondary halide",
+                "Tertiary halide",
+                "Aryl halide"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Darzen's method uses:</p>",
+              "options": [
+                "PCl₅",
+                "HCl",
+                "SOCl₂",
+                "PCl₃"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Finkelstein reaction:</p>",
+              "options": [
+                "RCl + NaI → RI + NaCl in acetone",
+                "ROH + HCl",
+                "RBr + Na",
+                "RX + H₂O"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Lucas test distinguishes:</p>",
+              "options": [
+                "Primary, secondary, tertiary alcohols",
+                "Acids",
+                "Aldehydes",
+                "Alkanes"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>BP order of RCl vs RBr vs RI (same R):</p>",
+              "options": [
+                "RCl > RBr > RI",
+                "RI > RBr > RCl",
+                "Same",
+                "Variable"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "SN1, SN2 Mechanisms and Eliminations",
+          "concept": "<p><strong>Nucleophilic Substitution Reactions ($S_N$):</strong></p><p>Nucleophile (Nu⁻) replaces leaving group (X⁻) at $sp^3$ C: $R-X + Nu^- \\to R-Nu + X^-$</p><p>Two main mechanisms: <strong>$S_N1$</strong> and <strong>$S_N2$</strong>.</p><p><strong>SN2 Mechanism (Bimolecular):</strong></p><ul><li><strong>Concerted</strong> single-step: Nu attacks while X leaves</li><li>Transition state: Nu and X partially bonded to same C</li><li><strong>Inversion of configuration</strong> (Walden inversion) — like umbrella turning inside out</li></ul><p><strong>Rate Law:</strong> Rate = $k[R-X][Nu^-]$ — second order; depends on both.</p><p><strong>Reactivity:</strong> $1° > 2° > 3°$ (steric hindrance increases with branching → 3° hardest).</p><ul><li>Methyl > primary > secondary >> tertiary</li></ul><p><strong>Factors Favoring SN2:</strong></p><ul><li>Strong nucleophile</li><li>Polar aprotic solvent (acetone, DMSO, DMF)</li><li>Less steric hindrance (1° preferred)</li><li>Good leaving group ($I^- > Br^- > Cl^- > F^-$)</li></ul><p><strong>SN1 Mechanism (Unimolecular):</strong></p><ul><li><strong>Two-step:</strong></li></ul><ol><li>Slow: $R-X \\to R^+ + X^-$ (ionization; rate-determining)</li><li>Fast: $R^+ + Nu^- \\to R-Nu$</li></ol><ul><li><strong>Rate Law:</strong> Rate = $k[R-X]$ — first order; independent of Nu concentration.</li><li><strong>Stereochemistry:</strong> Racemization (planar $R^+$ → attack from both faces equally).</li></ul><p><strong>Reactivity:</strong> $3° > 2° > 1°$ (more stable carbocation; opposite of $S_N2$).</p><ul><li>Allyl, benzyl > tertiary > secondary > primary > methyl (carbocation stability)</li></ul><p><strong>Factors Favoring SN1:</strong></p><ul><li>Stable carbocation (3° alkyl)</li><li>Polar protic solvent (water, alcohol — stabilizes ionic intermediates by H-bonding)</li><li>Weak/moderate nucleophile</li><li>Good leaving group</li></ul><p><strong>Summary Comparison:</strong></p><table class=\"md-table\"><thead><tr><th>Property</th><th>SN1</th><th>SN2</th></tr></thead><tbody><tr><td>Order</td><td>First</td><td>Second</td></tr><tr><td>Mechanism</td><td>Two-step (carbocation intermediate)</td><td>Concerted (one step)</td></tr><tr><td>Stereochemistry</td><td>Racemization</td><td>Inversion</td></tr><tr><td>Substrate</td><td>$3° > 2° > 1°$</td><td>$1° > 2° > 3°$</td></tr><tr><td>Nucleophile</td><td>Weak/moderate</td><td>Strong</td></tr><tr><td>Solvent</td><td>Polar protic</td><td>Polar aprotic</td></tr><tr><td>Rearrangement</td><td>Possible (via carbocation)</td><td>Not seen</td></tr></tbody></table><p><strong>Elimination Reactions:</strong></p><p><strong>E1 Mechanism:</strong> Two-step. Carbocation intermediate, then loss of $\\beta$-H by base.</p><ul><li>Reactivity: $3° > 2° > 1°$ (same as $S_N1$)</li><li>Often competes with $S_N1$ in 3° alkyl halides</li></ul><p><strong>E2 Mechanism:</strong> Concerted. Base removes $\\beta$-H as X⁻ leaves simultaneously.</p><ul><li>Reactivity: $3° > 2° > 1°$ (more substituted alkene more stable — Saytzeff)</li><li>Requires anti-periplanar arrangement of H and X</li><li>Rate = $k[R-X][B^-]$</li></ul><p><strong>SN vs E Competition:</strong></p><table class=\"md-table\"><thead><tr><th>Conditions</th><th>Favors</th></tr></thead><tbody><tr><td>Strong, bulky base (KOC(CH₃)₃, tBuOK)</td><td>E (over Nu)</td></tr><tr><td>Strong, small nucleophile (CN⁻, alkoxide RO⁻)</td><td>SN</td></tr><tr><td>Heat</td><td>E (high entropy product)</td></tr><tr><td>Cool conditions</td><td>SN</td></tr><tr><td>Aqueous KOH</td><td>SN1 (in alcohols)</td></tr><tr><td>Alcoholic KOH</td><td>E2 (eliminates HX)</td></tr></tbody></table><p><strong>Hofmann's Rule:</strong> Less substituted alkene (more H-rich double bond) preferred when:</p><ul><li>Bulky base used (e.g., $t$-butoxide)</li><li>Quaternary ammonium hydroxide (Hofmann degradation)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Predict mechanism and major product: (a) $CH_3CH_2Br + OH^-$ in water (b) $(CH_3)_3CBr + OH^-$ in water</p>",
+              "solution": "<p>(a) <strong>Primary</strong> halide; OH⁻ strong Nu; water polar protic but also good Nu favors SN2. Mechanism: <strong>$S_N2$</strong>. Product: $CH_3CH_2OH$ (ethanol).</p><p>(b) <strong>Tertiary</strong> halide; OH⁻ present but $3°$ favors $S_N1$ (carbocation stable) or E. With weak base/strong Nu (OH⁻ in water): mostly <strong>$S_N1$</strong> giving $(CH_3)_3COH$ (and some elimination giving $(CH_3)_2C=CH_2$).</p><p><strong>Final Answer:</strong> (a) $S_N2$ → ethanol; (b) $S_N1$ → tert-butanol (with some isobutene).</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Predict major product of $(CH_3)_2CHBr + KOC(CH_3)_3$ (potassium tert-butoxide) at heat.</p>",
+              "solution": "<p>Secondary alkyl halide + bulky strong base → <strong>E2 elimination</strong>. Bulky base prefers H abstraction over substitution.</p><p>But here, only one alkene possible: $CH_3CH=CH_2 + (CH_3)_3COH + KBr$.</p><p>(Note: With Hofmann conditions for $2°$ halides with two different β-H sources, would give less substituted alkene preferentially.)</p><p><strong>Final Answer:</strong> Propene (via E2).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>$S_N2$ reaction shows:</p>",
+              "options": [
+                "Retention",
+                "Inversion (Walden)",
+                "Racemization",
+                "No stereochemistry"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Order of $S_N1$ reactivity (substrate):</p>",
+              "options": [
+                "$1° > 2° > 3°$",
+                "$3° > 2° > 1°$",
+                "Same",
+                "Methyl > others"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$S_N1$ vs $S_N2$ in tertiary halide:</p>",
+              "options": [
+                "$S_N2$ favored",
+                "$S_N1$ favored",
+                "Both equally",
+                "Neither"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>E2 needs:</p>",
+              "options": [
+                "Bulky base, strong base",
+                "Weak base",
+                "Heat",
+                "Both a and c"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Anti-periplanar requirement is for:</p>",
+              "options": [
+                "E1",
+                "E2",
+                "$S_N1$",
+                "$S_N2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Haloarenes",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Properties, Reactivity, and Reactions",
+          "concept": "<p><strong>Haloarenes (Aryl Halides):</strong> Halogen on aromatic ring carbon, e.g., chlorobenzene ($C_6H_5Cl$), bromobenzene.</p><p><strong>Structure:</strong> $sp^2$ C-X bond. The lone pair on X overlaps with $\\pi$ system of ring.</p><p><strong>Resonance Structures:</strong> $X$ donates lone pair to ring → 4 resonance structures with double bond character in C-X.</p><p><strong>Why aryl halides are unreactive toward $S_N$?</strong></p><ol><li><strong>C-X bond is shorter and stronger</strong> (due to partial double bond from resonance)</li><li><strong>Resonance stabilization</strong> of ground state makes ionization difficult</li><li>$sp^2$ C is more electronegative than $sp^3$ C — holds halide tightly</li><li>Direct $S_N1$/$S_N2$ on aryl C is sterically hindered and electronically unfavorable</li></ol><p><strong>Preparation of Haloarenes:</strong></p><p><strong>1. From Benzene (Electrophilic Aromatic Substitution):</strong> $C_6H_6 + Br_2 \\xrightarrow{FeBr_3} C_6H_5Br + HBr$</p><ul><li>Lewis acid catalyst polarizes halogen</li></ul><p><strong>2. From Diazonium Salt (Sandmeyer Reaction):</strong> $C_6H_5N_2^+Cl^- + CuCl \\to C_6H_5Cl + N_2 + CuCl$ (or CuBr → ArBr)</p><ul><li>For ArI: just KI; for ArF: Schiemann reaction with $HBF_4$ → $ArF + BF_3 + N_2$</li></ul><p><strong>Reactions of Aryl Halides:</strong></p><p><strong>1. Electrophilic Aromatic Substitution:</strong></p><ul><li>$-X$ is <strong>o/p director, deactivating</strong> (due to +R donating but -I dominating)</li><li>$C_6H_5Cl + HNO_3/H_2SO_4 \\to o$- and $p$-nitrochlorobenzenes</li></ul><p><strong>2. Nucleophilic Substitution (Difficult):</strong></p><ul><li>Requires high temperature and pressure</li><li>$C_6H_5Cl + NaOH \\xrightarrow{623K, 300\\,atm} C_6H_5ONa \\to C_6H_5OH$ (Dow's process for phenol from chlorobenzene)</li><li><strong>Activated</strong> by -NO₂, -CN groups at o/p positions (EW groups stabilize Meisenheimer intermediate)</li></ul><p><strong>Nucleophilic Aromatic Substitution Mechanism:</strong> Addition-elimination via Meisenheimer complex: $ArX + Nu^- \\to [Ar(Nu)X]^- \\to ArNu + X^-$ (intermediate has sp³ C).</p><p>With strong EW groups: $p$-nitrochlorobenzene + NaOH/heat → $p$-nitrophenol; $2,4$-dinitrochlorobenzene reacts at room T.</p><p><strong>3. Benzyne Mechanism</strong> (in absence of activating groups, with very strong base like $NH_2^-$): $C_6H_5Cl + NaNH_2/NH_3(liq) \\to$ benzyne intermediate → addition of Nu. Gives random position addition.</p><p><strong>4. Wurtz-Fittig Reaction:</strong> $ArX + RX + 2Na \\xrightarrow{ether} Ar-R + 2NaX$</p><ul><li>Aryl halide + alkyl halide + Na → alkyl aryl compound.</li></ul><p><strong>5. Fittig Reaction:</strong> $2ArX + 2Na \\xrightarrow{ether} Ar-Ar + 2NaX$</p><ul><li>Two aryl halides + Na → biaryl.</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why is chlorobenzene less reactive than chloroethane toward NaOH?</p>",
+              "solution": "<p><strong>Chlorobenzene:</strong></p><ul><li>C-Cl bond has partial double bond character (resonance) → shorter, stronger.</li><li>$sp^2$ C is more EN than $sp^3$; C-Cl bond more polar, harder to break.</li><li>Aryl C cannot undergo $S_N1/S_N2$ easily.</li></ul><p><strong>Chloroethane:</strong></p><ul><li>$sp^3$ C, normal C-Cl single bond.</li><li>Easy $S_N2$ with strong nucleophile like OH⁻.</li></ul><p>Therefore chlorobenzene is much less reactive — requires harsh conditions (high T, P) or activating substituents.</p><p><strong>Final Answer:</strong> Resonance, sp² C, and bond strength make chlorobenzene unreactive vs chloroethane.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Predict product: $2$-chloronitrobenzene + NaOH (heat).</p>",
+              "solution": "<p>$-NO_2$ at <em>ortho</em> position activates C-Cl by stabilizing Meisenheimer intermediate (negative charge delocalized onto -NO₂). Therefore $S_N^{Ar}$ proceeds: $o$-nitrochlorobenzene + NaOH → $o$-nitrophenol (or sodium salt).</p><p><strong>Final Answer:</strong> $o$-nitrophenol.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Aryl halides are:</p>",
+              "options": [
+                "More reactive than alkyl halides in $S_N$",
+                "Less reactive (resonance)",
+                "Equally reactive",
+                "Soluble in water"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$-Cl$ on benzene is:</p>",
+              "options": [
+                "o/p activator",
+                "o/p deactivator",
+                "m director",
+                "ortho only"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Sandmeyer reaction:</p>",
+              "options": [
+                "ArNH₂ → Ar-Cl via $CuCl$",
+                "ArOH → ArCl",
+                "ArCl → ArOH",
+                "Ar-Cl + Na → Ar-Ar"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Benzyne intermediate forms when:</p>",
+              "options": [
+                "PhCl + NaNH₂ in liq NH₃",
+                "PhCl + Na",
+                "PhCl + Cl₂",
+                "PhCl + H₂O"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$p$-nitrochlorobenzene + NaOH:</p>",
+              "options": [
+                "Reacts at room T",
+                "Reacts only at high T (activated by -NO₂)",
+                "Doesn't react",
+                "Gives meta-nitrophenol"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Polyhalogen Compounds and Important Applications",
+          "concept": "<p><strong>Polyhalogen Compounds:</strong> Have more than one halogen atom.</p><p><strong>1. Dichloromethane ($CH_2Cl_2$):</strong></p><ul><li>Solvent for paint removal; aerosol propellants (banned now in many countries)</li><li>Slightly soluble in water</li><li>Toxic; carcinogen</li></ul><p><strong>2. Chloroform ($CHCl_3$):</strong></p><ul><li>Anesthetic (historical use; now replaced)</li><li>Solvent for fats, alkaloids, etc.</li><li>On exposure to light + air → poisonous phosgene ($COCl_2$): $2CHCl_3 + O_2 \\to 2COCl_2 + 2HCl$</li><li>Stored in dark amber bottles with small amount of ethanol (which reacts with phosgene)</li></ul><p><strong>3. Iodoform ($CHI_3$):</strong></p><ul><li>Yellow crystalline solid; sweet smell</li><li>Antiseptic (mild; due to release of free iodine)</li><li><strong>Iodoform test:</strong> for $CH_3CO-$ or $CH_3CH(OH)-$ groups: react with I₂/NaOH → yellow ppt of $CHI_3$ + carboxylate.</li><li>Positive: acetone, ethanol, acetaldehyde, methyl ketones, secondary alcohols with CH₃-CH(OH)-</li><li>Negative: methanol, formaldehyde</li></ul><p><strong>4. Carbon Tetrachloride ($CCl_4$):</strong></p><ul><li>Solvent</li><li>Fire extinguishers (Pyrene; now phased out due to toxicity)</li><li>Depletes ozone layer (limited use now)</li><li>Can cause liver damage; carcinogen</li></ul><p><strong>5. Freons (Chlorofluorocarbons, CFCs):</strong></p><ul><li>$CCl_2F_2$ (Freon-12), $CCl_3F$ (Freon-11), etc.</li><li>Refrigerants, propellants</li><li><strong>Banned</strong> (Montreal Protocol, 1987) due to ozone layer depletion</li><li>Replaced by HFCs (hydrofluorocarbons): no chlorine, less harmful</li></ul><p><strong>Mechanism of Ozone Depletion:</strong> $CFCl_3 \\xrightarrow{UV} CFCl_2^\\bullet + Cl^\\bullet$ $Cl^\\bullet + O_3 \\to ClO^\\bullet + O_2$ $ClO^\\bullet + O \\to Cl^\\bullet + O_2$ (Cl regenerated; chain reaction)</p><p><strong>6. DDT ($p,p'$-Dichlorodiphenyltrichloroethane):</strong></p><ul><li>$Cl_2C_6H_4-CCl_3-C_6H_4Cl$ structure</li><li>First synthetic insecticide (1939, Müller, Nobel Prize 1948)</li><li>Highly effective against malaria mosquitoes</li><li><strong>Banned</strong> in many countries (1970s-2000s) due to:</li><li>Bio-accumulation in food chain</li><li>Toxicity to wildlife (especially birds — eggshell thinning)</li><li>Carcinogenic concerns</li><li>Still used in some places for malaria control</li></ul><p><strong>Applications of Haloalkanes:</strong></p><table class=\"md-table\"><thead><tr><th>Use</th><th>Example</th></tr></thead><tbody><tr><td>Anesthetic</td><td>$CHCl_3$ (historical), $CH_2=CFCF_3$ (modern)</td></tr><tr><td>Solvent</td><td>$CHCl_3$, $CCl_4$, $CH_2Cl_2$</td></tr><tr><td>Fire extinguisher</td><td>$CCl_4$ (Pyrene); $CF_3Br$</td></tr><tr><td>Refrigerant</td><td>Freons (banned); HFCs</td></tr><tr><td>Aerosols</td><td>$CCl_4, CFCs$ (replaced)</td></tr><tr><td>Pesticides</td><td>DDT (largely banned), Lindane</td></tr><tr><td>Plastic</td><td>Polyvinyl chloride (PVC) from vinyl chloride</td></tr><tr><td>Pharmaceutical</td><td>Various</td></tr></tbody></table>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why is chloroform stored in dark bottles?</p>",
+              "solution": "<p>On exposure to light and air, $CHCl_3$ slowly oxidizes to phosgene ($COCl_2$): $2CHCl_3 + O_2 \\xrightarrow{light} 2COCl_2 + 2HCl$ Phosgene is highly toxic (used as chemical weapon in WWI). Storage in <strong>dark amber bottles</strong> prevents light-induced oxidation. Small amount of ethanol added to chloroform to convert any phosgene formed to harmless ethyl carbonate ($CO(OC_2H_5)_2$).</p><p><strong>Final Answer:</strong> Prevents formation of toxic phosgene by light.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Identify if positive in iodoform test: (a) Acetaldehyde ($CH_3CHO$) (b) Methanol ($CH_3OH$) (c) Ethanol ($CH_3CH_2OH$) (d) Propan-2-ol ($CH_3CH(OH)CH_3$)</p>",
+              "solution": "<p>Iodoform test requires $CH_3CO-$ or $CH_3CH(OH)-$ groups. (a) Has $CH_3CO-$ → <strong>positive</strong> (yellow $CHI_3$ ppt + HCOOH or HCOONa) (b) Has only $-OH$ on methyl C; no $CH_3CO-$ or $CH_3CH(OH)-$ → <strong>negative</strong> (c) Has $CH_3CH(OH)$ — methyl carbinol with H → <strong>positive</strong> (d) Has $CH_3CH(OH)CH_3$ (methyl carbinol) → <strong>positive</strong></p><p><strong>Final Answer:</strong> Positive: a, c, d; Negative: b (methanol).</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>$CCl_4$ is used as:</p>",
+              "options": [
+                "Fuel",
+                "Fire extinguisher (Pyrene; now phased out)",
+                "Drinking water",
+                "Acid"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Freons deplete ozone via:</p>",
+              "options": [
+                "UV light releasing Cl⁻ that breaks O₃",
+                "Direct burning",
+                "Acidic reaction",
+                "Mechanical effect"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>DDT is:</p>",
+              "options": [
+                "Drug",
+                "Insecticide (banned widely)",
+                "Fuel",
+                "Bleaching agent"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Phosgene from chloroform forms by:</p>",
+              "options": [
+                "Heating",
+                "Air + light",
+                "Water",
+                "Pure $O_2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Iodoform test is positive for:</p>",
+              "options": [
+                "Methanol",
+                "Acetone (has $CH_3CO-$)",
+                "Formaldehyde",
+                "Diethyl ether"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-chem-haloalkanes-and-haloarenes-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>Aryl halide is less reactive than alkyl halide toward $S_N$ because:</p>",
+              "options": [
+                "sp² hybridized; C-X has partial double bond character",
+                "Sp³ hybridized",
+                "More electronegative",
+                "Higher mass"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Major product of $CH_3CH_2OH + SOCl_2$:</p>",
+              "options": [
+                "$CH_3OH$",
+                "$CH_3CH_2Cl + SO_2 + HCl$",
+                "$CH_3CHO$",
+                "$CH_3OCH_3$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Most reactive halide in $S_N2$:</p>",
+              "options": [
+                "Methyl chloride (least steric hindrance)",
+                "tert-butyl",
+                "Isopropyl",
+                "Benzyl"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Sandmeyer reaction needs:</p>",
+              "options": [
+                "HCl + heat",
+                "Diazonium salt + CuX",
+                "NaOH",
+                "Heat alone"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$C_2H_5Br + AgF \\to$:</p>",
+              "options": [
+                "$C_2H_5F + AgBr$ (Swarts reaction)",
+                "AgF₂",
+                "No reaction",
+                "$AgC_2H_5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Finkelstein reaction product when $CH_3CH_2Cl + NaI$ in acetone:</p>",
+              "options": [
+                "$CH_3CH_2I + NaCl$",
+                "$CH_3OH$",
+                "$CH_2=CH_2$",
+                "$CH_3CH_3$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Inversion of configuration occurs in:</p>",
+              "options": [
+                "$S_N1$",
+                "$S_N2$",
+                "E1",
+                "Free radical"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Stable carbocation:</p>",
+              "options": [
+                "Methyl",
+                "Primary",
+                "Tertiary (most)",
+                "Vinyl"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Aldol cleavage of haloform: $CHCl_3$ on hydrolysis gives:</p>",
+              "options": [
+                "$HCOOH + 3HCl$",
+                "$CH_3COOH$",
+                "$CH_3Cl$",
+                "$CHCl_2OH$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Saytzeff's rule applies in:</p>",
+              "options": [
+                "Substitution",
+                "Elimination (favors more substituted alkene)",
+                "Free radical",
+                "Addition"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Number of halogen atoms in chloroform:</p>",
+              "answer": "3",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Oxidation state of C in $CCl_4$:</p>",
+              "answer": "4",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of moles of HCl released when $CHCl_3$ converts to $COCl_2$:</p>",
+              "answer": "2",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> $S_N1$ shows racemization. <strong>Reason (R):</strong> Planar carbocation intermediate is attacked equally from both faces.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> $p$-nitrochlorobenzene undergoes nucleophilic substitution more easily than chlorobenzene. <strong>Reason (R):</strong> $-NO_2$ group stabilizes the Meisenheimer intermediate by withdrawing electron density.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

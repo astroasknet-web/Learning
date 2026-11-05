@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": 8,
+  "title": "Redox Reactions",
+  "slug": "redox-reactions",
+  "subtitle": "Redox Reactions for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#6366f1",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "Master Redox Reactions for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Oxidation, Reduction and Balancing Reactions",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Oxidation Number Concepts and Identification",
+          "concept": "<p><strong>Classical Definition:</strong></p><ul><li><strong>Oxidation:</strong> Addition of O / electronegative element OR removal of H / electropositive element</li><li><strong>Reduction:</strong> Addition of H / electropositive element OR removal of O / electronegative element</li></ul><p><strong>Electronic Concept:</strong></p><ul><li><strong>Oxidation:</strong> Loss of electrons (LEO)</li><li><strong>Reduction:</strong> Gain of electrons (GER)</li><li>Mnemonic: <strong>OIL RIG</strong> (Oxidation Is Loss, Reduction Is Gain)</li></ul><p><strong>Redox Reaction:</strong> Oxidation and reduction occur simultaneously; total electrons transferred remain equal.</p><p><strong>Oxidation Number (ON):</strong> Hypothetical charge on an atom if all bonds were ionic (most EN atom assigned all electrons).</p><p><strong>Rules to Determine ON:</strong></p><table class=\"md-table\"><thead><tr><th>Rule</th><th>Specification</th></tr></thead><tbody><tr><td>1</td><td>Free element: ON $= 0$ (e.g., Na, H₂, O₂, S₈)</td></tr><tr><td>2</td><td>Monoatomic ion: ON $=$ charge (e.g., Na⁺: $+1$, Cl⁻: $-1$)</td></tr><tr><td>3</td><td>F: always $-1$</td></tr><tr><td>4</td><td>H: $+1$ (with non-metals), $-1$ (in metal hydrides like NaH)</td></tr><tr><td>5</td><td>O: usually $-2$; $-1$ in peroxides (H₂O₂), $-1/2$ in superoxides (KO₂), $+2$ in OF₂</td></tr><tr><td>6</td><td>Alkali metals: $+1$</td></tr><tr><td>7</td><td>Alkaline earth metals: $+2$</td></tr><tr><td>8</td><td>Group 17 (halogens): $-1$ usually, but $+1$ to $+7$ when bonded to more EN element</td></tr><tr><td>9</td><td>Sum of ON in neutral compound: $0$</td></tr><tr><td>10</td><td>Sum of ON in polyatomic ion: $=$ charge of ion</td></tr></tbody></table><p><strong>Identifying Oxidizing and Reducing Agents:</strong></p><ul><li><strong>Oxidizing agent (OA):</strong> Causes oxidation; itself gets reduced; gains electrons; ON decreases</li><li><strong>Reducing agent (RA):</strong> Causes reduction; itself gets oxidized; loses electrons; ON increases</li></ul><p><strong>Common OAs:</strong> $KMnO_4, K_2Cr_2O_7, HNO_3$ (concentrated), $H_2O_2$, $F_2, Cl_2$, conc. $H_2SO_4$, $O_3$. <strong>Common RAs:</strong> $H_2, C, CO, H_2S$, metals like Na, Al, $SO_2$, $H_2O_2$ (in some), $Fe^{2+}$.</p><p><strong>Stock Notation:</strong> Roman numeral in parentheses indicates ON. e.g., Fe(II), Fe(III), Mn(VII) in KMnO₄.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find ON of: (a) Cr in $K_2Cr_2O_7$, (b) S in $Na_2S_2O_3$, (c) Mn in $MnO_4^-$.</p>",
+              "solution": "<p>(a) $K_2Cr_2O_7$: K = $+1$ (×2 = +2), O = $-2$ (×7 = $-14$). Let Cr = $x$. $2 + 2x - 14 = 0 \\implies x = +6$. (b) $Na_2S_2O_3$: Na = $+1$ (×2), O = $-2$ (×3 = $-6$). Let S avg = $x$. $2 + 2x - 6 = 0 \\implies x = +2$. (c) $MnO_4^-$: O = $-2$ (×4 = $-8$). Let Mn = $x$. $x - 8 = -1 \\implies x = +7$.</p><p><strong>Final Answer:</strong> (a) Cr: $+6$, (b) S: $+2$ (avg), (c) Mn: $+7$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Identify oxidizing and reducing agents in: $Zn + 2HCl \\to ZnCl_2 + H_2$.</p>",
+              "solution": "<p>Zn: $0 \\to +2$ (loses 2 e⁻, oxidized) → Zn is RA. H: $+1 \\to 0$ (gains e⁻, reduced) → HCl is OA. Cl stays $-1$ (spectator).</p><p><strong>Final Answer:</strong> Zn = RA; HCl = OA.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Oxidation involves:</p>",
+              "options": [
+                "Gain of electrons",
+                "Loss of electrons",
+                "Gain of H",
+                "Loss of O"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>ON of S in $H_2SO_4$:</p>",
+              "options": [
+                "$+4$",
+                "$+6$",
+                "$-2$",
+                "$+2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The strongest reducing agent (in metals):</p>",
+              "options": [
+                "Na",
+                "K",
+                "Li (high $E^\\circ$)",
+                "Cs"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>ON of O in $H_2O_2$:</p>",
+              "options": [
+                "$-2$",
+                "$-1$",
+                "$0$",
+                "$+1$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In $NaH$, oxidation number of H:</p>",
+              "options": [
+                "$+1$",
+                "$-1$",
+                "$0$",
+                "$+2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Balancing Redox Reactions",
+          "concept": "<p><strong>Two methods:</strong></p><ol><li><strong>Oxidation Number (ON) method</strong></li><li><strong>Ion-electron (Half-reaction) method</strong></li></ol><p><strong>Ion-electron Method (Acidic Medium):</strong></p><p>Step 1: Write skeletal equation with separate half-reactions (oxidation and reduction) Step 2: Balance atoms other than O and H Step 3: Balance O with $H_2O$ Step 4: Balance H with $H^+$ Step 5: Balance charges by adding electrons Step 6: Multiply half-reactions to equalize electrons; add</p><p><strong>Ion-electron Method (Basic Medium):</strong> Same first 6 steps, then: Step 7: Add OH⁻ to both sides equal to number of H⁺ Step 8: Combine $H^+ + OH^-$ on same side as $H_2O$ Step 9: Cancel water molecules</p><p><strong>Worked Example:</strong> Balance: $MnO_4^- + Fe^{2+} \\to Mn^{2+} + Fe^{3+}$ (acidic).</p><p>Oxidation: $Fe^{2+} \\to Fe^{3+} + e^-$ Reduction: $MnO_4^- + 8H^+ + 5e^- \\to Mn^{2+} + 4H_2O$ (balance O with $4H_2O$, H with $8H^+$; charge: left $-1+8 = +7$, plus 5e⁻ gives $+2$ to match right)</p><p>Multiply oxidation by 5: $5Fe^{2+} \\to 5Fe^{3+} + 5e^-$ $MnO_4^- + 8H^+ + 5e^- \\to Mn^{2+} + 4H_2O$</p><p>Add: $MnO_4^- + 5Fe^{2+} + 8H^+ \\to Mn^{2+} + 5Fe^{3+} + 4H_2O$. ✓</p><p><strong>ON Method (for whole equation):</strong></p><ol><li>Identify atoms changing ON</li><li>Calculate change in ON (oxidation, reduction)</li><li>Multiply coefficients to balance electrons gained/lost</li><li>Balance other atoms (especially O and H using H₂O and H⁺/OH⁻)</li></ol>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Balance: $Cu + HNO_3 \\to Cu(NO_3)_2 + NO + H_2O$ (acidic).</p>",
+              "solution": "<p>Cu: $0 \\to +2$ (loses 2 e⁻) N: $+5 \\to +2$ (gains 3 e⁻) LCM of 2 and 3 = 6: multiply Cu by 3, N by 2.</p><p>$3Cu + HNO_3 \\to 3Cu(NO_3)_2 + 2NO + H_2O$.</p><p>N atoms: left has $1$ in HNO₃ (variable). Right: $3 \\times 2 + 2 = 8$ N. So 8 HNO₃ needed. Adjust H₂O and ensure all N balanced: $3Cu + 8HNO_3 \\to 3Cu(NO_3)_2 + 2NO + 4H_2O$. ✓ (verify atoms balance)</p><p><strong>Final Answer:</strong> $3Cu + 8HNO_3 \\to 3Cu(NO_3)_2 + 2NO + 4H_2O$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Balance: $Cr_2O_7^{2-} + I^- \\to Cr^{3+} + I_2$ (acidic).</p>",
+              "solution": "<p>Oxidation: $2I^- \\to I_2 + 2e^-$ Reduction: $Cr_2O_7^{2-} + 14H^+ + 6e^- \\to 2Cr^{3+} + 7H_2O$ (Cr changes from $+6$ to $+3$, each gains 3 e⁻, total 6)</p><p>Multiply oxidation by 3: $6I^- \\to 3I_2 + 6e^-$</p><p>Add: $Cr_2O_7^{2-} + 6I^- + 14H^+ \\to 2Cr^{3+} + 3I_2 + 7H_2O$. ✓</p><p><strong>Final Answer:</strong> $Cr_2O_7^{2-} + 6I^- + 14H^+ \\to 2Cr^{3+} + 3I_2 + 7H_2O$.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>To balance redox in acidic medium, oxygen is balanced using:</p>",
+              "options": [
+                "$O_2$",
+                "$H_2O$",
+                "$OH^-$",
+                "$H^+$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Charge balancing is done by adding:</p>",
+              "options": [
+                "Atoms",
+                "Electrons",
+                "Protons",
+                "Neutrons"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>For acidic medium:</p>",
+              "options": [
+                "Use $OH^-$ to balance H",
+                "Use $H^+$ to balance H",
+                "No need to balance H",
+                "Use $H_2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In basic medium, H₂O can be replaced by:</p>",
+              "options": [
+                "$H^+$",
+                "$OH^-$",
+                "Both",
+                "Removed"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In $Cr_2O_7^{2-} \\to Cr^{3+}$, Cr changes ON from:</p>",
+              "options": [
+                "$+6 \\to +3$ (gain 3)",
+                "$+6 \\to +3$ (lose 3)",
+                "$+7 \\to +2$",
+                "$+5 \\to +2$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Applications of Redox",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Equivalent Weight and Stoichiometry",
+          "concept": "<p><strong>Equivalent Weight ($E$):</strong> Mass of substance combining with or displacing $1$ g of H, $8$ g of O, or $35.5$ g of Cl.</p><p><strong>For Acids:</strong> $E = M/\\text{basicity}$ (number of replaceable H⁺). e.g., $H_2SO_4$: $E = 98/2 = 49$.</p><p><strong>For Bases:</strong> $E = M/\\text{acidity}$ (number of OH⁻). e.g., NaOH: $E = 40/1 = 40$.</p><p><strong>For Salts:</strong> $E = M/(\\text{total +ve charge or -ve charge})$. e.g., $Al_2(SO_4)_3$: $E = 342/6 = 57$.</p><p><strong>For Oxidizing/Reducing Agents:</strong> $$E = \\frac{M}{\\text{change in oxidation number per molecule}}$$</p><table class=\"md-table\"><thead><tr><th>Agent</th><th>Medium</th><th>$n$-factor</th><th>$E$</th></tr></thead><tbody><tr><td>KMnO₄</td><td>Acidic ($Mn^{+7} \\to Mn^{+2}$)</td><td>$5$</td><td>$158/5 = 31.6$</td></tr><tr><td>KMnO₄</td><td>Neutral/weakly basic ($Mn^{+7} \\to MnO_2$)</td><td>$3$</td><td>$158/3 = 52.7$</td></tr><tr><td>KMnO₄</td><td>Strongly basic ($Mn^{+7} \\to MnO_4^{2-}$)</td><td>$1$</td><td>$158$</td></tr><tr><td>$K_2Cr_2O_7$</td><td>Acidic ($Cr^{+6} \\to Cr^{+3}$, 2 Cr per formula)</td><td>$6$</td><td>$294/6 = 49$</td></tr><tr><td>H₂S</td><td>as RA ($S^{-2} \\to S^0$)</td><td>$2$</td><td>$34/2 = 17$</td></tr><tr><td>H₂O₂</td><td>as OA</td><td>$2$</td><td>$34/2 = 17$</td></tr><tr><td>H₂O₂</td><td>as RA</td><td>$2$</td><td>$34/2 = 17$</td></tr></tbody></table><p><strong>Normality (N):</strong> Equivalents/L. $N = M \\times n$, where $n = $ n-factor.</p><p><strong>Equivalent Concept:</strong> Equivalents of OA = Equivalents of RA in reaction. So in titration: $$N_1V_1 = N_2V_2$$</p><p><strong>Volume Strength of $H_2O_2$:</strong> Volume of O₂ released at STP per volume of $H_2O_2$ solution. $$\\text{Volume strength} = 5.6 \\times N = 11.2 \\times M$$</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find equivalent weight of $H_3PO_4$ as triprotic acid, and as monoprotic.</p>",
+              "solution": "<p>$M = 98$.</p><ul><li>As triprotic ($n = 3$): $E = 98/3 = 32.67$</li><li>As monoprotic ($n = 1$): $E = 98$</li></ul><p><strong>Final Answer:</strong> $32.67$ or $98$ depending on basicity used.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>$25$ mL of $0.1$ M KMnO₄ (acidic) requires $V$ mL of $0.2$ N $H_2C_2O_4$. Find $V$.</p>",
+              "solution": "<p>Normality of KMnO₄ in acidic = $0.1 \\times 5 = 0.5$ N. Equivalents of KMnO₄ = $0.5 \\times 25/1000 = 0.0125$. Equivalents of $H_2C_2O_4$ = $0.0125$ ⟹ $0.2 \\times V/1000 = 0.0125$ ⟹ $V = 62.5$ mL.</p><p><strong>Final Answer:</strong> $V = 62.5$ mL.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Equivalent weight of $H_2SO_4$ when used as acid:</p>",
+              "options": [
+                "$98$",
+                "$49$",
+                "$32.67$",
+                "$196$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Equivalent weight of KMnO₄ in acidic medium ($M = 158$):</p>",
+              "options": [
+                "$158$",
+                "$52.7$",
+                "$31.6$",
+                "$79$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$N_1V_1 = N_2V_2$ is true for:</p>",
+              "options": [
+                "Any reaction",
+                "Neutralization or redox",
+                "Polymerization",
+                "Solubility"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Volume strength of \"$10$ V\" H₂O₂:</p>",
+              "options": [
+                "M = $0.5$",
+                "M = $0.893$",
+                "M = $5.6$",
+                "M = $11.2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$n$-factor of K₂Cr₂O₇ in acidic medium:</p>",
+              "options": [
+                "$3$",
+                "$5$",
+                "$6$",
+                "$7$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Disproportionation, Comproportionation, Auto-redox",
+          "concept": "<p><strong>Disproportionation Reaction:</strong> Same element is both oxidized and reduced in the same reaction. Requires the element to have an intermediate ON, with higher and lower states accessible.</p><p><strong>Examples:</strong></p><ul><li>$2H_2O_2 \\to 2H_2O + O_2$ (O: $-1 \\to -2$ and $-1 \\to 0$)</li><li>$3MnO_4^{2-} + 4H^+ \\to 2MnO_4^- + MnO_2 + 2H_2O$ (Mn: $+6 \\to +7$ and $+6 \\to +4$)</li><li>$Cl_2 + 2NaOH \\to NaCl + NaClO + H_2O$ (Cl: $0 \\to -1$ and $0 \\to +1$)</li><li>$3Cl_2 + 6NaOH \\to 5NaCl + NaClO_3 + 3H_2O$ (hot, concentrated)</li><li>$P_4 + 3NaOH + 3H_2O \\to PH_3 + 3NaH_2PO_2$ (P: $0 \\to -3$ and $0 \\to +1$)</li><li>$4KClO_3 \\to 3KClO_4 + KCl$ (heated; Cl: $+5 \\to +7$ and $+5 \\to -1$)</li><li>$Cu^+ \\to Cu^{2+} + Cu$ in aqueous solution</li></ul><p><strong>Comproportionation (Synproportionation):</strong> Two species with same element in different ON combine to form a single product with intermediate ON. Reverse of disproportionation.</p><p><strong>Examples:</strong></p><ul><li>$IO_3^- + 5I^- + 6H^+ \\to 3I_2 + 3H_2O$ (I: $+5$ and $-1 \\to 0$)</li><li>$H_2S + SO_2 \\to 3S + 2H_2O$ (S: $-2$ and $+4 \\to 0$)</li><li>$Fe + 2Fe^{3+} \\to 3Fe^{2+}$ (Fe: $0$ and $+3 \\to +2$)</li></ul><p><strong>Conditions for Disproportionation:</strong></p><ul><li>Element must have at least three oxidation states</li><li>Intermediate state should be present</li></ul><p><strong>Why some elements don't disproportionate:</strong></p><ul><li>F: cannot, since $-1$ is most stable (no positive ON commonly)</li><li>Pure metals in zero state to negative state — typically not possible</li></ul><p><strong>Auto-redox:</strong> Disproportionation can be called auto-oxidation-reduction in some texts; same concept.</p><p><strong>Decomposition Redox Reactions:</strong> Single substance breaks down into two with different ON.</p><ul><li>$2H_2O \\to 2H_2 + O_2$ (electrolysis)</li><li>$2NaN_3 \\to 2Na + 3N_2$ (airbag chemistry)</li><li>$2KClO_3 \\to 2KCl + 3O_2$ (catalyst MnO₂)</li><li>$2HgO \\to 2Hg + O_2$</li><li>$NH_4NO_3 \\to N_2O + 2H_2O$</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Identify type and balance: $Cl_2 + NaOH \\to NaCl + NaClO + H_2O$ (cold).</p>",
+              "solution": "<p>Cl: $0 \\to -1$ (in NaCl, reduction) and $0 \\to +1$ (in NaClO, oxidation). Same element both oxidized and reduced → <strong>disproportionation</strong>. Balance: $Cl_2 + 2NaOH \\to NaCl + NaClO + H_2O$. ✓ (Cl: 2=1+1, Na: 2=1+1, O: 2=1+1, H: 2=2)</p><p><strong>Final Answer:</strong> Disproportionation; balanced.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why does Cu⁺ disproportionate in aqueous solution?</p>",
+              "solution": "<p>Cu has stable ONs at $0$ (Cu metal) and $+2$ (Cu²⁺ in water). The intermediate $+1$ (Cu⁺) is unstable. $2Cu^+(aq) \\to Cu(s) + Cu^{2+}(aq)$ is energetically favorable in water (high hydration energy of $Cu^{2+}$).</p><p><strong>Final Answer:</strong> Hydration energy of $Cu^{2+}$ makes $+1$ unstable in water.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Disproportionation involves:</p>",
+              "options": [
+                "Two different elements",
+                "Same element oxidized and reduced",
+                "No change",
+                "Only reduction"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Reverse of disproportionation is:</p>",
+              "options": [
+                "Decomposition",
+                "Comproportionation",
+                "Combustion",
+                "Replacement"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In $H_2O_2 \\to H_2O + O_2$, oxygen undergoes:</p>",
+              "options": [
+                "Only oxidation",
+                "Only reduction",
+                "Both (disproportionation)",
+                "None"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Which can disproportionate?</p>",
+              "options": [
+                "F (only $-1$ state)",
+                "Cl (multiple ONs)",
+                "Na",
+                "Mg"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Hot conc. NaOH + Cl₂:</p>",
+              "options": [
+                "NaCl + NaClO",
+                "NaCl + NaClO₃ (disprop. at higher T)",
+                "NaCl only",
+                "Cl₂O"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-chem-redox-reactions-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>ON of N in $HNO_3$:</p>",
+              "options": [
+                "$+3$",
+                "$+5$",
+                "$-3$",
+                "$+4$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The oxidizing agent in: $Cu + 2AgNO_3 \\to Cu(NO_3)_2 + 2Ag$:</p>",
+              "options": [
+                "Cu",
+                "AgNO₃",
+                "NO₃⁻",
+                "Both"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In acidic medium, $MnO_4^-$ converts to:</p>",
+              "options": [
+                "Mn²⁺ ($n=5$)",
+                "MnO₂ ($n=3$)",
+                "$MnO_4^{2-}$ ($n=1$)",
+                "Mn metal ($n=7$)"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Strongest reducing agent in halogens:</p>",
+              "options": [
+                "F⁻",
+                "Cl⁻",
+                "Br⁻",
+                "I⁻"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>ON of Cr in $CrO_5$ (peroxide complex, where 4 O are peroxide $-1$ and 1 is $-2$):</p>",
+              "options": [
+                "$+6$",
+                "$+5$",
+                "$+4$",
+                "$+3$ (skewed by peroxide rule, $4 \\times -1 + 1 \\times -2 + x = 0 \\implies x = +6$)"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Equivalent weight of HCl:</p>",
+              "options": [
+                "$36.5$",
+                "$73$",
+                "$18.25$",
+                "$35.5$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The change in ON in $Cr_2O_7^{2-} \\to 2Cr^{3+}$ (per molecule):</p>",
+              "options": [
+                "$3$",
+                "$6$",
+                "$4$",
+                "$2$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Element which never undergoes disproportionation:</p>",
+              "options": [
+                "Cl",
+                "F",
+                "Br",
+                "I"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>In a redox reaction, oxidizing agent:</p>",
+              "options": [
+                "Gets oxidized",
+                "Gets reduced",
+                "No change",
+                "Donates protons"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>The number of moles of $K_2Cr_2O_7$ needed to oxidize $1$ mole of $Fe^{2+}$ in acidic medium:</p>",
+              "options": [
+                "$1/6$",
+                "$1/3$",
+                "$1$",
+                "$6$"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>$n$-factor of $K_2Cr_2O_7$ in acidic medium:</p>",
+              "answer": "6",
+              "explanation": ""
+            },
+            {
+              "q": "<p>ON of Mn in $MnO_4^-$:</p>",
+              "answer": "7",
+              "explanation": ""
+            },
+            {
+              "q": "<p>In $2KMnO_4 + 16HCl \\to 2KCl + 2MnCl_2 + 5Cl_2 + 8H_2O$: moles of Cl₂ produced per mole of KMnO₄:</p>",
+              "answer": "2",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> $H_2O_2$ can act as both oxidizing and reducing agent. <strong>Reason (R):</strong> Oxygen in $H_2O_2$ has intermediate oxidation state ($-1$), so it can go to either $-2$ or $0$.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> Fluorine cannot undergo disproportionation. <strong>Reason (R):</strong> Fluorine exists only in $-1$ and $0$ oxidation states; it does not exhibit positive oxidation states.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

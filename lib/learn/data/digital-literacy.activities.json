@@ -1,0 +1,3320 @@
+{
+ "course": "digital-literacy",
+ "landing": {
+  "hero": {
+   "eyebrow": "Online course · No software to install",
+   "title": "Digital Literacy: learn by doing",
+   "subtitle": "Write documents, build spreadsheets and design presentations right in your browser. Stay safe online and use AI responsibly. Every step has practice and feedback.",
+   "level": "Absolute beginner",
+   "outcomeLine": "After this course you can prepare a letter and résumé, track a budget with formulas, present your ideas clearly and protect your accounts."
+  },
+  "outcomes": [
+   {
+    "icon": "computer",
+    "title": "Understand computers",
+    "text": "Know the parts of a computer, how files and folders work, and how to keep things organised."
+   },
+   {
+    "icon": "word",
+    "title": "Write professional documents",
+    "text": "Format letters, résumés and reports with headings, lists and tables."
+   },
+   {
+    "icon": "sheet",
+    "title": "Work with data",
+    "text": "Use formulas such as SUM, AVERAGE and IF, sort and filter data, and turn it into charts."
+   },
+   {
+    "icon": "slides",
+    "title": "Present your ideas",
+    "text": "Build clear slide decks with readable text, good layouts and simple visuals."
+   },
+   {
+    "icon": "web",
+    "title": "Use the internet well",
+    "text": "Read web addresses, search effectively and write clear emails."
+   },
+   {
+    "icon": "safety",
+    "title": "Stay safe online",
+    "text": "Spot scams, choose strong passwords and protect your privacy."
+   },
+   {
+    "icon": "cloud",
+    "title": "Work in the cloud",
+    "text": "Store, share and collaborate on files from any device."
+   },
+   {
+    "icon": "ai",
+    "title": "Use AI responsibly",
+    "text": "Write good prompts, check AI answers and keep your own work honest."
+   }
+  ],
+  "projects": [
+   {
+    "title": "A formal letter",
+    "text": "Ask for permission to run a workshop, with a date, list and polite closing.",
+    "module": "ms-word"
+   },
+   {
+    "title": "Your résumé",
+    "text": "A clean one-page résumé an employer can scan in seconds.",
+    "module": "ms-word"
+   },
+   {
+    "title": "A monthly budget",
+    "text": "Total your spending, find your balance and flag overspending with IF.",
+    "module": "ms-excel"
+   },
+   {
+    "title": "Result analysis",
+    "text": "Calculate pass or fail for a class and summarise it with AVERAGE, MAX and COUNTIF.",
+    "module": "ms-excel"
+   },
+   {
+    "title": "Introduce yourself in slides",
+    "text": "Five short slides that tell people who you are.",
+    "module": "ms-powerpoint"
+   },
+   {
+    "title": "My Digital Portfolio",
+    "text": "A document, a spreadsheet with a chart and a presentation, reviewed against a checklist.",
+    "module": "capstone"
+   }
+  ],
+  "tools": [
+   {
+    "icon": "word",
+    "title": "Document editor",
+    "text": "A word processor with headings, lists, tables, undo and download."
+   },
+   {
+    "icon": "sheet",
+    "title": "Spreadsheet",
+    "text": "A grid with real formulas, formatting, sorting, filters, charts and CSV."
+   },
+   {
+    "icon": "slides",
+    "title": "Slide studio",
+    "text": "Layouts, themes, shapes you can drag, a slideshow mode and download."
+   },
+   {
+    "icon": "sort",
+    "title": "Sort and decide",
+    "text": "Short interactive activities on safety, files, the web and AI."
+   },
+   {
+    "icon": "ai",
+    "title": "Learning assistant",
+    "text": "An optional AI helper that explains ideas and gives hints."
+   }
+  ],
+  "assessment": [
+   "Complete the required practice activities in each module: they are checked automatically and explained when something is missing.",
+   "Pass each module quiz (60% or more). You can retry as often as you like.",
+   "Finish the capstone, My Digital Portfolio, and review it against the checklist.",
+   "A finished course is verified by GrowQR and counts toward your Skill Passport."
+  ],
+  "faq": [
+   {
+    "q": "Do I need Microsoft Office or any software?",
+    "a": "No. The document editor, spreadsheet and slide studio run in your browser, so you can practise on any computer or a tablet. The lessons also explain the real programs so you can use them later."
+   },
+   {
+    "q": "Is my work saved?",
+    "a": "If you are logged in as a student, your work is saved to your account when you press Check my work or Save. If you are not logged in, nothing is stored on our servers. You can always download what you made."
+   },
+   {
+    "q": "What if I get something wrong?",
+    "a": "Nothing is lost. Each check tells you what is missing in plain words, offers a hint when you ask for one, and you can try again as many times as you like."
+   },
+   {
+    "q": "How long does it take?",
+    "a": "About 80 hours at your own pace. Most students finish one module a week with a few hours of practice."
+   },
+   {
+    "q": "Is the AI assistant required?",
+    "a": "No. It is optional and may not always be available. Every lesson, hint and check works without it."
+   }
+  ]
+ },
+ "slug": "digital-literacy-master",
+ "skills": [
+  {
+   "id": "computer-basics",
+   "label": "Computer basics"
+  },
+  {
+   "id": "files",
+   "label": "Files and folders"
+  },
+  {
+   "id": "word",
+   "label": "Documents"
+  },
+  {
+   "id": "excel",
+   "label": "Spreadsheets"
+  },
+  {
+   "id": "slides",
+   "label": "Presentations"
+  },
+  {
+   "id": "web",
+   "label": "Internet and email"
+  },
+  {
+   "id": "safety",
+   "label": "Online safety"
+  },
+  {
+   "id": "cloud",
+   "label": "Cloud tools"
+  },
+  {
+   "id": "ai",
+   "label": "AI literacy"
+  }
+ ],
+ "levels": [
+  {
+   "min": 0,
+   "title": "Beginner"
+  },
+  {
+   "min": 150,
+   "title": "Explorer"
+  },
+  {
+   "min": 350,
+   "title": "Practitioner"
+  },
+  {
+   "min": 600,
+   "title": "Confident"
+  },
+  {
+   "min": 900,
+   "title": "Digital Pro"
+  }
+ ],
+ "badges": [
+  {
+   "id": "first-formula",
+   "title": "First formula",
+   "description": "Calculated totals and averages with SUM and AVERAGE.",
+   "when": {
+    "all": [
+     "s2-total-average"
+    ]
+   }
+  },
+  {
+   "id": "document-pro",
+   "title": "Document pro",
+   "description": "Wrote a letter, a résumé and a report.",
+   "when": {
+    "all": [
+     "w1-letter",
+     "w3-resume",
+     "w5-report"
+    ]
+   }
+  },
+  {
+   "id": "data-wrangler",
+   "title": "Data wrangler",
+   "description": "Built a budget and analysed results with IF and COUNTIF.",
+   "when": {
+    "all": [
+     "s3-budget",
+     "s4-results"
+    ]
+   }
+  },
+  {
+   "id": "storyteller",
+   "title": "Storyteller",
+   "description": "Built two clear presentations.",
+   "when": {
+    "all": [
+     "p1-intro",
+     "p2-project"
+    ]
+   }
+  },
+  {
+   "id": "safe-surfer",
+   "title": "Safe surfer",
+   "description": "Spotted scams and chose strong passwords.",
+   "when": {
+    "all": [
+     "c6-phishing",
+     "c6-passwords"
+    ]
+   }
+  },
+  {
+   "id": "ai-ready",
+   "title": "AI ready",
+   "description": "Wrote good prompts and judged responsible use of AI.",
+   "when": {
+    "all": [
+     "c8-prompts",
+     "c8-responsible"
+    ]
+   }
+  },
+  {
+   "id": "portfolio",
+   "title": "Digital Portfolio",
+   "description": "Finished all three parts of My Digital Portfolio.",
+   "when": {
+    "all": [
+     "cap-doc",
+     "cap-sheet",
+     "cap-deck",
+     "cap-review"
+    ]
+   }
+  }
+ ],
+ "activities": [
+  {
+   "id": "c1-parts",
+   "kind": "classify",
+   "module": "computer-basics",
+   "title": "Sort the parts of a computer",
+   "level": "beginner",
+   "minutes": 6,
+   "xp": 15,
+   "skills": [
+    "computer-basics"
+   ],
+   "required": true,
+   "objective": "Tell input devices, output devices, processing and storage apart.",
+   "scenario": "A computer works like a small factory: things go in, get worked on, come out, and are kept for later.",
+   "steps": [
+    "Read each part.",
+    "Choose the group that describes its main job.",
+    "Press Check my work to see which ones are right."
+   ],
+   "classify": {
+    "categories": [
+     {
+      "id": "input",
+      "label": "Input"
+     },
+     {
+      "id": "output",
+      "label": "Output"
+     },
+     {
+      "id": "processing",
+      "label": "Processing"
+     },
+     {
+      "id": "storage",
+      "label": "Storage"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "Keyboard",
+      "answer": "input",
+      "why": "You type on it, so information goes INTO the computer."
+     },
+     {
+      "id": "i2",
+      "text": "Monitor",
+      "answer": "output",
+      "why": "It shows you the result, so information comes OUT of the computer."
+     },
+     {
+      "id": "i3",
+      "text": "Mouse",
+      "answer": "input",
+      "why": "You point and click with it, which sends instructions in."
+     },
+     {
+      "id": "i4",
+      "text": "Speakers",
+      "answer": "output",
+      "why": "They play sound that the computer produces."
+     },
+     {
+      "id": "i5",
+      "text": "CPU (processor)",
+      "answer": "processing",
+      "why": "The CPU is the brain: it carries out instructions and does the calculations."
+     },
+     {
+      "id": "i6",
+      "text": "Hard disk / SSD",
+      "answer": "storage",
+      "why": "It keeps your files even when the computer is switched off."
+     },
+     {
+      "id": "i7",
+      "text": "Pen drive (USB)",
+      "answer": "storage",
+      "why": "It stores files you can carry with you."
+     },
+     {
+      "id": "i8",
+      "text": "Printer",
+      "answer": "output",
+      "why": "It turns what is on screen into something on paper."
+     }
+    ]
+   },
+   "checks": [
+    {
+     "id": "i1",
+     "label": "Item 1 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "You type on it, so information goes INTO the computer.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i1"
+     }
+    },
+    {
+     "id": "i2",
+     "label": "Item 2 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "It shows you the result, so information comes OUT of the computer.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i2"
+     }
+    },
+    {
+     "id": "i3",
+     "label": "Item 3 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "You point and click with it, which sends instructions in.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i3"
+     }
+    },
+    {
+     "id": "i4",
+     "label": "Item 4 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "They play sound that the computer produces.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i4"
+     }
+    },
+    {
+     "id": "i5",
+     "label": "Item 5 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "The CPU is the brain: it carries out instructions and does the calculations.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i5"
+     }
+    },
+    {
+     "id": "i6",
+     "label": "Item 6 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "It keeps your files even when the computer is switched off.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i6"
+     }
+    },
+    {
+     "id": "i7",
+     "label": "Item 7 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "It stores files you can carry with you.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i7"
+     }
+    },
+    {
+     "id": "i8",
+     "label": "Item 8 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "It turns what is on screen into something on paper.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i8"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c1-folders",
+   "kind": "classify",
+   "module": "computer-basics",
+   "title": "Put the files in the right folders",
+   "level": "beginner",
+   "minutes": 5,
+   "xp": 15,
+   "skills": [
+    "files"
+   ],
+   "required": false,
+   "objective": "Organise files by type so you can find them later.",
+   "scenario": "Your Downloads folder is a mess. Sort each file into the folder where it belongs.",
+   "steps": [
+    "Look at the file name and its ending (.docx, .jpg, .mp3 ...).",
+    "Pick the folder that fits.",
+    "Check your work."
+   ],
+   "classify": {
+    "categories": [
+     {
+      "id": "documents",
+      "label": "Documents"
+     },
+     {
+      "id": "pictures",
+      "label": "Pictures"
+     },
+     {
+      "id": "music",
+      "label": "Music"
+     },
+     {
+      "id": "videos",
+      "label": "Videos"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "Resume.docx",
+      "answer": "documents",
+      "why": ".docx is a Word document."
+     },
+     {
+      "id": "i2",
+      "text": "Holiday.jpg",
+      "answer": "pictures",
+      "why": ".jpg is a photo."
+     },
+     {
+      "id": "i3",
+      "text": "Song.mp3",
+      "answer": "music",
+      "why": ".mp3 is audio."
+     },
+     {
+      "id": "i4",
+      "text": "Budget.xlsx",
+      "answer": "documents",
+      "why": ".xlsx is an Excel workbook, which is a document you work with."
+     },
+     {
+      "id": "i5",
+      "text": "Birthday.mp4",
+      "answer": "videos",
+      "why": ".mp4 is a video."
+     },
+     {
+      "id": "i6",
+      "text": "Screenshot.png",
+      "answer": "pictures",
+      "why": ".png is an image."
+     },
+     {
+      "id": "i7",
+      "text": "Lecture.mp3",
+      "answer": "music",
+      "why": ".mp3 is audio, even when it is a lecture rather than a song."
+     },
+     {
+      "id": "i8",
+      "text": "Notes.txt",
+      "answer": "documents",
+      "why": ".txt is a plain text document."
+     }
+    ]
+   },
+   "checks": [
+    {
+     "id": "i1",
+     "label": "Item 1 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": ".docx is a Word document.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i1"
+     }
+    },
+    {
+     "id": "i2",
+     "label": "Item 2 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": ".jpg is a photo.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i2"
+     }
+    },
+    {
+     "id": "i3",
+     "label": "Item 3 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": ".mp3 is audio.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i3"
+     }
+    },
+    {
+     "id": "i4",
+     "label": "Item 4 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": ".xlsx is an Excel workbook, which is a document you work with.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i4"
+     }
+    },
+    {
+     "id": "i5",
+     "label": "Item 5 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": ".mp4 is a video.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i5"
+     }
+    },
+    {
+     "id": "i6",
+     "label": "Item 6 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": ".png is an image.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i6"
+     }
+    },
+    {
+     "id": "i7",
+     "label": "Item 7 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": ".mp3 is audio, even when it is a lecture rather than a song.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i7"
+     }
+    },
+    {
+     "id": "i8",
+     "label": "Item 8 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": ".txt is a plain text document.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i8"
+     }
+    }
+   ]
+  },
+  {
+   "kind": "word",
+   "skills": [
+    "word"
+   ],
+   "initial": {
+    "html": "<p><br></p>"
+   },
+   "id": "w1-letter",
+   "module": "ms-word",
+   "title": "Write a formal letter",
+   "level": "beginner",
+   "minutes": 12,
+   "xp": 40,
+   "required": true,
+   "objective": "Lay out a formal letter with a date, greeting, three paragraphs, a list and a closing.",
+   "scenario": "You are writing to your principal to ask for permission to organise a computer-skills workshop for Class 9 students.",
+   "steps": [
+    "Type today's date at the top.",
+    "Start with 'Dear Principal,'.",
+    "Write three short paragraphs: why, when, and what you need.",
+    "Add a bulleted list of three things you need (for example room, projector, laptops).",
+    "Finish with 'Yours sincerely,' and your name, and make your name bold."
+   ],
+   "checks": [
+    {
+     "id": "date",
+     "label": "A date at the top",
+     "hint": "Write the date like 12 March 2026.",
+     "explain": "A letter begins with the date so the reader knows when it was written.",
+     "spec": {
+      "k": "doc.pattern",
+      "re": "\\b\\d{1,2}[ /.-](jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|\\d{1,2})[a-z]*[ /.-]\\d{2,4}\\b",
+      "flags": "i",
+      "what": "a date such as 12 March 2026"
+     }
+    },
+    {
+     "id": "dear",
+     "label": "A greeting that starts with Dear",
+     "hint": "Type Dear, then the person's title.",
+     "explain": "A polite greeting such as 'Dear Principal,' shows respect.",
+     "spec": {
+      "k": "doc.contains",
+      "text": "Dear"
+     }
+    },
+    {
+     "id": "paras",
+     "label": "Three paragraphs of real sentences",
+     "hint": "Press Enter between paragraphs. Each should have at least 10 words.",
+     "explain": "Short paragraphs, each with one idea, make a letter easy to read.",
+     "spec": {
+      "k": "doc.paragraphs",
+      "min": 3,
+      "minWords": 10
+     }
+    },
+    {
+     "id": "list",
+     "label": "A bulleted list of at least 3 items",
+     "hint": "Use the bullet-list button, then press Enter between items.",
+     "explain": "A list makes a set of requests easy to scan.",
+     "spec": {
+      "k": "doc.list",
+      "type": "ul",
+      "minItems": 3
+     }
+    },
+    {
+     "id": "closing",
+     "label": "A polite closing",
+     "hint": "End with Yours sincerely or Yours faithfully.",
+     "explain": "Formal letters end with 'Yours sincerely,' followed by your name.",
+     "spec": {
+      "k": "doc.pattern",
+      "re": "yours (sincerely|faithfully)|regards",
+      "what": "a closing such as 'Yours sincerely'"
+     }
+    },
+    {
+     "id": "bold",
+     "label": "Your name in bold",
+     "hint": "Select your name and press the B button.",
+     "explain": "Bold makes your name stand out as the signature.",
+     "spec": {
+      "k": "doc.format",
+      "what": "bold"
+     }
+    }
+   ]
+  },
+  {
+   "kind": "word",
+   "skills": [
+    "word"
+   ],
+   "initial": {
+    "html": "<p><br></p>"
+   },
+   "id": "w2-assignment",
+   "module": "ms-word",
+   "title": "Format a school assignment",
+   "level": "beginner",
+   "minutes": 12,
+   "xp": 30,
+   "required": false,
+   "objective": "Use headings to give a document structure.",
+   "scenario": "Your teacher asked for a one-page assignment called 'Why Digital Skills Matter' with an introduction and two sections.",
+   "steps": [
+    "Type the title and make it a Heading 1.",
+    "Add two section headings using Heading 2.",
+    "Write at least three paragraphs under them.",
+    "Underline one important phrase."
+   ],
+   "checks": [
+    {
+     "id": "h1",
+     "label": "A main title (Heading 1)",
+     "hint": "Choose Heading 1 from the style list.",
+     "explain": "A single title tells the reader what the document is about.",
+     "spec": {
+      "k": "doc.heading",
+      "min": 1,
+      "level": 1
+     }
+    },
+    {
+     "id": "h2",
+     "label": "Two section headings (Heading 2)",
+     "hint": "Put the cursor in the line and pick Heading 2.",
+     "explain": "Section headings break the text into easy parts.",
+     "spec": {
+      "k": "doc.heading",
+      "min": 2,
+      "level": 2
+     }
+    },
+    {
+     "id": "paras",
+     "label": "At least three paragraphs",
+     "hint": "Write 2 to 3 sentences in each paragraph.",
+     "explain": "Paragraphs group related sentences.",
+     "spec": {
+      "k": "doc.paragraphs",
+      "min": 3,
+      "minWords": 12
+     }
+    },
+    {
+     "id": "underline",
+     "label": "One phrase underlined",
+     "hint": "Select a phrase and press U.",
+     "explain": "Use underline sparingly, for the single most important idea.",
+     "spec": {
+      "k": "doc.format",
+      "what": "underline"
+     }
+    },
+    {
+     "id": "words",
+     "label": "At least 80 words",
+     "hint": "Add a few more sentences.",
+     "explain": "Aim for enough detail to explain your idea.",
+     "spec": {
+      "k": "doc.words",
+      "min": 80
+     }
+    }
+   ]
+  },
+  {
+   "kind": "word",
+   "skills": [
+    "word"
+   ],
+   "initial": {
+    "html": "<p><br></p>"
+   },
+   "id": "w3-resume",
+   "module": "ms-word",
+   "title": "Build your one-page résumé",
+   "level": "intermediate",
+   "minutes": 15,
+   "xp": 50,
+   "required": true,
+   "objective": "Create a clean résumé with a centred name, section headings and a skills list.",
+   "scenario": "You are applying for your first part-time job. Make a one-page résumé an employer can scan in 10 seconds.",
+   "steps": [
+    "Type your name at the top, make it bold and centre it.",
+    "Add an email address under your name.",
+    "Add headings for Skills, Education and Experience.",
+    "Under Skills, make a bulleted list of at least three skills.",
+    "Make one line a bit larger by changing its font size."
+   ],
+   "checks": [
+    {
+     "id": "centre",
+     "label": "Name centred",
+     "hint": "Click the line, then the centre-align button.",
+     "explain": "A centred name works as the heading of a résumé.",
+     "spec": {
+      "k": "doc.format",
+      "what": "center"
+     }
+    },
+    {
+     "id": "bold",
+     "label": "Name in bold",
+     "hint": "Select the name and press B.",
+     "explain": "Bold draws the eye to the most important line.",
+     "spec": {
+      "k": "doc.format",
+      "what": "bold"
+     }
+    },
+    {
+     "id": "email",
+     "label": "An email address",
+     "hint": "Type something like name@example.com.",
+     "explain": "Employers need a way to reach you.",
+     "spec": {
+      "k": "doc.pattern",
+      "re": "[\\w.+-]+@[\\w-]+\\.[\\w.]+",
+      "what": "an email address"
+     }
+    },
+    {
+     "id": "headings",
+     "label": "At least three headings",
+     "hint": "Use Heading 2 for Skills, Education and Experience.",
+     "explain": "Headings let a reader jump to what they need.",
+     "spec": {
+      "k": "doc.heading",
+      "min": 3
+     }
+    },
+    {
+     "id": "skills",
+     "label": "A skills heading",
+     "hint": "Add a heading that says Skills.",
+     "explain": "A skills section is the quickest way to show what you can do.",
+     "spec": {
+      "k": "doc.contains",
+      "text": "Skills"
+     }
+    },
+    {
+     "id": "list",
+     "label": "A bulleted list of three skills",
+     "hint": "Use the bullet-list button.",
+     "explain": "Bullets are easier to scan than a paragraph.",
+     "spec": {
+      "k": "doc.list",
+      "type": "ul",
+      "minItems": 3
+     }
+    },
+    {
+     "id": "size",
+     "label": "A line with a different font size",
+     "hint": "Select a line and choose a size from the list.",
+     "explain": "A larger name stands out from the body text.",
+     "spec": {
+      "k": "doc.format",
+      "what": "size"
+     }
+    }
+   ]
+  },
+  {
+   "kind": "word",
+   "skills": [
+    "word"
+   ],
+   "initial": {
+    "html": "<p><br></p>"
+   },
+   "id": "w4-notice",
+   "module": "ms-word",
+   "title": "Prepare a meeting notice",
+   "level": "intermediate",
+   "minutes": 10,
+   "xp": 40,
+   "required": false,
+   "objective": "Design a short notice that gives people everything they need.",
+   "scenario": "Your club is holding a meeting. Write the notice for the school board.",
+   "steps": [
+    "Type 'Notice of Meeting' as a bold, centred title.",
+    "Give the date, time and venue.",
+    "Add the word 'Agenda' and a numbered list of at least three topics.",
+    "Keep it under 120 words."
+   ],
+   "checks": [
+    {
+     "id": "title",
+     "label": "A bold, centred title",
+     "hint": "Make the title bold and centre it.",
+     "explain": "A bold centred title shows what the page is.",
+     "spec": {
+      "k": "doc.format",
+      "what": "center"
+     }
+    },
+    {
+     "id": "bold",
+     "label": "Some bold text",
+     "hint": "Select the title and press B.",
+     "explain": "Bold helps people see the title at a glance.",
+     "spec": {
+      "k": "doc.format",
+      "what": "bold"
+     }
+    },
+    {
+     "id": "details",
+     "label": "Date, time and venue",
+     "hint": "Include the words Date, Time and Venue.",
+     "explain": "Readers need to know when and where to go.",
+     "spec": {
+      "k": "doc.pattern",
+      "re": "date[\\s\\S]*time[\\s\\S]*venue|time[\\s\\S]*date[\\s\\S]*venue",
+      "what": "the words Date, Time and Venue"
+     }
+    },
+    {
+     "id": "agenda",
+     "label": "An Agenda with a numbered list",
+     "hint": "Use the numbered-list button for the topics.",
+     "explain": "An agenda is a numbered list of what will be discussed.",
+     "spec": {
+      "k": "doc.list",
+      "type": "ol",
+      "minItems": 3
+     }
+    },
+    {
+     "id": "short",
+     "label": "Under 120 words",
+     "hint": "Cut anything that is not needed.",
+     "explain": "A good notice is short.",
+     "spec": {
+      "k": "doc.words",
+      "max": 120,
+      "min": 15
+     }
+    }
+   ]
+  },
+  {
+   "kind": "word",
+   "skills": [
+    "word"
+   ],
+   "initial": {
+    "html": "<p><br></p>"
+   },
+   "id": "w5-report",
+   "module": "ms-word",
+   "title": "Write a short report with a table",
+   "level": "challenge",
+   "minutes": 18,
+   "xp": 60,
+   "required": true,
+   "objective": "Combine headings, paragraphs and a table in one report.",
+   "scenario": "You surveyed 3 classmates about the devices they use. Present the results in a short report.",
+   "steps": [
+    "Add a Heading 1 title and two Heading 2 section headings.",
+    "Write at least two paragraphs that explain what you found.",
+    "Insert a table with at least 4 rows and 3 columns (a heading row plus 3 classmates).",
+    "Make the title a larger size."
+   ],
+   "checks": [
+    {
+     "id": "h1",
+     "label": "A title (Heading 1)",
+     "hint": "Choose Heading 1 for the title.",
+     "explain": "Every report needs a clear title.",
+     "spec": {
+      "k": "doc.heading",
+      "min": 1,
+      "level": 1
+     }
+    },
+    {
+     "id": "h2",
+     "label": "Two section headings",
+     "hint": "Use Heading 2 for the section headings.",
+     "explain": "Sections help readers find the results.",
+     "spec": {
+      "k": "doc.heading",
+      "min": 2,
+      "level": 2
+     }
+    },
+    {
+     "id": "paras",
+     "label": "Two paragraphs",
+     "hint": "Write at least 12 words in each.",
+     "explain": "Explain what the table shows in your own words.",
+     "spec": {
+      "k": "doc.paragraphs",
+      "min": 2,
+      "minWords": 12
+     }
+    },
+    {
+     "id": "table",
+     "label": "A table of at least 4 rows by 3 columns",
+     "hint": "Use the Table button and choose 4 rows and 3 columns.",
+     "explain": "Tables are best for comparing the same facts about several people.",
+     "spec": {
+      "k": "doc.table",
+      "rows": 4,
+      "cols": 3
+     }
+    },
+    {
+     "id": "size",
+     "label": "A larger title",
+     "hint": "Select the title and choose a bigger font size.",
+     "explain": "A larger title shows the importance of the heading.",
+     "spec": {
+      "k": "doc.format",
+      "what": "size"
+     }
+    }
+   ]
+  },
+  {
+   "kind": "sheet",
+   "skills": [
+    "excel"
+   ],
+   "view": {
+    "cols": 7,
+    "rows": 12
+   },
+   "id": "s1-first",
+   "module": "ms-excel",
+   "title": "Your first spreadsheet",
+   "level": "beginner",
+   "minutes": 8,
+   "xp": 30,
+   "required": false,
+   "objective": "Enter data into cells and make the heading row stand out.",
+   "scenario": "A teacher wants a table of marks for four students in three subjects.",
+   "steps": [
+    "Click a cell and type: names go in column A, marks in columns B to D.",
+    "Fill A2:A5 with four student names and B2:D5 with marks.",
+    "Make the headings in row 1 bold."
+   ],
+   "initial": {
+    "sheet": {
+     "cells": {
+      "A1": "Student",
+      "B1": "Maths",
+      "C1": "Science",
+      "D1": "English"
+     },
+     "formats": {},
+     "charts": []
+    }
+   },
+   "checks": [
+    {
+     "id": "names",
+     "label": "Four student names in A2:A5",
+     "hint": "Click A2 and type a name, then press Enter to go down.",
+     "explain": "Each row is one student.",
+     "spec": {
+      "k": "sheet.filled",
+      "range": "A2:A5"
+     }
+    },
+    {
+     "id": "marks",
+     "label": "Marks in B2:D5",
+     "hint": "Type numbers in the grid under the subject names.",
+     "explain": "Numbers are what formulas can calculate with.",
+     "spec": {
+      "k": "sheet.filled",
+      "range": "B2:D5"
+     }
+    },
+    {
+     "id": "bold",
+     "label": "Heading row in bold",
+     "hint": "Select A1 and press B; do the same for the other headings.",
+     "explain": "Bold headings tell you which cells are labels.",
+     "spec": {
+      "k": "sheet.format",
+      "ref": "A1",
+      "what": "bold"
+     }
+    },
+    {
+     "id": "noerr",
+     "label": "No error messages",
+     "hint": "If a cell shows #VALUE!, check that marks are numbers.",
+     "explain": "Errors mean something in the sheet cannot be calculated.",
+     "spec": {
+      "k": "sheet.noerrors"
+     }
+    }
+   ]
+  },
+  {
+   "kind": "sheet",
+   "skills": [
+    "excel"
+   ],
+   "view": {
+    "cols": 7,
+    "rows": 12
+   },
+   "id": "s2-total-average",
+   "module": "ms-excel",
+   "title": "Calculate total and average",
+   "level": "beginner",
+   "minutes": 10,
+   "xp": 50,
+   "required": true,
+   "objective": "Use SUM and AVERAGE to calculate each student's total and average marks.",
+   "scenario": "Marks are entered. Work out each student's total (column E) and average (column F).",
+   "steps": [
+    "Click E2 and type =SUM(B2:D2), then press Enter.",
+    "Do the same for E3, E4 and E5, changing the row number.",
+    "Click F2 and type =AVERAGE(B2:D2).",
+    "Fill in F3 to F5 the same way."
+   ],
+   "initial": {
+    "sheet": {
+     "cells": {
+      "A1": "Student",
+      "B1": "Maths",
+      "C1": "Science",
+      "D1": "English",
+      "E1": "Total",
+      "F1": "Average",
+      "A2": "Asha",
+      "B2": "72",
+      "C2": "65",
+      "D2": "80",
+      "A3": "Ravi",
+      "B3": "55",
+      "C3": "60",
+      "D3": "48",
+      "A4": "Meena",
+      "B4": "91",
+      "C4": "88",
+      "D4": "95",
+      "A5": "Dev",
+      "B5": "40",
+      "C5": "35",
+      "D5": "52"
+     },
+     "formats": {
+      "A1": {
+       "bold": true
+      },
+      "B1": {
+       "bold": true
+      },
+      "C1": {
+       "bold": true
+      },
+      "D1": {
+       "bold": true
+      },
+      "E1": {
+       "bold": true
+      },
+      "F1": {
+       "bold": true
+      }
+     },
+     "charts": []
+    }
+   },
+   "checks": [
+    {
+     "id": "e2",
+     "label": "E2 adds Asha's three marks with SUM",
+     "hint": "Type =SUM(B2:D2). The range B2:D2 means 'from B2 to D2'.",
+     "explain": "=SUM(B2:D2) adds every number from B2 to D2: 72 + 65 + 80 = 217.",
+     "spec": {
+      "k": "sheet.formula",
+      "ref": "E2",
+      "fns": [
+       "SUM"
+      ],
+      "cover": "B2:D2",
+      "equals": 217
+     }
+    },
+    {
+     "id": "e5",
+     "label": "E5 adds Dev's marks with SUM",
+     "hint": "Change the row number to 5.",
+     "explain": "=SUM(B5:D5) gives 40 + 35 + 52 = 127.",
+     "spec": {
+      "k": "sheet.formula",
+      "ref": "E5",
+      "fns": [
+       "SUM"
+      ],
+      "cover": "B5:D5",
+      "equals": 127
+     }
+    },
+    {
+     "id": "f2",
+     "label": "F2 averages Asha's marks with AVERAGE",
+     "hint": "Type =AVERAGE(B2:D2).",
+     "explain": "=AVERAGE(B2:D2) is the total divided by 3: about 72.33.",
+     "spec": {
+      "k": "sheet.formula",
+      "ref": "F2",
+      "fns": [
+       "AVERAGE"
+      ],
+      "cover": "B2:D2",
+      "equals": 72.33333333333333
+     }
+    },
+    {
+     "id": "f5",
+     "label": "F5 averages Dev's marks",
+     "hint": "Use the same idea with row 5.",
+     "explain": "=AVERAGE(B5:D5) is 127 divided by 3: about 42.33.",
+     "spec": {
+      "k": "sheet.formula",
+      "ref": "F5",
+      "fns": [
+       "AVERAGE"
+      ],
+      "cover": "B5:D5",
+      "equals": 42.33333333333333
+     }
+    },
+    {
+     "id": "noerr",
+     "label": "No error messages anywhere",
+     "hint": "Read the red message to see what is wrong.",
+     "explain": "A formula error always has a reason: a missing bracket, a wrong name or text instead of numbers.",
+     "spec": {
+      "k": "sheet.noerrors"
+     }
+    }
+   ]
+  },
+  {
+   "kind": "sheet",
+   "skills": [
+    "excel"
+   ],
+   "view": {
+    "cols": 7,
+    "rows": 12
+   },
+   "id": "s3-budget",
+   "module": "ms-excel",
+   "title": "Personal monthly budget",
+   "level": "intermediate",
+   "minutes": 14,
+   "xp": 60,
+   "required": true,
+   "objective": "Total your spending, find your balance and show whether you stayed within budget.",
+   "scenario": "Your monthly pocket money is ₹25,000 in this practice budget. Work out what is left after your expenses.",
+   "steps": [
+    "In B9 total the expenses with =SUM(B3:B7).",
+    "In B10 work out the balance: income minus total expenses (=B2-B9).",
+    "In B11 type =IF(B10>=0,\"Within budget\",\"Overspent\").",
+    "Format B9 as currency."
+   ],
+   "initial": {
+    "sheet": {
+     "cells": {
+      "A1": "Item",
+      "B1": "Amount",
+      "A2": "Income",
+      "B2": "25000",
+      "A3": "Rent",
+      "B3": "8000",
+      "A4": "Food",
+      "B4": "6000",
+      "A5": "Transport",
+      "B5": "2000",
+      "A6": "Phone",
+      "B6": "800",
+      "A7": "Savings",
+      "B7": "3000",
+      "A9": "Total expenses",
+      "A10": "Balance",
+      "A11": "Status"
+     },
+     "formats": {
+      "A1": {
+       "bold": true
+      },
+      "B1": {
+       "bold": true
+      }
+     },
+     "charts": []
+    }
+   },
+   "checks": [
+    {
+     "id": "total",
+     "label": "B9 totals the expenses with SUM",
+     "hint": "Add B3 to B7 only, not the income in B2.",
+     "explain": "=SUM(B3:B7) adds 8000 + 6000 + 2000 + 800 + 3000 = 19,800.",
+     "spec": {
+      "k": "sheet.formula",
+      "ref": "B9",
+      "fns": [
+       "SUM"
+      ],
+      "cover": "B3:B7",
+      "equals": 19800
+     }
+    },
+    {
+     "id": "balance",
+     "label": "B10 shows income minus expenses",
+     "hint": "Subtract the total in B9 from the income in B2.",
+     "explain": "=B2-B9 gives 25,000 - 19,800 = 5,200.",
+     "spec": {
+      "k": "sheet.formula",
+      "ref": "B10",
+      "equals": 5200
+     }
+    },
+    {
+     "id": "status",
+     "label": "B11 uses IF to show the status",
+     "hint": "IF(test, if true, if false). Test whether B10>=0.",
+     "explain": "=IF(B10>=0,\"Within budget\",\"Overspent\") shows Within budget while the balance is not negative.",
+     "spec": {
+      "k": "sheet.formula",
+      "ref": "B11",
+      "fns": [
+       "IF"
+      ],
+      "equals": "Within budget"
+     }
+    },
+    {
+     "id": "currency",
+     "label": "B9 formatted as currency",
+     "hint": "Select B9 and choose the currency format in the toolbar.",
+     "explain": "Formatting shows the ₹ sign and two decimals without changing the value.",
+     "spec": {
+      "k": "sheet.format",
+      "ref": "B9",
+      "what": "currency"
+     }
+    },
+    {
+     "id": "noerr",
+     "label": "No error messages",
+     "hint": "Check brackets and commas.",
+     "explain": "Each opening bracket needs a closing bracket.",
+     "spec": {
+      "k": "sheet.noerrors"
+     }
+    }
+   ]
+  },
+  {
+   "kind": "sheet",
+   "skills": [
+    "excel"
+   ],
+   "view": {
+    "cols": 4,
+    "rows": 12
+   },
+   "id": "s4-results",
+   "module": "ms-excel",
+   "title": "Student result analysis",
+   "level": "intermediate",
+   "minutes": 16,
+   "xp": 70,
+   "required": true,
+   "objective": "Use IF, AVERAGE, MAX and COUNTIF to analyse a set of results.",
+   "scenario": "A class of six students sat a test. The pass mark is 40. Find out who passed and summarise the class.",
+   "steps": [
+    "In C2 type =IF(B2>=40,\"Pass\",\"Fail\") and fill C3 to C7 the same way.",
+    "In B9 find the average mark with AVERAGE.",
+    "In B10 find the highest mark with MAX.",
+    "In B11 count the passes with =COUNTIF(C2:C7,\"Pass\")."
+   ],
+   "initial": {
+    "sheet": {
+     "cells": {
+      "A1": "Student",
+      "B1": "Marks",
+      "C1": "Result",
+      "A2": "Asha",
+      "B2": "72",
+      "A3": "Ravi",
+      "B3": "35",
+      "A4": "Meena",
+      "B4": "91",
+      "A5": "Dev",
+      "B5": "40",
+      "A6": "Priya",
+      "B6": "55",
+      "A7": "Karan",
+      "B7": "28",
+      "A9": "Average",
+      "A10": "Highest",
+      "A11": "Passed"
+     },
+     "formats": {
+      "A1": {
+       "bold": true
+      },
+      "B1": {
+       "bold": true
+      },
+      "C1": {
+       "bold": true
+      }
+     },
+     "charts": []
+    }
+   },
+   "checks": [
+    {
+     "id": "c2",
+     "label": "C2 uses IF and shows Pass for 72",
+     "hint": "Test whether B2 is 40 or more.",
+     "explain": "72 is at least 40, so =IF(B2>=40,\"Pass\",\"Fail\") shows Pass.",
+     "spec": {
+      "k": "sheet.formula",
+      "ref": "C2",
+      "fns": [
+       "IF"
+      ],
+      "equals": "Pass"
+     }
+    },
+    {
+     "id": "c3",
+     "label": "C3 shows Fail for 35",
+     "hint": "Fill the formula down to row 3 with B3.",
+     "explain": "35 is below 40, so the result is Fail.",
+     "spec": {
+      "k": "sheet.formula",
+      "ref": "C3",
+      "fns": [
+       "IF"
+      ],
+      "equals": "Fail"
+     }
+    },
+    {
+     "id": "c5",
+     "label": "C5 shows Pass for exactly 40",
+     "hint": "The pass mark is 40 or more, so use >=.",
+     "explain": "40 >= 40 is true, so a student on exactly 40 passes.",
+     "spec": {
+      "k": "sheet.formula",
+      "ref": "C5",
+      "fns": [
+       "IF"
+      ],
+      "equals": "Pass"
+     }
+    },
+    {
+     "id": "c7",
+     "label": "C7 shows Fail for 28",
+     "hint": "Fill the formula down to row 7.",
+     "explain": "28 is below 40, so the result is Fail.",
+     "spec": {
+      "k": "sheet.formula",
+      "ref": "C7",
+      "fns": [
+       "IF"
+      ],
+      "equals": "Fail"
+     }
+    },
+    {
+     "id": "avg",
+     "label": "B9 is the average of all six marks",
+     "hint": "Use AVERAGE over B2:B7.",
+     "explain": "=AVERAGE(B2:B7) is 321 divided by 6 = 53.5.",
+     "spec": {
+      "k": "sheet.formula",
+      "ref": "B9",
+      "fns": [
+       "AVERAGE"
+      ],
+      "cover": "B2:B7",
+      "equals": 53.5
+     }
+    },
+    {
+     "id": "max",
+     "label": "B10 is the highest mark",
+     "hint": "Use MAX over the marks.",
+     "explain": "=MAX(B2:B7) is 91.",
+     "spec": {
+      "k": "sheet.formula",
+      "ref": "B10",
+      "fns": [
+       "MAX"
+      ],
+      "cover": "B2:B7",
+      "equals": 91
+     }
+    },
+    {
+     "id": "count",
+     "label": "B11 counts the students who passed",
+     "hint": "COUNTIF(range, \"Pass\") counts cells that say Pass.",
+     "explain": "=COUNTIF(C2:C7,\"Pass\") counts Asha, Meena, Dev and Priya: 4.",
+     "spec": {
+      "k": "sheet.formula",
+      "ref": "B11",
+      "fns": [
+       "COUNTIF"
+      ],
+      "equals": 4
+     }
+    }
+   ]
+  },
+  {
+   "kind": "sheet",
+   "skills": [
+    "excel"
+   ],
+   "view": {
+    "cols": 5,
+    "rows": 9
+   },
+   "id": "s5-chart",
+   "module": "ms-excel",
+   "title": "Turn data into a chart",
+   "level": "intermediate",
+   "minutes": 10,
+   "xp": 50,
+   "required": false,
+   "objective": "Choose a chart that shows a pattern and read it.",
+   "scenario": "A shop recorded its sales for six months. A chart will show the pattern faster than a table.",
+   "steps": [
+    "Click the Chart button.",
+    "Choose a bar chart, labels A2:A7 and values B2:B7.",
+    "Look at the chart. In D2 type the month with the highest sales."
+   ],
+   "initial": {
+    "sheet": {
+     "cells": {
+      "A1": "Month",
+      "B1": "Sales",
+      "A2": "Jan",
+      "B2": "12000",
+      "A3": "Feb",
+      "B3": "15000",
+      "A4": "Mar",
+      "B4": "22000",
+      "A5": "Apr",
+      "B5": "18000",
+      "A6": "May",
+      "B6": "16000",
+      "A7": "Jun",
+      "B7": "20000",
+      "D1": "Best month"
+     },
+     "formats": {
+      "A1": {
+       "bold": true
+      },
+      "B1": {
+       "bold": true
+      },
+      "D1": {
+       "bold": true
+      }
+     },
+     "charts": []
+    }
+   },
+   "checks": [
+    {
+     "id": "chart",
+     "label": "A bar chart of the sales",
+     "hint": "Use labels A2:A7 and values B2:B7.",
+     "explain": "A bar chart compares amounts for each month side by side.",
+     "spec": {
+      "k": "sheet.chart",
+      "type": "bar",
+      "labels": "A2:A7",
+      "values": "B2:B7"
+     }
+    },
+    {
+     "id": "best",
+     "label": "D2 names the best month",
+     "hint": "Look for the tallest bar.",
+     "explain": "March had the highest sales (22,000), so the answer is Mar.",
+     "spec": {
+      "k": "sheet.value",
+      "ref": "D2",
+      "equals": "Mar"
+     }
+    }
+   ]
+  },
+  {
+   "kind": "sheet",
+   "skills": [
+    "excel"
+   ],
+   "view": {
+    "cols": 5,
+    "rows": 10
+   },
+   "id": "s6-sort",
+   "module": "ms-excel",
+   "title": "Sort and filter a dataset",
+   "level": "challenge",
+   "minutes": 10,
+   "xp": 60,
+   "required": false,
+   "objective": "Sort data to answer a question and use a filter to focus on part of it.",
+   "scenario": "A quiz ended. The results are in the order students handed in their sheets. Find the top scorer.",
+   "steps": [
+    "Click the Sort button and sort column B from highest to lowest.",
+    "Optionally try the Filter to show only marks of 50 or more, then clear it.",
+    "In D2 type the name of the top scorer."
+   ],
+   "initial": {
+    "sheet": {
+     "cells": {
+      "A1": "Student",
+      "B1": "Quiz marks",
+      "A2": "Dev",
+      "B2": "40",
+      "A3": "Asha",
+      "B3": "72",
+      "A4": "Priya",
+      "B4": "55",
+      "A5": "Meena",
+      "B5": "91",
+      "A6": "Ravi",
+      "B6": "35",
+      "A7": "Karan",
+      "B7": "28",
+      "A8": "Sana",
+      "B8": "66",
+      "D1": "Top scorer"
+     },
+     "formats": {
+      "A1": {
+       "bold": true
+      },
+      "B1": {
+       "bold": true
+      },
+      "D1": {
+       "bold": true
+      }
+     },
+     "charts": []
+    }
+   },
+   "checks": [
+    {
+     "id": "sorted",
+     "label": "Marks sorted from highest to lowest",
+     "hint": "Use Sort on column B, largest first.",
+     "explain": "Sorting puts the biggest number at the top so the winner is easy to see.",
+     "spec": {
+      "k": "sheet.sorted",
+      "range": "B2:B8",
+      "dir": "desc"
+     }
+    },
+    {
+     "id": "top",
+     "label": "D2 names the top scorer",
+     "hint": "Look at the first row after sorting.",
+     "explain": "Meena scored 91, the highest mark.",
+     "spec": {
+      "k": "sheet.value",
+      "ref": "D2",
+      "equals": "Meena"
+     }
+    }
+   ]
+  },
+  {
+   "kind": "slides",
+   "skills": [
+    "slides"
+   ],
+   "id": "p1-intro",
+   "module": "ms-powerpoint",
+   "title": "Introduce yourself in five slides",
+   "level": "beginner",
+   "minutes": 14,
+   "xp": 50,
+   "required": true,
+   "objective": "Build a simple, readable deck about yourself.",
+   "scenario": "Your class is meeting new people. Make five short slides so they can get to know you.",
+   "steps": [
+    "Make slide 1 a Title slide with your name.",
+    "Add four more slides titled My Family, My Hobbies, My Goals and Thank You.",
+    "Write two or three short bullet points on each (one idea per line).",
+    "Choose a theme."
+   ],
+   "initial": {
+    "deck": {
+     "theme": "clean",
+     "slides": [
+      {
+       "id": "a1",
+       "layout": "title",
+       "title": "",
+       "body": "",
+       "body2": "",
+       "shapes": []
+      }
+     ]
+    }
+   },
+   "checks": [
+    {
+     "id": "count",
+     "label": "Five to seven slides",
+     "hint": "Use Add slide to make more.",
+     "explain": "Five slides is enough to introduce yourself without losing people.",
+     "spec": {
+      "k": "slides.count",
+      "min": 5,
+      "max": 7
+     }
+    },
+    {
+     "id": "first",
+     "label": "A title slide first",
+     "hint": "Choose the Title slide layout for slide 1 and type your name.",
+     "explain": "The first slide introduces the talk.",
+     "spec": {
+      "k": "slides.title-first"
+     }
+    },
+    {
+     "id": "titles",
+     "label": "Every slide has a title",
+     "hint": "Type a title at the top of each slide.",
+     "explain": "Titles tell the audience what each slide is about.",
+     "spec": {
+      "k": "slides.titles"
+     }
+    },
+    {
+     "id": "hobbies",
+     "label": "A slide about your hobbies",
+     "hint": "Make one slide's title or text include 'Hobbies'.",
+     "explain": "Hobbies and goals give the audience something to connect with.",
+     "spec": {
+      "k": "slides.contains",
+      "text": "hobbies"
+     }
+    },
+    {
+     "id": "goals",
+     "label": "A slide about your goals",
+     "hint": "Make one slide's title or text include 'Goals'.",
+     "explain": "Goals tell people where you are heading.",
+     "spec": {
+      "k": "slides.contains",
+      "text": "goals"
+     }
+    },
+    {
+     "id": "read",
+     "label": "Few words per slide",
+     "hint": "Keep to 5 bullets and about 40 words.",
+     "explain": "Slides support what you say; they are not a script.",
+     "spec": {
+      "k": "slides.readable",
+      "maxBullets": 5,
+      "maxWords": 40
+     }
+    }
+   ]
+  },
+  {
+   "kind": "slides",
+   "skills": [
+    "slides"
+   ],
+   "id": "p2-project",
+   "module": "ms-powerpoint",
+   "title": "A school project presentation",
+   "level": "intermediate",
+   "minutes": 18,
+   "xp": 60,
+   "required": true,
+   "objective": "Design a consistent deck that is clear and varied.",
+   "scenario": "You are presenting a school project about 'Our Local Environment' to the class.",
+   "steps": [
+    "Create 5 to 8 slides with titles.",
+    "Use at least three different layouts.",
+    "Pick a theme other than the default.",
+    "Add at least one shape to make a slide more visual.",
+    "Keep the text short on each slide."
+   ],
+   "initial": {
+    "deck": {
+     "theme": "clean",
+     "slides": [
+      {
+       "id": "b1",
+       "layout": "title",
+       "title": "Our Local Environment",
+       "body": "A school project",
+       "body2": "",
+       "shapes": []
+      }
+     ]
+    }
+   },
+   "checks": [
+    {
+     "id": "count",
+     "label": "Five to eight slides",
+     "hint": "Use Add slide.",
+     "explain": "Enough to tell a story without rushing.",
+     "spec": {
+      "k": "slides.count",
+      "min": 5,
+      "max": 8
+     }
+    },
+    {
+     "id": "titles",
+     "label": "Every slide has a title",
+     "hint": "Check each slide.",
+     "explain": "Titles help people follow along.",
+     "spec": {
+      "k": "slides.titles"
+     }
+    },
+    {
+     "id": "layouts",
+     "label": "At least three different layouts",
+     "hint": "Try Two columns or Section heading.",
+     "explain": "Variety keeps the audience interested.",
+     "spec": {
+      "k": "slides.layouts",
+      "min": 3
+     }
+    },
+    {
+     "id": "theme",
+     "label": "A non-default theme",
+     "hint": "Choose Ocean, Forest or Slate.",
+     "explain": "A consistent theme makes the whole deck look planned.",
+     "spec": {
+      "k": "slides.theme",
+      "notDefault": true
+     }
+    },
+    {
+     "id": "shape",
+     "label": "At least one shape",
+     "hint": "Use the Shape button.",
+     "explain": "Simple shapes can show an idea or highlight a point.",
+     "spec": {
+      "k": "slides.shapes",
+      "min": 1
+     }
+    },
+    {
+     "id": "read",
+     "label": "Short, readable text",
+     "hint": "Max 5 bullets and about 35 words.",
+     "explain": "If people are reading, they are not listening.",
+     "spec": {
+      "k": "slides.readable",
+      "maxBullets": 5,
+      "maxWords": 35
+     }
+    }
+   ]
+  },
+  {
+   "kind": "slides",
+   "skills": [
+    "slides"
+   ],
+   "id": "p3-water",
+   "module": "ms-powerpoint",
+   "title": "Explain the water cycle",
+   "level": "intermediate",
+   "minutes": 15,
+   "xp": 50,
+   "required": false,
+   "objective": "Explain a process step by step with a few simple visuals.",
+   "scenario": "Explain to Class 6 how water moves between the ground, the sky and back again.",
+   "steps": [
+    "Make a slide for each stage: evaporation, condensation, precipitation.",
+    "Add shapes (for example arrows) between ideas.",
+    "Keep each slide to a few words."
+   ],
+   "initial": {
+    "deck": {
+     "theme": "clean",
+     "slides": [
+      {
+       "id": "c1",
+       "layout": "title",
+       "title": "The Water Cycle",
+       "body": "How water travels",
+       "body2": "",
+       "shapes": []
+      }
+     ]
+    }
+   },
+   "checks": [
+    {
+     "id": "count",
+     "label": "At least four slides",
+     "hint": "One slide per stage plus a title.",
+     "explain": "A process is easiest to learn one step at a time.",
+     "spec": {
+      "k": "slides.count",
+      "min": 4,
+      "max": 8
+     }
+    },
+    {
+     "id": "evap",
+     "label": "A slide about evaporation",
+     "hint": "Include the word Evaporation.",
+     "explain": "Evaporation is water turning into vapour.",
+     "spec": {
+      "k": "slides.contains",
+      "text": "evaporation"
+     }
+    },
+    {
+     "id": "cond",
+     "label": "A slide about condensation",
+     "hint": "Include the word Condensation.",
+     "explain": "Condensation is vapour cooling into clouds.",
+     "spec": {
+      "k": "slides.contains",
+      "text": "condensation"
+     }
+    },
+    {
+     "id": "prec",
+     "label": "A slide about precipitation",
+     "hint": "Include the word Precipitation.",
+     "explain": "Precipitation is rain, snow or hail falling.",
+     "spec": {
+      "k": "slides.contains",
+      "text": "precipitation"
+     }
+    },
+    {
+     "id": "shapes",
+     "label": "At least two shapes (such as arrows)",
+     "hint": "Use the Shape button; choose Arrow.",
+     "explain": "Arrows show the direction of the process.",
+     "spec": {
+      "k": "slides.shapes",
+      "min": 2
+     }
+    },
+    {
+     "id": "titles",
+     "label": "Every slide has a title",
+     "hint": "Check each slide.",
+     "explain": "Titles keep the story easy to follow.",
+     "spec": {
+      "k": "slides.titles"
+     }
+    }
+   ]
+  },
+  {
+   "kind": "slides",
+   "skills": [
+    "slides"
+   ],
+   "id": "p4-cyber",
+   "module": "ms-powerpoint",
+   "title": "A short talk on cybersecurity",
+   "level": "challenge",
+   "minutes": 18,
+   "xp": 60,
+   "required": false,
+   "objective": "Present practical safety advice in a deck that is easy to read.",
+   "scenario": "Give a three-minute talk to younger students about staying safe online.",
+   "steps": [
+    "Make a deck of 5 or 6 slides.",
+    "Cover strong passwords and phishing.",
+    "Use at least three layouts and a theme.",
+    "Keep to 4 bullets per slide at most."
+   ],
+   "initial": {
+    "deck": {
+     "theme": "clean",
+     "slides": [
+      {
+       "id": "d1",
+       "layout": "title",
+       "title": "Staying Safe Online",
+       "body": "",
+       "body2": "",
+       "shapes": []
+      }
+     ]
+    }
+   },
+   "checks": [
+    {
+     "id": "count",
+     "label": "Five or six slides",
+     "hint": "Use Add slide.",
+     "explain": "A short talk needs a short deck.",
+     "spec": {
+      "k": "slides.count",
+      "min": 5,
+      "max": 6
+     }
+    },
+    {
+     "id": "pass",
+     "label": "Covers passwords",
+     "hint": "Include a slide about passwords.",
+     "explain": "Passwords are the first line of defence.",
+     "spec": {
+      "k": "slides.contains",
+      "text": "password"
+     }
+    },
+    {
+     "id": "phish",
+     "label": "Covers phishing",
+     "hint": "Include a slide about phishing.",
+     "explain": "Phishing messages try to trick you into giving information away.",
+     "spec": {
+      "k": "slides.contains",
+      "text": "phishing"
+     }
+    },
+    {
+     "id": "layouts",
+     "label": "At least three layouts",
+     "hint": "Mix layouts.",
+     "explain": "Variety helps the audience stay engaged.",
+     "spec": {
+      "k": "slides.layouts",
+      "min": 3
+     }
+    },
+    {
+     "id": "theme",
+     "label": "A non-default theme",
+     "hint": "Pick a theme.",
+     "explain": "A theme gives consistent colours and fonts.",
+     "spec": {
+      "k": "slides.theme",
+      "notDefault": true
+     }
+    },
+    {
+     "id": "read",
+     "label": "At most 4 bullets, about 30 words",
+     "hint": "Cut text and say it aloud.",
+     "explain": "Less text means the audience listens to you.",
+     "spec": {
+      "k": "slides.readable",
+      "maxBullets": 4,
+      "maxWords": 30
+     }
+    }
+   ]
+  },
+  {
+   "id": "c5-urls",
+   "kind": "classify",
+   "module": "internet-email",
+   "title": "Read a web address",
+   "level": "beginner",
+   "minutes": 5,
+   "xp": 15,
+   "skills": [
+    "web"
+   ],
+   "required": true,
+   "objective": "Know the three parts of a web address: protocol, domain and path.",
+   "scenario": "In /courses/digital-literacy, each part tells the browser something different.",
+   "steps": [
+    "Read each piece of an address.",
+    "Say whether it is the protocol (how to connect), the domain (which website) or the path (which page).",
+    "Check your work."
+   ],
+   "classify": {
+    "categories": [
+     {
+      "id": "protocol",
+      "label": "Protocol (how)"
+     },
+     {
+      "id": "domain",
+      "label": "Domain (which site)"
+     },
+     {
+      "id": "path",
+      "label": "Path (which page)"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "https://",
+      "answer": "protocol",
+      "why": "https:// says the connection is encrypted, so others cannot easily read it."
+     },
+     {
+      "id": "i2",
+      "text": "www.google.com",
+      "answer": "domain",
+      "why": "That is the website's name on the internet."
+     },
+     {
+      "id": "i3",
+      "text": "/maps/search",
+      "answer": "path",
+      "why": "A path points to a particular page inside a website."
+     },
+     {
+      "id": "i4",
+      "text": "ftp://",
+      "answer": "protocol",
+      "why": "ftp:// is another way of connecting, used for transferring files."
+     },
+     {
+      "id": "i5",
+      "text": "www.nic.in",
+      "answer": "domain",
+      "why": "That is the name of the website."
+     },
+     {
+      "id": "i6",
+      "text": "/news/today",
+      "answer": "path",
+      "why": "It leads to one page, 'today', inside the news section."
+     }
+    ]
+   },
+   "checks": [
+    {
+     "id": "i1",
+     "label": "Item 1 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "https:// says the connection is encrypted, so others cannot easily read it.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i1"
+     }
+    },
+    {
+     "id": "i2",
+     "label": "Item 2 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "That is the website's name on the internet.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i2"
+     }
+    },
+    {
+     "id": "i3",
+     "label": "Item 3 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "A path points to a particular page inside a website.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i3"
+     }
+    },
+    {
+     "id": "i4",
+     "label": "Item 4 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "ftp:// is another way of connecting, used for transferring files.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i4"
+     }
+    },
+    {
+     "id": "i5",
+     "label": "Item 5 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "That is the name of the website.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i5"
+     }
+    },
+    {
+     "id": "i6",
+     "label": "Item 6 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "It leads to one page, 'today', inside the news section.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i6"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c6-phishing",
+   "kind": "classify",
+   "module": "digital-safety",
+   "title": "Spot the scam",
+   "level": "intermediate",
+   "minutes": 8,
+   "xp": 25,
+   "skills": [
+    "safety"
+   ],
+   "required": true,
+   "objective": "Recognise the warning signs of phishing and online scams.",
+   "scenario": "Every day people receive messages that try to trick them into giving away money or passwords. Decide which of these to trust.",
+   "steps": [
+    "Read each situation carefully.",
+    "Look for pressure, strange addresses and requests for money or passwords.",
+    "Decide: looks safe, or suspicious."
+   ],
+   "classify": {
+    "categories": [
+     {
+      "id": "safe",
+      "label": "Looks safe"
+     },
+     {
+      "id": "suspicious",
+      "label": "Suspicious"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "An email from 'sbi-secure-alert@gmail.com' says your account will be blocked in 1 hour unless you click a link and enter your password.",
+      "answer": "suspicious",
+      "why": "Banks do not use free email addresses, and fake urgency is a classic trick."
+     },
+     {
+      "id": "i2",
+      "text": "A friend texts about tomorrow's meeting time, and it matches the conversation you had yesterday.",
+      "answer": "safe",
+      "why": "It fits what you already know and asks for nothing risky."
+     },
+     {
+      "id": "i3",
+      "text": "A pop-up says 'You won ₹50,00,000! Pay ₹500 to claim your prize.'",
+      "answer": "suspicious",
+      "why": "Real prizes never ask you to pay first."
+     },
+     {
+      "id": "i4",
+      "text": "Your school's newsletter arrives from its official address, and the links go to the school website you recognise.",
+      "answer": "safe",
+      "why": "The sender and the links both match what you expect."
+     },
+     {
+      "id": "i5",
+      "text": "A shopping website's address is written paypa1-login.com (with the number 1).",
+      "answer": "suspicious",
+      "why": "A look-alike address copies a real one with a small change."
+     },
+     {
+      "id": "i6",
+      "text": "An app asks for camera permission so it can scan a QR code you opened on purpose.",
+      "answer": "safe",
+      "why": "The permission matches what you asked the app to do."
+     }
+    ]
+   },
+   "checks": [
+    {
+     "id": "i1",
+     "label": "Item 1 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "Banks do not use free email addresses, and fake urgency is a classic trick.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i1"
+     }
+    },
+    {
+     "id": "i2",
+     "label": "Item 2 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "It fits what you already know and asks for nothing risky.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i2"
+     }
+    },
+    {
+     "id": "i3",
+     "label": "Item 3 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "Real prizes never ask you to pay first.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i3"
+     }
+    },
+    {
+     "id": "i4",
+     "label": "Item 4 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "The sender and the links both match what you expect.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i4"
+     }
+    },
+    {
+     "id": "i5",
+     "label": "Item 5 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "A look-alike address copies a real one with a small change.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i5"
+     }
+    },
+    {
+     "id": "i6",
+     "label": "Item 6 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "The permission matches what you asked the app to do.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i6"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c6-passwords",
+   "kind": "classify",
+   "module": "digital-safety",
+   "title": "Strong or weak password?",
+   "level": "beginner",
+   "minutes": 5,
+   "xp": 20,
+   "skills": [
+    "safety"
+   ],
+   "required": true,
+   "objective": "Choose passwords that are hard to guess but easy to remember.",
+   "scenario": "Long passwords made of unrelated words are stronger than short ones with tricks. Decide which of these you would use.",
+   "steps": [
+    "Read each password.",
+    "Ask: is it long, unusual and not about me?",
+    "Sort it as strong or weak."
+   ],
+   "classify": {
+    "categories": [
+     {
+      "id": "strong",
+      "label": "Strong"
+     },
+     {
+      "id": "weak",
+      "label": "Weak"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "password123",
+      "answer": "weak",
+      "why": "It is one of the most common passwords in the world."
+     },
+     {
+      "id": "i2",
+      "text": "Rk7!cloud-mango-92",
+      "answer": "strong",
+      "why": "It is long, mixes character types and is not a real phrase."
+     },
+     {
+      "id": "i3",
+      "text": "12345678",
+      "answer": "weak",
+      "why": "Numbers in order are guessed first."
+     },
+     {
+      "id": "i4",
+      "text": "myname2005",
+      "answer": "weak",
+      "why": "A name and a birth year are easy for someone who knows you to guess."
+     },
+     {
+      "id": "i5",
+      "text": "blue-tiger-lamp-orbit-7",
+      "answer": "strong",
+      "why": "Four unrelated words and a number: long and memorable."
+     },
+     {
+      "id": "i6",
+      "text": "Qwerty!",
+      "answer": "weak",
+      "why": "It is short and follows the keyboard layout."
+     }
+    ]
+   },
+   "checks": [
+    {
+     "id": "i1",
+     "label": "Item 1 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "It is one of the most common passwords in the world.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i1"
+     }
+    },
+    {
+     "id": "i2",
+     "label": "Item 2 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "It is long, mixes character types and is not a real phrase.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i2"
+     }
+    },
+    {
+     "id": "i3",
+     "label": "Item 3 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "Numbers in order are guessed first.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i3"
+     }
+    },
+    {
+     "id": "i4",
+     "label": "Item 4 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "A name and a birth year are easy for someone who knows you to guess.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i4"
+     }
+    },
+    {
+     "id": "i5",
+     "label": "Item 5 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "Four unrelated words and a number: long and memorable.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i5"
+     }
+    },
+    {
+     "id": "i6",
+     "label": "Item 6 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "It is short and follows the keyboard layout.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i6"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c7-cloud",
+   "kind": "classify",
+   "module": "cloud-productivity",
+   "title": "Cloud or on this device?",
+   "level": "beginner",
+   "minutes": 5,
+   "xp": 15,
+   "skills": [
+    "cloud"
+   ],
+   "required": true,
+   "objective": "Know where your files live and how to reach them.",
+   "scenario": "Cloud files are stored on the internet and can be opened from any device. Local files stay on one device.",
+   "steps": [
+    "Read each place a file can be kept.",
+    "Decide whether it is the cloud or local storage.",
+    "Check your work."
+   ],
+   "classify": {
+    "categories": [
+     {
+      "id": "cloud",
+      "label": "Cloud storage"
+     },
+     {
+      "id": "local",
+      "label": "On this device"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "Google Drive",
+      "answer": "cloud",
+      "why": "Files in Google Drive live on Google's servers."
+     },
+     {
+      "id": "i2",
+      "text": "The D: drive of your laptop",
+      "answer": "local",
+      "why": "A drive inside your own computer is local."
+     },
+     {
+      "id": "i3",
+      "text": "OneDrive",
+      "answer": "cloud",
+      "why": "OneDrive is Microsoft's cloud storage."
+     },
+     {
+      "id": "i4",
+      "text": "A pen drive",
+      "answer": "local",
+      "why": "You carry it with you; it is not on the internet."
+     },
+     {
+      "id": "i5",
+      "text": "iCloud Photos",
+      "answer": "cloud",
+      "why": "iCloud keeps your photos online so every Apple device can see them."
+     },
+     {
+      "id": "i6",
+      "text": "An external hard disk",
+      "answer": "local",
+      "why": "It plugs into one computer at a time."
+     }
+    ]
+   },
+   "checks": [
+    {
+     "id": "i1",
+     "label": "Item 1 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "Files in Google Drive live on Google's servers.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i1"
+     }
+    },
+    {
+     "id": "i2",
+     "label": "Item 2 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "A drive inside your own computer is local.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i2"
+     }
+    },
+    {
+     "id": "i3",
+     "label": "Item 3 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "OneDrive is Microsoft's cloud storage.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i3"
+     }
+    },
+    {
+     "id": "i4",
+     "label": "Item 4 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "You carry it with you; it is not on the internet.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i4"
+     }
+    },
+    {
+     "id": "i5",
+     "label": "Item 5 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "iCloud keeps your photos online so every Apple device can see them.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i5"
+     }
+    },
+    {
+     "id": "i6",
+     "label": "Item 6 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "It plugs into one computer at a time.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i6"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c8-prompts",
+   "kind": "classify",
+   "module": "intro-to-ai",
+   "title": "Good prompt or weak prompt?",
+   "level": "beginner",
+   "minutes": 6,
+   "xp": 20,
+   "skills": [
+    "ai"
+   ],
+   "required": true,
+   "objective": "Write prompts that give an AI enough to work with.",
+   "scenario": "A good prompt says who it is for, what you want, and how it should look. Judge these.",
+   "steps": [
+    "Read each prompt.",
+    "Ask: does it say who, what and how?",
+    "Sort it as good or weak."
+   ],
+   "classify": {
+    "categories": [
+     {
+      "id": "good",
+      "label": "Good prompt"
+     },
+     {
+      "id": "weak",
+      "label": "Weak prompt"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "Write about dogs.",
+      "answer": "weak",
+      "why": "It does not say who it is for, how long, or what angle to take."
+     },
+     {
+      "id": "i2",
+      "text": "Explain photosynthesis to a Class 7 student in 5 short bullet points.",
+      "answer": "good",
+      "why": "It names the audience, the topic and the format."
+     },
+     {
+      "id": "i3",
+      "text": "Make my resume better.",
+      "answer": "weak",
+      "why": "The AI has not been shown the resume or told what 'better' means."
+     },
+     {
+      "id": "i4",
+      "text": "Suggest three improvements to this summary for a fresher applying for a data entry job: 'I am hardworking and keen to learn.'",
+      "answer": "good",
+      "why": "It gives the text, the goal and how many ideas you want."
+     },
+     {
+      "id": "i5",
+      "text": "Tell me everything.",
+      "answer": "weak",
+      "why": "Too broad: there is no topic at all."
+     },
+     {
+      "id": "i6",
+      "text": "Turn these rough notes into a one-week study plan with one hour per day: [notes]",
+      "answer": "good",
+      "why": "It gives a clear task, a time limit and the material."
+     }
+    ]
+   },
+   "checks": [
+    {
+     "id": "i1",
+     "label": "Item 1 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "It does not say who it is for, how long, or what angle to take.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i1"
+     }
+    },
+    {
+     "id": "i2",
+     "label": "Item 2 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "It names the audience, the topic and the format.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i2"
+     }
+    },
+    {
+     "id": "i3",
+     "label": "Item 3 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "The AI has not been shown the resume or told what 'better' means.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i3"
+     }
+    },
+    {
+     "id": "i4",
+     "label": "Item 4 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "It gives the text, the goal and how many ideas you want.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i4"
+     }
+    },
+    {
+     "id": "i5",
+     "label": "Item 5 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "Too broad: there is no topic at all.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i5"
+     }
+    },
+    {
+     "id": "i6",
+     "label": "Item 6 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "It gives a clear task, a time limit and the material.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i6"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c8-responsible",
+   "kind": "classify",
+   "module": "intro-to-ai",
+   "title": "Responsible or risky use of AI?",
+   "level": "intermediate",
+   "minutes": 6,
+   "xp": 25,
+   "skills": [
+    "ai",
+    "safety"
+   ],
+   "required": true,
+   "objective": "Use AI to learn and save time without cheating yourself or sharing private information.",
+   "scenario": "AI is a powerful helper, but you are responsible for what you do with its answers.",
+   "steps": [
+    "Read each situation.",
+    "Ask: is it honest, private and checked?",
+    "Sort it as responsible or risky."
+   ],
+   "classify": {
+    "categories": [
+     {
+      "id": "responsible",
+      "label": "Responsible"
+     },
+     {
+      "id": "risky",
+      "label": "Risky"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "Asking an AI to explain a topic, then checking it in your textbook.",
+      "answer": "responsible",
+      "why": "You used AI to learn and then verified the facts."
+     },
+     {
+      "id": "i2",
+      "text": "Copying an AI-written essay and handing it in as your own work.",
+      "answer": "risky",
+      "why": "It is dishonest and you learn nothing."
+     },
+     {
+      "id": "i3",
+      "text": "Pasting your Aadhaar number into a chatbot to 'fill a form'.",
+      "answer": "risky",
+      "why": "Never share ID numbers, passwords or other private data with a chatbot."
+     },
+     {
+      "id": "i4",
+      "text": "Asking AI for better wording, then rewriting it in your own voice.",
+      "answer": "responsible",
+      "why": "You stay in control and the work is still yours."
+     },
+     {
+      "id": "i5",
+      "text": "Following an AI's medicine dose without asking a doctor or pharmacist.",
+      "answer": "risky",
+      "why": "AI can be confidently wrong, and health mistakes are serious."
+     },
+     {
+      "id": "i6",
+      "text": "Turning your rough notes into a study plan that you review and adjust.",
+      "answer": "responsible",
+      "why": "AI saves effort, and you check the result."
+     }
+    ]
+   },
+   "checks": [
+    {
+     "id": "i1",
+     "label": "Item 1 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "You used AI to learn and then verified the facts.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i1"
+     }
+    },
+    {
+     "id": "i2",
+     "label": "Item 2 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "It is dishonest and you learn nothing.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i2"
+     }
+    },
+    {
+     "id": "i3",
+     "label": "Item 3 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "Never share ID numbers, passwords or other private data with a chatbot.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i3"
+     }
+    },
+    {
+     "id": "i4",
+     "label": "Item 4 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "You stay in control and the work is still yours.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i4"
+     }
+    },
+    {
+     "id": "i5",
+     "label": "Item 5 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "AI can be confidently wrong, and health mistakes are serious.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i5"
+     }
+    },
+    {
+     "id": "i6",
+     "label": "Item 6 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "AI saves effort, and you check the result.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i6"
+     }
+    }
+   ]
+  },
+  {
+   "kind": "word",
+   "skills": [
+    "word"
+   ],
+   "initial": {
+    "html": "<p><br></p>"
+   },
+   "id": "cap-doc",
+   "module": "capstone",
+   "title": "Portfolio part 1: About me document",
+   "level": "challenge",
+   "minutes": 15,
+   "xp": 80,
+   "required": true,
+   "objective": "Create a formatted document that introduces you.",
+   "scenario": "My Digital Portfolio begins with a one-page document about you: who you are, what you can do and what you want to learn.",
+   "steps": [
+    "Add a Heading 1 with your name.",
+    "Write at least two paragraphs about yourself.",
+    "Add a bulleted list of at least three skills or interests.",
+    "Make some text bold. Aim for about 60 words or more."
+   ],
+   "checks": [
+    {
+     "id": "h1",
+     "label": "A Heading 1 with your name",
+     "hint": "Choose Heading 1 for the first line.",
+     "explain": "A clear heading tells people whose portfolio it is.",
+     "spec": {
+      "k": "doc.heading",
+      "min": 1,
+      "level": 1
+     }
+    },
+    {
+     "id": "paras",
+     "label": "Two paragraphs",
+     "hint": "Write at least 10 words in each.",
+     "explain": "Paragraphs give your story shape.",
+     "spec": {
+      "k": "doc.paragraphs",
+      "min": 2,
+      "minWords": 10
+     }
+    },
+    {
+     "id": "list",
+     "label": "A list of three skills or interests",
+     "hint": "Use the bullet-list button.",
+     "explain": "A list shows your strengths at a glance.",
+     "spec": {
+      "k": "doc.list",
+      "type": "ul",
+      "minItems": 3
+     }
+    },
+    {
+     "id": "bold",
+     "label": "Some bold text",
+     "hint": "Make a key word bold.",
+     "explain": "Bold highlights what matters most.",
+     "spec": {
+      "k": "doc.format",
+      "what": "bold"
+     }
+    },
+    {
+     "id": "words",
+     "label": "At least 60 words",
+     "hint": "Add a sentence or two.",
+     "explain": "Enough detail makes the document useful.",
+     "spec": {
+      "k": "doc.words",
+      "min": 60
+     }
+    }
+   ]
+  },
+  {
+   "kind": "sheet",
+   "skills": [
+    "excel"
+   ],
+   "view": {
+    "cols": 5,
+    "rows": 10
+   },
+   "id": "cap-sheet",
+   "module": "capstone",
+   "title": "Portfolio part 2: Data and formulas",
+   "level": "challenge",
+   "minutes": 15,
+   "xp": 80,
+   "required": true,
+   "objective": "Build a small dataset with working formulas and a chart.",
+   "scenario": "Collect something about your own life, such as hours you study each subject this week, and analyse it.",
+   "steps": [
+    "Enter five subjects in A2:A6 and your weekly study hours in B2:B6.",
+    "In B7 use SUM to total the hours.",
+    "In B8 use AVERAGE for the average hours.",
+    "Make a bar chart from A2:B6."
+   ],
+   "initial": {
+    "sheet": {
+     "cells": {
+      "A1": "Subject",
+      "B1": "Hours",
+      "A7": "Total",
+      "A8": "Average"
+     },
+     "formats": {
+      "A1": {
+       "bold": true
+      },
+      "B1": {
+       "bold": true
+      }
+     },
+     "charts": []
+    }
+   },
+   "checks": [
+    {
+     "id": "data",
+     "label": "Five subjects and five numbers",
+     "hint": "Fill A2:A6 and B2:B6.",
+     "explain": "You need data before you can analyse it.",
+     "spec": {
+      "k": "sheet.filled",
+      "range": "A2:B6"
+     }
+    },
+    {
+     "id": "sum",
+     "label": "B7 totals B2:B6 with SUM",
+     "hint": "Type =SUM(B2:B6).",
+     "explain": "SUM adds all five numbers.",
+     "spec": {
+      "k": "sheet.formula",
+      "ref": "B7",
+      "fns": [
+       "SUM"
+      ],
+      "cover": "B2:B6"
+     }
+    },
+    {
+     "id": "avg",
+     "label": "B8 averages B2:B6 with AVERAGE",
+     "hint": "Type =AVERAGE(B2:B6).",
+     "explain": "AVERAGE gives the typical value.",
+     "spec": {
+      "k": "sheet.formula",
+      "ref": "B8",
+      "fns": [
+       "AVERAGE"
+      ],
+      "cover": "B2:B6"
+     }
+    },
+    {
+     "id": "chart",
+     "label": "A bar chart of A2:B6",
+     "hint": "Use labels A2:A6 and values B2:B6.",
+     "explain": "A chart makes the pattern obvious.",
+     "spec": {
+      "k": "sheet.chart",
+      "type": "bar",
+      "labels": "A2:A6",
+      "values": "B2:B6"
+     }
+    },
+    {
+     "id": "noerr",
+     "label": "No error messages",
+     "hint": "Fix any red errors.",
+     "explain": "Errors mean a formula needs attention.",
+     "spec": {
+      "k": "sheet.noerrors"
+     }
+    }
+   ]
+  },
+  {
+   "kind": "slides",
+   "skills": [
+    "slides"
+   ],
+   "id": "cap-deck",
+   "module": "capstone",
+   "title": "Portfolio part 3: Present your findings",
+   "level": "challenge",
+   "minutes": 15,
+   "xp": 80,
+   "required": true,
+   "objective": "Turn your findings into a short, clear presentation.",
+   "scenario": "Present what your spreadsheet showed in three to five slides.",
+   "steps": [
+    "Make 3 to 5 slides, starting with a title slide.",
+    "Give each slide a title.",
+    "Use at least two layouts and a theme.",
+    "Keep text short."
+   ],
+   "initial": {
+    "deck": {
+     "theme": "clean",
+     "slides": [
+      {
+       "id": "e1",
+       "layout": "title",
+       "title": "",
+       "body": "",
+       "body2": "",
+       "shapes": []
+      }
+     ]
+    }
+   },
+   "checks": [
+    {
+     "id": "count",
+     "label": "Three to five slides",
+     "hint": "Use Add slide.",
+     "explain": "Short and focused is best.",
+     "spec": {
+      "k": "slides.count",
+      "min": 3,
+      "max": 5
+     }
+    },
+    {
+     "id": "first",
+     "label": "A title slide first",
+     "hint": "Slide 1 uses the Title slide layout.",
+     "explain": "The first slide sets the scene.",
+     "spec": {
+      "k": "slides.title-first"
+     }
+    },
+    {
+     "id": "titles",
+     "label": "Every slide has a title",
+     "hint": "Check each slide.",
+     "explain": "Titles guide the audience.",
+     "spec": {
+      "k": "slides.titles"
+     }
+    },
+    {
+     "id": "layouts",
+     "label": "At least two layouts",
+     "hint": "Mix title and bullet slides.",
+     "explain": "Variety keeps interest.",
+     "spec": {
+      "k": "slides.layouts",
+      "min": 2
+     }
+    },
+    {
+     "id": "theme",
+     "label": "A non-default theme",
+     "hint": "Pick a theme.",
+     "explain": "A theme gives a professional look.",
+     "spec": {
+      "k": "slides.theme",
+      "notDefault": true
+     }
+    },
+    {
+     "id": "read",
+     "label": "Short, readable text",
+     "hint": "At most 5 bullets and 40 words per slide.",
+     "explain": "Say the rest aloud.",
+     "spec": {
+      "k": "slides.readable",
+      "maxBullets": 5,
+      "maxWords": 40
+     }
+    }
+   ]
+  },
+  {
+   "id": "cap-review",
+   "kind": "classify",
+   "module": "capstone",
+   "title": "Review your portfolio",
+   "level": "challenge",
+   "minutes": 5,
+   "xp": 30,
+   "skills": [
+    "word",
+    "excel",
+    "slides"
+   ],
+   "required": true,
+   "objective": "Check your own work against the checklist before you finish.",
+   "scenario": "Professionals review their work before they share it. Be honest: if something is not done, go back and fix it.",
+   "steps": [
+    "Read each statement.",
+    "Choose 'Yes, done' only if it is true.",
+    "Fix anything marked 'Not yet' and come back."
+   ],
+   "classify": {
+    "categories": [
+     {
+      "id": "yes",
+      "label": "Yes, done"
+     },
+     {
+      "id": "no",
+      "label": "Not yet"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "My document has a heading, clear paragraphs and a list.",
+      "answer": "yes",
+      "why": "Go back to your document and fix it first."
+     },
+     {
+      "id": "i2",
+      "text": "My spreadsheet uses formulas, not typed totals.",
+      "answer": "yes",
+      "why": "Totals should be formulas so they update."
+     },
+     {
+      "id": "i3",
+      "text": "My chart has labels that match my data.",
+      "answer": "yes",
+      "why": "Check the chart ranges."
+     },
+     {
+      "id": "i4",
+      "text": "My presentation has few words per slide and a clear title.",
+      "answer": "yes",
+      "why": "Trim the text on each slide."
+     },
+     {
+      "id": "i5",
+      "text": "I checked every spelling and number once more.",
+      "answer": "yes",
+      "why": "A last proofread catches most mistakes."
+     }
+    ]
+   },
+   "checks": [
+    {
+     "id": "i1",
+     "label": "Item 1 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "Go back to your document and fix it first.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i1"
+     }
+    },
+    {
+     "id": "i2",
+     "label": "Item 2 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "Totals should be formulas so they update.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i2"
+     }
+    },
+    {
+     "id": "i3",
+     "label": "Item 3 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "Check the chart ranges.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i3"
+     }
+    },
+    {
+     "id": "i4",
+     "label": "Item 4 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "Trim the text on each slide.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i4"
+     }
+    },
+    {
+     "id": "i5",
+     "label": "Item 5 is in the right group",
+     "hint": "Ask what this thing does, or what makes it look suspicious.",
+     "explain": "A last proofread catches most mistakes.",
+     "spec": {
+      "k": "classify.item",
+      "item": "i5"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,509 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": 21,
+  "title": "d- and f-Block Elements",
+  "slug": "d-and-f-block-elements",
+  "subtitle": "d- and f-Block Elements for JEE Main & Advanced",
+  "level": "JEE Main & Advanced",
+  "color": "#ef4444",
+  "icon": "chemistry",
+  "seo": {
+    "meta_description": "Master d- and f-Block Elements for JEE Main & Advanced on GrowQR: theory, solved problems, self-check MCQs and mock tests. Free."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "d-Block (Transition Elements)",
+      "topics": [
+        {
+          "number": 1,
+          "title": "General Trends and Electronic Configuration",
+          "concept": "<p><strong>Transition Elements (d-block):</strong> Elements with partially filled $d$-orbitals in atom or in common oxidation states. Located in groups 3-12 of periodic table.</p><p><strong>Four Series:</strong></p><ul><li><strong>3d series (1st transition):</strong> Sc(21) to Zn(30)</li><li><strong>4d series (2nd):</strong> Y(39) to Cd(48)</li><li><strong>5d series (3rd):</strong> La(57), Hf(72) to Hg(80)</li><li><strong>6d series (4th):</strong> Ac(89), Rf(104) onwards (mostly synthetic)</li></ul><p><strong>General Electronic Configuration:</strong> $(n-1)d^{1-10}\\,ns^{1-2}$</p><p><strong>3d Series Configurations:</strong></p><table class=\"md-table\"><thead><tr><th>Element</th><th>Z</th><th>Config</th></tr></thead><tbody><tr><td>Sc</td><td>21</td><td>$[Ar]\\,3d^1\\,4s^2$</td></tr><tr><td>Ti</td><td>22</td><td>$[Ar]\\,3d^2\\,4s^2$</td></tr><tr><td>V</td><td>23</td><td>$[Ar]\\,3d^3\\,4s^2$</td></tr><tr><td><strong>Cr</strong></td><td>24</td><td>$[Ar]\\,3d^5\\,4s^1$ (anomalous — half-filled $d$ stability)</td></tr><tr><td>Mn</td><td>25</td><td>$[Ar]\\,3d^5\\,4s^2$</td></tr><tr><td>Fe</td><td>26</td><td>$[Ar]\\,3d^6\\,4s^2$</td></tr><tr><td>Co</td><td>27</td><td>$[Ar]\\,3d^7\\,4s^2$</td></tr><tr><td>Ni</td><td>28</td><td>$[Ar]\\,3d^8\\,4s^2$</td></tr><tr><td><strong>Cu</strong></td><td>29</td><td>$[Ar]\\,3d^{10}\\,4s^1$ (anomalous — fully-filled $d$ stability)</td></tr><tr><td>Zn</td><td>30</td><td>$[Ar]\\,3d^{10}\\,4s^2$</td></tr></tbody></table><p><strong>Cr and Cu anomaly:</strong> Extra stability of half-filled ($d^5$) and fully-filled ($d^{10}$) configurations due to symmetric distribution and exchange energy.</p><p><strong>Note:</strong> Zn ($d^{10}\\,s^2$) and Hg are sometimes considered \"non-transition\" because their d-orbitals are fully filled and don't show typical transition properties. But traditionally still grouped under d-block.</p><p><strong>Trends in Properties:</strong></p><table class=\"md-table\"><thead><tr><th>Property</th><th>Trend</th></tr></thead><tbody><tr><td>Atomic radius</td><td>Decreases from Sc → Cr; slight increase at the end (e⁻-e⁻ repulsion in larger $d^n$)</td></tr><tr><td>IE</td><td>Generally increases across; small differences</td></tr><tr><td>Density</td><td>Increases across (heavier nuclei)</td></tr><tr><td>MP, BP</td><td>Very high; max in middle (V, Cr)</td></tr><tr><td>Electrical conductivity</td><td>High in middle</td></tr></tbody></table><p><strong>Reasons for Typical Transition Element Behavior:</strong></p><ul><li>Variable oxidation states (multiple available d-electrons)</li><li>Forms complex ions (vacant d-orbitals accept lone pairs)</li><li>Colored compounds (d-d transitions)</li><li>Magnetic properties (unpaired d-electrons)</li><li>Catalytic activity (variable oxidation states)</li><li>Alloy formation (similar atomic sizes)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Why is the electronic configuration of Cr written as $3d^5\\,4s^1$ instead of $3d^4\\,4s^2$?</p>",
+              "solution": "<p>The half-filled ($d^5$) configuration has extra stability due to:</p><ol><li><strong>Symmetric distribution</strong> of electrons in $d$ subshell</li><li><strong>Maximum exchange energy</strong> — exchange between electrons of same spin (more exchanges possible with $d^5\\,s^1$ than $d^4\\,s^2$)</li><li><strong>Hund's rule</strong> maximizes multiplicity</li></ol><p>So Cr promotes one electron from $4s$ to $3d$ to achieve $3d^5\\,4s^1$.</p><p><strong>Final Answer:</strong> Half-filled $3d^5$ has extra stability from symmetric distribution and exchange energy.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why are transition metal melting points higher than s-block?</p>",
+              "solution": "<p>Transition metals have $(n-1)d$ and $ns$ electrons available for metallic bonding (often $5-6$ valence electrons in middle of series). More valence electrons participate in metallic bonding → stronger metallic bond → higher MP/BP.</p><p>In contrast, s-block has only 1 or 2 valence electrons.</p><p><strong>Final Answer:</strong> More valence electrons in d and s shells contribute to strong metallic bonding.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>d-block elements have configuration:</p>",
+              "options": [
+                "$ns^2\\,np^6$",
+                "$(n-1)d^{1-10}\\,ns^{1-2}$",
+                "$ns^1$",
+                "$4f^{1-14}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Anomalous configuration of Cu:</p>",
+              "options": [
+                "$3d^9\\,4s^2$",
+                "$3d^{10}\\,4s^1$",
+                "$3d^{10}\\,4s^2$",
+                "$4d^{10}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Atomic radius trend in 3d series:</p>",
+              "options": [
+                "Increases steadily",
+                "Decreases then slightly increases at end",
+                "Constant",
+                "Random"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Zn is sometimes not considered transition metal because:</p>",
+              "options": [
+                "Has $d^{10}$ configuration; no partial filling",
+                "Is gas",
+                "Lightest",
+                "Most reactive"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Highest MP among 3d transition metals:</p>",
+              "options": [
+                "Sc",
+                "Cr",
+                "V (or Mo in 4d series)",
+                "Zn"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Properties — Color, Magnetism, Oxidation States, Catalysis",
+          "concept": "<p><strong>Variable Oxidation States:</strong> Most transition metals show multiple ONs.</p><table class=\"md-table\"><thead><tr><th>Element</th><th>Common Oxidation States</th></tr></thead><tbody><tr><td>Sc</td><td>$+3$</td></tr><tr><td>Ti</td><td>$+2, +3, +4$</td></tr><tr><td>V</td><td>$+2, +3, +4, +5$</td></tr><tr><td>Cr</td><td>$+2, +3, +6$</td></tr><tr><td>Mn</td><td>$+2, +3, +4, +6, +7$</td></tr><tr><td>Fe</td><td>$+2, +3$</td></tr><tr><td>Co</td><td>$+2, +3$</td></tr><tr><td>Ni</td><td>$+2$</td></tr><tr><td>Cu</td><td>$+1, +2$</td></tr><tr><td>Zn</td><td>$+2$ only</td></tr></tbody></table><p><strong>Maximum ON</strong> = total of $4s + 3d$ electrons (for early elements). E.g., Mn: $+7$ (in $MnO_4^-$); Cr: $+6$ (in $Cr_2O_7^{2-}$).</p><p><strong>Stability trends:</strong></p><ul><li>$+2$ stable in middle of series (V to Cu)</li><li>$+3$ stable for early elements (Sc, Ti, V) and Fe, Co</li><li>Higher ONs less stable down the group (for early transition metals); more stable for heavier (Pt, Ru, etc.)</li></ul><p><strong>Color in Transition Metal Compounds:</strong></p><p>Color due to <strong>d-d transitions</strong>: electron moves from one $d$-orbital to another absorbing visible light; observed color is complementary.</p><table class=\"md-table\"><thead><tr><th>Compound</th><th>Color</th><th>Reason</th></tr></thead><tbody><tr><td>$Cu(NO_3)_2$</td><td>Blue</td><td>$Cu^{2+}$ ($d^9$): d-d transition</td></tr><tr><td>$CuSO_4$</td><td>Blue</td><td>–</td></tr><tr><td>$FeCl_3$</td><td>Yellow-brown</td><td>$Fe^{3+}$</td></tr><tr><td>$MnO_4^-$</td><td>Purple</td><td>Charge transfer (Mn-O); not d-d</td></tr><tr><td>$CrO_4^{2-}$</td><td>Yellow</td><td>Charge transfer (Cr-O)</td></tr><tr><td>$Cr_2O_7^{2-}$</td><td>Orange</td><td>Charge transfer</td></tr><tr><td>$[Ti(H_2O)_6]^{3+}$</td><td>Violet</td><td>$Ti^{3+}$ ($d^1$): d-d</td></tr><tr><td>$ZnSO_4$</td><td><strong>Colorless</strong></td><td>$Zn^{2+}$ ($d^{10}$): no d-d possible</td></tr><tr><td>$Sc^{3+}$, $Cu^+$, $Cd^{2+}$</td><td>Colorless</td><td>$d^0$ or $d^{10}$</td></tr></tbody></table><p><strong>Magnetic Properties:</strong></p><ul><li><strong>Diamagnetic:</strong> No unpaired electrons; weakly repelled (e.g., $Zn^{2+}$, $Cu^+$, $Cd^{2+}$)</li><li><strong>Paramagnetic:</strong> Unpaired electrons; attracted</li></ul><p><strong>Magnetic Moment ($\\mu$):</strong> \"Spin-only\" formula (ignoring orbital contribution): $$\\mu = \\sqrt{n(n+2)} \\text{ B.M.}$$ where $n$ = number of unpaired electrons, B.M. = Bohr Magneton ($9.27 \\times 10^{-24}$ J/T).</p><p>Examples:</p><ul><li>$Fe^{2+}$ ($d^6$): 4 unpaired → $\\mu = \\sqrt{4 \\times 6} = 4.9$ B.M.</li><li>$Cu^{2+}$ ($d^9$): 1 unpaired → $\\mu = \\sqrt{3} = 1.73$ B.M.</li><li>$Mn^{2+}$ ($d^5$, high spin): 5 unpaired → $\\mu = \\sqrt{35} = 5.92$ B.M. (maximum)</li></ul><p><strong>Catalytic Activity:</strong> Transition metals/compounds excellent catalysts due to:</p><ul><li>Multiple oxidation states (alternate paths)</li><li>Surface adsorption (heterogeneous catalysis)</li><li>Complex formation</li></ul><p>Examples:</p><ul><li>Fe in Haber process</li><li>V₂O₅ in Contact process</li><li>Ni in hydrogenation of vegetable oils</li><li>Pt-Rh in Ostwald process</li></ul><p><strong>Complex Formation:</strong> Empty $d$-orbitals + small size + variable ONs allow coordination compound formation.</p><p>Examples: $[Fe(CN)_6]^{4-}$, $[Cu(NH_3)_4]^{2+}$, $[CoCl_4]^{2-}$.</p><p><strong>Alloy Formation:</strong> Similar atomic sizes (within $\\sim 10\\%$) → form alloys easily.</p><ul><li>Brass: Cu + Zn</li><li>Bronze: Cu + Sn</li><li>Steel: Fe + C (sometimes Ni, Cr)</li><li>Stainless steel: Fe + Cr + Ni</li></ul><p><strong>Interstitial Compounds:</strong> Small atoms (H, C, N, B) occupy interstitial sites in transition metal lattice. Hard, high MP, chemically inert. Examples: TiC, $Fe_3C$ (cementite), TiN, VH.</p>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Calculate magnetic moment of $Fe^{3+}$.</p>",
+              "solution": "<p>$Fe^{3+}$: $[Ar]\\,3d^5$ (lost $4s^2$ first, then $3d^1$). $d^5$: 5 unpaired electrons (Hund's rule). $\\mu = \\sqrt{5(5+2)} = \\sqrt{35} = 5.92$ B.M.</p><p><strong>Final Answer:</strong> $\\mu = 5.92$ B.M.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why are $ZnSO_4$ and $CuSO_4 \\cdot 5H_2O$ different in color?</p>",
+              "solution": "<p>$Zn^{2+}$ has $d^{10}$ configuration — no d-d transitions possible → <strong>colorless</strong>. $Cu^{2+}$ has $d^9$ configuration — d-d transition absorbing yellow light → <strong>blue color</strong> (complement). Also, water of hydration affects crystal field splitting in $[Cu(H_2O)_4]^{2+}$, enhancing color.</p><p><strong>Final Answer:</strong> $Zn^{2+}$ has no unpaired $d$ electrons; $Cu^{2+}$ has $d^9$ allowing d-d transitions.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>$Mn^{2+}$ has unpaired electrons:</p>",
+              "options": [
+                "$3$",
+                "$5$",
+                "$7$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$ZnSO_4$ is colorless because:</p>",
+              "options": [
+                "Has $d^{10}$ configuration",
+                "Anion is colorless",
+                "Both",
+                "Low concentration"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Maximum oxidation state of Mn:</p>",
+              "options": [
+                "$+2$",
+                "$+3$",
+                "$+5$",
+                "$+7$"
+              ],
+              "correct": 3,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Magnetic moment of $Cu^{2+}$:</p>",
+              "options": [
+                "$0$",
+                "$1.73$ B.M.",
+                "$5.92$ B.M.",
+                "$\\sqrt{8}$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Color of $KMnO_4$ is due to:</p>",
+              "options": [
+                "$Mn^{2+}$",
+                "Charge transfer",
+                "Iron impurity",
+                "Cl impurity"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "f-Block (Inner Transition)",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Lanthanides — Configuration, Lanthanide Contraction",
+          "concept": "<p><strong>f-Block elements:</strong> Have partially filled $4f$ (lanthanides) or $5f$ (actinides) orbitals.</p><p><strong>Lanthanides (Ce to Lu):</strong> Elements $58-71$. Filling $4f$ orbital.</p><p><strong>General Configuration:</strong> $[Xe]\\,4f^{1-14}\\,5d^{0-1}\\,6s^2$</p><table class=\"md-table\"><thead><tr><th>Element</th><th>Z</th><th>Config</th></tr></thead><tbody><tr><td>Ce</td><td>58</td><td>$[Xe]\\,4f^1\\,5d^1\\,6s^2$</td></tr><tr><td>Pr</td><td>59</td><td>$[Xe]\\,4f^3\\,6s^2$</td></tr><tr><td>Nd</td><td>60</td><td>$[Xe]\\,4f^4\\,6s^2$</td></tr><tr><td>Pm</td><td>61</td><td>$[Xe]\\,4f^5\\,6s^2$</td></tr><tr><td>Sm</td><td>62</td><td>$[Xe]\\,4f^6\\,6s^2$</td></tr><tr><td>Eu</td><td>63</td><td>$[Xe]\\,4f^7\\,6s^2$ (half-filled $f$)</td></tr><tr><td>Gd</td><td>64</td><td>$[Xe]\\,4f^7\\,5d^1\\,6s^2$</td></tr><tr><td>Tb</td><td>65</td><td>$[Xe]\\,4f^9\\,6s^2$</td></tr><tr><td>Dy</td><td>66</td><td>$[Xe]\\,4f^{10}\\,6s^2$</td></tr><tr><td>Ho</td><td>67</td><td>$[Xe]\\,4f^{11}\\,6s^2$</td></tr><tr><td>Er</td><td>68</td><td>$[Xe]\\,4f^{12}\\,6s^2$</td></tr><tr><td>Tm</td><td>69</td><td>$[Xe]\\,4f^{13}\\,6s^2$</td></tr><tr><td>Yb</td><td>70</td><td>$[Xe]\\,4f^{14}\\,6s^2$ (full $f$)</td></tr><tr><td>Lu</td><td>71</td><td>$[Xe]\\,4f^{14}\\,5d^1\\,6s^2$</td></tr></tbody></table><p><strong>General Properties:</strong></p><ul><li>Silvery-white metals; soft</li><li>Good conductors</li><li>$+3$ is most common oxidation state; some show $+2$ (Eu, Yb) or $+4$ (Ce, Tb)</li><li>Colored ions (due to $f$-$f$ transitions, sometimes); some colorless ($La^{3+}$, $Lu^{3+}$)</li><li>Most $Ln^{3+}$ are paramagnetic</li></ul><p><strong>Lanthanide Contraction:</strong> Steady <strong>decrease in atomic and ionic radius</strong> across the lanthanide series (Ce to Lu).</p><p><strong>Cause:</strong> Poor shielding by 4f electrons (which are diffuse and inner-located). Effective nuclear charge increases steadily, pulling electrons closer.</p><p><strong>Consequences:</strong></p><ol><li><strong>Similar atomic radii</strong> of 4d (Zr, Hf etc.) and 5d (Hf, Mo etc.) elements — separation difficult</li><li><strong>Difficulty in separation</strong> of lanthanides — chemically very similar</li><li><strong>Density increase</strong> down the series</li><li><strong>Increase in basicity</strong> of $Ln(OH)_3$ from $La(OH)_3$ to $Lu(OH)_3$? Actually, <strong>decreases</strong> — smaller cation → less basic hydroxide</li><li><strong>Increase in ionization enthalpy</strong> along the series</li></ol><p><strong>Important point: $Zr$ and $Hf$ have almost identical radii</strong> ($160$ pm) because of lanthanide contraction; chemically very similar — costly to separate.</p><p><strong>Use of lanthanides:</strong></p><ul><li>Misch metal ($Ce + La + Nd$): in cigarette lighters, tracer bullets</li><li>$CeO_2$: catalyst, polishing agent</li><li>$La_2O_3$: optical glasses</li><li>Magnets ($Nd_2Fe_{14}B$): hard disks, motors</li><li>Lasers ($Nd^{3+}$ in YAG laser)</li></ul>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>What is lanthanide contraction and its consequences?</p>",
+              "solution": "<p><strong>Lanthanide contraction:</strong> The steady decrease in atomic/ionic radii from La (or Ce) to Lu. <strong>Cause:</strong> 4f electrons (innermost, diffuse) shield poorly; effective nuclear charge increases steadily; pulls electrons closer.</p><p><strong>Consequences:</strong></p><ol><li>Hf has similar radius to Zr (chemically similar, hard to separate)</li><li>Lanthanides are very similar to each other (chemical separation difficult)</li><li>Basic strength of $Ln(OH)_3$ decreases across (smaller cation → stronger bond to OH⁻ → less ionic)</li><li>Density increases across the series</li></ol><p><strong>Final Answer:</strong> Decrease in size across lanthanides due to poor 4f shielding.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Why is the separation of Zr and Hf difficult?</p>",
+              "solution": "<p>Zr (4d) and Hf (5d) belong to same group. Hf comes after the lanthanide series, so it has the cumulative effect of lanthanide contraction. As a result, $Hf$ has radius ($160$ pm) very close to Zr ($160$ pm). They have nearly identical chemical properties and very similar densities — hence very difficult to separate. Modern methods like ion-exchange and solvent extraction needed.</p><p><strong>Final Answer:</strong> Lanthanide contraction makes Zr and Hf nearly identical in size and chemistry.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>Lanthanides have configuration:</p>",
+              "options": [
+                "$[Xe]\\,5f^{1-14}$",
+                "$[Xe]\\,4f^{1-14}\\,5d^{0-1}\\,6s^2$",
+                "$[Ar]\\,4f$",
+                "$[Kr]\\,5f$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Lanthanide contraction is due to:</p>",
+              "options": [
+                "Poor shielding by 4f electrons",
+                "High electronegativity",
+                "Small atomic mass",
+                "Inert pair effect"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Most common oxidation state of lanthanides:</p>",
+              "options": [
+                "$+1$",
+                "$+2$",
+                "$+3$",
+                "$+4$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Zr and Hf are difficult to separate because:</p>",
+              "options": [
+                "Both radioactive",
+                "Very similar sizes due to lanthanide contraction",
+                "Both gases",
+                "Same density only"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Misch metal contains:</p>",
+              "options": [
+                "Ce + La + Nd",
+                "Pure La",
+                "Pure Nd",
+                "U + Th"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        },
+        {
+          "number": 2,
+          "title": "Actinides and Important Compounds (KMnO₄, K₂Cr₂O₇)",
+          "concept": "<p><strong>Actinides (Th to Lr):</strong> Elements $90-103$. Filling $5f$ orbital.</p><p><strong>General Configuration:</strong> $[Rn]\\,5f^{1-14}\\,6d^{0-1}\\,7s^2$</p><p><strong>Properties:</strong></p><ul><li>All radioactive</li><li>Th, U found in nature; rest are synthetic</li><li>Show many oxidation states (more than lanthanides): U shows $+3, +4, +5, +6$</li><li>Form complexes more readily than lanthanides</li></ul><p><strong>Difference from Lanthanides:</strong></p><table class=\"md-table\"><thead><tr><th>Property</th><th>Lanthanides</th><th>Actinides</th></tr></thead><tbody><tr><td>Stable ON</td><td>$+3$ mainly</td><td>Many ($+3, +4, +5, +6$)</td></tr><tr><td>Radioactivity</td><td>Only Pm</td><td>All</td></tr><tr><td>Complex formation</td><td>Low</td><td>More</td></tr><tr><td>Density</td><td>Lower</td><td>Higher</td></tr><tr><td>5f vs 4f</td><td>4f more buried</td><td>5f less penetrating; outer ones</td></tr></tbody></table><p><strong>Important Compounds:</strong></p><p><strong>Potassium Permanganate ($KMnO_4$):</strong></p><p><strong>Preparation:</strong></p><ul><li>$2MnO_2 + 4KOH + O_2 \\to 2K_2MnO_4 + 2H_2O$ (Mn $+4 \\to +6$, manganate)</li><li>$3MnO_4^{2-} + 4H^+ \\to 2MnO_4^- + MnO_2 + 2H_2O$ (disproportionation in acidic)</li><li>Or electrolytic oxidation of $MnO_4^{2-}$</li></ul><p><strong>Properties:</strong></p><ul><li>Dark purple crystals</li><li>Strong oxidizing agent in acidic, neutral, and basic media</li><li>Color due to charge transfer</li></ul><p><strong>Reactions (Acidic medium):</strong></p><ul><li>$MnO_4^- + 8H^+ + 5e^- \\to Mn^{2+} + 4H_2O$ ($n$-factor 5; $E = M/5 = 31.6$)</li><li>Oxidizes Fe²⁺: $5Fe^{2+} + MnO_4^- + 8H^+ \\to 5Fe^{3+} + Mn^{2+} + 4H_2O$</li><li>Oxidizes $C_2O_4^{2-}$: $5C_2O_4^{2-} + 2MnO_4^- + 16H^+ \\to 10CO_2 + 2Mn^{2+} + 8H_2O$</li><li>Oxidizes $I^-$ to $I_2$; $H_2S$ to $S$; $SO_2$ to $SO_4^{2-}$</li></ul><p><strong>Reactions (Basic/Neutral medium):</strong></p><ul><li>$MnO_4^- + 2H_2O + 3e^- \\to MnO_2 + 4OH^-$ ($n$-factor 3)</li></ul><p><strong>Reactions (Strongly basic, Strong reducing agent):</strong></p><ul><li>$MnO_4^- + e^- \\to MnO_4^{2-}$ (ON: $+7 \\to +6$; $n$-factor 1)</li></ul><p><strong>Uses:</strong> Oxidizing agent in lab; volumetric analysis (self-indicator); bleaching wool, silk; disinfectant.</p><p><strong>Potassium Dichromate ($K_2Cr_2O_7$):</strong></p><p><strong>Preparation:</strong></p><ul><li>From chromite ore $FeCr_2O_4$:</li></ul><p>$4FeCr_2O_4 + 16NaOH + 7O_2 \\to 8Na_2CrO_4 + 2Fe_2O_3 + 8H_2O$</p><ul><li>$2Na_2CrO_4 + H_2SO_4 \\to Na_2Cr_2O_7 + Na_2SO_4 + H_2O$</li><li>$Na_2Cr_2O_7 + 2KCl \\to K_2Cr_2O_7 + 2NaCl$ (less soluble)</li></ul><p><strong>Properties:</strong></p><ul><li>Orange-red crystals</li><li>Stable in air</li><li>Strong oxidizing agent in acidic medium</li></ul><p><strong>$CrO_4^{2-}$ vs $Cr_2O_7^{2-}$:</strong></p><ul><li>In acidic: $2CrO_4^{2-} + 2H^+ \\to Cr_2O_7^{2-} + H_2O$ (orange)</li><li>In basic: $Cr_2O_7^{2-} + 2OH^- \\to 2CrO_4^{2-} + H_2O$ (yellow)</li></ul><p><strong>Reactions:</strong></p><ul><li>$Cr_2O_7^{2-} + 14H^+ + 6e^- \\to 2Cr^{3+} + 7H_2O$ ($n$-factor 6; $E = M/6 = 49$)</li><li>Oxidizes Fe²⁺: $6Fe^{2+} + Cr_2O_7^{2-} + 14H^+ \\to 6Fe^{3+} + 2Cr^{3+} + 7H_2O$</li><li>Oxidizes $I^-$ to $I_2$</li><li>Oxidizes $H_2S$ to $S$</li></ul><p><strong>Chromyl Chloride Test:</strong> $K_2Cr_2O_7 + 4NaCl + 6H_2SO_4 \\to 2CrO_2Cl_2$ (orange-red vapors) $+ 4NaHSO_4 + 2KHSO_4 + 3H_2O$. Test for $Cl^-$.</p><p><strong>Uses:</strong> Volumetric analysis (vs Fe²⁺), tanning of leather, dyes, photography.</p><p><strong>Comparison of $KMnO_4$ vs $K_2Cr_2O_7$:</strong></p><table class=\"md-table\"><thead><tr><th>Property</th><th>$KMnO_4$</th><th>$K_2Cr_2O_7$</th></tr></thead><tbody><tr><td>Color</td><td>Purple</td><td>Orange</td></tr><tr><td>Stability</td><td>Less</td><td>More</td></tr><tr><td>Self-indicator</td><td>Yes</td><td>No</td></tr><tr><td>Used as primary standard</td><td>No</td><td>Yes</td></tr><tr><td>$n$-factor (acidic)</td><td>$5$</td><td>$6$</td></tr></tbody></table>",
+          "visual": null,
+          "examples": [
+            {
+              "number": 1,
+              "problem": "<p>Find equivalent weight of $K_2Cr_2O_7$ in acidic medium. ($M = 294$)</p>",
+              "solution": "<p>In acidic: $Cr_2O_7^{2-} + 14H^+ + 6e^- \\to 2Cr^{3+} + 7H_2O$. $n$-factor = 6 (electrons gained per molecule). $E = M/n = 294/6 = 49$.</p><p><strong>Final Answer:</strong> $E = 49$.</p>"
+            },
+            {
+              "number": 2,
+              "problem": "<p>Write balanced equation for: $KMnO_4 + FeSO_4$ in acidic medium.</p>",
+              "solution": "<p>$Fe^{2+} \\to Fe^{3+} + e^-$ (oxidation, ×5) $MnO_4^- + 8H^+ + 5e^- \\to Mn^{2+} + 4H_2O$ (reduction, ×1) Net: $MnO_4^- + 5Fe^{2+} + 8H^+ \\to Mn^{2+} + 5Fe^{3+} + 4H_2O$ Full molecular: $2KMnO_4 + 10FeSO_4 + 8H_2SO_4 \\to K_2SO_4 + 2MnSO_4 + 5Fe_2(SO_4)_3 + 8H_2O$</p><p><strong>Final Answer:</strong> As above.</p>"
+            }
+          ],
+          "quiz": [
+            {
+              "q": "<p>All actinides are:</p>",
+              "options": [
+                "Stable",
+                "Radioactive",
+                "Lighter than air",
+                "Found in nature"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$KMnO_4$ in acidic medium has $n$-factor:</p>",
+              "options": [
+                "$1$",
+                "$3$",
+                "$5$",
+                "$7$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Color of $K_2Cr_2O_7$:</p>",
+              "options": [
+                "Yellow",
+                "Orange",
+                "Green",
+                "Violet"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Equivalent weight of $K_2Cr_2O_7$:</p>",
+              "options": [
+                "$147$",
+                "$49$",
+                "$98$",
+                "$294$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Chromyl chloride test detects:</p>",
+              "options": [
+                "$Br^-$",
+                "$I^-$",
+                "$Cl^-$",
+                "$F^-$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ],
+  "mock_tests": [
+    {
+      "id": "jee-chem-d-and-f-block-elements-test-1",
+      "title": "Mock Test 1",
+      "level": "JEE Main + Advanced",
+      "time_limit_minutes": 60,
+      "total": 15,
+      "sections": [
+        {
+          "type": "mcq",
+          "title": "Section A — MCQ (Single Correct)",
+          "questions": [
+            {
+              "q": "<p>Cr has electronic config:</p>",
+              "options": [
+                "$3d^4\\,4s^2$",
+                "$3d^5\\,4s^1$",
+                "$3d^6$",
+                "$4d^5$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Most common ON of lanthanides:</p>",
+              "options": [
+                "$+1$",
+                "$+2$",
+                "$+3$",
+                "$+4$"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>$Cu^{2+}$ ion is:</p>",
+              "options": [
+                "Diamagnetic",
+                "Paramagnetic ($d^9$)",
+                "Ferromagnetic",
+                "Colorless"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Color of $MnO_4^-$ is due to:</p>",
+              "options": [
+                "d-d transition",
+                "Charge transfer (Mn-O)",
+                "Impurity",
+                "Solvent"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of unpaired electrons in $Fe^{3+}$:</p>",
+              "options": [
+                "$3$",
+                "$5$",
+                "$4$",
+                "$0$"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Magnetic moment ($\\mu$) formula:</p>",
+              "options": [
+                "$\\sqrt{n(n+2)}$ B.M.",
+                "$n^2$ B.M.",
+                "$n + 1$ B.M.",
+                "$\\sqrt{n}$ B.M."
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Best catalyst for hydrogenation:</p>",
+              "options": [
+                "Fe",
+                "Cu",
+                "Ni",
+                "Zn"
+              ],
+              "correct": 2,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Stainless steel contains:</p>",
+              "options": [
+                "Fe + C only",
+                "Fe + Cr + Ni",
+                "Fe + Zn",
+                "Cu + Sn"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Most stable lanthanide $+2$ state:</p>",
+              "options": [
+                "Ce²⁺",
+                "Eu²⁺",
+                "Pr²⁺",
+                "Nd²⁺"
+              ],
+              "correct": 1,
+              "explanation": ""
+            },
+            {
+              "q": "<p>Most stable lanthanide $+4$ state:</p>",
+              "options": [
+                "La⁴⁺",
+                "Ce⁴⁺",
+                "Eu⁴⁺",
+                "Yb⁴⁺"
+              ],
+              "correct": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "integer",
+          "title": "Section B — Integer Type",
+          "questions": [
+            {
+              "q": "<p>Number of unpaired electrons in $Mn^{2+}$:</p>",
+              "answer": "5",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Maximum oxidation state of Mn:</p>",
+              "answer": "7",
+              "explanation": ""
+            },
+            {
+              "q": "<p>Number of lanthanides (Ce to Lu):</p>",
+              "answer": "14",
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "type": "assertion",
+          "title": "Section C — Assertion & Reasoning",
+          "questions": [
+            {
+              "q": "<p><strong>Assertion (A):</strong> Zr and Hf have nearly identical atomic radii. <strong>Reason (R):</strong> Lanthanide contraction reduces the size of post-lanthanide elements like Hf, making it similar to Zr.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            },
+            {
+              "q": "<p><strong>Assertion (A):</strong> $Zn^{2+}$ salts are colorless. <strong>Reason (R):</strong> $Zn^{2+}$ has $d^{10}$ configuration; no d-d transitions are possible.</p>",
+              "options": [
+                "Both true; R correct explanation",
+                "Both true; R not correct explanation",
+                "A true, R false",
+                "A false, R true"
+              ],
+              "correct": 0,
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "note": null
+    }
+  ]
+}
