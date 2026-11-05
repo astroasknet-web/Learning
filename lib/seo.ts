@@ -6,7 +6,7 @@ import type { Expert } from "@/features/experts/data/experts-data";
 // Google — which is what left every page "duplicate without user-selected
 // canonical" in Search Console. Keep this in sync with the Vercel domain
 // config; never point it at a host that redirects.
-export const SITE_URL = "https://www.growqr.ai";
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.growqr.ai").replace(/[/]+$/, "");
 const ORG_ID = `${SITE_URL}/#organization`;
 
 /** "/experts/foo" -> "https://www.growqr.ai/experts/foo". Always pass an

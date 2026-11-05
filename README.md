@@ -53,3 +53,7 @@ share accounts and the Skill Passport across verticals, or give each its own dat
 `npm run build` · `npm run start` · `npm test` · `npm run portal:migrate` · `npm run demo:admin`
 
 Source of truth for shared platform code is the main repository; port fixes made there into this repo when they touch shared files.
+
+## Standard footer
+
+The footer is the standard Yugty footer used by every web application (`components/standard-footer/`, see its README). Edit `lib/footer.config.ts` for this app's content. Set `NEXT_PUBLIC_SITE_URL` (canonical URLs and share buttons), `NEXT_PUBLIC_SUPPORT_EMAIL`, and the other apps' URLs `NEXT_PUBLIC_APP_URL_OVERSEAS`, `_LEARNING`, `_INTERNSHIPS`, `_RECRUITMENT`. The newsletter box posts to `/api/newsletter` (table `newsletter_subscribers`, migration `20261231000002`): run `npm run portal:migrate` on any database before using it.
