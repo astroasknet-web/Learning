@@ -7,7 +7,7 @@ import { entitlementsFor } from "@/lib/pay/entitlements";
 import { listOrders } from "@/lib/pay/orders";
 import { formatMoney } from "@/lib/pay/money";
 
-export const metadata: Metadata = { title: "Billing | GrowQR" };
+export const metadata: Metadata = { title: "Billing | YugtyLearning" };
 export const dynamic = "force-dynamic";
 
 const STATUS: Record<string, string> = { pending: "Awaiting payment", paid: "Paid", fulfilled: "Paid", failed: "Failed", cancelled: "Cancelled", expired: "Expired", partially_refunded: "Partly refunded", refunded: "Refunded", disputed: "Under review" };

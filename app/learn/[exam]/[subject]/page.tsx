@@ -13,8 +13,8 @@ export async function generateMetadata({ params }: P): Promise<Metadata> {
   const p = await params;
   const ex = exam(clean(p.exam));
   const idx = ex ? subjectIndex(ex, clean(p.subject)) : null;
-  if (!ex || !idx) return { title: "Course not found | GrowQR", robots: { index: false, follow: true } };
-  return { title: `${ex.title} ${idx.subject_label}: ${idx.chapters.length} Chapters | GrowQR`, description: `${ex.title} ${idx.subject_label}: ${idx.chapters.length} chapters with notes, worked examples, quizzes and mock tests.`, alternates: { canonical: `/learn/${ex.slug}/${idx.subject}` } };
+  if (!ex || !idx) return { title: "Course not found | YugtyLearning", robots: { index: false, follow: true } };
+  return { title: `${ex.title} ${idx.subject_label}: ${idx.chapters.length} Chapters | YugtyLearning`, description: `${ex.title} ${idx.subject_label}: ${idx.chapters.length} chapters with notes, worked examples, quizzes and mock tests.`, alternates: { canonical: `/learn/${ex.slug}/${idx.subject}` } };
 }
 
 export default async function SubjectPage({ params }: P) {

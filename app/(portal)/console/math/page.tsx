@@ -7,7 +7,7 @@ import { topicById } from "@/lib/mathstudio/taxonomy";
 import { adminGate } from "../gate";
 import { reprocessAction } from "./actions";
 
-export const metadata: Metadata = { title: "Mathematics Studio | Console | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Mathematics Studio | Console | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 const th = "py-2 pr-3 text-left font-medium text-ink-4";
 

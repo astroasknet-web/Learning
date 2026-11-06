@@ -1,7 +1,7 @@
 import { SAMPLE_INTERNSHIPS, SAMPLE_JOBS } from "./sample-jobs";
 
 /**
- * "What to do next": every GrowQR service that could raise a student's QR Score or move their career on, ordered by what their own resume needs.
+ * "What to do next": every YugtyLearning service that could raise a student's QR Score or move their career on, ordered by what their own resume needs.
  * Deterministic rules over the score, the weakest areas, the career stage and the skills found on the resume. Nothing here is AI and nothing is made
  * up except the clearly labelled SAMPLE job and internship listings.
  */

@@ -115,7 +115,7 @@ describe.skipIf(!DB)("LMS on a real database", () => {
     expect(cell("IELTS Reading Practice Test 3", ids.s2)).toMatchObject({ state: "none", label: "Not started" });
   });
 
-  it("verifies a native course completion as GrowQR-verified and keeps hand-ticked progress out of that tier", async () => {
+  it("verifies a native course completion as YugtyLearning-verified and keeps hand-ticked progress out of that tier", async () => {
     const course = (await CO.bySlug("html-css-academy"))!;
     await L.enrol(ids.s2, course.id);
     const all = Array.from({ length: L.checkpoints(course) }, (_, i) => i);

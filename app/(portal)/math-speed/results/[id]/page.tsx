@@ -12,7 +12,7 @@ import { getDiagnostic, getSession } from "@/lib/mathspeed/store";
 import { skill } from "@/lib/mathspeed/skills";
 import { chooseStartAction } from "../../actions";
 
-export const metadata: Metadata = { title: "Results | Mathematics Speed Enhancement Studio | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Results | Mathematics Speed Enhancement Studio | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 const KIND: Record<string, string> = { practice: "Graded practice", drill: "Timed drill", level: "Level Assessment", progress: "Progress Assessment", mastery: "Mastery Assessment", foundation: "Foundation Check", revision: "Targeted revision", review: "Daily review", diagnostic: "Placement check", benchmark: "Benchmark" };

@@ -48,7 +48,7 @@ const staffEmail = (): string => (process.env.SUPPORT_NOTIFY_EMAIL ?? "").trim()
 async function notifyStaff(t: { no: string; subject: string; id: number }, headline: string, detail: string): Promise<void> {
   const to = staffEmail();
   if (!to) return;
-  await send({ email: to, name: "GrowQR support" }, `[${t.no}] ${headline}`, headline, [`Ticket ${t.no}: ${t.subject}`, detail], ["Open in the console", await appUrl(`/console/support/${t.no}`)], "support-staff");
+  await send({ email: to, name: "YugtyLearning support" }, `[${t.no}] ${headline}`, headline, [`Ticket ${t.no}: ${t.subject}`, detail], ["Open in the console", await appUrl(`/console/support/${t.no}`)], "support-staff");
 }
 
 async function notifyPerson(t: Ticket, subject: string, heading: string, paras: string[]): Promise<void> {
@@ -74,7 +74,7 @@ export async function createTicket(user: Actor, input: NewTicket): Promise<Creat
   await run("INSERT INTO support_messages (ticket_id, author_id, is_staff, is_internal, body, read_by_user, read_by_staff) VALUES ($1,$2,0,0,$3,1,0)", [id, user.id, input.body]);
   await event(id, user.name, "created", `${categoryLabel(input.category)}, ${PRIORITY_LABEL[defaultPriority(input.category)]} priority`);
   const t = { no, subject: input.subject, id };
-  await send({ email: user.email, name: user.name }, `[${no}] We received your support request`, "We received your request", [`Your ticket ${no} is open: ${input.subject}.`, "The GrowQR team will reply here. You will get an email when we do, and you can follow the conversation from your account at any time."], ["Open your ticket", await appUrl(`/support/tickets/${no}`)], "support");
+  await send({ email: user.email, name: user.name }, `[${no}] We received your support request`, "We received your request", [`Your ticket ${no} is open: ${input.subject}.`, "The YugtyLearning team will reply here. You will get an email when we do, and you can follow the conversation from your account at any time."], ["Open your ticket", await appUrl(`/support/tickets/${no}`)], "support");
   await notifyStaff(t, "New support ticket", `${user.name} (${user.email}) opened a ${PRIORITY_LABEL[defaultPriority(input.category)]} priority ticket in "${categoryLabel(input.category)}".`);
   return { ok: true, no, duplicate: false };
 }
@@ -108,7 +108,7 @@ export async function getForUser(userId: number, no: string): Promise<{ ticket: 
 
 async function messagesOf(ticketId: number, withInternal: boolean): Promise<Message[]> {
   const rows = await all<Row>(`SELECT m.*, u.name AS author_name FROM support_messages m LEFT JOIN users u ON u.id = m.author_id WHERE m.ticket_id = $1 ${withInternal ? "" : "AND m.is_internal = 0"} ORDER BY m.created_at, m.id`, [ticketId]);
-  return rows.map((r) => ({ id: Number(r.id), authorName: Number(r.is_staff) === 1 ? (s(r.author_name) || "GrowQR support") : s(r.author_name), isStaff: Number(r.is_staff) === 1, isInternal: Number(r.is_internal) === 1, body: s(r.body), createdAt: s(r.created_at) }));
+  return rows.map((r) => ({ id: Number(r.id), authorName: Number(r.is_staff) === 1 ? (s(r.author_name) || "YugtyLearning support") : s(r.author_name), isStaff: Number(r.is_staff) === 1, isInternal: Number(r.is_internal) === 1, body: s(r.body), createdAt: s(r.created_at) }));
 }
 
 export type ActionResult = { ok: true } | { ok: false; error: string };
@@ -192,7 +192,7 @@ export async function staffReply(staff: Actor, no: string, body: string, interna
   if (status !== t.status) await applyStatus(t, status, staff);
   if (!internal) {
     const fresh = (await byNo(no)) ?? t;
-    await notifyPerson(fresh, `[${no}] New reply from GrowQR support`, "We replied to your ticket", [`Ticket ${no}: ${t.subject}`, body.length > 600 ? body.slice(0, 600) + "..." : body]);
+    await notifyPerson(fresh, `[${no}] New reply from YugtyLearning support`, "We replied to your ticket", [`Ticket ${no}: ${t.subject}`, body.length > 600 ? body.slice(0, 600) + "..." : body]);
   }
   return { ok: true };
 }

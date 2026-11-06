@@ -6,7 +6,7 @@ import { categoryLabel } from "@/lib/support/model";
 import { listForUser } from "@/lib/support/store";
 import { StatusBadge, btnPrimary, inputCls, when } from "@/components/support/ui";
 
-export const metadata: Metadata = { title: "My support tickets | GrowQR" };
+export const metadata: Metadata = { title: "My support tickets | YugtyLearning" };
 export const dynamic = "force-dynamic";
 
 export default async function MyTickets({ searchParams }: { searchParams: Promise<Record<string, string | undefined>> }) {

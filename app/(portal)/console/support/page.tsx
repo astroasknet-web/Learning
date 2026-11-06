@@ -6,7 +6,7 @@ import { staffList } from "@/lib/support/store";
 import { PriorityBadge, StatusBadge, when } from "@/components/support/ui";
 import { adminGate } from "../gate";
 
-export const metadata: Metadata = { title: "Support tickets | GrowQR admin", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Support tickets | YugtyLearning admin", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 export default async function SupportInbox({ searchParams }: { searchParams: Promise<Record<string, string | undefined>> }) {

@@ -9,7 +9,7 @@ import { reconcileAction, resolveItemAction, retryWebhookAction } from "../actio
 import { payGate } from "../gate";
 import { PayConsole, when } from "../nav";
 
-export const metadata: Metadata = { title: "Payment operations | GrowQR admin" };
+export const metadata: Metadata = { title: "Payment operations | YugtyLearning admin" };
 export const dynamic = "force-dynamic";
 
 export default async function PaymentOps({ searchParams }: { searchParams: Promise<Record<string, string | undefined>> }) {

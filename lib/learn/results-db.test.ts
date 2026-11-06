@@ -2,7 +2,7 @@ import { afterAll, beforeAll, describe, expect, it, vi } from "vitest";
 
 /**
  * Interactive-learning progress on a real database: results, XP, badges, the rule that a module needs its quiz AND its required activities,
- * course completion verified by GrowQR, and saved work.
+ * course completion verified by YugtyLearning, and saved work.
  *
  *   PORTAL_TEST_DATABASE_URL=mysql://root@127.0.0.1:3307/growqr_test npx vitest run lib/learn/results-db.test.ts
  */

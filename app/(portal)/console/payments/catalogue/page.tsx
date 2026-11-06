@@ -7,7 +7,7 @@ import { createProductAction, couponActiveAction, couponAction, currencyAction, 
 import { payGate } from "../gate";
 import { money, PayConsole } from "../nav";
 
-export const metadata: Metadata = { title: "Prices and staff | Payments | GrowQR admin" };
+export const metadata: Metadata = { title: "Prices and staff | Payments | YugtyLearning admin" };
 export const dynamic = "force-dynamic";
 
 export default async function PaymentCatalogue() {

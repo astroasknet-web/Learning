@@ -7,7 +7,7 @@ import { QTYPES, SKILLS } from "@/lib/reading/taxonomy";
 import { adminGate } from "../../../gate";
 import { passageStatusAction, questionAction, reviewAction } from "../../actions";
 
-export const metadata: Metadata = { title: "Passage | Console | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Passage | Console | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 export default async function PassageAdmin({ params }: { params: Promise<{ id: string }> }) {

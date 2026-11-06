@@ -77,7 +77,7 @@ export interface Expert {
    *  persona card. Renders as the "Expertise: …" badge on the detail page. */
   persona?: PersonaId;
   displayName?: string;
-  /** Expert's calendar/notification email. Falls back to the shared GrowQR account if omitted. */
+  /** Expert's calendar/notification email. Falls back to the shared YugtyLearning account if omitted. */
   email?: string;
   role: string;
   tag: string;
@@ -133,7 +133,7 @@ export const experts: Expert[] = [
     persona: "students",
     name: "Dr. Ruchi Sharma",
     email: "ruchi@growqr.ai",
-    role: "Chief Academic Partnership Officer, GrowQR",
+    role: "Chief Academic Partnership Officer, YugtyLearning",
     tag: "Education & Career Mentor",
     stats: [
       { value: "10+", label: "Years in Acad." },
@@ -159,7 +159,7 @@ export const experts: Expert[] = [
       { label: "Instagram", href: "https://www.instagram.com/dr.ruchi15/", icon: "instagram" },
     ],
     about:
-      "Dr. Ruchi Sharma is an educator, researcher, and communication strategist with 10+ years across higher education and academic leadership. Currently Chief Academic Partnership Officer at GrowQR and Asst. Professor (ODL) at Guru Nanak Dev University, she bridges intellectual inquiry with practical career outcomes through mentoring, research, and digital pedagogy.",
+      "Dr. Ruchi Sharma is an educator, researcher, and communication strategist with 10+ years across higher education and academic leadership. Currently Chief Academic Partnership Officer at YugtyLearning and Asst. Professor (ODL) at Guru Nanak Dev University, she bridges intellectual inquiry with practical career outcomes through mentoring, research, and digital pedagogy.",
     expertise: [
       "Digital Humanities",
       "Career Mentoring",
@@ -188,7 +188,7 @@ export const experts: Expert[] = [
     ],
     workExperience: [
       {
-        company: "GrowQR",
+        company: "YugtyLearning",
         position: "Chief Academic Partnership Officer",
         duration: "2025 – Present",
         achievements: [
@@ -340,7 +340,7 @@ export const experts: Expert[] = [
       { label: "LinkedIn", href: "https://linkedin.com/in/amandeepsinghbhateja", icon: "linkedin" },
     ],
     about:
-      "From DR Congo boardrooms to Berlin classrooms, Amandeep has spent 10+ years helping people rewire how they think and act. Accredited NLP Trainer, Life Coach, and Hypnotist, now building the future of career identity at GrowQR.",
+      "From DR Congo boardrooms to Berlin classrooms, Amandeep has spent 10+ years helping people rewire how they think and act. Accredited NLP Trainer, Life Coach, and Hypnotist, now building the future of career identity at YugtyLearning.",
     expertise: [
       "NLP & Behavioral Coaching",
       "Emotional Intelligence",
@@ -366,7 +366,7 @@ export const experts: Expert[] = [
     ],
     workExperience: [
       {
-        company: "GrowQR",
+        company: "YugtyLearning",
         position: "Director – Business Growth & Global Academic Alliances",
         duration: "May 2026 – Present",
         achievements: [
@@ -475,7 +475,7 @@ export const experts: Expert[] = [
     name: "Bibin Babu",
     displayName: "Bibin Babu",
     email: "bibin@growqr.ai",
-    role: "Founder & CEO, GrowQR",
+    role: "Founder & CEO, YugtyLearning",
     tag: "Startup Founder & Advisor",
     stats: [
       { value: "10+", label: "Years Building" },
@@ -501,7 +501,7 @@ export const experts: Expert[] = [
       { label: "LinkedIn", href: "https://www.linkedin.com/in/iambibinbabu/", icon: "linkedin" },
     ],
     about:
-      "Bibin Babu is a serial entrepreneur and investor who has built multiple ventures over the past decade, including one of Asia's largest licensed NFT marketplaces, and backed high-growth startups. Now Founder of GrowQR, he's building an AI-powered career platform on one belief: talent exists everywhere, and opportunity should too.",
+      "Bibin Babu is a serial entrepreneur and investor who has built multiple ventures over the past decade, including one of Asia's largest licensed NFT marketplaces, and backed high-growth startups. Now Founder of YugtyLearning, he's building an AI-powered career platform on one belief: talent exists everywhere, and opportunity should too.",
     expertise: [
       "Startup Building & Entrepreneurship",
       "Career Strategy & Growth",
@@ -537,7 +537,7 @@ export const experts: Expert[] = [
     ],
     workExperience: [
       {
-        company: "GrowQR",
+        company: "YugtyLearning",
         position: "Founder & CEO",
         duration: "2023 – Present",
         achievements: [
@@ -634,7 +634,7 @@ export const experts: Expert[] = [
     persona: "enterprises",
     name: "Kanika Mishra",
     email: "kanika@growqr.ai",
-    role: "Chief Operating Officer, GrowQR",
+    role: "Chief Operating Officer, YugtyLearning",
     tag: "Leadership & Growth Expert",
     stats: [
       { value: "16+", label: "Years Exp." },
@@ -697,7 +697,7 @@ export const experts: Expert[] = [
     ],
     workExperience: [
       {
-        company: "GrowQR",
+        company: "YugtyLearning",
         position: "Chief Operating Officer & Leadership Architect",
         duration: "2026–Present",
         achievements: [

@@ -25,8 +25,8 @@ async function load(params: P["params"]) {
 
 export async function generateMetadata({ params }: P): Promise<Metadata> {
   const { sub, ch, t, kind } = await load(params);
-  if (!sub || !ch || !t) return { title: "Test not found | GrowQR", robots: { index: false, follow: true } };
-  return { title: `${ch.title} ${kind === "imo" ? "Olympiad Test" : "Chapter Test"}: Class ${classNumber(sub.class)} ${sub.label} | GrowQR`, description: `${t.questions.length} questions, ${t.minutes} minutes, with worked explanations.`, robots: { index: true, follow: true } };
+  if (!sub || !ch || !t) return { title: "Test not found | YugtyLearning", robots: { index: false, follow: true } };
+  return { title: `${ch.title} ${kind === "imo" ? "Olympiad Test" : "Chapter Test"}: Class ${classNumber(sub.class)} ${sub.label} | YugtyLearning`, description: `${t.questions.length} questions, ${t.minutes} minutes, with worked explanations.`, robots: { index: true, follow: true } };
 }
 
 export default async function SchoolTestPage({ params }: P) {

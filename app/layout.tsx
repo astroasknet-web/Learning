@@ -51,11 +51,11 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "GrowQR: One QR. One Identity. Unlocks Growth.",
+  title: "YugtyLearning: One QR. One Identity. Unlocks Growth.",
   description: "Specialised AI agents. One QR. Your career edge, activated. The AI-driven proof-of-skill platform powering the future of readiness.",
-  keywords: "GrowQR, GrowQR.ai, growqr ai, growqr platform, RQ-Score, proof of skill, skill verification, talent verification, workforce intelligence, AI talent platform, career readiness, QR code skills, enterprise talent, smart city workforce, not grok, not grow company, specialised AI agents, AI career Edge",
-  authors: [{ name: "GrowQR" }],
-  publisher: "GrowQR",
+  keywords: "YugtyLearning, online courses, online classes, exam preparation, RQ-Score, proof of skill, skill verification, talent verification, workforce intelligence, AI talent platform, career readiness, QR code skills, enterprise talent, smart city workforce, not grok, not grow company, specialised AI agents, AI career Edge",
+  authors: [{ name: "YugtyLearning" }],
+  publisher: "YugtyLearning",
   metadataBase: new URL(SITE_URL),
   alternates: {
     canonical: `${SITE_URL}/`,
@@ -72,11 +72,11 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "GrowQR: One QR. One Identity. Unlocks Growth.",
+    title: "YugtyLearning: One QR. One Identity. Unlocks Growth.",
     description: "Specialised AI agents. One QR. Your career edge, activated.",
     type: "website",
     url: `${SITE_URL}/`,
-    siteName: "GrowQR",
+    siteName: "YugtyLearning",
     images: [OG_IMAGE],
     locale: "en_US",
   },
@@ -84,7 +84,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@Growqr",
     creator: "@Growqr",
-    title: "GrowQR.ai | Specialised AI Agents",
+    title: "YugtyLearning | Courses, online classes and practice studios",
     description: "Specialised AI agents. One QR. Your career edge, activated.",
     // summary_large_image needs a ~1200x630 asset; logo.png is a 385x130
     // wordmark and was being rejected/letterboxed.
@@ -147,8 +147,8 @@ export default async function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               "@id": `${SITE_URL}/#organization`,
-              "name": "GrowQR",
-              "alternateName": ["GrowQR.ai", "Grow QR", "GrowQR AI"],
+              "name": "YugtyLearning",
+              "alternateName": ["YugtyLearning"],
               "url": SITE_URL,
               "logo": {
                 "@type": "ImageObject",
@@ -159,12 +159,12 @@ export default async function RootLayout({
                 "height": 130
               },
               "image": `${SITE_URL}${OG_IMAGE.url}`,
-              "description": "GrowQR provides specialised AI agents and the RQ-Score system, making talent visible, verified, and valuable.",
+              "description": "YugtyLearning provides specialised AI agents and the RQ-Score system, making talent visible, verified, and valuable.",
               "slogan": "One QR. Infinite Potential.",
               "foundingDate": "2024",
                "founder": {
                 "@type": "Person",
-                "name": "GrowQR Team"
+                "name": "YugtyLearning Team"
               },
               "email": "support@growqr.ai",
               "sameAs": [
@@ -184,8 +184,8 @@ export default async function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               "@id": `${SITE_URL}/#website`,
-              "name": "GrowQR",
-              "alternateName": "GrowQR.ai",
+              "name": "YugtyLearning",
+              "alternateName": "YugtyLearning",
               "url": SITE_URL,
               "description": "The AI-driven proof-of-skill platform powering the future of readiness",
               "publisher": {
@@ -207,8 +207,8 @@ export default async function RootLayout({
             __html: serializeJsonLd({
               "@context": "https://schema.org",
               "@type": "SoftwareApplication",
-              "name": "GrowQR",
-              "alternateName": ["GrowQR.ai", "GrowQR Platform", "RQ-Score Platform"],
+              "name": "YugtyLearning",
+              "alternateName": ["YugtyLearning Platform"],
               "description": "AI-driven proof-of-skill platform that provides RQ-Score and specialised AI agents for workforce intelligence.",
               "url": SITE_URL,
               "applicationCategory": "BusinessApplication",

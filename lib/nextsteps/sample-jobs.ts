@@ -1,6 +1,6 @@
 /**
  * SAMPLE job listings for demonstration. They are made up (the companies do not exist) so the dashboard can show how job recommendations will look
- * before GrowQR has real employer listings. Every place that shows one labels it "Sample". Replace this file's content with a real feed later; the
+ * before YugtyLearning has real employer listings. Every place that shows one labels it "Sample". Replace this file's content with a real feed later; the
  * matching code does not change.
  */
 export interface SampleJob {

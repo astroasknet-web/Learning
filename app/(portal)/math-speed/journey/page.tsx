@@ -10,7 +10,7 @@ import { dueSkills, isMastered } from "@/lib/mathspeed/mastery";
 import { localDay } from "@/lib/mathspeed/personalise";
 import { buyLink, courseAccess, courseFeeNow } from "@/lib/mathspeed/access";
 
-export const metadata: Metadata = { title: "My Learning Journey | Mathematics Speed Enhancement Studio | GrowQR" };
+export const metadata: Metadata = { title: "My Learning Journey | Mathematics Speed Enhancement Studio | YugtyLearning" };
 export const dynamic = "force-dynamic";
 
 const KIND_LABEL: Record<string, string> = { practice: "Practise", drill: "Timed drill", level: "Level Assessment", progress: "Progress Assessment", mastery: "Mastery Assessment", foundation: "Foundation Check", revision: "Revision", review: "Daily review", diagnostic: "Placement check", benchmark: "Benchmark" };

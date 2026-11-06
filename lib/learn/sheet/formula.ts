@@ -162,7 +162,7 @@ export function parseFormula(input: string): Node {
       const a = parseRef(up);
       if (!a) {
         if (/^\$?[A-Z]{1,3}\$?\d+$/.test(up)) throw new FormulaError("#REF!", `${up} is outside this sheet. The sheet runs from A1 to ${colName(MAX_COLS - 1)}${MAX_ROWS}.`);
-        throw new FormulaError("#NAME?", `"${t.v}" is not a cell or a function GrowQR knows. Check the spelling.`);
+        throw new FormulaError("#NAME?", `"${t.v}" is not a cell or a function YugtyLearning knows. Check the spelling.`);
       }
       if (peek() && peek().k === "colon") {
         eat();

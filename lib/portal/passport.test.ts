@@ -221,7 +221,7 @@ describe.skipIf(!DB)("passport on a real database", () => {
   it("formats names and links", async () => {
     expect(share.displayName("  priya   kumari sharma ", "first_initial")).toBe("priya S.");
     expect(share.displayName("priya kumari sharma", "initials")).toBe("P.K.S.");
-    expect(share.displayName("   ", "full")).toBe("GrowQR learner");
+    expect(share.displayName("   ", "full")).toBe("YugtyLearning learner");
     expect(share.displayName("Single", "first_initial")).toBe("Single");
     const li = await share.linkedInUrl("ABCDEFGHJKMN", 1_790_000_000, 1_821_536_000);
     expect(li).toContain("startTask=CERTIFICATION_NAME");

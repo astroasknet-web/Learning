@@ -6,7 +6,7 @@ import { studentPage } from "@/lib/mathstudio/page";
 import { buildPlanView } from "@/lib/mathstudio/views";
 import { PRIORITY_BLURB, PRIORITY_LABEL, type PriorityBand } from "@/lib/mathstudio/recommend";
 
-export const metadata: Metadata = { title: "Practice plan | Mathematics Studio | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Practice plan | Mathematics Studio | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 const DL = ["", "foundational", "easy", "medium", "hard", "advanced"];
 
@@ -15,7 +15,7 @@ export default async function PlanPage() {
   const v = await buildPlanView(me.id);
   const bands: PriorityBand[] = [1, 2, 3, 4];
   return (
-    <PortalPage user={me} active="math-studio" title="Your practice plan" subtitle="Built from your results and sized to your study time. Each step links to real practice on GrowQR." wide="full">
+    <PortalPage user={me} active="math-studio" title="Your practice plan" subtitle="Built from your results and sized to your study time. Each step links to real practice on YugtyLearning." wide="full">
       <Crumbs items={[{ href: "/math-studio/dashboard", label: "Mathematics Studio" }, { label: "Plan" }]} />
       {!v ? <Locked headline="A personalised practice plan" body="A prioritised plan with targets, difficulty and revisit dates, built from your own weaknesses and linked to real practice, is part of the Mathematics Studio." source="plan" /> : !v.plan.steps.length ? (
         <Card><p className="text-[15px] text-ink-2">{v.plan.note}</p><div className="mt-3 flex flex-wrap gap-3"><Link href="/practice-tests/gre-quant" className={btnLight}>GRE Quant mocks</Link><Link href="/math-speed" className={btnLight}>Mathematics Speed studio</Link></div></Card>

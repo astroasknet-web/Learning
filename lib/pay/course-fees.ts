@@ -91,7 +91,7 @@ export const STUDIO_COURSES: Array<{ slug: string; title: string; description: s
   {
     slug: "mathematics-studio",
     title: "Mathematics Studio",
-    description: "One performance engine across every maths test you take on GrowQR (GRE Quant mocks, the Mathematics Speed studio and more): topic-by-topic mastery, evidence-based weakness detection, interactive charts, a personalised practice plan and your full history. A free summary stays open to everyone.",
+    description: "One performance engine across every maths test you take on YugtyLearning (GRE Quant mocks, the Mathematics Speed studio and more): topic-by-topic mastery, evidence-based weakness detection, interactive charts, a personalised practice plan and your full history. A free summary stays open to everyone.",
     rupees: 599,
     onSale: true,
   },
@@ -119,7 +119,7 @@ export const STUDIO_COURSES: Array<{ slug: string; title: string; description: s
 ];
 
 /**
- * Services delivered by GrowQR staff, sold one at a time (sku `service-<key>`, kind `consulting`, so a purchase alerts staff, see lib/pay/fulfil.ts).
+ * Services delivered by YugtyLearning staff, sold one at a time (sku `service-<key>`, kind `consulting`, so a purchase alerts staff, see lib/pay/fulfil.ts).
  * Silver and Gold include some of them (lib/market/plan-services.ts); the fee here is what one costs on its own.
  */
 export const SERVICE_PRODUCTS: Array<{ key: string; title: string; description: string; rupees: number }> = [

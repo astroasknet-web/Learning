@@ -7,7 +7,7 @@ import {
 } from "@/lib/growqr-profile";
 
 /**
- * Resolves a pasted GrowQR profile link into the trimmed summary the
+ * Resolves a pasted YugtyLearning profile link into the trimmed summary the
  * internship form uses to prefill itself.
  *
  * Read-only over data the profile page already serves publicly, so there's no
@@ -23,7 +23,7 @@ export async function GET(req: NextRequest) {
 
   if (!id) {
     return NextResponse.json(
-      { error: "Enter your GrowQR profile link, for example https://app.growqr.ai/p/your-id" },
+      { error: "Enter your YugtyLearning profile link, for example https://app.growqr.ai/p/your-id" },
       { status: 400 }
     );
   }
@@ -32,14 +32,14 @@ export async function GET(req: NextRequest) {
 
   if (result.status === "not_found") {
     return NextResponse.json(
-      { error: "We couldn't find that GrowQR profile. Check the link and try again." },
+      { error: "We couldn't find that YugtyLearning profile. Check the link and try again." },
       { status: 404 }
     );
   }
 
   if (result.status === "unavailable") {
     return NextResponse.json(
-      { error: "Couldn't reach GrowQR just now. You can keep filling the form and continue." },
+      { error: "Couldn't reach YugtyLearning just now. You can keep filling the form and continue." },
       { status: 503 }
     );
   }

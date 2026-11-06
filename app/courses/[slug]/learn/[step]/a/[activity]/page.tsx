@@ -18,7 +18,7 @@ const clean = (s: string) => s.toLowerCase().replace(/[^a-z0-9-]/g, "");
 export async function generateMetadata({ params }: { params: Promise<{ slug: string; step: string; activity: string }> }): Promise<Metadata> {
   const p = await params;
   const a = findActivity(clean(p.slug), p.activity);
-  return { title: a ? `${a.title} | Practice | GrowQR` : "Activity not found | GrowQR", robots: { index: false, follow: true } };
+  return { title: a ? `${a.title} | Practice | YugtyLearning` : "Activity not found | YugtyLearning", robots: { index: false, follow: true } };
 }
 
 export default async function ActivityPage({ params }: { params: Promise<{ slug: string; step: string; activity: string }> }) {

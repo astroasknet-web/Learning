@@ -13,12 +13,12 @@ export default function Logo({
   return (
     <Link
       href="/"
-      aria-label="GrowQR"
+      aria-label="YugtyLearning"
       className={`inline-flex items-center ${className}`}
     >
       <Image
-        src="/growqr-logo.png"
-        alt="GrowQR — Agentic AI"
+        src="/yugtylearning-logo.svg"
+        alt="YugtyLearning — Agentic AI"
         width={width}
         height={height}
         priority

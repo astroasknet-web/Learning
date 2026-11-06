@@ -15,8 +15,8 @@ export function AuthShell({ title, subtitle, children, wide = false }: { title: 
       <div className={`w-full ${wide ? "max-w-[560px]" : "max-w-[420px]"} py-8 sm:py-10`}>
         <div className="bg-white rounded-2xl border border-black/[0.1] p-7 sm:p-10 shadow-card">
           <div className="text-center mb-7">
-            <Link href="/" aria-label="GrowQR home">
-              <Image src="/growqr-logo.png" alt="GrowQR" width={160} height={44} className="h-9 w-auto mx-auto mb-6" priority />
+            <Link href="/" aria-label="YugtyLearning home">
+              <Image src="/yugtylearning-logo.svg" alt="YugtyLearning" width={160} height={44} className="h-9 w-auto mx-auto mb-6" priority />
             </Link>
             <h1 className="text-[22px] font-bold text-ink tracking-tight leading-tight mb-1.5">{title}</h1>
             {subtitle ? <p className="text-[14px] text-ink-3">{subtitle}</p> : null}

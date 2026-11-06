@@ -24,9 +24,9 @@ async function load(params: P["params"]) {
 
 export async function generateMetadata({ params }: P): Promise<Metadata> {
   const { ex, ch, idx } = await load(params);
-  if (!ex || !ch || !idx) return { title: "Chapter not found | GrowQR", robots: { index: false, follow: true } };
-  const title = `${ch.title} (${ex.title} ${idx.subject_label}): Notes and Mock Tests | GrowQR`;
-  return { title: title.length > 70 ? `${ch.title}: ${ex.title} Notes | GrowQR` : title, description: ch.seo?.meta_description ?? ch.subtitle, alternates: { canonical: `/learn/${ex.slug}/${idx.subject}/${ch.slug}` } };
+  if (!ex || !ch || !idx) return { title: "Chapter not found | YugtyLearning", robots: { index: false, follow: true } };
+  const title = `${ch.title} (${ex.title} ${idx.subject_label}): Notes and Mock Tests | YugtyLearning`;
+  return { title: title.length > 70 ? `${ch.title}: ${ex.title} Notes | YugtyLearning` : title, description: ch.seo?.meta_description ?? ch.subtitle, alternates: { canonical: `/learn/${ex.slug}/${idx.subject}/${ch.slug}` } };
 }
 
 export default async function ChapterPage({ params }: P) {

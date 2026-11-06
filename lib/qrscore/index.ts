@@ -17,7 +17,7 @@ import type { RawScores } from "./scorers/types";
 import { normalize } from "./text";
 
 /**
- * GrowQR RQ (Resume Quality) Score engine, TypeScript port of the PHP engine (qrscore/src/QrScore.php).
+ * YugtyLearning RQ (Resume Quality) Score engine, TypeScript port of the PHP engine (qrscore/src/QrScore.php).
  *
  *   const result = scoreText(resumeText);
  *   if (isScored(result)) console.log(result.overall.score);   // 0-100

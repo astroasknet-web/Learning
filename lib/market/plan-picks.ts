@@ -4,10 +4,10 @@ import recs from "@/lib/qrscore/data/recommendations.json";
  * The courses a student may choose from their plan: the ones recommended after their resume scan. Pure, so it can be tested without a database.
  *
  *   1. The courses the scan recommended (section 1 of the stored result), in the order the scan gave them.
- *   2. If fewer than MIN_RECOMMENDED of those can be studied on GrowQR (lessons exist, `isNative`), the list is topped up so a student always has at least
+ *   2. If fewer than MIN_RECOMMENDED of those can be studied on YugtyLearning (lessons exist, `isNative`), the list is topped up so a student always has at least
  *      three to choose from: the courses recommended for the domain the scan detected, then the general ones, then a short fixed list of career-ready courses.
  *
- * Only a course taught on GrowQR can be studied, so only those are offered. The plan decides how many of them can be chosen (lib/market/plan-quota.ts).
+ * Only a course taught on YugtyLearning can be studied, so only those are offered. The plan decides how many of them can be chosen (lib/market/plan-quota.ts).
  */
 export const MIN_RECOMMENDED = 3;
 export const MAX_RECOMMENDED = 6;

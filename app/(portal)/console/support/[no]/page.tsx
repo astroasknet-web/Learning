@@ -8,7 +8,7 @@ import { Flash, PriorityBadge, StatusBadge, Thread, when } from "@/components/su
 import { adminGate } from "../../gate";
 import { assignStaffAction, priorityStaffAction, replyStaffAction, statusStaffAction } from "../actions";
 
-export const metadata: Metadata = { title: "Support ticket | GrowQR admin", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Support ticket | YugtyLearning admin", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 export default async function StaffTicket({ params, searchParams }: { params: Promise<{ no: string }>; searchParams: Promise<Record<string, string | undefined>> }) {

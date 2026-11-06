@@ -53,7 +53,7 @@ function seedList(): SeedProduct[] {
     out.push({ sku: `plan-${p.key}-yearly`, kind: "plan", title: `${p.name} plan, 1 year`, description: p.tagline, fulfilRef: p.key, accessDays: 365, inrMinor: p.yearly * 100 });
   }
   out.push({ sku: "resume-studio-pro", kind: "resume", title: "Resume Studio Pro", description: "All templates and no waiting between saves.", fulfilRef: "studio_pro", accessDays: null, inrMinor: RESUME_STUDIO_PRO_RUPEES * 100 });
-  // One product per catalogue course, priced by its category. A course is on sale only when its lessons exist on GrowQR (the others stay
+  // One product per catalogue course, priced by its category. A course is on sale only when its lessons exist on YugtyLearning (the others stay
   // off sale, with their price saved, until the lessons are added and someone turns them on in the console).
   const cats = (catalogue as unknown as { categories: Record<string, { name: string }> }).categories;
   for (const c of (catalogue as unknown as { courses: Array<{ slug: string; title: string; cat: string; brief: string }> }).courses) {

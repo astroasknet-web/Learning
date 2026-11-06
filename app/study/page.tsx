@@ -4,7 +4,7 @@ import { MarketShell } from "@/components/market/shell";
 import { allStudy, chapterCount } from "@/lib/lms/study";
 
 export const metadata: Metadata = {
-  title: "Study Courses: CAT, SAT, GRE, SSC CGL, CTET | GrowQR",
+  title: "Study Courses: CAT, SAT, GRE, SSC CGL, CTET | YugtyLearning",
   description: "Chapter-by-chapter courses for CAT Quant, SAT Math, GRE Quant, SSC CGL and CTET, with formulas, shortcuts, solved examples, practice problems and flashcards.",
   alternates: { canonical: "/study" },
 };

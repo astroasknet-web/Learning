@@ -16,8 +16,8 @@ export const dynamic = "force-dynamic";
 
 export async function generateMetadata({ params }: P): Promise<Metadata> {
   const m = vmodule(clean((await params).module));
-  if (!m) return { title: "Module not found | GrowQR", robots: { index: false, follow: true } };
-  return { title: `${m.title}: Vedic Mathematics Module ${m.num} | GrowQR`, description: `Vedic Mathematics Module ${m.num}: ${m.title}. ${m.topics.join(", ")}.`.slice(0, 160), alternates: { canonical: `/vedic-math/${m.slug}` } };
+  if (!m) return { title: "Module not found | YugtyLearning", robots: { index: false, follow: true } };
+  return { title: `${m.title}: Vedic Mathematics Module ${m.num} | YugtyLearning`, description: `Vedic Mathematics Module ${m.num}: ${m.title}. ${m.topics.join(", ")}.`.slice(0, 160), alternates: { canonical: `/vedic-math/${m.slug}` } };
 }
 
 export default async function VedicModule({ params, searchParams }: P) {

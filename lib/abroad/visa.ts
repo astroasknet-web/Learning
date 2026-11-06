@@ -7,7 +7,7 @@ import * as vault from "./vault";
 
 /**
  * Visa case tracker (port of Portal\Visa): one case per application the student has been offered or has accepted. The student enters the
- * appointment themselves (GrowQR does not book embassy slots); we give reminders, a calendar file and a readiness check.
+ * appointment themselves (YugtyLearning does not book embassy slots); we give reminders, a calendar file and a readiness check.
  */
 export const STAGES: Record<string, string> = {
   preparing: "Preparing documents", booked: "Appointment booked", attended: "Appointment attended", pending: "Decision pending", approved: "Visa approved", refused: "Visa refused",
@@ -108,7 +108,7 @@ export function ics(c: Pick<Case, "id" | "uni_name" | "centre" | "appointment_at
   const f = (d: Date) => d.toISOString().slice(0, 19).replace(/[-:]/g, "");
   const esc = (s: string) => s.replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\n/g, "\\n");
   const lines = [
-    "BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//GrowQR//Visa//EN", "CALSCALE:GREGORIAN", "BEGIN:VEVENT",
+    "BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//YugtyLearning//Visa//EN", "CALSCALE:GREGORIAN", "BEGIN:VEVENT",
     `UID:visa-${Number(c.id)}@growqr`,
     "DTSTAMP:" + stamp.toISOString().slice(0, 19).replace(/[-:]/g, "") + "Z",
     "DTSTART:" + f(start),

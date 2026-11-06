@@ -1,5 +1,5 @@
 {
-  "_comment": "Recommendation engine data for GrowQR RQ Score, wired to the real GrowQR course catalog (/courses/). Course URL = base_url + course_path + slug. 'resume_rules' map education-section weaknesses to career-readiness courses; 'domains' map the candidate's detected field to upskilling courses; 'catalog' is the editable list of all 116 courses.",
+  "_comment": "Recommendation engine data for YugtyLearning RQ Score, wired to the real YugtyLearning course catalog (/courses/). Course URL = base_url + course_path + slug. 'resume_rules' map education-section weaknesses to career-readiness courses; 'domains' map the candidate's detected field to upskilling courses; 'catalog' is the editable list of all 116 courses.",
   "base_url": "/",
   "course_path": "/courses/",
   "max_total": 6,
@@ -39,7 +39,7 @@
 
   "domain_recommendation": {
     "max": 3,
-    "reason_template": "Based on your %DOMAIN% background, this GrowQR course builds job-ready, in-demand skills that strengthen your profile."
+    "reason_template": "Based on your %DOMAIN% background, this YugtyLearning course builds job-ready, in-demand skills that strengthen your profile."
   },
 
   "domains": {

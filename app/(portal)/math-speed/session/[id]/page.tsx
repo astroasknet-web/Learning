@@ -7,7 +7,7 @@ import { enrolledStudent } from "@/lib/mathspeed/page";
 import { questionsOf, type Plan } from "@/lib/mathspeed/plan";
 import { getSession } from "@/lib/mathspeed/store";
 
-export const metadata: Metadata = { title: "Practice | Mathematics Speed Enhancement Studio | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Practice | Mathematics Speed Enhancement Studio | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 /** Practice modes show right and wrong at once; assessments keep the answers back until the round is handed in. */

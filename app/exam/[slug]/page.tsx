@@ -15,9 +15,9 @@ export function generateStaticParams() { return EXAM_SLUGS.map((slug) => ({ slug
 
 export async function generateMetadata({ params }: P): Promise<Metadata> {
   const d = loadExam(clean((await params).slug));
-  if (!d) return { title: "Exam not found | GrowQR", robots: { index: false, follow: true } };
+  if (!d) return { title: "Exam not found | YugtyLearning", robots: { index: false, follow: true } };
   const m = d.raw.meta;
-  return { title: `${m.name} Mock Test: Syllabus, Pattern and Online Test | GrowQR`, description: `${m.fullName}: exam pattern, syllabus, strategy and a full-length mock test with worked explanations. ${m.tagline}`.slice(0, 160), alternates: { canonical: `/exam/${d.slug}` } };
+  return { title: `${m.name} Mock Test: Syllabus, Pattern and Online Test | YugtyLearning`, description: `${m.fullName}: exam pattern, syllabus, strategy and a full-length mock test with worked explanations. ${m.tagline}`.slice(0, 160), alternates: { canonical: `/exam/${d.slug}` } };
 }
 
 export default async function ExamOverview({ params }: P) {

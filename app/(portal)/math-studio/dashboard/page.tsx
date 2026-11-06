@@ -10,7 +10,7 @@ import { FREE_FEATURES, PREMIUM_FEATURES, feeNow } from "@/lib/mathstudio/access
 import { PRIORITY_LABEL } from "@/lib/mathstudio/recommend";
 import { studyMinutesAction } from "../actions";
 
-export const metadata: Metadata = { title: "My Mathematics Studio | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "My Mathematics Studio | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 export default async function MathStudio() {
@@ -18,7 +18,7 @@ export default async function MathStudio() {
   const [v, fee, minutes] = await Promise.all([buildStudio(me.id), feeNow().catch(() => null), getStudyMinutes(me.id)]);
   const t = v.tiles;
   return (
-    <PortalPage user={me} active="math-studio" title="Mathematics Studio" subtitle="One performance engine across every maths test you take on GrowQR." wide="full">
+    <PortalPage user={me} active="math-studio" title="Mathematics Studio" subtitle="One performance engine across every maths test you take on YugtyLearning." wide="full">
       <Crumbs items={[{ label: "Mathematics Studio" }]} />
 
       {!v.hasData ? (

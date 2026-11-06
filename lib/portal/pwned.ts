@@ -24,7 +24,7 @@ export async function pwnedCount(pw: string): Promise<number> {
   if (process.env.PORTAL_PWNED_CHECK === "off") return 0;
   const { prefix, suffix } = sha1Parts(pw);
   try {
-    const res = await fetch(`https://api.pwnedpasswords.com/range/${prefix}`, { headers: { "Add-Padding": "true", "User-Agent": "GrowQR-signup" }, signal: AbortSignal.timeout(2500), cache: "no-store" });
+    const res = await fetch(`https://api.pwnedpasswords.com/range/${prefix}`, { headers: { "Add-Padding": "true", "User-Agent": "YugtyLearning-signup" }, signal: AbortSignal.timeout(2500), cache: "no-store" });
     if (!res.ok) return 0;
     return countInRange(await res.text(), suffix);
   } catch {

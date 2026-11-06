@@ -7,7 +7,7 @@ import * as totp from "@/lib/portal/totp";
 import { Alert, AuthShell, LinkText } from "@/components/portal/ui";
 import { MfaDisableForm, MfaEnableForm } from "@/components/portal/forms";
 
-export const metadata: Metadata = { title: "Two-step verification | GrowQR" };
+export const metadata: Metadata = { title: "Two-step verification | YugtyLearning" };
 export const dynamic = "force-dynamic";
 
 export default async function MfaPage({ searchParams }: { searchParams: Promise<Record<string, string | undefined>> }) {

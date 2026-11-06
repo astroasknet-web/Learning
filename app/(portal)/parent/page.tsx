@@ -6,7 +6,7 @@ import { Card, PortalPage } from "@/components/portal/shell";
 import { Alert } from "@/components/portal/ui";
 import { linkChildAction, unlinkChildAction } from "./actions";
 
-export const metadata: Metadata = { title: "My children | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "My children | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 export default async function ParentHome({ searchParams }: { searchParams: Promise<Record<string, string | undefined>> }) {
@@ -19,7 +19,7 @@ export default async function ParentHome({ searchParams }: { searchParams: Promi
       {sp.ok === "linked" ? <Alert kind="success">Child added.</Alert> : null}
       {sp.ok === "unlinked" ? <Alert kind="success">You no longer follow that child.</Alert> : null}
       <Card title="Add a child">
-        <p className="text-[14px] text-ink-3 mb-3">Ask your child to open <b>My classes</b> in their GrowQR account and read you their learner code.</p>
+        <p className="text-[14px] text-ink-3 mb-3">Ask your child to open <b>My classes</b> in their YugtyLearning account and read you their learner code.</p>
         <form action={linkChildAction} className="flex flex-wrap items-end gap-3">
           <div><label htmlFor="code" className="block text-[14px] font-medium text-ink mb-1">Learner code</label>
             <input id="code" name="code" required minLength={8} maxLength={10} autoComplete="off" autoCapitalize="characters" spellCheck={false} className="min-h-[44px] px-3 rounded-lg border border-black/[0.2] bg-white text-[15px] w-44 font-mono uppercase tracking-widest" /></div>

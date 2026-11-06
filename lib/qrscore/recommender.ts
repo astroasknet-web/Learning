@@ -3,7 +3,7 @@ import type { Career, Domain } from "./career-stage";
 import type { RawScores } from "./scorers/types";
 
 /**
- * Turns scores into GrowQR course recommendations (port of Score\Recommender). Two layers, both from the editable
+ * Turns scores into YugtyLearning course recommendations (port of Score\Recommender). Two layers, both from the editable
  * recommendations.json: weakness-driven career-readiness courses, then upskilling courses for the detected domain.
  * Deduplicated by course slug and capped at max_total.
  */

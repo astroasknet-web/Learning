@@ -1,5 +1,5 @@
 /**
- * GrowQR public-profile reader.
+ * YugtyLearning public-profile reader.
  *
  * Two sources, tried in order:
  *
@@ -106,7 +106,7 @@ export type GrowqrCertificationEntry = {
 
 /**
  * Accepts a full profile URL or a bare profile UUID and returns the UUID.
- * Returns null for anything that isn't a GrowQR profile reference, including
+ * Returns null for anything that isn't a YugtyLearning profile reference, including
  * links to other hosts (so a candidate can't pass off some other site's URL).
  */
 export function parseGrowqrProfileId(input: string): string | null {
@@ -241,7 +241,7 @@ async function fetchFromUserApi(id: string): Promise<FetchProfileResult> {
   try {
     res = await fetch(`${USER_API_BASE}/users/public/${id}`, {
       headers: {
-        "user-agent": "GrowQR-Careers/1.0 (+https://www.growqr.ai)",
+        "user-agent": "YugtyLearning-Careers/1.0 (+https://www.growqr.ai)",
         accept: "application/json",
       },
       cache: "no-store",
@@ -283,7 +283,7 @@ async function fetchFromProfilePage(id: string): Promise<FetchProfileResult> {
     res = await fetch(growqrProfileUrl(id), {
       headers: {
         // Without a browser-ish UA some edge layers serve a challenge page.
-        "user-agent": "GrowQR-Careers/1.0 (+https://www.growqr.ai)",
+        "user-agent": "YugtyLearning-Careers/1.0 (+https://www.growqr.ai)",
         accept: "text/html",
       },
       cache: "no-store",

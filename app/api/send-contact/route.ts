@@ -11,7 +11,7 @@ import { SITE_URL } from "@/lib/seo";
 import { currentUser } from "@/lib/portal/guard";
 import { humanCheck } from "@/lib/portal/captcha";
 
-const FROM_EMAIL = "GrowQR | Support <hello@growqr.ai>";
+const FROM_EMAIL = "YugtyLearning | Support <hello@growqr.ai>";
 const TEAM_EMAIL = "support@growqr.ai";
 
 const log = createLogger("send-contact");
@@ -34,7 +34,7 @@ function buildTeamNotificationEmail(data: {
                 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
                   <tr>
                     <td class="hero mobile-pad" style="padding: 28px;">
-                      <div style="color: #ffffff; font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 10px;">GrowQR Contact</div>
+                      <div style="color: #ffffff; font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 10px;">YugtyLearning Contact</div>
                       <h1 class="hero-title" style="margin: 0; color: #ffffff; font-size: 26px; line-height: 1.2;">New contact form submission</h1>
                     </td>
                   </tr>
@@ -73,7 +73,7 @@ function buildTeamNotificationEmail(data: {
             </tr>
             <tr>
               <td align="center" style="padding: 12px 8px 0 8px;">
-                <p class="text-muted" style="margin: 0; font-size: 12px;">This notification was generated from the GrowQR contact form.</p>
+                <p class="text-muted" style="margin: 0; font-size: 12px;">This notification was generated from the YugtyLearning contact form.</p>
               </td>
             </tr>
           </table>
@@ -117,14 +117,14 @@ function buildUserConfirmationEmail(data: {
                 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
                   <tr>
                     <td align="left">
-                      <a class="cta" href="${SITE_URL}">Visit GrowQR</a>
+                      <a class="cta" href="${SITE_URL}">Visit YugtyLearning</a>
                     </td>
                   </tr>
                 </table>
 
                 <div class="divider" style="margin: 20px 0 0 0; padding-top: 16px;">
                   <p class="text-muted" style="margin: 0; font-size: 12px; line-height: 1.6;">
-                    GrowQR Support Team<br />
+                    YugtyLearning Support Team<br />
                     support@growqr.ai
                   </p>
                 </div>
@@ -162,7 +162,7 @@ function buildEmails(data: ContactSubmission): Array<Promise<unknown>> {
     resend.emails.send({
       from: FROM_EMAIL,
       to: data.email,
-      subject: `We received your message - GrowQR`,
+      subject: `We received your message - YugtyLearning`,
       html: buildUserConfirmationEmail({ name: safeName, subjectLine }),
     }),
   ];

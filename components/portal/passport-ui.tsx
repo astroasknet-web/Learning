@@ -49,7 +49,7 @@ export function PublishForm({ styles, current }: { styles: Record<string, string
         <label className="flex items-center gap-3 min-h-[44px] text-[15px] text-ink-2"><input type="checkbox" name="show_courses" defaultChecked={current.show_courses} className="w-5 h-5 accent-orange" /> My completed courses</label>
         <label className="flex items-center gap-3 min-h-[44px] text-[15px] text-ink-2"><input type="checkbox" name="show_college" defaultChecked={current.show_college} className="w-5 h-5 accent-orange" /> My college</label>
       </fieldset>
-      <p className="text-[13px] text-ink-3 mb-4">Your email, phone number and resume text are never shown. The passport is signed by GrowQR, so nobody can change what it says. You can withdraw it at any time.</p>
+      <p className="text-[13px] text-ink-3 mb-4">Your email, phone number and resume text are never shown. The passport is signed by YugtyLearning, so nobody can change what it says. You can withdraw it at any time.</p>
       <SubmitButton pendingText="Publishing...">{current.is_public ? "Update my public passport" : "Publish my passport"}</SubmitButton>
     </form>
   );
@@ -104,10 +104,10 @@ export function ClientCheck({ jwt, jwksUrl }: { jwt: string; jwksUrl: string }) 
         const kid = String(header.kid ?? "").split("#").pop();
         const set = (await (await fetch(jwksUrl, { credentials: "omit" })).json()) as { keys?: Array<{ kid: string; kty: string; crv: string; x: string }> };
         const jwk = (set.keys ?? []).find((k) => k.kid === kid);
-        if (!jwk) return void (!cancelled && setState({ ok: false, text: `The signing key ${kid} is not in GrowQR’s published key list.` }));
+        if (!jwk) return void (!cancelled && setState({ ok: false, text: `The signing key ${kid} is not in YugtyLearning’s published key list.` }));
         const key = await crypto.subtle.importKey("jwk", { kty: jwk.kty, crv: jwk.crv, x: jwk.x }, { name: "Ed25519" }, false, ["verify"]);
         const ok = await crypto.subtle.verify({ name: "Ed25519" }, key, b64u(parts[2]), new TextEncoder().encode(parts[0] + "." + parts[1]));
-        if (!cancelled) setState({ ok, text: ok ? "Double-checked on your own device: the signature matches GrowQR’s published public key." : "Your device found that the signature does NOT match. Do not rely on this passport." });
+        if (!cancelled) setState({ ok, text: ok ? "Double-checked on your own device: the signature matches YugtyLearning’s published public key." : "Your device found that the signature does NOT match. Do not rely on this passport." });
       } catch {
         /* browsers without Ed25519: the server-side check shown above still applies */
       }

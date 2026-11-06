@@ -6,7 +6,7 @@ export function testJsonLd(o: { exam: string; examLabel: string; n: number; name
   return {
     "@context": "https://schema.org",
     "@graph": [
-      { "@type": "LearningResource", name: o.name, url, inLanguage: "en", learningResourceType: "Practice test", timeRequired: `PT${o.minutes}M`, numberOfQuestions: o.questions, educationalUse: "assessment", isAccessibleForFree: true, provider: { "@type": "Organization", name: "GrowQR", url: SITE_URL } },
+      { "@type": "LearningResource", name: o.name, url, inLanguage: "en", learningResourceType: "Practice test", timeRequired: `PT${o.minutes}M`, numberOfQuestions: o.questions, educationalUse: "assessment", isAccessibleForFree: true, provider: { "@type": "Organization", name: "YugtyLearning", url: SITE_URL } },
       { "@type": "BreadcrumbList", itemListElement: [
         { "@type": "ListItem", position: 1, name: "Practice tests", item: `${SITE_URL}/practice-tests` },
         { "@type": "ListItem", position: 2, name: o.examLabel, item: `${SITE_URL}/practice-tests/${o.exam}` },

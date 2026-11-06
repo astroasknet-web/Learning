@@ -148,7 +148,7 @@ function SeekerWaitlistModal({
           className="fixed inset-0 z-[120] flex items-center justify-center overflow-y-auto bg-ink/70 p-4 backdrop-blur-sm sm:p-6"
           role="dialog"
           aria-modal="true"
-          aria-label="Join the GrowQR waitlist"
+          aria-label="Join the YugtyLearning waitlist"
         >
           <motion.div
             initial={reduce ? undefined : { opacity: 0, scale: 0.97, y: 12 }}

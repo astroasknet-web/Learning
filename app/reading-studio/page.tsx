@@ -8,13 +8,13 @@ import { SITE_URL } from "@/lib/seo";
 
 export const dynamic = "force-dynamic";
 
-const TITLE = "English Reading Studio: Reading Skills, Indian Competitive Exams and IELTS in One Place | GrowQR";
+const TITLE = "English Reading Studio: Reading Skills, Indian Competitive Exams and IELTS in One Place | YugtyLearning";
 const DESC = "One reading studio with one set of analytics. Build reading skills through ten levels, practise essay tests for SSC, CDS, CAT, UPSC and CTET, or sit IELTS Reading tests. Choose what you need; the starting assessment is free.";
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE_URL}/reading-studio` },
-  openGraph: { type: "website", url: `${SITE_URL}/reading-studio`, siteName: "GrowQR", title: TITLE, description: DESC },
+  openGraph: { type: "website", url: `${SITE_URL}/reading-studio`, siteName: "YugtyLearning", title: TITLE, description: DESC },
   twitter: { card: "summary_large_image", title: TITLE, description: DESC },
 };
 
@@ -41,7 +41,7 @@ export default async function ReadingStudioHub() {
   const fees = databaseConfigured() ? await Promise.all(TRACKS.map((t) => feeNow(t.id).catch(() => null))) : TRACKS.map(() => null);
   const price = (i: number) => (fees[i] ? `₹${(fees[i]!.amountMinor / 100).toLocaleString("en-IN")}` : null);
   const cta = student ? { href: "/reading-studio/dashboard", label: "Open my dashboard" } : { href: `/login?next=${encodeURIComponent("/reading-studio/dashboard")}`, label: "Start free: take the starting assessment" };
-  const jsonld = { "@context": "https://schema.org", "@type": "Course", name: "English Reading Studio", description: DESC, url: `${SITE_URL}/reading-studio`, provider: { "@type": "Organization", name: "GrowQR", url: SITE_URL }, inLanguage: "en" };
+  const jsonld = { "@context": "https://schema.org", "@type": "Course", name: "English Reading Studio", description: DESC, url: `${SITE_URL}/reading-studio`, provider: { "@type": "Organization", name: "YugtyLearning", url: SITE_URL }, inLanguage: "en" };
   const faqLd = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: FAQ.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) };
   return (
     <MarketShell user={me} active="courses">

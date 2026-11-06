@@ -8,7 +8,7 @@ import { enrolledStudent } from "@/lib/mathspeed/page";
 import { achievementsOf, benchmarks, recentSessions } from "@/lib/mathspeed/store";
 import { skill } from "@/lib/mathspeed/skills";
 
-export const metadata: Metadata = { title: "My skills and progress | Mathematics Speed Enhancement Studio | GrowQR" };
+export const metadata: Metadata = { title: "My skills and progress | Mathematics Speed Enhancement Studio | YugtyLearning" };
 export const dynamic = "force-dynamic";
 
 const day = (s: string): string => s.slice(0, 10);

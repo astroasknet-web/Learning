@@ -5,7 +5,7 @@ import { Card, Crumbs, Locked, btnLight, sourceLabel, when } from "@/components/
 import { studentPage } from "@/lib/mathstudio/page";
 import { buildHistory } from "@/lib/mathstudio/views";
 
-export const metadata: Metadata = { title: "History | Mathematics Studio | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "History | Mathematics Studio | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 export default async function History() {

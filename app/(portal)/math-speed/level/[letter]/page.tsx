@@ -14,7 +14,7 @@ export const dynamic = "force-dynamic";
 
 export async function generateMetadata({ params }: { params: Promise<{ letter: string }> }): Promise<Metadata> {
   const lv = level(levelNumber((await params).letter));
-  return { title: lv ? `Level ${lv.letter}: ${lv.title} | Mathematics Speed Enhancement Studio | GrowQR` : "Level | GrowQR" };
+  return { title: lv ? `Level ${lv.letter}: ${lv.title} | Mathematics Speed Enhancement Studio | YugtyLearning` : "Level | YugtyLearning" };
 }
 
 export default async function LevelPage({ params, searchParams }: { params: Promise<{ letter: string }>; searchParams: Promise<Record<string, string | undefined>> }) {

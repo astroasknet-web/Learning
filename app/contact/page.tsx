@@ -6,12 +6,12 @@ import { captchaMode, turnstileSiteKey } from "@/lib/portal/captcha";
 import { canonicalUrl, OG_IMAGE } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Contact Us | GrowQR",
-  description: "Contact GrowQR for enterprise, partnership, or support enquiries.",
+  title: "Contact Us | YugtyLearning",
+  description: "Contact YugtyLearning for enterprise, partnership, or support enquiries.",
   alternates: { canonical: canonicalUrl("/contact") },
   openGraph: {
-    title: "Contact Us | GrowQR",
-    description: "Contact GrowQR for enterprise, partnership, or support enquiries.",
+    title: "Contact Us | YugtyLearning",
+    description: "Contact YugtyLearning for enterprise, partnership, or support enquiries.",
     url: canonicalUrl("/contact"),
     images: [OG_IMAGE],
   },

@@ -31,7 +31,7 @@ export function Thread({ messages, you }: { messages: Message[]; you: "person" |
         const tone = m.isInternal ? "border-dashed border-amber-400 bg-amber-50" : m.isStaff ? "border-orange/30 bg-orange-lighter" : "border-black/[0.08] bg-white";
         return (
           <li key={m.id} className={`rounded-2xl border p-4 ${tone} ${mine ? "sm:ml-10" : "sm:mr-10"}`}>
-            <p className="mb-1 text-[12.5px] text-ink-3"><b className="text-ink">{m.isInternal ? "Internal note" : m.isStaff ? `${m.authorName} (GrowQR support)` : m.authorName}</b> · {when(m.createdAt)}</p>
+            <p className="mb-1 text-[12.5px] text-ink-3"><b className="text-ink">{m.isInternal ? "Internal note" : m.isStaff ? `${m.authorName} (YugtyLearning support)` : m.authorName}</b> · {when(m.createdAt)}</p>
             <p className="whitespace-pre-wrap break-words text-[15px] leading-relaxed text-ink-2">{m.body}</p>
           </li>
         );

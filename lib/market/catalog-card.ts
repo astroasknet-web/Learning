@@ -13,7 +13,7 @@ export interface CardCourse {
   modules: number;
   /** Paise, only while the course can be bought; null otherwise (a course that is not for sale shows no price). */
   price_minor: number | null;
-  /** Lessons are on GrowQR now. */
+  /** Lessons are on YugtyLearning now. */
   here: boolean;
   /** A drawn thumbnail exists for this course (public/course-thumbs). */
   thumb: boolean;

@@ -4,7 +4,7 @@ import { MarketShell } from "@/components/market/shell";
 import { CLASSES, classNumber, subjectsOfClass } from "@/lib/lms/school";
 
 export const metadata: Metadata = {
-  title: "Free School Lessons and Tests, Class 1 to 12 | GrowQR",
+  title: "Free School Lessons and Tests, Class 1 to 12 | YugtyLearning",
   description: "Free lessons, worked examples, quizzes and chapter tests for Class 1 to 12: Mathematics, Science, Physics, Chemistry, Biology, English, Accountancy, and Economics.",
   alternates: { canonical: "/school" },
 };

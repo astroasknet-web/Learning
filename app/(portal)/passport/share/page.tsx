@@ -10,7 +10,7 @@ import { CopyField, PublishForm } from "@/components/portal/passport-ui";
 import { Alert } from "@/components/portal/ui";
 import { withdrawPassportAction } from "../actions";
 
-export const metadata: Metadata = { title: "Share my passport | GrowQR" };
+export const metadata: Metadata = { title: "Share my passport | YugtyLearning" };
 export const dynamic = "force-dynamic";
 
 export default async function SharePage({ searchParams }: { searchParams: Promise<Record<string, string | undefined>> }) {

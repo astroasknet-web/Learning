@@ -233,7 +233,7 @@ export async function TabBody({ tab, an, label, reissued }: { tab: string; an: A
           <Kpi label="People who clicked" value={num(t.clickers)} note="counted once per day" />
           <Kpi label="Clicks per 100 visitors" value={t.visitors > 0 ? num((t.clicks / t.visitors) * 100, 1) : "n/a"} note="e-book interest" />
           <Kpi label="From signed-in users" value={pct(d.signed_in, t.clicks)} note={`${num(d.signed_in)} clicks`} />
-          <Kpi label="Visits back from MathStudy" value={num(d.back)} note="needs a GrowQR link on mathstudy.in" />
+          <Kpi label="Visits back from MathStudy" value={num(d.back)} note="needs a YugtyLearning link on mathstudy.in" />
           <Kpi label="All-time clicks" value={num(d.total_clicks)} note={t.tracking_since ? `since ${shortDate(t.tracking_since, true)}` : "tracking starts now"} />
         </KpiGrid>
         <Grid>
@@ -242,7 +242,7 @@ export async function TabBody({ tab, an, label, reissued }: { tab: string; an: A
           <Card title="Where they went"><HBars title="Clicks by MathStudy page" rows={d.dest.map((r): [string, number] => [destLabel(s(r.label)), i(r.n)])} /></Card>
           <Card title="Devices"><Donut parts={named(d.device, up)} title="Clicks by device" /></Card>
           <Card title="Sales happen on MathStudy.in" wide>
-            <p className="text-[14px] text-ink-2 mb-3">GrowQR can count who clicked. Purchases and revenue are recorded on MathStudy.in itself. Every link carries <code>utm_source=growqr</code> and the placement name, so MathStudy&rsquo;s own analytics can attribute orders to GrowQR.</p>
+            <p className="text-[14px] text-ink-2 mb-3">YugtyLearning can count who clicked. Purchases and revenue are recorded on MathStudy.in itself. Every link carries <code>utm_source=growqr</code> and the placement name, so MathStudy&rsquo;s own analytics can attribute orders to YugtyLearning.</p>
             <p className="flex gap-3"><a className="min-h-[44px] inline-flex items-center px-4 rounded-lg bg-ink text-white text-[14px] font-semibold" href="https://mathstudy.in/admin/analytics" target="_blank" rel="noopener noreferrer">MathStudy sales dashboard</a>
               <a className="min-h-[44px] inline-flex items-center px-4 rounded-lg border border-black/[0.15] text-[14px]" href="https://mathstudy.in/shop" target="_blank" rel="noopener noreferrer">Shop</a></p>
           </Card>

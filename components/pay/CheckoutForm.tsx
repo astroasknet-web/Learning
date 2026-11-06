@@ -233,7 +233,7 @@ export default function CheckoutForm({ items, initialCoupon, initialCountry, cou
             {busy ? <><Loader2 className="h-4 w-4 animate-spin" aria-hidden /> {phase === "pricing" ? "Updating price" : phase === "razorpay" ? "Waiting for the payment window" : phase === "redirecting" ? "Taking you to the secure payment page" : "Starting your payment"}</> : <><Lock className="h-4 w-4" aria-hidden /> {quote ? `Pay ${total}` : "Pay"}</>}
           </button>
         )}
-        <p className="mt-4 flex items-start gap-2 text-[0.8rem] leading-snug text-ink-4"><ShieldCheck className="mt-0.5 h-4 w-4 shrink-0" aria-hidden /> You pay on {quote?.providers.length ? quote.providers.map((p) => (p === "razorpay" ? "Razorpay" : "Stripe")).join(" or ") : "the payment provider"}&rsquo;s secure page or window. Card, UPI and bank details never reach GrowQR.</p>
+        <p className="mt-4 flex items-start gap-2 text-[0.8rem] leading-snug text-ink-4"><ShieldCheck className="mt-0.5 h-4 w-4 shrink-0" aria-hidden /> You pay on {quote?.providers.length ? quote.providers.map((p) => (p === "razorpay" ? "Razorpay" : "Stripe")).join(" or ") : "the payment provider"}&rsquo;s secure page or window. Card, UPI and bank details never reach YugtyLearning.</p>
       </form>
 
       <aside aria-labelledby="co-summary" className="h-fit rounded-3xl border border-black/10 bg-white p-6 shadow-sm sm:p-8 lg:sticky lg:top-32">

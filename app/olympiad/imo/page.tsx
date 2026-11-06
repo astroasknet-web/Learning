@@ -6,7 +6,7 @@ import ImoThumb from "@/components/lms/ImoThumb";
 import { imoFeeRupees } from "@/lib/pay/course-fees";
 
 export const metadata: Metadata = {
-  title: "Maths Olympiad (IMO) Preparation, Class 1 to 12 | GrowQR",
+  title: "Maths Olympiad (IMO) Preparation, Class 1 to 12 | YugtyLearning",
   description: "IMO preparation for every class, bought one class at a time: chapter lessons, chapter tests and full-syllabus mock tests across Logical Reasoning, Mathematical Reasoning, Everyday Mathematics and the Achievers Section.",
   alternates: { canonical: "/olympiad/imo" },
 };

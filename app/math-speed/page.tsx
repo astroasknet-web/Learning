@@ -12,13 +12,13 @@ import { SITE_URL } from "@/lib/seo";
 
 export const dynamic = "force-dynamic";
 
-const TITLE = "Mathematics Speed Enhancement Studio: 15 Levels | GrowQR";
+const TITLE = "Mathematics Speed Enhancement Studio: 15 Levels | YugtyLearning";
 const DESC = "Get faster and more accurate at calculation. One course in 15 levels, with a placement check, timed practice and spaced review. Level A, Module 1 is free.";
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE_URL}/math-speed` },
-  openGraph: { type: "website", url: `${SITE_URL}/math-speed`, siteName: "GrowQR", title: TITLE, description: DESC },
+  openGraph: { type: "website", url: `${SITE_URL}/math-speed`, siteName: "YugtyLearning", title: TITLE, description: DESC },
   twitter: { card: "summary_large_image", title: TITLE, description: DESC },
 };
 
@@ -55,7 +55,7 @@ export default async function MathSpeedLanding() {
     name: COURSE_TITLE,
     description: DESC,
     url: `${SITE_URL}/math-speed`,
-    provider: { "@type": "Organization", name: "GrowQR", url: SITE_URL },
+    provider: { "@type": "Organization", name: "YugtyLearning", url: SITE_URL },
     educationalLevel: "Beginner to advanced",
     inLanguage: "en",
     hasCourseInstance: { "@type": "CourseInstance", courseMode: "online", courseWorkload: "PT10M per day" },

@@ -3,7 +3,7 @@ import { createLogger } from "../log";
 
 /**
  * Internships from public job feeds (Adzuna, India), shown below the native listings as "More internships from the web".
- * They are stored apart from `internships` and are link-out only: no GrowQR application, no verified stipend, no match score.
+ * They are stored apart from `internships` and are link-out only: no YugtyLearning application, no verified stipend, no match score.
  *
  * Environment: ADZUNA_APP_ID, ADZUNA_APP_KEY (server only; never logged and never sent to the browser).
  */

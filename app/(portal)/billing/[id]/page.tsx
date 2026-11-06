@@ -8,7 +8,7 @@ import { databaseConfigured } from "@/lib/portal/db";
 import { pool } from "@/lib/pay/db";
 import { loadOrder, PayError } from "@/lib/pay/orders";
 
-export const metadata: Metadata = { title: "Order | GrowQR" };
+export const metadata: Metadata = { title: "Order | YugtyLearning" };
 export const dynamic = "force-dynamic";
 
 export default async function BillingOrderPage({ params }: { params: Promise<{ id: string }> }) {

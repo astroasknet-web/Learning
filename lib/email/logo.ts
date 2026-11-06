@@ -1,7 +1,7 @@
 import { SITE_URL } from "@/lib/seo";
 
 /**
- * The GrowQR wordmark as the hosted asset every email points at.
+ * The YugtyLearning wordmark as the hosted asset every email points at.
  *
  * Emails used to draw the mark as styled text ("Grow[Q]R" set in Georgia).
  * That cost nothing to render but it was not the logo: no scanner motif, no
@@ -22,5 +22,5 @@ export const EMAIL_LOGO_URL = `${SITE_URL}/emailogo.png`;
 export function emailLogo(opts: { width?: number; align?: "left" | "center" } = {}): string {
   const { width = 132, align = "left" } = opts;
   const height = Math.round(width / 2);
-  return `<a href="${SITE_URL}" target="_blank" style="text-decoration:none;border:0;"><img src="${EMAIL_LOGO_URL}" width="${width}" height="${height}" alt="GrowQR" style="display:${align === "center" ? "inline-block" : "block"};border:0;outline:none;text-decoration:none;width:${width}px;height:${height}px;"></a>`;
+  return `<a href="${SITE_URL}" target="_blank" style="text-decoration:none;border:0;"><img src="${EMAIL_LOGO_URL}" width="${width}" height="${height}" alt="YugtyLearning" style="display:${align === "center" ? "inline-block" : "block"};border:0;outline:none;text-decoration:none;width:${width}px;height:${height}px;"></a>`;
 }

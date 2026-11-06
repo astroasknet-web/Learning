@@ -10,7 +10,7 @@ import { accessFor, buyHref, courseFee } from "@/lib/pay/course-access";
 import { activePlan } from "@/lib/pay/entitlements";
 import { canonicalUrl, OG_IMAGE } from "@/lib/seo";
 
-const TITLE = "Writing Clinic: IELTS, GRE, GMAT, SAT and College Essay Practice | GrowQR";
+const TITLE = "Writing Clinic: IELTS, GRE, GMAT, SAT and College Essay Practice | YugtyLearning";
 const DESC = "Practise exam essays and get an instant score on every criterion. IELTS, GRE, GMAT-style arguments, SAT-style analysis and college essays. Start free.";
 
 export const metadata: Metadata = {
@@ -56,7 +56,7 @@ export default async function WritingClinicRoute() {
     <PageShell>
       <div className="bg-cream-2">
         <section className="mx-auto max-w-[1180px] px-5 pb-8 pt-28 text-center md:pt-36">
-          <p className="text-[0.78rem] font-semibold uppercase tracking-[0.16em] text-ink-4">Writing Clinic by GrowQR</p>
+          <p className="text-[0.78rem] font-semibold uppercase tracking-[0.16em] text-ink-4">Writing Clinic by YugtyLearning</p>
           <h1 className="mx-auto mt-3 max-w-[14em] text-[clamp(2.4rem,6vw,4.4rem)] font-semibold leading-[1.04] tracking-tight text-ink">{TAGLINES.main}</h1>
           <p className="mx-auto mt-5 max-w-[40em] text-[1.1rem] leading-relaxed text-ink-3">{TAGLINES.sub}</p>
           <div className="mt-7 flex flex-wrap justify-center gap-2" aria-label="Exams covered">
@@ -94,7 +94,7 @@ export default async function WritingClinicRoute() {
 
         <section className="mx-auto max-w-[1180px] px-5 pb-16" aria-labelledby="plans">
           <h2 id="plans" className="text-center text-[1.8rem] font-semibold text-ink">Practise more with a package</h2>
-          <p className="mx-auto mt-2 max-w-[36em] text-center text-ink-3">The Writing Clinic comes with every GrowQR package. Higher packages mean more essay checks every month.</p>
+          <p className="mx-auto mt-2 max-w-[36em] text-center text-ink-3">The Writing Clinic comes with every YugtyLearning package. Higher packages mean more essay checks every month.</p>
           <div className="mt-8 grid gap-4 sm:grid-cols-3">
             {paid.map((p) => (
               <div key={p.key} className="rounded-2xl border border-black/10 bg-white p-5">

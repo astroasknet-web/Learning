@@ -19,11 +19,11 @@ const LABEL = { reading: "IELTS Academic Reading", listening: "IELTS Listening" 
 
 export async function generateMetadata({ params }: { params: Promise<{ exam: string }> }): Promise<Metadata> {
   const exam = (await params).exam;
-  if (exam === "gre-quant") return { title: "GRE Quant Practice Tests (30 Free Tests) | GrowQR", description: "Thirty timed GRE Quantitative Reasoning practice tests covering all 26 topics, marked instantly with an explanation for every question.", alternates: { canonical: `${SITE_URL}/practice-tests/gre-quant` }, robots: { index: true, follow: true } };
+  if (exam === "gre-quant") return { title: "GRE Quant Practice Tests (30 Free Tests) | YugtyLearning", description: "Thirty timed GRE Quantitative Reasoning practice tests covering all 26 topics, marked instantly with an explanation for every question.", alternates: { canonical: `${SITE_URL}/practice-tests/gre-quant` }, robots: { index: true, follow: true } };
   const kind = kindOf(exam);
-  if (!kind) return { title: "Practice tests | GrowQR", robots: { index: false, follow: true } };
+  if (!kind) return { title: "Practice tests | YugtyLearning", robots: { index: false, follow: true } };
   return {
-    title: `${LABEL[kind]} Practice Tests (30 Tests, First 3 Free) | GrowQR`,
+    title: `${LABEL[kind]} Practice Tests (30 Tests, First 3 Free) | YugtyLearning`,
     description: `Thirty full ${LABEL[kind]} practice tests, the first three free, with timed marking, an indicative band score and explanations for every answer.`,
     alternates: { canonical: `${SITE_URL}/practice-tests/ielts-${kind}` },
     robots: { index: true, follow: true },

@@ -7,7 +7,7 @@ import { hasPremium } from "@/lib/reading/access";
 import { levelStatesFor } from "@/lib/reading/store";
 import { lessonReadAction } from "../../actions";
 
-export const metadata: Metadata = { title: "Level | English Reading Studio | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Level | English Reading Studio | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 export default async function LevelPage({ params, searchParams }: { params: Promise<{ key: string }>; searchParams: Promise<Record<string, string | undefined>> }) {

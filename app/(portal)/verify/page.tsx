@@ -11,13 +11,13 @@ import * as share from "@/lib/portal/passport/share";
  * or needs CSRF protection (a pasted credential is public information by design).
  */
 export const dynamic = "force-dynamic";
-export const metadata: Metadata = { title: "Verify a GrowQR credential | GrowQR", description: "Check whether a GrowQR Skill Passport is authentic, unchanged and current.", robots: { index: false, follow: true } };
+export const metadata: Metadata = { title: "Verify a YugtyLearning credential | YugtyLearning", description: "Check whether a YugtyLearning Skill Passport is authentic, unchanged and current.", robots: { index: false, follow: true } };
 
 const HEADLINE: Record<string, [string, string, string]> = {
-  valid: ["Authentic and current", "bg-emerald-50 text-emerald-900 border-emerald-200", "This credential was issued by GrowQR, has not been changed, and is still published by its holder."],
+  valid: ["Authentic and current", "bg-emerald-50 text-emerald-900 border-emerald-200", "This credential was issued by YugtyLearning, has not been changed, and is still published by its holder."],
   superseded: ["Authentic, but replaced by a newer version", "bg-amber-50 text-amber-900 border-amber-200", "The signature is genuine, but the holder has since published an updated passport."],
   expired: ["Expired", "bg-amber-50 text-amber-900 border-amber-200", "The signature is genuine, but the credential is past its validity date."],
-  revoked: ["Withdrawn", "bg-red-50 text-red-900 border-red-200", "The holder withdrew this passport, or GrowQR revoked it. Do not rely on it."],
+  revoked: ["Withdrawn", "bg-red-50 text-red-900 border-red-200", "The holder withdrew this passport, or YugtyLearning revoked it. Do not rely on it."],
   invalid: ["Not valid", "bg-red-50 text-red-900 border-red-200", "This did not pass the checks below. Do not rely on it."],
 };
 
@@ -47,9 +47,9 @@ export default async function VerifyPage({ searchParams }: { searchParams: Promi
   return (
     <main id="main" className="min-h-screen bg-cream-2 px-4 py-8 sm:py-12">
       <div className="max-w-2xl mx-auto">
-        <header className="mb-5"><Link href="/" aria-label="GrowQR home"><Image src="/growqr-logo.png" alt="GrowQR" width={120} height={34} className="h-8 w-auto" priority /></Link></header>
+        <header className="mb-5"><Link href="/" aria-label="YugtyLearning home"><Image src="/yugtylearning-logo.svg" alt="YugtyLearning" width={120} height={34} className="h-8 w-auto" priority /></Link></header>
         <article className="bg-white rounded-2xl border border-black/[0.1] shadow-card p-6 sm:p-9">
-          <h1 className="text-[26px] font-bold text-ink tracking-tight mb-1">Verify a GrowQR credential</h1>
+          <h1 className="text-[26px] font-bold text-ink tracking-tight mb-1">Verify a YugtyLearning credential</h1>
           <p className="text-[15px] text-ink-3 mb-6">Paste a signed credential, or open one by its code, to see whether it is authentic, unchanged and current.</p>
 
           {error ? <p role="alert" className="mb-5 rounded-lg border border-red-200 bg-red-50 px-3.5 py-3 text-[14px] text-red-800">{error}</p> : null}
@@ -78,7 +78,7 @@ export default async function VerifyPage({ searchParams }: { searchParams: Promi
             <button type="submit" className="min-h-[48px] px-6 rounded-lg bg-orange hover:bg-orange-dark text-white font-semibold text-[15px]">Check credential</button>
           </form>
           <p className="text-[13px] text-ink-3 mt-6">
-            Checks run on this server and, on the passport page, again in your own browser. You can also verify with any standard tool using GrowQR’s published keys:{" "}
+            Checks run on this server and, on the passport page, again in your own browser. You can also verify with any standard tool using YugtyLearning’s published keys:{" "}
             <a className="underline" href="/.well-known/did.json">did.json</a> · <a className="underline" href="/.well-known/jwks.json">jwks.json</a>.
           </p>
         </article>

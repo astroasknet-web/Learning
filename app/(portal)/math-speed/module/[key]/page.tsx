@@ -15,7 +15,7 @@ export const dynamic = "force-dynamic";
 
 export async function generateMetadata({ params }: { params: Promise<{ key: string }> }): Promise<Metadata> {
   const m = moduleByKey((await params).key);
-  return { title: m ? `Module ${m.n}: ${m.title} | Level ${LEVELS[m.level - 1].letter} | GrowQR` : "Module | GrowQR" };
+  return { title: m ? `Module ${m.n}: ${m.title} | Level ${LEVELS[m.level - 1].letter} | YugtyLearning` : "Module | YugtyLearning" };
 }
 
 export default async function ModulePage({ params, searchParams }: { params: Promise<{ key: string }>; searchParams: Promise<Record<string, string | undefined>> }) {

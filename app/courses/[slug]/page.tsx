@@ -28,19 +28,19 @@ export const dynamic = "force-dynamic";
 const clean = (s: string) => s.toLowerCase().replace(/[^a-z0-9-]/g, "");
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
-  if (!databaseConfigured()) { const sc = staticCourse(clean((await params).slug)); return { title: sc ? `${sc.title} | GrowQR` : "Course | GrowQR", description: sc?.brief }; }
+  if (!databaseConfigured()) { const sc = staticCourse(clean((await params).slug)); return { title: sc ? `${sc.title} | YugtyLearning` : "Course | YugtyLearning", description: sc?.brief }; }
   const c = await courses.bySlug(clean((await params).slug));
-  if (!c) return { title: "Course not found | GrowQR", robots: { index: false, follow: true } };
+  if (!c) return { title: "Course not found | YugtyLearning", robots: { index: false, follow: true } };
   const rich = lessons.nativeCourse(c.slug);
   const landing = rich ? landingMetadata(rich, c.slug) : null;
   if (landing) return landing; // university programme courses carry their own SEO block
   const image = hasThumb(c.slug) ? [{ url: `${SITE_URL}${thumbFull(c.slug)}`, width: 1920, height: 1080, alt: `${c.title} course` }] : undefined;
   return {
-    title: `${c.title} Course | GrowQR`,
+    title: `${c.title} Course | YugtyLearning`,
     description: Array.from(`${c.brief} ${c.hours}, ${c.modules} modules, certificate and badge.`).slice(0, 155).join(""),
     alternates: { canonical: `${SITE_URL}/courses/${c.slug}` },
     robots: { index: true, follow: true },
-    ...(image ? { openGraph: { title: `${c.title} Course | GrowQR`, url: `${SITE_URL}/courses/${c.slug}`, type: "website" as const, images: image }, twitter: { card: "summary_large_image" as const, images: [image[0].url] } } : {}),
+    ...(image ? { openGraph: { title: `${c.title} Course | YugtyLearning`, url: `${SITE_URL}/courses/${c.slug}`, type: "website" as const, images: image }, twitter: { card: "summary_large_image" as const, images: [image[0].url] } } : {}),
   };
 }
 
@@ -81,7 +81,7 @@ export default async function CoursePage({ params, searchParams }: { params: Pro
   const jsonld = rich?.landing ? landingJsonLd(rich, course.slug, course) : {
     "@context": "https://schema.org",
     "@graph": [
-      { "@type": "Course", ...(hasThumb(course.slug) ? { image: `${SITE_URL}${thumbFull(course.slug)}` } : {}), name: course.title, description: course.brief, url: `${SITE_URL}${self}`, educationalLevel: course.level_label, timeRequired: course.hours, inLanguage: "en", provider: { "@type": "Organization", name: "GrowQR", sameAs: SITE_URL } },
+      { "@type": "Course", ...(hasThumb(course.slug) ? { image: `${SITE_URL}${thumbFull(course.slug)}` } : {}), name: course.title, description: course.brief, url: `${SITE_URL}${self}`, educationalLevel: course.level_label, timeRequired: course.hours, inLanguage: "en", provider: { "@type": "Organization", name: "YugtyLearning", sameAs: SITE_URL } },
       { "@type": "BreadcrumbList", itemListElement: [
         { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
         { "@type": "ListItem", position: 2, name: "Courses", item: `${SITE_URL}/courses` },
@@ -133,7 +133,7 @@ export default async function CoursePage({ params, searchParams }: { params: Pro
           {native ? (
             <>
               <h2 className="text-[18px] font-bold text-ink">Ready to start?</h2>
-              <p className="text-[14px] text-ink-3">Lessons, quizzes and the capstone run right here on GrowQR. Pass each module quiz to tick off your progress.</p>
+              <p className="text-[14px] text-ink-3">Lessons, quizzes and the capstone run right here on YugtyLearning. Pass each module quiz to tick off your progress.</p>
               <CourseFlash c={sp.c} e={sp.e} />
               {!owned ? (
                 <>
@@ -184,7 +184,7 @@ export default async function CoursePage({ params, searchParams }: { params: Pro
             </>
           ) : course.slug === "vedic-mathematics" ? (
             <>
-              <h2 className="text-[18px] font-bold text-ink">Taught here on GrowQR</h2>
+              <h2 className="text-[18px] font-bold text-ink">Taught here on YugtyLearning</h2>
               <p className="text-[14px] text-ink-2">30 modules in three levels, in English and Hindi. Module 1 is free. The rest open with a Pro, Silver or Gold plan{fee ? ", or by buying the course" : ""}.</p>
               {fee ? <p className="text-[28px] font-bold text-ink">{formatMoney(fee.amountMinor, "INR")}</p> : null}
               {fee ? <Link className={`${btn} border border-black/[0.15] hover:bg-cream-2`} href={me ? buyHref(course.slug) : `/login?next=${encodeURIComponent(buyHref(course.slug))}`}>Buy the course</Link> : null}
@@ -195,7 +195,7 @@ export default async function CoursePage({ params, searchParams }: { params: Pro
             <>
               <h2 className="text-[18px] font-bold text-ink">Lessons coming soon</h2>
               {course.fee_minor ? <p className="text-[14px] text-ink-2">Course fee: <b className="text-ink">{formatMoney(course.fee_minor, "INR").replace(/.00$/, "")}</b>. You can buy it as soon as the lessons are ready.</p> : null}
-              <p className="text-[14px] text-ink-3">The lessons for this course are being added to GrowQR. In the meantime you can start one of the courses that is ready, or study for an exam for free.</p>
+              <p className="text-[14px] text-ink-3">The lessons for this course are being added to YugtyLearning. In the meantime you can start one of the courses that is ready, or study for an exam for free.</p>
               <Link className={`${btn} bg-orange-deep hover:bg-ink text-white`} href="/courses?available=1">See courses you can start now</Link>
               <Link className={`${btn} border border-black/[0.15] hover:bg-cream-2`} href="/exam-prep">Exam prep</Link>
             </>

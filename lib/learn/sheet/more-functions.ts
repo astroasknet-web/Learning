@@ -516,6 +516,6 @@ export function moreFn(name: string, args: Node[], c: Ctx): Value {
       const cum = c.scalar(c.ev(args[3])), z = (x - m) / s;
       return cum === false || cum === 0 ? Math.exp(-z * z / 2) / (s * Math.sqrt(2 * Math.PI)) : normCdf(z);
     }
-    default: return err("#NAME?", `"${name}" is not a function GrowQR knows yet.`);
+    default: return err("#NAME?", `"${name}" is not a function YugtyLearning knows yet.`);
   }
 }

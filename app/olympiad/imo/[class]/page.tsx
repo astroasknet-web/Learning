@@ -17,8 +17,8 @@ export function generateStaticParams() { return CLASSES.filter((c) => subject(c,
 export async function generateMetadata({ params }: P): Promise<Metadata> {
   const c = clean((await params).class);
   const s = isClass(c) ? subject(c, "imo") : null;
-  if (!s) return { title: "Class not found | GrowQR", robots: { index: false, follow: true } };
-  return { title: `Class ${classNumber(c)} Maths Olympiad (IMO): ${s.chapters.length} Chapters and Mock Tests | GrowQR`, description: `Class ${classNumber(c)} IMO preparation: ${s.chapters.length} chapters with lessons and tests, plus full-syllabus mock tests.`, alternates: { canonical: `/olympiad/imo/${c}` } };
+  if (!s) return { title: "Class not found | YugtyLearning", robots: { index: false, follow: true } };
+  return { title: `Class ${classNumber(c)} Maths Olympiad (IMO): ${s.chapters.length} Chapters and Mock Tests | YugtyLearning`, description: `Class ${classNumber(c)} IMO preparation: ${s.chapters.length} chapters with lessons and tests, plus full-syllabus mock tests.`, alternates: { canonical: `/olympiad/imo/${c}` } };
 }
 
 export default async function ImoClass({ params }: P) {

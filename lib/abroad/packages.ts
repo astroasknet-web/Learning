@@ -105,7 +105,7 @@ export function cumulativeItems(p: AbroadPackage): number {
   return ABROAD_PACKAGES.filter((x) => x.level <= p.level).reduce((n, x) => n + x.adds.reduce((m, g) => m + g.items.length, 0), 0);
 }
 
-export const PACKAGE_DISCLAIMER = "GrowQR's counsellors and partners deliver these services. Admission, scholarship and visa decisions are made by universities and governments, so no package can guarantee an outcome.";
+export const PACKAGE_DISCLAIMER = "YugtyLearning's counsellors and partners deliver these services. Admission, scholarship and visa decisions are made by universities and governments, so no package can guarantee an outcome.";
 
 /** The comparison table: each row starts at a level and carries on up. `values` replaces the tick with text per level (for example, how many applications). */
 export const MATRIX: Array<{ label: string; level: 1 | 2 | 3 | 4 | 5; values?: Partial<Record<1 | 2 | 3 | 4 | 5, string>> }> = [

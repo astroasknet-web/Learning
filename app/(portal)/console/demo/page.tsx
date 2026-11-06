@@ -7,7 +7,7 @@ import { one } from "@/lib/portal/db";
 import { adminGate } from "../gate";
 import { createDemoAction, removeDemoAction } from "./actions";
 
-export const metadata: Metadata = { title: "Demo student | Console | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Demo student | Console | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 export default async function DemoConsole() {

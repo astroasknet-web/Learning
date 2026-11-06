@@ -7,7 +7,7 @@ const SECTIONS: Section[] = [
     blocks: [
       {
         type: "para",
-        text: "GrowQR operates globally, headquartered at 103 Carnegie Center Drive, Princeton, NJ 08540, USA, with an operating office at 4th Floor, Wesource Building, Plot No. 8, Sector 125, Noida, Uttar Pradesh 201313, India. Where you are located in India, or GrowQR offers the Services to you in India, GrowQR acts as a “Data Fiduciary” and you as a “Data Principal” under the Digital Personal Data Protection Act, 2023 (“DPDP Act”), which applies to this processing regardless of where GrowQR’s servers are located, by operation of Section 3(b) of the DPDP Act.",
+        text: "YugtyLearning operates globally, headquartered at 103 Carnegie Center Drive, Princeton, NJ 08540, USA, with an operating office at 4th Floor, Wesource Building, Plot No. 8, Sector 125, Noida, Uttar Pradesh 201313, India. Where you are located in India, or YugtyLearning offers the Services to you in India, YugtyLearning acts as a “Data Fiduciary” and you as a “Data Principal” under the Digital Personal Data Protection Act, 2023 (“DPDP Act”), which applies to this processing regardless of where YugtyLearning’s servers are located, by operation of Section 3(b) of the DPDP Act.",
       },
     ],
   },
@@ -24,7 +24,7 @@ const SECTIONS: Section[] = [
           },
           {
             term: "Profile and career data",
-            text: "resumes, work history, education, skills, career preferences, onboarding responses, and publicly available profile information you explicitly ask GrowQR to import (for example, from a connected professional network).",
+            text: "resumes, work history, education, skills, career preferences, onboarding responses, and publicly available profile information you explicitly ask YugtyLearning to import (for example, from a connected professional network).",
           },
           {
             term: "Interview and roleplay recordings",
@@ -32,7 +32,7 @@ const SECTIONS: Section[] = [
           },
           {
             term: "Derived and inferred data",
-            text: "your QX-Score, skill-gap analyses, and other outputs GrowQR’s Agents generate from the data above.",
+            text: "your QX-Score, skill-gap analyses, and other outputs YugtyLearning’s Agents generate from the data above.",
           },
           {
             term: "Agent activity data",
@@ -44,7 +44,7 @@ const SECTIONS: Section[] = [
           },
           {
             term: "Payment data",
-            text: "transaction records; card and bank details are collected and stored directly by our payment processor, not by GrowQR.",
+            text: "transaction records; card and bank details are collected and stored directly by our payment processor, not by YugtyLearning.",
           },
           {
             term: "Usage and device data",
@@ -64,7 +64,7 @@ const SECTIONS: Section[] = [
     blocks: [
       {
         type: "para",
-        text: "GrowQR processes Personal Data for the following purposes, on the basis of your consent given at onboarding or at first use of the relevant feature, or another valid ground for processing recognised under the DPDP Act:",
+        text: "YugtyLearning processes Personal Data for the following purposes, on the basis of your consent given at onboarding or at first use of the relevant feature, or another valid ground for processing recognised under the DPDP Act:",
       },
       {
         type: "list",
@@ -76,12 +76,12 @@ const SECTIONS: Section[] = [
           "to facilitate Coach bookings and process related payments;",
           "to communicate with you, including service updates and, where you have separately opted in, marketing communications;",
           "to maintain security, detect fraud or misuse, and comply with legal obligations;",
-          "to improve GrowQR’s own proprietary AI systems, using de-identified or aggregated data, unless you opt out by writing to support@growqr.ai.",
+          "to improve YugtyLearning’s own proprietary AI systems, using de-identified or aggregated data, unless you opt out by writing to support@growqr.ai.",
         ],
       },
       {
         type: "para",
-        text: "GrowQR does not use your Personal Data to train publicly available third-party foundation AI models.",
+        text: "YugtyLearning does not use your Personal Data to train publicly available third-party foundation AI models.",
       },
     ],
   },
@@ -91,7 +91,7 @@ const SECTIONS: Section[] = [
     blocks: [
       {
         type: "para",
-        text: "GrowQR connects to Instagram and to LinkedIn only when you explicitly authorise it, through each platform’s own authorisation screen. GrowQR requests the following permissions and nothing beyond them. Each one is listed here with the exact data or capability it grants.",
+        text: "YugtyLearning connects to Instagram and to LinkedIn only when you explicitly authorise it, through each platform’s own authorisation screen. YugtyLearning requests the following permissions and nothing beyond them. Each one is listed here with the exact data or capability it grants.",
       },
       {
         type: "list",
@@ -102,15 +102,15 @@ const SECTIONS: Section[] = [
           },
           {
             term: "Instagram, instagram_business_content_publish",
-            text: "permission to create and publish posts to the connected account. GrowQR publishes only content you have approved, or content released on a posting schedule you configured and can change or pause at any time.",
+            text: "permission to create and publish posts to the connected account. YugtyLearning publishes only content you have approved, or content released on a posting schedule you configured and can change or pause at any time.",
           },
           {
             term: "Instagram, instagram_business_manage_insights",
-            text: "the performance metrics Instagram reports for the connected account and its media, which GrowQR uses to produce the performance reporting you see in the product.",
+            text: "the performance metrics Instagram reports for the connected account and its media, which YugtyLearning uses to produce the performance reporting you see in the product.",
           },
           {
             term: "LinkedIn, Sign In with LinkedIn using OpenID Connect",
-            text: "your LinkedIn name, headline, profile picture and primary email address, used to identify your LinkedIn account and populate your GrowQR profile.",
+            text: "your LinkedIn name, headline, profile picture and primary email address, used to identify your LinkedIn account and populate your YugtyLearning profile.",
           },
           {
             term: "LinkedIn, Share on LinkedIn",
@@ -120,15 +120,15 @@ const SECTIONS: Section[] = [
       },
       {
         type: "para",
-        text: "GrowQR does not read your Instagram direct messages or comments, does not access any account you have not connected, does not use connected account data for advertising, and does not sell it. GrowQR does not use connected account data to train publicly available third-party foundation AI models. GrowQR does not integrate with Facebook and requests no Facebook Page or Facebook profile data.",
+        text: "YugtyLearning does not read your Instagram direct messages or comments, does not access any account you have not connected, does not use connected account data for advertising, and does not sell it. YugtyLearning does not use connected account data to train publicly available third-party foundation AI models. YugtyLearning does not integrate with Facebook and requests no Facebook Page or Facebook profile data.",
       },
       {
         type: "para",
-        text: "For each connected account GrowQR stores the access token issued by the platform for as long as the connection is active, together with the data described above and a record of the posts it has published on your behalf. Disconnecting the account in GrowQR, or revoking GrowQR’s access from within Instagram or LinkedIn, stops all further access immediately.",
+        text: "For each connected account YugtyLearning stores the access token issued by the platform for as long as the connection is active, together with the data described above and a record of the posts it has published on your behalf. Disconnecting the account in YugtyLearning, or revoking YugtyLearning’s access from within Instagram or LinkedIn, stops all further access immediately.",
       },
       {
         type: "link",
-        prefix: "To have the data GrowQR holds for a connected account deleted, follow the instructions on the",
+        prefix: "To have the data YugtyLearning holds for a connected account deleted, follow the instructions on the",
         href: "/data-deletion",
         label: "Data Deletion page",
         suffix: ".",
@@ -144,9 +144,9 @@ const SECTIONS: Section[] = [
         items: [
           "You must be at least eighteen (18) years of age, or the age of majority in your jurisdiction of residence, and possess the legal capacity to contract under Section 11 of the Indian Contract Act, 1872, to register for or use the Services.",
           "You represent and warrant that all information you provide during registration and thereafter is true, accurate, current, and complete, and you undertake to promptly update such information if it changes.",
-          "You are solely responsible for maintaining the confidentiality of your login credentials and for all activities that occur under your account. You must notify GrowQR immediately at support@growqr.ai upon becoming aware of any unauthorised use of your account or breach of security.",
+          "You are solely responsible for maintaining the confidentiality of your login credentials and for all activities that occur under your account. You must notify YugtyLearning immediately at support@growqr.ai upon becoming aware of any unauthorised use of your account or breach of security.",
           "Accounts are personal and non-transferable. You may not create an account on behalf of another person without authorisation, share your account credentials, or sell, rent, or otherwise transfer your account to any third party.",
-          "GrowQR reserves the right to refuse registration, or to suspend or terminate an existing account, where it reasonably believes the information provided is false, misleading, or in breach of the terms on which the Services are offered.",
+          "YugtyLearning reserves the right to refuse registration, or to suspend or terminate an existing account, where it reasonably believes the information provided is false, misleading, or in breach of the terms on which the Services are offered.",
         ],
       },
     ],
@@ -160,7 +160,7 @@ const SECTIONS: Section[] = [
         items: [
           {
             term: "Third-Party Providers",
-            text: "GrowQR shares Personal Data with AI, cloud-hosting, analytics, and payment vendors strictly as needed to provide the Services, under contractual terms requiring them to protect the data and use it only for the purposes GrowQR specifies.",
+            text: "YugtyLearning shares Personal Data with AI, cloud-hosting, analytics, and payment vendors strictly as needed to provide the Services, under contractual terms requiring them to protect the data and use it only for the purposes YugtyLearning specifies.",
           },
           {
             term: "Organisation Users",
@@ -168,13 +168,13 @@ const SECTIONS: Section[] = [
           },
           {
             term: "Coaches",
-            text: "Where you book a session, GrowQR shares the information necessary for that session (such as your name and the topic of the session) with the relevant Coach.",
+            text: "Where you book a session, YugtyLearning shares the information necessary for that session (such as your name and the topic of the session) with the relevant Coach.",
           },
           {
             term: "Legal and safety disclosures",
-            text: "GrowQR may disclose Personal Data where required by law, court order, or a lawful direction of a government authority, or to protect the rights, safety, or property of GrowQR, its Users, or the public.",
+            text: "YugtyLearning may disclose Personal Data where required by law, court order, or a lawful direction of a government authority, or to protect the rights, safety, or property of YugtyLearning, its Users, or the public.",
           },
-          "GrowQR does not sell Personal Data.",
+          "YugtyLearning does not sell Personal Data.",
         ],
       },
     ],
@@ -185,7 +185,7 @@ const SECTIONS: Section[] = [
     blocks: [
       {
         type: "para",
-        text: "Because GrowQR operates internationally, with its headquarters in the United States and infrastructure and Third-Party Providers that may be located in other countries, your Personal Data may be transferred to, stored, and processed in jurisdictions outside India. GrowQR transfers Personal Data outside India only to countries not restricted by the Central Government under the DPDP Act, and requires recipients to apply data-protection standards consistent with the DPDP Act through contractual or comparable safeguards.",
+        text: "Because YugtyLearning operates internationally, with its headquarters in the United States and infrastructure and Third-Party Providers that may be located in other countries, your Personal Data may be transferred to, stored, and processed in jurisdictions outside India. YugtyLearning transfers Personal Data outside India only to countries not restricted by the Central Government under the DPDP Act, and requires recipients to apply data-protection standards consistent with the DPDP Act through contractual or comparable safeguards.",
       },
     ],
   },
@@ -196,9 +196,9 @@ const SECTIONS: Section[] = [
       {
         type: "list",
         items: [
-          "GrowQR retains Personal Data for as long as your account is active and for a reasonable period thereafter to comply with legal obligations, resolve disputes, and enforce agreements, after which it is deleted or anonymised.",
+          "YugtyLearning retains Personal Data for as long as your account is active and for a reasonable period thereafter to comply with legal obligations, resolve disputes, and enforce agreements, after which it is deleted or anonymised.",
           "Interview and roleplay recordings are retained only for the period necessary to deliver feedback and improve the relevant Agent, or such longer period as you elect, and may be deleted by you at any time through account settings.",
-          "Where Personal Data underlies a Verified Credential anchored to a distributed ledger, GrowQR will delete the off-chain record upon a valid erasure request and, where technically supported, revoke the on-chain reference. A reference already written to a distributed ledger cannot itself be erased.",
+          "Where Personal Data underlies a Verified Credential anchored to a distributed ledger, YugtyLearning will delete the off-chain record upon a valid erasure request and, where technically supported, revoke the on-chain reference. A reference already written to a distributed ledger cannot itself be erased.",
         ],
       },
       {
@@ -221,18 +221,18 @@ const SECTIONS: Section[] = [
       {
         type: "list",
         items: [
-          "obtain a summary of the Personal Data GrowQR holds about you and the processing activities undertaken;",
+          "obtain a summary of the Personal Data YugtyLearning holds about you and the processing activities undertaken;",
           "seek correction, completion, updating, and erasure of your Personal Data;",
           "withdraw consent at any time, without affecting the lawfulness of processing before withdrawal;",
           "nominate another individual to exercise these rights on your behalf in the event of your death or incapacity;",
           "obtain an explanation of the principal factors contributing to your QX-Score and dispute an inaccurate factor;",
-          "lodge a grievance with GrowQR’s Grievance Officer, and thereafter with the Data Protection Board of India.",
+          "lodge a grievance with YugtyLearning’s Grievance Officer, and thereafter with the Data Protection Board of India.",
         ],
       },
       {
         type: "contact",
         prefix: "To exercise these rights, write to",
-        suffix: ". GrowQR will respond within the timelines prescribed under the DPDP Act.",
+        suffix: ". YugtyLearning will respond within the timelines prescribed under the DPDP Act.",
       },
     ],
   },
@@ -242,11 +242,11 @@ const SECTIONS: Section[] = [
     blocks: [
       {
         type: "para",
-        text: "GrowQR applies administrative, technical, and physical safeguards, including access controls and encryption in transit, to protect Personal Data, consistent with the reasonable security practices contemplated under Section 43A of the Information Technology Act, 2000 and the Information Technology (Reasonable Security Practices and Sensitive Personal Data or Information) Rules, 2011. No method of transmission or storage is completely secure, and GrowQR cannot guarantee absolute security.",
+        text: "YugtyLearning applies administrative, technical, and physical safeguards, including access controls and encryption in transit, to protect Personal Data, consistent with the reasonable security practices contemplated under Section 43A of the Information Technology Act, 2000 and the Information Technology (Reasonable Security Practices and Sensitive Personal Data or Information) Rules, 2011. No method of transmission or storage is completely secure, and YugtyLearning cannot guarantee absolute security.",
       },
       {
         type: "para",
-        text: "In the event of a Personal Data breach, GrowQR will take remedial measures and provide notifications to the extent and within the timelines required under the DPDP Act.",
+        text: "In the event of a Personal Data breach, YugtyLearning will take remedial measures and provide notifications to the extent and within the timelines required under the DPDP Act.",
       },
     ],
   },
@@ -256,7 +256,7 @@ const SECTIONS: Section[] = [
     blocks: [
       {
         type: "para",
-        text: "GrowQR uses cookies and similar technologies to operate the Services, remember your preferences, and understand usage patterns. You can control cookies through your browser settings; disabling certain cookies may affect the functionality of the Services.",
+        text: "YugtyLearning uses cookies and similar technologies to operate the Services, remember your preferences, and understand usage patterns. You can control cookies through your browser settings; disabling certain cookies may affect the functionality of the Services.",
       },
     ],
   },
@@ -266,7 +266,7 @@ const SECTIONS: Section[] = [
     blocks: [
       {
         type: "para",
-        text: "GrowQR may update this Privacy Policy to reflect technological, legal, or operational changes. Material changes will be notified in-app or by email at least fifteen (15) days before taking effect, except where a shorter period is required by Applicable Law. Continued use of the Services after that date constitutes acceptance of the updated Policy.",
+        text: "YugtyLearning may update this Privacy Policy to reflect technological, legal, or operational changes. Material changes will be notified in-app or by email at least fifteen (15) days before taking effect, except where a shorter period is required by Applicable Law. Continued use of the Services after that date constitutes acceptance of the updated Policy.",
       },
     ],
   },
@@ -277,7 +277,7 @@ const SECTIONS: Section[] = [
       {
         type: "details",
         rows: [
-          { label: "Grievance Officer", value: "GrowQR Private Limited" },
+          { label: "Grievance Officer", value: "YugtyLearning Private Limited" },
           { label: "Email", value: "support@growqr.ai", email: true },
           { label: "General Contact", value: "support@growqr.ai", email: true },
           {
@@ -294,7 +294,7 @@ export default function PrivacyPage() {
   return (
     <LegalDoc
       title="Privacy Policy"
-      intro="How GrowQR collects, uses, and protects your personal data, written to comply with India's Digital Personal Data Protection Act, 2023."
+      intro="How YugtyLearning collects, uses, and protects your personal data, written to comply with India's Digital Personal Data Protection Act, 2023."
       lastUpdated="August 26, 2026"
       governingLaw="DPDP Act, 2023 (India)"
       sections={SECTIONS}

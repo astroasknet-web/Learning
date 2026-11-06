@@ -81,7 +81,7 @@ describe("two-step codes (TOTP)", () => {
   it("makes valid new secrets and an authenticator link", () => {
     const s = totp.newSecret();
     expect(s).toMatch(/^[A-Z2-7]{32}$/);
-    expect(totp.uri(s, "a@b.co")).toContain("otpauth://totp/GrowQR%3Aa%40b.co?secret=" + s);
+    expect(totp.uri(s, "a@b.co")).toContain("otpauth://totp/YugtyLearning%3Aa%40b.co?secret=" + s);
   });
   it.skipIf(!havePhp)("produces the same codes as the PHP implementation", () => {
     for (const step of [1, 56_666_666, 56_666_667, 99_999_999]) {

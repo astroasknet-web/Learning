@@ -1,6 +1,6 @@
-# GrowQR Learning
+# YugtyLearning Learning
 
-Standalone codebase for the **GrowQR Learning** vertical of GrowQR, extracted from
+Standalone codebase for the **YugtyLearning Learning** vertical of YugtyLearning, extracted from
 [astroasknet-web/growqr.ai-final](https://github.com/astroasknet-web/growqr.ai-final) so it can be deployed on its own domain.
 
 Next.js 15 (App Router) + React 19 + TypeScript + Tailwind, MySQL, Razorpay, Resend.
@@ -19,7 +19,7 @@ It also carries the shared platform pieces the vertical needs to work end to end
 (`app/(portal)`), account, billing, support tickets, checkout and payments (`app/api/v1`, `app/api/razorpay`), the staff console and the
 Skill Passport.
 
-Only code the vertical actually imports is included. Routes that belong to another GrowQR vertical are not here; `middleware.ts` sends them
+Only code the vertical actually imports is included. Routes that belong to another YugtyLearning vertical are not here; `middleware.ts` sends them
 to the main site (`MARKETING_URL`, default https://growqr.ai). Set `SITE_MODE=full` to disable that redirect.
 
 ## Run it
@@ -45,7 +45,7 @@ See `migration/env.example`. Extra variables for the split:
 
 ## Database
 
-All GrowQR verticals share one schema, so `db/migrations` is the complete, ordered set. Point several domains at the same MySQL database to
+All YugtyLearning verticals share one schema, so `db/migrations` is the complete, ordered set. Point several domains at the same MySQL database to
 share accounts and the Skill Passport across verticals, or give each its own database.
 
 ## Scripts

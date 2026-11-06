@@ -5,7 +5,7 @@ import { AuthSplit } from "@/components/portal/auth-layout";
 import { Notice } from "@/components/portal/auth-controls";
 import { ResetForm } from "@/components/portal/forms";
 
-export const metadata: Metadata = { title: "Choose a new password | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Choose a new password | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 const BTN = "flex min-h-[52px] w-full items-center justify-center rounded-xl bg-gradient-to-r from-[#7857ff] to-[#2bb8ea] px-6 text-[15px] font-semibold text-white shadow-[0_14px_30px_-14px_rgba(120,87,255,0.8)] hover:brightness-110";

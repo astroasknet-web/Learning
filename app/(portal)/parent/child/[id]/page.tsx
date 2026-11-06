@@ -5,7 +5,7 @@ import { requireUser } from "@/lib/portal/guard";
 import * as parents from "@/lib/lms/parents";
 import { Card, PortalPage } from "@/components/portal/shell";
 
-export const metadata: Metadata = { title: "Child progress | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Child progress | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 const STATE = { done: "bg-emerald-50 text-emerald-900", started: "bg-amber-50 text-amber-900", none: "bg-cream-2 text-ink-3" } as const;

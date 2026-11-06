@@ -11,7 +11,7 @@ import { buyHref } from "@/lib/pay/course-access";
 export const dynamic = "force-dynamic"; // "Unlocked" depends on what the visitor bought
 
 export const metadata: Metadata = {
-  title: "Exam Prep: JEE, NEET, UPSC, SSC CGL, CAT, SAT, GRE, GMAT, IELTS, AP Calculus | GrowQR",
+  title: "Exam Prep: JEE, NEET, UPSC, SSC CGL, CAT, SAT, GRE, GMAT, IELTS, AP Calculus | YugtyLearning",
   description: "Structured exam preparation with chapter notes, worked examples, chapter tests and full mock tests for JEE, NEET, UPSC, SSC CGL, CAT, SAT, GRE, GMAT, IELTS and AP Calculus AB. One payment per exam.",
   alternates: { canonical: "/exam-prep" },
 };
@@ -105,7 +105,7 @@ export default async function ExamPrepPage() {
 
       {freeGroups.length ? (
         <section className="mt-14" aria-labelledby="ep-free">
-          <h2 id="ep-free" className="text-[1.5rem] font-bold text-ink">More to learn on GrowQR</h2>
+          <h2 id="ep-free" className="text-[1.5rem] font-bold text-ink">More to learn on YugtyLearning</h2>
           <p className="mt-1 text-[0.95rem] text-ink-3">School subjects, languages and skills courses.</p>
           {freeGroups.map((g) => (
             <div key={g} className="mt-5" role="group" aria-label={g}>

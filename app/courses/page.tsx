@@ -29,12 +29,12 @@ async function read(sp: SP) {
 }
 
 export async function generateMetadata({ searchParams }: { searchParams: Promise<SP> }): Promise<Metadata> {
-  if (!databaseConfigured()) return { title: "Courses | GrowQR" };
+  if (!databaseConfigured()) return { title: "Courses | YugtyLearning" };
   const { cats, q } = await read(await searchParams);
   const total = await courses.total();
   const onlyField = q.cat.length === 1 && !q.q && !q.level.length && !q.len.length && !q.price.length && !q.aud.length && !q.available && !q.sort && q.page === 1 && q.size === 24;
   const fieldName = onlyField ? cats.find((c) => c.key === q.cat[0])?.name ?? "" : "";
-  const title = fieldName ? `${fieldName} Courses | GrowQR` : q.q ? `Courses for “${q.q}” | GrowQR` : "Online Courses to Get Internship-Ready | GrowQR";
+  const title = fieldName ? `${fieldName} Courses | YugtyLearning` : q.q ? `Courses for “${q.q}” | YugtyLearning` : "Online Courses to Get Internship-Ready | YugtyLearning";
   const description = `Browse ${total} self-paced courses in data, AI, software, design, marketing and more. Search by skill or topic, filter by level, length and price, and add a hands-on project, certificate and badge to your Skill Passport.`;
   // The plain catalogue and a single field are the pages worth indexing. Searches, other filters and later pages are for people, not for the index.
   const index = !hasFilters(q) && !q.sort && q.page === 1 ? true : onlyField;
@@ -87,7 +87,7 @@ export default async function CoursesPage({ searchParams }: { searchParams: Prom
     <>
       <ExamPrepBanner />
       {section("continue-h", "Continue learning", "Pick up where you left off.", continuingCards)}
-      {section("live-h", "Start learning today", "Full lessons, quizzes and a capstone, ready on GrowQR now.", live)}
+      {section("live-h", "Start learning today", "Full lessons, quizzes and a capstone, ready on YugtyLearning now.", live)}
       {section("free-h", "Free courses", "Taught here and free to take.", freeCourses)}
       {paths.length ? (
         <section aria-labelledby="paths-h" className="mt-12">
@@ -106,7 +106,7 @@ export default async function CoursesPage({ searchParams }: { searchParams: Prom
           </ul>
         </section>
       ) : null}
-      {section("featured-h", "Featured courses", "Picked by the GrowQR team for getting internship-ready.", spot, "lg:grid-cols-4")}
+      {section("featured-h", "Featured courses", "Picked by the YugtyLearning team for getting internship-ready.", spot, "lg:grid-cols-4")}
     </>
   );
 

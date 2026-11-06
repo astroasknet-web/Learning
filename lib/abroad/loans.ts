@@ -2,7 +2,7 @@ import { all, run, val } from "../portal/db";
 import { phpRound } from "../qrscore/php";
 import { audit } from "./store";
 
-/** Education-loan tracker (self-reported; GrowQR is not a lender) with an EMI calculator (port of Portal\Loans). */
+/** Education-loan tracker (self-reported; YugtyLearning is not a lender) with an EMI calculator (port of Portal\Loans). */
 export const STATUS: Record<string, string> = {
   researching: "Researching", applied: "Applied", docs: "Lender wants documents", sanctioned: "Sanctioned", disbursing: "Disbursing", rejected: "Rejected", closed: "Closed",
 };

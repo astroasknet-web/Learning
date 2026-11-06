@@ -10,7 +10,7 @@ import { Bars, Card, PortalPage, ScoreRing } from "@/components/portal/shell";
 import { ScoreForm } from "@/components/portal/passport-ui";
 import { Alert } from "@/components/portal/ui";
 
-export const metadata: Metadata = { title: "My Skill Passport | GrowQR" };
+export const metadata: Metadata = { title: "My Skill Passport | YugtyLearning" };
 export const dynamic = "force-dynamic";
 
 export default async function PassportPage() {
@@ -25,7 +25,7 @@ export default async function PassportPage() {
       if ((!had || had.rq_overall === null) && typeof pend.text === "string" && Date.now() / 1000 - Number(pend.t ?? 0) < 86400) {
         const pr = scoreText(pend.text);
         if (isScored(pr)) {
-          await passport.saveResult(me.id, pr, "Resume checked on GrowQR", pend.text);
+          await passport.saveResult(me.id, pr, "Resume checked on YugtyLearning", pend.text);
           await resumes.saveAccepted(me.id, pr, pend.text, {});
           imported = true;
         }

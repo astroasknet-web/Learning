@@ -4,7 +4,7 @@ import { MarketShell } from "@/components/market/shell";
 import { SITE_URL } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Free IELTS and GRE Practice Tests | GrowQR",
+  title: "Free IELTS and GRE Practice Tests | YugtyLearning",
   description: "Timed IELTS Reading, IELTS Listening and GRE Quant practice tests, marked instantly with a score and an explanation for every answer.",
   alternates: { canonical: `${SITE_URL}/practice-tests` },
   robots: { index: true, follow: true },

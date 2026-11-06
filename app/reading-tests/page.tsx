@@ -12,13 +12,13 @@ import { SITE_URL } from "@/lib/seo";
 
 export const dynamic = "force-dynamic";
 
-const TITLE = "Essay and Comprehension Reading Tests for SSC, CDS, CAT, UPSC and CTET | GrowQR";
+const TITLE = "Essay and Comprehension Reading Tests for SSC, CDS, CAT, UPSC and CTET | YugtyLearning";
 const DESC = "30 essay-based reading tests with 300 exam-style questions, instant explanations and an English Reading Studio analysis of exactly where you lose marks. Three tests are free.";
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE_URL}/reading-tests` },
-  openGraph: { type: "website", url: `${SITE_URL}/reading-tests`, siteName: "GrowQR", title: TITLE, description: DESC },
+  openGraph: { type: "website", url: `${SITE_URL}/reading-tests`, siteName: "YugtyLearning", title: TITLE, description: DESC },
   twitter: { card: "summary_large_image", title: TITLE, description: DESC },
 };
 
@@ -56,7 +56,7 @@ export default async function ReadingTestsPage() {
   const stats: Array<[string, string]> = [[String(totals.tests), "essay tests"], [String(totals.questions), "exam-style questions"], [`${Math.round(totals.words / 1000)}k`, "words of reading"], ["5", "exam styles"]];
   const jsonld = {
     "@context": "https://schema.org", "@type": "Course", name: "Essay and Comprehension Reading Tests for Competitive Examinations", description: DESC, url: `${SITE_URL}/reading-tests`,
-    provider: { "@type": "Organization", name: "GrowQR", url: SITE_URL }, inLanguage: "en",
+    provider: { "@type": "Organization", name: "YugtyLearning", url: SITE_URL }, inLanguage: "en",
     ...(fee ? { offers: { "@type": "Offer", category: "Paid", price: String(fee.amountMinor / 100), priceCurrency: "INR", url: `${SITE_URL}/reading-tests` } } : {}),
   };
   const faqLd = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: FAQ.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) };

@@ -195,7 +195,7 @@ export async function classesOfStudent(studentId: number): Promise<StudentClass[
 /** The URL where a student does an assignment. */
 export const hrefFor = (a: Pick<Assignment, "kind" | "ref" | "test_no">): string => (a.kind === "course" ? `/courses/${a.ref}` : `/practice-tests/${a.ref}/${a.test_no}`);
 
-/** Courses a teacher can assign: the ones taught on GrowQR first, then the rest of the catalogue. */
+/** Courses a teacher can assign: the ones taught on YugtyLearning first, then the rest of the catalogue. */
 export async function courseOptions(nativeSlugs: string[]): Promise<Array<{ slug: string; title: string; native: boolean }>> {
   const rows = await all("SELECT slug, title FROM courses ORDER BY title");
   const list = rows.map((r) => ({ slug: String(r.slug), title: String(r.title), native: nativeSlugs.includes(String(r.slug)) }));

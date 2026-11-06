@@ -6,7 +6,7 @@ import PreviewBanner from "@/components/pay/PreviewBanner";
 import { paymentsPreview } from "@/lib/pay/providers";
 import { countryOptions } from "@/lib/pay/countries";
 
-export const metadata: Metadata = { title: "Your cart | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Your cart | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 async function guessCountry(): Promise<string> {

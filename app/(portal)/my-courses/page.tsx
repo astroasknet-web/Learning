@@ -10,7 +10,7 @@ import { accessFor } from "@/lib/pay/course-access";
 import { CourseFlash, CourseTracker, Cover } from "@/components/market/course-parts";
 import { PortalPage } from "@/components/portal/shell";
 
-export const metadata: Metadata = { title: "My courses | GrowQR" };
+export const metadata: Metadata = { title: "My courses | YugtyLearning" };
 export const dynamic = "force-dynamic";
 
 export default async function MyCoursesPage({ searchParams }: { searchParams: Promise<Record<string, string | undefined>> }) {
@@ -60,7 +60,7 @@ export default async function MyCoursesPage({ searchParams }: { searchParams: Pr
                       <p className="mt-2 text-[14px]"><Link className="underline text-orange-dark" href={`/courses/${e.slug}/learn`}>{e.status === "completed" ? "Revisit" : "Continue"} lessons</Link></p>
                     </>
                   ) : (
-                    <p className="mt-3 rounded-xl bg-cream-2 p-3.5 text-[14px] text-ink-3">Lessons for this course are coming soon on GrowQR.</p>
+                    <p className="mt-3 rounded-xl bg-cream-2 p-3.5 text-[14px] text-ink-3">Lessons for this course are coming soon on YugtyLearning.</p>
                   )}
                 </article>
               ))}

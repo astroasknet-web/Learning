@@ -12,7 +12,7 @@ describe("plan quotas", () => {
 });
 
 describe("courses a student may choose from their plan", () => {
-  it("are the scan's recommendations that can be studied on GrowQR, in the scan's order", () => {
+  it("are the scan's recommendations that can be studied on YugtyLearning, in the scan's order", () => {
     const r = recommendedCourses(scan(["https://x.test/courses/seo", "https://x.test/courses/not-taught-here", "/courses/spoken-english", "/courses/cybersecurity-essentials"]), native(["seo", "cybersecurity-essentials", "spoken-english"]));
     expect(r.map((x) => x.slug)).toEqual(["seo", "spoken-english", "cybersecurity-essentials"]);
     expect(r.every((x) => x.source === "scan")).toBe(true);

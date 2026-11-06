@@ -33,7 +33,7 @@ export const OG_IMAGE = {
   url: "/og-image.png",
   width: 1200,
   height: 630,
-  alt: "GrowQR — One QR. One Identity. Unlocks Growth.",
+  alt: "YugtyLearning — One QR. One Identity. Unlocks Growth.",
 } as const;
 
 /** schema.org FAQPage from the same { q, a } shape already used by every
