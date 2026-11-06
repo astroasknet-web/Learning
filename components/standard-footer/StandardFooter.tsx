@@ -10,13 +10,13 @@ import type { FooterColumn, FooterConfig } from "./types";
 
 const SOCIAL_ICON = { linkedin: <FaLinkedinIn />, x: <FaXTwitter />, instagram: <FaInstagram />, youtube: <FaYoutube />, facebook: <FaFacebookF /> };
 
-const linkCls = "group inline-flex items-center gap-1.5 rounded text-[15px] font-medium leading-snug text-white/80 transition duration-200 hover:translate-x-0.5 hover:text-white hover:underline hover:decoration-orange hover:decoration-2 hover:underline-offset-4 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange";
+const linkCls = "group inline-flex items-center gap-1.5 rounded py-0.5 text-[15px] font-medium leading-6 tracking-[0.005em] text-white/75 underline decoration-transparent decoration-1 underline-offset-[6px] transition-all duration-200 ease-out hover:text-white hover:decoration-orange/70 [overflow-wrap:anywhere] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange";
 const roundBtn = "grid h-11 w-11 place-items-center rounded-full bg-white/10 text-[17px] text-white ring-1 ring-white/15 transition duration-300 hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange";
 
 function Col({ col }: { col: FooterColumn }) {
   return (
     <nav aria-label={col.title}>
-      <h3 className="mb-5 border-b border-white/10 pb-3 text-[12.5px] font-bold uppercase tracking-[0.16em] text-orange">{col.title}</h3>
+      <h3 className="mb-5 border-b border-white/10 pb-3 text-[17px] font-semibold leading-6 tracking-[0.005em] text-orange sm:text-[18px]">{col.title}</h3>
       <ul className="space-y-3.5">
         {col.links.map((l) => (
           <li key={l.href + l.label}>
@@ -101,7 +101,7 @@ export default function StandardFooter({ config }: { config: FooterConfig }) {
   };
 
   return (
-    <footer id="company" className="relative overflow-hidden bg-ink font-sans text-white antialiased" aria-label="Site footer">
+    <footer id="company" className="relative overflow-hidden bg-ink text-white antialiased [font-family:var(--font-footer),system-ui,sans-serif]" aria-label="Site footer">
       <div aria-hidden="true" className="pointer-events-none absolute -left-40 -top-40 h-[520px] w-[520px] rounded-full bg-orange/25 blur-[120px]" />
       <div aria-hidden="true" className="pointer-events-none absolute -right-40 top-1/3 h-[480px] w-[480px] rounded-full bg-[#7c5cff]/25 blur-[130px]" />
       <div aria-hidden="true" className="pointer-events-none absolute inset-0 opacity-[0.07]" style={{ backgroundImage: "radial-gradient(#fff 1px, transparent 1px)", backgroundSize: "26px 26px" }} />
@@ -112,9 +112,9 @@ export default function StandardFooter({ config }: { config: FooterConfig }) {
           <div aria-hidden="true" className="pointer-events-none absolute -right-10 -top-16 h-64 w-64 rounded-full bg-white/15 blur-2xl" />
           <div className={`relative grid items-center gap-8 ${showApps ? "lg:grid-cols-[1.4fr,1fr]" : ""}`}>
             <div>
-              <p className="text-[12px] font-bold uppercase tracking-[0.2em] text-white/80">{cta.eyebrow}</p>
-              <h2 id="footer-cta" className="mt-3 text-[clamp(1.8rem,4vw,3rem)] font-bold leading-[1.05] tracking-tight text-white">{cta.title}</h2>
-              <p className="mt-3 max-w-[34em] text-[17px] leading-[1.65] text-white/95">{cta.text}</p>
+              <p className="text-[12px] font-semibold uppercase tracking-[0.14em] text-white/85">{cta.eyebrow}</p>
+              <h2 id="footer-cta" className="mt-3 text-[clamp(1.6rem,3.2vw,2.4rem)] font-semibold leading-[1.15] tracking-[-0.015em] text-white">{cta.title}</h2>
+              <p className="mt-3 max-w-[34em] text-[15px] leading-7 text-white/90 sm:text-[16px]">{cta.text}</p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <Link href={cta.primary.href} className="inline-flex min-h-[50px] items-center gap-2 rounded-full bg-white px-6 text-[15px] font-bold text-ink transition hover:scale-[1.03] hover:shadow-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
                   {cta.primary.label} <ArrowRight className="h-4 w-4" aria-hidden="true" />
@@ -131,7 +131,7 @@ export default function StandardFooter({ config }: { config: FooterConfig }) {
             </div>
             {showApps ? (
               <div aria-label={`${brand.name} apps`}>
-                <p className="mb-3 text-[12px] font-bold uppercase tracking-[0.2em] text-white/80">{config.appsTitle}</p>
+                <p className="mb-3 text-[12px] font-semibold uppercase tracking-[0.14em] text-white/85">{config.appsTitle}</p>
                 <ul className="grid grid-cols-2 gap-2.5">
                   {shownApps.map((a) => (
                     <li key={a.key}>
@@ -152,9 +152,9 @@ export default function StandardFooter({ config }: { config: FooterConfig }) {
           <div className="col-span-2 lg:col-span-4">
             <div className="inline-block rounded-2xl bg-white px-4 py-3">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={brand.logoSrc} alt={brand.logoAlt} className="h-9 w-auto" />
+              <img src={brand.logoSrc} alt={brand.logoAlt} className="h-10 w-auto" />
             </div>
-            <p className="mt-5 max-w-[22em] text-[16px] leading-[1.7] text-white/80">{brand.tagline}</p>
+            <p className="mt-5 max-w-[22em] text-[15px] leading-7 text-white/75">{brand.tagline}</p>
 
             <form className="mt-6 w-full max-w-[360px]" onSubmit={subscribe} aria-label={`Join the ${brand.name} newsletter`}>
               <label htmlFor="footer-email" className="mb-2 block text-[14px] font-semibold text-white">{newsletter.label}</label>
@@ -168,11 +168,11 @@ export default function StandardFooter({ config }: { config: FooterConfig }) {
               </div>
             </form>
             <div aria-live="polite">
-              {ok && <p className="mt-2 text-[13px] text-emerald-300">{ok}</p>}
+              {ok && <p className="mt-2 text-[13px] leading-5 text-emerald-300">{ok}</p>}
               {err && <p className="mt-2 text-[13px] text-orange">{err}</p>}
             </div>
 
-            <h3 className="mb-3 mt-8 text-[12.5px] font-bold uppercase tracking-[0.16em] text-orange">Follow {brand.name}</h3>
+            <h3 className="mb-3 mt-8 text-[17px] font-semibold leading-6 tracking-[0.005em] text-orange sm:text-[18px]">Follow {brand.name}</h3>
             <ul className="flex flex-wrap gap-2.5">
               {social.filter((s) => s.href).map((s) => (
                 <li key={s.label}>
@@ -199,8 +199,8 @@ export default function StandardFooter({ config }: { config: FooterConfig }) {
         {/* share */}
         <section aria-labelledby="footer-share" className="mt-14 flex flex-col items-start justify-between gap-5 rounded-3xl bg-white/[0.06] p-6 ring-1 ring-white/10 md:flex-row md:items-center md:p-7">
           <div>
-            <h3 id="footer-share" className="text-[20px] font-bold tracking-tight text-white">{share.title}</h3>
-            <p className="mt-1 text-[15px] text-white/75">Share it with your friends, classmates and family.</p>
+            <h3 id="footer-share" className="text-[18px] font-semibold leading-snug tracking-[-0.01em] text-white">{share.title}</h3>
+            <p className="mt-1 text-[14px] leading-6 text-white/75">Share it with your friends, classmates and family.</p>
           </div>
           <ul className="flex flex-wrap items-center gap-2.5">
             {shares.map((s) => (
@@ -209,7 +209,7 @@ export default function StandardFooter({ config }: { config: FooterConfig }) {
               </li>
             ))}
             <li>
-              <button type="button" onClick={copy} className="inline-flex h-11 items-center gap-2 rounded-full bg-white px-4 text-[14px] font-bold text-ink transition hover:bg-orange hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange">
+              <button type="button" onClick={copy} className="inline-flex h-11 items-center gap-2 rounded-full bg-white px-4 text-[14px] font-semibold text-ink transition hover:bg-orange hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange">
                 {copied ? <Check className="h-4 w-4" aria-hidden="true" /> : <Link2 className="h-4 w-4" aria-hidden="true" />}
                 {copied ? "Link copied" : "Copy link"}
               </button>
@@ -228,17 +228,17 @@ export default function StandardFooter({ config }: { config: FooterConfig }) {
 
         {/* offices */}
         <section aria-labelledby="footer-offices" className="mt-10">
-          <h3 id="footer-offices" className="mb-4 text-[12.5px] font-bold uppercase tracking-[0.16em] text-orange">Our offices</h3>
+          <h3 id="footer-offices" className="mb-4 text-[17px] font-semibold leading-6 tracking-[0.005em] text-orange sm:text-[18px]">Our offices</h3>
           <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
             {offices.map((o) => {
               const body = (
                 <>
-                  <span className="flex items-center gap-2 text-[15px] font-semibold text-white">
+                  <span className="flex items-center gap-2 text-[15px] font-semibold leading-6 text-white">
                     <MapPin className="h-4 w-4 text-orange" aria-hidden="true" />
                     {o.city}
                     {o.hq ? <span className="rounded bg-orange px-1.5 py-0.5 text-[9px] font-extrabold text-white">HQ</span> : null}
                   </span>
-                  <span className="mt-1.5 block text-[13px] leading-relaxed text-white/70">{o.addr}</span>
+                  <span className="mt-1.5 block text-[14px] leading-6 text-white/70">{o.addr}</span>
                 </>
               );
               return (
@@ -259,7 +259,7 @@ export default function StandardFooter({ config }: { config: FooterConfig }) {
 
         {/* legal bar */}
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pb-[calc(0.5rem+env(safe-area-inset-bottom))] pt-6 md:flex-row">
-          <p className="text-[13px] text-white/70">© {new Date().getFullYear()} {brand.name}. All rights reserved.</p>
+          <p className="text-[13px] leading-6 text-white/70">© {new Date().getFullYear()} {brand.name}. All rights reserved.</p>
           <nav aria-label="Legal" className="flex flex-wrap justify-center gap-x-5 gap-y-2 text-[13px] font-medium">
             {legal.map((l) => (
               <Link key={l.href} href={l.href} className="text-white/75 hover:text-white">{l.label}</Link>

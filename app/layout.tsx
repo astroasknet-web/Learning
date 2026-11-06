@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import { GeistMono } from "geist/font/mono";
-import { Poppins, Instrument_Serif } from "next/font/google";
+import { Poppins, Instrument_Serif, Plus_Jakarta_Sans } from "next/font/google";
 import IconProvider from "@/components/layout/IconProvider";
 import AttributionCapture from "@/components/layout/AttributionCapture";
 import PageViewTracker from "@/components/layout/PageViewTracker";
@@ -35,6 +35,8 @@ const poppins = Poppins({
   variable: "--font-poppins",
   display: "swap",
 });
+
+const footerFont = Plus_Jakarta_Sans({ subsets: ["latin"], weight: ["400", "500", "600", "700"], variable: "--font-footer", display: "swap" });
 
 const instrumentSerif = Instrument_Serif({
   subsets: ["latin"],
@@ -131,7 +133,7 @@ export default async function RootLayout({
   return (
     <html
       lang="en"
-      className={cn(poppins.variable, GeistMono.variable, instrumentSerif.variable, "font-sans")}
+      className={cn(poppins.variable, GeistMono.variable, instrumentSerif.variable, footerFont.variable, "font-sans")}
     >
       <head>
         {/* Preconnect to external origins — saves 200-400ms DNS lookup on mobile */}

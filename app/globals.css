@@ -926,3 +926,7 @@ html[data-contrast="1"] main .cw-table thead th, html[data-contrast="1"] main .c
 .cw-code figcaption .cw-label { margin: 0 8px 0 0; color: #ffb48a; }
 .cw-code pre { margin: 0; padding: 14px 16px; overflow-x: auto; font-size: 13.5px; line-height: 1.6; tab-size: 2; }
 .cw-code code { background: transparent !important; color: inherit !important; padding: 0 !important; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; white-space: pre; }
+
+/* standard footer typography: keep page-level heading rules from changing the footer */
+footer#company h2 { letter-spacing: -0.015em !important; font-weight: 600 !important; color: #fff; }
+footer#company h3 { letter-spacing: 0.005em; opacity: 1; }
