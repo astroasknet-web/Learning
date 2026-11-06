@@ -1,0 +1,35 @@
+/* YugtyLearning additions on top of the Velora Learn base and division styles. */
+.yl-signin { display: none; }
+@media (min-width: 900px) { .yl-signin { display: inline-flex; } }
+.dv-hero-vis { transform: none !important; }
+.vl h3, .vl h4 { color: var(--ink); }
+.yl-search { margin-top: calc(var(--u) * 1.9); display: grid; gap: 10px; padding: 12px; border: 1px solid var(--line2); border-radius: 16px; background: rgba(6, 9, 22, 0.66); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); max-width: 44rem; }
+.yl-field input { width: 100%; min-height: 48px; padding: 0 14px; border: 1px solid var(--line); border-radius: 10px; background: rgba(255, 255, 255, 0.04); color: var(--ink); font: inherit; }
+.yl-field input::placeholder { color: var(--mut); }
+.yl-field input:focus { outline: 2px solid var(--a); outline-offset: 1px; }
+@media (min-width: 720px) { .yl-search { grid-template-columns: 1fr auto; } }
+.yl-quick { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; font-size: 0.8em; color: var(--mut); align-items: center; }
+.yl-quick a { padding: 0.3em 0.8em; border: 1px solid var(--line); border-radius: 99px; }
+.yl-quick a:hover { border-color: var(--a); color: #fff; }
+.yl-grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr)); }
+.yl-card { display: grid; gap: 10px; align-content: start; padding: 18px; border: 1px solid var(--line); border-radius: 16px; background: rgba(255, 255, 255, 0.03); transition: border-color 0.25s, transform 0.25s, background 0.25s; }
+.yl-card:hover { border-color: var(--a); transform: translateY(-3px); background: rgba(255, 255, 255, 0.05); }
+.yl-card i { width: 44px; height: 6px; border-radius: 99px; background: linear-gradient(90deg, var(--c1, #ffb02e), var(--c2, #ffd76a)); }
+.yl-card h3 { font-family: var(--vl-display), sans-serif; font-size: 1.05em; }
+.yl-card p { color: var(--mut); font-size: 0.88em; }
+.yl-card small { color: var(--a2); font-size: 0.78em; letter-spacing: 0.04em; }
+.yl-meta { display: flex; flex-wrap: wrap; gap: 6px; }
+.yl-meta span { padding: 0.25em 0.7em; border-radius: 99px; background: rgba(255, 255, 255, 0.06); font-size: 0.76em; color: var(--ink); }
+.yl-paths { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr)); }
+.yl-path { padding: 20px; border: 1px solid var(--line); border-radius: 16px; background: rgba(255, 255, 255, 0.025); }
+.yl-path h3 { font-family: var(--vl-display), sans-serif; }
+.yl-path > p { color: var(--mut); font-size: 0.86em; margin-bottom: 12px; }
+.yl-path ol { display: grid; gap: 8px; counter-reset: s; }
+.yl-path li a { display: flex; gap: 10px; align-items: center; padding: 0.55em 0.8em; border: 1px solid var(--line); border-radius: 10px; font-size: 0.88em; min-height: 44px; }
+.yl-path li a::before { counter-increment: s; content: counter(s); flex: none; width: 24px; height: 24px; border-radius: 50%; display: grid; place-content: center; font-size: 0.8em; font-weight: 700; color: #04060f; background: var(--a); }
+.yl-path li a:hover { border-color: var(--a); background: rgba(255, 255, 255, 0.05); }
+.yl-cats { display: flex; flex-wrap: wrap; gap: 10px; margin-top: calc(var(--u) * 1.4); }
+.yl-cats a { padding: 0.55em 1.1em; border: 1px solid var(--line); border-radius: 99px; font-size: 0.88em; min-height: 44px; display: inline-flex; align-items: center; gap: 8px; }
+.yl-cats a:hover { border-color: var(--a); background: rgba(255, 255, 255, 0.05); }
+.yl-cats small { color: var(--mut); }
+.yl-foot { background: #fff; position: relative; z-index: 2; color: #1a1a1a; }
