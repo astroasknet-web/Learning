@@ -53,7 +53,7 @@ export function CourseTracker({ course, e, back }: { course: Pick<Course, "slug"
   const total = checkpoints(course);
   const nc = nativeCourse(course.slug);
   if (nc) {
-    // Taught on GrowQR: progress comes only from passing the module quizzes, so there is nothing to tick by hand and no certificate link to paste.
+    // Taught on YugtyLearning: progress comes only from passing the module quizzes, so there is nothing to tick by hand and no certificate link to paste.
     return (
       <div id={`c-${course.slug}`} className="mt-3 rounded-xl bg-cream-2 p-3.5">
         <div className="flex items-center justify-between gap-2"><b className="text-[14px] text-ink">{e.progress}% complete</b><TierPill tier={e.tier} /></div>

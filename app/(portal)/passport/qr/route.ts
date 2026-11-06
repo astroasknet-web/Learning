@@ -18,6 +18,6 @@ export async function GET(req: Request) {
     const png = await QRCode.toBuffer(link, { type: "png", errorCorrectionLevel: "M", margin: 4, scale: 12, color: { dark: "#111827", light: "#ffffff" } });
     return new Response(new Uint8Array(png), { headers: { ...h, "Content-Type": "image/png", "Content-Disposition": 'attachment; filename="growqr-passport-qr.png"' } });
   }
-  const svg = (await QRCode.toString(link, { type: "svg", errorCorrectionLevel: "M", margin: 4, color: { dark: "#111827", light: "#ffffff" } })).replace("<svg ", '<svg role="img" aria-label="GrowQR Skill Passport QR code" ');
+  const svg = (await QRCode.toString(link, { type: "svg", errorCorrectionLevel: "M", margin: 4, color: { dark: "#111827", light: "#ffffff" } })).replace("<svg ", '<svg role="img" aria-label="YugtyLearning Skill Passport QR code" ');
   return new Response(svg, { headers: { ...h, "Content-Type": "image/svg+xml; charset=utf-8", "Content-Disposition": 'attachment; filename="growqr-passport-qr.svg"' } });
 }

@@ -6,7 +6,7 @@ import { AuthSplit } from "@/components/portal/auth-layout";
 import { GradientButton, Notice } from "@/components/portal/auth-controls";
 import { ResendVerification } from "@/components/portal/forms";
 
-export const metadata: Metadata = { title: "Confirm your email | GrowQR" };
+export const metadata: Metadata = { title: "Confirm your email | YugtyLearning" };
 export const dynamic = "force-dynamic";
 
 /**
@@ -23,7 +23,7 @@ export default async function VerifyEmailPage({ searchParams }: { searchParams: 
   if (sp.done) {
     return (
       <AuthSplit eyebrow="Your account" title="Email confirmed">
-        <Notice kind="success">Your email is verified. You can now {me?.role === "employer" ? "post roles" : "apply to internships"} on GrowQR.</Notice>
+        <Notice kind="success">Your email is verified. You can now {me?.role === "employer" ? "post roles" : "apply to internships"} on YugtyLearning.</Notice>
         <a href={home} className={btn}>{homeLabel}</a>
       </AuthSplit>
     );

@@ -236,7 +236,7 @@ T(12, "s12.address", "Local address registered where the law requires it", { sub
 T(12, "s12.checkin30", "30-day check-in call", { sub: "After-arrival support", o: "consultant", dep: ["s12.arrived"], ev: ["conf:consultant:Date and welfare notes"], t: 30, min: 5 });
 T(12, "s12.checkin90", "90-day check-in call", { sub: "After-arrival support", o: "consultant", dep: ["s12.checkin30"], ev: ["conf:consultant:Date and welfare notes"], t: 90, min: 5 });
 T(12, "s12.feedback", "Share feedback about your journey", { sub: "Alumni", dep: ["s12.enrolment"], ev: ["text:What worked and what to improve"], t: 45, a: "Give feedback" });
-T(12, "s12.alumni", "Joined the GrowQR alumni network", { sub: "Alumni", dep: ["s12.enrolment"], ev: ["conf:student:Joined; add your university and course"], t: 60, a: "Join alumni" });
+T(12, "s12.alumni", "Joined the YugtyLearning alumni network", { sub: "Alumni", dep: ["s12.enrolment"], ev: ["conf:student:Joined; add your university and course"], t: 60, a: "Join alumni" });
 
 // ---- 13. Internships abroad (opt-in track) ---------------------------------------------------------------------------------------------
 const IN = flag("wantsInternship");

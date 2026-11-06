@@ -7,7 +7,7 @@ import { studentOnly } from "@/lib/mathspeed/page";
 import { AGE_BANDS, COUNTRIES, LANGUAGES, PACES } from "@/lib/mathspeed/personalise";
 import { enrolAction } from "../actions";
 
-export const metadata: Metadata = { title: "Start the Mathematics Speed Enhancement Studio | GrowQR" };
+export const metadata: Metadata = { title: "Start the Mathematics Speed Enhancement Studio | YugtyLearning" };
 export const dynamic = "force-dynamic";
 
 const field = "mt-1 min-h-[48px] w-full rounded-lg border border-black/20 bg-white px-3 text-[15px] text-ink focus:border-orange focus:outline-none";

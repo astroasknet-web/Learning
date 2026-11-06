@@ -15,7 +15,7 @@ import { ResendVerification } from "@/components/portal/forms";
 import { listForUser, unreadFor } from "@/lib/support/store";
 import { StatusBadge } from "@/components/support/ui";
 
-export const metadata: Metadata = { title: "My account | GrowQR" };
+export const metadata: Metadata = { title: "My account | YugtyLearning" };
 export const dynamic = "force-dynamic";
 
 const ROLE_LABEL = { student: "Student", employer: "Employer", admin: "Administrator", counselor: "Staff", teacher: "Teacher", parent: "Parent" } as const;
@@ -33,7 +33,7 @@ export default async function AccountPage({ searchParams }: { searchParams: Prom
   const openTickets = tickets.filter((t) => t.status !== "closed" && t.status !== "resolved");
   return (
     <PortalPage user={me} active="account" title={`Hello, ${me.name.split(" ")[0]}`} subtitle={`${ROLE_LABEL[me.role]} account`}>
-      {sp.welcome ? <Alert kind="success">Welcome to GrowQR. Your account is ready.</Alert> : null}
+      {sp.welcome ? <Alert kind="success">Welcome to YugtyLearning. Your account is ready.</Alert> : null}
 
       {me.role === "student" ? <QrDashboard userId={me.id} name={me.name} justSaved={sp.scan === "1"} /> : null}
       {me.role === "student" ? <MyProducts userId={me.id} /> : null}

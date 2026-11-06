@@ -31,7 +31,7 @@ function localStandIn(): { host?: string; port?: string; protocol?: "http" | "ht
 function api(): Stripe {
   if (override) return override;
   if (!cfg.stripeSecret()) throw new ProviderError("Stripe is not configured", "stripe", false, "not_configured");
-  return (client ??= new Stripe(cfg.stripeSecret(), { maxNetworkRetries: 2, timeout: 20_000, appInfo: { name: "GrowQR payments" }, ...localStandIn() }));
+  return (client ??= new Stripe(cfg.stripeSecret(), { maxNetworkRetries: 2, timeout: 20_000, appInfo: { name: "YugtyLearning payments" }, ...localStandIn() }));
 }
 
 /** Turn an SDK error into a ProviderError that says whether trying again could help. */
@@ -116,7 +116,7 @@ export const stripe: PaymentProvider = {
           cancel_url: input.cancelUrl,
           expires_at: Math.floor(input.expiresAt.getTime() / 1000),
           metadata: { order_id: input.orderPublicId },
-          payment_intent_data: { metadata: { order_id: input.orderPublicId }, description: `GrowQR order ${input.orderPublicId}` },
+          payment_intent_data: { metadata: { order_id: input.orderPublicId }, description: `YugtyLearning order ${input.orderPublicId}` },
         },
         { idempotencyKey: input.idempotencyKey },
       );

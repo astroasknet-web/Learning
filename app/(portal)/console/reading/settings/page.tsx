@@ -6,7 +6,7 @@ import { DIMENSION_LABEL } from "@/lib/reading/taxonomy";
 import { adminGate } from "../../gate";
 import { configAction, levelAction } from "../actions";
 
-export const metadata: Metadata = { title: "Reading settings | Console | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Reading settings | Console | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 const num = `${field} w-28`;

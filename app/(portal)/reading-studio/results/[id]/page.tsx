@@ -9,7 +9,7 @@ import { getAssessment } from "@/lib/reading/store";
 import { buildResults } from "@/lib/reading/views";
 import { KIND_LABEL, type Kind } from "@/lib/reading/taxonomy";
 
-export const metadata: Metadata = { title: "Your reading results | English Reading Studio | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Your reading results | English Reading Studio | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 const dimText = (s: number | null): string => (s === null ? "Not assessed" : `${Math.round(s)} / 100`);

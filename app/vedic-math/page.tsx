@@ -8,7 +8,7 @@ import { formatMoney } from "@/lib/pay/money";
 export const dynamic = "force-dynamic"; // the price comes from the shop
 
 export const metadata: Metadata = {
-  title: "Vedic Mathematics Course: 30 Modules, Module 1 Free | GrowQR",
+  title: "Vedic Mathematics Course: 30 Modules, Module 1 Free | YugtyLearning",
   description: "A Vedic Mathematics course in 30 modules across three levels, with the 16 Sutras and 13 Sub-Sutras, theory, worked examples, practice and test banks, in English and Hindi.",
   alternates: { canonical: "/vedic-math" },
 };

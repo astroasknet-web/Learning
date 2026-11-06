@@ -7,9 +7,9 @@ import { LIMITS } from "@/lib/support/model";
 
 export const dynamic = "force-dynamic";
 
-const TITLE = "GrowQR Support: raise a ticket and track the reply";
-const DESC = "Get help with your GrowQR account, payments, courses, internships or study abroad. Log in, raise a ticket, and follow the conversation with our team.";
-export const metadata: Metadata = { title: TITLE, description: DESC, alternates: { canonical: `${SITE_URL}/support` }, openGraph: { type: "website", url: `${SITE_URL}/support`, siteName: "GrowQR", title: TITLE, description: DESC } };
+const TITLE = "YugtyLearning Support: raise a ticket and track the reply";
+const DESC = "Get help with your YugtyLearning account, payments, courses, internships or study abroad. Log in, raise a ticket, and follow the conversation with our team.";
+export const metadata: Metadata = { title: TITLE, description: DESC, alternates: { canonical: `${SITE_URL}/support` }, openGraph: { type: "website", url: `${SITE_URL}/support`, siteName: "YugtyLearning", title: TITLE, description: DESC } };
 
 const btn = "inline-flex min-h-[52px] items-center justify-center rounded-lg px-7 text-[16px] font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-deep";
 
@@ -27,7 +27,7 @@ export default async function SupportPage() {
       <header className="max-w-3xl">
         <p className="inline-flex items-center gap-2 text-[13px] font-semibold uppercase tracking-wider text-orange-deep"><LifeBuoy className="h-4 w-4" aria-hidden /> Support</p>
         <h1 className="mt-2 text-[clamp(1.9rem,4.5vw,2.8rem)] font-bold leading-tight text-ink">How can we help?</h1>
-        <p className="mt-3 text-[18px] leading-relaxed text-ink-2">Raise a ticket and our team will reply on the ticket and by email. Every ticket is linked to your GrowQR account, so you can follow it from your dashboard.</p>
+        <p className="mt-3 text-[18px] leading-relaxed text-ink-2">Raise a ticket and our team will reply on the ticket and by email. Every ticket is linked to your YugtyLearning account, so you can follow it from your dashboard.</p>
         <div className="mt-6 flex flex-wrap items-center gap-4">
           {me ? (
             <>
@@ -45,7 +45,7 @@ export default async function SupportPage() {
       </header>
 
       <ul className="mt-12 grid gap-4 md:grid-cols-3">
-        {[[MessageSquare, "One place for every conversation", "Replies arrive on the ticket and in your inbox. Add details whenever you need to."], [ShieldCheck, "Private to your account", "Only you and the GrowQR support team can see your ticket."], [LifeBuoy, "Clear status", `Open, in progress, waiting for you, resolved or closed. Up to ${LIMITS.openAtOnce} tickets can be open at once.`]].map(([Icon, t, d]) => {
+        {[[MessageSquare, "One place for every conversation", "Replies arrive on the ticket and in your inbox. Add details whenever you need to."], [ShieldCheck, "Private to your account", "Only you and the YugtyLearning support team can see your ticket."], [LifeBuoy, "Clear status", `Open, in progress, waiting for you, resolved or closed. Up to ${LIMITS.openAtOnce} tickets can be open at once.`]].map(([Icon, t, d]) => {
           const I = Icon as typeof LifeBuoy;
           return <li key={String(t)} className="rounded-2xl border border-black/[0.08] bg-white p-5 shadow-card"><I className="h-6 w-6 text-orange" aria-hidden /><h2 className="mt-2 text-[17px] font-semibold text-ink">{String(t)}</h2><p className="mt-1 text-[14.5px] text-ink-3">{String(d)}</p></li>;
         })}

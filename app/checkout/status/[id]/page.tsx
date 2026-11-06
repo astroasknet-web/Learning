@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageShell from "@/components/layout/PageShell";
 import OrderStatus from "@/components/pay/OrderStatus";
 
-export const metadata: Metadata = { title: "Your order | GrowQR", robots: { index: false, follow: false }, referrer: "no-referrer" };
+export const metadata: Metadata = { title: "Your order | YugtyLearning", robots: { index: false, follow: false }, referrer: "no-referrer" };
 export const dynamic = "force-dynamic";
 
 /** Where the customer lands after paying (also the Stripe success and cancel URL). The optional `?k=` is the guest order's access token. */

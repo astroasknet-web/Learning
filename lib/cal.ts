@@ -112,7 +112,7 @@ export const eventTypeLabel = (id: number | null | undefined): string =>
 // ── Booking URL ─────────────────────────────────────────────────────────────
 
 /**
- * GrowQR people who join every B2B call alongside the host.
+ * YugtyLearning people who join every B2B call alongside the host.
  *
  * Sahil owns the Cal event type, so he is the HOST and is on the invite by
  * definition — he must never appear here, or Cal would list him twice.
@@ -134,7 +134,7 @@ export const eventTypeLabel = (id: number | null | undefined): string =>
 export const B2B_CALL_GUESTS = ["pranav@growqr.ai", "kanika@growqr.ai"] as const;
 
 /**
- * GrowQR people who join every B2C call alongside the host.
+ * YugtyLearning people who join every B2C call alongside the host.
  *
  * Ruchi runs the consumer conversations, the same way Kanika runs the business
  * ones — so the split here mirrors the split the whole booking pipeline is

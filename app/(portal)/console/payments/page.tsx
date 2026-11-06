@@ -8,7 +8,7 @@ import { databaseConfigured } from "@/lib/portal/db";
 import { payGate } from "./gate";
 import { money, PayConsole, when } from "./nav";
 
-export const metadata: Metadata = { title: "Payments | GrowQR admin" };
+export const metadata: Metadata = { title: "Payments | YugtyLearning admin" };
 export const dynamic = "force-dynamic";
 
 const STATUSES = ["pending", "paid", "fulfilled", "failed", "cancelled", "expired", "partially_refunded", "refunded", "disputed"];

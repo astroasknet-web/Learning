@@ -25,8 +25,8 @@ async function load(params: P["params"]) {
 
 export async function generateMetadata({ params }: P): Promise<Metadata> {
   const { ex, ch, test } = await load(params);
-  if (!ex || !ch || !test) return { title: "Test not found | GrowQR", robots: { index: false, follow: true } };
-  return { title: `${ch.title}: ${test.title} (${ex.title}) | GrowQR`, description: `Timed ${ex.title} mock test on ${ch.title}, ${test.time_limit_minutes} minutes, with worked solutions.`, robots: { index: true, follow: true } };
+  if (!ex || !ch || !test) return { title: "Test not found | YugtyLearning", robots: { index: false, follow: true } };
+  return { title: `${ch.title}: ${test.title} (${ex.title}) | YugtyLearning`, description: `Timed ${ex.title} mock test on ${ch.title}, ${test.time_limit_minutes} minutes, with worked solutions.`, robots: { index: true, follow: true } };
 }
 
 export default async function TestPage({ params }: P) {

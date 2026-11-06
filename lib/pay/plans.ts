@@ -68,7 +68,7 @@ export const hasPurchasedCourse = (userId: number, slug: string, db: Db = pool):
 
 /**
  * Use one of the plan's course picks on a course. The course must be one of `eligible`, the courses recommended after the student's resume scan
- * (lib/pay/plan-recommend.ts; the caller passes them, and they are all taught on GrowQR). A course already bought needs no pick.
+ * (lib/pay/plan-recommend.ts; the caller passes them, and they are all taught on YugtyLearning). A course already bought needs no pick.
  */
 export async function pickCourse(userId: number, course: { id: number; slug: string }, eligible: string[], db?: Db): Promise<"picked" | "already"> {
   // One pick at a time per student: the student's row is locked while the picks are counted and written, so quick double clicks cannot exceed the plan.

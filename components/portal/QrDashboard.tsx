@@ -15,7 +15,7 @@ const ICON: Record<GroupKey, LucideIcon> = { improve: FileText, learn: BookOpen,
 const tone = (pct: number): string => (pct >= 75 ? "bg-emerald-500" : pct >= 50 ? "bg-amber-500" : "bg-rose-500");
 
 /**
- * The top of a student's dashboard: their QR Score with its QR code and readable QR ID, then every GrowQR service worth doing next, ordered by what their
+ * The top of a student's dashboard: their QR Score with its QR code and readable QR ID, then every YugtyLearning service worth doing next, ordered by what their
  * own resume needs. Without a scored resume it asks for one first; the rest of the dashboard is unchanged.
  */
 export default async function QrDashboard({ userId, name, justSaved = false }: { userId: number; name: string; justSaved?: boolean }) {

@@ -117,8 +117,8 @@ export async function issue(code: string, passport: Record<string, unknown>, now
     "@context": [CONTEXT_VC, CONTEXT_OB3, b + "passport-context.jsonld"],
     id: "urn:uuid:" + jti,
     type: ["VerifiableCredential", "OpenBadgeCredential"],
-    name: "GrowQR Verified Skill Passport",
-    issuer: { id: issuerDid, type: ["Profile"], name: "GrowQR", url: b },
+    name: "YugtyLearning Verified Skill Passport",
+    issuer: { id: issuerDid, type: ["Profile"], name: "YugtyLearning", url: b },
     validFrom: isoZ(now),
     validUntil: isoZ(exp),
     credentialSubject: {
@@ -128,11 +128,11 @@ export async function issue(code: string, passport: Record<string, unknown>, now
         id: b + "v/" + code,
         type: ["Achievement"],
         achievementType: "Assessment",
-        name: "GrowQR Skill Passport",
+        name: "YugtyLearning Skill Passport",
         description: "A snapshot of a learner's resume quality score, skills and completed courses, chosen and published by the learner.",
         criteria: {
           narrative:
-            "The RQ Score is computed by GrowQR's deterministic, rule-based resume scoring engine from a resume submitted by the holder. GrowQR has not verified identity, employment or education history. Course evidence is labelled LMS-verified, certificate link or self-reported.",
+            "The RQ Score is computed by YugtyLearning's deterministic, rule-based resume scoring engine from a resume submitted by the holder. YugtyLearning has not verified identity, employment or education history. Course evidence is labelled LMS-verified, certificate link or self-reported.",
         },
       },
       passport,
@@ -211,11 +211,11 @@ export async function verify(input: string, now: number = Math.floor(Date.now() 
   const keys = await publicKeys();
   const issuerDid = await did();
   if (kid === "" || !keys.has(kid)) {
-    res.reasons.push("Signed with a key that GrowQR has not published. This credential did not come from GrowQR.");
-    res.steps.push(["Issuer key", "The signing key must be one of the keys published by GrowQR.", false]);
+    res.reasons.push("Signed with a key that YugtyLearning has not published. This credential did not come from YugtyLearning.");
+    res.steps.push(["Issuer key", "The signing key must be one of the keys published by YugtyLearning.", false]);
     return res;
   }
-  res.steps.push(["Issuer key", `Key ${kid} is published by GrowQR (${issuerDid}).`, true]);
+  res.steps.push(["Issuer key", `Key ${kid} is published by YugtyLearning (${issuerDid}).`, true]);
 
   let good = false;
   try {
@@ -224,11 +224,11 @@ export async function verify(input: string, now: number = Math.floor(Date.now() 
     good = false;
   }
   if (!good) {
-    res.reasons.push("The signature does not match. The content was changed after GrowQR signed it.");
+    res.reasons.push("The signature does not match. The content was changed after YugtyLearning signed it.");
     res.steps.push(["Signature", "The signature must match the exact content.", false]);
     return res;
   }
-  res.steps.push(["Signature", "The signature matches the exact content: nothing has been changed since GrowQR signed it.", true]);
+  res.steps.push(["Signature", "The signature matches the exact content: nothing has been changed since YugtyLearning signed it.", true]);
   res.payload = payload;
 
   const from = Date.parse(String(payload.validFrom ?? "")) / 1000;
@@ -249,13 +249,13 @@ export async function verify(input: string, now: number = Math.floor(Date.now() 
   const jti = String(payload.id ?? "").replace(/^urn:uuid:/, "");
   const row = jti !== "" ? await one<{ status: string }>("SELECT status FROM passport_credentials WHERE jti = $1", [jti]) : null;
   if (!row) {
-    res.reasons.push("GrowQR has no record of this credential.");
-    res.steps.push(["Status", "GrowQR must have issued it and not withdrawn it.", false]);
+    res.reasons.push("YugtyLearning has no record of this credential.");
+    res.steps.push(["Status", "YugtyLearning must have issued it and not withdrawn it.", false]);
     return res;
   }
   if (row.status === "revoked") {
     res.state = "revoked";
-    res.reasons.push("The holder withdrew this passport, or GrowQR revoked it.");
+    res.reasons.push("The holder withdrew this passport, or YugtyLearning revoked it.");
     res.steps.push(["Status", "Withdrawn or revoked.", false]);
     return res;
   }

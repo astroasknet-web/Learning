@@ -11,7 +11,7 @@ import { quoteOrder, quoteSchema, type Quote } from "@/lib/pay/quote";
 import { paymentsPreview } from "@/lib/pay/providers";
 import PreviewBanner from "@/components/pay/PreviewBanner";
 
-export const metadata: Metadata = { title: "Checkout | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Checkout | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 /** Countries are guessed from the edge header when the host sends one (Cloudflare, Vercel). It is only a starting point the customer can change. */

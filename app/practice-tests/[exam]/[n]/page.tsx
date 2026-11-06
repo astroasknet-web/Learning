@@ -24,13 +24,13 @@ const kindOf = (exam: string): ielts.Kind | null => {
 
 export async function generateMetadata({ params, searchParams }: { params: Promise<{ exam: string; n: string }>; searchParams: Promise<Record<string, string | undefined>> }): Promise<Metadata> {
   const p = await params;
-  if ((await searchParams).a !== undefined) return { title: "Your result | GrowQR", robots: { index: false, follow: false } };
+  if ((await searchParams).a !== undefined) return { title: "Your result | YugtyLearning", robots: { index: false, follow: false } };
   const kind = kindOf(p.exam);
   const n = Number(p.n);
-  if (p.exam === "gre-quant" && gre.validNumber(n)) return { title: `GRE Quant Practice Test ${n} | GrowQR`, description: `Timed GRE Quantitative Reasoning practice test ${n}: ${gre.QUESTIONS} questions, instant marking and an explanation for every question.`, alternates: { canonical: `${SITE_URL}/practice-tests/gre-quant/${n}` }, robots: { index: true, follow: true } };
-  if (!kind || !ielts.validNumber(n)) return { title: "Practice test | GrowQR", robots: { index: false, follow: true } };
+  if (p.exam === "gre-quant" && gre.validNumber(n)) return { title: `GRE Quant Practice Test ${n} | YugtyLearning`, description: `Timed GRE Quantitative Reasoning practice test ${n}: ${gre.QUESTIONS} questions, instant marking and an explanation for every question.`, alternates: { canonical: `${SITE_URL}/practice-tests/gre-quant/${n}` }, robots: { index: true, follow: true } };
+  if (!kind || !ielts.validNumber(n)) return { title: "Practice test | YugtyLearning", robots: { index: false, follow: true } };
   return {
-    title: `${LABEL[kind]} Practice Test ${n} | GrowQR`,
+    title: `${LABEL[kind]} Practice Test ${n} | YugtyLearning`,
     description: `Timed ${LABEL[kind]} practice test ${n}: ${ielts.QUESTIONS} questions, instant marking, an indicative band and an explanation for every answer.`,
     alternates: { canonical: `${SITE_URL}/practice-tests/ielts-${kind}/${n}` },
     robots: { index: true, follow: true },

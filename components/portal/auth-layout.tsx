@@ -57,14 +57,14 @@ export async function AuthSplit({ title, subtitle, children, eyebrow = "Welcome"
   const S = stats(facts);
   return (
     <div className="grid min-h-screen lg:grid-cols-[1.02fr_1fr]">
-      <aside className="auth-panel relative hidden flex-col justify-between gap-8 overflow-hidden p-12 text-white lg:flex" aria-label="About GrowQR">
+      <aside className="auth-panel relative hidden flex-col justify-between gap-8 overflow-hidden p-12 text-white lg:flex" aria-label="About YugtyLearning">
         <span className="auth-orb -left-16 top-24 h-72 w-72 bg-[#7857ff]" aria-hidden />
         <span className="auth-orb bottom-10 right-0 h-64 w-64 bg-[#ff6a2f]" style={{ animationDelay: "-6s" }} aria-hidden />
         <span className="auth-orb left-1/3 top-1/2 h-48 w-48 bg-[#ec4899]" style={{ animationDelay: "-11s" }} aria-hidden />
         <div className="relative z-10">
-          <Link href="/" className="inline-flex items-center gap-2.5 text-[22px] font-bold tracking-tight" aria-label="GrowQR home">
+          <Link href="/" className="inline-flex items-center gap-2.5 text-[22px] font-bold tracking-tight" aria-label="YugtyLearning home">
             <span className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-to-br from-[#ff6a2f] to-[#ec4899] text-white shadow-lg"><QrCode className="h-5 w-5" aria-hidden /></span>
-            GrowQR
+            YugtyLearning
           </Link>
         </div>
         <div className="relative z-10 max-w-[30rem]">
@@ -97,9 +97,9 @@ export async function AuthSplit({ title, subtitle, children, eyebrow = "Welcome"
       <main className="auth-side flex flex-col justify-center px-4 py-8 sm:px-10">
         <div className="auth-form relative mx-auto w-full max-w-[480px] overflow-hidden rounded-[28px] p-6 sm:p-9">
           <span className="auth-stripe absolute inset-x-0 top-0 h-1.5" aria-hidden />
-          <Link href="/" className="mb-6 flex w-fit items-center gap-2 text-[19px] font-bold tracking-tight text-ink lg:hidden" aria-label="GrowQR home">
+          <Link href="/" className="mb-6 flex w-fit items-center gap-2 text-[19px] font-bold tracking-tight text-ink lg:hidden" aria-label="YugtyLearning home">
             <span className="grid h-8 w-8 place-items-center rounded-lg bg-gradient-to-br from-[#ff6a2f] to-[#ec4899] text-white"><QrCode className="h-4 w-4" aria-hidden /></span>
-            GrowQR
+            YugtyLearning
           </Link>
           <p className="inline-block rounded-full bg-[#7857ff]/10 px-3 py-1 text-[11.5px] font-bold uppercase tracking-[0.16em] text-[#5b3fe0]">{eyebrow}</p>
           <h1 className="mt-3 text-[30px] font-extrabold leading-tight tracking-tight text-ink">{title}</h1>

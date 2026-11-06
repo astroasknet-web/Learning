@@ -15,8 +15,8 @@ export function generateStaticParams() { return STUDY_KEYS.map((course) => ({ co
 
 export async function generateMetadata({ params }: P): Promise<Metadata> {
   const c = studyIndex(clean((await params).course));
-  if (!c) return { title: "Course not found | GrowQR", robots: { index: false, follow: true } };
-  return { title: `${c.title}: Course, ${chapterCount(c)} Chapters | GrowQR`, description: c.blurb, alternates: { canonical: `/study/${c.key}` } };
+  if (!c) return { title: "Course not found | YugtyLearning", robots: { index: false, follow: true } };
+  return { title: `${c.title}: Course, ${chapterCount(c)} Chapters | YugtyLearning`, description: c.blurb, alternates: { canonical: `/study/${c.key}` } };
 }
 
 export default async function StudyCourse({ params }: P) {

@@ -7,7 +7,7 @@ import { studentPage } from "@/lib/reading/page";
 import { buildProgress } from "@/lib/reading/views";
 import { KIND_LABEL, type Kind } from "@/lib/reading/taxonomy";
 
-export const metadata: Metadata = { title: "My reading progress | English Reading Studio | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "My reading progress | English Reading Studio | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 export default async function ProgressPage() {

@@ -8,11 +8,11 @@ import { SITE_URL } from "@/lib/seo";
 
 export const dynamic = "force-dynamic";
 
-const TITLE = "Mathematics Studio: One Performance Engine for Every Maths Test | GrowQR";
-const DESC = "Every maths test you take on GrowQR feeds one intelligence engine: topic-by-topic mastery, evidence-based weakness detection, interactive charts and a personalised practice plan. A free summary stays open to everyone.";
+const TITLE = "Mathematics Studio: One Performance Engine for Every Maths Test | YugtyLearning";
+const DESC = "Every maths test you take on YugtyLearning feeds one intelligence engine: topic-by-topic mastery, evidence-based weakness detection, interactive charts and a personalised practice plan. A free summary stays open to everyone.";
 export const metadata: Metadata = {
   title: TITLE, description: DESC, alternates: { canonical: `${SITE_URL}/math-studio` },
-  openGraph: { type: "website", url: `${SITE_URL}/math-studio`, siteName: "GrowQR", title: TITLE, description: DESC },
+  openGraph: { type: "website", url: `${SITE_URL}/math-studio`, siteName: "YugtyLearning", title: TITLE, description: DESC },
   twitter: { card: "summary_large_image", title: TITLE, description: DESC },
 };
 const btn = "inline-flex min-h-[54px] items-center justify-center rounded-full px-8 text-[16px] font-semibold transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2";
@@ -30,7 +30,7 @@ const WHY: Array<[string, string]> = [
   ["Honest by design", "Scores are provisional and labelled so; reading speed is only measured where a test records it; nothing invents a weakness to sell a plan."],
 ];
 const FAQ: Array<[string, string]> = [
-  ["How does it get my results?", "Automatically. When you finish a maths test on GrowQR, it is normalised into the Studio in the background. Your history is backfilled too, so the Studio is complete the day you open it."],
+  ["How does it get my results?", "Automatically. When you finish a maths test on YugtyLearning, it is normalised into the Studio in the background. Your history is backfilled too, so the Studio is complete the day you open it."],
   ["Which tests does it cover today?", "The GRE Quant mocks and the Mathematics Speed studio. The engine is built around a standard integration contract, so new maths tests connect through a small adapter without rebuilding it."],
   ["Is the scoring done by AI?", "No. Scores come from fixed, published formulas on our server — a Bayesian mastery estimate, difficulty-weighted accuracy and robust speed statistics. They are provisional: the weights are starting values, not yet validated against real outcomes, and we say so."],
   ["What is free?", "An overall performance score, your accuracy and counts, your three weakest topics, a basic progress trend and a preview of the plan. The full topic breakdown, weakness diagnosis, charts, plan and question-level analysis are the premium Studio."],
@@ -43,7 +43,7 @@ export default async function MathStudioLanding() {
   const fee = databaseConfigured() ? await feeNow().catch(() => null) : null;
   const price = fee ? `₹${(fee.amountMinor / 100).toLocaleString("en-IN")}` : null;
   const cta = student ? { href: "/math-studio/dashboard", label: "Open my Mathematics Studio" } : { href: `/login?next=${encodeURIComponent("/math-studio")}`, label: "Open my Studio (free summary)" };
-  const jsonld = { "@context": "https://schema.org", "@type": "Course", name: "Mathematics Studio", description: DESC, url: `${SITE_URL}/math-studio`, provider: { "@type": "Organization", name: "GrowQR", url: SITE_URL }, inLanguage: "en", ...(fee ? { offers: { "@type": "Offer", category: "Paid", price: String(fee.amountMinor / 100), priceCurrency: "INR", url: `${SITE_URL}/math-studio` } } : {}) };
+  const jsonld = { "@context": "https://schema.org", "@type": "Course", name: "Mathematics Studio", description: DESC, url: `${SITE_URL}/math-studio`, provider: { "@type": "Organization", name: "YugtyLearning", url: SITE_URL }, inLanguage: "en", ...(fee ? { offers: { "@type": "Offer", category: "Paid", price: String(fee.amountMinor / 100), priceCurrency: "INR", url: `${SITE_URL}/math-studio` } } : {}) };
   const faqLd = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: FAQ.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) };
   return (
     <MarketShell user={me} active="courses">
@@ -57,7 +57,7 @@ export default async function MathStudioLanding() {
           <p className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3.5 py-1.5 text-[12.5px] font-semibold text-white backdrop-blur"><span aria-hidden className="h-2 w-2 rounded-full bg-emerald-400" />One engine · every maths test · one profile</p>
           <h1 id="h" className="mt-5 text-[clamp(2.3rem,6vw,4.2rem)] font-bold leading-[1.03] tracking-tight text-white">Mathematics Studio</h1>
           <p className="mt-4 text-[clamp(1.1rem,2.4vw,1.5rem)] font-medium leading-snug text-[#8FB6E6]">Stop reading report cards. Start fixing the maths.</p>
-          <p className="mt-4 max-w-2xl text-[17.5px] leading-relaxed text-white/80">Every maths test you take on GrowQR feeds one performance engine: topic-by-topic mastery, evidence-based weaknesses, interactive charts and a practice plan built from your own results.</p>
+          <p className="mt-4 max-w-2xl text-[17.5px] leading-relaxed text-white/80">Every maths test you take on YugtyLearning feeds one performance engine: topic-by-topic mastery, evidence-based weaknesses, interactive charts and a practice plan built from your own results.</p>
           <div className="mt-8 flex flex-wrap items-center gap-4"><Link href={cta.href} className={`${btn} bg-orange text-white shadow-glow hover:bg-orange-dark focus-visible:outline-white`}>{cta.label}</Link><a href="#how" className={`${btn} border border-white/30 text-white hover:bg-white/10 focus-visible:outline-white`}>How it works</a></div>
           <p className="mt-4 text-[14px] text-white/65">Free summary for every student. {price ? `Full Studio ${price}, paid once.` : ""} No card to start.</p>
         </div>

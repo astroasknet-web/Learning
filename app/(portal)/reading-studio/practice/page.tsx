@@ -5,7 +5,7 @@ import { studentPage } from "@/lib/reading/page";
 import { hasPremium } from "@/lib/reading/access";
 import { SKILLS, isSkill } from "@/lib/reading/taxonomy";
 
-export const metadata: Metadata = { title: "Practice | English Reading Studio | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Practice | English Reading Studio | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 /** Where chart links and plan days land: says what the practice is, then a button starts it (starting is a form post, never a link). */

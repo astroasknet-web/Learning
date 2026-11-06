@@ -6,7 +6,7 @@ import { studentPage } from "@/lib/reading/page";
 import { getAssessment, runnerState } from "@/lib/reading/store";
 import { KIND_LABEL } from "@/lib/reading/taxonomy";
 
-export const metadata: Metadata = { title: "Reading assessment | English Reading Studio | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Reading assessment | English Reading Studio | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 export default async function AssessmentPage({ params }: { params: Promise<{ id: string }> }) {

@@ -97,7 +97,7 @@ export const MENUS: NavMenu[] = [
         links: [
           { label: "Internships", desc: "Verified employers, no application fees", href: SCORE_URL, icon: "briefcase", badge: "Verified" },
           { label: "Application tracker", desc: "See every stage and employer response", href: "/applications", icon: "tracker", account: true },
-          { label: "GrowQR Internship", desc: "Join the GrowQR team as an intern", href: "/growqr-internship", icon: "rocket" },
+          { label: "YugtyLearning Internship", desc: "Join the YugtyLearning team as an intern", href: "/growqr-internship", icon: "rocket" },
         ],
       },
       {
@@ -170,7 +170,7 @@ export const MENUS: NavMenu[] = [
           { label: "Contact", desc: "Talk to the team", href: "/contact", icon: "contact" },
           { label: "Pricing", desc: "Free, Pro, Silver and Gold", href: "/pricing", icon: "money" },
           { label: "About", desc: "Who we are", href: "/about", icon: "about" },
-          { label: "Vision", desc: "Where GrowQR is headed", href: "/vision", icon: "vision" },
+          { label: "Vision", desc: "Where YugtyLearning is headed", href: "/vision", icon: "vision" },
         ],
       },
     ],

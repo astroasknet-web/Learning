@@ -5,7 +5,7 @@ import { btnDark, btnLine, box, ConsolePage, Stats } from "@/components/admin/co
 import { adminGate } from "./gate";
 import { roleDecisionAction } from "./actions";
 
-export const metadata: Metadata = { title: "Admin review queue | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Admin review queue | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 export default async function Queue() {

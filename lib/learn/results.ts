@@ -58,7 +58,7 @@ export async function recordQuiz(userId: number, slug: string, module: string, p
 
 /**
  * Turn demonstrated skills into course progress: tick a module's checkpoint once its quiz and every required activity are passed,
- * then mark the course GrowQR-verified when all checkpoints are done. Earlier ticks are kept (they came from the quiz-only rule).
+ * then mark the course YugtyLearning-verified when all checkpoints are done. Earlier ticks are kept (they came from the quiz-only rule).
  * Returns what changed so the page can say so.
  */
 export async function reconcile(userId: number, slug: string): Promise<{ ticked: number[]; completed: boolean; pending: string[] }> {

@@ -25,7 +25,7 @@ export const cfg = {
   defaultCurrency: () => (env("PAY_DEFAULT_CURRENCY") || "INR").toUpperCase(),
   /** Sent in the receipt and on the checkout page. */
   seller: () => ({
-    name: env("PAY_SELLER_NAME") || "GrowQR",
+    name: env("PAY_SELLER_NAME") || "YugtyLearning",
     address: env("PAY_SELLER_ADDRESS"),
     taxId: env("PAY_SELLER_TAX_ID"),
     email: env("PAY_SUPPORT_EMAIL") || env("PORTAL_ADMIN_EMAIL"),

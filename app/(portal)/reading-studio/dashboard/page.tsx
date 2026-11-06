@@ -9,7 +9,7 @@ import { KIND_LABEL, type Kind } from "@/lib/reading/taxonomy";
 import type { Track } from "@/lib/reading/access";
 import { chooseTracksAction, studyMinutesAction } from "../actions";
 
-export const metadata: Metadata = { title: "My English Reading Studio | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "My English Reading Studio | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 const HUE: Record<Track, string> = { skills: "#0F766E", indian: "#B4530F", international: "#1F4E79" };

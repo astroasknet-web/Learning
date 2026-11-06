@@ -15,8 +15,8 @@ export function generateStaticParams() { return EXAMS.map((e) => ({ exam: e.slug
 
 export async function generateMetadata({ params }: P): Promise<Metadata> {
   const ex = exam(clean((await params).exam));
-  if (!ex) return { title: "Course not found | GrowQR", robots: { index: false, follow: true } };
-  return { title: `${ex.title}: Chapters, Notes and Mock Tests | GrowQR`, description: `${ex.title} preparation: ${totalChapters(ex)} chapters with notes, worked examples, quick quizzes and timed mock tests.`, alternates: { canonical: `/learn/${ex.slug}` } };
+  if (!ex) return { title: "Course not found | YugtyLearning", robots: { index: false, follow: true } };
+  return { title: `${ex.title}: Chapters, Notes and Mock Tests | YugtyLearning`, description: `${ex.title} preparation: ${totalChapters(ex)} chapters with notes, worked examples, quick quizzes and timed mock tests.`, alternates: { canonical: `/learn/${ex.slug}` } };
 }
 
 export default async function ExamPage({ params }: P) {

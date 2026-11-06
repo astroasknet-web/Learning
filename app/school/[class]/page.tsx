@@ -11,8 +11,8 @@ export function generateStaticParams() { return CLASSES.map((c) => ({ class: c }
 
 export async function generateMetadata({ params }: P): Promise<Metadata> {
   const c = clean((await params).class);
-  if (!isClass(c)) return { title: "Class not found | GrowQR", robots: { index: false, follow: true } };
-  return { title: `Class ${classNumber(c)} Free Lessons and Tests | GrowQR`, description: `Free Class ${classNumber(c)} lessons, worked examples, quizzes and chapter tests: ${subjectsOfClass(c).map((s) => s.label).join(", ")}.`, alternates: { canonical: `/school/${c}` } };
+  if (!isClass(c)) return { title: "Class not found | YugtyLearning", robots: { index: false, follow: true } };
+  return { title: `Class ${classNumber(c)} Free Lessons and Tests | YugtyLearning`, description: `Free Class ${classNumber(c)} lessons, worked examples, quizzes and chapter tests: ${subjectsOfClass(c).map((s) => s.label).join(", ")}.`, alternates: { canonical: `/school/${c}` } };
 }
 
 export default async function ClassPage({ params }: P) {

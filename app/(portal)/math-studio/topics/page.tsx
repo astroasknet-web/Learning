@@ -7,7 +7,7 @@ import { buildTopics } from "@/lib/mathstudio/views";
 import { AREAS } from "@/lib/mathstudio/taxonomy";
 import { EVIDENCE_LABEL } from "@/lib/mathstudio/taxonomy";
 
-export const metadata: Metadata = { title: "Topic mastery | Mathematics Studio | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Topic mastery | Mathematics Studio | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 const BAND: Record<string, string> = { support: "Needs work", developing: "Developing", progressing: "Progressing", secure: "Secure" };

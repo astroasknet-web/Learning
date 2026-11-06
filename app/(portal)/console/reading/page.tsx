@@ -5,7 +5,7 @@ import { adminStats, contentQuality, recentAudit } from "@/lib/reading/admin";
 import { ensureSeed } from "@/lib/reading/store";
 import { adminGate } from "../gate";
 
-export const metadata: Metadata = { title: "Reading Studio | Console | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Reading Studio | Console | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 const th = "py-2 pr-3 text-left font-medium text-ink-4";

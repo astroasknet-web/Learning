@@ -10,7 +10,7 @@ import { rateAction, replyAction } from "../../actions";
 import { captchaMode, turnstileSiteKey } from "@/lib/portal/captcha";
 import { CheckedSubmit } from "@/components/support/checked-submit";
 
-export const metadata: Metadata = { title: "Support ticket | GrowQR" };
+export const metadata: Metadata = { title: "Support ticket | YugtyLearning" };
 export const dynamic = "force-dynamic";
 
 export default async function TicketPage({ params, searchParams }: { params: Promise<{ no: string }>; searchParams: Promise<Record<string, string | undefined>> }) {

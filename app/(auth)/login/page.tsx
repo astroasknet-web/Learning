@@ -10,7 +10,7 @@ import { AuthSplit, SocialButtons } from "@/components/portal/auth-layout";
 import { Notice } from "@/components/portal/auth-controls";
 import { LoginForm } from "@/components/portal/forms";
 
-export const metadata: Metadata = { title: "Log in | GrowQR", robots: { index: false, follow: true } };
+export const metadata: Metadata = { title: "Log in | YugtyLearning", robots: { index: false, follow: true } };
 export const dynamic = "force-dynamic";
 
 export default async function LoginPage({ searchParams }: { searchParams: Promise<Record<string, string | undefined>> }) {

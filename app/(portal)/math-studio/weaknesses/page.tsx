@@ -7,7 +7,7 @@ import { buildWeaknesses } from "@/lib/mathstudio/views";
 import { EVIDENCE_LABEL } from "@/lib/mathstudio/taxonomy";
 import { PRIORITY_LABEL } from "@/lib/mathstudio/recommend";
 
-export const metadata: Metadata = { title: "Weakness analysis | Mathematics Studio | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Weakness analysis | Mathematics Studio | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 const prio = (k: string) => (k === "foundational" ? 1 : k === "slow" || k === "hurried" ? 3 : 2) as 1 | 2 | 3;
 

@@ -5,7 +5,7 @@ versioned workflow. Every task has an owner, status, due date, dependencies, req
 event history. **A task never completes because a page was opened or a button was clicked**: completion needs the evidence the task asks for, a
 written note, and (for reviewed tasks) a staff approval.
 
-Branch `feat/overseas-journey` (worktree `growqr-overseas`). Not merged to GrowQR `main`.
+Branch `feat/overseas-journey` (worktree `growqr-overseas`). Not merged to YugtyLearning `main`.
 
 ## 1. What was found in the codebase (inspection)
 

@@ -7,7 +7,7 @@ import { studentPage } from "@/lib/mathstudio/page";
 import { buildAttempt } from "@/lib/mathstudio/views";
 import { COGNITIVE_LABEL } from "@/lib/mathstudio/taxonomy";
 
-export const metadata: Metadata = { title: "Attempt analysis | Mathematics Studio | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Attempt analysis | Mathematics Studio | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 const DL = ["", "Foundational", "Easy", "Medium", "Hard", "Advanced"];
 

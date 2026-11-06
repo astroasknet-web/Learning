@@ -9,7 +9,7 @@ import { newTicketAction } from "../actions";
 import { captchaMode, turnstileSiteKey } from "@/lib/portal/captcha";
 import { CheckedSubmit } from "@/components/support/checked-submit";
 
-export const metadata: Metadata = { title: "Raise a support ticket | GrowQR" };
+export const metadata: Metadata = { title: "Raise a support ticket | YugtyLearning" };
 export const dynamic = "force-dynamic";
 
 export default async function NewTicketPage({ searchParams }: { searchParams: Promise<Record<string, string | undefined>> }) {

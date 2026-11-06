@@ -12,12 +12,12 @@ export const dynamic = "force-dynamic";
 
 export async function generateMetadata({ params }: { params: Promise<{ n: string }> }): Promise<Metadata> {
   const { n } = await params;
-  if (!databaseConfigured()) return { title: "Reading test | GrowQR" };
+  if (!databaseConfigured()) return { title: "Reading test | YugtyLearning" };
   const d = await essayDetail(Number(n), null);
-  if (!d) return { title: "Reading test | GrowQR" };
-  const title = `${d.card.title}: essay reading test | GrowQR`;
+  if (!d) return { title: "Reading test | YugtyLearning" };
+  const title = `${d.card.title}: essay reading test | YugtyLearning`;
   const description = `A ${d.card.words}-word essay and ${d.card.questions} exam-style questions on ${d.card.themeName.toLowerCase()}, good practice for ${d.card.exams.join(", ")}. Scored and analysed by the English Reading Studio.`;
-  return { title, description, alternates: { canonical: `${SITE_URL}/reading-tests/${d.card.n}` }, openGraph: { title, description, url: `${SITE_URL}/reading-tests/${d.card.n}`, siteName: "GrowQR", type: "article" } };
+  return { title, description, alternates: { canonical: `${SITE_URL}/reading-tests/${d.card.n}` }, openGraph: { title, description, url: `${SITE_URL}/reading-tests/${d.card.n}`, siteName: "YugtyLearning", type: "article" } };
 }
 
 const btn = "inline-flex min-h-[54px] items-center justify-center rounded-full px-8 text-[16px] font-semibold transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2";

@@ -7,7 +7,7 @@ import { Card, PortalPage } from "@/components/portal/shell";
 import { Alert } from "@/components/portal/ui";
 import { joinClassAction, leaveClassAction } from "./actions";
 
-export const metadata: Metadata = { title: "My classes | GrowQR" };
+export const metadata: Metadata = { title: "My classes | YugtyLearning" };
 export const dynamic = "force-dynamic";
 
 const field = "min-h-[44px] px-3 rounded-lg border border-black/[0.2] bg-white text-[15px]";

@@ -9,7 +9,7 @@ import type { ServiceKey } from "@/lib/market/plan-services";
  * numbers on the home page are the numbers a student pays at checkout. A price changed afterwards in the console is not reflected until
  * these lists are updated.
  *
- * A student can pick only a course whose lessons are on GrowQR (see pick in app/courses/actions.ts), so the pick is valued over exactly those.
+ * A student can pick only a course whose lessons are on YugtyLearning (see pick in app/courses/actions.ts), so the pick is valued over exactly those.
  */
 const studioRupees = (slug: string): number => {
   const s = STUDIO_COURSES.find((x) => x.slug === slug);

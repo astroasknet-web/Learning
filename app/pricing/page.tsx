@@ -4,7 +4,7 @@ import PricingPlans from "@/components/pricing/PricingPlans";
 import { canonicalUrl, OG_IMAGE } from "@/lib/seo";
 import { planStacks } from "@/lib/pay/plan-value-prices";
 
-const TITLE = "Student Packages and Pricing | GrowQR";
+const TITLE = "Student Packages and Pricing | YugtyLearning";
 const DESC = "Free, Pro, Silver and Gold packages for students, from ₹0. Courses, mock tests, Resume Studio, internships and study abroad help.";
 
 export const metadata: Metadata = {

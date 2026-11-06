@@ -6,7 +6,7 @@ import { getSession } from "@/lib/portal/session";
 import { AuthSplit } from "@/components/portal/auth-layout";
 import { MfaLoginForm } from "@/components/portal/forms";
 
-export const metadata: Metadata = { title: "Two-step verification | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Two-step verification | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 export default async function LoginMfaPage() {

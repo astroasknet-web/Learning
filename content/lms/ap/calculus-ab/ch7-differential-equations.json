@@ -9,8 +9,8 @@
   "color": "#ef4444",
   "icon": "math",
   "seo": {
-    "title": "Differential Equations — AP Calculus AB | GrowQR",
-    "meta_description": "Master Differential Equations for AP Calculus AB: notes, formulas, worked examples, self-check MCQs and mock tests. Free on GrowQR."
+    "title": "Differential Equations — AP Calculus AB | YugtyLearning",
+    "meta_description": "Master Differential Equations for AP Calculus AB: notes, formulas, worked examples, self-check MCQs and mock tests. Free on YugtyLearning."
   },
   "modules": [
     {
@@ -103,7 +103,7 @@
                 "dy/dx = y/(2x)"
               ],
               "correct": 0,
-              "explanation": "The slope of the line to the origin is y/x. Twice this is 2y/x, so dy/dx = 2y/x. (Adapted from the GrowQR JEE bank; its solution is the parabola family y = Cx^2.)"
+              "explanation": "The slope of the line to the origin is y/x. Twice this is 2y/x, so dy/dx = 2y/x. (Adapted from the YugtyLearning JEE bank; its solution is the parabola family y = Cx^2.)"
             },
             {
               "q": "Newton's Law of Cooling says an object's temperature changes at a rate proportional to the difference between the object's temperature T and the ambient temperature A. The model is:",
@@ -160,7 +160,7 @@
         {
           "number": 1,
           "title": "Concept Explanations & Solved Examples",
-          "concept": "<h2>Concept Explanations</h2>\n<p><strong>Modeling (7.1, 7.8).</strong> Translate phrases into equations: &quot;rate proportional to amount&quot; → <code>dy/dt = ky</code>; &quot;proportional to the difference from A&quot; → <code>dy/dt = k(y − A)</code>; &quot;rate proportional to amount and to room left&quot; → logistic. Watch signs (decay/depreciation ⇒ k &lt; 0).</p>\n<p><strong>Verifying solutions (7.2).</strong> Substitute the candidate (and its derivatives) into the equation and check it holds. <code>y = Cx²</code> solves <code>x·y&#39; = 2y</code> for every C — the general solution.</p>\n<p><strong>Slope fields (7.3).</strong> At each point, plot a segment with slope <code>dy/dx</code>. If <code>dy/dx</code> depends only on x, segments in a vertical column are identical; only on y, identical along horizontal rows. Segments are horizontal where <code>dy/dx = 0</code> (e.g., along y-axis for <code>dy/dx = y</code>). Solution curves <em>flow along</em> the segments.</p>\n<p><strong>Separation &amp; IVPs (7.4–7.5).</strong> Most AP DE work is separable. After separating and integrating, use the initial point to determine C, then simplify. Example: <code>dy/dx = x/y, y(1) = 1</code> → <code>y² = x² + C</code> → C = 0 → <code>y = x</code> (the branch through (1,1)).</p>\n<p><strong>Growth/decay &amp; logistic (7.6–7.7).</strong> Recognize the exponential model instantly and use half-life/doubling relationships. For logistic, remember the population accelerates until M/2, then decelerates toward the carrying capacity.</p>\n<hr>\n<h2>Worked Examples</h2>\n<p><strong>Example 1 (Separable).</strong> <code>dy/dx = e^(x−y)</code> → <code>e^y dy = e^x dx</code> → <code>e^y = e^x + C</code>.</p>\n<p><strong>Example 2 (Separable, harder).</strong> <code>x(1 + y²)dx + y(1 + x²)dy = 0</code> → <code>x/(1+x²)dx + y/(1+y²)dy = 0</code> → <code>(1/2)ln(1+x²) + (1/2)ln(1+y²) = C₁</code> → <code>(1 + x²)(1 + y²) = C</code>. <em>(from the GrowQR NCERT/JEE bank)</em></p>\n<p><strong>Example 3 (IVP).</strong> <code>dy/dx = 2xy, y(0) = 3</code> → <code>ln|y| = x² + C₁</code> → <code>y = Ce^(x²)</code>, and y(0) = 3 gives <code>y = 3e^(x²)</code>.</p>\n<p><strong>Example 4 (Half-life).</strong> A substance halves in 10 years: <code>e^(−10k) = 1/2</code> → <code>k = (ln 2)/10</code>. <em>(from the GrowQR NCERT/JEE bank)</em></p>\n<p><strong>Example 5 (Logistic reasoning).</strong> <code>dP/dt = 0.5 P(1 − P/200)</code> grows fastest at <code>P = 100 (= M/2)</code> and levels off near 200.</p>\n<p><strong>Example 6 (Slope field to solution).</strong> <code>dy/dx = −x/y</code> → <code>y dy = −x dx</code> → <code>x² + y² = C</code>: the solution curves are <strong>circles</strong> centered at the origin.</p>\n<hr>\n",
+          "concept": "<h2>Concept Explanations</h2>\n<p><strong>Modeling (7.1, 7.8).</strong> Translate phrases into equations: &quot;rate proportional to amount&quot; → <code>dy/dt = ky</code>; &quot;proportional to the difference from A&quot; → <code>dy/dt = k(y − A)</code>; &quot;rate proportional to amount and to room left&quot; → logistic. Watch signs (decay/depreciation ⇒ k &lt; 0).</p>\n<p><strong>Verifying solutions (7.2).</strong> Substitute the candidate (and its derivatives) into the equation and check it holds. <code>y = Cx²</code> solves <code>x·y&#39; = 2y</code> for every C — the general solution.</p>\n<p><strong>Slope fields (7.3).</strong> At each point, plot a segment with slope <code>dy/dx</code>. If <code>dy/dx</code> depends only on x, segments in a vertical column are identical; only on y, identical along horizontal rows. Segments are horizontal where <code>dy/dx = 0</code> (e.g., along y-axis for <code>dy/dx = y</code>). Solution curves <em>flow along</em> the segments.</p>\n<p><strong>Separation &amp; IVPs (7.4–7.5).</strong> Most AP DE work is separable. After separating and integrating, use the initial point to determine C, then simplify. Example: <code>dy/dx = x/y, y(1) = 1</code> → <code>y² = x² + C</code> → C = 0 → <code>y = x</code> (the branch through (1,1)).</p>\n<p><strong>Growth/decay &amp; logistic (7.6–7.7).</strong> Recognize the exponential model instantly and use half-life/doubling relationships. For logistic, remember the population accelerates until M/2, then decelerates toward the carrying capacity.</p>\n<hr>\n<h2>Worked Examples</h2>\n<p><strong>Example 1 (Separable).</strong> <code>dy/dx = e^(x−y)</code> → <code>e^y dy = e^x dx</code> → <code>e^y = e^x + C</code>.</p>\n<p><strong>Example 2 (Separable, harder).</strong> <code>x(1 + y²)dx + y(1 + x²)dy = 0</code> → <code>x/(1+x²)dx + y/(1+y²)dy = 0</code> → <code>(1/2)ln(1+x²) + (1/2)ln(1+y²) = C₁</code> → <code>(1 + x²)(1 + y²) = C</code>. <em>(from the YugtyLearning NCERT/JEE bank)</em></p>\n<p><strong>Example 3 (IVP).</strong> <code>dy/dx = 2xy, y(0) = 3</code> → <code>ln|y| = x² + C₁</code> → <code>y = Ce^(x²)</code>, and y(0) = 3 gives <code>y = 3e^(x²)</code>.</p>\n<p><strong>Example 4 (Half-life).</strong> A substance halves in 10 years: <code>e^(−10k) = 1/2</code> → <code>k = (ln 2)/10</code>. <em>(from the YugtyLearning NCERT/JEE bank)</em></p>\n<p><strong>Example 5 (Logistic reasoning).</strong> <code>dP/dt = 0.5 P(1 − P/200)</code> grows fastest at <code>P = 100 (= M/2)</code> and levels off near 200.</p>\n<p><strong>Example 6 (Slope field to solution).</strong> <code>dy/dx = −x/y</code> → <code>y dy = −x dx</code> → <code>x² + y² = C</code>: the solution curves are <strong>circles</strong> centered at the origin.</p>\n<hr>\n",
           "visual": null,
           "examples": [],
           "quiz": [
@@ -206,7 +206,7 @@
                 "e^(-y) = e^x + C"
               ],
               "correct": 0,
-              "explanation": "Write dy/dx = e^x e^(-y). Separate: e^y dy = e^x dx. Integrate: e^y = e^x + C. (Adapted from the GrowQR NCERT/JEE bank.)"
+              "explanation": "Write dy/dx = e^x e^(-y). Separate: e^y dy = e^x dx. Integrate: e^y = e^x + C. (Adapted from the YugtyLearning NCERT/JEE bank.)"
             },
             {
               "q": "Solve dy/dx = ky (k constant).",
@@ -276,7 +276,7 @@
                 "arctan(x) + arctan(y) = C"
               ],
               "correct": 0,
-              "explanation": "Separate: x/(1+x^2) dx + y/(1+y^2) dy = 0. Integrate: (1/2)ln(1+x^2) + (1/2)ln(1+y^2) = C1, so (1+x^2)(1+y^2) = C. (Adapted from the GrowQR NCERT/JEE bank.)"
+              "explanation": "Separate: x/(1+x^2) dx + y/(1+y^2) dy = 0. Integrate: (1/2)ln(1+x^2) + (1/2)ln(1+y^2) = C1, so (1+x^2)(1+y^2) = C. (Adapted from the YugtyLearning NCERT/JEE bank.)"
             },
             {
               "q": "Solve dy/dx = y with y(0) = 2, and find y(1).",
@@ -359,7 +359,7 @@
                 "y = 1/x"
               ],
               "correct": 0,
-              "explanation": "Separating gives y^2 = x^2 + C. Applying y(1) = 1: 1 = 1 + C, so C = 0 and y^2 = x^2. Through (1,1) the solution branch is y = x. (Adapted from the GrowQR NCERT/JEE bank.)"
+              "explanation": "Separating gives y^2 = x^2 + C. Applying y(1) = 1: 1 = 1 + C, so C = 0 and y^2 = x^2. Through (1,1) the solution branch is y = x. (Adapted from the YugtyLearning NCERT/JEE bank.)"
             },
             {
               "q": "Solve dy/dx = 2xy with y(0) = 3.",
@@ -392,7 +392,7 @@
                 "0.5"
               ],
               "correct": 0,
-              "explanation": "Half-life: (1/2)y0 = y0 e^(-k*10), so e^(-10k) = 1/2, giving 10k = ln 2 and k = (ln 2)/10. (Adapted from the GrowQR NCERT/JEE bank.)"
+              "explanation": "Half-life: (1/2)y0 = y0 e^(-k*10), so e^(-10k) = 1/2, giving 10k = ln 2 and k = (ln 2)/10. (Adapted from the YugtyLearning NCERT/JEE bank.)"
             },
             {
               "q": "A bacteria culture doubles every 3 hours and follows exponential growth. The growth constant k is:",
@@ -727,7 +727,7 @@
                 "dS/dt = 5S"
               ],
               "correct": 0,
-              "explanation": "Salt in = (2 g/L)(5 L/min) = 10 g/min. Salt out = (concentration S/100)(5 L/min) = 5S/100. So dS/dt = 10 - 5S/100. (Mixing model adapted from the GrowQR JEE bank.)"
+              "explanation": "Salt in = (2 g/L)(5 L/min) = 10 g/min. Salt out = (concentration S/100)(5 L/min) = 5S/100. So dS/dt = 10 - 5S/100. (Mixing model adapted from the YugtyLearning JEE bank.)"
             },
             {
               "q": "A savings account grows continuously at 4% per year: dA/dt = 0.04A. If A(0) = 1000, the balance after t years is:",
@@ -749,7 +749,7 @@
                 "y = x"
               ],
               "correct": 0,
-              "explanation": "Separate: dy/(y ln y) = dx/x. Let u = ln y; du = dy/y. Then du/u = dx/x, so ln|ln y| = ln|x| + C1, giving ln y = Cx. Through (1, e): ln e = C(1), so C = 1 and ln y = x, i.e., y = e^x. (Adapted from the GrowQR JEE bank.)"
+              "explanation": "Separate: dy/(y ln y) = dx/x. Let u = ln y; du = dy/y. Then du/u = dx/x, so ln|ln y| = ln|x| + C1, giving ln y = Cx. Through (1, e): ln e = C(1), so C = 1 and ln y = x, i.e., y = e^x. (Adapted from the YugtyLearning JEE bank.)"
             },
             {
               "q": "For the slope field of dy/dx = -x/y, the solution curves are:",

@@ -7,7 +7,7 @@ import { hasAnalytics } from "@/lib/reading/access";
 import { recentAssessments } from "@/lib/reading/store";
 import { buildResults } from "@/lib/reading/views";
 
-export const metadata: Metadata = { title: "My 7-day plan | English Reading Studio | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "My 7-day plan | English Reading Studio | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 export default async function PlanPage() {

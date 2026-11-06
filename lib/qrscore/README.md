@@ -1,6 +1,6 @@
 # lib/qrscore: the RQ Score engine in TypeScript
 
-Port of the PHP scoring engine (`../qrscore/src`) so GrowQR's resume scoring runs inside the Next.js app. Same rubric, dictionaries, recommendations and learned model (the JSON files in `data/` are copied unchanged), same results.
+Port of the PHP scoring engine (`../qrscore/src`) so YugtyLearning's resume scoring runs inside the Next.js app. Same rubric, dictionaries, recommendations and learned model (the JSON files in `data/` are copied unchanged), same results.
 
 ```ts
 import { scoreText, scoreFile, isScored } from "@/lib/qrscore";   // scoreFile lives in "@/lib/qrscore/extract"

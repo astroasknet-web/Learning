@@ -25,7 +25,7 @@ export async function generateMetadata({ params, searchParams }: { params: Promi
   const slug = clean(p.slug);
   const nc = lessons.nativeCourse(slug);
   const at = nc ? lessons.stepFor(nc, clean(p.step)) : null;
-  if (!nc || !at) return { title: "Lesson not found | GrowQR", robots: { index: false, follow: true } };
+  if (!nc || !at) return { title: "Lesson not found | YugtyLearning", robots: { index: false, follow: true } };
   const title = at.capstone ? nc.capstone.title : at.module!.title;
   const desc = at.capstone ? nc.capstone.summary : at.module!.summary;
   const full = moduleTitle(at.capstone ? title : at.module!.seoTitle ?? title, nc.landing?.shortTitle ?? nc.title); // short keyword title, never cut mid-word
@@ -36,7 +36,7 @@ export async function generateMetadata({ params, searchParams }: { params: Promi
     description,
     alternates: { canonical: url },
     robots: noindexResult ? { index: false, follow: true } : { index: true, follow: true },
-    openGraph: { type: "article", url, siteName: "GrowQR", title: full, description, images: [OG_IMAGE] },
+    openGraph: { type: "article", url, siteName: "YugtyLearning", title: full, description, images: [OG_IMAGE] },
     twitter: { card: "summary_large_image", title: full, description, images: [OG_IMAGE.url] },
   };
 }
@@ -195,7 +195,7 @@ export default async function StepPage({ params, searchParams }: { params: Promi
                 <b className="block text-[16px]">{result.passed ? "Passed" : "Not passed yet"}: {result.score} of {result.total} correct ({result.percent}%)</b>
                 <span className="text-[14px]">
                   {result.passed
-                    ? sp.s === "completed" ? "Course complete. Every part is done and verified by GrowQR." : sp.s === "saved" ? "Module complete: the quiz and the required practice are both done." : sp.s === "pending" ? `Quiz passed. Finish the required practice (${passedReq} of ${req.length} passed) to complete this module.` : sp.s === "guest" ? "Log in as a student to save your progress." : ""
+                    ? sp.s === "completed" ? "Course complete. Every part is done and verified by YugtyLearning." : sp.s === "saved" ? "Module complete: the quiz and the required practice are both done." : sp.s === "pending" ? `Quiz passed. Finish the required practice (${passedReq} of ${req.length} passed) to complete this module.` : sp.s === "guest" ? "Log in as a student to save your progress." : ""
                     : `Review the answers below and try again. The pass mark is ${quiz.pass}%.`}
                 </span>
               </div>

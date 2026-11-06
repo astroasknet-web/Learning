@@ -6,7 +6,7 @@ import bbaFa from "./data/lessons/bba-financial-accounting.json";
 import { NEW_LESSONS } from "./new-lessons";
 
 /**
- * Native lessons: the courses GrowQR teaches itself (ported from Vidaara by scripts/build-lessons.mjs). A catalogue course with an entry
+ * Native lessons: the courses YugtyLearning teaches itself (ported from Vidaara by scripts/build-lessons.mjs). A catalogue course with an entry
  * here gets a lesson player at /courses/<slug>/learn; every other course shows "Lessons coming soon". Progress reuses the
  * existing checkpoints (one per module + the project), so enrolment, My courses and Skill Passport tiers need no change.
  */

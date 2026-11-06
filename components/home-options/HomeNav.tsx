@@ -142,7 +142,7 @@ export default function HomeNav() {
           <nav ref={navRef} aria-label="Primary" onKeyDown={(e) => { if (e.key === "Escape" && open) { const id = open; setOpen(null); triggers.current[id]?.focus(); } }}
             onBlur={(e) => { if (open && !navRef.current?.contains(e.relatedTarget as Node)) setOpen(null); }}
             className={`relative mx-auto flex h-[60px] max-w-[1440px] items-center gap-2 2xl:max-w-[1560px] rounded-[22px] border px-3 transition-[background-color,box-shadow,border-color] duration-200 md:h-[64px] md:px-4 ${scrolled || open || drawer ? "border-black/[0.08] bg-white/95 shadow-[0_10px_40px_-18px_rgba(26,26,26,0.35)] backdrop-blur-xl" : "border-transparent bg-white/70 backdrop-blur-md"}`}>
-            <Link href="/" aria-label="GrowQR home" className={`mr-1 flex shrink-0 items-center rounded-lg md:mr-4 ${focusRing}`}><Image src="/growqr-logo.png" alt="GrowQR" width={400} height={200} priority className="h-[32px] w-auto select-none md:h-[36px]" /></Link>
+            <Link href="/" aria-label="YugtyLearning home" className={`mr-1 flex shrink-0 items-center rounded-lg md:mr-4 ${focusRing}`}><Image src="/yugtylearning-logo.svg" alt="YugtyLearning" width={400} height={200} priority className="h-[32px] w-auto select-none md:h-[36px]" /></Link>
 
             <ul className="hidden items-center gap-0.5 min-[1180px]:flex">
               {MENUS.map((m) => {

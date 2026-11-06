@@ -23,9 +23,9 @@ async function load(params: P["params"]) {
 
 export async function generateMetadata({ params }: P): Promise<Metadata> {
   const { course, ch } = await load(params);
-  if (!course || !ch) return { title: "Chapter not found | GrowQR", robots: { index: false, follow: true } };
-  const title = `${ch.title} (${course.title}): Notes, Formulas and Practice | GrowQR`;
-  return { title: title.length > 72 ? `${ch.title}: ${course.title} | GrowQR` : title, description: Array.from(ch.intro).slice(0, 155).join(""), alternates: { canonical: `/study/${course.key}/${ch.slug}` } };
+  if (!course || !ch) return { title: "Chapter not found | YugtyLearning", robots: { index: false, follow: true } };
+  const title = `${ch.title} (${course.title}): Notes, Formulas and Practice | YugtyLearning`;
+  return { title: title.length > 72 ? `${ch.title}: ${course.title} | YugtyLearning` : title, description: Array.from(ch.intro).slice(0, 155).join(""), alternates: { canonical: `/study/${course.key}/${ch.slug}` } };
 }
 
 function Box({ title, children, id }: { title: string; children: React.ReactNode; id?: string }) {

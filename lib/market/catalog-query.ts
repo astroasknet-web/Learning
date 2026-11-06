@@ -28,7 +28,7 @@ export interface CatalogQuery {
   len: string[];
   price: string[];
   aud: string[];
-  /** Only courses whose lessons are on GrowQR now. */
+  /** Only courses whose lessons are on YugtyLearning now. */
   available: boolean;
   sort: string;
   page: number;

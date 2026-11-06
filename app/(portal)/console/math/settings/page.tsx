@@ -7,7 +7,7 @@ import { AREAS } from "@/lib/mathstudio/taxonomy";
 import { adminGate } from "../../gate";
 import { configAction, topicAction } from "../actions";
 
-export const metadata: Metadata = { title: "Maths scoring settings | Console | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Maths scoring settings | Console | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 const num = `${field} w-28`;
 

@@ -3,7 +3,7 @@ import { all, one, run, val } from "../portal/db";
 import { appUrl, send } from "../portal/mail";
 
 /**
- * GrowQR's own course enrolment and progress tracking (port of Portal\Learning). Courses are taught on GrowQR; GrowQR keeps
+ * YugtyLearning's own course enrolment and progress tracking (port of Portal\Learning). Courses are taught on YugtyLearning; YugtyLearning keeps
  * its own record so the portal stays independent: the student ticks module checkpoints, and a completion earns trust in tiers:
  *   self         completed by the student's own ticks
  *   certificate  completed + a certificate link on an allowed domain
@@ -115,7 +115,7 @@ export async function forUser(userId: number): Promise<MyCourse[]> {
   return rows.map((r) => ({ ...hydrate(r), slug: String(r.slug), title: String(r.title), modules: Number(r.modules), hours: String(r.hours), badge: String(r.badge), icon: String(r.icon), level_label: String(r.level_label), cat_name: String(r.cat_name), c1: String(r.c1), c2: String(r.c2) }));
 }
 
-/** A course taught on GrowQR was finished by passing every graded quiz: record it as verified (by GrowQR) so it counts toward the Skill Passport. */
+/** A course taught on YugtyLearning was finished by passing every graded quiz: record it as verified (by YugtyLearning) so it counts toward the Skill Passport. */
 export async function verifyNative(userId: number, courseId: number): Promise<void> {
   await run("UPDATE course_enrolments SET verified = 1, verified_via = 'growqr', updated_at = NOW() WHERE user_id = $1 AND course_id = $2 AND status = 'completed' AND verified = 0", [userId, courseId]);
 }

@@ -13,7 +13,7 @@ import { fieldCls } from "@/components/crm/crm-page";
 import { fileAction } from "./actions";
 
 // A private page: the secret link is the only key, so it must never be indexed or leak through a referrer.
-export const metadata: Metadata = { title: "Your application file | GrowQR", robots: { index: false, follow: false, nocache: true }, referrer: "same-origin" };
+export const metadata: Metadata = { title: "Your application file | YugtyLearning", robots: { index: false, follow: false, nocache: true }, referrer: "same-origin" };
 export const dynamic = "force-dynamic";
 
 const box = "bg-white rounded-2xl border border-black/[0.08] shadow-card p-5 sm:p-6 mb-5";
@@ -55,7 +55,7 @@ export default async function StudentFile({ params }: { params: Promise<{ token:
 
   return (
     <div className="min-h-screen bg-cream-2">
-      <header className="bg-white border-b border-black/[0.08]"><div className="mx-auto max-w-3xl px-4 h-16 flex items-center"><Image src="/growqr-logo.png" alt="GrowQR" width={120} height={34} className="h-8 w-auto" priority /></div></header>
+      <header className="bg-white border-b border-black/[0.08]"><div className="mx-auto max-w-3xl px-4 h-16 flex items-center"><Image src="/yugtylearning-logo.svg" alt="YugtyLearning" width={120} height={34} className="h-8 w-auto" priority /></div></header>
       <main id="main" className="mx-auto max-w-3xl px-4 sm:px-6 py-8" data-crm-file data-token={token}>
         <h1 className="text-[26px] sm:text-[30px] font-bold text-ink tracking-tight">Hello {first}, this is your application file</h1>
         <p className="text-[15px] text-ink-3 mt-1.5 mb-6">Private to you. Upload your documents, see what is still needed, and track your progress. Do not share this link.</p>

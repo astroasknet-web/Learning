@@ -153,7 +153,7 @@ export default function CatalogApp({ initialQuery, initial, cats, freeAvailable,
       <section aria-labelledby="catalog-h1" className="relative rounded-3xl bg-gradient-to-br from-[#1c1410] via-[#2a1a10] to-[#3b1f10] px-5 py-8 text-white sm:px-10 sm:py-12">
         <div aria-hidden="true" className="pointer-events-none absolute inset-0 overflow-hidden rounded-3xl"><div className="absolute -right-16 -top-16 h-72 w-72 rounded-full bg-orange/25 blur-3xl" /></div>
         <div className="relative max-w-3xl">
-          <p className="text-[13px] font-semibold uppercase tracking-[0.14em] text-orange-light">GrowQR Learning</p>
+          <p className="text-[13px] font-semibold uppercase tracking-[0.14em] text-orange-light">YugtyLearning Learning</p>
           <h1 id="catalog-h1" className="mt-2 text-[28px] font-bold leading-tight tracking-tight !text-white sm:text-[40px]">{heading}</h1>
           <p className="mt-3 max-w-2xl text-[15.5px] leading-relaxed text-white/85 sm:text-[17px]">{intro}</p>
           <div className="mt-6 max-w-2xl text-ink">

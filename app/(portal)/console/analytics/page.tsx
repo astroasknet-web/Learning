@@ -5,7 +5,7 @@ import { ConsolePage } from "@/components/admin/console-page";
 import { TabBody } from "@/components/admin/analytics-tabs";
 import { adminGate } from "../gate";
 
-export const metadata: Metadata = { title: "Analytics | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Analytics | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 const TABS: Array<[string, string]> = [["overview", "Overview"], ["users", "Users"], ["internships", "Internships"], ["courses", "Courses"], ["abroad", "Study abroad"], ["resumes", "Resumes"], ["ebooks", "E-books"], ["colleges", "Colleges"], ["system", "System"]];
@@ -22,7 +22,7 @@ export default async function AnalyticsPage({ searchParams }: { searchParams: Pr
   const updated = new Date().toLocaleString("en-GB", { day: "numeric", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit", hour12: false, timeZone: "UTC" });
 
   return (
-    <ConsolePage me={me} tab="analytics" title="Analytics" subtitle="Everything happening across GrowQR in one place. Click any tile to dig in.">
+    <ConsolePage me={me} tab="analytics" title="Analytics" subtitle="Everything happening across YugtyLearning in one place. Click any tile to dig in.">
       <nav aria-label="Date range" className="flex flex-wrap gap-2 mb-3">
         {Object.entries(RANGES).map(([n, l]) => <Link key={n} href={href({ range: n })} aria-current={Number(n) === days ? "true" : undefined} className={`min-h-[44px] inline-flex items-center px-4 rounded-lg border text-[14px] ${Number(n) === days ? "bg-ink text-white border-ink" : "bg-white border-black/[0.15] hover:bg-cream-2"}`}>{l.replace("Last ", "")}</Link>)}
       </nav>

@@ -19,8 +19,8 @@ export async function generateMetadata({ params }: P): Promise<Metadata> {
   const p = await params;
   const d = loadExam(clean(p.slug));
   const t = d?.tests.find((x) => x.key === clean(p.paper));
-  if (!d || !t) return { title: "Test not found | GrowQR", robots: { index: false, follow: true } };
-  return { title: `${d.raw.meta.name} ${t.name}: Online Mock Test | GrowQR`, description: `${t.questions} questions, ${t.marks} marks, ${t.minutes} minutes. ${t.marking} Worked explanations after you submit.`.slice(0, 160), alternates: { canonical: `/exam/${d.slug}/test/${t.key}` } };
+  if (!d || !t) return { title: "Test not found | YugtyLearning", robots: { index: false, follow: true } };
+  return { title: `${d.raw.meta.name} ${t.name}: Online Mock Test | YugtyLearning`, description: `${t.questions} questions, ${t.marks} marks, ${t.minutes} minutes. ${t.marking} Worked explanations after you submit.`.slice(0, 160), alternates: { canonical: `/exam/${d.slug}/test/${t.key}` } };
 }
 
 export default async function ExamTestPage({ params }: P) {

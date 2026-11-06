@@ -26,13 +26,13 @@ export async function courseAction(fd: FormData): Promise<void> {
   let err = "";
   switch (act) {
     case "enrol":
-      if (!lessons.isNative(course.slug)) redirect(back); // lessons for the other courses are not on GrowQR yet
+      if (!lessons.isNative(course.slug)) redirect(back); // lessons for the other courses are not on YugtyLearning yet
       if (!(await canStudy(me.id, course.id, course.slug))) redirect(buyHref(course.slug)); // a course with a fee is enrolled by paying for it
       await learning.enrol(me.id, course.id);
       msg = "enrolled";
       break;
     case "pick": {
-      if (!lessons.isNative(course.slug)) redirect(back); // only courses with lessons on GrowQR can be picked
+      if (!lessons.isNative(course.slug)) redirect(back); // only courses with lessons on YugtyLearning can be picked
       try {
         await pickCourse(me.id, { id: course.id, slug: course.slug }, (await planRecommended(me.id)).list.map((x) => x.slug));
         msg = "picked";

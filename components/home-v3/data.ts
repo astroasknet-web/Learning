@@ -25,7 +25,7 @@ export const APP_SIGNUP_URL = "https://app.growqr.ai/signup";
 
 /**
  * Portal pages (Resume Studio, internships, courses, study abroad) need DATABASE_URL on the server.
- * While that is not connected, every portal link goes to the GrowQR app sign-up. Set to true to use the real routes.
+ * While that is not connected, every portal link goes to the YugtyLearning app sign-up. Set to true to use the real routes.
  */
 export const PORTAL_READY = true;
 export const portal = (href: string): string => (PORTAL_READY ? href : APP_SIGNUP_URL);

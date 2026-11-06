@@ -27,7 +27,7 @@ export default function NotFound() {
       {/* Minimal nav */}
       <header className="w-full px-6 py-5 flex items-center">
         <Link href="/">
-          <Image src="/onlylogo.png" alt="GrowQR" width={140} height={48} className="h-7 w-auto" priority />
+          <Image src="/onlylogo.png" alt="YugtyLearning" width={140} height={48} className="h-7 w-auto" priority />
         </Link>
       </header>
 
@@ -93,7 +93,7 @@ export default function NotFound() {
       </main>
 
       <footer className="w-full px-6 py-5 text-center">
-        <p className="text-sm text-black/30">© {new Date().getFullYear()} GrowQR</p>
+        <p className="text-sm text-black/30">© {new Date().getFullYear()} YugtyLearning</p>
       </footer>
     </div>
   );

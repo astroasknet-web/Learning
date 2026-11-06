@@ -55,7 +55,7 @@ const NO_AUDIENCE: AudienceInterest = {
 /**
  * THE mapping table. Business Unit and Product Interest are both functions of
  * Audience — never derived independently, never sent without an Audience — so
- * every caller resolves an Audience and expands it here. Changing GrowQR's
+ * every caller resolves an Audience and expands it here. Changing YugtyLearning's
  * segmentation means editing this table and nothing else.
  */
 export const AUDIENCE_MAP: Record<
@@ -222,7 +222,7 @@ export function deriveLeadSource(attribution: AttributionPayload): LeadSource {
 // ── Enterprise modal: solution / agent → Audience + Product_Interest ────────
 
 const SOLUTION_AUDIENCES: Record<string, Audience> = {
-  "GrowQR Enterprise": "Enterprise",
+  "YugtyLearning Enterprise": "Enterprise",
   Enterprises: "Enterprise",
   Startups: "Enterprise",
   Recruiters: "Recruiter",

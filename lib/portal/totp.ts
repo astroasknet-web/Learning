@@ -45,6 +45,6 @@ export function verify(secret: string, input: string, nowSeconds: number = Math.
   return null;
 }
 
-export function uri(secret: string, account: string, issuer = "GrowQR"): string {
+export function uri(secret: string, account: string, issuer = "YugtyLearning"): string {
   return `otpauth://totp/${encodeURIComponent(issuer + ":" + account)}?secret=${secret}&issuer=${encodeURIComponent(issuer)}&algorithm=SHA1&digits=6&period=30`;
 }

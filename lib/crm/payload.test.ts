@@ -31,9 +31,9 @@ const b2bRow = (overrides: Partial<Tables<"b2b_leads">> = {}): Tables<"b2b_leads
   email: "priya@razorpay.com",
   company: "Razorpay",
   team_size: "51–200",
-  message: "We want to evaluate GrowQR for our team.",
+  message: "We want to evaluate YugtyLearning for our team.",
   agent: null,
-  solution: "GrowQR Enterprise",
+  solution: "YugtyLearning Enterprise",
   page_path: "/enterprise",
   created_at: "2026-07-23T10:00:00Z",
   ...crmColumns,
@@ -92,7 +92,7 @@ describe("buildB2bLeadPayload", () => {
       UTM_Source: "linkedin",
       Landing_Page_URL: "https://growqr.ai/enterprise?x=1",
       Description:
-        "— Submitted via enterprise contact form on /enterprise | solution: GrowQR Enterprise | team size: 51–200 —\n\nWe want to evaluate GrowQR for our team.",
+        "— Submitted via enterprise contact form on /enterprise | solution: YugtyLearning Enterprise | team size: 51–200 —\n\nWe want to evaluate YugtyLearning for our team.",
     });
   });
 
@@ -218,9 +218,9 @@ describe("B2C guard: Company never survives on a B2C lead", () => {
   });
 
   it("keeps Company on a B2B lead", () => {
-    const record = buildBotLeadPayload(botRow({ company: "GrowQR" }));
+    const record = buildBotLeadPayload(botRow({ company: "YugtyLearning" }));
     expect(record?.Segment).toBe("B2B");
-    expect(record?.Company).toBe("GrowQR");
+    expect(record?.Company).toBe("YugtyLearning");
   });
 
   // The third case — Segment omitted entirely must KEEP its Company — needs a
@@ -238,7 +238,7 @@ const botRow = (overrides: Partial<Tables<"bot_leads">> = {}): Tables<"bot_leads
   use_case: "we want to speed up hiring",
   name: "Sahil Andhare",
   email: "sahil@growqr.ai",
-  company: "GrowQR",
+  company: "YugtyLearning",
   designation: null,
   team_size: null,
   country_code: "IN",
@@ -426,7 +426,7 @@ describe("buildBotLeadPayload audience mapping", () => {
     expect(payload.Lead_Source).toBe("Website");
     expect(payload.Region).toBe("India");
     expect(payload.Country).toBe("India");
-    expect(payload.Company).toBe("GrowQR");
+    expect(payload.Company).toBe("YugtyLearning");
     expect(payload.Landing_Page_URL).toBe("https://growqr.ai/solutions/recruiters");
   });
 

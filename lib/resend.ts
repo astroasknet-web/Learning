@@ -10,5 +10,5 @@ export function getResend(): Resend {
   return cached;
 }
 
-export const EVENTS_FROM_EMAIL = "GrowQR Events <events@growqr.ai>";
+export const EVENTS_FROM_EMAIL = "YugtyLearning Events <events@growqr.ai>";
 export const EVENTS_REPLY_TO = "support@growqr.ai";

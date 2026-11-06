@@ -6,7 +6,7 @@ import { ensureSeed } from "@/lib/reading/store";
 import { adminGate } from "../../gate";
 import { importAction } from "../actions";
 
-export const metadata: Metadata = { title: "Reading content | Console | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Reading content | Console | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 const th = "py-2 pr-3 text-left font-medium text-ink-4";

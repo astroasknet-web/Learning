@@ -9,12 +9,12 @@ import { AuthSplit, RoleTabs, SocialButtons } from "@/components/portal/auth-lay
 import { Notice } from "@/components/portal/auth-controls";
 import { SignupForm } from "@/components/portal/forms";
 
-export const metadata: Metadata = { title: "Create your account | GrowQR" };
+export const metadata: Metadata = { title: "Create your account | YugtyLearning" };
 export const dynamic = "force-dynamic";
 
 const COPY = {
   student: ["Create your free account", "Applying is free. We never charge placement fees."],
-  employer: ["Hire on GrowQR", "Post roles and meet verified students."],
+  employer: ["Hire on YugtyLearning", "Post roles and meet verified students."],
   teacher: ["Create your teacher account", "Run a class, set courses and practice tests, and read a gradebook."],
   parent: ["Create your parent account", "Follow your child's learning with their learner code."],
 } as const;
@@ -29,7 +29,7 @@ export default async function SignupPage({ searchParams }: { searchParams: Promi
   const oauthError = sp.e ? OAUTH_ERRORS[sp.e] : undefined;
   return (
     <AuthSplit
-      eyebrow="Join GrowQR"
+      eyebrow="Join YugtyLearning"
       panel="signup"
       title={title}
       subtitle={<>{sub} Already registered? <Link href="/login" className="font-semibold text-[#5b3fe0] underline underline-offset-2">Log in</Link></>}

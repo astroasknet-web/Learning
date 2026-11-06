@@ -8,7 +8,7 @@ import { all, run } from "./db";
  * Delivery: Resend when RESEND_API_KEY is set (the site already uses it); otherwise rows are marked "logged" and nothing
  * leaves the server, which is what you want on a developer machine.
  *
- * Environment: RESEND_API_KEY, PORTAL_MAIL_FROM (default "GrowQR <no-reply@growqr.ai>"), PORTAL_APP_URL (public origin used in links).
+ * Environment: RESEND_API_KEY, PORTAL_MAIL_FROM (default "YugtyLearning <no-reply@growqr.ai>"), PORTAL_APP_URL (public origin used in links).
  */
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const clean = (s: string) => s.replace(/[\r\n]+/g, " ").trim(); // header-injection guard
@@ -80,7 +80,7 @@ async function deliver(m: OutboxRow): Promise<void> {
     return;
   }
   try {
-    const from = process.env.PORTAL_MAIL_FROM ?? "GrowQR <no-reply@growqr.ai>";
+    const from = process.env.PORTAL_MAIL_FROM ?? "YugtyLearning <no-reply@growqr.ai>";
     const res = await fetch("https://api.resend.com/emails", {
       method: "POST",
       headers: { Authorization: `Bearer ${key}`, "Content-Type": "application/json" },
@@ -107,12 +107,12 @@ function render(heading: string, paras: string[], cta?: [string, string], footno
     `<body style="margin:0;padding:0;background:#f1f5f9;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">` +
     `<table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#f1f5f9"><tr><td align="center" style="padding:32px 16px">` +
     `<table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="max-width:560px">` +
-    `<tr><td style="padding:0 0 16px;font-size:22px;font-weight:800;letter-spacing:-.02em;color:#0f172a">Grow<span style="color:#4338ca">QR</span></td></tr>` +
+    `<tr><td style="padding:0 0 16px;font-size:22px;font-weight:800;letter-spacing:-.02em;color:#0f172a">Yugty<span style="color:#d98a00">Learning</span></td></tr>` +
     `<tr><td style="background:#ffffff;border:1px solid #e2e8f0;border-radius:16px;padding:32px">` +
     `<h1 style="margin:0 0 16px;font-size:22px;line-height:1.3;color:#0f172a">${esc(heading)}</h1>${p}${btn}${note}</td></tr>` +
-    `<tr><td style="padding:20px 8px;font-size:12px;line-height:1.6;color:#94a3b8;text-align:center">You are receiving this because of activity on your GrowQR account. This is a service message, not marketing.</td></tr>` +
+    `<tr><td style="padding:20px 8px;font-size:12px;line-height:1.6;color:#94a3b8;text-align:center">You are receiving this because of activity on your YugtyLearning account. This is a service message, not marketing.</td></tr>` +
     `</table></td></tr></table></body></html>`;
-  const text = heading + "\n\n" + paras.join("\n\n") + (cta ? `\n\n${cta[0]}: ${cta[1]}` : "") + (footnote ? `\n\n${footnote}` : "") + "\n\n-- GrowQR";
+  const text = heading + "\n\n" + paras.join("\n\n") + (cta ? `\n\n${cta[0]}: ${cta[1]}` : "") + (footnote ? `\n\n${footnote}` : "") + "\n\n-- YugtyLearning";
   return { html, text };
 }
 
@@ -135,14 +135,14 @@ export async function welcomeEmail(user: Recipient, role: string, verifyToken: s
           ? "Your parent account is ready. Ask your child for their learner code (in their My classes page) to follow their progress."
           : "Your student account is ready. Applying is free and always will be; we never charge placement fees.";
   if (verifyToken !== null) {
-    await send(user, "Confirm your email to start on GrowQR", `Welcome, ${f}. Confirm your email`, [
+    await send(user, "Confirm your email to start on YugtyLearning", `Welcome, ${f}. Confirm your email`, [
       intro,
       `One last step: confirm that this is your email address. You can browse right away, and confirming unlocks ${role === "employer" ? "posting roles." : "applying to internships."}`,
       "This link expires in 24 hours.",
-    ], ["Confirm my email", await appUrl(`verify-email?token=${verifyToken}`)], "welcome", "If you did not create a GrowQR account, you can ignore this email.");
+    ], ["Confirm my email", await appUrl(`verify-email?token=${verifyToken}`)], "welcome", "If you did not create a YugtyLearning account, you can ignore this email.");
     return;
   }
-  await send(user, "Welcome to GrowQR", `Welcome, ${f}`, [intro], undefined, "welcome");
+  await send(user, "Welcome to YugtyLearning", `Welcome, ${f}`, [intro], undefined, "welcome");
 }
 
 export async function verifyEmail(user: Recipient, token: string): Promise<void> {
@@ -150,15 +150,15 @@ export async function verifyEmail(user: Recipient, token: string): Promise<void>
 }
 
 export async function resetRequested(user: Recipient, token: string, minutes: number): Promise<void> {
-  await send(user, "Reset your GrowQR password", "Reset your password", [
+  await send(user, "Reset your YugtyLearning password", "Reset your password", [
     "We received a request to reset the password for your account. Use the button below to choose a new one.",
     `This link works once and expires in ${minutes} minutes.`,
   ], ["Choose a new password", await appUrl(`reset-password?token=${token}`)], "reset", "If you did not ask for this, you can ignore this email. Your password will not change.");
 }
 
 export async function passwordChanged(user: Recipient): Promise<void> {
-  await send(user, "Your GrowQR password was changed", "Your password was changed", [
-    "The password for your GrowQR account was just changed.",
+  await send(user, "Your YugtyLearning password was changed", "Your password was changed", [
+    "The password for your YugtyLearning account was just changed.",
     "If this was you, there is nothing more to do. If it was not, reset your password immediately and contact us.",
   ], ["Reset password", await appUrl("forgot-password")], "password_changed");
 }

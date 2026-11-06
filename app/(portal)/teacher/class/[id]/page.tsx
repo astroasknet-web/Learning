@@ -8,7 +8,7 @@ import { Card, PortalPage } from "@/components/portal/shell";
 import { Alert } from "@/components/portal/ui";
 import { classAction } from "../../actions";
 
-export const metadata: Metadata = { title: "Class | GrowQR", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Class | YugtyLearning", robots: { index: false, follow: false } };
 export const dynamic = "force-dynamic";
 
 const field = "min-h-[44px] px-3 rounded-lg border border-black/[0.2] bg-white text-[15px]";
@@ -69,7 +69,7 @@ export default async function ClassPage({ params, searchParams }: { params: Prom
             <div><label htmlFor="course" className="block text-[14px] font-medium text-ink mb-1">Course (if assigning a course)</label>
               <select id="course" name="course" className={`${field} w-full`} defaultValue="">
                 <option value="">Choose a course</option>
-                <optgroup label="Taught on GrowQR">{opts.filter((o) => o.native).map((o) => <option key={o.slug} value={o.slug}>{o.title}</option>)}</optgroup>
+                <optgroup label="Taught on YugtyLearning">{opts.filter((o) => o.native).map((o) => <option key={o.slug} value={o.slug}>{o.title}</option>)}</optgroup>
                 <optgroup label="Rest of the catalogue">{opts.filter((o) => !o.native).map((o) => <option key={o.slug} value={o.slug}>{o.title}</option>)}</optgroup>
               </select></div>
             <div className="flex flex-wrap gap-3">

@@ -17,8 +17,8 @@ export function generateStaticParams() { return hubs().map((h) => ({ slug: h.slu
 
 export async function generateMetadata({ params }: P): Promise<Metadata> {
   const h = hub(clean((await params).slug));
-  if (!h) return { title: "Exam prep | GrowQR", robots: { index: false, follow: true } };
-  return { title: `${h.title}: Notes, Chapter Tests and Mock Tests | GrowQR`, description: h.intro, alternates: { canonical: `/exam-prep/${h.slug}` } };
+  if (!h) return { title: "Exam prep | YugtyLearning", robots: { index: false, follow: true } };
+  return { title: `${h.title}: Notes, Chapter Tests and Mock Tests | YugtyLearning`, description: h.intro, alternates: { canonical: `/exam-prep/${h.slug}` } };
 }
 
 export default async function HubPage({ params }: P) {

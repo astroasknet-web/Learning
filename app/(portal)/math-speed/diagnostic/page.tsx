@@ -8,7 +8,7 @@ import { placementSummary } from "@/lib/mathspeed/rules";
 import { LEVELS } from "@/lib/mathspeed/curriculum";
 import { chooseStartAction } from "../actions";
 
-export const metadata: Metadata = { title: "Placement check | Mathematics Speed Enhancement Studio | GrowQR" };
+export const metadata: Metadata = { title: "Placement check | Mathematics Speed Enhancement Studio | YugtyLearning" };
 export const dynamic = "force-dynamic";
 
 export default async function DiagnosticPage({ searchParams }: { searchParams: Promise<Record<string, string | undefined>> }) {

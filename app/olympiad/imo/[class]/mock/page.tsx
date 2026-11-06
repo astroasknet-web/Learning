@@ -17,8 +17,8 @@ const clean = (s: string) => s.toLowerCase().replace(/[^a-z0-9-]/g, "");
 
 export async function generateMetadata({ params }: P): Promise<Metadata> {
   const c = clean((await params).class);
-  if (!isClass(c)) return { title: "Test not found | GrowQR", robots: { index: false, follow: true } };
-  return { title: `Class ${classNumber(c)} IMO Mock Test: Maths Olympiad Test | GrowQR`, description: `A full-syllabus Class ${classNumber(c)} Maths Olympiad mock test, sectioned like the real olympiad, with worked explanations.`, alternates: { canonical: `/olympiad/imo/${c}/mock` } };
+  if (!isClass(c)) return { title: "Test not found | YugtyLearning", robots: { index: false, follow: true } };
+  return { title: `Class ${classNumber(c)} IMO Mock Test: Maths Olympiad Test | YugtyLearning`, description: `A full-syllabus Class ${classNumber(c)} Maths Olympiad mock test, sectioned like the real olympiad, with worked explanations.`, alternates: { canonical: `/olympiad/imo/${c}/mock` } };
 }
 
 export default async function ImoMock({ params }: P) {

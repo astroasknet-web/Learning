@@ -7,7 +7,7 @@ import { OG_IMAGE, SITE_URL } from "@/lib/seo";
  * schema.org graph so every such course (BBA, BCA, MCA, MBA...) gets the same treatment: a keyword title of at most 60 characters, a
  * 120-155 character description, canonical, Open Graph + Twitter cards, Course + CourseInstance + Offer + FAQPage + BreadcrumbList + glossary.
  */
-const BRAND = "GrowQR";
+const BRAND = "YugtyLearning";
 
 export function fitTitle(parts: string[], max = 62): string {
   for (const p of parts) if (p.length <= max) return p;
@@ -65,7 +65,7 @@ export function landingJsonLd(nc: NativeCourse, slug: string, course: { title: s
   };
 }
 
-/** Per-module (lesson page) metadata: "<module> | <short course> | GrowQR", never cut mid-word. */
+/** Per-module (lesson page) metadata: "<module> | <short course> | YugtyLearning", never cut mid-word. */
 export function moduleTitle(moduleTitleText: string, courseTitle: string): string {
   return fitTitle([`${moduleTitleText} | ${courseTitle} | ${BRAND}`, `${moduleTitleText} | ${BRAND}`, `${moduleTitleText}`]);
 }
